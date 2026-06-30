@@ -1,0 +1,23 @@
+تقرير توسيع أمثلة الأفعال v2
+==============================
+تاريخ الإنشاء: 2026-06-29
+عدد الأفعال: 269
+
+verbs_with_expandedExamples: 269
+studyExamples: 269
+tenseUsageExamples: 1614
+formExamples: 807
+categoryPracticeExamples: 1624
+
+ملخص:
+- تمت إضافة expandedExamples لكل فعل.
+- تمت إضافة studyExamples من المثال الأصلي.
+- تمت إضافة tenseUsageExamples من أمثلة الأزمنة الموجودة.
+- تمت إضافة formExamples لصيغ ich في Präsens/Präteritum/Perfekt.
+- تمت إضافة categoryPracticeExamples للفئات: معنى، حالة، حرف جر، فعل منفصل، فعل مساعد، Reflexiv حسب توفر البيانات.
+- تمت إضافة exampleBank داخل verb-categories.json للفئات الأساسية.
+
+تنبيه:
+الأمثلة الأصلية محفوظة. الأمثلة المولدة موسّعة للتدريب وموسومة needsReview=true للمراجعة لاحقًا.
+
+تحذيرات التحقق: 0

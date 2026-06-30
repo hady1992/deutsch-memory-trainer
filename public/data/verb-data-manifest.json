@@ -1,0 +1,48 @@
+{
+  "version": "verb_categories_v1",
+  "generatedAt": "2026-06-29",
+  "source": "verbs(3).json",
+  "files": [
+    "verbs.json",
+    "verb-categories.json"
+  ],
+  "totalVerbs": 269,
+  "categoryCounts": {
+    "akkusativ": 140,
+    "trennbar": 69,
+    "perfekt_haben": 217,
+    "unregelmaessig": 269,
+    "perfekt_sein": 50,
+    "beruf_alltag": 37,
+    "prepositional": 22,
+    "wohnen_alltag": 21,
+    "dativ_akkusativ": 16,
+    "reflexiv": 12,
+    "dativ": 11,
+    "nicht_trennbar": 200,
+    "modalverben": 6,
+    "hilfsverben": 3
+  },
+  "notes_ar": "استخدم verbs.json المحسّن بدل ملف الأفعال القديم، وضع verb-categories.json معه داخل public/data.",
+  "tenseCorrectionsApplied": 19,
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "verbCategoryFilesVersion": "v2",
+  "updatedAt": "2026-06-29",
+  "changes_v2": {
+    "expandedExamples": true,
+    "expandedPracticeExamples": true,
+    "categoryExampleBank": true,
+    "notes": "Added larger example/practice banks for verb category training."
+  },
+  "stats_v2": {
+    "verbs_with_expandedExamples": 269,
+    "studyExamples": 269,
+    "tenseUsageExamples": 1614,
+    "formExamples": 807,
+    "categoryPracticeExamples": 1624
+  },
+  "sourceFile": "verbs(3).json / verb_category_files_v1/verbs.json"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Deutsch Memory Trainer",
+  "description": "An advanced B1/B2 German vocabulary and irregular verbs trainer with search, pronunciation, custom lists, spaced repetition, and interactive modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

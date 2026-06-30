@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+[dir="ltr"],
+[lang="de"] {
+  unicode-bidi: plaintext;
+}
+
+[dir="rtl"],
+[lang="ar"] {
+  unicode-bidi: plaintext;
+}

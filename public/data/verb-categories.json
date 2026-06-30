@@ -1,0 +1,329 @@
+[
+  {
+    "id": "akkusativ",
+    "title_ar": "أفعال مع Akkusativ",
+    "title_de": "Verben mit Akkusativ",
+    "description_ar": "أفعال يكون المفعول المباشر معها غالبًا في حالة Akkusativ.",
+    "count": 140,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "case_choice",
+      "case_gap",
+      "meaning"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich brauche einen Termin.",
+        "ar": "أنا أحتاج إلى موعد.",
+        "answer": "Akkusativ",
+        "note_ar": "einen Termin = Akkusativ"
+      },
+      {
+        "de": "Sie unterschreibt den Vertrag.",
+        "ar": "هي توقّع العقد.",
+        "answer": "Akkusativ",
+        "note_ar": "den Vertrag = Akkusativ"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "dativ",
+    "title_ar": "أفعال مع Dativ",
+    "title_de": "Verben mit Dativ",
+    "description_ar": "أفعال يكون المفعول/الشخص معها غالبًا في حالة Dativ.",
+    "count": 11,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "case_choice",
+      "case_gap",
+      "meaning"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich helfe dem Kollegen.",
+        "ar": "أنا أساعد الزميل.",
+        "answer": "Dativ",
+        "note_ar": "dem Kollegen = Dativ"
+      },
+      {
+        "de": "Das gehört meiner Frau.",
+        "ar": "هذا يخص زوجتي.",
+        "answer": "Dativ",
+        "note_ar": "meiner Frau = Dativ"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "dativ_akkusativ",
+    "title_ar": "أفعال مع Dativ + Akkusativ",
+    "title_de": "Verben mit Dativ und Akkusativ",
+    "description_ar": "أفعال غالبًا يكون الشخص معها Dativ والشيء Akkusativ.",
+    "count": 16,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "case_choice",
+      "double_object_gap",
+      "meaning"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich gebe dem Kollegen den Schlüssel.",
+        "ar": "أعطي الزميل المفتاح.",
+        "answer": "Dativ + Akkusativ",
+        "note_ar": "dem Kollegen = Dativ, den Schlüssel = Akkusativ"
+      },
+      {
+        "de": "Sie erklärt dem Kunden die Rechnung.",
+        "ar": "هي تشرح للزبون الفاتورة.",
+        "answer": "Dativ + Akkusativ",
+        "note_ar": "dem Kunden = Dativ, die Rechnung = Akkusativ"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "prepositional",
+    "title_ar": "أفعال مع حروف الجر",
+    "title_de": "Verben mit Präpositionen",
+    "description_ar": "أفعال لها حرف جر ثابت أو شائع مع حالة معيّنة.",
+    "count": 22,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "preposition_gap",
+      "preposition_case",
+      "meaning"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich warte auf den Bus.",
+        "ar": "أنا أنتظر الحافلة.",
+        "pattern": "warten auf + Akkusativ"
+      },
+      {
+        "de": "Das hängt vom Wetter ab.",
+        "ar": "هذا يعتمد على الطقس.",
+        "pattern": "abhängen von + Dativ"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "trennbar",
+    "title_ar": "أفعال منفصلة",
+    "title_de": "Trennbare Verben",
+    "description_ar": "أفعال تنفصل بادئتها في Präsens وPräteritum غالبًا.",
+    "count": 69,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "separable_position",
+      "prefix",
+      "conjugation"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich stehe morgen früh auf.",
+        "ar": "سأستيقظ غدًا باكرًا.",
+        "note_ar": "البادئة auf تأتي آخر الجملة."
+      },
+      {
+        "de": "Der Zug fährt um acht Uhr ab.",
+        "ar": "القطار ينطلق الساعة الثامنة.",
+        "note_ar": "البادئة ab تأتي آخر الجملة."
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "nicht_trennbar",
+    "title_ar": "أفعال غير منفصلة",
+    "title_de": "Nicht trennbare / einfache Verben",
+    "description_ar": "أفعال لا تنفصل بادئتها أو ليست أفعالًا منفصلة.",
+    "count": 200,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "conjugation",
+      "meaning"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "reflexiv",
+    "title_ar": "أفعال انعكاسية",
+    "title_de": "Reflexive Verben",
+    "description_ar": "أفعال أو استخدامات تحتاج ضميرًا انعكاسيًا مثل sich/mich/mir.",
+    "count": 12,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "reflexive_pronoun",
+      "meaning",
+      "case_choice"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich erinnere mich an den Termin.",
+        "ar": "أنا أتذكر الموعد.",
+        "note_ar": "mich = ضمير انعكاسي"
+      },
+      {
+        "de": "Sie bewirbt sich um eine Stelle.",
+        "ar": "هي تتقدم لوظيفة.",
+        "note_ar": "sich = ضمير انعكاسي"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "perfekt_sein",
+    "title_ar": "أفعال Perfekt مع sein",
+    "title_de": "Perfekt mit sein",
+    "description_ar": "أفعال تستخدم sein في Perfekt.",
+    "count": 50,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "auxiliary_choice",
+      "perfekt_form"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich bin nach Hause gegangen.",
+        "ar": "ذهبت إلى البيت.",
+        "answer": "sein"
+      },
+      {
+        "de": "Der Zug ist abgefahren.",
+        "ar": "القطار انطلق.",
+        "answer": "sein"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "perfekt_haben",
+    "title_ar": "أفعال Perfekt مع haben",
+    "title_de": "Perfekt mit haben",
+    "description_ar": "أفعال تستخدم haben في Perfekt.",
+    "count": 217,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "auxiliary_choice",
+      "perfekt_form"
+    ],
+    "enabled": true,
+    "exampleBank": [
+      {
+        "de": "Ich habe die Unterlagen abgegeben.",
+        "ar": "سلّمت الأوراق.",
+        "answer": "haben"
+      },
+      {
+        "de": "Sie hat den Vertrag unterschrieben.",
+        "ar": "هي وقّعت العقد.",
+        "answer": "haben"
+      }
+    ],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "modalverben",
+    "title_ar": "Modalverben",
+    "title_de": "Modalverben",
+    "description_ar": "الأفعال الناقصة: dürfen, können, mögen, müssen, sollen, wollen.",
+    "count": 6,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "meaning",
+      "present_forms"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "hilfsverben",
+    "title_ar": "الأفعال المساعدة",
+    "title_de": "Hilfsverben",
+    "description_ar": "الأفعال المساعدة الأساسية: haben, sein, werden.",
+    "count": 3,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "meaning",
+      "forms"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "unregelmaessig",
+    "title_ar": "أفعال شاذة / قوية",
+    "title_de": "Unregelmäßige Verben",
+    "description_ar": "أفعال ذات تصريفات غير منتظمة.",
+    "count": 269,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "praeteritum",
+      "partizip2",
+      "conjugation"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "regelmaessig",
+    "title_ar": "أفعال نظامية",
+    "title_de": "Regelmäßige Verben",
+    "description_ar": "أفعال ذات تصريفات منتظمة.",
+    "count": 0,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "praeteritum",
+      "partizip2",
+      "conjugation"
+    ],
+    "enabled": false,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "beruf_alltag",
+    "title_ar": "أفعال مهمة للعمل والمعاملات",
+    "title_de": "Beruf & Alltag",
+    "description_ar": "أفعال تظهر في سياق العمل والمعاملات والدوام.",
+    "count": 37,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "meaning",
+      "example"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  },
+  {
+    "id": "wohnen_alltag",
+    "title_ar": "أفعال مهمة للسكن والحياة اليومية",
+    "title_de": "Wohnen & Alltag",
+    "description_ar": "أفعال تظهر في سياق السكن والبيت والحياة اليومية.",
+    "count": 21,
+    "filterField": "categoryIds",
+    "trainingModes": [
+      "meaning",
+      "example"
+    ],
+    "enabled": true,
+    "exampleBank": [],
+    "updatedAt": "2026-06-29"
+  }
+]

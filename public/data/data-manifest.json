@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "split-vocabulary-v3-expanded-examples",
+  "generatedAt": "2026-06-29",
+  "source": "split_vocabulary_files_v2 based on vocabulary(2).json",
+  "files": {
+    "nouns.json": 526,
+    "adjectives.json": 180,
+    "phrases.json": 297,
+    "other-vocabulary.json": 151
+  },
+  "trainingFamilies": [
+    "verbs",
+    "nouns",
+    "articles",
+    "plural",
+    "adjectives",
+    "phrases",
+    "other-vocabulary"
+  ],
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "notes": [
+    "Examples were expanded and Arabic example texts were regenerated from each item Arabic meaning.",
+    "Risky automatic adjective comparative/superlative training was disabled to avoid wrong practice.",
+    "All items remain needsReview=true for final human review.",
+    "Pair nouns with der/die were fixed with answerOptions and separate masculine/feminine examples.",
+    "German example sentence capitalization and explanatory Arabic phrase translations were cleaned in v3 final pass."
+  ]
+}
