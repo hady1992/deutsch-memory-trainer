@@ -1,4 +1,6 @@
-@import "tailwindcss";
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 [dir="ltr"],
 [lang="de"] {
@@ -9,3 +11,4 @@
 [lang="ar"] {
   unicode-bidi: plaintext;
 }
+
