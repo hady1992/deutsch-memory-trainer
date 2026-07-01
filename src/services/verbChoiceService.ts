@@ -6,6 +6,7 @@ import {
   detectVerbPrefix,
 } from "./dataEnrichmentService.js";
 import { selectArabicDistractors } from "./arabicDistractorService";
+import { ensureCorrectOption } from "./choiceOptionService";
 
 export type VerbChoiceQuestionType = "arabic" | "praesens" | "praeteritum" | "perfekt";
 
@@ -161,10 +162,6 @@ function fillGenericGermanFallbacks(verb: Verb, values: string[]) {
   uniquePush(values, verb.participle2 || extractParticiple2(verb.perfekt));
 }
 
-function shuffle<T>(values: T[]): T[] {
-  return [...values].sort(() => Math.random() - 0.5);
-}
-
 export function generateVerbChoiceOptions(
   verb: Verb,
   allVerbs: Verb[],
@@ -190,7 +187,5 @@ export function generateVerbChoiceOptions(
 
   const normalizedCorrect = normalizeAnswer(correctAnswer);
   const usableDistractors = distractors.filter((value) => normalizeAnswer(value) !== normalizedCorrect);
-  const options = [correctAnswer, ...usableDistractors.slice(0, count - 1)].filter(Boolean);
-
-  return shuffle(options).slice(0, count);
+  return ensureCorrectOption([correctAnswer, ...usableDistractors], correctAnswer, count) || [];
 }

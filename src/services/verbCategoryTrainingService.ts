@@ -1,15 +1,10 @@
-import { Verb, VerbCategory, VerbPracticeExample } from "../types";
+import { Verb, VerbCategory } from "../types";
+import { ensureCorrectOption } from "./choiceOptionService";
 import { normalizeGermanText } from "./textDisplayService";
-import { selectArabicDistractors } from "./arabicDistractorService";
 
 type CategorySourceField =
-  | "verbCategoryTraining.expandedPracticeExamples"
-  | "expandedExamples.categoryPracticeExamples"
-  | "expandedExamples.formExamples"
-  | "expandedExamples.studyExamples"
-  | "category.exampleBank"
   | "generated_practical"
-  | "fallback";
+  | "category.exampleBank";
 
 export interface VerbCategoryQuestion {
   id: string;
@@ -29,11 +24,6 @@ export interface VerbCategoryQuestion {
   exampleAr?: string;
   noteAr?: string;
   hintAr?: string;
-}
-
-interface ExampleCandidate {
-  sourceField: CategorySourceField;
-  example: VerbPracticeExample;
 }
 
 function shuffle<T>(items: T[]): T[] {
@@ -56,63 +46,6 @@ function firstString(value: unknown): string {
   return String(value || "").trim();
 }
 
-function categoryTitle(category: VerbCategory | undefined, language: "de" | "ar") {
-  if (!category) return "";
-  return language === "ar" ? category.title_ar : category.title_de;
-}
-
-function getCategoryCandidates(verb: Verb): ExampleCandidate[] {
-  return [
-    ...(verb.verbCategoryTraining?.expandedPracticeExamples || []).map((example) => ({
-      sourceField: "verbCategoryTraining.expandedPracticeExamples" as const,
-      example,
-    })),
-    ...(verb.expandedExamples?.categoryPracticeExamples || []).map((example) => ({
-      sourceField: "expandedExamples.categoryPracticeExamples" as const,
-      example,
-    })),
-    ...(verb.expandedExamples?.formExamples || []).map((example) => ({
-      sourceField: "expandedExamples.formExamples" as const,
-      example,
-    })),
-    ...(verb.expandedExamples?.studyExamples || []).map((example) => ({
-      sourceField: "expandedExamples.studyExamples" as const,
-      example,
-    })),
-  ];
-}
-
-function meaningOptions(verb: Verb, allVerbs: Verb[], correct: string) {
-  const distractors = selectArabicDistractors(verb, allVerbs, correct, {
-    count: 3,
-    sourceType: "verb",
-    targetKind: "verb",
-    getAnswer: (candidate) => candidate.arabic,
-    getId: (candidate) => candidate.id,
-  });
-  return unique([correct, ...distractors]).slice(0, 4);
-}
-
-function categoryOptions(correct: string, categories: VerbCategory[], language: "de" | "ar") {
-  return unique([
-    correct,
-    ...shuffle(categories.map((category) => categoryTitle(category, language))).slice(0, 8),
-  ]).slice(0, 4);
-}
-
-function normalizeOptions(correct: string, options?: string[]) {
-  if (!options?.length) return undefined;
-  return unique([correct, ...options]).slice(0, Math.max(2, options.length));
-}
-
-function exampleDe(example: VerbPracticeExample): string {
-  return normalizeGermanText(example.example_de || example.de || example.example);
-}
-
-function exampleAr(example: VerbPracticeExample): string {
-  return String(example.example_ar || example.ar || "").trim();
-}
-
 function categoryById(categories: VerbCategory[], id?: string | null): VerbCategory | undefined {
   return categories.find((category) => category.id === id);
 }
@@ -124,12 +57,12 @@ function practicalCategoryIds(verb: Verb, selectedCategoryId: string | null): st
     "dativ",
     "akkusativ",
     "dativ_akkusativ",
-    "prepositional",
     "reflexiv",
+    "prepositional",
     "trennbar",
+    "modalverben",
     "perfekt_sein",
     "perfekt_haben",
-    "modalverben",
   ];
   return priority.filter((id) => ids.includes(id));
 }
@@ -148,27 +81,62 @@ function gapToken(sentence: string, tokens: string[]): { prompt: string; answer:
   return null;
 }
 
+const DEFINITE_CASE_OPTIONS = ["der", "die", "das", "den", "dem"];
+const INDEFINITE_CASE_OPTIONS = ["ein", "eine", "einen", "einem", "einer"];
+const DATIV_PRONOUN_OPTIONS = ["mir", "dir", "ihm", "ihr", "uns", "euch"];
+const AKKUSATIV_PRONOUN_OPTIONS = ["mich", "dich", "ihn", "sie", "uns", "euch"];
+
+function optionsFromPool(answer: string, pool: string[], count = 4): string[] {
+  return unique([answer, ...pool.filter((option) => option.toLocaleLowerCase("de-DE") !== answer.toLocaleLowerCase("de-DE"))]).slice(0, count);
+}
+
+function caseGapOptions(answer: string, categoryId: "dativ" | "akkusativ"): string[] {
+  const key = answer.toLocaleLowerCase("de-DE");
+  if (INDEFINITE_CASE_OPTIONS.includes(key)) {
+    return optionsFromPool(answer, INDEFINITE_CASE_OPTIONS);
+  }
+  if (DEFINITE_CASE_OPTIONS.includes(key)) {
+    const pool = categoryId === "dativ"
+      ? ["dem", "der", "den", "das", "die"]
+      : ["den", "das", "die", "der", "dem"];
+    return optionsFromPool(answer, pool);
+  }
+  if (categoryId === "dativ" && DATIV_PRONOUN_OPTIONS.includes(key)) {
+    return optionsFromPool(answer, DATIV_PRONOUN_OPTIONS);
+  }
+  if (categoryId === "akkusativ" && AKKUSATIV_PRONOUN_OPTIONS.includes(key)) {
+    return optionsFromPool(answer, AKKUSATIV_PRONOUN_OPTIONS);
+  }
+  return optionsFromPool(answer, categoryId === "dativ" ? DATIV_PRONOUN_OPTIONS : AKKUSATIV_PRONOUN_OPTIONS);
+}
+
 function practicalQuestion(
   verb: Verb,
   categoryId: string,
+  instructionAr: string,
   promptDe: string,
   answer: string,
   questionType: string,
   noteAr: string,
   exampleArText?: string,
   options?: string[]
-): VerbCategoryQuestion {
+): VerbCategoryQuestion | null {
+  const validOptions = options?.length
+    ? ensureCorrectOption(options, answer, Math.min(6, Math.max(2, options.length)))
+    : undefined;
+  if (options?.length && !validOptions) return null;
+
   const exampleDeText = fullSentence(promptDe, answer);
-  return {
+  const question: VerbCategoryQuestion = {
     id: questionType,
     sourceField: "generated_practical",
     sourceExampleType: questionType,
     categoryId,
-    promptAr: "أكمل الفراغ في الجملة الألمانية.",
+    promptAr: instructionAr,
     promptDe,
     answer,
     answerLang: "de",
-    options,
+    options: validOptions,
     visibleText: promptDe,
     speakBeforeAnswer: promptDe,
     correctAnswer: answer,
@@ -177,6 +145,38 @@ function practicalQuestion(
     exampleAr: exampleArText || verb.example_ar || "",
     noteAr: `${noteAr}${verb.arabic ? ` المعنى: ${verb.arabic}` : ""}`,
   };
+  return isValidPracticalQuestion(question) ? question : null;
+}
+
+const CATEGORY_LABEL_ANSWERS = new Set([
+  "dativ",
+  "akkusativ",
+  "reflexiv",
+  "trennbar",
+  "sein",
+  "haben",
+  "modalverb",
+  "modalverben",
+]);
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function containsAnswer(text: string, answer: string): boolean {
+  if (!text || !answer) return false;
+  const escaped = escapeRegExp(answer.trim());
+  if (!escaped) return false;
+  return new RegExp(`(^|\\s|[.,!?;:()])${escaped}($|\\s|[.,!?;:()])`, "i").test(text);
+}
+
+function isValidPracticalQuestion(question: VerbCategoryQuestion): boolean {
+  const answer = firstString(question.correctAnswer || question.answer);
+  const prompt = firstString(question.visibleText || question.promptDe);
+  if (!prompt.includes("___")) return false;
+  if (CATEGORY_LABEL_ANSWERS.has(answer.toLocaleLowerCase("de-DE"))) return false;
+  if (containsAnswer(prompt, answer)) return false;
+  return true;
 }
 
 function exampleBankSentence(categories: VerbCategory[], categoryId: string): { de: string; ar?: string; note?: string } | null {
@@ -205,12 +205,13 @@ function buildCaseGap(verb: Verb, categories: VerbCategory[], categoryId: "dativ
   return practicalQuestion(
     verb,
     categoryId,
+    categoryId === "dativ" ? "أكمل أداة أو ضمير Dativ المناسب:" : "أكمل أداة أو ضمير Akkusativ المناسب:",
     gap.prompt,
     gap.answer,
     `verb_category_${categoryId}_gap`,
-    `هذا الفعل يأخذ ${label}.`,
+    `هذا الموضع يحتاج ${label}.`,
     firstString(casePattern?.example_ar || fallback?.ar || verb.example_ar),
-    categoryId === "dativ" ? ["dem", "der", "den", "das"] : ["den", "einen", "dem", "der"]
+    caseGapOptions(gap.answer, categoryId)
   );
 }
 
@@ -221,19 +222,28 @@ function buildDativAkkusativGap(verb: Verb, categories: VerbCategory[]): VerbCat
   const sentence = normalizeGermanText(ownExample || fallback?.de || "");
   if (!sentence) return null;
   const patterns = [
-    /\b(dem|der|einem|einer)\s+([A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)\s+(den|das|die|einen|eine|ein)\s+([A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)/u,
-    /\b(mir|dir|ihm|ihr|uns|euch)\s+([A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)/u,
+    {
+      pattern: /\b(dem|der|einem|einer)\s+([A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)\s+(den|das|die|einen|eine|ein)\s+([A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)/u,
+      prompt: (match: RegExpMatchArray) => sentence.replace(match[0], `___ ${match[2]} ___ ${match[4]}`),
+      note: (match: RegExpMatchArray) => `Dativ: ${match[1]} ${match[2]}. Akkusativ: ${match[3]} ${match[4]}.`,
+    },
+    {
+      pattern: /\b(mir|dir|ihm|ihr|uns|euch)\s+((?:(?:den|das|die|einen|eine|ein|dieses|diese|diesen|meinen|deinen|seinen|ihren|unseren|euer)\s+)?[A-ZÄÖÜ][\p{L}äöüÄÖÜß-]+)/u,
+      prompt: (match: RegExpMatchArray) => sentence.replace(match[0], "___ ___"),
+      note: (match: RegExpMatchArray) => `Dativ: ${match[1]}. Akkusativ: ${match[2]}.`,
+    },
   ];
-  for (const pattern of patterns) {
+  for (const { pattern, prompt, note } of patterns) {
     const match = sentence.match(pattern);
     if (match?.[0]) {
       return practicalQuestion(
         verb,
         "dativ_akkusativ",
-        sentence.replace(match[0], "___"),
+        "أكمل المفعولين: Dativ ثم Akkusativ:",
+        prompt(match),
         match[0],
         "verb_category_dativ_akkusativ_gap",
-        "غالبًا الشخص يكون Dativ والشيء يكون Akkusativ.",
+        note(match),
         firstString(casePattern?.example_ar || fallback?.ar || verb.example_ar)
       );
     }
@@ -243,7 +253,7 @@ function buildDativAkkusativGap(verb: Verb, categories: VerbCategory[]): VerbCat
 
 function buildPrepositionGap(verb: Verb): VerbCategoryQuestion | null {
   const prep = Array.isArray(verb.prepositions) ? (verb.prepositions[0] as any) : null;
-  const preposition = firstString(prep?.preposition);
+  const preposition = firstString(prep?.preposition).split(/[\/,]/)[0]?.trim();
   const sentence = normalizeGermanText(firstString(prep?.example_de || verb.example_de));
   if (!preposition || !sentence) return null;
   let prompt = sentence;
@@ -257,12 +267,17 @@ function buildPrepositionGap(verb: Verb): VerbCategoryQuestion | null {
     prompt = prompt.replace(/\bzur\b/i, "___ der");
   } else if (preposition === "bei" && /\bbeim\b/i.test(prompt)) {
     prompt = prompt.replace(/\bbeim\b/i, "___ dem");
+  } else if (preposition === "in" && /\bim\b/i.test(prompt)) {
+    prompt = prompt.replace(/\bim\b/i, "___ dem");
+  } else if (preposition === "in" && /\bins\b/i.test(prompt)) {
+    prompt = prompt.replace(/\bins\b/i, "___ das");
   } else {
     return null;
   }
   return practicalQuestion(
     verb,
     "prepositional",
+    "أكمل حرف الجر المناسب:",
     prompt,
     preposition,
     "verb_category_preposition_gap",
@@ -280,6 +295,7 @@ function buildReflexiveGap(verb: Verb): VerbCategoryQuestion | null {
   return practicalQuestion(
     verb,
     "reflexiv",
+    "أكمل الضمير الانعكاسي المناسب:",
     gap.prompt,
     gap.answer,
     "verb_category_reflexive_gap",
@@ -298,6 +314,7 @@ function buildSeparableGap(verb: Verb): VerbCategoryQuestion | null {
   return practicalQuestion(
     verb,
     "trennbar",
+    "أكمل السابقة المنفصلة في آخر الجملة:",
     sentence.replace(pattern, "___"),
     prefix,
     "verb_category_separable_prefix",
@@ -309,12 +326,14 @@ function buildSeparableGap(verb: Verb): VerbCategoryQuestion | null {
 
 function buildAuxiliaryGap(verb: Verb, categoryId: "perfekt_sein" | "perfekt_haben"): VerbCategoryQuestion | null {
   const auxiliary = firstString(verb.auxiliary || (verb.perfekt?.startsWith("ist ") ? "sein" : verb.perfekt?.startsWith("hat ") ? "haben" : ""));
+  if ((categoryId === "perfekt_sein" && auxiliary !== "sein") || (categoryId === "perfekt_haben" && auxiliary !== "haben")) return null;
   const answer = auxiliary === "sein" ? "bin" : auxiliary === "haben" ? "habe" : "";
   const perfektRest = firstString(verb.perfekt).replace(/^(ist|hat)\s+/i, "");
-  if (!answer || !perfektRest) return null;
+  if (!answer || !perfektRest || perfektRest.includes("...") || perfektRest.includes("/")) return null;
   return practicalQuestion(
     verb,
     categoryId,
+    "اختر الفعل المساعد الصحيح في Perfekt:",
     `Ich ___ ${perfektRest}.`,
     answer,
     `verb_category_${categoryId}_auxiliary`,
@@ -338,6 +357,7 @@ function buildModalGap(verb: Verb): VerbCategoryQuestion | null {
   return practicalQuestion(
     verb,
     "modalverben",
+    "أكمل تصريف الفعل المساعد:",
     `Ich ___ heute arbeiten. (${verb.infinitiv})`,
     answer,
     "verb_category_modal_conjugation",
@@ -353,138 +373,44 @@ function buildPracticalCategoryQuestion(
   selectedCategoryId: string | null
 ): VerbCategoryQuestion | null {
   for (const categoryId of practicalCategoryIds(verb, selectedCategoryId)) {
-    if (categoryId === "dativ") return buildCaseGap(verb, categories, "dativ");
-    if (categoryId === "akkusativ") return buildCaseGap(verb, categories, "akkusativ");
-    if (categoryId === "dativ_akkusativ") return buildDativAkkusativGap(verb, categories);
-    if (categoryId === "prepositional") return buildPrepositionGap(verb);
-    if (categoryId === "reflexiv") return buildReflexiveGap(verb);
-    if (categoryId === "trennbar") return buildSeparableGap(verb);
-    if (categoryId === "perfekt_sein") return buildAuxiliaryGap(verb, "perfekt_sein");
-    if (categoryId === "perfekt_haben") return buildAuxiliaryGap(verb, "perfekt_haben");
-    if (categoryId === "modalverben") return buildModalGap(verb);
+    const question =
+      categoryId === "dativ"
+        ? buildCaseGap(verb, categories, "dativ")
+        : categoryId === "akkusativ"
+        ? buildCaseGap(verb, categories, "akkusativ")
+        : categoryId === "dativ_akkusativ"
+        ? buildDativAkkusativGap(verb, categories)
+        : categoryId === "prepositional"
+        ? buildPrepositionGap(verb)
+        : categoryId === "reflexiv"
+        ? buildReflexiveGap(verb)
+        : categoryId === "trennbar"
+        ? buildSeparableGap(verb)
+        : categoryId === "perfekt_sein"
+        ? buildAuxiliaryGap(verb, "perfekt_sein")
+        : categoryId === "perfekt_haben"
+        ? buildAuxiliaryGap(verb, "perfekt_haben")
+        : categoryId === "modalverben"
+        ? buildModalGap(verb)
+        : null;
+    if (question) return question;
   }
   return null;
 }
 
-function buildFromCandidate(
-  verb: Verb,
-  allVerbs: Verb[],
-  categories: VerbCategory[],
-  candidate: ExampleCandidate,
-  selectedCategoryId: string | null,
-  language: "de" | "ar"
-): VerbCategoryQuestion | null {
-  const example = candidate.example;
-  const type = example.type || "category";
-  if (type === "category_recognition" || type === "reflexive_recognition") return null;
-  const baseId = `${candidate.sourceField}-${example.id || type}`;
-  const promptAr = firstString(example.question_ar || example.title_ar || example.hint_ar);
-  const promptDe = firstString(example.question_de || example.de);
-  const noteAr = firstString(example.note_ar || example.explanation_ar);
-  const hintAr = firstString(example.hint_ar);
-
-  if (type === "meaning_choice_or_write" && example.answer_ar) {
-    const answer = firstString(example.answer_ar);
-    return {
-      id: baseId,
-      sourceField: candidate.sourceField,
-      sourceExampleType: type,
-      categoryId: selectedCategoryId || undefined,
-      promptAr: promptAr || "ما معنى هذا الفعل؟",
-      promptDe: promptDe || verb.infinitiv,
-      answer,
-      answerLang: "ar",
-      options: normalizeOptions(answer, example.options) || meaningOptions(verb, allVerbs, answer),
-      exampleDe: exampleDe(example),
-      exampleAr: exampleAr(example),
-      noteAr,
-      hintAr,
-    };
-  }
-
-  if (type === "write_german_from_arabic" && example.answer_de) {
-    return {
-      id: baseId,
-      sourceField: candidate.sourceField,
-      sourceExampleType: type,
-      categoryId: selectedCategoryId || undefined,
-      promptAr: promptAr || `اكتب الفعل الألماني بمعنى: ${verb.arabic}`,
-      promptDe,
-      answer: firstString(example.answer_de),
-      answerLang: "de",
-      exampleDe: exampleDe(example),
-      exampleAr: exampleAr(example),
-      noteAr,
-      hintAr,
-    };
-  }
-
-  if (false && type === "category_recognition") {
-    const answerCategoryIds = Array.isArray(example.answerCategoryIds) ? example.answerCategoryIds : [];
-    const categoryId = selectedCategoryId && answerCategoryIds.includes(selectedCategoryId)
-      ? selectedCategoryId
-      : answerCategoryIds[0] || verb.categoryIds?.[0];
-    const category = categories.find((item) => item.id === categoryId);
-    const answer = categoryTitle(category, language) || firstString(example.answer_ar);
-    if (!answer) return null;
-    return {
-      id: `${baseId}-${categoryId || "category"}`,
-      sourceField: candidate.sourceField,
-      sourceExampleType: type,
-      categoryId,
-      promptAr: promptAr || `إلى أي فئة ينتمي الفعل «${verb.infinitiv}»؟`,
-      promptDe: promptDe || verb.infinitiv,
-      answer,
-      answerLang: language,
-      options: categoryOptions(answer, categories, language),
-      exampleDe: exampleDe(example),
-      exampleAr: exampleAr(example),
-      noteAr,
-      hintAr,
-    };
-  }
-
-  if (type === "usage_sentence" && example.ar) {
-    const answer = firstString(example.ar);
-    return {
-      id: baseId,
-      sourceField: candidate.sourceField,
-      sourceExampleType: type,
-      categoryId: selectedCategoryId || undefined,
-      promptAr: "ما معنى هذا المثال؟",
-      promptDe: example.de,
-      answer,
-      answerLang: "ar",
-      exampleDe: normalizeGermanText(example.de),
-      exampleAr: answer,
-      noteAr,
-      hintAr,
-    };
-  }
-
-  const answer = firstString(example.answer || example.answer_de || example.answer_ar);
-  if (!answer) return null;
-
-  const answerLang = /[اأإآء-ي]/.test(answer) ? "ar" : "de";
-  return {
-    id: baseId,
-    sourceField: candidate.sourceField,
-    sourceExampleType: type,
-    categoryId: selectedCategoryId || undefined,
-    promptAr: promptAr || `أجب عن سؤال الفئة للفعل «${verb.infinitiv}».`,
-    promptDe,
-    answer,
-    answerLang,
-    options: normalizeOptions(answer, example.options),
-    exampleDe: exampleDe(example),
-    exampleAr: exampleAr(example),
-    noteAr,
-    hintAr,
-  };
-}
-
 export function hasVerbCategoryTraining(verb: Verb): boolean {
-  return getCategoryCandidates(verb).length > 0 || Boolean(verb.arabic || verb.example_de || verb.example_ar);
+  const practicalIds = new Set([
+    "dativ",
+    "akkusativ",
+    "dativ_akkusativ",
+    "prepositional",
+    "reflexiv",
+    "trennbar",
+    "perfekt_sein",
+    "perfekt_haben",
+    "modalverben",
+  ]);
+  return Boolean(verb.categoryIds?.some((categoryId) => practicalIds.has(categoryId)));
 }
 
 export function buildVerbCategoryQuestion(
@@ -494,27 +420,7 @@ export function buildVerbCategoryQuestion(
   selectedCategoryId: string | null,
   language: "de" | "ar"
 ): VerbCategoryQuestion | null {
-  const practical = buildPracticalCategoryQuestion(verb, categories, selectedCategoryId);
-  if (practical) return practical;
-
-  const candidates = shuffle(getCategoryCandidates(verb));
-  for (const candidate of candidates) {
-    const question = buildFromCandidate(verb, allVerbs, categories, candidate, selectedCategoryId, language);
-    if (question) return question;
-  }
-
-  if (!verb.arabic) return null;
-  return {
-    id: "fallback-meaning",
-    sourceField: "fallback",
-    sourceExampleType: "meaning_choice_or_write",
-    categoryId: selectedCategoryId || undefined,
-    promptAr: "ما معنى هذا الفعل؟",
-    promptDe: verb.infinitiv,
-    answer: verb.arabic,
-    answerLang: "ar",
-    options: meaningOptions(verb, allVerbs, verb.arabic),
-    exampleDe: normalizeGermanText(verb.example_de),
-    exampleAr: verb.example_ar || "",
-  };
+  void allVerbs;
+  void language;
+  return buildPracticalCategoryQuestion(verb, categories, selectedCategoryId);
 }

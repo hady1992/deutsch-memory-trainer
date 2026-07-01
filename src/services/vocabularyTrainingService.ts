@@ -1,6 +1,7 @@
 import { Vocabulary } from "../types";
 import { normalizeGermanText } from "./textDisplayService";
 import { selectArabicDistractors } from "./arabicDistractorService";
+import { ensureCorrectOption } from "./choiceOptionService";
 
 export type VocabularyFamily = "noun" | "adjective" | "phrase" | "other";
 
@@ -112,7 +113,7 @@ export function getVocabularyMeaningQuestion(item: Vocabulary, allItems: Vocabul
     getAnswer: (candidate) => firstString(meaningTraining(candidate)?.answer_ar || candidate.arabic),
     getId: (candidate) => candidate.id,
   });
-  const options = unique([answer, ...distractors]).slice(0, 4);
+  const options = ensureCorrectOption(unique([answer, ...distractors]), answer, 4) || [];
 
   return {
     id: "meaning",
@@ -140,7 +141,11 @@ function buildNounQuestions(item: Vocabulary): VocabularyTrainingQuestion[] {
       promptAr: "اختر الأرتيكل الصحيح.",
       answer: firstString(item.articleTraining.answer),
       answerLang: "de",
-      options: Array.isArray(item.articleTraining.options) ? item.articleTraining.options : ["der", "die", "das"],
+      options: ensureCorrectOption(
+        Array.isArray(item.articleTraining.options) ? item.articleTraining.options : ["der", "die", "das"],
+        firstString(item.articleTraining.answer),
+        3
+      ) || [],
       exampleDe: example.de,
       exampleAr: example.ar,
       noteAr: firstString(item.articleTraining.explanation_ar),

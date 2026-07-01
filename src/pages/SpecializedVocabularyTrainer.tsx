@@ -12,6 +12,7 @@ import {
   VocabularyTrainingQuestion,
 } from "../services/vocabularyTrainingService";
 import { selectArabicDistractors } from "../services/arabicDistractorService";
+import { ensureCorrectOption } from "../services/choiceOptionService";
 import { UserSettings, Vocabulary } from "../types";
 
 interface TrainerProps {
@@ -82,6 +83,8 @@ function preferredExample(item: Vocabulary) {
 function nounArticleQuestion(item: Vocabulary): VocabularyTrainingQuestion | null {
   const answer = firstString(item.articleTraining?.answer || item.article);
   if (!answer) return null;
+  const options = ensureCorrectOption(["der", "die", "das"], answer, 3);
+  if (!options) return null;
   const example = exampleFrom(item.articleTraining?.exampleAfterAnswer || item.examples?.[0]);
   const visibleNoun = safeVisibleGerman(firstString(item.cleanTerm || (item as any).termWithoutArticle || item.term || item.singular));
   const rawPrompt = firstString(item.articleTraining?.question);
@@ -94,7 +97,7 @@ function nounArticleQuestion(item: Vocabulary): VocabularyTrainingQuestion | nul
     promptDe,
     answer,
     answerLang: "de",
-    options: ["der", "die", "das"],
+    options,
     visibleText: `___ ${visibleNoun}`,
     speakBeforeAnswer: visibleNoun,
     correctAnswer: answer,
@@ -183,6 +186,8 @@ function adjectiveMeaningQuestion(item: Vocabulary, allItems: Vocabulary[]): Voc
     getAnswer: (candidate) => firstString(candidate.adjectiveTraining?.meaning?.answer_ar || candidate.arabic),
     getId: (candidate) => candidate.id,
   });
+  const options = ensureCorrectOption(unique([answer, ...distractors]), answer, 4);
+  if (!options) return null;
   return {
     id: "adjective_meaning_choice",
     sourceType: "vocabulary_v3",
@@ -191,7 +196,7 @@ function adjectiveMeaningQuestion(item: Vocabulary, allItems: Vocabulary[]): Voc
     promptDe: term,
     answer,
     answerLang: "ar",
-    options: unique([answer, ...distractors]).slice(0, 4),
+    options,
     visibleText: term,
     speakBeforeAnswer: term,
     correctAnswer: answer,
@@ -206,6 +211,12 @@ function adjectiveGermanChoiceQuestion(item: Vocabulary, allItems: Vocabulary[])
   const promptAr = firstString(item.adjectiveTraining?.writeGerman?.question_ar || item.arabic);
   if (!answer || !promptAr) return null;
   const example = exampleFrom(item.adjectiveTraining?.writeGerman?.exampleAfterAnswer || preferredExample(item));
+  const options = ensureCorrectOption(
+    unique([answer, ...shuffle(allItems.map((candidate) => firstString(candidate.term)).filter(Boolean)).slice(0, 8)]),
+    answer,
+    4
+  );
+  if (!options) return null;
   return {
     id: "adjective_german_choice",
     sourceType: "vocabulary_v3",
@@ -213,7 +224,7 @@ function adjectiveGermanChoiceQuestion(item: Vocabulary, allItems: Vocabulary[])
     promptAr: `اختر الصفة الألمانية المناسبة لهذا المعنى: ${promptAr}`,
     answer,
     answerLang: "de",
-    options: unique([answer, ...shuffle(allItems.map((candidate) => firstString(candidate.term)).filter(Boolean)).slice(0, 8)]).slice(0, 4),
+    options,
     visibleText: promptAr,
     speakBeforeAnswer: promptAr,
     correctAnswer: answer,
@@ -273,13 +284,18 @@ function prepareQuestion(question: VocabularyTrainingQuestion | null, item: Voca
   const safePrompt = question.kind === "article"
     ? stripLeadingArticle(visibleText)
     : visibleText;
+  const correctAnswer = firstString(question.correctAnswer || question.answer);
+  const validatedOptions = question.options?.length
+    ? ensureCorrectOption(question.options, correctAnswer, question.options.length)
+    : question.options;
+  if (question.options?.length && !validatedOptions) return null;
 
   return {
     ...question,
-    options: question.options?.length ? shuffle(question.options) : question.options,
+    options: validatedOptions,
     visibleText,
     speakBeforeAnswer: firstString(question.speakBeforeAnswer || safePrompt),
-    correctAnswer: firstString(question.correctAnswer || question.answer),
+    correctAnswer,
     speakAfterAnswer: firstString(question.speakAfterAnswer || question.answer),
   };
 }
@@ -369,12 +385,19 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
   );
 
   const setupQuestion = (list: Vocabulary[], index: number) => {
-    const item = list[index];
-    if (!item) {
-      setFinished(true);
+    for (let nextIndex = index; nextIndex < list.length; nextIndex++) {
+      const item = list[nextIndex];
+      const preparedQuestion = prepareQuestion(makeQuestionForItem(item, items), item);
+      if (!preparedQuestion) continue;
+      setCurrentIndex(nextIndex);
+      setQuestion(preparedQuestion);
+      setSelectedChoice(null);
+      setWrittenAnswer("");
+      setChecked(false);
       return;
     }
-    setQuestion(prepareQuestion(makeQuestionForItem(item, items), item));
+    setQuestion(null);
+    setFinished(true);
     setSelectedChoice(null);
     setWrittenAnswer("");
     setChecked(false);
