@@ -1,5 +1,6 @@
 import { Vocabulary } from "../types";
 import { normalizeGermanText } from "./textDisplayService";
+import { selectArabicDistractors } from "./arabicDistractorService";
 
 export type VocabularyFamily = "noun" | "adjective" | "phrase" | "other";
 
@@ -11,6 +12,9 @@ export interface VocabularyTrainingQuestion {
     | "write_german"
     | "article"
     | "plural"
+    | "adjective_meaning_choice"
+    | "adjective_german_choice"
+    | "adjective_sentence"
     | "comparative"
     | "superlative"
     | "phrase_gap";
@@ -100,17 +104,22 @@ export function getVocabularyMeaningQuestion(item: Vocabulary, allItems: Vocabul
   const training = meaningTraining(item);
   const answer = firstString(training?.answer_ar || item.arabic);
   const example = exampleFrom(training?.exampleAfterAnswer || item.examples?.[0]);
-  const options = unique([
-    answer,
-    ...shuffle(allItems.map((candidate) => candidate.arabic).filter(Boolean)).slice(0, 8),
-  ]).slice(0, 4);
+  const family = getVocabularyFamily(item);
+  const distractors = selectArabicDistractors(item, allItems, answer, {
+    count: 3,
+    sourceType: family,
+    targetKind: family,
+    getAnswer: (candidate) => firstString(meaningTraining(candidate)?.answer_ar || candidate.arabic),
+    getId: (candidate) => candidate.id,
+  });
+  const options = unique([answer, ...distractors]).slice(0, 4);
 
   return {
     id: "meaning",
     sourceType: "vocabulary_v3",
     kind: "meaning",
     promptDe: firstString(training?.question || getVocabularyFullTerm(item)),
-    promptAr: "ما معنى هذا العنصر؟",
+    promptAr: "ما معنى الكلمة الألمانية التالية؟",
     answer,
     answerLang: "ar",
     options,
@@ -302,6 +311,16 @@ export function getVocabularyWritingQuestion(item: Vocabulary): VocabularyTraini
 
 export function answersMatchAny(input: string, question: VocabularyTrainingQuestion): boolean {
   const expected = unique([question.answer, ...(question.acceptedAnswers || [])]);
-  const normalizedInput = input.trim().toLocaleLowerCase("de-DE");
-  return expected.some((answer) => answer.trim().toLocaleLowerCase("de-DE") === normalizedInput);
+  const normalize = (value: string) =>
+    value
+      .trim()
+      .replace(/\s+/g, " ")
+      .toLocaleLowerCase("de-DE");
+  const withoutArticle = (value: string) => normalize(value).replace(/^(der|die|das)\s+/i, "");
+  const normalizedInput = normalize(input);
+  const normalizedInputNoArticle = withoutArticle(input);
+  return expected.some((answer) => {
+    const normalizedAnswer = normalize(answer);
+    return normalizedAnswer === normalizedInput || withoutArticle(answer) === normalizedInputNoArticle;
+  });
 }

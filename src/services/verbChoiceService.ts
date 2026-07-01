@@ -5,6 +5,7 @@ import {
   detectSeparable,
   detectVerbPrefix,
 } from "./dataEnrichmentService.js";
+import { selectArabicDistractors } from "./arabicDistractorService";
 
 export type VerbChoiceQuestionType = "arabic" | "praesens" | "praeteritum" | "perfekt";
 
@@ -174,7 +175,13 @@ export function generateVerbChoiceOptions(
   const distractors: string[] = [];
 
   if (questionType === "arabic") {
-    similarVerbDistractors(verb, allVerbs, questionType).forEach((value) => uniquePush(distractors, value));
+    selectArabicDistractors(verb, allVerbs, correctAnswer, {
+      count: count - 1,
+      sourceType: "verb",
+      targetKind: "verb",
+      getAnswer: (candidate) => candidate.arabic,
+      getId: (candidate) => candidate.id,
+    }).forEach((value) => uniquePush(distractors, value));
   } else {
     sameVerbDistractors(verb, questionType).forEach((value) => uniquePush(distractors, value));
     similarVerbDistractors(verb, allVerbs, questionType).forEach((value) => uniquePush(distractors, value));
