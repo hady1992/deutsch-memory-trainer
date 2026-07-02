@@ -217,13 +217,13 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
 
   const dailyGoalTarget = settings?.dailyGoal || 10;
   const todayKey = new Date().toDateString();
-  const learnedTodayCount = Math.min(
-    dailyGoalTarget,
-    Object.values(ProgressService.getProgress()).filter((item) => {
-      return item.lastReviewedAt && new Date(item.lastReviewedAt).toDateString() === todayKey;
-    }).length
-  );
-  const dailyGoalPercent = Math.round((learnedTodayCount / dailyGoalTarget) * 100);
+  const completedTodayRaw = Object.values(ProgressService.getProgress()).filter((item) => {
+    return item.lastReviewedAt && new Date(item.lastReviewedAt).toDateString() === todayKey;
+  }).length;
+  // Never display more than the goal in the "x/goal" ratio; overflow is shown separately as extra practice.
+  const learnedTodayCount = Math.min(dailyGoalTarget, completedTodayRaw);
+  const extraTodayCount = Math.max(0, completedTodayRaw - dailyGoalTarget);
+  const dailyGoalPercent = dailyGoalTarget > 0 ? Math.min(100, Math.round((completedTodayRaw / dailyGoalTarget) * 100)) : 0;
   const dashboardLabels = isRtl
     ? {
         totalVocabulary: "إجمالي المفردات",
@@ -243,6 +243,10 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
         review: "مراجعة",
         mistakes: "أخطاء",
         new: "جديد",
+        completedLabel: "مكتمل",
+        extraPracticeSuffix: "تدريب إضافي اليوم",
+        noDueReview: "لا توجد مراجعات مستحقة الآن. يمكنك البدء بعناصر جديدة اليوم.",
+        dataQualityCaption: "عنصر يحتاج تدقيق بشري",
       }
     : {
         totalVocabulary: "Total vocabulary",
@@ -262,6 +266,10 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
         review: "review",
         mistakes: "mistakes",
         new: "new",
+        completedLabel: "Completed",
+        extraPracticeSuffix: "extra practice today",
+        noDueReview: "No reviews are due right now. You can start with new items today.",
+        dataQualityCaption: "items need human review",
       };
   const dailyQueueSummary = `${dashboardLabels.dailyQueue}: ${dailyQueueStats.due} ${dashboardLabels.review}, ${dailyQueueStats.mistakes} ${dashboardLabels.mistakes}, ${dailyQueueStats.newItems} ${dashboardLabels.new}`;
   const qualityLabels = isRtl
@@ -308,11 +316,17 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
           </div>
           <div className="space-y-1 flex-1">
             <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">
-              {translate("dailyGoal")} ({learnedTodayCount}/{dailyGoalTarget})
+              {translate("dailyGoal")} ({learnedTodayCount}/{dailyGoalTarget}
+              {extraTodayCount > 0 ? ` ${dashboardLabels.completedLabel}` : ""})
             </h4>
             <p className="text-xs text-slate-500">
               {dailyGoalPercent >= 100 ? translate("goalCompletedToday") : translate("keepGoingGoal")}
             </p>
+            {extraTodayCount > 0 && (
+              <p className="text-[11px] text-emerald-600 font-bold">
+                +{extraTodayCount} {dashboardLabels.extraPracticeSuffix}
+              </p>
+            )}
             <p className="text-[11px] text-slate-400 font-semibold">
               {dailyQueueSummary} ({dailyQueueStats.total}/{dailyGoalTarget})
             </p>
@@ -406,12 +420,12 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
           </p>
         </div>
 
-        {/* Data Audit Card */}
+        {/* Data Audit Card - data quality only, NOT a learning-review metric */}
         <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
           <div>
-            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.dataNeedsAudit}</p>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{qualityLabels.title}</p>
             <h3 className="text-2xl font-black text-indigo-600">{totalDataNeedsAudit}</h3>
-            <p className="text-[10px] text-indigo-500 mt-2.5 font-bold uppercase tracking-wider">{qualityLabels.title}</p>
+            <p className="text-[10px] text-indigo-500 mt-2.5 font-bold uppercase tracking-wider">{dashboardLabels.dataQualityCaption}</p>
           </div>
           <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
             {dashboardLabels.verbs}: <span className="text-indigo-600">{qualityStats.verbsNeedingReview}</span> • {dashboardLabels.vocabulary}: <span className="text-indigo-600">{qualityStats.vocabNeedingReview}</span>
@@ -539,20 +553,22 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
         </div>
       </div>
 
-      {/* Spaced Repetition Notification / Info banner if any due */}
-      {totalDue > 0 && (
-        <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-150 rounded-xl p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div className="flex items-start space-x-3 space-x-reverse">
-            <span className="p-2.5 bg-amber-100 text-amber-700 rounded-lg">
-              <Clock size={20} />
-            </span>
-            <div>
-              <h4 className="font-bold text-amber-950 text-sm">{translate("dueRepetitions")}</h4>
-              <p className="text-xs text-amber-800 mt-0.5">
-                {translate("dueRepetitionsDesc", { count: totalDue, verbs: learningDueStats.verbs, vocab: learningDueStats.vocab })}
-              </p>
-            </div>
+      {/* Spaced Repetition Notification / Info banner - always shown, content depends on real due count */}
+      <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-150 rounded-xl p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div className="flex items-start space-x-3 space-x-reverse">
+          <span className="p-2.5 bg-amber-100 text-amber-700 rounded-lg">
+            <Clock size={20} />
+          </span>
+          <div>
+            <h4 className="font-bold text-amber-950 text-sm">{translate("dueRepetitions")}</h4>
+            <p className="text-xs text-amber-800 mt-0.5">
+              {totalDue > 0
+                ? translate("dueRepetitionsDesc", { count: totalDue, verbs: learningDueStats.verbs, vocab: learningDueStats.vocab })
+                : dashboardLabels.noDueReview}
+            </p>
           </div>
+        </div>
+        {totalDue > 0 && (
           <button
             onClick={() => {
               if (learningDueStats.verbs > 0) {
@@ -565,8 +581,8 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
           >
             {translate("reviewNow")}
           </button>
-        </div>
-      )}
+        )}
+      </div>
 
       {/* Quick Add & Export Bar */}
       <footer className="flex flex-col sm:flex-row justify-between items-center pt-4 border-t border-slate-100 gap-4">
