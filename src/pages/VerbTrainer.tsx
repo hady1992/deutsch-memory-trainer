@@ -31,6 +31,7 @@ import {
   hasVerbCategoryTraining,
   VerbCategoryQuestion,
 } from "../services/verbCategoryTrainingService";
+import { ensureCorrectOption } from "../services/choiceOptionService";
 import { Verb, UserSettings, TenseKey, VerbCategory } from "../types";
 import AudioButton from "../components/AudioButton";
 
@@ -63,6 +64,25 @@ function getChoiceExampleTense(questionType: VerbChoiceQuestionType): TenseKey {
   if (questionType === "praeteritum") return "praeteritum";
   if (questionType === "perfekt") return "perfekt";
   return "praesens";
+}
+
+function firstString(value: unknown): string {
+  if (Array.isArray(value)) return String(value[0] || "").trim();
+  return String(value || "").trim();
+}
+
+function prepareCategoryQuestion(question: VerbCategoryQuestion | null): VerbCategoryQuestion | null {
+  if (!question) return null;
+  const correctAnswer = firstString(question.correctAnswer || question.answer);
+  const options = question.options?.length
+    ? ensureCorrectOption(question.options, correctAnswer, question.options.length)
+    : question.options;
+  if (question.options?.length && !options) return null;
+  return {
+    ...question,
+    options,
+    correctAnswer,
+  };
 }
 
 export default function VerbTrainer({ onNavigate, settings }: VerbTrainerProps) {
@@ -310,15 +330,22 @@ export default function VerbTrainer({ onNavigate, settings }: VerbTrainerProps) 
 
       setChoiceOptions(generateVerbChoiceOptions(verb, verbs, chosenType));
     } else if (currentMode === "category") {
-      setCategoryQuestion(
-        buildVerbCategoryQuestion(
-          verb,
-          verbs,
-          verbCategories,
-          selectedCategoryId || null,
-          settings.language || "de"
-        )
-      );
+      for (let nextIndex = index; nextIndex < list.length; nextIndex++) {
+        const preparedQuestion = prepareCategoryQuestion(
+          buildVerbCategoryQuestion(
+            list[nextIndex],
+            verbs,
+            verbCategories,
+            selectedCategoryId || null,
+            settings.language || "de"
+          )
+        );
+        if (!preparedQuestion) continue;
+        if (nextIndex !== index) setCurrentIndex(nextIndex);
+        setCategoryQuestion(preparedQuestion);
+        return;
+      }
+      finishSession();
     }
   };
 

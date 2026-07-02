@@ -53,6 +53,7 @@ export interface MistakeRecord {
   targetTense?: TenseKey;
   pronoun?: "ich" | "du" | "er_sie_es" | "wir" | "ihr" | "sie_Sie";
   sourceType?: MistakeSourceType;
+  questionType?: string;
   categoryId?: string;
   choices?: string[];
   answerLang?: "de" | "ar";

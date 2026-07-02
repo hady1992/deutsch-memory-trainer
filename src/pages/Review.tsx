@@ -258,7 +258,7 @@ export default function Review({ onNavigate, settings }: ReviewProps) {
             </div>
 
             <div className="text-center py-4">
-              <h2 className="text-3xl font-extrabold text-slate-800 tracking-tight">
+              <h2 dir="ltr" lang="de" className="text-3xl font-extrabold text-slate-800 tracking-tight text-center">
                 {currentItem.term}
               </h2>
 
@@ -272,14 +272,14 @@ export default function Review({ onNavigate, settings }: ReviewProps) {
             {showAnswer && (
               <div className="border-t border-slate-50 pt-4 text-center">
                 <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">{ui.details}</div>
-                <div className="text-sm font-semibold text-slate-700">{currentItem.details}</div>
+                <div dir="ltr" lang="de" className="text-sm font-semibold text-slate-700 text-left">{currentItem.details}</div>
               </div>
             )}
 
             {showAnswer && currentItem.itemObj.example_de && (
               <div className="mt-4 p-4 bg-blue-50/50 rounded-xl space-y-2">
                 <div className="flex items-center justify-between">
-                  <p className="text-xs sm:text-sm font-semibold text-slate-800">
+                  <p dir="ltr" lang="de" className="text-xs sm:text-sm font-semibold text-slate-800 text-left">
                     {currentItem.itemObj.example_de}
                   </p>
                   <AudioButton

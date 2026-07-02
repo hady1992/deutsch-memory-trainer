@@ -1,6 +1,7 @@
 import { TenseKey, Verb } from "../types";
 import { detectAuxiliary, detectSeparable, detectVerbPrefix } from "./dataEnrichmentService.js";
 import { normalizeAnswer } from "./textDisplayService";
+import { ensureCorrectOption } from "./choiceOptionService";
 
 export const TENSE_PRONOUNS = ["ich", "du", "er_sie_es", "wir", "ihr", "sie_Sie"];
 export const TENSE_KEYS: TenseKey[] = ["praesens", "praeteritum", "perfekt", "plusquamperfekt", "futur1", "futur2"];
@@ -66,8 +67,8 @@ export function generateTenseChoiceOptions(
   const normalizedCorrect = normalizeAnswer(correctAnswer);
   const options = [
     correctAnswer,
-    ...distractors.filter((value) => normalizeAnswer(value) !== normalizedCorrect).slice(0, count - 1),
+    ...distractors.filter((value) => normalizeAnswer(value) !== normalizedCorrect),
   ].filter(Boolean);
 
-  return [...options].sort(() => Math.random() - 0.5).slice(0, count);
+  return ensureCorrectOption(options, correctAnswer, count) || [];
 }

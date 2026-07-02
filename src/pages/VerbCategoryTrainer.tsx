@@ -6,9 +6,9 @@ import { MistakeReviewService } from "../services/mistakeReviewService";
 import { ProgressService } from "../services/progressService";
 import {
   buildVerbCategoryQuestion,
-  hasVerbCategoryTraining,
   VerbCategoryQuestion,
 } from "../services/verbCategoryTrainingService";
+import { ensureCorrectOption } from "../services/choiceOptionService";
 import { answersMatch } from "../services/textDisplayService";
 import { UserSettings, Verb, VerbCategory } from "../types";
 
@@ -33,12 +33,17 @@ function firstString(value: unknown): string {
 function prepareQuestion(question: VerbCategoryQuestion | null, verb: Verb): VerbCategoryQuestion | null {
   if (!question) return null;
   const visibleText = firstString(question.visibleText || question.promptDe || question.promptAr || verb.infinitiv);
+  const correctAnswer = firstString(question.correctAnswer || question.answer);
+  const validatedOptions = question.options?.length
+    ? ensureCorrectOption(question.options, correctAnswer, question.options.length)
+    : question.options;
+  if (question.options?.length && !validatedOptions) return null;
   return {
     ...question,
-    options: question.options?.length ? shuffle(question.options) : question.options,
+    options: validatedOptions,
     visibleText,
     speakBeforeAnswer: firstString(question.speakBeforeAnswer || (question.answerLang === "de" ? verb.infinitiv : question.promptDe) || verb.infinitiv),
-    correctAnswer: firstString(question.correctAnswer || question.answer),
+    correctAnswer,
     speakAfterAnswer: firstString(question.speakAfterAnswer || question.answer),
   };
 }
@@ -108,23 +113,25 @@ export default function VerbCategoryTrainer({ onNavigate, settings }: VerbCatego
       };
 
   const eligibleVerbs = useMemo(() => {
-    const trained = verbs.filter(hasVerbCategoryTraining);
-    if (!selectedCategoryId) return trained;
-    return trained.filter((verb) => verb.categoryIds?.includes(selectedCategoryId));
-  }, [selectedCategoryId, verbs]);
+    const selected = selectedCategoryId
+      ? verbs.filter((verb) => verb.categoryIds?.includes(selectedCategoryId))
+      : verbs;
+    return selected.filter((verb) =>
+      Boolean(buildVerbCategoryQuestion(verb, verbs, categories, selectedCategoryId || null, settings.language || "de"))
+    );
+  }, [categories, selectedCategoryId, settings.language, verbs]);
 
   const currentVerb = sessionVerbs[currentIndex];
+  const displayVerb = currentVerb && (currentVerb.categoryIds?.includes("reflexiv") || selectedCategoryId === "reflexiv")
+    ? `sich ${currentVerb.infinitiv}`
+    : currentVerb?.infinitiv;
   const currentAnswer = question?.options?.length ? selectedChoice || "" : writtenAnswer;
   const isCorrect = question ? answersMatch(currentAnswer, question.answer) : false;
 
   const setupQuestion = (list: Verb[], index: number) => {
-    const verb = list[index];
-    if (!verb) {
-      setFinished(true);
-      return;
-    }
-    setQuestion(
-      prepareQuestion(
+    for (let nextIndex = index; nextIndex < list.length; nextIndex++) {
+      const verb = list[nextIndex];
+      const preparedQuestion = prepareQuestion(
         buildVerbCategoryQuestion(
           verb,
           verbs,
@@ -133,8 +140,17 @@ export default function VerbCategoryTrainer({ onNavigate, settings }: VerbCatego
           settings.language || "de"
         ),
         verb
-      )
-    );
+      );
+      if (!preparedQuestion) continue;
+      setCurrentIndex(nextIndex);
+      setQuestion(preparedQuestion);
+      setSelectedChoice(null);
+      setWrittenAnswer("");
+      setChecked(false);
+      return;
+    }
+    setQuestion(null);
+    setFinished(true);
     setSelectedChoice(null);
     setWrittenAnswer("");
     setChecked(false);
@@ -192,6 +208,7 @@ export default function VerbCategoryTrainer({ onNavigate, settings }: VerbCatego
         type: "verb",
         mode: question.options?.length ? "verb-multiple-choice" : "verb-writing",
         sourceType: "verb_category",
+        questionType: question.sourceExampleType || question.id,
         categoryId: question.categoryId,
         choices: question.options,
         answerLang: question.answerLang,
@@ -312,7 +329,7 @@ export default function VerbCategoryTrainer({ onNavigate, settings }: VerbCatego
             {ui.question}
           </span>
           <h2 dir="ltr" lang="de" className="text-3xl font-extrabold text-slate-800 tracking-tight mt-3 text-center">
-            {currentVerb.infinitiv}
+            {displayVerb}
           </h2>
           {question.promptAr && (
             <p dir="rtl" lang="ar" className="text-sm sm:text-base font-bold text-slate-700 font-arabic text-right">
@@ -388,7 +405,7 @@ export default function VerbCategoryTrainer({ onNavigate, settings }: VerbCatego
           />
         )}
 
-        {checked && !isCorrect && (
+        {checked && (
           <div className="flex items-center justify-center gap-2 text-xs font-semibold text-slate-600 text-center">
             <span>
               {ui.correctAnswer}:{" "}

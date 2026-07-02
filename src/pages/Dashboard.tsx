@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { BookOpen, Award, AlertTriangle, Clock, RefreshCw, BarChart2, Play, Plus, UploadCloud, Shuffle } from "lucide-react";
 import { DataService } from "../services/dataService";
 import { ProgressService } from "../services/progressService";
+import { MistakeReviewService } from "../services/mistakeReviewService";
 import {
   detectArticle,
   detectAuxiliary,
@@ -26,10 +27,28 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
     learnedVocab: 0,
     difficultVerbs: 0,
     difficultVocab: 0,
+    newVerbs: 0,
+    newVocab: 0,
     dueVerbsCount: 0,
     dueVocabCount: 0,
     masteredVerbs: 0,
     masteredVocab: 0,
+  });
+  const [mistakeStats, setMistakeStats] = useState({
+    total: 0,
+    verbs: 0,
+    vocab: 0,
+  });
+  const [dailyQueueStats, setDailyQueueStats] = useState({
+    total: 0,
+    due: 0,
+    mistakes: 0,
+    newItems: 0,
+  });
+  const [learningDueStats, setLearningDueStats] = useState({
+    total: 0,
+    verbs: 0,
+    vocab: 0,
   });
   const [qualityStats, setQualityStats] = useState({
     verbsWithAuxiliary: 0,
@@ -59,17 +78,74 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
 
         const verbKeys = verbs.map((v) => `verb-${v.id}`);
         const vocabKeys = vocab.map((v) => `vocab-${v.id}`);
+        const allLearningKeys = [...verbKeys, ...vocabKeys];
+        const progress = ProgressService.getProgress();
+        const now = new Date();
+        const dailyGoalLimit = settings?.dailyGoal || 10;
 
         const calculatedStats = ProgressService.getStats(verbKeys, vocabKeys);
         setStats(calculatedStats);
+
+        const unresolvedMistakes = MistakeReviewService.getUnresolvedMistakes();
+        const unresolvedMistakeKeys = Array.from(
+          new Set(unresolvedMistakes.map((mistake) => mistake.itemKey).filter(Boolean))
+        );
+        const unresolvedMistakeItems = unresolvedMistakeKeys.map((key) =>
+          unresolvedMistakes.find((mistake) => mistake.itemKey === key)
+        );
+        setMistakeStats({
+          total: unresolvedMistakeKeys.length,
+          verbs: unresolvedMistakeItems.filter((mistake) =>
+            ["verb", "tense", "verb_category"].includes(String(mistake?.sourceType || mistake?.type))
+          ).length,
+          vocab: unresolvedMistakeItems.filter((mistake) =>
+            ["vocabulary", "vocabulary_v3", "article", "plural", "noun", "adjective", "phrase", "other"].includes(
+              String(mistake?.sourceType || mistake?.type)
+            )
+          ).length,
+        });
+
+        const dueKeys = Object.keys(progress).filter((key) => {
+          const item = progress[key];
+          return Boolean(item?.nextReviewAt && new Date(item.nextReviewAt) <= now);
+        });
+        setLearningDueStats({
+          total: dueKeys.length,
+          verbs: dueKeys.filter((key) => key.startsWith("verb-") || key.startsWith("tense-verb-")).length,
+          vocab: dueKeys.filter((key) => key.startsWith("vocab-")).length,
+        });
+        const newKeys = allLearningKeys.filter((key) => !progress[key]);
+        const dailyQueue: string[] = [];
+        const pushLimited = (keys: string[]) => {
+          for (const key of keys) {
+            if (dailyQueue.length >= dailyGoalLimit) break;
+            if (!dailyQueue.includes(key)) dailyQueue.push(key);
+          }
+        };
+        pushLimited(dueKeys);
+        pushLimited(unresolvedMistakeKeys);
+        pushLimited(newKeys);
+        setDailyQueueStats({
+          total: dailyQueue.length,
+          due: dailyQueue.filter((key) => dueKeys.includes(key)).length,
+          mistakes: dailyQueue.filter((key) => unresolvedMistakeKeys.includes(key) && !dueKeys.includes(key)).length,
+          newItems: dailyQueue.filter((key) => newKeys.includes(key)).length,
+        });
+
         setQualityStats({
           verbsWithAuxiliary: verbs.filter((v) => v.auxiliary || detectAuxiliary(v.perfekt || "")).length,
           verbsWithTenseTables: verbs.filter((v) => v.tenses && Object.keys(v.tenses).length > 0).length,
-          verbsNeedingReview: verbs.filter((v) => v.dataMeta?.needsReview || v.tensesMeta?.needsReview).length,
+          verbsNeedingReview: verbs.filter(
+            (v) =>
+              v.dataMeta?.needsReview ||
+              v.tensesMeta?.needsReview ||
+              v.categoryMeta?.needsReview ||
+              v.expandedExamples?.needsReview
+          ).length,
           separableVerbs: verbs.filter((v) => v.separable ?? detectSeparable(v.prefix || detectVerbPrefix(v.infinitiv))).length,
           nounsWithArticle: vocab.filter((v) => (v.type === "Nomen" || v.article) && (v.article || detectArticle(v.term))).length,
           vocabWithExamples: vocab.filter((v) => v.example_de || v.example_ar).length,
-          vocabNeedingReview: vocab.filter((v) => v.vocabMeta?.needsReview).length,
+          vocabNeedingReview: vocab.filter((v) => v.vocabMeta?.needsReview || v.dataMeta?.needsReview || v.needsReview).length,
           vocabWithPlural: vocab.filter((v) => v.plural || detectPlural(v.term)).length,
         });
 
@@ -77,7 +153,6 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
         setLastSession(last);
 
         // Fetch actual dynamic difficult items
-        const progress = ProgressService.getProgress();
         const list: any[] = [];
         
         verbs.forEach((v) => {
@@ -122,7 +197,7 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
     }
 
     loadDashboardStats();
-  }, [currentLang]);
+  }, [currentLang, settings?.dailyGoal]);
 
   if (loading) {
     return (
@@ -135,14 +210,10 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
     );
   }
 
-  const totalItems = stats.totalVerbs + stats.totalVocab;
-  const totalLearned = stats.learnedVerbs + stats.learnedVocab;
   const totalDifficult = stats.difficultVerbs + stats.difficultVocab;
-  const totalDue = stats.dueVerbsCount + stats.dueVocabCount;
-  const totalMastered = stats.masteredVerbs + stats.masteredVocab;
-
-  const progressPercent = totalItems > 0 ? Math.round((totalLearned / totalItems) * 100) : 0;
-  const masteredPercent = totalItems > 0 ? Math.round((totalMastered / totalItems) * 100) : 0;
+  const totalDue = learningDueStats.total;
+  const totalNew = stats.newVerbs + stats.newVocab;
+  const totalDataNeedsAudit = qualityStats.verbsNeedingReview + qualityStats.vocabNeedingReview;
 
   const dailyGoalTarget = settings?.dailyGoal || 10;
   const todayKey = new Date().toDateString();
@@ -153,27 +224,67 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
     }).length
   );
   const dailyGoalPercent = Math.round((learnedTodayCount / dailyGoalTarget) * 100);
+  const dashboardLabels = isRtl
+    ? {
+        totalVocabulary: "إجمالي المفردات",
+        newItems: "جديد",
+        newVerbs: "أفعال جديدة",
+        newVocab: "كلمات جديدة",
+        dueLearningReview: "مستحق للمراجعة",
+        dueVerbs: "أفعال مستحقة",
+        dueVocab: "مفردات مستحقة",
+        learningMistakes: "أخطاء تعليمية",
+        verbMistakes: "أخطاء أفعال",
+        vocabMistakes: "أخطاء مفردات",
+        dataNeedsAudit: "يحتاج تدقيق بيانات",
+        verbs: "أفعال",
+        vocabulary: "مفردات",
+        dailyQueue: "قائمة اليوم",
+        review: "مراجعة",
+        mistakes: "أخطاء",
+        new: "جديد",
+      }
+    : {
+        totalVocabulary: "Total vocabulary",
+        newItems: "New",
+        newVerbs: "New verbs",
+        newVocab: "New vocabulary",
+        dueLearningReview: "Due for review",
+        dueVerbs: "Due verbs",
+        dueVocab: "Due vocabulary",
+        learningMistakes: "Learning mistakes",
+        verbMistakes: "Verb mistakes",
+        vocabMistakes: "Vocabulary mistakes",
+        dataNeedsAudit: "Needs data audit",
+        verbs: "Verbs",
+        vocabulary: "Vocabulary",
+        dailyQueue: "Today queue",
+        review: "review",
+        mistakes: "mistakes",
+        new: "new",
+      };
+  const dailyQueueSummary = `${dashboardLabels.dailyQueue}: ${dailyQueueStats.due} ${dashboardLabels.review}, ${dailyQueueStats.mistakes} ${dashboardLabels.mistakes}, ${dailyQueueStats.newItems} ${dashboardLabels.new}`;
   const qualityLabels = isRtl
     ? {
         title: "جودة البيانات",
         verbsWithAuxiliary: "أفعال مع فعل مساعد",
         verbsWithTenseTables: "أفعال مع جداول أزمنة",
-        verbsNeedingReview: "أفعال تحتاج مراجعة",
+        verbsNeedingReview: "أفعال تحتاج تدقيق بيانات",
         separableVerbs: "أفعال قابلة للفصل",
         nounsWithArticle: "أسماء مع أداة تعريف",
         vocabWithExamples: "مفردات مع أمثلة",
-        vocabNeedingReview: "مفردات تحتاج مراجعة",
+        vocabNeedingReview: "مفردات تحتاج تدقيق بيانات",
         vocabWithPlural: "مفردات مع جمع",
       }
     : {
         title: "Data Quality",
         verbsWithAuxiliary: "Verbs with auxiliary",
         verbsWithTenseTables: "Verbs with tense tables",
-        verbsNeedingReview: "Verbs needing review",
+        verbsNeedingReview: "Verbs needing data audit",
         separableVerbs: "Separable verbs",
         nounsWithArticle: "Nouns with article",
         vocabWithExamples: "Vocabulary with examples",
-        vocabNeedingReview: "Vocabulary needing review",
+        vocabNeedingReview: "Vocabulary needing data audit",
         vocabWithPlural: "Vocabulary with plural",
       };
   const qualityCards = [
@@ -201,6 +312,9 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
             </h4>
             <p className="text-xs text-slate-500">
               {dailyGoalPercent >= 100 ? translate("goalCompletedToday") : translate("keepGoingGoal")}
+            </p>
+            <p className="text-[11px] text-slate-400 font-semibold">
+              {dailyQueueSummary} ({dailyQueueStats.total}/{dailyGoalTarget})
             </p>
           </div>
         </div>
@@ -239,44 +353,68 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
           </p>
         </div>
 
-        {/* Mastered Card */}
+        {/* Total Vocabulary Card */}
         <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
           <div>
-            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{translate("mastered")}</p>
-            <h3 className="text-2xl font-black text-emerald-600">{totalMastered}</h3>
-            <p className="text-[10px] text-emerald-500 mt-2.5 font-bold uppercase tracking-wider">{masteredPercent}% {translate("completed")}</p>
-          </div>
-          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
-            {translate("totalVerbs")}: <span className="text-emerald-600">{stats.masteredVerbs}</span> • {translate("vocabularyTitle")}: <span className="text-emerald-600">{stats.masteredVocab}</span>
-          </p>
-        </div>
-
-        {/* Difficult Card */}
-        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
-          <div>
-            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{translate("difficultItems")}</p>
-            <h3 className="text-2xl font-black text-rose-600">{totalDifficult}</h3>
-            <p className="text-[10px] text-rose-500 mt-2.5 font-bold uppercase tracking-wider">{translate("reviewRecommended")}</p>
-          </div>
-          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
-            {translate("totalVerbs")}: <span className="text-rose-500">{stats.difficultVerbs}</span> • {translate("vocabularyTitle")}: <span className="text-rose-500">{stats.difficultVocab}</span>
-          </p>
-        </div>
-
-        {/* Vocabulary Card */}
-        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
-          <div>
-            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{translate("vocabularyTitle")}</p>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.totalVocabulary}</p>
             <h3 className="text-2xl font-black text-slate-800">{stats.totalVocab}</h3>
             <div className="mt-3 h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
-              <div 
-                className="bg-blue-400 h-full transition-all duration-500" 
-                style={{ width: `${stats.totalVocab > 0 ? Math.min(100, Math.round((stats.learnedVocab / stats.totalVocab) * 100)) : 0}%` }} 
+              <div
+                className="bg-blue-400 h-full transition-all duration-500"
+                style={{ width: `${stats.totalVocab > 0 ? Math.min(100, Math.round((stats.learnedVocab / stats.totalVocab) * 100)) : 0}%` }}
               />
             </div>
           </div>
           <p className="text-[10px] text-slate-400 mt-3 font-semibold uppercase tracking-wider">
             {translate("learned")}: <span className="text-slate-700">{stats.learnedVocab}</span> • {translate("masterBadge")}: <span className="text-emerald-600">{stats.masteredVocab}</span>
+          </p>
+        </div>
+
+        {/* New Items Card */}
+        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
+          <div>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.newItems}</p>
+            <h3 className="text-2xl font-black text-blue-600">{totalNew}</h3>
+            <p className="text-[10px] text-blue-500 mt-2.5 font-bold uppercase tracking-wider">{dashboardLabels.newItems}</p>
+          </div>
+          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
+            {dashboardLabels.newVerbs}: <span className="text-blue-600">{stats.newVerbs}</span> • {dashboardLabels.newVocab}: <span className="text-blue-600">{stats.newVocab}</span>
+          </p>
+        </div>
+
+        {/* Due Review Card */}
+        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
+          <div>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.dueLearningReview}</p>
+            <h3 className="text-2xl font-black text-amber-600">{totalDue}</h3>
+            <p className="text-[10px] text-amber-500 mt-2.5 font-bold uppercase tracking-wider">{dashboardLabels.dueLearningReview}</p>
+          </div>
+          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
+            {dashboardLabels.dueVerbs}: <span className="text-amber-600">{learningDueStats.verbs}</span> • {dashboardLabels.dueVocab}: <span className="text-amber-600">{learningDueStats.vocab}</span>
+          </p>
+        </div>
+
+        {/* Learning Mistakes Card */}
+        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
+          <div>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.learningMistakes}</p>
+            <h3 className="text-2xl font-black text-rose-600">{mistakeStats.total}</h3>
+            <p className="text-[10px] text-rose-500 mt-2.5 font-bold uppercase tracking-wider">{translate("mistakeReview")}</p>
+          </div>
+          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
+            {dashboardLabels.verbMistakes}: <span className="text-rose-600">{mistakeStats.verbs}</span> • {dashboardLabels.vocabMistakes}: <span className="text-rose-600">{mistakeStats.vocab}</span>
+          </p>
+        </div>
+
+        {/* Data Audit Card */}
+        <div className="bg-white p-5 rounded-xl border border-slate-250 shadow-xs flex flex-col justify-between">
+          <div>
+            <p className="text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">{dashboardLabels.dataNeedsAudit}</p>
+            <h3 className="text-2xl font-black text-indigo-600">{totalDataNeedsAudit}</h3>
+            <p className="text-[10px] text-indigo-500 mt-2.5 font-bold uppercase tracking-wider">{qualityLabels.title}</p>
+          </div>
+          <p className="text-[10px] text-slate-400 mt-1 font-semibold uppercase tracking-wider">
+            {dashboardLabels.verbs}: <span className="text-indigo-600">{qualityStats.verbsNeedingReview}</span> • {dashboardLabels.vocabulary}: <span className="text-indigo-600">{qualityStats.vocabNeedingReview}</span>
           </p>
         </div>
       </div>
@@ -377,8 +515,8 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
                   <div className="flex items-center space-x-3.5 space-x-reverse">
                     <div className={`w-1.5 h-8 ${item.statusColor || 'bg-blue-400'} rounded-full shrink-0`} />
                     <div>
-                      <p className="text-sm font-black text-slate-950 leading-tight">{item.title}</p>
-                      <p className="text-[11px] text-slate-500 mt-0.5 font-mono">{item.subtitle}</p>
+                      <p dir="ltr" lang="de" className="text-sm font-black text-slate-950 leading-tight text-left">{item.title}</p>
+                      <p dir="ltr" lang="de" className="text-[11px] text-slate-500 mt-0.5 font-mono text-left">{item.subtitle}</p>
                     </div>
                   </div>
                   <div className="text-right flex flex-col items-end">
@@ -411,13 +549,13 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
             <div>
               <h4 className="font-bold text-amber-950 text-sm">{translate("dueRepetitions")}</h4>
               <p className="text-xs text-amber-800 mt-0.5">
-                {translate("dueRepetitionsDesc", { count: totalDue, verbs: stats.dueVerbsCount, vocab: stats.dueVocabCount })}
+                {translate("dueRepetitionsDesc", { count: totalDue, verbs: learningDueStats.verbs, vocab: learningDueStats.vocab })}
               </p>
             </div>
           </div>
           <button
             onClick={() => {
-              if (stats.dueVerbsCount > 0) {
+              if (learningDueStats.verbs > 0) {
                 onNavigate("verbs");
               } else {
                 onNavigate("vocabulary");

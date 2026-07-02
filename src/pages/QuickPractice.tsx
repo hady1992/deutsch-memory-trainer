@@ -74,6 +74,10 @@ function getTenseValue(verb: Verb, tense: TenseKey, pronoun: string): string {
   return typeof value === "string" ? value.trim() : "";
 }
 
+function isArabicText(value?: string): boolean {
+  return /[\u0600-\u06FF]/.test(value || "");
+}
+
 export default function QuickPractice({ onNavigate, settings }: QuickPracticeProps) {
   const currentLang = settings.language || "de";
   const isRtl = currentLang === "ar";
@@ -465,7 +469,13 @@ export default function QuickPractice({ onNavigate, settings }: QuickPracticePro
               <h3 dir="ltr" lang="de" className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight text-center">
                 {currentItem.german}
               </h3>
-              <p dir="ltr" lang="de" className="text-xs sm:text-sm font-semibold text-slate-500 font-mono tracking-tight text-center">
+              <p
+                dir={isArabicText(currentItem.subGerman) ? "rtl" : "ltr"}
+                lang={isArabicText(currentItem.subGerman) ? "ar" : "de"}
+                className={`text-xs sm:text-sm font-semibold text-slate-500 tracking-tight text-center ${
+                  isArabicText(currentItem.subGerman) ? "font-arabic" : "font-mono"
+                }`}
+              >
                 {currentItem.subGerman}
               </p>
 
@@ -505,7 +515,7 @@ export default function QuickPractice({ onNavigate, settings }: QuickPracticePro
                         <span
                           dir={currentItem.questionType === "arabic" ? "rtl" : "ltr"}
                           lang={currentItem.questionType === "arabic" ? "ar" : "de"}
-                          className={currentItem.questionType === "arabic" ? "font-arabic" : ""}
+                          className={currentItem.questionType === "arabic" ? "font-arabic w-full text-right" : "w-full text-left"}
                         >
                           {option}
                         </span>

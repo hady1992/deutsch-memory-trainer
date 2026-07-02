@@ -5,6 +5,7 @@ import { MistakeRecord, MistakeReviewService } from "../services/mistakeReviewSe
 import { answersMatch, getTenseExample, normalizeGermanText } from "../services/textDisplayService";
 import { generateTenseChoiceOptions } from "../services/tenseChoiceService";
 import { generateVerbChoiceOptions, VerbChoiceQuestionType } from "../services/verbChoiceService";
+import { ensureCorrectOption } from "../services/choiceOptionService";
 import { getVocabularyFullTerm } from "../services/vocabularyTrainingService";
 import { UserSettings, Verb, Vocabulary } from "../types";
 import AudioButton from "../components/AudioButton";
@@ -50,6 +51,10 @@ function uniqueOptions(values: string[]) {
 function safeText(value: unknown, fallback = "-"): string {
   const text = String(value ?? "").trim();
   return text || fallback;
+}
+
+function isArabicText(value?: string): boolean {
+  return /[\u0600-\u06FF]/.test(value || "");
 }
 
 function getMistakeMode(mistake?: MistakeRecord): string {
@@ -262,7 +267,11 @@ export default function MistakeReview({ onNavigate, settings }: MistakeReviewPro
   const choiceOptions = useMemo(() => {
     if (!currentMistake || !isChoiceQuestion) return [];
     if (currentMistake.choices?.length) {
-      return uniqueOptions([...currentMistake.choices, safeText(currentMistake.correctAnswer)].map((value) => safeText(value, "")));
+      return ensureCorrectOption(
+        currentMistake.choices.map((value) => safeText(value, "")),
+        safeText(currentMistake.correctAnswer),
+        Math.max(4, currentMistake.choices.length)
+      ) || [];
     }
     if (currentMistake.type === "tense" && currentVerb && currentMistake.targetTense && currentMistake.pronoun) {
       return generateTenseChoiceOptions(currentVerb, verbs, currentMistake.targetTense, currentMistake.pronoun);
@@ -280,7 +289,7 @@ export default function MistakeReview({ onNavigate, settings }: MistakeReviewPro
           .filter(Boolean)
           .slice(0, 6),
       ];
-      return uniqueOptions(options).sort(() => Math.random() - 0.5).slice(0, 4);
+      return ensureCorrectOption(uniqueOptions(options), safeText(currentMistake.correctAnswer), 4) || [];
     }
     return [];
   }, [currentMistake?.id, isChoiceQuestion, verbs, vocab]);
@@ -393,7 +402,15 @@ export default function MistakeReview({ onNavigate, settings }: MistakeReviewPro
                   {currentMistake.arabic}
                 </p>
               )}
-              <p className="text-xs font-bold text-slate-500">{safeText(currentMistake.questionText)}</p>
+              <p
+                dir={isArabicText(safeText(currentMistake.questionText, "")) ? "rtl" : "ltr"}
+                lang={isArabicText(safeText(currentMistake.questionText, "")) ? "ar" : "de"}
+                className={`text-xs font-bold text-slate-500 ${
+                  isArabicText(safeText(currentMistake.questionText, "")) ? "text-right font-arabic" : "text-left"
+                }`}
+              >
+                {safeText(currentMistake.questionText)}
+              </p>
             </div>
 
             {isChoiceQuestion ? (
@@ -627,14 +644,42 @@ export default function MistakeReview({ onNavigate, settings }: MistakeReviewPro
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                {mistake.questionType && (
+                  <div className="bg-slate-50 rounded-lg p-3">
+                    <span className="font-bold text-slate-500">نوع التدريب: </span>
+                    <span className="font-semibold text-slate-800">{mistake.questionType}</span>
+                  </div>
+                )}
                 <div className="bg-slate-50 rounded-lg p-3">
                   <span className="font-bold text-slate-500">{ui.question}: </span>
-                  <span className="font-semibold text-slate-800">{safeText(mistake.questionText)}</span>
+                  <span
+                    dir={isArabicText(safeText(mistake.questionText, "")) ? "rtl" : "ltr"}
+                    lang={isArabicText(safeText(mistake.questionText, "")) ? "ar" : "de"}
+                    className={`font-semibold text-slate-800 inline-block ${
+                      isArabicText(safeText(mistake.questionText, "")) ? "text-right font-arabic" : "text-left"
+                    }`}
+                  >
+                    {safeText(mistake.questionText)}
+                  </span>
                 </div>
                 {(mistake.targetTense || mistake.pronoun) && (
                   <div className="bg-slate-50 rounded-lg p-3">
-                    {mistake.targetTense && <span className="font-bold text-slate-700">{ui.tense}: {TENSE_LABELS[mistake.targetTense] || mistake.targetTense} </span>}
-                    {mistake.pronoun && <span className="font-bold text-slate-700">{ui.pronoun}: {mistake.pronoun}</span>}
+                    {mistake.targetTense && (
+                      <span className="font-bold text-slate-700">
+                        {ui.tense}:{" "}
+                        <span dir="ltr" lang="de" className="inline-block text-left">
+                          {TENSE_LABELS[mistake.targetTense] || mistake.targetTense}
+                        </span>{" "}
+                      </span>
+                    )}
+                    {mistake.pronoun && (
+                      <span className="font-bold text-slate-700">
+                        {ui.pronoun}:{" "}
+                        <span dir="ltr" lang="de" className="inline-block text-left">
+                          {mistake.pronoun}
+                        </span>
+                      </span>
+                    )}
                   </div>
                 )}
                 <div className="bg-rose-50 rounded-lg p-3">

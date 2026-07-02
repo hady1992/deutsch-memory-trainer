@@ -93,6 +93,8 @@ export class ProgressService {
     learnedVocab: number;
     difficultVerbs: number;
     difficultVocab: number;
+    newVerbs: number;
+    newVocab: number;
     dueVerbsCount: number;
     dueVocabCount: number;
     masteredVerbs: number;
@@ -105,6 +107,8 @@ export class ProgressService {
     let learnedVocab = 0;
     let difficultVerbs = 0;
     let difficultVocab = 0;
+    let newVerbs = 0;
+    let newVocab = 0;
     let dueVerbsCount = 0;
     let dueVocabCount = 0;
     let masteredVerbs = 0;
@@ -120,8 +124,7 @@ export class ProgressService {
           dueVerbsCount++;
         }
       } else {
-        // new item is considered due if not reviewed yet (optional, let's keep new items separate or due)
-        dueVerbsCount++;
+        newVerbs++;
       }
     });
 
@@ -135,7 +138,7 @@ export class ProgressService {
           dueVocabCount++;
         }
       } else {
-        dueVocabCount++;
+        newVocab++;
       }
     });
 
@@ -146,6 +149,8 @@ export class ProgressService {
       learnedVocab,
       difficultVerbs,
       difficultVocab,
+      newVerbs,
+      newVocab,
       dueVerbsCount,
       dueVocabCount,
       masteredVerbs,

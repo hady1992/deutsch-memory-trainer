@@ -533,34 +533,36 @@ export default function ZeitenTrainer({ onNavigate, settings }: ZeitenTrainerPro
                 </p>
               </div>
 
-              <table className={`w-full min-w-[1100px] border-collapse ${isRtl ? "text-right" : "text-left"}`}>
-                <thead>
-                  <tr>
-                    <th className="p-2 min-w-[110px] border-b font-bold text-slate-600">{ui.pronoun}</th>
-                    {getSessionTenses(currentVerb).map((t) => (
-                      <th key={t} className="p-2 min-w-[160px] border-b font-bold text-slate-600">{TENSE_LABELS[t]}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {PRONOUNS.map((pronoun) => (
-                    <tr key={pronoun}>
-                      <td dir="ltr" lang="de" className="p-2 border-b text-slate-800 font-semibold text-left">{PRONOUN_LABELS[pronoun]}</td>
-                      {getSessionTenses(currentVerb).map((t) => {
-                        const form = getTenseValue(currentVerb, t, pronoun);
-                        return (
-                          <td key={t} className="p-2 min-w-[160px] border-b text-slate-800">
-                            <div className="flex items-center justify-start gap-2">
-                              <span dir="ltr" lang="de" className="text-left break-words">{form || "-"}</span>
-                              {form && <AudioButton text={form} speed={settings.speechSpeed} size={14} />}
-                            </div>
-                          </td>
-                        );
-                      })}
+              <div dir="ltr" className="text-left">
+                <table className="w-full min-w-[1100px] border-collapse text-left">
+                  <thead>
+                    <tr>
+                      <th className="p-2 min-w-[110px] border-b font-bold text-slate-600 text-left">Pronomen</th>
+                      {getSessionTenses(currentVerb).map((t) => (
+                        <th key={t} className="p-2 min-w-[160px] border-b font-bold text-slate-600 text-left">{TENSE_LABELS[t]}</th>
+                      ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {PRONOUNS.map((pronoun) => (
+                      <tr key={pronoun}>
+                        <td dir="ltr" lang="de" className="p-2 border-b text-slate-800 font-semibold text-left">{PRONOUN_LABELS[pronoun]}</td>
+                        {getSessionTenses(currentVerb).map((t) => {
+                          const form = getTenseValue(currentVerb, t, pronoun);
+                          return (
+                            <td key={t} className="p-2 min-w-[160px] border-b text-slate-800 text-left">
+                              <div className="flex items-center justify-start gap-2">
+                                <span dir="ltr" lang="de" className="text-left break-words">{form || "-"}</span>
+                                {form && <AudioButton text={form} speed={settings.speechSpeed} size={14} />}
+                              </div>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
 
               <div className="flex justify-center pt-4">
                 <button
@@ -662,7 +664,7 @@ export default function ZeitenTrainer({ onNavigate, settings }: ZeitenTrainerPro
                   {currentVerb.arabic}
                 </p>
                 <div className="mt-4 text-lg font-bold">
-                  {ui.pronoun}: <span className="text-blue-600">{PRONOUN_LABELS[currentPronoun]}</span>
+                  {ui.pronoun}: <span dir="ltr" lang="de" className="text-blue-600 inline-block">{PRONOUN_LABELS[currentPronoun]}</span>
                 </div>
               </div>
 

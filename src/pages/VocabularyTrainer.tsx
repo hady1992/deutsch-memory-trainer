@@ -25,6 +25,7 @@ import {
   getVocabularyWritingQuestion,
   VocabularyTrainingQuestion,
 } from "../services/vocabularyTrainingService";
+import { ensureCorrectOption } from "../services/choiceOptionService";
 import { Vocabulary, UserSettings } from "../types";
 import AudioButton from "../components/AudioButton";
 
@@ -229,8 +230,10 @@ export default function VocabularyTrainer({ onNavigate, settings }: VocabularyTr
 
     if (currentMode === "quiz") {
       const question = getVocabularyMeaningQuestion(item, vocabList);
-      setQuizQuestion(question);
-      setChoiceOptions(question.options || []);
+      const correctAnswer = question.correctAnswer || question.answer;
+      const options = ensureCorrectOption(question.options, correctAnswer, question.options?.length || 4);
+      setQuizQuestion({ ...question, options: options || [], correctAnswer });
+      setChoiceOptions(options || []);
     } else if (currentMode === "writing") {
       setWritingQuestion(getVocabularyWritingQuestion(item));
     }

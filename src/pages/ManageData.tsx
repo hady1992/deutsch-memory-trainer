@@ -1223,10 +1223,12 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </label>
                   <input
                     type="text"
+                    dir="ltr"
+                    lang="de"
                     value={verbForm.prefix}
                     onChange={(e) => setVerbForm({ ...verbForm, prefix: e.target.value })}
                     placeholder="ab"
-                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium focus:outline-none focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium text-left focus:outline-none focus:border-blue-500"
                   />
                 </div>
 
@@ -1279,10 +1281,12 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </label>
                   <input
                     type="text"
+                    dir="ltr"
+                    lang="de"
                     value={verbForm.tags}
                     onChange={(e) => setVerbForm({ ...verbForm, tags: e.target.value })}
                     placeholder="trennbar, unregelmäßig, B1/B2"
-                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium focus:outline-none focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium text-left focus:outline-none focus:border-blue-500"
                   />
                 </div>
               </div>
@@ -1406,13 +1410,13 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                 </div>
 
                 {verbForm.tenses && (
-                  <div className="overflow-x-auto border border-slate-100 rounded-xl">
-                    <table className={`w-full min-w-[900px] text-xs ${isRtl ? "text-right" : "text-left"}`}>
+                  <div dir="ltr" className="overflow-x-auto border border-slate-100 rounded-xl text-left">
+                    <table className="w-full min-w-[900px] text-xs text-left">
                       <thead className="bg-slate-50 text-slate-500 uppercase tracking-wider">
                         <tr>
-                          <th className="p-2 font-bold">{ui.pronoun}</th>
+                          <th className="p-2 font-bold text-left">Pronomen</th>
                           {TENSE_COLUMNS.map((tense) => (
-                            <th key={tense.key} className="p-2 font-bold">
+                            <th key={tense.key} className="p-2 font-bold text-left">
                               {tense.label}
                             </th>
                           ))}
@@ -1421,9 +1425,9 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                       <tbody className="divide-y divide-slate-100">
                         {PRONOUN_ROWS.map((pronoun) => (
                           <tr key={pronoun.key}>
-                            <td className="p-2 font-bold text-slate-600 bg-slate-50/50">{pronoun.label}</td>
+                            <td dir="ltr" lang="de" className="p-2 font-bold text-slate-600 bg-slate-50/50 text-left">{pronoun.label}</td>
                             {TENSE_COLUMNS.map((tense) => (
-                              <td key={tense.key} className="p-1.5">
+                              <td key={tense.key} className="p-1.5 text-left">
                                 <input
                                   type="text"
                                   dir="ltr"
@@ -1894,9 +1898,11 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </label>
                   <input
                     type="text"
+                    dir="ltr"
+                    lang="de"
                     value={vocabForm.synonyms}
                     onChange={(e) => setVocabForm({ ...vocabForm, synonyms: e.target.value })}
-                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium focus:outline-none focus:border-indigo-500"
+                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium text-left focus:outline-none focus:border-indigo-500"
                   />
                 </div>
 
@@ -1906,10 +1912,12 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </label>
                   <input
                     type="text"
+                    dir="ltr"
+                    lang="de"
                     value={vocabForm.tags}
                     onChange={(e) => setVocabForm({ ...vocabForm, tags: e.target.value })}
                     placeholder="Nomen, B1/B2"
-                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium focus:outline-none focus:border-indigo-500"
+                    className="w-full px-3 py-2 border border-slate-200 rounded-lg text-xs font-medium text-left focus:outline-none focus:border-indigo-500"
                   />
                 </div>
               </div>
