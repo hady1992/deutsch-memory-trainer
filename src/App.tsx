@@ -37,6 +37,7 @@ import {
   GeneralVocabularyTrainer,
 } from "./pages/SpecializedVocabularyTrainer";
 import VerbCategoryTrainer from "./pages/VerbCategoryTrainer";
+import DailyStudySet from "./pages/DailyStudySet";
 
 import { ProgressService } from "./services/progressService";
 import { UserSettings } from "./types";
@@ -57,6 +58,7 @@ import ZeitenTrainer from "./pages/ZeitenTrainer";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<string>("dashboard");
+  const [navigationParams, setNavigationParams] = useState<any>(null);
   const [settings, setSettings] = useState<UserSettings>(defaultSettings);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dailyCompletedCount, setDailyCompletedCount] = useState(0);
@@ -123,8 +125,9 @@ export default function App() {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(newSettings));
   };
 
-  const handleNavigate = (page: string) => {
+  const handleNavigate = (page: string, params?: any) => {
     setCurrentPage(page);
+    setNavigationParams(params || null);
     setMobileMenuOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -415,6 +418,13 @@ export default function App() {
             )}
             {currentPage === "review" && <Review onNavigate={handleNavigate} settings={settings} />}
             {currentPage === "mistakes" && <MistakeReview onNavigate={handleNavigate} settings={settings} />}
+            {currentPage === "daily-study-set" && (
+              <DailyStudySet
+                onNavigate={handleNavigate}
+                settings={settings}
+                action={navigationParams?.action}
+              />
+            )}
             {currentPage === "manage" && <ManageData onNavigate={handleNavigate} settings={settings} />}
             {currentPage === "settings" && (
               <Settings

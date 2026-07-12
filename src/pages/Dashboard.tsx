@@ -12,6 +12,7 @@ import {
 } from "../services/dataEnrichmentService.js";
 import { LastSessionResult, UserSettings } from "../types";
 import { getTranslation } from "../services/translationService";
+import { DailyStudySet, getDailyStudySet } from "../services/dailyStudySetService";
 
 interface DashboardProps {
   onNavigate: (page: string, params?: any) => void;
@@ -62,6 +63,7 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
   });
 
   const [lastSession, setLastSession] = useState<LastSessionResult | null>(null);
+  const [dailyStudySet, setDailyStudySet] = useState<DailyStudySet | null>(null);
   const [loading, setLoading] = useState(true);
   const [recentDifficult, setRecentDifficult] = useState<any[]>([]);
 
@@ -151,6 +153,7 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
 
         const last = ProgressService.getLastSessionResult();
         setLastSession(last);
+        setDailyStudySet(getDailyStudySet());
 
         // Fetch actual dynamic difficult items
         const list: any[] = [];
@@ -305,6 +308,64 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
     { label: qualityLabels.vocabNeedingReview, value: qualityStats.vocabNeedingReview, color: "text-amber-600" },
     { label: qualityLabels.vocabWithPlural, value: qualityStats.vocabWithPlural, color: "text-indigo-600" },
   ];
+  const dailySetLabels = isRtl
+    ? {
+        title: "مجموعة اليوم",
+        empty: "لا توجد مجموعة حالية.",
+        emptyDescription: "أنشئ مجموعة ثابتة لتكرار نفس المفردات يوميًا.",
+        create: "إنشاء مجموعة",
+        continue: "متابعة التدريب",
+        startSame: "ابدأ جولة جديدة بنفس المجموعة",
+        restart: "إعادة المجموعة",
+        edit: "تعديل",
+        verbs: "أفعال",
+        nouns: "أسماء",
+        adjectives: "صفات",
+        progress: "التقدم",
+        rounds: "الجولات المكتملة",
+        correct: "الصحيح",
+        wrong: "الخطأ",
+        created: "تاريخ الإنشاء",
+        verbItems: "فعلًا",
+        nounItems: "اسمًا",
+        adjectiveItems: "صفةً",
+      }
+    : {
+        title: "Daily Study Set",
+        empty: "No current set.",
+        emptyDescription: "Create a fixed set to repeat the same items every day.",
+        create: "Create set",
+        continue: "Continue training",
+        startSame: "Start a new round with this set",
+        restart: "Restart set",
+        edit: "Edit",
+        verbs: "Verbs",
+        nouns: "Nouns",
+        adjectives: "Adjectives",
+        progress: "Progress",
+        rounds: "Completed rounds",
+        correct: "Correct",
+        wrong: "Wrong",
+        created: "Created",
+        verbItems: "verbs",
+        nounItems: "nouns",
+        adjectiveItems: "adjectives",
+      };
+  const dailySetTypeLabel = dailyStudySet
+    ? dailyStudySet.contentType === "verbs"
+      ? dailySetLabels.verbs
+      : dailyStudySet.contentType === "nouns"
+      ? dailySetLabels.nouns
+      : dailySetLabels.adjectives
+    : "";
+  const dailySetAnswered = Object.keys(dailyStudySet?.currentRound?.results || {}).length;
+  const dailySetItemUnit = dailyStudySet
+    ? dailyStudySet.contentType === "verbs"
+      ? dailySetLabels.verbItems
+      : dailyStudySet.contentType === "nouns"
+      ? dailySetLabels.nounItems
+      : dailySetLabels.adjectiveItems
+    : "";
 
   return (
     <div id={id} className="space-y-6 max-w-6xl mx-auto px-4 sm:px-6" dir={isRtl ? "rtl" : "ltr"}>
@@ -345,6 +406,74 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
               style={{ width: `${Math.min(100, dailyGoalPercent)}%` }} 
             />
           </div>
+        </div>
+      </div>
+
+      {/* Daily Study Set */}
+      <div className="bg-white border border-slate-200 rounded-xl p-5 sm:p-6 shadow-sm space-y-5">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <div className="flex items-center gap-2 text-blue-700">
+              <BookOpen size={21} />
+              <h2 className="text-lg font-black text-slate-900">{dailySetLabels.title}</h2>
+            </div>
+            {!dailyStudySet ? (
+              <div className="mt-3 space-y-1">
+                <p className="text-sm font-bold text-slate-700">{dailySetLabels.empty}</p>
+                <p className="text-xs text-slate-500">{dailySetLabels.emptyDescription}</p>
+              </div>
+            ) : (
+              <div className="mt-3">
+                <p className="text-sm font-black text-slate-800">{dailySetTypeLabel}</p>
+                <p className="text-xs font-bold text-slate-500 mt-1">
+                  {dailyStudySet.count} {dailySetItemUnit}
+                </p>
+              </div>
+            )}
+          </div>
+          {dailyStudySet && (
+            <div className="text-center shrink-0">
+              <span className="text-2xl font-black text-blue-600">{dailySetAnswered}/{dailyStudySet.count}</span>
+              <p className="text-[10px] font-bold text-slate-400 mt-1">{dailySetLabels.progress}</p>
+            </div>
+          )}
+        </div>
+
+        {dailyStudySet && (
+          <>
+            <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-blue-600 transition-all"
+                style={{ width: `${dailyStudySet.count ? Math.min(100, (dailySetAnswered / dailyStudySet.count) * 100) : 0}%` }}
+              />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div><p className="text-[10px] font-bold text-slate-400">{dailySetLabels.rounds}</p><p className="text-lg font-black text-slate-900">{dailyStudySet.completedRounds}</p></div>
+              <div><p className="text-[10px] font-bold text-slate-400">{dailySetLabels.correct}</p><p className="text-lg font-black text-emerald-600">{dailyStudySet.totalCorrect}</p></div>
+              <div><p className="text-[10px] font-bold text-slate-400">{dailySetLabels.wrong}</p><p className="text-lg font-black text-rose-600">{dailyStudySet.totalWrong}</p></div>
+              <div><p className="text-[10px] font-bold text-slate-400">{dailySetLabels.created}</p><p className="text-xs font-black text-slate-700 mt-1">{new Intl.DateTimeFormat(isRtl ? "ar" : "de", { dateStyle: "medium" }).format(new Date(dailyStudySet.createdAt))}</p></div>
+            </div>
+          </>
+        )}
+
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+          {!dailyStudySet ? (
+            <button onClick={() => onNavigate("daily-study-set", { action: "create" })} className="min-h-11 px-5 py-3 bg-blue-600 text-white rounded-lg font-bold text-sm inline-flex items-center justify-center gap-2">
+              <Plus size={17} /> {dailySetLabels.create}
+            </button>
+          ) : (
+            <>
+              <button onClick={() => onNavigate("daily-study-set", { action: "continue" })} className="min-h-11 px-5 py-3 bg-blue-600 text-white rounded-lg font-bold text-sm inline-flex items-center justify-center gap-2">
+                <Play size={17} /> {dailyStudySet.currentRound && !dailyStudySet.currentRound.completed ? dailySetLabels.continue : dailySetLabels.startSame}
+              </button>
+              <button onClick={() => onNavigate("daily-study-set", { action: "restart" })} className="min-h-11 px-5 py-3 border border-slate-200 rounded-lg font-bold text-sm inline-flex items-center justify-center gap-2">
+                <RefreshCw size={17} /> {dailySetLabels.restart}
+              </button>
+              <button onClick={() => onNavigate("daily-study-set", { action: "edit" })} className="min-h-11 px-5 py-3 border border-slate-200 rounded-lg font-bold text-sm inline-flex items-center justify-center gap-2">
+                {dailySetLabels.edit}
+              </button>
+            </>
+          )}
         </div>
       </div>
 
