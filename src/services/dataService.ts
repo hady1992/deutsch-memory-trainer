@@ -4,6 +4,16 @@ const CUSTOM_VERBS_KEY = "dmt_custom_verbs";
 const CUSTOM_VOCAB_KEY = "dmt_custom_vocab";
 const OVERRIDE_VERBS_KEY = "dmt_override_verbs";
 const OVERRIDE_VOCAB_KEY = "dmt_override_vocab";
+const DATA_VERSION = "2026-07-12-reviewed-v2";
+const REVIEWED_DATA_PATHS = new Set([
+  "/data/verbs.json",
+  "/data/nouns.json",
+  "/data/adjectives.json",
+]);
+
+function dataUrl(path: string): string {
+  return REVIEWED_DATA_PATHS.has(path) ? `${path}?v=${DATA_VERSION}` : path;
+}
 
 export class DataService {
   private static cachedVerbs: Verb[] = [];
@@ -11,7 +21,7 @@ export class DataService {
   private static cachedVerbCategories: VerbCategory[] = [];
 
   private static async loadJsonArray<T>(path: string): Promise<T[]> {
-    const response = await fetch(path);
+    const response = await fetch(dataUrl(path), { cache: "no-store" });
     if (!response.ok) return [];
     const data = await response.json();
     return Array.isArray(data) ? data : [];
@@ -45,7 +55,7 @@ export class DataService {
   public static async getVerbs(): Promise<Verb[]> {
     try {
       // 1. Fetch defaults
-      const response = await fetch("/data/verbs.json");
+      const response = await fetch(dataUrl("/data/verbs.json"), { cache: "no-store" });
       let defaultVerbs: Verb[] = [];
       if (response.ok) {
         defaultVerbs = await response.json();
