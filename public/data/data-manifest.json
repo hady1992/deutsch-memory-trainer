@@ -1,13 +1,19 @@
 {
   "schemaVersion": "split-vocabulary-v3-expanded-examples",
-  "generatedAt": "2026-06-29",
-  "source": "split_vocabulary_files_v2 based on vocabulary(2).json",
+  "manifestVersion": "2026-07-13",
+  "updatedAt": "2026-07-13",
+  "source": "Current production content files for DEUTSCH Memory Trainer",
+  "repository": "hady1992/deutsch-memory-trainer",
+  "branch": "main",
+  "referenceCommit": "881f7cdfadbeb7d2ca560d6de4f9dd0847a32937",
   "files": {
-    "nouns.json": 526,
+    "verbs.json": 269,
+    "nouns.json": 524,
     "adjectives.json": 180,
     "phrases.json": 297,
     "other-vocabulary.json": 151
   },
+  "totalItems": 1421,
   "trainingFamilies": [
     "verbs",
     "nouns",
@@ -17,15 +23,62 @@
     "phrases",
     "other-vocabulary"
   ],
+  "reviewStatus": {
+    "verbs.json": {
+      "status": "reviewed",
+      "idsPreserved": true,
+      "notes": "Verb forms, tense examples and Arabic translations were reviewed in previous content passes."
+    },
+    "nouns.json": {
+      "status": "reviewed",
+      "idsPreserved": true,
+      "notes": "Articles, plural forms, examples and Arabic translations were reviewed."
+    },
+    "adjectives.json": {
+      "status": "reviewed",
+      "idsPreserved": true,
+      "notes": "Meanings, examples and supported comparison training were reviewed."
+    },
+    "phrases.json": {
+      "status": "production",
+      "idsPreserved": true,
+      "notes": "Production phrase content remains at 297 items."
+    },
+    "other-vocabulary.json": {
+      "status": "reviewed",
+      "idsPreserved": true,
+      "notes": "Template examples were replaced with contextual German sentences and accurate Arabic translations."
+    }
+  },
+  "contentRules": {
+    "preserveExistingIds": true,
+    "newItemsRequireNewIds": true,
+    "blockExactDuplicates": true,
+    "previewBeforeImport": true,
+    "protectUserProgress": true,
+    "progressKeyCompatibilityRequired": true
+  },
   "validation": {
-    "errors": 0,
-    "warnings": 0
+    "manifestConsistency": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "projectChecks": {
+      "status": "must_run_in_repository",
+      "commands": [
+        "npm.cmd run data:audit",
+        "npm.cmd run test:content",
+        "npm.cmd run lint",
+        "npm.cmd run build"
+      ]
+    }
   },
   "notes": [
-    "Examples were expanded and Arabic example texts were regenerated from each item Arabic meaning.",
-    "Risky automatic adjective comparative/superlative training was disabled to avoid wrong practice.",
-    "All items remain needsReview=true for final human review.",
-    "Pair nouns with der/die were fixed with answerOptions and separate masculine/feminine examples.",
-    "German example sentence capitalization and explanatory Arabic phrase translations were cleaned in v3 final pass."
+    "Production content is stored in five separate JSON files.",
+    "Existing IDs must never be changed because user progress, favorites and daily study sets depend on them.",
+    "Generic template examples such as 'Das Wort ... bedeutet auf Arabisch ...' are not accepted as final learning examples.",
+    "German examples and Arabic translations must remain semantically aligned.",
+    "Counts in this manifest reflect the current approved project state: 269 verbs, 524 nouns, 180 adjectives, 297 phrases and 151 other vocabulary items.",
+    "Full application validation must be run inside the project repository before deployment."
   ]
 }

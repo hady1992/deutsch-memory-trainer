@@ -3,7 +3,8 @@
     "id": "akkusativ",
     "title_ar": "أفعال مع Akkusativ",
     "title_de": "Verben mit Akkusativ",
-    "description_ar": "أفعال يكون المفعول المباشر معها غالبًا في حالة Akkusativ.",
+    "description_ar": "أفعال متعدّية تتطلّب غالبًا مفعولًا به مباشرًا في حالة Akkusativ.",
+    "description_de": "Transitive Verben, die in der Regel ein direktes Objekt im Akkusativ verlangen.",
     "count": 140,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -15,24 +16,39 @@
     "exampleBank": [
       {
         "de": "Ich brauche einen Termin.",
-        "ar": "أنا أحتاج إلى موعد.",
+        "ar": "أحتاج إلى موعد.",
         "answer": "Akkusativ",
-        "note_ar": "einen Termin = Akkusativ"
+        "note_ar": "einen Termin: مفعول به مباشر في حالة Akkusativ.",
+        "pattern": "brauchen + Akkusativ"
       },
       {
         "de": "Sie unterschreibt den Vertrag.",
         "ar": "هي توقّع العقد.",
         "answer": "Akkusativ",
-        "note_ar": "den Vertrag = Akkusativ"
+        "note_ar": "den Vertrag: مفعول به مباشر في حالة Akkusativ.",
+        "pattern": "unterschreiben + Akkusativ"
+      },
+      {
+        "de": "Wir prüfen die Unterlagen.",
+        "ar": "نراجع المستندات.",
+        "answer": "Akkusativ",
+        "note_ar": "die Unterlagen: مفعول به مباشر في حالة Akkusativ.",
+        "pattern": "prüfen + Akkusativ"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "dativ",
     "title_ar": "أفعال مع Dativ",
     "title_de": "Verben mit Dativ",
-    "description_ar": "أفعال يكون المفعول/الشخص معها غالبًا في حالة Dativ.",
+    "description_ar": "أفعال تتطلّب مفعولًا به في حالة Dativ؛ وغالبًا يدلّ هذا المفعول على شخص أو جهة تتأثر بالفعل.",
+    "description_de": "Verben, die ein Objekt im Dativ verlangen; dieses bezeichnet häufig eine Person oder beteiligte Stelle.",
     "count": 11,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -44,24 +60,39 @@
     "exampleBank": [
       {
         "de": "Ich helfe dem Kollegen.",
-        "ar": "أنا أساعد الزميل.",
+        "ar": "أساعد الزميل.",
         "answer": "Dativ",
-        "note_ar": "dem Kollegen = Dativ"
+        "note_ar": "dem Kollegen: مفعول به في حالة Dativ.",
+        "pattern": "helfen + Dativ"
       },
       {
         "de": "Das gehört meiner Frau.",
-        "ar": "هذا يخص زوجتي.",
+        "ar": "هذا يخصّ زوجتي.",
         "answer": "Dativ",
-        "note_ar": "meiner Frau = Dativ"
+        "note_ar": "meiner Frau: مفعول به في حالة Dativ.",
+        "pattern": "gehören + Dativ"
+      },
+      {
+        "de": "Bitte antworten Sie dem Kunden.",
+        "ar": "يرجى الردّ على الزبون.",
+        "answer": "Dativ",
+        "note_ar": "dem Kunden: مفعول به في حالة Dativ.",
+        "pattern": "antworten + Dativ"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "dativ_akkusativ",
-    "title_ar": "أفعال مع Dativ + Akkusativ",
+    "title_ar": "أفعال مع Dativ وAkkusativ",
     "title_de": "Verben mit Dativ und Akkusativ",
-    "description_ar": "أفعال غالبًا يكون الشخص معها Dativ والشيء Akkusativ.",
+    "description_ar": "أفعال تأتي غالبًا مع مفعولين: الشخص أو المستفيد في حالة Dativ، والشيء في حالة Akkusativ.",
+    "description_de": "Verben mit zwei Objekten: Die Person oder der Empfänger steht meist im Dativ, die Sache im Akkusativ.",
     "count": 16,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -75,22 +106,37 @@
         "de": "Ich gebe dem Kollegen den Schlüssel.",
         "ar": "أعطي الزميل المفتاح.",
         "answer": "Dativ + Akkusativ",
-        "note_ar": "dem Kollegen = Dativ, den Schlüssel = Akkusativ"
+        "note_ar": "dem Kollegen = Dativ، وden Schlüssel = Akkusativ.",
+        "pattern": "jemandem etwas geben"
       },
       {
         "de": "Sie erklärt dem Kunden die Rechnung.",
         "ar": "هي تشرح للزبون الفاتورة.",
         "answer": "Dativ + Akkusativ",
-        "note_ar": "dem Kunden = Dativ, die Rechnung = Akkusativ"
+        "note_ar": "dem Kunden = Dativ، وdie Rechnung = Akkusativ.",
+        "pattern": "jemandem etwas erklären"
+      },
+      {
+        "de": "Wir schicken der Firma die Unterlagen.",
+        "ar": "نرسل المستندات إلى الشركة.",
+        "answer": "Dativ + Akkusativ",
+        "note_ar": "der Firma = Dativ، وdie Unterlagen = Akkusativ.",
+        "pattern": "jemandem etwas schicken"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "prepositional",
-    "title_ar": "أفعال مع حروف الجر",
-    "title_de": "Verben mit Präpositionen",
-    "description_ar": "أفعال لها حرف جر ثابت أو شائع مع حالة معيّنة.",
+    "title_ar": "أفعال مع حروف جر ثابتة",
+    "title_de": "Verben mit festen Präpositionen",
+    "description_ar": "أفعال يرتبط معناها أو استعمالها بحرف جر محدّد، ويحدّد هذا الحرف الحالة الإعرابية للاسم أو الضمير بعده.",
+    "description_de": "Verben mit einer festen Präposition; die Präposition bestimmt den Kasus der folgenden Ergänzung.",
     "count": 22,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -102,22 +148,39 @@
     "exampleBank": [
       {
         "de": "Ich warte auf den Bus.",
-        "ar": "أنا أنتظر الحافلة.",
+        "ar": "أنتظر الحافلة.",
+        "answer": "auf + Akkusativ",
+        "note_ar": "warten auf + Akkusativ",
         "pattern": "warten auf + Akkusativ"
       },
       {
         "de": "Das hängt vom Wetter ab.",
         "ar": "هذا يعتمد على الطقس.",
+        "answer": "von + Dativ",
+        "note_ar": "abhängen von + Dativ؛ vom = von dem.",
         "pattern": "abhängen von + Dativ"
+      },
+      {
+        "de": "Sie nimmt an der Besprechung teil.",
+        "ar": "هي تشارك في الاجتماع.",
+        "answer": "an + Dativ",
+        "note_ar": "teilnehmen an + Dativ",
+        "pattern": "teilnehmen an + Dativ"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "trennbar",
-    "title_ar": "أفعال منفصلة",
+    "title_ar": "الأفعال المنفصلة",
     "title_de": "Trennbare Verben",
-    "description_ar": "أفعال تنفصل بادئتها في Präsens وPräteritum غالبًا.",
+    "description_ar": "أفعال ذات بادئة منفصلة. في الجملة الرئيسية تنفصل البادئة عن الفعل المصرّف وتأتي غالبًا في آخر الجملة، بينما تبقى متصلة به في الجملة الفرعية.",
+    "description_de": "Verben mit trennbarem Präfix. Im Hauptsatz steht das Präfix meist am Satzende; im Nebensatz bleibt es mit dem Verb verbunden.",
     "count": 69,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -130,21 +193,38 @@
       {
         "de": "Ich stehe morgen früh auf.",
         "ar": "سأستيقظ غدًا باكرًا.",
-        "note_ar": "البادئة auf تأتي آخر الجملة."
+        "answer": "auf",
+        "note_ar": "في الجملة الرئيسية تأتي البادئة auf في آخر الجملة.",
+        "pattern": "aufstehen → ich stehe ... auf"
       },
       {
         "de": "Der Zug fährt um acht Uhr ab.",
-        "ar": "القطار ينطلق الساعة الثامنة.",
-        "note_ar": "البادئة ab تأتي آخر الجملة."
+        "ar": "ينطلق القطار الساعة الثامنة.",
+        "answer": "ab",
+        "note_ar": "في الجملة الرئيسية تأتي البادئة ab في آخر الجملة.",
+        "pattern": "abfahren → der Zug fährt ... ab"
+      },
+      {
+        "de": "Ich gehe früh schlafen, weil ich morgen früh aufstehe.",
+        "ar": "أذهب إلى النوم مبكرًا لأنني سأستيقظ غدًا باكرًا.",
+        "answer": "aufstehe",
+        "note_ar": "في الجملة الفرعية تبقى البادئة متصلة بالفعل.",
+        "pattern": "weil ... aufstehe"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "nicht_trennbar",
-    "title_ar": "أفعال غير منفصلة",
-    "title_de": "Nicht trennbare / einfache Verben",
-    "description_ar": "أفعال لا تنفصل بادئتها أو ليست أفعالًا منفصلة.",
+    "title_ar": "أفعال غير منفصلة وأفعال بسيطة",
+    "title_de": "Nicht trennbare und einfache Verben",
+    "description_ar": "تضم هذه الفئة الأفعال ذات البادئات غير المنفصلة، مثل be- وver- وent-، إضافةً إلى الأفعال البسيطة التي لا تحتوي على بادئة منفصلة.",
+    "description_de": "Diese Kategorie umfasst Verben mit untrennbarem Präfix, etwa be-, ver- oder ent-, sowie einfache Verben ohne trennbares Präfix.",
     "count": 200,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -152,14 +232,42 @@
       "meaning"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "Ich verstehe die Aufgabe.",
+        "ar": "أفهم المهمة.",
+        "answer": "nicht trennbar",
+        "note_ar": "البادئة ver- غير منفصلة.",
+        "pattern": "verstehen → ich verstehe"
+      },
+      {
+        "de": "Er erkennt den Fehler.",
+        "ar": "هو يكتشف الخطأ.",
+        "answer": "nicht trennbar",
+        "note_ar": "البادئة er- غير منفصلة.",
+        "pattern": "erkennen → er erkennt"
+      },
+      {
+        "de": "Wir bleiben heute zu Hause.",
+        "ar": "نبقى اليوم في المنزل.",
+        "answer": "einfaches Verb",
+        "note_ar": "bleiben فعل بسيط بلا بادئة منفصلة.",
+        "pattern": "bleiben"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "reflexiv",
-    "title_ar": "أفعال انعكاسية",
-    "title_de": "Reflexive Verben",
-    "description_ar": "أفعال أو استخدامات تحتاج ضميرًا انعكاسيًا مثل sich/mich/mir.",
+    "title_ar": "الأفعال والاستعمالات الانعكاسية",
+    "title_de": "Reflexive Verben und reflexive Verwendungen",
+    "description_ar": "أفعال أو استعمالات فعلية تتطلّب ضميرًا انعكاسيًا مثل mich وdich وsich؛ وقد يكون الضمير في Akkusativ أو Dativ بحسب الفعل والتركيب.",
+    "description_de": "Verben oder Verwendungen mit Reflexivpronomen wie mich, dich oder sich; der Kasus kann je nach Verb Akkusativ oder Dativ sein.",
     "count": 12,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -171,22 +279,39 @@
     "exampleBank": [
       {
         "de": "Ich erinnere mich an den Termin.",
-        "ar": "أنا أتذكر الموعد.",
-        "note_ar": "mich = ضمير انعكاسي"
+        "ar": "أتذكّر الموعد.",
+        "answer": "mich",
+        "note_ar": "sich erinnern an + Akkusativ؛ mich ضمير انعكاسي في Akkusativ.",
+        "pattern": "sich erinnern an + Akkusativ"
       },
       {
         "de": "Sie bewirbt sich um eine Stelle.",
-        "ar": "هي تتقدم لوظيفة.",
-        "note_ar": "sich = ضمير انعكاسي"
+        "ar": "هي تتقدّم لوظيفة.",
+        "answer": "sich",
+        "note_ar": "sich bewerben um + Akkusativ.",
+        "pattern": "sich bewerben um + Akkusativ"
+      },
+      {
+        "de": "Ich wasche mir die Hände.",
+        "ar": "أغسل يديّ.",
+        "answer": "mir",
+        "note_ar": "mir ضمير انعكاسي في Dativ لأن die Hände هي المفعول به في Akkusativ.",
+        "pattern": "sich (Dativ) etwas waschen"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "perfekt_sein",
     "title_ar": "أفعال Perfekt مع sein",
     "title_de": "Perfekt mit sein",
-    "description_ar": "أفعال تستخدم sein في Perfekt.",
+    "description_ar": "أفعال تكوّن زمن Perfekt باستخدام sein، وخاصةً كثيرًا من أفعال الانتقال من مكان إلى آخر وتغيّر الحالة، إضافةً إلى أفعال خاصة يحدّدها الاستعمال.",
+    "description_de": "Verben, die das Perfekt mit sein bilden, besonders viele Ortswechsel- und Zustandsänderungsverben sowie einige feste Ausnahmen.",
     "count": 50,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -197,22 +322,40 @@
     "exampleBank": [
       {
         "de": "Ich bin nach Hause gegangen.",
-        "ar": "ذهبت إلى البيت.",
-        "answer": "sein"
+        "ar": "ذهبت إلى المنزل.",
+        "answer": "sein",
+        "note_ar": "gehen → ist gegangen.",
+        "pattern": "sein + Partizip II"
       },
       {
-        "de": "Der Zug ist abgefahren.",
-        "ar": "القطار انطلق.",
-        "answer": "sein"
+        "de": "Der Zug ist pünktlich abgefahren.",
+        "ar": "انطلق القطار في موعده.",
+        "answer": "sein",
+        "note_ar": "abfahren → ist abgefahren.",
+        "pattern": "sein + Partizip II"
+      },
+      {
+        "de": "Die Pflanze ist schnell gewachsen.",
+        "ar": "نمت النبتة بسرعة.",
+        "answer": "sein",
+        "note_ar": "wachsen يدلّ على تغيّر الحالة ويستخدم هنا sein.",
+        "pattern": "sein + Partizip II"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13",
+    "countNote_ar": "لا تشمل هذه الفئة الفعلين الموسومين haben/sein، لأن فعلهما المساعد يتغيّر بحسب المعنى أو الاستعمال."
   },
   {
     "id": "perfekt_haben",
     "title_ar": "أفعال Perfekt مع haben",
     "title_de": "Perfekt mit haben",
-    "description_ar": "أفعال تستخدم haben في Perfekt.",
+    "description_ar": "أفعال تكوّن زمن Perfekt باستخدام haben؛ وتشمل معظم الأفعال المتعدّية وكثيرًا من الأفعال التي لا تعبّر عن انتقال مكاني أو تغيّر حالة.",
+    "description_de": "Verben, die das Perfekt mit haben bilden; dazu gehören die meisten transitiven Verben und viele Verben ohne Orts- oder Zustandswechsel.",
     "count": 217,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -223,22 +366,40 @@
     "exampleBank": [
       {
         "de": "Ich habe die Unterlagen abgegeben.",
-        "ar": "سلّمت الأوراق.",
-        "answer": "haben"
+        "ar": "سلّمت المستندات.",
+        "answer": "haben",
+        "note_ar": "abgeben → hat abgegeben.",
+        "pattern": "haben + Partizip II"
       },
       {
         "de": "Sie hat den Vertrag unterschrieben.",
-        "ar": "هي وقّعت العقد.",
-        "answer": "haben"
+        "ar": "وقّعت العقد.",
+        "answer": "haben",
+        "note_ar": "unterschreiben → hat unterschrieben.",
+        "pattern": "haben + Partizip II"
+      },
+      {
+        "de": "Wir haben die Angaben überprüft.",
+        "ar": "تحقّقنا من البيانات.",
+        "answer": "haben",
+        "note_ar": "überprüfen → hat überprüft.",
+        "pattern": "haben + Partizip II"
       }
     ],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13",
+    "countNote_ar": "لا تشمل هذه الفئة الفعلين الموسومين haben/sein، لأن فعلهما المساعد يتغيّر بحسب المعنى أو الاستعمال."
   },
   {
     "id": "modalverben",
-    "title_ar": "Modalverben",
+    "title_ar": "الأفعال الناقصة (Modalverben)",
     "title_de": "Modalverben",
-    "description_ar": "الأفعال الناقصة: dürfen, können, mögen, müssen, sollen, wollen.",
+    "description_ar": "الأفعال الناقصة الأساسية: dürfen وkönnen وmögen وmüssen وsollen وwollen. يأتي الفعل الآخر معها غالبًا في صيغة المصدر في آخر الجملة.",
+    "description_de": "Die sechs zentralen Modalverben: dürfen, können, mögen, müssen, sollen und wollen. Das Vollverb steht meist im Infinitiv am Satzende.",
     "count": 6,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -246,14 +407,42 @@
       "present_forms"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "Ich muss heute länger arbeiten.",
+        "ar": "يجب عليّ أن أعمل مدة أطول اليوم.",
+        "answer": "müssen",
+        "note_ar": "muss فعل ناقص، وarbeiten يأتي في صيغة المصدر آخر الجملة.",
+        "pattern": "Modalverb + Infinitiv"
+      },
+      {
+        "de": "Darf ich hier parken?",
+        "ar": "هل يُسمح لي بالوقوف هنا؟",
+        "answer": "dürfen",
+        "note_ar": "darf يعبّر عن السماح أو الإذن.",
+        "pattern": "Modalverb + Infinitiv"
+      },
+      {
+        "de": "Wir wollen das Problem gemeinsam lösen.",
+        "ar": "نريد حلّ المشكلة معًا.",
+        "answer": "wollen",
+        "note_ar": "wollen يعبّر عن الإرادة أو النية.",
+        "pattern": "Modalverb + Infinitiv"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "hilfsverben",
     "title_ar": "الأفعال المساعدة",
     "title_de": "Hilfsverben",
-    "description_ar": "الأفعال المساعدة الأساسية: haben, sein, werden.",
+    "description_ar": "الأفعال المساعدة الأساسية haben وsein وwerden، وتُستخدم في بناء الأزمنة المركبة والمبني للمجهول، وقد تأتي أيضًا أفعالًا مستقلة.",
+    "description_de": "Die Hilfsverben haben, sein und werden dienen zur Bildung zusammengesetzter Zeiten und des Passivs; sie können auch als Vollverben verwendet werden.",
     "count": 3,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -261,14 +450,42 @@
       "forms"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "Ich habe die Aufgabe erledigt.",
+        "ar": "أنجزت المهمة.",
+        "answer": "haben",
+        "note_ar": "haben فعل مساعد لتكوين Perfekt.",
+        "pattern": "haben + Partizip II"
+      },
+      {
+        "de": "Der Zug ist angekommen.",
+        "ar": "وصل القطار.",
+        "answer": "sein",
+        "note_ar": "sein فعل مساعد لتكوين Perfekt.",
+        "pattern": "sein + Partizip II"
+      },
+      {
+        "de": "Der Vertrag wird unterschrieben.",
+        "ar": "يُوقَّع العقد.",
+        "answer": "werden",
+        "note_ar": "werden فعل مساعد لبناء المبني للمجهول في المضارع.",
+        "pattern": "werden + Partizip II"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "unregelmaessig",
-    "title_ar": "أفعال شاذة / قوية",
-    "title_de": "Unregelmäßige Verben",
-    "description_ar": "أفعال ذات تصريفات غير منتظمة.",
+    "title_ar": "الأفعال القوية وغير المنتظمة",
+    "title_de": "Starke und unregelmäßige Verben",
+    "description_ar": "أفعال لا تتبع جميعها نمط التصريف المنتظم؛ فقد يتغيّر جذرها في Präteritum أو Partizip II أو في بعض صيغ Präsens، لذلك تُحفظ صيغها الأساسية مع الاستعمال.",
+    "description_de": "Verben, die nicht vollständig dem regelmäßigen Konjugationsmuster folgen; Stammvokal oder Formen können sich im Präsens, Präteritum oder Partizip II verändern.",
     "count": 269,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -277,14 +494,43 @@
       "conjugation"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "fahren – fuhr – ist gefahren",
+        "ar": "يسافر/ينطلق – سافر/انطلق – سافر/انطلق بصيغة Perfekt.",
+        "answer": "fuhr / ist gefahren",
+        "note_ar": "يتغيّر جذر الفعل في Präteritum وPartizip II.",
+        "pattern": "Infinitiv – Präteritum – Perfekt"
+      },
+      {
+        "de": "nehmen – nahm – hat genommen",
+        "ar": "يأخذ – أخذ – أخذ بصيغة Perfekt.",
+        "answer": "nahm / hat genommen",
+        "note_ar": "يتغيّر حرف العلة في الماضي، وصيغة Partizip II غير منتظمة.",
+        "pattern": "Infinitiv – Präteritum – Perfekt"
+      },
+      {
+        "de": "bringen – brachte – hat gebracht",
+        "ar": "يجلب – جلب – جلب بصيغة Perfekt.",
+        "answer": "brachte / hat gebracht",
+        "note_ar": "bringen فعل مختلط: نهايات منتظمة مع تغيّر في الجذر.",
+        "pattern": "gemischtes Verb"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13",
+    "countNote_ar": "ملف الأفعال الإنتاجي الحالي مخصّص للأفعال القوية وغير المنتظمة؛ لذلك ترتبط جميع عناصره البالغ عددها 269 بهذه الفئة."
   },
   {
     "id": "regelmaessig",
-    "title_ar": "أفعال نظامية",
+    "title_ar": "الأفعال المنتظمة",
     "title_de": "Regelmäßige Verben",
-    "description_ar": "أفعال ذات تصريفات منتظمة.",
+    "description_ar": "أفعال تكوّن Präteritum غالبًا بإضافة -te، وتكوّن Partizip II وفق النمط المنتظم. لا توجد حاليًا عناصر مرتبطة بهذه الفئة في ملف الأفعال الإنتاجي، لذلك هي معطّلة.",
+    "description_de": "Verben, die das Präteritum meist mit -te und das Partizip II nach dem regelmäßigen Muster bilden. Der aktuellen Produktionsdatei sind keine Verben dieser Kategorie zugeordnet; daher ist sie deaktiviert.",
     "count": 0,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -294,13 +540,21 @@
     ],
     "enabled": false,
     "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13",
+    "disabledReason_ar": "لا توجد أفعال منتظمة ضمن ملف الإنتاج الحالي المخصّص للأفعال القوية وغير المنتظمة.",
+    "disabledReason_de": "Die aktuelle Produktionsdatei enthält keine dieser Kategorie zugeordneten regelmäßigen Verben."
   },
   {
     "id": "beruf_alltag",
     "title_ar": "أفعال مهمة للعمل والمعاملات",
-    "title_de": "Beruf & Alltag",
-    "description_ar": "أفعال تظهر في سياق العمل والمعاملات والدوام.",
+    "title_de": "Wichtige Verben für Beruf und Behördenalltag",
+    "description_ar": "أفعال شائعة في بيئة العمل والمراسلات والعقود والمواعيد والإجراءات الإدارية.",
+    "description_de": "Häufige Verben aus Arbeitswelt, Korrespondenz, Verträgen, Terminen und Verwaltungsabläufen.",
     "count": 37,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -308,14 +562,42 @@
       "example"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "Bitte unterschreiben Sie den Vertrag bis Freitag.",
+        "ar": "يرجى توقيع العقد حتى يوم الجمعة.",
+        "answer": "unterschreiben",
+        "note_ar": "فعل شائع في العقود والمعاملات.",
+        "pattern": "einen Vertrag unterschreiben"
+      },
+      {
+        "de": "Bitte geben Sie die Unterlagen am Empfang ab.",
+        "ar": "يرجى تسليم المستندات عند الاستقبال.",
+        "answer": "abgeben",
+        "note_ar": "فعل شائع عند تقديم المستندات والطلبات.",
+        "pattern": "Unterlagen abgeben"
+      },
+      {
+        "de": "Sie übernimmt ab Montag die Leitung des Teams.",
+        "ar": "ستتولى إدارة الفريق اعتبارًا من يوم الاثنين.",
+        "answer": "übernehmen",
+        "note_ar": "فعل شائع عند الحديث عن المسؤوليات والمهام.",
+        "pattern": "eine Aufgabe / die Leitung übernehmen"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   },
   {
     "id": "wohnen_alltag",
     "title_ar": "أفعال مهمة للسكن والحياة اليومية",
-    "title_de": "Wohnen & Alltag",
-    "description_ar": "أفعال تظهر في سياق السكن والبيت والحياة اليومية.",
+    "title_de": "Wichtige Verben für Wohnen und Alltag",
+    "description_ar": "أفعال شائعة في موضوعات السكن والمنزل والانتقال والإصلاحات والأنشطة اليومية.",
+    "description_de": "Häufige Verben rund um Wohnung, Haushalt, Umzug, Reparaturen und alltägliche Abläufe.",
     "count": 21,
     "filterField": "categoryIds",
     "trainingModes": [
@@ -323,7 +605,34 @@
       "example"
     ],
     "enabled": true,
-    "exampleBank": [],
-    "updatedAt": "2026-06-29"
+    "exampleBank": [
+      {
+        "de": "Wir ziehen nächsten Monat um.",
+        "ar": "سننتقل إلى منزل آخر الشهر القادم.",
+        "answer": "umziehen",
+        "note_ar": "فعل شائع عند الحديث عن الانتقال إلى مسكن جديد.",
+        "pattern": "in eine andere Wohnung umziehen"
+      },
+      {
+        "de": "Der Hausmeister schließt die Kellertür ab.",
+        "ar": "يقفل مسؤول المبنى باب القبو.",
+        "answer": "abschließen",
+        "note_ar": "فعل شائع في سياق السكن والأمان.",
+        "pattern": "eine Tür abschließen"
+      },
+      {
+        "de": "Wir bleiben heute wegen des Wetters zu Hause.",
+        "ar": "سنبقى اليوم في المنزل بسبب الطقس.",
+        "answer": "bleiben",
+        "note_ar": "فعل شائع في الحياة اليومية والسكن.",
+        "pattern": "zu Hause bleiben"
+      }
+    ],
+    "countSource": "verbs.json → categoryIds",
+    "reviewed": true,
+    "reviewStatus": "linguistically_and_structurally_reviewed",
+    "schemaVersion": "verb-categories-reviewed-v1",
+    "updatedAt": "2026-07-13",
+    "reviewedAt": "2026-07-13"
   }
 ]
