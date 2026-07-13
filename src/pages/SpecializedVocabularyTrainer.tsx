@@ -278,6 +278,49 @@ function adjectiveQuestion(item: Vocabulary, allItems: Vocabulary[], mode: Adjec
   return adjectiveWritingQuestion(item);
 }
 
+function hasMeaningPrompt(item: Vocabulary): boolean {
+  const training = item.meaningTraining || item.adjectiveTraining?.meaning || item.generalVocabularyTraining?.meaning;
+  return Boolean(
+    firstString(training?.answer_ar || item.arabic) &&
+    firstString(training?.question || item.term || item.phrase || item.rawTerm)
+  );
+}
+
+function isEligibleItem(item: Vocabulary, kind: TrainerKind, adjectiveMode: AdjectiveMode): boolean {
+  if (kind === "article") {
+    return Boolean(firstString(item.articleTraining?.answer || item.article));
+  }
+  if (kind === "plural") {
+    const training = item.pluralTraining || {};
+    return training.hasPlural !== false && Boolean(firstString(training.answer || item.pluralTerm || item.plural));
+  }
+  if (kind === "phrase") {
+    const gapExamples = [
+      ...(Array.isArray(item.gapExamples) ? item.gapExamples : []),
+      item.phraseTraining?.fillBlank,
+      item.gapExample,
+    ].filter(Boolean);
+    return gapExamples.some((example) => example?.answer && firstString(example?.de).includes("_")) || hasMeaningPrompt(item);
+  }
+  if (kind === "general") return hasMeaningPrompt(item);
+
+  if (adjectiveMode === "german") {
+    return Boolean(
+      firstString(item.adjectiveTraining?.writeGerman?.answer || item.term) &&
+      firstString(item.adjectiveTraining?.writeGerman?.question_ar || item.arabic)
+    );
+  }
+  if (adjectiveMode === "writing") {
+    return Boolean(firstString(item.term || item.rawTerm) && firstString(item.arabic));
+  }
+  if (adjectiveMode === "sentence") {
+    const term = firstString(item.term);
+    const hasSentence = Boolean(term && (item.examples || []).some((example) => firstString(example.de).includes(term)));
+    return hasSentence || hasMeaningPrompt(item);
+  }
+  return hasMeaningPrompt(item);
+}
+
 function prepareQuestion(question: VocabularyTrainingQuestion | null, item: Vocabulary): VocabularyTrainingQuestion | null {
   if (!question) return null;
   const visibleText = firstString(question.visibleText || question.promptDe || question.promptAr || getVocabularyFullTerm(item));
@@ -312,6 +355,7 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
   const [wrongCount, setWrongCount] = useState(0);
   const [finished, setFinished] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
   const [adjectiveMode, setAdjectiveMode] = useState<AdjectiveMode>("learn");
   const isRtl = settings.language === "ar";
 
@@ -319,6 +363,7 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
     ? {
         dashboard: "لوحة التحكم",
         loading: "جاري التحميل...",
+        loadError: "تعذر تحميل بيانات هذا المدرب. حاول فتح الصفحة مرة أخرى.",
         empty: "لا توجد عناصر مناسبة لهذا التدريب.",
         question: "السؤال",
         check: "تحقق من الإجابة",
@@ -344,6 +389,7 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
     : {
         dashboard: "Dashboard",
         loading: "Loading...",
+        loadError: "This trainer's data could not be loaded. Please open the page again.",
         empty: "No suitable items for this trainer.",
         question: "Question",
         check: "Check answer",
@@ -380,7 +426,7 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
       : config.makeQuestion(item, list);
 
   const eligibleItems = useMemo(
-    () => items.filter((item) => Boolean(makeQuestionForItem(item, items))),
+    () => items.filter((item) => isEligibleItem(item, config.kind, adjectiveMode)),
     [adjectiveMode, config, items]
   );
 
@@ -418,10 +464,19 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
     let mounted = true;
     async function load() {
       setLoading(true);
-      const data = await config.loadItems();
-      if (!mounted) return;
-      setItems(data);
-      setLoading(false);
+      setLoadError(false);
+      try {
+        const data = await config.loadItems();
+        if (!mounted) return;
+        setItems(data);
+      } catch (error) {
+        console.error(`[${config.kind} trainer] Failed to load data`, error);
+        if (!mounted) return;
+        setItems([]);
+        setLoadError(true);
+      } finally {
+        if (mounted) setLoading(false);
+      }
     }
     load();
     return () => {
@@ -430,12 +485,11 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
   }, [config]);
 
   useEffect(() => {
-    if (!loading && items.length) {
-      const available = items.filter((item) => Boolean(makeQuestionForItem(item, items)));
-      startSession(available);
+    if (!loading && eligibleItems.length) {
+      startSession(eligibleItems);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loading, items, adjectiveMode]);
+  }, [loading, eligibleItems]);
 
   const checkAnswer = () => {
     if (!question || !currentItem || !currentAnswer.trim()) return;
@@ -527,7 +581,7 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
         <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-10 text-center">
           <HelpCircle className="mx-auto text-slate-300 mb-3" size={34} />
           <h2 className="font-black text-slate-800">{title}</h2>
-          <p className="text-sm text-slate-500 mt-2">{ui.empty}</p>
+          <p className="text-sm text-slate-500 mt-2">{loadError ? ui.loadError : ui.empty}</p>
         </div>
       </div>
     );
@@ -554,7 +608,13 @@ function SpecialtyVocabularyTrainer({ config, onNavigate, settings }: TrainerPro
     );
   }
 
-  if (!currentItem || !question) return null;
+  if (!currentItem || !question) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 text-center text-sm font-bold text-slate-500">
+        {ui.loading}
+      </div>
+    );
+  }
   const learningExample = preferredExample(currentItem);
   const adjectiveTerm = firstString(currentItem.term || currentItem.rawTerm);
 

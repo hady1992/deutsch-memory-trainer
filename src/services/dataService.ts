@@ -90,6 +90,8 @@ export class DataService {
   private static cachedVerbs: Verb[] = [];
   private static cachedVocab: Vocabulary[] = [];
   private static cachedVerbCategories: VerbCategory[] = [];
+  private static dataFileCache = new Map<string, unknown[]>();
+  private static pendingDataFiles = new Map<string, Promise<unknown[]>>();
 
   private static clearCaches(): void {
     this.cachedVerbs = [];
@@ -97,10 +99,21 @@ export class DataService {
   }
 
   private static async loadJsonArray<T>(path: string): Promise<T[]> {
-    const response = await fetch(dataUrl(path), { cache: "no-store" });
-    if (!response.ok) return [];
-    const data = await response.json();
-    return Array.isArray(data) ? data : [];
+    const cached = this.dataFileCache.get(path);
+    if (cached) return cached as T[];
+    const pending = this.pendingDataFiles.get(path);
+    if (pending) return pending as Promise<T[]>;
+
+    const request = (async () => {
+      const response = await fetch(dataUrl(path), { cache: "no-store" });
+      if (!response.ok) return [];
+      const data = await response.json();
+      const items = Array.isArray(data) ? data : [];
+      this.dataFileCache.set(path, items);
+      return items;
+    })().finally(() => this.pendingDataFiles.delete(path));
+    this.pendingDataFiles.set(path, request);
+    return request as Promise<T[]>;
   }
 
   private static normalizeVocabularyItem(item: Vocabulary): Vocabulary {
@@ -219,6 +232,7 @@ export class DataService {
   }
 
   public static async getVerbs(): Promise<Verb[]> {
+    if (this.cachedVerbs.length) return this.cachedVerbs;
     try {
       const defaults = await this.loadJsonArray<Verb>("/data/verbs.json");
       const store = this.getLocalContentStore();
@@ -274,6 +288,7 @@ export class DataService {
   }
 
   public static async getVocabulary(): Promise<Vocabulary[]> {
+    if (this.cachedVocab.length) return this.cachedVocab;
     try {
       let defaults = await this.loadSplitVocabulary();
       if (!defaults.length) {

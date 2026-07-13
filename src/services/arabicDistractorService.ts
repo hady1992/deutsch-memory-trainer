@@ -21,6 +21,8 @@ interface ItemProfile {
   searchableText: string;
 }
 
+const profileCache = new WeakMap<object, Map<string, ItemProfile>>();
+
 const SEMANTIC_GROUPS: Array<{ name: string; patterns: RegExp[] }> = [
   {
     name: "participation",
@@ -233,6 +235,11 @@ function profileFor<T>(
   options: ArabicDistractorOptions<T>,
   isTarget: boolean
 ): ItemProfile {
+  const cacheOwner = item && typeof item === "object" ? item as object : null;
+  const cacheKey = `${isTarget ? "target" : "candidate"}|${answer}|${options.sourceType || ""}|${options.targetKind || ""}`;
+  const cached = cacheOwner ? profileCache.get(cacheOwner)?.get(cacheKey) : undefined;
+  if (cached) return cached;
+
   const raw = asRecord(item);
   const kind = inferKind(raw, isTarget ? options.targetKind : undefined);
   const sourceType = String(
@@ -276,7 +283,7 @@ function profileFor<T>(
     .filter(Boolean)
     .join(" ");
 
-  return {
+  const profile = {
     answer,
     normalizedAnswer: normalizeArabicText(answer),
     kind,
@@ -292,6 +299,12 @@ function profileFor<T>(
     ]),
     searchableText,
   };
+  if (cacheOwner) {
+    const itemCache = profileCache.get(cacheOwner) || new Map<string, ItemProfile>();
+    itemCache.set(cacheKey, profile);
+    profileCache.set(cacheOwner, itemCache);
+  }
+  return profile;
 }
 
 function intersectionCount(left: string[], right: string[]): number {
@@ -315,6 +328,15 @@ export function scoreArabicDistractor<T>(
 ): number {
   const target = profileFor(targetItem, correctAnswer, options, true);
   const candidate = profileFor(candidateItem, candidateAnswer, options, false);
+  return scoreProfiles(target, candidate, correctAnswer, candidateAnswer);
+}
+
+function scoreProfiles(
+  target: ItemProfile,
+  candidate: ItemProfile,
+  correctAnswer: string,
+  candidateAnswer: string
+): number {
   if (!candidate.normalizedAnswer || isSameOrNearArabicMeaning(correctAnswer, candidateAnswer)) return Number.NEGATIVE_INFINITY;
 
   let score = 0;
@@ -360,7 +382,7 @@ export function selectArabicDistractors<T>(
         candidate,
         answer: answerVariant,
         profile,
-        score: scoreArabicDistractor(targetItem, candidate, correctAnswer, answerVariant, options),
+        score: scoreProfiles(targetProfile, profile, correctAnswer, answerVariant),
         sameId: targetId !== undefined && candidateId !== undefined && String(targetId) === String(candidateId),
         };
       });
