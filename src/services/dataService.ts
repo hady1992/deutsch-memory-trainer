@@ -1,18 +1,89 @@
 import { Verb, VerbCategory, Vocabulary } from "../types";
+import {
+  ContentFamily,
+  createNextContentId,
+  getContentIdentityKey,
+  getGermanContentTerm,
+  getPotentialDuplicateKey,
+  inferContentFamily,
+  sameContentId,
+} from "./contentIdentityService";
+import {
+  AppliedImport,
+  applyContentImportPreview,
+  ExistingUpdateDecision,
+  ImportPreviewReport,
+  ImportableContent,
+  PotentialDuplicateDecision,
+} from "./contentImportService";
+import { DATA_VERSION } from "./dataVersion";
 
 const CUSTOM_VERBS_KEY = "dmt_custom_verbs";
 const CUSTOM_VOCAB_KEY = "dmt_custom_vocab";
 const OVERRIDE_VERBS_KEY = "dmt_override_verbs";
 const OVERRIDE_VOCAB_KEY = "dmt_override_vocab";
-const DATA_VERSION = "2026-07-12-reviewed-v2";
-const REVIEWED_DATA_PATHS = new Set([
+export const CONTENT_STORE_KEY = "dmt_content_store_v2";
+
+const VERSIONED_DATA_PATHS = new Set([
   "/data/verbs.json",
   "/data/nouns.json",
   "/data/adjectives.json",
+  "/data/phrases.json",
+  "/data/other-vocabulary.json",
 ]);
 
 function dataUrl(path: string): string {
-  return REVIEWED_DATA_PATHS.has(path) ? `${path}?v=${DATA_VERSION}` : path;
+  return VERSIONED_DATA_PATHS.has(path) ? `${path}?v=${DATA_VERSION}` : path;
+}
+
+export type SaveContentReason = "exact_duplicate" | "id_conflict" | "invalid";
+
+export interface SaveContentResult {
+  success: boolean;
+  action: "created" | "updated" | "blocked";
+  reason?: SaveContentReason;
+  existingId?: number | string;
+  message?: string;
+  potentialDuplicateIds?: Array<number | string>;
+}
+
+export interface LocalContentStoreCore {
+  version: 2;
+  customVerbs: Verb[];
+  customVocab: Vocabulary[];
+  overrideVerbs: Record<string, Verb>;
+  overrideVocab: Record<string, Vocabulary>;
+}
+
+export interface LocalContentStore extends LocalContentStoreCore {
+  lastImportBackup?: {
+    createdAt: string;
+    data: LocalContentStoreCore;
+  };
+}
+
+function emptyStore(): LocalContentStore {
+  return { version: 2, customVerbs: [], customVocab: [], overrideVerbs: {}, overrideVocab: {} };
+}
+
+function parseStorage<T>(key: string, fallback: T): T {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (error) {
+    console.error(`[DataService] Invalid local storage value for ${key}`, error);
+    return fallback;
+  }
+}
+
+function cloneStoreCore(store: LocalContentStore): LocalContentStoreCore {
+  return {
+    version: 2,
+    customVerbs: store.customVerbs.map((item) => ({ ...item })),
+    customVocab: store.customVocab.map((item) => ({ ...item })),
+    overrideVerbs: { ...store.overrideVerbs },
+    overrideVocab: { ...store.overrideVocab },
+  };
 }
 
 export class DataService {
@@ -20,15 +91,16 @@ export class DataService {
   private static cachedVocab: Vocabulary[] = [];
   private static cachedVerbCategories: VerbCategory[] = [];
 
+  private static clearCaches(): void {
+    this.cachedVerbs = [];
+    this.cachedVocab = [];
+  }
+
   private static async loadJsonArray<T>(path: string): Promise<T[]> {
     const response = await fetch(dataUrl(path), { cache: "no-store" });
     if (!response.ok) return [];
     const data = await response.json();
     return Array.isArray(data) ? data : [];
-  }
-
-  private static numericId(value: number | string | undefined): number {
-    return typeof value === "number" && Number.isFinite(value) ? value : 0;
   }
 
   private static normalizeVocabularyItem(item: Vocabulary): Vocabulary {
@@ -51,75 +123,125 @@ export class DataService {
     };
   }
 
-  // Load merged list of verbs
+  public static getLocalContentStore(): LocalContentStore {
+    const current = parseStorage<LocalContentStore | null>(CONTENT_STORE_KEY, null);
+    if (current?.version === 2) {
+      return {
+        ...emptyStore(),
+        ...current,
+        customVerbs: Array.isArray(current.customVerbs) ? current.customVerbs : [],
+        customVocab: Array.isArray(current.customVocab) ? current.customVocab : [],
+        overrideVerbs: current.overrideVerbs && typeof current.overrideVerbs === "object" ? current.overrideVerbs : {},
+        overrideVocab: current.overrideVocab && typeof current.overrideVocab === "object" ? current.overrideVocab : {},
+      };
+    }
+    return {
+      version: 2,
+      customVerbs: parseStorage<Verb[]>(CUSTOM_VERBS_KEY, []),
+      customVocab: parseStorage<Vocabulary[]>(CUSTOM_VOCAB_KEY, []),
+      overrideVerbs: parseStorage<Record<string, Verb>>(OVERRIDE_VERBS_KEY, {}),
+      overrideVocab: parseStorage<Record<string, Vocabulary>>(OVERRIDE_VOCAB_KEY, {}),
+    };
+  }
+
+  public static replaceLocalContentStore(store: LocalContentStore, keepImportBackup = false): void {
+    const next: LocalContentStore = {
+      ...emptyStore(),
+      ...store,
+      version: 2,
+      customVerbs: [...store.customVerbs],
+      customVocab: [...store.customVocab],
+      overrideVerbs: { ...store.overrideVerbs },
+      overrideVocab: { ...store.overrideVocab },
+    };
+    if (keepImportBackup) {
+      const previous = this.getLocalContentStore();
+      next.lastImportBackup = { createdAt: new Date().toISOString(), data: cloneStoreCore(previous) };
+    }
+    localStorage.setItem(CONTENT_STORE_KEY, JSON.stringify(next));
+    this.clearCaches();
+  }
+
+  private static mergeLocalItems<T extends Verb | Vocabulary>(
+    defaults: T[],
+    overrides: Record<string, T>,
+    customs: T[],
+    familyFor: (item: T) => ContentFamily
+  ): T[] {
+    const mergedDefaults = defaults.map((base) => {
+      const override = overrides[String(base.id)];
+      if (!override) return base;
+      if ((override as any).isDeleted) return { ...base, ...override };
+      const family = familyFor(base);
+      const baseIdentity = getContentIdentityKey(base, family);
+      const overrideIdentity = getContentIdentityKey(override, family);
+      if (overrideIdentity && overrideIdentity !== baseIdentity) {
+        console.error(`[DataService] Ignoring unsafe override for id ${base.id}: German identity changed.`);
+        return base;
+      }
+      return { ...base, ...override, id: base.id };
+    });
+
+    const byId = new Map<string, T>();
+    const byIdentity = new Map<string, T>();
+    mergedDefaults.forEach((item) => {
+      byId.set(String(item.id), item);
+      const identity = getContentIdentityKey(item, familyFor(item));
+      if (identity) byIdentity.set(identity, item);
+    });
+
+    const working = [...mergedDefaults];
+    customs.forEach((raw) => {
+      const family = familyFor(raw);
+      const identity = getContentIdentityKey(raw, family);
+      const id = raw.id || createNextContentId(working, family);
+      const item = { ...raw, id, isCustom: true } as T;
+      const idMatch = byId.get(String(id));
+      if (idMatch && getContentIdentityKey(idMatch, familyFor(idMatch)) !== identity) {
+        console.error(`[DataService] Ignoring custom item with conflicting id ${id}.`);
+        return;
+      }
+      const identityMatch = byIdentity.get(identity);
+      if (identityMatch && !sameContentId(identityMatch.id, id)) {
+        console.error(`[DataService] Ignoring duplicate custom identity ${identity}.`);
+        return;
+      }
+      if (idMatch) {
+        const index = working.findIndex((candidate) => sameContentId(candidate.id, id));
+        working[index] = item;
+      } else {
+        working.push(item);
+      }
+      byId.set(String(id), item);
+      if (identity) byIdentity.set(identity, item);
+    });
+    return working.filter((item) => !(item as any).isDeleted);
+  }
+
   public static async getVerbs(): Promise<Verb[]> {
     try {
-      // 1. Fetch defaults
-      const response = await fetch(dataUrl("/data/verbs.json"), { cache: "no-store" });
-      let defaultVerbs: Verb[] = [];
-      if (response.ok) {
-        defaultVerbs = await response.json();
-      }
-
-      // 2. Load overrides
-      const overrideVerbsRaw = localStorage.getItem(OVERRIDE_VERBS_KEY);
-      const overrideVerbs: Record<number, Verb> = overrideVerbsRaw ? JSON.parse(overrideVerbsRaw) : {};
-
-      // 3. Load custom items
-      const customVerbsRaw = localStorage.getItem(CUSTOM_VERBS_KEY);
-      const customVerbs: Verb[] = customVerbsRaw ? JSON.parse(customVerbsRaw) : [];
-
-      // 4. Merge default and overrides
-      const mergedDefaults = defaultVerbs.map((verb) => {
-        if (overrideVerbs[verb.id]) {
-          return { ...verb, ...overrideVerbs[verb.id] };
-        }
-        return verb;
-      });
-
-      // 5. Combine with custom items, avoiding duplicate IDs
-      // Ensure custom items have proper IDs if not set
-      let maxId = Math.max(0, ...mergedDefaults.map((v) => v.id), ...customVerbs.map((v) => v.id));
-      const finalizedCustom = customVerbs.map((verb) => {
-        if (!verb.id) {
-          maxId++;
-          return { ...verb, id: maxId, isCustom: true };
-        }
-        return { ...verb, isCustom: true };
-      });
-
-      // Combine and filter duplicates by ID
-      const allVerbsMap = new Map<number, Verb>();
-      mergedDefaults.forEach((v) => allVerbsMap.set(v.id, v));
-      finalizedCustom.forEach((v) => allVerbsMap.set(v.id, v));
-
-      const result = Array.from(allVerbsMap.values()).filter((v) => !(v as any).isDeleted);
+      const defaults = await this.loadJsonArray<Verb>("/data/verbs.json");
+      const store = this.getLocalContentStore();
+      const result = this.mergeLocalItems(defaults, store.overrideVerbs, store.customVerbs, () => "verbs");
       this.cachedVerbs = result;
-      console.log(`[DataService] Loaded ${result.length} verbs (Source: real JSON from /data/verbs.json + custom/overrides)`);
       return result;
-    } catch (e) {
-      console.error("Error fetching or parsing verbs.json", e);
-      // Fallback to overrides and customs only
-      const customVerbsRaw = localStorage.getItem(CUSTOM_VERBS_KEY);
-      const customVerbs: Verb[] = customVerbsRaw ? JSON.parse(customVerbsRaw) : [];
-      this.cachedVerbs = customVerbs;
-      console.log(`[DataService] Loaded ${customVerbs.length} verbs (Source: fallback to local custom data)`);
-      return customVerbs;
+    } catch (error) {
+      console.error("Error fetching or parsing verbs.json", error);
+      const customs = this.getLocalContentStore().customVerbs;
+      this.cachedVerbs = customs;
+      return customs;
     }
   }
 
   public static async getVerbCategories(): Promise<VerbCategory[]> {
     try {
-      const response = await fetch("/data/verb-categories.json");
-      if (!response.ok) {
-        this.cachedVerbCategories = [];
-        return [];
-      }
+      const response = await fetch("/data/verb-categories.json", { cache: "no-store" });
+      if (!response.ok) return [];
       const categories: VerbCategory[] = await response.json();
       this.cachedVerbCategories = categories.filter((category) => category.enabled !== false);
       return this.cachedVerbCategories;
-    } catch (e) {
-      console.error("Error fetching or parsing verb-categories.json", e);
+    } catch (error) {
+      console.error("Error fetching or parsing verb-categories.json", error);
       this.cachedVerbCategories = [];
       return [];
     }
@@ -151,182 +273,189 @@ export class DataService {
     return [...nouns, ...adjectives, ...phrases, ...other].map((item) => this.normalizeVocabularyItem(item));
   }
 
-  // Load merged list of vocabulary
   public static async getVocabulary(): Promise<Vocabulary[]> {
     try {
-      // 1. Fetch split v3 defaults first; keep vocabulary.json as fallback only.
-      let defaultVocab: Vocabulary[] = await this.loadSplitVocabulary();
-      let sourceLabel = "split v3 JSON from /data";
-
-      if (defaultVocab.length === 0) {
-        const response = await fetch("/data/vocabulary.json");
-        if (response.ok) {
-          const legacyData = await response.json();
-          defaultVocab = Array.isArray(legacyData) ? legacyData : [];
-          sourceLabel = "legacy /data/vocabulary.json fallback";
-        }
+      let defaults = await this.loadSplitVocabulary();
+      if (!defaults.length) {
+        defaults = await this.loadJsonArray<Vocabulary>("/data/vocabulary.json");
       }
-
-      // 2. Load overrides
-      const overrideVocabRaw = localStorage.getItem(OVERRIDE_VOCAB_KEY);
-      const overrideVocab: Record<string, Vocabulary> = overrideVocabRaw ? JSON.parse(overrideVocabRaw) : {};
-
-      // 3. Load custom items
-      const customVocabRaw = localStorage.getItem(CUSTOM_VOCAB_KEY);
-      const customVocab: Vocabulary[] = customVocabRaw ? JSON.parse(customVocabRaw) : [];
-
-      // 4. Merge default and overrides
-      const mergedDefaults = defaultVocab.map((item) => {
-        const key = String(item.id);
-        if (overrideVocab[key]) {
-          return { ...item, ...overrideVocab[key] };
-        }
-        return item;
-      });
-
-      // 5. Combine with custom items, avoiding duplicate IDs
-      let maxId = Math.max(0, ...mergedDefaults.map((v) => this.numericId(v.id)), ...customVocab.map((v) => this.numericId(v.id)));
-      const finalizedCustom = customVocab.map((item) => {
-        if (!item.id) {
-          maxId++;
-          return { ...item, id: maxId, isCustom: true };
-        }
-        return { ...item, isCustom: true };
-      });
-
-      // Combine and filter duplicates by ID
-      const allVocabMap = new Map<string, Vocabulary>();
-      mergedDefaults.forEach((v) => allVocabMap.set(String(v.id), v));
-      finalizedCustom.forEach((v) => allVocabMap.set(String(v.id), v));
-
-      const result = Array.from(allVocabMap.values()).filter((v) => !(v as any).isDeleted);
+      const store = this.getLocalContentStore();
+      const result = this.mergeLocalItems(
+        defaults,
+        store.overrideVocab,
+        store.customVocab,
+        (item) => inferContentFamily(item)
+      );
       this.cachedVocab = result;
-      console.log(`[DataService] Loaded ${result.length} vocabulary items (Source: ${sourceLabel} + custom/overrides)`);
       return result;
-    } catch (e) {
-      console.error("Error fetching or parsing vocabulary data", e);
-      const customVocabRaw = localStorage.getItem(CUSTOM_VOCAB_KEY);
-      const customVocab: Vocabulary[] = customVocabRaw ? JSON.parse(customVocabRaw) : [];
-      this.cachedVocab = customVocab;
-      console.log(`[DataService] Loaded ${customVocab.length} vocabulary items (Source: fallback to local custom data)`);
-      return customVocab;
+    } catch (error) {
+      console.error("Error fetching or parsing vocabulary data", error);
+      const customs = this.getLocalContentStore().customVocab;
+      this.cachedVocab = customs;
+      return customs;
     }
   }
 
-  // Save Verb (Custom, New, or Overridden default)
-  public static async saveVerb(verb: Verb): Promise<void> {
-    if (verb.isCustom) {
-      // It's a user-added custom item
-      const customVerbsRaw = localStorage.getItem(CUSTOM_VERBS_KEY);
-      let customVerbs: Verb[] = customVerbsRaw ? JSON.parse(customVerbsRaw) : [];
-      
-      if (verb.id) {
-        // Edit existing custom
-        customVerbs = customVerbs.map((v) => (v.id === verb.id ? verb : v));
+  private static potentialDuplicates<T extends Verb | Vocabulary>(
+    item: T,
+    existing: T[],
+    family: ContentFamily,
+    excludedId?: string | number
+  ): Array<string | number> {
+    const key = getPotentialDuplicateKey(item, family);
+    return existing
+      .filter((candidate) => !sameContentId(candidate.id, excludedId))
+      .filter((candidate) => {
+        const candidateFamily = family === "verbs" ? "verbs" : inferContentFamily(candidate as Vocabulary);
+        return getPotentialDuplicateKey(candidate, candidateFamily) === key &&
+          getContentIdentityKey(candidate, candidateFamily) !== getContentIdentityKey(item, family);
+      })
+      .map((candidate) => candidate.id);
+  }
+
+  public static async saveVerb(verb: Verb): Promise<SaveContentResult> {
+    const identity = getContentIdentityKey(verb, "verbs");
+    if (!identity || !String(verb.arabic || "").trim()) {
+      return { success: false, action: "blocked", reason: "invalid", message: "Verb requires infinitiv and Arabic meaning." };
+    }
+    const existing = await this.getVerbs();
+    const idMatch = verb.id ? existing.find((item) => sameContentId(item.id, verb.id)) : undefined;
+    if (idMatch && getContentIdentityKey(idMatch, "verbs") !== identity) {
+      return { success: false, action: "blocked", reason: "id_conflict", existingId: idMatch.id, message: "This id belongs to a different verb." };
+    }
+    const identityMatch = existing.find((item) => getContentIdentityKey(item, "verbs") === identity && !sameContentId(item.id, verb.id));
+    if (identityMatch) {
+      return { success: false, action: "blocked", reason: "exact_duplicate", existingId: identityMatch.id, message: `Verb already exists with id ${identityMatch.id}.` };
+    }
+
+    const store = this.getLocalContentStore();
+    const potentialDuplicateIds = this.potentialDuplicates(verb, existing, "verbs", verb.id);
+    if (idMatch) {
+      const updated = { ...idMatch, ...verb, id: idMatch.id, isCustom: idMatch.isCustom };
+      if (idMatch.isCustom) {
+        store.customVerbs = store.customVerbs.map((item) => sameContentId(item.id, idMatch.id) ? updated : item);
       } else {
-        // Add new custom
-        const verbs = await this.getVerbs();
-        const maxId = Math.max(0, ...verbs.map((v) => v.id));
-        verb.id = maxId + 1;
-        verb.isCustom = true;
-        customVerbs.push(verb);
+        store.overrideVerbs[String(idMatch.id)] = updated;
       }
-      localStorage.setItem(CUSTOM_VERBS_KEY, JSON.stringify(customVerbs));
-    } else {
-      // It's a default item being edited (override)
-      const overrideVerbsRaw = localStorage.getItem(OVERRIDE_VERBS_KEY);
-      const overrideVerbs: Record<number, Verb> = overrideVerbsRaw ? JSON.parse(overrideVerbsRaw) : {};
-      overrideVerbs[verb.id] = verb;
-      localStorage.setItem(OVERRIDE_VERBS_KEY, JSON.stringify(overrideVerbs));
+      this.replaceLocalContentStore(store);
+      return { success: true, action: "updated", existingId: idMatch.id, potentialDuplicateIds };
     }
+
+    const id = createNextContentId(existing, "verbs") as number;
+    store.customVerbs.push({ ...verb, id, isCustom: true });
+    this.replaceLocalContentStore(store);
+    return { success: true, action: "created", existingId: id, potentialDuplicateIds };
   }
 
-  // Save Vocabulary (Custom, New, or Overridden default)
-  public static async saveVocabulary(item: Vocabulary): Promise<void> {
-    if (item.isCustom) {
-      const customVocabRaw = localStorage.getItem(CUSTOM_VOCAB_KEY);
-      let customVocab: Vocabulary[] = customVocabRaw ? JSON.parse(customVocabRaw) : [];
-      
-      if (item.id) {
-        // Edit existing custom
-        customVocab = customVocab.map((v) => (v.id === item.id ? item : v));
+  public static async saveVocabulary(item: Vocabulary): Promise<SaveContentResult> {
+    const family = inferContentFamily(item);
+    const identity = getContentIdentityKey(item, family);
+    if (!identity || !String(item.arabic || "").trim()) {
+      return { success: false, action: "blocked", reason: "invalid", message: "Vocabulary requires a German term and Arabic meaning." };
+    }
+    const allExisting = await this.getVocabulary();
+    const familyItems = allExisting.filter((candidate) => inferContentFamily(candidate) === family);
+    const idMatch = item.id ? allExisting.find((candidate) => sameContentId(candidate.id, item.id)) : undefined;
+    if (idMatch) {
+      const idFamily = inferContentFamily(idMatch);
+      if (idFamily !== family || getContentIdentityKey(idMatch, idFamily) !== identity) {
+        return { success: false, action: "blocked", reason: "id_conflict", existingId: idMatch.id, message: "This id belongs to a different vocabulary identity." };
+      }
+    }
+    const identityMatch = familyItems.find((candidate) => getContentIdentityKey(candidate, family) === identity && !sameContentId(candidate.id, item.id));
+    if (identityMatch) {
+      return { success: false, action: "blocked", reason: "exact_duplicate", existingId: identityMatch.id, message: `Vocabulary already exists with id ${identityMatch.id}.` };
+    }
+
+    const store = this.getLocalContentStore();
+    const potentialDuplicateIds = this.potentialDuplicates(item, allExisting, family, item.id);
+    if (idMatch) {
+      const updated = { ...idMatch, ...item, id: idMatch.id, isCustom: idMatch.isCustom };
+      if (idMatch.isCustom) {
+        store.customVocab = store.customVocab.map((candidate) => sameContentId(candidate.id, idMatch.id) ? updated : candidate);
       } else {
-        // Add new custom
-        const vocab = await this.getVocabulary();
-        const maxId = Math.max(0, ...vocab.map((v) => this.numericId(v.id)));
-        item.id = maxId + 1;
-        item.isCustom = true;
-        customVocab.push(item);
+        store.overrideVocab[String(idMatch.id)] = updated;
       }
-      localStorage.setItem(CUSTOM_VOCAB_KEY, JSON.stringify(customVocab));
-    } else {
-      // It's a default item override
-      const overrideVocabRaw = localStorage.getItem(OVERRIDE_VOCAB_KEY);
-      const overrideVocab: Record<string, Vocabulary> = overrideVocabRaw ? JSON.parse(overrideVocabRaw) : {};
-      overrideVocab[String(item.id)] = item;
-      localStorage.setItem(OVERRIDE_VOCAB_KEY, JSON.stringify(overrideVocab));
+      this.replaceLocalContentStore(store);
+      return { success: true, action: "updated", existingId: idMatch.id, potentialDuplicateIds };
     }
+
+    const id = createNextContentId(familyItems, family);
+    store.customVocab.push({ ...item, id, isCustom: true });
+    this.replaceLocalContentStore(store);
+    return { success: true, action: "created", existingId: id, potentialDuplicateIds };
   }
 
-  // Delete an item
+  public static async applyImportPreview<T extends ImportableContent>(
+    preview: ImportPreviewReport<T>,
+    potentialDecisions: Record<number, PotentialDuplicateDecision> = {},
+    updateDecisions: Record<number, ExistingUpdateDecision> = {}
+  ): Promise<AppliedImport<T>> {
+    const allExisting = preview.family === "verbs"
+      ? await this.getVerbs()
+      : (await this.getVocabulary()).filter((item) => inferContentFamily(item) === preview.family);
+    const applied = applyContentImportPreview(allExisting as T[], preview, potentialDecisions, updateDecisions, true);
+    const store = this.getLocalContentStore();
+
+    applied.changes.forEach((change) => {
+      const previous = allExisting.find((item) => sameContentId(item.id, change.item.id));
+      if (preview.family === "verbs") {
+        const verb = change.item as Verb;
+        if (change.action === "created" || previous?.isCustom) {
+          const index = store.customVerbs.findIndex((item) => sameContentId(item.id, verb.id));
+          if (index >= 0) store.customVerbs[index] = { ...verb, isCustom: true };
+          else store.customVerbs.push({ ...verb, isCustom: true });
+        } else {
+          store.overrideVerbs[String(verb.id)] = { ...verb, isCustom: false };
+        }
+      } else {
+        const vocabulary = change.item as Vocabulary;
+        if (change.action === "created" || previous?.isCustom) {
+          const index = store.customVocab.findIndex((item) => sameContentId(item.id, vocabulary.id));
+          if (index >= 0) store.customVocab[index] = { ...vocabulary, isCustom: true };
+          else store.customVocab.push({ ...vocabulary, isCustom: true });
+        } else {
+          store.overrideVocab[String(vocabulary.id)] = { ...vocabulary, isCustom: false };
+        }
+      }
+    });
+
+    this.replaceLocalContentStore(store, true);
+    return applied;
+  }
+
   public static async deleteVerb(id: number, isCustom?: boolean): Promise<void> {
-    if (isCustom) {
-      const customVerbsRaw = localStorage.getItem(CUSTOM_VERBS_KEY);
-      if (customVerbsRaw) {
-        const customVerbs: Verb[] = JSON.parse(customVerbsRaw);
-        const filtered = customVerbs.filter((v) => v.id !== id);
-        localStorage.setItem(CUSTOM_VERBS_KEY, JSON.stringify(filtered));
-      }
-    } else {
-      // For default items, we "delete" them by adding them to a deleted list in overrides
-      const overrideVerbsRaw = localStorage.getItem(OVERRIDE_VERBS_KEY);
-      const overrideVerbs: Record<number, any> = overrideVerbsRaw ? JSON.parse(overrideVerbsRaw) : {};
-      // We can mark it as deleted so we filter it out during merge
-      overrideVerbs[id] = { id, isDeleted: true };
-      localStorage.setItem(OVERRIDE_VERBS_KEY, JSON.stringify(overrideVerbs));
-    }
+    const store = this.getLocalContentStore();
+    if (isCustom) store.customVerbs = store.customVerbs.filter((item) => !sameContentId(item.id, id));
+    else store.overrideVerbs[String(id)] = { id, isDeleted: true } as any;
+    this.replaceLocalContentStore(store);
   }
 
   public static async deleteVocabulary(id: number | string, isCustom?: boolean): Promise<void> {
-    if (isCustom) {
-      const customVocabRaw = localStorage.getItem(CUSTOM_VOCAB_KEY);
-      if (customVocabRaw) {
-        const customVocab: Vocabulary[] = JSON.parse(customVocabRaw);
-        const filtered = customVocab.filter((v) => String(v.id) !== String(id));
-        localStorage.setItem(CUSTOM_VOCAB_KEY, JSON.stringify(filtered));
-      }
-    } else {
-      const overrideVocabRaw = localStorage.getItem(OVERRIDE_VOCAB_KEY);
-      const overrideVocab: Record<string, any> = overrideVocabRaw ? JSON.parse(overrideVocabRaw) : {};
-      overrideVocab[String(id)] = { id, isDeleted: true };
-      localStorage.setItem(OVERRIDE_VOCAB_KEY, JSON.stringify(overrideVocab));
-    }
+    const store = this.getLocalContentStore();
+    if (isCustom) store.customVocab = store.customVocab.filter((item) => !sameContentId(item.id, id));
+    else store.overrideVocab[String(id)] = { id, isDeleted: true } as any;
+    this.replaceLocalContentStore(store);
   }
 
-  // Helper to check if item is deleted in overrides
   public static isVerbDeleted(id: number): boolean {
-    const overrideVerbsRaw = localStorage.getItem(OVERRIDE_VERBS_KEY);
-    if (overrideVerbsRaw) {
-      const overrideVerbs: Record<number, any> = JSON.parse(overrideVerbsRaw);
-      return !!overrideVerbs[id]?.isDeleted;
-    }
-    return false;
+    return Boolean((this.getLocalContentStore().overrideVerbs[String(id)] as any)?.isDeleted);
   }
 
   public static isVocabDeleted(id: number | string): boolean {
-    const overrideVocabRaw = localStorage.getItem(OVERRIDE_VOCAB_KEY);
-    if (overrideVocabRaw) {
-      const overrideVocab: Record<string, any> = JSON.parse(overrideVocabRaw);
-      return !!overrideVocab[String(id)]?.isDeleted;
-    }
-    return false;
+    return Boolean((this.getLocalContentStore().overrideVocab[String(id)] as any)?.isDeleted);
   }
 
-  // Clear all overrides and customs
   public static resetToDefault(): void {
+    localStorage.removeItem(CONTENT_STORE_KEY);
     localStorage.removeItem(CUSTOM_VERBS_KEY);
     localStorage.removeItem(CUSTOM_VOCAB_KEY);
     localStorage.removeItem(OVERRIDE_VERBS_KEY);
     localStorage.removeItem(OVERRIDE_VOCAB_KEY);
+    this.clearCaches();
+  }
+
+  public static describeItem(item: Verb | Vocabulary, family: ContentFamily): string {
+    return getGermanContentTerm(item, family);
   }
 }

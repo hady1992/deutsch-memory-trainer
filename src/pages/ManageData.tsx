@@ -16,7 +16,17 @@ import {
   Bookmark,
 } from "lucide-react";
 import { DataService } from "../services/dataService";
-import { ImportExportService, ValidationResult } from "../services/importExportService";
+import {
+  BackupPreviewResult,
+  ImportExportService,
+  ProductionExportPreview,
+} from "../services/importExportService";
+import { ContentFamily } from "../services/contentIdentityService";
+import {
+  ExistingUpdateDecision,
+  ImportPreviewReport,
+  PotentialDuplicateDecision,
+} from "../services/contentImportService";
 import {
   detectArticle,
   detectAuxiliary,
@@ -187,6 +197,18 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
 
   // Import feedback
   const [feedback, setFeedback] = useState<{ success: boolean; message: string } | null>(null);
+  const [contentNotice, setContentNotice] = useState<{
+    success: boolean;
+    message: string;
+    kind?: "verb" | "vocab";
+    existingId?: string | number;
+  } | null>(null);
+  const [importFamily, setImportFamily] = useState<Exclude<ContentFamily, "verbs">>("nouns");
+  const [importPreview, setImportPreview] = useState<ImportPreviewReport | null>(null);
+  const [potentialDecisions, setPotentialDecisions] = useState<Record<number, PotentialDuplicateDecision>>({});
+  const [updateDecisions, setUpdateDecisions] = useState<Record<number, ExistingUpdateDecision>>({});
+  const [backupPreview, setBackupPreview] = useState<BackupPreviewResult | null>(null);
+  const [productionPreview, setProductionPreview] = useState<ProductionExportPreview | null>(null);
   const isRtl = settings.language === "ar";
   const ui = isRtl
     ? {
@@ -522,7 +544,29 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
       },
     };
 
-    await DataService.saveVerb(toSave);
+    const result = await DataService.saveVerb(toSave);
+    if (!result.success) {
+      const arabicMessage = result.reason === "exact_duplicate"
+        ? `الفعل "${verbForm.infinitiv.trim()}" موجود مسبقًا بالمعرف ${String(result.existingId)}. يمكنك تعديل العنصر الموجود بدل إضافته مرة ثانية.`
+        : result.reason === "id_conflict"
+          ? `المعرّف ${String(result.existingId)} مرتبط بفعل مختلف، لذلك تم منع الحفظ.`
+          : "تعذر حفظ الفعل لأن المصدر والمعنى العربي مطلوبان.";
+      setContentNotice({
+        success: false,
+        message: isRtl ? arabicMessage : (result.message || "The verb could not be saved because of a data conflict."),
+        kind: "verb",
+        existingId: result.existingId,
+      });
+      return;
+    }
+    setContentNotice(result.potentialDuplicateIds?.length
+      ? {
+          success: true,
+          message: isRtl
+            ? `تم الحفظ مع تحذير: توجد كتابة مشابهة محتملة بالمعرف ${result.potentialDuplicateIds.join(", ")}.`
+            : `Saved with warning: potentially similar spelling at id ${result.potentialDuplicateIds.join(", ")}.`,
+        }
+      : null);
     setShowVerbForm(false);
     setEditingVerb(null);
     clearVerbForm();
@@ -630,6 +674,7 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
     e.preventDefault();
     if (!vocabForm.term || !vocabForm.arabic) return;
 
+    const activeFamily = activeVocabTab?.family || "other";
     const toSave: Vocabulary = {
       id: editingVocab?.id || 0,
       term: vocabForm.term,
@@ -655,9 +700,35 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
         needsReview: vocabForm.needsReview,
         source: vocabForm.dataSource,
       },
+      dataMeta: {
+        ...(editingVocab?.dataMeta || {}),
+        family: activeFamily,
+      },
     };
 
-    await DataService.saveVocabulary(toSave);
+    const result = await DataService.saveVocabulary(toSave);
+    if (!result.success) {
+      const arabicMessage = result.reason === "exact_duplicate"
+        ? `المحتوى "${vocabForm.term.trim()}" موجود مسبقًا ضمن النوع نفسه بالمعرف ${String(result.existingId)}. يمكنك تعديل العنصر الموجود بدل إضافته مرة ثانية.`
+        : result.reason === "id_conflict"
+          ? `المعرّف ${String(result.existingId)} مرتبط بمحتوى ألماني مختلف، لذلك تم منع الحفظ.`
+          : "تعذر حفظ المفردة لأن المصطلح الألماني والمعنى العربي مطلوبان.";
+      setContentNotice({
+        success: false,
+        message: isRtl ? arabicMessage : (result.message || "The vocabulary item could not be saved because of a data conflict."),
+        kind: "vocab",
+        existingId: result.existingId,
+      });
+      return;
+    }
+    setContentNotice(result.potentialDuplicateIds?.length
+      ? {
+          success: true,
+          message: isRtl
+            ? `تم الحفظ مع تحذير: توجد كتابة مشابهة محتملة بالمعرف ${result.potentialDuplicateIds.join(", ")}.`
+            : `Saved with warning: potentially similar spelling at id ${result.potentialDuplicateIds.join(", ")}.`,
+        }
+      : null);
     setShowVocabForm(false);
     setEditingVocab(null);
     clearVocabForm();
@@ -776,8 +847,9 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
     ImportExportService.downloadJSON(verbs, "verbs.json");
   };
 
-  const handleExportUpdatedVocabularyJson = () => {
-    ImportExportService.downloadJSON(vocabList, "vocabulary.json");
+  const handlePreviewProductionExport = async () => {
+    const preview = await ImportExportService.previewProductionExport();
+    setProductionPreview(preview);
   };
 
   const handleExportBackup = () => {
@@ -856,7 +928,10 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
     }));
   };
 
-  const handleImportFile = async (e: React.ChangeEvent<HTMLInputElement>, type: "verbs" | "vocab" | "backup") => {
+  const handleImportFile = async (
+    e: React.ChangeEvent<HTMLInputElement>,
+    type: ContentFamily | "backup"
+  ) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
@@ -866,31 +941,27 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
         const text = event.target?.result as string;
         const parsed = JSON.parse(text);
 
-        if (type === "verbs") {
-          const check = ImportExportService.validateVerbsJSON(parsed);
-          if (!check.success) {
-            setFeedback({ success: false, message: ui.importError(check.error) });
+        if (type === "backup") {
+          const preview = await ImportExportService.previewFullBackup(parsed);
+          if (!preview.success) {
+            setFeedback({ success: false, message: ui.backupImportError(preview.error) });
             return;
           }
-          await ImportExportService.importVerbs(parsed);
-          setFeedback({ success: true, message: ui.verbsImported(parsed.length) });
-        } else if (type === "vocab") {
-          const check = ImportExportService.validateVocabularyJSON(parsed);
-          if (!check.success) {
-            setFeedback({ success: false, message: ui.importError(check.error) });
-            return;
-          }
-          await ImportExportService.importVocabulary(parsed);
-          setFeedback({ success: true, message: ui.vocabImported(parsed.length) });
-        } else if (type === "backup") {
-          const check = ImportExportService.importFullBackup(parsed);
-          if (!check.success) {
-            setFeedback({ success: false, message: ui.backupImportError(check.error) });
-            return;
-          }
-          setFeedback({ success: true, message: ui.backupRestored });
+          setBackupPreview(preview);
+        } else {
+          const preview = await ImportExportService.previewImport(parsed, type);
+          setImportPreview(preview);
+          setPotentialDecisions(Object.fromEntries(
+            preview.items
+              .filter((item) => item.action === "potential_duplicate")
+              .map((item) => [item.index, "skip"])
+          ));
+          setUpdateDecisions(Object.fromEntries(
+            preview.items
+              .filter((item) => item.action === "update")
+              .map((item) => [item.index, "skip"])
+          ));
         }
-        await loadAllData();
       } catch (err: any) {
         setFeedback({ success: false, message: ui.parseError(err.message) });
       }
@@ -898,6 +969,80 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
     reader.readAsText(file);
     // clear input value to allow importing same file again
     e.target.value = "";
+  };
+
+  const handleApplyImport = async () => {
+    if (!importPreview || importPreview.idConflicts || importPreview.invalidItems) return;
+    try {
+      const result = await ImportExportService.applyImport(importPreview, potentialDecisions, updateDecisions);
+      setFeedback({
+        success: true,
+        message: isRtl
+          ? `تم تطبيق الاستيراد: ${result.created} جديد، ${result.updated} تحديث، ${result.skipped} متخطى.`
+          : `Import applied: ${result.created} new, ${result.updated} updated, ${result.skipped} skipped.`,
+      });
+      setImportPreview(null);
+      await loadAllData();
+    } catch (error: any) {
+      setFeedback({ success: false, message: ui.importError(error.message) });
+    }
+  };
+
+  const handleApplyBackup = async () => {
+    if (!backupPreview) return;
+    const result = ImportExportService.applyFullBackup(backupPreview);
+    if (!result.success) {
+      setFeedback({ success: false, message: ui.backupImportError(result.error) });
+      return;
+    }
+    setBackupPreview(null);
+    setFeedback({ success: true, message: ui.backupRestored });
+    await loadAllData();
+  };
+
+  const handleOpenExistingContent = () => {
+    if (contentNotice?.existingId === undefined || !contentNotice.kind) return;
+    if (contentNotice.kind === "verb") {
+      const verb = verbs.find((item) => String(item.id) === String(contentNotice.existingId));
+      if (verb) {
+        setActiveTab("verbs");
+        handleEditVerb(verb);
+      }
+    } else {
+      const vocabulary = vocabList.find((item) => String(item.id) === String(contentNotice.existingId));
+      if (vocabulary) {
+        const tabByFamily: Record<VocabularyFamily, VocabTabType> = {
+          noun: "nouns",
+          adjective: "adjectives",
+          phrase: "phrases",
+          other: "general_vocab",
+        };
+        setActiveTab(tabByFamily[getVocabularyFamily(vocabulary)]);
+        handleEditVocab(vocabulary);
+      }
+    }
+    setContentNotice(null);
+  };
+
+  const importActionLabel = (action: ImportPreviewReport["items"][number]["action"]) => {
+    const labels = isRtl
+      ? {
+          new: "جديد",
+          update: "تحديث",
+          exact_duplicate: "مكرر مطابق",
+          potential_duplicate: "تشابه محتمل",
+          id_conflict: "تعارض معرّف",
+          invalid: "غير صالح",
+        }
+      : {
+          new: "New",
+          update: "Update",
+          exact_duplicate: "Exact duplicate",
+          potential_duplicate: "Potential duplicate",
+          id_conflict: "ID conflict",
+          invalid: "Invalid",
+        };
+    return labels[action];
   };
 
   // Filters
@@ -1003,6 +1148,40 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
           {ui.backupImport}
         </button>
       </div>
+
+      {contentNotice && (
+        <div
+          className={`flex flex-col gap-3 rounded-xl border p-4 sm:flex-row sm:items-center sm:justify-between ${
+            contentNotice.success
+              ? "border-amber-200 bg-amber-50 text-amber-900"
+              : "border-rose-200 bg-rose-50 text-rose-900"
+          }`}
+        >
+          <div className="flex items-start gap-2 text-sm font-semibold">
+            {contentNotice.success ? <AlertCircle size={18} /> : <AlertCircle size={18} />}
+            <span>{contentNotice.message}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            {contentNotice.existingId !== undefined && contentNotice.kind && (
+              <button
+                type="button"
+                onClick={handleOpenExistingContent}
+                className="rounded-lg bg-slate-900 px-4 py-2 text-xs font-bold text-white hover:bg-slate-800"
+              >
+                {isRtl ? "فتح العنصر الموجود" : "Open existing item"}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => setContentNotice(null)}
+              className="rounded-lg p-2 text-current hover:bg-white/60"
+              aria-label={ui.cancel}
+            >
+              <X size={16} />
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* VERBS TAB */}
       {activeTab === "verbs" && (
@@ -1687,7 +1866,7 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </button>
                   <button
                     type="button"
-                    onClick={handleExportUpdatedVocabularyJson}
+                    onClick={handlePreviewProductionExport}
                     className="px-3 py-2 border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-[10px] font-bold uppercase tracking-wider rounded-lg transition-colors cursor-pointer"
                   >
                     {ui.exportUpdatedVocabJson}
@@ -2161,10 +2340,10 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   <Download size={14} />
                 </button>
                 <button
-                  onClick={handleExportUpdatedVocabularyJson}
+                  onClick={handlePreviewProductionExport}
                   className="w-full inline-flex items-center justify-between p-3 bg-indigo-50/50 hover:bg-indigo-50 text-indigo-900 border border-indigo-100 rounded-xl text-left text-xs font-bold transition-colors cursor-pointer"
                 >
-                  <span>{ui.exportUpdatedVocabJson}</span>
+                  <span>{isRtl ? "معاينة ملفات المحتوى الإنتاجية الخمسة" : "Preview five production content files"}</span>
                   <Download size={14} />
                 </button>
                 <button
@@ -2174,6 +2353,11 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   <span>{ui.exportCustomVerbs}</span>
                   <Download size={14} />
                 </button>
+                <p className="rounded-lg border border-amber-100 bg-amber-50 p-3 text-[11px] leading-5 text-amber-900">
+                  {isRtl
+                    ? "التعديلات اليدوية والاستيراد تُحفظ محليًا في هذا المتصفح. استخدم معاينة ملفات الإنتاج لتنزيل النسخ الخمس المنفصلة بعد اجتياز التدقيق."
+                    : "Manual edits and imports are stored locally in this browser. Use production preview to download the five split files after validation."}
+                </p>
                 <button
                   onClick={handleExportCustomVocab}
                   className="w-full inline-flex items-center justify-between p-3 bg-slate-50 hover:bg-slate-100 border border-slate-100 rounded-xl text-left text-xs font-bold text-slate-700 transition-colors cursor-pointer"
@@ -2236,12 +2420,23 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
                     {ui.importVocab}
                   </span>
+                  <select
+                    value={importFamily}
+                    onChange={(event) => setImportFamily(event.target.value as Exclude<ContentFamily, "verbs">)}
+                    className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-700 focus:border-indigo-500 focus:outline-none"
+                    aria-label={isRtl ? "نوع ملف المفردات" : "Vocabulary file family"}
+                  >
+                    <option value="nouns">{ui.nouns}</option>
+                    <option value="adjectives">{ui.adjectives}</option>
+                    <option value="phrases">{ui.phrases}</option>
+                    <option value="other-vocabulary">{ui.generalVocabulary}</option>
+                  </select>
                   <label className="relative inline-flex items-center justify-center w-full px-4 py-2.5 bg-slate-50 hover:bg-slate-100 border border-slate-200 border-dashed rounded-xl cursor-pointer text-xs font-semibold text-slate-700 transition-colors">
                     <Upload className={isRtl ? "ml-2 text-slate-500" : "mr-2 text-slate-500"} size={14} /> {ui.chooseFile}
                     <input
                       type="file"
                       accept=".json"
-                      onChange={(e) => handleImportFile(e, "vocab")}
+                      onChange={(e) => handleImportFile(e, importFamily)}
                       className="hidden"
                     />
                   </label>
@@ -2263,6 +2458,178 @@ export default function ManageData({ onNavigate, settings }: ManageDataProps) {
                   </label>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {importPreview && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-4">
+          <div className="max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-xl bg-white shadow-2xl">
+            <div className="flex items-center justify-between border-b border-slate-100 p-5">
+              <div>
+                <h3 className="font-extrabold text-slate-900">
+                  {isRtl ? "معاينة استيراد المحتوى" : "Content import preview"}
+                </h3>
+                <p className="mt-1 text-xs text-slate-500">
+                  {isRtl ? "لم تُكتب أي بيانات بعد." : "No data has been written yet."}
+                </p>
+              </div>
+              <button type="button" onClick={() => setImportPreview(null)} className="rounded-lg p-2 hover:bg-slate-100">
+                <X size={18} />
+              </button>
+            </div>
+
+            <div className="max-h-[62vh] overflow-y-auto p-5">
+              <div className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+                {[
+                  [isRtl ? "جديد" : "New", importPreview.newItems],
+                  [isRtl ? "تحديث" : "Updates", importPreview.updates],
+                  [isRtl ? "مطابق" : "Exact", importPreview.exactDuplicates],
+                  [isRtl ? "محتمل" : "Potential", importPreview.potentialDuplicates],
+                  [isRtl ? "تعارض" : "Conflicts", importPreview.idConflicts],
+                  [isRtl ? "غير صالح" : "Invalid", importPreview.invalidItems],
+                ].map(([label, value]) => (
+                  <div key={String(label)} className="rounded-lg border border-slate-200 px-3 py-2">
+                    <div className="text-[10px] font-bold uppercase text-slate-500">{label}</div>
+                    <div className="mt-1 text-lg font-extrabold text-slate-900">{value}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="divide-y divide-slate-100 rounded-lg border border-slate-200">
+                {importPreview.items.map((entry) => (
+                  <div key={`${entry.index}-${String(entry.incomingId)}`} className="grid gap-2 p-3 text-xs sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+                    <div className="min-w-0">
+                      <div dir="ltr" className="truncate text-left font-bold text-slate-900">
+                        {entry.term || (isRtl ? "عنصر بلا اسم" : "Unnamed item")}
+                      </div>
+                      <div className="mt-1 text-slate-500">
+                        ID: {String(entry.incomingId ?? "-")} · {importActionLabel(entry.action)}
+                        {entry.existingId !== undefined ? ` · ${isRtl ? "الموجود" : "existing"}: ${String(entry.existingId)}` : ""}
+                      </div>
+                      {entry.reason && <div className="mt-1 text-[11px] text-slate-500">{entry.reason}</div>}
+                    </div>
+                    {entry.action === "potential_duplicate" && (
+                      <select
+                        value={potentialDecisions[entry.index] || "skip"}
+                        onChange={(event) => setPotentialDecisions((current) => ({
+                          ...current,
+                          [entry.index]: event.target.value as PotentialDuplicateDecision,
+                        }))}
+                        className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 font-bold text-amber-900"
+                      >
+                        <option value="skip">{isRtl ? "تخطي (موصى به)" : "Skip (recommended)"}</option>
+                        <option value="add">{isRtl ? "إضافة كعنصر جديد" : "Add as new item"}</option>
+                      </select>
+                    )}
+                    {entry.action === "update" && (
+                      <select
+                        value={updateDecisions[entry.index] || "skip"}
+                        onChange={(event) => setUpdateDecisions((current) => ({
+                          ...current,
+                          [entry.index]: event.target.value as ExistingUpdateDecision,
+                        }))}
+                        className="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 font-bold text-blue-900"
+                      >
+                        <option value="skip">{isRtl ? "تخطي (افتراضي)" : "Skip (default)"}</option>
+                        <option value="update">{isRtl ? "تحديث الموجود" : "Update existing"}</option>
+                      </select>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-2 border-t border-slate-100 p-5 sm:flex-row sm:justify-end">
+              <button type="button" onClick={() => setImportPreview(null)} className="rounded-lg border border-slate-200 px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50">
+                {ui.cancel}
+              </button>
+              <button
+                type="button"
+                onClick={handleApplyImport}
+                disabled={Boolean(importPreview.idConflicts || importPreview.invalidItems)}
+                className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                {isRtl ? "تطبيق الاستيراد" : "Apply import"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {backupPreview && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-4">
+          <div className="w-full max-w-lg rounded-xl bg-white p-6 shadow-2xl">
+            <h3 className="font-extrabold text-slate-900">{isRtl ? "معاينة استعادة النسخة الاحتياطية" : "Backup restore preview"}</h3>
+            <p className="mt-2 text-xs leading-5 text-slate-500">
+              {isRtl
+                ? "الاستعادة لم تبدأ بعد. عند التطبيق، ستُستعاد بيانات المحتوى والتقدم والإعدادات كعملية واحدة مع رجوع تلقائي عند الفشل."
+                : "Restore has not started. Applying restores content, progress, and settings with automatic rollback on failure."}
+            </p>
+            <div className="mt-5 grid grid-cols-2 gap-3 text-xs">
+              {Object.entries(backupPreview.summary || {}).map(([key, value]) => (
+                <div key={key} className="rounded-lg border border-slate-200 p-3">
+                  <div className="text-slate-500">{key}</div>
+                  <div className="mt-1 text-lg font-extrabold text-slate-900">{value}</div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <button type="button" onClick={() => setBackupPreview(null)} className="rounded-lg border border-slate-200 px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50">{ui.cancel}</button>
+              <button type="button" onClick={handleApplyBackup} className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-emerald-700">
+                {isRtl ? "تأكيد الاستعادة" : "Confirm restore"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {productionPreview && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-4">
+          <div className="w-full max-w-lg rounded-xl bg-white p-6 shadow-2xl">
+            <h3 className="font-extrabold text-slate-900">{isRtl ? "معاينة تصدير الإنتاج" : "Production export preview"}</h3>
+            {productionPreview.success ? (
+              <>
+                <p className="mt-2 text-xs leading-5 text-slate-500">
+                  {isRtl ? "اجتازت الملفات الخمسة فحص الهوية والمعرّفات." : "All five files passed identity and ID validation."}
+                </p>
+                <div className="mt-5 grid grid-cols-2 gap-3 text-xs">
+                  {Object.entries(productionPreview.counts || {}).map(([family, count]) => (
+                    <div key={family} className="rounded-lg border border-slate-200 p-3">
+                      <div className="text-slate-500">{family}</div>
+                      <div className="mt-1 text-lg font-extrabold text-slate-900">{count}</div>
+                    </div>
+                  ))}
+                </div>
+                {(productionPreview.warnings?.length || 0) > 0 && (
+                  <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
+                    {productionPreview.warnings?.join(" ")}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="mt-4 rounded-lg border border-rose-200 bg-rose-50 p-3 text-sm font-semibold text-rose-900">
+                {productionPreview.error}
+              </div>
+            )}
+            <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <button type="button" onClick={() => setProductionPreview(null)} className="rounded-lg border border-slate-200 px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50">{ui.cancel}</button>
+              {productionPreview.success && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    const result = ImportExportService.downloadProductionFiles(productionPreview);
+                    setFeedback({ success: result.success, message: result.success
+                      ? (isRtl ? "تم تنزيل ملفات الإنتاج الخمسة." : "Downloaded all five production files.")
+                      : (result.error || "Export failed.") });
+                    setProductionPreview(null);
+                  }}
+                  className="rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-indigo-700"
+                >
+                  {isRtl ? "تنزيل الملفات الخمسة" : "Download five files"}
+                </button>
+              )}
             </div>
           </div>
         </div>

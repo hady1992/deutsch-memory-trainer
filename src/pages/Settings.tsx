@@ -72,11 +72,23 @@ export default function Settings({ onNavigate, settings, onUpdateSettings }: Set
     if (!file) return;
 
     const reader = new FileReader();
-    reader.onload = (event) => {
+    reader.onload = async (event) => {
       try {
         const text = event.target?.result as string;
         const parsed = JSON.parse(text);
-        const result = ImportExportService.importFullBackup(parsed);
+        const preview = await ImportExportService.previewFullBackup(parsed);
+        if (!preview.success) {
+          setMessage({ success: false, text: `${translate("importError")}: ${preview.error}` });
+          return;
+        }
+        const summary = preview.summary;
+        const approved = window.confirm(
+          language === "ar"
+            ? `معاينة النسخة الاحتياطية:\nأفعال مخصصة: ${summary?.customVerbs || 0}\nمفردات مخصصة: ${summary?.customVocabulary || 0}\nعناصر تقدم: ${summary?.progressItems || 0}\nأخطاء: ${summary?.mistakes || 0}\n\nهل تريد تطبيق الاستعادة؟`
+            : `Backup preview:\nCustom verbs: ${summary?.customVerbs || 0}\nCustom vocabulary: ${summary?.customVocabulary || 0}\nProgress items: ${summary?.progressItems || 0}\nMistakes: ${summary?.mistakes || 0}\n\nApply this backup?`
+        );
+        if (!approved) return;
+        const result = ImportExportService.applyFullBackup(preview);
 
         if (result.success) {
           setMessage({ success: true, text: translate("backupRestored") });
