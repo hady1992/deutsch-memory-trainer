@@ -14,6 +14,18 @@ export interface DailyStudyRoundResult {
   answeredAt: string;
 }
 
+export interface DailyStudyQuestionSnapshot {
+  itemId: string;
+  questionType: string;
+  options: string[];
+  promptDe?: string;
+  promptAr?: string;
+  answer?: string;
+  answerLang?: "de" | "ar";
+  exampleDe?: string;
+  exampleAr?: string;
+}
+
 export interface DailyStudyRound {
   id: string;
   itemIds: string[];
@@ -25,6 +37,7 @@ export interface DailyStudyRound {
   completedAt?: string;
   completed: boolean;
   temporary?: boolean;
+  currentQuestion?: DailyStudyQuestionSnapshot;
 }
 
 export interface DailyStudySet {
@@ -270,6 +283,46 @@ export function recordDailyStudyAnswer(
     },
   };
   return saveDailyStudySet(updated);
+}
+
+export function saveDailyStudyQuestion(
+  contentType: DailyStudyContentType,
+  question: DailyStudyQuestionSnapshot
+): DailyStudySet | null {
+  const set = getDailyStudySet(contentType);
+  const round = set?.currentRound;
+  if (!set || !round || round.completed) return set;
+
+  const activeItemId = round.itemIds[round.currentIndex];
+  if (activeItemId !== question.itemId) return set;
+
+  const existing = round.currentQuestion;
+  if (
+    existing?.itemId === question.itemId &&
+    existing.questionType === question.questionType &&
+    existing.promptDe === question.promptDe &&
+    existing.promptAr === question.promptAr &&
+    existing.answer === question.answer &&
+    existing.answerLang === question.answerLang &&
+    existing.exampleDe === question.exampleDe &&
+    existing.exampleAr === question.exampleAr &&
+    Array.isArray(existing.options) &&
+    existing.options.length === question.options.length &&
+    existing.options.every((option, index) => option === question.options[index])
+  ) {
+    return set;
+  }
+
+  return saveDailyStudySet({
+    ...set,
+    currentRound: {
+      ...round,
+      currentQuestion: {
+        ...question,
+        options: [...question.options],
+      },
+    },
+  });
 }
 
 export function getWrongItemIds(set: DailyStudySet): string[] {

@@ -19,6 +19,7 @@ import {
   addItemToFavorites,
   createDailyStudySet,
   DailyStudyContentType,
+  DailyStudyQuestionSnapshot,
   DailyStudySelectionType,
   DailyStudySet as DailyStudySetModel,
   deleteDailyStudySet,
@@ -31,15 +32,22 @@ import {
   recordDailyStudyAnswer,
   removeItemFromFavorites,
   selectDailyStudyItemIds,
+  saveDailyStudyQuestion,
   startDailyStudyRound,
   updateDailyStudySet,
 } from "../services/dailyStudySetService";
 import { ProgressService } from "../services/progressService";
 import {
   generateVerbChoiceOptions,
+  getMatchingVerbExample,
   getVerbChoiceCorrectAnswer,
   VerbChoiceQuestionType,
 } from "../services/verbChoiceService";
+import {
+  ensureCorrectOption,
+  hasCorrectOptionExactlyOnce,
+  normalizeChoiceOption,
+} from "../services/choiceOptionService";
 import {
   getVocabularyFullTerm,
   getVocabularyMeaningQuestion,
@@ -82,6 +90,43 @@ function itemKey(type: DailyStudyContentType, id: string | number): string {
 function formatDate(value: string, locale: string): string {
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(date);
+}
+
+function stableQuestionOptions(options: string[], fallbackOptions: string[], answer: string): string[] | null {
+  const cleanOptions = options.map((option) => option.trim()).filter(Boolean);
+  const normalized = cleanOptions.map(normalizeChoiceOption);
+  const hasDuplicates = normalized.some((option, index) => normalized.indexOf(option) !== index);
+  if (!hasDuplicates && hasCorrectOptionExactlyOnce(cleanOptions, answer)) return cleanOptions;
+  return ensureCorrectOption([...cleanOptions, ...fallbackOptions], answer, 4);
+}
+
+function isVerbQuestionType(value?: string): value is VerbChoiceQuestionType {
+  return value === "arabic" || value === "praesens" || value === "praeteritum" || value === "perfekt";
+}
+
+function questionFromSnapshot(snapshot?: DailyStudyQuestionSnapshot): DailyQuestion | null {
+  if (
+    !snapshot?.promptDe ||
+    !snapshot.promptAr ||
+    !snapshot.answer ||
+    !snapshot.answerLang ||
+    !Array.isArray(snapshot.options) ||
+    !snapshot.options.length
+  ) {
+    return null;
+  }
+  const options = stableQuestionOptions(snapshot.options, [], snapshot.answer);
+  if (!options) return null;
+  return {
+    promptDe: snapshot.promptDe,
+    promptAr: snapshot.promptAr,
+    answer: snapshot.answer,
+    answerLang: snapshot.answerLang,
+    options,
+    exampleDe: snapshot.exampleDe,
+    exampleAr: snapshot.exampleAr,
+    kind: snapshot.questionType,
+  };
 }
 
 export default function DailyStudySet({ onNavigate, settings, action = "view" }: DailyStudySetProps) {
@@ -316,20 +361,29 @@ export default function DailyStudySet({ onNavigate, settings, action = "view" }:
 
   const question = useMemo<DailyQuestion | null>(() => {
     if (!sets || !round || !activeItem) return null;
+    const savedQuestion = round.currentQuestion?.itemId === String(activeItem.id)
+      ? round.currentQuestion
+      : undefined;
+    const restoredQuestion = questionFromSnapshot(savedQuestion);
+    if (restoredQuestion) return restoredQuestion;
     if (sets.contentType === "verbs") {
       const verb = activeItem as Verb;
       const types: VerbChoiceQuestionType[] = ["arabic", "praeteritum", "perfekt", "praesens"];
-      const type = types[Math.abs(`${round.id}-${verb.id}`.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0)) % types.length];
+      const generatedType = types[Math.abs(`${round.id}-${verb.id}`.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0)) % types.length];
+      const type = isVerbQuestionType(savedQuestion?.questionType) ? savedQuestion.questionType : generatedType;
       const answer = getVerbChoiceCorrectAnswer(verb, type);
-      const options = generateVerbChoiceOptions(verb, verbs, type);
+      const generatedOptions = generateVerbChoiceOptions(verb, verbs, type);
+      const options = stableQuestionOptions(savedQuestion?.options || generatedOptions, generatedOptions, answer);
+      if (!options) return null;
+      const example = getMatchingVerbExample(verb, type);
       return {
         promptDe: verb.infinitiv,
         promptAr: type === "arabic" ? "ما معنى هذا الفعل؟" : `اختر صيغة ${type === "praeteritum" ? "Präteritum" : type === "perfekt" ? "Perfekt" : "Präsens"}.`,
         answer,
         answerLang: type === "arabic" ? "ar" : "de",
         options,
-        exampleDe: verb.example_de,
-        exampleAr: verb.example_ar,
+        exampleDe: example?.de,
+        exampleAr: example?.ar,
         kind: type,
       };
     }
@@ -337,17 +391,46 @@ export default function DailyStudySet({ onNavigate, settings, action = "view" }:
       activeItem as Vocabulary,
       pools[sets.contentType] as Vocabulary[]
     );
+    const generatedOptions = vocabQuestion.options || [];
+    const options = stableQuestionOptions(savedQuestion?.options || generatedOptions, generatedOptions, vocabQuestion.answer);
+    if (!options) return null;
     return {
       promptDe: vocabQuestion.promptDe || itemLabel(activeItem, sets.contentType),
       promptAr: vocabQuestion.promptAr || "اختر المعنى العربي الصحيح.",
       answer: vocabQuestion.answer,
       answerLang: vocabQuestion.answerLang,
-      options: vocabQuestion.options || [],
+      options,
       exampleDe: vocabQuestion.exampleDe,
       exampleAr: vocabQuestion.exampleAr,
       kind: vocabQuestion.kind,
     };
   }, [activeItem, pools, round, sets, verbs]);
+
+  useEffect(() => {
+    if (!sets || !round || !activeItem || !question || checked) return;
+    const savedQuestion = round.currentQuestion;
+    const itemId = String(activeItem.id);
+    if (
+      savedQuestion?.itemId === itemId &&
+      savedQuestion.questionType === question.kind &&
+      savedQuestion.options.length === question.options.length &&
+      savedQuestion.options.every((option, index) => option === question.options[index])
+    ) {
+      return;
+    }
+    const updated = saveDailyStudyQuestion(sets.contentType, {
+      itemId,
+      questionType: question.kind,
+      options: question.options,
+      promptDe: question.promptDe,
+      promptAr: question.promptAr,
+      answer: question.answer,
+      answerLang: question.answerLang,
+      exampleDe: question.exampleDe,
+      exampleAr: question.exampleAr,
+    });
+    if (updated) setSet(updated);
+  }, [activeItem, checked, question, round, sets]);
 
   const checkAnswer = () => {
     if (!sets || !activeItem || !question || !selectedChoice) return;
@@ -434,7 +517,7 @@ export default function DailyStudySet({ onNavigate, settings, action = "view" }:
         <div className="h-2 bg-slate-100 rounded-full overflow-hidden"><div className="h-full bg-blue-600" style={{ width: `${round.itemIds.length ? (round.currentIndex / round.itemIds.length) * 100 : 0}%` }} /></div>
         <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-6 sm:p-8 space-y-6">
           <div className="text-center space-y-3"><p className="text-xs font-black text-blue-600">{ui.title}</p><div className="flex items-center justify-center gap-2"><h1 dir="ltr" lang="de" className="text-3xl font-black text-slate-900">{question.promptDe}</h1><AudioButton text={question.promptDe} speed={settings.speechSpeed} size={18} /></div><p dir="rtl" lang="ar" className="text-sm font-bold text-slate-600">{question.promptAr}</p></div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">{question.options.map((option) => { const selected = selectedChoice === option; const correctOption = option === question.answer; let style = "border-slate-200 hover:bg-slate-50"; if (selected && !checked) style = "border-blue-500 bg-blue-50 text-blue-700"; if (checked && correctOption) style = "border-emerald-500 bg-emerald-50 text-emerald-800"; else if (checked && selected) style = "border-rose-500 bg-rose-50 text-rose-800"; return <button key={option} disabled={checked} onClick={() => setSelectedChoice(option)} dir={question.answerLang === "ar" ? "rtl" : "ltr"} className={`min-h-14 p-4 rounded-lg border text-sm font-bold ${question.answerLang === "ar" ? "text-right" : "text-left"} ${style}`}>{option}{checked && correctOption && <Check className="inline-block mx-2" size={15} />}{checked && selected && !correctOption && <X className="inline-block mx-2" size={15} />}</button>; })}</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">{question.options.map((option, originalIndex) => { const selected = selectedChoice === option; const correctOption = option === question.answer; let style = "border-slate-200 hover:bg-slate-50"; if (selected && !checked) style = "border-blue-500 bg-blue-50 text-blue-700"; if (checked && correctOption) style = "border-emerald-500 bg-emerald-50 text-emerald-800"; else if (checked && selected) style = "border-rose-500 bg-rose-50 text-rose-800"; return <button key={`${round.id}-${activeItem.id}-${originalIndex}-${option}`} disabled={checked} onClick={() => setSelectedChoice(option)} dir={question.answerLang === "ar" ? "rtl" : "ltr"} className={`min-h-14 p-4 rounded-lg border text-sm font-bold ${question.answerLang === "ar" ? "text-right" : "text-left"} ${style}`}>{option}{checked && correctOption && <Check className="inline-block mx-2" size={15} />}{checked && selected && !correctOption && <X className="inline-block mx-2" size={15} />}</button>; })}</div>
           {checked && <div className={`p-4 rounded-lg space-y-2 ${lastCorrect ? "bg-emerald-50" : "bg-rose-50"}`}><p className="text-xs font-black">{ui.answer}: <span dir={question.answerLang === "ar" ? "rtl" : "ltr"}>{question.answer}</span></p>{question.exampleDe && <p dir="ltr" lang="de" className="text-sm font-semibold text-left">{question.exampleDe}</p>}{question.exampleAr && <p dir="rtl" lang="ar" className="text-sm font-semibold text-right">{question.exampleAr}</p>}</div>}
         </div>
         <div className="flex justify-center">{!checked ? <button onClick={checkAnswer} disabled={!selectedChoice} className={`px-8 py-3 rounded-lg font-bold ${selectedChoice ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-400"}`}>{ui.check}</button> : <button onClick={nextQuestion} className="px-8 py-3 rounded-lg bg-blue-600 text-white font-bold inline-flex items-center gap-2">{ui.next}<ChevronRight className={isRtl ? "rotate-180" : ""} size={17} /></button>}</div>

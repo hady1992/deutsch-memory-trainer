@@ -1,4 +1,4 @@
-import { TenseKey, Verb } from "../types";
+import { LocalizedExample, TenseKey, Verb } from "../types";
 import { normalizeAnswer } from "./textDisplayService";
 import {
   detectAuxiliary,
@@ -67,6 +67,54 @@ function getGermanCorrectAnswer(verb: Verb, questionType: VerbChoiceQuestionType
 
 export function getVerbChoiceCorrectAnswer(verb: Verb, questionType: VerbChoiceQuestionType): string {
   return questionType === "arabic" ? verb.arabic : getGermanCorrectAnswer(verb, questionType);
+}
+
+function isTenseQuestionType(value?: string): value is Exclude<VerbChoiceQuestionType, "arabic"> {
+  return value === "praesens" || value === "praeteritum" || value === "perfekt";
+}
+
+function examplePerson(value: unknown): string {
+  if (!value || typeof value !== "object") return "";
+  const example = value as Record<string, unknown>;
+  return String(example.pronoun || example.person || "").trim();
+}
+
+function localizedExample(value: unknown): LocalizedExample | null {
+  if (!value || typeof value !== "object") return null;
+  const example = value as Record<string, unknown>;
+  const de = String(example.de || example.example_de || "").trim();
+  const ar = String(example.ar || example.example_ar || "").trim();
+  return de || ar ? { de, ar } : null;
+}
+
+export function getMatchingVerbExample(
+  verb: Verb,
+  questionType: VerbChoiceQuestionType,
+  tense?: TenseKey,
+  person?: string
+): LocalizedExample | null {
+  const requestedTense = tense || (isTenseQuestionType(questionType) ? questionType : undefined);
+
+  if (!requestedTense) {
+    return localizedExample({ de: verb.example_de, ar: verb.example_ar });
+  }
+
+  const directExample = verb.tenseExamples?.[requestedTense];
+  if (directExample && (!person || !examplePerson(directExample) || examplePerson(directExample) === person)) {
+    return localizedExample(directExample);
+  }
+
+  const matchingExpandedExamples = (verb.expandedExamples?.tenseUsageExamples || []).filter(
+    (example) => example.tense === requestedTense
+  );
+  const personMatch = person
+    ? matchingExpandedExamples.find((example) => examplePerson(example) === person)
+    : undefined;
+  const expandedExample = localizedExample(personMatch || matchingExpandedExamples[0]);
+  if (expandedExample) return expandedExample;
+
+  if (directExample) return localizedExample(directExample);
+  return null;
 }
 
 function sameVerbDistractors(verb: Verb, questionType: VerbChoiceQuestionType): string[] {
