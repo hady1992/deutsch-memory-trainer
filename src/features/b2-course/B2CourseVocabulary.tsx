@@ -9,6 +9,17 @@ interface Props {
   isRtl: boolean;
 }
 
+type ExplanationLanguage = "ar" | "de";
+
+const EXPLANATION_LANGUAGE_KEY = "dmt_b2_course_explanation_language_v1";
+
+function getInitialExplanationLanguage(isRtl: boolean): ExplanationLanguage {
+  if (typeof window === "undefined") return isRtl ? "ar" : "de";
+  const stored = window.localStorage.getItem(EXPLANATION_LANGUAGE_KEY);
+  if (stored === "ar" || stored === "de") return stored;
+  return isRtl ? "ar" : "de";
+}
+
 function vocabularyFamily(type: string): Exclude<B2VocabularyFilter, "all"> {
   const normalized = type.toLowerCase();
   if (normalized.includes("phrase")) return "phrase";
@@ -49,7 +60,15 @@ function GrammarDetails({ item, isRtl }: { item: B2CourseVocabularyItem; isRtl: 
   );
 }
 
-function VocabularyCard({ item, isRtl }: { item: B2CourseVocabularyItem; isRtl: boolean }) {
+function VocabularyCard({
+  item,
+  isRtl,
+  explanationLanguage,
+}: {
+  item: B2CourseVocabularyItem;
+  isRtl: boolean;
+  explanationLanguage: ExplanationLanguage;
+}) {
   const [favorite, setFavorite] = useState(B2CourseProgressService.isFavorite(item.courseItemId));
   const [difficult, setDifficult] = useState(
     B2CourseProgressService.getVocabularyProgress(item.courseItemId).difficult,
@@ -87,16 +106,19 @@ function VocabularyCard({ item, isRtl }: { item: B2CourseVocabularyItem; isRtl: 
       </div>
       <p className="mt-3 text-lg font-bold text-slate-800" dir="rtl">{item.arabic}</p>
       <GrammarDetails item={item} isRtl={isRtl} />
-      <div className="mt-4 grid gap-3 md:grid-cols-2">
-        <div className="rounded-lg bg-blue-50 p-4 text-left" dir="ltr">
-          <p className="text-xs font-black text-blue-700">Erklärung</p>
+
+      {explanationLanguage === "de" ? (
+        <div className="mt-4 rounded-lg bg-blue-50 p-4 text-left" dir="ltr">
+          <p className="text-xs font-black text-blue-700">Erklärung auf Deutsch</p>
           <p className="mt-2 leading-7 text-slate-700">{item.explanation_de}</p>
         </div>
-        <div className="rounded-lg bg-amber-50 p-4 text-right" dir="rtl">
+      ) : (
+        <div className="mt-4 rounded-lg bg-amber-50 p-4 text-right" dir="rtl">
           <p className="text-xs font-black text-amber-700">الشرح بالعربية</p>
           <p className="mt-2 leading-7 text-slate-700">{item.explanation_ar}</p>
         </div>
-      </div>
+      )}
+
       <div className="mt-4 space-y-3">
         {item.examples.map((example, index) => (
           <div key={`${item.courseItemId}-example-${index}`} className="rounded-lg border border-slate-100 p-3">
@@ -112,6 +134,17 @@ function VocabularyCard({ item, isRtl }: { item: B2CourseVocabularyItem; isRtl: 
 export default function B2CourseVocabulary({ items, isRtl }: Props) {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<B2VocabularyFilter>("all");
+  const [explanationLanguage, setExplanationLanguage] = useState<ExplanationLanguage>(
+    () => getInitialExplanationLanguage(isRtl),
+  );
+
+  const selectExplanationLanguage = (language: ExplanationLanguage) => {
+    setExplanationLanguage(language);
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(EXPLANATION_LANGUAGE_KEY, language);
+    }
+  };
+
   const filters: Array<[B2VocabularyFilter, string, string]> = [
     ["all", "Alle", "الكل"],
     ["noun", "Nomen", "الأسماء"],
@@ -131,6 +164,45 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
 
   return (
     <section>
+      <div className="mt-5 flex flex-col gap-3 rounded-lg border border-slate-200 bg-white p-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="font-black text-slate-800">
+            {isRtl ? "لغة شرح الكلمات" : "Sprache der Worterklärung"}
+          </p>
+          <p className="mt-1 text-sm text-slate-500">
+            {isRtl
+              ? "اختر شرحًا واحدًا ليظهر في جميع البطاقات."
+              : "Wählen Sie eine Erklärungssprache für alle Karten."}
+          </p>
+        </div>
+        <div className="inline-flex w-fit rounded-lg border border-slate-200 bg-slate-50 p-1" dir="ltr">
+          <button
+            type="button"
+            onClick={() => selectExplanationLanguage("ar")}
+            aria-pressed={explanationLanguage === "ar"}
+            className={`min-h-10 rounded-md px-4 text-sm font-black transition ${
+              explanationLanguage === "ar"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-white"
+            }`}
+          >
+            العربية
+          </button>
+          <button
+            type="button"
+            onClick={() => selectExplanationLanguage("de")}
+            aria-pressed={explanationLanguage === "de"}
+            className={`min-h-10 rounded-md px-4 text-sm font-black transition ${
+              explanationLanguage === "de"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-white"
+            }`}
+          >
+            Deutsch
+          </button>
+        </div>
+      </div>
+
       <div className="mt-5 grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto]">
         <label className="relative block">
           <Search className={`absolute top-3.5 text-slate-400 ${isRtl ? "right-4" : "left-4"}`} size={19} />
@@ -161,7 +233,11 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
         <div className="mt-5 grid gap-5 xl:grid-cols-2">
           {filtered.map((item) => (
             <div key={item.courseItemId}>
-              <VocabularyCard item={item} isRtl={isRtl} />
+              <VocabularyCard
+                item={item}
+                isRtl={isRtl}
+                explanationLanguage={explanationLanguage}
+              />
             </div>
           ))}
         </div>
