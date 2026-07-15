@@ -15,6 +15,8 @@ export const B2_EXERCISE_TYPES = [
 export type B2CourseExerciseType = (typeof B2_EXERCISE_TYPES)[number];
 export type B2VocabularyFilter = "all" | "noun" | "verb" | "adjective" | "phrase";
 export type B2SelfAssessment = "completed" | "needs_review";
+export type B2VocabularyStatus = "known" | "review";
+export type B2VocabularyTrainingMode = "study" | "review";
 
 export interface B2CourseUnitSummary {
   unit: number;
@@ -162,21 +164,37 @@ export interface B2CourseResumeState {
   exerciseIndex: number;
   lastMode: "unit" | "vocabulary" | "exercises";
   updatedAt: string;
+  [key: string]: unknown;
+}
+
+export interface B2CourseUnitVocabularyProgress {
+  statusByItemId: Record<string, B2VocabularyStatus>;
+  nextItemId: string;
+  lastViewedItemId: string;
+  reviewCursorItemId: string;
+  legacyMigrated: boolean;
+  updatedAt: string;
+  [key: string]: unknown;
 }
 
 export interface B2CourseProgressStore {
-  version: 1;
+  version: 2;
   vocabulary: Record<string, B2CourseItemProgress>;
+  vocabularyByUnit: Record<string, B2CourseUnitVocabularyProgress>;
   exercises: Record<string, B2CourseExerciseProgress>;
   favorites: string[];
   resume: Record<string, B2CourseResumeState>;
   updatedAt: string;
+  [key: string]: unknown;
 }
 
 export interface B2CourseUnitStats {
   vocabularyTotal: number;
   reviewedVocabulary: number;
   masteredVocabulary: number;
+  knownVocabulary: number;
+  reviewVocabulary: number;
+  unseenVocabulary: number;
   exerciseTotal: number;
   completedExercises: number;
   difficultItems: number;

@@ -15,7 +15,11 @@ import {
   B2_COURSE_PROGRESS_KEY,
   B2CourseProgressService,
 } from "../src/features/b2-course/b2CourseProgressService";
-import type { B2CourseExercise, B2CourseIndex } from "../src/features/b2-course/types";
+import type {
+  B2CourseExercise,
+  B2CourseIndex,
+  B2CourseVocabularyFile,
+} from "../src/features/b2-course/types";
 
 function assert(condition: unknown, message: string): asserts condition {
   if (!condition) throw new Error(message);
@@ -31,7 +35,8 @@ class MemoryStorage implements Storage {
   setItem(key: string, value: string) { this.values.set(key, value); }
 }
 
-Object.defineProperty(globalThis, "localStorage", { value: new MemoryStorage(), configurable: true });
+const storage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: storage, configurable: true });
 
 const root = path.resolve("public/data/courses/b2-course");
 const index = JSON.parse(fs.readFileSync(path.join(root, "index.json"), "utf8")) as B2CourseIndex;
@@ -39,6 +44,17 @@ const exercises: B2CourseExercise[] = index.units.flatMap((unit) => {
   const file = JSON.parse(fs.readFileSync(path.join(root, unit.exercisesFile), "utf8"));
   return file.exercises as B2CourseExercise[];
 });
+const unit1Summary = index.units.find((unit) => unit.unit === 1);
+const unit2Summary = index.units.find((unit) => unit.unit === 2);
+assert(unit1Summary && unit2Summary, "The progress tests require Kapitel 1 and 2.");
+const unit1Vocabulary = JSON.parse(
+  fs.readFileSync(path.join(root, unit1Summary.vocabularyFile), "utf8"),
+) as B2CourseVocabularyFile;
+const unit2Vocabulary = JSON.parse(
+  fs.readFileSync(path.join(root, unit2Summary.vocabularyFile), "utf8"),
+) as B2CourseVocabularyFile;
+const unit1Items = unit1Vocabulary.items;
+const unit2Items = unit2Vocabulary.items;
 
 const counts: Record<string, number> = {};
 for (const exercise of exercises) {
@@ -71,8 +87,176 @@ B2CourseProgressService.recordExerciseAttempt(1, "b2u01-e001", false, "wrong");
 B2CourseProgressService.recordExerciseAttempt(1, "b2u01-e001", true, "correct");
 B2CourseProgressService.recordSelfAssessment(2, "b2u02-e039", "completed", "draft");
 B2CourseProgressService.recordSelfAssessment(3, "b2u03-e042", "needs_review", "notes");
-B2CourseProgressService.recordVocabularyReview("b2u01-v001", false);
 B2CourseProgressService.setResume(1, { exerciseIndex: 7, lastMode: "exercises" });
+
+B2CourseProgressService.migrateVocabularyProgress(1, unit1Items);
+unit1Items.slice(0, 10).forEach((item, itemIndex) => {
+  B2CourseProgressService.recordVocabularyReview(1, item.courseItemId, itemIndex < 7, unit1Items);
+});
+
+assert(
+  unit1Items.slice(0, 7).every((item) => B2CourseProgressService.getVocabularyStatus(1, item.courseItemId) === "known"),
+  "Known vocabulary statuses were not persisted.",
+);
+assert(
+  unit1Items.slice(7, 10).every((item) => B2CourseProgressService.getVocabularyStatus(1, item.courseItemId) === "review"),
+  "Review vocabulary statuses were not persisted.",
+);
+const nextAfterTen = B2CourseProgressService.getNextVocabularyItem(1, unit1Items);
+assert(nextAfterTen?.courseItemId === unit1Items[10].courseItemId, "Resume did not point to the first unseen item.");
+
+const reviewBeforeMastering = B2CourseProgressService.getReviewVocabulary(1, unit1Items);
+assert(reviewBeforeMastering.length === 3, "The review queue must contain exactly three items.");
+const mainCursorBeforeReview = B2CourseProgressService.getStore().vocabularyByUnit["1"].nextItemId;
+B2CourseProgressService.recordVocabularyReview(
+  1,
+  reviewBeforeMastering[0].courseItemId,
+  true,
+  reviewBeforeMastering,
+  false,
+);
+assert(
+  B2CourseProgressService.getVocabularyStatus(1, reviewBeforeMastering[0].courseItemId) === "known",
+  "Review to known transition failed.",
+);
+assert(B2CourseProgressService.getReviewVocabulary(1, unit1Items).length === 2, "Mastered review item was not removed.");
+assert(
+  B2CourseProgressService.getStore().vocabularyByUnit["1"].nextItemId === mainCursorBeforeReview,
+  "Review mode changed the main vocabulary cursor.",
+);
+const unit1Stats = B2CourseProgressService.getUnitStats(
+  1,
+  unit1Items.map((item) => item.courseItemId),
+  [],
+);
+assert(
+  unit1Stats.reviewedVocabulary === 10
+  && unit1Stats.knownVocabulary === 8
+  && unit1Stats.reviewVocabulary === 2
+  && unit1Stats.unseenVocabulary === 50,
+  "Kapitel vocabulary statistics are wrong.",
+);
+
+const reusedItemId = unit2Vocabulary.reusedVocabularyRefs?.[0]?.courseItemId;
+assert(reusedItemId, "Kapitel 2 needs a reused vocabulary reference for this test.");
+B2CourseProgressService.setVocabularyStatus(1, reusedItemId, "known");
+B2CourseProgressService.migrateVocabularyProgress(2, [
+  ...unit2Items,
+  ...(unit2Vocabulary.reusedVocabularyRefs ?? []),
+]);
+assert(
+  B2CourseProgressService.getVocabularyStatus(2, reusedItemId) === "unseen",
+  "A linked item incorrectly shared its Kapitel status.",
+);
+
+const persistedProgress = JSON.parse(storage.getItem(B2_COURSE_PROGRESS_KEY) ?? "{}") as {
+  vocabularyByUnit?: Record<string, { nextItemId?: string }>;
+};
+assert(
+  persistedProgress.vocabularyByUnit?.["1"]?.nextItemId === unit1Items[10].courseItemId,
+  "nextItemId was not written to localStorage.",
+);
+assert(
+  B2CourseProgressService.getNextVocabularyItem(1, unit1Items)?.courseItemId === unit1Items[10].courseItemId,
+  "nextItemId was not restored after a fresh load.",
+);
+
+const reorderedStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: reorderedStorage, configurable: true });
+reorderedStorage.setItem(B2_COURSE_PROGRESS_KEY, JSON.stringify({
+  version: 2,
+  vocabulary: {},
+  vocabularyByUnit: {
+    "1": {
+      statusByItemId: { [unit1Items[0].courseItemId]: "known" },
+      nextItemId: "removed-item",
+      lastViewedItemId: unit1Items[0].courseItemId,
+      reviewCursorItemId: "",
+      legacyMigrated: true,
+      updatedAt: "",
+    },
+  },
+  exercises: {},
+  favorites: [],
+  resume: { "1": { vocabularyIndex: 0, exerciseIndex: 0, lastMode: "vocabulary", updatedAt: "" } },
+  updatedAt: "",
+}));
+const reorderedItems = [unit1Items[2], unit1Items[0], unit1Items[1]];
+assert(
+  B2CourseProgressService.getNextVocabularyItem(1, reorderedItems)?.courseItemId === unit1Items[1].courseItemId,
+  "Invalid nextItemId did not fall back to the first unseen item after reordering.",
+);
+
+const legacyStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: legacyStorage, configurable: true });
+legacyStorage.setItem(B2_COURSE_PROGRESS_KEY, JSON.stringify({
+  version: 1,
+  vocabulary: {
+    [unit1Items[0].courseItemId]: {
+      correctCount: 2,
+      wrongCount: 0,
+      lastReviewedAt: "2026-01-01T00:00:00.000Z",
+      difficult: false,
+      mastered: false,
+    },
+  },
+  exercises: { preserved: { completed: true } },
+  favorites: [unit1Items[0].courseItemId],
+  resume: { "1": { vocabularyIndex: 1, exerciseIndex: 4, lastMode: "vocabulary", updatedAt: "old" } },
+  updatedAt: "old",
+  customLegacyField: { keep: true },
+}));
+const migratedStore = B2CourseProgressService.getStore();
+assert(migratedStore.version === 2, "Legacy progress was not upgraded to version 2.");
+assert((migratedStore.customLegacyField as { keep?: boolean })?.keep, "Unknown legacy fields were deleted.");
+assert(migratedStore.exercises.preserved?.completed, "Exercise progress was deleted during migration.");
+assert(migratedStore.favorites.includes(unit1Items[0].courseItemId), "Favorites were deleted during migration.");
+B2CourseProgressService.migrateVocabularyProgress(1, unit1Items);
+assert(
+  B2CourseProgressService.getVocabularyStatus(1, unit1Items[0].courseItemId) === "known",
+  "Legacy vocabulary progress was not mapped to a stable item ID.",
+);
+assert(
+  B2CourseProgressService.getNextVocabularyItem(1, unit1Items)?.courseItemId === unit1Items[1].courseItemId,
+  "Legacy vocabularyIndex was not migrated to the correct next item.",
+);
+
+const completionStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: completionStorage, configurable: true });
+B2CourseProgressService.migrateVocabularyProgress(1, unit1Items.slice(0, 3));
+B2CourseProgressService.setVocabularyStatus(1, unit1Items[0].courseItemId, "known");
+B2CourseProgressService.setVocabularyStatus(1, unit1Items[1].courseItemId, "review");
+B2CourseProgressService.setVocabularyStatus(1, unit1Items[2].courseItemId, "known");
+assert(!B2CourseProgressService.getNextVocabularyItem(1, unit1Items.slice(0, 3)), "Completed Kapitel returned an unseen item.");
+assert(B2CourseProgressService.getReviewVocabulary(1, unit1Items.slice(0, 3)).length === 1, "Completed Kapitel lost its review queue.");
+B2CourseProgressService.setVocabularyStatus(1, unit1Items[1].courseItemId, "known");
+assert(B2CourseProgressService.getReviewVocabulary(1, unit1Items.slice(0, 3)).length === 0, "Known Kapitel still has review items.");
+
+const resetStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: resetStorage, configurable: true });
+B2CourseProgressService.migrateVocabularyProgress(1, unit1Items.slice(0, 2));
+B2CourseProgressService.setVocabularyStatus(1, unit1Items[0].courseItemId, "known");
+B2CourseProgressService.toggleFavorite(unit1Items[0].courseItemId);
+B2CourseProgressService.recordExerciseAttempt(1, "preserved-exercise", true, "answer");
+B2CourseProgressService.resetVocabularyProgress(1);
+assert(B2CourseProgressService.getVocabularyStatus(1, unit1Items[0].courseItemId) === "unseen", "Explicit reset did not reset Kapitel vocabulary.");
+assert(B2CourseProgressService.isFavorite(unit1Items[0].courseItemId), "Explicit reset deleted a favorite.");
+assert(B2CourseProgressService.getStore().exercises["preserved-exercise"]?.completed, "Explicit reset deleted exercise progress.");
+
+const emptyStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: emptyStorage, configurable: true });
+assert(B2CourseProgressService.getStore().version === 2, "Empty localStorage was not initialized safely.");
+
+const invalidStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: invalidStorage, configurable: true });
+invalidStorage.setItem(B2_COURSE_PROGRESS_KEY, "{invalid-json");
+const originalConsoleError = console.error;
+console.error = () => undefined;
+const invalidStore = B2CourseProgressService.getStore();
+console.error = originalConsoleError;
+assert(invalidStore.version === 2 && Object.keys(invalidStore.exercises).length === 0, "Invalid JSON was not handled safely.");
+
+Object.defineProperty(globalThis, "localStorage", { value: storage, configurable: true });
 
 const store = B2CourseProgressService.getStore();
 const automatic = store.exercises["b2u01-e001"];
@@ -85,4 +269,10 @@ assert(store.resume["1"].exerciseIndex === 7, "Resume position was not saved.");
 assert(localStorage.getItem("dmt_progress") === null, "B2 tests touched the legacy progress key.");
 assert(localStorage.getItem(B2_COURSE_PROGRESS_KEY) !== null, "B2 progress was not persisted under its own key.");
 
-console.log(JSON.stringify({ ok: true, exerciseCount: exercises.length, exerciseTypes: counts, progressKey: B2_COURSE_PROGRESS_KEY }, null, 2));
+console.log(JSON.stringify({
+  ok: true,
+  exerciseCount: exercises.length,
+  exerciseTypes: counts,
+  progressKey: B2_COURSE_PROGRESS_KEY,
+  vocabularyProgressScenarios: 15,
+}, null, 2));

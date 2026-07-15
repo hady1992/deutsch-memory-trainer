@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowLeft, BookOpen, Dumbbell, Play } from "lucide-react";
+import { ArrowLeft, BookOpen, Dumbbell, Play, RefreshCcw, RotateCcw } from "lucide-react";
 import { B2CourseProgressService } from "./b2CourseProgressService";
 import { B2CourseExerciseList } from "./B2CourseExercises";
 import B2CourseVocabulary from "./B2CourseVocabulary";
@@ -10,7 +10,8 @@ interface Props {
   vocabulary: B2CourseVocabularyItem[];
   isRtl: boolean;
   onBack: () => void;
-  onStartVocabulary: (index: number) => void;
+  onStartVocabulary: (itemId: string) => void;
+  onStartReview: (itemId: string) => void;
   onStartExercises: (index: number) => void;
 }
 
@@ -22,13 +23,60 @@ export default function B2CourseUnitPage({
   isRtl,
   onBack,
   onStartVocabulary,
+  onStartReview,
   onStartExercises,
 }: Props) {
   const [tab, setTab] = useState<UnitTab>("vocabulary");
+  const [notice, setNotice] = useState("");
+  const unitNumber = unit.summary.unit;
   const resume = B2CourseProgressService.getResume(unit.summary.unit);
+  const vocabularyIds = vocabulary.map((item) => item.courseItemId);
+  const exerciseIds = unit.exercises.exercises.map((exercise) => exercise.id);
+  const stats = B2CourseProgressService.getUnitStats(unitNumber, vocabularyIds, exerciseIds);
+  const reviewItems = B2CourseProgressService.getReviewVocabulary(unitNumber, vocabulary);
+
+  const startVocabulary = () => {
+    const next = B2CourseProgressService.getNextVocabularyItem(unitNumber, vocabulary);
+    if (next) {
+      setNotice("");
+      onStartVocabulary(next.courseItemId);
+      return;
+    }
+    setNotice(reviewItems.length
+      ? (isRtl
+        ? "اكتملت الدراسة الأساسية لهذا الفصل. ابدأ جلسة مراجعة الكلمات التي تحتاج إلى تثبيت."
+        : "Der Kapitelwortschatz ist bearbeitet. Starte jetzt die Wiederholung.")
+      : (isRtl
+        ? "اكتملت جميع مفردات هذا الفصل."
+        : "Alle Wörter dieses Kapitels sind abgeschlossen."));
+  };
+
+  const startReview = () => {
+    const first = B2CourseProgressService.getReviewStartItem(unitNumber, reviewItems);
+    if (!first) {
+      setNotice(isRtl
+        ? "لا توجد كلمات تحتاج إلى مراجعة في هذا الفصل."
+        : "In diesem Kapitel gibt es keine Wörter zum Wiederholen.");
+      return;
+    }
+    setNotice("");
+    onStartReview(first.courseItemId);
+  };
+
   const continueTraining = () => {
     if (resume.lastMode === "exercises") onStartExercises(resume.exerciseIndex);
-    else onStartVocabulary(resume.vocabularyIndex);
+    else startVocabulary();
+  };
+
+  const resetVocabulary = () => {
+    const confirmed = window.confirm(isRtl
+      ? "هل تريد إعادة دراسة مفردات هذا الفصل من البداية؟ لن يتغير تقدم التمارين أو المفضلة."
+      : "Kapitelwortschatz wirklich neu lernen? Übungsfortschritt und Favoriten bleiben erhalten.");
+    if (!confirmed) return;
+    B2CourseProgressService.resetVocabularyProgress(unitNumber);
+    setNotice("");
+    const first = vocabulary[0];
+    if (first) onStartVocabulary(first.courseItemId);
   };
 
   return (
@@ -45,7 +93,7 @@ export default function B2CourseUnitPage({
         </h1>
         <p className="mt-2 text-sm text-slate-300" dir="ltr">Seiten {unit.summary.pages[0]}-{unit.summary.pages[1]}</p>
         <div className="mt-6 flex flex-wrap gap-3">
-          <button type="button" onClick={() => onStartVocabulary(0)} className="flex min-h-12 items-center gap-2 rounded-lg bg-blue-600 px-5 py-3 font-black">
+          <button type="button" onClick={startVocabulary} className="flex min-h-12 items-center gap-2 rounded-lg bg-blue-600 px-5 py-3 font-black">
             <BookOpen size={18} /> {isRtl ? "تدريب المفردات" : "Wortschatz trainieren"}
           </button>
           <button type="button" onClick={() => onStartExercises(0)} className="flex min-h-12 items-center gap-2 rounded-lg bg-emerald-600 px-5 py-3 font-black">
@@ -56,8 +104,28 @@ export default function B2CourseUnitPage({
               <Play size={18} /> {isRtl ? "متابعة من آخر موضع" : "Training fortsetzen"}
             </button>
           )}
+          <button type="button" onClick={startReview} className="flex min-h-12 items-center gap-2 rounded-lg border border-amber-400 bg-amber-50 px-5 py-3 font-black text-amber-900">
+            <RefreshCcw size={18} /> {isRtl ? `مراجعة الكلمات (${reviewItems.length})` : `Wörter wiederholen (${reviewItems.length})`}
+          </button>
+          {stats.reviewedVocabulary > 0 && (
+            <button type="button" onClick={resetVocabulary} className="flex min-h-12 items-center gap-2 rounded-lg border border-slate-600 bg-slate-800 px-5 py-3 font-black">
+              <RotateCcw size={18} /> {isRtl ? "إعادة دراسة الفصل من البداية" : "Kapitel neu lernen"}
+            </button>
+          )}
+        </div>
+        <div className="mt-6 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
+          <div className="rounded-lg bg-slate-800 p-3"><strong className="block text-xl" dir="ltr">{stats.vocabularyTotal}</strong><span className="text-xs text-slate-300">{isRtl ? "الإجمالي" : "Gesamt"}</span></div>
+          <div className="rounded-lg bg-slate-800 p-3"><strong className="block text-xl" dir="ltr">{stats.reviewedVocabulary}</strong><span className="text-xs text-slate-300">{isRtl ? "مدروسة" : "Bearbeitet"}</span></div>
+          <div className="rounded-lg bg-slate-800 p-3"><strong className="block text-xl" dir="ltr">{stats.knownVocabulary}</strong><span className="text-xs text-slate-300">{isRtl ? "معروفة" : "Bekannt"}</span></div>
+          <div className="rounded-lg bg-slate-800 p-3"><strong className="block text-xl" dir="ltr">{stats.reviewVocabulary}</strong><span className="text-xs text-slate-300">{isRtl ? "للمراجعة" : "Wiederholen"}</span></div>
         </div>
       </section>
+
+      {notice && (
+        <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-4 font-semibold text-amber-900">
+          {notice}
+        </div>
+      )}
 
       <div className="mt-6 flex gap-2 rounded-lg border border-slate-200 bg-white p-2 shadow-sm">
         <button

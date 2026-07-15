@@ -6,7 +6,12 @@ import { B2CourseService } from "./b2CourseService";
 import B2CourseExerciseTrainer from "./B2CourseExercises";
 import B2CourseTrainer from "./B2CourseTrainer";
 import B2CourseUnitPage from "./B2CourseUnitPage";
-import type { B2CourseIndex, B2CourseUnitData, B2CourseVocabularyItem } from "./types";
+import type {
+  B2CourseIndex,
+  B2CourseUnitData,
+  B2CourseVocabularyItem,
+  B2VocabularyTrainingMode,
+} from "./types";
 
 interface Props {
   onNavigate: (page: string, params?: unknown) => void;
@@ -22,9 +27,17 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
   const [units, setUnits] = useState<Map<number, B2CourseUnitData>>(new Map());
   const [selectedUnitNumber, setSelectedUnitNumber] = useState<number | null>(null);
   const [vocabulary, setVocabulary] = useState<B2CourseVocabularyItem[]>([]);
+  const [trainerItems, setTrainerItems] = useState<B2CourseVocabularyItem[]>([]);
+  const [trainerItemId, setTrainerItemId] = useState("");
+  const [vocabularyMode, setVocabularyMode] = useState<B2VocabularyTrainingMode>("study");
   const [trainerIndex, setTrainerIndex] = useState(0);
+  const [progressRevision, setProgressRevision] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+
+  useEffect(() => B2CourseProgressService.subscribe(() => {
+    setProgressRevision((current) => current + 1);
+  }), []);
 
   const loadCourse = async () => {
     setLoading(true);
@@ -33,6 +46,13 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
       B2CourseService.clearCache();
       const courseIndex = await B2CourseService.getIndex();
       const loadedUnits = await Promise.all(courseIndex.units.map((summary) => B2CourseService.getUnit(summary.unit)));
+      loadedUnits.forEach((unit) => {
+        const identities = [
+          ...unit.vocabulary.items,
+          ...(unit.vocabulary.reusedVocabularyRefs ?? []),
+        ];
+        B2CourseProgressService.migrateVocabularyProgress(unit.summary.unit, identities);
+      });
       setIndex(courseIndex);
       setUnits(new Map(loadedUnits.map((unit) => [unit.summary.unit, unit])));
     } catch (reason) {
@@ -55,7 +75,7 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
       exercises: index.units.reduce((total, unit) => total + unit.exerciseCount, 0),
       completed: Object.values(store.exercises).filter((item) => item.completed).length,
     };
-  }, [index, units, view]);
+  }, [index, units, view, progressRevision]);
 
   const openUnit = async (unitNumber: number) => {
     setLoading(true);
@@ -65,6 +85,7 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
         B2CourseService.getUnit(unitNumber),
         B2CourseService.getResolvedVocabulary(unitNumber),
       ]);
+      B2CourseProgressService.migrateVocabularyProgress(unitNumber, resolved);
       setUnits((current) => new Map(current).set(unitNumber, unitData));
       setSelectedUnitNumber(unitNumber);
       setVocabulary(resolved);
@@ -79,10 +100,11 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
   if (view === "vocabulary" && selectedUnit) {
     return (
       <B2CourseTrainer
-        items={vocabulary}
+        items={trainerItems}
         unit={selectedUnit.summary.unit}
         isRtl={isRtl}
-        initialIndex={trainerIndex}
+        initialItemId={trainerItemId}
+        mode={vocabularyMode}
         onClose={() => setView("unit")}
       />
     );
@@ -108,8 +130,17 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
           setView("overview");
           setSelectedUnitNumber(null);
         }}
-        onStartVocabulary={(startIndex) => {
-          setTrainerIndex(startIndex);
+        onStartVocabulary={(itemId) => {
+          setTrainerItems(vocabulary);
+          setTrainerItemId(itemId);
+          setVocabularyMode("study");
+          setView("vocabulary");
+        }}
+        onStartReview={(itemId) => {
+          const reviewItems = B2CourseProgressService.getReviewVocabulary(selectedUnit.summary.unit, vocabulary);
+          setTrainerItems(reviewItems);
+          setTrainerItemId(itemId);
+          setVocabularyMode("review");
           setView("vocabulary");
         }}
         onStartExercises={(startIndex) => {
@@ -162,9 +193,14 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {index.units.map((summary) => {
               const unit = units.get(summary.unit);
-              const vocabularyIds = unit?.vocabulary.items.map((item) => item.courseItemId) ?? [];
+              const vocabularyIds = unit
+                ? [
+                  ...unit.vocabulary.items.map((item) => item.courseItemId),
+                  ...(unit.vocabulary.reusedVocabularyRefs ?? []).map((item) => item.courseItemId),
+                ]
+                : [];
               const exerciseIds = unit?.exercises.exercises.map((exercise) => exercise.id) ?? [];
-              const stats = B2CourseProgressService.getUnitStats(vocabularyIds, exerciseIds);
+              const stats = B2CourseProgressService.getUnitStats(summary.unit, vocabularyIds, exerciseIds);
               const reusedCount = unit?.vocabulary.reusedVocabularyRefs?.length ?? 0;
               return (
                 <button
@@ -180,9 +216,14 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
                   <h2 className="mt-5 text-xl font-black leading-8 text-slate-900">{isRtl ? summary.title_ar : summary.title_de}</h2>
                   <p className="mt-2 text-sm text-slate-500" dir="ltr">S. {summary.pages[0]}-{summary.pages[1]}</p>
                   <div className="mt-5 grid grid-cols-2 gap-3 text-center text-sm">
-                    <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{summary.vocabularyCount}</strong>{isRtl ? "مفردة جديدة" : "Begriffe"}</div>
-                    <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{summary.exerciseCount}</strong>{isRtl ? "تمرين" : "Übungen"}</div>
+                    <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{stats.vocabularyTotal}</strong>{isRtl ? "إجمالي المفردات" : "Wörter gesamt"}</div>
+                    <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{stats.reviewedVocabulary}</strong>{isRtl ? "كلمة مدروسة" : "Bearbeitet"}</div>
                   </div>
+                  <p className="mt-3 text-xs font-semibold text-slate-600" dir={isRtl ? "rtl" : "ltr"}>
+                    {isRtl
+                      ? `معروفة: ${stats.knownVocabulary} • للمراجعة: ${stats.reviewVocabulary} • تمارين: ${summary.exerciseCount}`
+                      : `Bekannt: ${stats.knownVocabulary} • Wiederholen: ${stats.reviewVocabulary} • Übungen: ${summary.exerciseCount}`}
+                  </p>
                   {reusedCount > 0 && <p className="mt-3 text-xs font-semibold text-slate-500">{isRtl ? `+ ${reusedCount} مفردات مرتبطة من وحدات سابقة` : `+ ${reusedCount} verknüpfte Begriffe aus früheren Kapiteln`}</p>}
                   <div className="mt-5 h-2 overflow-hidden rounded-full bg-slate-100"><div className="h-full bg-blue-600" style={{ width: `${stats.percent}%` }} /></div>
                   <span className="mt-4 flex items-center justify-end gap-1 text-sm font-bold text-blue-600">
