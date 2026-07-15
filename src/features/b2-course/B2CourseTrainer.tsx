@@ -39,7 +39,7 @@ export default function B2CourseTrainer({ items, unit, isRtl, initialIndex, onCl
       <div className="mb-5 flex items-center justify-between gap-3">
         <button type="button" onClick={onClose} className="flex min-h-11 items-center gap-2 font-bold text-slate-600">
           <ArrowLeft size={18} className={isRtl ? "rotate-180" : ""} />
-          {isRtl ? "العودة إلى الوحدة" : "Zur Einheit"}
+          {isRtl ? "العودة إلى الوحدة" : "Zurück zum Kapitel"}
         </button>
         <span className="rounded-full bg-slate-900 px-4 py-2 text-xs font-black text-white" dir="ltr">
           {index + 1} / {items.length}
