@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 13,
+  "unitTitle_de": "Konflikte lösen",
+  "unitTitle_ar": "حل النزاعات",
+  "grammarFocus": [
+    "Irreale Konditionalsätze in der Vergangenheit",
+    "Relativsätze und Relativpronomen im Genitiv: dessen / deren",
+    "Nomenbildung aus Adjektiven",
+    "Pronomen mit -einander in der Konfliktkommunikation",
+    "Bestätigungsmails und berufliche Gesprächsnotizen"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u13-e001",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Konfliktsituation erkennen",
+      "title_ar": "التعرف على موقف نزاع",
+      "prompt_de": "Welche Situation hat das größte Konfliktpotenzial?",
+      "prompt_ar": "أي موقف لديه احتمال نزاع أكبر؟",
+      "answer": "Die Schichten werden ohne Rücksprache ständig geändert.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Schichten werden ohne Rücksprache ständig geändert.",
+        "Alle erhalten den Dienstplan rechtzeitig.",
+        "Die Aufgaben sind klar verteilt.",
+        "Das Team dokumentiert Entscheidungen."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v001",
+        "b2u13-v007"
+      ]
+    },
+    {
+      "id": "b2u13-e002",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Konfliktbegriffe",
+      "title_ar": "مصطلحات النزاع",
+      "prompt_de": "Ordnen Sie die Begriffe ihren Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بشرحها.",
+      "answer": {
+        "Streitpunkt": "konkreter Gegenstand der Uneinigkeit",
+        "Eskalation": "zunehmende Verschärfung",
+        "Deeskalation": "bewusste Verringerung der Spannung",
+        "Lösungsansatz": "erste konkrete Idee zur Bearbeitung"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Streitpunkt",
+          "konkreter Gegenstand der Uneinigkeit"
+        ],
+        [
+          "Eskalation",
+          "zunehmende Verschärfung"
+        ],
+        [
+          "Deeskalation",
+          "bewusste Verringerung der Spannung"
+        ],
+        [
+          "Lösungsansatz",
+          "erste konkrete Idee zur Bearbeitung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v005",
+        "b2u13-v008",
+        "b2u13-v009",
+        "b2u13-v020"
+      ]
+    },
+    {
+      "id": "b2u13-e003",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Gesprächsbereitschaft",
+      "title_ar": "الاستعداد للحوار",
+      "prompt_de": "Ohne ______ lässt sich ein festgefahrener Konflikt kaum bearbeiten.",
+      "prompt_ar": "دون ______ يصعب معالجة نزاع متجمد.",
+      "answer": "Gesprächsbereitschaft",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Gesprächsbereitschaft",
+        "die Gesprächsbereitschaft"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v010"
+      ]
+    },
+    {
+      "id": "b2u13-e004",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Vorwürfe vermeiden",
+      "title_ar": "تجنب اللوم",
+      "prompt_de": "Welche Formulierung ist konstruktiver?",
+      "prompt_ar": "أي صياغة أكثر بنائية؟",
+      "answer": "Mir ist aufgefallen, dass die Übergabe zweimal nicht dokumentiert war. Wie können wir das ändern?",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Mir ist aufgefallen, dass die Übergabe zweimal nicht dokumentiert war. Wie können wir das ändern?",
+        "Du machst grundsätzlich alles falsch.",
+        "Mit dir kann man nie arbeiten.",
+        "Alle wissen, dass du das Problem bist."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v021",
+        "b2u13-v012"
+      ]
+    },
+    {
+      "id": "b2u13-e005",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Problem direkt ansprechen",
+      "title_ar": "طرح المشكلة مباشرة",
+      "prompt_de": "Bilden Sie einen sachlichen Satz: mich stört / häufig unterbrochen werden / Gespräch",
+      "prompt_ar": "كوّن جملة موضوعية.",
+      "answer": "Mich stört, dass ich in Gesprächen häufig unterbrochen werde.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Mich stört, dass ich in Gesprächen häufig unterbrochen werde."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v030"
+      ]
+    },
+    {
+      "id": "b2u13-e006",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Aktiv zuhören",
+      "title_ar": "الاستماع الفعال",
+      "prompt_de": "Was gehört zu aufmerksamem Zuhören?",
+      "prompt_ar": "ما الذي ينتمي للاستماع بانتباه؟",
+      "answer": "nachfragen und die Aussage in eigenen Worten zusammenfassen",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nachfragen und die Aussage in eigenen Worten zusammenfassen",
+        "sofort eine Rechtfertigung geben",
+        "die Person mehrfach unterbrechen",
+        "währenddessen private Nachrichten schreiben"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v023",
+        "b2u13-v049"
+      ]
+    },
+    {
+      "id": "b2u13-e007",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Perspektivwechsel",
+      "title_ar": "تغيير المنظور",
+      "prompt_de": "Versuchen Sie, sich in die ______ des anderen zu versetzen.",
+      "prompt_ar": "حاول أن تضع نفسك في ______ الآخر.",
+      "answer": "Lage",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Lage",
+        "die Lage"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v026",
+        "b2u13-v017"
+      ]
+    },
+    {
+      "id": "b2u13-e008",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Lösungsorientiertes Verhalten",
+      "title_ar": "سلوك موجه للحل",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Verständnis zeigen": "Gefühle oder Gründe nachvollziehen",
+        "aufeinander zugehen": "sich gegenseitig annähern",
+        "Kompromiss aushandeln": "eine akzeptable Zwischenlösung entwickeln",
+        "dritte Person einschalten": "neutrale Unterstützung holen"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Verständnis zeigen",
+          "Gefühle oder Gründe nachvollziehen"
+        ],
+        [
+          "aufeinander zugehen",
+          "sich gegenseitig annähern"
+        ],
+        [
+          "Kompromiss aushandeln",
+          "eine akzeptable Zwischenlösung entwickeln"
+        ],
+        [
+          "dritte Person einschalten",
+          "neutrale Unterstützung holen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v025",
+        "b2u13-v033",
+        "b2u13-v027",
+        "b2u13-v037"
+      ]
+    },
+    {
+      "id": "b2u13-e009",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Fehlerkultur",
+      "title_ar": "ثقافة الأخطاء",
+      "prompt_de": "Ein Fehler ist passiert. Welche Reaktion unterstützt eine gute Fehlerkultur?",
+      "prompt_ar": "حدث خطأ. ما الرد الذي يدعم ثقافة أخطاء جيدة؟",
+      "answer": "Ursache gemeinsam prüfen und einen verbesserten Ablauf vereinbaren",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ursache gemeinsam prüfen und einen verbesserten Ablauf vereinbaren",
+        "den Fehler sofort der neuen Kollegin in die Schuhe schieben",
+        "über die Person hinter ihrem Rücken sprechen",
+        "den Fehler verheimlichen"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v018",
+        "b2u13-v035"
+      ]
+    },
+    {
+      "id": "b2u13-e010",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Deeskalation",
+      "title_ar": "خفض التصعيد",
+      "prompt_de": "Eine kurze Pause kann helfen, einen sehr emotionalen Konflikt zu ______.",
+      "prompt_ar": "قد تساعد استراحة على ______ نزاع عاطفي.",
+      "answer": "deeskalieren",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "deeskalieren"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v038"
+      ]
+    },
+    {
+      "id": "b2u13-e011",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Nicht nachtragend",
+      "title_ar": "عدم حمل الضغينة",
+      "prompt_de": "Was bedeutet „nicht nachtragend sein“?",
+      "prompt_ar": "ما معنى عدم حمل الضغينة؟",
+      "answer": "Nach einer Klärung alte Vorwürfe nicht ständig wiederholen.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Nach einer Klärung alte Vorwürfe nicht ständig wiederholen.",
+        "Jeden Konflikt vermeiden.",
+        "Nie Kritik äußern.",
+        "Alle Forderungen akzeptieren."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v031"
+      ]
+    },
+    {
+      "id": "b2u13-e012",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Neuanfang",
+      "title_ar": "بداية جديدة",
+      "prompt_de": "Bilden Sie einen Satz: nach dem Gespräch / Team / Neuanfang wagen",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Nach dem Gespräch wagte das Team einen Neuanfang.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Nach dem Gespräch wagte das Team einen Neuanfang."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v032"
+      ]
+    },
+    {
+      "id": "b2u13-e013",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Nomenbildung",
+      "title_ar": "اشتقاق الأسماء",
+      "prompt_de": "Ordnen Sie Adjektiv und Nomen zu.",
+      "prompt_ar": "صِل الصفة بالاسم.",
+      "answer": {
+        "leidenschaftlich": "Leidenschaft",
+        "aufmerksam": "Aufmerksamkeit",
+        "versöhnlich": "Versöhnlichkeit",
+        "vertraut": "Vertrautheit"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "leidenschaftlich",
+          "Leidenschaft"
+        ],
+        [
+          "aufmerksam",
+          "Aufmerksamkeit"
+        ],
+        [
+          "versöhnlich",
+          "Versöhnlichkeit"
+        ],
+        [
+          "vertraut",
+          "Vertrautheit"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v039",
+        "b2u13-v040",
+        "b2u13-v041",
+        "b2u13-v044"
+      ]
+    },
+    {
+      "id": "b2u13-e014",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Weitere Nomenbildung",
+      "title_ar": "اشتقاق أسماء إضافية",
+      "prompt_de": "Ordnen Sie Adjektiv und Nomen zu.",
+      "prompt_ar": "صِل الصفة بالاسم.",
+      "answer": {
+        "offen": "Offenheit",
+        "aggressiv": "Aggression",
+        "konfliktreich": "Konflikt",
+        "gefühlvoll": "Gefühl"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "offen",
+          "Offenheit"
+        ],
+        [
+          "aggressiv",
+          "Aggression"
+        ],
+        [
+          "konfliktreich",
+          "Konflikt"
+        ],
+        [
+          "gefühlvoll",
+          "Gefühl"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v042",
+        "b2u13-v043"
+      ]
+    },
+    {
+      "id": "b2u13-e015",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Respektvoll reagieren",
+      "title_ar": "رد محترم",
+      "prompt_de": "Welche Antwort ist respektvoll und lösungsorientiert?",
+      "prompt_ar": "أي رد محترم وموجه للحل؟",
+      "answer": "Ich verstehe Ihren Punkt. Lassen Sie uns prüfen, welche Lösung für beide Seiten möglich ist.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich verstehe Ihren Punkt. Lassen Sie uns prüfen, welche Lösung für beide Seiten möglich ist.",
+        "Das ist allein Ihr Problem.",
+        "Darüber rede ich nicht.",
+        "Sie übertreiben wie immer."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v034",
+        "b2u13-v025"
+      ]
+    },
+    {
+      "id": "b2u13-e016",
+      "unit": 13,
+      "type": "guided_speaking",
+      "title_de": "Konfliktgespräch",
+      "title_ar": "حوار نزاع",
+      "prompt_de": "Spielen Sie ein Gespräch über eine kurzfristig geänderte Schicht.",
+      "prompt_ar": "مثّل حوارًا عن تغيير مناوبة فجأة.",
+      "answer": {
+        "requiredConcepts": [
+          "Problem sachlich nennen",
+          "Gefühl oder Belastung erklären",
+          "Rückfrage stellen",
+          "Interessen beider Seiten",
+          "Kompromiss",
+          "Vereinbarung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v001",
+        "b2u13-v029",
+        "b2u13-v027"
+      ]
+    },
+    {
+      "id": "b2u13-e017",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Konflikt analysieren",
+      "title_ar": "تحليل نزاع",
+      "prompt_de": "Beschreiben Sie einen Arbeitskonflikt und schlagen Sie zwei Lösungsansätze vor.",
+      "prompt_ar": "صف نزاع عمل واقترح نهجين للحل.",
+      "answer": {
+        "requiredConcepts": [
+          "Beteiligte",
+          "Streitpunkt",
+          "Ursache",
+          "Auswirkung auf Arbeitsklima",
+          "zwei Lösungsansätze",
+          "bevorzugte Lösung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v002",
+        "b2u13-v005",
+        "b2u13-v019",
+        "b2u13-v020"
+      ]
+    },
+    {
+      "id": "b2u13-e018",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Interkultureller Konflikt",
+      "title_ar": "نزاع ثقافي",
+      "prompt_de": "Was ist bei einem möglichen interkulturellen Missverständnis sinnvoll?",
+      "prompt_ar": "ما التصرف المناسب عند سوء فهم ثقافي؟",
+      "answer": "nachfragen, Beobachtungen beschreiben und unterschiedliche Erwartungen erklären",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nachfragen, Beobachtungen beschreiben und unterschiedliche Erwartungen erklären",
+        "das Verhalten sofort als unhöflich bewerten",
+        "jede weitere Zusammenarbeit ablehnen",
+        "nur hinter dem Rücken darüber sprechen"
+      ],
+      "vocabularyRefs": [
+        "b2u09-v027",
+        "b2u13-v028"
+      ]
+    },
+    {
+      "id": "b2u13-e019",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Rücksichtnahme",
+      "title_ar": "مراعاة الآخرين",
+      "prompt_de": "Bei der Schichtplanung ist gegenseitige ______ besonders wichtig.",
+      "prompt_ar": "في تخطيط المناوبات تكون ______ المتبادلة مهمة.",
+      "answer": "Rücksichtnahme",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Rücksichtnahme",
+        "die Rücksichtnahme"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v015"
+      ]
+    },
+    {
+      "id": "b2u13-e020",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Wann Unterstützung holen?",
+      "title_ar": "متى نطلب الدعم؟",
+      "prompt_de": "Zwei Gespräche haben keine Lösung gebracht und der Konflikt verschärft sich. Was ist sinnvoll?",
+      "prompt_ar": "لم يحل حواران المشكلة والنزاع يتصاعد. ما المناسب؟",
+      "answer": "eine neutrale dritte Person oder den Betriebsrat einschalten",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine neutrale dritte Person oder den Betriebsrat einschalten",
+        "weiter Gerüchte verbreiten",
+        "alle Nachrichten ignorieren",
+        "eine öffentliche Beschuldigung schreiben"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v037",
+        "b2u13-v008"
+      ]
+    },
+    {
+      "id": "b2u13-e021",
+      "unit": 13,
+      "type": "guided_speaking",
+      "title_de": "Konfliktkultur vergleichen",
+      "title_ar": "مقارنة ثقافة النزاع",
+      "prompt_de": "Vergleichen Sie, wie Konflikte in zwei Arbeitskulturen angesprochen werden.",
+      "prompt_ar": "قارن طريقة طرح النزاعات في ثقافتين للعمل.",
+      "answer": {
+        "requiredConcepts": [
+          "Direktheit",
+          "Hierarchie",
+          "Kritik an Vorgesetzten",
+          "Gefühle",
+          "Hilfe holen",
+          "eigene Bewertung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u09-v027",
+        "b2u13-v012",
+        "b2u13-v010"
+      ]
+    },
+    {
+      "id": "b2u13-e022",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Rezept für ein gutes Team",
+      "title_ar": "وصفة لفريق جيد",
+      "prompt_de": "Schreiben Sie sechs Regeln für ein Team, das Konflikte früh und fair löst.",
+      "prompt_ar": "اكتب ست قواعد لفريق يحل النزاعات مبكرًا وبعدل.",
+      "answer": {
+        "requiredConcepts": [
+          "respektvoller Umgang",
+          "zuhören",
+          "Fehlerkultur",
+          "direkte Ansprache",
+          "Kompromiss",
+          "Dokumentation von Vereinbarungen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v034",
+        "b2u13-v023",
+        "b2u13-v018",
+        "b2u02-v050"
+      ]
+    },
+    {
+      "id": "b2u13-e023",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Telefonat vorbereiten",
+      "title_ar": "تحضير المكالمة",
+      "prompt_de": "Ordnen Sie den Phasen passende Tätigkeiten zu.",
+      "prompt_ar": "صِل كل مرحلة بالعمل المناسب.",
+      "answer": {
+        "vor dem Gespräch": "Ziel und Unterlagen vorbereiten",
+        "während des Gesprächs": "wichtige Angaben notieren",
+        "nach dem Gespräch": "Ergebnis bestätigen und Beteiligte informieren"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "vor dem Gespräch",
+          "Ziel und Unterlagen vorbereiten"
+        ],
+        [
+          "während des Gesprächs",
+          "wichtige Angaben notieren"
+        ],
+        [
+          "nach dem Gespräch",
+          "Ergebnis bestätigen und Beteiligte informieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v045",
+        "b2u04-v093",
+        "b2u13-v050"
+      ]
+    },
+    {
+      "id": "b2u13-e024",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Anliegen",
+      "title_ar": "موضوع الاتصال",
+      "prompt_de": "Zu Beginn des Anrufs sollte die Person ihr ______ klar nennen.",
+      "prompt_ar": "في بداية الاتصال ينبغي ذكر ______ بوضوح.",
+      "answer": "Anliegen",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Anliegen",
+        "das Anliegen"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v046"
+      ]
+    },
+    {
+      "id": "b2u13-e025",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Gesprächsnotiz",
+      "title_ar": "ملاحظة المحادثة",
+      "prompt_de": "Welche Angabe gehört unbedingt in eine berufliche Gesprächsnotiz?",
+      "prompt_ar": "أي معلومة ضرورية في ملاحظة مهنية؟",
+      "answer": "Anliegen, Kontaktdaten, Ergebnis und nächste Aufgabe",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Anliegen, Kontaktdaten, Ergebnis und nächste Aufgabe",
+        "private Vermutungen über die Person",
+        "unbekannte Gerüchte",
+        "Passwörter anderer Kollegen"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v056",
+        "b2u13-v047"
+      ]
+    },
+    {
+      "id": "b2u13-e026",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Gezielt nachfragen",
+      "title_ar": "سؤال استيضاحي",
+      "prompt_de": "Der Kunde sagt nur: „Wir brauchen Material für die Messe.“ Welche Rückfrage ist am hilfreichsten?",
+      "prompt_ar": "قال العميل إنه يحتاج مواد للمعرض. ما أفضل سؤال؟",
+      "answer": "Welche Art, Menge und welchen Liefertermin benötigen Sie?",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Welche Art, Menge und welchen Liefertermin benötigen Sie?",
+        "Warum sind Sie so spät dran?",
+        "Ist das wirklich wichtig?",
+        "Können Sie nicht jemand anderen fragen?"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v049",
+        "b2u13-v053"
+      ]
+    },
+    {
+      "id": "b2u13-e027",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Standfläche",
+      "title_ar": "مساحة الجناح",
+      "prompt_de": "Für den Messestand wurde eine ______ von 18 Quadratmetern reserviert.",
+      "prompt_ar": "حُجزت ______ بمساحة 18 مترًا مربعًا.",
+      "answer": "Standfläche",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Standfläche",
+        "eine Standfläche"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v052"
+      ]
+    },
+    {
+      "id": "b2u13-e028",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Bestätigungsmail",
+      "title_ar": "بريد التأكيد",
+      "prompt_de": "Ordnen Sie Abschnitt und Inhalt zu.",
+      "prompt_ar": "صِل القسم بالمحتوى.",
+      "answer": {
+        "Betreff": "Thema und Datum kurz nennen",
+        "Einleitung": "auf das Telefonat Bezug nehmen",
+        "Hauptteil": "Leistung, Termin und Preis bestätigen",
+        "Schluss": "Rückfragen und Erreichbarkeit nennen"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Betreff",
+          "Thema und Datum kurz nennen"
+        ],
+        [
+          "Einleitung",
+          "auf das Telefonat Bezug nehmen"
+        ],
+        [
+          "Hauptteil",
+          "Leistung, Termin und Preis bestätigen"
+        ],
+        [
+          "Schluss",
+          "Rückfragen und Erreichbarkeit nennen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v051",
+        "b2u13-v050"
+      ]
+    },
+    {
+      "id": "b2u13-e029",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Termin bestätigen",
+      "title_ar": "تأكيد الموعد",
+      "prompt_de": "Bilden Sie einen formellen Satz: Aufbau / 8. November / schriftlich bestätigen",
+      "prompt_ar": "كوّن جملة رسمية.",
+      "answer": "Hiermit bestätigen wir den Aufbau am 8. November schriftlich.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Hiermit bestätigen wir den Aufbau am 8. November schriftlich."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v055"
+      ]
+    },
+    {
+      "id": "b2u13-e030",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Auftragsbestätigung prüfen",
+      "title_ar": "فحص تأكيد الطلب",
+      "prompt_de": "Was sollte man in einer Auftragsbestätigung prüfen?",
+      "prompt_ar": "ما الذي يجب فحصه في تأكيد الطلب؟",
+      "answer": "Leistungsumfang, Menge, Preis und Termin",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Leistungsumfang, Menge, Preis und Termin",
+        "private Hobbys des Kunden",
+        "Passwort des Lieferanten",
+        "Alter aller Mitarbeitenden"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v054"
+      ]
+    },
+    {
+      "id": "b2u13-e031",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Bestätigungsmail schreiben",
+      "title_ar": "كتابة بريد تأكيد",
+      "prompt_de": "Schreiben Sie eine Bestätigungsmail nach einem Telefonat mit einer Eventagentur.",
+      "prompt_ar": "اكتب بريد تأكيد بعد مكالمة مع وكالة فعاليات.",
+      "answer": {
+        "requiredConcepts": [
+          "Bezug auf Telefonat",
+          "Termin",
+          "Standfläche",
+          "Werbematerial",
+          "Preis oder Angebot",
+          "offene Rückfrage",
+          "Erreichbarkeit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v051",
+        "b2u13-v052",
+        "b2u13-v053"
+      ]
+    },
+    {
+      "id": "b2u13-e032",
+      "unit": 13,
+      "type": "guided_speaking",
+      "title_de": "Berufliches Telefonat",
+      "title_ar": "مكالمة مهنية",
+      "prompt_de": "Führen Sie ein kurzes Telefonat: Ein Kunde fragt eine Band für eine Hochzeit an.",
+      "prompt_ar": "مثّل مكالمة: عميل يستفسر عن فرقة لحفل زفاف.",
+      "answer": {
+        "requiredConcepts": [
+          "Anliegen",
+          "Termin",
+          "Ort",
+          "Dauer",
+          "Anzahl der Musiker",
+          "Preisrahmen",
+          "schriftliche Bestätigung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v046",
+        "b2u13-v049",
+        "b2u13-v050"
+      ]
+    },
+    {
+      "id": "b2u13-e033",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Irreale Vergangenheit",
+      "title_ar": "الشرط غير الحقيقي في الماضي",
+      "prompt_de": "Welcher Satz ist grammatisch richtig?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Wenn ich früher angerufen hätte, hätten wir mehr Zeit gehabt.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wenn ich früher angerufen hätte, hätten wir mehr Zeit gehabt.",
+        "Wenn ich früher angerufen habe, hätten wir mehr Zeit.",
+        "Wenn ich früher anrufen würde, hatten wir mehr Zeit.",
+        "Wenn ich früher angerufen hatte, haben wir mehr Zeit gehabt."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v057"
+      ]
+    },
+    {
+      "id": "b2u13-e034",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Irreale Bedingung",
+      "title_ar": "الشرط غير المتحقق",
+      "prompt_de": "Wenn der Service besser ______, wäre die Kundin geblieben.",
+      "prompt_ar": "لو كانت الخدمة أفضل لبقيت العميلة.",
+      "answer": "gewesen wäre",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "gewesen wäre",
+        "besser gewesen wäre"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v058"
+      ]
+    },
+    {
+      "id": "b2u13-e035",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Hypothetische Folge",
+      "title_ar": "النتيجة الافتراضية",
+      "prompt_de": "Verbinden Sie: Auftrag rechtzeitig bekommen / weniger Überstunden machen müssen",
+      "prompt_ar": "اربط الجملتين بشرط ماضٍ غير حقيقي.",
+      "answer": "Wenn wir den Auftrag rechtzeitig bekommen hätten, hätten wir weniger Überstunden machen müssen.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wenn wir den Auftrag rechtzeitig bekommen hätten, hätten wir weniger Überstunden machen müssen."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v059"
+      ]
+    },
+    {
+      "id": "b2u13-e036",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Wenn ich das gewusst hätte",
+      "title_ar": "لو كنت أعرف ذلك",
+      "prompt_de": "Ergänzen Sie sinnvoll: Wenn ich das gewusst hätte, …",
+      "prompt_ar": "أكمل الجملة بصورة مناسبة.",
+      "answer": "Wenn ich das gewusst hätte, hätte ich früher nachgefragt.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wenn ich das gewusst hätte, hätte ich früher nachgefragt."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v060"
+      ]
+    },
+    {
+      "id": "b2u13-e037",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Dessen oder deren?",
+      "title_ar": "dessen أم deren؟",
+      "prompt_de": "Welche Form passt? „Der Kollege, ___ Schicht geändert wurde, fragt nach.“",
+      "prompt_ar": "أي صيغة تناسب؟",
+      "answer": "dessen",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v062"
+      ]
+    },
+    {
+      "id": "b2u13-e038",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Deren",
+      "title_ar": "deren",
+      "prompt_de": "Welche Form passt? „Die Kollegin, ___ Kind krank ist, arbeitet heute zu Hause.“",
+      "prompt_ar": "أي صيغة تناسب؟",
+      "answer": "deren",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v061"
+      ]
+    },
+    {
+      "id": "b2u13-e039",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Relativsatz im Genitiv",
+      "title_ar": "جملة موصولة بالمضاف إليه",
+      "prompt_de": "Verbinden Sie: Die Mitarbeiterin möchte weniger arbeiten. Ihre Kinder sind noch klein.",
+      "prompt_ar": "اربط الجملتين.",
+      "answer": "Die Mitarbeiterin, deren Kinder noch klein sind, möchte weniger arbeiten.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Mitarbeiterin, deren Kinder noch klein sind, möchte weniger arbeiten."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v061"
+      ]
+    },
+    {
+      "id": "b2u13-e040",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Relativsatz mit dessen",
+      "title_ar": "جملة باستخدام dessen",
+      "prompt_de": "Verbinden Sie: Der Kollege wünscht feste Arbeitszeiten. Sein Problem ist die Kinderbetreuung.",
+      "prompt_ar": "اربط الجملتين.",
+      "answer": "Der Kollege, dessen Problem die Kinderbetreuung ist, wünscht feste Arbeitszeiten.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der Kollege, dessen Problem die Kinderbetreuung ist, wünscht feste Arbeitszeiten."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v062",
+        "b2u13-v086"
+      ]
+    },
+    {
+      "id": "b2u13-e041",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Grammatische Funktion",
+      "title_ar": "الوظيفة النحوية",
+      "prompt_de": "Ordnen Sie die Begriffe zu.",
+      "prompt_ar": "صِل المصطلحات.",
+      "answer": {
+        "irreale Bedingung": "nicht eingetretene Voraussetzung",
+        "hypothetische Folge": "nur gedachte Konsequenz",
+        "dessen": "maskulines oder neutrales Bezugswort",
+        "deren": "feminines oder plurales Bezugswort"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "irreale Bedingung",
+          "nicht eingetretene Voraussetzung"
+        ],
+        [
+          "hypothetische Folge",
+          "nur gedachte Konsequenz"
+        ],
+        [
+          "dessen",
+          "maskulines oder neutrales Bezugswort"
+        ],
+        [
+          "deren",
+          "feminines oder plurales Bezugswort"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v058",
+        "b2u13-v059",
+        "b2u13-v062"
+      ]
+    },
+    {
+      "id": "b2u13-e042",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Vergangene Entscheidung reflektieren",
+      "title_ar": "التفكير في قرار ماضٍ",
+      "prompt_de": "Schreiben Sie vier irreale Konditionalsätze über eine schwierige berufliche Situation.",
+      "prompt_ar": "اكتب أربع جمل شرطية غير حقيقية عن موقف مهني صعب.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Sätze mit hätte",
+          "mindestens ein Satz mit wäre",
+          "Ursache",
+          "hypothetische Folge"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v057"
+      ]
+    },
+    {
+      "id": "b2u13-e043",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Veränderte Rollen",
+      "title_ar": "تغير الأدوار",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بشرحه.",
+      "answer": {
+        "Rollenverteilung": "Aufteilung von Aufgaben und Verantwortung",
+        "Rollentausch": "Personen wechseln bisherige Aufgaben",
+        "Doppelbelastung": "Beruf und Familienarbeit gleichzeitig",
+        "Care-Arbeit": "Betreuungs-, Pflege- und Haushaltsarbeit"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Rollenverteilung",
+          "Aufteilung von Aufgaben und Verantwortung"
+        ],
+        [
+          "Rollentausch",
+          "Personen wechseln bisherige Aufgaben"
+        ],
+        [
+          "Doppelbelastung",
+          "Beruf und Familienarbeit gleichzeitig"
+        ],
+        [
+          "Care-Arbeit",
+          "Betreuungs-, Pflege- und Haushaltsarbeit"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v063",
+        "b2u13-v064",
+        "b2u13-v066",
+        "b2u13-v067"
+      ]
+    },
+    {
+      "id": "b2u13-e044",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Gender-Pay-Gap",
+      "title_ar": "فجوة الأجور",
+      "prompt_de": "Was beschreibt der Gender-Pay-Gap?",
+      "prompt_ar": "ماذا تصف فجوة الأجور؟",
+      "answer": "den statistischen Unterschied zwischen durchschnittlichen Einkommen von Frauen und Männern",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "den statistischen Unterschied zwischen durchschnittlichen Einkommen von Frauen und Männern",
+        "die Zahl der Urlaubstage",
+        "die Dauer der Elternzeit",
+        "den Unterschied zwischen Brutto und Netto"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v073"
+      ]
+    },
+    {
+      "id": "b2u13-e045",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Vereinbarkeit",
+      "title_ar": "التوفيق بين العمل والأسرة",
+      "prompt_de": "Ein Elternpaar arbeitet in wechselnden Schichten. Welche Lösung unterstützt die Vereinbarkeit?",
+      "prompt_ar": "زوجان يعملان بمناوبات متغيرة. ما الحل المناسب؟",
+      "answer": "Schichten früh abstimmen und Betreuungsaufgaben verbindlich aufteilen",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Schichten früh abstimmen und Betreuungsaufgaben verbindlich aufteilen",
+        "jede Änderung erst am selben Tag mitteilen",
+        "Betreuung ausschließlich spontan organisieren",
+        "Probleme nicht ansprechen"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v016",
+        "b2u13-v087"
+      ]
+    },
+    {
+      "id": "b2u13-e046",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Betreuungslücke",
+      "title_ar": "فجوة الرعاية",
+      "prompt_de": "Zwischen Schulschluss und Arbeitsende besteht eine ______.",
+      "prompt_ar": "توجد ______ بين نهاية المدرسة ونهاية العمل.",
+      "answer": "Betreuungslücke",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Betreuungslücke",
+        "eine Betreuungslücke"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v084"
+      ]
+    },
+    {
+      "id": "b2u13-e047",
+      "unit": 13,
+      "type": "matching",
+      "title_de": "Netzwerke und Förderung",
+      "title_ar": "الشبكات والدعم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Frauennetzwerk": "beruflicher Austausch und Mentoring für Frauen",
+        "Vätergruppe": "gegenseitiger Austausch von Vätern",
+        "Frauenförderprogramm": "betriebliche Maßnahme für bessere Karrierechancen",
+        "Nachwuchskraft": "junge Person mit Entwicklungspotenzial"
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Frauennetzwerk",
+          "beruflicher Austausch und Mentoring für Frauen"
+        ],
+        [
+          "Vätergruppe",
+          "gegenseitiger Austausch von Vätern"
+        ],
+        [
+          "Frauenförderprogramm",
+          "betriebliche Maßnahme für bessere Karrierechancen"
+        ],
+        [
+          "Nachwuchskraft",
+          "junge Person mit Entwicklungspotenzial"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u13-v071",
+        "b2u13-v072",
+        "b2u13-v076",
+        "b2u13-v075"
+      ]
+    },
+    {
+      "id": "b2u13-e048",
+      "unit": 13,
+      "type": "multiple_choice",
+      "title_de": "Gleichberechtigung und Gleichstellung",
+      "title_ar": "المساواة وتكافؤ الفرص",
+      "prompt_de": "Welche Aussage ist richtig?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Gleichberechtigung betrifft gleiche Rechte; Gleichstellung umfasst auch Maßnahmen zur tatsächlichen Teilhabe.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Gleichberechtigung betrifft gleiche Rechte; Gleichstellung umfasst auch Maßnahmen zur tatsächlichen Teilhabe.",
+        "Beide Begriffe bedeuten ausschließlich gleichen Lohn.",
+        "Gleichstellung gilt nur in der Familie.",
+        "Gleichberechtigung betrifft nur Führungspositionen."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v078",
+        "b2u09-v081"
+      ]
+    },
+    {
+      "id": "b2u13-e049",
+      "unit": 13,
+      "type": "fill_blank",
+      "title_de": "Arbeitszeit reduzieren",
+      "title_ar": "تخفيض ساعات العمل",
+      "prompt_de": "Eine vereinbarte Verringerung der regelmäßigen Arbeitszeit nennt man ______.",
+      "prompt_ar": "يسمى خفض ساعات العمل المنتظمة ______.",
+      "answer": "Arbeitszeitreduzierung",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Arbeitszeitreduzierung",
+        "die Arbeitszeitreduzierung"
+      ],
+      "vocabularyRefs": [
+        "b2u13-v085"
+      ]
+    },
+    {
+      "id": "b2u13-e050",
+      "unit": 13,
+      "type": "sentence_build",
+      "title_de": "Karriere und Familie",
+      "title_ar": "المهنة والأسرة",
+      "prompt_de": "Bilden Sie einen Satz: flexible Arbeitszeiten / helfen / Karriere und Familie vereinbaren",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Flexible Arbeitszeiten helfen, Karriere und Familie zu vereinbaren.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Flexible Arbeitszeiten helfen, Karriere und Familie zu vereinbaren."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v088"
+      ]
+    },
+    {
+      "id": "b2u13-e051",
+      "unit": 13,
+      "type": "scenario_choice",
+      "title_de": "Auf Hilfe angewiesen",
+      "title_ar": "الحاجة إلى مساعدة",
+      "prompt_de": "Die Kita schließt kurzfristig. Welche Aussage beschreibt die Situation sachlich?",
+      "prompt_ar": "أغلقت الروضة فجأة. أي جملة تصف الموقف؟",
+      "answer": "Ich bin heute auf Unterstützung bei der Kinderbetreuung angewiesen.",
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich bin heute auf Unterstützung bei der Kinderbetreuung angewiesen.",
+        "Das geht niemanden etwas an, deshalb komme ich einfach nicht.",
+        "Alle anderen müssen mein Problem lösen.",
+        "Ich ignoriere die Dienstplanung."
+      ],
+      "vocabularyRefs": [
+        "b2u13-v089",
+        "b2u13-v086"
+      ]
+    },
+    {
+      "id": "b2u13-e052",
+      "unit": 13,
+      "type": "guided_speaking",
+      "title_de": "Rollenverteilung diskutieren",
+      "title_ar": "نقاش توزيع الأدوار",
+      "prompt_de": "Diskutieren Sie: Wie sollten Beruf, Haushalt und Kinderbetreuung in einer Partnerschaft verteilt werden?",
+      "prompt_ar": "ناقش توزيع العمل والمنزل ورعاية الأطفال.",
+      "answer": {
+        "requiredConcepts": [
+          "Fairness",
+          "Arbeitszeiten",
+          "Einkommen",
+          "Care-Arbeit",
+          "individuelle Wünsche",
+          "Kompromiss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v063",
+        "b2u13-v067",
+        "b2u02-v050"
+      ]
+    },
+    {
+      "id": "b2u13-e053",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Betrieblicher Vorschlag",
+      "title_ar": "اقتراح للشركة",
+      "prompt_de": "Schreiben Sie einen Vorschlag, wie ein Unternehmen Eltern und pflegende Beschäftigte besser unterstützen kann.",
+      "prompt_ar": "اكتب اقتراحًا لدعم الأهل والموظفين الذين يقدمون الرعاية.",
+      "answer": {
+        "requiredConcepts": [
+          "Problem",
+          "Doppelbelastung",
+          "flexible Arbeitszeit",
+          "Betreuungslücke",
+          "konkrete Maßnahme",
+          "Nutzen für Beschäftigte und Firma"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v066",
+        "b2u13-v084",
+        "b2u13-v085"
+      ]
+    },
+    {
+      "id": "b2u13-e054",
+      "unit": 13,
+      "type": "guided_writing",
+      "title_de": "Kapitel-13-Abschluss",
+      "title_ar": "المهمة الختامية",
+      "prompt_de": "Schreiben Sie einen strukturierten Text: Wie hängen Konfliktkultur und Vereinbarkeit von Beruf und Familie zusammen?",
+      "prompt_ar": "اكتب نصًا منظمًا عن علاقة ثقافة النزاع بالتوفيق بين العمل والأسرة.",
+      "answer": {
+        "requiredConcepts": [
+          "Arbeitsklima",
+          "frühzeitige Kommunikation",
+          "Rücksichtnahme",
+          "Betreuungsaufgaben",
+          "Kompromiss",
+          "betriebliche Unterstützung",
+          "eigene Position"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_13_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u13-v019",
+        "b2u13-v015",
+        "b2u13-v087",
+        "b2u07-v016"
+      ]
+    }
+  ]
+}

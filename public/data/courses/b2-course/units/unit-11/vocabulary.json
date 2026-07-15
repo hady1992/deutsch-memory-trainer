@@ -1,0 +1,2913 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 11,
+    "unitTitle_de": "Arbeit und neue Medien",
+    "unitTitle_ar": "العمل ووسائل الإعلام الجديدة",
+    "sourcePages": [
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "digitale Medien im Arbeitsalltag",
+      "bewusster Medienverzicht und digitale Balance",
+      "Grafiken und Statistiken beschreiben",
+      "Reklamationen und Kundendienst",
+      "Nomen-Verb-Verbindungen",
+      "Jobsuche und berufliche Netzwerke"
+    ],
+    "excluded": [
+      "sehr einfache Gerätebezeichnungen ohne B2-Lernwert",
+      "Personen- und Firmennamen",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–10"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u07-v014",
+      "term": "die ständige Erreichbarkeit",
+      "sourceUnit": 7,
+      "pages": [
+        192,
+        198,
+        199
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v055",
+      "term": "die Reklamation",
+      "sourceUnit": 2,
+      "pages": [
+        194,
+        195,
+        202,
+        204
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u08-v040",
+      "term": "die Garantiezeit",
+      "sourceUnit": 8,
+      "pages": [
+        194,
+        195,
+        202
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v022",
+      "term": "die Kosten übernehmen",
+      "sourceUnit": 4,
+      "pages": [
+        194,
+        195,
+        202
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v075",
+      "term": "zur Verfügung stehen",
+      "sourceUnit": 2,
+      "pages": [
+        195,
+        203
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u08-v051",
+      "term": "das Stellenangebot",
+      "sourceUnit": 8,
+      "pages": [
+        196,
+        197
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u08-v047",
+      "term": "die Jobbörse",
+      "sourceUnit": 8,
+      "pages": [
+        196,
+        197,
+        203
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u08-v048",
+      "term": "die Jobmesse",
+      "sourceUnit": 8,
+      "pages": [
+        196,
+        197
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 11 wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u11-v001",
+      "identity": "die mediennutzung",
+      "term": "die Mediennutzung",
+      "type": "noun",
+      "arabic": "استخدام وسائل الإعلام",
+      "explanation_de": "Die Art und Häufigkeit, mit der digitale oder klassische Medien verwendet werden.",
+      "explanation_ar": "طريقة وتكرار استخدام الوسائط الرقمية أو التقليدية.",
+      "examples": [
+        {
+          "de": "Eine bewusste Mediennutzung kann Stress reduzieren.",
+          "ar": "قد يقلل الاستخدام الواعي للوسائط التوتر."
+        },
+        {
+          "de": "Die private Mediennutzung ist während der Arbeitszeit begrenzt.",
+          "ar": "استخدام الوسائط الخاصة محدود خلال وقت العمل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Mediennutzungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          191,
+          193,
+          200,
+          204
+        ],
+        "section": "Alles digital"
+      },
+      "tags": [
+        "medien",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v002",
+      "identity": "das digitale medium",
+      "term": "das digitale Medium",
+      "type": "noun",
+      "arabic": "وسيلة إعلام رقمية",
+      "explanation_de": "Ein elektronischer Kanal zur Verbreitung oder zum Austausch von Informationen.",
+      "explanation_ar": "قناة إلكترونية لنشر المعلومات أو تبادلها.",
+      "examples": [
+        {
+          "de": "Videoplattformen sind wichtige digitale Medien.",
+          "ar": "منصات الفيديو وسائل رقمية مهمة."
+        },
+        {
+          "de": "Im Beruf nutzt sie mehrere digitale Medien.",
+          "ar": "تستخدم عدة وسائط رقمية في العمل."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die digitalen Medien"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          191,
+          193,
+          204
+        ],
+        "section": "Alles digital"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v003",
+      "identity": "der digitale arbeitsplatz",
+      "term": "der digitale Arbeitsplatz",
+      "type": "noun",
+      "arabic": "مكان العمل الرقمي",
+      "explanation_de": "Eine Arbeitsumgebung, in der Aufgaben überwiegend mit vernetzten digitalen Werkzeugen erledigt werden.",
+      "explanation_ar": "بيئة عمل تُنجز فيها المهام أساسًا بأدوات رقمية مترابطة.",
+      "examples": [
+        {
+          "de": "Der digitale Arbeitsplatz ermöglicht Zusammenarbeit über Entfernungen.",
+          "ar": "يسمح مكان العمل الرقمي بالتعاون عن بعد."
+        },
+        {
+          "de": "Datenschutz ist dort besonders wichtig.",
+          "ar": "تكون حماية البيانات مهمة فيه."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die digitalen Arbeitsplätze"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          191,
+          204
+        ],
+        "section": "Alles digital"
+      },
+      "tags": [
+        "arbeit",
+        "digital"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v004",
+      "identity": "die bildschirmzeit",
+      "term": "die Bildschirmzeit",
+      "type": "noun",
+      "arabic": "مدة استخدام الشاشة",
+      "explanation_de": "Die Zeit, die eine Person täglich vor digitalen Bildschirmen verbringt.",
+      "explanation_ar": "الوقت الذي يقضيه الشخص يوميًا أمام الشاشات.",
+      "examples": [
+        {
+          "de": "Sie reduziert ihre Bildschirmzeit am Abend.",
+          "ar": "تقلل وقت الشاشة مساءً."
+        },
+        {
+          "de": "Lange Bildschirmzeiten können die Konzentration beeinträchtigen.",
+          "ar": "قد تؤثر المدة الطويلة في التركيز."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Bildschirmzeiten"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          193,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien",
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v005",
+      "identity": "die unerreichbarkeit",
+      "term": "die Unerreichbarkeit",
+      "type": "noun",
+      "arabic": "عدم إمكانية التواصل",
+      "explanation_de": "Der Zustand, in dem eine Person vorübergehend nicht kontaktiert werden kann.",
+      "explanation_ar": "حالة عدم القدرة على التواصل مع شخص مؤقتًا.",
+      "examples": [
+        {
+          "de": "Anfangs empfand sie die Unerreichbarkeit als ungewohnt.",
+          "ar": "شعرت أولًا أن عدم التواصل أمر غير مألوف."
+        },
+        {
+          "de": "Geplante Unerreichbarkeit schafft ungestörte Erholungszeiten.",
+          "ar": "يتيح الانقطاع المخطط وقت راحة دون إزعاج."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v006",
+      "identity": "das digitale fasten",
+      "term": "das digitale Fasten",
+      "type": "noun",
+      "arabic": "الصيام الرقمي",
+      "explanation_de": "Der bewusste zeitweise Verzicht auf digitale Medien und Geräte.",
+      "explanation_ar": "الامتناع الواعي والمؤقت عن الأجهزة والوسائط الرقمية.",
+      "examples": [
+        {
+          "de": "Beim digitalen Fasten bleibt das Smartphone mehrere Tage ausgeschaltet.",
+          "ar": "يبقى الهاتف مغلقًا عدة أيام أثناء الصيام الرقمي."
+        },
+        {
+          "de": "Viele nutzen digitales Fasten zur Entspannung.",
+          "ar": "يستخدمه كثيرون للاسترخاء."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "medien",
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v007",
+      "identity": "der bewusste medienverzicht",
+      "term": "der bewusste Medienverzicht",
+      "type": "noun",
+      "arabic": "الامتناع الواعي عن الوسائط",
+      "explanation_de": "Eine absichtliche Einschränkung oder Unterbrechung der Mediennutzung.",
+      "explanation_ar": "تقليل أو إيقاف استخدام الوسائط بصورة مقصودة.",
+      "examples": [
+        {
+          "de": "Ein bewusster Medienverzicht kann das Zeitgefühl verbessern.",
+          "ar": "قد يحسن الامتناع الواعي الإحساس بالوقت."
+        },
+        {
+          "de": "Der Verzicht muss nicht vollständig sein.",
+          "ar": "لا يلزم أن يكون الامتناع كاملًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          193,
+          198,
+          199,
+          201
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v008",
+      "identity": "die app-nutzung",
+      "term": "die App-Nutzung",
+      "type": "noun",
+      "arabic": "استخدام التطبيقات",
+      "explanation_de": "Die Verwendung von Anwendungen auf Smartphone, Tablet oder Computer.",
+      "explanation_ar": "استخدام التطبيقات على الهاتف أو الجهاز اللوحي أو الحاسوب.",
+      "examples": [
+        {
+          "de": "Die App-Nutzung wird in den Einstellungen angezeigt.",
+          "ar": "يظهر استخدام التطبيقات في الإعدادات."
+        },
+        {
+          "de": "Sie begrenzt die App-Nutzung während der Lernzeit.",
+          "ar": "تحد استخدام التطبيقات أثناء الدراسة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          198,
+          200
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v009",
+      "identity": "das nutzungsverhalten",
+      "term": "das Nutzungsverhalten",
+      "type": "noun",
+      "arabic": "سلوك الاستخدام",
+      "explanation_de": "Das typische Verhalten einer Person beim Umgang mit Medien oder Geräten.",
+      "explanation_ar": "السلوك المعتاد للشخص عند استخدام الوسائط أو الأجهزة.",
+      "examples": [
+        {
+          "de": "Die Umfrage untersucht das Nutzungsverhalten Jugendlicher.",
+          "ar": "يفحص الاستطلاع سلوك استخدام الشباب."
+        },
+        {
+          "de": "Sein Nutzungsverhalten hat sich deutlich verändert.",
+          "ar": "تغير سلوك استخدامه بوضوح."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "medien",
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v010",
+      "identity": "die benachrichtigung",
+      "term": "die Benachrichtigung",
+      "type": "noun",
+      "arabic": "الإشعار",
+      "explanation_de": "Eine automatisch oder persönlich übermittelte kurze Information.",
+      "explanation_ar": "معلومة قصيرة تُرسل آليًا أو شخصيًا.",
+      "examples": [
+        {
+          "de": "Sie schaltet unnötige Benachrichtigungen aus.",
+          "ar": "تعطل الإشعارات غير الضرورية."
+        },
+        {
+          "de": "Eine Benachrichtigung erinnert ihn an den Termin.",
+          "ar": "يذكره إشعار بالموعد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Benachrichtigungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          191,
+          192,
+          198
+        ],
+        "section": "Alles digital"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v011",
+      "identity": "die ablenkung",
+      "term": "die Ablenkung",
+      "type": "noun",
+      "arabic": "التشتت",
+      "explanation_de": "Etwas, das die Aufmerksamkeit von einer Aufgabe weglenkt.",
+      "explanation_ar": "أمر يصرف الانتباه عن المهمة.",
+      "examples": [
+        {
+          "de": "Private Nachrichten sind eine häufige Ablenkung.",
+          "ar": "الرسائل الخاصة سبب شائع للتشتت."
+        },
+        {
+          "de": "Er arbeitet in festen Zeitblöcken ohne Ablenkung.",
+          "ar": "يعمل في فترات محددة دون تشتت."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ablenkungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "konzentration"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v012",
+      "identity": "die reizüberflutung",
+      "term": "die Reizüberflutung",
+      "type": "noun",
+      "arabic": "الإفراط في المثيرات",
+      "explanation_de": "Eine Überlastung durch zu viele gleichzeitig einwirkende Informationen und Eindrücke.",
+      "explanation_ar": "إرهاق بسبب كثرة المعلومات والمؤثرات في الوقت نفسه.",
+      "examples": [
+        {
+          "de": "Dauernde Meldungen können zu Reizüberflutung führen.",
+          "ar": "قد تؤدي التنبيهات الدائمة إلى إرهاق حسي."
+        },
+        {
+          "de": "Ruhezeiten helfen gegen digitale Reizüberflutung.",
+          "ar": "تساعد فترات الهدوء في الحد منها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "stress",
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v013",
+      "identity": "die offline-zeit",
+      "term": "die Offline-Zeit",
+      "type": "noun",
+      "arabic": "فترة عدم الاتصال",
+      "explanation_de": "Ein bewusst gewählter Zeitraum ohne Internet oder digitale Kommunikation.",
+      "explanation_ar": "فترة مختارة دون إنترنت أو تواصل رقمي.",
+      "examples": [
+        {
+          "de": "Am Wochenende plant sie feste Offline-Zeiten.",
+          "ar": "تخطط لفترات دون اتصال في نهاية الأسبوع."
+        },
+        {
+          "de": "Die Offline-Zeit gehört zu ihrer Abendroutine.",
+          "ar": "أصبحت فترة الانقطاع جزءًا من روتينها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Offline-Zeiten"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v014",
+      "identity": "auf digitale medien verzichten",
+      "term": "auf digitale Medien verzichten",
+      "type": "phrase",
+      "arabic": "يمتنع عن الوسائط الرقمية",
+      "explanation_de": "Digitale Medien für einen bestimmten Zeitraum bewusst nicht verwenden.",
+      "explanation_ar": "عدم استخدام الوسائط الرقمية عمدًا لفترة محددة.",
+      "examples": [
+        {
+          "de": "Im Urlaub verzichtet er auf soziale Netzwerke.",
+          "ar": "يمتنع عن الشبكات الاجتماعية في الإجازة."
+        },
+        {
+          "de": "Sie hat einen Monat lang auf ihr Smartphone verzichtet.",
+          "ar": "امتنعت عن هاتفها شهرًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "verzichtete auf",
+        "perfekt": "hat auf digitale Medien verzichtet"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199,
+          201
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v015",
+      "identity": "eine digitale auszeit nehmen",
+      "term": "eine digitale Auszeit nehmen",
+      "type": "phrase",
+      "arabic": "يأخذ استراحة رقمية",
+      "explanation_de": "Die Nutzung digitaler Geräte und Medien vorübergehend unterbrechen.",
+      "explanation_ar": "إيقاف استخدام الأجهزة والوسائط مؤقتًا.",
+      "examples": [
+        {
+          "de": "Nach der Arbeit nimmt sie eine digitale Auszeit.",
+          "ar": "تأخذ استراحة رقمية بعد العمل."
+        },
+        {
+          "de": "Eine kurze Auszeit kann die Konzentration stärken.",
+          "ar": "قد تقوي الاستراحة القصيرة التركيز."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "medien",
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v016",
+      "identity": "auf sich selbst gestellt sein",
+      "term": "auf sich selbst gestellt sein",
+      "type": "phrase",
+      "arabic": "يعتمد على نفسه",
+      "explanation_de": "Eine Situation ohne unmittelbare Hilfe anderer selbst bewältigen müssen.",
+      "explanation_ar": "الاضطرار إلى التعامل مع الموقف دون مساعدة مباشرة.",
+      "examples": [
+        {
+          "de": "Ohne Navigation war er plötzlich auf sich selbst gestellt.",
+          "ar": "وجد نفسه معتمدًا على ذاته دون الملاحة."
+        },
+        {
+          "de": "Im neuen Projekt war sie zunächst auf sich selbst gestellt.",
+          "ar": "اعتمدت على نفسها في بداية المشروع."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "selbstständigkeit"
+      ],
+      "globalRef": "phrases:phrase_0195",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v017",
+      "identity": "sich nicht zurechtfinden",
+      "term": "sich nicht zurechtfinden",
+      "type": "verb",
+      "arabic": "لا يعرف كيف يتصرف أو يهتدي",
+      "explanation_de": "In einer Situation oder Umgebung keine ausreichende Orientierung haben.",
+      "explanation_ar": "عدم القدرة على الاهتداء أو التصرف في وضع معين.",
+      "examples": [
+        {
+          "de": "Ohne Fahrplan fand er sich zunächst nicht zurecht.",
+          "ar": "لم يعرف كيف يهتدي دون جدول الرحلات."
+        },
+        {
+          "de": "Sie findet sich in der neuen Software noch nicht zurecht.",
+          "ar": "لا تزال لا تعرف استخدام البرنامج الجديد."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "fand sich nicht zurecht",
+        "perfekt": "hat sich nicht zurechtgefunden",
+        "separable": true,
+        "reflexive": true
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "orientierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v018",
+      "identity": "sich selbst organisieren",
+      "term": "sich selbst organisieren",
+      "type": "verb",
+      "arabic": "ينظم نفسه",
+      "explanation_de": "Aufgaben, Termine und Hilfsmittel eigenständig planen.",
+      "explanation_ar": "التخطيط المستقل للمهام والمواعيد والأدوات.",
+      "examples": [
+        {
+          "de": "Ohne Smartphone musste sie sich neu organisieren.",
+          "ar": "اضطرت إلى إعادة تنظيم نفسها دون هاتف."
+        },
+        {
+          "de": "Im Homeoffice organisiert er sich mit einem Wochenplan.",
+          "ar": "ينظم نفسه بخطة أسبوعية في العمل المنزلي."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "organisierte sich",
+        "perfekt": "hat sich selbst organisiert",
+        "separable": false,
+        "reflexive": true
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v019",
+      "identity": "das zeitgefühl verlieren",
+      "term": "das Zeitgefühl verlieren",
+      "type": "phrase",
+      "arabic": "يفقد الإحساس بالوقت",
+      "explanation_de": "Nicht mehr zuverlässig wahrnehmen, wie viel Zeit vergangen ist.",
+      "explanation_ar": "عدم إدراك مقدار الوقت الذي مضى بصورة دقيقة.",
+      "examples": [
+        {
+          "de": "Beim Scrollen verliert man leicht das Zeitgefühl.",
+          "ar": "من السهل فقدان الإحساس بالوقت أثناء التصفح."
+        },
+        {
+          "de": "Ohne Handy verlor sie seltener das Zeitgefühl.",
+          "ar": "أصبحت تفقد الإحساس بالوقت أقل دون هاتف."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "zeit",
+        "medien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v020",
+      "identity": "sich auf das wesentliche konzentrieren",
+      "term": "sich auf das Wesentliche konzentrieren",
+      "type": "verb",
+      "arabic": "يركز على الأهم",
+      "explanation_de": "Die Aufmerksamkeit bewusst auf zentrale Aufgaben oder Bedürfnisse richten.",
+      "explanation_ar": "توجيه الانتباه بوعي إلى المهام أو الاحتياجات الأساسية.",
+      "examples": [
+        {
+          "de": "Sie konzentriert sich auf das Wesentliche.",
+          "ar": "تركز على الأهم."
+        },
+        {
+          "de": "Klare Prioritäten helfen, sich besser zu konzentrieren.",
+          "ar": "تساعد الأولويات الواضحة على التركيز."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "konzentrierte sich",
+        "perfekt": "hat sich auf das Wesentliche konzentriert",
+        "separable": false,
+        "reflexive": true
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          198,
+          199
+        ],
+        "section": "Einen Monat offline"
+      },
+      "tags": [
+        "konzentration"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v021",
+      "identity": "je ..., desto/umso ...",
+      "term": "je ..., desto/umso ...",
+      "type": "phrase",
+      "arabic": "كلما... كلما...",
+      "explanation_de": "Eine zweiteilige Struktur, die zwei proportionale Veränderungen miteinander verbindet.",
+      "explanation_ar": "تركيب ثنائي يربط تغيرين يتناسب أحدهما مع الآخر.",
+      "examples": [
+        {
+          "de": "Je weniger Nachrichten ich lese, desto ruhiger werde ich.",
+          "ar": "كلما قرأت رسائل أقل أصبحت أهدأ."
+        },
+        {
+          "de": "Je besser die Planung ist, umso leichter fällt der Verzicht.",
+          "ar": "كلما كان التخطيط أفضل أصبح الامتناع أسهل."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          192,
+          200,
+          204
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v022",
+      "identity": "die grafik",
+      "term": "die Grafik",
+      "type": "noun",
+      "arabic": "الرسم البياني",
+      "explanation_de": "Eine visuelle Darstellung von Zahlen, Zusammenhängen oder Entwicklungen.",
+      "explanation_ar": "عرض بصري للأرقام أو العلاقات أو التطورات.",
+      "examples": [
+        {
+          "de": "Die Grafik zeigt die häufigsten Smartphone-Funktionen.",
+          "ar": "يعرض الرسم أكثر وظائف الهاتف استخدامًا."
+        },
+        {
+          "de": "Die Quelle der Grafik steht darunter.",
+          "ar": "يوجد مصدر الرسم أسفله."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Grafiken"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201,
+          204
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v023",
+      "identity": "die statistik",
+      "term": "die Statistik",
+      "type": "noun",
+      "arabic": "الإحصائية",
+      "explanation_de": "Eine systematische Sammlung und Auswertung von Zahlen.",
+      "explanation_ar": "جمع وتحليل منظم للأرقام.",
+      "examples": [
+        {
+          "de": "Die Statistik basiert auf einer Befragung.",
+          "ar": "تستند الإحصائية إلى استطلاع."
+        },
+        {
+          "de": "Aktuelle Statistiken ermöglichen Vergleiche.",
+          "ar": "تسمح الإحصاءات الحديثة بالمقارنة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Statistiken"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": "nouns:noun_0103",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v024",
+      "identity": "die umfrage",
+      "term": "die Umfrage",
+      "type": "noun",
+      "arabic": "الاستطلاع",
+      "explanation_de": "Eine strukturierte Befragung mehrerer Personen zu einem Thema.",
+      "explanation_ar": "استبيان منظم لعدة أشخاص حول موضوع.",
+      "examples": [
+        {
+          "de": "An der Umfrage nahmen tausend Personen teil.",
+          "ar": "شارك ألف شخص في الاستطلاع."
+        },
+        {
+          "de": "Die Umfrage untersucht digitale Gewohnheiten.",
+          "ar": "يفحص الاستطلاع العادات الرقمية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Umfragen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": "nouns:noun_0429",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v025",
+      "identity": "die befragten",
+      "term": "die Befragten",
+      "type": "noun",
+      "arabic": "الأشخاص المستطلعة آراؤهم",
+      "explanation_de": "Die Personen, die an einer Befragung oder Umfrage teilnehmen.",
+      "explanation_ar": "الأشخاص المشاركون في استبيان أو استطلاع.",
+      "examples": [
+        {
+          "de": "Fast die Hälfte der Befragten verzichtet gelegentlich auf Medien.",
+          "ar": "يمتنع نحو نصف المستطلعين أحيانًا عن الوسائط."
+        },
+        {
+          "de": "Die Befragten konnten mehrere Antworten wählen.",
+          "ar": "تمكن المشاركون من اختيار عدة إجابات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v026",
+      "identity": "der anteil",
+      "term": "der Anteil",
+      "type": "noun",
+      "arabic": "النسبة أو الحصة",
+      "explanation_de": "Der Teil einer Gesamtmenge, der auf eine Gruppe oder Kategorie entfällt.",
+      "explanation_ar": "الجزء من المجموع الذي يخص فئة معينة.",
+      "examples": [
+        {
+          "de": "Der Anteil der täglichen Nutzer ist gestiegen.",
+          "ar": "ارتفعت نسبة المستخدمين يوميًا."
+        },
+        {
+          "de": "Videos machen den größten Anteil aus.",
+          "ar": "تشكل مقاطع الفيديو النسبة الأكبر."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Anteile"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v027",
+      "identity": "der prozentsatz",
+      "term": "der Prozentsatz",
+      "type": "noun",
+      "arabic": "النسبة المئوية",
+      "explanation_de": "Eine in Prozent ausgedrückte Größe.",
+      "explanation_ar": "قيمة معبر عنها بالنسبة المئوية.",
+      "examples": [
+        {
+          "de": "Der Prozentsatz liegt bei 43,9 Prozent.",
+          "ar": "تبلغ النسبة 43.9 بالمئة."
+        },
+        {
+          "de": "Beide Prozentsätze unterscheiden sich deutlich.",
+          "ar": "تختلف النسبتان بوضوح."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Prozentsätze"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v028",
+      "identity": "die mehrheit",
+      "term": "die Mehrheit",
+      "type": "noun",
+      "arabic": "الأغلبية",
+      "explanation_de": "Der größere Teil einer Gruppe, also mehr als die Hälfte.",
+      "explanation_ar": "الجزء الأكبر من مجموعة، أي أكثر من النصف.",
+      "examples": [
+        {
+          "de": "Die Mehrheit nutzt das Smartphone täglich.",
+          "ar": "تستخدم الأغلبية الهاتف يوميًا."
+        },
+        {
+          "de": "Eine knappe Mehrheit stimmte dem Vorschlag zu.",
+          "ar": "وافقت أغلبية بسيطة على الاقتراح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Mehrheiten"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v029",
+      "identity": "die minderheit",
+      "term": "die Minderheit",
+      "type": "noun",
+      "arabic": "الأقلية",
+      "explanation_de": "Der kleinere Teil einer Gruppe.",
+      "explanation_ar": "الجزء الأصغر من مجموعة.",
+      "examples": [
+        {
+          "de": "Nur eine Minderheit verzichtet vollständig auf digitale Medien.",
+          "ar": "تمتنع أقلية فقط بصورة كاملة."
+        },
+        {
+          "de": "Die Interessen der Minderheit müssen berücksichtigt werden.",
+          "ar": "يجب مراعاة مصالح الأقلية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Minderheiten"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v030",
+      "identity": "knapp die hälfte",
+      "term": "knapp die Hälfte",
+      "type": "phrase",
+      "arabic": "نحو النصف بقليل",
+      "explanation_de": "Etwas weniger als fünfzig Prozent.",
+      "explanation_ar": "أقل بقليل من خمسين بالمئة.",
+      "examples": [
+        {
+          "de": "Knapp die Hälfte der Befragten nutzt diese Funktion.",
+          "ar": "يستخدم هذه الوظيفة أقل من نصف المشاركين بقليل."
+        },
+        {
+          "de": "Knapp die Hälfte arbeitet regelmäßig im Homeoffice.",
+          "ar": "يعمل نحو النصف من المنزل بانتظام."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v031",
+      "identity": "etwas mehr als ein drittel",
+      "term": "etwas mehr als ein Drittel",
+      "type": "phrase",
+      "arabic": "أكثر قليلًا من الثلث",
+      "explanation_de": "Ein Anteil, der leicht über 33,3 Prozent liegt.",
+      "explanation_ar": "نسبة تزيد قليلًا على 33.3 بالمئة.",
+      "examples": [
+        {
+          "de": "Etwas mehr als ein Drittel schaltet das Handy nachts aus.",
+          "ar": "يغلق أكثر من الثلث بقليل الهاتف ليلًا."
+        },
+        {
+          "de": "Der Wert liegt bei etwas mehr als einem Drittel.",
+          "ar": "تزيد القيمة قليلًا على الثلث."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v032",
+      "identity": "an erster stelle stehen",
+      "term": "an erster Stelle stehen",
+      "type": "phrase",
+      "arabic": "يأتي في المرتبة الأولى",
+      "explanation_de": "In einer Rangfolge den höchsten oder wichtigsten Platz einnehmen.",
+      "explanation_ar": "احتلال أعلى أو أهم مرتبة في ترتيب.",
+      "examples": [
+        {
+          "de": "Das Telefonieren steht an erster Stelle.",
+          "ar": "يأتي الاتصال في المرتبة الأولى."
+        },
+        {
+          "de": "Bei den Gründen steht Entspannung an erster Stelle.",
+          "ar": "يأتي الاسترخاء أولًا بين الأسباب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v033",
+      "identity": "den größten anteil ausmachen",
+      "term": "den größten Anteil ausmachen",
+      "type": "phrase",
+      "arabic": "يشكل النسبة الأكبر",
+      "explanation_de": "Den größten Teil einer Gesamtmenge bilden.",
+      "explanation_ar": "تكوين الجزء الأكبر من المجموع.",
+      "examples": [
+        {
+          "de": "Nachrichten machen den größten Anteil der Nutzung aus.",
+          "ar": "تشكل الرسائل أكبر نسبة من الاستخدام."
+        },
+        {
+          "de": "Die Altersgruppe unter 30 macht den größten Anteil aus.",
+          "ar": "تشكل الفئة دون الثلاثين النسبة الأكبر."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v034",
+      "identity": "aus der grafik hervorgehen",
+      "term": "aus der Grafik hervorgehen",
+      "type": "phrase",
+      "arabic": "يتضح من الرسم",
+      "explanation_de": "Als Information oder Ergebnis in einer Grafik erkennbar sein.",
+      "explanation_ar": "ظهور معلومة أو نتيجة بوضوح في الرسم.",
+      "examples": [
+        {
+          "de": "Aus der Grafik geht ein deutlicher Unterschied hervor.",
+          "ar": "يتضح من الرسم فرق واضح."
+        },
+        {
+          "de": "Daraus geht hervor, dass die Nutzung zunimmt.",
+          "ar": "يتضح منه أن الاستخدام يزداد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v035",
+      "identity": "im vergleich dazu",
+      "term": "im Vergleich dazu",
+      "type": "phrase",
+      "arabic": "بالمقارنة مع ذلك",
+      "explanation_de": "Eine Formulierung, mit der ein zweiter Wert oder Sachverhalt gegenübergestellt wird.",
+      "explanation_ar": "صياغة لمقارنة قيمة أو حالة ثانية بالأولى.",
+      "examples": [
+        {
+          "de": "Im Vergleich dazu ist der Anteil älterer Nutzer geringer.",
+          "ar": "بالمقارنة مع ذلك تقل نسبة كبار السن."
+        },
+        {
+          "de": "Der zweite Wert ist im Vergleich dazu stabil geblieben.",
+          "ar": "بقيت القيمة الثانية مستقرة بالمقارنة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          193,
+          201
+        ],
+        "section": "Mediennutzung"
+      },
+      "tags": [
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v036",
+      "identity": "ein gerät reklamieren",
+      "term": "ein Gerät reklamieren",
+      "type": "phrase",
+      "arabic": "يقدم شكوى بشأن جهاز",
+      "explanation_de": "Einen Mangel an einem gekauften Gerät formell beim Verkäufer melden.",
+      "explanation_ar": "إبلاغ البائع رسميًا بوجود عيب في جهاز مشتَرى.",
+      "examples": [
+        {
+          "de": "Sie reklamiert den defekten Drucker schriftlich.",
+          "ar": "تقدم شكوى خطية بشأن الطابعة المعطلة."
+        },
+        {
+          "de": "Das Gerät wurde innerhalb der Garantiezeit reklamiert.",
+          "ar": "قُدمت الشكوى خلال فترة الضمان."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "reklamation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v037",
+      "identity": "der gerätefehler",
+      "term": "der Gerätefehler",
+      "type": "noun",
+      "arabic": "خلل في الجهاز",
+      "explanation_de": "Ein technischer Mangel, der im Gerät selbst liegt.",
+      "explanation_ar": "عيب تقني موجود في الجهاز نفسه.",
+      "examples": [
+        {
+          "de": "Der Techniker vermutet einen Gerätefehler.",
+          "ar": "يشتبه الفني بخلل في الجهاز."
+        },
+        {
+          "de": "Bei einem Gerätefehler greift häufig die Garantie.",
+          "ar": "يسري الضمان غالبًا عند خلل الجهاز."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gerätefehler"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v038",
+      "identity": "der bedienfehler",
+      "term": "der Bedienfehler",
+      "type": "noun",
+      "arabic": "خطأ في الاستخدام",
+      "explanation_de": "Ein Fehler, der durch eine falsche Verwendung des Geräts entsteht.",
+      "explanation_ar": "خطأ ناتج عن استخدام الجهاز بصورة غير صحيحة.",
+      "examples": [
+        {
+          "de": "Die Prüfung ergab, dass kein Bedienfehler vorlag.",
+          "ar": "أظهر الفحص عدم وجود خطأ استخدام."
+        },
+        {
+          "de": "Kosten bei Bedienfehlern können berechnet werden.",
+          "ar": "قد تُحسب تكاليف عند خطأ الاستخدام."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Bedienfehler"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v039",
+      "identity": "die garantie",
+      "term": "die Garantie",
+      "type": "noun",
+      "arabic": "الضمان",
+      "explanation_de": "Eine freiwillige Zusage des Herstellers oder Verkäufers für bestimmte Mängel und einen festgelegten Zeitraum.",
+      "explanation_ar": "تعهد اختياري من المصنع أو البائع بشأن عيوب محددة ولمدة معينة.",
+      "examples": [
+        {
+          "de": "Das Gerät hat noch Garantie.",
+          "ar": "لا يزال الجهاز ضمن الضمان."
+        },
+        {
+          "de": "Die Bedingungen der Garantie stehen in den Unterlagen.",
+          "ar": "توجد شروط الضمان في المستندات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Garantien"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "reklamation",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v040",
+      "identity": "die reparatur",
+      "term": "die Reparatur",
+      "type": "noun",
+      "arabic": "الإصلاح",
+      "explanation_de": "Die fachgerechte Wiederherstellung der Funktionsfähigkeit eines beschädigten Geräts.",
+      "explanation_ar": "إعادة الجهاز المعطل إلى حالة العمل بصورة مهنية.",
+      "examples": [
+        {
+          "de": "Die Reparatur wird vom Hersteller durchgeführt.",
+          "ar": "ينفذ المصنع عملية الإصلاح."
+        },
+        {
+          "de": "Vor der Reparatur wird das Gerät geprüft.",
+          "ar": "يُفحص الجهاز قبل إصلاحه."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reparaturen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v041",
+      "identity": "die reparaturdauer",
+      "term": "die Reparaturdauer",
+      "type": "noun",
+      "arabic": "مدة الإصلاح",
+      "explanation_de": "Die Zeit vom Beginn bis zum Abschluss einer Reparatur.",
+      "explanation_ar": "الفترة من بدء الإصلاح حتى انتهائه.",
+      "examples": [
+        {
+          "de": "Die Reparaturdauer beträgt etwa drei Wochen.",
+          "ar": "تستغرق مدة الإصلاح نحو ثلاثة أسابيع."
+        },
+        {
+          "de": "Der Kundendienst informiert über Verzögerungen.",
+          "ar": "تبلغ الخدمة عن التأخير."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reparaturdauern"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v042",
+      "identity": "der kostenvoranschlag",
+      "term": "der Kostenvoranschlag",
+      "type": "noun",
+      "arabic": "عرض تقديري للتكاليف",
+      "explanation_de": "Eine vorläufige Berechnung der voraussichtlichen Kosten einer Leistung.",
+      "explanation_ar": "حساب أولي للتكاليف المتوقعة لخدمة.",
+      "examples": [
+        {
+          "de": "Vor der Reparatur erhält der Kunde einen Kostenvoranschlag.",
+          "ar": "يحصل العميل على تقدير قبل الإصلاح."
+        },
+        {
+          "de": "Der Kostenvoranschlag muss nachvollziehbar sein.",
+          "ar": "يجب أن يكون التقدير واضحًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Kostenvoranschläge"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "kosten"
+      ],
+      "globalRef": "nouns:noun_0434",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v043",
+      "identity": "der kundendienst",
+      "term": "der Kundendienst",
+      "type": "noun",
+      "arabic": "خدمة العملاء",
+      "explanation_de": "Eine Abteilung, die Kunden bei Fragen, Mängeln und Reparaturen unterstützt.",
+      "explanation_ar": "قسم يدعم العملاء في الأسئلة والعيوب والإصلاحات.",
+      "examples": [
+        {
+          "de": "Der Kundendienst antwortete innerhalb eines Tages.",
+          "ar": "ردت خدمة العملاء خلال يوم."
+        },
+        {
+          "de": "Bitte wenden Sie sich an den Kundendienst.",
+          "ar": "يرجى التواصل مع خدمة العملاء."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "service"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v044",
+      "identity": "die originalrechnung",
+      "term": "die Originalrechnung",
+      "type": "noun",
+      "arabic": "الفاتورة الأصلية",
+      "explanation_de": "Die ursprüngliche Rechnung, die den Kauf und seine Daten belegt.",
+      "explanation_ar": "الفاتورة الأصلية التي تثبت عملية الشراء.",
+      "examples": [
+        {
+          "de": "Legen Sie eine Kopie der Originalrechnung bei.",
+          "ar": "أرفق نسخة من الفاتورة الأصلية."
+        },
+        {
+          "de": "Ohne Kaufnachweis kann die Bearbeitung länger dauern.",
+          "ar": "قد تستغرق المعالجة وقتًا أطول دون إثبات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Originalrechnungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v045",
+      "identity": "die fehlerbeschreibung",
+      "term": "die Fehlerbeschreibung",
+      "type": "noun",
+      "arabic": "وصف الخلل",
+      "explanation_de": "Eine genaue Darstellung, wann und wie ein Fehler auftritt.",
+      "explanation_ar": "وصف دقيق لوقت وكيفية ظهور الخلل.",
+      "examples": [
+        {
+          "de": "Eine klare Fehlerbeschreibung beschleunigt die Prüfung.",
+          "ar": "يسرّع الوصف الواضح عملية الفحص."
+        },
+        {
+          "de": "Nennen Sie auch die angezeigte Fehlermeldung.",
+          "ar": "اذكر أيضًا رسالة الخطأ الظاهرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fehlerbeschreibungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "reklamation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v046",
+      "identity": "die typenbezeichnung",
+      "term": "die Typenbezeichnung",
+      "type": "noun",
+      "arabic": "رمز طراز الجهاز",
+      "explanation_de": "Die vom Hersteller festgelegte Bezeichnung eines bestimmten Gerätetyps.",
+      "explanation_ar": "التسمية التي يحددها المصنع لطراز معين.",
+      "examples": [
+        {
+          "de": "Die Typenbezeichnung steht auf dem Gehäuse.",
+          "ar": "يوجد رمز الطراز على هيكل الجهاز."
+        },
+        {
+          "de": "Bitte geben Sie die vollständige Typenbezeichnung an.",
+          "ar": "اذكر رمز الطراز كاملًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Typenbezeichnungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "produkt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v047",
+      "identity": "die produktbezeichnung",
+      "term": "die Produktbezeichnung",
+      "type": "noun",
+      "arabic": "اسم المنتج",
+      "explanation_de": "Der offizielle Name, unter dem ein Produkt angeboten wird.",
+      "explanation_ar": "الاسم الرسمي الذي يُعرض به المنتج.",
+      "examples": [
+        {
+          "de": "Die Produktbezeichnung muss eindeutig sein.",
+          "ar": "يجب أن يكون اسم المنتج واضحًا."
+        },
+        {
+          "de": "Sie steht auf Rechnung und Verpackung.",
+          "ar": "يوجد على الفاتورة والعبوة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Produktbezeichnungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "produkt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v048",
+      "identity": "die produktionsnummer",
+      "term": "die Produktionsnummer",
+      "type": "noun",
+      "arabic": "رقم التصنيع",
+      "explanation_de": "Eine individuelle Nummer zur Identifikation eines hergestellten Geräts.",
+      "explanation_ar": "رقم فردي لتحديد جهاز مصنع.",
+      "examples": [
+        {
+          "de": "Die Produktionsnummer hilft bei der Zuordnung.",
+          "ar": "يساعد رقم التصنيع في تحديد الجهاز."
+        },
+        {
+          "de": "Sie befindet sich auf dem Typenschild.",
+          "ar": "يوجد على لوحة بيانات الجهاز."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Produktionsnummern"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "produkt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v049",
+      "identity": "der kaufpreis",
+      "term": "der Kaufpreis",
+      "type": "noun",
+      "arabic": "سعر الشراء",
+      "explanation_de": "Der beim Kauf vereinbarte und gezahlte Preis.",
+      "explanation_ar": "السعر المتفق عليه والمدفوع عند الشراء.",
+      "examples": [
+        {
+          "de": "Der Kaufpreis ist auf der Rechnung angegeben.",
+          "ar": "سعر الشراء مذكور في الفاتورة."
+        },
+        {
+          "de": "Bei einem Rücktritt wird der Kaufpreis erstattet.",
+          "ar": "يُعاد سعر الشراء عند فسخ البيع."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Kaufpreise"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          194
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v050",
+      "identity": "den eingang schriftlich bestätigen",
+      "term": "den Eingang schriftlich bestätigen",
+      "type": "phrase",
+      "arabic": "يؤكد الاستلام كتابيًا",
+      "explanation_de": "Schriftlich mitteilen, dass ein Schreiben oder eine Reklamation angekommen ist.",
+      "explanation_ar": "إبلاغ الطرف الآخر كتابيًا بوصول رسالة أو شكوى.",
+      "examples": [
+        {
+          "de": "Der Kundendienst bestätigt den Eingang der Reklamation.",
+          "ar": "تؤكد الخدمة استلام الشكوى."
+        },
+        {
+          "de": "Bitte bestätigen Sie den Eingang bis Freitag.",
+          "ar": "يرجى تأكيد الاستلام حتى الجمعة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v051",
+      "identity": "einen kostenvoranschlag erstellen",
+      "term": "einen Kostenvoranschlag erstellen",
+      "type": "phrase",
+      "arabic": "يعد تقديرًا للتكاليف",
+      "explanation_de": "Die voraussichtlichen Kosten einer Reparatur oder Leistung berechnen und dokumentieren.",
+      "explanation_ar": "حساب وتوثيق تكاليف متوقعة لإصلاح أو خدمة.",
+      "examples": [
+        {
+          "de": "Die Werkstatt erstellt einen Kostenvoranschlag.",
+          "ar": "تعد الورشة تقديرًا للتكاليف."
+        },
+        {
+          "de": "Der Kunde prüft den Kostenvoranschlag vor der Freigabe.",
+          "ar": "يفحص العميل التقدير قبل الموافقة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v052",
+      "identity": "das gerät umtauschen",
+      "term": "das Gerät umtauschen",
+      "type": "phrase",
+      "arabic": "يستبدل الجهاز",
+      "explanation_de": "Ein gekauftes Gerät gegen ein anderes zurückgeben und ersetzen lassen.",
+      "explanation_ar": "إعادة جهاز مشتَرى والحصول على جهاز آخر.",
+      "examples": [
+        {
+          "de": "Falls die Reparatur nicht möglich ist, wird das Gerät umgetauscht.",
+          "ar": "يُستبدل الجهاز إذا تعذر الإصلاح."
+        },
+        {
+          "de": "Der Umtausch wurde schriftlich bestätigt.",
+          "ar": "تم تأكيد الاستبدال كتابيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          195,
+          202
+        ],
+        "section": "Dana und der Drucker"
+      },
+      "tags": [
+        "reklamation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v053",
+      "identity": "in anspruch nehmen",
+      "term": "in Anspruch nehmen",
+      "type": "phrase",
+      "arabic": "يستفيد من أو يستخدم حقًا أو خدمة",
+      "explanation_de": "Eine angebotene Leistung, ein Recht oder Hilfe tatsächlich nutzen.",
+      "explanation_ar": "استخدام خدمة أو حق أو مساعدة متاحة.",
+      "examples": [
+        {
+          "de": "Sie nimmt die Garantie in Anspruch.",
+          "ar": "تستفيد من الضمان."
+        },
+        {
+          "de": "Der Kunde kann den Reparaturservice in Anspruch nehmen.",
+          "ar": "يمكن للعميل استخدام خدمة الإصلاح."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": "phrases:phrase_0205",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v054",
+      "identity": "auf etwas bezug nehmen",
+      "term": "auf etwas Bezug nehmen",
+      "type": "phrase",
+      "arabic": "يشير إلى شيء سابق",
+      "explanation_de": "Sich in einem Schreiben ausdrücklich auf eine frühere Information oder Kommunikation beziehen.",
+      "explanation_ar": "الإشارة صراحة إلى معلومة أو مراسلة سابقة.",
+      "examples": [
+        {
+          "de": "Ich nehme Bezug auf unser Telefongespräch.",
+          "ar": "أشير إلى محادثتنا الهاتفية."
+        },
+        {
+          "de": "Das Schreiben nimmt auf die Bestellung Bezug.",
+          "ar": "تشير الرسالة إلى الطلبية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v055",
+      "identity": "etwas in erfahrung bringen",
+      "term": "etwas in Erfahrung bringen",
+      "type": "phrase",
+      "arabic": "يستعلم عن شيء",
+      "explanation_de": "Eine Information durch Nachfragen oder Recherchieren erhalten.",
+      "explanation_ar": "الحصول على معلومة بالسؤال أو البحث.",
+      "examples": [
+        {
+          "de": "Wir möchten die Ursache des Fehlers in Erfahrung bringen.",
+          "ar": "نريد معرفة سبب الخلل."
+        },
+        {
+          "de": "Sie brachte die Lieferzeit telefonisch in Erfahrung.",
+          "ar": "استعلمت هاتفيًا عن موعد التسليم."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v056",
+      "identity": "sich mit jemandem in verbindung setzen",
+      "term": "sich mit jemandem in Verbindung setzen",
+      "type": "phrase",
+      "arabic": "يتواصل مع شخص",
+      "explanation_de": "Kontakt zu einer Person oder Stelle aufnehmen.",
+      "explanation_ar": "بدء التواصل مع شخص أو جهة.",
+      "examples": [
+        {
+          "de": "Bitte setzen Sie sich mit dem Kundendienst in Verbindung.",
+          "ar": "يرجى التواصل مع خدمة العملاء."
+        },
+        {
+          "de": "Die Technikerin setzte sich mit dem Hersteller in Verbindung.",
+          "ar": "تواصلت الفنية مع المصنع."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v057",
+      "identity": "einen auftrag erteilen",
+      "term": "einen Auftrag erteilen",
+      "type": "phrase",
+      "arabic": "يكلف بمهمة رسميًا",
+      "explanation_de": "Eine Person oder Firma verbindlich mit einer Aufgabe beauftragen.",
+      "explanation_ar": "تكليف شخص أو شركة بمهمة بصورة ملزمة.",
+      "examples": [
+        {
+          "de": "Wir erteilen Ihnen den Auftrag zur Reparatur.",
+          "ar": "نكلفكم بإجراء الإصلاح."
+        },
+        {
+          "de": "Der Auftrag wurde schriftlich erteilt.",
+          "ar": "صدر التكليف كتابيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": "phrases:phrase_0206",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v058",
+      "identity": "in betracht kommen",
+      "term": "in Betracht kommen",
+      "type": "phrase",
+      "arabic": "يكون خيارًا واردًا",
+      "explanation_de": "Als mögliche Lösung oder Alternative geeignet sein.",
+      "explanation_ar": "أن يكون مناسبًا بوصفه حلًا أو بديلًا.",
+      "examples": [
+        {
+          "de": "Falls die Reparatur scheitert, kommt ein Austausch in Betracht.",
+          "ar": "إذا فشل الإصلاح يكون الاستبدال خيارًا."
+        },
+        {
+          "de": "Eine Erstattung kommt nur unter Bedingungen in Betracht.",
+          "ar": "يكون التعويض واردًا ضمن شروط."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          194,
+          195
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": "phrases:phrase_0209",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v059",
+      "identity": "zur folge haben",
+      "term": "zur Folge haben",
+      "type": "phrase",
+      "arabic": "يؤدي إلى",
+      "explanation_de": "Eine bestimmte Wirkung oder Konsequenz verursachen.",
+      "explanation_ar": "التسبب في نتيجة أو أثر معين.",
+      "examples": [
+        {
+          "de": "Der Fehler hat einen Produktionsausfall zur Folge.",
+          "ar": "أدى الخلل إلى توقف الإنتاج."
+        },
+        {
+          "de": "Eine verspätete Meldung kann Mehrkosten zur Folge haben.",
+          "ar": "قد يؤدي البلاغ المتأخر إلى تكاليف إضافية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          195,
+          202
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v060",
+      "identity": "eine antwort erteilen",
+      "term": "eine Antwort erteilen",
+      "type": "phrase",
+      "arabic": "يعطي ردًا رسميًا",
+      "explanation_de": "Auf eine Anfrage oder Frage verbindlich antworten.",
+      "explanation_ar": "الرد بصورة رسمية على سؤال أو طلب.",
+      "examples": [
+        {
+          "de": "Bitte erteilen Sie uns bis Montag eine Antwort.",
+          "ar": "يرجى إعطاؤنا ردًا حتى الاثنين."
+        },
+        {
+          "de": "Der Kundendienst erteilte eine ausführliche Antwort.",
+          "ar": "قدمت خدمة العملاء ردًا مفصلًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          195,
+          203
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "nvv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v061",
+      "identity": "die jobsuche",
+      "term": "die Jobsuche",
+      "type": "noun",
+      "arabic": "البحث عن عمل",
+      "explanation_de": "Der systematische Prozess, eine passende Arbeitsstelle zu finden.",
+      "explanation_ar": "عملية منهجية للعثور على وظيفة مناسبة.",
+      "examples": [
+        {
+          "de": "Bei der Jobsuche kombiniert sie mehrere Kanäle.",
+          "ar": "تجمع عدة قنوات في البحث عن عمل."
+        },
+        {
+          "de": "Ein vollständiges Profil unterstützt die Jobsuche.",
+          "ar": "يدعم الملف الكامل البحث."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197,
+          203,
+          204
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v062",
+      "identity": "das soziale netzwerk",
+      "term": "das soziale Netzwerk",
+      "type": "noun",
+      "arabic": "شبكة اجتماعية",
+      "explanation_de": "Eine digitale Plattform, auf der Menschen Inhalte teilen und Kontakte pflegen.",
+      "explanation_ar": "منصة رقمية لتبادل المحتوى والحفاظ على العلاقات.",
+      "examples": [
+        {
+          "de": "Soziale Netzwerke können Stellenangebote sichtbar machen.",
+          "ar": "قد تعرض الشبكات الاجتماعية فرص العمل."
+        },
+        {
+          "de": "Private und berufliche Inhalte sollten bewusst getrennt werden.",
+          "ar": "ينبغي الفصل الواعي بين المحتوى الخاص والمهني."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die sozialen Netzwerke"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "social_media"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v063",
+      "identity": "das business-netzwerk",
+      "term": "das Business-Netzwerk",
+      "type": "noun",
+      "arabic": "شبكة مهنية",
+      "explanation_de": "Ein digitales oder persönliches Netzwerk für berufliche Kontakte und Informationen.",
+      "explanation_ar": "شبكة رقمية أو شخصية للعلاقات والمعلومات المهنية.",
+      "examples": [
+        {
+          "de": "Im Business-Netzwerk folgt sie Unternehmen ihrer Branche.",
+          "ar": "تتابع شركات مجالها في الشبكة المهنية."
+        },
+        {
+          "de": "Aktive Profile erhöhen die Sichtbarkeit.",
+          "ar": "تزيد الملفات النشطة الظهور."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Business-Netzwerke"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v064",
+      "identity": "die initiativbewerbung",
+      "term": "die Initiativbewerbung",
+      "type": "noun",
+      "arabic": "طلب توظيف غير مرتبط بإعلان",
+      "explanation_de": "Eine Bewerbung bei einem Unternehmen, obwohl keine konkrete Stelle ausgeschrieben ist.",
+      "explanation_ar": "طلب يقدم إلى شركة رغم عدم وجود إعلان محدد.",
+      "examples": [
+        {
+          "de": "Die Initiativbewerbung richtet sich an ein passendes Unternehmen.",
+          "ar": "يُرسل الطلب المبادَر به إلى شركة مناسبة."
+        },
+        {
+          "de": "Sie begründet, welchen Nutzen sie anbieten kann.",
+          "ar": "توضح الفائدة التي يمكن أن تقدمها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Initiativbewerbungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": "nouns:noun_0437",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v065",
+      "identity": "der personalbedarf",
+      "term": "der Personalbedarf",
+      "type": "noun",
+      "arabic": "الحاجة إلى موظفين",
+      "explanation_de": "Der aktuelle oder zukünftige Bedarf eines Unternehmens an Arbeitskräften.",
+      "explanation_ar": "حاجة الشركة الحالية أو المستقبلية إلى العمال.",
+      "examples": [
+        {
+          "de": "Das Unternehmen hat zusätzlichen Personalbedarf.",
+          "ar": "تحتاج الشركة إلى موظفين إضافيين."
+        },
+        {
+          "de": "Netzwerke helfen, Personalbedarf früh zu erkennen.",
+          "ar": "تساعد الشبكات في اكتشاف الحاجة مبكرًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v066",
+      "identity": "die kontaktaufnahme",
+      "term": "die Kontaktaufnahme",
+      "type": "noun",
+      "arabic": "بدء التواصل",
+      "explanation_de": "Der erste Schritt, mit einer Person oder Organisation in Kontakt zu treten.",
+      "explanation_ar": "الخطوة الأولى للتواصل مع شخص أو مؤسسة.",
+      "examples": [
+        {
+          "de": "Die Kontaktaufnahme sollte höflich und konkret sein.",
+          "ar": "ينبغي أن يكون بدء التواصل مهذبًا وواضحًا."
+        },
+        {
+          "de": "Nach dem Vortrag gelang die Kontaktaufnahme leicht.",
+          "ar": "كان بدء التواصل سهلًا بعد المحاضرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kontaktaufnahmen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v067",
+      "identity": "das profil",
+      "term": "das Profil",
+      "type": "noun",
+      "arabic": "الملف الشخصي أو المهني",
+      "explanation_de": "Eine strukturierte Darstellung persönlicher und beruflicher Informationen auf einer Plattform.",
+      "explanation_ar": "عرض منظم للمعلومات الشخصية والمهنية على منصة.",
+      "examples": [
+        {
+          "de": "Ihr Profil enthält Qualifikationen und Berufserfahrung.",
+          "ar": "يتضمن ملفها المؤهلات والخبرة."
+        },
+        {
+          "de": "Ein professionelles Foto kann das Profil ergänzen.",
+          "ar": "يمكن أن تكمل صورة مهنية الملف."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Profile"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v068",
+      "identity": "die online-bewerbung",
+      "term": "die Online-Bewerbung",
+      "type": "noun",
+      "arabic": "طلب التوظيف الإلكتروني",
+      "explanation_de": "Eine Bewerbung, die über eine Website, ein Portal oder per E-Mail eingereicht wird.",
+      "explanation_ar": "طلب توظيف يُقدم عبر موقع أو بوابة أو بريد إلكتروني.",
+      "examples": [
+        {
+          "de": "Die Online-Bewerbung muss vollständig hochgeladen werden.",
+          "ar": "يجب رفع الطلب الإلكتروني كاملًا."
+        },
+        {
+          "de": "Dateinamen sollten eindeutig sein.",
+          "ar": "ينبغي أن تكون أسماء الملفات واضحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Online-Bewerbungen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v069",
+      "identity": "das social media recruiting",
+      "term": "das Social Media Recruiting",
+      "type": "noun",
+      "arabic": "التوظيف عبر وسائل التواصل",
+      "explanation_de": "Die gezielte Gewinnung von Bewerberinnen und Bewerbern über soziale Medien.",
+      "explanation_ar": "استقطاب المتقدمين بصورة مستهدفة عبر وسائل التواصل.",
+      "examples": [
+        {
+          "de": "Viele Unternehmen nutzen Social Media Recruiting.",
+          "ar": "تستخدم شركات كثيرة التوظيف عبر التواصل."
+        },
+        {
+          "de": "Dabei werden passende Zielgruppen direkt angesprochen.",
+          "ar": "تُخاطب الفئات المناسبة مباشرة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung",
+        "social_media"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v070",
+      "identity": "der headhunter",
+      "term": "der Headhunter",
+      "type": "noun",
+      "arabic": "باحث متخصص عن الكفاءات",
+      "explanation_de": "Eine Person, die im Auftrag von Unternehmen gezielt qualifizierte Fachkräfte anspricht.",
+      "explanation_ar": "شخص يستقطب كفاءات مؤهلة لصالح الشركات.",
+      "examples": [
+        {
+          "de": "Ein Headhunter kontaktierte sie über ein Business-Netzwerk.",
+          "ar": "تواصل معها باحث كفاءات عبر شبكة مهنية."
+        },
+        {
+          "de": "Seriöse Headhunter erklären ihren Auftrag transparent.",
+          "ar": "يوضح الباحثون الجادون مهمتهم بشفافية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Headhunter"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v071",
+      "identity": "der recruiter / die recruiterin",
+      "term": "der Recruiter / die Recruiterin",
+      "type": "noun",
+      "arabic": "مسؤول أو مسؤولة التوظيف",
+      "explanation_de": "Eine Fachperson, die Personal sucht, auswählt und Bewerbungsprozesse begleitet.",
+      "explanation_ar": "مختص يبحث عن الموظفين ويختارهم ويتابع التوظيف.",
+      "examples": [
+        {
+          "de": "Die Recruiterin prüft das berufliche Profil.",
+          "ar": "تفحص مسؤولة التوظيف الملف المهني."
+        },
+        {
+          "de": "Der Recruiter vereinbart ein Erstgespräch.",
+          "ar": "يحدد مسؤول التوظيف مقابلة أولى."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Recruiter / die Recruiterinnen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v072",
+      "identity": "der branchenkontakt",
+      "term": "der Branchenkontakt",
+      "type": "noun",
+      "arabic": "علاقة مهنية ضمن المجال",
+      "explanation_de": "Eine berufliche Verbindung zu einer Person aus derselben oder einer verwandten Branche.",
+      "explanation_ar": "علاقة مهنية مع شخص من المجال نفسه أو مجال قريب.",
+      "examples": [
+        {
+          "de": "Ein Branchenkontakt informierte ihn über eine freie Stelle.",
+          "ar": "أبلغه أحد معارف المجال بوظيفة."
+        },
+        {
+          "de": "Gute Branchenkontakte entstehen durch gegenseitigen Austausch.",
+          "ar": "تنشأ العلاقات الجيدة عبر التبادل المتبادل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Branchenkontakte"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "netzwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v073",
+      "identity": "der insider-tipp",
+      "term": "der Insider-Tipp",
+      "type": "noun",
+      "arabic": "نصيحة من شخص مطّلع",
+      "explanation_de": "Ein hilfreicher Hinweis von jemandem mit besonderem Wissen über einen Bereich.",
+      "explanation_ar": "معلومة مفيدة من شخص لديه معرفة داخلية بالمجال.",
+      "examples": [
+        {
+          "de": "Durch einen Insider-Tipp erfuhr sie von der Stelle.",
+          "ar": "عرفت عن الوظيفة من نصيحة مطّلع."
+        },
+        {
+          "de": "Insider-Tipps ersetzen keine gründliche Prüfung.",
+          "ar": "لا تغني النصائح عن التحقق الدقيق."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Insider-Tipps"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "netzwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v074",
+      "identity": "die komfortzone",
+      "term": "die Komfortzone",
+      "type": "noun",
+      "arabic": "منطقة الراحة",
+      "explanation_de": "Ein vertrauter Bereich, in dem man sich sicher fühlt und wenig Neues wagt.",
+      "explanation_ar": "نطاق مألوف يشعر فيه الشخص بالأمان ولا يجرب الكثير.",
+      "examples": [
+        {
+          "de": "Für neue Kontakte musste er seine Komfortzone verlassen.",
+          "ar": "اضطر إلى مغادرة منطقة راحته."
+        },
+        {
+          "de": "Kleine Schritte erleichtern den Übergang.",
+          "ar": "تسهل الخطوات الصغيرة الانتقال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Komfortzonen"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "persönlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v075",
+      "identity": "die selbstvermarktung",
+      "term": "die Selbstvermarktung",
+      "type": "noun",
+      "arabic": "التسويق المهني للذات",
+      "explanation_de": "Die gezielte Darstellung eigener Kompetenzen und Leistungen gegenüber möglichen Arbeitgebern.",
+      "explanation_ar": "عرض الكفاءات والإنجازات بصورة موجهة لأصحاب العمل.",
+      "examples": [
+        {
+          "de": "Gute Selbstvermarktung bleibt sachlich und glaubwürdig.",
+          "ar": "يبقى التسويق الجيد للذات موضوعيًا ومقنعًا."
+        },
+        {
+          "de": "Sie beschreibt konkrete Ergebnisse statt allgemeiner Behauptungen.",
+          "ar": "تصف نتائج محددة بدل الادعاءات العامة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v076",
+      "identity": "kontakte knüpfen",
+      "term": "Kontakte knüpfen",
+      "type": "phrase",
+      "arabic": "يبني علاقات",
+      "explanation_de": "Neue persönliche oder berufliche Verbindungen herstellen.",
+      "explanation_ar": "إنشاء علاقات شخصية أو مهنية جديدة.",
+      "examples": [
+        {
+          "de": "Auf der Messe knüpft sie Kontakte zu Unternehmen.",
+          "ar": "تبني علاقات مع الشركات في المعرض."
+        },
+        {
+          "de": "Kontakte entstehen leichter durch echte Gespräche.",
+          "ar": "تنشأ العلاقات بسهولة عبر حوارات حقيقية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "netzwerk"
+      ],
+      "globalRef": "phrases:phrase_0274",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u11-v077",
+      "identity": "das netzwerk erweitern",
+      "term": "das Netzwerk erweitern",
+      "type": "phrase",
+      "arabic": "يوسع شبكة العلاقات",
+      "explanation_de": "Neue relevante Personen in das eigene berufliche Netzwerk aufnehmen.",
+      "explanation_ar": "إضافة أشخاص مناسبين إلى شبكة العلاقات المهنية.",
+      "examples": [
+        {
+          "de": "Er erweitert sein Netzwerk durch Fachveranstaltungen.",
+          "ar": "يوسع شبكته عبر فعاليات متخصصة."
+        },
+        {
+          "de": "Qualität ist wichtiger als die reine Zahl der Kontakte.",
+          "ar": "الجودة أهم من عدد العلاقات."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "netzwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u11-v078",
+      "identity": "das profil optimieren",
+      "term": "das Profil optimieren",
+      "type": "phrase",
+      "arabic": "يحسن الملف المهني",
+      "explanation_de": "Inhalte, Struktur und Sichtbarkeit eines Profils gezielt verbessern.",
+      "explanation_ar": "تحسين محتوى الملف وبنيته وظهوره بصورة موجهة.",
+      "examples": [
+        {
+          "de": "Sie optimiert ihr Profil mit klaren Schlüsselbegriffen.",
+          "ar": "تحسن ملفها بكلمات مفتاحية واضحة."
+        },
+        {
+          "de": "Veraltete Angaben sollten entfernt werden.",
+          "ar": "ينبغي إزالة المعلومات القديمة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 11,
+        "pages": [
+          196,
+          197
+        ],
+        "section": "Gut vernetzt"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

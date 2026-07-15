@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 14,
+  "unitTitle_de": "Weiterbildung",
+  "unitTitle_ar": "التعليم المستمر",
+  "grammarFocus": [
+    "Konjunktiv I in der indirekten Rede",
+    "Konjunktiv II in irrealen Vergleichssätzen",
+    "als ob / als wenn",
+    "formelle Informationsanfrage",
+    "Motivationsschreiben und Kommentar"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u14-e001",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Bildungsweg",
+      "title_ar": "المسار التعليمي",
+      "prompt_de": "Welche Beschreibung passt zu einem Bildungsweg?",
+      "prompt_ar": "أي وصف يناسب المسار التعليمي؟",
+      "answer": "Die Abfolge von Schule, Ausbildung, Studium und Weiterbildung.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Abfolge von Schule, Ausbildung, Studium und Weiterbildung.",
+        "Nur der aktuelle Arbeitsplatz.",
+        "Eine Liste privater Hobbys.",
+        "Ausschließlich die Schulnoten."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v003",
+        "b2u14-v002"
+      ]
+    },
+    {
+      "id": "b2u14-e002",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Bildungsformen",
+      "title_ar": "أشكال التعليم",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "Abendgymnasium": "Schulabschluss neben Beruf oder Familie nachholen",
+        "Fernuniversität": "überwiegend ortsunabhängig studieren",
+        "Umschulung": "für einen neuen Beruf qualifizieren",
+        "E-Learning": "mit digitalen Medien lernen"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Abendgymnasium",
+          "Schulabschluss neben Beruf oder Familie nachholen"
+        ],
+        [
+          "Fernuniversität",
+          "überwiegend ortsunabhängig studieren"
+        ],
+        [
+          "Umschulung",
+          "für einen neuen Beruf qualifizieren"
+        ],
+        [
+          "E-Learning",
+          "mit digitalen Medien lernen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v009",
+        "b2u14-v010",
+        "b2u14-v007",
+        "b2u14-v008"
+      ]
+    },
+    {
+      "id": "b2u14-e003",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Lebenslanges Lernen",
+      "title_ar": "التعلم مدى الحياة",
+      "prompt_de": "Berufliche Anforderungen ändern sich; deshalb ist ______ wichtig.",
+      "prompt_ar": "تتغير المتطلبات المهنية، لذلك فإن ______ مهم.",
+      "answer": "lebenslanges Lernen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "lebenslanges Lernen",
+        "das lebenslange Lernen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v005"
+      ]
+    },
+    {
+      "id": "b2u14-e004",
+      "unit": 14,
+      "type": "scenario_choice",
+      "title_de": "Abschluss nachholen",
+      "title_ar": "استدراك شهادة",
+      "prompt_de": "Eine Erwachsene möchte ihr Abitur neben der Arbeit erwerben. Welches Angebot passt?",
+      "prompt_ar": "بالغة تريد الأبيتور بجانب العمل. ما العرض المناسب؟",
+      "answer": "Abendgymnasium",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Abendgymnasium",
+        "Gesellenprüfung",
+        "Anerkennungsverfahren",
+        "Präsenzpflicht im Betrieb"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v009",
+        "b2u14-v020"
+      ]
+    },
+    {
+      "id": "b2u14-e005",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Bildungsbiografie",
+      "title_ar": "السيرة التعليمية",
+      "prompt_de": "Bilden Sie einen Satz: Bildungsbiografie / mehrere Unterbrechungen / enthalten",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Eine Bildungsbiografie kann mehrere Unterbrechungen enthalten.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Eine Bildungsbiografie kann mehrere Unterbrechungen enthalten."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v002"
+      ]
+    },
+    {
+      "id": "b2u14-e006",
+      "unit": 14,
+      "type": "guided_speaking",
+      "title_de": "Eigene Bildungsgeschichte",
+      "title_ar": "مسيرتي التعليمية",
+      "prompt_de": "Berichten Sie zwei Minuten über Ihre Bildungsgeschichte und Ihre nächsten Ziele.",
+      "prompt_ar": "تحدث دقيقتين عن مسيرتك التعليمية وأهدافك.",
+      "answer": {
+        "requiredConcepts": [
+          "Schule oder Ausbildung",
+          "eine wichtige Station",
+          "eine Schwierigkeit",
+          "was Sie gelernt haben",
+          "nächstes Bildungsziel"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v001",
+        "b2u14-v003"
+      ]
+    },
+    {
+      "id": "b2u14-e007",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Abschlüsse unterscheiden",
+      "title_ar": "تمييز الشهادات",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Schulabschluss": "Abschluss einer allgemeinbildenden Schule",
+        "Berufsabschluss": "anerkannte Qualifikation für einen Beruf",
+        "Bildungsabschluss": "Oberbegriff für formale Abschlüsse",
+        "Zertifikat": "Nachweis eines Kurses oder einer Prüfung"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Schulabschluss",
+          "Abschluss einer allgemeinbildenden Schule"
+        ],
+        [
+          "Berufsabschluss",
+          "anerkannte Qualifikation für einen Beruf"
+        ],
+        [
+          "Bildungsabschluss",
+          "Oberbegriff für formale Abschlüsse"
+        ],
+        [
+          "Zertifikat",
+          "Nachweis eines Kurses oder einer Prüfung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v012",
+        "b2u14-v013",
+        "b2u14-v011",
+        "b2u14-v044"
+      ]
+    },
+    {
+      "id": "b2u14-e008",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Berufliche Neuorientierung",
+      "title_ar": "إعادة التوجيه المهني",
+      "prompt_de": "Wann spricht man von beruflicher Neuorientierung?",
+      "prompt_ar": "متى نتحدث عن إعادة توجيه مهني؟",
+      "answer": "Wenn jemand bewusst in ein neues Berufsfeld wechseln möchte.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wenn jemand bewusst in ein neues Berufsfeld wechseln möchte.",
+        "Wenn jemand einen freien Tag nimmt.",
+        "Wenn ein Kurs eine Pause macht.",
+        "Wenn ein Zeugnis kopiert wird."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v017"
+      ]
+    },
+    {
+      "id": "b2u14-e009",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Qualifikation erwerben",
+      "title_ar": "اكتساب مؤهل",
+      "prompt_de": "Durch den Kurs möchte sie eine zusätzliche ______ erwerben.",
+      "prompt_ar": "تريد من خلال الدورة اكتساب ______ إضافي.",
+      "answer": "Qualifikation",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Qualifikation",
+        "eine Qualifikation"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v021"
+      ]
+    },
+    {
+      "id": "b2u14-e010",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Beruflich weiterkommen",
+      "title_ar": "التقدم المهني",
+      "prompt_de": "Bilden Sie einen Satz: Zertifikat / helfen / beruflich weiterkommen",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Das Zertifikat hilft mir, beruflich weiterzukommen.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Das Zertifikat hilft mir, beruflich weiterzukommen."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v023",
+        "b2u14-v044"
+      ]
+    },
+    {
+      "id": "b2u14-e011",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Kommentar zu einer Bildungsgeschichte",
+      "title_ar": "تعليق على مسيرة تعليمية",
+      "prompt_de": "Schreiben Sie einen kurzen Kommentar zu einer ungewöhnlichen Bildungsgeschichte.",
+      "prompt_ar": "اكتب تعليقًا قصيرًا عن مسيرة تعليمية غير معتادة.",
+      "answer": {
+        "requiredConcepts": [
+          "kurze Zusammenfassung",
+          "eigene Bewertung",
+          "eine bewunderte Eigenschaft",
+          "vergleichbare Erfahrung oder Empfehlung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v001",
+        "b2u14-v092",
+        "b2u14-v097"
+      ]
+    },
+    {
+      "id": "b2u14-e012",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Persönliche Eigenschaft",
+      "title_ar": "صفة شخصية",
+      "prompt_de": "Welche Eigenschaft passt zu jemandem, der trotz Rückschlägen sein Ziel weiterverfolgt?",
+      "prompt_ar": "أي صفة تناسب من يواصل هدفه رغم النكسات؟",
+      "answer": "zäh",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "zäh",
+        "gleichgültig",
+        "unzuverlässig",
+        "unentschlossen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v099",
+        "b2u14-v092"
+      ]
+    },
+    {
+      "id": "b2u14-e013",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Förderprogramme",
+      "title_ar": "برامج الدعم",
+      "prompt_de": "Ordnen Sie Programm und Zweck zu.",
+      "prompt_ar": "صِل البرنامج بالهدف.",
+      "answer": {
+        "Anerkennungszuschuss": "Kosten eines Anerkennungsverfahrens",
+        "Bildungsprämie": "Zuschuss zu beruflicher Weiterbildung",
+        "Stipendium": "Förderung für Studium oder Forschung",
+        "Weiterbildungsstipendium": "Weiterqualifizierung leistungsstarker Berufstätiger"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Anerkennungszuschuss",
+          "Kosten eines Anerkennungsverfahrens"
+        ],
+        [
+          "Bildungsprämie",
+          "Zuschuss zu beruflicher Weiterbildung"
+        ],
+        [
+          "Stipendium",
+          "Förderung für Studium oder Forschung"
+        ],
+        [
+          "Weiterbildungsstipendium",
+          "Weiterqualifizierung leistungsstarker Berufstätiger"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v024",
+        "b2u14-v025",
+        "b2u14-v028",
+        "b2u14-v030"
+      ]
+    },
+    {
+      "id": "b2u14-e014",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Anerkennungsverfahren",
+      "title_ar": "إجراء الاعتراف",
+      "prompt_de": "Im ______ wird geprüft, ob die ausländische Qualifikation gleichwertig ist.",
+      "prompt_ar": "في ______ يُفحص تكافؤ المؤهل الأجنبي.",
+      "answer": "Anerkennungsverfahren",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Anerkennungsverfahren",
+        "dem Anerkennungsverfahren"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v031",
+        "b2u14-v032"
+      ]
+    },
+    {
+      "id": "b2u14-e015",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Gleichwertigkeit",
+      "title_ar": "التكافؤ",
+      "prompt_de": "Was bedeutet Gleichwertigkeit?",
+      "prompt_ar": "ما معنى التكافؤ؟",
+      "answer": "Die ausländische Qualifikation entspricht in wesentlichen Punkten einem deutschen Abschluss.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die ausländische Qualifikation entspricht in wesentlichen Punkten einem deutschen Abschluss.",
+        "Alle Zeugnisse haben dieselbe Farbe.",
+        "Der Kurs ist kostenlos.",
+        "Die Berufserfahrung wird nicht berücksichtigt."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v032",
+        "b2u14-v033"
+      ]
+    },
+    {
+      "id": "b2u14-e016",
+      "unit": 14,
+      "type": "scenario_choice",
+      "title_de": "Abschluss anerkennen",
+      "title_ar": "الاعتراف بالشهادة",
+      "prompt_de": "Eine Pflegefachkraft hat ihren Abschluss außerhalb Deutschlands erworben. Was ist sinnvoll?",
+      "prompt_ar": "ممرضة حصلت على الشهادة خارج ألمانيا. ما المناسب؟",
+      "answer": "den Abschluss bei der zuständigen Stelle anerkennen lassen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "den Abschluss bei der zuständigen Stelle anerkennen lassen",
+        "die Unterlagen wegwerfen",
+        "sofort ohne Prüfung jeden geschützten Beruf ausüben",
+        "nur eine Kursgebühr bezahlen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v034",
+        "b2u14-v033"
+      ]
+    },
+    {
+      "id": "b2u14-e017",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Nachweis",
+      "title_ar": "الإثبات",
+      "prompt_de": "Die Bewerberin muss ihre berufliche Qualifikation durch Zeugnisse ______.",
+      "prompt_ar": "يجب على المتقدمة ______ مؤهلها بالشهادات.",
+      "answer": "nachweisen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "nachweisen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v035"
+      ]
+    },
+    {
+      "id": "b2u14-e018",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Fördervoraussetzung",
+      "title_ar": "شرط الدعم",
+      "prompt_de": "Welche Information ist für eine einkommensabhängige Förderung besonders wichtig?",
+      "prompt_ar": "ما المعلومة المهمة لدعم مرتبط بالدخل؟",
+      "answer": "das zu versteuernde Jahreseinkommen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "das zu versteuernde Jahreseinkommen",
+        "die Lieblingsfarbe",
+        "die Anzahl der Hobbys",
+        "der Familienname des Kursleiters"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v036"
+      ]
+    },
+    {
+      "id": "b2u14-e019",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Kursinformationen",
+      "title_ar": "معلومات الدورة",
+      "prompt_de": "Ordnen Sie Frage und Begriff zu.",
+      "prompt_ar": "صِل السؤال بالمصطلح.",
+      "answer": {
+        "Bis wann muss ich mich anmelden?": "Anmeldefrist",
+        "Kann ich meine Anmeldung stornieren?": "Rücktrittsmöglichkeit",
+        "Welche Bedingungen muss ich erfüllen?": "Teilnahmevoraussetzung",
+        "Was kostet die Teilnahme?": "Kursgebühr"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Bis wann muss ich mich anmelden?",
+          "Anmeldefrist"
+        ],
+        [
+          "Kann ich meine Anmeldung stornieren?",
+          "Rücktrittsmöglichkeit"
+        ],
+        [
+          "Welche Bedingungen muss ich erfüllen?",
+          "Teilnahmevoraussetzung"
+        ],
+        [
+          "Was kostet die Teilnahme?",
+          "Kursgebühr"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v055",
+        "b2u14-v054",
+        "b2u14-v040",
+        "b2u14-v045"
+      ]
+    },
+    {
+      "id": "b2u14-e020",
+      "unit": 14,
+      "type": "scenario_choice",
+      "title_de": "Vollzeitkurs",
+      "title_ar": "دورة دوام كامل",
+      "prompt_de": "Sie arbeiten Vollzeit und können tagsüber nicht fehlen. Welche Frage ist besonders wichtig?",
+      "prompt_ar": "تعمل بدوام كامل ولا تستطيع الغياب نهارًا. ما السؤال الأهم؟",
+      "answer": "Gibt es eine Teilzeit- oder Online-Alternative?",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Gibt es eine Teilzeit- oder Online-Alternative?",
+        "Welche Farbe hat das Zertifikat?",
+        "Wie heißt der Hausmeister?",
+        "Gibt es täglich Kuchen?"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v041",
+        "b2u14-v008"
+      ]
+    },
+    {
+      "id": "b2u14-e021",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Präsenzunterricht",
+      "title_ar": "التعليم الحضوري",
+      "prompt_de": "Beim ______ müssen Lehrende und Lernende am selben Ort sein.",
+      "prompt_ar": "في ______ يجب أن يكون المدرّس والمتعلم في المكان نفسه.",
+      "answer": "Präsenzunterricht",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Präsenzunterricht",
+        "dem Präsenzunterricht"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v042"
+      ]
+    },
+    {
+      "id": "b2u14-e022",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Teilnehmerbescheinigung",
+      "title_ar": "شهادة مشاركة",
+      "prompt_de": "Was bestätigt eine Teilnehmerbescheinigung?",
+      "prompt_ar": "ماذا تثبت شهادة المشاركة؟",
+      "answer": "dass jemand an einem Kurs teilgenommen hat",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "dass jemand an einem Kurs teilgenommen hat",
+        "dass jede Abschlussprüfung bestanden wurde",
+        "dass ein Berufsabschluss anerkannt ist",
+        "dass keine Kursgebühr bezahlt wird"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v048"
+      ]
+    },
+    {
+      "id": "b2u14-e023",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Förderung beantragen",
+      "title_ar": "طلب الدعم",
+      "prompt_de": "Die finanzielle Unterstützung muss vor Kursbeginn ______ werden.",
+      "prompt_ar": "يجب ______ الدعم قبل بدء الدورة.",
+      "answer": "beantragt",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "beantragt"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v056"
+      ]
+    },
+    {
+      "id": "b2u14-e024",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Informationsanfrage Weiterbildung",
+      "title_ar": "طلب معلومات عن دورة",
+      "prompt_de": "Schreiben Sie eine formelle E-Mail mit Fragen zu einem Weiterbildungsangebot.",
+      "prompt_ar": "اكتب بريدًا رسميًا بأسئلة عن دورة.",
+      "answer": {
+        "requiredConcepts": [
+          "Interesse und Kursname",
+          "Teilnahmevoraussetzungen",
+          "Termine und Dauer",
+          "Kosten und Förderung",
+          "Abschluss oder Zertifikat",
+          "Rücktrittsmöglichkeit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v040",
+        "b2u14-v045",
+        "b2u14-v026",
+        "b2u14-v054"
+      ]
+    },
+    {
+      "id": "b2u14-e025",
+      "unit": 14,
+      "type": "guided_speaking",
+      "title_de": "Weiterbildungsangebot vergleichen",
+      "title_ar": "مقارنة عروض",
+      "prompt_de": "Vergleichen Sie zwei Weiterbildungsangebote und begründen Sie Ihre Wahl.",
+      "prompt_ar": "قارن عرضين وعلل اختيارك.",
+      "answer": {
+        "requiredConcepts": [
+          "Ziel",
+          "Dauer",
+          "Unterrichtsform",
+          "Kosten",
+          "Förderung",
+          "Abschluss",
+          "persönliche Vereinbarkeit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v015",
+        "b2u14-v041",
+        "b2u14-v042"
+      ]
+    },
+    {
+      "id": "b2u14-e026",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Motivationsschreiben",
+      "title_ar": "رسالة دافع",
+      "prompt_de": "Schreiben Sie einen kurzen Abschnitt für ein Motivationsschreiben zu einer Weiterbildung.",
+      "prompt_ar": "اكتب فقرة دافع لتعليم مستمر.",
+      "answer": {
+        "requiredConcepts": [
+          "bisherige Tätigkeit",
+          "relevante Erfahrung",
+          "Ziel der Weiterbildung",
+          "Nutzen für die berufliche Entwicklung",
+          "Motivation"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v090",
+        "b2u14-v016",
+        "b2u14-v057"
+      ]
+    },
+    {
+      "id": "b2u14-e027",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Ausbildungsvergütung",
+      "title_ar": "راتب التدريب",
+      "prompt_de": "Was ist die Ausbildungsvergütung?",
+      "prompt_ar": "ما هو راتب التدريب؟",
+      "answer": "die regelmäßige Bezahlung während einer Berufsausbildung",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die regelmäßige Bezahlung während einer Berufsausbildung",
+        "die Gebühr für eine Universität",
+        "ein Preis für ein Lehrbuch",
+        "eine Steuer auf Prüfungen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v047"
+      ]
+    },
+    {
+      "id": "b2u14-e028",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Prüfungen und Nachweise",
+      "title_ar": "الامتحانات والإثباتات",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Gesellenprüfung": "Abschluss einer handwerklichen Ausbildung",
+        "Meisterprüfung": "höhere berufliche Qualifikation im Handwerk",
+        "Abschlussprüfung": "Prüfung am Ende eines Bildungsgangs",
+        "Zertifikat": "Dokument über Kompetenz oder Prüfung"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Gesellenprüfung",
+          "Abschluss einer handwerklichen Ausbildung"
+        ],
+        [
+          "Meisterprüfung",
+          "höhere berufliche Qualifikation im Handwerk"
+        ],
+        [
+          "Abschlussprüfung",
+          "Prüfung am Ende eines Bildungsgangs"
+        ],
+        [
+          "Zertifikat",
+          "Dokument über Kompetenz oder Prüfung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v049",
+        "b2u14-v050",
+        "b2u14-v043",
+        "b2u14-v044"
+      ]
+    },
+    {
+      "id": "b2u14-e029",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Lernpsychologie",
+      "title_ar": "علم نفس التعلم",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "Lernblockade": "Stress erschwert das Lernen stark",
+        "positive Verstärkung": "Lob stärkt erwünschtes Verhalten",
+        "Durchhaltevermögen": "trotz Schwierigkeiten weitermachen",
+        "Lernumgebung": "Bedingungen, unter denen gelernt wird"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Lernblockade",
+          "Stress erschwert das Lernen stark"
+        ],
+        [
+          "positive Verstärkung",
+          "Lob stärkt erwünschtes Verhalten"
+        ],
+        [
+          "Durchhaltevermögen",
+          "trotz Schwierigkeiten weitermachen"
+        ],
+        [
+          "Lernumgebung",
+          "Bedingungen, unter denen gelernt wird"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v062",
+        "b2u14-v071",
+        "b2u14-v067",
+        "b2u14-v058"
+      ]
+    },
+    {
+      "id": "b2u14-e030",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Prüfungsangst",
+      "title_ar": "خوف الامتحان",
+      "prompt_de": "Welche Maßnahme hilft eher bei Prüfungsangst?",
+      "prompt_ar": "أي إجراء يساعد أكثر؟",
+      "answer": "realistische Lernziele, Pausen und gezielte Vorbereitung",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "realistische Lernziele, Pausen und gezielte Vorbereitung",
+        "die Prüfung vollständig ignorieren",
+        "jede Nacht ohne Schlaf lernen",
+        "sich für jeden Fehler bestrafen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v064",
+        "b2u14-v079",
+        "b2u14-v069"
+      ]
+    },
+    {
+      "id": "b2u14-e031",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Lernleistung",
+      "title_ar": "أداء التعلم",
+      "prompt_de": "Zu viel Stress kann die ______ deutlich senken.",
+      "prompt_ar": "يمكن للضغط الزائد أن يخفض ______.",
+      "answer": "Lernleistung",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Lernleistung",
+        "die Lernleistung"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v059"
+      ]
+    },
+    {
+      "id": "b2u14-e032",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Speicherfähigkeit",
+      "title_ar": "قدرة التخزين",
+      "prompt_de": "Wiederholungen helfen dem Gehirn, seine ______ zu nutzen.",
+      "prompt_ar": "يساعد التكرار الدماغ على استخدام ______.",
+      "answer": "Speicherfähigkeit",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Speicherfähigkeit",
+        "die Speicherfähigkeit"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v061"
+      ]
+    },
+    {
+      "id": "b2u14-e033",
+      "unit": 14,
+      "type": "scenario_choice",
+      "title_de": "Lernblockade lösen",
+      "title_ar": "حل عائق التعلم",
+      "prompt_de": "Eine Teilnehmerin versteht trotz langer Lernzeit nichts mehr. Was ist sinnvoll?",
+      "prompt_ar": "مشاركة لا تفهم رغم التعلم الطويل. ما المناسب؟",
+      "answer": "Pause machen, Ursache klären und Lernmethode wechseln",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Pause machen, Ursache klären und Lernmethode wechseln",
+        "noch mehr Druck ausüben",
+        "jede Unterstützung ablehnen",
+        "die Prüfung sofort aufgeben"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v082",
+        "b2u14-v063",
+        "b2u14-v069"
+      ]
+    },
+    {
+      "id": "b2u14-e034",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Realistische Ziele",
+      "title_ar": "أهداف واقعية",
+      "prompt_de": "Bilden Sie einen Satz: realistische Ziele / Motivation / stärken",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Realistische Ziele stärken die Motivation.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Realistische Ziele stärken die Motivation."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v079"
+      ]
+    },
+    {
+      "id": "b2u14-e035",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Positive Verstärkung",
+      "title_ar": "التعزيز الإيجابي",
+      "prompt_de": "Welches Beispiel ist positive Verstärkung?",
+      "prompt_ar": "أي مثال تعزيز إيجابي؟",
+      "answer": "Die Lehrerin lobt konkret den verbesserten Aufbau des Textes.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Lehrerin lobt konkret den verbesserten Aufbau des Textes.",
+        "Sie ignoriert jede Anstrengung.",
+        "Sie droht bei jedem Fehler.",
+        "Sie vergleicht Lernende abwertend."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v071"
+      ]
+    },
+    {
+      "id": "b2u14-e036",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Durchhaltevermögen",
+      "title_ar": "المثابرة",
+      "prompt_de": "Für ein langes berufsbegleitendes Studium braucht man viel ______.",
+      "prompt_ar": "تحتاج الدراسة الطويلة بجانب العمل إلى ______ كبير.",
+      "answer": "Durchhaltevermögen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Durchhaltevermögen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v067"
+      ]
+    },
+    {
+      "id": "b2u14-e037",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Gefühle und Lernen",
+      "title_ar": "المشاعر والتعلم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Empathie": "Gefühle anderer nachvollziehen",
+        "Mitgefühl": "auf Schwierigkeiten verständnisvoll reagieren",
+        "Neugier": "Neues entdecken wollen",
+        "Prüfungsangst": "starke Sorge vor einer Prüfung"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Empathie",
+          "Gefühle anderer nachvollziehen"
+        ],
+        [
+          "Mitgefühl",
+          "auf Schwierigkeiten verständnisvoll reagieren"
+        ],
+        [
+          "Neugier",
+          "Neues entdecken wollen"
+        ],
+        [
+          "Prüfungsangst",
+          "starke Sorge vor einer Prüfung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v072",
+        "b2u14-v073",
+        "b2u14-v074",
+        "b2u14-v064"
+      ]
+    },
+    {
+      "id": "b2u14-e038",
+      "unit": 14,
+      "type": "guided_speaking",
+      "title_de": "Was beim Lernen hilft",
+      "title_ar": "ما يساعد على التعلم",
+      "prompt_de": "Beschreiben Sie Ihre wirksamste Lernstrategie und begründen Sie sie.",
+      "prompt_ar": "صف أنجح استراتيجية تعلم لديك وعلل.",
+      "answer": {
+        "requiredConcepts": [
+          "konkrete Methode",
+          "Lernumgebung",
+          "Zeitplanung",
+          "Pausen",
+          "Umgang mit Stress",
+          "ein Beispiel"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v063",
+        "b2u14-v058",
+        "b2u14-v069"
+      ]
+    },
+    {
+      "id": "b2u14-e039",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Lernplan verbessern",
+      "title_ar": "تحسين خطة التعلم",
+      "prompt_de": "Schreiben Sie fünf konkrete Vorschläge für eine Person mit Prüfungsangst.",
+      "prompt_ar": "اكتب خمسة اقتراحات لشخص لديه خوف امتحان.",
+      "answer": {
+        "requiredConcepts": [
+          "realistische Ziele",
+          "Lernpausen",
+          "Wiederholung",
+          "Unterstützung",
+          "Entspannung",
+          "positive Verstärkung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v064",
+        "b2u14-v079",
+        "b2u14-v071"
+      ]
+    },
+    {
+      "id": "b2u14-e040",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Untersuchungsergebnis",
+      "title_ar": "نتيجة الدراسة",
+      "prompt_de": "Welche Formulierung ist wissenschaftlich vorsichtig?",
+      "prompt_ar": "أي صياغة علمية حذرة؟",
+      "answer": "Die Untersuchungsergebnisse deuten darauf hin, dass Pausen hilfreich sein können.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Untersuchungsergebnisse deuten darauf hin, dass Pausen hilfreich sein können.",
+        "Die Studie beweist für immer, dass nur eine Methode funktioniert.",
+        "Jeder Mensch lernt exakt gleich.",
+        "Gefühle spielen niemals eine Rolle."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v076",
+        "b2u14-v075"
+      ]
+    },
+    {
+      "id": "b2u14-e041",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Konzentrationsfähigkeit",
+      "title_ar": "القدرة على التركيز",
+      "prompt_de": "Eine ruhige Umgebung kann die ______ verbessern.",
+      "prompt_ar": "يمكن للبيئة الهادئة تحسين ______.",
+      "answer": "Konzentrationsfähigkeit",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Konzentrationsfähigkeit",
+        "die Konzentrationsfähigkeit"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v068",
+        "b2u14-v058"
+      ]
+    },
+    {
+      "id": "b2u14-e042",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Gegenseitige Unterstützung",
+      "title_ar": "الدعم المتبادل",
+      "prompt_de": "Bilden Sie einen Satz: Lerngruppe / gegenseitig unterstützen",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "In einer guten Lerngruppe unterstützen sich die Teilnehmenden gegenseitig.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "In einer guten Lerngruppe unterstützen sich die Teilnehmenden gegenseitig."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v078"
+      ]
+    },
+    {
+      "id": "b2u14-e043",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Kommentar Lernen und Emotionen",
+      "title_ar": "تعليق عن التعلم والمشاعر",
+      "prompt_de": "Schreiben Sie einen Kommentar: Welche Rolle spielen Gefühle beim erfolgreichen Lernen?",
+      "prompt_ar": "اكتب تعليقًا: ما دور المشاعر في التعلم الناجح؟",
+      "answer": {
+        "requiredConcepts": [
+          "eigene Position",
+          "positiver und negativer Einfluss",
+          "Prüfungsangst oder Stress",
+          "Motivation",
+          "konkretes Beispiel",
+          "Schlussfolgerung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v077",
+        "b2u14-v059",
+        "b2u14-v066"
+      ]
+    },
+    {
+      "id": "b2u14-e044",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Konjunktiv I",
+      "title_ar": "صيغة النقل",
+      "prompt_de": "Welche Form gibt eine fremde Aussage in neutraler Distanz wieder?",
+      "prompt_ar": "أي صيغة تنقل قولًا بمسافة؟",
+      "answer": "Er sagt, der Kurs sei ausgebucht.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Er sagt, der Kurs sei ausgebucht.",
+        "Der Kurs ist bestimmt ausgebucht!",
+        "Buche den Kurs sofort!",
+        "Wäre der Kurs doch frei!"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v084",
+        "b2u14-v083"
+      ]
+    },
+    {
+      "id": "b2u14-e045",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Indirekte Rede",
+      "title_ar": "الكلام المنقول",
+      "prompt_de": "Direkte Rede: „Ich habe wenig Zeit.“ – Indirekte Rede: Sie sagt, sie ______ wenig Zeit.",
+      "prompt_ar": "حوّل إلى الكلام المنقول.",
+      "answer": "habe",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "habe"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v083",
+        "b2u14-v084"
+      ]
+    },
+    {
+      "id": "b2u14-e046",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Aussage wiedergeben",
+      "title_ar": "نقل قول",
+      "prompt_de": "Geben Sie wieder: Der Teilnehmer sagt: „Die Prüfung ist schwer.“",
+      "prompt_ar": "انقل القول.",
+      "answer": "Der Teilnehmer sagt, die Prüfung sei schwer.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der Teilnehmer sagt, die Prüfung sei schwer."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v085",
+        "b2u14-v084"
+      ]
+    },
+    {
+      "id": "b2u14-e047",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Als ob",
+      "title_ar": "كما لو أن",
+      "prompt_de": "Welcher Satz enthält einen irrealen Vergleich?",
+      "prompt_ar": "أي جملة فيها مقارنة غير واقعية؟",
+      "answer": "Er spricht, als ob er den Kurs selbst geleitet hätte.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Er spricht, als ob er den Kurs selbst geleitet hätte.",
+        "Er spricht, weil er den Kurs leitet.",
+        "Er spricht, nachdem der Kurs endet.",
+        "Er spricht, damit alle zuhören."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v087",
+        "b2u14-v086"
+      ]
+    },
+    {
+      "id": "b2u14-e048",
+      "unit": 14,
+      "type": "fill_blank",
+      "title_de": "Irrealer Vergleich",
+      "title_ar": "مقارنة غير واقعية",
+      "prompt_de": "Sie sieht aus, als ______ sie die ganze Nacht gelernt hätte.",
+      "prompt_ar": "تبدو كما لو أنها تعلمت طوال الليل.",
+      "answer": "ob",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "ob"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v087"
+      ]
+    },
+    {
+      "id": "b2u14-e049",
+      "unit": 14,
+      "type": "sentence_build",
+      "title_de": "Als würde",
+      "title_ar": "كما لو أن",
+      "prompt_de": "Bilden Sie einen Satz: fühlen / Last verschwinden",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Ich fühle mich, als würde eine Last verschwinden.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ich fühle mich, als würde eine Last verschwinden."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v089"
+      ]
+    },
+    {
+      "id": "b2u14-e050",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Bildungsförderung erklären",
+      "title_ar": "شرح دعم التعليم",
+      "prompt_de": "Erklären Sie einer interessierten Person, wie sie eine Weiterbildung auswählen und finanzieren kann.",
+      "prompt_ar": "اشرح لشخص كيف يختار ويمول تعليمًا مستمرًا.",
+      "answer": {
+        "requiredConcepts": [
+          "Bildungsziel",
+          "Teilnahmevoraussetzungen",
+          "Unterrichtsform",
+          "Kosten",
+          "Fördermöglichkeit",
+          "Antrag und Frist",
+          "Abschluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v015",
+        "b2u14-v026",
+        "b2u14-v056"
+      ]
+    },
+    {
+      "id": "b2u14-e051",
+      "unit": 14,
+      "type": "guided_speaking",
+      "title_de": "Beratungsgespräch",
+      "title_ar": "حوار استشارة",
+      "prompt_de": "Führen Sie ein Beratungsgespräch zu beruflicher Weiterbildung.",
+      "prompt_ar": "أجر حوار استشارة عن التعليم المهني المستمر.",
+      "answer": {
+        "requiredConcepts": [
+          "bisheriger Bildungsweg",
+          "berufliches Ziel",
+          "passendes Angebot",
+          "Zeit und Vereinbarkeit",
+          "Finanzierung",
+          "nächster Schritt"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u14-v003",
+        "b2u14-v016",
+        "b2u06-v070"
+      ]
+    },
+    {
+      "id": "b2u14-e052",
+      "unit": 14,
+      "type": "matching",
+      "title_de": "Eigenschaften",
+      "title_ar": "الصفات",
+      "prompt_de": "Ordnen Sie Eigenschaft und Verhalten zu.",
+      "prompt_ar": "صِل الصفة بالسلوك.",
+      "answer": {
+        "zielstrebig": "verfolgt ein klares Ziel konsequent",
+        "belastbar": "bleibt unter Druck handlungsfähig",
+        "diszipliniert": "arbeitet regelmäßig und geordnet",
+        "verantwortungsbewusst": "berücksichtigt Folgen eigener Entscheidungen"
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "zielstrebig",
+          "verfolgt ein klares Ziel konsequent"
+        ],
+        [
+          "belastbar",
+          "bleibt unter Druck handlungsfähig"
+        ],
+        [
+          "diszipliniert",
+          "arbeitet regelmäßig und geordnet"
+        ],
+        [
+          "verantwortungsbewusst",
+          "berücksichtigt Folgen eigener Entscheidungen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u14-v092",
+        "b2u14-v093",
+        "b2u14-v098",
+        "b2u14-v095"
+      ]
+    },
+    {
+      "id": "b2u14-e053",
+      "unit": 14,
+      "type": "guided_writing",
+      "title_de": "Kapitel-14-Abschluss",
+      "title_ar": "مهمة ختامية",
+      "prompt_de": "Schreiben Sie einen strukturierten Text: Mein nächster Weiterbildungsschritt.",
+      "prompt_ar": "اكتب نصًا منظمًا: خطوتي التالية في التعليم المستمر.",
+      "answer": {
+        "requiredConcepts": [
+          "Ausgangssituation",
+          "Ziel",
+          "passende Weiterbildung",
+          "Teilnahmevoraussetzungen",
+          "Finanzierung",
+          "Lernstrategie",
+          "erwarteter beruflicher Nutzen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v070",
+        "b2u14-v040",
+        "b2u14-v026",
+        "b2u14-v063"
+      ]
+    },
+    {
+      "id": "b2u14-e054",
+      "unit": 14,
+      "type": "multiple_choice",
+      "title_de": "Motivationsschreiben",
+      "title_ar": "رسالة الدافع",
+      "prompt_de": "Welche Information gehört in ein Motivationsschreiben?",
+      "prompt_ar": "أي معلومة تنتمي لرسالة الدافع؟",
+      "answer": "Warum die Weiterbildung zum bisherigen Weg und zum beruflichen Ziel passt.",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Warum die Weiterbildung zum bisherigen Weg und zum beruflichen Ziel passt.",
+        "Eine Liste aller privaten Einkäufe.",
+        "Nur die Kursadresse ohne Erklärung.",
+        "Die Passwörter der Lernplattform."
+      ],
+      "vocabularyRefs": [
+        "b2u14-v090",
+        "b2u14-v003"
+      ]
+    },
+    {
+      "id": "b2u14-e055",
+      "unit": 14,
+      "type": "scenario_choice",
+      "title_de": "Warteliste",
+      "title_ar": "قائمة الانتظار",
+      "prompt_de": "Der Wunschkurs ist ausgebucht. Was ist eine sinnvolle Reaktion?",
+      "prompt_ar": "الدورة ممتلئة. ما التصرف المناسب؟",
+      "answer": "sich auf die Warteliste setzen lassen und Alternativen prüfen",
+      "source": "original_exercise_based_on_kapitel_14_topics",
+      "bookTextCopied": false,
+      "options": [
+        "sich auf die Warteliste setzen lassen und Alternativen prüfen",
+        "ohne Anmeldung am Unterricht teilnehmen",
+        "die Anmeldefrist ignorieren",
+        "falsche Angaben machen"
+      ],
+      "vocabularyRefs": [
+        "b2u14-v053",
+        "b2u14-v055"
+      ]
+    }
+  ]
+}

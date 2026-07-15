@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 11,
+  "unitTitle_de": "Arbeit und neue Medien",
+  "unitTitle_ar": "العمل ووسائل الإعلام الجديدة",
+  "grammarFocus": [
+    "je + Komparativ, desto/umso + Komparativ",
+    "Grafikbeschreibung",
+    "Nomen-Verb-Verbindungen",
+    "formelle Reklamationen"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u11-e001",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Bewusste Mediennutzung",
+      "title_ar": "الاستخدام الواعي",
+      "prompt_de": "Welche Maßnahme reduziert digitale Ablenkung?",
+      "prompt_ar": "أي إجراء يقلل التشتت الرقمي؟",
+      "answer": "unnötige Benachrichtigungen ausschalten",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "unnötige Benachrichtigungen ausschalten",
+        "alle Apps gleichzeitig öffnen",
+        "jede Nachricht sofort beantworten",
+        "ohne Pausen arbeiten"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v010",
+        "b2u11-v011"
+      ]
+    },
+    {
+      "id": "b2u11-e002",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Digitale Begriffe",
+      "title_ar": "مصطلحات رقمية",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بشرحه.",
+      "answer": {
+        "Bildschirmzeit": "Zeit vor digitalen Bildschirmen",
+        "Offline-Zeit": "bewusste Zeit ohne Internet",
+        "Unerreichbarkeit": "vorübergehend nicht kontaktierbar",
+        "digitale Auszeit": "Unterbrechung der Mediennutzung"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Bildschirmzeit",
+          "Zeit vor digitalen Bildschirmen"
+        ],
+        [
+          "Offline-Zeit",
+          "bewusste Zeit ohne Internet"
+        ],
+        [
+          "Unerreichbarkeit",
+          "vorübergehend nicht kontaktierbar"
+        ],
+        [
+          "digitale Auszeit",
+          "Unterbrechung der Mediennutzung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v004",
+        "b2u11-v013",
+        "b2u11-v005",
+        "b2u11-v015"
+      ]
+    },
+    {
+      "id": "b2u11-e003",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Digitales Fasten",
+      "title_ar": "الصيام الرقمي",
+      "prompt_de": "Beim digitalen Fasten ______ man bewusst auf bestimmte Medien.",
+      "prompt_ar": "أثناء الصيام الرقمي ______ الشخص عن وسائل معينة.",
+      "answer": "verzichtet",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "verzichtet"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v006",
+        "b2u11-v014"
+      ]
+    },
+    {
+      "id": "b2u11-e004",
+      "unit": 11,
+      "type": "scenario_choice",
+      "title_de": "Ständige Erreichbarkeit",
+      "title_ar": "التواصل الدائم",
+      "prompt_de": "Eine Mitarbeiterin beantwortet nachts jede Nachricht und schläft schlecht. Was ist sinnvoll?",
+      "prompt_ar": "موظفة ترد ليلًا على كل رسالة وتنام بصورة سيئة. ما المناسب؟",
+      "answer": "klare Erreichbarkeitszeiten vereinbaren",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "klare Erreichbarkeitszeiten vereinbaren",
+        "noch mehr Benachrichtigungen aktivieren",
+        "Pausen streichen",
+        "das Problem ignorieren"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v014"
+      ]
+    },
+    {
+      "id": "b2u11-e005",
+      "unit": 11,
+      "type": "sentence_build",
+      "title_de": "Je – desto",
+      "title_ar": "كلما... كلما",
+      "prompt_de": "Bilden Sie einen Satz: weniger Benachrichtigungen / ruhiger arbeiten",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Je weniger Benachrichtigungen ich bekomme, desto ruhiger arbeite ich.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Je weniger Benachrichtigungen ich bekomme, desto ruhiger arbeite ich.",
+        "Je weniger Benachrichtigungen ich bekomme, umso ruhiger arbeite ich."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v021"
+      ]
+    },
+    {
+      "id": "b2u11-e006",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Orientierung",
+      "title_ar": "الاهتداء",
+      "prompt_de": "In der neuen Software findet sie sich noch nicht ______.",
+      "prompt_ar": "لا تزال لا تعرف الاهتداء في البرنامج.",
+      "answer": "zurecht",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "zurecht"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v017"
+      ]
+    },
+    {
+      "id": "b2u11-e007",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Auf sich selbst gestellt",
+      "title_ar": "الاعتماد على النفس",
+      "prompt_de": "Was bedeutet „auf sich selbst gestellt sein“?",
+      "prompt_ar": "ما معنى العبارة؟",
+      "answer": "eine Situation ohne direkte Hilfe bewältigen müssen",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine Situation ohne direkte Hilfe bewältigen müssen",
+        "ständig erreichbar sein",
+        "eine Datei herunterladen",
+        "mit einem Recruiter sprechen"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v016"
+      ]
+    },
+    {
+      "id": "b2u11-e008",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Meine Medienregeln",
+      "title_ar": "قواعدي الإعلامية",
+      "prompt_de": "Formulieren Sie fünf persönliche Regeln für einen bewussten Umgang mit digitalen Medien.",
+      "prompt_ar": "صغ خمس قواعد شخصية للاستخدام الواعي.",
+      "answer": {
+        "requiredConcepts": [
+          "Bildschirmzeit",
+          "Benachrichtigungen",
+          "Offline-Zeit",
+          "Erreichbarkeit",
+          "Konzentration"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v004",
+        "b2u11-v010",
+        "b2u11-v013",
+        "b2u07-v014"
+      ]
+    },
+    {
+      "id": "b2u11-e009",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Probleme und Lösungen",
+      "title_ar": "المشكلات والحلول",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Reizüberflutung": "Reize und Meldungen reduzieren",
+        "Zeitgefühl verlieren": "Nutzungsdauer begrenzen",
+        "Ablenkung": "Fokuszeiten einrichten",
+        "Unerreichbarkeit": "Kontakte vorher informieren"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Reizüberflutung",
+          "Reize und Meldungen reduzieren"
+        ],
+        [
+          "Zeitgefühl verlieren",
+          "Nutzungsdauer begrenzen"
+        ],
+        [
+          "Ablenkung",
+          "Fokuszeiten einrichten"
+        ],
+        [
+          "Unerreichbarkeit",
+          "Kontakte vorher informieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v012",
+        "b2u11-v019",
+        "b2u11-v011",
+        "b2u11-v005"
+      ]
+    },
+    {
+      "id": "b2u11-e010",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Nutzungsverhalten",
+      "title_ar": "سلوك الاستخدام",
+      "prompt_de": "Was beschreibt das Nutzungsverhalten?",
+      "prompt_ar": "ماذا يصف سلوك الاستخدام؟",
+      "answer": "wie und wie häufig jemand Medien verwendet",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "wie und wie häufig jemand Medien verwendet",
+        "nur den Kaufpreis eines Geräts",
+        "nur die Internetgeschwindigkeit",
+        "die Dauer einer Reparatur"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v009"
+      ]
+    },
+    {
+      "id": "b2u11-e011",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Konzentration",
+      "title_ar": "التركيز",
+      "prompt_de": "In Fokuszeiten konzentriert sie sich auf das ______.",
+      "prompt_ar": "في وقت التركيز تركز على ______.",
+      "answer": "Wesentliche",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wesentliche",
+        "das Wesentliche"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v020"
+      ]
+    },
+    {
+      "id": "b2u11-e012",
+      "unit": 11,
+      "type": "guided_speaking",
+      "title_de": "Einen Monat offline",
+      "title_ar": "شهر دون اتصال",
+      "prompt_de": "Nennen Sie drei Vorteile und drei Schwierigkeiten eines Monats ohne Smartphone.",
+      "prompt_ar": "اذكر ثلاث فوائد وثلاث صعوبات لشهر دون هاتف.",
+      "answer": {
+        "requiredConcepts": [
+          "Erreichbarkeit",
+          "Orientierung",
+          "Organisation",
+          "Stress",
+          "Kontakte",
+          "Zeitgefühl"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v007",
+        "b2u11-v018",
+        "b2u11-v019"
+      ]
+    },
+    {
+      "id": "b2u11-e013",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Digitaler Arbeitsplatz",
+      "title_ar": "مكان العمل الرقمي",
+      "prompt_de": "Welche Aussage passt zu einem digitalen Arbeitsplatz?",
+      "prompt_ar": "أي جملة تناسب مكان العمل الرقمي؟",
+      "answer": "Aufgaben werden mit vernetzten digitalen Werkzeugen bearbeitet.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Aufgaben werden mit vernetzten digitalen Werkzeugen bearbeitet.",
+        "Alle Aufgaben werden handschriftlich erledigt.",
+        "Digitale Kommunikation ist verboten.",
+        "Datenschutz spielt keine Rolle."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v003"
+      ]
+    },
+    {
+      "id": "b2u11-e014",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "App-Nutzung",
+      "title_ar": "استخدام التطبيقات",
+      "prompt_de": "Die ______ kann in den Smartphone-Einstellungen ausgewertet werden.",
+      "prompt_ar": "يمكن تحليل ______ في إعدادات الهاتف.",
+      "answer": "App-Nutzung",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "App-Nutzung",
+        "die App-Nutzung"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v008"
+      ]
+    },
+    {
+      "id": "b2u11-e015",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Grafik beschreiben",
+      "title_ar": "وصف الرسم",
+      "prompt_de": "Ordnen Sie Formulierung und Funktion zu.",
+      "prompt_ar": "صِل الصياغة بوظيفتها.",
+      "answer": {
+        "Die Grafik zeigt ...": "Thema nennen",
+        "An erster Stelle steht ...": "Rangfolge nennen",
+        "Im Vergleich dazu ...": "Werte vergleichen",
+        "Aus der Grafik geht hervor ...": "Ergebnis formulieren"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Die Grafik zeigt ...",
+          "Thema nennen"
+        ],
+        [
+          "An erster Stelle steht ...",
+          "Rangfolge nennen"
+        ],
+        [
+          "Im Vergleich dazu ...",
+          "Werte vergleichen"
+        ],
+        [
+          "Aus der Grafik geht hervor ...",
+          "Ergebnis formulieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v022",
+        "b2u11-v032",
+        "b2u11-v035",
+        "b2u11-v034"
+      ]
+    },
+    {
+      "id": "b2u11-e016",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Anteil",
+      "title_ar": "النسبة",
+      "prompt_de": "Videos machen den größten ______ der Nutzung aus.",
+      "prompt_ar": "تشكل الفيديوهات أكبر ______ من الاستخدام.",
+      "answer": "Anteil",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Anteil",
+        "den Anteil"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v026",
+        "b2u11-v033"
+      ]
+    },
+    {
+      "id": "b2u11-e017",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Knapp die Hälfte",
+      "title_ar": "نحو النصف",
+      "prompt_de": "Welcher Wert passt zu „knapp die Hälfte“?",
+      "prompt_ar": "أي قيمة تناسب العبارة؟",
+      "answer": "48 Prozent",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "48 Prozent",
+        "67 Prozent",
+        "25 Prozent",
+        "90 Prozent"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v030"
+      ]
+    },
+    {
+      "id": "b2u11-e018",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Etwas mehr als ein Drittel",
+      "title_ar": "أكثر قليلًا من الثلث",
+      "prompt_de": "Welcher Wert passt am besten?",
+      "prompt_ar": "أي قيمة أنسب؟",
+      "answer": "36 Prozent",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "36 Prozent",
+        "12 Prozent",
+        "49 Prozent",
+        "75 Prozent"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v031"
+      ]
+    },
+    {
+      "id": "b2u11-e019",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Umfrage",
+      "title_ar": "الاستطلاع",
+      "prompt_de": "An der ______ nahmen 1.000 Personen teil.",
+      "prompt_ar": "شارك ألف شخص في ______.",
+      "answer": "Umfrage",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Umfrage",
+        "der Umfrage"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v024"
+      ]
+    },
+    {
+      "id": "b2u11-e020",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Statistische Größen",
+      "title_ar": "قيم إحصائية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Mehrheit": "mehr als die Hälfte",
+        "Minderheit": "kleinerer Teil",
+        "Prozentsatz": "Wert in Prozent",
+        "Befragte": "Teilnehmende einer Umfrage"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Mehrheit",
+          "mehr als die Hälfte"
+        ],
+        [
+          "Minderheit",
+          "kleinerer Teil"
+        ],
+        [
+          "Prozentsatz",
+          "Wert in Prozent"
+        ],
+        [
+          "Befragte",
+          "Teilnehmende einer Umfrage"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v028",
+        "b2u11-v029",
+        "b2u11-v027",
+        "b2u11-v025"
+      ]
+    },
+    {
+      "id": "b2u11-e021",
+      "unit": 11,
+      "type": "sentence_build",
+      "title_de": "Grafikergebnis",
+      "title_ar": "نتيجة الرسم",
+      "prompt_de": "Bilden Sie einen Satz: Grafik / deutlicher Unterschied / hervorgehen",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Aus der Grafik geht ein deutlicher Unterschied hervor.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Aus der Grafik geht ein deutlicher Unterschied hervor."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v034"
+      ]
+    },
+    {
+      "id": "b2u11-e022",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Vergleich",
+      "title_ar": "المقارنة",
+      "prompt_de": "Welche Formulierung leitet einen Vergleich ein?",
+      "prompt_ar": "أي صياغة تبدأ مقارنة؟",
+      "answer": "Im Vergleich dazu ...",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Im Vergleich dazu ...",
+        "Sehr geehrte Damen und Herren",
+        "Zur Folge haben",
+        "In Anspruch nehmen"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v035"
+      ]
+    },
+    {
+      "id": "b2u11-e023",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Eine Grafik beschreiben",
+      "title_ar": "وصف رسم بياني",
+      "prompt_de": "Schreiben Sie eine kurze Grafikbeschreibung mit Einleitung, zwei Werten und einem Vergleich.",
+      "prompt_ar": "اكتب وصفًا قصيرًا للرسم.",
+      "answer": {
+        "requiredConcepts": [
+          "Thema",
+          "Quelle oder Zeitraum",
+          "zwei Werte",
+          "Vergleich",
+          "auffälliges Ergebnis"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v022",
+        "b2u11-v027",
+        "b2u11-v035"
+      ]
+    },
+    {
+      "id": "b2u11-e024",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "An erster Stelle",
+      "title_ar": "المرتبة الأولى",
+      "prompt_de": "Was bedeutet „an erster Stelle stehen“?",
+      "prompt_ar": "ما معنى العبارة؟",
+      "answer": "den höchsten Rang einnehmen",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "den höchsten Rang einnehmen",
+        "weniger als ein Drittel sein",
+        "eine Reklamation schreiben",
+        "offline sein"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v032"
+      ]
+    },
+    {
+      "id": "b2u11-e025",
+      "unit": 11,
+      "type": "guided_speaking",
+      "title_de": "Grafiken vergleichen",
+      "title_ar": "مقارنة رسمين",
+      "prompt_de": "Vergleichen Sie zwei Grafiken zur Mediennutzung.",
+      "prompt_ar": "قارن رسمين عن استخدام الوسائط.",
+      "answer": {
+        "requiredConcepts": [
+          "Gemeinsamkeit",
+          "Unterschied",
+          "größter Anteil",
+          "Minderheit",
+          "mögliche Erklärung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v023",
+        "b2u11-v026",
+        "b2u11-v029"
+      ]
+    },
+    {
+      "id": "b2u11-e026",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Geräteprobleme",
+      "title_ar": "مشكلات الأجهزة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Gerätefehler": "technischer Mangel im Gerät",
+        "Bedienfehler": "Fehler durch falsche Nutzung",
+        "Garantiezeit": "Zeitraum der Garantie",
+        "Reparaturdauer": "Zeit bis zum Abschluss der Reparatur"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Gerätefehler",
+          "technischer Mangel im Gerät"
+        ],
+        [
+          "Bedienfehler",
+          "Fehler durch falsche Nutzung"
+        ],
+        [
+          "Garantiezeit",
+          "Zeitraum der Garantie"
+        ],
+        [
+          "Reparaturdauer",
+          "Zeit bis zum Abschluss der Reparatur"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v037",
+        "b2u11-v038",
+        "b2u08-v040",
+        "b2u11-v041"
+      ]
+    },
+    {
+      "id": "b2u11-e027",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Reklamation",
+      "title_ar": "الشكوى",
+      "prompt_de": "Welche Angabe gehört unbedingt in eine Reklamation?",
+      "prompt_ar": "أي معلومة ضرورية في الشكوى؟",
+      "answer": "eine genaue Fehlerbeschreibung",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine genaue Fehlerbeschreibung",
+        "die Lieblingsfarbe des Kunden",
+        "private Urlaubspläne",
+        "die Namen aller Kollegen"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v055",
+        "b2u11-v045"
+      ]
+    },
+    {
+      "id": "b2u11-e028",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Bezug nehmen",
+      "title_ar": "الإشارة إلى مراسلة سابقة",
+      "prompt_de": "Ich nehme Bezug ______ unser Telefongespräch.",
+      "prompt_ar": "أشير ______ محادثتنا الهاتفية.",
+      "answer": "auf",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v054"
+      ]
+    },
+    {
+      "id": "b2u11-e029",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Garantie",
+      "title_ar": "الضمان",
+      "prompt_de": "Das Gerät wurde innerhalb der ______ reklamiert.",
+      "prompt_ar": "قُدمت الشكوى خلال ______.",
+      "answer": "Garantiezeit",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Garantiezeit",
+        "der Garantiezeit"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v040",
+        "b2u11-v036"
+      ]
+    },
+    {
+      "id": "b2u11-e030",
+      "unit": 11,
+      "type": "scenario_choice",
+      "title_de": "Kostenübernahme",
+      "title_ar": "تحمل التكاليف",
+      "prompt_de": "Ein technischer Fehler tritt während der Garantie auf. Welche Reaktion ist angemessen?",
+      "prompt_ar": "ظهر عيب تقني أثناء الضمان. ما الرد المناسب؟",
+      "answer": "Der Hersteller prüft den Garantiefall und übernimmt berechtigte Kosten.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Der Hersteller prüft den Garantiefall und übernimmt berechtigte Kosten.",
+        "Der Kunde zahlt immer ohne Prüfung.",
+        "Die Reklamation wird ignoriert.",
+        "Die Rechnung wird vernichtet."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v039",
+        "b2u04-v022"
+      ]
+    },
+    {
+      "id": "b2u11-e031",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Unterlagen",
+      "title_ar": "المستندات",
+      "prompt_de": "Ordnen Sie Dokument und Zweck zu.",
+      "prompt_ar": "صِل الوثيقة بهدفها.",
+      "answer": {
+        "Originalrechnung": "Kauf nachweisen",
+        "Fehlerbeschreibung": "Problem genau darstellen",
+        "Typenbezeichnung": "Gerätetyp bestimmen",
+        "Produktionsnummer": "einzelnes Gerät identifizieren"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Originalrechnung",
+          "Kauf nachweisen"
+        ],
+        [
+          "Fehlerbeschreibung",
+          "Problem genau darstellen"
+        ],
+        [
+          "Typenbezeichnung",
+          "Gerätetyp bestimmen"
+        ],
+        [
+          "Produktionsnummer",
+          "einzelnes Gerät identifizieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v044",
+        "b2u11-v045",
+        "b2u11-v046",
+        "b2u11-v048"
+      ]
+    },
+    {
+      "id": "b2u11-e032",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Auftrag",
+      "title_ar": "التكليف",
+      "prompt_de": "Wir erteilen Ihnen den ______ zur Reparatur.",
+      "prompt_ar": "نكلفكم رسميًا بعملية الإصلاح.",
+      "answer": "Auftrag",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Auftrag",
+        "den Auftrag"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v057"
+      ]
+    },
+    {
+      "id": "b2u11-e033",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Kostenvoranschlag",
+      "title_ar": "تقدير التكاليف",
+      "prompt_de": "Was ist ein Kostenvoranschlag?",
+      "prompt_ar": "ما هو تقدير التكاليف؟",
+      "answer": "eine vorläufige Berechnung der erwarteten Kosten",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine vorläufige Berechnung der erwarteten Kosten",
+        "eine endgültige Kündigung",
+        "eine Jobanzeige",
+        "eine Medienstatistik"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v042"
+      ]
+    },
+    {
+      "id": "b2u11-e034",
+      "unit": 11,
+      "type": "sentence_build",
+      "title_de": "Verbindung aufnehmen",
+      "title_ar": "بدء التواصل",
+      "prompt_de": "Bilden Sie einen höflichen Satz: Kundendienst / Verbindung setzen",
+      "prompt_ar": "كوّن جملة مهذبة.",
+      "answer": "Bitte setzen Sie sich mit unserem Kundendienst in Verbindung.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Bitte setzen Sie sich mit unserem Kundendienst in Verbindung."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v056",
+        "b2u11-v043"
+      ]
+    },
+    {
+      "id": "b2u11-e035",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "In Betracht kommen",
+      "title_ar": "الخيار الوارد",
+      "prompt_de": "Was kommt in Betracht, wenn eine Reparatur unmöglich ist?",
+      "prompt_ar": "ما الخيار الوارد إذا تعذر الإصلاح؟",
+      "answer": "ein Austausch des Geräts",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ein Austausch des Geräts",
+        "eine längere Bildschirmzeit",
+        "eine Jobmesse",
+        "eine Umfrage"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v058",
+        "b2u11-v052"
+      ]
+    },
+    {
+      "id": "b2u11-e036",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Zur Folge haben",
+      "title_ar": "النتيجة",
+      "prompt_de": "Die verspätete Meldung kann zusätzliche Kosten zur ______ haben.",
+      "prompt_ar": "قد يؤدي البلاغ المتأخر إلى تكاليف.",
+      "answer": "Folge",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Folge"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v059"
+      ]
+    },
+    {
+      "id": "b2u11-e037",
+      "unit": 11,
+      "type": "sentence_build",
+      "title_de": "Eingang bestätigen",
+      "title_ar": "تأكيد الاستلام",
+      "prompt_de": "Bilden Sie einen Satz: Eingang / Reklamation / schriftlich bestätigen",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Wir bestätigen den Eingang Ihrer Reklamation schriftlich.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wir bestätigen den Eingang Ihrer Reklamation schriftlich.",
+        "Der Eingang Ihrer Reklamation wird schriftlich bestätigt."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v050",
+        "b2u02-v055"
+      ]
+    },
+    {
+      "id": "b2u11-e038",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "In Anspruch nehmen",
+      "title_ar": "الاستفادة من خدمة",
+      "prompt_de": "Welche Formulierung ist richtig?",
+      "prompt_ar": "أي صياغة صحيحة؟",
+      "answer": "Sie nimmt den Reparaturservice in Anspruch.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sie nimmt den Reparaturservice in Anspruch.",
+        "Sie nimmt den Reparaturservice zur Folge.",
+        "Sie bringt den Reparaturservice in Erfahrung.",
+        "Sie steht den Reparaturservice in Betracht."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v053"
+      ]
+    },
+    {
+      "id": "b2u11-e039",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Reklamationsschreiben",
+      "title_ar": "رسالة شكوى",
+      "prompt_de": "Schreiben Sie eine formelle Reklamation zu einem defekten Bürogerät.",
+      "prompt_ar": "اكتب شكوى رسمية عن جهاز مكتبي معطل.",
+      "answer": {
+        "requiredConcepts": [
+          "Kaufdaten",
+          "Produktbezeichnung",
+          "Fehlerbeschreibung",
+          "Garantie",
+          "gewünschte Lösung",
+          "Frist"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u02-v055",
+        "b2u11-v047",
+        "b2u11-v045",
+        "b2u11-v039"
+      ]
+    },
+    {
+      "id": "b2u11-e040",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Antwort des Kundendienstes",
+      "title_ar": "رد خدمة العملاء",
+      "prompt_de": "Antworten Sie höflich auf eine berechtigte Reklamation.",
+      "prompt_ar": "اكتب ردًا مهذبًا على شكوى محقة.",
+      "answer": {
+        "requiredConcepts": [
+          "Bezug auf Schreiben",
+          "Entschuldigung",
+          "Prüfung",
+          "Kostenübernahme",
+          "Reparatur oder Austausch",
+          "Kontakt"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v054",
+        "b2u11-v043",
+        "b2u04-v022",
+        "b2u11-v052"
+      ]
+    },
+    {
+      "id": "b2u11-e041",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Zur Verfügung stehen",
+      "title_ar": "التوفر",
+      "prompt_de": "Welche Formulierung passt ans Ende einer geschäftlichen E-Mail?",
+      "prompt_ar": "أي صياغة تناسب نهاية بريد رسمي؟",
+      "answer": "Für Rückfragen stehen wir Ihnen gern zur Verfügung.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Für Rückfragen stehen wir Ihnen gern zur Verfügung.",
+        "Je länger die Grafik, desto Reklamation.",
+        "Der Anteil steht zur Reparatur.",
+        "Wir posten den Kaufpreis."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v075"
+      ]
+    },
+    {
+      "id": "b2u11-e042",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Nomen-Verb-Verbindungen",
+      "title_ar": "تراكيب اسم وفعل",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Bezug": "nehmen",
+        "Auftrag": "erteilen",
+        "Kosten": "übernehmen",
+        "Antwort": "erteilen"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Bezug",
+          "nehmen"
+        ],
+        [
+          "Auftrag",
+          "erteilen"
+        ],
+        [
+          "Kosten",
+          "übernehmen"
+        ],
+        [
+          "Antwort",
+          "erteilen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u11-v054",
+        "b2u11-v057",
+        "b2u04-v022",
+        "b2u11-v060"
+      ]
+    },
+    {
+      "id": "b2u11-e043",
+      "unit": 11,
+      "type": "matching",
+      "title_de": "Wege der Jobsuche",
+      "title_ar": "طرق البحث عن عمل",
+      "prompt_de": "Ordnen Sie Kanal und Beschreibung zu.",
+      "prompt_ar": "صِل القناة بالوصف.",
+      "answer": {
+        "Jobbörse": "digitale Plattform mit Stellenangeboten",
+        "Jobmesse": "persönlicher Kontakt zu Arbeitgebern",
+        "Business-Netzwerk": "berufliche Online-Kontakte",
+        "Initiativbewerbung": "Bewerbung ohne konkrete Ausschreibung"
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Jobbörse",
+          "digitale Plattform mit Stellenangeboten"
+        ],
+        [
+          "Jobmesse",
+          "persönlicher Kontakt zu Arbeitgebern"
+        ],
+        [
+          "Business-Netzwerk",
+          "berufliche Online-Kontakte"
+        ],
+        [
+          "Initiativbewerbung",
+          "Bewerbung ohne konkrete Ausschreibung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v047",
+        "b2u08-v048",
+        "b2u11-v063",
+        "b2u11-v064"
+      ]
+    },
+    {
+      "id": "b2u11-e044",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Profil optimieren",
+      "title_ar": "تحسين الملف",
+      "prompt_de": "Welche Maßnahme verbessert ein berufliches Profil?",
+      "prompt_ar": "أي إجراء يحسن الملف المهني؟",
+      "answer": "konkrete Qualifikationen und Ergebnisse nennen",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "konkrete Qualifikationen und Ergebnisse nennen",
+        "veraltete Angaben behalten",
+        "private Konflikte veröffentlichen",
+        "keine Kontaktdaten angeben"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v078",
+        "b2u11-v067"
+      ]
+    },
+    {
+      "id": "b2u11-e045",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Kontakte",
+      "title_ar": "العلاقات",
+      "prompt_de": "Auf Fachveranstaltungen kann man neue Kontakte ______.",
+      "prompt_ar": "يمكن بناء علاقات جديدة في الفعاليات.",
+      "answer": "knüpfen",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "knüpfen"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v076"
+      ]
+    },
+    {
+      "id": "b2u11-e046",
+      "unit": 11,
+      "type": "scenario_choice",
+      "title_de": "Kontaktaufnahme",
+      "title_ar": "بدء التواصل",
+      "prompt_de": "Sie möchten einen Recruiter nach einer Stelle fragen. Wie beginnen Sie?",
+      "prompt_ar": "تريد سؤال مسؤول توظيف عن وظيفة. كيف تبدأ؟",
+      "answer": "Sie stellen sich kurz vor und nennen konkret Ihr berufliches Interesse.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sie stellen sich kurz vor und nennen konkret Ihr berufliches Interesse.",
+        "Sie fordern sofort einen Vertrag.",
+        "Sie schicken nur ein leeres Profil.",
+        "Sie vermeiden jede Begrüßung."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v066",
+        "b2u11-v071"
+      ]
+    },
+    {
+      "id": "b2u11-e047",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Headhunter",
+      "title_ar": "باحث الكفاءات",
+      "prompt_de": "Was macht ein Headhunter?",
+      "prompt_ar": "ما مهمة باحث الكفاءات؟",
+      "answer": "Er spricht gezielt qualifizierte Fachkräfte für Unternehmen an.",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Er spricht gezielt qualifizierte Fachkräfte für Unternehmen an.",
+        "Er repariert Bürogeräte.",
+        "Er erstellt Medienstatistiken.",
+        "Er verkauft Garantien."
+      ],
+      "vocabularyRefs": [
+        "b2u11-v070"
+      ]
+    },
+    {
+      "id": "b2u11-e048",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Personalbedarf",
+      "title_ar": "الحاجة إلى موظفين",
+      "prompt_de": "Ein wachsendes Unternehmen hat oft zusätzlichen ______.",
+      "prompt_ar": "تحتاج الشركة المتنامية غالبًا إلى ______ إضافية.",
+      "answer": "Personalbedarf",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Personalbedarf"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v065"
+      ]
+    },
+    {
+      "id": "b2u11-e049",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Initiativbewerbung",
+      "title_ar": "طلب مبادر",
+      "prompt_de": "Wann schreibt man eine Initiativbewerbung?",
+      "prompt_ar": "متى يكتب الطلب المبادَر به؟",
+      "answer": "wenn man sich bei einem Unternehmen ohne konkrete Ausschreibung bewirbt",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "wenn man sich bei einem Unternehmen ohne konkrete Ausschreibung bewirbt",
+        "wenn ein Gerät defekt ist",
+        "wenn eine Grafik beschrieben wird",
+        "wenn man offline bleibt"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v064"
+      ]
+    },
+    {
+      "id": "b2u11-e050",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Erste Nachricht im Netzwerk",
+      "title_ar": "رسالة أولى في الشبكة",
+      "prompt_de": "Schreiben Sie eine kurze professionelle Kontaktanfrage an einen Branchenkontakt.",
+      "prompt_ar": "اكتب طلب تواصل مهنيًا قصيرًا.",
+      "answer": {
+        "requiredConcepts": [
+          "Anrede",
+          "kurze Vorstellung",
+          "gemeinsamer beruflicher Bezug",
+          "konkretes Interesse",
+          "höflicher Abschluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v072",
+        "b2u11-v066"
+      ]
+    },
+    {
+      "id": "b2u11-e051",
+      "unit": 11,
+      "type": "guided_speaking",
+      "title_de": "Social Media bei der Jobsuche",
+      "title_ar": "وسائل التواصل في البحث",
+      "prompt_de": "Nennen Sie Chancen und Risiken der Jobsuche über soziale Medien.",
+      "prompt_ar": "اذكر فرص ومخاطر البحث عبر التواصل.",
+      "answer": {
+        "requiredConcepts": [
+          "Sichtbarkeit",
+          "Kontakte",
+          "Datenschutz",
+          "private Inhalte",
+          "Seriosität",
+          "Zeitaufwand"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v061",
+        "b2u11-v062",
+        "b2u11-v075"
+      ]
+    },
+    {
+      "id": "b2u11-e052",
+      "unit": 11,
+      "type": "multiple_choice",
+      "title_de": "Selbstvermarktung",
+      "title_ar": "التسويق للذات",
+      "prompt_de": "Welche Selbstvermarktung wirkt glaubwürdig?",
+      "prompt_ar": "أي تسويق للذات يبدو موثوقًا؟",
+      "answer": "konkrete Beispiele für Kompetenzen und Ergebnisse",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "konkrete Beispiele für Kompetenzen und Ergebnisse",
+        "übertriebene unbelegte Behauptungen",
+        "falsche Qualifikationen",
+        "nur private Fotos"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v075"
+      ]
+    },
+    {
+      "id": "b2u11-e053",
+      "unit": 11,
+      "type": "fill_blank",
+      "title_de": "Netzwerk",
+      "title_ar": "الشبكة",
+      "prompt_de": "Durch Veranstaltungen kann sie ihr berufliches Netzwerk ______.",
+      "prompt_ar": "يمكنها ______ شبكتها المهنية عبر الفعاليات.",
+      "answer": "erweitern",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "erweitern"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v077"
+      ]
+    },
+    {
+      "id": "b2u11-e054",
+      "unit": 11,
+      "type": "scenario_choice",
+      "title_de": "Komfortzone",
+      "title_ar": "منطقة الراحة",
+      "prompt_de": "Jemand ist bei einer Jobmesse unsicher. Welcher Schritt ist sinnvoll?",
+      "prompt_ar": "شخص متردد في معرض وظائف. ما الخطوة المناسبة؟",
+      "answer": "ein kurzes Gespräch vorbereiten und eine Person gezielt ansprechen",
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ein kurzes Gespräch vorbereiten und eine Person gezielt ansprechen",
+        "die Messe sofort verlassen",
+        "niemanden ansehen",
+        "unvorbereitet einen Vertrag verlangen"
+      ],
+      "vocabularyRefs": [
+        "b2u11-v074",
+        "b2u08-v048"
+      ]
+    },
+    {
+      "id": "b2u11-e055",
+      "unit": 11,
+      "type": "guided_writing",
+      "title_de": "Meine Strategie der Jobsuche",
+      "title_ar": "استراتيجية بحثي عن عمل",
+      "prompt_de": "Erstellen Sie einen Plan mit fünf Schritten für eine digitale und persönliche Jobsuche.",
+      "prompt_ar": "ضع خطة من خمس خطوات.",
+      "answer": {
+        "requiredConcepts": [
+          "Profil optimieren",
+          "Jobbörse",
+          "Netzwerk",
+          "Jobmesse oder Kontaktaufnahme",
+          "Nachverfolgung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_11_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u11-v061",
+        "b2u11-v078",
+        "b2u08-v047",
+        "b2u11-v076"
+      ]
+    }
+  ]
+}

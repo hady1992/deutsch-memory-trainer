@@ -1,0 +1,1394 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 12,
+  "unitTitle_de": "Global arbeiten und leben",
+  "unitTitle_ar": "العمل والحياة في عالم عالمي",
+  "grammarFocus": [
+    "Folgen ausdrücken: folglich, infolgedessen, deshalb, sodass",
+    "Konnektoren: obwohl, sobald, solange",
+    "Verben, Nomen und Adjektive mit Präpositionen",
+    "geschäftliche E-Mails",
+    "technische Anleitungen",
+    "Datenschutzsprache"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u12-e001",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Globalisierung",
+      "title_ar": "العولمة",
+      "prompt_de": "Welche Aussage beschreibt Globalisierung am besten?",
+      "prompt_ar": "أي جملة تصف العولمة أفضل؟",
+      "answer": "Wirtschaft, Kommunikation und Lebensformen werden weltweit stärker miteinander verbunden.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wirtschaft, Kommunikation und Lebensformen werden weltweit stärker miteinander verbunden.",
+        "Unternehmen arbeiten nur noch regional.",
+        "Internationale Kommunikation wird vollständig vermieden.",
+        "Menschen leben immer am selben Ort."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v001",
+        "b2u12-v002"
+      ]
+    },
+    {
+      "id": "b2u12-e002",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Interkulturelle Begriffe",
+      "title_ar": "مصطلحات ثقافية",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بشرحه.",
+      "answer": {
+        "Sprachbarriere": "Kommunikationsproblem durch unterschiedliche Sprachen",
+        "Büroetikette": "ungeschriebene Regeln am Arbeitsplatz",
+        "Anredeform": "sprachliche Form der Ansprache",
+        "Willkommensmappe": "Informationen für neue Beschäftigte"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Sprachbarriere",
+          "Kommunikationsproblem durch unterschiedliche Sprachen"
+        ],
+        [
+          "Büroetikette",
+          "ungeschriebene Regeln am Arbeitsplatz"
+        ],
+        [
+          "Anredeform",
+          "sprachliche Form der Ansprache"
+        ],
+        [
+          "Willkommensmappe",
+          "Informationen für neue Beschäftigte"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v006",
+        "b2u12-v007",
+        "b2u12-v008",
+        "b2u12-v003"
+      ]
+    },
+    {
+      "id": "b2u12-e003",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Willkommensmappe",
+      "title_ar": "ملف الترحيب",
+      "prompt_de": "Die ______ enthält Informationen zu Arbeitszeiten, Ansprechpartnern und internen Regeln.",
+      "prompt_ar": "يحتوي ______ على معلومات عن وقت العمل وجهات الاتصال والقواعد.",
+      "answer": "Willkommensmappe",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Willkommensmappe",
+        "die Willkommensmappe"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v003"
+      ]
+    },
+    {
+      "id": "b2u12-e004",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Anrede im Betrieb",
+      "title_ar": "المخاطبة في الشركة",
+      "prompt_de": "Sie wissen nicht, ob eine neue Kollegin geduzt werden möchte. Was ist angemessen?",
+      "prompt_ar": "لا تعرف هل تريد الزميلة الجديدة استخدام du. ما المناسب؟",
+      "answer": "höflich nach der gewünschten Anredeform fragen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "höflich nach der gewünschten Anredeform fragen",
+        "sofort einen Spitznamen verwenden",
+        "die Kollegin überhaupt nicht ansprechen",
+        "private Informationen über sie suchen"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v008",
+        "b2u12-v007"
+      ]
+    },
+    {
+      "id": "b2u12-e005",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Folge ausdrücken",
+      "title_ar": "التعبير عن النتيجة",
+      "prompt_de": "Die Informationen kamen zu spät; ______ wurde der Termin verschoben.",
+      "prompt_ar": "وصلت المعلومات متأخرة؛ ______ أُجل الموعد.",
+      "answer": "infolgedessen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "infolgedessen",
+        "folglich"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v032",
+        "b2u12-v031"
+      ]
+    },
+    {
+      "id": "b2u12-e006",
+      "unit": 12,
+      "type": "sentence_build",
+      "title_de": "Sodass",
+      "title_ar": "بحيث",
+      "prompt_de": "Bilden Sie einen Satz: Anleitung klar / alle verstehen Ablauf",
+      "prompt_ar": "كوّن جملة باستخدام sodass.",
+      "answer": "Die Anleitung ist klar, sodass alle den Ablauf verstehen.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Anleitung ist klar, sodass alle den Ablauf verstehen."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v033"
+      ]
+    },
+    {
+      "id": "b2u12-e007",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Obwohl",
+      "title_ar": "رغم أن",
+      "prompt_de": "Welche Verbindung drückt einen Gegensatz aus?",
+      "prompt_ar": "أي أداة تعبر عن تعارض؟",
+      "answer": "obwohl",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "obwohl",
+        "sobald",
+        "folglich",
+        "sodass"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v034"
+      ]
+    },
+    {
+      "id": "b2u12-e008",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Sobald",
+      "title_ar": "بمجرد أن",
+      "prompt_de": "______ die Unterlagen vollständig sind, schicken wir die Einladung.",
+      "prompt_ar": "______ تكتمل المستندات نرسل الدعوة.",
+      "answer": "Sobald",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Sobald",
+        "sobald"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v035"
+      ]
+    },
+    {
+      "id": "b2u12-e009",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Interne Kommunikation",
+      "title_ar": "التواصل الداخلي",
+      "prompt_de": "Was verbessert die interne Kommunikation?",
+      "prompt_ar": "ما الذي يحسن التواصل الداخلي؟",
+      "answer": "klare Zuständigkeiten und rechtzeitige Informationen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "klare Zuständigkeiten und rechtzeitige Informationen",
+        "widersprüchliche E-Mails",
+        "verspätete Terminänderungen ohne Erklärung",
+        "vertrauliche Daten in privaten Chats"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v013",
+        "b2u12-v014"
+      ]
+    },
+    {
+      "id": "b2u12-e010",
+      "unit": 12,
+      "type": "sentence_build",
+      "title_de": "Problem schildern",
+      "title_ar": "شرح المشكلة",
+      "prompt_de": "Bilden Sie einen höflichen Satz: Problem / möglichst genau schildern",
+      "prompt_ar": "كوّن جملة مهذبة.",
+      "answer": "Bitte schildern Sie das Problem möglichst genau.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Bitte schildern Sie das Problem möglichst genau."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v016"
+      ]
+    },
+    {
+      "id": "b2u12-e011",
+      "unit": 12,
+      "type": "guided_speaking",
+      "title_de": "Interkulturelle Erfahrung",
+      "title_ar": "تجربة ثقافية",
+      "prompt_de": "Berichten Sie über eine interkulturelle Erfahrung am Arbeitsplatz oder im Alltag.",
+      "prompt_ar": "تحدث عن تجربة ثقافية مختلفة في العمل أو الحياة.",
+      "answer": {
+        "requiredConcepts": [
+          "Situation",
+          "Unterschied",
+          "Missverständnis oder Überraschung",
+          "Reaktion",
+          "Lernergebnis"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v005",
+        "b2u12-v015"
+      ]
+    },
+    {
+      "id": "b2u12-e012",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Beziehungen in einer globalisierten Welt",
+      "title_ar": "العلاقات في عالم معولم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Fernbeziehung": "Partner leben an verschiedenen Orten",
+        "räumliche Trennung": "nahestehende Personen wohnen weit voneinander entfernt",
+        "Weltfamilie": "Familie mit mehreren kulturellen Hintergründen",
+        "Verlustangst": "starke Sorge, eine Beziehung zu verlieren"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Fernbeziehung",
+          "Partner leben an verschiedenen Orten"
+        ],
+        [
+          "räumliche Trennung",
+          "nahestehende Personen wohnen weit voneinander entfernt"
+        ],
+        [
+          "Weltfamilie",
+          "Familie mit mehreren kulturellen Hintergründen"
+        ],
+        [
+          "Verlustangst",
+          "starke Sorge, eine Beziehung zu verlieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v019",
+        "b2u12-v020",
+        "b2u12-v022",
+        "b2u12-v021"
+      ]
+    },
+    {
+      "id": "b2u12-e013",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Integrationsprozess",
+      "title_ar": "عملية الاندماج",
+      "prompt_de": "Welche Faktoren können einen Integrationsprozess unterstützen?",
+      "prompt_ar": "ما الذي قد يدعم عملية الاندماج؟",
+      "answer": "Sprachkenntnisse, Arbeit und soziale Kontakte",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sprachkenntnisse, Arbeit und soziale Kontakte",
+        "ständige Isolation",
+        "Vermeidung jeder Kommunikation",
+        "ausschließlich formale Dokumente"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v025",
+        "b2u12-v030"
+      ]
+    },
+    {
+      "id": "b2u12-e014",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "Leserbrief zur Fernbeziehung",
+      "title_ar": "رسالة قارئ عن علاقة عن بعد",
+      "prompt_de": "Schreiben Sie einen kurzen Leserbrief über Chancen und Schwierigkeiten von Fernbeziehungen.",
+      "prompt_ar": "اكتب رسالة قارئ قصيرة عن فرص وصعوبات العلاقات عن بعد.",
+      "answer": {
+        "requiredConcepts": [
+          "eigene Position",
+          "Kommunikation",
+          "räumliche Trennung",
+          "mindestens ein Vorteil",
+          "mindestens ein Nachteil",
+          "Schluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v019",
+        "b2u12-v020",
+        "b2u12-v029"
+      ]
+    },
+    {
+      "id": "b2u12-e015",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Staatsangehörigkeit",
+      "title_ar": "الجنسية",
+      "prompt_de": "Welche Erklärung ist richtig?",
+      "prompt_ar": "أي شرح صحيح؟",
+      "answer": "Die Staatsangehörigkeit bezeichnet die rechtliche Zugehörigkeit zu einem Staat.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Staatsangehörigkeit bezeichnet die rechtliche Zugehörigkeit zu einem Staat.",
+        "Sie bedeutet automatisch dieselbe kulturelle Identität.",
+        "Sie ist dasselbe wie der Wohnort.",
+        "Sie beschreibt nur eine Sprachkenntnis."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v023"
+      ]
+    },
+    {
+      "id": "b2u12-e016",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Zugang zum System",
+      "title_ar": "الدخول إلى النظام",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Benutzername": "eindeutige Bezeichnung eines Nutzers",
+        "Sonderzeichen": "Zeichen wie ! oder #",
+        "Zugangsdaten": "Benutzername und Passwort",
+        "Account": "persönliches Benutzerkonto"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Benutzername",
+          "eindeutige Bezeichnung eines Nutzers"
+        ],
+        [
+          "Sonderzeichen",
+          "Zeichen wie ! oder #"
+        ],
+        [
+          "Zugangsdaten",
+          "Benutzername und Passwort"
+        ],
+        [
+          "Account",
+          "persönliches Benutzerkonto"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v041",
+        "b2u12-v042",
+        "b2u12-v039",
+        "b2u12-v044"
+      ]
+    },
+    {
+      "id": "b2u12-e017",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Sichere Zugangsdaten",
+      "title_ar": "بيانات دخول آمنة",
+      "prompt_de": "Zugangsdaten müssen unter ______ gehalten werden.",
+      "prompt_ar": "يجب حفظ بيانات الدخول ______.",
+      "answer": "Verschluss",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Verschluss"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v043"
+      ]
+    },
+    {
+      "id": "b2u12-e018",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Passwortproblem",
+      "title_ar": "مشكلة كلمة المرور",
+      "prompt_de": "Eine Mitarbeiterin hat ihr Passwort vergessen. Was ist richtig?",
+      "prompt_ar": "نسيت موظفة كلمة المرور. ما الصحيح؟",
+      "answer": "über den vorgesehenen IT-Prozess das Passwort zurücksetzen lassen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "über den vorgesehenen IT-Prozess das Passwort zurücksetzen lassen",
+        "das Passwort eines Kollegen verwenden",
+        "die Zugangsdaten öffentlich anfragen",
+        "das Problem ignorieren"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v045",
+        "b2u12-v039"
+      ]
+    },
+    {
+      "id": "b2u12-e019",
+      "unit": 12,
+      "type": "sentence_build",
+      "title_de": "Bluetooth koppeln",
+      "title_ar": "ربط البلوتوث",
+      "prompt_de": "Bilden Sie eine Anweisung: Headset / Smartphone / koppeln",
+      "prompt_ar": "كوّن تعليمة.",
+      "answer": "Koppeln Sie das Headset mit dem Smartphone.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Koppeln Sie das Headset mit dem Smartphone."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v047",
+        "b2u12-v049"
+      ]
+    },
+    {
+      "id": "b2u12-e020",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Navigieren",
+      "title_ar": "التنقل",
+      "prompt_de": "Navigieren Sie ______ den Einstellungen zum Menü „Bluetooth“.",
+      "prompt_ar": "انتقل ______ الإعدادات إلى قائمة البلوتوث.",
+      "answer": "in",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "in"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v048"
+      ]
+    },
+    {
+      "id": "b2u12-e021",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Filesharing",
+      "title_ar": "مشاركة الملفات",
+      "prompt_de": "Was ist Filesharing?",
+      "prompt_ar": "ما هي مشاركة الملفات؟",
+      "answer": "das digitale Teilen oder Austauschen von Dateien",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "das digitale Teilen oder Austauschen von Dateien",
+        "das Drucken eines Passworts",
+        "das Löschen aller Backups",
+        "das Reparieren einer Tastatur"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v037"
+      ]
+    },
+    {
+      "id": "b2u12-e022",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Backup",
+      "title_ar": "نسخة احتياطية",
+      "prompt_de": "Welche Aussage stimmt?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Ein Backup ist eine zusätzliche Kopie wichtiger Daten.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ein Backup ist eine zusätzliche Kopie wichtiger Daten.",
+        "Ein Backup ersetzt jedes Passwort.",
+        "Ein Backup ist eine Fehlermeldung.",
+        "Ein Backup löscht automatisch Viren."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v052",
+        "b2u12-v060"
+      ]
+    },
+    {
+      "id": "b2u12-e023",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Technische Fehler",
+      "title_ar": "أخطاء تقنية",
+      "prompt_de": "Ordnen Sie Problem und Bedeutung zu.",
+      "prompt_ar": "صِل المشكلة بالمعنى.",
+      "answer": {
+        "Programmabsturz": "ein einzelnes Programm beendet sich unerwartet",
+        "Systemabsturz": "das gesamte Betriebssystem fällt aus",
+        "Fehlermeldung": "Hinweis auf ein technisches Problem",
+        "Datenverlust": "gespeicherte Informationen fehlen"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Programmabsturz",
+          "ein einzelnes Programm beendet sich unerwartet"
+        ],
+        [
+          "Systemabsturz",
+          "das gesamte Betriebssystem fällt aus"
+        ],
+        [
+          "Fehlermeldung",
+          "Hinweis auf ein technisches Problem"
+        ],
+        [
+          "Datenverlust",
+          "gespeicherte Informationen fehlen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v054",
+        "b2u12-v055",
+        "b2u12-v056",
+        "b2u12-v060"
+      ]
+    },
+    {
+      "id": "b2u12-e024",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Fehler melden",
+      "title_ar": "الإبلاغ عن خطأ",
+      "prompt_de": "Bitte notieren Sie den genauen Wortlaut der ______.",
+      "prompt_ar": "دوّن النص الدقيق لـ ______.",
+      "answer": "Fehlermeldung",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Fehlermeldung",
+        "der Fehlermeldung"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v056"
+      ]
+    },
+    {
+      "id": "b2u12-e025",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Problem eingrenzen",
+      "title_ar": "تحديد نطاق المشكلة",
+      "prompt_de": "Die Laptop-Tastatur reagiert nicht. Was ist ein sinnvoller Test?",
+      "prompt_ar": "لوحة مفاتيح الحاسوب لا تعمل. ما الاختبار المناسب؟",
+      "answer": "eine externe Tastatur anschließen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine externe Tastatur anschließen",
+        "alle Backups löschen",
+        "das Passwort veröffentlichen",
+        "den Monitor ausschalten und nie wieder starten"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v061",
+        "b2u12-v063"
+      ]
+    },
+    {
+      "id": "b2u12-e026",
+      "unit": 12,
+      "type": "sentence_build",
+      "title_de": "Neustart",
+      "title_ar": "إعادة التشغيل",
+      "prompt_de": "Bilden Sie eine Anweisung: Computer / nach dem Update / neu starten",
+      "prompt_ar": "كوّن تعليمة.",
+      "answer": "Starten Sie den Computer nach dem Update neu.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Starten Sie den Computer nach dem Update neu."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v062",
+        "b2u12-v058"
+      ]
+    },
+    {
+      "id": "b2u12-e027",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Virus",
+      "title_ar": "الفيروس",
+      "prompt_de": "Welche Maßnahme reduziert das Risiko eines Computervirus?",
+      "prompt_ar": "ما الإجراء الذي يقلل خطر الفيروس؟",
+      "answer": "verdächtige Anhänge nicht öffnen und Schutzprogramme aktualisieren",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "verdächtige Anhänge nicht öffnen und Schutzprogramme aktualisieren",
+        "jede unbekannte Datei ausführen",
+        "Updates grundsätzlich vermeiden",
+        "Passwörter per E-Mail veröffentlichen"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v059",
+        "b2u12-v058"
+      ]
+    },
+    {
+      "id": "b2u12-e028",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "IT-Fehlermeldung",
+      "title_ar": "رسالة إلى قسم التقنية",
+      "prompt_de": "Melden Sie ein Computerproblem schriftlich an die IT-Abteilung.",
+      "prompt_ar": "اكتب بلاغًا عن مشكلة حاسوب إلى قسم التقنية.",
+      "answer": {
+        "requiredConcepts": [
+          "Gerät oder Programm",
+          "Zeitpunkt",
+          "genauer Ablauf",
+          "Fehlermeldung",
+          "bereits getestete Schritte",
+          "Dringlichkeit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v016",
+        "b2u12-v056",
+        "b2u12-v064"
+      ]
+    },
+    {
+      "id": "b2u12-e029",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Fehler reproduzieren",
+      "title_ar": "إعادة إظهار الخطأ",
+      "prompt_de": "Warum ist es hilfreich, einen Fehler zu reproduzieren?",
+      "prompt_ar": "لماذا من المفيد إعادة إظهار الخطأ؟",
+      "answer": "Die Ursache und die Bedingungen können besser analysiert werden.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Ursache und die Bedingungen können besser analysiert werden.",
+        "Der Fehler wird dadurch automatisch gelöscht.",
+        "Das Passwort wird stärker.",
+        "Die Garantie verlängert sich."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v064"
+      ]
+    },
+    {
+      "id": "b2u12-e030",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Programmabsturz",
+      "title_ar": "تعطل البرنامج",
+      "prompt_de": "Nach dem Update kam es zu einem ______.",
+      "prompt_ar": "حدث ______ بعد التحديث.",
+      "answer": "Programmabsturz",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Programmabsturz",
+        "einem Programmabsturz"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v054"
+      ]
+    },
+    {
+      "id": "b2u12-e031",
+      "unit": 12,
+      "type": "guided_speaking",
+      "title_de": "Technisches Problem erklären",
+      "title_ar": "شرح مشكلة تقنية",
+      "prompt_de": "Erklären Sie einer IT-Fachkraft ein technisches Problem in sechs klaren Schritten.",
+      "prompt_ar": "اشرح مشكلة تقنية لمختص في ست خطوات واضحة.",
+      "answer": {
+        "requiredConcepts": [
+          "Gerät",
+          "Zeitpunkt",
+          "Symptom",
+          "Fehlermeldung",
+          "eigene Tests",
+          "gewünschte Hilfe"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v016",
+        "b2u12-v063"
+      ]
+    },
+    {
+      "id": "b2u12-e032",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Schulungsplanung",
+      "title_ar": "تخطيط التدريب",
+      "prompt_de": "Ordnen Sie Aufgabe und Planungsbereich zu.",
+      "prompt_ar": "صِل المهمة بمجال التخطيط.",
+      "answer": {
+        "Termin und Raum festlegen": "organisatorische Planung",
+        "Lernziele formulieren": "inhaltliche Planung",
+        "Feedback auswerten": "Nachbereitung",
+        "Teilnehmerliste erstellen": "organisatorische Planung"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Termin und Raum festlegen",
+          "organisatorische Planung"
+        ],
+        [
+          "Lernziele formulieren",
+          "inhaltliche Planung"
+        ],
+        [
+          "Feedback auswerten",
+          "Nachbereitung"
+        ],
+        [
+          "Teilnehmerliste erstellen",
+          "organisatorische Planung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v066",
+        "b2u12-v067",
+        "b2u12-v068",
+        "b2u12-v071"
+      ]
+    },
+    {
+      "id": "b2u12-e033",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Nachbereitung",
+      "title_ar": "المتابعة",
+      "prompt_de": "Die Auswertung des Feedbackformulars gehört zur ______.",
+      "prompt_ar": "ينتمي تقييم نموذج الملاحظات إلى ______.",
+      "answer": "Nachbereitung",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Nachbereitung",
+        "der Nachbereitung"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v068",
+        "b2u12-v069"
+      ]
+    },
+    {
+      "id": "b2u12-e034",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Teilnehmende freistellen",
+      "title_ar": "إعفاء المشاركين",
+      "prompt_de": "Eine Schulung findet während der Arbeitszeit statt. Was muss geklärt werden?",
+      "prompt_ar": "التدريب خلال وقت العمل. ما الذي يجب توضيحه؟",
+      "answer": "ob und für welchen Zeitraum die Teilnehmenden freigestellt werden",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ob und für welchen Zeitraum die Teilnehmenden freigestellt werden",
+        "welche privaten Passwörter sie nutzen",
+        "ob alle ihre Handys verkaufen",
+        "welche Staatsangehörigkeit sie haben"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v074",
+        "b2u12-v065"
+      ]
+    },
+    {
+      "id": "b2u12-e035",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "Einladung zur Schulung",
+      "title_ar": "دعوة إلى تدريب",
+      "prompt_de": "Schreiben Sie eine formelle Einladung zu einer Datenschutzschulung.",
+      "prompt_ar": "اكتب دعوة رسمية إلى تدريب حماية بيانات.",
+      "answer": {
+        "requiredConcepts": [
+          "Betreff",
+          "Thema und Ziel",
+          "Termin",
+          "Ort oder Online-Link",
+          "Dauer",
+          "Anmeldung",
+          "Vorbereitung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v065",
+        "b2u09-v083",
+        "b2u12-v089"
+      ]
+    },
+    {
+      "id": "b2u12-e036",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Datenschutzbegriffe",
+      "title_ar": "مصطلحات حماية البيانات",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "personenbezogene Daten": "Informationen zu einer Person",
+        "Datenverarbeitung": "Erheben, Speichern, Nutzen oder Löschen",
+        "Einwilligung": "freiwillige informierte Zustimmung",
+        "Datenschutzverletzung": "unbefugter Verlust oder Offenlegung von Daten"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "personenbezogene Daten",
+          "Informationen zu einer Person"
+        ],
+        [
+          "Datenverarbeitung",
+          "Erheben, Speichern, Nutzen oder Löschen"
+        ],
+        [
+          "Einwilligung",
+          "freiwillige informierte Zustimmung"
+        ],
+        [
+          "Datenschutzverletzung",
+          "unbefugter Verlust oder Offenlegung von Daten"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v076",
+        "b2u12-v077",
+        "b2u12-v079",
+        "b2u12-v081"
+      ]
+    },
+    {
+      "id": "b2u12-e037",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "DSGVO",
+      "title_ar": "اللائحة الأوروبية",
+      "prompt_de": "Wofür steht die DSGVO im beruflichen Alltag?",
+      "prompt_ar": "ما دور اللائحة في العمل؟",
+      "answer": "Sie legt Regeln für den Umgang mit personenbezogenen Daten fest.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sie legt Regeln für den Umgang mit personenbezogenen Daten fest.",
+        "Sie regelt ausschließlich Arbeitszeiten.",
+        "Sie ersetzt jede Betriebsvereinbarung.",
+        "Sie erlaubt die freie Veröffentlichung aller Daten."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v075",
+        "b2u09-v083"
+      ]
+    },
+    {
+      "id": "b2u12-e038",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Zweckbindung",
+      "title_ar": "تقييد الغرض",
+      "prompt_de": "Daten dürfen nur für den vorher festgelegten ______ verarbeitet werden.",
+      "prompt_ar": "لا يجوز معالجة البيانات إلا من أجل ______ المحدد مسبقًا.",
+      "answer": "Zweck",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Zweck",
+        "den Zweck"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v085"
+      ]
+    },
+    {
+      "id": "b2u12-e039",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Teilnehmerliste",
+      "title_ar": "قائمة المشاركين",
+      "prompt_de": "Eine Teilnehmerliste enthält Namen und E-Mail-Adressen. Was ist datenschutzgerecht?",
+      "prompt_ar": "تتضمن القائمة أسماء وعناوين بريد. ما التصرف الصحيح؟",
+      "answer": "nur berechtigten Personen Zugriff geben und die Liste zweckgebunden nutzen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nur berechtigten Personen Zugriff geben und die Liste zweckgebunden nutzen",
+        "die Liste öffentlich hochladen",
+        "die Daten für Werbung weitergeben",
+        "die Liste unbegrenzt privat speichern"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v071",
+        "b2u12-v085",
+        "b2u12-v076"
+      ]
+    },
+    {
+      "id": "b2u12-e040",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Einwilligung",
+      "title_ar": "الموافقة",
+      "prompt_de": "Eine freiwillige Zustimmung zur Datenverarbeitung nennt man ______.",
+      "prompt_ar": "تسمى الموافقة الطوعية على معالجة البيانات ______.",
+      "answer": "Einwilligung",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Einwilligung",
+        "die Einwilligung"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v079"
+      ]
+    },
+    {
+      "id": "b2u12-e041",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Datenweitergabe",
+      "title_ar": "نقل البيانات",
+      "prompt_de": "Wann dürfen Daten an Dritte weitergegeben werden?",
+      "prompt_ar": "متى يجوز نقل البيانات لطرف آخر؟",
+      "answer": "wenn eine zulässige Rechtsgrundlage und ein klarer Zweck vorliegen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "wenn eine zulässige Rechtsgrundlage und ein klarer Zweck vorliegen",
+        "immer, wenn die Datei klein ist",
+        "wenn ein Kollege neugierig ist",
+        "ohne Information der Betroffenen in jedem Fall"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v086",
+        "b2u12-v080"
+      ]
+    },
+    {
+      "id": "b2u12-e042",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "Datenschutzfall beurteilen",
+      "title_ar": "تقييم حالة حماية بيانات",
+      "prompt_de": "Beurteilen Sie folgenden Fall: Eine Teilnehmerliste wird ohne Erlaubnis an einen Lieferanten geschickt.",
+      "prompt_ar": "قيّم الحالة: أُرسلت قائمة مشاركين إلى مورّد دون إذن.",
+      "answer": {
+        "requiredConcepts": [
+          "personenbezogene Daten",
+          "Zweckbindung",
+          "Datenweitergabe",
+          "mögliche Datenschutzverletzung",
+          "sofortige Maßnahmen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v076",
+        "b2u12-v085",
+        "b2u12-v080",
+        "b2u12-v081"
+      ]
+    },
+    {
+      "id": "b2u12-e043",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Verletzung melden",
+      "title_ar": "الإبلاغ عن خرق",
+      "prompt_de": "Beschäftigte müssen eine mögliche Datenschutzverletzung sofort ______.",
+      "prompt_ar": "يجب على الموظفين ______ عن خرق محتمل فورًا.",
+      "answer": "melden",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "melden"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v088"
+      ]
+    },
+    {
+      "id": "b2u12-e044",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Einwilligung widerrufen",
+      "title_ar": "سحب الموافقة",
+      "prompt_de": "Was bedeutet „eine Einwilligung widerrufen“?",
+      "prompt_ar": "ما معنى سحب الموافقة؟",
+      "answer": "eine zuvor gegebene Zustimmung für die Zukunft zurücknehmen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine zuvor gegebene Zustimmung für die Zukunft zurücknehmen",
+        "eine neue Rechnung schreiben",
+        "eine Datei endgültig veröffentlichen",
+        "einen Account einrichten"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v087"
+      ]
+    },
+    {
+      "id": "b2u12-e045",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Geschäftliche E-Mail",
+      "title_ar": "البريد المهني",
+      "prompt_de": "Ordnen Sie Element und Funktion zu.",
+      "prompt_ar": "صِل العنصر بوظيفته.",
+      "answer": {
+        "Betreffzeile": "Thema kurz nennen",
+        "Anrede": "Empfänger passend ansprechen",
+        "Grußformel": "E-Mail höflich abschließen",
+        "geschäftliche Korrespondenz": "beruflicher schriftlicher Austausch"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Betreffzeile",
+          "Thema kurz nennen"
+        ],
+        [
+          "Anrede",
+          "Empfänger passend ansprechen"
+        ],
+        [
+          "Grußformel",
+          "E-Mail höflich abschließen"
+        ],
+        [
+          "geschäftliche Korrespondenz",
+          "beruflicher schriftlicher Austausch"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v089",
+        "b2u12-v008",
+        "b2u12-v090",
+        "b2u12-v091"
+      ]
+    },
+    {
+      "id": "b2u12-e046",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Adressatengerecht schreiben",
+      "title_ar": "الكتابة المناسبة للمخاطَب",
+      "prompt_de": "Welche E-Mail ist adressatengerecht?",
+      "prompt_ar": "أي بريد مناسب للمخاطَب؟",
+      "answer": "Eine klare, höfliche Nachricht mit passendem Detailgrad.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine klare, höfliche Nachricht mit passendem Detailgrad.",
+        "Eine Nachricht voller unklarer Abkürzungen.",
+        "Eine private Floskel an eine unbekannte Behörde.",
+        "Eine E-Mail ohne Betreff und ohne Anrede."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v092",
+        "b2u12-v089"
+      ]
+    },
+    {
+      "id": "b2u12-e047",
+      "unit": 12,
+      "type": "scenario_choice",
+      "title_de": "Betriebsinterne Information",
+      "title_ar": "معلومة داخلية",
+      "prompt_de": "Eine Datei ist als betriebsintern gekennzeichnet. Was ist richtig?",
+      "prompt_ar": "ملف موسوم داخلي. ما الصحيح؟",
+      "answer": "nur über freigegebene betriebliche Kanäle teilen",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nur über freigegebene betriebliche Kanäle teilen",
+        "öffentlich in sozialen Medien posten",
+        "an private Kontakte weiterleiten",
+        "ohne Prüfung an alle Kunden senden"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v093",
+        "b2u09-v083"
+      ]
+    },
+    {
+      "id": "b2u12-e048",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Grußformel",
+      "title_ar": "صيغة الختام",
+      "prompt_de": "Eine formelle E-Mail endet häufig mit der ______ „Mit freundlichen Grüßen“.",
+      "prompt_ar": "ينتهي البريد الرسمي غالبًا بـ ______.",
+      "answer": "Grußformel",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Grußformel",
+        "der Grußformel"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v090"
+      ]
+    },
+    {
+      "id": "b2u12-e049",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "Kommunikationsproblem lösen",
+      "title_ar": "حل مشكلة تواصل",
+      "prompt_de": "Schreiben Sie eine E-Mail, in der Sie ein betriebliches Kommunikationsproblem sachlich klären.",
+      "prompt_ar": "اكتب بريدًا لتوضيح مشكلة تواصل مهنية.",
+      "answer": {
+        "requiredConcepts": [
+          "Betreff",
+          "Situation",
+          "fehlende oder widersprüchliche Information",
+          "Bitte um Erklärung",
+          "Lösungsvorschlag",
+          "höflicher Abschluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v014",
+        "b2u12-v017",
+        "b2u12-v089"
+      ]
+    },
+    {
+      "id": "b2u12-e050",
+      "unit": 12,
+      "type": "matching",
+      "title_de": "Produktbeschreibung",
+      "title_ar": "وصف المنتج",
+      "prompt_de": "Ordnen Sie Kategorie und Beispiel zu.",
+      "prompt_ar": "صِل الفئة بالمثال.",
+      "answer": {
+        "Eigenschaft": "rutschfest",
+        "Funktion": "schützt die Oberfläche",
+        "Pluspunkt": "leicht zu reinigen",
+        "Nachhaltigkeit": "wiederverwendbar"
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Eigenschaft",
+          "rutschfest"
+        ],
+        [
+          "Funktion",
+          "schützt die Oberfläche"
+        ],
+        [
+          "Pluspunkt",
+          "leicht zu reinigen"
+        ],
+        [
+          "Nachhaltigkeit",
+          "wiederverwendbar"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u12-v094",
+        "b2u12-v095",
+        "b2u12-v097",
+        "b2u12-v096"
+      ]
+    },
+    {
+      "id": "b2u12-e051",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Pluspunkt",
+      "title_ar": "ميزة إضافية",
+      "prompt_de": "Welche Formulierung nennt einen Pluspunkt?",
+      "prompt_ar": "أي صياغة تذكر ميزة؟",
+      "answer": "Besonders praktisch ist, dass das Produkt leicht gereinigt werden kann.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Besonders praktisch ist, dass das Produkt leicht gereinigt werden kann.",
+        "Das Produkt existiert.",
+        "Der Name besteht aus acht Buchstaben.",
+        "Die Verpackung steht im Regal."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v095",
+        "b2u12-v094"
+      ]
+    },
+    {
+      "id": "b2u12-e052",
+      "unit": 12,
+      "type": "fill_blank",
+      "title_de": "Rutschfest",
+      "title_ar": "مقاوم للانزلاق",
+      "prompt_de": "Die Unterseite ist ______, damit das Gerät sicher steht.",
+      "prompt_ar": "القاعدة ______ كي يثبت الجهاز.",
+      "answer": "rutschfest",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "rutschfest"
+      ],
+      "vocabularyRefs": [
+        "b2u12-v097"
+      ]
+    },
+    {
+      "id": "b2u12-e053",
+      "unit": 12,
+      "type": "guided_speaking",
+      "title_de": "Ein Produkt verkaufen",
+      "title_ar": "تسويق منتج",
+      "prompt_de": "Beschreiben und empfehlen Sie ein praktisches Produkt in etwa einer Minute.",
+      "prompt_ar": "صف منتجًا عمليًا وأوصِ به خلال دقيقة.",
+      "answer": {
+        "requiredConcepts": [
+          "Produktname",
+          "Material oder Aussehen",
+          "Funktion",
+          "zwei Eigenschaften",
+          "Pluspunkt",
+          "Zielgruppe"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v094",
+        "b2u12-v095"
+      ]
+    },
+    {
+      "id": "b2u12-e054",
+      "unit": 12,
+      "type": "multiple_choice",
+      "title_de": "Wiederverwendbar",
+      "title_ar": "قابل لإعادة الاستخدام",
+      "prompt_de": "Welche Aussage passt zu einem wiederverwendbaren Produkt?",
+      "prompt_ar": "أي جملة تناسب منتجًا قابلًا لإعادة الاستخدام؟",
+      "answer": "Es kann mehrfach genutzt werden und muss nicht nach einmaligem Gebrauch entsorgt werden.",
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Es kann mehrfach genutzt werden und muss nicht nach einmaligem Gebrauch entsorgt werden.",
+        "Es darf nur einmal geöffnet werden.",
+        "Es funktioniert ausschließlich mit einem Passwort.",
+        "Es ist immer aus Metall."
+      ],
+      "vocabularyRefs": [
+        "b2u12-v096"
+      ]
+    },
+    {
+      "id": "b2u12-e055",
+      "unit": 12,
+      "type": "guided_writing",
+      "title_de": "Kapitel-12-Abschluss",
+      "title_ar": "مهمة ختامية",
+      "prompt_de": "Schreiben Sie einen kurzen Text: Wie können internationale Unternehmen Kommunikation und Datenschutz verbessern?",
+      "prompt_ar": "اكتب نصًا قصيرًا: كيف تحسن الشركات الدولية التواصل وحماية البيانات؟",
+      "answer": {
+        "requiredConcepts": [
+          "interkulturelle Kommunikation",
+          "klare interne Informationen",
+          "Sprachbarrieren",
+          "Schulung",
+          "personenbezogene Daten",
+          "sichere IT-Prozesse"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v005",
+        "b2u12-v013",
+        "b2u12-v030",
+        "b2u12-v065",
+        "b2u12-v076"
+      ]
+    },
+    {
+      "id": "b2u12-e056",
+      "unit": 12,
+      "type": "guided_speaking",
+      "title_de": "Diskussion Globalisierung",
+      "title_ar": "نقاش العولمة",
+      "prompt_de": "Diskutieren Sie zwei Vorteile und zwei Nachteile der Globalisierung für Arbeit und Privatleben.",
+      "prompt_ar": "ناقش فائدتين وضررين للعولمة في العمل والحياة الخاصة.",
+      "answer": {
+        "requiredConcepts": [
+          "Arbeitsmöglichkeiten",
+          "weltweite Vernetzung",
+          "kultureller Austausch",
+          "räumliche Trennung oder Unsicherheit",
+          "eigene Position"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_12_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u12-v001",
+        "b2u12-v002",
+        "b2u12-v020"
+      ]
+    }
+  ]
+}

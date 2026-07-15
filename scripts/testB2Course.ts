@@ -366,6 +366,89 @@ for (const [exerciseId, expectedType] of Object.entries(convertedTypes)) {
 }
 assert(newKapitelStorage.getItem("dmt_progress") === null, "New Kapitel tests touched legacy progress.");
 
+const finalUnitSummaries = index.units.filter((unit) => unit.unit >= 10 && unit.unit <= 14);
+assert(finalUnitSummaries.length === 5, "Kapitel 10 through 14 must all be present.");
+assert(
+  finalUnitSummaries.every((unit, unitIndex) => unit.unit === unitIndex + 10),
+  "Kapitel 10 through 14 are not ordered correctly.",
+);
+
+const finalUnitVocabulary = new Map(finalUnitSummaries.map((summary) => {
+  const vocabulary = loadVocabulary(summary);
+  return [summary.unit, {
+    vocabulary,
+    trainingItems: [
+      ...vocabulary.items,
+      ...(vocabulary.reusedVocabularyRefs ?? []),
+    ],
+  }];
+}));
+const expectedFinalUnitCounts: Record<number, { local: number; reused: number; exercises: number }> = {
+  10: { local: 69, reused: 24, exercises: 55 },
+  11: { local: 78, reused: 8, exercises: 55 },
+  12: { local: 97, reused: 2, exercises: 56 },
+  13: { local: 89, reused: 13, exercises: 54 },
+  14: { local: 99, reused: 2, exercises: 55 },
+};
+for (const summary of finalUnitSummaries) {
+  const entry = finalUnitVocabulary.get(summary.unit);
+  assert(entry, `Missing Kapitel ${summary.unit} vocabulary.`);
+  const expected = expectedFinalUnitCounts[summary.unit];
+  assert(entry.vocabulary.items.length === expected.local, `Kapitel ${summary.unit} local vocabulary count is wrong.`);
+  assert((entry.vocabulary.reusedVocabularyRefs ?? []).length === expected.reused, `Kapitel ${summary.unit} reused vocabulary count is wrong.`);
+  assert(summary.exerciseCount === expected.exercises, `Kapitel ${summary.unit} exercise count is wrong.`);
+}
+
+const finalKapitelStorage = new MemoryStorage();
+Object.defineProperty(globalThis, "localStorage", { value: finalKapitelStorage, configurable: true });
+const unit10TrainingItems = finalUnitVocabulary.get(10)?.trainingItems ?? [];
+B2CourseProgressService.migrateVocabularyProgress(10, unit10TrainingItems);
+unit10TrainingItems.slice(0, 8).forEach((item, itemIndex) => {
+  B2CourseProgressService.recordVocabularyReview(10, item.courseItemId, itemIndex < 5, unit10TrainingItems);
+});
+assert(
+  B2CourseProgressService.getNextVocabularyItem(10, unit10TrainingItems)?.courseItemId === unit10TrainingItems[8].courseItemId,
+  "Kapitel 10 did not resume at the first unseen item after eight answers.",
+);
+assert(B2CourseProgressService.getReviewVocabulary(10, unit10TrainingItems).length === 3, "Kapitel 10 review queue must contain three items.");
+const unit10MainCursor = B2CourseProgressService.getStore().vocabularyByUnit["10"].nextItemId;
+const firstUnit10Review = B2CourseProgressService.getReviewVocabulary(10, unit10TrainingItems)[0];
+B2CourseProgressService.recordVocabularyReview(10, firstUnit10Review.courseItemId, true, unit10TrainingItems, false);
+assert(B2CourseProgressService.getReviewVocabulary(10, unit10TrainingItems).length === 2, "Kapitel 10 review queue did not shrink after mastering an item.");
+assert(
+  B2CourseProgressService.getStore().vocabularyByUnit["10"].nextItemId === unit10MainCursor,
+  "Kapitel 10 review mode changed the main study cursor.",
+);
+assert(
+  B2CourseProgressService.getNextVocabularyItem(10, unit10TrainingItems)?.courseItemId === unit10TrainingItems[8].courseItemId,
+  "Kapitel 10 resume position was not restored from persisted progress.",
+);
+
+for (let unit = 11; unit <= 14; unit += 1) {
+  const entry = finalUnitVocabulary.get(unit);
+  assert(entry, `Missing Kapitel ${unit} progress fixture.`);
+  B2CourseProgressService.migrateVocabularyProgress(unit, entry.trainingItems);
+  const stats = B2CourseProgressService.getUnitStats(
+    unit,
+    entry.trainingItems.map((item) => item.courseItemId),
+    [],
+  );
+  assert(stats.reviewedVocabulary === 0 && stats.unseenVocabulary === entry.trainingItems.length, `Kapitel ${unit} did not start independently at 0%.`);
+
+  const reusedItem = entry.vocabulary.reusedVocabularyRefs?.[0];
+  if (reusedItem) {
+    const sourceUnit = Number(reusedItem.courseItemId.match(/^b2u(\d{2})-/)?.[1]);
+    assert(Number.isInteger(sourceUnit), `Invalid reused courseItemId in Kapitel ${unit}.`);
+    B2CourseProgressService.setVocabularyStatus(sourceUnit, reusedItem.courseItemId, "known");
+    assert(
+      B2CourseProgressService.getVocabularyStatus(unit, reusedItem.courseItemId) === "unseen",
+      `Reused vocabulary progress leaked into Kapitel ${unit}.`,
+    );
+  }
+}
+assert(finalKapitelStorage.getItem("dmt_progress") === null, "Kapitel 10 through 14 tests touched legacy progress.");
+assert(finalKapitelStorage.getItem(B2_COURSE_PROGRESS_KEY) !== null, "Kapitel 10 through 14 progress was not persisted separately.");
+
 console.log(JSON.stringify({
   ok: true,
   exerciseCount: exercises.length,
@@ -375,4 +458,6 @@ console.log(JSON.stringify({
   kapitel5ResumeAndReview: true,
   kapitel8KundschaftIsolation: true,
   kapitel9ConvertedExercises: Object.keys(convertedTypes).length,
+  kapitel10ResumeAndReview: true,
+  kapitel11Through14IndependentProgress: true,
 }, null, 2));

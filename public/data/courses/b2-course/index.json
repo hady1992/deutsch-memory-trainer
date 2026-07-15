@@ -143,6 +143,81 @@
       "vocabularyCount": 85,
       "exerciseCount": 55,
       "enabled": true
+    },
+    {
+      "unit": 10,
+      "slug": "unit-10",
+      "title_de": "Rechte und Pflichten",
+      "title_ar": "الحقوق والواجبات في العمل",
+      "pages": [
+        171,
+        184
+      ],
+      "vocabularyFile": "units/unit-10/vocabulary.json",
+      "exercisesFile": "units/unit-10/exercises.json",
+      "vocabularyCount": 69,
+      "exerciseCount": 55,
+      "enabled": true
+    },
+    {
+      "unit": 11,
+      "slug": "unit-11",
+      "title_de": "Arbeit und neue Medien",
+      "title_ar": "العمل ووسائل الإعلام الجديدة",
+      "pages": [
+        191,
+        204
+      ],
+      "vocabularyFile": "units/unit-11/vocabulary.json",
+      "exercisesFile": "units/unit-11/exercises.json",
+      "vocabularyCount": 78,
+      "exerciseCount": 55,
+      "enabled": true
+    },
+    {
+      "unit": 12,
+      "slug": "unit-12",
+      "title_de": "Global arbeiten und leben",
+      "title_ar": "العمل والحياة في عالم عالمي",
+      "pages": [
+        205,
+        228
+      ],
+      "vocabularyFile": "units/unit-12/vocabulary.json",
+      "exercisesFile": "units/unit-12/exercises.json",
+      "vocabularyCount": 97,
+      "exerciseCount": 56,
+      "enabled": true
+    },
+    {
+      "unit": 13,
+      "slug": "unit-13",
+      "title_de": "Konflikte lösen",
+      "title_ar": "حل النزاعات",
+      "pages": [
+        229,
+        242
+      ],
+      "vocabularyFile": "units/unit-13/vocabulary.json",
+      "exercisesFile": "units/unit-13/exercises.json",
+      "vocabularyCount": 89,
+      "exerciseCount": 54,
+      "enabled": true
+    },
+    {
+      "unit": 14,
+      "slug": "unit-14",
+      "title_de": "Weiterbildung",
+      "title_ar": "التعليم المستمر",
+      "pages": [
+        243,
+        256
+      ],
+      "vocabularyFile": "units/unit-14/vocabulary.json",
+      "exercisesFile": "units/unit-14/exercises.json",
+      "vocabularyCount": 99,
+      "exerciseCount": 55,
+      "enabled": true
     }
   ]
 }
