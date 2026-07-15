@@ -1,11 +1,20 @@
-import { useMemo, useState, type ChangeEvent } from "react";
-import { AlertCircle, Heart, Search } from "lucide-react";
+import { useEffect, useMemo, useState, type ChangeEvent } from "react";
+import { AlertCircle, Heart, Search, Square, Volume2 } from "lucide-react";
 import {
   getB2ExplanationLanguage,
   setB2ExplanationLanguage,
   type B2ExplanationLanguage,
 } from "./b2CourseExplanationLanguage";
 import { B2CourseProgressService } from "./b2CourseProgressService";
+import {
+  B2_SPEECH_RATES,
+  getStoredSpeechRateMode,
+  isSpeechSupported,
+  setStoredSpeechRateMode,
+  speakGerman,
+  stopSpeaking,
+  type B2SpeechRateMode,
+} from "./b2CourseSpeechService";
 import { normalizeAnswer } from "./exerciseEngine";
 import type { B2CourseVocabularyItem, B2VocabularyFilter } from "./types";
 
@@ -58,21 +67,50 @@ function VocabularyCard({
   item,
   isRtl,
   explanationLanguage,
+  speakingItemId,
+  speechSupported,
+  onToggleSpeech,
 }: {
   item: B2CourseVocabularyItem;
   isRtl: boolean;
   explanationLanguage: B2ExplanationLanguage;
+  speakingItemId: string | null;
+  speechSupported: boolean;
+  onToggleSpeech: (item: B2CourseVocabularyItem) => void;
 }) {
   const [favorite, setFavorite] = useState(B2CourseProgressService.isFavorite(item.courseItemId));
   const [difficult, setDifficult] = useState(
     B2CourseProgressService.getVocabularyProgress(item.courseItemId).difficult,
   );
+  const isSpeaking = speakingItemId === item.courseItemId;
+  const speechLabel = !speechSupported
+    ? (isRtl ? "النطق غير مدعوم في هذا المتصفح" : "Sprachausgabe wird von diesem Browser nicht unterstützt")
+    : isSpeaking
+      ? (isRtl ? "إيقاف النطق" : "Aussprache stoppen")
+      : (isRtl ? "استمع إلى نطق الكلمة" : "Aussprache anhören");
   return (
     <article className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-bold text-blue-600">{item.type}</p>
-          <h3 className="mt-1 break-words text-xl font-black text-slate-900" dir="ltr">{item.term}</h3>
+          <div className="mt-1 flex min-w-0 items-start gap-2" dir="ltr">
+            <h3 className="min-w-0 break-words text-xl font-black text-slate-900">{item.term}</h3>
+            <button
+              type="button"
+              onClick={() => onToggleSpeech(item)}
+              disabled={!speechSupported}
+              aria-label={speechLabel}
+              title={speechLabel}
+              aria-pressed={isSpeaking}
+              className={`flex min-h-10 min-w-10 shrink-0 items-center justify-center rounded-lg transition ${
+                isSpeaking
+                  ? "bg-blue-600 text-white"
+                  : "border border-slate-200 bg-white text-blue-700 hover:bg-blue-50 disabled:cursor-not-allowed disabled:text-slate-300"
+              }`}
+            >
+              {isSpeaking ? <Square size={17} className="animate-pulse" /> : <Volume2 size={19} />}
+            </button>
+          </div>
         </div>
         <div className="flex shrink-0 gap-1" dir="ltr">
           <button
@@ -131,10 +169,48 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
   const [explanationLanguage, setExplanationLanguage] = useState<B2ExplanationLanguage>(
     () => getB2ExplanationLanguage(isRtl),
   );
+  const [speechRateMode, setSpeechRateMode] = useState<B2SpeechRateMode>(getStoredSpeechRateMode);
+  const [speakingItemId, setSpeakingItemId] = useState<string | null>(null);
+  const [speechSupported] = useState(isSpeechSupported);
+  const unitNumber = items[0]?.source.unit;
+
+  useEffect(() => {
+    stopSpeaking();
+    setSpeakingItemId(null);
+    return stopSpeaking;
+  }, [unitNumber]);
 
   const selectExplanationLanguage = (language: B2ExplanationLanguage) => {
     setExplanationLanguage(language);
     setB2ExplanationLanguage(language);
+  };
+
+  const selectSpeechRate = (mode: B2SpeechRateMode) => {
+    stopSpeaking();
+    setSpeakingItemId(null);
+    setSpeechRateMode(mode);
+    setStoredSpeechRateMode(mode);
+  };
+
+  const toggleSpeech = (item: B2CourseVocabularyItem) => {
+    if (!speechSupported) return;
+    if (speakingItemId === item.courseItemId) {
+      stopSpeaking();
+      setSpeakingItemId(null);
+      return;
+    }
+
+    const clearSpeakingItem = () => {
+      setSpeakingItemId((current) => current === item.courseItemId ? null : current);
+    };
+    setSpeakingItemId(item.courseItemId);
+    const started = speakGerman(item.term, {
+      rate: B2_SPEECH_RATES[speechRateMode],
+      onStart: () => setSpeakingItemId(item.courseItemId),
+      onEnd: clearSpeakingItem,
+      onError: clearSpeakingItem,
+    });
+    if (!started) clearSpeakingItem();
   };
 
   const filters: Array<[B2VocabularyFilter, string, string]> = [
@@ -195,6 +271,29 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
         </div>
       </div>
 
+      <div className="mt-3 flex flex-col gap-3 rounded-lg border border-slate-200 bg-white p-4 sm:flex-row sm:items-center sm:justify-between">
+        <p className="font-black text-slate-800">
+          {isRtl ? "سرعة النطق" : "Sprechgeschwindigkeit"}
+        </p>
+        <div className="inline-flex w-fit rounded-lg border border-slate-200 bg-slate-50 p-1" dir="ltr">
+          {(["slow", "normal"] as B2SpeechRateMode[]).map((mode) => (
+            <button
+              key={mode}
+              type="button"
+              onClick={() => selectSpeechRate(mode)}
+              aria-pressed={speechRateMode === mode}
+              className={`min-h-10 rounded-md px-4 text-sm font-black transition ${
+                speechRateMode === mode
+                  ? "bg-slate-900 text-white shadow-sm"
+                  : "text-slate-600 hover:bg-white"
+              }`}
+            >
+              {mode === "slow" ? (isRtl ? "بطيء" : "Langsam") : (isRtl ? "عادي" : "Normal")}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="mt-5 grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto]">
         <label className="relative block">
           <Search className={`absolute top-3.5 text-slate-400 ${isRtl ? "right-4" : "left-4"}`} size={19} />
@@ -229,6 +328,9 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
                 item={item}
                 isRtl={isRtl}
                 explanationLanguage={explanationLanguage}
+                speakingItemId={speakingItemId}
+                speechSupported={speechSupported}
+                onToggleSpeech={toggleSpeech}
               />
             </div>
           ))}

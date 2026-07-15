@@ -14,7 +14,7 @@
     "test:content": "tsx scripts/testContentImport.ts",
     "course:add": "node scripts/addB2CourseUnit.mjs",
     "course:audit": "node scripts/auditB2Course.mjs",
-    "course:test": "tsx scripts/testB2Course.ts",
+    "course:test": "tsx scripts/testB2Course.ts && tsx scripts/testB2CourseSpeech.ts",
     "lint": "tsc --noEmit",
     "start": "node server.js"
   },
