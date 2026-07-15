@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 3,
+  "unitTitle_de": "Arbeit im Team",
+  "unitTitle_ar": "العمل ضمن فريق",
+  "grammarFocus": [
+    "Passiv Präteritum: wurde/wurden + Partizip II",
+    "Redemittel für Teamgespräche",
+    "formelle Vorstellungs-E-Mail",
+    "Protokollaufbau"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u03-e001",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Aufgabenverteilung“?",
+      "prompt_ar": "ما معنى «die Aufgabenverteilung»؟",
+      "answer": "تحديد الشخص المسؤول عن كل مهمة وتقسيم العمل",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "تحديد الشخص المسؤول عن كل مهمة وتقسيم العمل",
+        "تقييم رواتب الموظفين",
+        "كتابة إعلان تجاري",
+        "إلغاء اجتماع الفريق"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v005"
+      ]
+    },
+    {
+      "id": "b2u03-e002",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Absprache“?",
+      "prompt_ar": "ما معنى «die Absprache»؟",
+      "answer": "اتفاق أو تنسيق مسبق بين أشخاص",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "اتفاق أو تنسيق مسبق بين أشخاص",
+        "إشاعة غير مؤكدة",
+        "محضر اجتماع",
+        "تدريب عملي"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v006"
+      ]
+    },
+    {
+      "id": "b2u03-e003",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „der Verbesserungsvorschlag“?",
+      "prompt_ar": "ما معنى «der Verbesserungsvorschlag»؟",
+      "answer": "فكرة عملية لتطوير طريقة العمل أو النتيجة",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "فكرة عملية لتطوير طريقة العمل أو النتيجة",
+        "اعتراض رسمي على قرار",
+        "جدول المناوبات",
+        "وصف الوظيفة"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v007"
+      ]
+    },
+    {
+      "id": "b2u03-e004",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „souverän“?",
+      "prompt_ar": "ما معنى «souverän»؟",
+      "answer": "واثق ومتمكن حتى في المواقف الصعبة",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "واثق ومتمكن حتى في المواقف الصعبة",
+        "متردد وغير مستعد",
+        "عاطفي فقط",
+        "ملتزم بطريقة قديمة"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v038"
+      ]
+    },
+    {
+      "id": "b2u03-e005",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «كاتب محضر الاجتماع»",
+      "answer": "der Protokollant / die Protokollantin",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Protokollant / die Protokollantin",
+        "der Geschäftspartner / die Geschäftspartnerin",
+        "der Ansprechpartner / die Ansprechpartnerin",
+        "der Vorgesetzte / die Vorgesetzte"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v021"
+      ]
+    },
+    {
+      "id": "b2u03-e006",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «بند جدول الأعمال»",
+      "answer": "der Tagesordnungspunkt (TOP)",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Tagesordnungspunkt (TOP)",
+        "der Verbesserungsvorschlag",
+        "der erste Eindruck",
+        "der Werbeentwurf"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v018"
+      ]
+    },
+    {
+      "id": "b2u03-e007",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «عامل مؤقت للمساعدة»",
+      "answer": "die Aushilfskraft",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Aushilfskraft",
+        "die Sitzungsleitung",
+        "die Kundenkommunikation",
+        "die Teamrolle"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v024"
+      ]
+    },
+    {
+      "id": "b2u03-e008",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „unvoreingenommen“?",
+      "prompt_ar": "ما معنى «unvoreingenommen»؟",
+      "answer": "منفتح من دون أحكام مسبقة",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "منفتح من دون أحكام مسبقة",
+        "مثقل بمهام كثيرة",
+        "موجّه نحو النتائج",
+        "قليل الخبرة"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v040"
+      ]
+    },
+    {
+      "id": "b2u03-e009",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Alle Teammitglieder müssen sich an die ______ halten.",
+      "prompt_ar": "يجب على جميع أعضاء الفريق الالتزام بـ ______.",
+      "answer": "Absprachen",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Absprachen",
+        "die Absprachen"
+      ],
+      "completedSentence_de": "Alle Teammitglieder müssen sich an die Absprachen halten.",
+      "completedSentence_ar": "يجب على جميع أعضاء الفريق الالتزام بالاتفاقات.",
+      "vocabularyRefs": [
+        "b2u03-v006",
+        "b2u03-v041"
+      ]
+    },
+    {
+      "id": "b2u03-e010",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Die neue Kollegin bringt frischen ______ ins Team.",
+      "prompt_ar": "تجلب الزميلة الجديدة ______ جديدًا إلى الفريق.",
+      "answer": "Wind",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wind"
+      ],
+      "completedSentence_de": "Die neue Kollegin bringt frischen Wind ins Team.",
+      "completedSentence_ar": "تجلب الزميلة الجديدة أفكارًا وطاقة جديدة إلى الفريق.",
+      "vocabularyRefs": [
+        "b2u03-v042"
+      ]
+    },
+    {
+      "id": "b2u03-e011",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Mit zu vielen Aufgaben fühlte sich der Praktikant völlig ______.",
+      "prompt_ar": "شعر المتدرب بأنه ______ تمامًا بسبب كثرة المهام.",
+      "answer": "überfordert",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "überfordert"
+      ],
+      "completedSentence_de": "Mit zu vielen Aufgaben fühlte sich der Praktikant völlig überfordert.",
+      "completedSentence_ar": "شعر المتدرب بأنه مثقل وغير قادر على مجاراة المتطلبات.",
+      "vocabularyRefs": [
+        "b2u03-v039"
+      ]
+    },
+    {
+      "id": "b2u03-e012",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Wenn etwas unklar ist, sollten Sie sofort ______.",
+      "prompt_ar": "إذا كان شيء غير واضح فينبغي أن ______ فورًا.",
+      "answer": "nachfragen",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "nachfragen"
+      ],
+      "completedSentence_de": "Wenn etwas unklar ist, sollten Sie sofort nachfragen.",
+      "completedSentence_ar": "إذا كان شيء غير واضح فينبغي الاستفسار فورًا.",
+      "vocabularyRefs": [
+        "b2u03-v049"
+      ]
+    },
+    {
+      "id": "b2u03-e013",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Nach langer Diskussion hat sich das Team auf einen Termin ______.",
+      "prompt_ar": "بعد نقاش طويل ______ الفريق على موعد.",
+      "answer": "geeinigt",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "geeinigt"
+      ],
+      "completedSentence_de": "Nach langer Diskussion hat sich das Team auf einen Termin geeinigt.",
+      "completedSentence_ar": "بعد نقاش طويل اتفق الفريق على موعد.",
+      "vocabularyRefs": [
+        "b2u03-v055"
+      ]
+    },
+    {
+      "id": "b2u03-e014",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Für die neue Werbekampagne werden zwei ______ besprochen.",
+      "prompt_ar": "تُناقش ______ إعلانيتان للحملة الجديدة.",
+      "answer": "Werbeentwürfe",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Werbeentwürfe",
+        "die Werbeentwürfe"
+      ],
+      "completedSentence_de": "Für die neue Werbekampagne werden zwei Werbeentwürfe besprochen.",
+      "completedSentence_ar": "تُناقش مسودتان إعلانيتان للحملة الجديدة.",
+      "vocabularyRefs": [
+        "b2u03-v023"
+      ]
+    },
+    {
+      "id": "b2u03-e015",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Teamrollen",
+      "title_ar": "أدوار الفريق",
+      "prompt_de": "Ordnen Sie jede Teamrolle der passenden Beschreibung zu.",
+      "prompt_ar": "صِل كل دور في الفريق بالوصف المناسب.",
+      "answer": {
+        "der Macher / die Macherin": "setzt Ideen praktisch und schnell um",
+        "der Konservative / die Konservative": "achtet auf Sicherheit und bewährte Abläufe",
+        "der Analytiker / die Analytikerin": "prüft Informationen systematisch",
+        "der Visionär / die Visionärin": "entwickelt neue und langfristige Ideen"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Macher / die Macherin",
+          "setzt Ideen praktisch und schnell um"
+        ],
+        [
+          "der Konservative / die Konservative",
+          "achtet auf Sicherheit und bewährte Abläufe"
+        ],
+        [
+          "der Analytiker / die Analytikerin",
+          "prüft Informationen systematisch"
+        ],
+        [
+          "der Visionär / die Visionärin",
+          "entwickelt neue und langfristige Ideen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v025",
+        "b2u03-v026",
+        "b2u03-v027",
+        "b2u03-v028"
+      ]
+    },
+    {
+      "id": "b2u03-e016",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Besprechung und Protokoll",
+      "title_ar": "الاجتماع والمحضر",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بالشروحات المناسبة.",
+      "answer": {
+        "die Tagesordnung": "Liste der Besprechungsthemen",
+        "der Tagesordnungspunkt": "ein einzelnes Thema der Sitzung",
+        "die Sitzungsleitung": "moderiert und strukturiert das Gespräch",
+        "der Protokollant": "hält Ergebnisse schriftlich fest"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Tagesordnung",
+          "Liste der Besprechungsthemen"
+        ],
+        [
+          "der Tagesordnungspunkt",
+          "ein einzelnes Thema der Sitzung"
+        ],
+        [
+          "die Sitzungsleitung",
+          "moderiert und strukturiert das Gespräch"
+        ],
+        [
+          "der Protokollant",
+          "hält Ergebnisse schriftlich fest"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v019",
+        "b2u03-v018",
+        "b2u03-v020",
+        "b2u03-v021"
+      ]
+    },
+    {
+      "id": "b2u03-e017",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Neu im Team",
+      "title_ar": "موظف جديد في الفريق",
+      "prompt_de": "Ordnen Sie Verhalten und Wirkung zu.",
+      "prompt_ar": "صِل السلوك بأثره المناسب.",
+      "answer": {
+        "sich an Absprachen halten": "schafft Verlässlichkeit",
+        "Klatsch und Tratsch vermeiden": "schützt Vertrauen",
+        "Verbesserungsvorschläge machen": "unterstützt Entwicklung",
+        "unvoreingenommen bleiben": "verhindert vorschnelle Urteile"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "sich an Absprachen halten",
+          "schafft Verlässlichkeit"
+        ],
+        [
+          "Klatsch und Tratsch vermeiden",
+          "schützt Vertrauen"
+        ],
+        [
+          "Verbesserungsvorschläge machen",
+          "unterstützt Entwicklung"
+        ],
+        [
+          "unvoreingenommen bleiben",
+          "verhindert vorschnelle Urteile"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v041",
+        "b2u03-v009",
+        "b2u03-v007",
+        "b2u03-v040"
+      ]
+    },
+    {
+      "id": "b2u03-e018",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Eigenschaften im Team",
+      "title_ar": "صفات داخل الفريق",
+      "prompt_de": "Ordnen Sie die Eigenschaften den Erklärungen zu.",
+      "prompt_ar": "صِل الصفات بالشروحات المناسبة.",
+      "answer": {
+        "konstruktiv": "auf Verbesserung und Lösung ausgerichtet",
+        "systematisch": "nach einem klaren Plan",
+        "inspirierend": "regt zu neuen Ideen an",
+        "praktisch veranlagt": "bevorzugt direkt umsetzbare Lösungen"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "konstruktiv",
+          "auf Verbesserung und Lösung ausgerichtet"
+        ],
+        [
+          "systematisch",
+          "nach einem klaren Plan"
+        ],
+        [
+          "inspirierend",
+          "regt zu neuen Ideen an"
+        ],
+        [
+          "praktisch veranlagt",
+          "bevorzugt direkt umsetzbare Lösungen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v032",
+        "b2u03-v031",
+        "b2u03-v033",
+        "b2u03-v036"
+      ]
+    },
+    {
+      "id": "b2u03-e019",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Teamarbeit",
+      "title_ar": "العمل الجماعي",
+      "prompt_de": "Ordnen Sie die Ausdrücke den Bedeutungen zu.",
+      "prompt_ar": "صِل العبارات بالمعاني.",
+      "answer": {
+        "den Überblick behalten": "die wichtigsten Zusammenhänge weiter erkennen",
+        "allein nicht weiterkommen": "ohne Hilfe keine Lösung finden",
+        "sich gegenseitig ergänzen": "unterschiedliche Stärken verbinden",
+        "eine Aufgabe bewältigen": "eine schwierige Aufgabe erfolgreich erledigen"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "den Überblick behalten",
+          "die wichtigsten Zusammenhänge weiter erkennen"
+        ],
+        [
+          "allein nicht weiterkommen",
+          "ohne Hilfe keine Lösung finden"
+        ],
+        [
+          "sich gegenseitig ergänzen",
+          "unterschiedliche Stärken verbinden"
+        ],
+        [
+          "eine Aufgabe bewältigen",
+          "eine schwierige Aufgabe erfolgreich erledigen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v061",
+        "b2u03-v065",
+        "b2u03-v059",
+        "b2u03-v067"
+      ]
+    },
+    {
+      "id": "b2u03-e020",
+      "unit": 3,
+      "type": "sentence_build",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Formulieren Sie im Passiv Präteritum: Der Chef erklärte das Computersystem.",
+      "prompt_ar": "حوّل إلى المبني للمجهول في الماضي البسيط: شرح المدير نظام الكمبيوتر.",
+      "answer": "Das Computersystem wurde vom Chef erklärt.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Das Computersystem wurde vom Chef erklärt."
+      ],
+      "grammarFocus": "wurde/wurden + Partizip II",
+      "vocabularyRefs": []
+    },
+    {
+      "id": "b2u03-e021",
+      "unit": 3,
+      "type": "sentence_build",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Formulieren Sie im Passiv Präteritum: Die Vorgesetzte gab die ersten Arbeitsaufträge.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: أعطت الرئيسة مهام العمل الأولى.",
+      "answer": "Die ersten Arbeitsaufträge wurden von der Vorgesetzten gegeben.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die ersten Arbeitsaufträge wurden von der Vorgesetzten gegeben."
+      ],
+      "grammarFocus": "wurden + Partizip II",
+      "reusedVocabularyRefs": [
+        "b2u02-v024"
+      ]
+    },
+    {
+      "id": "b2u03-e022",
+      "unit": 3,
+      "type": "sentence_build",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Formulieren Sie im Passiv Präteritum: Eine Kundin bot der neuen Kollegin eine Beratung an.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: عرضت زبونة على الزميلة الجديدة استشارة.",
+      "answer": "Der neuen Kollegin wurde von einer Kundin eine Beratung angeboten.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der neuen Kollegin wurde von einer Kundin eine Beratung angeboten.",
+        "Der neuen Kollegin wurde eine Beratung von einer Kundin angeboten."
+      ],
+      "grammarFocus": "Passiv mit Dativobjekt: Der Dativ bleibt Dativ."
+    },
+    {
+      "id": "b2u03-e023",
+      "unit": 3,
+      "type": "sentence_build",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Formulieren Sie im Passiv Präteritum: Lena zeigte der IT-Beauftragten die Teeküche.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: أرت لينا مسؤولة تقنية المعلومات مطبخ القهوة.",
+      "answer": "Der IT-Beauftragten wurde von Lena die Teeküche gezeigt.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der IT-Beauftragten wurde von Lena die Teeküche gezeigt.",
+        "Die Teeküche wurde der IT-Beauftragten von Lena gezeigt."
+      ],
+      "grammarFocus": "Passiv mit Dativobjekt"
+    },
+    {
+      "id": "b2u03-e024",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Die neue Kollegin ______ dem Team vorgestellt.",
+      "prompt_ar": "______ الزميلة الجديدة للفريق.",
+      "answer": "wurde",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "wurde"
+      ],
+      "completedSentence_de": "Die neue Kollegin wurde dem Team vorgestellt.",
+      "completedSentence_ar": "تم تقديم الزميلة الجديدة إلى الفريق.",
+      "grammarFocus": "Präteritum von werden"
+    },
+    {
+      "id": "b2u03-e025",
+      "unit": 3,
+      "type": "fill_blank",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي البسيط",
+      "prompt_de": "Die wichtigen Entscheidungen ______ in der Sitzung getroffen.",
+      "prompt_ar": "______ القرارات المهمة في الاجتماع.",
+      "answer": "wurden",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "wurden"
+      ],
+      "completedSentence_de": "Die wichtigen Entscheidungen wurden in der Sitzung getroffen.",
+      "completedSentence_ar": "اتُخذت القرارات المهمة في الاجتماع.",
+      "grammarFocus": "Plural: wurden + Partizip II"
+    },
+    {
+      "id": "b2u03-e026",
+      "unit": 3,
+      "type": "email_order",
+      "title_de": "Sich per E-Mail vorstellen",
+      "title_ar": "التعريف بالنفس عبر البريد",
+      "prompt_de": "Bringen Sie die Teile der E-Mail in eine sinnvolle Reihenfolge.",
+      "prompt_ar": "رتّب أجزاء رسالة التعريف بالنفس ترتيبًا منطقيًا.",
+      "answer": [
+        "betreff",
+        "anrede",
+        "person",
+        "erfahrung",
+        "aufgaben",
+        "zusammenarbeit",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "aufgaben",
+          "text": "Ich betreue künftig Kunden und Geschäftspartner."
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "betreff",
+          "text": "Betreff: Ihre neue Ansprechpartnerin"
+        },
+        {
+          "id": "zusammenarbeit",
+          "text": "Ich freue mich darauf, Sie kennenzulernen, und hoffe auf gute Zusammenarbeit."
+        },
+        {
+          "id": "anrede",
+          "text": "Liebe Kundinnen und Kunden,"
+        },
+        {
+          "id": "person",
+          "text": "Mein Name ist Sofia Adu und ich bin seit Anfang April neu im Team."
+        },
+        {
+          "id": "erfahrung",
+          "text": "Ich habe Erfahrung im Restaurantfach und in der Kundenkommunikation."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u03-v012",
+        "b2u03-v013",
+        "b2u03-v069",
+        "b2u03-v070"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u03-e027",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Sich vorstellen",
+      "title_ar": "التعريف بالنفس",
+      "prompt_de": "Welche Information gehört in eine berufliche Vorstellungs-E-Mail?",
+      "prompt_ar": "أي معلومة تناسب رسالة تعريف مهنية؟",
+      "answer": "Name, berufliche Erfahrung und zukünftige Aufgaben",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Name, berufliche Erfahrung und zukünftige Aufgaben",
+        "private Gerüchte über Kollegen",
+        "die vollständige Familiengeschichte",
+        "Kritik an der bisherigen Firma"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v070"
+      ]
+    },
+    {
+      "id": "b2u03-e028",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Betreffzeile",
+      "title_ar": "عنوان البريد",
+      "prompt_de": "Welcher Betreff passt zu einer Vorstellungs-E-Mail?",
+      "prompt_ar": "أي عنوان يناسب رسالة تعريف بالنفس؟",
+      "answer": "Neue Ansprechpartnerin im Kundenservice",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Neue Ansprechpartnerin im Kundenservice",
+        "Problem mit der Heizungsanlage",
+        "Reklamation einer Lieferung",
+        "Kündigung des Mietvertrags"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v012",
+        "b2u03-v016"
+      ]
+    },
+    {
+      "id": "b2u03-e029",
+      "unit": 3,
+      "type": "guided_writing",
+      "title_de": "Vorstellungs-E-Mail",
+      "title_ar": "رسالة تعريف بالنفس",
+      "prompt_de": "Schreiben Sie eine E-Mail mit 80–100 Wörtern, in der Sie sich einem neuen Team oder Kunden vorstellen.",
+      "prompt_ar": "اكتب رسالة من 80–100 كلمة تعرف فيها بنفسك لفريق أو زبائن جدد.",
+      "answer": {
+        "requiredConcepts": [
+          "Name und aktuelle Aufgabe",
+          "berufliche Erfahrung oder Ausbildung",
+          "zukünftige Zuständigkeiten",
+          "Wunsch nach guter Zusammenarbeit",
+          "passende Grußformel"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u03-v070",
+        "b2u03-v012",
+        "b2u03-v013",
+        "b2u03-v069"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u03-e030",
+      "unit": 3,
+      "type": "multiple_choice",
+      "title_de": "Das Protokoll",
+      "title_ar": "محضر الاجتماع",
+      "prompt_de": "Welche Information gehört unbedingt in ein Sitzungsprotokoll?",
+      "prompt_ar": "أي معلومة يجب أن ترد في محضر الاجتماع؟",
+      "answer": "Ergebnisse, Zuständigkeiten und Termine",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ergebnisse, Zuständigkeiten und Termine",
+        "private Meinungen über alle Teilnehmenden",
+        "Gerüchte aus dem Betrieb",
+        "nur die Begrüßung"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v017"
+      ]
+    },
+    {
+      "id": "b2u03-e031",
+      "unit": 3,
+      "type": "sentence_order",
+      "title_de": "Protokollaufbau",
+      "title_ar": "بنية المحضر",
+      "prompt_de": "Ordnen Sie die Bestandteile eines Protokolls.",
+      "prompt_ar": "رتّب مكونات محضر الاجتماع.",
+      "answer": [
+        "Datum und Uhrzeit",
+        "Anwesende und Entschuldigte",
+        "Sitzungsleitung und Protokollführung",
+        "Tagesordnungspunkte mit Ergebnissen",
+        "Termin der nächsten Sitzung"
+      ],
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Tagesordnungspunkte mit Ergebnissen",
+        "Termin der nächsten Sitzung",
+        "Anwesende und Entschuldigte",
+        "Datum und Uhrzeit",
+        "Sitzungsleitung und Protokollführung"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v017",
+        "b2u03-v020",
+        "b2u03-v021",
+        "b2u03-v018"
+      ]
+    },
+    {
+      "id": "b2u03-e032",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Protokoll: Wer macht was?",
+      "title_ar": "المحضر: من يفعل ماذا؟",
+      "prompt_de": "Ordnen Sie Aufgabe und verantwortliche Person zu.",
+      "prompt_ar": "صِل المهمة بالشخص المسؤول.",
+      "answer": {
+        "Werbeentwürfe vorbereiten": "Werbeteam",
+        "Protokoll schreiben": "Protokollantin",
+        "Sitzung moderieren": "Sitzungsleitung",
+        "Aushilfskräfte suchen": "Personalverantwortliche"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Werbeentwürfe vorbereiten",
+          "Werbeteam"
+        ],
+        [
+          "Protokoll schreiben",
+          "Protokollantin"
+        ],
+        [
+          "Sitzung moderieren",
+          "Sitzungsleitung"
+        ],
+        [
+          "Aushilfskräfte suchen",
+          "Personalverantwortliche"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v023",
+        "b2u03-v057",
+        "b2u03-v020",
+        "b2u03-v024"
+      ]
+    },
+    {
+      "id": "b2u03-e033",
+      "unit": 3,
+      "type": "guided_writing",
+      "title_de": "Kurzprotokoll",
+      "title_ar": "محضر مختصر",
+      "prompt_de": "Schreiben Sie anhand der Stichpunkte ein kurzes Protokoll.",
+      "prompt_ar": "اكتب محضرًا قصيرًا اعتمادًا على النقاط.",
+      "answer": {
+        "meetingData": {
+          "date": "15. Mai, 10:00–10:45",
+          "participants": [
+            "Frau Adu",
+            "Herr Krüger",
+            "Lena Wächter"
+          ],
+          "topics": [
+            "zwei Aushilfskräfte für den Sommer suchen",
+            "Werbeentwurf bis Freitag überarbeiten",
+            "nächste Sitzung am 22. Mai"
+          ]
+        },
+        "requiredConcepts": [
+          "Datum und Teilnehmende",
+          "Tagesordnungspunkte",
+          "Ergebnisse",
+          "wer macht was bis wann",
+          "nächster Termin"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u03-v017",
+        "b2u03-v018",
+        "b2u03-v024",
+        "b2u03-v023"
+      ]
+    },
+    {
+      "id": "b2u03-e034",
+      "unit": 3,
+      "type": "dialogue_choice",
+      "title_de": "Sich zu Wort melden",
+      "title_ar": "طلب الكلام",
+      "prompt_de": "Welche Formulierung ist höflich?",
+      "prompt_ar": "أي صياغة مهذبة لطلب الكلام؟",
+      "answer": "Darf ich zu diesem Punkt noch etwas ergänzen?",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Darf ich zu diesem Punkt noch etwas ergänzen?",
+        "Jetzt rede ich!",
+        "Alle anderen sollen schweigen.",
+        "Das interessiert mich nicht."
+      ],
+      "vocabularyRefs": [
+        "b2u03-v048"
+      ]
+    },
+    {
+      "id": "b2u03-e035",
+      "unit": 3,
+      "type": "dialogue_choice",
+      "title_de": "Nachfragen",
+      "title_ar": "الاستفسار",
+      "prompt_de": "Welche Formulierung prüft, ob man etwas richtig verstanden hat?",
+      "prompt_ar": "أي صياغة تتأكد من الفهم الصحيح؟",
+      "answer": "Habe ich richtig verstanden, dass Frau Adu den Kundenkontakt übernimmt?",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Habe ich richtig verstanden, dass Frau Adu den Kundenkontakt übernimmt?",
+        "Das stimmt bestimmt nicht.",
+        "Warum sagen Sie mir das?",
+        "Ich höre nicht mehr zu."
+      ],
+      "vocabularyRefs": [
+        "b2u03-v049"
+      ]
+    },
+    {
+      "id": "b2u03-e036",
+      "unit": 3,
+      "type": "dialogue_choice",
+      "title_de": "Vorschlag machen",
+      "title_ar": "تقديم اقتراح",
+      "prompt_de": "Welche Formulierung ist ein Alternativvorschlag?",
+      "prompt_ar": "أي صياغة تقدم اقتراحًا بديلًا؟",
+      "answer": "Wenn Freitag nicht möglich ist, könnten wir die Sitzung auf Montag verschieben.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wenn Freitag nicht möglich ist, könnten wir die Sitzung auf Montag verschieben.",
+        "Das ist falsch.",
+        "Ich lehne alles ab.",
+        "Darüber spreche ich nicht."
+      ],
+      "vocabularyRefs": [
+        "b2u03-v050",
+        "b2u03-v054"
+      ]
+    },
+    {
+      "id": "b2u03-e037",
+      "unit": 3,
+      "type": "dialogue_choice",
+      "title_de": "Zustimmen und ablehnen",
+      "title_ar": "الموافقة والرفض",
+      "prompt_de": "Welche Ablehnung ist professionell begründet?",
+      "prompt_ar": "أي رفض مهني ومعلل؟",
+      "answer": "Den Vorschlag kann ich so nicht unterstützen, weil uns dafür Personal fehlt.",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Den Vorschlag kann ich so nicht unterstützen, weil uns dafür Personal fehlt.",
+        "Nein, einfach nein.",
+        "Das ist eine dumme Idee.",
+        "Machen Sie, was Sie wollen."
+      ],
+      "vocabularyRefs": [
+        "b2u03-v051",
+        "b2u03-v052"
+      ]
+    },
+    {
+      "id": "b2u03-e038",
+      "unit": 3,
+      "type": "sentence_order",
+      "title_de": "Eine Einigung erzielen",
+      "title_ar": "التوصل إلى اتفاق",
+      "prompt_de": "Ordnen Sie den Gesprächsverlauf sinnvoll.",
+      "prompt_ar": "رتّب مراحل النقاش للوصول إلى اتفاق.",
+      "answer": [
+        "Problem sachlich äußern",
+        "Vorschläge sammeln",
+        "Vor- und Nachteile besprechen",
+        "Alternativvorschlag formulieren",
+        "sich auf eine Lösung einigen"
+      ],
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Vorschläge sammeln",
+        "sich auf eine Lösung einigen",
+        "Problem sachlich äußern",
+        "Alternativvorschlag formulieren",
+        "Vor- und Nachteile besprechen"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v053",
+        "b2u03-v050",
+        "b2u03-v054",
+        "b2u03-v055"
+      ]
+    },
+    {
+      "id": "b2u03-e039",
+      "unit": 3,
+      "type": "scenario_choice",
+      "title_de": "Welche Teamrolle?",
+      "title_ar": "ما دور الفريق المناسب؟",
+      "prompt_de": "Eine Person erstellt genaue Pläne, vergleicht Daten und prüft Risiken. Welche Teamrolle passt?",
+      "prompt_ar": "شخص يضع خططًا دقيقة ويقارن البيانات ويفحص المخاطر. ما الدور المناسب؟",
+      "answer": "der Analytiker / die Analytikerin",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Analytiker / die Analytikerin",
+        "der Macher / die Macherin",
+        "der Visionär / die Visionärin",
+        "der Konservative / die Konservative"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v027"
+      ]
+    },
+    {
+      "id": "b2u03-e040",
+      "unit": 3,
+      "type": "scenario_choice",
+      "title_de": "Welche Teamrolle?",
+      "title_ar": "ما دور الفريق المناسب؟",
+      "prompt_de": "Eine Person hat viele ungewöhnliche Ideen und denkt langfristig. Welche Teamrolle passt?",
+      "prompt_ar": "شخص لديه أفكار غير مألوفة ويفكر على المدى الطويل. ما الدور المناسب؟",
+      "answer": "der Visionär / die Visionärin",
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Visionär / die Visionärin",
+        "der Analytiker / die Analytikerin",
+        "der Konservative / die Konservative",
+        "der Protokollant / die Protokollantin"
+      ],
+      "vocabularyRefs": [
+        "b2u03-v028"
+      ]
+    },
+    {
+      "id": "b2u03-e041",
+      "unit": 3,
+      "type": "matching",
+      "title_de": "Adjektive und Gegenteile",
+      "title_ar": "الصفات وأضدادها",
+      "prompt_de": "Ordnen Sie die Adjektive ihren Gegenteilen zu.",
+      "prompt_ar": "صِل الصفات بأضدادها.",
+      "answer": {
+        "konstruktiv": "destruktiv",
+        "systematisch": "chaotisch",
+        "inspirierend": "langweilig",
+        "zurückhaltend": "offensiv",
+        "unvoreingenommen": "voreingenommen"
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "konstruktiv",
+          "destruktiv"
+        ],
+        [
+          "systematisch",
+          "chaotisch"
+        ],
+        [
+          "inspirierend",
+          "langweilig"
+        ],
+        [
+          "zurückhaltend",
+          "offensiv"
+        ],
+        [
+          "unvoreingenommen",
+          "voreingenommen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u03-v032",
+        "b2u03-v031",
+        "b2u03-v033",
+        "b2u03-v037",
+        "b2u03-v040"
+      ]
+    },
+    {
+      "id": "b2u03-e042",
+      "unit": 3,
+      "type": "guided_speaking",
+      "title_de": "Teamgespräch führen",
+      "title_ar": "إدارة اجتماع فريق",
+      "prompt_de": "Planen Sie ein Teamgespräch zu einer gemeinsamen Aufgabe.",
+      "prompt_ar": "خطط لاجتماع فريق حول مهمة مشتركة.",
+      "answer": {
+        "situation": "Ihr Team organisiert einen Deutschtest für eine Lerngruppe.",
+        "requiredConcepts": [
+          "Ziel und Termin klären",
+          "Aufgaben gerecht verteilen",
+          "mindestens einen Vorschlag machen",
+          "eine Rückfrage stellen",
+          "einen Alternativvorschlag machen",
+          "sich auf eine Lösung einigen"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_03_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u03-v058",
+        "b2u03-v050",
+        "b2u03-v049",
+        "b2u03-v054",
+        "b2u03-v055"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "b2-course-index-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "level": "B2",
+    "progressKey": "dmt_b2_course_progress_v1",
+    "contentVersion": "2026-07-15"
+  },
+  "units": [
+    {
+      "unit": 1,
+      "slug": "unit-01",
+      "title_de": "Arbeitsräume, Umzug und Probleme im Büro",
+      "title_ar": "أماكن العمل والانتقال والمشكلات في المكتب",
+      "pages": [11, 22],
+      "vocabularyFile": "units/unit-01/vocabulary.json",
+      "exercisesFile": "units/unit-01/exercises.json",
+      "vocabularyCount": 60,
+      "exerciseCount": 28,
+      "enabled": true
+    },
+    {
+      "unit": 2,
+      "slug": "unit-02",
+      "title_de": "Mein eigener Laden – Selbstständigkeit, Arbeitsrecht und Kundenservice",
+      "title_ar": "متجري الخاص – العمل المستقل وقانون العمل وخدمة الزبائن",
+      "pages": [23, 46],
+      "vocabularyFile": "units/unit-02/vocabulary.json",
+      "exercisesFile": "units/unit-02/exercises.json",
+      "vocabularyCount": 76,
+      "exerciseCount": 41,
+      "enabled": true
+    },
+    {
+      "unit": 3,
+      "slug": "unit-03",
+      "title_de": "Arbeit im Team",
+      "title_ar": "العمل ضمن فريق",
+      "pages": [47, 60],
+      "vocabularyFile": "units/unit-03/vocabulary.json",
+      "exercisesFile": "units/unit-03/exercises.json",
+      "vocabularyCount": 70,
+      "exerciseCount": 42,
+      "enabled": true
+    }
+  ]
+}
