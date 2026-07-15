@@ -160,7 +160,7 @@ export default function B2CourseExerciseTrainer({ exercises, unit, isRtl, initia
     return (
       <section className="mx-auto max-w-3xl px-4 py-8" dir={isRtl ? "rtl" : "ltr"}>
         <button type="button" onClick={onClose} className="mb-5 flex min-h-11 items-center gap-2 font-bold text-slate-600">
-          <ArrowLeft size={18} className={isRtl ? "rotate-180" : ""} /> {isRtl ? "العودة إلى الوحدة" : "Zur Einheit"}
+          <ArrowLeft size={18} className={isRtl ? "rotate-180" : ""} /> {isRtl ? "العودة إلى الوحدة" : "Zurück zum Kapitel"}
         </button>
         <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-800">
           <CircleAlert className="mb-3" />
@@ -175,7 +175,7 @@ export default function B2CourseExerciseTrainer({ exercises, unit, isRtl, initia
     <section className="mx-auto max-w-4xl px-4 py-8" dir={isRtl ? "rtl" : "ltr"}>
       <div className="mb-5 flex items-center justify-between gap-3">
         <button type="button" onClick={onClose} className="flex min-h-11 items-center gap-2 font-bold text-slate-600">
-          <ArrowLeft size={18} className={isRtl ? "rotate-180" : ""} /> {isRtl ? "العودة إلى الوحدة" : "Zur Einheit"}
+          <ArrowLeft size={18} className={isRtl ? "rotate-180" : ""} /> {isRtl ? "العودة إلى الوحدة" : "Zurück zum Kapitel"}
         </button>
         <span className="rounded-full bg-slate-900 px-4 py-2 text-xs font-black text-white" dir="ltr">{index + 1} / {exercises.length}</span>
       </div>
