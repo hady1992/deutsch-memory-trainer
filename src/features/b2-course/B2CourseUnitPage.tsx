@@ -35,11 +35,11 @@ export default function B2CourseUnitPage({
     <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8" dir={isRtl ? "rtl" : "ltr"}>
       <button type="button" onClick={onBack} className="mb-5 flex min-h-11 items-center gap-2 text-sm font-bold text-slate-500">
         <ArrowLeft size={17} className={isRtl ? "rotate-180" : ""} />
-        {isRtl ? "كل الوحدات" : "Alle Einheiten"}
+        {isRtl ? "كل الوحدات" : "Alle Kapitel"}
       </button>
 
       <section className="rounded-lg bg-slate-900 p-6 text-white sm:p-8">
-        <p className="text-sm font-black text-blue-300" dir="ltr">Einheit {String(unit.summary.unit).padStart(2, "0")}</p>
+        <p className="text-sm font-black text-blue-300" dir="ltr">Kapitel {String(unit.summary.unit).padStart(2, "0")}</p>
         <h1 className="mt-2 text-2xl font-black sm:text-3xl">
           {isRtl ? unit.summary.title_ar : unit.summary.title_de}
         </h1>
