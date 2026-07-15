@@ -1,0 +1,2266 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 1,
+    "unitTitle_de": "Arbeitsräume, Umzug und Probleme im Büro",
+    "unitTitle_ar": "أماكن العمل والانتقال والمشكلات في المكتب",
+    "sourcePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "items": [
+    {
+      "courseItemId": "b2u01-v001",
+      "identity": "der umzug",
+      "term": "der Umzug",
+      "type": "noun",
+      "arabic": "الانتقال من منزل أو مكتب إلى مكان آخر",
+      "explanation_de": "Der Wechsel von einer Wohnung, einem Büro oder einem anderen Ort an einen neuen Ort.",
+      "explanation_ar": "تُستخدم للكلام عن عملية الانتقال كاملة، بما فيها التعبئة والنقل وتغيير العنوان.",
+      "examples": [
+        {
+          "de": "Unser Umzug ins neue Büro findet am Freitag statt.",
+          "ar": "سيتم انتقالنا إلى المكتب الجديد يوم الجمعة."
+        },
+        {
+          "de": "Für den Umzug haben wir eine professionelle Firma beauftragt.",
+          "ar": "كلّفنا شركة متخصصة بتنفيذ عملية الانتقال."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Umzüge"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          12,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "umzug",
+        "alltag",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v002",
+      "identity": "die umzugsfirma",
+      "term": "die Umzugsfirma",
+      "type": "noun",
+      "arabic": "شركة نقل الأثاث والأغراض",
+      "explanation_de": "Eine Firma, die Möbel und Kartons von einem Ort zu einem anderen transportiert.",
+      "explanation_ar": "شركة متخصصة بنقل الأثاث والصناديق، وقد تقدم أيضًا الفك والتركيب والتعبئة.",
+      "examples": [
+        {
+          "de": "Die Umzugsfirma besichtigt zuerst unser Büro.",
+          "ar": "تعاين شركة النقل مكتبنا أولًا."
+        },
+        {
+          "de": "Wir vergleichen die Preise von drei Umzugsfirmen.",
+          "ar": "نقارن أسعار ثلاث شركات نقل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Umzugsfirmen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          12,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "umzug",
+        "dienstleistung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v003",
+      "identity": "der umzugskarton",
+      "term": "der Umzugskarton",
+      "type": "noun",
+      "arabic": "صندوق مخصص للانتقال",
+      "explanation_de": "Ein stabiler Karton, in den man Gegenstände für einen Umzug packt.",
+      "explanation_ar": "صندوق قوي يُستخدم لتعبئة الأغراض عند الانتقال.",
+      "examples": [
+        {
+          "de": "Bitte beschriften Sie jeden Umzugskarton deutlich.",
+          "ar": "يرجى كتابة محتوى كل صندوق انتقال بوضوح."
+        },
+        {
+          "de": "Die Bücher kommen in kleine Umzugskartons.",
+          "ar": "توضع الكتب في صناديق انتقال صغيرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Umzugskartons"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          18,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "umzug",
+        "verpackung"
+      ],
+      "globalRef": "nouns:noun_0023",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v004",
+      "identity": "das angebot",
+      "term": "das Angebot",
+      "type": "noun",
+      "arabic": "عرض أو عرض سعر",
+      "explanation_de": "Eine schriftliche oder mündliche Information über Preis, Leistungen und Bedingungen.",
+      "explanation_ar": "عرض يوضح السعر والخدمات والشروط، ويُطلب عادةً قبل تكليف شركة.",
+      "examples": [
+        {
+          "de": "Die Firma hat uns ein detailliertes Angebot geschickt.",
+          "ar": "أرسلت لنا الشركة عرضًا مفصلًا."
+        },
+        {
+          "de": "Dieses Angebot ist günstiger, enthält aber weniger Leistungen.",
+          "ar": "هذا العرض أرخص، لكنه يتضمن خدمات أقل."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Angebote"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19
+        ],
+        "section": "Ein Angebot einholen"
+      },
+      "tags": [
+        "angebot",
+        "preis",
+        "dienstleistung"
+      ],
+      "globalRef": "nouns:noun_0133",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v005",
+      "identity": "der besichtigungstermin",
+      "term": "der Besichtigungstermin",
+      "type": "noun",
+      "arabic": "موعد المعاينة",
+      "explanation_de": "Ein vereinbarter Termin, an dem man Räume, eine Wohnung oder ein Objekt ansieht.",
+      "explanation_ar": "موعد متفق عليه لمعاينة شقة أو مكتب أو عقار قبل اتخاذ قرار.",
+      "examples": [
+        {
+          "de": "Der Besichtigungstermin ist am Mittwoch um 16 Uhr.",
+          "ar": "موعد المعاينة يوم الأربعاء الساعة الرابعة."
+        },
+        {
+          "de": "Könnten wir den Besichtigungstermin verschieben?",
+          "ar": "هل يمكننا تأجيل موعد المعاينة؟"
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Besichtigungstermine"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          16,
+          19
+        ],
+        "section": "Besichtigung und Planung"
+      },
+      "tags": [
+        "termin",
+        "immobilien"
+      ],
+      "globalRef": "nouns:noun_0025",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v006",
+      "identity": "das stockwerk",
+      "term": "das Stockwerk",
+      "type": "noun",
+      "arabic": "الطابق",
+      "explanation_de": "Eine Ebene in einem mehrstöckigen Gebäude.",
+      "explanation_ar": "مستوى أو طابق ضمن مبنى يتكون من عدة طوابق.",
+      "examples": [
+        {
+          "de": "Das neue Büro liegt im dritten Stockwerk.",
+          "ar": "يقع المكتب الجديد في الطابق الثالث."
+        },
+        {
+          "de": "In welchem Stockwerk befindet sich die Werkstatt?",
+          "ar": "في أي طابق تقع الورشة؟"
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Stockwerke"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "gebäude",
+        "lage"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v007",
+      "identity": "der aufzug",
+      "term": "der Aufzug",
+      "type": "noun",
+      "arabic": "المصعد",
+      "explanation_de": "Eine technische Anlage, die Personen oder Gegenstände zwischen Stockwerken transportiert.",
+      "explanation_ar": "وسيلة داخل المبنى لنقل الأشخاص أو الأغراض بين الطوابق.",
+      "examples": [
+        {
+          "de": "Im Gebäude gibt es leider keinen Aufzug.",
+          "ar": "للأسف لا يوجد مصعد في المبنى."
+        },
+        {
+          "de": "Die schweren Möbel werden mit dem Aufzug transportiert.",
+          "ar": "يتم نقل الأثاث الثقيل بالمصعد."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Aufzüge"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19,
+          21
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "gebäude",
+        "transport"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v008",
+      "identity": "die parkmöglichkeit",
+      "term": "die Parkmöglichkeit",
+      "type": "noun",
+      "arabic": "إمكانية أو مكان لركن السيارة",
+      "explanation_de": "Eine Möglichkeit, ein Fahrzeug in der Nähe eines Ortes abzustellen.",
+      "explanation_ar": "مكان أو خيار متاح لركن السيارة أو شاحنة النقل.",
+      "examples": [
+        {
+          "de": "Im Hof gibt es eine Parkmöglichkeit für den Transporter.",
+          "ar": "توجد في الفناء إمكانية لركن سيارة النقل."
+        },
+        {
+          "de": "Die fehlende Parkmöglichkeit erschwert den Umzug.",
+          "ar": "عدم توفر مكان للركن يصعّب الانتقال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Parkmöglichkeiten"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "parken",
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v009",
+      "identity": "die einbauküche",
+      "term": "die Einbauküche",
+      "type": "noun",
+      "arabic": "المطبخ المركّب أو المدمج",
+      "explanation_de": "Eine Küche, deren Schränke und Geräte fest an den Raum angepasst und eingebaut sind.",
+      "explanation_ar": "مطبخ مركب ومثبت داخل المكان، وغالبًا يبقى عند الانتقال.",
+      "examples": [
+        {
+          "de": "Die Einbauküche bleibt in der alten Wohnung.",
+          "ar": "سيبقى المطبخ المركب في الشقة القديمة."
+        },
+        {
+          "de": "Ist die Einbauküche im Mietpreis enthalten?",
+          "ar": "هل المطبخ المركب مشمول في الإيجار؟"
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Einbauküchen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "wohnung",
+        "möbel"
+      ],
+      "globalRef": "nouns:noun_0014",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v010",
+      "identity": "der mietvertrag",
+      "term": "der Mietvertrag",
+      "type": "noun",
+      "arabic": "عقد الإيجار",
+      "explanation_de": "Ein Vertrag zwischen Vermieter und Mieter über die Nutzung einer Wohnung oder eines Raums.",
+      "explanation_ar": "اتفاق قانوني يحدد شروط استئجار شقة أو مكتب أو محل.",
+      "examples": [
+        {
+          "de": "Wir unterschreiben den Mietvertrag erst nach der Besichtigung.",
+          "ar": "سنوقّع عقد الإيجار بعد المعاينة فقط."
+        },
+        {
+          "de": "Im Mietvertrag stehen die Kündigungsfrist und die Nebenkosten.",
+          "ar": "يتضمن عقد الإيجار مهلة الإنهاء والتكاليف الإضافية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Mietverträge"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          17,
+          18
+        ],
+        "section": "Mieten und Gewerberäume"
+      },
+      "tags": [
+        "miete",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v011",
+      "identity": "der nachsendeauftrag",
+      "term": "der Nachsendeauftrag",
+      "type": "noun",
+      "arabic": "طلب تحويل البريد إلى العنوان الجديد",
+      "explanation_de": "Ein Auftrag an die Post, Briefe von der alten an die neue Adresse weiterzuleiten.",
+      "explanation_ar": "طلب يُقدّم للبريد لتحويل الرسائل من العنوان القديم إلى العنوان الجديد.",
+      "examples": [
+        {
+          "de": "Vor dem Umzug stellen wir einen Nachsendeauftrag.",
+          "ar": "سنقدم طلب تحويل البريد قبل الانتقال."
+        },
+        {
+          "de": "Der Nachsendeauftrag gilt für zwölf Monate.",
+          "ar": "يسري طلب تحويل البريد لمدة اثني عشر شهرًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Nachsendeaufträge"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          18
+        ],
+        "section": "Umzug organisieren"
+      },
+      "tags": [
+        "post",
+        "adresse",
+        "umzug"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v012",
+      "identity": "der einkommensnachweis",
+      "term": "der Einkommensnachweis",
+      "type": "noun",
+      "arabic": "إثبات الدخل",
+      "explanation_de": "Ein Dokument, das zeigt, wie hoch das regelmäßige Einkommen einer Person ist.",
+      "explanation_ar": "وثيقة تثبت مقدار الدخل، وقد يطلبها المالك قبل توقيع عقد الإيجار.",
+      "examples": [
+        {
+          "de": "Der Vermieter verlangt einen aktuellen Einkommensnachweis.",
+          "ar": "يطلب المالك إثبات دخل حديثًا."
+        },
+        {
+          "de": "Ich habe den Einkommensnachweis per E-Mail geschickt.",
+          "ar": "أرسلت إثبات الدخل بالبريد الإلكتروني."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Einkommensnachweise"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11
+        ],
+        "section": "Wohnung und Mietvertrag"
+      },
+      "tags": [
+        "dokument",
+        "miete"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v013",
+      "identity": "die kaution",
+      "term": "die Kaution",
+      "type": "noun",
+      "arabic": "تأمين الإيجار",
+      "explanation_de": "Ein Geldbetrag, den ein Mieter als Sicherheit an den Vermieter zahlt.",
+      "explanation_ar": "مبلغ ضمان يدفعه المستأجر، ويُعاد عادةً بعد انتهاء العقد إذا لم توجد أضرار.",
+      "examples": [
+        {
+          "de": "Die Kaution beträgt drei Monatsmieten.",
+          "ar": "تبلغ قيمة التأمين إيجار ثلاثة أشهر."
+        },
+        {
+          "de": "Wir überweisen die Kaution vor der Schlüsselübergabe.",
+          "ar": "سنحوّل مبلغ التأمين قبل تسليم المفاتيح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kautionen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11
+        ],
+        "section": "Wohnung und Mietvertrag"
+      },
+      "tags": [
+        "miete",
+        "geld"
+      ],
+      "globalRef": "nouns:noun_0024",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v014",
+      "identity": "der grundriss",
+      "term": "der Grundriss",
+      "type": "noun",
+      "arabic": "مخطط توزيع الغرف",
+      "explanation_de": "Eine zeichnerische Darstellung der Räume und ihrer Anordnung in einem Gebäude.",
+      "explanation_ar": "رسم يوضح شكل الغرف ومواقعها ومساحاتها داخل الشقة أو المكتب.",
+      "examples": [
+        {
+          "de": "Bitte schicken Sie uns den Grundriss des neuen Büros.",
+          "ar": "يرجى إرسال مخطط المكتب الجديد إلينا."
+        },
+        {
+          "de": "Auf dem Grundriss sieht man zwei Besprechungsräume.",
+          "ar": "يظهر في المخطط غرفتا اجتماعات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Grundrisse"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11
+        ],
+        "section": "Objektsuche"
+      },
+      "tags": [
+        "immobilien",
+        "plan"
+      ],
+      "globalRef": "nouns:noun_0010",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v015",
+      "identity": "die hausverwaltung",
+      "term": "die Hausverwaltung",
+      "type": "noun",
+      "arabic": "إدارة العقار أو المبنى",
+      "explanation_de": "Eine Stelle oder Firma, die ein Gebäude organisatorisch und technisch verwaltet.",
+      "explanation_ar": "الجهة المسؤولة عن إدارة العقار، مثل الصيانة والتواصل مع المستأجرين.",
+      "examples": [
+        {
+          "de": "Ich habe das Problem der Hausverwaltung gemeldet.",
+          "ar": "أبلغت إدارة العقار بالمشكلة."
+        },
+        {
+          "de": "Die Hausverwaltung beauftragt einen Handwerker.",
+          "ar": "ستكلّف إدارة العقار أحد الحرفيين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Hausverwaltungen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          15,
+          21,
+          22
+        ],
+        "section": "Probleme melden"
+      },
+      "tags": [
+        "gebäude",
+        "verwaltung",
+        "reparatur"
+      ],
+      "globalRef": "nouns:noun_0018",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v016",
+      "identity": "die sprechanlage",
+      "term": "die Sprechanlage",
+      "type": "noun",
+      "arabic": "جهاز الاتصال عند مدخل المبنى",
+      "explanation_de": "Eine Anlage, über die man mit Personen am Hauseingang sprechen kann.",
+      "explanation_ar": "جهاز يسمح بالتحدث مع الزائر عند باب المبنى وفتح الباب له.",
+      "examples": [
+        {
+          "de": "Die Sprechanlage funktioniert seit gestern nicht.",
+          "ar": "جهاز الاتصال لا يعمل منذ الأمس."
+        },
+        {
+          "de": "Ein Techniker muss die Sprechanlage überprüfen.",
+          "ar": "يجب أن يفحص فني جهاز الاتصال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Sprechanlagen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          15,
+          21,
+          22
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "technik",
+        "gebäude",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v017",
+      "identity": "die zentralheizung",
+      "term": "die Zentralheizung",
+      "type": "noun",
+      "arabic": "التدفئة المركزية",
+      "explanation_de": "Ein Heizsystem, das mehrere Räume oder ein ganzes Gebäude zentral mit Wärme versorgt.",
+      "explanation_ar": "نظام تدفئة مركزي يزوّد عدة غرف أو المبنى كاملًا بالحرارة.",
+      "examples": [
+        {
+          "de": "Die Zentralheizung muss vor dem Winter überprüft werden.",
+          "ar": "يجب فحص التدفئة المركزية قبل الشتاء."
+        },
+        {
+          "de": "Im Büro ist es kalt, weil die Zentralheizung ausgefallen ist.",
+          "ar": "الجو بارد في المكتب لأن التدفئة المركزية تعطلت."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zentralheizungen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "heizung",
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v018",
+      "identity": "der abfluss",
+      "term": "der Abfluss",
+      "type": "noun",
+      "arabic": "المصرف أو فتحة تصريف المياه",
+      "explanation_de": "Eine Öffnung oder Leitung, durch die Wasser abfließt.",
+      "explanation_ar": "فتحة أو أنبوب تخرج عبره المياه من الحوض أو المغسلة.",
+      "examples": [
+        {
+          "de": "Der Abfluss im Spülbecken ist verstopft.",
+          "ar": "مصرف حوض الجلي مسدود."
+        },
+        {
+          "de": "Wir haben einen Abflussreiniger verwendet.",
+          "ar": "استخدمنا منظفًا للمصرف."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Abflüsse"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "wasser",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v019",
+      "identity": "der rollladen",
+      "term": "der Rollladen",
+      "type": "noun",
+      "arabic": "الستارة الخارجية المتحركة",
+      "explanation_de": "Ein beweglicher Schutz aus Lamellen vor einem Fenster oder einer Tür.",
+      "explanation_ar": "غطاء خارجي متحرك للنوافذ يُستخدم للحماية أو حجب الضوء.",
+      "examples": [
+        {
+          "de": "Der Rollladen lässt sich nicht mehr hochziehen.",
+          "ar": "لم يعد بالإمكان رفع الستارة الخارجية."
+        },
+        {
+          "de": "Die kaputten Rollläden müssen repariert werden.",
+          "ar": "يجب إصلاح الستائر الخارجية المعطلة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Rollläden"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "fenster",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v020",
+      "identity": "die türklinke",
+      "term": "die Türklinke",
+      "type": "noun",
+      "arabic": "مقبض الباب",
+      "explanation_de": "Der Griff, mit dem man eine Tür öffnet oder schließt.",
+      "explanation_ar": "الجزء الذي نمسكه لفتح الباب أو إغلاقه.",
+      "examples": [
+        {
+          "de": "Die Türklinke ist abgebrochen.",
+          "ar": "مقبض الباب مكسور."
+        },
+        {
+          "de": "Der Hausmeister wird die Türklinke austauschen.",
+          "ar": "سيستبدل مسؤول الصيانة مقبض الباب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Türklinken"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "tür",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v021",
+      "identity": "der fenstergriff",
+      "term": "der Fenstergriff",
+      "type": "noun",
+      "arabic": "مقبض النافذة",
+      "explanation_de": "Der Griff, mit dem man ein Fenster öffnet, kippt oder schließt.",
+      "explanation_ar": "مقبض يُستخدم لفتح النافذة أو إمالتها أو إغلاقها.",
+      "examples": [
+        {
+          "de": "Der Fenstergriff klemmt seit einigen Tagen.",
+          "ar": "مقبض النافذة عالق منذ عدة أيام."
+        },
+        {
+          "de": "Bitte tauschen Sie den defekten Fenstergriff aus.",
+          "ar": "يرجى استبدال مقبض النافذة المعطل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Fenstergriffe"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "fenster",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v022",
+      "identity": "der wasserhahn",
+      "term": "der Wasserhahn",
+      "type": "noun",
+      "arabic": "صنبور المياه",
+      "explanation_de": "Eine Vorrichtung, mit der man den Wasserfluss öffnet und schließt.",
+      "explanation_ar": "أداة للتحكم بتدفق المياه وفتحه أو إغلاقه.",
+      "examples": [
+        {
+          "de": "Der Wasserhahn in der Toilette tropft.",
+          "ar": "صنبور المياه في المرحاض يقطر."
+        },
+        {
+          "de": "Ein Installateur soll den Wasserhahn reparieren.",
+          "ar": "يجب أن يصلح سباك صنبور المياه."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Wasserhähne"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme im Büro"
+      },
+      "tags": [
+        "wasser",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v023",
+      "identity": "der gewerberaum",
+      "term": "der Gewerberaum",
+      "type": "noun",
+      "arabic": "عقار أو مساحة مخصصة لنشاط تجاري",
+      "explanation_de": "Ein Raum, der für eine berufliche oder geschäftliche Tätigkeit genutzt wird.",
+      "explanation_ar": "مكان يُستأجر أو يُستخدم لمزاولة نشاط مهني أو تجاري، مثل مكتب أو محل أو ورشة.",
+      "examples": [
+        {
+          "de": "Wir suchen einen Gewerberaum für unsere neue Werkstatt.",
+          "ar": "نبحث عن مساحة تجارية لورشتنا الجديدة."
+        },
+        {
+          "de": "Nicht jeder Gewerberaum darf als Restaurant genutzt werden.",
+          "ar": "لا يجوز استخدام كل عقار تجاري كمطعم."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gewerberäume"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          16,
+          17,
+          18,
+          20
+        ],
+        "section": "Gewerberäume"
+      },
+      "tags": [
+        "gewerbe",
+        "immobilien"
+      ],
+      "globalRef": "nouns:noun_0029",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v024",
+      "identity": "die genehmigung",
+      "term": "die Genehmigung",
+      "type": "noun",
+      "arabic": "الموافقة أو الترخيص الرسمي",
+      "explanation_de": "Eine offizielle Erlaubnis von einer Behörde oder zuständigen Stelle.",
+      "explanation_ar": "إذن رسمي مطلوب للقيام بنشاط معين أو استخدام مكان بطريقة محددة.",
+      "examples": [
+        {
+          "de": "Für den Betrieb einer Bäckerei braucht man eine Genehmigung.",
+          "ar": "يحتاج تشغيل مخبز إلى ترخيص."
+        },
+        {
+          "de": "Die Behörde hat die Genehmigung noch nicht erteilt.",
+          "ar": "لم تمنح الدائرة الرسمية الموافقة بعد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Genehmigungen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "behörde",
+        "gewerbe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v025",
+      "identity": "die hygieneanforderung",
+      "term": "die Hygieneanforderung",
+      "type": "noun",
+      "arabic": "متطلبات النظافة الصحية",
+      "explanation_de": "Eine Vorschrift, die bestimmte hygienische Bedingungen verlangt.",
+      "explanation_ar": "شرط أو قاعدة يجب الالتزام بها لضمان النظافة والصحة، خاصة في المطاعم والمخابز.",
+      "examples": [
+        {
+          "de": "In der Gastronomie gelten strenge Hygieneanforderungen.",
+          "ar": "توجد متطلبات نظافة صارمة في قطاع المطاعم."
+        },
+        {
+          "de": "Der Raum erfüllt alle gesetzlichen Hygieneanforderungen.",
+          "ar": "يستوفي المكان جميع متطلبات النظافة القانونية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Hygieneanforderungen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "hygiene",
+        "vorschrift"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v026",
+      "identity": "die lärmbelästigung",
+      "term": "die Lärmbelästigung",
+      "type": "noun",
+      "arabic": "الإزعاج الناتج عن الضوضاء",
+      "explanation_de": "Eine störende Belastung durch laute Geräusche.",
+      "explanation_ar": "إزعاج سببه صوت مرتفع أو ضجيج يؤثر في الجيران أو العاملين.",
+      "examples": [
+        {
+          "de": "Die Nachbarn beschweren sich über die Lärmbelästigung.",
+          "ar": "يشتكي الجيران من الإزعاج الناتج عن الضوضاء."
+        },
+        {
+          "de": "Eine gute Dämmung reduziert die Lärmbelästigung.",
+          "ar": "العزل الجيد يقلل الإزعاج الناتج عن الضوضاء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lärmbelästigungen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "lärm",
+        "nachbarn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v027",
+      "identity": "die ruhezeit",
+      "term": "die Ruhezeit",
+      "type": "noun",
+      "arabic": "وقت الهدوء",
+      "explanation_de": "Ein Zeitraum, in dem Lärm vermieden werden muss.",
+      "explanation_ar": "فترة يجب خلالها تجنب الضوضاء احترامًا للجيران والقوانين المحلية.",
+      "examples": [
+        {
+          "de": "Während der Ruhezeit dürfen keine lauten Maschinen laufen.",
+          "ar": "لا يجوز تشغيل آلات صاخبة خلال وقت الهدوء."
+        },
+        {
+          "de": "Bitte beachten Sie die Ruhezeiten im Mietvertrag.",
+          "ar": "يرجى مراعاة أوقات الهدوء المذكورة في عقد الإيجار."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ruhezeiten"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "lärm",
+        "regel"
+      ],
+      "globalRef": "nouns:noun_0420",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v028",
+      "identity": "das übergabeprotokoll",
+      "term": "das Übergabeprotokoll",
+      "type": "noun",
+      "arabic": "محضر تسليم العقار",
+      "explanation_de": "Ein Dokument, in dem der Zustand eines Raums bei der Übergabe festgehalten wird.",
+      "explanation_ar": "وثيقة تُسجَّل فيها حالة المكان والأضرار والعيوب عند التسليم.",
+      "examples": [
+        {
+          "de": "Alle Mängel müssen im Übergabeprotokoll stehen.",
+          "ar": "يجب تسجيل جميع العيوب في محضر التسليم."
+        },
+        {
+          "de": "Beide Parteien unterschreiben das Übergabeprotokoll.",
+          "ar": "يوقّع الطرفان محضر التسليم."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Übergabeprotokolle"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "dokument",
+        "miete"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v029",
+      "identity": "der mangel",
+      "term": "der Mangel",
+      "type": "noun",
+      "arabic": "عيب أو نقص",
+      "explanation_de": "Ein Fehler oder eine Beschädigung, durch die etwas nicht in ordnungsgemäßem Zustand ist.",
+      "explanation_ar": "خلل أو ضرر موجود في المكان أو الجهاز ويجب توثيقه أو إصلاحه.",
+      "examples": [
+        {
+          "de": "Wir haben mehrere Mängel im neuen Büro entdeckt.",
+          "ar": "اكتشفنا عدة عيوب في المكتب الجديد."
+        },
+        {
+          "de": "Der Vermieter muss den Mangel beseitigen lassen.",
+          "ar": "يجب على المالك أن يطلب إزالة العيب."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Mängel"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          17
+        ],
+        "section": "Tipps zu Gewerberäumen"
+      },
+      "tags": [
+        "problem",
+        "miete"
+      ],
+      "globalRef": "nouns:noun_0359",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v030",
+      "identity": "der schaden",
+      "term": "der Schaden",
+      "type": "noun",
+      "arabic": "ضرر أو تلف",
+      "explanation_de": "Eine Beschädigung, durch die ein Gegenstand oder Gebäude an Wert oder Funktion verliert.",
+      "explanation_ar": "تلف يصيب شيئًا أو مكانًا ويؤثر في قيمته أو وظيفته.",
+      "examples": [
+        {
+          "de": "Durch das Wasser ist ein Schaden am Boden entstanden.",
+          "ar": "نتج ضرر في الأرضية بسبب المياه."
+        },
+        {
+          "de": "Die Firma soll den Schaden so schnell wie möglich beheben.",
+          "ar": "يجب أن تعالج الشركة الضرر بأسرع وقت ممكن."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Schäden"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15,
+          21
+        ],
+        "section": "Probleme und Reparaturen"
+      },
+      "tags": [
+        "schaden",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v031",
+      "identity": "umziehen",
+      "term": "umziehen",
+      "type": "verb",
+      "arabic": "ينتقل للسكن أو العمل في مكان آخر",
+      "explanation_de": "Den Wohn- oder Arbeitsort wechseln und an einen anderen Ort ziehen.",
+      "explanation_ar": "يُستخدم عند تغيير مكان السكن أو مقر العمل.",
+      "examples": [
+        {
+          "de": "Unsere Firma zieht nächsten Monat in ein größeres Büro um.",
+          "ar": "ستنتقل شركتنا الشهر القادم إلى مكتب أكبر."
+        },
+        {
+          "de": "Adil ist aus beruflichen Gründen nach Stralsund umgezogen.",
+          "ar": "انتقل عادل إلى شترالزوند لأسباب مهنية."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "zog um",
+        "perfekt": "ist umgezogen",
+        "auxiliary": "sein",
+        "separable": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          13,
+          19,
+          20
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "verb",
+        "umzug"
+      ],
+      "globalRef": "verbs:209",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v032",
+      "identity": "besichtigen",
+      "term": "besichtigen",
+      "type": "verb",
+      "arabic": "يعاين أو يزور مكانًا لفحصه",
+      "explanation_de": "Eine Wohnung, einen Raum oder ein Objekt genau ansehen, bevor man sich entscheidet.",
+      "explanation_ar": "يُستخدم لمعاينة عقار أو مكتب قبل الاستئجار أو الشراء.",
+      "examples": [
+        {
+          "de": "Wir haben gestern drei Gewerberäume besichtigt.",
+          "ar": "عاينّا أمس ثلاثة عقارات تجارية."
+        },
+        {
+          "de": "Die Umzugsfirma möchte das Büro vorab besichtigen.",
+          "ar": "تريد شركة النقل معاينة المكتب مسبقًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "besichtigte",
+        "perfekt": "hat besichtigt",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          12,
+          16,
+          18
+        ],
+        "section": "Besichtigung"
+      },
+      "tags": [
+        "verb",
+        "immobilien"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v033",
+      "identity": "renovieren",
+      "term": "renovieren",
+      "type": "verb",
+      "arabic": "يرمم أو يجدد المكان",
+      "explanation_de": "Räume oder Gebäude durch Reparaturen und neue Gestaltung verbessern.",
+      "explanation_ar": "إصلاح المكان وتجديده، مثل طلاء الجدران أو تغيير الأرضية.",
+      "examples": [
+        {
+          "de": "Vor dem Einzug lassen wir die Büroräume renovieren.",
+          "ar": "سنطلب تجديد غرف المكتب قبل الانتقال."
+        },
+        {
+          "de": "Die Kaffeeküche wurde vor einem Monat renoviert.",
+          "ar": "تم تجديد مطبخ القهوة قبل شهر."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "renovierte",
+        "perfekt": "hat renoviert",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          14,
+          18
+        ],
+        "section": "Renovierung"
+      },
+      "tags": [
+        "verb",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v034",
+      "identity": "beauftragen",
+      "term": "beauftragen",
+      "type": "verb",
+      "arabic": "يكلّف جهة أو شخصًا بمهمة",
+      "explanation_de": "Einer Person oder Firma offiziell einen Auftrag geben.",
+      "explanation_ar": "إسناد مهمة إلى شخص أو شركة بشكل رسمي، وغالبًا مقابل أجر.",
+      "examples": [
+        {
+          "de": "Wir beauftragen eine Firma mit dem Umzug.",
+          "ar": "سنكلّف شركة بتنفيذ الانتقال."
+        },
+        {
+          "de": "Die Hausverwaltung hat einen Elektriker beauftragt.",
+          "ar": "كلّفت إدارة العقار كهربائيًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "beauftragte",
+        "perfekt": "hat beauftragt",
+        "auxiliary": "haben",
+        "separable": false,
+        "pattern": "jdn. mit etw. beauftragen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11,
+          12,
+          15
+        ],
+        "section": "Dienstleistungen"
+      },
+      "tags": [
+        "verb",
+        "auftrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v035",
+      "identity": "sich ummelden",
+      "term": "sich ummelden",
+      "type": "verb",
+      "arabic": "يغيّر تسجيل عنوانه رسميًا",
+      "explanation_de": "Nach einem Umzug die neue Adresse bei einer Behörde offiziell registrieren lassen.",
+      "explanation_ar": "تسجيل العنوان الجديد رسميًا لدى البلدية أو الجهة المختصة بعد الانتقال.",
+      "examples": [
+        {
+          "de": "Nach dem Umzug müssen wir uns beim Bürgeramt ummelden.",
+          "ar": "يجب أن نغيّر تسجيل عنواننا لدى البلدية بعد الانتقال."
+        },
+        {
+          "de": "Sie hat sich rechtzeitig an der neuen Adresse umgemeldet.",
+          "ar": "سجلت عنوانها الجديد في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "meldete sich um",
+        "perfekt": "hat sich umgemeldet",
+        "auxiliary": "haben",
+        "separable": true,
+        "reflexive": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11
+        ],
+        "section": "Umzug organisieren"
+      },
+      "tags": [
+        "verb",
+        "behörde"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v036",
+      "identity": "hinterlegen",
+      "term": "hinterlegen",
+      "type": "verb",
+      "arabic": "يودع أو يترك مبلغًا أو وثيقة كضمان",
+      "explanation_de": "Geld oder ein Dokument an einer bestimmten Stelle als Sicherheit abgeben.",
+      "explanation_ar": "إيداع مبلغ أو وثيقة لدى جهة معينة، مثل إيداع تأمين الإيجار.",
+      "examples": [
+        {
+          "de": "Vor der Schlüsselübergabe muss die Kaution hinterlegt werden.",
+          "ar": "يجب إيداع التأمين قبل تسليم المفاتيح."
+        },
+        {
+          "de": "Bitte hinterlegen Sie eine Kopie Ihres Ausweises.",
+          "ar": "يرجى إيداع نسخة من هويتك."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "hinterlegte",
+        "perfekt": "hat hinterlegt",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          11
+        ],
+        "section": "Mietvertrag"
+      },
+      "tags": [
+        "verb",
+        "miete"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v037",
+      "identity": "entsorgen",
+      "term": "entsorgen",
+      "type": "verb",
+      "arabic": "يتخلص من شيء بطريقة مناسبة",
+      "explanation_de": "Etwas wegwerfen oder fachgerecht beseitigen, weil es nicht mehr gebraucht wird.",
+      "explanation_ar": "التخلص من الأغراض القديمة أو النفايات بطريقة صحيحة.",
+      "examples": [
+        {
+          "de": "Die alten Regale müssen fachgerecht entsorgt werden.",
+          "ar": "يجب التخلص من الرفوف القديمة بطريقة مناسبة."
+        },
+        {
+          "de": "Wer entsorgt die Verpackungen nach dem Umzug?",
+          "ar": "من سيتخلص من مواد التغليف بعد الانتقال؟"
+        }
+      ],
+      "grammar": {
+        "praeteritum": "entsorgte",
+        "perfekt": "hat entsorgt",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Der Umzug"
+      },
+      "tags": [
+        "verb",
+        "abfall"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v038",
+      "identity": "abbauen",
+      "term": "abbauen",
+      "type": "verb",
+      "arabic": "يفكك",
+      "explanation_de": "Etwas, das aus mehreren Teilen besteht, auseinandernehmen.",
+      "explanation_ar": "فك قطعة أثاث أو جهاز إلى أجزاء قبل النقل أو الإصلاح.",
+      "examples": [
+        {
+          "de": "Wir bauen die großen Schreibtische vor dem Umzug ab.",
+          "ar": "سنفكك المكاتب الكبيرة قبل الانتقال."
+        },
+        {
+          "de": "Die Monteure haben alle Regale abgebaut.",
+          "ar": "فكّ الفنيون جميع الرفوف."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "baute ab",
+        "perfekt": "hat abgebaut",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          18,
+          19
+        ],
+        "section": "Möbeltransport"
+      },
+      "tags": [
+        "verb",
+        "möbel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v039",
+      "identity": "aufbauen",
+      "term": "aufbauen",
+      "type": "verb",
+      "arabic": "يركب أو يعيد تجميع شيء",
+      "explanation_de": "Etwas aus einzelnen Teilen zusammensetzen und gebrauchsfertig machen.",
+      "explanation_ar": "تركيب الأثاث أو الأجهزة وتجميعها لتصبح جاهزة للاستخدام.",
+      "examples": [
+        {
+          "de": "Die Firma baut die Möbel im neuen Büro wieder auf.",
+          "ar": "ستعيد الشركة تركيب الأثاث في المكتب الجديد."
+        },
+        {
+          "de": "Wir haben den Schrank selbst aufgebaut.",
+          "ar": "ركبنا الخزانة بأنفسنا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "baute auf",
+        "perfekt": "hat aufgebaut",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          18,
+          19
+        ],
+        "section": "Möbeltransport"
+      },
+      "tags": [
+        "verb",
+        "möbel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v040",
+      "identity": "verhandeln",
+      "term": "verhandeln",
+      "type": "verb",
+      "arabic": "يتفاوض",
+      "explanation_de": "Mit einer anderen Seite über Preis oder Bedingungen sprechen, um eine Einigung zu erreichen.",
+      "explanation_ar": "مناقشة السعر أو الشروط للوصول إلى اتفاق مناسب للطرفين.",
+      "examples": [
+        {
+          "de": "Wir möchten noch über den Preis verhandeln.",
+          "ar": "نريد أن نتفاوض أكثر بشأن السعر."
+        },
+        {
+          "de": "Die Firma hat erfolgreich mit dem Vermieter verhandelt.",
+          "ar": "تفاوضت الشركة بنجاح مع المالك."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "verhandelte",
+        "perfekt": "hat verhandelt",
+        "auxiliary": "haben",
+        "separable": false,
+        "pattern": "über etw. verhandeln"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Angebote verhandeln"
+      },
+      "tags": [
+        "verb",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v041",
+      "identity": "sich kümmern um",
+      "term": "sich kümmern um",
+      "type": "verb",
+      "arabic": "يهتم بأمر أو يتولى معالجته",
+      "explanation_de": "Verantwortung für eine Aufgabe oder ein Problem übernehmen und etwas dafür tun.",
+      "explanation_ar": "تولي مسؤولية مشكلة أو مهمة والعمل على حلها.",
+      "examples": [
+        {
+          "de": "Die Hausverwaltung kümmert sich um die Reparatur.",
+          "ar": "تهتم إدارة العقار بأمر الإصلاح."
+        },
+        {
+          "de": "Wer kümmert sich um die neuen Internetanschlüsse?",
+          "ar": "من سيتولى أمر توصيلات الإنترنت الجديدة؟"
+        }
+      ],
+      "grammar": {
+        "praeteritum": "kümmerte sich um",
+        "perfekt": "hat sich um ... gekümmert",
+        "auxiliary": "haben",
+        "separable": false,
+        "reflexive": true,
+        "case": "Akkusativ"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14
+        ],
+        "section": "Probleme melden"
+      },
+      "tags": [
+        "verb",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v042",
+      "identity": "beheben",
+      "term": "beheben",
+      "type": "verb",
+      "arabic": "يعالج أو يصلح خللًا",
+      "explanation_de": "Einen Fehler, Schaden oder ein Problem beseitigen.",
+      "explanation_ar": "إزالة سبب العطل أو الضرر وإعادة الشيء إلى حالته الصحيحة.",
+      "examples": [
+        {
+          "de": "Die verantwortliche Firma soll den Schaden beheben.",
+          "ar": "يجب أن تعالج الشركة المسؤولة الضرر."
+        },
+        {
+          "de": "Der Techniker hat die Störung schnell behoben.",
+          "ar": "عالج الفني العطل بسرعة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "behob",
+        "perfekt": "hat behoben",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15,
+          21
+        ],
+        "section": "Probleme und Reparaturen"
+      },
+      "tags": [
+        "verb",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v043",
+      "identity": "verständigen",
+      "term": "verständigen",
+      "type": "verb",
+      "arabic": "يُبلغ أو يخطر جهة",
+      "explanation_de": "Eine Person oder Stelle über etwas informieren, damit sie reagieren kann.",
+      "explanation_ar": "إبلاغ شخص أو شركة بالمشكلة كي تتخذ الإجراء المطلوب.",
+      "examples": [
+        {
+          "de": "Bitte verständigen Sie sofort die zuständige Firma.",
+          "ar": "يرجى إبلاغ الشركة المختصة فورًا."
+        },
+        {
+          "de": "Die Hausverwaltung wurde über den Schaden verständigt.",
+          "ar": "تم إبلاغ إدارة العقار بالضرر."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "verständigte",
+        "perfekt": "hat verständigt",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "verb",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v044",
+      "identity": "schildern",
+      "term": "schildern",
+      "type": "verb",
+      "arabic": "يصف أمرًا بالتفصيل",
+      "explanation_de": "Einen Ablauf, eine Situation oder ein Problem genau und verständlich beschreiben.",
+      "explanation_ar": "شرح موقف أو مشكلة بشكل واضح ومفصل، خاصة في رسالة أو شكوى.",
+      "examples": [
+        {
+          "de": "Bitte schildern Sie das Problem möglichst genau.",
+          "ar": "يرجى وصف المشكلة بأكبر قدر ممكن من الدقة."
+        },
+        {
+          "de": "Er hat den Schaden schriftlich geschildert.",
+          "ar": "وصف الضرر كتابيًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "schilderte",
+        "perfekt": "hat geschildert",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "verb",
+        "schreiben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v045",
+      "identity": "entlüften",
+      "term": "entlüften",
+      "type": "verb",
+      "arabic": "يفرّغ الهواء من جهاز أو نظام تدفئة",
+      "explanation_de": "Luft aus einer Leitung oder einem Heizkörper entfernen, damit das System richtig funktioniert.",
+      "explanation_ar": "إخراج الهواء من المدفأة أو الأنابيب لتحسين عمل نظام التدفئة.",
+      "examples": [
+        {
+          "de": "Die Heizkörper müssen regelmäßig entlüftet werden.",
+          "ar": "يجب تفريغ الهواء من أجهزة التدفئة بانتظام."
+        },
+        {
+          "de": "Der Hausmeister hat die Zentralheizung entlüftet.",
+          "ar": "فرّغ مسؤول الصيانة الهواء من نظام التدفئة المركزية."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "entlüftete",
+        "perfekt": "hat entlüftet",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          21
+        ],
+        "section": "Probleme und Reparaturen"
+      },
+      "tags": [
+        "verb",
+        "heizung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v046",
+      "identity": "ausgebucht",
+      "term": "ausgebucht",
+      "type": "adjective",
+      "arabic": "محجوز بالكامل",
+      "explanation_de": "So vollständig gebucht, dass keine freien Termine oder Plätze mehr verfügbar sind.",
+      "explanation_ar": "تقال عندما لا تتوفر مواعيد أو أماكن لأن جميعها محجوزة.",
+      "examples": [
+        {
+          "de": "Die Umzugsfirma ist bis Ende des Monats ausgebucht.",
+          "ar": "شركة النقل محجوزة بالكامل حتى نهاية الشهر."
+        },
+        {
+          "de": "Am Freitag sind wir leider schon ausgebucht.",
+          "ar": "للأسف جميع مواعيدنا محجوزة يوم الجمعة."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Angebote verhandeln"
+      },
+      "tags": [
+        "adjektiv",
+        "termin"
+      ],
+      "globalRef": "adjectives:adj_0002",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v047",
+      "identity": "flexibel",
+      "term": "flexibel",
+      "type": "adjective",
+      "arabic": "مرن",
+      "explanation_de": "Bereit oder fähig, Pläne und Bedingungen an eine neue Situation anzupassen.",
+      "explanation_ar": "صفة لشخص أو جهة يمكنها تعديل الموعد أو الشروط بسهولة.",
+      "examples": [
+        {
+          "de": "Wir sind bezüglich des Termins flexibel.",
+          "ar": "نحن مرنون فيما يتعلق بالموعد."
+        },
+        {
+          "de": "Ein flexibler Arbeitsplan erleichtert den Umzug.",
+          "ar": "خطة العمل المرنة تسهّل الانتقال."
+        }
+      ],
+      "grammar": {
+        "comparative": "flexibler",
+        "superlative": "am flexibelsten",
+        "gradable": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          17
+        ],
+        "section": "Angebote verhandeln"
+      },
+      "tags": [
+        "adjektiv",
+        "termin"
+      ],
+      "globalRef": "adjectives:adj_0001",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v048",
+      "identity": "verantwortlich",
+      "term": "verantwortlich",
+      "type": "adjective",
+      "arabic": "مسؤول أو مختص",
+      "explanation_de": "Für eine Aufgabe, Entscheidung oder einen Bereich zuständig.",
+      "explanation_ar": "تدل على الشخص أو الجهة التي تقع عليها مسؤولية تنفيذ مهمة أو حل مشكلة.",
+      "examples": [
+        {
+          "de": "Welche Firma ist für die Reparatur verantwortlich?",
+          "ar": "أي شركة مسؤولة عن الإصلاح؟"
+        },
+        {
+          "de": "Der Hausmeister ist für die technischen Anlagen verantwortlich.",
+          "ar": "مسؤول الصيانة مسؤول عن التجهيزات التقنية."
+        }
+      ],
+      "grammar": {
+        "pattern": "verantwortlich für + Akkusativ",
+        "gradable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "adjektiv",
+        "verantwortung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v049",
+      "identity": "dringend",
+      "term": "dringend",
+      "type": "adjective_adverb",
+      "arabic": "عاجل / بشكل عاجل",
+      "explanation_de": "So wichtig und eilig, dass etwas nicht aufgeschoben werden sollte.",
+      "explanation_ar": "تُستخدم عندما يجب معالجة أمر بسرعة ولا يحتمل التأجيل.",
+      "examples": [
+        {
+          "de": "Die Sprechanlage muss dringend repariert werden.",
+          "ar": "يجب إصلاح جهاز الاتصال بشكل عاجل."
+        },
+        {
+          "de": "Ich bitte Sie dringend um eine schnelle Rückmeldung.",
+          "ar": "أطلب منكم بإلحاح ردًا سريعًا."
+        }
+      ],
+      "grammar": {
+        "comparative": "dringender",
+        "superlative": "am dringendsten",
+        "gradable": true
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15,
+          20
+        ],
+        "section": "E-Mail und Probleme"
+      },
+      "tags": [
+        "adjektiv",
+        "dringlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v050",
+      "identity": "verstopft",
+      "term": "verstopft",
+      "type": "adjective_participle",
+      "arabic": "مسدود",
+      "explanation_de": "So blockiert, dass Wasser, Luft oder Material nicht mehr richtig hindurchfließen kann.",
+      "explanation_ar": "تقال عن مصرف أو أنبوب عندما يكون مغلقًا بسبب أوساخ أو عائق.",
+      "examples": [
+        {
+          "de": "Der Abfluss in der Kaffeeküche ist verstopft.",
+          "ar": "مصرف مطبخ القهوة مسدود."
+        },
+        {
+          "de": "Ein Installateur reinigt das verstopfte Rohr.",
+          "ar": "ينظف السباك الأنبوب المسدود."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          14,
+          17
+        ],
+        "section": "Probleme und Reparaturen"
+      },
+      "tags": [
+        "adjektiv",
+        "wasser"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v051",
+      "identity": "ein angebot einholen",
+      "term": "ein Angebot einholen",
+      "type": "phrase",
+      "arabic": "يطلب عرضًا أو عرض سعر",
+      "explanation_de": "Bei einer Firma nach Preis, Leistungen und Bedingungen fragen.",
+      "explanation_ar": "طلب معلومات مكتوبة أو شفهية عن السعر والخدمات قبل اتخاذ القرار.",
+      "examples": [
+        {
+          "de": "Wir holen bei mehreren Firmen ein Angebot ein.",
+          "ar": "سنطلب عرض سعر من عدة شركات."
+        },
+        {
+          "de": "Vor der Beauftragung sollten Sie ein schriftliches Angebot einholen.",
+          "ar": "قبل التكليف ينبغي طلب عرض مكتوب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          12,
+          19
+        ],
+        "section": "Angebote"
+      },
+      "tags": [
+        "phrase",
+        "angebot"
+      ],
+      "globalRef": "phrases:phrase_0009",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u01-v052",
+      "identity": "details klären",
+      "term": "Details klären",
+      "type": "phrase",
+      "arabic": "يوضح أو يحسم التفاصيل",
+      "explanation_de": "Offene Einzelheiten besprechen und eindeutig festlegen.",
+      "explanation_ar": "مناقشة النقاط غير الواضحة، مثل الموعد والخدمات والتعبئة.",
+      "examples": [
+        {
+          "de": "Vor dem Umzug müssen wir noch einige Details klären.",
+          "ar": "يجب أن نحسم بعض التفاصيل قبل الانتقال."
+        },
+        {
+          "de": "Wir klären telefonisch, wer die Möbel abbaut.",
+          "ar": "سنوضح هاتفيًا من سيفكك الأثاث."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Angebote"
+      },
+      "tags": [
+        "phrase",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v053",
+      "identity": "spielraum haben",
+      "term": "Spielraum haben",
+      "type": "phrase",
+      "arabic": "لديه مجال للتفاوض أو المرونة",
+      "explanation_de": "Noch Möglichkeiten haben, einen Preis oder eine Bedingung zu verändern.",
+      "explanation_ar": "وجود هامش يسمح بتعديل السعر أو الشرط أثناء التفاوض.",
+      "examples": [
+        {
+          "de": "Haben Sie beim Preis noch etwas Spielraum?",
+          "ar": "هل لديكم مجال إضافي للتفاوض على السعر؟"
+        },
+        {
+          "de": "Beim Termin haben wir leider keinen Spielraum.",
+          "ar": "للأسف ليس لدينا مرونة في الموعد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Angebote verhandeln"
+      },
+      "tags": [
+        "phrase",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v054",
+      "identity": "jemandem entgegenkommen",
+      "term": "jemandem entgegenkommen",
+      "type": "phrase",
+      "arabic": "يراعي شخصًا ويقدم له تسهيلًا",
+      "explanation_de": "Einer Person durch einen Kompromiss oder eine günstigere Lösung helfen.",
+      "explanation_ar": "تقديم تنازل أو تسهيل لشخص في السعر أو الموعد أو الشروط.",
+      "examples": [
+        {
+          "de": "Können Sie uns beim Preis etwas entgegenkommen?",
+          "ar": "هل يمكنكم تقديم بعض التسهيل لنا في السعر؟"
+        },
+        {
+          "de": "Die Firma ist uns beim Termin entgegengekommen.",
+          "ar": "راعتنا الشركة في تحديد الموعد."
+        }
+      ],
+      "grammar": {
+        "case": "Dativ"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          12
+        ],
+        "section": "Angebote verhandeln"
+      },
+      "tags": [
+        "phrase",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v055",
+      "identity": "aus beruflichen gründen",
+      "term": "aus beruflichen Gründen",
+      "type": "phrase",
+      "arabic": "لأسباب مهنية",
+      "explanation_de": "Weil die Arbeit, eine Stelle oder die berufliche Entwicklung einen Anlass gibt.",
+      "explanation_ar": "تُستخدم لبيان أن سبب الانتقال أو القرار مرتبط بالعمل.",
+      "examples": [
+        {
+          "de": "Adil ist aus beruflichen Gründen umgezogen.",
+          "ar": "انتقل عادل لأسباب مهنية."
+        },
+        {
+          "de": "Wir suchen aus beruflichen Gründen eine Wohnung in der Stadt.",
+          "ar": "نبحث عن شقة في المدينة لأسباب مهنية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          13,
+          20
+        ],
+        "section": "Adils neuer Job"
+      },
+      "tags": [
+        "phrase",
+        "grund",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v056",
+      "identity": "sich auf etwas beziehen",
+      "term": "sich auf etwas beziehen",
+      "type": "phrase",
+      "arabic": "يشير إلى أمر سابق أو يستند إليه",
+      "explanation_de": "In einer Nachricht oder Aussage ausdrücklich auf etwas bereits Genanntes verweisen.",
+      "explanation_ar": "استخدام عبارة لربط الرسالة بمكالمة أو رسالة سابقة.",
+      "examples": [
+        {
+          "de": "Ich beziehe mich auf unser heutiges Telefongespräch.",
+          "ar": "أشير إلى مكالمتنا الهاتفية اليوم."
+        },
+        {
+          "de": "Ihre Anfrage bezieht sich auf die Reparatur der Heizung.",
+          "ar": "يتعلق استفساركم بإصلاح التدفئة."
+        }
+      ],
+      "grammar": {
+        "pattern": "sich auf + Akkusativ beziehen"
+      },
+      "source": {
+        "unit": 1,
+        "pages": [
+          15,
+          21
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "phrase",
+        "email"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v057",
+      "identity": "so schnell wie möglich",
+      "term": "so schnell wie möglich",
+      "type": "phrase",
+      "arabic": "بأسرع ما يمكن",
+      "explanation_de": "Ohne unnötige Verzögerung und zum frühestmöglichen Zeitpunkt.",
+      "explanation_ar": "طلب تنفيذ أمر في أقرب وقت ممكن ومن دون تأخير.",
+      "examples": [
+        {
+          "de": "Bitte beheben Sie den Schaden so schnell wie möglich.",
+          "ar": "يرجى معالجة الضرر بأسرع ما يمكن."
+        },
+        {
+          "de": "Wir brauchen so schnell wie möglich einen neuen Termin.",
+          "ar": "نحتاج إلى موعد جديد بأسرع ما يمكن."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          15
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "phrase",
+        "dringlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v058",
+      "identity": "vielen dank im voraus",
+      "term": "Vielen Dank im Voraus",
+      "type": "phrase",
+      "arabic": "شكرًا جزيلًا مقدمًا",
+      "explanation_de": "Eine höfliche Formulierung am Ende einer Bitte, bevor die gewünschte Handlung erfolgt.",
+      "explanation_ar": "صيغة مهذبة تُكتب قبل تنفيذ الطلب للتعبير عن الشكر مسبقًا.",
+      "examples": [
+        {
+          "de": "Vielen Dank im Voraus für Ihre schnelle Rückmeldung.",
+          "ar": "شكرًا جزيلًا مقدمًا على ردكم السريع."
+        },
+        {
+          "de": "Vielen Dank im Voraus für Ihre Unterstützung.",
+          "ar": "شكرًا مقدمًا على دعمكم."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          15
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "phrase",
+        "email",
+        "höflichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "identity": "mit freundlichen grüßen",
+      "term": "Mit freundlichen Grüßen",
+      "type": "phrase",
+      "arabic": "مع أطيب التحيات",
+      "explanation_de": "Eine übliche formelle Schlussformel in Briefen und E-Mails.",
+      "explanation_ar": "صيغة ختامية رسمية شائعة في الرسائل والبريد الإلكتروني.",
+      "examples": [
+        {
+          "de": "Die formelle E-Mail endet mit „Mit freundlichen Grüßen“.",
+          "ar": "تنتهي الرسالة الرسمية بعبارة «مع أطيب التحيات»."
+        },
+        {
+          "de": "Nach der Grußformel schreibt man seinen Namen.",
+          "ar": "بعد صيغة التحية الختامية يُكتب الاسم."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          15,
+          21
+        ],
+        "section": "E-Mail an die Hausverwaltung"
+      },
+      "tags": [
+        "phrase",
+        "email",
+        "formell"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u01-v060",
+      "identity": "die daumen drücken",
+      "term": "die Daumen drücken",
+      "type": "phrase",
+      "arabic": "يتمنى لشخص الحظ والنجاح",
+      "explanation_de": "Jemandem Glück und Erfolg wünschen.",
+      "explanation_ar": "تعبير شائع يعني تمني النجاح أو الحظ الجيد لشخص.",
+      "examples": [
+        {
+          "de": "Wir drücken euch für die Besichtigung die Daumen.",
+          "ar": "نتمنى لكم التوفيق في المعاينة."
+        },
+        {
+          "de": "Drück mir die Daumen, dass wir den Gewerberaum bekommen.",
+          "ar": "تمنَّ لي الحظ كي نحصل على العقار التجاري."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 1,
+        "pages": [
+          18
+        ],
+        "section": "Übungen und Redemittel"
+      },
+      "tags": [
+        "phrase",
+        "alltag"
+      ],
+      "globalRef": "phrases:phrase_0004",
+      "integrationStatus": "linked_existing_content"
+    }
+  ]
+}

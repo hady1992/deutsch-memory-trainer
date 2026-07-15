@@ -1,0 +1,991 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 2,
+  "unitTitle_de": "Mein eigener Laden – Selbstständigkeit, Arbeitsrecht und Kundenservice",
+  "unitTitle_ar": "متجري الخاص – العمل المستقل وقانون العمل وخدمة الزبائن",
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u02-e001",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Kundschaft“?",
+      "prompt_ar": "ما معنى «die Kundschaft»؟",
+      "answer": "جميع زبائن المتجر",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "جميع زبائن المتجر",
+        "جميع الموظفين",
+        "تشكيلة المنتجات",
+        "ساعات العمل"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v003"
+      ]
+    },
+    {
+      "id": "b2u02-e002",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Buchführung“?",
+      "prompt_ar": "ما معنى «die Buchführung»؟",
+      "answer": "تسجيل الإيرادات والمصروفات والمعاملات",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "إدارة الموظفين",
+        "تسجيل الإيرادات والمصروفات والمعاملات",
+        "ترتيب البضاعة",
+        "خدمة الزبائن"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v007"
+      ]
+    },
+    {
+      "id": "b2u02-e003",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die finanzielle Rücklage“?",
+      "prompt_ar": "ما معنى «die finanzielle Rücklage»؟",
+      "answer": "مبلغ يُدخر للمصاريف غير المتوقعة",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "راتب شهري",
+        "مبلغ يُدخر للمصاريف غير المتوقعة",
+        "قيمة الإيجار",
+        "ضريبة"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v016"
+      ]
+    },
+    {
+      "id": "b2u02-e004",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «خطة المشروع»",
+      "answer": "der Businessplan",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Businessplan",
+        "der Dienstplan",
+        "der Pachtvertrag",
+        "der Widerspruch"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v013"
+      ]
+    },
+    {
+      "id": "b2u02-e005",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «إنذار وظيفي رسمي»",
+      "answer": "die Abmahnung",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Abmahnung",
+        "die Freistellung",
+        "die Vertretung",
+        "die Reklamation"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v033"
+      ]
+    },
+    {
+      "id": "b2u02-e006",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر المصطلح الألماني",
+      "prompt_de": "Welche Bezeichnung passt?",
+      "prompt_ar": "اختر المصطلح المناسب: «الحماية القانونية من الفصل»",
+      "answer": "der Kündigungsschutz",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Kündigungsschutz",
+        "der Betriebsfrieden",
+        "der Rechtsanspruch",
+        "der Preisnachlass"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v037"
+      ]
+    },
+    {
+      "id": "b2u02-e007",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Brückenteilzeit“?",
+      "prompt_ar": "ما معنى «die Brückenteilzeit»؟",
+      "answer": "دوام جزئي مؤقت مع إمكانية العودة إلى الساعات السابقة",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "دوام جزئي مؤقت مع إمكانية العودة إلى الساعات السابقة",
+        "عمل ليلي دائم",
+        "عمل جانبي",
+        "إجازة سنوية"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v046"
+      ]
+    },
+    {
+      "id": "b2u02-e008",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Ersatzlieferung“?",
+      "prompt_ar": "ما معنى «die Ersatzlieferung»؟",
+      "answer": "شحنة جديدة بدل البضاعة الخاطئة أو التالفة",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "شحنة جديدة بدل البضاعة الخاطئة أو التالفة",
+        "فاتورة جديدة",
+        "إلغاء الطلب",
+        "موعد صيانة"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v053"
+      ]
+    },
+    {
+      "id": "b2u02-e009",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Alle Einnahmen und Ausgaben werden in der ______ erfasst.",
+      "prompt_ar": "تُسجل الإيرادات والمصروفات في ______.",
+      "answer": "Buchführung",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Buchführung",
+        "der Buchführung"
+      ],
+      "completedSentence_de": "Alle Einnahmen und Ausgaben werden in der Buchführung erfasst.",
+      "completedSentence_ar": "تُسجل جميع الإيرادات والمصروفات في الحسابات.",
+      "vocabularyRefs": [
+        "b2u02-v007",
+        "b2u02-v014",
+        "b2u02-v015"
+      ]
+    },
+    {
+      "id": "b2u02-e010",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Kannst du am Freitag für mich ______?",
+      "prompt_ar": "هل يمكنك أن ______ مكاني يوم الجمعة؟",
+      "answer": "einspringen",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "einspringen"
+      ],
+      "completedSentence_de": "Kannst du am Freitag für mich einspringen?",
+      "completedSentence_ar": "هل يمكنك الحلول محلي يوم الجمعة؟",
+      "vocabularyRefs": [
+        "b2u02-v064"
+      ]
+    },
+    {
+      "id": "b2u02-e011",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Der Antrag auf Teilzeit muss schriftlich ______ werden.",
+      "prompt_ar": "يجب ______ طلب الدوام الجزئي خطيًا.",
+      "answer": "gestellt",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "gestellt"
+      ],
+      "completedSentence_de": "Der Antrag auf Teilzeit muss schriftlich gestellt werden.",
+      "completedSentence_ar": "يجب تقديم طلب الدوام الجزئي خطيًا.",
+      "vocabularyRefs": [
+        "b2u02-v072"
+      ]
+    },
+    {
+      "id": "b2u02-e012",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Wegen der falschen Farbe möchte die Kundin die Bestellung ______.",
+      "prompt_ar": "تريد الزبونة ______ الطلبية بسبب اللون الخطأ.",
+      "answer": "reklamieren",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "reklamieren"
+      ],
+      "completedSentence_de": "Wegen der falschen Farbe möchte die Kundin die Bestellung reklamieren.",
+      "completedSentence_ar": "تريد الزبونة تقديم شكوى بشأن الطلبية بسبب اللون الخطأ.",
+      "vocabularyRefs": [
+        "b2u02-v076"
+      ]
+    },
+    {
+      "id": "b2u02-e013",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Kündigungsrecht",
+      "title_ar": "قانون العمل",
+      "prompt_de": "Gegen die Entscheidung möchte sie schriftlich ______ einlegen.",
+      "prompt_ar": "تريد تقديم ______ خطي ضد القرار.",
+      "answer": "Widerspruch",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Widerspruch",
+        "einen Widerspruch"
+      ],
+      "completedSentence_de": "Gegen die Entscheidung möchte sie schriftlich Widerspruch einlegen.",
+      "completedSentence_ar": "تريد تقديم اعتراض خطي ضد القرار.",
+      "vocabularyRefs": [
+        "b2u02-v039",
+        "b2u02-v074"
+      ]
+    },
+    {
+      "id": "b2u02-e014",
+      "unit": 2,
+      "type": "matching",
+      "title_de": "Unternehmensfinanzen",
+      "title_ar": "مالية المشروع",
+      "prompt_de": "Ordnen Sie die Begriffe zu.",
+      "prompt_ar": "صِل المصطلحات بالشروحات.",
+      "answer": {
+        "die Einnahmen": "Geld, das in den Betrieb kommt",
+        "die Ausgaben": "Geld, das der Betrieb bezahlt",
+        "die Rücklage": "Geld für unerwartete Kosten",
+        "der Kredit": "geliehenes Geld"
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Einnahmen",
+          "Geld, das in den Betrieb kommt"
+        ],
+        [
+          "die Ausgaben",
+          "Geld, das der Betrieb bezahlt"
+        ],
+        [
+          "die Rücklage",
+          "Geld für unerwartete Kosten"
+        ],
+        [
+          "der Kredit",
+          "geliehenes Geld"
+        ]
+      ]
+    },
+    {
+      "id": "b2u02-e015",
+      "unit": 2,
+      "type": "matching",
+      "title_de": "Kündigungsrecht",
+      "title_ar": "قانون إنهاء العمل",
+      "prompt_de": "Ordnen Sie die Begriffe zu.",
+      "prompt_ar": "صِل المصطلحات بالشروحات.",
+      "answer": {
+        "die Abmahnung": "formelle Warnung",
+        "die Kündigungsfrist": "Zeit bis zum Vertragsende",
+        "der Widerspruch": "formelle Ablehnung einer Entscheidung",
+        "das Arbeitsgericht": "Gericht für Arbeitsstreitigkeiten"
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Abmahnung",
+          "formelle Warnung"
+        ],
+        [
+          "die Kündigungsfrist",
+          "Zeit bis zum Vertragsende"
+        ],
+        [
+          "der Widerspruch",
+          "formelle Ablehnung einer Entscheidung"
+        ],
+        [
+          "das Arbeitsgericht",
+          "Gericht für Arbeitsstreitigkeiten"
+        ]
+      ]
+    },
+    {
+      "id": "b2u02-e016",
+      "unit": 2,
+      "type": "matching",
+      "title_de": "Beschwerde und Lösung",
+      "title_ar": "الشكوى والحل",
+      "prompt_de": "Ordnen Sie Problem und Lösung zu.",
+      "prompt_ar": "صِل كل مشكلة بالحل المناسب.",
+      "answer": {
+        "Lieferung unvollständig": "fehlende Teile nachliefern",
+        "falsche Farbe": "Ersatzlieferung anbieten",
+        "Möbel beschädigt": "Reparatur oder Preisnachlass anbieten",
+        "Lieferung verspätet": "sich entschuldigen und Termin bestätigen"
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Lieferung unvollständig",
+          "fehlende Teile nachliefern"
+        ],
+        [
+          "falsche Farbe",
+          "Ersatzlieferung anbieten"
+        ],
+        [
+          "Möbel beschädigt",
+          "Reparatur oder Preisnachlass anbieten"
+        ],
+        [
+          "Lieferung verspätet",
+          "sich entschuldigen und Termin bestätigen"
+        ]
+      ]
+    },
+    {
+      "id": "b2u02-e017",
+      "unit": 2,
+      "type": "matching",
+      "title_de": "Arbeitsformen",
+      "title_ar": "أنواع العمل",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "freiberuflich": "selbstständig in einem freien Beruf",
+        "Schichtdienst": "Arbeit zu wechselnden Zeiten",
+        "Gleitzeit": "variable Anfangs- und Endzeiten",
+        "Teilzeit": "weniger Stunden als die betriebliche Vollzeit"
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "freiberuflich",
+          "selbstständig in einem freien Beruf"
+        ],
+        [
+          "Schichtdienst",
+          "Arbeit zu wechselnden Zeiten"
+        ],
+        [
+          "Gleitzeit",
+          "variable Anfangs- und Endzeiten"
+        ],
+        [
+          "Teilzeit",
+          "weniger Stunden als die betriebliche Vollzeit"
+        ]
+      ]
+    },
+    {
+      "id": "b2u02-e018",
+      "unit": 2,
+      "type": "sentence_build",
+      "title_de": "Verneinung mit nicht",
+      "title_ar": "النفي باستخدام nicht",
+      "prompt_de": "Verneinen Sie nur den Ort: Ich kaufe im Supermarkt ein.",
+      "prompt_ar": "انفِ المكان فقط: أنا أتسوق في السوبرماركت.",
+      "answer": "Ich kaufe nicht im Supermarkt ein.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ich kaufe nicht im Supermarkt ein."
+      ],
+      "grammarFocus": "nicht vor dem verneinten Element"
+    },
+    {
+      "id": "b2u02-e019",
+      "unit": 2,
+      "type": "sentence_build",
+      "title_de": "Verneinung mit nicht",
+      "title_ar": "النفي باستخدام nicht",
+      "prompt_de": "Verneinen Sie den ganzen Satz: Ich kaufe morgen ein.",
+      "prompt_ar": "انفِ الجملة كاملة: سأتسوق غدًا.",
+      "answer": "Ich kaufe morgen nicht ein.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ich kaufe morgen nicht ein."
+      ],
+      "grammarFocus": "nicht vor dem trennbaren Verbteil"
+    },
+    {
+      "id": "b2u02-e020",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Negationswörter",
+      "title_ar": "كلمات النفي",
+      "prompt_de": "Welche Antwort passt: „Warst du schon einmal selbstständig?“",
+      "prompt_ar": "أي جواب مناسب: «هل عملت لحسابك من قبل؟»",
+      "answer": "Nein, noch nie.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Nein, noch nie.",
+        "Nein, niemand.",
+        "Nein, nirgends.",
+        "Nein, nichts Person."
+      ]
+    },
+    {
+      "id": "b2u02-e021",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Negationswörter",
+      "title_ar": "كلمات النفي",
+      "prompt_de": "Wir haben überall gesucht, aber ______ gefunden.",
+      "prompt_ar": "بحثنا في كل مكان، لكننا لم نجد ______.",
+      "answer": "nichts",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "nichts"
+      ]
+    },
+    {
+      "id": "b2u02-e022",
+      "unit": 2,
+      "type": "fill_blank",
+      "title_de": "Negationswörter",
+      "title_ar": "كلمات النفي",
+      "prompt_de": "Im Büro war ______, als ich angekommen bin.",
+      "prompt_ar": "لم يكن هناك ______ في المكتب عندما وصلت.",
+      "answer": "niemand",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "niemand"
+      ]
+    },
+    {
+      "id": "b2u02-e023",
+      "unit": 2,
+      "type": "dialogue_choice",
+      "title_de": "Dienstplan aushandeln",
+      "title_ar": "التفاوض على جدول المناوبات",
+      "prompt_de": "Die Kollegin kann mittwochs nicht. Welche Lösung ist konstruktiv?",
+      "prompt_ar": "لا تستطيع الزميلة العمل الأربعاء. أي حل بنّاء؟",
+      "answer": "Ich übernehme Mittwoch, wenn du Freitag für mich einspringst.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich übernehme Mittwoch, wenn du Freitag für mich einspringst.",
+        "Das ist dein Problem.",
+        "Du musst trotzdem kommen.",
+        "Ich bespreche das nicht."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v064",
+        "b2u02-v065"
+      ]
+    },
+    {
+      "id": "b2u02-e024",
+      "unit": 2,
+      "type": "dialogue_choice",
+      "title_de": "Arbeitsauftrag",
+      "title_ar": "تكليف العمل",
+      "prompt_de": "Welche Rückfrage sichert das Verständnis?",
+      "prompt_ar": "أي سؤال يضمن فهم المهمة؟",
+      "answer": "Habe ich richtig verstanden, dass die Bestellung bis 16 Uhr rausgehen muss?",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Habe ich richtig verstanden, dass die Bestellung bis 16 Uhr rausgehen muss?",
+        "Warum machen Sie das nicht selbst?",
+        "Vielleicht mache ich es irgendwann.",
+        "Das interessiert mich nicht."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v024",
+        "b2u02-v069"
+      ]
+    },
+    {
+      "id": "b2u02-e025",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsauftrag",
+      "title_ar": "تكليف العمل",
+      "prompt_de": "Welche Reaktion ist angemessen?",
+      "prompt_ar": "أي رد مناسب على التكليف؟",
+      "answer": "In Ordnung. Ich kümmere mich sofort darum.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "In Ordnung. Ich kümmere mich sofort darum.",
+        "Machen Sie das selbst.",
+        "Ich habe keine Lust.",
+        "Das geht mich nichts an."
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v041",
+        "b2u01-v049"
+      ]
+    },
+    {
+      "id": "b2u02-e026",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Interessen vertreten",
+      "title_ar": "الدفاع عن المصالح",
+      "prompt_de": "Welche Aussage ist sachlich und bestimmt?",
+      "prompt_ar": "أي عبارة موضوعية وحازمة؟",
+      "answer": "Ich brauche eine verlässliche Lösung, weil ich mein krankes Kind betreuen muss.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich brauche eine verlässliche Lösung, weil ich mein krankes Kind betreuen muss.",
+        "Sie verstehen überhaupt nichts.",
+        "Ich komme einfach nicht mehr.",
+        "Das ist mir egal."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v070"
+      ]
+    },
+    {
+      "id": "b2u02-e027",
+      "unit": 2,
+      "type": "dialogue_choice",
+      "title_de": "Auf Kritik reagieren",
+      "title_ar": "الرد على النقد",
+      "prompt_de": "Welche Antwort ist professionell?",
+      "prompt_ar": "أي جواب مهني على نقد غير ملائم؟",
+      "answer": "Können Sie bitte ein konkretes Beispiel nennen?",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Können Sie bitte ein konkretes Beispiel nennen?",
+        "Sie haben keine Ahnung.",
+        "Dann arbeite ich nicht mehr.",
+        "Reden Sie nicht mit mir."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v059"
+      ]
+    },
+    {
+      "id": "b2u02-e028",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Diskriminierung",
+      "title_ar": "التمييز",
+      "prompt_de": "Welche Situation kann Diskriminierung sein?",
+      "prompt_ar": "أي حالة قد تكون تمييزًا؟",
+      "answer": "Eine qualifizierte Bewerberin wird nur wegen ihres Alters abgelehnt.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine qualifizierte Bewerberin wird nur wegen ihres Alters abgelehnt.",
+        "Ein Bewerber erfüllt die notwendige Qualifikation nicht.",
+        "Ein Termin wird aus organisatorischen Gründen verschoben.",
+        "Zwei Stellen haben unterschiedliche Aufgaben."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v030",
+        "b2u02-v029"
+      ]
+    },
+    {
+      "id": "b2u02-e029",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Abmahnung",
+      "title_ar": "الإنذار الوظيفي",
+      "prompt_de": "Welche Aussage ist richtig?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Eine Abmahnung warnt wegen eines konkreten Fehlverhaltens.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine Abmahnung warnt wegen eines konkreten Fehlverhaltens.",
+        "Eine Abmahnung beendet immer sofort das Arbeitsverhältnis.",
+        "Eine Abmahnung ist eine Urlaubsbestätigung.",
+        "Eine Abmahnung ersetzt den Arbeitsvertrag."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v033"
+      ]
+    },
+    {
+      "id": "b2u02-e030",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Kündigungsarten",
+      "title_ar": "أنواع الفصل",
+      "prompt_de": "Welche Kündigung erfolgt normalerweise ohne Kündigungsfrist?",
+      "prompt_ar": "أي نوع فصل يتم عادةً دون مهلة؟",
+      "answer": "die außerordentliche Kündigung",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die ordentliche Kündigung",
+        "die außerordentliche Kündigung",
+        "die Teilzeitbeschäftigung",
+        "die Freistellung"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v034",
+        "b2u02-v035"
+      ]
+    },
+    {
+      "id": "b2u02-e031",
+      "unit": 2,
+      "type": "sentence_order",
+      "title_de": "Sich wehren",
+      "title_ar": "الدفاع عن النفس",
+      "prompt_de": "Ordnen Sie die Schritte sinnvoll.",
+      "prompt_ar": "رتب الخطوات ترتيبًا منطقيًا.",
+      "answer": [
+        "Situation dokumentieren",
+        "sachlich sprechen",
+        "Betriebsrat informieren",
+        "bei Bedarf Beratung suchen"
+      ],
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Betriebsrat informieren",
+        "Situation dokumentieren",
+        "bei Bedarf Beratung suchen",
+        "sachlich sprechen"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v032",
+        "b2u02-v071"
+      ]
+    },
+    {
+      "id": "b2u02-e032",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Teilzeit",
+      "title_ar": "الدوام الجزئي",
+      "prompt_de": "Welche Voraussetzung gehört zum Rechtsanspruch auf Teilzeit?",
+      "prompt_ar": "أي شرط يتعلق بالحق في الدوام الجزئي؟",
+      "answer": "Das Arbeitsverhältnis besteht länger als sechs Monate.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Das Arbeitsverhältnis besteht länger als sechs Monate.",
+        "Man arbeitet erst seit einer Woche.",
+        "Der Betrieb hat nur zwei Beschäftigte.",
+        "Der Antrag wird nach Beginn gestellt."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v049",
+        "b2u02-v044"
+      ]
+    },
+    {
+      "id": "b2u02-e033",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Teilzeit",
+      "title_ar": "الدوام الجزئي",
+      "prompt_de": "Was kann ein Nachteil der Arbeitszeitreduzierung sein?",
+      "prompt_ar": "ما أحد عيوب تخفيض ساعات العمل؟",
+      "answer": "Der Verdienst kann sinken.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Der Verdienst kann sinken.",
+        "Die Buchführung wird verboten.",
+        "Die Kündigungsfrist verschwindet.",
+        "Die Kundschaft wächst automatisch."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v048",
+        "b2u02-v051"
+      ]
+    },
+    {
+      "id": "b2u02-e034",
+      "unit": 2,
+      "type": "email_order",
+      "title_de": "Antrag auf Teilzeit",
+      "title_ar": "طلب دوام جزئي",
+      "prompt_de": "Bringen Sie die Teile in die richtige Reihenfolge.",
+      "prompt_ar": "رتب أجزاء الرسالة الرسمية.",
+      "answer": [
+        "anrede",
+        "antrag",
+        "zeitraum",
+        "gespräch",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "gespräch",
+          "text": "Für ein Gespräch stehe ich gern zur Verfügung."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Frau Becker,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "zeitraum",
+          "text": "Ab Oktober möchte ich 25 Stunden pro Woche arbeiten."
+        },
+        {
+          "id": "antrag",
+          "text": "Hiermit beantrage ich die Reduzierung meiner Arbeitszeit."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u02-v072",
+        "b2u02-v075"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u02-e035",
+      "unit": 2,
+      "type": "dialogue_choice",
+      "title_de": "Kompromiss finden",
+      "title_ar": "إيجاد حل وسط",
+      "prompt_de": "Die Mitarbeiterin möchte 20 Stunden, die Chefin braucht 30. Was ist ein Kompromiss?",
+      "prompt_ar": "تريد الموظفة 20 ساعة والمديرة 30. ما الحل الوسط؟",
+      "answer": "Zunächst 25 Stunden vereinbaren und nach drei Monaten neu prüfen.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Zunächst 25 Stunden vereinbaren und nach drei Monaten neu prüfen.",
+        "Sofort kündigen.",
+        "Jedes Gespräch ablehnen.",
+        "Weiterhin 40 Stunden verlangen."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v050"
+      ]
+    },
+    {
+      "id": "b2u02-e036",
+      "unit": 2,
+      "type": "email_order",
+      "title_de": "Kundenbeschwerde",
+      "title_ar": "شكوى زبون",
+      "prompt_de": "Bringen Sie die Beschwerde in die richtige Reihenfolge.",
+      "prompt_ar": "رتب أجزاء شكوى الزبون.",
+      "answer": [
+        "anrede",
+        "bestellbezug",
+        "problem",
+        "forderung",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "forderung",
+          "text": "Bitte bieten Sie eine Ersatzlieferung oder einen Preisnachlass an."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "problem",
+          "text": "Das Sofa hat die falsche Farbe und ist beschädigt."
+        },
+        {
+          "id": "bestellbezug",
+          "text": "Ich beziehe mich auf meine Bestellung vom 3. Mai."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u02-v052",
+        "b2u02-v053",
+        "b2u02-v054"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v056",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u02-e037",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Antwort auf Beschwerde",
+      "title_ar": "الرد على الشكوى",
+      "prompt_de": "Welche Antwort ist professionell?",
+      "prompt_ar": "أي رد مهني؟",
+      "answer": "Wir entschuldigen uns und bieten eine kostenlose Ersatzlieferung an.",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wir entschuldigen uns und bieten eine kostenlose Ersatzlieferung an.",
+        "Das ist nicht unser Problem.",
+        "Sie haben sicher falsch bestellt.",
+        "Rufen Sie irgendwann wieder an."
+      ],
+      "vocabularyRefs": [
+        "b2u02-v053"
+      ]
+    },
+    {
+      "id": "b2u02-e038",
+      "unit": 2,
+      "type": "multiple_choice",
+      "title_de": "Reklamation",
+      "title_ar": "الشكوى",
+      "prompt_de": "Welche Angaben gehören in eine Reklamation?",
+      "prompt_ar": "ما المعلومات التي يجب ذكرها في الشكوى؟",
+      "answer": "Bestellnummer, Problem und gewünschte Lösung",
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Bestellnummer, Problem und gewünschte Lösung",
+        "nur die Lieblingsfarbe",
+        "der private Tagesablauf",
+        "Namen aller Kollegen"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v055",
+        "b2u02-v076"
+      ]
+    },
+    {
+      "id": "b2u02-e039",
+      "unit": 2,
+      "type": "guided_writing",
+      "title_de": "Formelle Beschwerde",
+      "title_ar": "شكوى رسمية",
+      "prompt_de": "Schreiben Sie 80–100 Wörter über eine fehlerhafte Lieferung.",
+      "prompt_ar": "اكتب 80–100 كلمة عن شحنة فيها خطأ.",
+      "answer": {
+        "requiredConcepts": [
+          "Bestellung",
+          "Problem",
+          "Ersatzlieferung oder Preisnachlass",
+          "höfliche Schlussformel"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u02-v052",
+        "b2u02-v053",
+        "b2u02-v054",
+        "b2u02-v076"
+      ]
+    },
+    {
+      "id": "b2u02-e040",
+      "unit": 2,
+      "type": "guided_writing",
+      "title_de": "Existenzgründung",
+      "title_ar": "تأسيس مشروع",
+      "prompt_de": "Schreiben Sie 80–100 Wörter über eine Geschäftsidee.",
+      "prompt_ar": "اكتب 80–100 كلمة عن فكرة مشروع.",
+      "answer": {
+        "requiredConcepts": [
+          "Businessplan",
+          "Geschäftslage",
+          "Finanzierung",
+          "Sortiment",
+          "Kundschaft"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u02-v013",
+        "b2u02-v010",
+        "b2u02-v012",
+        "b2u02-v003"
+      ]
+    },
+    {
+      "id": "b2u02-e041",
+      "unit": 2,
+      "type": "guided_writing",
+      "title_de": "E-Mail an die Vorgesetzte",
+      "title_ar": "رسالة إلى المديرة",
+      "prompt_de": "Schreiben Sie eine E-Mail, weil Sie den Dienstplan an einem Tag nicht einhalten können.",
+      "prompt_ar": "اكتب رسالة لأنك لا تستطيع الالتزام بجدول المناوبات في أحد الأيام.",
+      "answer": {
+        "requiredConcepts": [
+          "Grund",
+          "Entschuldigung",
+          "Vertretung",
+          "Lösungsvorschlag",
+          "Rückmeldung"
+        ]
+      },
+      "source": "original_exercise_based_on_unit_02_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u02-v023",
+        "b2u02-v026",
+        "b2u02-v064",
+        "b2u02-v065"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3553 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 12,
+    "unitTitle_de": "Global arbeiten und leben",
+    "unitTitle_ar": "العمل والحياة في عالم عالمي",
+    "sourcePages": [
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Globalisierung und interkulturelle Erfahrungen",
+      "Willkommensmappe und Kommunikation im Betrieb",
+      "persönliche Beziehungen in einer globalisierten Welt",
+      "Folgen mit folglich, infolgedessen und sodass ausdrücken",
+      "Computerprobleme und Filesharing",
+      "eine Schulung planen",
+      "Datenschutz und DSGVO",
+      "geschäftliche E-Mails und Produktbeschreibung"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne B2-Lernwert",
+      "Personen- und Firmennamen",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–11",
+      "die doppelt hochgeladene Version von Seite 222"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u10-v030",
+      "term": "die Betriebsversammlung",
+      "sourceUnit": 10,
+      "pages": [
+        208,
+        216
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 12 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u09-v083",
+      "term": "der Datenschutz",
+      "sourceUnit": 9,
+      "pages": [
+        220,
+        222,
+        223,
+        224,
+        225
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 12 wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u12-v001",
+      "identity": "die globalisierung",
+      "term": "die Globalisierung",
+      "type": "noun",
+      "arabic": "العولمة",
+      "explanation_de": "Die zunehmende weltweite Vernetzung von Wirtschaft, Politik, Kultur und Kommunikation.",
+      "explanation_ar": "التشابك المتزايد عالميًا في الاقتصاد والسياسة والثقافة والتواصل.",
+      "examples": [
+        {
+          "de": "Die Globalisierung verändert Arbeitsmärkte und Lebensformen.",
+          "ar": "تغير العولمة أسواق العمل وأنماط الحياة."
+        },
+        {
+          "de": "Internationale Teams sind eine Folge der Globalisierung.",
+          "ar": "الفرق الدولية إحدى نتائج العولمة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          210,
+          211,
+          212,
+          218
+        ],
+        "section": "Aspekte der Globalisierung"
+      },
+      "tags": [
+        "globalisierung",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v002",
+      "identity": "die weltweite vernetzung",
+      "term": "die weltweite Vernetzung",
+      "type": "noun",
+      "arabic": "الترابط العالمي",
+      "explanation_de": "Die enge Verbindung von Menschen, Unternehmen und Staaten über Ländergrenzen hinweg.",
+      "explanation_ar": "الارتباط الوثيق بين الأشخاص والشركات والدول عبر الحدود.",
+      "examples": [
+        {
+          "de": "Digitale Kommunikation fördert die weltweite Vernetzung.",
+          "ar": "يعزز التواصل الرقمي الترابط العالمي."
+        },
+        {
+          "de": "Die Vernetzung eröffnet neue berufliche Möglichkeiten.",
+          "ar": "يفتح الترابط فرصًا مهنية جديدة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          210,
+          212
+        ],
+        "section": "Aspekte der Globalisierung"
+      },
+      "tags": [
+        "globalisierung",
+        "netzwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v003",
+      "identity": "die willkommensmappe",
+      "term": "die Willkommensmappe",
+      "type": "noun",
+      "arabic": "ملف الترحيب بالموظف الجديد",
+      "explanation_de": "Eine Sammlung wichtiger Informationen für neue Mitarbeiterinnen und Mitarbeiter.",
+      "explanation_ar": "مجموعة معلومات مهمة للموظفين الجدد.",
+      "examples": [
+        {
+          "de": "Die Willkommensmappe erklärt interne Abläufe und Ansprechpartner.",
+          "ar": "يشرح ملف الترحيب الإجراءات وجهات الاتصال."
+        },
+        {
+          "de": "Sie enthält Hinweise zu Arbeitszeiten und Urlaubsplanung.",
+          "ar": "يتضمن معلومات عن أوقات العمل والإجازات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Willkommensmappen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          206,
+          207
+        ],
+        "section": "Willkommen bei WTC"
+      },
+      "tags": [
+        "onboarding",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v004",
+      "identity": "das mitarbeiterportal",
+      "term": "das Mitarbeiterportal",
+      "type": "noun",
+      "arabic": "بوابة الموظفين",
+      "explanation_de": "Eine interne digitale Plattform mit Informationen, Formularen und Unternehmensdiensten.",
+      "explanation_ar": "منصة داخلية رقمية للمعلومات والنماذج وخدمات الشركة.",
+      "examples": [
+        {
+          "de": "Im Mitarbeiterportal findet man die Urlaubsregelungen.",
+          "ar": "توجد قواعد الإجازات في بوابة الموظفين."
+        },
+        {
+          "de": "Neue Beschäftigte erhalten persönliche Zugangsdaten.",
+          "ar": "يحصل الموظفون الجدد على بيانات دخول شخصية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Mitarbeiterportale"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          207
+        ],
+        "section": "Manches ähnlich – vieles neu"
+      },
+      "tags": [
+        "arbeit",
+        "digital"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v005",
+      "identity": "die interkulturelle erfahrung",
+      "term": "die interkulturelle Erfahrung",
+      "type": "noun",
+      "arabic": "تجربة بين ثقافات مختلفة",
+      "explanation_de": "Eine Erfahrung im Kontakt mit Menschen, Regeln oder Gewohnheiten aus anderen Kulturen.",
+      "explanation_ar": "تجربة ناتجة عن التعامل مع أشخاص أو قواعد أو عادات من ثقافات أخرى.",
+      "examples": [
+        {
+          "de": "Die Arbeit im Ausland brachte ihm wertvolle interkulturelle Erfahrungen.",
+          "ar": "منحه العمل في الخارج خبرات ثقافية مهمة."
+        },
+        {
+          "de": "Solche Erfahrungen fördern Verständnis und Flexibilität.",
+          "ar": "تعزز هذه الخبرات الفهم والمرونة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die interkulturellen Erfahrungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          207,
+          214,
+          218
+        ],
+        "section": "Interkulturelle Erfahrungen"
+      },
+      "tags": [
+        "kultur",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v006",
+      "identity": "die sprachbarriere",
+      "term": "die Sprachbarriere",
+      "type": "noun",
+      "arabic": "حاجز اللغة",
+      "explanation_de": "Eine Schwierigkeit in der Kommunikation, weil Beteiligte unterschiedliche Sprachen beherrschen.",
+      "explanation_ar": "صعوبة في التواصل بسبب اختلاف اللغات.",
+      "examples": [
+        {
+          "de": "Eine Sprachbarriere kann zu Missverständnissen führen.",
+          "ar": "قد يؤدي حاجز اللغة إلى سوء تفاهم."
+        },
+        {
+          "de": "Visualisierungen helfen, Sprachbarrieren abzubauen.",
+          "ar": "تساعد الوسائل البصرية في تخفيف حواجز اللغة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Sprachbarrieren"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          212
+        ],
+        "section": "Aspekte der Globalisierung"
+      },
+      "tags": [
+        "sprache",
+        "kommunikation"
+      ],
+      "globalRef": "nouns:noun_0451",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u12-v007",
+      "identity": "die büroetikette",
+      "term": "die Büroetikette",
+      "type": "noun",
+      "arabic": "آداب السلوك في المكتب",
+      "explanation_de": "Ungeschriebene Regeln für höfliches und angemessenes Verhalten am Arbeitsplatz.",
+      "explanation_ar": "قواعد غير مكتوبة للسلوك المهذب والمناسب في مكان العمل.",
+      "examples": [
+        {
+          "de": "Die Büroetikette unterscheidet sich von Land zu Land.",
+          "ar": "تختلف آداب المكتب من بلد إلى آخر."
+        },
+        {
+          "de": "Zur Büroetikette gehört ein respektvoller Umgangston.",
+          "ar": "من آداب المكتب أسلوب التعامل المحترم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          207,
+          214
+        ],
+        "section": "Manches ähnlich – vieles neu"
+      },
+      "tags": [
+        "kultur",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v008",
+      "identity": "die anredeform",
+      "term": "die Anredeform",
+      "type": "noun",
+      "arabic": "صيغة المخاطبة",
+      "explanation_de": "Die sprachliche Form, mit der man eine Person anspricht, zum Beispiel du oder Sie.",
+      "explanation_ar": "الصيغة المستخدمة لمخاطبة شخص مثل du أو Sie.",
+      "examples": [
+        {
+          "de": "Im beruflichen Kontext ist die passende Anredeform wichtig.",
+          "ar": "صيغة المخاطبة المناسبة مهمة في العمل."
+        },
+        {
+          "de": "Bei Unsicherheit sollte man nach der gewünschten Anrede fragen.",
+          "ar": "عند الشك ينبغي السؤال عن الصيغة المرغوبة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Anredeformen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          207,
+          214,
+          217
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation",
+        "kultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v009",
+      "identity": "die brotkultur",
+      "term": "die Brotkultur",
+      "type": "noun",
+      "arabic": "ثقافة الخبز",
+      "explanation_de": "Die Vielfalt und Bedeutung von Brotarten und Gewohnheiten rund um Brot in einer Gesellschaft.",
+      "explanation_ar": "تنوع أنواع الخبز والعادات المرتبطة به في مجتمع.",
+      "examples": [
+        {
+          "de": "Die deutsche Brotkultur überrascht viele Zugewanderte.",
+          "ar": "تفاجئ ثقافة الخبز الألمانية كثيرًا من الوافدين."
+        },
+        {
+          "de": "Brotkultur kann ein Thema interkultureller Gespräche sein.",
+          "ar": "يمكن أن تكون ثقافة الخبز موضوعًا لحوار ثقافي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          207,
+          214
+        ],
+        "section": "Manches ähnlich – vieles neu"
+      },
+      "tags": [
+        "kultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v010",
+      "identity": "die markteinführung",
+      "term": "die Markteinführung",
+      "type": "noun",
+      "arabic": "إطلاق منتج في السوق",
+      "explanation_de": "Der geplante Start eines neuen Produkts oder einer Dienstleistung auf dem Markt.",
+      "explanation_ar": "الإطلاق المخطط لمنتج أو خدمة جديدة في السوق.",
+      "examples": [
+        {
+          "de": "Vor der Markteinführung findet eine interne Schulung statt.",
+          "ar": "تُعقد دورة داخلية قبل إطلاق المنتج."
+        },
+        {
+          "de": "Die Markteinführung wurde um zwei Wochen verschoben.",
+          "ar": "أُجل إطلاق المنتج أسبوعين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Markteinführungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          206,
+          208,
+          215
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "unternehmen",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v011",
+      "identity": "die umstrukturierung",
+      "term": "die Umstrukturierung",
+      "type": "noun",
+      "arabic": "إعادة الهيكلة",
+      "explanation_de": "Eine grundlegende Veränderung von Abteilungen, Zuständigkeiten oder Abläufen in einer Organisation.",
+      "explanation_ar": "تغيير جوهري في الأقسام أو المسؤوليات أو سير العمل.",
+      "examples": [
+        {
+          "de": "Die Umstrukturierung betrifft mehrere Abteilungen.",
+          "ar": "تشمل إعادة الهيكلة عدة أقسام."
+        },
+        {
+          "de": "Der Betriebsrat wurde frühzeitig informiert.",
+          "ar": "تم إبلاغ مجلس العمال مبكرًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Umstrukturierungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          208
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v012",
+      "identity": "die betriebsratsvorsitzende / der betriebsratsvorsitzende",
+      "term": "die Betriebsratsvorsitzende / der Betriebsratsvorsitzende",
+      "type": "noun",
+      "arabic": "رئيسة أو رئيس مجلس العمال",
+      "explanation_de": "Die gewählte Person, die den Betriebsrat leitet und nach außen vertritt.",
+      "explanation_ar": "الشخص المنتخب الذي يدير مجلس العمال ويمثله.",
+      "examples": [
+        {
+          "de": "Die Betriebsratsvorsitzende lädt zur Versammlung ein.",
+          "ar": "تدعو رئيسة مجلس العمال إلى الاجتماع."
+        },
+        {
+          "de": "Er beantwortet Fragen zu den Rechten der Beschäftigten.",
+          "ar": "يجيب عن أسئلة حقوق الموظفين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Betriebsratsvorsitzenden"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          208
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "betriebsrat",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v013",
+      "identity": "die interne kommunikation",
+      "term": "die interne Kommunikation",
+      "type": "noun",
+      "arabic": "التواصل الداخلي",
+      "explanation_de": "Der Informationsaustausch innerhalb eines Unternehmens oder einer Organisation.",
+      "explanation_ar": "تبادل المعلومات داخل الشركة أو المؤسسة.",
+      "examples": [
+        {
+          "de": "Gute interne Kommunikation verhindert unnötige Missverständnisse.",
+          "ar": "يمنع التواصل الداخلي الجيد سوء الفهم."
+        },
+        {
+          "de": "Wichtige Änderungen müssen rechtzeitig kommuniziert werden.",
+          "ar": "يجب إيصال التغييرات المهمة في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          208,
+          209,
+          215,
+          217
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v014",
+      "identity": "das kommunikationsproblem",
+      "term": "das Kommunikationsproblem",
+      "type": "noun",
+      "arabic": "مشكلة تواصل",
+      "explanation_de": "Eine Schwierigkeit, durch die Informationen falsch, unvollständig oder verspätet ankommen.",
+      "explanation_ar": "صعوبة تجعل المعلومات تصل بصورة خاطئة أو ناقصة أو متأخرة.",
+      "examples": [
+        {
+          "de": "Das Kommunikationsproblem entstand durch unklare Zuständigkeiten.",
+          "ar": "نشأت المشكلة بسبب غموض المسؤوليات."
+        },
+        {
+          "de": "Ein direktes Gespräch konnte das Problem lösen.",
+          "ar": "حل حوار مباشر المشكلة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Kommunikationsprobleme"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          208,
+          209,
+          215
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v015",
+      "identity": "die missverständnisklärung",
+      "term": "die Missverständnisklärung",
+      "type": "noun",
+      "arabic": "توضيح سوء الفهم",
+      "explanation_de": "Der Prozess, ein Missverständnis offen anzusprechen und gemeinsam aufzulösen.",
+      "explanation_ar": "عملية مناقشة سوء الفهم وحله بصورة مشتركة.",
+      "examples": [
+        {
+          "de": "Zur Missverständnisklärung vereinbarten beide ein Gespräch.",
+          "ar": "اتفق الطرفان على حوار لتوضيح سوء الفهم."
+        },
+        {
+          "de": "Sachliche Fragen erleichtern die Klärung.",
+          "ar": "تسهل الأسئلة الموضوعية التوضيح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Missverständnisklärungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          209
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v016",
+      "identity": "ein problem schildern",
+      "term": "ein Problem schildern",
+      "type": "phrase",
+      "arabic": "يشرح مشكلة",
+      "explanation_de": "Eine Schwierigkeit verständlich, sachlich und mit den wichtigsten Einzelheiten darstellen.",
+      "explanation_ar": "عرض المشكلة بوضوح وموضوعية مع أهم التفاصيل.",
+      "examples": [
+        {
+          "de": "Bitte schildern Sie das Problem möglichst genau.",
+          "ar": "يرجى شرح المشكلة بدقة."
+        },
+        {
+          "de": "Sie schilderte, wann der Fehler erstmals auftrat.",
+          "ar": "شرحت متى ظهر الخلل أول مرة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          209,
+          220,
+          221,
+          226,
+          227
+        ],
+        "section": "Kommunikation und IT"
+      },
+      "tags": [
+        "kommunikation",
+        "problem"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v017",
+      "identity": "um erklärung bitten",
+      "term": "um Erklärung bitten",
+      "type": "phrase",
+      "arabic": "يطلب توضيحًا",
+      "explanation_de": "Höflich darum bitten, einen Sachverhalt genauer zu erläutern.",
+      "explanation_ar": "الطلب بأدب شرح أمر بصورة أدق.",
+      "examples": [
+        {
+          "de": "Ich möchte Sie um eine kurze Erklärung bitten.",
+          "ar": "أود طلب توضيح قصير."
+        },
+        {
+          "de": "Er bat die Kollegin um Erklärung des Ablaufs.",
+          "ar": "طلب من الزميلة شرح الإجراء."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          209
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v018",
+      "identity": "sich für ein missverständnis entschuldigen",
+      "term": "sich für ein Missverständnis entschuldigen",
+      "type": "phrase",
+      "arabic": "يعتذر عن سوء تفاهم",
+      "explanation_de": "Bedauern ausdrücken, dass eine Aussage oder Handlung falsch verstanden wurde.",
+      "explanation_ar": "التعبير عن الأسف بسبب فهم قول أو تصرف بصورة خاطئة.",
+      "examples": [
+        {
+          "de": "Ich entschuldige mich für das Missverständnis.",
+          "ar": "أعتذر عن سوء الفهم."
+        },
+        {
+          "de": "Sie entschuldigte sich dafür, dass die Information zu spät kam.",
+          "ar": "اعتذرت لأن المعلومة وصلت متأخرة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          209
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "kommunikation",
+        "höflichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v019",
+      "identity": "die fernbeziehung",
+      "term": "die Fernbeziehung",
+      "type": "noun",
+      "arabic": "علاقة عاطفية عن بُعد",
+      "explanation_de": "Eine Partnerschaft, in der die Partner dauerhaft an verschiedenen Orten leben.",
+      "explanation_ar": "علاقة يعيش فيها الشريكان في مكانين مختلفين.",
+      "examples": [
+        {
+          "de": "Eine Fernbeziehung verlangt gute Kommunikation und Planung.",
+          "ar": "تحتاج العلاقة عن بعد إلى تواصل وتخطيط جيدين."
+        },
+        {
+          "de": "Regelmäßige Besuche können die Beziehung stabilisieren.",
+          "ar": "قد تساعد الزيارات المنتظمة على استقرار العلاقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fernbeziehungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          211,
+          218
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "beziehung",
+        "globalisierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v020",
+      "identity": "die räumliche trennung",
+      "term": "die räumliche Trennung",
+      "type": "noun",
+      "arabic": "الانفصال المكاني",
+      "explanation_de": "Der Zustand, dass nahestehende Personen an verschiedenen Orten leben.",
+      "explanation_ar": "حالة عيش أشخاص مقربين في أماكن مختلفة.",
+      "examples": [
+        {
+          "de": "Die räumliche Trennung kann emotional belastend sein.",
+          "ar": "قد يكون الانفصال المكاني مرهقًا عاطفيًا."
+        },
+        {
+          "de": "Digitale Medien erleichtern den Kontakt trotz der Entfernung.",
+          "ar": "تسهل الوسائط الرقمية التواصل رغم المسافة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          211
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "beziehung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v021",
+      "identity": "die verlustangst",
+      "term": "die Verlustangst",
+      "type": "noun",
+      "arabic": "الخوف من الفقدان",
+      "explanation_de": "Die starke Sorge, eine wichtige Beziehung oder eine nahestehende Person zu verlieren.",
+      "explanation_ar": "الخوف الشديد من فقدان علاقة مهمة أو شخص مقرب.",
+      "examples": [
+        {
+          "de": "Verlustangst kann zu häufigen Konflikten führen.",
+          "ar": "قد يؤدي الخوف من الفقدان إلى نزاعات متكررة."
+        },
+        {
+          "de": "Offene Gespräche können Sicherheit geben.",
+          "ar": "قد تمنح الحوارات المفتوحة شعورًا بالأمان."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Verlustängste"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          211
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "beziehung",
+        "gefühl"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v022",
+      "identity": "die weltfamilie",
+      "term": "die Weltfamilie",
+      "type": "noun",
+      "arabic": "عائلة متعددة الجنسيات والثقافات",
+      "explanation_de": "Eine Familie, deren Mitglieder aus verschiedenen Ländern oder Kulturen stammen.",
+      "explanation_ar": "عائلة ينتمي أفرادها إلى بلدان أو ثقافات مختلفة.",
+      "examples": [
+        {
+          "de": "In einer Weltfamilie treffen mehrere Sprachen und Traditionen aufeinander.",
+          "ar": "تجتمع لغات وتقاليد متعددة في العائلة العالمية."
+        },
+        {
+          "de": "Die Kinder wachsen häufig mehrsprachig auf.",
+          "ar": "ينشأ الأطفال غالبًا بعدة لغات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Weltfamilien"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          211,
+          217
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "familie",
+        "globalisierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v023",
+      "identity": "die staatsangehörigkeit",
+      "term": "die Staatsangehörigkeit",
+      "type": "noun",
+      "arabic": "الجنسية القانونية",
+      "explanation_de": "Die rechtliche Zugehörigkeit einer Person zu einem Staat.",
+      "explanation_ar": "الانتماء القانوني لشخص إلى دولة.",
+      "examples": [
+        {
+          "de": "Die Staatsangehörigkeit ist nicht mit kultureller Identität identisch.",
+          "ar": "لا تتطابق الجنسية مع الهوية الثقافية بالضرورة."
+        },
+        {
+          "de": "Für bestimmte Verfahren muss die Staatsangehörigkeit nachgewiesen werden.",
+          "ar": "يجب إثبات الجنسية في إجراءات معينة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Staatsangehörigkeiten"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          217
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "recht",
+        "globalisierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v024",
+      "identity": "die scheinehe",
+      "term": "die Scheinehe",
+      "type": "noun",
+      "arabic": "زواج صوري",
+      "explanation_de": "Eine Ehe, die nur zum Schein und nicht als tatsächliche Lebensgemeinschaft geschlossen wird.",
+      "explanation_ar": "زواج يتم شكليًا دون حياة زوجية حقيقية.",
+      "examples": [
+        {
+          "de": "Eine Scheinehe kann rechtliche Konsequenzen haben.",
+          "ar": "قد تكون للزواج الصوري عواقب قانونية."
+        },
+        {
+          "de": "Behörden prüfen Verdachtsfälle sorgfältig.",
+          "ar": "تفحص السلطات الحالات المشبوهة بعناية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Scheinehen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "recht",
+        "beziehung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v025",
+      "identity": "der integrationsprozess",
+      "term": "der Integrationsprozess",
+      "type": "noun",
+      "arabic": "عملية الاندماج",
+      "explanation_de": "Die längerfristige Eingliederung in gesellschaftliche, berufliche und kulturelle Strukturen.",
+      "explanation_ar": "الاندماج طويل الأمد في البنى الاجتماعية والمهنية والثقافية.",
+      "examples": [
+        {
+          "de": "Arbeit und Sprachkenntnisse unterstützen den Integrationsprozess.",
+          "ar": "يدعم العمل واللغة عملية الاندماج."
+        },
+        {
+          "de": "Familiäre Beziehungen können den Prozess erleichtern oder erschweren.",
+          "ar": "قد تسهل العلاقات العائلية الاندماج أو تصعبه."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Integrationsprozesse"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "integration"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v026",
+      "identity": "die lebenswelt",
+      "term": "die Lebenswelt",
+      "type": "noun",
+      "arabic": "الواقع المعيشي والاجتماعي",
+      "explanation_de": "Der Alltag und die sozialen Bedingungen, in denen eine Person lebt.",
+      "explanation_ar": "الحياة اليومية والظروف الاجتماعية التي يعيش فيها الشخص.",
+      "examples": [
+        {
+          "de": "Unterschiedliche Lebenswelten können zu Missverständnissen führen.",
+          "ar": "قد تؤدي العوالم المعيشية المختلفة إلى سوء فهم."
+        },
+        {
+          "de": "Das Paar versucht, seine Lebenswelten miteinander zu verbinden.",
+          "ar": "يحاول الزوجان ربط واقعيهما المعيشيين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lebenswelten"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "gesellschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v027",
+      "identity": "der lebensmittelpunkt",
+      "term": "der Lebensmittelpunkt",
+      "type": "noun",
+      "arabic": "مركز الحياة الرئيسي",
+      "explanation_de": "Der Ort, an dem eine Person überwiegend lebt und ihre wichtigsten Beziehungen hat.",
+      "explanation_ar": "المكان الذي يعيش فيه الشخص غالبًا وتتركز فيه علاقاته الأساسية.",
+      "examples": [
+        {
+          "de": "Ihr Lebensmittelpunkt liegt inzwischen in Deutschland.",
+          "ar": "أصبح مركز حياتها في ألمانيا."
+        },
+        {
+          "de": "Bei einer Fernbeziehung können zwei Lebensmittelpunkte entstehen.",
+          "ar": "قد يوجد مركزا حياة في العلاقة عن بعد."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Lebensmittelpunkte"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          210
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "beziehung",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v028",
+      "identity": "der ideen- und erfahrungsaustausch",
+      "term": "der Ideen- und Erfahrungsaustausch",
+      "type": "noun",
+      "arabic": "تبادل الأفكار والخبرات",
+      "explanation_de": "Der gegenseitige Austausch von Wissen, Perspektiven und praktischen Erfahrungen.",
+      "explanation_ar": "تبادل المعرفة ووجهات النظر والخبرات العملية.",
+      "examples": [
+        {
+          "de": "Internationale Teams fördern den Ideen- und Erfahrungsaustausch.",
+          "ar": "تعزز الفرق الدولية تبادل الأفكار والخبرات."
+        },
+        {
+          "de": "Der Austausch hilft bei der Entwicklung neuer Lösungen.",
+          "ar": "يساعد التبادل في تطوير حلول جديدة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          212
+        ],
+        "section": "Aspekte der Globalisierung"
+      },
+      "tags": [
+        "kommunikation",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v029",
+      "identity": "kontakte über distanz pflegen",
+      "term": "Kontakte über Distanz pflegen",
+      "type": "phrase",
+      "arabic": "يحافظ على العلاقات عن بُعد",
+      "explanation_de": "Beziehungen trotz großer räumlicher Entfernung regelmäßig aufrechterhalten.",
+      "explanation_ar": "المحافظة على العلاقات رغم البعد المكاني.",
+      "examples": [
+        {
+          "de": "Videotelefonie hilft, Kontakte über Distanz zu pflegen.",
+          "ar": "يساعد الاتصال المرئي في الحفاظ على العلاقات."
+        },
+        {
+          "de": "Gemeinsame Rituale stärken die Verbindung.",
+          "ar": "تقوي العادات المشتركة العلاقة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          210,
+          211
+        ],
+        "section": "Persönliche Beziehungen"
+      },
+      "tags": [
+        "beziehung",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v030",
+      "identity": "sprachbarrieren abbauen",
+      "term": "Sprachbarrieren abbauen",
+      "type": "phrase",
+      "arabic": "يخفف حواجز اللغة",
+      "explanation_de": "Maßnahmen ergreifen, damit Kommunikation trotz unterschiedlicher Sprachen leichter gelingt.",
+      "explanation_ar": "اتخاذ إجراءات لتسهيل التواصل رغم اختلاف اللغة.",
+      "examples": [
+        {
+          "de": "Mehrsprachige Informationen helfen, Sprachbarrieren abzubauen.",
+          "ar": "تساعد المعلومات متعددة اللغات على تخفيف الحواجز."
+        },
+        {
+          "de": "Einfache Sprache kann Missverständnisse reduzieren.",
+          "ar": "قد تقلل اللغة البسيطة سوء الفهم."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          205,
+          212
+        ],
+        "section": "Aspekte der Globalisierung"
+      },
+      "tags": [
+        "sprache",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v031",
+      "identity": "folglich",
+      "term": "folglich",
+      "type": "adverb",
+      "arabic": "وبالتالي",
+      "explanation_de": "Ein Konnektor, der eine logische Folge aus einer vorherigen Aussage ausdrückt.",
+      "explanation_ar": "أداة ربط تعبر عن نتيجة منطقية لما سبق.",
+      "examples": [
+        {
+          "de": "Die Frist wurde verkürzt; folglich müssen wir schneller handeln.",
+          "ar": "قُصرت المهلة، وبالتالي يجب أن نتصرف أسرع."
+        },
+        {
+          "de": "Er arbeitet international, folglich braucht er gute Sprachkenntnisse.",
+          "ar": "يعمل دوليًا، وبالتالي يحتاج إلى لغة جيدة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          206,
+          213,
+          218
+        ],
+        "section": "Folgen ausdrücken"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v032",
+      "identity": "infolgedessen",
+      "term": "infolgedessen",
+      "type": "adverb",
+      "arabic": "ونتيجة لذلك",
+      "explanation_de": "Ein formeller Konnektor für eine direkte Folge oder Konsequenz.",
+      "explanation_ar": "أداة ربط رسمية لنتيجة مباشرة.",
+      "examples": [
+        {
+          "de": "Die Information kam zu spät; infolgedessen wurde der Termin verschoben.",
+          "ar": "وصلت المعلومة متأخرة، ونتيجة لذلك أُجل الموعد."
+        },
+        {
+          "de": "Die Nachfrage sank; infolgedessen wurde weniger produziert.",
+          "ar": "انخفض الطلب، ولذلك انخفض الإنتاج."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          206,
+          213,
+          218
+        ],
+        "section": "Folgen ausdrücken"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v033",
+      "identity": "sodass",
+      "term": "sodass",
+      "type": "adverb",
+      "arabic": "بحيث / مما أدى إلى",
+      "explanation_de": "Eine Konjunktion, die eine Folge in einem Nebensatz ausdrückt.",
+      "explanation_ar": "أداة ربط تعبر عن النتيجة في جملة فرعية.",
+      "examples": [
+        {
+          "de": "Die Anleitung ist klar, sodass alle den Ablauf verstehen.",
+          "ar": "التعليمات واضحة بحيث يفهم الجميع الإجراء."
+        },
+        {
+          "de": "Das Team wächst, sodass neue Räume benötigt werden.",
+          "ar": "يكبر الفريق، مما يستدعي غرفًا جديدة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          206,
+          213,
+          218
+        ],
+        "section": "Folgen ausdrücken"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v034",
+      "identity": "obwohl",
+      "term": "obwohl",
+      "type": "adverb",
+      "arabic": "رغم أن",
+      "explanation_de": "Eine unterordnende Konjunktion, die einen Gegensatz oder eine unerwartete Einschränkung ausdrückt.",
+      "explanation_ar": "أداة ربط لجملة فرعية تعبر عن تعارض أو استثناء غير متوقع.",
+      "examples": [
+        {
+          "de": "Obwohl die Entfernung groß ist, sehen sie sich regelmäßig.",
+          "ar": "رغم أن المسافة كبيرة، يلتقيان بانتظام."
+        },
+        {
+          "de": "Er verstand die E-Mail, obwohl sie sehr formell war.",
+          "ar": "فهم البريد رغم رسميته الشديدة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          213,
+          218
+        ],
+        "section": "Konnektoren"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v035",
+      "identity": "sobald",
+      "term": "sobald",
+      "type": "adverb",
+      "arabic": "بمجرد أن",
+      "explanation_de": "Eine temporale Konjunktion für eine Handlung, die unmittelbar nach einer anderen beginnt.",
+      "explanation_ar": "أداة زمنية لحدث يبدأ فور وقوع حدث آخر.",
+      "examples": [
+        {
+          "de": "Sobald die Unterlagen vorliegen, melden wir uns.",
+          "ar": "بمجرد وصول المستندات سنتواصل."
+        },
+        {
+          "de": "Sie ruft an, sobald sie eine Rückmeldung erhält.",
+          "ar": "تتصل فور حصولها على رد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          213
+        ],
+        "section": "Konnektoren"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v036",
+      "identity": "solange",
+      "term": "solange",
+      "type": "adverb",
+      "arabic": "طالما / ما دام",
+      "explanation_de": "Eine temporale Konjunktion, die eine gleichzeitige Dauer oder Bedingung ausdrückt.",
+      "explanation_ar": "أداة تعبر عن مدة متزامنة أو شرط مستمر.",
+      "examples": [
+        {
+          "de": "Solange die Daten geprüft werden, bleibt der Zugang gesperrt.",
+          "ar": "يبقى الدخول محظورًا ما دامت البيانات قيد الفحص."
+        },
+        {
+          "de": "Sie arbeitet im Ausland, solange das Projekt läuft.",
+          "ar": "تعمل في الخارج طوال مدة المشروع."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          213
+        ],
+        "section": "Konnektoren"
+      },
+      "tags": [
+        "grammatik",
+        "konnektor"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v037",
+      "identity": "das filesharing",
+      "term": "das Filesharing",
+      "type": "noun",
+      "arabic": "مشاركة الملفات",
+      "explanation_de": "Das digitale Teilen oder Austauschen von Dateien über ein Netzwerk oder einen Dienst.",
+      "explanation_ar": "مشاركة الملفات أو تبادلها رقميًا عبر شبكة أو خدمة.",
+      "examples": [
+        {
+          "de": "Das Filesharing ist nur für dienstliche Daten freigegeben.",
+          "ar": "مشاركة الملفات مخصصة للبيانات المهنية فقط."
+        },
+        {
+          "de": "Große Dateien werden über das Filesharing-System verschickt.",
+          "ar": "تُرسل الملفات الكبيرة عبر نظام المشاركة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          226,
+          227
+        ],
+        "section": "Erklären, wie etwas funktioniert"
+      },
+      "tags": [
+        "it",
+        "daten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v038",
+      "identity": "das filesharing-system",
+      "term": "das Filesharing-System",
+      "type": "noun",
+      "arabic": "نظام مشاركة الملفات",
+      "explanation_de": "Eine technische Plattform zum sicheren Speichern und Austauschen von Dateien.",
+      "explanation_ar": "منصة تقنية لحفظ الملفات وتبادلها بأمان.",
+      "examples": [
+        {
+          "de": "Das Filesharing-System ersetzt keine Datensicherung.",
+          "ar": "لا يحل نظام المشاركة محل النسخ الاحتياطي."
+        },
+        {
+          "de": "Der Zugriff erfolgt über persönliche Zugangsdaten.",
+          "ar": "يتم الدخول عبر بيانات شخصية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Filesharing-Systeme"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          226
+        ],
+        "section": "Erklären, wie etwas funktioniert"
+      },
+      "tags": [
+        "it",
+        "daten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v039",
+      "identity": "die zugangsdaten",
+      "term": "die Zugangsdaten",
+      "type": "noun",
+      "arabic": "بيانات الدخول",
+      "explanation_de": "Informationen wie Benutzername und Passwort, die den Zugang zu einem System ermöglichen.",
+      "explanation_ar": "معلومات مثل اسم المستخدم وكلمة المرور التي تتيح الدخول إلى نظام.",
+      "examples": [
+        {
+          "de": "Zugangsdaten dürfen nicht weitergegeben werden.",
+          "ar": "لا يجوز مشاركة بيانات الدخول."
+        },
+        {
+          "de": "Bei Verlust müssen die Zugangsdaten sofort geändert werden.",
+          "ar": "يجب تغييرها فور فقدانها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          226,
+          227
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v040",
+      "identity": "die anmeldedaten",
+      "term": "die Anmeldedaten",
+      "type": "noun",
+      "arabic": "بيانات تسجيل الدخول",
+      "explanation_de": "Die Angaben, mit denen sich eine Person bei einem digitalen Dienst anmeldet.",
+      "explanation_ar": "البيانات المستخدمة لتسجيل الدخول إلى خدمة رقمية.",
+      "examples": [
+        {
+          "de": "Die Anmeldedaten bestehen aus Benutzername und Kennwort.",
+          "ar": "تتكون بيانات الدخول من اسم مستخدم وكلمة مرور."
+        },
+        {
+          "de": "Speichern Sie Anmeldedaten nicht auf öffentlichen Geräten.",
+          "ar": "لا تحفظها على أجهزة عامة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          226
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v041",
+      "identity": "der benutzername",
+      "term": "der Benutzername",
+      "type": "noun",
+      "arabic": "اسم المستخدم",
+      "explanation_de": "Eine eindeutige Bezeichnung zur Identifikation einer Person in einem digitalen System.",
+      "explanation_ar": "تسمية فريدة لتحديد الشخص في نظام رقمي.",
+      "examples": [
+        {
+          "de": "Der Benutzername wird von der IT-Abteilung vergeben.",
+          "ar": "يحدد قسم التقنية اسم المستخدم."
+        },
+        {
+          "de": "Groß- und Kleinschreibung kann relevant sein.",
+          "ar": "قد تكون حالة الأحرف مهمة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Benutzernamen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          226,
+          227
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v042",
+      "identity": "das sonderzeichen",
+      "term": "das Sonderzeichen",
+      "type": "noun",
+      "arabic": "رمز خاص",
+      "explanation_de": "Ein Zeichen, das weder Buchstabe noch Ziffer ist, zum Beispiel !, ?, # oder %.",
+      "explanation_ar": "رمز ليس حرفًا ولا رقمًا مثل ! أو #.",
+      "examples": [
+        {
+          "de": "Das Passwort muss mindestens ein Sonderzeichen enthalten.",
+          "ar": "يجب أن تتضمن كلمة المرور رمزًا خاصًا."
+        },
+        {
+          "de": "Sonderzeichen erhöhen die Passwortsicherheit.",
+          "ar": "ترفع الرموز الخاصة أمان كلمة المرور."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Sonderzeichen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "IT und Datenschutz"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v043",
+      "identity": "zugangsdaten unter verschluss halten",
+      "term": "Zugangsdaten unter Verschluss halten",
+      "type": "phrase",
+      "arabic": "يحفظ بيانات الدخول بسرية",
+      "explanation_de": "Zugangsdaten sicher aufbewahren und vor unbefugtem Zugriff schützen.",
+      "explanation_ar": "حفظ بيانات الدخول بأمان ومنع غير المصرح لهم من الوصول إليها.",
+      "examples": [
+        {
+          "de": "Bitte halten Sie Ihre Zugangsdaten unter Verschluss.",
+          "ar": "يرجى حفظ بيانات الدخول بسرية."
+        },
+        {
+          "de": "Das Passwort darf nicht offen am Arbeitsplatz liegen.",
+          "ar": "لا يجوز ترك كلمة المرور ظاهرة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          226,
+          227
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v044",
+      "identity": "einen account einrichten",
+      "term": "einen Account einrichten",
+      "type": "phrase",
+      "arabic": "ينشئ حسابًا",
+      "explanation_de": "Ein neues Benutzerkonto anlegen und für die Nutzung vorbereiten.",
+      "explanation_ar": "إنشاء حساب مستخدم جديد وتجهيزه للاستخدام.",
+      "examples": [
+        {
+          "de": "Die IT richtet den Account vor dem ersten Arbeitstag ein.",
+          "ar": "ينشئ قسم التقنية الحساب قبل أول يوم."
+        },
+        {
+          "de": "Nach der Einrichtung muss das Passwort geändert werden.",
+          "ar": "يجب تغيير كلمة المرور بعد الإنشاء."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          226
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v045",
+      "identity": "das passwort zurücksetzen",
+      "term": "das Passwort zurücksetzen",
+      "type": "phrase",
+      "arabic": "يعيد تعيين كلمة المرور",
+      "explanation_de": "Ein bisheriges Passwort ungültig machen und ein neues festlegen.",
+      "explanation_ar": "إلغاء كلمة المرور السابقة وتحديد واحدة جديدة.",
+      "examples": [
+        {
+          "de": "Die IT kann das Passwort zurücksetzen.",
+          "ar": "يمكن لقسم التقنية إعادة تعيين كلمة المرور."
+        },
+        {
+          "de": "Nach dem Zurücksetzen ist eine erneute Anmeldung nötig.",
+          "ar": "يلزم تسجيل الدخول مجددًا بعد ذلك."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          226,
+          227
+        ],
+        "section": "Filesharing"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v046",
+      "identity": "eine funktion aktivieren / deaktivieren",
+      "term": "eine Funktion aktivieren / deaktivieren",
+      "type": "phrase",
+      "arabic": "يفعل أو يعطل وظيفة",
+      "explanation_de": "Eine technische Funktion einschalten oder ausschalten.",
+      "explanation_ar": "تشغيل وظيفة تقنية أو إيقافها.",
+      "examples": [
+        {
+          "de": "Aktivieren Sie Bluetooth nur bei Bedarf.",
+          "ar": "فعّل البلوتوث عند الحاجة فقط."
+        },
+        {
+          "de": "Die automatische Synchronisation wurde deaktiviert.",
+          "ar": "تم تعطيل المزامنة التلقائية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v047",
+      "identity": "koppeln",
+      "term": "koppeln",
+      "type": "verb",
+      "arabic": "يربط جهازين",
+      "explanation_de": "Zwei technische Geräte drahtlos oder per Kabel miteinander verbinden.",
+      "explanation_ar": "ربط جهازين تقنيين لاسلكيًا أو بسلك.",
+      "examples": [
+        {
+          "de": "Das Headset wird mit dem Smartphone gekoppelt.",
+          "ar": "تُربط السماعة بالهاتف."
+        },
+        {
+          "de": "Sie koppelte die Tastatur mit dem Laptop.",
+          "ar": "ربطت لوحة المفاتيح بالحاسوب."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "koppelte",
+        "perfekt": "hat gekoppelt",
+        "separable": false,
+        "reflexive": false
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v048",
+      "identity": "navigieren",
+      "term": "navigieren",
+      "type": "verb",
+      "arabic": "يتنقل داخل نظام أو موقع",
+      "explanation_de": "Sich gezielt durch Menüs, Webseiten oder digitale Systeme bewegen.",
+      "explanation_ar": "التنقل بصورة مقصودة عبر القوائم أو المواقع أو الأنظمة.",
+      "examples": [
+        {
+          "de": "Navigieren Sie zu den Bluetooth-Einstellungen.",
+          "ar": "انتقل إلى إعدادات البلوتوث."
+        },
+        {
+          "de": "Er navigierte durch das Kundenportal.",
+          "ar": "تنقل في بوابة العملاء."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "navigierte",
+        "perfekt": "hat navigiert",
+        "separable": false,
+        "reflexive": false
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v049",
+      "identity": "das bluetooth-headset",
+      "term": "das Bluetooth-Headset",
+      "type": "noun",
+      "arabic": "سماعة بلوتوث",
+      "explanation_de": "Ein kabelloses Headset, das über Bluetooth mit einem Gerät verbunden wird.",
+      "explanation_ar": "سماعة لاسلكية تتصل بجهاز عبر البلوتوث.",
+      "examples": [
+        {
+          "de": "Das Bluetooth-Headset wird automatisch erkannt.",
+          "ar": "تُكتشف السماعة تلقائيًا."
+        },
+        {
+          "de": "Vor der Nutzung muss es gekoppelt werden.",
+          "ar": "يجب ربطها قبل الاستخدام."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Bluetooth-Headsets"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v050",
+      "identity": "die distanz",
+      "term": "die Distanz",
+      "type": "noun",
+      "arabic": "المسافة",
+      "explanation_de": "Der räumliche Abstand zwischen zwei Orten, Personen oder Geräten.",
+      "explanation_ar": "البعد المكاني بين مكانين أو شخصين أو جهازين.",
+      "examples": [
+        {
+          "de": "Bluetooth funktioniert nur über eine begrenzte Distanz.",
+          "ar": "يعمل البلوتوث ضمن مسافة محدودة."
+        },
+        {
+          "de": "Die Distanz beeinflusst die Verbindungsqualität.",
+          "ar": "تؤثر المسافة في جودة الاتصال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Distanzen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v051",
+      "identity": "kabellos",
+      "term": "kabellos",
+      "type": "adjective",
+      "arabic": "لاسلكي",
+      "explanation_de": "Ohne physisches Kabel funktionierend.",
+      "explanation_ar": "يعمل دون كابل.",
+      "examples": [
+        {
+          "de": "Die Maus ist kabellos mit dem Computer verbunden.",
+          "ar": "الفأرة متصلة لاسلكيًا."
+        },
+        {
+          "de": "Kabellose Geräte benötigen meist einen Akku.",
+          "ar": "تحتاج الأجهزة اللاسلكية غالبًا إلى بطارية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          227
+        ],
+        "section": "Bedienungsanleitung"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v052",
+      "identity": "das backup",
+      "term": "das Backup",
+      "type": "noun",
+      "arabic": "نسخة احتياطية",
+      "explanation_de": "Eine zusätzliche Kopie von Daten, die bei Verlust oder Beschädigung wiederhergestellt werden kann.",
+      "explanation_ar": "نسخة إضافية من البيانات يمكن استعادتها عند الفقد أو التلف.",
+      "examples": [
+        {
+          "de": "Ein regelmäßiges Backup schützt vor Datenverlust.",
+          "ar": "تحمي النسخة الاحتياطية المنتظمة من فقد البيانات."
+        },
+        {
+          "de": "Die Sicherung liegt auf einem externen Datenträger.",
+          "ar": "النسخة محفوظة على وسيط خارجي."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Backups"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221,
+          226,
+          227
+        ],
+        "section": "IT und Datenschutz"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v053",
+      "identity": "die festplatte",
+      "term": "die Festplatte",
+      "type": "noun",
+      "arabic": "القرص الصلب",
+      "explanation_de": "Ein Speichermedium in oder an einem Computer.",
+      "explanation_ar": "وسيط تخزين داخل الحاسوب أو متصل به.",
+      "examples": [
+        {
+          "de": "Die externe Festplatte enthält die Sicherung.",
+          "ar": "يحتوي القرص الخارجي على النسخة."
+        },
+        {
+          "de": "Bei ungewöhnlichen Geräuschen sollte die Festplatte geprüft werden.",
+          "ar": "ينبغي فحص القرص عند صدور أصوات غير طبيعية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Festplatten"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221,
+          227
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v054",
+      "identity": "der programmabsturz",
+      "term": "der Programmabsturz",
+      "type": "noun",
+      "arabic": "تعطل البرنامج",
+      "explanation_de": "Das unerwartete Beenden oder Nicht-mehr-Reagieren eines Programms.",
+      "explanation_ar": "توقف البرنامج أو عدم استجابته بصورة مفاجئة.",
+      "examples": [
+        {
+          "de": "Nach dem Update kam es zu einem Programmabsturz.",
+          "ar": "حدث تعطل بعد التحديث."
+        },
+        {
+          "de": "Die offene Datei wurde automatisch wiederhergestellt.",
+          "ar": "تمت استعادة الملف المفتوح تلقائيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Programmabstürze"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v055",
+      "identity": "der systemabsturz",
+      "term": "der Systemabsturz",
+      "type": "noun",
+      "arabic": "تعطل النظام",
+      "explanation_de": "Der plötzliche Ausfall des gesamten Betriebssystems.",
+      "explanation_ar": "التوقف المفاجئ لنظام التشغيل بالكامل.",
+      "examples": [
+        {
+          "de": "Ein Systemabsturz kann mehrere Ursachen haben.",
+          "ar": "قد تكون لتعطل النظام أسباب متعددة."
+        },
+        {
+          "de": "Nach dem Absturz wurde das Gerät neu gestartet.",
+          "ar": "أعيد تشغيل الجهاز بعد التعطل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Systemabstürze"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v056",
+      "identity": "die fehlermeldung",
+      "term": "die Fehlermeldung",
+      "type": "noun",
+      "arabic": "رسالة الخطأ",
+      "explanation_de": "Eine automatisch angezeigte Information über ein technisches Problem.",
+      "explanation_ar": "معلومة تظهر تلقائيًا بشأن مشكلة تقنية.",
+      "examples": [
+        {
+          "de": "Notieren Sie den genauen Wortlaut der Fehlermeldung.",
+          "ar": "دوّن نص رسالة الخطأ بدقة."
+        },
+        {
+          "de": "Ein Screenshot erleichtert die Fehleranalyse.",
+          "ar": "تسهل لقطة الشاشة تحليل الخطأ."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fehlermeldungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221,
+          226
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v057",
+      "identity": "die rechtschreibprüfung",
+      "term": "die Rechtschreibprüfung",
+      "type": "noun",
+      "arabic": "التدقيق الإملائي",
+      "explanation_de": "Eine Programmfunktion, die Texte auf mögliche Rechtschreibfehler prüft.",
+      "explanation_ar": "وظيفة في البرنامج تفحص الأخطاء الإملائية المحتملة.",
+      "examples": [
+        {
+          "de": "Die Rechtschreibprüfung startet nicht mehr.",
+          "ar": "لم يعد التدقيق الإملائي يعمل."
+        },
+        {
+          "de": "Ein Update kann das Problem beheben.",
+          "ar": "قد يحل التحديث المشكلة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Rechtschreibprüfungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it",
+        "sprache"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v058",
+      "identity": "das update",
+      "term": "das Update",
+      "type": "noun",
+      "arabic": "تحديث البرنامج",
+      "explanation_de": "Eine neue Version oder Ergänzung, die Fehler behebt oder Funktionen verbessert.",
+      "explanation_ar": "إصدار أو إضافة جديدة تصلح الأخطاء أو تحسن الوظائف.",
+      "examples": [
+        {
+          "de": "Installieren Sie sicherheitsrelevante Updates zeitnah.",
+          "ar": "ثبّت التحديثات الأمنية بسرعة."
+        },
+        {
+          "de": "Nach dem Update muss der Computer neu gestartet werden.",
+          "ar": "يجب إعادة التشغيل بعد التحديث."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Updates"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v059",
+      "identity": "der virus",
+      "term": "der Virus",
+      "type": "noun",
+      "arabic": "فيروس حاسوبي",
+      "explanation_de": "Ein schädliches Programm, das Daten oder Systeme beeinträchtigen kann.",
+      "explanation_ar": "برنامج ضار قد يؤثر في البيانات أو الأنظمة.",
+      "examples": [
+        {
+          "de": "Der Virenscanner hat einen Virus erkannt.",
+          "ar": "اكتشف برنامج الحماية فيروسًا."
+        },
+        {
+          "de": "Verdächtige Anhänge sollten nicht geöffnet werden.",
+          "ar": "لا ينبغي فتح المرفقات المشبوهة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Viren"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v060",
+      "identity": "der datenverlust",
+      "term": "der Datenverlust",
+      "type": "noun",
+      "arabic": "فقدان البيانات",
+      "explanation_de": "Der vollständige oder teilweise Verlust gespeicherter Informationen.",
+      "explanation_ar": "الفقدان الكامل أو الجزئي للمعلومات المخزنة.",
+      "examples": [
+        {
+          "de": "Ein defekter Datenträger kann Datenverlust verursachen.",
+          "ar": "قد يسبب وسيط معطل فقد البيانات."
+        },
+        {
+          "de": "Backups verringern das Risiko.",
+          "ar": "تقلل النسخ الاحتياطية الخطر."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221,
+          226
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v061",
+      "identity": "die externe tastatur",
+      "term": "die externe Tastatur",
+      "type": "noun",
+      "arabic": "لوحة مفاتيح خارجية",
+      "explanation_de": "Eine separate Tastatur, die an einen Computer angeschlossen wird.",
+      "explanation_ar": "لوحة مفاتيح منفصلة تُوصل بالحاسوب.",
+      "examples": [
+        {
+          "de": "Zum Testen wurde eine externe Tastatur angeschlossen.",
+          "ar": "تم توصيل لوحة خارجية للاختبار."
+        },
+        {
+          "de": "So lässt sich ein Hardwarefehler eingrenzen.",
+          "ar": "يمكن بذلك تضييق نطاق الخلل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die externen Tastaturen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          220
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v062",
+      "identity": "den computer neu starten",
+      "term": "den Computer neu starten",
+      "type": "phrase",
+      "arabic": "يعيد تشغيل الحاسوب",
+      "explanation_de": "Das Betriebssystem vollständig beenden und erneut laden.",
+      "explanation_ar": "إغلاق نظام التشغيل وتشغيله من جديد.",
+      "examples": [
+        {
+          "de": "Starten Sie den Computer nach der Installation neu.",
+          "ar": "أعد تشغيل الحاسوب بعد التثبيت."
+        },
+        {
+          "de": "Ein Neustart behebt nicht jedes Problem.",
+          "ar": "لا تحل إعادة التشغيل كل مشكلة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v063",
+      "identity": "ein technisches problem eingrenzen",
+      "term": "ein technisches Problem eingrenzen",
+      "type": "phrase",
+      "arabic": "يحدد نطاق المشكلة التقنية",
+      "explanation_de": "Durch gezielte Tests herausfinden, welche Komponente die Ursache wahrscheinlich verursacht.",
+      "explanation_ar": "تحديد الجزء المسبب للمشكلة عبر اختبارات موجهة.",
+      "examples": [
+        {
+          "de": "Die IT grenzt das Problem Schritt für Schritt ein.",
+          "ar": "يحدد قسم التقنية نطاق المشكلة تدريجيًا."
+        },
+        {
+          "de": "Eine andere Tastatur hilft bei der Eingrenzung.",
+          "ar": "تساعد لوحة أخرى في تحديد السبب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it",
+        "problem"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v064",
+      "identity": "einen fehler reproduzieren",
+      "term": "einen Fehler reproduzieren",
+      "type": "phrase",
+      "arabic": "يعيد إظهار الخطأ",
+      "explanation_de": "Einen technischen Fehler unter denselben Bedingungen erneut auftreten lassen.",
+      "explanation_ar": "جعل الخطأ التقني يظهر مجددًا في الظروف نفسها.",
+      "examples": [
+        {
+          "de": "Der Support konnte den Fehler reproduzieren.",
+          "ar": "تمكن الدعم من إعادة إظهار الخطأ."
+        },
+        {
+          "de": "Reproduzierbare Fehler lassen sich leichter analysieren.",
+          "ar": "يسهل تحليل الأخطاء القابلة للتكرار."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          220,
+          221,
+          226
+        ],
+        "section": "Computerprobleme"
+      },
+      "tags": [
+        "it"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v065",
+      "identity": "die schulungsveranstaltung",
+      "term": "die Schulungsveranstaltung",
+      "type": "noun",
+      "arabic": "فعالية تدريبية",
+      "explanation_de": "Eine organisierte Veranstaltung zur Vermittlung beruflicher Kenntnisse oder Fähigkeiten.",
+      "explanation_ar": "فعالية منظمة لنقل معارف أو مهارات مهنية.",
+      "examples": [
+        {
+          "de": "Die Schulungsveranstaltung dauert einen Arbeitstag.",
+          "ar": "تستغرق الفعالية يوم عمل."
+        },
+        {
+          "de": "Die Teilnahme wird schriftlich bestätigt.",
+          "ar": "تُؤكد المشاركة كتابيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schulungsveranstaltungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          223,
+          224
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v066",
+      "identity": "die organisatorische planung",
+      "term": "die organisatorische Planung",
+      "type": "noun",
+      "arabic": "التخطيط التنظيمي",
+      "explanation_de": "Die Planung von Termin, Ort, Teilnehmenden, Pausen und technischer Ausstattung.",
+      "explanation_ar": "تخطيط الموعد والمكان والمشاركين والاستراحات والتجهيزات.",
+      "examples": [
+        {
+          "de": "Zur organisatorischen Planung gehört die Raumreservierung.",
+          "ar": "يشمل التخطيط التنظيمي حجز القاعة."
+        },
+        {
+          "de": "Auch Verpflegung und Einladungen müssen organisiert werden.",
+          "ar": "يجب تنظيم الضيافة والدعوات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          223
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v067",
+      "identity": "die inhaltliche planung",
+      "term": "die inhaltliche Planung",
+      "type": "noun",
+      "arabic": "التخطيط للمحتوى",
+      "explanation_de": "Die Festlegung von Themen, Zielen, Methoden und Materialien einer Veranstaltung.",
+      "explanation_ar": "تحديد الموضوعات والأهداف والأساليب والمواد.",
+      "examples": [
+        {
+          "de": "Die inhaltliche Planung orientiert sich am Lernziel.",
+          "ar": "يتبع التخطيط للمحتوى هدف التعلم."
+        },
+        {
+          "de": "Zu viele Themen überfordern die Teilnehmenden.",
+          "ar": "تثقل الموضوعات الكثيرة المشاركين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          223
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v068",
+      "identity": "die nachbereitung",
+      "term": "die Nachbereitung",
+      "type": "noun",
+      "arabic": "المتابعة بعد الفعالية",
+      "explanation_de": "Alle Schritte nach einer Veranstaltung, etwa Auswertung, Dokumentation und Verbesserungen.",
+      "explanation_ar": "الخطوات بعد الفعالية مثل التقييم والتوثيق والتحسين.",
+      "examples": [
+        {
+          "de": "Zur Nachbereitung gehört die Auswertung des Feedbacks.",
+          "ar": "تشمل المتابعة تقييم الملاحظات."
+        },
+        {
+          "de": "Die Unterlagen werden anschließend bereitgestellt.",
+          "ar": "تتاح المواد بعد ذلك."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Nachbereitungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          223
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v069",
+      "identity": "das feedbackformular",
+      "term": "das Feedbackformular",
+      "type": "noun",
+      "arabic": "نموذج الملاحظات",
+      "explanation_de": "Ein Formular zur strukturierten Bewertung einer Veranstaltung oder Leistung.",
+      "explanation_ar": "نموذج لتقييم فعالية أو خدمة بصورة منظمة.",
+      "examples": [
+        {
+          "de": "Das Feedbackformular enthält offene und geschlossene Fragen.",
+          "ar": "يتضمن النموذج أسئلة مفتوحة ومغلقة."
+        },
+        {
+          "de": "Die Ergebnisse fließen in die nächste Planung ein.",
+          "ar": "تدخل النتائج في التخطيط المقبل."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Feedbackformulare"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "feedback"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v070",
+      "identity": "das handout",
+      "term": "das Handout",
+      "type": "noun",
+      "arabic": "ملخص أو ورقة تدريبية",
+      "explanation_de": "Unterlagen mit den wichtigsten Informationen einer Präsentation oder Schulung.",
+      "explanation_ar": "مواد تتضمن أهم معلومات العرض أو التدريب.",
+      "examples": [
+        {
+          "de": "Das Handout wird digital verschickt.",
+          "ar": "يُرسل الملخص رقميًا."
+        },
+        {
+          "de": "Es enthält Links und zentrale Begriffe.",
+          "ar": "يتضمن روابط ومصطلحات أساسية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Handouts"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          223
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v071",
+      "identity": "die teilnehmerliste",
+      "term": "die Teilnehmerliste",
+      "type": "noun",
+      "arabic": "قائمة المشاركين",
+      "explanation_de": "Eine Liste mit den Namen und gegebenenfalls Kontaktdaten der Teilnehmenden.",
+      "explanation_ar": "قائمة بأسماء المشاركين وربما بيانات تواصلهم.",
+      "examples": [
+        {
+          "de": "Die Teilnehmerliste darf nur zweckgebunden verwendet werden.",
+          "ar": "لا يجوز استخدام القائمة إلا للغرض المحدد."
+        },
+        {
+          "de": "Änderungen werden vor Beginn aktualisiert.",
+          "ar": "تُحدّث التغييرات قبل البداية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Teilnehmerlisten"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222,
+          224
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "weiterbildung",
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v072",
+      "identity": "die technische ausstattung",
+      "term": "die technische Ausstattung",
+      "type": "noun",
+      "arabic": "التجهيزات التقنية",
+      "explanation_de": "Die Geräte und Systeme, die für eine Veranstaltung oder Arbeit benötigt werden.",
+      "explanation_ar": "الأجهزة والأنظمة اللازمة لفعالية أو عمل.",
+      "examples": [
+        {
+          "de": "Die technische Ausstattung wird am Vortag geprüft.",
+          "ar": "تُفحص التجهيزات في اليوم السابق."
+        },
+        {
+          "de": "Ein Ersatzkabel liegt bereit.",
+          "ar": "يوجد كابل احتياطي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          222
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "it",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v073",
+      "identity": "arbeitsphasen gliedern",
+      "term": "Arbeitsphasen gliedern",
+      "type": "phrase",
+      "arabic": "يقسم مراحل العمل",
+      "explanation_de": "Eine Aufgabe oder Veranstaltung in klar abgegrenzte Abschnitte einteilen.",
+      "explanation_ar": "تقسيم المهمة أو الفعالية إلى مراحل واضحة.",
+      "examples": [
+        {
+          "de": "Die Trainerin gliedert die Arbeitsphasen sinnvoll.",
+          "ar": "تقسم المدربة المراحل بصورة مناسبة."
+        },
+        {
+          "de": "Zwischen Input und Übung ist eine Pause vorgesehen.",
+          "ar": "توجد استراحة بين الشرح والتطبيق."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          222
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v074",
+      "identity": "teilnehmende freistellen",
+      "term": "Teilnehmende freistellen",
+      "type": "phrase",
+      "arabic": "يعفي المشاركين من العمل لحضور التدريب",
+      "explanation_de": "Beschäftigte für eine Veranstaltung vorübergehend von ihren normalen Aufgaben befreien.",
+      "explanation_ar": "إعفاء الموظفين مؤقتًا من مهامهم لحضور فعالية.",
+      "examples": [
+        {
+          "de": "Die Führungskräfte stellen die Teilnehmenden für die Schulung frei.",
+          "ar": "يعفي المسؤولون المشاركين لحضور الدورة."
+        },
+        {
+          "de": "Die Freistellung gilt für die gesamte Veranstaltungsdauer.",
+          "ar": "يسري الإعفاء طوال مدة الفعالية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          223
+        ],
+        "section": "Eine Schulung planen"
+      },
+      "tags": [
+        "arbeit",
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v075",
+      "identity": "die datenschutz-grundverordnung (dsgvo)",
+      "term": "die Datenschutz-Grundverordnung (DSGVO)",
+      "type": "noun",
+      "arabic": "اللائحة العامة لحماية البيانات",
+      "explanation_de": "Eine EU-Verordnung mit einheitlichen Regeln zur Verarbeitung personenbezogener Daten.",
+      "explanation_ar": "لائحة أوروبية بقواعد موحدة لمعالجة البيانات الشخصية.",
+      "examples": [
+        {
+          "de": "Die DSGVO gilt in der gesamten Europäischen Union.",
+          "ar": "تسري اللائحة في الاتحاد الأوروبي."
+        },
+        {
+          "de": "Unternehmen müssen ihre Verarbeitung transparent erklären.",
+          "ar": "يجب أن تشرح الشركات المعالجة بشفافية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          223,
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v076",
+      "identity": "die personenbezogenen daten",
+      "term": "die personenbezogenen Daten",
+      "type": "noun",
+      "arabic": "البيانات الشخصية",
+      "explanation_de": "Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.",
+      "explanation_ar": "معلومات تتعلق بشخص محدد أو قابل للتحديد.",
+      "examples": [
+        {
+          "de": "Name und E-Mail-Adresse sind personenbezogene Daten.",
+          "ar": "الاسم والبريد بيانات شخصية."
+        },
+        {
+          "de": "Auch Standortdaten können darunterfallen.",
+          "ar": "قد تشمل أيضًا بيانات الموقع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v077",
+      "identity": "die datenverarbeitung",
+      "term": "die Datenverarbeitung",
+      "type": "noun",
+      "arabic": "معالجة البيانات",
+      "explanation_de": "Jeder Vorgang mit Daten, etwa Erheben, Speichern, Ändern, Nutzen oder Löschen.",
+      "explanation_ar": "أي عملية على البيانات مثل جمعها أو حفظها أو تعديلها أو استخدامها أو حذفها.",
+      "examples": [
+        {
+          "de": "Die Datenverarbeitung braucht eine rechtliche Grundlage.",
+          "ar": "تحتاج معالجة البيانات إلى أساس قانوني."
+        },
+        {
+          "de": "Der Zweck muss vorab festgelegt sein.",
+          "ar": "يجب تحديد الغرض مسبقًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Datenverarbeitungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v078",
+      "identity": "die datenschutzerklärung",
+      "term": "die Datenschutzerklärung",
+      "type": "noun",
+      "arabic": "بيان حماية البيانات",
+      "explanation_de": "Eine Information darüber, welche Daten zu welchem Zweck verarbeitet werden.",
+      "explanation_ar": "معلومات توضح البيانات المعالجة وغرض المعالجة.",
+      "examples": [
+        {
+          "de": "Die Datenschutzerklärung muss verständlich formuliert sein.",
+          "ar": "يجب أن تكون صياغتها مفهومة."
+        },
+        {
+          "de": "Nutzer finden dort auch ihre Rechte.",
+          "ar": "يجد المستخدمون حقوقهم فيها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Datenschutzerklärungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v079",
+      "identity": "die einwilligung",
+      "term": "die Einwilligung",
+      "type": "noun",
+      "arabic": "الموافقة",
+      "explanation_de": "Eine freiwillige, informierte und eindeutige Zustimmung zur Verarbeitung von Daten.",
+      "explanation_ar": "موافقة طوعية ومستنيرة وواضحة على معالجة البيانات.",
+      "examples": [
+        {
+          "de": "Die Einwilligung kann widerrufen werden.",
+          "ar": "يمكن سحب الموافقة."
+        },
+        {
+          "de": "Sie darf nicht durch voreingestellte Kästchen erteilt werden.",
+          "ar": "لا يجوز الحصول عليها عبر مربعات محددة مسبقًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Einwilligungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v080",
+      "identity": "die datenweitergabe",
+      "term": "die Datenweitergabe",
+      "type": "noun",
+      "arabic": "نقل البيانات إلى طرف آخر",
+      "explanation_de": "Das Übermitteln personenbezogener Daten an eine andere Person oder Organisation.",
+      "explanation_ar": "إرسال البيانات الشخصية إلى شخص أو مؤسسة أخرى.",
+      "examples": [
+        {
+          "de": "Eine Datenweitergabe braucht einen zulässigen Zweck.",
+          "ar": "يحتاج نقل البيانات إلى غرض مشروع."
+        },
+        {
+          "de": "Interne und externe Empfänger müssen unterschieden werden.",
+          "ar": "يجب التمييز بين المستلمين الداخليين والخارجيين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Datenweitergaben"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v081",
+      "identity": "die datenschutzverletzung",
+      "term": "die Datenschutzverletzung",
+      "type": "noun",
+      "arabic": "خرق حماية البيانات",
+      "explanation_de": "Ein Sicherheitsvorfall, bei dem personenbezogene Daten verloren, verändert oder unbefugt offengelegt werden.",
+      "explanation_ar": "حادث أمني تُفقد فيه بيانات أو تتغير أو تُكشف دون إذن.",
+      "examples": [
+        {
+          "de": "Die Datenschutzverletzung wurde sofort gemeldet.",
+          "ar": "تم الإبلاغ عن الخرق فورًا."
+        },
+        {
+          "de": "Betroffene müssen unter bestimmten Voraussetzungen informiert werden.",
+          "ar": "يجب إبلاغ المتضررين ضمن شروط معينة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Datenschutzverletzungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v082",
+      "identity": "das gerichtsurteil",
+      "term": "das Gerichtsurteil",
+      "type": "noun",
+      "arabic": "حكم قضائي",
+      "explanation_de": "Eine verbindliche Entscheidung eines Gerichts in einem Rechtsstreit.",
+      "explanation_ar": "قرار ملزم تصدره المحكمة في نزاع.",
+      "examples": [
+        {
+          "de": "Das Gerichtsurteil konkretisiert die Auslegung der Vorschrift.",
+          "ar": "يوضح الحكم تفسير القاعدة."
+        },
+        {
+          "de": "Unternehmen passen ihre Prozesse an neue Urteile an.",
+          "ar": "تعدل الشركات إجراءاتها وفق الأحكام الجديدة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Gerichtsurteile"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          223,
+          224
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v083",
+      "identity": "der jahresumsatz",
+      "term": "der Jahresumsatz",
+      "type": "noun",
+      "arabic": "الإيراد السنوي",
+      "explanation_de": "Die Summe der Erlöse eines Unternehmens innerhalb eines Geschäftsjahres.",
+      "explanation_ar": "مجموع إيرادات الشركة خلال سنة مالية.",
+      "examples": [
+        {
+          "de": "Die mögliche Geldbuße kann sich am Jahresumsatz orientieren.",
+          "ar": "قد ترتبط الغرامة بالإيراد السنوي."
+        },
+        {
+          "de": "Umsatz ist nicht dasselbe wie Gewinn.",
+          "ar": "الإيراد ليس هو الربح."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Jahresumsätze"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "unternehmen",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v084",
+      "identity": "die betroffenenrechte",
+      "term": "die Betroffenenrechte",
+      "type": "noun",
+      "arabic": "حقوق أصحاب البيانات",
+      "explanation_de": "Rechte von Personen, deren personenbezogene Daten verarbeitet werden.",
+      "explanation_ar": "حقوق الأشخاص الذين تتم معالجة بياناتهم.",
+      "examples": [
+        {
+          "de": "Zu den Betroffenenrechten gehören Auskunft und Löschung.",
+          "ar": "منها حق الاطلاع والحذف."
+        },
+        {
+          "de": "Anfragen müssen fristgerecht bearbeitet werden.",
+          "ar": "يجب معالجة الطلبات ضمن المهلة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v085",
+      "identity": "die zweckbindung",
+      "term": "die Zweckbindung",
+      "type": "noun",
+      "arabic": "تقييد البيانات بغرض محدد",
+      "explanation_de": "Der Grundsatz, Daten nur für vorher festgelegte eindeutige Zwecke zu verarbeiten.",
+      "explanation_ar": "مبدأ استخدام البيانات فقط لأغراض محددة مسبقًا.",
+      "examples": [
+        {
+          "de": "Die Zweckbindung verhindert eine beliebige Weiternutzung.",
+          "ar": "يمنع المبدأ استخدام البيانات عشوائيًا."
+        },
+        {
+          "de": "Ein neuer Zweck kann eine neue Rechtsgrundlage erfordern.",
+          "ar": "قد يتطلب الغرض الجديد أساسًا قانونيًا جديدًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v086",
+      "identity": "daten an dritte weitergeben",
+      "term": "Daten an Dritte weitergeben",
+      "type": "phrase",
+      "arabic": "ينقل البيانات إلى أطراف أخرى",
+      "explanation_de": "Informationen an Personen oder Organisationen außerhalb des ursprünglichen Zusammenhangs übermitteln.",
+      "explanation_ar": "إرسال المعلومات إلى أشخاص أو جهات خارج السياق الأصلي.",
+      "examples": [
+        {
+          "de": "Daten dürfen nicht ohne Rechtsgrundlage an Dritte weitergegeben werden.",
+          "ar": "لا يجوز نقل البيانات دون أساس قانوني."
+        },
+        {
+          "de": "Vor der Weitergabe wird die Berechtigung geprüft.",
+          "ar": "تُفحص الصلاحية قبل النقل."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v087",
+      "identity": "eine einwilligung widerrufen",
+      "term": "eine Einwilligung widerrufen",
+      "type": "phrase",
+      "arabic": "يسحب الموافقة",
+      "explanation_de": "Eine zuvor erteilte Zustimmung für die Zukunft zurücknehmen.",
+      "explanation_ar": "إلغاء الموافقة السابقة بالنسبة للمستقبل.",
+      "examples": [
+        {
+          "de": "Die Kundin widerruft ihre Einwilligung per E-Mail.",
+          "ar": "تسحب العميلة موافقتها بالبريد."
+        },
+        {
+          "de": "Der Widerruf muss so einfach sein wie die Erteilung.",
+          "ar": "يجب أن يكون السحب سهلًا مثل منح الموافقة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v088",
+      "identity": "eine datenschutzverletzung melden",
+      "term": "eine Datenschutzverletzung melden",
+      "type": "phrase",
+      "arabic": "يبلغ عن خرق للبيانات",
+      "explanation_de": "Einen Sicherheitsvorfall unverzüglich an die zuständige Stelle weitergeben.",
+      "explanation_ar": "إبلاغ الجهة المختصة فورًا بحادث أمني.",
+      "examples": [
+        {
+          "de": "Beschäftigte müssen Datenschutzverletzungen sofort melden.",
+          "ar": "يجب الإبلاغ عن الخروقات فورًا."
+        },
+        {
+          "de": "Die Meldung enthält Art und Umfang des Vorfalls.",
+          "ar": "يتضمن البلاغ نوع الحادث ونطاقه."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          224,
+          225
+        ],
+        "section": "Datenschutz"
+      },
+      "tags": [
+        "datenschutz",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v089",
+      "identity": "die betreffzeile",
+      "term": "die Betreffzeile",
+      "type": "noun",
+      "arabic": "سطر موضوع البريد",
+      "explanation_de": "Die kurze Zeile, die den Inhalt einer E-Mail oder eines Schreibens bezeichnet.",
+      "explanation_ar": "السطر القصير الذي يوضح موضوع البريد أو الرسالة.",
+      "examples": [
+        {
+          "de": "Eine präzise Betreffzeile erleichtert die Zuordnung.",
+          "ar": "يسهل سطر الموضوع الدقيق تصنيف الرسالة."
+        },
+        {
+          "de": "Der Termin sollte bereits im Betreff erkennbar sein.",
+          "ar": "ينبغي أن يظهر الموعد في الموضوع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Betreffzeilen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          208,
+          215,
+          217
+        ],
+        "section": "Kommunikation im Betrieb"
+      },
+      "tags": [
+        "email",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v090",
+      "identity": "die grußformel",
+      "term": "die Grußformel",
+      "type": "noun",
+      "arabic": "صيغة الختام",
+      "explanation_de": "Eine feste höfliche Formulierung am Ende eines Briefes oder einer E-Mail.",
+      "explanation_ar": "صياغة مهذبة ثابتة في نهاية رسالة أو بريد.",
+      "examples": [
+        {
+          "de": "Die Grußformel muss zum Grad der Formalität passen.",
+          "ar": "يجب أن تناسب صيغة الختام درجة الرسمية."
+        },
+        {
+          "de": "In formellen Mails ist „Mit freundlichen Grüßen“ üblich.",
+          "ar": "تشيع صيغة مع خالص التحية في البريد الرسمي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Grußformeln"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          215,
+          217
+        ],
+        "section": "Geschäftliche E-Mails"
+      },
+      "tags": [
+        "email",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v091",
+      "identity": "die geschäftliche korrespondenz",
+      "term": "die geschäftliche Korrespondenz",
+      "type": "noun",
+      "arabic": "المراسلات المهنية",
+      "explanation_de": "Der schriftliche Austausch im beruflichen oder unternehmerischen Kontext.",
+      "explanation_ar": "التبادل الكتابي في سياق العمل أو الأعمال.",
+      "examples": [
+        {
+          "de": "Geschäftliche Korrespondenz sollte klar und fehlerarm sein.",
+          "ar": "ينبغي أن تكون المراسلات واضحة وقليلة الأخطاء."
+        },
+        {
+          "de": "Vertrauliche Informationen gehören nicht in private Kanäle.",
+          "ar": "لا توضع المعلومات السرية في قنوات خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          215,
+          217
+        ],
+        "section": "Geschäftliche E-Mails"
+      },
+      "tags": [
+        "email",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v092",
+      "identity": "adressatengerecht",
+      "term": "adressatengerecht",
+      "type": "adjective",
+      "arabic": "مناسب للمخاطَب",
+      "explanation_de": "So formuliert, dass Sprache, Ton und Detailgrad zur empfangenden Person passen.",
+      "explanation_ar": "مصاغ بما يناسب المتلقي من حيث اللغة والنبرة والتفصيل.",
+      "examples": [
+        {
+          "de": "Eine adressatengerechte E-Mail ist weder zu locker noch unnötig kompliziert.",
+          "ar": "البريد المناسب ليس عاميًا جدًا ولا معقدًا بلا داعٍ."
+        },
+        {
+          "de": "Die Anleitung wurde adressatengerecht überarbeitet.",
+          "ar": "عُدلت التعليمات لتناسب الجمهور."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          217
+        ],
+        "section": "Geschäftliche E-Mails"
+      },
+      "tags": [
+        "kommunikation",
+        "email"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v093",
+      "identity": "betriebsintern",
+      "term": "betriebsintern",
+      "type": "adjective",
+      "arabic": "داخلي خاص بالشركة",
+      "explanation_de": "Nur für den Gebrauch innerhalb eines Unternehmens bestimmt.",
+      "explanation_ar": "مخصص للاستخدام داخل الشركة فقط.",
+      "examples": [
+        {
+          "de": "Die Datei enthält betriebsinterne Informationen.",
+          "ar": "يتضمن الملف معلومات داخلية."
+        },
+        {
+          "de": "Betriebsinterne Dokumente dürfen nicht öffentlich geteilt werden.",
+          "ar": "لا يجوز نشر المستندات الداخلية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          217
+        ],
+        "section": "Geschäftliche E-Mails"
+      },
+      "tags": [
+        "arbeit",
+        "datenschutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v094",
+      "identity": "die produktbeschreibung",
+      "term": "die Produktbeschreibung",
+      "type": "noun",
+      "arabic": "وصف المنتج",
+      "explanation_de": "Ein Text, der Eigenschaften, Funktion, Nutzen und Besonderheiten eines Produkts erklärt.",
+      "explanation_ar": "نص يشرح خصائص المنتج ووظيفته وفائدته ومميزاته.",
+      "examples": [
+        {
+          "de": "Die Produktbeschreibung nennt Material und Verwendungszweck.",
+          "ar": "يذكر وصف المنتج المادة والغرض."
+        },
+        {
+          "de": "Übertriebene Versprechen wirken unglaubwürdig.",
+          "ar": "تبدو الوعود المبالغ بها غير موثوقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Produktbeschreibungen"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          219
+        ],
+        "section": "Produktbeschreibung"
+      },
+      "tags": [
+        "produkt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v095",
+      "identity": "der pluspunkt",
+      "term": "der Pluspunkt",
+      "type": "noun",
+      "arabic": "ميزة إضافية",
+      "explanation_de": "Eine positive Eigenschaft, die ein Produkt oder Angebot besonders attraktiv macht.",
+      "explanation_ar": "خاصية إيجابية تجعل المنتج أو العرض أكثر جاذبية.",
+      "examples": [
+        {
+          "de": "Ein Pluspunkt ist die einfache Reinigung.",
+          "ar": "من الميزات سهولة التنظيف."
+        },
+        {
+          "de": "Die Wiederverwendbarkeit ist ein wichtiger Pluspunkt.",
+          "ar": "إمكانية إعادة الاستخدام ميزة مهمة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Pluspunkte"
+      },
+      "source": {
+        "unit": 12,
+        "pages": [
+          219
+        ],
+        "section": "Produktbeschreibung"
+      },
+      "tags": [
+        "produkt"
+      ],
+      "globalRef": "nouns:noun_0302",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u12-v096",
+      "identity": "wiederverwendbar",
+      "term": "wiederverwendbar",
+      "type": "adjective",
+      "arabic": "قابل لإعادة الاستخدام",
+      "explanation_de": "Mehrfach nutzbar, ohne nach einmaligem Gebrauch entsorgt zu werden.",
+      "explanation_ar": "يمكن استخدامه عدة مرات بدل التخلص منه.",
+      "examples": [
+        {
+          "de": "Der Verschluss ist wiederverwendbar.",
+          "ar": "السدادة قابلة لإعادة الاستخدام."
+        },
+        {
+          "de": "Wiederverwendbare Produkte können Abfall reduzieren.",
+          "ar": "قد تقلل المنتجات القابلة لإعادة الاستخدام النفايات."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          219
+        ],
+        "section": "Produktbeschreibung"
+      },
+      "tags": [
+        "produkt",
+        "nachhaltigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u12-v097",
+      "identity": "rutschfest",
+      "term": "rutschfest",
+      "type": "adjective",
+      "arabic": "مضاد للانزلاق",
+      "explanation_de": "So gestaltet, dass etwas nicht leicht wegrutscht.",
+      "explanation_ar": "مصمم بحيث لا ينزلق بسهولة.",
+      "examples": [
+        {
+          "de": "Die Unterseite ist rutschfest.",
+          "ar": "القاعدة مضادة للانزلاق."
+        },
+        {
+          "de": "Rutschfeste Griffe erhöhen die Sicherheit.",
+          "ar": "ترفع المقابض المقاومة للانزلاق الأمان."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 12,
+        "pages": [
+          219
+        ],
+        "section": "Produktbeschreibung"
+      },
+      "tags": [
+        "produkt",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

@@ -1,0 +1,2620 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 8,
+    "unitTitle_de": "In der Gastronomie",
+    "unitTitle_ar": "في قطاع المطاعم والضيافة",
+    "sourcePages": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Gastronomie und Essgewohnheiten",
+      "Restaurantangebote und Bewertungen",
+      "Kochkurs und Küchenwerkzeuge",
+      "Lieferung und Reklamation",
+      "Verhandlungsstrategien",
+      "Jobsuche und Bewerbung",
+      "Stellenanzeigen und Schlüsselqualifikationen",
+      "Bewerbungsgespräch",
+      "Adjektivdeklination",
+      "Zweck mit damit/um...zu/zum"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter",
+      "reine Lehrbuchanweisungen",
+      "Namen und Firmen",
+      "identische Begriffe aus Kapitel 1–7"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u02-v003",
+      "term": "die Kundschaft",
+      "pages": [
+        156
+      ],
+      "reason": "Bereits in Kapitel 2 vorhanden; fuer Kapitel 8 wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u08-v001",
+      "identity": "die gastronomie",
+      "term": "die Gastronomie",
+      "type": "noun",
+      "arabic": "قطاع المطاعم والضيافة",
+      "explanation_de": "Der Wirtschaftsbereich rund um Restaurants, Cafés, Imbisse und Bewirtung.",
+      "explanation_ar": "قطاع يشمل المطاعم والمقاهي وخدمات تقديم الطعام.",
+      "examples": [
+        {
+          "de": "Die Gastronomie sucht häufig qualifiziertes Personal.",
+          "ar": "يبحث قطاع المطاعم كثيرًا عن موظفين مؤهلين."
+        },
+        {
+          "de": "In der Gastronomie sind Service und Qualität entscheidend.",
+          "ar": "الخدمة والجودة حاسمتان في قطاع المطاعم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          133,
+          146
+        ],
+        "section": "Kapitelthema"
+      },
+      "tags": [
+        "gastronomie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v002",
+      "identity": "die essgewohnheit",
+      "term": "die Essgewohnheit",
+      "type": "noun",
+      "arabic": "عادة غذائية",
+      "explanation_de": "Eine regelmäßig wiederkehrende Art, wie und was jemand isst.",
+      "explanation_ar": "طريقة متكررة في نوع الطعام ووقت تناوله.",
+      "examples": [
+        {
+          "de": "Essgewohnheiten unterscheiden sich von Person zu Person.",
+          "ar": "تختلف العادات الغذائية بين الأشخاص."
+        },
+        {
+          "de": "Gesunde Essgewohnheiten entstehen oft langsam.",
+          "ar": "تنشأ العادات الصحية غالبًا تدريجيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Essgewohnheiten"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          133,
+          146
+        ],
+        "section": "Kochen und essen"
+      },
+      "tags": [
+        "essen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v003",
+      "identity": "das restaurantangebot",
+      "term": "das Restaurantangebot",
+      "type": "noun",
+      "arabic": "عرض المطعم",
+      "explanation_de": "Die Gesamtheit der Speisen, Getränke und Serviceleistungen eines Restaurants.",
+      "explanation_ar": "مجمل الأطعمة والمشروبات والخدمات التي يقدمها المطعم.",
+      "examples": [
+        {
+          "de": "Das Restaurantangebot ist regional und saisonal.",
+          "ar": "عرض المطعم إقليمي وموسمي."
+        },
+        {
+          "de": "Ein vielfältiges Restaurantangebot spricht viele Gäste an.",
+          "ar": "يجذب تنوع العرض زبائن كثيرين."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Restaurantangebote"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134
+        ],
+        "section": "Vielfalt des Angebots"
+      },
+      "tags": [
+        "restaurant"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v004",
+      "identity": "das familienrestaurant",
+      "term": "das Familienrestaurant",
+      "type": "noun",
+      "arabic": "مطعم عائلي",
+      "explanation_de": "Ein Restaurant, das besonders auf Familien und Kinder eingestellt ist.",
+      "explanation_ar": "مطعم مهيأ خصوصًا للعائلات والأطفال.",
+      "examples": [
+        {
+          "de": "Das Familienrestaurant bietet auch Kindergerichte an.",
+          "ar": "يقدم المطعم العائلي أطباقًا للأطفال."
+        },
+        {
+          "de": "Am Wochenende ist das Familienrestaurant oft voll.",
+          "ar": "يكون المطعم العائلي مزدحمًا غالبًا في نهاية الأسبوع."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Familienrestaurants"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134
+        ],
+        "section": "Restaurantarten"
+      },
+      "tags": [
+        "restaurant"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v005",
+      "identity": "das konferenzmenü",
+      "term": "das Konferenzmenü",
+      "type": "noun",
+      "arabic": "قائمة طعام للمؤتمرات",
+      "explanation_de": "Ein Menü, das für Besprechungen oder Veranstaltungen organisiert wird.",
+      "explanation_ar": "قائمة طعام مخصصة للاجتماعات والمؤتمرات.",
+      "examples": [
+        {
+          "de": "Für die Tagung wurde ein leichtes Konferenzmenü bestellt.",
+          "ar": "طُلبت قائمة خفيفة للمؤتمر."
+        },
+        {
+          "de": "Das Konferenzmenü muss rechtzeitig abgestimmt werden.",
+          "ar": "يجب تنسيق قائمة المؤتمر في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Konferenzmenüs"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134
+        ],
+        "section": "Restaurantangebote"
+      },
+      "tags": [
+        "gastronomie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v006",
+      "identity": "der abholservice",
+      "term": "der Abholservice",
+      "type": "noun",
+      "arabic": "خدمة الاستلام",
+      "explanation_de": "Ein Service, bei dem bestellte Speisen selbst abgeholt werden.",
+      "explanation_ar": "خدمة يستلم فيها الزبون الطلب بنفسه.",
+      "examples": [
+        {
+          "de": "Der Abholservice spart Zeit in der Mittagspause.",
+          "ar": "توفر خدمة الاستلام الوقت في استراحة الظهر."
+        },
+        {
+          "de": "Bestellungen für den Abholservice können online aufgegeben werden.",
+          "ar": "يمكن تقديم طلبات الاستلام عبر الإنترنت."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Abholservices"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134
+        ],
+        "section": "Restaurantangebote"
+      },
+      "tags": [
+        "service"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v007",
+      "identity": "die regionale spezialität",
+      "term": "die regionale Spezialität",
+      "type": "noun",
+      "arabic": "طبق إقليمي مميز",
+      "explanation_de": "Ein für eine bestimmte Region typisches Gericht oder Produkt.",
+      "explanation_ar": "طبق أو منتج معروف في منطقة معينة.",
+      "examples": [
+        {
+          "de": "Das Restaurant serviert regionale Spezialitäten.",
+          "ar": "يقدم المطعم أطباقًا إقليمية."
+        },
+        {
+          "de": "Touristen probieren gern regionale Spezialitäten.",
+          "ar": "يحب السياح تجربة الأطباق المحلية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die regionalen Spezialitäten"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          141
+        ],
+        "section": "Vielfalt des Angebots"
+      },
+      "tags": [
+        "essen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v008",
+      "identity": "landestypisch",
+      "term": "landestypisch",
+      "type": "adjective",
+      "arabic": "نموذجي للبلد",
+      "explanation_de": "Für ein bestimmtes Land charakteristisch.",
+      "explanation_ar": "صفة لما يميز بلدًا معينًا.",
+      "examples": [
+        {
+          "de": "Das Lokal bietet landestypische Gerichte an.",
+          "ar": "يقدم المطعم أطباقًا نموذجية للبلد."
+        },
+        {
+          "de": "Die Gewürze sind typisch für die landestypische Küche.",
+          "ar": "التوابل نموذجية لمطبخ البلد."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          140
+        ],
+        "section": "Angebote"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v009",
+      "identity": "knusprig",
+      "term": "knusprig",
+      "type": "adjective",
+      "arabic": "مقرمش",
+      "explanation_de": "So gebacken oder gebraten, dass die Oberfläche trocken und knackig ist.",
+      "explanation_ar": "طعام ذو سطح يابس ومقرمش.",
+      "examples": [
+        {
+          "de": "Die Pommes sind außen knusprig.",
+          "ar": "البطاطا مقلية ومقرمشة من الخارج."
+        },
+        {
+          "de": "Das Brot bleibt lange knusprig.",
+          "ar": "يبقى الخبز مقرمشًا مدة طويلة."
+        }
+      ],
+      "grammar": {
+        "gradable": true
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          140,
+          141
+        ],
+        "section": "Geschmack"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0098",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v010",
+      "identity": "reichhaltig",
+      "term": "reichhaltig",
+      "type": "adjective",
+      "arabic": "غني ومتنوّع",
+      "explanation_de": "Mit vielen Bestandteilen oder einer großen Auswahl.",
+      "explanation_ar": "غني بالمكونات أو الخيارات.",
+      "examples": [
+        {
+          "de": "Das Frühstücksbuffet ist sehr reichhaltig.",
+          "ar": "بوفيه الفطور غني جدًا."
+        },
+        {
+          "de": "Die Speisekarte bietet eine reichhaltige Auswahl.",
+          "ar": "توفر القائمة خيارات كثيرة."
+        }
+      ],
+      "grammar": {
+        "gradable": true
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          140
+        ],
+        "section": "Angebot"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0100",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v011",
+      "identity": "das ambiente",
+      "term": "das Ambiente",
+      "type": "noun",
+      "arabic": "أجواء المكان",
+      "explanation_de": "Die Atmosphäre und Gestaltung eines Restaurants oder Raums.",
+      "explanation_ar": "الجو العام وتصميم المكان.",
+      "examples": [
+        {
+          "de": "Das ruhige Ambiente gefällt vielen Gästen.",
+          "ar": "تعجب الأجواء الهادئة زبائن كثيرين."
+        },
+        {
+          "de": "Zum guten Essen gehört auch ein angenehmes Ambiente.",
+          "ar": "يرتبط الطعام الجيد أيضًا بأجواء مريحة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Ambientes"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          135,
+          141
+        ],
+        "section": "Restaurantbewertung"
+      },
+      "tags": [
+        "restaurant"
+      ],
+      "globalRef": "nouns:noun_0299",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v012",
+      "identity": "die restaurantbewertung",
+      "term": "die Restaurantbewertung",
+      "type": "noun",
+      "arabic": "تقييم مطعم",
+      "explanation_de": "Eine schriftliche oder digitale Beurteilung eines Restaurants.",
+      "explanation_ar": "تقييم مكتوب أو رقمي للمطعم.",
+      "examples": [
+        {
+          "de": "Die Restaurantbewertung erwähnt Service und Qualität.",
+          "ar": "يذكر التقييم الخدمة والجودة."
+        },
+        {
+          "de": "Negative Restaurantbewertungen sollten sachlich beantwortet werden.",
+          "ar": "ينبغي الرد على التقييمات السلبية بموضوعية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Restaurantbewertungen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          135,
+          146
+        ],
+        "section": "Bewertung"
+      },
+      "tags": [
+        "schreiben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v013",
+      "identity": "die speisekarte",
+      "term": "die Speisekarte",
+      "type": "noun",
+      "arabic": "قائمة الطعام",
+      "explanation_de": "Eine Übersicht über Speisen und Getränke eines Restaurants.",
+      "explanation_ar": "قائمة بالأطعمة والمشروبات في المطعم.",
+      "examples": [
+        {
+          "de": "Die Speisekarte wird saisonal geändert.",
+          "ar": "تُعدل قائمة الطعام موسميًا."
+        },
+        {
+          "de": "Auf der Speisekarte stehen auch vegetarische Gerichte.",
+          "ar": "توجد أطباق نباتية في القائمة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Speisekarten"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          134,
+          140
+        ],
+        "section": "Restaurant"
+      },
+      "tags": [
+        "essen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v014",
+      "identity": "das hauptgericht",
+      "term": "das Hauptgericht",
+      "type": "noun",
+      "arabic": "الطبق الرئيسي",
+      "explanation_de": "Der zentrale Gang einer Mahlzeit.",
+      "explanation_ar": "الطبق الأساسي في الوجبة.",
+      "examples": [
+        {
+          "de": "Als Hauptgericht bestellte sie Fisch.",
+          "ar": "طلبت السمك طبقًا رئيسيًا."
+        },
+        {
+          "de": "Das Hauptgericht wird mit Gemüse serviert.",
+          "ar": "يُقدم الطبق الرئيسي مع الخضار."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Hauptgerichte"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          140
+        ],
+        "section": "Menü"
+      },
+      "tags": [
+        "essen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v015",
+      "identity": "die nachspeise",
+      "term": "die Nachspeise",
+      "type": "noun",
+      "arabic": "الحلوى بعد الطعام",
+      "explanation_de": "Ein süßes Gericht am Ende einer Mahlzeit.",
+      "explanation_ar": "طبق حلو يقدم في نهاية الوجبة.",
+      "examples": [
+        {
+          "de": "Zum Abschluss gab es eine leichte Nachspeise.",
+          "ar": "كانت هناك حلوى خفيفة في النهاية."
+        },
+        {
+          "de": "Die Nachspeise war hausgemacht.",
+          "ar": "كانت الحلوى منزلية الصنع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Nachspeisen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          140
+        ],
+        "section": "Menü"
+      },
+      "tags": [
+        "essen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v016",
+      "identity": "vegetarisch",
+      "term": "vegetarisch",
+      "type": "adjective",
+      "arabic": "نباتي",
+      "explanation_de": "Ohne Fleisch oder Fisch zubereitet.",
+      "explanation_ar": "محضر من دون لحم أو سمك.",
+      "examples": [
+        {
+          "de": "Das Restaurant bietet vegetarische Gerichte an.",
+          "ar": "يقدم المطعم أطباقًا نباتية."
+        },
+        {
+          "de": "Sie bestellt meistens vegetarisch.",
+          "ar": "تطلب غالبًا طعامًا نباتيًا."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          133,
+          140
+        ],
+        "section": "Essgewohnheiten"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v017",
+      "identity": "vegan",
+      "term": "vegan",
+      "type": "adjective",
+      "arabic": "نباتي صرف",
+      "explanation_de": "Ohne tierische Produkte zubereitet.",
+      "explanation_ar": "محضر من دون أي منتجات حيوانية.",
+      "examples": [
+        {
+          "de": "Das Curry ist vollständig vegan.",
+          "ar": "طبق الكاري نباتي صرف."
+        },
+        {
+          "de": "Vegane Speisen müssen klar gekennzeichnet sein.",
+          "ar": "يجب توضيح الأطعمة النباتية الصرفة."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          133,
+          140
+        ],
+        "section": "Essgewohnheiten"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0094",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v018",
+      "identity": "die adjektivdeklination",
+      "term": "die Adjektivdeklination",
+      "type": "noun",
+      "arabic": "تصريف الصفات",
+      "explanation_de": "Die Veränderung der Adjektivendung nach Artikel, Kasus und Genus.",
+      "explanation_ar": "تغير نهاية الصفة بحسب الأداة والحالة والجنس.",
+      "examples": [
+        {
+          "de": "Die Adjektivdeklination ist bei Restaurantbeschreibungen wichtig.",
+          "ar": "تصريف الصفات مهم عند وصف المطاعم."
+        },
+        {
+          "de": "Nach dem bestimmten Artikel steht oft die schwache Endung.",
+          "ar": "تأتي غالبًا النهاية الضعيفة بعد أداة التعريف."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          135,
+          140,
+          141,
+          146
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v019",
+      "identity": "das küchenmesser",
+      "term": "das Küchenmesser",
+      "type": "noun",
+      "arabic": "سكين المطبخ",
+      "explanation_de": "Ein scharfes Messer zum Schneiden von Lebensmitteln.",
+      "explanation_ar": "سكين حاد لتقطيع الطعام.",
+      "examples": [
+        {
+          "de": "Das Küchenmesser muss regelmäßig geschärft werden.",
+          "ar": "يجب شحذ سكين المطبخ بانتظام."
+        },
+        {
+          "de": "Mit dem Küchenmesser schneidet man Gemüse.",
+          "ar": "يُقطع الخضار بسكين المطبخ."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Küchenmesser"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "küche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v020",
+      "identity": "die küchenreibe",
+      "term": "die Küchenreibe",
+      "type": "noun",
+      "arabic": "مبشرة المطبخ",
+      "explanation_de": "Ein Gerät zum Reiben von Gemüse, Käse oder Gewürzen.",
+      "explanation_ar": "أداة لبشر الخضار والجبن.",
+      "examples": [
+        {
+          "de": "Mit der Küchenreibe wird Käse gerieben.",
+          "ar": "يُبشر الجبن بالمبشرة."
+        },
+        {
+          "de": "Die Küchenreibe hat verschiedene Flächen.",
+          "ar": "للمبشرة أسطح مختلفة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Küchenreiben"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "küche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v021",
+      "identity": "die knoblauchpresse",
+      "term": "die Knoblauchpresse",
+      "type": "noun",
+      "arabic": "عصارة الثوم",
+      "explanation_de": "Ein Küchengerät zum Zerdrücken von Knoblauch.",
+      "explanation_ar": "أداة لهرس الثوم.",
+      "examples": [
+        {
+          "de": "Die Knoblauchpresse erleichtert die Zubereitung.",
+          "ar": "تسهل عصارة الثوم التحضير."
+        },
+        {
+          "de": "Nach Gebrauch wird sie sofort gereinigt.",
+          "ar": "تُنظف بعد الاستعمال مباشرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Knoblauchpressen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "küche"
+      ],
+      "globalRef": "nouns:noun_0314",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v022",
+      "identity": "die pfeffermühle",
+      "term": "die Pfeffermühle",
+      "type": "noun",
+      "arabic": "مطحنة الفلفل",
+      "explanation_de": "Ein Gerät zum Mahlen von Pfefferkörnern.",
+      "explanation_ar": "أداة لطحن حبوب الفلفل.",
+      "examples": [
+        {
+          "de": "Frischer Pfeffer kommt aus der Pfeffermühle.",
+          "ar": "يأتي الفلفل الطازج من المطحنة."
+        },
+        {
+          "de": "Die Pfeffermühle steht auf jedem Tisch.",
+          "ar": "توجد المطحنة على كل طاولة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Pfeffermühlen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "küche"
+      ],
+      "globalRef": "nouns:noun_0312",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v023",
+      "identity": "die waage",
+      "term": "die Waage",
+      "type": "noun",
+      "arabic": "ميزان",
+      "explanation_de": "Ein Gerät zum genauen Abwiegen von Zutaten.",
+      "explanation_ar": "جهاز لوزن المكونات بدقة.",
+      "examples": [
+        {
+          "de": "Mit der Waage wiegt man Mehl ab.",
+          "ar": "يُوزن الطحين بالميزان."
+        },
+        {
+          "de": "Die digitale Waage zeigt Gramm genau an.",
+          "ar": "يعرض الميزان الرقمي الغرامات بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Waagen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "küche"
+      ],
+      "globalRef": "nouns:noun_0311",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v024",
+      "identity": "die kochanleitung",
+      "term": "die Kochanleitung",
+      "type": "noun",
+      "arabic": "تعليمات طبخ",
+      "explanation_de": "Eine geordnete Beschreibung der Zubereitung eines Gerichts.",
+      "explanation_ar": "شرح مرتب لتحضير طبق.",
+      "examples": [
+        {
+          "de": "Die Kochanleitung enthält genaue Mengenangaben.",
+          "ar": "تحتوي تعليمات الطبخ على كميات دقيقة."
+        },
+        {
+          "de": "Alle Schritte stehen in der Kochanleitung.",
+          "ar": "توجد كل الخطوات في التعليمات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kochanleitungen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "kochen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v025",
+      "identity": "die mengenangabe",
+      "term": "die Mengenangabe",
+      "type": "noun",
+      "arabic": "تحديد الكمية",
+      "explanation_de": "Eine genaue Information über die benötigte Menge.",
+      "explanation_ar": "معلومة دقيقة عن كمية المكوّن.",
+      "examples": [
+        {
+          "de": "Die Mengenangaben müssen eindeutig sein.",
+          "ar": "يجب أن تكون الكميات واضحة."
+        },
+        {
+          "de": "Ohne Mengenangaben ist das Rezept schwer nachzukochen.",
+          "ar": "يصعب تطبيق الوصفة من دون كميات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Mengenangaben"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136
+        ],
+        "section": "Kochkurs"
+      },
+      "tags": [
+        "kochen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v026",
+      "identity": "abwiegen",
+      "term": "abwiegen",
+      "type": "verb",
+      "arabic": "يزن بدقة",
+      "explanation_de": "Eine bestimmte Menge mit einer Waage bestimmen.",
+      "explanation_ar": "تحديد كمية باستخدام الميزان.",
+      "examples": [
+        {
+          "de": "Die Zutaten werden genau abgewogen.",
+          "ar": "تُوزن المكونات بدقة."
+        },
+        {
+          "de": "Sie hat 300 Gramm Mehl abgewogen.",
+          "ar": "وزنت 300 غرام من الطحين."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "wog ab",
+        "perfekt": "hat abgewogen",
+        "separable": true
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Zubereitung"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v027",
+      "identity": "dünsten",
+      "term": "dünsten",
+      "type": "verb",
+      "arabic": "يطهو على نار هادئة",
+      "explanation_de": "Lebensmittel mit wenig Flüssigkeit oder Fett schonend garen.",
+      "explanation_ar": "طهي الطعام بلطف بقليل من السائل أو الدهن.",
+      "examples": [
+        {
+          "de": "Das Gemüse wird kurz gedünstet.",
+          "ar": "يُطهى الخضار قليلًا."
+        },
+        {
+          "de": "Gedünsteter Fisch bleibt saftig.",
+          "ar": "يبقى السمك المطهو بهذه الطريقة طريًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "dünstete",
+        "perfekt": "hat gedünstet"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          142
+        ],
+        "section": "Zubereitung"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v028",
+      "identity": "abschmecken",
+      "term": "abschmecken",
+      "type": "verb",
+      "arabic": "يضبط طعم الطعام",
+      "explanation_de": "Ein Gericht probieren und passend würzen.",
+      "explanation_ar": "تذوق الطبق وضبط التوابل.",
+      "examples": [
+        {
+          "de": "Zum Schluss wird die Suppe abgeschmeckt.",
+          "ar": "تُضبط نكهة الحساء في النهاية."
+        },
+        {
+          "de": "Der Koch schmeckt die Soße mit Kräutern ab.",
+          "ar": "يضبط الطاهي طعم الصلصة بالأعشاب."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "schmeckte ab",
+        "perfekt": "hat abgeschmeckt",
+        "separable": true
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          136,
+          137
+        ],
+        "section": "Zubereitung"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v029",
+      "identity": "die lebensmittelkontrolle",
+      "term": "die Lebensmittelkontrolle",
+      "type": "noun",
+      "arabic": "مراقبة الأغذية",
+      "explanation_de": "Die Prüfung von Qualität, Sicherheit und Hygiene bei Lebensmitteln.",
+      "explanation_ar": "فحص جودة وسلامة ونظافة الأغذية.",
+      "examples": [
+        {
+          "de": "Die Lebensmittelkontrolle überprüft Lagerung und Frische.",
+          "ar": "تفحص الرقابة التخزين والطزاجة."
+        },
+        {
+          "de": "Mängel müssen dokumentiert werden.",
+          "ar": "يجب توثيق العيوب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lebensmittelkontrollen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137
+        ],
+        "section": "Berufe rund ums Essen"
+      },
+      "tags": [
+        "lebensmittel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v030",
+      "identity": "die bestandskontrolle",
+      "term": "die Bestandskontrolle",
+      "type": "noun",
+      "arabic": "مراقبة المخزون",
+      "explanation_de": "Die Prüfung vorhandener Waren und Mengen im Lager.",
+      "explanation_ar": "فحص السلع والكميات الموجودة في المخزن.",
+      "examples": [
+        {
+          "de": "Die Bestandskontrolle findet täglich statt.",
+          "ar": "تُجرى مراقبة المخزون يوميًا."
+        },
+        {
+          "de": "Fehlende Zutaten werden rechtzeitig bestellt.",
+          "ar": "تُطلب المكونات الناقصة في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Bestandskontrollen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137
+        ],
+        "section": "Kochberuf"
+      },
+      "tags": [
+        "lager"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v031",
+      "identity": "die vollständigkeit",
+      "term": "die Vollständigkeit",
+      "type": "noun",
+      "arabic": "الاكتمال",
+      "explanation_de": "Der Zustand, dass nichts fehlt.",
+      "explanation_ar": "حالة عدم وجود نقص.",
+      "examples": [
+        {
+          "de": "Die Vollständigkeit der Lieferung wird kontrolliert.",
+          "ar": "يُفحص اكتمال الشحنة."
+        },
+        {
+          "de": "Der Koch prüft die Vollständigkeit der Bestellung.",
+          "ar": "يفحص الطاهي اكتمال الطلب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137
+        ],
+        "section": "Qualität"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": "nouns:noun_0319",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v032",
+      "identity": "die instandhaltung",
+      "term": "die Instandhaltung",
+      "type": "noun",
+      "arabic": "الصيانة والمحافظة",
+      "explanation_de": "Maßnahmen, die Geräte funktionsfähig und sicher halten.",
+      "explanation_ar": "إجراءات إبقاء الأجهزة صالحة وآمنة.",
+      "examples": [
+        {
+          "de": "Die Instandhaltung der Küchengeräte ist wichtig.",
+          "ar": "صيانة أدوات المطبخ مهمة."
+        },
+        {
+          "de": "Mängel werden sofort gemeldet.",
+          "ar": "تُبلغ الأعطال مباشرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Instandhaltungen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137,
+          151
+        ],
+        "section": "Arbeitsgeräte"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": "nouns:noun_0193",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v033",
+      "identity": "der lieferschein",
+      "term": "der Lieferschein",
+      "type": "noun",
+      "arabic": "إيصال التسليم",
+      "explanation_de": "Ein Dokument mit Angaben zu gelieferten Waren und Mengen.",
+      "explanation_ar": "وثيقة تتضمن السلع والكميات المسلمة.",
+      "examples": [
+        {
+          "de": "Der Lieferschein wird mit der Bestellung verglichen.",
+          "ar": "تُقارن وثيقة التسليم بالطلب."
+        },
+        {
+          "de": "Die fehlende Ware ist nicht auf dem Lieferschein vermerkt.",
+          "ar": "البضاعة الناقصة غير مذكورة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Lieferscheine"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          138,
+          139
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": "nouns:noun_0323",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v034",
+      "identity": "die fehlmenge",
+      "term": "die Fehlmenge",
+      "type": "noun",
+      "arabic": "الكمية الناقصة",
+      "explanation_de": "Die Differenz zwischen bestellter und gelieferter Menge.",
+      "explanation_ar": "الفرق بين الكمية المطلوبة والمستلمة.",
+      "examples": [
+        {
+          "de": "Die Fehlmenge wurde sofort reklamiert.",
+          "ar": "تم الاعتراض على الكمية الناقصة فورًا."
+        },
+        {
+          "de": "Der Händler liefert die Fehlmenge morgen nach.",
+          "ar": "سيُكمل التاجر الكمية غدًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fehlmengen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          138
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "reklamation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v035",
+      "identity": "eine lieferung prüfen",
+      "term": "eine Lieferung prüfen",
+      "type": "phrase",
+      "arabic": "يفحص الشحنة",
+      "explanation_de": "Gelieferte Waren mit Bestellung und Lieferschein vergleichen.",
+      "explanation_ar": "مقارنة السلع المستلمة بالطلب وإيصال التسليم.",
+      "examples": [
+        {
+          "de": "Der Koch prüft die Lieferung sofort.",
+          "ar": "يفحص الطاهي الشحنة فورًا."
+        },
+        {
+          "de": "Beschädigte Ware wird dokumentiert.",
+          "ar": "تُوثق البضاعة المتضررة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          138,
+          144
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v036",
+      "identity": "ein missverständnis vorliegen",
+      "term": "ein Missverständnis vorliegen",
+      "type": "phrase",
+      "arabic": "يكون هناك سوء فهم",
+      "explanation_de": "Es besteht eine falsche gegenseitige Interpretation.",
+      "explanation_ar": "وجود تفسير خاطئ بين طرفين.",
+      "examples": [
+        {
+          "de": "Bei der Bestellung muss ein Missverständnis vorliegen.",
+          "ar": "لا بد من وجود سوء فهم في الطلب."
+        },
+        {
+          "de": "Das Missverständnis wurde telefonisch geklärt.",
+          "ar": "تم توضيح سوء الفهم هاتفيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          138,
+          156
+        ],
+        "section": "Kommunikation"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v037",
+      "identity": "entgegenkommen zeigen",
+      "term": "Entgegenkommen zeigen",
+      "type": "phrase",
+      "arabic": "يبدي مرونة وتعاونًا",
+      "explanation_de": "Bereitschaft zeigen, der anderen Seite bei einer Lösung entgegenzukommen.",
+      "explanation_ar": "إظهار الاستعداد للتعاون والوصول إلى حل.",
+      "examples": [
+        {
+          "de": "Der Lieferant zeigt Entgegenkommen und ersetzt die Ware.",
+          "ar": "يبدي المورد مرونة ويستبدل البضاعة."
+        },
+        {
+          "de": "Wir bedanken uns für Ihr Entgegenkommen.",
+          "ar": "نشكر لكم تعاونكم."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          138,
+          156
+        ],
+        "section": "Reklamation"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v038",
+      "identity": "die lieferfrist",
+      "term": "die Lieferfrist",
+      "type": "noun",
+      "arabic": "مهلة التسليم",
+      "explanation_de": "Der vereinbarte Zeitraum bis zur Lieferung.",
+      "explanation_ar": "الفترة المتفق عليها لوصول الشحنة.",
+      "examples": [
+        {
+          "de": "Die Lieferfrist beträgt zwei Wochen.",
+          "ar": "مهلة التسليم أسبوعان."
+        },
+        {
+          "de": "Eine längere Lieferfrist muss angekündigt werden.",
+          "ar": "يجب الإعلان عن المهلة الأطول."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lieferfristen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          144
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v039",
+      "identity": "ab lager",
+      "term": "ab Lager",
+      "type": "phrase",
+      "arabic": "متوفر من المخزون",
+      "explanation_de": "Direkt aus dem vorhandenen Lagerbestand lieferbar.",
+      "explanation_ar": "قابل للتسليم مباشرة من المخزون.",
+      "examples": [
+        {
+          "de": "Die Ware ist ab Lager verfügbar.",
+          "ar": "البضاعة متوفرة من المخزون."
+        },
+        {
+          "de": "Ab Lager kann innerhalb von zwei Tagen geliefert werden.",
+          "ar": "يمكن التسليم خلال يومين من المخزون."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          144
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v040",
+      "identity": "die garantiezeit",
+      "term": "die Garantiezeit",
+      "type": "noun",
+      "arabic": "مدة الضمان",
+      "explanation_de": "Der Zeitraum, in dem ein Hersteller für bestimmte Mängel haftet.",
+      "explanation_ar": "الفترة التي يتحمل فيها المصنع مسؤولية العيوب.",
+      "examples": [
+        {
+          "de": "Die Garantiezeit beträgt zehn Jahre.",
+          "ar": "مدة الضمان عشر سنوات."
+        },
+        {
+          "de": "Bewahren Sie die Rechnung während der Garantiezeit auf.",
+          "ar": "احتفظ بالفاتورة خلال الضمان."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Garantiezeiten"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          144
+        ],
+        "section": "Lieferung"
+      },
+      "tags": [
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v041",
+      "identity": "die verhandlungsstrategie",
+      "term": "die Verhandlungsstrategie",
+      "type": "noun",
+      "arabic": "استراتيجية تفاوض",
+      "explanation_de": "Ein geplanter Ansatz, um in einer Verhandlung Ziele zu erreichen.",
+      "explanation_ar": "خطة للتعامل مع التفاوض وتحقيق الأهداف.",
+      "examples": [
+        {
+          "de": "Eine gute Verhandlungsstrategie berücksichtigt beide Seiten.",
+          "ar": "تراعي الاستراتيجية الجيدة الطرفين."
+        },
+        {
+          "de": "Vor dem Gespräch legt das Team seine Strategie fest.",
+          "ar": "يحدد الفريق استراتيجيته قبل الحوار."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Verhandlungsstrategien"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          139,
+          145
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v042",
+      "identity": "das harmoniebedürfnis",
+      "term": "das Harmoniebedürfnis",
+      "type": "noun",
+      "arabic": "الرغبة في تجنب الخلاف",
+      "explanation_de": "Starkes Bedürfnis nach friedlicher und konfliktarmer Zusammenarbeit.",
+      "explanation_ar": "رغبة قوية في الحفاظ على الانسجام وتجنب النزاع.",
+      "examples": [
+        {
+          "de": "Ein starkes Harmoniebedürfnis kann Verhandlungen erschweren.",
+          "ar": "قد تصعب الرغبة في الانسجام التفاوض."
+        },
+        {
+          "de": "Trotz Harmoniebedürfnis sollte man klare Grenzen setzen.",
+          "ar": "ينبغي وضع حدود رغم حب الانسجام."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          139
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "psychologie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v043",
+      "identity": "eine forderung stellen",
+      "term": "eine Forderung stellen",
+      "type": "phrase",
+      "arabic": "يطرح مطلبًا",
+      "explanation_de": "In einer Verhandlung einen konkreten Anspruch formulieren.",
+      "explanation_ar": "صياغة مطلب واضح في التفاوض.",
+      "examples": [
+        {
+          "de": "Der Kunde stellt eine realistische Forderung.",
+          "ar": "يطرح الزبون مطلبًا واقعيًا."
+        },
+        {
+          "de": "Zu hohe Forderungen können die Beziehung belasten.",
+          "ar": "قد تضر المطالب العالية بالعلاقة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          139,
+          145
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v044",
+      "identity": "einen konflikt austragen",
+      "term": "einen Konflikt austragen",
+      "type": "phrase",
+      "arabic": "يخوض خلافًا",
+      "explanation_de": "Einen Konflikt offen behandeln und zu einer Lösung führen.",
+      "explanation_ar": "مناقشة الخلاف علنًا للوصول إلى حل.",
+      "examples": [
+        {
+          "de": "Der Konflikt wurde sachlich ausgetragen.",
+          "ar": "تمت معالجة الخلاف بموضوعية."
+        },
+        {
+          "de": "Persönliche Angriffe helfen nicht beim Austragen eines Konflikts.",
+          "ar": "الهجمات الشخصية لا تساعد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          139,
+          145
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v045",
+      "identity": "den ball zurückspielen",
+      "term": "den Ball zurückspielen",
+      "type": "idiom",
+      "arabic": "يعيد السؤال للطرف الآخر",
+      "explanation_de": "Eine Frage so beantworten, dass die andere Person weiter erklären muss.",
+      "explanation_ar": "الرد بسؤال يجعل الطرف الآخر يوضح أكثر.",
+      "examples": [
+        {
+          "de": "Mit einer Rückfrage spielt sie den Ball zurück.",
+          "ar": "تعيد السؤال للطرف الآخر بسؤال مقابل."
+        },
+        {
+          "de": "Diese Technik schafft Zeit zum Nachdenken.",
+          "ar": "توفر هذه الطريقة وقتًا للتفكير."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          139,
+          145
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "idiom"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v046",
+      "identity": "jemanden beim namen ansprechen",
+      "term": "jemanden beim Namen ansprechen",
+      "type": "phrase",
+      "arabic": "يخاطب شخصًا باسمه",
+      "explanation_de": "Den Namen des Gesprächspartners bewusst verwenden.",
+      "explanation_ar": "استخدام اسم الطرف الآخر أثناء الحديث.",
+      "examples": [
+        {
+          "de": "Sprechen Sie Ihren Verhandlungspartner beim Namen an.",
+          "ar": "خاطب شريك التفاوض باسمه."
+        },
+        {
+          "de": "Das wirkt persönlich und aufmerksam.",
+          "ar": "يبدو ذلك شخصيًا ومهتمًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          139,
+          145
+        ],
+        "section": "Verhandeln"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v047",
+      "identity": "die jobbörse",
+      "term": "die Jobbörse",
+      "type": "noun",
+      "arabic": "منصة وظائف",
+      "explanation_de": "Eine Plattform, auf der Stellenangebote veröffentlicht und gesucht werden.",
+      "explanation_ar": "منصة لنشر الوظائف والبحث عنها.",
+      "examples": [
+        {
+          "de": "In der Jobbörse kann man nach Beruf und Ort filtern.",
+          "ar": "يمكن البحث حسب المهنة والمكان."
+        },
+        {
+          "de": "Viele Jobbörsen bieten einen Lebenslauf-Upload an.",
+          "ar": "تتيح منصات كثيرة رفع السيرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Jobbörsen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          148,
+          149
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "jobsuche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v048",
+      "identity": "die jobmesse",
+      "term": "die Jobmesse",
+      "type": "noun",
+      "arabic": "معرض وظائف",
+      "explanation_de": "Eine Veranstaltung, bei der Arbeitgeber und Arbeitssuchende direkt Kontakt aufnehmen.",
+      "explanation_ar": "فعالية يلتقي فيها أصحاب العمل والباحثون عن عمل.",
+      "examples": [
+        {
+          "de": "Auf der Jobmesse führt sie mehrere kurze Gespräche.",
+          "ar": "تجري عدة محادثات قصيرة في معرض الوظائف."
+        },
+        {
+          "de": "Unternehmen präsentieren dort offene Stellen.",
+          "ar": "تعرض الشركات الوظائف الشاغرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Jobmessen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          149
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "jobsuche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v049",
+      "identity": "das berufsinformationszentrum (biz)",
+      "term": "das Berufsinformationszentrum (BiZ)",
+      "type": "noun",
+      "arabic": "مركز معلومات المهن",
+      "explanation_de": "Eine Einrichtung der Arbeitsagentur mit Informationen zu Berufen und Ausbildung.",
+      "explanation_ar": "مركز تابع لوكالة العمل للمعلومات المهنية والتعليمية.",
+      "examples": [
+        {
+          "de": "Im BiZ informiert er sich über Ausbildungsberufe.",
+          "ar": "يستفسر في المركز عن المهن التدريبية."
+        },
+        {
+          "de": "Die Beratung im BiZ ist kostenlos.",
+          "ar": "الاستشارة مجانية."
+        }
+      ],
+    "grammar": {
+      "article": "das",
+      "abbreviation": "BiZ",
+      "plural": "die Berufsinformationszentren"
+    },
+      "source": {
+        "unit": 8,
+        "pages": [
+          148,
+          149
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "jobsuche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v050",
+      "identity": "der quereinsteiger / die quereinsteigerin",
+      "term": "der Quereinsteiger / die Quereinsteigerin",
+      "type": "noun",
+      "arabic": "مغيّر مسار مهني",
+      "explanation_de": "Eine Person, die ohne klassische Ausbildung in ein neues Berufsfeld wechselt.",
+      "explanation_ar": "شخص يدخل مجالًا جديدًا من دون المسار التقليدي.",
+      "examples": [
+        {
+          "de": "Die Firma stellt auch Quereinsteiger ein.",
+          "ar": "توظف الشركة مغيري المسار أيضًا."
+        },
+        {
+          "de": "Quereinsteiger brauchen oft eine intensive Einarbeitung.",
+          "ar": "يحتاجون إلى تأهيل أولي مكثف."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Quereinsteiger / die Quereinsteigerinnen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          149
+        ],
+        "section": "Jobsuche"
+      },
+      "tags": [
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v051",
+      "identity": "das stellenangebot",
+      "term": "das Stellenangebot",
+      "type": "noun",
+      "arabic": "إعلان وظيفة",
+      "explanation_de": "Eine veröffentlichte Beschreibung einer offenen Stelle.",
+      "explanation_ar": "وصف منشور لوظيفة شاغرة.",
+      "examples": [
+        {
+          "de": "Das Stellenangebot nennt Aufgaben und Anforderungen.",
+          "ar": "يذكر الإعلان المهام والمتطلبات."
+        },
+        {
+          "de": "Sie vergleicht mehrere Stellenangebote.",
+          "ar": "تقارن عدة عروض."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Stellenangebote"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          148,
+          150,
+          152
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "jobsuche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v052",
+      "identity": "das muss-kriterium",
+      "term": "das Muss-Kriterium",
+      "type": "noun",
+      "arabic": "شرط إلزامي",
+      "explanation_de": "Eine Voraussetzung, die unbedingt erfüllt werden muss.",
+      "explanation_ar": "شرط يجب تحقيقه حتمًا.",
+      "examples": [
+        {
+          "de": "Der Führerschein ist ein Muss-Kriterium.",
+          "ar": "رخصة القيادة شرط إلزامي."
+        },
+        {
+          "de": "Fehlt ein Muss-Kriterium, wird die Bewerbung oft abgelehnt.",
+          "ar": "قد يُرفض الطلب إذا نقص شرط إلزامي."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Muss-Kriterien"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          150,
+          151
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v053",
+      "identity": "das wunsch-kriterium",
+      "term": "das Wunsch-Kriterium",
+      "type": "noun",
+      "arabic": "شرط مرغوب",
+      "explanation_de": "Eine gewünschte, aber nicht zwingend notwendige Eigenschaft.",
+      "explanation_ar": "ميزة مرغوبة وليست إلزامية.",
+      "examples": [
+        {
+          "de": "Berufserfahrung ist hier ein Wunsch-Kriterium.",
+          "ar": "الخبرة هنا شرط مرغوب."
+        },
+        {
+          "de": "Wunsch-Kriterien verbessern die Chancen.",
+          "ar": "تحسن الشروط المرغوبة الفرص."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Wunsch-Kriterien"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          150,
+          151
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v054",
+      "identity": "die einarbeitungsphase",
+      "term": "die Einarbeitungsphase",
+      "type": "noun",
+      "arabic": "مرحلة التهيئة للعمل",
+      "explanation_de": "Die erste Zeit, in der neue Beschäftigte Aufgaben und Abläufe kennenlernen.",
+      "explanation_ar": "المرحلة الأولى لتعلم المهام والإجراءات.",
+      "examples": [
+        {
+          "de": "Die Einarbeitungsphase dauert sechs Wochen.",
+          "ar": "تستمر مرحلة التهيئة ستة أسابيع."
+        },
+        {
+          "de": "Ein fester Ansprechpartner erleichtert die Einarbeitung.",
+          "ar": "يسهل المسؤول الثابت التأهيل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Einarbeitungsphasen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          150,
+          151
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v055",
+      "identity": "die schlüsselqualifikation",
+      "term": "die Schlüsselqualifikation",
+      "type": "noun",
+      "arabic": "كفاءة أساسية",
+      "explanation_de": "Eine überfachliche Fähigkeit, die in vielen Berufen wichtig ist.",
+      "explanation_ar": "مهارة عامة مهمة في مهن متعددة.",
+      "examples": [
+        {
+          "de": "Zuverlässigkeit ist eine wichtige Schlüsselqualifikation.",
+          "ar": "الموثوقية كفاءة أساسية."
+        },
+        {
+          "de": "Im Anschreiben sollte man passende Schlüsselqualifikationen belegen.",
+          "ar": "ينبغي دعم الكفاءات بأمثلة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schlüsselqualifikationen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          151
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v056",
+      "identity": "die belastbarkeit",
+      "term": "die Belastbarkeit",
+      "type": "noun",
+      "arabic": "القدرة على تحمل الضغط",
+      "explanation_de": "Die Fähigkeit, auch unter Belastung zuverlässig zu arbeiten.",
+      "explanation_ar": "القدرة على العمل الموثوق تحت الضغط.",
+      "examples": [
+        {
+          "de": "In der Gastronomie ist Belastbarkeit wichtig.",
+          "ar": "تحمل الضغط مهم في المطاعم."
+        },
+        {
+          "de": "Belastbarkeit zeigt sich besonders in Stoßzeiten.",
+          "ar": "تظهر في أوقات الازدحام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137,
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v057",
+      "identity": "die kundenorientierung",
+      "term": "die Kundenorientierung",
+      "type": "noun",
+      "arabic": "التوجه نحو الزبون",
+      "explanation_de": "Die konsequente Ausrichtung auf Bedürfnisse und Zufriedenheit der Kunden.",
+      "explanation_ar": "التركيز على حاجات الزبائن ورضاهم.",
+      "examples": [
+        {
+          "de": "Kundenorientierung gehört zu den Kernkompetenzen.",
+          "ar": "التوجه للزبون من الكفاءات الأساسية."
+        },
+        {
+          "de": "Beschwerden werden kundenorientiert gelöst.",
+          "ar": "تُحل الشكاوى بطريقة تركز على الزبون."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137,
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": "nouns:noun_0336",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u08-v058",
+      "identity": "die organisationsfähigkeit",
+      "term": "die Organisationsfähigkeit",
+      "type": "noun",
+      "arabic": "القدرة التنظيمية",
+      "explanation_de": "Die Fähigkeit, Aufgaben, Zeit und Ressourcen sinnvoll zu planen.",
+      "explanation_ar": "القدرة على تنظيم المهام والوقت والموارد.",
+      "examples": [
+        {
+          "de": "Organisationsfähigkeit ist in der Küche unverzichtbar.",
+          "ar": "التنظيم لا غنى عنه في المطبخ."
+        },
+        {
+          "de": "Sie koordiniert mehrere Aufgaben gleichzeitig.",
+          "ar": "تنظم عدة مهام في وقت واحد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          137,
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v059",
+      "identity": "die lernbereitschaft",
+      "term": "die Lernbereitschaft",
+      "type": "noun",
+      "arabic": "الاستعداد للتعلم",
+      "explanation_de": "Die Bereitschaft, neue Kenntnisse und Fähigkeiten zu erwerben.",
+      "explanation_ar": "الرغبة والاستعداد لاكتساب مهارات جديدة.",
+      "examples": [
+        {
+          "de": "Lernbereitschaft wird in der Stellenanzeige ausdrücklich verlangt.",
+          "ar": "يُطلب الاستعداد للتعلم بوضوح."
+        },
+        {
+          "de": "Neue Technik erfordert hohe Lernbereitschaft.",
+          "ar": "تتطلب التقنية الجديدة استعدادًا كبيرًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v060",
+      "identity": "die selbstständigkeit",
+      "term": "die Selbstständigkeit",
+      "type": "noun",
+      "arabic": "العمل باستقلالية",
+      "explanation_de": "Die Fähigkeit, Aufgaben eigenverantwortlich ohne ständige Anleitung zu erledigen.",
+      "explanation_ar": "القدرة على إنجاز المهام باستقلالية.",
+      "examples": [
+        {
+          "de": "Selbstständigkeit ist für die Stelle besonders wichtig.",
+          "ar": "الاستقلالية مهمة للوظيفة."
+        },
+        {
+          "de": "Sie arbeitet selbstständig und zuverlässig.",
+          "ar": "تعمل باستقلالية وموثوقية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v061",
+      "identity": "die zuverlässigkeit",
+      "term": "die Zuverlässigkeit",
+      "type": "noun",
+      "arabic": "الموثوقية",
+      "explanation_de": "Die Eigenschaft, Absprachen und Aufgaben verlässlich einzuhalten.",
+      "explanation_ar": "الالتزام بالمواعيد والاتفاقات والمهام.",
+      "examples": [
+        {
+          "de": "Zuverlässigkeit ist im Kundenkontakt entscheidend.",
+          "ar": "الموثوقية حاسمة مع الزبائن."
+        },
+        {
+          "de": "Auf ihn kann man sich immer verlassen.",
+          "ar": "يمكن الاعتماد عليه دائمًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          143,
+          151
+        ],
+        "section": "Kompetenzen"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v062",
+      "identity": "die höhentauglichkeit",
+      "term": "die Höhentauglichkeit",
+      "type": "noun",
+      "arabic": "القدرة على العمل في المرتفعات",
+      "explanation_de": "Die gesundheitliche Eignung für Arbeiten in großer Höhe.",
+      "explanation_ar": "القدرة الصحية على العمل في الأماكن المرتفعة.",
+      "examples": [
+        {
+          "de": "Für die Stelle ist Höhentauglichkeit erforderlich.",
+          "ar": "القدرة على الارتفاعات مطلوبة."
+        },
+        {
+          "de": "Die Eignung wird medizinisch geprüft.",
+          "ar": "تُفحص الملاءمة طبيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          150,
+          151
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v063",
+      "identity": "der sicherheitsstandard",
+      "term": "der Sicherheitsstandard",
+      "type": "noun",
+      "arabic": "معيار السلامة",
+      "explanation_de": "Ein festgelegtes Niveau von Regeln und Maßnahmen zur Sicherheit.",
+      "explanation_ar": "مستوى محدد من قواعد وإجراءات السلامة.",
+      "examples": [
+        {
+          "de": "Der Betrieb arbeitet nach hohen Sicherheitsstandards.",
+          "ar": "تعمل الشركة وفق معايير سلامة عالية."
+        },
+        {
+          "de": "Alle Geräte erfüllen den aktuellen Standard.",
+          "ar": "تستوفي الأجهزة المعيار الحالي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Sicherheitsstandards"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          150,
+          151
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v064",
+      "identity": "der blickkontakt",
+      "term": "der Blickkontakt",
+      "type": "noun",
+      "arabic": "التواصل البصري",
+      "explanation_de": "Das bewusste Anschauen des Gesprächspartners in die Augen.",
+      "explanation_ar": "النظر إلى عين الطرف الآخر أثناء الحديث.",
+      "examples": [
+        {
+          "de": "Blickkontakt wirkt aufmerksam und selbstbewusst.",
+          "ar": "التواصل البصري يعطي انطباعًا بالثقة."
+        },
+        {
+          "de": "Zu intensiver Blickkontakt kann unangenehm wirken.",
+          "ar": "قد يكون المبالغ فيه مزعجًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          154,
+          155
+        ],
+        "section": "Bewerbungsgespräch"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v065",
+      "identity": "die aufwärmphase",
+      "term": "die Aufwärmphase",
+      "type": "noun",
+      "arabic": "مرحلة التهيئة في المقابلة",
+      "explanation_de": "Der lockere Beginn eines Gesprächs mit Begrüßung und Smalltalk.",
+      "explanation_ar": "بداية خفيفة للمقابلة مع التحية وحديث قصير.",
+      "examples": [
+        {
+          "de": "Die Aufwärmphase schafft eine angenehme Atmosphäre.",
+          "ar": "تخلق مرحلة التهيئة جوًا مريحًا."
+        },
+        {
+          "de": "Danach beginnt der fachliche Teil.",
+          "ar": "ثم يبدأ الجزء المهني."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Aufwärmphasen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          154,
+          155
+        ],
+        "section": "Bewerbungsgespräch"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v066",
+      "identity": "die abschlussphase",
+      "term": "die Abschlussphase",
+      "type": "noun",
+      "arabic": "المرحلة الختامية",
+      "explanation_de": "Der letzte Teil eines Gesprächs, in dem offene Fragen und nächste Schritte geklärt werden.",
+      "explanation_ar": "الجزء الأخير لتوضيح الأسئلة والخطوات التالية.",
+      "examples": [
+        {
+          "de": "In der Abschlussphase stellt der Bewerber seine Rückfragen.",
+          "ar": "يطرح المتقدم أسئلته في النهاية."
+        },
+        {
+          "de": "Der Arbeitgeber erklärt den weiteren Ablauf.",
+          "ar": "يشرح صاحب العمل الخطوات التالية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Abschlussphasen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          154,
+          155
+        ],
+        "section": "Bewerbungsgespräch"
+      },
+      "tags": [
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v067",
+      "identity": "per handschlag",
+      "term": "per Handschlag",
+      "type": "phrase",
+      "arabic": "بالمصافحة",
+      "explanation_de": "Durch eine formelle oder informelle Begrüßung mit der Hand.",
+      "explanation_ar": "من خلال المصافحة.",
+      "examples": [
+        {
+          "de": "Sie begrüßen sich per Handschlag.",
+          "ar": "يتبادلان التحية بالمصافحة."
+        },
+        {
+          "de": "In manchen Situationen wird auf den Handschlag verzichtet.",
+          "ar": "يُستغنى عن المصافحة أحيانًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 8,
+        "pages": [
+          154,
+          155
+        ],
+        "section": "Bewerbungsgespräch"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v068",
+      "identity": "die zugehörigkeit",
+      "term": "die Zugehörigkeit",
+      "type": "noun",
+      "arabic": "الانتماء",
+      "explanation_de": "Das Gefühl, Teil einer Gruppe oder Organisation zu sein.",
+      "explanation_ar": "الشعور بأن الشخص جزء من مجموعة.",
+      "examples": [
+        {
+          "de": "Kollegiales Verhalten stärkt die Zugehörigkeit.",
+          "ar": "يعزز السلوك التعاوني الانتماء."
+        },
+        {
+          "de": "Neue Mitarbeitende sollen sich schnell zugehörig fühlen.",
+          "ar": "ينبغي أن يشعر الموظفون الجدد بالانتماء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          153,
+          155
+        ],
+        "section": "Arbeitswelt"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v069",
+      "identity": "das führungszeugnis",
+      "term": "das Führungszeugnis",
+      "type": "noun",
+      "arabic": "شهادة حسن سلوك",
+      "explanation_de": "Ein behördliches Dokument über bestimmte strafrechtliche Einträge.",
+      "explanation_ar": "وثيقة رسمية عن السجل الجنائي.",
+      "examples": [
+        {
+          "de": "Für manche Stellen wird ein Führungszeugnis verlangt.",
+          "ar": "تُطلب شهادة حسن سلوك لبعض الوظائف."
+        },
+        {
+          "de": "Das Führungszeugnis muss aktuell sein.",
+          "ar": "يجب أن تكون الشهادة حديثة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Führungszeugnisse"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          155
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v071",
+      "identity": "die kursabsage",
+      "term": "die Kursabsage",
+      "type": "noun",
+      "arabic": "إلغاء الدورة",
+      "explanation_de": "Die Mitteilung, dass ein geplanter Kurs nicht stattfindet.",
+      "explanation_ar": "إبلاغ بأن الدورة لن تُقام.",
+      "examples": [
+        {
+          "de": "Die kurzfristige Kursabsage verärgert die Kunden.",
+          "ar": "إلغاء الدورة في آخر لحظة يزعج الزبائن."
+        },
+        {
+          "de": "Bei einer Absage wird die Gebühr erstattet.",
+          "ar": "تُعاد الرسوم عند الإلغاء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kursabsagen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          156
+        ],
+        "section": "Beschwerde"
+      },
+      "tags": [
+        "kundenservice"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v072",
+      "identity": "die rückerstattung",
+      "term": "die Rückerstattung",
+      "type": "noun",
+      "arabic": "إعادة المبلغ",
+      "explanation_de": "Die Rückzahlung eines bereits gezahlten Betrags.",
+      "explanation_ar": "إرجاع مبلغ تم دفعه.",
+      "examples": [
+        {
+          "de": "Der Kunde verlangt eine vollständige Rückerstattung.",
+          "ar": "يطالب الزبون باسترداد كامل."
+        },
+        {
+          "de": "Die Rückerstattung erfolgt innerhalb von fünf Tagen.",
+          "ar": "يتم الاسترداد خلال خمسة أيام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Rückerstattungen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          156
+        ],
+        "section": "Beschwerde"
+      },
+      "tags": [
+        "kundenservice"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u08-v073",
+      "identity": "die wiedergutmachung",
+      "term": "die Wiedergutmachung",
+      "type": "noun",
+      "arabic": "تعويض وإصلاح الضرر",
+      "explanation_de": "Eine Leistung, mit der ein Fehler oder Nachteil ausgeglichen wird.",
+      "explanation_ar": "إجراء لتعويض الخطأ أو الضرر.",
+      "examples": [
+        {
+          "de": "Als Wiedergutmachung erhält der Kunde einen Gutschein.",
+          "ar": "يحصل الزبون على قسيمة تعويضًا."
+        },
+        {
+          "de": "Eine ehrliche Entschuldigung gehört zur Wiedergutmachung.",
+          "ar": "الاعتذار الصادق جزء من التعويض."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Wiedergutmachungen"
+      },
+      "source": {
+        "unit": 8,
+        "pages": [
+          156
+        ],
+        "section": "Beschwerde"
+      },
+      "tags": [
+        "kundenservice"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

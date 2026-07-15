@@ -1,0 +1,1380 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 4,
+  "unitTitle_de": "Tourismus",
+  "unitTitle_ar": "السياحة",
+  "grammarFocus": [
+    "Konjunktiv II in der Vergangenheit",
+    "hätte + Infinitiv + Modalverb",
+    "Gründe und Folgen ausdrücken",
+    "Passiv in Arbeitsabläufen",
+    "Redemittel für Telefonate, Reklamationen und Verhandlungen"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u04-e001",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Reiseformen",
+      "title_ar": "أنواع السفر",
+      "prompt_de": "Welche Reiseform enthält normalerweise Flug, Hotel und Transfer in einem Gesamtangebot?",
+      "prompt_ar": "أي نوع سفر يشمل عادةً الطيران والفندق والنقل ضمن عرض واحد؟",
+      "answer": "die Pauschalreise",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Pauschalreise",
+        "die Individualreise",
+        "die Fahrradtour",
+        "die Städtereise"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v001",
+        "b2u04-v002"
+      ]
+    },
+    {
+      "id": "b2u04-e002",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Hotelverpflegung",
+      "title_ar": "الوجبات الفندقية",
+      "prompt_de": "Was bedeutet Vollpension?",
+      "prompt_ar": "ما معنى Vollpension؟",
+      "answer": "Frühstück, Mittagessen und Abendessen",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nur Frühstück",
+        "Frühstück und eine Hauptmahlzeit",
+        "Frühstück, Mittagessen und Abendessen",
+        "nur Getränke"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v008",
+        "b2u04-v009"
+      ]
+    },
+    {
+      "id": "b2u04-e003",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Reiseangebot",
+      "title_ar": "عرض السفر",
+      "prompt_de": "Welche Information gehört in ein vollständiges Reiseangebot?",
+      "prompt_ar": "أي معلومات يجب أن تتضمنها صيغة عرض سفر كاملة؟",
+      "answer": "Reiseziel, Zeitraum, Leistungen und Preis",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Reiseziel, Zeitraum, Leistungen und Preis",
+        "nur der Name des Hotels",
+        "nur die Telefonnummer des Reisebüros",
+        "private Informationen über andere Kunden"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v015",
+        "b2u04-v024",
+        "b2u04-v025"
+      ]
+    },
+    {
+      "id": "b2u04-e004",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Kundenwünsche",
+      "title_ar": "رغبات الزبائن",
+      "prompt_de": "Für die Kundin ist die direkte ______ besonders wichtig.",
+      "prompt_ar": "القرب المباشر من ______ مهم جدًا للزبونة.",
+      "answer": "Strandnähe",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Strandnähe",
+        "die Strandnähe"
+      ],
+      "completedSentence_de": "Für die Kundin ist die direkte Strandnähe besonders wichtig.",
+      "completedSentence_ar": "القرب المباشر من الشاطئ مهم جدًا للزبونة.",
+      "vocabularyRefs": [
+        "b2u04-v011"
+      ]
+    },
+    {
+      "id": "b2u04-e005",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Reiseangebot",
+      "title_ar": "عرض السفر",
+      "prompt_de": "Bei einer Buchung bis Ende März erhalten Sie einen ______.",
+      "prompt_ar": "عند الحجز حتى نهاية مارس تحصلون على ______.",
+      "answer": "Frühbucherrabatt",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Frühbucherrabatt",
+        "einen Frühbucherrabatt"
+      ],
+      "completedSentence_de": "Bei einer Buchung bis Ende März erhalten Sie einen Frühbucherrabatt.",
+      "completedSentence_ar": "تحصلون على خصم للحجز المبكر عند الحجز حتى نهاية مارس.",
+      "vocabularyRefs": [
+        "b2u04-v012"
+      ]
+    },
+    {
+      "id": "b2u04-e006",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Reiseformen",
+      "title_ar": "أنواع الرحلات",
+      "prompt_de": "Ordnen Sie die Reiseformen den Beschreibungen zu.",
+      "prompt_ar": "صِل أنواع الرحلات بالأوصاف.",
+      "answer": {
+        "die Pauschalreise": "mehrere Leistungen gemeinsam gebucht",
+        "die Individualreise": "selbst geplant und flexibel",
+        "die Rundreise": "mehrere Orte in einem Programm",
+        "der Campingurlaub": "Übernachtung auf einem Campingplatz"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Pauschalreise",
+          "mehrere Leistungen gemeinsam gebucht"
+        ],
+        [
+          "die Individualreise",
+          "selbst geplant und flexibel"
+        ],
+        [
+          "die Rundreise",
+          "mehrere Orte in einem Programm"
+        ],
+        [
+          "der Campingurlaub",
+          "Übernachtung auf einem Campingplatz"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v001",
+        "b2u04-v002",
+        "b2u04-v031",
+        "b2u04-v003"
+      ]
+    },
+    {
+      "id": "b2u04-e007",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Hotelangebote",
+      "title_ar": "عروض الفنادق",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "die Vollpension": "drei Mahlzeiten",
+        "die Halbpension": "Frühstück plus eine Hauptmahlzeit",
+        "das Animationsprogramm": "organisierte Freizeitaktivitäten",
+        "die Hotelanlage": "Hotelgelände mit mehreren Einrichtungen"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Vollpension",
+          "drei Mahlzeiten"
+        ],
+        [
+          "die Halbpension",
+          "Frühstück plus eine Hauptmahlzeit"
+        ],
+        [
+          "das Animationsprogramm",
+          "organisierte Freizeitaktivitäten"
+        ],
+        [
+          "die Hotelanlage",
+          "Hotelgelände mit mehreren Einrichtungen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v008",
+        "b2u04-v009",
+        "b2u04-v010",
+        "b2u04-v007"
+      ]
+    },
+    {
+      "id": "b2u04-e008",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Verträge",
+      "title_ar": "العقود",
+      "prompt_de": "Was sollte man vor dem Abschluss einer Reiseversicherung tun?",
+      "prompt_ar": "ماذا ينبغي فعله قبل إبرام تأمين للسفر؟",
+      "answer": "Bedingungen und versicherte Gründe prüfen",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Bedingungen und versicherte Gründe prüfen",
+        "sofort zahlen, ohne den Vertrag zu lesen",
+        "nur den Namen der Versicherung ansehen",
+        "den Reisezeitraum offenlassen"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v016",
+        "b2u04-v017"
+      ]
+    },
+    {
+      "id": "b2u04-e009",
+      "unit": 4,
+      "type": "sentence_build",
+      "title_de": "Vertrag und Versicherung",
+      "title_ar": "العقد والتأمين",
+      "prompt_de": "Bilden Sie einen korrekten Satz: vor der Reise / eine Versicherung / sie / abschließen / sollen",
+      "prompt_ar": "كوّن جملة صحيحة: كان ينبغي لها إبرام تأمين قبل الرحلة.",
+      "answer": "Sie hätte vor der Reise eine Versicherung abschließen sollen.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Sie hätte vor der Reise eine Versicherung abschließen sollen."
+      ],
+      "grammarFocus": "Konjunktiv II Vergangenheit mit Modalverb",
+      "vocabularyRefs": [
+        "b2u04-v020"
+      ]
+    },
+    {
+      "id": "b2u04-e010",
+      "unit": 4,
+      "type": "sentence_build",
+      "title_de": "Ratschlag im Nachhinein",
+      "title_ar": "نصيحة بعد فوات الأوان",
+      "prompt_de": "Formulieren Sie einen Ratschlag: Die Kundin hat die AGB nicht gelesen.",
+      "prompt_ar": "صغ نصيحة بعد فوات الأوان: لم تقرأ الزبونة الشروط العامة.",
+      "answer": "Sie hätte die allgemeinen Geschäftsbedingungen lesen sollen.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Sie hätte die allgemeinen Geschäftsbedingungen lesen sollen.",
+        "Die Kundin hätte die allgemeinen Geschäftsbedingungen lesen sollen."
+      ],
+      "grammarFocus": "hätte + Infinitiv + sollen",
+      "vocabularyRefs": [
+        "b2u04-v017"
+      ]
+    },
+    {
+      "id": "b2u04-e011",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Tourismusberufe",
+      "title_ar": "مهن السياحة",
+      "prompt_de": "Wer begleitet Gruppen, erklärt Sehenswürdigkeiten und organisiert den Ablauf?",
+      "prompt_ar": "من يرافق المجموعات ويشرح المعالم وينظم البرنامج؟",
+      "answer": "der Reiseleiter / die Reiseleiterin",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Reiseleiter / die Reiseleiterin",
+        "der Facility Manager / die Facility Managerin",
+        "der Disponent / die Disponentin",
+        "der Transporteur / die Transporteurin"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v028"
+      ]
+    },
+    {
+      "id": "b2u04-e012",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Kinderbetreuung im Hotel",
+      "title_ar": "رعاية الأطفال في الفندق",
+      "prompt_de": "Welche Kompetenz ist für Kinderanimateure besonders wichtig?",
+      "prompt_ar": "أي كفاءة مهمة بشكل خاص لمنشطي الأطفال؟",
+      "answer": "Geduld und Kreativität",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Geduld und Kreativität",
+        "nur Buchhaltung",
+        "Führerschein für Lkw",
+        "Containerkontrolle"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v030"
+      ]
+    },
+    {
+      "id": "b2u04-e013",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Aufgaben im Tourismus",
+      "title_ar": "مهام في السياحة",
+      "prompt_de": "Ordnen Sie Aufgabe und Beruf zu.",
+      "prompt_ar": "صِل المهمة بالمهنة.",
+      "answer": {
+        "Ausflugsprogramme entwickeln": "Reiseleiterin",
+        "Kinderprogramme organisieren": "Kinderanimateur",
+        "Stadtgeschichte erklären": "Stadtführerin",
+        "Gäste an der Rezeption unterstützen": "Rezeptionist"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Ausflugsprogramme entwickeln",
+          "Reiseleiterin"
+        ],
+        [
+          "Kinderprogramme organisieren",
+          "Kinderanimateur"
+        ],
+        [
+          "Stadtgeschichte erklären",
+          "Stadtführerin"
+        ],
+        [
+          "Gäste an der Rezeption unterstützen",
+          "Rezeptionist"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v039",
+        "b2u04-v030",
+        "b2u04-v029",
+        "b2u04-v032"
+      ]
+    },
+    {
+      "id": "b2u04-e014",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Bewerbung",
+      "title_ar": "التقديم للوظيفة",
+      "prompt_de": "Bitte senden Sie Ihre vollständigen ______ per E-Mail.",
+      "prompt_ar": "يرجى إرسال ______ التقديم كاملة عبر البريد الإلكتروني.",
+      "answer": "Bewerbungsunterlagen",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Bewerbungsunterlagen",
+        "die Bewerbungsunterlagen"
+      ],
+      "completedSentence_de": "Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per E-Mail.",
+      "completedSentence_ar": "يرجى إرسال مستندات التقديم كاملة عبر البريد الإلكتروني.",
+      "vocabularyRefs": [
+        "b2u04-v041"
+      ]
+    },
+    {
+      "id": "b2u04-e015",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Bewerbung",
+      "title_ar": "التقديم للوظيفة",
+      "prompt_de": "Das ______ beginnt mit einem kurzen Telefoninterview.",
+      "prompt_ar": "تبدأ ______ الاختيار بمقابلة هاتفية قصيرة.",
+      "answer": "Auswahlverfahren",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Auswahlverfahren",
+        "das Auswahlverfahren"
+      ],
+      "completedSentence_de": "Das Auswahlverfahren beginnt mit einem kurzen Telefoninterview.",
+      "completedSentence_ar": "تبدأ إجراءات الاختيار بمقابلة هاتفية قصيرة.",
+      "vocabularyRefs": [
+        "b2u04-v042",
+        "b2u04-v043"
+      ]
+    },
+    {
+      "id": "b2u04-e016",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Stellenanzeige",
+      "title_ar": "إعلان وظيفة",
+      "prompt_de": "Welche Angabe beschreibt eine Leistung des Arbeitgebers?",
+      "prompt_ar": "أي معلومة تصف ميزة يقدمها صاحب العمل؟",
+      "answer": "freie Unterkunft im Einsatzgebiet",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "freie Unterkunft im Einsatzgebiet",
+        "Fremdsprachenkenntnisse",
+        "höfliches Auftreten",
+        "abgeschlossene Ausbildung"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v044",
+        "b2u04-v045"
+      ]
+    },
+    {
+      "id": "b2u04-e017",
+      "unit": 4,
+      "type": "guided_speaking",
+      "title_de": "Telefonisches Vorgespräch",
+      "title_ar": "مقابلة هاتفية أولية",
+      "prompt_de": "Führen Sie ein kurzes Telefoninterview für eine Stelle als Reiseleiter/in.",
+      "prompt_ar": "أجرِ مقابلة هاتفية قصيرة لوظيفة مرشد سياحي.",
+      "answer": {
+        "requiredConcepts": [
+          "Berufserfahrung",
+          "Fremdsprachenkenntnisse",
+          "Einsatzgebiet",
+          "Arbeitsbedingungen",
+          "Aufstiegsmöglichkeiten",
+          "eigene Rückfrage"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v028",
+        "b2u04-v036",
+        "b2u04-v045",
+        "b2u04-v049",
+        "b2u04-v046"
+      ]
+    },
+    {
+      "id": "b2u04-e018",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Arbeitsformen",
+      "title_ar": "أشكال العمل",
+      "prompt_de": "Ordnen Sie die Arbeitsform der passenden Erklärung zu.",
+      "prompt_ar": "صِل شكل العمل بالشرح المناسب.",
+      "answer": {
+        "der befristete Vertrag": "endet zu einem festgelegten Zeitpunkt",
+        "der unbefristete Vertrag": "hat kein vorher festgelegtes Ende",
+        "die Saisonarbeit": "wird nur in bestimmten Jahreszeiten gebraucht",
+        "die Zeitarbeit": "Beschäftigung über eine Zeitarbeitsfirma"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der befristete Vertrag",
+          "endet zu einem festgelegten Zeitpunkt"
+        ],
+        [
+          "der unbefristete Vertrag",
+          "hat kein vorher festgelegtes Ende"
+        ],
+        [
+          "die Saisonarbeit",
+          "wird nur in bestimmten Jahreszeiten gebraucht"
+        ],
+        [
+          "die Zeitarbeit",
+          "Beschäftigung über eine Zeitarbeitsfirma"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v050",
+        "b2u04-v051",
+        "b2u04-v054",
+        "b2u04-v055"
+      ]
+    },
+    {
+      "id": "b2u04-e019",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Schwarzarbeit",
+      "title_ar": "العمل غير المصرح به",
+      "prompt_de": "Welche Aussage ist richtig?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Schwarzarbeit ist nicht offiziell angemeldet und kann strafbar sein.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Schwarzarbeit ist nicht offiziell angemeldet und kann strafbar sein.",
+        "Jeder Minijob ist automatisch Schwarzarbeit.",
+        "Schwarzarbeit ist ein normaler Tarifvertrag.",
+        "Schwarzarbeit ist immer sozialversichert."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v059",
+        "b2u04-v053"
+      ]
+    },
+    {
+      "id": "b2u04-e020",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Tarifvertrag",
+      "title_ar": "الاتفاقية الجماعية",
+      "prompt_de": "Was regelt ein Tarifvertrag häufig?",
+      "prompt_ar": "ما الذي تنظمه الاتفاقية الجماعية غالبًا؟",
+      "answer": "Löhne und Arbeitsbedingungen",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Löhne und Arbeitsbedingungen",
+        "nur Urlaubsfotos",
+        "private Reiseziele",
+        "Hotelbewertungen"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v057",
+        "b2u04-v058"
+      ]
+    },
+    {
+      "id": "b2u04-e021",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Zeitarbeit",
+      "title_ar": "العمل المؤقت",
+      "prompt_de": "Nach längerer Einsatzzeit kann die ______ gelten.",
+      "prompt_ar": "بعد مدة عمل أطول قد تسري ______.",
+      "answer": "Equal-Pay-Vorschrift",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Equal-Pay-Vorschrift",
+        "die Equal-Pay-Vorschrift"
+      ],
+      "completedSentence_de": "Nach längerer Einsatzzeit kann die Equal-Pay-Vorschrift gelten.",
+      "completedSentence_ar": "بعد مدة عمل أطول قد تسري قاعدة الأجر المتساوي.",
+      "vocabularyRefs": [
+        "b2u04-v061"
+      ]
+    },
+    {
+      "id": "b2u04-e022",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Gehaltsstufe",
+      "title_ar": "درجة الراتب",
+      "prompt_de": "Wovon kann die Gehaltsstufe abhängen?",
+      "prompt_ar": "على ماذا يمكن أن تعتمد درجة الراتب؟",
+      "answer": "Ausbildung und Berufserfahrung",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ausbildung und Berufserfahrung",
+        "Lieblingsfarbe",
+        "Urlaubsland",
+        "Anzahl der Geschwister"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v060"
+      ]
+    },
+    {
+      "id": "b2u04-e023",
+      "unit": 4,
+      "type": "scenario_choice",
+      "title_de": "Arbeitsform erkennen",
+      "title_ar": "تحديد شكل العمل",
+      "prompt_de": "Eine Firma braucht nur von Juni bis August zusätzliche Kräfte. Welche Arbeitsform passt am besten?",
+      "prompt_ar": "تحتاج شركة إلى عمال إضافيين فقط من يونيو حتى أغسطس. ما شكل العمل الأنسب؟",
+      "answer": "die Saisonarbeit",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Saisonarbeit",
+        "der unbefristete Vertrag",
+        "die Schwarzarbeit",
+        "die Vollzeitbeschäftigung"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v054"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v045"
+      ]
+    },
+    {
+      "id": "b2u04-e024",
+      "unit": 4,
+      "type": "scenario_choice",
+      "title_de": "Arbeitsform erkennen",
+      "title_ar": "تحديد شكل العمل",
+      "prompt_de": "Eine Person arbeitet offiziell bis zur gesetzlichen Verdienstgrenze in einer kleinen Nebenbeschäftigung.",
+      "prompt_ar": "شخص يعمل رسميًا في وظيفة جانبية بدخل محدود وفق الحد القانوني.",
+      "answer": "der Minijob",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Minijob",
+        "die Schwarzarbeit",
+        "die Zeitarbeit",
+        "die Saisonarbeit"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v053"
+      ]
+    },
+    {
+      "id": "b2u04-e025",
+      "unit": 4,
+      "type": "guided_writing",
+      "title_de": "Vor- und Nachteile",
+      "title_ar": "المزايا والعيوب",
+      "prompt_de": "Schreiben Sie 90–120 Wörter über Vor- und Nachteile von Zeitarbeit.",
+      "prompt_ar": "اكتب 90–120 كلمة عن مزايا وعيوب العمل المؤقت.",
+      "answer": {
+        "requiredConcepts": [
+          "Flexibilität",
+          "Berufserfahrung in verschiedenen Betrieben",
+          "Vertragssicherheit",
+          "Bezahlung",
+          "Equal Pay",
+          "eigene Meinung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v055",
+        "b2u04-v056",
+        "b2u04-v061",
+        "b2u04-v062"
+      ]
+    },
+    {
+      "id": "b2u04-e026",
+      "unit": 4,
+      "type": "email_order",
+      "title_de": "Fragen zu einer Stellenanzeige",
+      "title_ar": "استفسارات عن إعلان وظيفة",
+      "prompt_de": "Ordnen Sie die Teile einer formellen Anfrage.",
+      "prompt_ar": "رتّب أجزاء استفسار رسمي عن إعلان وظيفة.",
+      "answer": [
+        "anrede",
+        "bezug",
+        "frage_arbeitszeit",
+        "frage_verguetung",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "frage_verguetung",
+          "text": "Außerdem möchte ich gern wissen, wie hoch die Vergütung ist."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "bezug",
+          "text": "ich beziehe mich auf Ihre Stellenanzeige für einen Facility Manager."
+        },
+        {
+          "id": "frage_arbeitszeit",
+          "text": "Könnten Sie mir bitte die genauen Arbeitszeiten mitteilen?"
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u04-v063",
+        "b2u04-v064"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v056",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u04-e027",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsvertrag",
+      "title_ar": "عقد العمل",
+      "prompt_de": "Was bedeutet: „Der Vertrag läuft aus“?",
+      "prompt_ar": "ما معنى: Der Vertrag läuft aus؟",
+      "answer": "Der Vertrag endet.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Der Vertrag endet.",
+        "Der Vertrag beginnt.",
+        "Der Lohn steigt.",
+        "Die Arbeitszeit wird kürzer."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v050"
+      ]
+    },
+    {
+      "id": "b2u04-e028",
+      "unit": 4,
+      "type": "sentence_order",
+      "title_de": "Die Lieferkette",
+      "title_ar": "سلسلة التوريد",
+      "prompt_de": "Ordnen Sie die Schritte einer einfachen Lieferkette.",
+      "prompt_ar": "رتّب مراحل سلسلة توريد بسيطة.",
+      "answer": [
+        "ernten",
+        "verkaufen",
+        "transportieren",
+        "importieren",
+        "an Endkunden verkaufen"
+      ],
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "transportieren",
+        "an Endkunden verkaufen",
+        "ernten",
+        "importieren",
+        "verkaufen"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v069"
+      ]
+    },
+    {
+      "id": "b2u04-e029",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Logistikberuf",
+      "title_ar": "مهنة لوجستية",
+      "prompt_de": "Wer plant Transporte, verteilt Aufträge und informiert Fahrer?",
+      "prompt_ar": "من يخطط للنقل ويوزع الطلبات ويبلغ السائقين؟",
+      "answer": "der Disponent / die Disponentin",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Disponent / die Disponentin",
+        "der Reiseleiter / die Reiseleiterin",
+        "der Stadtführer / die Stadtführerin",
+        "der Kinderanimateur / die Kinderanimateurin"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v065"
+      ]
+    },
+    {
+      "id": "b2u04-e030",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Arbeitsablauf",
+      "title_ar": "سير العمل",
+      "prompt_de": "Die Disponentin muss sich zuerst in die neue Software ______.",
+      "prompt_ar": "يجب على منسقة النقل أولًا أن ______ على البرنامج الجديد.",
+      "answer": "einarbeiten",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "einarbeiten"
+      ],
+      "completedSentence_de": "Die Disponentin muss sich zuerst in die neue Software einarbeiten.",
+      "completedSentence_ar": "يجب على منسقة النقل أولًا أن تتعلم استخدام البرنامج الجديد.",
+      "vocabularyRefs": [
+        "b2u04-v067"
+      ]
+    },
+    {
+      "id": "b2u04-e031",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Transportplanung",
+      "title_ar": "تخطيط النقل",
+      "prompt_de": "Eine optimale ______ der Lkw reduziert Leerfahrten.",
+      "prompt_ar": "يقلل الاستخدام الأمثل للشاحنات الرحلات الفارغة.",
+      "answer": "Auslastung",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Auslastung",
+        "die Auslastung"
+      ],
+      "completedSentence_de": "Eine optimale Auslastung der Lkw reduziert Leerfahrten.",
+      "completedSentence_ar": "يقلل الاستخدام الأمثل للشاحنات الرحلات الفارغة.",
+      "vocabularyRefs": [
+        "b2u04-v068"
+      ]
+    },
+    {
+      "id": "b2u04-e032",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Containerlogistik",
+      "title_ar": "لوجستيات الحاويات",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بالشروحات المناسبة.",
+      "answer": {
+        "das Containerschiff": "transportiert Container über das Meer",
+        "das Containerterminal": "schlägt Container im Hafen um",
+        "die Liegezeit": "Zeit eines Schiffes im Hafen",
+        "die Spedition": "organisiert Warentransporte"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "das Containerschiff",
+          "transportiert Container über das Meer"
+        ],
+        [
+          "das Containerterminal",
+          "schlägt Container im Hafen um"
+        ],
+        [
+          "die Liegezeit",
+          "Zeit eines Schiffes im Hafen"
+        ],
+        [
+          "die Spedition",
+          "organisiert Warentransporte"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v072",
+        "b2u04-v073",
+        "b2u04-v074",
+        "b2u04-v075"
+      ]
+    },
+    {
+      "id": "b2u04-e033",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Container-Revolution",
+      "title_ar": "ثورة الحاويات",
+      "prompt_de": "Warum verkürzte die Standardisierung der Container die Liegezeiten?",
+      "prompt_ar": "لماذا خفّض توحيد الحاويات مدة بقاء السفن في الموانئ؟",
+      "answer": "Weil Container schneller und einheitlich be- und entladen werden konnten.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Weil Container schneller und einheitlich be- und entladen werden konnten.",
+        "Weil Schiffe kleiner wurden.",
+        "Weil keine Waren mehr transportiert wurden.",
+        "Weil alle Häfen geschlossen wurden."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v071",
+        "b2u04-v074",
+        "b2u04-v077"
+      ]
+    },
+    {
+      "id": "b2u04-e034",
+      "unit": 4,
+      "type": "sentence_build",
+      "title_de": "Passiv in der Logistik",
+      "title_ar": "المبني للمجهول في اللوجستيات",
+      "prompt_de": "Formulieren Sie im Passiv: Die Spedition lädt den Container auf den Lkw.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: تحمّل شركة الشحن الحاوية على الشاحنة.",
+      "answer": "Der Container wird von der Spedition auf den Lkw geladen.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der Container wird von der Spedition auf den Lkw geladen."
+      ],
+      "grammarFocus": "Passiv Präsens",
+      "vocabularyRefs": [
+        "b2u04-v075"
+      ]
+    },
+    {
+      "id": "b2u04-e035",
+      "unit": 4,
+      "type": "scenario_choice",
+      "title_de": "Problem in der Logistik",
+      "title_ar": "مشكلة في اللوجستيات",
+      "prompt_de": "Der Lkw hat eine Panne und der Liefertermin kann nicht eingehalten werden. Was sollte zuerst passieren?",
+      "prompt_ar": "تعرضت الشاحنة لعطل ولا يمكن الالتزام بموعد التسليم. ما الخطوة الأولى؟",
+      "answer": "Kunden und Disposition informieren",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Kunden und Disposition informieren",
+        "Das Problem verschweigen",
+        "Die Rechnung sofort löschen",
+        "Die Ware ohne Information zurückschicken"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v079",
+        "b2u04-v080",
+        "b2u04-v065"
+      ]
+    },
+    {
+      "id": "b2u04-e036",
+      "unit": 4,
+      "type": "dialogue_choice",
+      "title_de": "Annahme verweigert",
+      "title_ar": "رفض الاستلام",
+      "prompt_de": "Der Kunde verweigert die Annahme der Lieferung. Welche Reaktion ist professionell?",
+      "prompt_ar": "رفض الزبون استلام الشحنة. أي رد مهني؟",
+      "answer": "Ich kläre den Grund, informiere die Spedition und schlage eine Lösung vor.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich kläre den Grund, informiere die Spedition und schlage eine Lösung vor.",
+        "Dann lassen wir die Ware einfach auf der Straße stehen.",
+        "Das ist nicht unser Problem.",
+        "Wir beenden das Gespräch sofort."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v078",
+        "b2u04-v075"
+      ]
+    },
+    {
+      "id": "b2u04-e037",
+      "unit": 4,
+      "type": "guided_writing",
+      "title_de": "Beschwerde wegen Containerlieferung",
+      "title_ar": "شكوى حول شحنة حاوية",
+      "prompt_de": "Schreiben Sie eine formelle E-Mail wegen einer verspäteten Containerlieferung.",
+      "prompt_ar": "اكتب رسالة رسمية بسبب تأخر شحنة حاوية.",
+      "answer": {
+        "requiredConcepts": [
+          "Auftrags- oder Containernummer",
+          "vereinbarter Liefertermin",
+          "Beschreibung der Verzögerung",
+          "Auswirkung auf den Betrieb",
+          "konkrete Lösung oder neuer Termin",
+          "höfliche Frist zur Rückmeldung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v080",
+        "b2u04-v075",
+        "b2u04-v073"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v055",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u04-e038",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Effektiv telefonieren",
+      "title_ar": "التواصل الهاتفي الفعال",
+      "prompt_de": "Welche Formulierung ist positiv und lösungsorientiert?",
+      "prompt_ar": "أي صياغة إيجابية وتركز على الحل؟",
+      "answer": "Ich prüfe sofort, welche Lösung wir Ihnen anbieten können.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich prüfe sofort, welche Lösung wir Ihnen anbieten können.",
+        "Da kann ich nichts machen.",
+        "Sie müssen einfach warten.",
+        "Das ist nicht mein Problem."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v081"
+      ]
+    },
+    {
+      "id": "b2u04-e039",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Telefonkommunikation",
+      "title_ar": "التواصل الهاتفي",
+      "prompt_de": "Ordnen Sie Verhalten und Wirkung zu.",
+      "prompt_ar": "صِل السلوك بأثره.",
+      "answer": {
+        "ruhige Sprachweise": "schafft Vertrauen",
+        "kurze klare Sätze": "erleichtern das Verstehen",
+        "konkrete Rückfrage": "klärt das Problem",
+        "leere Floskeln": "wirken oft wenig glaubwürdig"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "ruhige Sprachweise",
+          "schafft Vertrauen"
+        ],
+        [
+          "kurze klare Sätze",
+          "erleichtern das Verstehen"
+        ],
+        [
+          "konkrete Rückfrage",
+          "klärt das Problem"
+        ],
+        [
+          "leere Floskeln",
+          "wirken oft wenig glaubwürdig"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v082",
+        "b2u04-v083"
+      ]
+    },
+    {
+      "id": "b2u04-e040",
+      "unit": 4,
+      "type": "dialogue_choice",
+      "title_de": "Problem genauer beschreiben",
+      "title_ar": "وصف المشكلة بدقة",
+      "prompt_de": "Welche Rückfrage hilft bei der Problemlösung?",
+      "prompt_ar": "أي سؤال يساعد في حل المشكلة؟",
+      "answer": "Können Sie bitte genauer beschreiben, was am Fahrzeug nicht funktioniert?",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Können Sie bitte genauer beschreiben, was am Fahrzeug nicht funktioniert?",
+        "Warum rufen Sie mich überhaupt an?",
+        "Ist das wirklich so schlimm?",
+        "Warten Sie einfach."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v079",
+        "b2u04-v081"
+      ]
+    },
+    {
+      "id": "b2u04-e041",
+      "unit": 4,
+      "type": "email_order",
+      "title_de": "Antwort auf eine Reklamation",
+      "title_ar": "الرد على شكوى",
+      "prompt_de": "Ordnen Sie die Teile einer professionellen Antwort.",
+      "prompt_ar": "رتّب أجزاء الرد المهني على الشكوى.",
+      "answer": [
+        "anrede",
+        "entschuldigung",
+        "problem",
+        "lösung",
+        "rückmeldung",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "lösung",
+          "text": "Wir haben eine Ersatzlieferung für morgen organisiert."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Frau Klein,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "problem",
+          "text": "Nach unserer Prüfung wurde ein Teil Ihrer Bestellung falsch geliefert."
+        },
+        {
+          "id": "entschuldigung",
+          "text": "Wir entschuldigen uns für die entstandenen Unannehmlichkeiten."
+        },
+        {
+          "id": "rückmeldung",
+          "text": "Bitte bestätigen Sie uns kurz, ob der Termin für Sie passt."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u04-v085"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v053",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u04-e042",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Telefonnotiz",
+      "title_ar": "المذكرة الهاتفية",
+      "prompt_de": "Welche Angaben gehören in eine Telefonnotiz?",
+      "prompt_ar": "ما المعلومات التي يجب أن تتضمنها المذكرة الهاتفية؟",
+      "answer": "Name, Telefonnummer, Anliegen und zu erledigende Aufgabe",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Name, Telefonnummer, Anliegen und zu erledigende Aufgabe",
+        "nur der Vorname",
+        "private Meinung des Mitarbeiters",
+        "eine vollständige Abschrift jedes Satzes"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v093",
+        "b2u04-v094"
+      ]
+    },
+    {
+      "id": "b2u04-e043",
+      "unit": 4,
+      "type": "guided_writing",
+      "title_de": "Telefonnotiz erstellen",
+      "title_ar": "إعداد مذكرة هاتفية",
+      "prompt_de": "Dokumentieren Sie einen Rückrufwunsch in Stichpunkten.",
+      "prompt_ar": "وثّق طلب معاودة اتصال باستخدام نقاط مختصرة.",
+      "answer": {
+        "callData": {
+          "name": "Frau Hassel",
+          "company": "Firma Stiehl",
+          "phone": "89066553",
+          "topic": "Umbuchung einer Hin- und Rückfahrt",
+          "action": "Rückruf und neue Verbindung bestätigen"
+        },
+        "requiredConcepts": [
+          "Name und Firma",
+          "Telefonnummer",
+          "Anliegen",
+          "wichtige Reisedaten",
+          "zu erledigende Aufgabe"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v093",
+        "b2u04-v023",
+        "b2u04-v094"
+      ]
+    },
+    {
+      "id": "b2u04-e044",
+      "unit": 4,
+      "type": "multiple_choice",
+      "title_de": "Lohn verstehen",
+      "title_ar": "فهم الأجر",
+      "prompt_de": "Was ist der Unterschied zwischen Brutto- und Nettolohn?",
+      "prompt_ar": "ما الفرق بين الأجر الإجمالي والصافي؟",
+      "answer": "Brutto ist vor, netto nach den Abzügen.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Brutto ist vor, netto nach den Abzügen.",
+        "Netto ist immer höher als brutto.",
+        "Beide Begriffe bedeuten genau dasselbe.",
+        "Brutto gilt nur bei Minijobs."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v087",
+        "b2u04-v088"
+      ]
+    },
+    {
+      "id": "b2u04-e045",
+      "unit": 4,
+      "type": "fill_blank",
+      "title_de": "Arbeitsvertrag",
+      "title_ar": "عقد العمل",
+      "prompt_de": "Wegen der guten ______ sucht das Unternehmen weitere Mitarbeitende.",
+      "prompt_ar": "بسبب قوة ______ تبحث الشركة عن موظفين إضافيين.",
+      "answer": "Auftragslage",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Auftragslage",
+        "der Auftragslage"
+      ],
+      "completedSentence_de": "Wegen der guten Auftragslage sucht das Unternehmen weitere Mitarbeitende.",
+      "completedSentence_ar": "تبحث الشركة عن موظفين إضافيين بسبب كثرة الطلبات.",
+      "vocabularyRefs": [
+        "b2u04-v089"
+      ]
+    },
+    {
+      "id": "b2u04-e046",
+      "unit": 4,
+      "type": "dialogue_choice",
+      "title_de": "Verhandlung eröffnen",
+      "title_ar": "بدء التفاوض",
+      "prompt_de": "Welche Formulierung eröffnet ein Gespräch über Arbeitsbedingungen professionell?",
+      "prompt_ar": "أي صياغة تبدأ نقاشًا مهنيًا حول شروط العمل؟",
+      "answer": "Ich möchte gern über meine zukünftige Arbeitszeit und die Vertragsdauer sprechen.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich möchte gern über meine zukünftige Arbeitszeit und die Vertragsdauer sprechen.",
+        "Ich nehme nur meine Bedingungen an.",
+        "Entweder bekomme ich alles oder ich gehe.",
+        "Darüber brauchen wir nicht zu reden."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v086",
+        "b2u04-v050"
+      ]
+    },
+    {
+      "id": "b2u04-e047",
+      "unit": 4,
+      "type": "dialogue_choice",
+      "title_de": "Kompromiss finden",
+      "title_ar": "الوصول إلى حل وسط",
+      "prompt_de": "Der Mitarbeiter möchte Vollzeit, der Betrieb kann zunächst nur Teilzeit anbieten. Welche Lösung ist ein Kompromiss?",
+      "prompt_ar": "يريد الموظف دوامًا كاملًا، لكن الشركة لا تستطيع حاليًا إلا دوامًا جزئيًا. ما الحل الوسط؟",
+      "answer": "Ein befristeter Teilzeitvertrag mit späterer Prüfung einer Vollzeitstelle.",
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ein befristeter Teilzeitvertrag mit späterer Prüfung einer Vollzeitstelle.",
+        "Das Gespräch sofort beenden.",
+        "Ohne Vertrag arbeiten.",
+        "Den Lohn nicht schriftlich festhalten."
+      ],
+      "vocabularyRefs": [
+        "b2u04-v050"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v044",
+        "b2u02-v045",
+        "b2u02-v050"
+      ]
+    },
+    {
+      "id": "b2u04-e048",
+      "unit": 4,
+      "type": "matching",
+      "title_de": "Kommunikationsverhalten",
+      "title_ar": "أسلوب التواصل",
+      "prompt_de": "Ordnen Sie die Begriffe den Beschreibungen zu.",
+      "prompt_ar": "صِل المصطلحات بالأوصاف.",
+      "answer": {
+        "die Direktheit": "klar und ohne lange Umwege sprechen",
+        "zum Punkt kommen": "das Wesentliche direkt ansprechen",
+        "im Auge behalten": "etwas weiter aufmerksam beobachten",
+        "der Kompromiss": "eine für beide Seiten akzeptable Lösung"
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Direktheit",
+          "klar und ohne lange Umwege sprechen"
+        ],
+        [
+          "zum Punkt kommen",
+          "das Wesentliche direkt ansprechen"
+        ],
+        [
+          "im Auge behalten",
+          "etwas weiter aufmerksam beobachten"
+        ],
+        [
+          "der Kompromiss",
+          "eine für beide Seiten akzeptable Lösung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v090",
+        "b2u04-v091",
+        "b2u04-v092"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v050"
+      ]
+    },
+    {
+      "id": "b2u04-e049",
+      "unit": 4,
+      "type": "guided_speaking",
+      "title_de": "Arbeitsbedingungen aushandeln",
+      "title_ar": "التفاوض حول شروط العمل",
+      "prompt_de": "Führen Sie ein Gespräch zwischen Mitarbeiter/in und Abteilungsleiter/in.",
+      "prompt_ar": "أجرِ حوارًا بين موظف ومدير قسم حول شروط العمل.",
+      "answer": {
+        "requiredConcepts": [
+          "eigene Prioritäten nennen",
+          "Arbeitszeit und Vertragsdauer ansprechen",
+          "nach Brutto- oder Nettolohn fragen",
+          "Argumente sachlich begründen",
+          "Alternativvorschlag machen",
+          "Kompromiss zusammenfassen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v086",
+        "b2u04-v087",
+        "b2u04-v088"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v050",
+        "b2u03-v054",
+        "b2u03-v055"
+      ]
+    },
+    {
+      "id": "b2u04-e050",
+      "unit": 4,
+      "type": "email_order",
+      "title_de": "Gespräch zusammenfassen",
+      "title_ar": "تلخيص الاتفاق عبر البريد",
+      "prompt_de": "Ordnen Sie die E-Mail zur Bestätigung eines Mitarbeitergesprächs.",
+      "prompt_ar": "رتّب رسالة تأكيد ما تم الاتفاق عليه في مقابلة الموظف.",
+      "answer": [
+        "anrede",
+        "bezug",
+        "punkt_1",
+        "punkt_2",
+        "punkt_3",
+        "bitte",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_04_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "punkt_2",
+          "text": "Zweitens bieten Sie mir einen unbefristeten Vertrag an."
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "bitte",
+          "text": "Bitte bestätigen Sie mir kurz, ob ich alles richtig zusammengefasst habe."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrter Herr Borsig,"
+        },
+        {
+          "id": "punkt_1",
+          "text": "Erstens werde ich meine Weiterbildung fortsetzen."
+        },
+        {
+          "id": "bezug",
+          "text": "vielen Dank für unser heutiges Gespräch."
+        },
+        {
+          "id": "punkt_3",
+          "text": "Drittens prüfen wir in drei Monaten eine Erhöhung der Arbeitszeit."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u04-v051"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v047",
+        "b2u01-v059"
+      ]
+    }
+  ]
+}

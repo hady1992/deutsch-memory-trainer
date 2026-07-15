@@ -1,0 +1,3528 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 7,
+    "unitTitle_de": "Berufe im Gesundheitswesen",
+    "unitTitle_ar": "المهن في قطاع الرعاية الصحية",
+    "sourcePages": [
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Gesundheit, Prävention und Gesundheitsangebote",
+      "Berufe im Gesundheitswesen",
+      "ambulante und stationäre Pflege",
+      "Pflegehandlungen, Übergabe und Pflegebericht",
+      "Infinitiv mit zu",
+      "Ausdrücke mit es",
+      "Stress, Vereinfachung und Work-Life-Balance",
+      "Meinungen, Lösungsvorschläge und Leserbrief"
+    ],
+    "excluded": [
+      "sehr einfache Körperteile und Medikamente ohne eigenständigen B2-Lernwert",
+      "reine Lehrbuchanweisungen",
+      "Personen- und Firmennamen",
+      "identische Begriffe aus Kapitel 1–6",
+      "medizinische Detailinformationen, die über den Lerntext hinausgehen"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u01-v041",
+      "term": "sich kümmern um",
+      "pages": [
+        120,
+        122,
+        127
+      ],
+      "reason": "العناية بالصحة والمرضى وردت سابقًا بنفس الهوية."
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        131
+      ],
+      "reason": "ختام رسالة القارئ الرسمية."
+    },
+    {
+      "courseItemId": "b2u02-v023",
+      "term": "der Dienstplan",
+      "pages": [
+        121,
+        130,
+        131
+      ],
+      "reason": "خطة المناوبات والعمل في الرعاية."
+    },
+    {
+      "courseItemId": "b2u02-v026",
+      "term": "die Vertretung",
+      "pages": [
+        122,
+        128
+      ],
+      "reason": "تنظيم بديل عند غياب موظف الرعاية."
+    },
+    {
+      "courseItemId": "b2u02-v044",
+      "term": "die Teilzeitbeschäftigung",
+      "pages": [
+        131
+      ],
+      "reason": "شكل عمل مرتبط بالتوازن بين العمل والحياة."
+    },
+    {
+      "courseItemId": "b2u02-v045",
+      "term": "die Vollzeitbeschäftigung",
+      "pages": [
+        131
+      ],
+      "reason": "شكل عمل مرتبط بضغط العمل."
+    },
+    {
+      "courseItemId": "b2u02-v050",
+      "term": "der Kompromiss",
+      "pages": [
+        120,
+        125
+      ],
+      "reason": "حل وسط في النقاش حول الصحة وتنظيم العمل."
+    },
+    {
+      "courseItemId": "b2u03-v001",
+      "term": "die Teamarbeit",
+      "pages": [
+        122,
+        127
+      ],
+      "reason": "التنسيق داخل فريق الرعاية."
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "term": "die Zusammenarbeit",
+      "pages": [
+        121,
+        122,
+        128
+      ],
+      "reason": "التعاون بين الرعاية والأطباء والأقارب."
+    },
+    {
+      "courseItemId": "b2u03-v016",
+      "term": "die Abteilung",
+      "pages": [
+        121
+      ],
+      "reason": "الأقسام السريرية في المستشفى."
+    },
+    {
+      "courseItemId": "b2u03-v067",
+      "term": "eine Aufgabe bewältigen",
+      "pages": [
+        122,
+        125
+      ],
+      "reason": "التعامل مع المهام والضغط المهني."
+    },
+    {
+      "courseItemId": "b2u04-v049",
+      "term": "die Arbeitsbedingung",
+      "pages": [
+        130,
+        131
+      ],
+      "reason": "شروط العمل وتأثيرها في الصحة."
+    },
+    {
+      "courseItemId": "b2u05-v033",
+      "term": "der Lösungsvorschlag",
+      "pages": [
+        122,
+        125,
+        132
+      ],
+      "reason": "اقتراح حلول لمشكلات سير العمل."
+    },
+    {
+      "courseItemId": "b2u05-v039",
+      "term": "die Herausforderung",
+      "pages": [
+        121,
+        128
+      ],
+      "reason": "تحديات العمل في الرعاية."
+    },
+    {
+      "courseItemId": "b2u06-v070",
+      "term": "die Weiterbildung",
+      "pages": [
+        121,
+        128
+      ],
+      "reason": "التطور والتخصص المهني في قطاع الصحة."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u07-v001",
+      "identity": "das gesundheitswesen",
+      "term": "das Gesundheitswesen",
+      "type": "noun",
+      "arabic": "نظام الرعاية الصحية",
+      "explanation_de": "Die Gesamtheit aller Einrichtungen, Berufe und Leistungen zur Vorbeugung und Behandlung von Krankheiten.",
+      "explanation_ar": "جميع المؤسسات والمهن والخدمات المسؤولة عن الوقاية والعلاج والرعاية.",
+      "examples": [
+        {
+          "de": "Im Gesundheitswesen arbeiten viele unterschiedliche Berufsgruppen.",
+          "ar": "تعمل مجموعات مهنية مختلفة في نظام الرعاية الصحية."
+        },
+        {
+          "de": "Der Fachkräftebedarf im Gesundheitswesen steigt.",
+          "ar": "تزداد الحاجة إلى العمال المهرة في قطاع الصحة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          126,
+          132
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "arbeitswelt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v002",
+      "identity": "die körperliche gesundheit",
+      "term": "die körperliche Gesundheit",
+      "type": "noun_phrase",
+      "arabic": "الصحة الجسدية",
+      "explanation_de": "Der Zustand des Körpers und seiner körperlichen Funktionen.",
+      "explanation_ar": "حالة الجسم وقدرته على أداء وظائفه من دون مشكلات كبيرة.",
+      "examples": [
+        {
+          "de": "Regelmäßige Bewegung stärkt die körperliche Gesundheit.",
+          "ar": "تقوي الحركة المنتظمة الصحة الجسدية."
+        },
+        {
+          "de": "Schichtarbeit kann die körperliche Gesundheit belasten.",
+          "ar": "قد يرهق العمل بنظام المناوبات الصحة الجسدية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          120,
+          124,
+          127
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "gesundheit",
+        "körper"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v003",
+      "identity": "die seelische gesundheit",
+      "term": "die seelische Gesundheit",
+      "type": "noun_phrase",
+      "arabic": "الصحة النفسية",
+      "explanation_de": "Das psychische Wohlbefinden und die Fähigkeit, mit Belastungen umzugehen.",
+      "explanation_ar": "الاستقرار النفسي والقدرة على التعامل مع الضغوط.",
+      "examples": [
+        {
+          "de": "Pausen und soziale Kontakte unterstützen die seelische Gesundheit.",
+          "ar": "تدعم الاستراحات والعلاقات الاجتماعية الصحة النفسية."
+        },
+        {
+          "de": "Dauerhafter Stress kann die seelische Gesundheit beeinträchtigen.",
+          "ar": "قد يؤثر الضغط المستمر سلبًا في الصحة النفسية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          120,
+          124,
+          127
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "gesundheit",
+        "psyche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v004",
+      "identity": "das wohlbefinden",
+      "term": "das Wohlbefinden",
+      "type": "noun",
+      "arabic": "الشعور بالعافية والراحة",
+      "explanation_de": "Ein Zustand, in dem man sich körperlich und seelisch gut fühlt.",
+      "explanation_ar": "حالة يشعر فيها الشخص بالراحة جسديًا ونفسيًا.",
+      "examples": [
+        {
+          "de": "Ausreichender Schlaf verbessert das Wohlbefinden.",
+          "ar": "يحسن النوم الكافي الشعور بالعافية."
+        },
+        {
+          "de": "Eine gute Work-Life-Balance trägt zum Wohlbefinden bei.",
+          "ar": "يساهم التوازن بين العمل والحياة في الشعور بالراحة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          120,
+          130,
+          131
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "gesundheit",
+        "leben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v005",
+      "identity": "die gesundheitsvorsorge",
+      "term": "die Gesundheitsvorsorge",
+      "type": "noun",
+      "arabic": "الوقاية الصحية",
+      "explanation_de": "Maßnahmen, mit denen Krankheiten verhindert oder früh erkannt werden sollen.",
+      "explanation_ar": "إجراءات تهدف إلى منع المرض أو اكتشافه في مرحلة مبكرة.",
+      "examples": [
+        {
+          "de": "Zur Gesundheitsvorsorge gehören Impfungen und Untersuchungen.",
+          "ar": "تشمل الوقاية الصحية اللقاحات والفحوص."
+        },
+        {
+          "de": "Der Betrieb informiert seine Beschäftigten über Gesundheitsvorsorge.",
+          "ar": "تعرّف الشركة موظفيها بإجراءات الوقاية الصحية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127
+        ],
+        "section": "Prävention"
+      },
+      "tags": [
+        "gesundheit",
+        "vorsorge"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v006",
+      "identity": "die vorsorgeuntersuchung",
+      "term": "die Vorsorgeuntersuchung",
+      "type": "noun",
+      "arabic": "فحص وقائي دوري",
+      "explanation_de": "Eine medizinische Untersuchung zur Früherkennung möglicher Erkrankungen.",
+      "explanation_ar": "فحص طبي دوري للكشف المبكر عن الأمراض المحتملة.",
+      "examples": [
+        {
+          "de": "Regelmäßige Vorsorgeuntersuchungen können Krankheiten früh erkennen.",
+          "ar": "قد تكشف الفحوص الوقائية الأمراض مبكرًا."
+        },
+        {
+          "de": "Die Krankenkasse erinnert an die nächste Vorsorgeuntersuchung.",
+          "ar": "تذكّر شركة التأمين بموعد الفحص الوقائي القادم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vorsorgeuntersuchungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127,
+          132
+        ],
+        "section": "Prävention"
+      },
+      "tags": [
+        "gesundheit",
+        "untersuchung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v007",
+      "identity": "die früherkennung",
+      "term": "die Früherkennung",
+      "type": "noun",
+      "arabic": "الكشف المبكر",
+      "explanation_de": "Das Erkennen einer Krankheit in einem frühen Stadium, bevor starke Beschwerden auftreten.",
+      "explanation_ar": "اكتشاف المرض مبكرًا قبل ظهور أعراض قوية.",
+      "examples": [
+        {
+          "de": "Früherkennung verbessert bei vielen Krankheiten die Behandlungschancen.",
+          "ar": "يحسن الكشف المبكر فرص العلاج في أمراض كثيرة."
+        },
+        {
+          "de": "Die Kampagne wirbt für Früherkennung und Vorsorge.",
+          "ar": "تدعو الحملة إلى الكشف المبكر والوقاية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127
+        ],
+        "section": "Prävention"
+      },
+      "tags": [
+        "gesundheit",
+        "diagnostik"
+      ],
+      "globalRef": "nouns:noun_0248",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v008",
+      "identity": "die schutzimpfung",
+      "term": "die Schutzimpfung",
+      "type": "noun",
+      "arabic": "لقاح وقائي",
+      "explanation_de": "Eine Impfung, die vor einer bestimmten Infektionskrankheit schützen soll.",
+      "explanation_ar": "تطعيم يهدف إلى الحماية من مرض معدٍ محدد.",
+      "examples": [
+        {
+          "de": "Die Schutzimpfung wird für bestimmte Risikogruppen empfohlen.",
+          "ar": "يُنصح باللقاح الوقائي لفئات خطر معينة."
+        },
+        {
+          "de": "Vor der Impfung erklärt die Ärztin mögliche Reaktionen.",
+          "ar": "تشرح الطبيبة التفاعلات المحتملة قبل التطعيم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schutzimpfungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127,
+          132
+        ],
+        "section": "Prävention"
+      },
+      "tags": [
+        "gesundheit",
+        "impfung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v009",
+      "identity": "die krankenkasse",
+      "term": "die Krankenkasse",
+      "type": "noun",
+      "arabic": "شركة التأمين الصحي",
+      "explanation_de": "Eine Institution, die die gesetzlich oder privat vereinbarten Kosten medizinischer Leistungen übernimmt.",
+      "explanation_ar": "جهة تأمين تتحمل تكاليف الخدمات الطبية وفق النظام أو العقد.",
+      "examples": [
+        {
+          "de": "Die Krankenkasse übernimmt die Kosten des Rückentrainings.",
+          "ar": "تتحمل شركة التأمين تكاليف تدريب الظهر."
+        },
+        {
+          "de": "Vor der Behandlung sollte man die Kostenübernahme klären.",
+          "ar": "ينبغي توضيح تحمل التكاليف قبل العلاج."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Krankenkassen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127
+        ],
+        "section": "Prävention"
+      },
+      "tags": [
+        "gesundheit",
+        "versicherung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v010",
+      "identity": "das rückentraining",
+      "term": "das Rückentraining",
+      "type": "noun",
+      "arabic": "تمارين تقوية الظهر",
+      "explanation_de": "Gezielte Übungen zur Kräftigung und Entlastung der Rücken- und Rumpfmuskulatur.",
+      "explanation_ar": "تمارين مخصصة لتقوية عضلات الظهر والجذع وتخفيف الألم.",
+      "examples": [
+        {
+          "de": "Das Rückentraining hilft bei beruflich bedingten Rückenschmerzen.",
+          "ar": "يساعد تدريب الظهر في آلام الظهر المرتبطة بالعمل."
+        },
+        {
+          "de": "Die Übungen müssen regelmäßig und korrekt ausgeführt werden.",
+          "ar": "يجب تنفيذ التمارين بانتظام وبصورة صحيحة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127
+        ],
+        "section": "Gesundheitsangebote"
+      },
+      "tags": [
+        "gesundheit",
+        "bewegung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v011",
+      "identity": "die entspannungsübung",
+      "term": "die Entspannungsübung",
+      "type": "noun",
+      "arabic": "تمرين استرخاء",
+      "explanation_de": "Eine Übung, die körperliche und mentale Anspannung reduzieren soll.",
+      "explanation_ar": "تمرين يخفف التوتر الجسدي والنفسي.",
+      "examples": [
+        {
+          "de": "Kurze Entspannungsübungen lassen sich in den Arbeitsalltag integrieren.",
+          "ar": "يمكن دمج تمارين استرخاء قصيرة في يوم العمل."
+        },
+        {
+          "de": "Nach der Übung fühlt sie sich ruhiger und konzentrierter.",
+          "ar": "تشعر بالهدوء والتركيز بعد التمرين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Entspannungsübungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          127
+        ],
+        "section": "Gesundheitsangebote"
+      },
+      "tags": [
+        "gesundheit",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v012",
+      "identity": "die progressive muskelentspannung",
+      "term": "die progressive Muskelentspannung",
+      "type": "noun_phrase",
+      "arabic": "الاسترخاء العضلي التدريجي",
+      "explanation_de": "Eine Methode, bei der Muskelgruppen nacheinander angespannt und wieder entspannt werden.",
+      "explanation_ar": "طريقة تُشد فيها مجموعات عضلية بالتتابع ثم تُرخى.",
+      "examples": [
+        {
+          "de": "Progressive Muskelentspannung kann bei Stress und Schlafproblemen helfen.",
+          "ar": "قد يساعد الاسترخاء العضلي التدريجي في الضغط ومشكلات النوم."
+        },
+        {
+          "de": "Der Kurs vermittelt die Methode Schritt für Schritt.",
+          "ar": "تشرح الدورة الطريقة خطوة بخطوة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120
+        ],
+        "section": "Gesundheitsangebote"
+      },
+      "tags": [
+        "gesundheit",
+        "entspannung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v013",
+      "identity": "die work-life-balance",
+      "term": "die Work-Life-Balance",
+      "type": "noun",
+      "arabic": "التوازن بين العمل والحياة",
+      "explanation_de": "Ein ausgewogenes Verhältnis zwischen beruflichen Anforderungen und Privatleben.",
+      "explanation_ar": "توازن مناسب بين متطلبات العمل والحياة الخاصة.",
+      "examples": [
+        {
+          "de": "Flexible Arbeitszeiten können die Work-Life-Balance verbessern.",
+          "ar": "قد تحسن ساعات العمل المرنة التوازن بين العمل والحياة."
+        },
+        {
+          "de": "Ständige Erreichbarkeit gefährdet die Work-Life-Balance.",
+          "ar": "يهدد التوفر الدائم التوازن بين العمل والحياة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          130,
+          131
+        ],
+        "section": "Arbeitsleben"
+      },
+      "tags": [
+        "arbeit",
+        "gesundheit"
+      ],
+      "globalRef": "nouns:noun_0286",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v014",
+      "identity": "die ständige erreichbarkeit",
+      "term": "die ständige Erreichbarkeit",
+      "type": "noun_phrase",
+      "arabic": "التوفر الدائم للعمل",
+      "explanation_de": "Die Erwartung, auch außerhalb der Arbeitszeit jederzeit erreichbar zu sein.",
+      "explanation_ar": "توقع أن يبقى الموظف متاحًا للاتصال حتى خارج وقت العمل.",
+      "examples": [
+        {
+          "de": "Ständige Erreichbarkeit kann zu psychischer Belastung führen.",
+          "ar": "قد يؤدي التوفر الدائم إلى ضغط نفسي."
+        },
+        {
+          "de": "Klare Regeln schützen Beschäftigte vor ständiger Erreichbarkeit.",
+          "ar": "تحمي القواعد الواضحة الموظفين من التوفر الدائم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          131
+        ],
+        "section": "Arbeitsleben"
+      },
+      "tags": [
+        "arbeit",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v015",
+      "identity": "die überlastung",
+      "term": "die Überlastung",
+      "type": "noun",
+      "arabic": "الإرهاق الزائد",
+      "explanation_de": "Ein Zustand, in dem Anforderungen dauerhaft größer sind als die verfügbaren Kräfte und Ressourcen.",
+      "explanation_ar": "حالة تفوق فيها المتطلبات قدرة الشخص وموارده لمدة طويلة.",
+      "examples": [
+        {
+          "de": "Personalmangel führt im Pflegebereich häufig zu Überlastung.",
+          "ar": "يؤدي نقص الموظفين في الرعاية غالبًا إلى إرهاق زائد."
+        },
+        {
+          "de": "Frühe Gespräche können eine dauerhafte Überlastung verhindern.",
+          "ar": "قد تمنع المحادثات المبكرة الإرهاق المستمر."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Überlastungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          130,
+          131
+        ],
+        "section": "Arbeitsleben"
+      },
+      "tags": [
+        "arbeit",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v016",
+      "identity": "die vereinbarkeit von beruf und privatleben",
+      "term": "die Vereinbarkeit von Beruf und Privatleben",
+      "type": "noun_phrase",
+      "arabic": "التوفيق بين العمل والحياة الخاصة",
+      "explanation_de": "Die Möglichkeit, berufliche Pflichten mit persönlichen und familiären Bedürfnissen zu verbinden.",
+      "explanation_ar": "إمكانية الجمع بين واجبات العمل والحاجات الشخصية والعائلية.",
+      "examples": [
+        {
+          "de": "Homeoffice kann die Vereinbarkeit von Beruf und Privatleben erleichtern.",
+          "ar": "قد يسهل العمل من المنزل التوفيق بين العمل والحياة."
+        },
+        {
+          "de": "Schichtarbeit stellt die Vereinbarkeit oft auf die Probe.",
+          "ar": "يختبر العمل بالمناوبات القدرة على التوفيق بين العمل والحياة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          130,
+          131
+        ],
+        "section": "Arbeitsleben"
+      },
+      "tags": [
+        "arbeit",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v017",
+      "identity": "auf die eigene gesundheit achten",
+      "term": "auf die eigene Gesundheit achten",
+      "type": "phrase",
+      "arabic": "يهتم بصحته",
+      "explanation_de": "Gesundheitsrisiken wahrnehmen und bewusst gesundheitsfördernd handeln.",
+      "explanation_ar": "ملاحظة المخاطر واتخاذ قرارات تدعم الصحة.",
+      "examples": [
+        {
+          "de": "Pflegekräfte müssen trotz Zeitdruck auf die eigene Gesundheit achten.",
+          "ar": "يجب على العاملين في الرعاية الاهتمام بصحتهم رغم ضغط الوقت."
+        },
+        {
+          "de": "Wer auf seine Gesundheit achtet, plant Pausen und Bewegung ein.",
+          "ar": "من يهتم بصحته يخطط للاستراحات والحركة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          120,
+          127
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "phrase",
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v018",
+      "identity": "sich etwas gönnen",
+      "term": "sich etwas gönnen",
+      "type": "phrase",
+      "arabic": "يمنح نفسه شيئًا مريحًا أو ممتعًا",
+      "explanation_de": "Sich bewusst etwas Angenehmes erlauben, um sich zu erholen oder zu belohnen.",
+      "explanation_ar": "السماح للنفس بشيء ممتع أو مريح بهدف الاستراحة.",
+      "examples": [
+        {
+          "de": "Nach einer anstrengenden Woche gönnt sie sich einen freien Abend.",
+          "ar": "تمنح نفسها أمسية حرة بعد أسبوع متعب."
+        },
+        {
+          "de": "Man sollte sich gelegentlich Ruhe und etwas Schönes gönnen.",
+          "ar": "ينبغي أن يمنح الشخص نفسه الراحة وشيئًا جميلًا أحيانًا."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "gönnte sich",
+        "perfekt": "hat sich gegönnt"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          127,
+          124
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "phrase",
+        "erholung"
+      ],
+      "globalRef": "phrases:phrase_0139",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v019",
+      "identity": "unter stress stehen",
+      "term": "unter Stress stehen",
+      "type": "phrase",
+      "arabic": "يكون تحت ضغط",
+      "explanation_de": "Sich wegen hoher Anforderungen oder Zeitdruck stark belastet fühlen.",
+      "explanation_ar": "الشعور بضغط شديد بسبب كثرة المتطلبات أو ضيق الوقت.",
+      "examples": [
+        {
+          "de": "In der Notaufnahme stehen Beschäftigte häufig unter Stress.",
+          "ar": "يكون العاملون في الطوارئ تحت ضغط كثيرًا."
+        },
+        {
+          "de": "Wer dauerhaft unter Stress steht, braucht wirksame Erholungsphasen.",
+          "ar": "من يعيش تحت ضغط دائم يحتاج إلى فترات استراحة فعالة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          125,
+          130
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "phrase",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v020",
+      "identity": "zur ruhe kommen",
+      "term": "zur Ruhe kommen",
+      "type": "phrase",
+      "arabic": "يهدأ ويستعيد راحته",
+      "explanation_de": "Nach Anspannung körperlich und mental wieder ruhig werden.",
+      "explanation_ar": "استعادة الهدوء الجسدي والنفسي بعد التوتر.",
+      "examples": [
+        {
+          "de": "Nach der Spätschicht fällt es ihr schwer, zur Ruhe zu kommen.",
+          "ar": "يصعب عليها أن تهدأ بعد المناوبة المسائية."
+        },
+        {
+          "de": "Atemübungen helfen, schneller zur Ruhe zu kommen.",
+          "ar": "تساعد تمارين التنفس على الهدوء بسرعة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "kam zur Ruhe",
+        "perfekt": "ist zur Ruhe gekommen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          124,
+          128
+        ],
+        "section": "Gesundheit"
+      },
+      "tags": [
+        "phrase",
+        "entspannung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v021",
+      "identity": "der gesundheitsberuf",
+      "term": "der Gesundheitsberuf",
+      "type": "noun",
+      "arabic": "مهنة صحية",
+      "explanation_de": "Ein Beruf, der der Vorbeugung, Diagnose, Behandlung, Pflege oder Rehabilitation dient.",
+      "explanation_ar": "مهنة تتعلق بالوقاية أو التشخيص أو العلاج أو الرعاية أو التأهيل.",
+      "examples": [
+        {
+          "de": "Gesundheitsberufe verlangen fachliche und soziale Kompetenzen.",
+          "ar": "تتطلب المهن الصحية كفاءات تخصصية واجتماعية."
+        },
+        {
+          "de": "Viele Gesundheitsberufe bieten gute Beschäftigungschancen.",
+          "ar": "توفر مهن صحية كثيرة فرص عمل جيدة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gesundheitsberufe"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          119,
+          126,
+          132
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v022",
+      "identity": "der krankenpfleger / die krankenpflegerin",
+      "term": "der Krankenpfleger / die Krankenpflegerin",
+      "type": "noun",
+      "arabic": "ممرض / ممرضة",
+      "explanation_de": "Eine Pflegefachperson, die Patientinnen und Patienten versorgt, beobachtet und medizinische Maßnahmen unterstützt.",
+      "explanation_ar": "مختص رعاية يتابع المرضى ويقدم العناية ويدعم الإجراءات الطبية.",
+      "examples": [
+        {
+          "de": "Die Krankenpflegerin bereitet den Patienten auf die Operation vor.",
+          "ar": "تجهز الممرضة المريض للعملية."
+        },
+        {
+          "de": "Krankenpfleger dokumentieren Veränderungen des Gesundheitszustands.",
+          "ar": "يوثق الممرضون تغيرات الحالة الصحية."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Krankenpfleger / die Krankenpflegerinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v023",
+      "identity": "der ambulante pflegedienst",
+      "term": "der ambulante Pflegedienst",
+      "type": "noun_phrase",
+      "arabic": "خدمة رعاية منزلية متنقلة",
+      "explanation_de": "Ein Pflegedienst, der Menschen in ihrer Wohnung besucht und dort versorgt.",
+      "explanation_ar": "خدمة تزور المرضى في منازلهم وتقدم الرعاية هناك.",
+      "examples": [
+        {
+          "de": "Der ambulante Pflegedienst plant für jede Pflegekraft eine feste Tour.",
+          "ar": "تخطط خدمة الرعاية المنزلية جولة ثابتة لكل موظف."
+        },
+        {
+          "de": "Angehörige stimmen wichtige Termine mit dem Pflegedienst ab.",
+          "ar": "ينسق الأقارب المواعيد المهمة مع خدمة الرعاية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die ambulanten Pflegedienste"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122,
+          128,
+          129
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "ambulant"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v024",
+      "identity": "der ambulante bereich",
+      "term": "der ambulante Bereich",
+      "type": "noun_phrase",
+      "arabic": "مجال الرعاية الخارجية",
+      "explanation_de": "Der Bereich der Versorgung, in dem Patientinnen und Patienten nicht dauerhaft in einer Einrichtung bleiben.",
+      "explanation_ar": "مجال تُقدم فيه الرعاية من دون إقامة المريض الدائمة في المستشفى.",
+      "examples": [
+        {
+          "de": "Im ambulanten Bereich betreut die Pflegekraft Menschen zu Hause.",
+          "ar": "ترعى الممرضة أشخاصًا في المنزل في المجال الخارجي."
+        },
+        {
+          "de": "Die Arbeit im ambulanten Bereich erfordert gute Zeitplanung.",
+          "ar": "يتطلب العمل في الرعاية الخارجية تخطيطًا جيدًا للوقت."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "ambulant"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v025",
+      "identity": "der stationäre bereich",
+      "term": "der stationäre Bereich",
+      "type": "noun_phrase",
+      "arabic": "مجال الرعاية الداخلية",
+      "explanation_de": "Die Versorgung in einer Einrichtung, in der Patientinnen und Patienten aufgenommen bleiben.",
+      "explanation_ar": "الرعاية داخل مؤسسة يقيم فيها المرضى مثل المستشفى.",
+      "examples": [
+        {
+          "de": "Im stationären Bereich finden Übergaben zwischen den Schichten statt.",
+          "ar": "تجري عمليات تسليم بين المناوبات في الرعاية الداخلية."
+        },
+        {
+          "de": "Akute Fälle werden häufig stationär behandelt.",
+          "ar": "تُعالج الحالات الحادة غالبًا داخل المستشفى."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "stationär"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v026",
+      "identity": "die akutversorgung",
+      "term": "die Akutversorgung",
+      "type": "noun",
+      "arabic": "الرعاية الطبية للحالات الحادة",
+      "explanation_de": "Die schnelle medizinische Versorgung plötzlich auftretender oder schwerer Erkrankungen.",
+      "explanation_ar": "الرعاية السريعة للحالات المفاجئة أو الخطيرة.",
+      "examples": [
+        {
+          "de": "In der Akutversorgung müssen Entscheidungen schnell getroffen werden.",
+          "ar": "يجب اتخاذ القرارات بسرعة في الرعاية الحادة."
+        },
+        {
+          "de": "Nach der Akutversorgung folgt häufig eine weitere Betreuung.",
+          "ar": "تأتي رعاية إضافية غالبًا بعد العلاج الحاد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "medizin"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v027",
+      "identity": "der patient / die patientin",
+      "term": "der Patient / die Patientin",
+      "type": "noun",
+      "arabic": "مريض / مريضة",
+      "explanation_de": "Eine Person, die medizinisch untersucht, behandelt oder gepflegt wird.",
+      "explanation_ar": "شخص يتلقى فحصًا أو علاجًا أو رعاية طبية.",
+      "examples": [
+        {
+          "de": "Die Patientin braucht Unterstützung beim Essen.",
+          "ar": "تحتاج المريضة إلى مساعدة عند الطعام."
+        },
+        {
+          "de": "Der Patient wurde über die Behandlung informiert.",
+          "ar": "أُبلغ المريض بالعلاج."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Patienten / die Patientinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122,
+          123,
+          128,
+          129
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "person"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v028",
+      "identity": "die pflegekraft",
+      "term": "die Pflegekraft",
+      "type": "noun",
+      "arabic": "عامل أو عاملة رعاية",
+      "explanation_de": "Eine qualifizierte Person, die pflegebedürftige oder kranke Menschen versorgt.",
+      "explanation_ar": "شخص مؤهل يعتني بالمرضى أو المحتاجين للرعاية.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft kontrolliert den Medikamentenplan.",
+          "ar": "تراجع موظفة الرعاية خطة الأدوية."
+        },
+        {
+          "de": "Pflegekräfte arbeiten eng mit Ärzten und Angehörigen zusammen.",
+          "ar": "يتعاون العاملون في الرعاية مع الأطباء والأقارب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Pflegekräfte"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122,
+          123,
+          128,
+          129
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "beruf"
+      ],
+      "globalRef": "nouns:noun_0264",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v029",
+      "identity": "der pflegebedürftige / die pflegebedürftige",
+      "term": "der Pflegebedürftige / die Pflegebedürftige",
+      "type": "noun",
+      "arabic": "شخص محتاج إلى الرعاية",
+      "explanation_de": "Eine Person, die wegen Krankheit, Behinderung oder Alters dauerhaft Hilfe benötigt.",
+      "explanation_ar": "شخص يحتاج إلى دعم مستمر بسبب المرض أو الإعاقة أو العمر.",
+      "examples": [
+        {
+          "de": "Pflegebedürftige Menschen sollen selbstbestimmt behandelt werden.",
+          "ar": "ينبغي التعامل مع المحتاجين للرعاية باحترام واستقلالية."
+        },
+        {
+          "de": "Der Pflegedienst stimmt die Versorgung mit den Angehörigen ab.",
+          "ar": "تنسق خدمة الرعاية العناية مع الأقارب."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Pflegebedürftigen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          123
+        ],
+        "section": "Pflegeberufe"
+      },
+      "tags": [
+        "pflege",
+        "person"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v030",
+      "identity": "der zahnarzthelfer / die zahnarzthelferin",
+      "term": "der Zahnarzthelfer / die Zahnarzthelferin",
+      "type": "noun",
+      "arabic": "مساعد / مساعدة طبيب أسنان",
+      "explanation_de": "Eine Fachkraft, die bei Behandlungen assistiert und Praxisabläufe organisiert.",
+      "explanation_ar": "موظف يساعد طبيب الأسنان وينظم إجراءات العيادة.",
+      "examples": [
+        {
+          "de": "Die Zahnarzthelferin bereitet die Instrumente vor.",
+          "ar": "تجهز مساعدة طبيب الأسنان الأدوات."
+        },
+        {
+          "de": "Sie assistiert während der Behandlung.",
+          "ar": "تساعد أثناء العلاج."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Zahnarzthelfer / die Zahnarzthelferinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v031",
+      "identity": "der yogalehrer / die yogalehrerin",
+      "term": "der Yogalehrer / die Yogalehrerin",
+      "type": "noun",
+      "arabic": "مدرب / مدربة يوغا",
+      "explanation_de": "Eine Person, die Yogaübungen anleitet und auf korrekte Ausführung achtet.",
+      "explanation_ar": "شخص يقود تمارين اليوغا ويراقب تنفيذها بصورة صحيحة.",
+      "examples": [
+        {
+          "de": "Die Yogalehrerin leitet Atem- und Entspannungsübungen an.",
+          "ar": "تقود مدربة اليوغا تمارين التنفس والاسترخاء."
+        },
+        {
+          "de": "Ein guter Yogalehrer berücksichtigt gesundheitliche Einschränkungen.",
+          "ar": "يراعي مدرب اليوغا الجيد القيود الصحية."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Yogalehrer / die Yogalehrerinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126,
+          127
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "bewegung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v032",
+      "identity": "der logopäde / die logopädin",
+      "term": "der Logopäde / die Logopädin",
+      "type": "noun",
+      "arabic": "أخصائي / أخصائية نطق",
+      "explanation_de": "Eine Fachkraft zur Diagnose und Behandlung von Sprach-, Sprech-, Stimm- oder Schluckstörungen.",
+      "explanation_ar": "مختص يعالج اضطرابات اللغة والنطق والصوت والبلع.",
+      "examples": [
+        {
+          "de": "Die Logopädin unterstützt ein Kind beim richtigen Sprechen.",
+          "ar": "تساعد أخصائية النطق طفلًا على الكلام الصحيح."
+        },
+        {
+          "de": "Nach einer Operation kann logopädische Therapie nötig sein.",
+          "ar": "قد يلزم علاج نطق بعد عملية."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Logopäden / die Logopädinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "therapie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v033",
+      "identity": "der orthopäde / die orthopädin",
+      "term": "der Orthopäde / die Orthopädin",
+      "type": "noun",
+      "arabic": "طبيب / طبيبة عظام",
+      "explanation_de": "Eine ärztliche Fachperson für Erkrankungen des Bewegungsapparats.",
+      "explanation_ar": "طبيب مختص بالعظام والمفاصل والعضلات.",
+      "examples": [
+        {
+          "de": "Die Orthopädin untersucht die Ursache der Rückenschmerzen.",
+          "ar": "تفحص طبيبة العظام سبب ألم الظهر."
+        },
+        {
+          "de": "Der Orthopäde verschreibt Physiotherapie.",
+          "ar": "يصف طبيب العظام علاجًا طبيعيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Orthopäden / die Orthopädinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "arzt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v034",
+      "identity": "der apotheker / die apothekerin",
+      "term": "der Apotheker / die Apothekerin",
+      "type": "noun",
+      "arabic": "صيدلي / صيدلانية",
+      "explanation_de": "Eine Fachperson, die Arzneimittel abgibt und zur Anwendung berät.",
+      "explanation_ar": "مختص يصرف الأدوية ويشرح استخدامها.",
+      "examples": [
+        {
+          "de": "Die Apothekerin erklärt die richtige Einnahme.",
+          "ar": "تشرح الصيدلانية طريقة الاستخدام الصحيحة."
+        },
+        {
+          "de": "Bei Wechselwirkungen sollte man in der Apotheke nachfragen.",
+          "ar": "ينبغي السؤال في الصيدلية عن التداخلات الدوائية."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Apotheker / die Apothekerinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          126,
+          129
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "medikamente"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v035",
+      "identity": "der ernährungsberater / die ernährungsberaterin",
+      "term": "der Ernährungsberater / die Ernährungsberaterin",
+      "type": "noun",
+      "arabic": "مستشار / مستشارة تغذية",
+      "explanation_de": "Eine Fachperson, die Menschen zu ausgewogener und gesundheitsgerechter Ernährung berät.",
+      "explanation_ar": "مختص يقدم إرشادًا حول التغذية المتوازنة والمناسبة للصحة.",
+      "examples": [
+        {
+          "de": "Die Ernährungsberaterin erstellt einen individuellen Ernährungsplan.",
+          "ar": "تعد مستشارة التغذية خطة غذائية فردية."
+        },
+        {
+          "de": "Bei bestimmten Krankheiten muss die Ernährung angepasst werden.",
+          "ar": "يجب تعديل التغذية في بعض الأمراض."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Ernährungsberater / die Ernährungsberaterinnen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126,
+          127
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "ernährung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v036",
+      "identity": "die behandlung",
+      "term": "die Behandlung",
+      "type": "noun",
+      "arabic": "العلاج أو المعالجة الطبية",
+      "explanation_de": "Eine medizinische oder therapeutische Maßnahme zur Verbesserung der Gesundheit.",
+      "explanation_ar": "إجراء طبي أو علاجي يهدف إلى تحسين الحالة الصحية.",
+      "examples": [
+        {
+          "de": "Vor der Behandlung wird die Patientin ausführlich informiert.",
+          "ar": "تُبلغ المريضة بالتفصيل قبل العلاج."
+        },
+        {
+          "de": "Die Behandlung wird im Pflegebericht dokumentiert.",
+          "ar": "يُوثق العلاج في تقرير الرعاية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Behandlungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          126
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "medizin",
+        "pflege"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v037",
+      "identity": "die diagnose",
+      "term": "die Diagnose",
+      "type": "noun",
+      "arabic": "التشخيص",
+      "explanation_de": "Die medizinische Feststellung einer Krankheit auf Grundlage von Beschwerden und Untersuchungen.",
+      "explanation_ar": "تحديد المرض طبيًا اعتمادًا على الأعراض والفحوص.",
+      "examples": [
+        {
+          "de": "Die Ärztin stellt nach mehreren Untersuchungen eine Diagnose.",
+          "ar": "تضع الطبيبة تشخيصًا بعد عدة فحوص."
+        },
+        {
+          "de": "Die Diagnose muss verständlich erklärt werden.",
+          "ar": "يجب شرح التشخيص بصورة مفهومة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Diagnosen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          126
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "medizin",
+        "diagnostik"
+      ],
+      "globalRef": "nouns:noun_0246",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v038",
+      "identity": "die physiotherapie",
+      "term": "die Physiotherapie",
+      "type": "noun",
+      "arabic": "العلاج الطبيعي",
+      "explanation_de": "Eine Behandlung mit Bewegung, Übungen und manuellen Techniken zur Verbesserung körperlicher Funktionen.",
+      "explanation_ar": "علاج يستخدم الحركة والتمارين وتقنيات يدوية لتحسين وظائف الجسم.",
+      "examples": [
+        {
+          "de": "Nach der Operation erhält der Patient Physiotherapie.",
+          "ar": "يحصل المريض على علاج طبيعي بعد العملية."
+        },
+        {
+          "de": "Die Physiotherapie soll Beweglichkeit und Kraft verbessern.",
+          "ar": "يهدف العلاج الطبيعي إلى تحسين الحركة والقوة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          126,
+          127
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "therapie"
+      ],
+      "globalRef": "nouns:noun_0247",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v039",
+      "identity": "die atemübung",
+      "term": "die Atemübung",
+      "type": "noun",
+      "arabic": "تمرين تنفس",
+      "explanation_de": "Eine bewusst ausgeführte Übung zur Regulierung von Atmung, Entspannung oder Stimme.",
+      "explanation_ar": "تمرين تنفس مقصود لتحسين الاسترخاء أو التنفس أو الصوت.",
+      "examples": [
+        {
+          "de": "Eine ruhige Atemübung kann Stress reduzieren.",
+          "ar": "قد يخفف تمرين تنفس هادئ الضغط."
+        },
+        {
+          "de": "Der Therapeut erklärt die Atemübung Schritt für Schritt.",
+          "ar": "يشرح المعالج تمرين التنفس خطوة بخطوة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Atemübungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          120,
+          126,
+          127
+        ],
+        "section": "Gesundheitsberufe"
+      },
+      "tags": [
+        "gesundheit",
+        "atmung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v040",
+      "identity": "akut",
+      "term": "akut",
+      "type": "adjective_adverb",
+      "arabic": "حاد أو طارئ",
+      "explanation_de": "Plötzlich auftretend und medizinisch unmittelbar behandlungsbedürftig.",
+      "explanation_ar": "وصف لحالة تظهر فجأة وتحتاج إلى علاج سريع.",
+      "examples": [
+        {
+          "de": "Auf der Station werden viele akute Fälle versorgt.",
+          "ar": "تُعالج حالات حادة كثيرة في القسم."
+        },
+        {
+          "de": "Akute Schmerzen müssen sofort gemeldet werden.",
+          "ar": "يجب الإبلاغ عن الألم الحاد فورًا."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0076",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v041",
+      "identity": "ambulant",
+      "term": "ambulant",
+      "type": "adjective_adverb",
+      "arabic": "خارجي من دون إقامة في المستشفى",
+      "explanation_de": "So behandelt, dass die Person danach wieder nach Hause geht.",
+      "explanation_ar": "علاج لا يتطلب بقاء المريض في المستشفى.",
+      "examples": [
+        {
+          "de": "Die Wunde wird ambulant kontrolliert.",
+          "ar": "تُفحص الجرح في عيادة خارجية."
+        },
+        {
+          "de": "Ambulante Pflege findet häufig in der Wohnung statt.",
+          "ar": "تجري الرعاية الخارجية غالبًا في المنزل."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0077",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v042",
+      "identity": "stationär",
+      "term": "stationär",
+      "type": "adjective_adverb",
+      "arabic": "داخلي مع الإقامة في مؤسسة",
+      "explanation_de": "So behandelt, dass die Person in einem Krankenhaus oder einer Einrichtung aufgenommen bleibt.",
+      "explanation_ar": "علاج يتضمن إقامة المريض في مستشفى أو مؤسسة.",
+      "examples": [
+        {
+          "de": "Der Patient muss stationär aufgenommen werden.",
+          "ar": "يجب إدخال المريض إلى المستشفى."
+        },
+        {
+          "de": "Stationäre Versorgung ist bei schweren Fällen notwendig.",
+          "ar": "تلزم الرعاية الداخلية في الحالات الخطيرة."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0078",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v043",
+      "identity": "die lungenentzündung",
+      "term": "die Lungenentzündung",
+      "type": "noun",
+      "arabic": "التهاب رئوي",
+      "explanation_de": "Eine Entzündung des Lungengewebes, meist durch eine Infektion.",
+      "explanation_ar": "التهاب يصيب أنسجة الرئة وغالبًا سببه عدوى.",
+      "examples": [
+        {
+          "de": "Bei einer Lungenentzündung können Atemnot und Fieber auftreten.",
+          "ar": "قد يظهر ضيق تنفس وحمى عند الالتهاب الرئوي."
+        },
+        {
+          "de": "Die Patientin wird wegen einer schweren Lungenentzündung stationär behandelt.",
+          "ar": "تُعالج المريضة داخليًا بسبب التهاب رئوي شديد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lungenentzündungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "krankheit"
+      ],
+      "globalRef": "nouns:noun_0255",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v044",
+      "identity": "die spritze",
+      "term": "die Spritze",
+      "type": "noun",
+      "arabic": "حقنة",
+      "explanation_de": "Ein medizinisches Instrument oder eine Injektion zur Gabe eines Medikaments.",
+      "explanation_ar": "أداة أو إجراء لإعطاء دواء بواسطة الحقن.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft bereitet die Spritze hygienisch vor.",
+          "ar": "تجهز الممرضة الحقنة بصورة صحية."
+        },
+        {
+          "de": "Nach der Spritze wird die Einstichstelle kontrolliert.",
+          "ar": "يُفحص موضع الحقن بعد إعطاء الحقنة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Spritzen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "medikament"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v045",
+      "identity": "die anästhesie",
+      "term": "die Anästhesie",
+      "type": "noun",
+      "arabic": "التخدير",
+      "explanation_de": "Ein medizinisches Verfahren zur Ausschaltung von Schmerz und Bewusstsein während eines Eingriffs.",
+      "explanation_ar": "إجراء طبي لمنع الألم وأحيانًا الوعي أثناء العملية.",
+      "examples": [
+        {
+          "de": "Vor der Operation findet ein Gespräch mit der Anästhesie statt.",
+          "ar": "تجري مقابلة مع قسم التخدير قبل العملية."
+        },
+        {
+          "de": "Die Anästhesie wird an den Gesundheitszustand angepasst.",
+          "ar": "يُكيّف التخدير مع الحالة الصحية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Anästhesien"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "operation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v046",
+      "identity": "die operation",
+      "term": "die Operation",
+      "type": "noun",
+      "arabic": "عملية جراحية",
+      "explanation_de": "Ein medizinischer Eingriff, bei dem Körpergewebe chirurgisch behandelt wird.",
+      "explanation_ar": "تدخل جراحي لمعالجة عضو أو نسيج في الجسم.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft bereitet die Patientin auf die Operation vor.",
+          "ar": "تجهز الممرضة المريضة للعملية."
+        },
+        {
+          "de": "Nach der Operation wird die Wunde regelmäßig kontrolliert.",
+          "ar": "يُفحص الجرح بانتظام بعد العملية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Operationen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "chirurgie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v047",
+      "identity": "die unfallchirurgie",
+      "term": "die Unfallchirurgie",
+      "type": "noun",
+      "arabic": "جراحة الحوادث",
+      "explanation_de": "Ein medizinisches Fachgebiet zur Behandlung von Verletzungen nach Unfällen.",
+      "explanation_ar": "اختصاص يعالج الإصابات الناتجة عن الحوادث.",
+      "examples": [
+        {
+          "de": "In der Unfallchirurgie werden Knochenbrüche und schwere Verletzungen behandelt.",
+          "ar": "تُعالج الكسور والإصابات الخطيرة في جراحة الحوادث."
+        },
+        {
+          "de": "Die Übergabe an die Unfallchirurgie erfolgte sofort.",
+          "ar": "تم التسليم إلى قسم جراحة الحوادث فورًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "chirurgie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v048",
+      "identity": "die neurologie",
+      "term": "die Neurologie",
+      "type": "noun",
+      "arabic": "طب الأعصاب",
+      "explanation_de": "Das medizinische Fachgebiet für Erkrankungen des Nervensystems.",
+      "explanation_ar": "الاختصاص الطبي بأمراض الجهاز العصبي.",
+      "examples": [
+        {
+          "de": "Die Patientin wurde zur weiteren Untersuchung in die Neurologie verlegt.",
+          "ar": "نُقلت المريضة إلى قسم الأعصاب لمزيد من الفحوص."
+        },
+        {
+          "de": "Neurologische Symptome müssen genau beobachtet werden.",
+          "ar": "يجب مراقبة الأعراض العصبية بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "fachgebiet"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v049",
+      "identity": "die wunde",
+      "term": "die Wunde",
+      "type": "noun",
+      "arabic": "جرح",
+      "explanation_de": "Eine Verletzung, bei der Haut oder darunterliegendes Gewebe geschädigt ist.",
+      "explanation_ar": "إصابة في الجلد أو الأنسجة تحته.",
+      "examples": [
+        {
+          "de": "Die Wunde wird gereinigt und neu verbunden.",
+          "ar": "يُنظف الجرح ويُضمّد من جديد."
+        },
+        {
+          "de": "Rötung und Schwellung können Zeichen einer Entzündung sein.",
+          "ar": "قد يكون الاحمرار والتورم علامة التهاب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Wunden"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          123
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "pflege"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v050",
+      "identity": "die wundversorgung",
+      "term": "die Wundversorgung",
+      "type": "noun",
+      "arabic": "العناية بالجرح",
+      "explanation_de": "Die fachgerechte Reinigung, Beurteilung und Abdeckung einer Wunde.",
+      "explanation_ar": "تنظيف الجرح وتقييمه وتغطيته بصورة مهنية.",
+      "examples": [
+        {
+          "de": "Die Wundversorgung wird im Bericht genau dokumentiert.",
+          "ar": "تُوثق العناية بالجرح بدقة في التقرير."
+        },
+        {
+          "de": "Bei auffälligen Veränderungen muss ärztlicher Rat eingeholt werden.",
+          "ar": "يجب طلب استشارة طبية عند تغيرات غير طبيعية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          123
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "pflege"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v051",
+      "identity": "die thrombose",
+      "term": "die Thrombose",
+      "type": "noun",
+      "arabic": "جلطة وريدية",
+      "explanation_de": "Ein Blutgerinnsel, das ein Blutgefäß teilweise oder vollständig verschließt.",
+      "explanation_ar": "خثرة دموية تسد وعاءً دمويًا جزئيًا أو كليًا.",
+      "examples": [
+        {
+          "de": "Nach einer Operation werden Maßnahmen zur Thromboseprophylaxe durchgeführt.",
+          "ar": "تُنفذ إجراءات للوقاية من الجلطات بعد العملية."
+        },
+        {
+          "de": "Schmerzen und Schwellung im Bein können Hinweise auf eine Thrombose sein.",
+          "ar": "قد يشير الألم والتورم في الساق إلى جلطة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Thrombosen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "medizin",
+        "krankheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v052",
+      "identity": "die übergabe",
+      "term": "die Übergabe",
+      "type": "noun",
+      "arabic": "تسليم المعلومات بين المناوبات",
+      "explanation_de": "Die strukturierte Weitergabe wichtiger Informationen beim Wechsel von Personal oder Schicht.",
+      "explanation_ar": "نقل منظم للمعلومات المهمة عند تبدل الموظفين أو المناوبة.",
+      "examples": [
+        {
+          "de": "Bei der Übergabe werden Veränderungen und offene Aufgaben besprochen.",
+          "ar": "تُناقش التغيرات والمهام المفتوحة عند التسليم."
+        },
+        {
+          "de": "Eine vollständige Übergabe erhöht die Patientensicherheit.",
+          "ar": "يزيد التسليم الكامل سلامة المرضى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Übergaben"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122,
+          123
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "pflege",
+        "kommunikation"
+      ],
+      "globalRef": "nouns:noun_0257",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v053",
+      "identity": "das hospiz",
+      "term": "das Hospiz",
+      "type": "noun",
+      "arabic": "دار رعاية نهاية الحياة",
+      "explanation_de": "Eine Einrichtung zur Begleitung schwerstkranker und sterbender Menschen.",
+      "explanation_ar": "مؤسسة ترافق المرضى في المراحل النهائية وتقدم لهم الدعم.",
+      "examples": [
+        {
+          "de": "Im Hospiz stehen Lebensqualität und Würde im Mittelpunkt.",
+          "ar": "تكون جودة الحياة والكرامة في مركز الاهتمام في دار الرعاية."
+        },
+        {
+          "de": "Angehörige werden in die Begleitung einbezogen.",
+          "ar": "يُشرك الأقارب في المرافقة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Hospize"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "pflege",
+        "einrichtung"
+      ],
+      "globalRef": "nouns:noun_0258",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v054",
+      "identity": "die anweisung",
+      "term": "die Anweisung",
+      "type": "noun",
+      "arabic": "تعليمة أو توجيه",
+      "explanation_de": "Eine klare Information darüber, was und wie etwas getan werden soll.",
+      "explanation_ar": "توجيه واضح يحدد ما يجب فعله وكيف.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft fragt nach einer eindeutigen Anweisung.",
+          "ar": "تطلب الممرضة تعليمة واضحة."
+        },
+        {
+          "de": "Medizinische Anweisungen müssen korrekt umgesetzt werden.",
+          "ar": "يجب تنفيذ التعليمات الطبية بصورة صحيحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Anweisungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122
+        ],
+        "section": "Pflegewortschatz"
+      },
+      "tags": [
+        "pflege",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v055",
+      "identity": "die pflegedienstleitung",
+      "term": "die Pflegedienstleitung",
+      "type": "noun",
+      "arabic": "إدارة خدمة التمريض",
+      "explanation_de": "Die fachliche und organisatorische Leitung eines Pflegedienstes oder Pflegebereichs.",
+      "explanation_ar": "الجهة المسؤولة مهنيًا وتنظيميًا عن خدمة الرعاية.",
+      "examples": [
+        {
+          "de": "Die Pflegedienstleitung erstellt den Arbeitsplan.",
+          "ar": "تعد إدارة الرعاية خطة العمل."
+        },
+        {
+          "de": "Probleme werden sofort an die Pflegedienstleitung gemeldet.",
+          "ar": "تُبلغ المشكلات فورًا إلى إدارة الرعاية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Pflegedienstleitungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          122,
+          123
+        ],
+        "section": "Pflegeorganisation"
+      },
+      "tags": [
+        "pflege",
+        "leitung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v056",
+      "identity": "die feste tour",
+      "term": "die feste Tour",
+      "type": "noun_phrase",
+      "arabic": "جولة عمل ثابتة",
+      "explanation_de": "Eine regelmäßig gleiche Route mit fest zugeordneten Kundinnen und Kunden im ambulanten Dienst.",
+      "explanation_ar": "مسار يومي ثابت لزيارة مجموعة محددة من المرضى في الرعاية المنزلية.",
+      "examples": [
+        {
+          "de": "Im ambulanten Dienst übernimmt sie jeden Morgen eine feste Tour.",
+          "ar": "تتولى جولة ثابتة كل صباح في خدمة الرعاية المنزلية."
+        },
+        {
+          "de": "Bei Urlaub organisiert die Leitung eine Vertretung für die Tour.",
+          "ar": "تنظم الإدارة بديلًا للجولة عند الإجازة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die festen Touren"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Pflegeorganisation"
+      },
+      "tags": [
+        "pflege",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v057",
+      "identity": "der arbeitsplan",
+      "term": "der Arbeitsplan",
+      "type": "noun",
+      "arabic": "خطة العمل اليومية",
+      "explanation_de": "Eine Übersicht über Aufgaben, Personen und Zeiten für einen Arbeitstag oder Zeitraum.",
+      "explanation_ar": "قائمة منظمة بالمهام والأشخاص والأوقات.",
+      "examples": [
+        {
+          "de": "Im Arbeitsplan stehen alle Hausbesuche und Aufgaben.",
+          "ar": "ترد جميع الزيارات والمهام في خطة العمل."
+        },
+        {
+          "de": "Änderungen müssen für das Team sichtbar dokumentiert werden.",
+          "ar": "يجب توثيق التعديلات بصورة واضحة للفريق."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitspläne"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          132
+        ],
+        "section": "Pflegeorganisation"
+      },
+      "tags": [
+        "arbeit",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v058",
+      "identity": "den blutdruck messen",
+      "term": "den Blutdruck messen",
+      "type": "phrase",
+      "arabic": "يقيس ضغط الدم",
+      "explanation_de": "Mit einem Messgerät den arteriellen Blutdruck bestimmen.",
+      "explanation_ar": "استخدام جهاز لتحديد ضغط الدم.",
+      "examples": [
+        {
+          "de": "Bei Kreislaufproblemen wird sofort der Blutdruck gemessen.",
+          "ar": "يُقاس ضغط الدم فورًا عند مشكلات الدورة الدموية."
+        },
+        {
+          "de": "Der Messwert wird mit Uhrzeit dokumentiert.",
+          "ar": "تُوثق النتيجة مع الوقت."
+        }
+      ],
+      "grammar": {
+        "verb": "messen",
+        "praeteritum": "maß",
+        "perfekt": "hat gemessen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "messung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v059",
+      "identity": "den puls messen",
+      "term": "den Puls messen",
+      "type": "phrase",
+      "arabic": "يقيس النبض",
+      "explanation_de": "Herzschläge pro Minute ertasten oder mit einem Gerät bestimmen.",
+      "explanation_ar": "تحديد عدد ضربات القلب في الدقيقة يدويًا أو بجهاز.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft misst Puls und Blutdruck.",
+          "ar": "تقيس الممرضة النبض والضغط."
+        },
+        {
+          "de": "Ein sehr unregelmäßiger Puls muss gemeldet werden.",
+          "ar": "يجب الإبلاغ عن النبض غير المنتظم جدًا."
+        }
+      ],
+      "grammar": {
+        "verb": "messen",
+        "praeteritum": "maß",
+        "perfekt": "hat gemessen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "messung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v060",
+      "identity": "insulin spritzen",
+      "term": "Insulin spritzen",
+      "type": "phrase",
+      "arabic": "يحقن الإنسولين",
+      "explanation_de": "Insulin entsprechend der ärztlichen Verordnung injizieren.",
+      "explanation_ar": "حقن الإنسولين وفق الوصفة الطبية.",
+      "examples": [
+        {
+          "de": "Vor dem Spritzen wird der Blutzuckerwert kontrolliert.",
+          "ar": "تُفحص قيمة السكر قبل الحقن."
+        },
+        {
+          "de": "Die verordnete Dosis muss genau beachtet werden.",
+          "ar": "يجب الالتزام بدقة بالجرعة الموصوفة."
+        }
+      ],
+      "grammar": {
+        "verb": "spritzen",
+        "praeteritum": "spritzte",
+        "perfekt": "hat gespritzt"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          129
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "medikament"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v061",
+      "identity": "den medikamentenplan kontrollieren",
+      "term": "den Medikamentenplan kontrollieren",
+      "type": "phrase",
+      "arabic": "يراجع خطة الأدوية",
+      "explanation_de": "Prüfen, welche Medikamente in welcher Dosis und zu welcher Zeit gegeben werden sollen.",
+      "explanation_ar": "مراجعة الأدوية والجرعات وأوقات إعطائها.",
+      "examples": [
+        {
+          "de": "Vor der Medikamentengabe wird der Medikamentenplan kontrolliert.",
+          "ar": "تُراجع خطة الأدوية قبل إعطاء الدواء."
+        },
+        {
+          "de": "Unklare Angaben müssen mit der Arztpraxis geklärt werden.",
+          "ar": "يجب توضيح المعلومات غير الواضحة مع عيادة الطبيب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          122
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "medikament"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v062",
+      "identity": "das rezept nachreichen",
+      "term": "das Rezept nachreichen",
+      "type": "phrase",
+      "arabic": "يقدّم الوصفة لاحقًا",
+      "explanation_de": "Ein noch fehlendes Rezept zu einem späteren Zeitpunkt einreichen.",
+      "explanation_ar": "تقديم وصفة طبية ناقصة في وقت لاحق.",
+      "examples": [
+        {
+          "de": "Die Apotheke benötigt das Rezept bis Ende der Woche.",
+          "ar": "تحتاج الصيدلية إلى الوصفة حتى نهاية الأسبوع."
+        },
+        {
+          "de": "Die Angehörigen wurden gebeten, das Rezept nachzureichen.",
+          "ar": "طُلب من الأقارب تقديم الوصفة لاحقًا."
+        }
+      ],
+      "grammar": {
+        "verb": "nachreichen",
+        "praeteritum": "reichte nach",
+        "perfekt": "hat nachgereicht",
+        "separable": true
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          129
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "apotheke"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v063",
+      "identity": "die angehörigen informieren",
+      "term": "die Angehörigen informieren",
+      "type": "phrase",
+      "arabic": "يبلغ الأقارب",
+      "explanation_de": "Familienmitglieder oder nahestehende Personen über einen wichtigen Vorgang informieren.",
+      "explanation_ar": "إبلاغ أفراد الأسرة أو المقربين بأمر مهم.",
+      "examples": [
+        {
+          "de": "Bei einer Krankenhauseinweisung werden die Angehörigen informiert.",
+          "ar": "يُبلغ الأقارب عند إدخال المريض إلى المستشفى."
+        },
+        {
+          "de": "Die Information muss sachlich und datenschutzkonform erfolgen.",
+          "ar": "يجب أن يتم الإبلاغ بموضوعية مع مراعاة حماية البيانات."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          123
+        ],
+        "section": "Pflegehandlung"
+      },
+      "tags": [
+        "pflege",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v064",
+      "identity": "das verhalten dokumentieren",
+      "term": "das Verhalten dokumentieren",
+      "type": "phrase",
+      "arabic": "يوثّق السلوك",
+      "explanation_de": "Beobachtetes Verhalten sachlich, konkret und ohne persönliche Bewertung festhalten.",
+      "explanation_ar": "تسجيل السلوك الملحوظ بدقة ومن دون حكم شخصي.",
+      "examples": [
+        {
+          "de": "Auffälliges Verhalten wird im Pflegebericht dokumentiert.",
+          "ar": "يُوثق السلوك اللافت في تقرير الرعاية."
+        },
+        {
+          "de": "Die Pflegekraft beschreibt nur, was sie tatsächlich beobachtet hat.",
+          "ar": "تصف موظفة الرعاية ما لاحظته فعليًا فقط."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          123,
+          129
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "dokumentation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v065",
+      "identity": "der pflegebericht",
+      "term": "der Pflegebericht",
+      "type": "noun",
+      "arabic": "تقرير الرعاية",
+      "explanation_de": "Eine schriftliche, sachliche Dokumentation des Zustands, der Beobachtungen und der durchgeführten Maßnahmen.",
+      "explanation_ar": "توثيق كتابي موضوعي للحالة والملاحظات والإجراءات المنفذة.",
+      "examples": [
+        {
+          "de": "Der Pflegebericht enthält Datum, Uhrzeit und konkrete Beobachtungen.",
+          "ar": "يتضمن تقرير الرعاية التاريخ والوقت والملاحظات المحددة."
+        },
+        {
+          "de": "Subjektive Vermutungen gehören nicht in den Pflegebericht.",
+          "ar": "لا تنتمي التخمينات الشخصية إلى تقرير الرعاية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Pflegeberichte"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          123,
+          129,
+          132
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "dokumentation"
+      ],
+      "globalRef": "nouns:noun_0256",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v066",
+      "identity": "die subjektive einschätzung",
+      "term": "die subjektive Einschätzung",
+      "type": "noun_phrase",
+      "arabic": "التقييم الشخصي",
+      "explanation_de": "Eine Bewertung, die von persönlichen Eindrücken oder Gefühlen beeinflusst ist.",
+      "explanation_ar": "تقييم يتأثر بالرأي أو الشعور الشخصي.",
+      "examples": [
+        {
+          "de": "Subjektive Einschätzungen müssen klar von Beobachtungen getrennt werden.",
+          "ar": "يجب فصل التقييمات الشخصية عن الملاحظات."
+        },
+        {
+          "de": "Im Bericht sollte keine abwertende subjektive Einschätzung stehen.",
+          "ar": "ينبغي ألا يرد تقييم شخصي سلبي في التقرير."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die subjektiven Einschätzungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          123,
+          129
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "dokumentation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v067",
+      "identity": "sachlich dokumentieren",
+      "term": "sachlich dokumentieren",
+      "type": "phrase",
+      "arabic": "يوثّق بموضوعية",
+      "explanation_de": "Fakten klar, präzise und ohne emotionale oder persönliche Wertung festhalten.",
+      "explanation_ar": "تسجيل الحقائق بوضوح ودقة من دون عاطفة أو حكم شخصي.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft dokumentiert den Vorfall sachlich.",
+          "ar": "توثق الممرضة الحادثة بموضوعية."
+        },
+        {
+          "de": "Sachliche Dokumentation erleichtert die weitere Behandlung.",
+          "ar": "يسهل التوثيق الموضوعي متابعة العلاج."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          123,
+          129
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "dokumentation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v068",
+      "identity": "jemanden liegend antreffen",
+      "term": "jemanden liegend antreffen",
+      "type": "phrase",
+      "arabic": "يجد شخصًا مستلقيًا",
+      "explanation_de": "Eine Person bei einem Besuch in liegender Position vorfinden.",
+      "explanation_ar": "العثور على شخص مستلقيًا عند الوصول.",
+      "examples": [
+        {
+          "de": "Die Pflegekraft traf den Kunden am Boden liegend an.",
+          "ar": "وجدت موظفة الرعاية المريض مستلقيًا على الأرض."
+        },
+        {
+          "de": "Der genaue Zustand beim Antreffen wurde dokumentiert.",
+          "ar": "وُثقت الحالة بدقة عند العثور عليه."
+        }
+      ],
+      "grammar": {
+        "verb": "antreffen",
+        "praeteritum": "traf an",
+        "perfekt": "hat angetroffen",
+        "separable": true
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          123
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "beobachtung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v069",
+      "identity": "sich weigern, etwas zu tun",
+      "term": "sich weigern, etwas zu tun",
+      "type": "phrase",
+      "arabic": "يرفض القيام بشيء",
+      "explanation_de": "Bewusst ablehnen, eine verlangte oder vorgeschlagene Handlung auszuführen.",
+      "explanation_ar": "رفض تنفيذ فعل مطلوب أو مقترح.",
+      "examples": [
+        {
+          "de": "Der Patient weigert sich, das Medikament einzunehmen.",
+          "ar": "يرفض المريض تناول الدواء."
+        },
+        {
+          "de": "Die Pflegekraft dokumentiert die Weigerung und informiert die zuständige Stelle.",
+          "ar": "توثق موظفة الرعاية الرفض وتبلغ الجهة المسؤولة."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "weigerte sich",
+        "perfekt": "hat sich geweigert"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          123,
+          129
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "verhalten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v070",
+      "identity": "verwirrt sein",
+      "term": "verwirrt sein",
+      "type": "phrase",
+      "arabic": "يكون مشوشًا",
+      "explanation_de": "Zeitlich, örtlich oder situativ nicht klar orientiert sein.",
+      "explanation_ar": "عدم وضوح إدراك الزمان أو المكان أو الموقف.",
+      "examples": [
+        {
+          "de": "Die Kundin war am Morgen stark verwirrt.",
+          "ar": "كانت المريضة مشوشة بشدة صباحًا."
+        },
+        {
+          "de": "Plötzliche Verwirrtheit muss medizinisch abgeklärt werden.",
+          "ar": "يجب فحص التشوش المفاجئ طبيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          122,
+          129
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "zustand"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v071",
+      "identity": "stürzen",
+      "term": "stürzen",
+      "type": "verb",
+      "arabic": "يسقط",
+      "explanation_de": "Ungewollt das Gleichgewicht verlieren und zu Boden fallen.",
+      "explanation_ar": "فقدان التوازن والسقوط على الأرض.",
+      "examples": [
+        {
+          "de": "Der Patient ist in der Nacht gestürzt.",
+          "ar": "سقط المريض ليلًا."
+        },
+        {
+          "de": "Nach einem Sturz werden Schmerzen und Verletzungen kontrolliert.",
+          "ar": "يُفحص الألم والإصابات بعد السقوط."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "stürzte",
+        "perfekt": "ist gestürzt",
+        "auxiliary": "sein"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          123
+        ],
+        "section": "Pflegebericht"
+      },
+      "tags": [
+        "pflege",
+        "unfall"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v072",
+      "identity": "das leben vereinfachen",
+      "term": "das Leben vereinfachen",
+      "type": "phrase",
+      "arabic": "يبسّط الحياة",
+      "explanation_de": "Alltag, Besitz und Verpflichtungen so ordnen, dass weniger Belastung entsteht.",
+      "explanation_ar": "تنظيم الحياة والأغراض والالتزامات بطريقة تقلل الضغط.",
+      "examples": [
+        {
+          "de": "Klare Prioritäten können das Leben vereinfachen.",
+          "ar": "قد تبسط الأولويات الواضحة الحياة."
+        },
+        {
+          "de": "Digitale Ordnung allein vereinfacht nicht automatisch das Leben.",
+          "ar": "لا يبسط التنظيم الرقمي الحياة تلقائيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          130
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v073",
+      "identity": "sich von etwas trennen",
+      "term": "sich von etwas trennen",
+      "type": "phrase",
+      "arabic": "يتخلى عن شيء",
+      "explanation_de": "Etwas nicht länger behalten oder eine Verbindung bewusst beenden.",
+      "explanation_ar": "عدم الاحتفاظ بشيء أو إنهاء ارتباط بصورة واعية.",
+      "examples": [
+        {
+          "de": "Sie trennt sich von Gegenständen, die sie nicht mehr braucht.",
+          "ar": "تتخلى عن أغراض لم تعد تحتاج إليها."
+        },
+        {
+          "de": "Es fällt vielen Menschen schwer, sich von Erinnerungsstücken zu trennen.",
+          "ar": "يصعب على أشخاص كثيرين التخلي عن التذكارات."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich von + Dativ trennen",
+        "praeteritum": "trennte sich",
+        "perfekt": "hat sich getrennt"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          130
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "ordnung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v074",
+      "identity": "der durchschnittshaushalt",
+      "term": "der Durchschnittshaushalt",
+      "type": "noun",
+      "arabic": "المنزل المتوسط إحصائيًا",
+      "explanation_de": "Ein statistisch typischer Haushalt, der als Vergleichsgröße verwendet wird.",
+      "explanation_ar": "منزل يمثل المتوسط الإحصائي ويُستخدم للمقارنة.",
+      "examples": [
+        {
+          "de": "Ein Durchschnittshaushalt besitzt oft deutlich mehr Dinge als nötig.",
+          "ar": "يمتلك المنزل المتوسط أشياء أكثر من الحاجة غالبًا."
+        },
+        {
+          "de": "Die Zahl ist nur ein statistischer Durchschnitt.",
+          "ar": "الرقم مجرد متوسط إحصائي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Durchschnittshaushalte"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v075",
+      "identity": "der papierkram",
+      "term": "der Papierkram",
+      "type": "noun",
+      "arabic": "الأعمال الورقية والإدارية",
+      "explanation_de": "Umgangssprachlich für Formulare, Rechnungen und andere organisatorische Unterlagen.",
+      "explanation_ar": "تعبير عن المعاملات والنماذج والفواتير والأوراق الإدارية.",
+      "examples": [
+        {
+          "de": "Unerledigter Papierkram verursacht zusätzlichen Stress.",
+          "ar": "تسبب المعاملات غير المنجزة ضغطًا إضافيًا."
+        },
+        {
+          "de": "Ein fester Termin pro Woche hilft beim Papierkram.",
+          "ar": "يساعد موعد أسبوعي ثابت على إنجاز الأوراق."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v076",
+      "identity": "die mentale blockade",
+      "term": "die mentale Blockade",
+      "type": "noun_phrase",
+      "arabic": "حاجز ذهني",
+      "explanation_de": "Eine innere Hemmung, die Denken, Entscheiden oder Handeln erschwert.",
+      "explanation_ar": "عائق نفسي يجعل التفكير أو القرار أو العمل أصعب.",
+      "examples": [
+        {
+          "de": "Zu viele offene Aufgaben können eine mentale Blockade auslösen.",
+          "ar": "قد تسبب كثرة المهام المفتوحة حاجزًا ذهنيًا."
+        },
+        {
+          "de": "Kleine Schritte helfen, mentale Blockaden zu überwinden.",
+          "ar": "تساعد الخطوات الصغيرة على تجاوز العوائق الذهنية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die mentalen Blockaden"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "psychologie",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v077",
+      "identity": "prioritäten setzen",
+      "term": "Prioritäten setzen",
+      "type": "phrase",
+      "arabic": "يحدد الأولويات",
+      "explanation_de": "Entscheiden, welche Aufgaben, Ziele oder Beziehungen zuerst Aufmerksamkeit erhalten.",
+      "explanation_ar": "تحديد الأمور الأهم التي يجب إنجازها أو الاهتمام بها أولًا.",
+      "examples": [
+        {
+          "de": "Im stressigen Arbeitsalltag muss man klare Prioritäten setzen.",
+          "ar": "يجب تحديد أولويات واضحة في يوم العمل المزدحم."
+        },
+        {
+          "de": "Gesundheit sollte nicht erst bei Beschwerden Priorität bekommen.",
+          "ar": "ينبغي ألا تصبح الصحة أولوية فقط عند ظهور الألم."
+        }
+      ],
+      "grammar": {
+        "verb": "setzen",
+        "praeteritum": "setzte Prioritäten",
+        "perfekt": "hat Prioritäten gesetzt"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          130,
+          131
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v078",
+      "identity": "soziale kontakte pflegen",
+      "term": "soziale Kontakte pflegen",
+      "type": "phrase",
+      "arabic": "يحافظ على العلاقات الاجتماعية",
+      "explanation_de": "Beziehungen regelmäßig durch Austausch, Treffen und gegenseitige Unterstützung erhalten.",
+      "explanation_ar": "الحفاظ على العلاقات بالتواصل واللقاء والدعم المتبادل.",
+      "examples": [
+        {
+          "de": "Auch bei hoher Arbeitsbelastung sollte man soziale Kontakte pflegen.",
+          "ar": "ينبغي الحفاظ على العلاقات الاجتماعية رغم ضغط العمل."
+        },
+        {
+          "de": "Gute Kontakte können emotional entlasten.",
+          "ar": "قد تخفف العلاقات الجيدة الضغط النفسي."
+        }
+      ],
+      "grammar": {
+        "verb": "pflegen",
+        "praeteritum": "pflegte",
+        "perfekt": "hat gepflegt"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          131
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "beziehungen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v079",
+      "identity": "die partnerschaft",
+      "term": "die Partnerschaft",
+      "type": "noun",
+      "arabic": "العلاقة بين شريكين",
+      "explanation_de": "Eine enge persönliche Beziehung zwischen zwei Partnerinnen oder Partnern.",
+      "explanation_ar": "علاقة شخصية قريبة بين شريكين.",
+      "examples": [
+        {
+          "de": "Dauerhafte berufliche Belastung kann die Partnerschaft beeinträchtigen.",
+          "ar": "قد يؤثر ضغط العمل المستمر في العلاقة."
+        },
+        {
+          "de": "Offene Kommunikation stärkt die Partnerschaft.",
+          "ar": "يقوي التواصل الصريح العلاقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Partnerschaften"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          131
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "leben",
+        "beziehung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v080",
+      "identity": "die belastung",
+      "term": "die Belastung",
+      "type": "noun",
+      "arabic": "عبء أو ضغط",
+      "explanation_de": "Eine körperliche, psychische oder organisatorische Beanspruchung.",
+      "explanation_ar": "ضغط جسدي أو نفسي أو تنظيمي.",
+      "examples": [
+        {
+          "de": "Nachtschichten sind für viele Beschäftigte eine große Belastung.",
+          "ar": "المناوبات الليلية عبء كبير على موظفين كثيرين."
+        },
+        {
+          "de": "Die Belastung sollte früh angesprochen werden.",
+          "ar": "ينبغي مناقشة الضغط مبكرًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Belastungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          130,
+          131
+        ],
+        "section": "Arbeitsleben"
+      },
+      "tags": [
+        "stress",
+        "arbeit"
+      ],
+      "globalRef": "nouns:noun_0278",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u07-v081",
+      "identity": "der perfektionismus",
+      "term": "der Perfektionismus",
+      "type": "noun",
+      "arabic": "السعي المفرط إلى الكمال",
+      "explanation_de": "Der starke Anspruch, alles möglichst fehlerfrei und vollständig zu erledigen.",
+      "explanation_ar": "رغبة شديدة في إنجاز كل شيء بلا أخطاء وبصورة مثالية.",
+      "examples": [
+        {
+          "de": "Perfektionismus kann dazu führen, dass Aufgaben unnötig lange dauern.",
+          "ar": "قد يؤدي السعي للكمال إلى إطالة المهام بلا حاجة."
+        },
+        {
+          "de": "Realistische Standards helfen gegen belastenden Perfektionismus.",
+          "ar": "تساعد المعايير الواقعية في الحد من الكمالية المرهقة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125
+        ],
+        "section": "Vereinfachung"
+      },
+      "tags": [
+        "psychologie",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v082",
+      "identity": "es gelingt jemandem, etwas zu tun",
+      "term": "es gelingt jemandem, etwas zu tun",
+      "type": "phrase",
+      "arabic": "ينجح شخص في فعل شيء",
+      "explanation_de": "Eine unpersönliche Konstruktion, mit der ein erfolgreicher Versuch beschrieben wird.",
+      "explanation_ar": "تركيب غير شخصي للتعبير عن نجاح شخص في فعل أمر.",
+      "examples": [
+        {
+          "de": "Es gelingt ihr immer besser, Pausen einzuplanen.",
+          "ar": "تنجح أكثر فأكثر في التخطيط للاستراحات."
+        },
+        {
+          "de": "Trotz Stress ist es ihm gelungen, ruhig zu bleiben.",
+          "ar": "نجح في البقاء هادئًا رغم الضغط."
+        }
+      ],
+      "grammar": {
+        "pattern": "es gelingt + Dativ, ... zu",
+        "praeteritum": "es gelang",
+        "perfekt": "es ist gelungen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          125,
+          130,
+          132
+        ],
+        "section": "Ausdrücke mit es"
+      },
+      "tags": [
+        "grammatik",
+        "es"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v083",
+      "identity": "es fällt jemandem schwer, etwas zu tun",
+      "term": "es fällt jemandem schwer, etwas zu tun",
+      "type": "phrase",
+      "arabic": "يصعب على شخص فعل شيء",
+      "explanation_de": "Eine Konstruktion, mit der persönliche Schwierigkeit ausgedrückt wird.",
+      "explanation_ar": "تركيب للتعبير عن صعوبة فعل أمر بالنسبة إلى شخص.",
+      "examples": [
+        {
+          "de": "Es fällt ihr schwer, nach der Arbeit abzuschalten.",
+          "ar": "يصعب عليها الاسترخاء بعد العمل."
+        },
+        {
+          "de": "Vielen Menschen fällt es schwer, Dinge wegzugeben.",
+          "ar": "يصعب على أشخاص كثيرين التخلي عن الأشياء."
+        }
+      ],
+      "grammar": {
+        "pattern": "es fällt + Dativ schwer, ... zu",
+        "praeteritum": "es fiel schwer",
+        "perfekt": "es ist schwergefallen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          124,
+          125,
+          130,
+          132
+        ],
+        "section": "Ausdrücke mit es"
+      },
+      "tags": [
+        "grammatik",
+        "es"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v084",
+      "identity": "es ärgert jemanden, dass ...",
+      "term": "es ärgert jemanden, dass ...",
+      "type": "phrase",
+      "arabic": "يزعج شخصًا أن...",
+      "explanation_de": "Eine unpersönliche Konstruktion zum Ausdruck von Ärger über eine Situation.",
+      "explanation_ar": "تركيب للتعبير عن انزعاج شخص من موقف.",
+      "examples": [
+        {
+          "de": "Es ärgert mich, dass Termine ständig verschoben werden.",
+          "ar": "يزعجني أن المواعيد تؤجل باستمرار."
+        },
+        {
+          "de": "Es hat sie geärgert, dass niemand Bescheid gesagt hat.",
+          "ar": "أزعجها أن أحدًا لم يخبرها."
+        }
+      ],
+      "grammar": {
+        "pattern": "es ärgert + Akkusativ, dass ...",
+        "praeteritum": "es ärgerte",
+        "perfekt": "es hat geärgert"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          130,
+          132
+        ],
+        "section": "Ausdrücke mit es"
+      },
+      "tags": [
+        "grammatik",
+        "es"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v085",
+      "identity": "es freut jemanden, dass ...",
+      "term": "es freut jemanden, dass ...",
+      "type": "phrase",
+      "arabic": "يسعد شخصًا أن...",
+      "explanation_de": "Eine unpersönliche Konstruktion, mit der Freude über eine Tatsache ausgedrückt wird.",
+      "explanation_ar": "تركيب للتعبير عن السعادة بسبب أمر.",
+      "examples": [
+        {
+          "de": "Es freut mich, dass sich ihr Zustand verbessert hat.",
+          "ar": "يسعدني أن حالتها تحسنت."
+        },
+        {
+          "de": "Es hat das Team gefreut, dass die Vertretung gefunden wurde.",
+          "ar": "أسعد الفريق العثور على بديل."
+        }
+      ],
+      "grammar": {
+        "pattern": "es freut + Akkusativ, dass ...",
+        "praeteritum": "es freute",
+        "perfekt": "es hat gefreut"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          128,
+          130,
+          132
+        ],
+        "section": "Ausdrücke mit es"
+      },
+      "tags": [
+        "grammatik",
+        "es"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v086",
+      "identity": "es ist jemandem wichtig, etwas zu tun",
+      "term": "es ist jemandem wichtig, etwas zu tun",
+      "type": "phrase",
+      "arabic": "من المهم لشخص أن يفعل شيئًا",
+      "explanation_de": "Eine Konstruktion, mit der eine persönliche Priorität ausgedrückt wird.",
+      "explanation_ar": "تركيب للتعبير عن أولوية شخصية.",
+      "examples": [
+        {
+          "de": "Es ist ihr wichtig, Patientinnen respektvoll zu behandeln.",
+          "ar": "من المهم لها معاملة المرضى باحترام."
+        },
+        {
+          "de": "Uns ist es wichtig, die Arbeit sachlich zu dokumentieren.",
+          "ar": "من المهم لنا توثيق العمل بموضوعية."
+        }
+      ],
+      "grammar": {
+        "pattern": "es ist + Dativ wichtig, ... zu"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128,
+          132
+        ],
+        "section": "Infinitiv mit zu"
+      },
+      "tags": [
+        "grammatik",
+        "zu"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v087",
+      "identity": "es kostet jemanden kraft, etwas zu tun",
+      "term": "es kostet jemanden Kraft, etwas zu tun",
+      "type": "phrase",
+      "arabic": "يتطلب من شخص جهدًا لفعل شيء",
+      "explanation_de": "Eine Konstruktion, die ausdrückt, dass eine Handlung körperlich oder psychisch anstrengend ist.",
+      "explanation_ar": "تركيب يوضح أن الفعل يحتاج إلى جهد جسدي أو نفسي.",
+      "examples": [
+        {
+          "de": "Es kostet sie viel Kraft, nach der Nachtschicht konzentriert zu bleiben.",
+          "ar": "يتطلب منها جهدًا كبيرًا للبقاء مركزة بعد المناوبة الليلية."
+        },
+        {
+          "de": "Die ständige Unsicherheit kostet viele Beschäftigte Kraft.",
+          "ar": "تستهلك حالة عدم اليقين المستمرة طاقة موظفين كثيرين."
+        }
+      ],
+      "grammar": {
+        "pattern": "es kostet + Akkusativ Kraft, ... zu"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          128,
+          130,
+          131
+        ],
+        "section": "Ausdrücke mit es"
+      },
+      "tags": [
+        "grammatik",
+        "es"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v088",
+      "identity": "darauf angewiesen sein, etwas zu tun",
+      "term": "darauf angewiesen sein, etwas zu tun",
+      "type": "phrase",
+      "arabic": "يكون مضطرًا أو معتمدًا على فعل شيء",
+      "explanation_de": "Von einer Voraussetzung, Hilfe oder Möglichkeit abhängig sein.",
+      "explanation_ar": "أن يعتمد على أمر أو يكون محتاجًا إليه.",
+      "examples": [
+        {
+          "de": "Viele Patientinnen sind darauf angewiesen, unterstützt zu werden.",
+          "ar": "يعتمد مرضى كثيرون على الحصول على الدعم."
+        },
+        {
+          "de": "Der Pflegedienst ist darauf angewiesen, eine Vertretung zu finden.",
+          "ar": "تعتمد خدمة الرعاية على إيجاد بديل."
+        }
+      ],
+      "grammar": {
+        "pattern": "darauf angewiesen sein, ... zu"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Infinitiv mit zu"
+      },
+      "tags": [
+        "grammatik",
+        "zu"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v089",
+      "identity": "die chance haben, etwas zu tun",
+      "term": "die Chance haben, etwas zu tun",
+      "type": "phrase",
+      "arabic": "تتاح له فرصة فعل شيء",
+      "explanation_de": "Eine reale Möglichkeit besitzen, ein Ziel zu erreichen oder eine Handlung auszuführen.",
+      "explanation_ar": "امتلاك إمكانية حقيقية لفعل أمر أو تحقيق هدف.",
+      "examples": [
+        {
+          "de": "Im ambulanten Dienst hat er die Chance, selbstständiger zu arbeiten.",
+          "ar": "تتاح له فرصة العمل باستقلالية أكبر في الرعاية المنزلية."
+        },
+        {
+          "de": "Durch Weiterbildung hat sie die Chance, sich zu spezialisieren.",
+          "ar": "تتاح لها فرصة التخصص عبر التطوير المهني."
+        }
+      ],
+      "grammar": {
+        "pattern": "die Chance haben, ... zu"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Infinitiv mit zu"
+      },
+      "tags": [
+        "grammatik",
+        "zu"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u07-v090",
+      "identity": "sich darüber ärgern, etwas tun zu müssen",
+      "term": "sich darüber ärgern, etwas tun zu müssen",
+      "type": "phrase",
+      "arabic": "ينزعج من اضطراره لفعل شيء",
+      "explanation_de": "Ärger darüber empfinden, dass eine Handlung notwendig oder verpflichtend ist.",
+      "explanation_ar": "الشعور بالانزعاج بسبب ضرورة القيام بفعل.",
+      "examples": [
+        {
+          "de": "Er ärgert sich darüber, jeden Bericht doppelt schreiben zu müssen.",
+          "ar": "ينزعج من اضطراره إلى كتابة كل تقرير مرتين."
+        },
+        {
+          "de": "Die Pflegekraft hat sich darüber geärgert, lange warten zu müssen.",
+          "ar": "انزعجت موظفة الرعاية من اضطرارها للانتظار طويلًا."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich darüber ärgern, ... zu müssen"
+      },
+      "source": {
+        "unit": 7,
+        "pages": [
+          121,
+          128
+        ],
+        "section": "Infinitiv mit zu"
+      },
+      "tags": [
+        "grammatik",
+        "zu"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

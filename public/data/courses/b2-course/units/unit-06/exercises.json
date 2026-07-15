@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 6,
+  "unitTitle_de": "Arbeit in der Metropolregion",
+  "unitTitle_ar": "العمل في المنطقة الحضرية الكبرى",
+  "grammarFocus": [
+    "Nomen-Verb-Verbindungen",
+    "Präpositionen in regionalen und beruflichen Kontexten",
+    "formelles Bewerbungsschreiben",
+    "Fragen zu Stellenanzeigen und Arbeitsverträgen",
+    "Wortbildung aus Verben und Nomen"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u06-e001",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Metropolregion",
+      "title_ar": "المنطقة الحضرية الكبرى",
+      "prompt_de": "Was ist eine Metropolregion?",
+      "prompt_ar": "ما المقصود بمنطقة حضرية كبرى؟",
+      "answer": "Ein eng verbundener Lebens- und Wirtschaftsraum mit mehreren Städten.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ein eng verbundener Lebens- und Wirtschaftsraum mit mehreren Städten.",
+        "Ein einzelnes Dorf ohne Verkehrsanbindung.",
+        "Nur ein Industriegebiet außerhalb einer Stadt.",
+        "Eine Region ohne Arbeitsplätze und Hochschulen."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v001",
+        "b2u06-v002"
+      ]
+    },
+    {
+      "id": "b2u06-e002",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsmarkt",
+      "title_ar": "سوق العمل",
+      "prompt_de": "Was bedeutet „Fachkräftebedarf“?",
+      "prompt_ar": "ما معنى Fachkräftebedarf؟",
+      "answer": "Bedarf an qualifizierten Beschäftigten",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Bedarf an qualifizierten Beschäftigten",
+        "Zahl der Urlaubstage",
+        "Kosten einer Wohnung",
+        "Anzahl kultureller Veranstaltungen"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v005",
+        "b2u06-v006"
+      ]
+    },
+    {
+      "id": "b2u06-e003",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Regionale Faktoren",
+      "title_ar": "عوامل المنطقة",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بالشروح.",
+      "answer": {
+        "die Verkehrsanbindung": "Erreichbarkeit mit Straße, Bahn und Nahverkehr",
+        "die Lebenshaltungskosten": "Ausgaben für Wohnen und täglichen Bedarf",
+        "die Infrastruktur": "grundlegende Verkehrs-, Bildungs- und Versorgungsnetze",
+        "die Lebensqualität": "Bedingungen für ein angenehmes und sicheres Leben"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Verkehrsanbindung",
+          "Erreichbarkeit mit Straße, Bahn und Nahverkehr"
+        ],
+        [
+          "die Lebenshaltungskosten",
+          "Ausgaben für Wohnen und täglichen Bedarf"
+        ],
+        [
+          "die Infrastruktur",
+          "grundlegende Verkehrs-, Bildungs- und Versorgungsnetze"
+        ],
+        [
+          "die Lebensqualität",
+          "Bedingungen für ein angenehmes und sicheres Leben"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v014",
+        "b2u06-v016",
+        "b2u06-v015",
+        "b2u06-v008"
+      ]
+    },
+    {
+      "id": "b2u06-e004",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Wohnraum",
+      "title_ar": "السكن",
+      "prompt_de": "Bezahlbarer ______ wird in vielen Städten knapp.",
+      "prompt_ar": "يصبح ______ المناسب ماديًا نادرًا في مدن كثيرة.",
+      "answer": "Wohnraum",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wohnraum",
+        "der Wohnraum"
+      ],
+      "completedSentence_de": "Bezahlbarer Wohnraum wird in vielen Städten knapp.",
+      "completedSentence_ar": "يصبح السكن المناسب ماديًا نادرًا في مدن كثيرة.",
+      "vocabularyRefs": [
+        "b2u06-v007"
+      ]
+    },
+    {
+      "id": "b2u06-e005",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Integration",
+      "title_ar": "الاندماج",
+      "prompt_de": "Gute Sprachkenntnisse erleichtern die ______ am Arbeitsplatz.",
+      "prompt_ar": "تسهل المعرفة اللغوية ______ في مكان العمل.",
+      "answer": "Integration",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Integration",
+        "die Integration"
+      ],
+      "completedSentence_de": "Gute Sprachkenntnisse erleichtern die Integration am Arbeitsplatz.",
+      "completedSentence_ar": "تسهل المعرفة اللغوية الاندماج في مكان العمل.",
+      "vocabularyRefs": [
+        "b2u06-v010"
+      ]
+    },
+    {
+      "id": "b2u06-e006",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Nomen-Verb-Verbindungen",
+      "title_ar": "تراكيب الاسم والفعل",
+      "prompt_de": "Ordnen Sie die passenden Verbindungen zu.",
+      "prompt_ar": "صِل كل اسم بالفعل المناسب.",
+      "answer": {
+        "Gedanken": "machen",
+        "Kosten": "tragen",
+        "Kontakt": "aufnehmen",
+        "Hilfe": "leisten",
+        "Einfluss": "nehmen"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Gedanken",
+          "machen"
+        ],
+        [
+          "Kosten",
+          "tragen"
+        ],
+        [
+          "Kontakt",
+          "aufnehmen"
+        ],
+        [
+          "Hilfe",
+          "leisten"
+        ],
+        [
+          "Einfluss",
+          "nehmen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v019",
+        "b2u06-v020",
+        "b2u06-v021",
+        "b2u06-v022",
+        "b2u06-v023"
+      ]
+    },
+    {
+      "id": "b2u06-e007",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Nomen-Verb-Verbindung",
+      "title_ar": "تركيب اسمي فعلي",
+      "prompt_de": "Das Unternehmen trägt die ______ der Weiterbildung.",
+      "prompt_ar": "تتحمل الشركة ______ التدريب الإضافي.",
+      "answer": "Kosten",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Kosten",
+        "die Kosten"
+      ],
+      "completedSentence_de": "Das Unternehmen trägt die Kosten der Weiterbildung.",
+      "completedSentence_ar": "تتحمل الشركة تكاليف التدريب الإضافي.",
+      "vocabularyRefs": [
+        "b2u06-v020"
+      ]
+    },
+    {
+      "id": "b2u06-e008",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Nomen-Verb-Verbindung",
+      "title_ar": "تركيب اسمي فعلي",
+      "prompt_de": "Die Integrationshelferin nimmt Kontakt mit dem neuen Mitarbeiter ______.",
+      "prompt_ar": "تبدأ مساعدة الاندماج التواصل مع الموظف الجديد.",
+      "answer": "auf",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "completedSentence_de": "Die Integrationshelferin nimmt Kontakt mit dem neuen Mitarbeiter auf.",
+      "completedSentence_ar": "تبدأ مساعدة الاندماج التواصل مع الموظف الجديد.",
+      "vocabularyRefs": [
+        "b2u06-v021"
+      ]
+    },
+    {
+      "id": "b2u06-e009",
+      "unit": 6,
+      "type": "scenario_choice",
+      "title_de": "In Kauf nehmen",
+      "title_ar": "تقبّل السلبيات",
+      "prompt_de": "Eine Stelle ist sehr interessant, aber der Arbeitsweg dauert 70 Minuten. Welche Aussage passt?",
+      "prompt_ar": "الوظيفة مهمة لكن طريق العمل يستغرق 70 دقيقة. أي عبارة مناسبة؟",
+      "answer": "Für die Stelle nehme ich den längeren Arbeitsweg in Kauf.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Für die Stelle nehme ich den längeren Arbeitsweg in Kauf.",
+        "Der Arbeitsweg leistet Hilfe.",
+        "Die Stelle trägt Kontakt.",
+        "Die Kosten kommen nicht auf."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v024"
+      ]
+    },
+    {
+      "id": "b2u06-e010",
+      "unit": 6,
+      "type": "scenario_choice",
+      "title_de": "Nicht infrage kommen",
+      "title_ar": "ليس خيارًا ممكنًا",
+      "prompt_de": "Die Miete ist höher als das gesamte Einkommen. Welche Formulierung passt?",
+      "prompt_ar": "الإيجار أعلى من الدخل كله. أي صياغة مناسبة؟",
+      "answer": "Diese Wohnung kommt für uns nicht infrage.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Diese Wohnung kommt für uns nicht infrage.",
+        "Diese Wohnung nimmt Einfluss.",
+        "Diese Wohnung leistet Hilfe.",
+        "Diese Wohnung hält einen Kurzvortrag."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v025"
+      ]
+    },
+    {
+      "id": "b2u06-e011",
+      "unit": 6,
+      "type": "sentence_build",
+      "title_de": "Nomen-Verb-Verbindung",
+      "title_ar": "بناء جملة",
+      "prompt_de": "Bilden Sie einen Satz: Unternehmen / auf die Arbeitsmarktentwicklung / Einfluss nehmen",
+      "prompt_ar": "كوّن جملة: تؤثر الشركات في تطور سوق العمل.",
+      "answer": "Unternehmen nehmen auf die Arbeitsmarktentwicklung Einfluss.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Unternehmen nehmen auf die Arbeitsmarktentwicklung Einfluss.",
+        "Die Unternehmen nehmen Einfluss auf die Arbeitsmarktentwicklung."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v023",
+        "b2u06-v012"
+      ]
+    },
+    {
+      "id": "b2u06-e012",
+      "unit": 6,
+      "type": "guided_speaking",
+      "title_de": "Wohnort und Arbeitsplatz",
+      "title_ar": "مكان السكن والعمل",
+      "prompt_de": "Sprechen Sie zwei Minuten darüber, welche Faktoren eine Region für Beschäftigte attraktiv machen.",
+      "prompt_ar": "تحدث دقيقتين عن العوامل التي تجعل المنطقة جذابة للموظفين.",
+      "answer": {
+        "requiredConcepts": [
+          "Arbeitsplätze und Fachkräftebedarf",
+          "Wohnraum und Lebenshaltungskosten",
+          "Verkehrsanbindung",
+          "Lebensqualität",
+          "Freizeitangebot",
+          "eigene Prioritäten"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v003",
+        "b2u06-v005",
+        "b2u06-v007",
+        "b2u06-v016",
+        "b2u06-v014",
+        "b2u06-v008",
+        "b2u06-v027"
+      ]
+    },
+    {
+      "id": "b2u06-e013",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Kurzvortrag",
+      "title_ar": "عرض قصير",
+      "prompt_de": "Welche Struktur passt zu einem Kurzvortrag über eine Region?",
+      "prompt_ar": "أي بنية تناسب عرضًا قصيرًا عن منطقة؟",
+      "answer": "Einleitung – wichtige Aspekte – eigene Bewertung – Schluss",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Einleitung – wichtige Aspekte – eigene Bewertung – Schluss",
+        "nur einzelne Stichwörter ohne Zusammenhang",
+        "lange Begrüßung ohne Inhalt",
+        "nur private Fragen an das Publikum"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v026"
+      ]
+    },
+    {
+      "id": "b2u06-e014",
+      "unit": 6,
+      "type": "sentence_order",
+      "title_de": "Region präsentieren",
+      "title_ar": "تقديم منطقة",
+      "prompt_de": "Ordnen Sie den Aufbau einer kurzen Präsentation.",
+      "prompt_ar": "رتّب بنية عرض قصير عن منطقة.",
+      "answer": [
+        "Region nennen und Lage erklären",
+        "Arbeitsmarkt und Infrastruktur beschreiben",
+        "Wohn- und Freizeitmöglichkeiten nennen",
+        "Vor- und Nachteile bewerten",
+        "persönliches Fazit geben"
+      ],
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Vor- und Nachteile bewerten",
+        "Region nennen und Lage erklären",
+        "persönliches Fazit geben",
+        "Wohn- und Freizeitmöglichkeiten nennen",
+        "Arbeitsmarkt und Infrastruktur beschreiben"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v026",
+        "b2u06-v015",
+        "b2u06-v027"
+      ]
+    },
+    {
+      "id": "b2u06-e015",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Regionale Angebote",
+      "title_ar": "عروض المنطقة",
+      "prompt_de": "Ordnen Sie das Angebot der passenden Beschreibung zu.",
+      "prompt_ar": "صِل العرض بالوصف.",
+      "answer": {
+        "der Anfängerkurs": "Grundlagen ohne Vorkenntnisse lernen",
+        "der Fotokurs": "Bildgestaltung und Kameratechnik üben",
+        "die Kosmetikbehandlung": "professionelle Pflege von Haut oder Körper",
+        "die Schlossbeleuchtung": "kulturelle Veranstaltung an einem Schloss"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Anfängerkurs",
+          "Grundlagen ohne Vorkenntnisse lernen"
+        ],
+        [
+          "der Fotokurs",
+          "Bildgestaltung und Kameratechnik üben"
+        ],
+        [
+          "die Kosmetikbehandlung",
+          "professionelle Pflege von Haut oder Körper"
+        ],
+        [
+          "die Schlossbeleuchtung",
+          "kulturelle Veranstaltung an einem Schloss"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v033",
+        "b2u06-v035",
+        "b2u06-v034",
+        "b2u06-v032"
+      ]
+    },
+    {
+      "id": "b2u06-e016",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Bundesfreiwilligendienst",
+      "title_ar": "الخدمة التطوعية",
+      "prompt_de": "Wobei kann der Bundesfreiwilligendienst besonders helfen?",
+      "prompt_ar": "في ماذا قد تساعد الخدمة التطوعية خصوصًا؟",
+      "answer": "bei beruflicher Orientierung und praktischer Erfahrung",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "bei beruflicher Orientierung und praktischer Erfahrung",
+        "beim Abschluss eines Kaufvertrags",
+        "bei der Berechnung der Probezeit",
+        "beim Ersetzen einer Hochschulzulassung"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v029",
+        "b2u06-v030",
+        "b2u06-v031"
+      ]
+    },
+    {
+      "id": "b2u06-e017",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Berufliche Orientierung",
+      "title_ar": "التوجيه المهني",
+      "prompt_de": "Ein Praktikum hilft dabei, sich beruflich zu ______.",
+      "prompt_ar": "يساعد التدريب العملي على ______ المهني.",
+      "answer": "orientieren",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "orientieren"
+      ],
+      "completedSentence_de": "Ein Praktikum hilft dabei, sich beruflich zu orientieren.",
+      "completedSentence_ar": "يساعد التدريب العملي على تحديد الاتجاه المهني.",
+      "vocabularyRefs": [
+        "b2u06-v030"
+      ]
+    },
+    {
+      "id": "b2u06-e018",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Praktische Erfahrung",
+      "title_ar": "الخبرة العملية",
+      "prompt_de": "Im Freiwilligendienst kann man wertvolle Arbeitserfahrung ______.",
+      "prompt_ar": "يمكن ______ خبرة عملية قيّمة في الخدمة التطوعية.",
+      "answer": "sammeln",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "sammeln"
+      ],
+      "completedSentence_de": "Im Freiwilligendienst kann man wertvolle Arbeitserfahrung sammeln.",
+      "completedSentence_ar": "يمكن اكتساب خبرة عملية قيّمة في الخدمة التطوعية.",
+      "vocabularyRefs": [
+        "b2u06-v031"
+      ]
+    },
+    {
+      "id": "b2u06-e019",
+      "unit": 6,
+      "type": "guided_writing",
+      "title_de": "Meine Region",
+      "title_ar": "منطقتي",
+      "prompt_de": "Schreiben Sie 100–120 Wörter über eine Stadt oder Region, die Sie gut kennen.",
+      "prompt_ar": "اكتب 100–120 كلمة عن مدينة أو منطقة تعرفها جيدًا.",
+      "answer": {
+        "requiredConcepts": [
+          "Lage und Größe",
+          "Arbeitsmöglichkeiten",
+          "Verkehrsanbindung",
+          "Wohnraum und Lebenshaltungskosten",
+          "Freizeitangebot",
+          "persönliche Empfehlung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v014",
+        "b2u06-v007",
+        "b2u06-v016",
+        "b2u06-v027"
+      ]
+    },
+    {
+      "id": "b2u06-e020",
+      "unit": 6,
+      "type": "guided_speaking",
+      "title_de": "Betriebsausflug planen",
+      "title_ar": "تخطيط رحلة الشركة",
+      "prompt_de": "Planen Sie im Team einen Betriebsausflug in Ihrer Region.",
+      "prompt_ar": "خطط مع الفريق لرحلة شركة في منطقتك.",
+      "answer": {
+        "requiredConcepts": [
+          "Ausflugsziel",
+          "Anreise",
+          "Zeitplan",
+          "Aktivitäten",
+          "Kosten",
+          "Alternative bei schlechtem Wetter"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v028",
+        "b2u06-v014",
+        "b2u06-v020"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v001",
+        "b2u03-v002"
+      ]
+    },
+    {
+      "id": "b2u06-e021",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Duales Studium",
+      "title_ar": "الدراسة المزدوجة",
+      "prompt_de": "Was verbindet ein duales Studium?",
+      "prompt_ar": "ماذا تجمع الدراسة المزدوجة؟",
+      "answer": "Hochschulstudium und regelmäßige Praxis im Unternehmen",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Hochschulstudium und regelmäßige Praxis im Unternehmen",
+        "nur Unterricht ohne praktische Arbeit",
+        "ausschließlich ein unbezahltes Praktikum",
+        "nur einen Sprachkurs"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v036",
+        "b2u06-v068"
+      ]
+    },
+    {
+      "id": "b2u06-e022",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Duales Studium",
+      "title_ar": "الدراسة المزدوجة",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "der Studiengang": "akademisches Programm mit festen Inhalten",
+        "die Zulassungsvoraussetzung": "Bedingung für die Aufnahme",
+        "die Ausbildungsdauer": "gesamte vorgesehene Zeit",
+        "der Ausbildungsort": "Ort von Hochschule oder Praxis"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Studiengang",
+          "akademisches Programm mit festen Inhalten"
+        ],
+        [
+          "die Zulassungsvoraussetzung",
+          "Bedingung für die Aufnahme"
+        ],
+        [
+          "die Ausbildungsdauer",
+          "gesamte vorgesehene Zeit"
+        ],
+        [
+          "der Ausbildungsort",
+          "Ort von Hochschule oder Praxis"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v037",
+        "b2u06-v038",
+        "b2u06-v040",
+        "b2u06-v041"
+      ]
+    },
+    {
+      "id": "b2u06-e023",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Zulassung",
+      "title_ar": "القبول",
+      "prompt_de": "Für den Studiengang ist eine Hochschul______ erforderlich.",
+      "prompt_ar": "يتطلب البرنامج الجامعي ______ جامعيًا.",
+      "answer": "zulassung",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "zulassung",
+        "Hochschulzulassung"
+      ],
+      "completedSentence_de": "Für den Studiengang ist eine Hochschulzulassung erforderlich.",
+      "completedSentence_ar": "يتطلب البرنامج الجامعي مؤهل دخول جامعي.",
+      "vocabularyRefs": [
+        "b2u06-v039"
+      ]
+    },
+    {
+      "id": "b2u06-e024",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Vergütung",
+      "title_ar": "البدل المالي",
+      "prompt_de": "Was bedeutet „überdurchschnittliche Vergütung“?",
+      "prompt_ar": "ما معنى بدل مالي أعلى من المتوسط؟",
+      "answer": "Die Bezahlung liegt über dem üblichen Niveau.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Bezahlung liegt über dem üblichen Niveau.",
+        "Es wird gar nichts bezahlt.",
+        "Die Arbeitszeit wird verkürzt.",
+        "Die Zulassung wird automatisch erteilt."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v042",
+        "b2u06-v043"
+      ]
+    },
+    {
+      "id": "b2u06-e025",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Bewerbungsschreiben",
+      "title_ar": "رسالة التقديم",
+      "prompt_de": "Was gehört in ein professionelles Bewerbungsschreiben?",
+      "prompt_ar": "ماذا يجب أن يتضمن خطاب تقديم مهني؟",
+      "answer": "Motivation, passende Erfahrung und Bezug zur Stelle",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Motivation, passende Erfahrung und Bezug zur Stelle",
+        "private Gerüchte über das Unternehmen",
+        "nur die eigene Adresse",
+        "eine vollständige Wiederholung des Lebenslaufs"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v047",
+        "b2u06-v048"
+      ]
+    },
+    {
+      "id": "b2u06-e026",
+      "unit": 6,
+      "type": "sentence_order",
+      "title_de": "Anschreiben gliedern",
+      "title_ar": "تنظيم خطاب التقديم",
+      "prompt_de": "Ordnen Sie die Teile eines Anschreibens.",
+      "prompt_ar": "رتّب أجزاء خطاب التقديم.",
+      "answer": [
+        "Anrede",
+        "Bezug auf die Stellenanzeige",
+        "Motivation und Interesse",
+        "bisherige und derzeitige Tätigkeit",
+        "Qualifikationen und Sprachkenntnisse",
+        "Bitte um Gespräch",
+        "Grußformel"
+      ],
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Qualifikationen und Sprachkenntnisse",
+        "Grußformel",
+        "Anrede",
+        "bisherige und derzeitige Tätigkeit",
+        "Bitte um Gespräch",
+        "Motivation und Interesse",
+        "Bezug auf die Stellenanzeige"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v049",
+        "b2u06-v050",
+        "b2u06-v051",
+        "b2u06-v052"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u06-e027",
+      "unit": 6,
+      "type": "email_order",
+      "title_de": "Bewerbung per E-Mail",
+      "title_ar": "التقديم عبر البريد",
+      "prompt_de": "Ordnen Sie die E-Mail zur Bewerbung.",
+      "prompt_ar": "رتّب رسالة التقديم عبر البريد.",
+      "answer": [
+        "anrede",
+        "bezug",
+        "motivation",
+        "erfahrung",
+        "anlage",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "anlage",
+          "text": "Meine vollständigen Bewerbungsunterlagen finden Sie im Anhang."
+        },
+        {
+          "id": "motivation",
+          "text": "Besonders interessiert mich die Verbindung von Anlagenbau und Recyclingtechnik."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Frau Beyerle,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "bezug",
+          "text": "hiermit bewerbe ich mich um den ausgeschriebenen dualen Studienplatz."
+        },
+        {
+          "id": "erfahrung",
+          "text": "Durch mein Praktikum habe ich bereits praktische Erfahrung gesammelt."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u06-v058",
+        "b2u06-v059",
+        "b2u06-v031"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u04-v041",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u06-e028",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Berufliche Entwicklung",
+      "title_ar": "التطور المهني",
+      "prompt_de": "Das duale Studium bietet mir die Möglichkeit, mich beruflich ______.",
+      "prompt_ar": "تتيح لي الدراسة المزدوجة أن ______ مهنيًا.",
+      "answer": "weiterzuentwickeln",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "weiterzuentwickeln"
+      ],
+      "completedSentence_de": "Das duale Studium bietet mir die Möglichkeit, mich beruflich weiterzuentwickeln.",
+      "completedSentence_ar": "تتيح لي الدراسة المزدوجة التطور مهنيًا.",
+      "vocabularyRefs": [
+        "b2u06-v055"
+      ]
+    },
+    {
+      "id": "b2u06-e029",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Motivation",
+      "title_ar": "الدافع",
+      "prompt_de": "Ich möchte mich den neuen Herausforderungen aktiv ______.",
+      "prompt_ar": "أريد أن ______ التحديات الجديدة بفعالية.",
+      "answer": "stellen",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "stellen"
+      ],
+      "completedSentence_de": "Ich möchte mich den neuen Herausforderungen aktiv stellen.",
+      "completedSentence_ar": "أريد أن أواجه التحديات الجديدة بفعالية.",
+      "vocabularyRefs": [
+        "b2u06-v056"
+      ]
+    },
+    {
+      "id": "b2u06-e030",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Schwerpunkt",
+      "title_ar": "التركيز",
+      "prompt_de": "Welche Formulierung ist korrekt?",
+      "prompt_ar": "أي صياغة صحيحة؟",
+      "answer": "Ich lege meinen Schwerpunkt auf Recyclingtechnik.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich lege meinen Schwerpunkt auf Recyclingtechnik.",
+        "Ich trage meinen Schwerpunkt an Recyclingtechnik.",
+        "Ich nehme meinen Schwerpunkt bei Recyclingtechnik.",
+        "Ich leiste meinen Schwerpunkt über Recyclingtechnik."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v057",
+        "b2u06-v045"
+      ]
+    },
+    {
+      "id": "b2u06-e031",
+      "unit": 6,
+      "type": "scenario_choice",
+      "title_de": "Guter Eindruck",
+      "title_ar": "انطباع جيد",
+      "prompt_de": "Was hilft im Bewerbungsgespräch am meisten?",
+      "prompt_ar": "ما الذي يساعد أكثر في مقابلة التوظيف؟",
+      "answer": "gute Vorbereitung, klare Antworten und eigene Rückfragen",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "gute Vorbereitung, klare Antworten und eigene Rückfragen",
+        "unvorbereitet erscheinen",
+        "nur über das Gehalt sprechen",
+        "das Unternehmen nicht kennen"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v060",
+        "b2u06-v061"
+      ]
+    },
+    {
+      "id": "b2u06-e032",
+      "unit": 6,
+      "type": "dialogue_choice",
+      "title_de": "Rückfrage zur Stelle",
+      "title_ar": "سؤال عن الوظيفة",
+      "prompt_de": "Welche Rückfrage ist professionell?",
+      "prompt_ar": "أي سؤال مهني؟",
+      "answer": "Wie sind die Praxisphasen im Unternehmen organisiert?",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wie sind die Praxisphasen im Unternehmen organisiert?",
+        "Kann ich immer früher nach Hause gehen?",
+        "Warum zahlen Sie nicht sofort doppelt so viel?",
+        "Muss ich die Stellenanzeige wirklich lesen?"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v068"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v012"
+      ]
+    },
+    {
+      "id": "b2u06-e033",
+      "unit": 6,
+      "type": "guided_writing",
+      "title_de": "Anschreiben",
+      "title_ar": "خطاب تقديم",
+      "prompt_de": "Schreiben Sie ein Anschreiben mit 120–150 Wörtern für einen dualen Studienplatz.",
+      "prompt_ar": "اكتب خطاب تقديم من 120–150 كلمة لمقعد دراسة مزدوجة.",
+      "answer": {
+        "requiredConcepts": [
+          "Bezug auf die Anzeige",
+          "Motivation",
+          "bisherige oder derzeitige Tätigkeit",
+          "fachliche Kenntnisse",
+          "Sprachkenntnisse",
+          "Interesse am Unternehmen",
+          "Bitte um Vorstellungsgespräch"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v048",
+        "b2u06-v050",
+        "b2u06-v051",
+        "b2u06-v052",
+        "b2u06-v054"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u04-v041",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u06-e034",
+      "unit": 6,
+      "type": "guided_speaking",
+      "title_de": "Bewerbungsgespräch",
+      "title_ar": "مقابلة توظيف",
+      "prompt_de": "Führen Sie ein kurzes Bewerbungsgespräch für ein duales Studium.",
+      "prompt_ar": "أجرِ مقابلة قصيرة لدراسة مزدوجة.",
+      "answer": {
+        "requiredConcepts": [
+          "eigene Ausbildung",
+          "praktische Erfahrung",
+          "Motivation",
+          "Sprachkenntnisse",
+          "Stärken",
+          "Rückfrage zu Ausbildungsdauer oder Vergütung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v061",
+        "b2u06-v040",
+        "b2u06-v066",
+        "b2u06-v052"
+      ]
+    },
+    {
+      "id": "b2u06-e035",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Wortschatz Bewerbung",
+      "title_ar": "مفردات التقديم",
+      "prompt_de": "Ordnen Sie Begriff und Bedeutung zu.",
+      "prompt_ar": "صِل المصطلح بالمعنى.",
+      "answer": {
+        "das Know-how": "praktisches Fachwissen",
+        "die Muttersprache": "zuerst gelernte Sprache",
+        "die Gliederung": "sinnvolle Struktur eines Textes",
+        "die derzeitige Tätigkeit": "momentane Arbeit oder Ausbildung"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "das Know-how",
+          "praktisches Fachwissen"
+        ],
+        [
+          "die Muttersprache",
+          "zuerst gelernte Sprache"
+        ],
+        [
+          "die Gliederung",
+          "sinnvolle Struktur eines Textes"
+        ],
+        [
+          "die derzeitige Tätigkeit",
+          "momentane Arbeit oder Ausbildung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v054",
+        "b2u06-v053",
+        "b2u06-v049",
+        "b2u06-v051"
+      ]
+    },
+    {
+      "id": "b2u06-e036",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsvertrag",
+      "title_ar": "عقد العمل",
+      "prompt_de": "Welche Angaben gehören normalerweise in einen Arbeitsvertrag?",
+      "prompt_ar": "ما المعلومات التي توجد عادة في عقد العمل؟",
+      "answer": "Vergütung, Arbeitszeit, Urlaub und Kündigungsregeln",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Vergütung, Arbeitszeit, Urlaub und Kündigungsregeln",
+        "nur private Hobbys",
+        "nur die Telefonnummer der Firma",
+        "nur die Farbe des Büros"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v062",
+        "b2u06-v066",
+        "b2u06-v074"
+      ]
+    },
+    {
+      "id": "b2u06-e037",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Vertragsbegriffe",
+      "title_ar": "مصطلحات العقد",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بالشروح.",
+      "answer": {
+        "der Vertragsbeginn": "Zeitpunkt, an dem der Vertrag wirksam wird",
+        "die Vertragslaufzeit": "Zeitraum bis zum Vertragsende",
+        "die Probezeit": "erste Phase mit erleichterter Kündigung",
+        "die Vergütung": "finanzielle Gegenleistung"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Vertragsbeginn",
+          "Zeitpunkt, an dem der Vertrag wirksam wird"
+        ],
+        [
+          "die Vertragslaufzeit",
+          "Zeitraum bis zum Vertragsende"
+        ],
+        [
+          "die Probezeit",
+          "erste Phase mit erleichterter Kündigung"
+        ],
+        [
+          "die Vergütung",
+          "finanzielle Gegenleistung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v063",
+        "b2u06-v064",
+        "b2u06-v065",
+        "b2u06-v066"
+      ]
+    },
+    {
+      "id": "b2u06-e038",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Probezeit",
+      "title_ar": "فترة التجربة",
+      "prompt_de": "Während der ______ kann eine kürzere Kündigungsfrist gelten.",
+      "prompt_ar": "قد تسري مهلة إنهاء أقصر خلال ______.",
+      "answer": "Probezeit",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Probezeit",
+        "der Probezeit"
+      ],
+      "completedSentence_de": "Während der Probezeit kann eine kürzere Kündigungsfrist gelten.",
+      "completedSentence_ar": "قد تسري مهلة إنهاء أقصر خلال فترة التجربة.",
+      "vocabularyRefs": [
+        "b2u06-v065"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v036"
+      ]
+    },
+    {
+      "id": "b2u06-e039",
+      "unit": 6,
+      "type": "fill_blank",
+      "title_de": "Arbeitszeit",
+      "title_ar": "ساعات العمل",
+      "prompt_de": "Die regelmäßige wöchentliche ______ beträgt 38 Stunden.",
+      "prompt_ar": "تبلغ ______ الأسبوعية المنتظمة 38 ساعة.",
+      "answer": "Arbeitszeit",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Arbeitszeit",
+        "die Arbeitszeit"
+      ],
+      "completedSentence_de": "Die regelmäßige wöchentliche Arbeitszeit beträgt 38 Stunden.",
+      "completedSentence_ar": "تبلغ ساعات العمل الأسبوعية المنتظمة 38 ساعة.",
+      "vocabularyRefs": [
+        "b2u06-v067"
+      ]
+    },
+    {
+      "id": "b2u06-e040",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Praxisphase",
+      "title_ar": "المرحلة العملية",
+      "prompt_de": "Was geschieht in einer Praxisphase?",
+      "prompt_ar": "ماذا يحدث في المرحلة العملية؟",
+      "answer": "Die Studierenden arbeiten im Unternehmen und wenden Wissen praktisch an.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Studierenden arbeiten im Unternehmen und wenden Wissen praktisch an.",
+        "Es gibt nur Ferien.",
+        "Der Arbeitsvertrag endet automatisch.",
+        "Es werden keine Aufgaben übernommen."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v068",
+        "b2u06-v036"
+      ]
+    },
+    {
+      "id": "b2u06-e041",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Stillschweigen",
+      "title_ar": "السرية",
+      "prompt_de": "Was bedeutet „Stillschweigen bewahren“?",
+      "prompt_ar": "ما معنى Stillschweigen bewahren؟",
+      "answer": "Vertrauliche Informationen nicht weitergeben",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Vertrauliche Informationen nicht weitergeben",
+        "jede Information veröffentlichen",
+        "nur schriftlich sprechen",
+        "keine Fragen stellen"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v071",
+        "b2u06-v072"
+      ]
+    },
+    {
+      "id": "b2u06-e042",
+      "unit": 6,
+      "type": "scenario_choice",
+      "title_de": "Krankmeldung",
+      "title_ar": "الإبلاغ عن المرض",
+      "prompt_de": "Der Vertrag verlangt ab dem dritten Krankheitstag einen Nachweis. Was muss die Person tun?",
+      "prompt_ar": "يطلب العقد إثباتًا ابتداءً من اليوم الثالث للمرض. ماذا يجب أن يفعل الموظف؟",
+      "answer": "Eine ärztliche Bescheinigung fristgerecht einreichen.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine ärztliche Bescheinigung fristgerecht einreichen.",
+        "Den Betrieb gar nicht informieren.",
+        "Den Urlaubsanspruch erhöhen.",
+        "Die Vertragslaufzeit ändern."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v073"
+      ]
+    },
+    {
+      "id": "b2u06-e043",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Urlaubsanspruch",
+      "title_ar": "الحق في الإجازة",
+      "prompt_de": "Was beschreibt der Urlaubsanspruch?",
+      "prompt_ar": "ماذا يصف Urlaubsanspruch؟",
+      "answer": "die Zahl der vertraglich oder gesetzlich zustehenden Urlaubstage",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Zahl der vertraglich oder gesetzlich zustehenden Urlaubstage",
+        "die Dauer der Probezeit",
+        "die Höhe der monatlichen Miete",
+        "die Zahl der Bewerbungen"
+      ],
+      "vocabularyRefs": [
+        "b2u06-v074"
+      ]
+    },
+    {
+      "id": "b2u06-e044",
+      "unit": 6,
+      "type": "scenario_choice",
+      "title_de": "Kündigung",
+      "title_ar": "إنهاء العقد",
+      "prompt_de": "Ein schwerer Pflichtverstoß liegt vor. Welche Formulierung passt?",
+      "prompt_ar": "توجد مخالفة جسيمة. أي صياغة مناسبة؟",
+      "answer": "Unter bestimmten Bedingungen kann aus wichtigem Grund gekündigt werden.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Unter bestimmten Bedingungen kann aus wichtigem Grund gekündigt werden.",
+        "Der Wohnraum wird attraktiver.",
+        "Die Hochschule trägt Freizeitangebote.",
+        "Die Vergütung nimmt Kontakt auf."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v075"
+      ]
+    },
+    {
+      "id": "b2u06-e045",
+      "unit": 6,
+      "type": "multiple_choice",
+      "title_de": "Schriftform",
+      "title_ar": "الصيغة الكتابية",
+      "prompt_de": "Was bedeutet: „Die Änderung bedarf der Schriftform“?",
+      "prompt_ar": "ما معنى أن التعديل يحتاج إلى صيغة كتابية؟",
+      "answer": "Die Änderung muss schriftlich festgehalten werden.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Änderung muss schriftlich festgehalten werden.",
+        "Die Änderung darf nur telefonisch besprochen werden.",
+        "Die Änderung ist automatisch ungültig.",
+        "Die Änderung betrifft nur den Urlaub."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v077",
+        "b2u06-v078"
+      ]
+    },
+    {
+      "id": "b2u06-e046",
+      "unit": 6,
+      "type": "matching",
+      "title_de": "Vertragsänderungen",
+      "title_ar": "تعديلات العقد",
+      "prompt_de": "Ordnen Sie Begriff und Beschreibung zu.",
+      "prompt_ar": "صِل المصطلح بالوصف.",
+      "answer": {
+        "die Vertragsänderung": "bestehende Bedingung wird verändert",
+        "die Vertragsergänzung": "neue zusätzliche Regel wird aufgenommen",
+        "die Schriftform": "Vereinbarung wird schriftlich dokumentiert",
+        "der Schadensersatz": "Ausgleich für einen verursachten Schaden"
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Vertragsänderung",
+          "bestehende Bedingung wird verändert"
+        ],
+        [
+          "die Vertragsergänzung",
+          "neue zusätzliche Regel wird aufgenommen"
+        ],
+        [
+          "die Schriftform",
+          "Vereinbarung wird schriftlich dokumentiert"
+        ],
+        [
+          "der Schadensersatz",
+          "Ausgleich für einen verursachten Schaden"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u06-v078",
+        "b2u06-v079",
+        "b2u06-v077",
+        "b2u06-v076"
+      ]
+    },
+    {
+      "id": "b2u06-e047",
+      "unit": 6,
+      "type": "sentence_build",
+      "title_de": "Vertragssprache",
+      "title_ar": "لغة العقود",
+      "prompt_de": "Bilden Sie einen Satz: Änderungen / der Schriftform / bedürfen",
+      "prompt_ar": "كوّن جملة: تتطلب التعديلات صيغة كتابية.",
+      "answer": "Änderungen bedürfen der Schriftform.",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Änderungen bedürfen der Schriftform."
+      ],
+      "vocabularyRefs": [
+        "b2u06-v077"
+      ]
+    },
+    {
+      "id": "b2u06-e048",
+      "unit": 6,
+      "type": "verb_form",
+      "title_de": "Nomen aus Verben",
+      "title_ar": "أسماء مشتقة من الأفعال",
+      "prompt_de": "Welches Nomen gehört zu „kündigen“?",
+      "prompt_ar": "ما الاسم المشتق من kündigen؟",
+      "answer": "die Kündigung",
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "die Kündigung",
+        "Kündigung"
+      ]
+    },
+    {
+      "id": "b2u06-e049",
+      "unit": 6,
+      "type": "guided_writing",
+      "title_de": "Vertragsfragen",
+      "title_ar": "أسئلة حول العقد",
+      "prompt_de": "Formulieren Sie acht Fragen, die Sie vor der Unterschrift unter einen Arbeitsvertrag stellen würden.",
+      "prompt_ar": "صغ ثمانية أسئلة تطرحها قبل توقيع عقد العمل.",
+      "answer": {
+        "requiredConcepts": [
+          "Vertragsbeginn und Laufzeit",
+          "Probezeit",
+          "Vergütung",
+          "wöchentliche Arbeitszeit",
+          "Urlaubsanspruch",
+          "Weiterbildung",
+          "Kündigungsfrist",
+          "Praxis- oder Einsatzphasen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v062",
+        "b2u06-v063",
+        "b2u06-v064",
+        "b2u06-v065",
+        "b2u06-v066",
+        "b2u06-v067",
+        "b2u06-v074",
+        "b2u06-v070"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v036"
+      ]
+    },
+    {
+      "id": "b2u06-e050",
+      "unit": 6,
+      "type": "guided_speaking",
+      "title_de": "Arbeitsvertrag erklären",
+      "title_ar": "شرح عقد العمل",
+      "prompt_de": "Erklären Sie einer neuen Kollegin die wichtigsten Punkte eines Arbeitsvertrags.",
+      "prompt_ar": "اشرح لزميلة جديدة أهم نقاط عقد العمل.",
+      "answer": {
+        "requiredConcepts": [
+          "Beginn und Laufzeit",
+          "Probezeit",
+          "Vergütung und Arbeitszeit",
+          "Urlaub",
+          "Krankmeldung",
+          "Verschwiegenheit",
+          "Kündigung und Schriftform"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_06_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u06-v062",
+        "b2u06-v065",
+        "b2u06-v066",
+        "b2u06-v074",
+        "b2u06-v073",
+        "b2u06-v071",
+        "b2u06-v077"
+      ]
+    }
+  ]
+}

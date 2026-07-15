@@ -1,0 +1,2981 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 10,
+    "unitTitle_de": "Rechte und Pflichten",
+    "unitTitle_ar": "الحقوق والواجبات في العمل",
+    "sourcePages": [
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Arbeitsbedingungen und Gehalt",
+      "Arbeitsvertrag und Vertragssprache",
+      "Rechte und Pflichten im Betrieb",
+      "Gespräche mit Vorgesetzten",
+      "Kündigung und Kündigungsschutz",
+      "Arbeitsschutz",
+      "Präpositionen mit Genitiv"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter",
+      "Personen- und Firmennamen",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–9",
+      "Testtraining B auf den Seiten 185–190"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u04-v049",
+      "term": "die Arbeitsbedingung",
+      "sourceUnit": 4,
+      "pages": [
+        171,
+        173,
+        175,
+        184
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v087",
+      "term": "der Bruttolohn",
+      "sourceUnit": 4,
+      "pages": [
+        171,
+        178,
+        184
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v088",
+      "term": "der Nettolohn",
+      "sourceUnit": 4,
+      "pages": [
+        171,
+        178,
+        184
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u09-v082",
+      "term": "der Arbeitsschutz",
+      "sourceUnit": 9,
+      "pages": [
+        177,
+        183,
+        184
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u05-v030",
+      "term": "die Schutzausrüstung",
+      "sourceUnit": 5,
+      "pages": [
+        177,
+        183
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u01-v027",
+      "term": "die Ruhezeit",
+      "sourceUnit": 1,
+      "pages": [
+        177,
+        183
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 10 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v065",
+      "term": "die Probezeit",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v074",
+      "term": "der Urlaubsanspruch",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v062",
+      "term": "der Arbeitsvertrag",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v066",
+      "term": "die Vergütung",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v067",
+      "term": "die regelmäßige wöchentliche Arbeitszeit",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v005",
+      "term": "die Gleitzeit",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v057",
+      "term": "der Tarifvertrag",
+      "sourceUnit": 4,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v042",
+      "term": "die Nebentätigkeit",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v036",
+      "term": "die Kündigungsfrist",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v032",
+      "term": "der Betriebsrat",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v041",
+      "term": "der Betriebsfrieden",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v030",
+      "term": "die Diskriminierung",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v034",
+      "term": "die ordentliche Kündigung",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v035",
+      "term": "die außerordentliche Kündigung",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v040",
+      "term": "die Gewerkschaft",
+      "sourceUnit": 2,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v089",
+      "term": "die Auftragslage",
+      "sourceUnit": 4,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v071",
+      "term": "Stillschweigen bewahren",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v072",
+      "term": "das Betriebsgeheimnis",
+      "sourceUnit": 6,
+      "pages": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "reason": "In Kapitel 10 erneut relevant; vorhandene stabile ID wird wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u10-v001",
+      "identity": "der arbeitsort",
+      "term": "der Arbeitsort",
+      "type": "noun",
+      "arabic": "مكان العمل",
+      "explanation_de": "Der vertraglich vereinbarte Ort, an dem die Arbeit normalerweise ausgeführt wird.",
+      "explanation_ar": "المكان المحدد في العقد لأداء العمل عادة.",
+      "examples": [
+        {
+          "de": "Der Arbeitsort liegt in der Nähe des Bahnhofs.",
+          "ar": "يقع مكان العمل قرب المحطة."
+        },
+        {
+          "de": "Bei wechselnden Arbeitsorten muss der Vertrag klare Angaben enthalten.",
+          "ar": "يجب أن يذكر العقد أماكن العمل المتغيرة بوضوح."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitsorte"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          171,
+          178,
+          184
+        ],
+        "section": "Neue Arbeitsstelle"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v002",
+      "identity": "die kernarbeitszeit",
+      "term": "die Kernarbeitszeit",
+      "type": "noun",
+      "arabic": "فترة الحضور الإلزامي",
+      "explanation_de": "Der Zeitraum, in dem alle Beschäftigten trotz Gleitzeit anwesend sein müssen.",
+      "explanation_ar": "الفترة التي يجب أن يكون فيها الجميع حاضرين رغم الدوام المرن.",
+      "examples": [
+        {
+          "de": "Die Kernarbeitszeit dauert von neun bis fünfzehn Uhr.",
+          "ar": "تمتد فترة الحضور من التاسعة حتى الثالثة."
+        },
+        {
+          "de": "Außerhalb der Kernarbeitszeit kann sie flexibler planen.",
+          "ar": "يمكنها التخطيط بمرونة خارجها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kernarbeitszeiten"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          171,
+          178,
+          181
+        ],
+        "section": "Arbeitszeit"
+      },
+      "tags": [
+        "arbeitszeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v003",
+      "identity": "das homeoffice",
+      "term": "das Homeoffice",
+      "type": "noun",
+      "arabic": "العمل من المنزل",
+      "explanation_de": "Eine Arbeitsform, bei der Beschäftigte ihre Aufgaben von zu Hause erledigen.",
+      "explanation_ar": "نظام عمل ينجز فيه الموظف مهامه من المنزل.",
+      "examples": [
+        {
+          "de": "Im Homeoffice spart er den Arbeitsweg.",
+          "ar": "يوفر طريق العمل عند العمل من المنزل."
+        },
+        {
+          "de": "Die Homeoffice-Regelung muss abgestimmt werden.",
+          "ar": "يجب تنسيق نظام العمل من المنزل."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Homeoffice-Tage"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          171,
+          178
+        ],
+        "section": "Arbeitsort"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": "nouns:noun_0288",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v004",
+      "identity": "der versicherungsbeitrag",
+      "term": "der Versicherungsbeitrag",
+      "type": "noun",
+      "arabic": "اشتراك التأمين",
+      "explanation_de": "Ein regelmäßig gezahlter Betrag für eine Versicherung.",
+      "explanation_ar": "مبلغ دوري يُدفع مقابل التأمين.",
+      "examples": [
+        {
+          "de": "Versicherungsbeiträge werden teilweise vom Bruttolohn abgezogen.",
+          "ar": "تُخصم اشتراكات التأمين جزئيًا من الراتب الإجمالي."
+        },
+        {
+          "de": "Alle Beiträge stehen auf der Abrechnung.",
+          "ar": "تظهر جميع الاشتراكات في كشف الراتب."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Versicherungsbeiträge"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          178,
+          184
+        ],
+        "section": "Gehalt"
+      },
+      "tags": [
+        "gehalt",
+        "versicherung"
+      ],
+      "globalRef": "nouns:noun_0382",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v005",
+      "identity": "der abzug",
+      "term": "der Abzug",
+      "type": "noun",
+      "arabic": "الخصم المالي",
+      "explanation_de": "Ein Betrag, der vom Bruttolohn oder einer Rechnung abgezogen wird.",
+      "explanation_ar": "مبلغ يُخصم من الراتب أو الفاتورة.",
+      "examples": [
+        {
+          "de": "Die Abzüge stehen einzeln auf der Gehaltsabrechnung.",
+          "ar": "تظهر الخصومات منفصلة في الكشف."
+        },
+        {
+          "de": "Nach allen Abzügen bleibt der Nettolohn.",
+          "ar": "يبقى الراتب الصافي بعد الخصومات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Abzüge"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          171,
+          178,
+          184
+        ],
+        "section": "Gehalt"
+      },
+      "tags": [
+        "gehalt"
+      ],
+      "globalRef": "nouns:noun_0372",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v006",
+      "identity": "die bruttovergütung",
+      "term": "die Bruttovergütung",
+      "type": "noun",
+      "arabic": "الأجر الإجمالي",
+      "explanation_de": "Die vereinbarte Vergütung vor Steuern und Abgaben.",
+      "explanation_ar": "الأجر المتفق عليه قبل الضرائب والاقتطاعات.",
+      "examples": [
+        {
+          "de": "Die Bruttovergütung wird am Monatsende gezahlt.",
+          "ar": "يُدفع الأجر الإجمالي في نهاية الشهر."
+        },
+        {
+          "de": "Sonderzahlungen können zusätzlich erfolgen.",
+          "ar": "قد تُدفع مبالغ إضافية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Bruttovergütungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173,
+          180
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "gehalt"
+      ],
+      "globalRef": "nouns:noun_0391",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v007",
+      "identity": "das beschäftigungsverhältnis",
+      "term": "das Beschäftigungsverhältnis",
+      "type": "noun",
+      "arabic": "علاقة التوظيف",
+      "explanation_de": "Die rechtliche Beziehung zwischen Arbeitgeber und beschäftigter Person.",
+      "explanation_ar": "العلاقة القانونية بين صاحب العمل والموظف.",
+      "examples": [
+        {
+          "de": "Das Beschäftigungsverhältnis beginnt im September.",
+          "ar": "تبدأ علاقة التوظيف في سبتمبر."
+        },
+        {
+          "de": "Während der Probezeit kann es leichter beendet werden.",
+          "ar": "يمكن إنهاؤها بسهولة أكبر خلال التجربة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Beschäftigungsverhältnisse"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          180
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v008",
+      "identity": "der arbeitgeber / die arbeitgeberin",
+      "term": "der Arbeitgeber / die Arbeitgeberin",
+      "type": "noun",
+      "arabic": "صاحب أو صاحبة العمل",
+      "explanation_de": "Die Person oder Organisation, die Beschäftigte einstellt und bezahlt.",
+      "explanation_ar": "الشخص أو المؤسسة التي توظف العاملين وتدفع أجورهم.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber muss die Vergütung zahlen.",
+          "ar": "يجب على صاحب العمل دفع الأجر."
+        },
+        {
+          "de": "Die Arbeitgeberin informiert das Team.",
+          "ar": "تبلغ صاحبة العمل الفريق."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitgeber / die Arbeitgeberinnen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173,
+          174,
+          176
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "arbeit",
+        "person"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v009",
+      "identity": "der arbeitnehmer / die arbeitnehmerin",
+      "term": "der Arbeitnehmer / die Arbeitnehmerin",
+      "type": "noun",
+      "arabic": "العامل أو العاملة",
+      "explanation_de": "Eine Person, die aufgrund eines Arbeitsvertrags gegen Bezahlung arbeitet.",
+      "explanation_ar": "شخص يعمل مقابل أجر بموجب عقد.",
+      "examples": [
+        {
+          "de": "Der Arbeitnehmer hat Anspruch auf Urlaub.",
+          "ar": "للعامل حق في الإجازة."
+        },
+        {
+          "de": "Die Arbeitnehmerin muss Regeln beachten.",
+          "ar": "يجب على العاملة مراعاة القواعد."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitnehmer / die Arbeitnehmerinnen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173,
+          174,
+          176
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "arbeit",
+        "person"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v010",
+      "identity": "die vertragspartei",
+      "term": "die Vertragspartei",
+      "type": "noun",
+      "arabic": "طرف العقد",
+      "explanation_de": "Eine Person oder Organisation, die an einen Vertrag gebunden ist.",
+      "explanation_ar": "شخص أو جهة ملتزمة بعقد.",
+      "examples": [
+        {
+          "de": "Beide Vertragsparteien erhalten eine Ausfertigung.",
+          "ar": "يحصل طرفا العقد على نسخة."
+        },
+        {
+          "de": "Änderungen müssen bestätigt werden.",
+          "ar": "يجب تأكيد التعديلات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vertragsparteien"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v011",
+      "identity": "die betriebsvereinbarung",
+      "term": "die Betriebsvereinbarung",
+      "type": "noun",
+      "arabic": "اتفاقية داخلية في الشركة",
+      "explanation_de": "Eine schriftliche Vereinbarung zwischen Arbeitgeber und Betriebsrat.",
+      "explanation_ar": "اتفاق مكتوب بين صاحب العمل ومجلس العمال.",
+      "examples": [
+        {
+          "de": "Die Betriebsvereinbarung regelt Homeoffice.",
+          "ar": "تنظم الاتفاقية العمل من المنزل."
+        },
+        {
+          "de": "Sie gilt für alle Beschäftigten.",
+          "ar": "تسري على جميع الموظفين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Betriebsvereinbarungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          174
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "vertrag",
+        "betrieb"
+      ],
+      "globalRef": "nouns:noun_0397",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v012",
+      "identity": "das weisungsrecht",
+      "term": "das Weisungsrecht",
+      "type": "noun",
+      "arabic": "حق إصدار التعليمات",
+      "explanation_de": "Das Recht des Arbeitgebers, Arbeit im zulässigen Rahmen zu bestimmen.",
+      "explanation_ar": "حق صاحب العمل في تحديد العمل ضمن الحدود القانونية.",
+      "examples": [
+        {
+          "de": "Das Weisungsrecht ist durch Gesetz und Vertrag begrenzt.",
+          "ar": "يُقيَّد الحق بالقانون والعقد."
+        },
+        {
+          "de": "Eine Weisung darf den Arbeitsschutz nicht verletzen.",
+          "ar": "لا يجوز أن تخالف التعليمات السلامة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Weisungsrechte"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          174
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "recht",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v013",
+      "identity": "die tätigkeitbeschreibung",
+      "term": "die Tätigkeitbeschreibung",
+      "type": "noun",
+      "arabic": "وصف المهام",
+      "explanation_de": "Eine genaue Darstellung der Aufgaben und Verantwortungsbereiche.",
+      "explanation_ar": "وصف دقيق للمهام والمسؤوليات.",
+      "examples": [
+        {
+          "de": "Die Tätigkeitbeschreibung gehört in den Vertrag.",
+          "ar": "ينبغي أن يرد وصف المهام في العقد."
+        },
+        {
+          "de": "Unklare Beschreibungen führen zu Missverständnissen.",
+          "ar": "تؤدي الأوصاف غير الواضحة إلى سوء فهم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Tätigkeitbeschreibungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173,
+          179
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "aufgabe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v014",
+      "identity": "die zumutbare arbeit",
+      "term": "die zumutbare Arbeit",
+      "type": "phrase",
+      "arabic": "العمل المقبول قانونيًا ومعقولًا",
+      "explanation_de": "Eine Tätigkeit, die der Qualifikation entspricht und gesundheitlich vertretbar ist.",
+      "explanation_ar": "عمل يناسب المؤهل ويمكن قبوله صحيًا وقانونيًا.",
+      "examples": [
+        {
+          "de": "Beschäftigte müssen auch andere zumutbare Arbeiten ausführen.",
+          "ar": "على الموظفين تنفيذ أعمال أخرى معقولة."
+        },
+        {
+          "de": "Gefährliche Tätigkeiten ohne Schutz sind nicht zumutbar.",
+          "ar": "العمل الخطر بلا حماية غير مقبول."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v015",
+      "identity": "die vorkenntnis",
+      "term": "die Vorkenntnis",
+      "type": "noun",
+      "arabic": "المعرفة السابقة",
+      "explanation_de": "Kenntnisse oder Erfahrungen, die vor einer neuen Aufgabe vorhanden sind.",
+      "explanation_ar": "معرفة أو خبرة يمتلكها الشخص قبل مهمة جديدة.",
+      "examples": [
+        {
+          "de": "Die Aufgabe entspricht seinen Vorkenntnissen.",
+          "ar": "تناسب المهمة معارفه السابقة."
+        },
+        {
+          "de": "Besondere Vorkenntnisse sind nicht nötig.",
+          "ar": "لا تلزم معرفة خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vorkenntnisse"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v016",
+      "identity": "abstimmen",
+      "term": "abstimmen",
+      "type": "verb",
+      "arabic": "ينسّق أو يتفق",
+      "explanation_de": "Eine Entscheidung gemeinsam besprechen und koordinieren.",
+      "explanation_ar": "مناقشة قرار والتوصل إلى تنسيق مشترك.",
+      "examples": [
+        {
+          "de": "Die Urlaubstermine werden abgestimmt.",
+          "ar": "تُنسق مواعيد الإجازة."
+        },
+        {
+          "de": "Wir haben den Dienstplan abgestimmt.",
+          "ar": "نسقنا جدول العمل."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "stimmte ab",
+        "perfekt": "hat abgestimmt",
+        "separable": true,
+        "reflexive": false
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          175
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v017",
+      "identity": "vereinbaren",
+      "term": "vereinbaren",
+      "type": "verb",
+      "arabic": "يتفق على",
+      "explanation_de": "Eine verbindliche Regelung oder einen Termin gemeinsam festlegen.",
+      "explanation_ar": "تحديد شرط أو موعد ملزم باتفاق.",
+      "examples": [
+        {
+          "de": "Im Vertrag wurde eine Probezeit vereinbart.",
+          "ar": "تم الاتفاق على فترة تجربة."
+        },
+        {
+          "de": "Sie haben einen Termin vereinbart.",
+          "ar": "اتفقوا على موعد."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "vereinbarte",
+        "perfekt": "hat vereinbart",
+        "separable": false,
+        "reflexive": false
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          173,
+          180
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v018",
+      "identity": "ausführen",
+      "term": "ausführen",
+      "type": "verb",
+      "arabic": "ينفذ مهمة",
+      "explanation_de": "Eine angewiesene oder vereinbarte Tätigkeit praktisch erledigen.",
+      "explanation_ar": "تنفيذ مهمة متفق عليها أو موكلة.",
+      "examples": [
+        {
+          "de": "Die Beschäftigte führt ihre Aufgaben sorgfältig aus.",
+          "ar": "تنفذ الموظفة مهامها بعناية."
+        },
+        {
+          "de": "Gefährliche Arbeiten dürfen nur geschulte Personen ausführen.",
+          "ar": "لا ينفذ الأعمال الخطرة إلا المدربون."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "führte aus",
+        "perfekt": "hat ausgeführt",
+        "separable": true,
+        "reflexive": false
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          180
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v019",
+      "identity": "den urlaub gemeinsam festlegen",
+      "term": "den Urlaub gemeinsam festlegen",
+      "type": "phrase",
+      "arabic": "يحدد الإجازة بالاتفاق",
+      "explanation_de": "Urlaubstermine unter Berücksichtigung betrieblicher und persönlicher Interessen abstimmen.",
+      "explanation_ar": "تحديد الإجازة مع مراعاة مصلحة الموظف والشركة.",
+      "examples": [
+        {
+          "de": "Die Urlaubstermine werden gemeinsam festgelegt.",
+          "ar": "تُحدد مواعيد الإجازة بصورة مشتركة."
+        },
+        {
+          "de": "Wünsche dürfen nicht ohne Grund abgelehnt werden.",
+          "ar": "لا يجوز رفض الرغبات بلا سبب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          172,
+          174,
+          175,
+          180
+        ],
+        "section": "Urlaub"
+      },
+      "tags": [
+        "urlaub"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v020",
+      "identity": "das verschwiegenheitsgebot",
+      "term": "das Verschwiegenheitsgebot",
+      "type": "noun",
+      "arabic": "واجب الحفاظ على السرية",
+      "explanation_de": "Die Verpflichtung, vertrauliche betriebliche Informationen nicht weiterzugeben.",
+      "explanation_ar": "التزام عدم نقل المعلومات السرية للشركة.",
+      "examples": [
+        {
+          "de": "Das Verschwiegenheitsgebot gilt auch nach dem Ausscheiden.",
+          "ar": "يستمر واجب السرية بعد مغادرة العمل."
+        },
+        {
+          "de": "Ein Verstoß kann arbeitsrechtliche Folgen haben.",
+          "ar": "قد تترتب على المخالفة نتائج قانونية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Verschwiegenheitsgebote"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          184
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "vertrag",
+        "vertraulichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v021",
+      "identity": "eine erkrankung unverzüglich mitteilen",
+      "term": "eine Erkrankung unverzüglich mitteilen",
+      "type": "phrase",
+      "arabic": "يبلغ عن المرض فورًا",
+      "explanation_de": "Den Arbeitgeber ohne schuldhafte Verzögerung über eine Arbeitsunfähigkeit informieren.",
+      "explanation_ar": "إبلاغ صاحب العمل بالمرض دون تأخير.",
+      "examples": [
+        {
+          "de": "Beschäftigte müssen eine Erkrankung unverzüglich mitteilen.",
+          "ar": "يجب إبلاغ الشركة بالمرض فورًا."
+        },
+        {
+          "de": "Die erste Mitteilung kann telefonisch erfolgen.",
+          "ar": "يمكن أن يتم الإبلاغ أولًا هاتفيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          173
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "krankheit",
+        "pflicht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v022",
+      "identity": "der nachweis",
+      "term": "der Nachweis",
+      "type": "noun",
+      "arabic": "الإثبات أو الوثيقة",
+      "explanation_de": "Ein Dokument oder eine Information, die eine Angabe bestätigt.",
+      "explanation_ar": "وثيقة أو معلومة تثبت صحة أمر.",
+      "examples": [
+        {
+          "de": "Die Personalabteilung verlangt einen Nachweis.",
+          "ar": "يطلب قسم الموارد البشرية إثباتًا."
+        },
+        {
+          "de": "Der ärztliche Nachweis muss rechtzeitig eingereicht werden.",
+          "ar": "يجب تقديم الإثبات الطبي في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Nachweise"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          179
+        ],
+        "section": "Vertragssprache"
+      },
+      "tags": [
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v023",
+      "identity": "die personalakte",
+      "term": "die Personalakte",
+      "type": "noun",
+      "arabic": "ملف الموظف",
+      "explanation_de": "Die Sammlung arbeitsbezogener Unterlagen zu einer beschäftigten Person.",
+      "explanation_ar": "مجموعة الوثائق الوظيفية المتعلقة بالموظف.",
+      "examples": [
+        {
+          "de": "Beschäftigte dürfen ihre Personalakte einsehen.",
+          "ar": "يحق للموظفين الاطلاع على ملفهم."
+        },
+        {
+          "de": "Falsche Angaben können korrigiert werden.",
+          "ar": "يمكن تصحيح البيانات الخاطئة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Personalakten"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "personal"
+      ],
+      "globalRef": "nouns:noun_0405",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v024",
+      "identity": "einsicht in die personalakte nehmen",
+      "term": "Einsicht in die Personalakte nehmen",
+      "type": "phrase",
+      "arabic": "يطلع على ملفه الوظيفي",
+      "explanation_de": "Die gespeicherten Unterlagen in der eigenen Personalakte ansehen.",
+      "explanation_ar": "مراجعة الوثائق المحفوظة في الملف الشخصي.",
+      "examples": [
+        {
+          "de": "Sie nimmt Einsicht in ihre Personalakte.",
+          "ar": "تطلع على ملفها الوظيفي."
+        },
+        {
+          "de": "Ein Betriebsratsmitglied kann sie begleiten.",
+          "ar": "يمكن أن يرافقها عضو من مجلس العمال."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "personal",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v025",
+      "identity": "der gewissenskonflikt",
+      "term": "der Gewissenskonflikt",
+      "type": "noun",
+      "arabic": "صراع الضمير",
+      "explanation_de": "Eine Situation, in der eine Aufgabe grundlegenden moralischen Überzeugungen widerspricht.",
+      "explanation_ar": "حالة تتعارض فيها المهمة مع القناعات الأخلاقية.",
+      "examples": [
+        {
+          "de": "Bei einem Gewissenskonflikt sollte man früh das Gespräch suchen.",
+          "ar": "ينبغي طلب الحوار مبكرًا."
+        },
+        {
+          "de": "Nicht jede persönliche Abneigung ist ein Gewissenskonflikt.",
+          "ar": "ليس كل رفض شخصي صراع ضمير."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gewissenskonflikte"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "recht",
+        "ethik"
+      ],
+      "globalRef": "nouns:noun_0406",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v026",
+      "identity": "einen arbeitsauftrag verweigern",
+      "term": "einen Arbeitsauftrag verweigern",
+      "type": "phrase",
+      "arabic": "يرفض أمر عمل",
+      "explanation_de": "Die Ausführung einer angewiesenen Tätigkeit aus einem zulässigen Grund ablehnen.",
+      "explanation_ar": "رفض تنفيذ مهمة لسبب مقبول.",
+      "examples": [
+        {
+          "de": "Bei akuter Gefahr darf man den Arbeitsauftrag verweigern.",
+          "ar": "يجوز رفض المهمة عند خطر مباشر."
+        },
+        {
+          "de": "Eine unbegründete Verweigerung kann Folgen haben.",
+          "ar": "قد تكون للرفض غير المبرر عواقب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "arbeit",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v027",
+      "identity": "die gleichbehandlung",
+      "term": "die Gleichbehandlung",
+      "type": "noun",
+      "arabic": "المعاملة المتساوية",
+      "explanation_de": "Der Grundsatz, Beschäftigte nicht ohne sachlichen Grund unterschiedlich zu behandeln.",
+      "explanation_ar": "مبدأ عدم التمييز بين الموظفين دون سبب موضوعي.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber ist zur Gleichbehandlung verpflichtet.",
+          "ar": "يلتزم صاحب العمل بالمعاملة المتساوية."
+        },
+        {
+          "de": "Gleichbehandlung bedeutet nicht, jede Situation identisch zu lösen.",
+          "ar": "لا تعني المعاملة المتساوية حل كل حالة بالطريقة نفسها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          182
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v028",
+      "identity": "die dienstkleidung",
+      "term": "die Dienstkleidung",
+      "type": "noun",
+      "arabic": "لباس العمل الرسمي",
+      "explanation_de": "Vom Betrieb vorgeschriebene Kleidung für bestimmte Tätigkeiten.",
+      "explanation_ar": "ملابس تحددها الشركة لبعض الأعمال.",
+      "examples": [
+        {
+          "de": "Die Dienstkleidung muss während der Schicht getragen werden.",
+          "ar": "يجب ارتداء لباس العمل خلال الوردية."
+        },
+        {
+          "de": "Der Betrieb übernimmt häufig die Reinigung.",
+          "ar": "تتحمل الشركة غالبًا التنظيف."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Regeln im Betrieb"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v029",
+      "identity": "die alltagskleidung",
+      "term": "die Alltagskleidung",
+      "type": "noun",
+      "arabic": "الملابس اليومية",
+      "explanation_de": "Normale private Kleidung, die nicht speziell für die Arbeit bestimmt ist.",
+      "explanation_ar": "ملابس يومية غير مخصصة للعمل.",
+      "examples": [
+        {
+          "de": "Außerhalb der Arbeitszeit darf sie Alltagskleidung tragen.",
+          "ar": "يمكنها ارتداء الملابس اليومية خارج الدوام."
+        },
+        {
+          "de": "In manchen Berufen ist Alltagskleidung ungeeignet.",
+          "ar": "لا تناسب الملابس اليومية بعض المهن."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174
+        ],
+        "section": "Regeln im Betrieb"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v030",
+      "identity": "die betriebsversammlung",
+      "term": "die Betriebsversammlung",
+      "type": "noun",
+      "arabic": "اجتماع العاملين في المنشأة",
+      "explanation_de": "Eine Versammlung der Beschäftigten, die meist vom Betriebsrat einberufen wird.",
+      "explanation_ar": "اجتماع للموظفين ينظمه عادة مجلس العمال.",
+      "examples": [
+        {
+          "de": "Bei der Betriebsversammlung wird über Arbeitszeit gesprochen.",
+          "ar": "تُناقش ساعات العمل في الاجتماع."
+        },
+        {
+          "de": "Die Geschäftsleitung berichtet über die wirtschaftliche Lage.",
+          "ar": "تقدم الإدارة تقريرًا عن الوضع الاقتصادي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Betriebsversammlungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          183
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "betrieb"
+      ],
+      "globalRef": "nouns:noun_0413",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v031",
+      "identity": "die pünktlichkeit",
+      "term": "die Pünktlichkeit",
+      "type": "noun",
+      "arabic": "الالتزام بالمواعيد",
+      "explanation_de": "Die Eigenschaft, vereinbarte Zeiten zuverlässig einzuhalten.",
+      "explanation_ar": "الالتزام بالأوقات المتفق عليها.",
+      "examples": [
+        {
+          "de": "Pünktlichkeit ist während der Kernarbeitszeit wichtig.",
+          "ar": "الالتزام مهم خلال فترة الحضور."
+        },
+        {
+          "de": "Verspätungen sollten offen besprochen werden.",
+          "ar": "ينبغي مناقشة التأخر بصراحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          175,
+          181
+        ],
+        "section": "Gespräche mit Vorgesetzten"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v032",
+      "identity": "die arbeitsbelastung",
+      "term": "die Arbeitsbelastung",
+      "type": "noun",
+      "arabic": "عبء العمل",
+      "explanation_de": "Die körperliche oder psychische Beanspruchung durch Menge und Bedingungen der Arbeit.",
+      "explanation_ar": "الضغط الجسدي أو النفسي الناتج عن العمل.",
+      "examples": [
+        {
+          "de": "Die Arbeitsbelastung ist dauerhaft zu hoch.",
+          "ar": "عبء العمل مرتفع دائمًا."
+        },
+        {
+          "de": "Übermäßige Belastung kann die Gesundheit gefährden.",
+          "ar": "قد يضر الضغط المفرط بالصحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Arbeitsbelastungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          175,
+          177,
+          183
+        ],
+        "section": "Gespräche mit Vorgesetzten"
+      },
+      "tags": [
+        "arbeit",
+        "gesundheit"
+      ],
+      "globalRef": "nouns:noun_0411",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v033",
+      "identity": "der gehaltswunsch",
+      "term": "der Gehaltswunsch",
+      "type": "noun",
+      "arabic": "الراتب المطلوب",
+      "explanation_de": "Die Höhe des Gehalts, die eine Person in einem Gespräch nennt.",
+      "explanation_ar": "قيمة الراتب التي يطلبها الشخص في الحوار.",
+      "examples": [
+        {
+          "de": "Er begründet seinen Gehaltswunsch mit zusätzlicher Verantwortung.",
+          "ar": "يبرر طلبه بالمسؤولية الإضافية."
+        },
+        {
+          "de": "Der Gehaltswunsch sollte realistisch sein.",
+          "ar": "ينبغي أن يكون الطلب واقعيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gehaltswünsche"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          175
+        ],
+        "section": "Gespräche mit Vorgesetzten"
+      },
+      "tags": [
+        "gehalt"
+      ],
+      "globalRef": "nouns:noun_0410",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v034",
+      "identity": "über tarif bezahlt werden",
+      "term": "über Tarif bezahlt werden",
+      "type": "phrase",
+      "arabic": "يتقاضى أكثر من التعرفة",
+      "explanation_de": "Ein Gehalt erhalten, das über dem tarifvertraglich festgelegten Niveau liegt.",
+      "explanation_ar": "الحصول على راتب أعلى من المستوى المحدد بالتعرفة.",
+      "examples": [
+        {
+          "de": "Aufgrund seiner Qualifikation wird er über Tarif bezahlt.",
+          "ar": "يتقاضى أكثر من التعرفة بسبب مؤهله."
+        },
+        {
+          "de": "Die Bezahlung muss individuell vereinbart werden.",
+          "ar": "يجب الاتفاق على الأجر فرديًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          175
+        ],
+        "section": "Gehalt"
+      },
+      "tags": [
+        "gehalt",
+        "tarif"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v035",
+      "identity": "überstunden ansprechen",
+      "term": "Überstunden ansprechen",
+      "type": "phrase",
+      "arabic": "يفتح موضوع الساعات الإضافية",
+      "explanation_de": "Mit der vorgesetzten Person sachlich über Umfang und Ausgleich von Mehrarbeit sprechen.",
+      "explanation_ar": "مناقشة عدد الساعات الإضافية وتعويضها مع المسؤول.",
+      "examples": [
+        {
+          "de": "Sie möchte ihre Überstunden ansprechen.",
+          "ar": "تريد فتح موضوع ساعاتها الإضافية."
+        },
+        {
+          "de": "Konkrete Zahlen helfen im Gespräch.",
+          "ar": "تساعد الأرقام الواضحة في الحوار."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          175,
+          182,
+          183
+        ],
+        "section": "Gespräche mit Vorgesetzten"
+      },
+      "tags": [
+        "arbeitszeit",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v036",
+      "identity": "interessen vertreten",
+      "term": "Interessen vertreten",
+      "type": "phrase",
+      "arabic": "يمثل المصالح",
+      "explanation_de": "Die Anliegen einer Person oder Gruppe gegenüber anderen wahrnehmen.",
+      "explanation_ar": "الدفاع عن مطالب شخص أو مجموعة.",
+      "examples": [
+        {
+          "de": "Der Betriebsrat vertritt die Interessen der Beschäftigten.",
+          "ar": "يمثل مجلس العمال مصالح الموظفين."
+        },
+        {
+          "de": "Die Gewerkschaft vertritt ihre Mitglieder.",
+          "ar": "تمثل النقابة أعضاءها."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "betrieb",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v037",
+      "identity": "den betriebsrat einschalten",
+      "term": "den Betriebsrat einschalten",
+      "type": "phrase",
+      "arabic": "يلجأ إلى مجلس العمال",
+      "explanation_de": "Den Betriebsrat um Unterstützung oder Vermittlung bitten.",
+      "explanation_ar": "طلب دعم أو وساطة مجلس العمال.",
+      "examples": [
+        {
+          "de": "Bei anhaltenden Problemen schaltet sie den Betriebsrat ein.",
+          "ar": "تلجأ إلى مجلس العمال عند استمرار المشكلة."
+        },
+        {
+          "de": "Er kann das Gespräch mit der Leitung begleiten.",
+          "ar": "يمكنه مرافقة الحوار مع الإدارة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          177,
+          183
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "betrieb",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v038",
+      "identity": "die kündigung",
+      "term": "die Kündigung",
+      "type": "noun",
+      "arabic": "إنهاء عقد العمل",
+      "explanation_de": "Die einseitige Erklärung, ein Arbeitsverhältnis zu beenden.",
+      "explanation_ar": "إعلان من طرف واحد بإنهاء علاقة العمل.",
+      "examples": [
+        {
+          "de": "Die Kündigung muss bestimmte Fristen einhalten.",
+          "ar": "يجب أن تراعي عملية الإنهاء مهلًا محددة."
+        },
+        {
+          "de": "Nach Erhalt sollte man sie rechtlich prüfen.",
+          "ar": "ينبغي فحصها قانونيًا بعد استلامها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kündigungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176,
+          182,
+          184
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht",
+        "vertrag"
+      ],
+      "globalRef": "nouns:noun_0401",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v039",
+      "identity": "der kündigungsgrund",
+      "term": "der Kündigungsgrund",
+      "type": "noun",
+      "arabic": "سبب إنهاء العمل",
+      "explanation_de": "Der konkrete Anlass, auf den eine Kündigung gestützt wird.",
+      "explanation_ar": "السبب المحدد الذي يستند إليه الإنهاء.",
+      "examples": [
+        {
+          "de": "Ein schwerer Pflichtverstoß kann ein Kündigungsgrund sein.",
+          "ar": "قد تكون المخالفة الجسيمة سببًا."
+        },
+        {
+          "de": "Nicht jeder Nachteil rechtfertigt eine Kündigung.",
+          "ar": "ليس كل ضرر مبررًا للإنهاء."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Kündigungsgründe"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176,
+          182
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v040",
+      "identity": "die beendigung des arbeitsverhältnisses",
+      "term": "die Beendigung des Arbeitsverhältnisses",
+      "type": "noun",
+      "arabic": "انتهاء علاقة العمل",
+      "explanation_de": "Das rechtliche Ende einer Beschäftigung durch Kündigung, Ablauf oder Vereinbarung.",
+      "explanation_ar": "النهاية القانونية للعمل بسبب الإنهاء أو انتهاء المدة أو اتفاق.",
+      "examples": [
+        {
+          "de": "Die Beendigung wird schriftlich bestätigt.",
+          "ar": "يُؤكد انتهاء العلاقة كتابيًا."
+        },
+        {
+          "de": "Offene Ansprüche müssen geklärt werden.",
+          "ar": "يجب توضيح الحقوق المتبقية."
+        }
+      ],
+  "grammar": {
+    "article": "die",
+    "numberType": "usually_singular"
+  },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          176,
+          182
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v041",
+      "identity": "die entlassung",
+      "term": "die Entlassung",
+      "type": "noun",
+      "arabic": "الفصل من العمل",
+      "explanation_de": "Die Beendigung einer Beschäftigung durch den Arbeitgeber.",
+      "explanation_ar": "إنهاء صاحب العمل علاقة الموظف.",
+      "examples": [
+        {
+          "de": "Eine diskriminierende Entlassung ist rechtswidrig.",
+          "ar": "الفصل التمييزي مخالف للقانون."
+        },
+        {
+          "de": "Vor einer Entlassung findet oft eine Anhörung statt.",
+          "ar": "غالبًا تُجرى جلسة استماع قبل الفصل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Entlassungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176,
+          182
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": "nouns:noun_0512",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v042",
+      "identity": "eine kündigung aussprechen",
+      "term": "eine Kündigung aussprechen",
+      "type": "phrase",
+      "arabic": "يصدر قرار إنهاء العمل",
+      "explanation_de": "Das Arbeitsverhältnis durch eine eindeutige Kündigungserklärung beenden.",
+      "explanation_ar": "إنهاء علاقة العمل بإعلان واضح.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber hat eine Kündigung ausgesprochen.",
+          "ar": "أصدر صاحب العمل قرار إنهاء."
+        },
+        {
+          "de": "Sie sollte nicht nur mündlich ausgesprochen werden.",
+          "ar": "لا ينبغي أن تكون شفوية فقط."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          176,
+          182
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v043",
+      "identity": "die gültigkeit",
+      "term": "die Gültigkeit",
+      "type": "noun",
+      "arabic": "الصلاحية القانونية",
+      "explanation_de": "Der Zustand, dass eine Regelung oder Erklärung rechtlich wirksam ist.",
+      "explanation_ar": "حالة كون القرار أو الوثيقة نافذة قانونيًا.",
+      "examples": [
+        {
+          "de": "Die Gültigkeit hängt von Form und Frist ab.",
+          "ar": "تعتمد الصلاحية على الصيغة والمهلة."
+        },
+        {
+          "de": "Ohne Unterschrift kann sie fraglich sein.",
+          "ar": "قد تكون موضع شك دون توقيع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176,
+          182
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v044",
+      "identity": "in kraft treten",
+      "term": "in Kraft treten",
+      "type": "phrase",
+      "arabic": "يدخل حيز التنفيذ",
+      "explanation_de": "Ab einem bestimmten Zeitpunkt rechtlich wirksam werden.",
+      "explanation_ar": "يصبح نافذًا قانونيًا من تاريخ معين.",
+      "examples": [
+        {
+          "de": "Die Kündigung tritt zum Monatsende in Kraft.",
+          "ar": "يدخل الإنهاء حيز التنفيذ في نهاية الشهر."
+        },
+        {
+          "de": "Die neue Regel ist gestern in Kraft getreten.",
+          "ar": "دخلت القاعدة الجديدة حيز التنفيذ أمس."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "trat in Kraft",
+        "perfekt": "ist in Kraft getreten"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v045",
+      "identity": "der lohnrückstand",
+      "term": "der Lohnrückstand",
+      "type": "noun",
+      "arabic": "تأخر دفع الأجور",
+      "explanation_de": "Ein fälliger Lohnbetrag, den der Arbeitgeber noch nicht gezahlt hat.",
+      "explanation_ar": "راتب مستحق لم يدفعه صاحب العمل.",
+      "examples": [
+        {
+          "de": "Wegen Lohnrückständen lässt sie sich beraten.",
+          "ar": "تطلب الاستشارة بسبب متأخرات الأجر."
+        },
+        {
+          "de": "Der Arbeitgeber muss den Rückstand ausgleichen.",
+          "ar": "يجب على صاحب العمل دفع المتأخرات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Lohnrückstände"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "gehalt",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v046",
+      "identity": "die diskriminierende äußerung",
+      "term": "die diskriminierende Äußerung",
+      "type": "noun",
+      "arabic": "تصريح تمييزي",
+      "explanation_de": "Eine Aussage, die Menschen wegen eines geschützten Merkmals herabsetzt.",
+      "explanation_ar": "تصريح ينتقص من شخص بسبب صفة محمية.",
+      "examples": [
+        {
+          "de": "Diskriminierende Äußerungen können Folgen haben.",
+          "ar": "قد تكون للتصريحات التمييزية عواقب."
+        },
+        {
+          "de": "Der Vorfall wurde dokumentiert.",
+          "ar": "تم توثيق الحادثة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die diskriminierenden Äußerungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          176
+        ],
+        "section": "Kündigung"
+      },
+      "tags": [
+        "diskriminierung",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v047",
+      "identity": "die schwangerschaft",
+      "term": "die Schwangerschaft",
+      "type": "noun",
+      "arabic": "الحمل",
+      "explanation_de": "Der Zeitraum, in dem eine Frau ein Kind erwartet.",
+      "explanation_ar": "الفترة التي تكون فيها المرأة حاملًا.",
+      "examples": [
+        {
+          "de": "Während der Schwangerschaft gelten Schutzvorschriften.",
+          "ar": "تسري قواعد حماية خلال الحمل."
+        },
+        {
+          "de": "Gefährliche Arbeiten müssen angepasst werden.",
+          "ar": "يجب تعديل الأعمال الخطرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schwangerschaften"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          182,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "gesundheit"
+      ],
+      "globalRef": "nouns:noun_0505",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v048",
+      "identity": "der mutterschutz",
+      "term": "der Mutterschutz",
+      "type": "noun",
+      "arabic": "حماية الأمومة",
+      "explanation_de": "Gesetzliche Schutzregeln für Schwangere und Mütter rund um die Geburt.",
+      "explanation_ar": "قواعد قانونية لحماية الحوامل والأمهات.",
+      "examples": [
+        {
+          "de": "Der Mutterschutz begrenzt gefährliche Tätigkeiten.",
+          "ar": "تحد حماية الأمومة الأعمال الخطرة."
+        },
+        {
+          "de": "Der Betrieb muss Gefahren beurteilen.",
+          "ar": "يجب على الشركة تقييم المخاطر."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "recht",
+        "gesundheit"
+      ],
+      "globalRef": "nouns:noun_0489",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v049",
+      "identity": "die unfallverhütung",
+      "term": "die Unfallverhütung",
+      "type": "noun",
+      "arabic": "الوقاية من الحوادث",
+      "explanation_de": "Maßnahmen, die Arbeitsunfälle verhindern oder ihre Folgen reduzieren.",
+      "explanation_ar": "إجراءات تمنع الحوادث أو تقلل آثارها.",
+      "examples": [
+        {
+          "de": "Schulungen zur Unfallverhütung sind verpflichtend.",
+          "ar": "التدريب على الوقاية إلزامي."
+        },
+        {
+          "de": "Ein Schutzhelm dient der Unfallverhütung.",
+          "ar": "تساعد الخوذة على الوقاية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v050",
+      "identity": "der gefahrstoff",
+      "term": "der Gefahrstoff",
+      "type": "noun",
+      "arabic": "مادة خطرة",
+      "explanation_de": "Ein Stoff, der Gesundheit, Umwelt oder Sicherheit gefährden kann.",
+      "explanation_ar": "مادة قد تضر بالصحة أو البيئة أو السلامة.",
+      "examples": [
+        {
+          "de": "Gefahrstoffe müssen gekennzeichnet werden.",
+          "ar": "يجب تمييز المواد الخطرة."
+        },
+        {
+          "de": "Beim Umgang gelten besondere Regeln.",
+          "ar": "تسري قواعد خاصة عند التعامل معها."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Gefahrstoffe"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v051",
+      "identity": "der schutzhelm",
+      "term": "der Schutzhelm",
+      "type": "noun",
+      "arabic": "خوذة واقية",
+      "explanation_de": "Ein Helm zum Schutz des Kopfes vor Stößen und herabfallenden Gegenständen.",
+      "explanation_ar": "خوذة لحماية الرأس من الصدمات والأشياء الساقطة.",
+      "examples": [
+        {
+          "de": "Auf der Baustelle ist der Schutzhelm Pflicht.",
+          "ar": "الخوذة إلزامية في موقع البناء."
+        },
+        {
+          "de": "Der Helm muss richtig eingestellt sein.",
+          "ar": "يجب ضبط الخوذة بصورة صحيحة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Schutzhelme"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": "nouns:noun_0005",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v052",
+      "identity": "der schutzhandschuh",
+      "term": "der Schutzhandschuh",
+      "type": "noun",
+      "arabic": "قفاز واقٍ",
+      "explanation_de": "Ein Handschuh zum Schutz vor Chemikalien, Hitze oder Schnitten.",
+      "explanation_ar": "قفاز للحماية من المواد الكيميائية أو الحرارة والجروح.",
+      "examples": [
+        {
+          "de": "Im Labor trägt sie Schutzhandschuhe.",
+          "ar": "ترتدي قفازات واقية في المختبر."
+        },
+        {
+          "de": "Einmalhandschuhe werden regelmäßig gewechselt.",
+          "ar": "تُبدل القفازات ذات الاستخدام الواحد بانتظام."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Schutzhandschuhe"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v053",
+      "identity": "der laborkittel",
+      "term": "der Laborkittel",
+      "type": "noun",
+      "arabic": "معطف المختبر",
+      "explanation_de": "Ein Schutzkleidungsstück für Arbeiten im Labor.",
+      "explanation_ar": "قطعة لباس واقية للعمل في المختبر.",
+      "examples": [
+        {
+          "de": "Der Laborkittel schützt Kleidung und Haut.",
+          "ar": "يحمي المعطف الملابس والجلد."
+        },
+        {
+          "de": "Kontaminierte Kittel werden fachgerecht gereinigt.",
+          "ar": "تُنظف المعاطف الملوثة مهنيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Laborkittel"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v054",
+      "identity": "die atemschutzmaske",
+      "term": "die Atemschutzmaske",
+      "type": "noun",
+      "arabic": "قناع حماية التنفس",
+      "explanation_de": "Eine Maske zum Schutz vor Staub, Dämpfen oder schädlichen Stoffen.",
+      "explanation_ar": "قناع يحمي من الغبار والأبخرة والمواد الضارة.",
+      "examples": [
+        {
+          "de": "Bei bestimmten Chemikalien ist eine Atemschutzmaske nötig.",
+          "ar": "يلزم قناع تنفس مع بعض المواد."
+        },
+        {
+          "de": "Die Maske muss zum Risiko passen.",
+          "ar": "يجب أن يناسب القناع مستوى الخطر."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Atemschutzmasken"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v055",
+      "identity": "die pausenzeit",
+      "term": "die Pausenzeit",
+      "type": "noun",
+      "arabic": "وقت الاستراحة",
+      "explanation_de": "Ein festgelegter Zeitraum innerhalb der Arbeit, in dem nicht gearbeitet wird.",
+      "explanation_ar": "فترة محددة خلال الدوام لا يعمل فيها الموظف.",
+      "examples": [
+        {
+          "de": "Pausenzeiten müssen eingehalten werden.",
+          "ar": "يجب الالتزام بأوقات الاستراحة."
+        },
+        {
+          "de": "Die Pause wird nicht immer bezahlt.",
+          "ar": "لا تُدفع الاستراحة دائمًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Pausenzeiten"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          177,
+          183
+        ],
+        "section": "Arbeitszeit"
+      },
+      "tags": [
+        "arbeitszeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v056",
+      "identity": "die gesundheitsgefährdung",
+      "term": "die Gesundheitsgefährdung",
+      "type": "noun",
+      "arabic": "خطر على الصحة",
+      "explanation_de": "Eine Situation oder Einwirkung, die die Gesundheit schädigen kann.",
+      "explanation_ar": "وضع أو عامل قد يضر بالصحة.",
+      "examples": [
+        {
+          "de": "Der Betrieb muss Gesundheitsgefährdungen beurteilen.",
+          "ar": "يجب على الشركة تقييم المخاطر الصحية."
+        },
+        {
+          "de": "Lärm kann langfristig schaden.",
+          "ar": "قد يضر الضجيج على المدى الطويل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Gesundheitsgefährdungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v057",
+      "identity": "die körperliche belastung",
+      "term": "die körperliche Belastung",
+      "type": "noun",
+      "arabic": "الإجهاد الجسدي",
+      "explanation_de": "Eine Beanspruchung des Körpers durch schwere oder ungünstige Arbeit.",
+      "explanation_ar": "ضغط على الجسم بسبب العمل الشاق أو غير المناسب.",
+      "examples": [
+        {
+          "de": "Schweres Heben führt zu körperlicher Belastung.",
+          "ar": "يؤدي رفع الأوزان إلى إجهاد جسدي."
+        },
+        {
+          "de": "Hilfsmittel können die Belastung reduzieren.",
+          "ar": "يمكن للأدوات تقليل الإجهاد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die körperlichen Belastungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177,
+          183
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v058",
+      "identity": "der jugendarbeitsschutz",
+      "term": "der Jugendarbeitsschutz",
+      "type": "noun",
+      "arabic": "حماية القاصرين في العمل",
+      "explanation_de": "Gesetzliche Regeln zum Schutz minderjähriger Beschäftigter.",
+      "explanation_ar": "قواعد قانونية لحماية العاملين القاصرين.",
+      "examples": [
+        {
+          "de": "Der Jugendarbeitsschutz begrenzt gefährliche Tätigkeiten.",
+          "ar": "تحد حماية القاصرين الأعمال الخطرة."
+        },
+        {
+          "de": "Für Jugendliche gelten besondere Pausen.",
+          "ar": "تسري على الشباب استراحات خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v059",
+      "identity": "die kinderarbeit",
+      "term": "die Kinderarbeit",
+      "type": "noun",
+      "arabic": "عمالة الأطفال",
+      "explanation_de": "Eine Beschäftigung von Kindern, die gesetzlich verboten oder stark eingeschränkt ist.",
+      "explanation_ar": "تشغيل الأطفال بصورة محظورة أو مقيدة قانونيًا.",
+      "examples": [
+        {
+          "de": "Kinderarbeit ist grundsätzlich verboten.",
+          "ar": "عمالة الأطفال محظورة أساسًا."
+        },
+        {
+          "de": "Leichte Tätigkeiten sind nur eng begrenzt erlaubt.",
+          "ar": "تُسمح أعمال بسيطة ضمن حدود ضيقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": "nouns:noun_0417",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u10-v060",
+      "identity": "die reisespesen",
+      "term": "die Reisespesen",
+      "type": "noun",
+      "arabic": "بدلات السفر",
+      "explanation_de": "Erstattete Kosten für beruflich veranlasste Reisen.",
+      "explanation_ar": "مصاريف تُعوض عن السفر المهني.",
+      "examples": [
+        {
+          "de": "Die Reisespesen werden nach der Dienstreise abgerechnet.",
+          "ar": "تُسوّى بدلات السفر بعد الرحلة."
+        },
+        {
+          "de": "Belege müssen eingereicht werden.",
+          "ar": "يجب تقديم الإيصالات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          177
+        ],
+        "section": "Arbeitsschutz"
+      },
+      "tags": [
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v061",
+      "identity": "die gesetzliche bestimmung",
+      "term": "die gesetzliche Bestimmung",
+      "type": "noun",
+      "arabic": "حكم قانوني",
+      "explanation_de": "Eine verbindliche Regel in einem Gesetz oder einer Verordnung.",
+      "explanation_ar": "قاعدة ملزمة في قانون أو لائحة.",
+      "examples": [
+        {
+          "de": "Die gesetzlichen Bestimmungen sind einzuhalten.",
+          "ar": "يجب الالتزام بالأحكام القانونية."
+        },
+        {
+          "de": "Verstöße können geahndet werden.",
+          "ar": "قد تُعاقب المخالفات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die gesetzlichen Bestimmungen"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          173,
+          176,
+          177
+        ],
+        "section": "Rechte und Pflichten"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v062",
+      "identity": "die präposition mit genitiv",
+      "term": "die Präposition mit Genitiv",
+      "type": "noun",
+      "arabic": "حرف جر مع المضاف إليه",
+      "explanation_de": "Eine Präposition, nach der in formeller Standardsprache häufig der Genitiv steht.",
+      "explanation_ar": "حرف جر يأتي بعده غالبًا المضاف إليه في اللغة الرسمية.",
+      "examples": [
+        {
+          "de": "Wegen des Sturms blieb der Betrieb geschlossen.",
+          "ar": "بسبب العاصفة بقيت الشركة مغلقة."
+        },
+        {
+          "de": "Während der Arbeitszeit gelten besondere Regeln.",
+          "ar": "خلال وقت العمل تسري قواعد خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Präpositionen mit Genitiv"
+      },
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181,
+          184
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v063",
+      "identity": "aufgrund + genitiv",
+      "term": "aufgrund + Genitiv",
+      "type": "phrase",
+      "arabic": "بسبب",
+      "explanation_de": "Eine formelle Präposition zur Angabe eines Grundes.",
+      "explanation_ar": "حرف جر رسمي لبيان السبب.",
+      "examples": [
+        {
+          "de": "Aufgrund seiner Erfahrung erhielt er die Stelle.",
+          "ar": "حصل على الوظيفة بسبب خبرته."
+        },
+        {
+          "de": "Aufgrund des Personalmangels wurden Schichten geändert.",
+          "ar": "عُدلت الورديات بسبب نقص الموظفين."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v064",
+      "identity": "trotz + genitiv",
+      "term": "trotz + Genitiv",
+      "type": "phrase",
+      "arabic": "رغم",
+      "explanation_de": "Eine Präposition, die einen Gegensatz zu einer erwartbaren Folge ausdrückt.",
+      "explanation_ar": "حرف جر يعبر عن نتيجة مخالفة للتوقع.",
+      "examples": [
+        {
+          "de": "Trotz der hohen Belastung blieb sie ruhig.",
+          "ar": "بقيت هادئة رغم الضغط."
+        },
+        {
+          "de": "Trotz des Gesprächs gab es keine Lösung.",
+          "ar": "لم يوجد حل رغم الحوار."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v065",
+      "identity": "während + genitiv",
+      "term": "während + Genitiv",
+      "type": "phrase",
+      "arabic": "أثناء",
+      "explanation_de": "Eine Präposition zur Angabe eines Zeitraums.",
+      "explanation_ar": "حرف جر لبيان فترة زمنية.",
+      "examples": [
+        {
+          "de": "Während der Probezeit gelten besondere Regeln.",
+          "ar": "تسري قواعد خاصة أثناء فترة التجربة."
+        },
+        {
+          "de": "Während des Urlaubs ist sie nicht erreichbar.",
+          "ar": "لا يمكن التواصل معها أثناء الإجازة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v066",
+      "identity": "innerhalb + genitiv",
+      "term": "innerhalb + Genitiv",
+      "type": "phrase",
+      "arabic": "خلال أو داخل",
+      "explanation_de": "Eine Präposition für eine Frist oder einen räumlichen Bereich.",
+      "explanation_ar": "حرف جر لبيان مهلة زمنية أو نطاق مكاني.",
+      "examples": [
+        {
+          "de": "Die Antwort muss innerhalb einer Woche erfolgen.",
+          "ar": "يجب الرد خلال أسبوع."
+        },
+        {
+          "de": "Innerhalb des Betriebs gelten einheitliche Regeln.",
+          "ar": "تسري قواعد موحدة داخل الشركة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v067",
+      "identity": "außerhalb + genitiv",
+      "term": "außerhalb + Genitiv",
+      "type": "phrase",
+      "arabic": "خارج",
+      "explanation_de": "Eine Präposition für etwas außerhalb eines Zeitraums oder Bereichs.",
+      "explanation_ar": "حرف جر لما يقع خارج مدة أو نطاق.",
+      "examples": [
+        {
+          "de": "Außerhalb der Arbeitszeit ist die Teilnahme freiwillig.",
+          "ar": "المشاركة طوعية خارج وقت العمل."
+        },
+        {
+          "de": "Das Gespräch findet außerhalb des Betriebs statt.",
+          "ar": "يُجرى الحوار خارج الشركة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v068",
+      "identity": "anlässlich + genitiv",
+      "term": "anlässlich + Genitiv",
+      "type": "phrase",
+      "arabic": "بمناسبة",
+      "explanation_de": "Eine formelle Präposition, die den Anlass nennt.",
+      "explanation_ar": "حرف جر رسمي يوضح مناسبة الحدث.",
+      "examples": [
+        {
+          "de": "Anlässlich der Betriebsversammlung wurden Regeln vorgestellt.",
+          "ar": "عُرضت قواعد بمناسبة اجتماع الموظفين."
+        },
+        {
+          "de": "Anlässlich des Jubiläums gab es eine Feier.",
+          "ar": "أقيم احتفال بمناسبة الذكرى."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u10-v069",
+      "identity": "statt + genitiv",
+      "term": "statt + Genitiv",
+      "type": "phrase",
+      "arabic": "بدلًا من",
+      "explanation_de": "Eine Präposition, die eine ersetzte Möglichkeit nennt.",
+      "explanation_ar": "حرف جر يبين أن شيئًا حل محل آخر.",
+      "examples": [
+        {
+          "de": "Statt eines Betriebsausflugs findet eine Schulung statt.",
+          "ar": "تُقام دورة بدلًا من رحلة الشركة."
+        },
+        {
+          "de": "Statt der alten Regel gilt eine neue Vereinbarung.",
+          "ar": "تسري اتفاقية جديدة بدل القاعدة القديمة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 10,
+        "pages": [
+          174,
+          181
+        ],
+        "section": "Präpositionen mit Genitiv"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

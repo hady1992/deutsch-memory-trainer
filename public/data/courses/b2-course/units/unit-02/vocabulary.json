@@ -1,0 +1,2949 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 2,
+    "unitTitle_de": "Mein eigener Laden – Selbstständigkeit, Arbeitsrecht und Kundenservice",
+    "unitTitle_ar": "متجري الخاص – العمل المستقل وقانون العمل وخدمة الزبائن",
+    "sourcePages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "excluded": [
+      "sehr einfache Grundwörter",
+      "wiederholte Lehrbuchanweisungen",
+      "Bildwörter ohne direkten Kapitelbezug",
+      "bereits in Einheit 1 angelegte identische Begriffe"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u01-v030",
+      "term": "der Schaden",
+      "pages": [
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v040",
+      "term": "verhandeln",
+      "pages": [
+        29,
+        44
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v041",
+      "term": "sich kümmern um",
+      "pages": [
+        28,
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v042",
+      "term": "beheben",
+      "pages": [
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v048",
+      "term": "verantwortlich",
+      "pages": [
+        29,
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v049",
+      "term": "dringend",
+      "pages": [
+        28,
+        44
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v056",
+      "term": "sich auf etwas beziehen",
+      "pages": [
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v057",
+      "term": "so schnell wie möglich",
+      "pages": [
+        46
+      ]
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        46
+      ]
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u02-v001",
+      "identity": "der späti",
+      "term": "der Späti",
+      "type": "noun",
+      "arabic": "متجر صغير يفتح حتى وقت متأخر",
+      "explanation_de": "Ein kleiner Laden, der meist bis spät abends geöffnet ist.",
+      "explanation_ar": "متجر صغير يبيع الحاجات اليومية والمشروبات حتى وقت متأخر، خاصة في برلين.",
+      "examples": [
+        {
+          "de": "Unser Späti ist bis Mitternacht geöffnet.",
+          "ar": "متجر الحي مفتوح حتى منتصف الليل."
+        },
+        {
+          "de": "Viele Menschen treffen sich nach Feierabend vor dem Späti.",
+          "ar": "يلتقي كثيرون أمام المتجر بعد انتهاء العمل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Spätis"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          23,
+          24,
+          25,
+          30,
+          31
+        ],
+        "section": "Mehmets Kiosk"
+      },
+      "tags": [
+        "laden",
+        "öffnungszeiten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v002",
+      "identity": "das warenangebot",
+      "term": "das Warenangebot",
+      "type": "noun",
+      "arabic": "تشكيلة السلع المعروضة",
+      "explanation_de": "Die Gesamtheit der Waren, die ein Geschäft anbietet.",
+      "explanation_ar": "جميع السلع التي يعرضها المتجر للبيع.",
+      "examples": [
+        {
+          "de": "Das Warenangebot ist trotz der kleinen Fläche groß.",
+          "ar": "تشكيلة السلع كبيرة رغم صغر المساحة."
+        },
+        {
+          "de": "Mehmet passt das Warenangebot an die Kundschaft an.",
+          "ar": "يكيّف محمد التشكيلة مع الزبائن."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Warenangebote"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24
+        ],
+        "section": "Mehmets Kiosk"
+      },
+      "tags": [
+        "handel",
+        "produkte"
+      ],
+      "globalRef": "nouns:noun_0052",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v003",
+      "identity": "die kundschaft",
+      "term": "die Kundschaft",
+      "type": "noun",
+      "arabic": "مجمل الزبائن",
+      "explanation_de": "Alle Kundinnen und Kunden eines Geschäfts.",
+      "explanation_ar": "اسم جمع يدل على جميع زبائن المتجر.",
+      "examples": [
+        {
+          "de": "Mehmet kennt viele Personen aus seiner Kundschaft.",
+          "ar": "يعرف محمد كثيرًا من زبائنه."
+        },
+        {
+          "de": "Am Wochenende kommt auch touristische Kundschaft.",
+          "ar": "يأتي زبائن سياح أيضًا في عطلة نهاية الأسبوع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "collective"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24,
+          26
+        ],
+        "section": "Mehmets Kiosk"
+      },
+      "tags": [
+        "kunden",
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v004",
+      "identity": "der schichtdienst",
+      "term": "der Schichtdienst",
+      "type": "noun",
+      "arabic": "العمل بنظام المناوبات",
+      "explanation_de": "Eine Arbeitsform mit wechselnden Arbeitszeiten.",
+      "explanation_ar": "نظام يتناوب فيه الموظفون على أوقات عمل مختلفة.",
+      "examples": [
+        {
+          "de": "Im Schichtdienst wechseln Früh- und Spätschichten.",
+          "ar": "تتناوب المناوبات الصباحية والمسائية في هذا النظام."
+        },
+        {
+          "de": "Schichtdienst erfordert eine gute Planung.",
+          "ar": "يتطلب العمل بالمناوبات تخطيطًا جيدًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Schichtdienste"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          25,
+          28,
+          34
+        ],
+        "section": "Arbeitszeiten"
+      },
+      "tags": [
+        "arbeitszeit",
+        "schicht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v005",
+      "identity": "die gleitzeit",
+      "term": "die Gleitzeit",
+      "type": "noun",
+      "arabic": "الدوام المرن",
+      "explanation_de": "Ein Modell mit variablen Anfangs- und Endzeiten innerhalb fester Grenzen.",
+      "explanation_ar": "نظام يسمح باختيار وقت بدء الدوام وانتهائه ضمن حدود معينة.",
+      "examples": [
+        {
+          "de": "Dank der Gleitzeit kann Susan früh anfangen.",
+          "ar": "بفضل الدوام المرن تستطيع سوزان البدء باكرًا."
+        },
+        {
+          "de": "In kleinen Läden ist Gleitzeit nicht immer möglich.",
+          "ar": "الدوام المرن ليس ممكنًا دائمًا في المتاجر الصغيرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          25
+        ],
+        "section": "Arbeitszeiten"
+      },
+      "tags": [
+        "arbeitszeit",
+        "flexibilität"
+      ],
+      "globalRef": "nouns:noun_0377",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v006",
+      "identity": "der feierabend",
+      "term": "der Feierabend",
+      "type": "noun",
+      "arabic": "انتهاء وقت العمل / وقت ما بعد الدوام",
+      "explanation_de": "Die Zeit nach dem Ende des Arbeitstages.",
+      "explanation_ar": "الفترة التي تبدأ بعد انتهاء الدوام.",
+      "examples": [
+        {
+          "de": "Nach Feierabend kauft Anna noch im Späti ein.",
+          "ar": "تتسوق آنا بعد انتهاء الدوام."
+        },
+        {
+          "de": "Heute mache ich erst um 20 Uhr Feierabend.",
+          "ar": "سأنهي عملي اليوم الساعة الثامنة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24,
+          25
+        ],
+        "section": "Arbeitszeiten"
+      },
+      "tags": [
+        "arbeitszeit",
+        "alltag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v007",
+      "identity": "die buchführung",
+      "term": "die Buchführung",
+      "type": "noun",
+      "arabic": "مسك الدفاتر والمحاسبة",
+      "explanation_de": "Die systematische Erfassung von Einnahmen, Ausgaben und Geschäftsvorgängen.",
+      "explanation_ar": "تسجيل الإيرادات والمصروفات والمعاملات المالية للمشروع.",
+      "examples": [
+        {
+          "de": "Die Buchführung gehört zu Mehmets wichtigsten Aufgaben.",
+          "ar": "مسك الدفاتر من أهم مهام محمد."
+        },
+        {
+          "de": "Alle Einnahmen müssen in der Buchführung erscheinen.",
+          "ar": "يجب تسجيل جميع الإيرادات في الحسابات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26
+        ],
+        "section": "Ein Gespräch mit Mehmet"
+      },
+      "tags": [
+        "selbstständigkeit",
+        "finanzen"
+      ],
+      "globalRef": "nouns:noun_0060",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v008",
+      "identity": "der lieferant / die lieferantin",
+      "term": "der Lieferant / die Lieferantin",
+      "type": "noun",
+      "arabic": "المورّد / المورّدة",
+      "explanation_de": "Eine Person oder Firma, die Waren an ein Geschäft liefert.",
+      "explanation_ar": "شخص أو شركة تزود المتجر بالبضائع.",
+      "examples": [
+        {
+          "de": "Der Lieferant bringt dienstags die Getränke.",
+          "ar": "يجلب المورّد المشروبات يوم الثلاثاء."
+        },
+        {
+          "de": "Mehmet verhandelt mit seiner Lieferantin über Preise.",
+          "ar": "يتفاوض محمد مع المورّدة على الأسعار."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Lieferanten / die Lieferantinnen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          30,
+          32
+        ],
+        "section": "Lieferungen"
+      },
+      "tags": [
+        "handel",
+        "lieferung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v009",
+      "identity": "die filiale",
+      "term": "die Filiale",
+      "type": "noun",
+      "arabic": "فرع تابع لمتجر أو شركة",
+      "explanation_de": "Eine Geschäftsstelle, die zu einem größeren Unternehmen gehört.",
+      "explanation_ar": "فرع تابع لمؤسسة أكبر.",
+      "examples": [
+        {
+          "de": "Die Kette eröffnet eine neue Filiale.",
+          "ar": "تفتتح السلسلة فرعًا جديدًا."
+        },
+        {
+          "de": "Mehmets Kiosk ist keine Filiale.",
+          "ar": "كشك محمد ليس فرعًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Filialen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          32
+        ],
+        "section": "Ein Gespräch mit Mehmet"
+      },
+      "tags": [
+        "unternehmen",
+        "laden"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v010",
+      "identity": "die geschäftslage",
+      "term": "die Geschäftslage",
+      "type": "noun",
+      "arabic": "موقع المتجر من الناحية التجارية",
+      "explanation_de": "Die Lage eines Geschäfts und ihre Bedeutung für Erreichbarkeit und Kundenzahl.",
+      "explanation_ar": "موقع المحل ومدى ملاءمته لجذب الزبائن.",
+      "examples": [
+        {
+          "de": "Eine gute Geschäftslage erhöht die Kundenfrequenz.",
+          "ar": "الموقع الجيد يزيد عدد الزبائن."
+        },
+        {
+          "de": "Vor der Gründung prüft Iris die Geschäftslage.",
+          "ar": "تفحص إيريس موقع المتجر قبل التأسيس."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Geschäftslagen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          27,
+          32
+        ],
+        "section": "Existenzgründung"
+      },
+      "tags": [
+        "gründung",
+        "standort"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v011",
+      "identity": "der pachtvertrag",
+      "term": "der Pachtvertrag",
+      "type": "noun",
+      "arabic": "عقد استئجار تجاري مع حق الاستغلال",
+      "explanation_de": "Ein Vertrag über die Nutzung von Räumen oder eines Betriebs gegen Zahlung.",
+      "explanation_ar": "عقد يتيح استخدام محل أو مشروع مقابل بدل مالي.",
+      "examples": [
+        {
+          "de": "Mehmet prüft den Pachtvertrag genau.",
+          "ar": "يفحص محمد عقد الاستئجار بعناية."
+        },
+        {
+          "de": "Im Pachtvertrag stehen Laufzeit und Kosten.",
+          "ar": "ترد المدة والتكاليف في العقد."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Pachtverträge"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26
+        ],
+        "section": "Ein Gespräch mit Mehmet"
+      },
+      "tags": [
+        "vertrag",
+        "gründung"
+      ],
+      "globalRef": "nouns:noun_0061",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v012",
+      "identity": "das sortiment",
+      "term": "das Sortiment",
+      "type": "noun",
+      "arabic": "تشكيلة المنتجات",
+      "explanation_de": "Die Auswahl verschiedener Waren eines Geschäfts.",
+      "explanation_ar": "مجموعة المنتجات التي يبيعها المتجر.",
+      "examples": [
+        {
+          "de": "Zum Sortiment gehören Zeitungen und Getränke.",
+          "ar": "تشمل التشكيلة الصحف والمشروبات."
+        },
+        {
+          "de": "Das Geschäft erweitert sein Sortiment.",
+          "ar": "يوسع المتجر تشكيلة منتجاته."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Sortimente"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24,
+          26,
+          32
+        ],
+        "section": "Mehmets Kiosk"
+      },
+      "tags": [
+        "handel",
+        "produkte"
+      ],
+      "globalRef": "nouns:noun_0062",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v013",
+      "identity": "der businessplan",
+      "term": "der Businessplan",
+      "type": "noun",
+      "arabic": "خطة العمل أو المشروع",
+      "explanation_de": "Ein schriftliches Konzept zu Markt, Finanzierung, Zielen und Umsetzung.",
+      "explanation_ar": "وثيقة تشرح فكرة المشروع والسوق والتمويل والخطة.",
+      "examples": [
+        {
+          "de": "Die Bank verlangt einen überzeugenden Businessplan.",
+          "ar": "يطلب البنك خطة عمل مقنعة."
+        },
+        {
+          "de": "Der Businessplan enthält auch Risiken und Kosten.",
+          "ar": "تتضمن خطة العمل المخاطر والتكاليف."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Businesspläne"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          27,
+          32,
+          33
+        ],
+        "section": "Existenzgründung"
+      },
+      "tags": [
+        "gründung",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v014",
+      "identity": "die einnahmen",
+      "term": "die Einnahmen",
+      "type": "noun_plural",
+      "arabic": "الإيرادات",
+      "explanation_de": "Das Geld, das ein Betrieb durch Verkäufe oder Leistungen erhält.",
+      "explanation_ar": "الأموال التي تدخل إلى المشروع من المبيعات أو الخدمات.",
+      "examples": [
+        {
+          "de": "Die Einnahmen sind am Wochenende höher.",
+          "ar": "تكون الإيرادات أعلى في عطلة نهاية الأسبوع."
+        },
+        {
+          "de": "Alle Einnahmen werden genau erfasst.",
+          "ar": "تُسجل جميع الإيرادات بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          32
+        ],
+        "section": "Unternehmensfinanzen"
+      },
+      "tags": [
+        "finanzen",
+        "buchführung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v015",
+      "identity": "die ausgaben",
+      "term": "die Ausgaben",
+      "type": "noun_plural",
+      "arabic": "المصروفات",
+      "explanation_de": "Das Geld, das ein Betrieb für Waren, Miete oder Personal bezahlt.",
+      "explanation_ar": "الأموال التي يدفعها المشروع للبضائع والإيجار وغيرها.",
+      "examples": [
+        {
+          "de": "Die Miete gehört zu den größten Ausgaben.",
+          "ar": "الإيجار من أكبر المصروفات."
+        },
+        {
+          "de": "Die Ausgaben dürfen nicht dauerhaft höher sein als die Einnahmen.",
+          "ar": "يجب ألا تتجاوز المصروفات الإيرادات باستمرار."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26
+        ],
+        "section": "Unternehmensfinanzen"
+      },
+      "tags": [
+        "finanzen",
+        "buchführung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v016",
+      "identity": "die finanzielle rücklage",
+      "term": "die finanzielle Rücklage",
+      "type": "noun",
+      "arabic": "احتياطي مالي",
+      "explanation_de": "Geld, das für unerwartete Kosten zurückgelegt wird.",
+      "explanation_ar": "مبلغ يُدخر للمصاريف المفاجئة أو فترات ضعف الدخل.",
+      "examples": [
+        {
+          "de": "Vor der Gründung braucht man finanzielle Rücklagen.",
+          "ar": "يحتاج الشخص إلى احتياطي مالي قبل التأسيس."
+        },
+        {
+          "de": "Ohne Rücklage wird eine Reparatur schnell zum Problem.",
+          "ar": "قد يصبح الإصلاح مشكلة من دون احتياطي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die finanziellen Rücklagen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          27
+        ],
+        "section": "Existenzgründung"
+      },
+      "tags": [
+        "finanzen",
+        "risiko"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v017",
+      "identity": "der kredit",
+      "term": "der Kredit",
+      "type": "noun",
+      "arabic": "قرض",
+      "explanation_de": "Geliehenes Geld, das nach vereinbarten Bedingungen zurückgezahlt wird.",
+      "explanation_ar": "مبلغ مقترض يجب سداده وفق شروط محددة.",
+      "examples": [
+        {
+          "de": "Die Bank bietet Iris einen günstigen Kredit an.",
+          "ar": "يعرض البنك على إيريس قرضًا مناسبًا."
+        },
+        {
+          "de": "Für den Kredit braucht sie einen guten Businessplan.",
+          "ar": "تحتاج إلى خطة عمل جيدة للحصول على القرض."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Kredite"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          27,
+          32,
+          33
+        ],
+        "section": "Finanzierung"
+      },
+      "tags": [
+        "finanzen",
+        "gründung"
+      ],
+      "globalRef": "nouns:noun_0066",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v018",
+      "identity": "die existenzgründung",
+      "term": "die Existenzgründung",
+      "type": "noun",
+      "arabic": "تأسيس مشروع مستقل",
+      "explanation_de": "Der Aufbau einer eigenen beruflichen oder gewerblichen Tätigkeit.",
+      "explanation_ar": "إنشاء نشاط مهني أو تجاري خاص.",
+      "examples": [
+        {
+          "de": "Eine Existenzgründung braucht realistische Planung.",
+          "ar": "يتطلب تأسيس المشروع تخطيطًا واقعيًا."
+        },
+        {
+          "de": "Sie besucht vor der Existenzgründung ein Seminar.",
+          "ar": "تحضر ندوة قبل تأسيس المشروع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Existenzgründungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          27,
+          32,
+          33
+        ],
+        "section": "Gründerforum"
+      },
+      "tags": [
+        "gründung",
+        "selbstständigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v019",
+      "identity": "der existenzgründer / die existenzgründerin",
+      "term": "der Existenzgründer / die Existenzgründerin",
+      "type": "noun",
+      "arabic": "مؤسس أو مؤسسة مشروع",
+      "explanation_de": "Eine Person, die eine eigene berufliche Existenz aufbaut.",
+      "explanation_ar": "شخص يبدأ مشروعًا أو عملًا مستقلًا.",
+      "examples": [
+        {
+          "de": "Existenzgründer können sich beraten lassen.",
+          "ar": "يمكن لمؤسسي المشاريع الحصول على استشارة."
+        },
+        {
+          "de": "Die Existenzgründerin prüft mehrere Finanzierungswege.",
+          "ar": "تفحص مؤسسة المشروع طرق تمويل مختلفة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Existenzgründer / die Existenzgründerinnen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          27,
+          32,
+          33
+        ],
+        "section": "Gründerforum"
+      },
+      "tags": [
+        "gründung",
+        "personen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v020",
+      "identity": "das crowdfunding",
+      "term": "das Crowdfunding",
+      "type": "noun",
+      "arabic": "التمويل الجماعي",
+      "explanation_de": "Eine Finanzierung durch viele kleinere Beiträge verschiedener Personen.",
+      "explanation_ar": "تمويل مشروع عبر مساهمات صغيرة من عدد كبير من الناس.",
+      "examples": [
+        {
+          "de": "Das Café finanziert die Einrichtung durch Crowdfunding.",
+          "ar": "يمول المقهى التجهيزات بالتمويل الجماعي."
+        },
+        {
+          "de": "Eine gute Kampagne ist beim Crowdfunding wichtig.",
+          "ar": "الحملة الجيدة مهمة في التمويل الجماعي."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          27
+        ],
+        "section": "Gründerforum"
+      },
+      "tags": [
+        "finanzen",
+        "gründung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v021",
+      "identity": "die ladengemeinschaft",
+      "term": "die Ladengemeinschaft",
+      "type": "noun",
+      "arabic": "مشروع متجر مشترك",
+      "explanation_de": "Eine Gemeinschaft, in der mehrere Selbstständige Räume oder Kosten teilen.",
+      "explanation_ar": "تعاون بين أصحاب مشاريع يتشاركون محلًا أو تكاليفه.",
+      "examples": [
+        {
+          "de": "Zwei Designerinnen gründen eine Ladengemeinschaft.",
+          "ar": "تؤسس مصممتان متجرًا مشتركًا."
+        },
+        {
+          "de": "Durch die Ladengemeinschaft sinken die Kosten.",
+          "ar": "تنخفض التكاليف بفضل المشروع المشترك."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ladengemeinschaften"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          27
+        ],
+        "section": "Gründerforum"
+      },
+      "tags": [
+        "gründung",
+        "kooperation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v022",
+      "identity": "die gewerbefläche",
+      "term": "die Gewerbefläche",
+      "type": "noun",
+      "arabic": "مساحة مخصصة لنشاط تجاري",
+      "explanation_de": "Eine Fläche oder ein Raum für geschäftliche Zwecke.",
+      "explanation_ar": "مكان مخصص لمحل أو مكتب أو نشاط تجاري.",
+      "examples": [
+        {
+          "de": "Die Gewerbefläche liegt an einer belebten Straße.",
+          "ar": "تقع المساحة التجارية على شارع مزدحم."
+        },
+        {
+          "de": "Günstige Gewerbeflächen sind im Zentrum selten.",
+          "ar": "المساحات التجارية الرخيصة نادرة في المركز."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Gewerbeflächen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          27
+        ],
+        "section": "Gründerforum"
+      },
+      "tags": [
+        "immobilien",
+        "gründung"
+      ],
+      "globalRef": "nouns:noun_0067",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v023",
+      "identity": "der dienstplan",
+      "term": "der Dienstplan",
+      "type": "noun",
+      "arabic": "جدول المناوبات",
+      "explanation_de": "Ein Plan, der festlegt, wer wann arbeitet.",
+      "explanation_ar": "جدول يحدد أيام وساعات عمل كل موظف.",
+      "examples": [
+        {
+          "de": "Der Dienstplan wird am Freitag erstellt.",
+          "ar": "يُعد جدول المناوبات يوم الجمعة."
+        },
+        {
+          "de": "Franca kann den Dienstplan nicht vollständig einhalten.",
+          "ar": "لا تستطيع فرانكا الالتزام بالجدول كاملًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Dienstpläne"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          34,
+          35,
+          36
+        ],
+        "section": "Alltag im Späti"
+      },
+      "tags": [
+        "arbeitszeit",
+        "planung"
+      ],
+      "globalRef": "nouns:noun_0071",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v024",
+      "identity": "der arbeitsauftrag",
+      "term": "der Arbeitsauftrag",
+      "type": "noun",
+      "arabic": "مهمة أو تكليف عمل",
+      "explanation_de": "Eine konkrete Aufgabe, die im Rahmen der Arbeit erledigt werden soll.",
+      "explanation_ar": "مهمة محددة يطلب تنفيذها ضمن العمل.",
+      "examples": [
+        {
+          "de": "Der Arbeitsauftrag enthält Menge und Termin.",
+          "ar": "يتضمن تكليف العمل الكمية والموعد."
+        },
+        {
+          "de": "Franca bestätigt den Arbeitsauftrag telefonisch.",
+          "ar": "تؤكد فرانكا تكليف العمل هاتفيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitsaufträge"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          29,
+          35,
+          36
+        ],
+        "section": "Arbeitsaufträge"
+      },
+      "tags": [
+        "arbeit",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v025",
+      "identity": "die nachbestellung",
+      "term": "die Nachbestellung",
+      "type": "noun",
+      "arabic": "طلبية إضافية",
+      "explanation_de": "Eine weitere Bestellung, wenn die vorhandene Menge nicht reicht.",
+      "explanation_ar": "طلب كمية إضافية عند قرب نفاد المخزون.",
+      "examples": [
+        {
+          "de": "Wegen der hohen Nachfrage ist eine Nachbestellung nötig.",
+          "ar": "تلزم طلبية إضافية بسبب ارتفاع الطلب."
+        },
+        {
+          "de": "Die Nachbestellung muss heute rausgehen.",
+          "ar": "يجب إرسال الطلبية الإضافية اليوم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Nachbestellungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          35
+        ],
+        "section": "Arbeitsaufträge"
+      },
+      "tags": [
+        "bestellung",
+        "waren"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v026",
+      "identity": "die vertretung",
+      "term": "die Vertretung",
+      "type": "noun",
+      "arabic": "النيابة عن موظف آخر",
+      "explanation_de": "Die vorübergehende Übernahme der Aufgaben einer abwesenden Person.",
+      "explanation_ar": "قيام موظف بمهام زميل غائب مؤقتًا.",
+      "examples": [
+        {
+          "de": "Für Freitag brauchen wir eine Vertretung.",
+          "ar": "نحتاج إلى بديل ليوم الجمعة."
+        },
+        {
+          "de": "Die Vertretung übernimmt die Spätschicht.",
+          "ar": "يتولى البديل المناوبة المسائية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vertretungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          34
+        ],
+        "section": "Dienstplan"
+      },
+      "tags": [
+        "arbeit",
+        "schicht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v027",
+      "identity": "die freistellung",
+      "term": "die Freistellung",
+      "type": "noun",
+      "arabic": "إعفاء مؤقت من العمل",
+      "explanation_de": "Die vorübergehende Befreiung von der Arbeitspflicht.",
+      "explanation_ar": "السماح للموظف بعدم العمل مؤقتًا لسبب معترف به.",
+      "examples": [
+        {
+          "de": "Bei Krankheit des Kindes kann eine Freistellung möglich sein.",
+          "ar": "قد يكون الإعفاء من العمل ممكنًا عند مرض الطفل."
+        },
+        {
+          "de": "Sie beantragt eine Freistellung für zwei Tage.",
+          "ar": "تطلب إعفاءً لمدة يومين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Freistellungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          39
+        ],
+        "section": "Arbeit und Familie"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v028",
+      "identity": "das ärztliche attest",
+      "term": "das ärztliche Attest",
+      "type": "noun",
+      "arabic": "شهادة طبية",
+      "explanation_de": "Eine schriftliche ärztliche Bescheinigung.",
+      "explanation_ar": "وثيقة من الطبيب تثبت المرض أو الحاجة إلى الرعاية.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kann ein ärztliches Attest verlangen.",
+          "ar": "يمكن لصاحب العمل طلب شهادة طبية."
+        },
+        {
+          "de": "Das Attest bestätigt die notwendige Betreuung.",
+          "ar": "تؤكد الشهادة ضرورة الرعاية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die ärztlichen Atteste"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          39
+        ],
+        "section": "Arbeit und Familie"
+      },
+      "tags": [
+        "gesundheit",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v029",
+      "identity": "die benachteiligung",
+      "term": "die Benachteiligung",
+      "type": "noun",
+      "arabic": "إجحاف أو وضع شخص في موقف أسوأ",
+      "explanation_de": "Eine ungünstigere Behandlung, durch die jemand Nachteile hat.",
+      "explanation_ar": "معاملة تجعل شخصًا في وضع أسوأ من غيره.",
+      "examples": [
+        {
+          "de": "Sie wehrt sich gegen die Benachteiligung.",
+          "ar": "تدافع عن نفسها ضد الإجحاف."
+        },
+        {
+          "de": "Benachteiligung wegen des Geschlechts kann unzulässig sein.",
+          "ar": "قد يكون الإجحاف بسبب الجنس غير مسموح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Benachteiligungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          40,
+          41
+        ],
+        "section": "Benachteiligung"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "gleichbehandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v030",
+      "identity": "die diskriminierung",
+      "term": "die Diskriminierung",
+      "type": "noun",
+      "arabic": "التمييز",
+      "explanation_de": "Eine ungerechtfertigte Benachteiligung wegen persönlicher Merkmale.",
+      "explanation_ar": "معاملة غير عادلة بسبب العمر أو الجنس أو الأصل أو الدين أو الإعاقة.",
+      "examples": [
+        {
+          "de": "Diskriminierung am Arbeitsplatz muss verhindert werden.",
+          "ar": "يجب منع التمييز في مكان العمل."
+        },
+        {
+          "de": "Betroffene können sich an den Betriebsrat wenden.",
+          "ar": "يمكن للمتضررين التوجه إلى مجلس العاملين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Diskriminierungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          41
+        ],
+        "section": "Diskriminierung"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "gleichbehandlung"
+      ],
+      "globalRef": "nouns:noun_0414",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v031",
+      "identity": "die ungleichbehandlung",
+      "term": "die Ungleichbehandlung",
+      "type": "noun",
+      "arabic": "المعاملة غير المتساوية",
+      "explanation_de": "Die unterschiedliche Behandlung vergleichbarer Personen.",
+      "explanation_ar": "معاملة أشخاص في ظروف متشابهة بطرق مختلفة.",
+      "examples": [
+        {
+          "de": "Nicht jede Ungleichbehandlung ist Diskriminierung.",
+          "ar": "ليست كل معاملة مختلفة تمييزًا."
+        },
+        {
+          "de": "Es muss ein sachlicher Grund vorliegen.",
+          "ar": "يجب وجود سبب موضوعي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ungleichbehandlungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          41
+        ],
+        "section": "Diskriminierung"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "gleichbehandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v032",
+      "identity": "der betriebsrat",
+      "term": "der Betriebsrat",
+      "type": "noun",
+      "arabic": "مجلس العاملين في الشركة",
+      "explanation_de": "Eine gewählte Interessenvertretung der Beschäftigten.",
+      "explanation_ar": "هيئة منتخبة تمثل مصالح الموظفين.",
+      "examples": [
+        {
+          "de": "Der Betriebsrat berät Beschäftigte bei Konflikten.",
+          "ar": "يقدم مجلس العاملين المشورة عند النزاعات."
+        },
+        {
+          "de": "Vor manchen Kündigungen muss er angehört werden.",
+          "ar": "يجب الاستماع إليه قبل بعض حالات الفصل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Betriebsräte"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          41,
+          43
+        ],
+        "section": "Arbeitsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "vertretung"
+      ],
+      "globalRef": "nouns:noun_0399",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v033",
+      "identity": "die abmahnung",
+      "term": "die Abmahnung",
+      "type": "noun",
+      "arabic": "إنذار وظيفي رسمي",
+      "explanation_de": "Eine formelle Warnung wegen eines konkreten Fehlverhaltens.",
+      "explanation_ar": "تحذير رسمي من صاحب العمل بسبب مخالفة.",
+      "examples": [
+        {
+          "de": "Vor einer Kündigung kann eine Abmahnung stehen.",
+          "ar": "قد يسبق الفصل إنذار وظيفي."
+        },
+        {
+          "de": "Sie hält die Abmahnung für unbegründet.",
+          "ar": "تعتبر الإنذار غير مبرر."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Abmahnungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          42,
+          43,
+          44
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v034",
+      "identity": "die ordentliche kündigung",
+      "term": "die ordentliche Kündigung",
+      "type": "noun",
+      "arabic": "إنهاء عادي لعلاقة العمل",
+      "explanation_de": "Die Beendigung des Arbeitsverhältnisses unter Einhaltung der Kündigungsfrist.",
+      "explanation_ar": "إنهاء عقد العمل مع الالتزام بمهلة الإشعار.",
+      "examples": [
+        {
+          "de": "Bei der ordentlichen Kündigung gilt eine Frist.",
+          "ar": "تسري مهلة في الفصل العادي."
+        },
+        {
+          "de": "Der Arbeitgeber muss den Kündigungsschutz beachten.",
+          "ar": "على صاحب العمل مراعاة الحماية من الفصل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die ordentlichen Kündigungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "kündigung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v035",
+      "identity": "die außerordentliche kündigung",
+      "term": "die außerordentliche Kündigung",
+      "type": "noun",
+      "arabic": "فصل استثنائي فوري",
+      "explanation_de": "Die sofortige Beendigung des Arbeitsverhältnisses aus wichtigem Grund.",
+      "explanation_ar": "إنهاء فوري لعلاقة العمل بسبب سبب خطير.",
+      "examples": [
+        {
+          "de": "Eine außerordentliche Kündigung braucht einen wichtigen Grund.",
+          "ar": "يتطلب الفصل الاستثنائي سببًا مهمًا."
+        },
+        {
+          "de": "Der Sachverhalt muss genau geprüft werden.",
+          "ar": "يجب فحص الوقائع بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die außerordentlichen Kündigungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "kündigung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v036",
+      "identity": "die kündigungsfrist",
+      "term": "die Kündigungsfrist",
+      "type": "noun",
+      "arabic": "مهلة إنهاء العقد",
+      "explanation_de": "Der Zeitraum zwischen Kündigung und tatsächlichem Vertragsende.",
+      "explanation_ar": "الفترة بين تقديم الإنهاء وانتهاء علاقة العمل.",
+      "examples": [
+        {
+          "de": "Die Kündigungsfrist beträgt vier Wochen.",
+          "ar": "تبلغ مهلة الإنهاء أربعة أسابيع."
+        },
+        {
+          "de": "Bei einer fristlosen Kündigung gibt es keine normale Frist.",
+          "ar": "لا توجد مهلة عادية في الفصل الفوري."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kündigungsfristen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "kündigung"
+      ],
+      "globalRef": "nouns:noun_0166",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v037",
+      "identity": "der kündigungsschutz",
+      "term": "der Kündigungsschutz",
+      "type": "noun",
+      "arabic": "الحماية القانونية من الفصل",
+      "explanation_de": "Gesetzliche Regeln zum Schutz vor unwirksamen Kündigungen.",
+      "explanation_ar": "قواعد قانونية تحمي الموظف من الفصل غير الصحيح.",
+      "examples": [
+        {
+          "de": "Der Kündigungsschutz hängt auch von der Betriebsgröße ab.",
+          "ar": "تعتمد الحماية أيضًا على حجم الشركة."
+        },
+        {
+          "de": "Schwangere haben besonderen Kündigungsschutz.",
+          "ar": "تتمتع الحوامل بحماية خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "kündigung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v038",
+      "identity": "das arbeitsgericht",
+      "term": "das Arbeitsgericht",
+      "type": "noun",
+      "arabic": "محكمة العمل",
+      "explanation_de": "Ein Gericht für Streitigkeiten aus Arbeitsverhältnissen.",
+      "explanation_ar": "محكمة مختصة بالنزاعات بين الموظفين وأصحاب العمل.",
+      "examples": [
+        {
+          "de": "Man kann vor dem Arbeitsgericht klagen.",
+          "ar": "يمكن رفع دعوى أمام محكمة العمل."
+        },
+        {
+          "de": "Das Gericht prüft die Wirksamkeit der Kündigung.",
+          "ar": "تفحص المحكمة صحة الفصل."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Arbeitsgerichte"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "gericht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v039",
+      "identity": "der widerspruch",
+      "term": "der Widerspruch",
+      "type": "noun",
+      "arabic": "اعتراض رسمي",
+      "explanation_de": "Eine formelle Erklärung gegen eine Entscheidung.",
+      "explanation_ar": "إعلان رسمي بعدم الموافقة على قرار.",
+      "examples": [
+        {
+          "de": "Sie legt schriftlich Widerspruch ein.",
+          "ar": "تقدم اعتراضًا خطيًا."
+        },
+        {
+          "de": "Der Widerspruch muss fristgerecht erfolgen.",
+          "ar": "يجب تقديم الاعتراض ضمن المهلة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Widersprüche"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          41,
+          43
+        ],
+        "section": "Arbeitsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "verfahren"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v040",
+      "identity": "die gewerkschaft",
+      "term": "die Gewerkschaft",
+      "type": "noun",
+      "arabic": "النقابة العمالية",
+      "explanation_de": "Eine Organisation zur Vertretung von Arbeitnehmerinteressen.",
+      "explanation_ar": "منظمة تمثل مصالح العمال وتقدم لهم الدعم.",
+      "examples": [
+        {
+          "de": "Die Gewerkschaft bietet Rechtsberatung an.",
+          "ar": "تقدم النقابة استشارة قانونية."
+        },
+        {
+          "de": "Sie unterstützt Beschäftigte bei Konflikten.",
+          "ar": "تدعم الموظفين عند النزاعات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Gewerkschaften"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          43
+        ],
+        "section": "Arbeitsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "vertretung"
+      ],
+      "globalRef": "nouns:noun_0168",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v041",
+      "identity": "der betriebsfrieden",
+      "term": "der Betriebsfrieden",
+      "type": "noun",
+      "arabic": "الهدوء والتعاون داخل مكان العمل",
+      "explanation_de": "Ein respektvolles und störungsfreies Zusammenleben im Betrieb.",
+      "explanation_ar": "جو عمل يسوده الاحترام دون نزاعات خطيرة.",
+      "examples": [
+        {
+          "de": "Beleidigungen können den Betriebsfrieden stören.",
+          "ar": "قد تخل الإهانات بجو العمل."
+        },
+        {
+          "de": "Alle tragen zum Betriebsfrieden bei.",
+          "ar": "يساهم الجميع في الحفاظ على جو العمل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          42,
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v042",
+      "identity": "die nebentätigkeit",
+      "term": "die Nebentätigkeit",
+      "type": "noun",
+      "arabic": "عمل جانبي",
+      "explanation_de": "Eine zusätzliche Tätigkeit neben der Hauptbeschäftigung.",
+      "explanation_ar": "عمل إضافي إلى جانب الوظيفة الأساسية.",
+      "examples": [
+        {
+          "de": "Eine Nebentätigkeit muss manchmal gemeldet werden.",
+          "ar": "قد يجب الإبلاغ عن العمل الجانبي."
+        },
+        {
+          "de": "Eine unerlaubte Nebentätigkeit kann Folgen haben.",
+          "ar": "قد تترتب عواقب على العمل الجانبي غير المسموح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Nebentätigkeiten"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          42,
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "arbeit"
+      ],
+      "globalRef": "nouns:noun_0400",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v043",
+      "identity": "der verstoß",
+      "term": "der Verstoß",
+      "type": "noun",
+      "arabic": "مخالفة",
+      "explanation_de": "Eine Handlung gegen eine Regel, Pflicht oder Vorschrift.",
+      "explanation_ar": "تصرف يخالف قاعدة أو واجبًا.",
+      "examples": [
+        {
+          "de": "Ein schwerer Verstoß kann arbeitsrechtliche Folgen haben.",
+          "ar": "قد تترتب آثار وظيفية على المخالفة الجسيمة."
+        },
+        {
+          "de": "Der Verstoß wird schriftlich dokumentiert.",
+          "ar": "تُوثق المخالفة خطيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Verstöße"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          42,
+          43
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "regel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v044",
+      "identity": "die teilzeitbeschäftigung",
+      "term": "die Teilzeitbeschäftigung",
+      "type": "noun",
+      "arabic": "العمل بدوام جزئي",
+      "explanation_de": "Ein Arbeitsverhältnis mit weniger Stunden als Vollzeit.",
+      "explanation_ar": "عمل بعدد ساعات أقل من الدوام الكامل.",
+      "examples": [
+        {
+          "de": "Sie beantragt eine Teilzeitbeschäftigung.",
+          "ar": "تطلب عملًا بدوام جزئي."
+        },
+        {
+          "de": "Die Teilzeit soll zunächst ein Jahr gelten.",
+          "ar": "سيستمر الدوام الجزئي سنة مبدئيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Teilzeitbeschäftigungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitszeit",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v045",
+      "identity": "die vollzeitbeschäftigung",
+      "term": "die Vollzeitbeschäftigung",
+      "type": "noun",
+      "arabic": "العمل بدوام كامل",
+      "explanation_de": "Ein Arbeitsverhältnis mit der üblichen vollen Wochenarbeitszeit.",
+      "explanation_ar": "عمل بعدد الساعات الأسبوعية الكاملة المعتادة.",
+      "examples": [
+        {
+          "de": "Nach der Teilzeit kehrt sie zur Vollzeitbeschäftigung zurück.",
+          "ar": "تعود إلى الدوام الكامل بعد الدوام الجزئي."
+        },
+        {
+          "de": "Vollzeit ist derzeit schwer mit der Familie vereinbar.",
+          "ar": "يصعب حاليًا التوفيق بين الدوام الكامل والأسرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vollzeitbeschäftigungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitszeit",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v046",
+      "identity": "die brückenteilzeit",
+      "term": "die Brückenteilzeit",
+      "type": "noun",
+      "arabic": "دوام جزئي مؤقت مع حق العودة",
+      "explanation_de": "Eine befristete Teilzeit mit späterer Rückkehr zur vorherigen Arbeitszeit.",
+      "explanation_ar": "تقليل مؤقت لساعات العمل مع إمكانية العودة للساعات السابقة.",
+      "examples": [
+        {
+          "de": "Brückenteilzeit ermöglicht später die Rückkehr zur Vollzeit.",
+          "ar": "يتيح الدوام الجزئي المؤقت العودة إلى الدوام الكامل."
+        },
+        {
+          "de": "Der Antrag muss rechtzeitig gestellt werden.",
+          "ar": "يجب تقديم الطلب في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitszeit",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v047",
+      "identity": "die aufstockung",
+      "term": "die Aufstockung",
+      "type": "noun",
+      "arabic": "زيادة الساعات أو المبلغ",
+      "explanation_de": "Die Erhöhung einer Arbeitszeit, eines Betrags oder einer Menge.",
+      "explanation_ar": "زيادة عدد ساعات العمل أو قيمة مبلغ.",
+      "examples": [
+        {
+          "de": "Sie bittet um eine Aufstockung der Wochenstunden.",
+          "ar": "تطلب زيادة ساعات العمل الأسبوعية."
+        },
+        {
+          "de": "Eine Aufstockung auf 30 Stunden wäre denkbar.",
+          "ar": "قد تكون زيادة الدوام إلى 30 ساعة ممكنة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Aufstockungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitszeit",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v048",
+      "identity": "die reduzierung",
+      "term": "die Reduzierung",
+      "type": "noun",
+      "arabic": "تخفيض",
+      "explanation_de": "Die Verringerung einer Menge, Zahl oder Arbeitszeit.",
+      "explanation_ar": "إنقاص عدد الساعات أو كمية معينة.",
+      "examples": [
+        {
+          "de": "Die Reduzierung der Arbeitszeit senkt den Verdienst.",
+          "ar": "يخفض تقليل ساعات العمل الدخل."
+        },
+        {
+          "de": "Sie beantragt eine Reduzierung auf 25 Stunden.",
+          "ar": "تطلب تخفيض الدوام إلى 25 ساعة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reduzierungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitszeit",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v049",
+      "identity": "der rechtsanspruch",
+      "term": "der Rechtsanspruch",
+      "type": "noun",
+      "arabic": "حق قانوني يمكن المطالبة به",
+      "explanation_de": "Ein Anspruch, der sich aus einem Gesetz ergibt.",
+      "explanation_ar": "حق يمنحه القانون ويمكن المطالبة به عند تحقق الشروط.",
+      "examples": [
+        {
+          "de": "Unter Bedingungen besteht ein Rechtsanspruch auf Teilzeit.",
+          "ar": "يوجد حق قانوني في الدوام الجزئي ضمن شروط."
+        },
+        {
+          "de": "Der Anspruch gilt nicht in jedem kleinen Betrieb.",
+          "ar": "لا يسري الحق في كل شركة صغيرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Rechtsansprüche"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeitsrecht",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v050",
+      "identity": "der kompromiss",
+      "term": "der Kompromiss",
+      "type": "noun",
+      "arabic": "حل وسط",
+      "explanation_de": "Eine Einigung, bei der beide Seiten ihre Forderungen teilweise ändern.",
+      "explanation_ar": "اتفاق يتنازل فيه الطرفان عن جزء من طلبهما.",
+      "examples": [
+        {
+          "de": "Beide Seiten finden einen Kompromiss.",
+          "ar": "يتوصل الطرفان إلى حل وسط."
+        },
+        {
+          "de": "Der Kompromiss sieht 25 Wochenstunden vor.",
+          "ar": "ينص الحل الوسط على 25 ساعة أسبوعيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Kompromisse"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Eine Lösung finden"
+      },
+      "tags": [
+        "verhandlung",
+        "lösung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v051",
+      "identity": "der verdienst",
+      "term": "der Verdienst",
+      "type": "noun",
+      "arabic": "الدخل الناتج عن العمل",
+      "explanation_de": "Das Geld, das jemand durch seine Arbeit erhält.",
+      "explanation_ar": "المبلغ الذي يكسبه الشخص من عمله.",
+      "examples": [
+        {
+          "de": "Bei weniger Stunden sinkt oft der Verdienst.",
+          "ar": "ينخفض الدخل غالبًا عند تقليل الساعات."
+        },
+        {
+          "de": "Sie vergleicht den Verdienst bei Vollzeit und Teilzeit.",
+          "ar": "تقارن الدخل في الدوام الكامل والجزئي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Verdienste",
+        "pluralNote": "selten"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "arbeit",
+        "einkommen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v052",
+      "identity": "die kundenbeschwerde",
+      "term": "die Kundenbeschwerde",
+      "type": "noun",
+      "arabic": "شكوى زبون",
+      "explanation_de": "Eine Mitteilung über Unzufriedenheit mit Ware oder Service.",
+      "explanation_ar": "رسالة أو كلام يوضح فيه الزبون مشكلة في المنتج أو الخدمة.",
+      "examples": [
+        {
+          "de": "Die Firma bearbeitet jede Kundenbeschwerde schriftlich.",
+          "ar": "تعالج الشركة كل شكوى خطيًا."
+        },
+        {
+          "de": "Eine gute Beschwerde nennt Problem und gewünschte Lösung.",
+          "ar": "تذكر الشكوى الجيدة المشكلة والحل المطلوب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kundenbeschwerden"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "beschwerde"
+      ],
+      "globalRef": "nouns:noun_0487",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v053",
+      "identity": "die ersatzlieferung",
+      "term": "die Ersatzlieferung",
+      "type": "noun",
+      "arabic": "شحنة بديلة",
+      "explanation_de": "Eine neue Lieferung als Ersatz für falsche oder beschädigte Ware.",
+      "explanation_ar": "إرسال منتج جديد بدل المنتج الخاطئ أو التالف.",
+      "examples": [
+        {
+          "de": "Das Möbelhaus bietet eine Ersatzlieferung an.",
+          "ar": "يعرض متجر الأثاث شحنة بديلة."
+        },
+        {
+          "de": "Die Ersatzlieferung soll am Freitag eintreffen.",
+          "ar": "يجب أن تصل الشحنة البديلة يوم الجمعة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ersatzlieferungen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "lieferung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v054",
+      "identity": "der preisnachlass",
+      "term": "der Preisnachlass",
+      "type": "noun",
+      "arabic": "تخفيض من السعر",
+      "explanation_de": "Eine Verringerung des Kaufpreises.",
+      "explanation_ar": "خصم يُمنح للزبون بسبب مشكلة أو اتفاق.",
+      "examples": [
+        {
+          "de": "Die Kundin erhält einen Preisnachlass.",
+          "ar": "تحصل الزبونة على تخفيض."
+        },
+        {
+          "de": "Zehn Prozent Preisnachlass wären akzeptabel.",
+          "ar": "سيكون خصم عشرة بالمئة مقبولًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Preisnachlässe"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "preis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v055",
+      "identity": "die reklamation",
+      "term": "die Reklamation",
+      "type": "noun",
+      "arabic": "شكوى رسمية على منتج أو خدمة",
+      "explanation_de": "Eine Beanstandung wegen eines Mangels, Fehlers oder schlechten Services.",
+      "explanation_ar": "اعتراض رسمي بسبب عيب أو منتج خاطئ أو خدمة سيئة.",
+      "examples": [
+        {
+          "de": "Die Reklamation betrifft ein beschädigtes Sofa.",
+          "ar": "تتعلق الشكوى بكنبة متضررة."
+        },
+        {
+          "de": "Bitte legen Sie der Reklamation Fotos bei.",
+          "ar": "يرجى إرفاق صور بالشكوى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reklamationen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "beschwerde"
+      ],
+      "globalRef": "nouns:noun_0430",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v056",
+      "identity": "freiberuflich",
+      "term": "freiberuflich",
+      "type": "adjective_adverb",
+      "arabic": "يعمل بمهنة حرة",
+      "explanation_de": "Selbstständig in einem freien oder fachlich qualifizierten Beruf tätig.",
+      "explanation_ar": "العمل المستقل في مهنة مثل الصحافة أو التصميم.",
+      "examples": [
+        {
+          "de": "Anna arbeitet freiberuflich als Journalistin.",
+          "ar": "تعمل آنا صحفية مستقلة."
+        },
+        {
+          "de": "Freiberuflich Tätige organisieren ihre Aufträge selbst.",
+          "ar": "ينظم أصحاب المهن الحرة تكليفاتهم بأنفسهم."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24,
+          25,
+          37
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "selbstständigkeit"
+      ],
+      "globalRef": "adjectives:adj_0005",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v057",
+      "identity": "selbstständig",
+      "term": "selbstständig",
+      "type": "adjective_adverb",
+      "arabic": "مستقل مهنيًا / يعمل لحسابه",
+      "explanation_de": "Auf eigene Rechnung und Verantwortung beruflich tätig.",
+      "explanation_ar": "يعمل لحسابه ويتحمل مسؤولية قرارات المشروع.",
+      "examples": [
+        {
+          "de": "Mehmet ist seit Jahren selbstständig.",
+          "ar": "يعمل محمد لحسابه منذ سنوات."
+        },
+        {
+          "de": "Wer sich selbstständig macht, braucht Planung.",
+          "ar": "من يؤسس عملًا مستقلًا يحتاج إلى تخطيط."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26,
+          27,
+          32,
+          33,
+          36,
+          37
+        ],
+        "section": "Existenzgründung"
+      },
+      "tags": [
+        "arbeit",
+        "gründung"
+      ],
+      "globalRef": "adjectives:adj_0004",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v058",
+      "identity": "verfügbar",
+      "term": "verfügbar",
+      "type": "adjective",
+      "arabic": "متاح",
+      "explanation_de": "Vorhanden, erreichbar oder für eine Aufgabe einsetzbar.",
+      "explanation_ar": "موجود ويمكنه تولي مهمة أو حضور موعد.",
+      "examples": [
+        {
+          "de": "Mittwochnachmittag bin ich nicht verfügbar.",
+          "ar": "لست متاحًا بعد ظهر الأربعاء."
+        },
+        {
+          "de": "Für die Vertretung ist noch niemand verfügbar.",
+          "ar": "لا يوجد بديل متاح بعد."
+        }
+      ],
+      "grammar": {
+        "pattern": "für etw. verfügbar sein",
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          38,
+          39,
+          44
+        ],
+        "section": "Arbeitszeiten und Familie"
+      },
+      "tags": [
+        "arbeit",
+        "verfügbarkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v059",
+      "identity": "unangemessen",
+      "term": "unangemessen",
+      "type": "adjective",
+      "arabic": "غير ملائم أو غير مناسب",
+      "explanation_de": "Nicht passend, sachlich oder akzeptabel für die Situation.",
+      "explanation_ar": "سلوك أو تعبير لا يناسب الموقف.",
+      "examples": [
+        {
+          "de": "Der Ton der Kritik war unangemessen.",
+          "ar": "كانت نبرة النقد غير ملائمة."
+        },
+        {
+          "de": "Eine beleidigende Reaktion ist unangemessen.",
+          "ar": "الرد المهين غير مناسب."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          40,
+          41
+        ],
+        "section": "Kommunikation"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v060",
+      "identity": "unvollständig",
+      "term": "unvollständig",
+      "type": "adjective",
+      "arabic": "غير كامل",
+      "explanation_de": "Nicht vollständig; wichtige Teile fehlen.",
+      "explanation_ar": "ينقصه جزء من الطلب أو المعلومات.",
+      "examples": [
+        {
+          "de": "Die Lieferung war unvollständig.",
+          "ar": "كانت الشحنة غير كاملة."
+        },
+        {
+          "de": "Ein unvollständiger Antrag kann nicht bearbeitet werden.",
+          "ar": "لا يمكن معالجة طلب غير مكتمل."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "lieferung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v061",
+      "identity": "verspätet",
+      "term": "verspätet",
+      "type": "adjective_adverb",
+      "arabic": "متأخر",
+      "explanation_de": "Später als vereinbart oder erwartet.",
+      "explanation_ar": "حدث أو وصل بعد الموعد المتفق عليه.",
+      "examples": [
+        {
+          "de": "Die Ware wurde verspätet geliefert.",
+          "ar": "تم تسليم البضاعة متأخرة."
+        },
+        {
+          "de": "Wegen der verspäteten Lieferung beschwert sie sich.",
+          "ar": "تشتكي بسبب الشحنة المتأخرة."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "service",
+        "termin"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v062",
+      "identity": "sich die arbeitszeit einteilen",
+      "term": "sich die Arbeitszeit einteilen",
+      "type": "phrase",
+      "arabic": "ينظم ساعات عمله بنفسه",
+      "explanation_de": "Selbst entscheiden, wann und wie die Arbeitszeit genutzt wird.",
+      "explanation_ar": "تحديد مواعيد العمل وتوزيع الساعات باستقلالية.",
+      "examples": [
+        {
+          "de": "Als Freiberuflerin teilt Anna sich ihre Arbeitszeit ein.",
+          "ar": "تنظم آنا ساعات عملها بنفسها."
+        },
+        {
+          "de": "Im Schichtdienst kann man das nicht völlig frei tun.",
+          "ar": "لا يمكن ذلك بحرية كاملة في المناوبات."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "case": "Dativ + Akkusativ"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          24,
+          25,
+          30,
+          37
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "phrase",
+        "arbeitszeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v063",
+      "identity": "einen kiosk betreiben",
+      "term": "einen Kiosk betreiben",
+      "type": "phrase",
+      "arabic": "يدير كشكًا",
+      "explanation_de": "Einen Kiosk wirtschaftlich führen und verantworten.",
+      "explanation_ar": "إدارة الكشك من حيث البضائع والزبائن والحسابات.",
+      "examples": [
+        {
+          "de": "Mehmet betreibt seit fünf Jahren einen Kiosk.",
+          "ar": "يدير محمد كشكًا منذ خمس سنوات."
+        },
+        {
+          "de": "Wer einen Kiosk betreibt, organisiert lange Öffnungszeiten.",
+          "ar": "من يدير كشكًا ينظم ساعات فتح طويلة."
+        }
+      ],
+      "grammar": {
+        "verb": "betreiben",
+        "praeteritum": "betrieb",
+        "perfekt": "hat betrieben"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          26
+        ],
+        "section": "Ein Gespräch mit Mehmet"
+      },
+      "tags": [
+        "phrase",
+        "selbstständigkeit"
+      ],
+      "globalRef": "phrases:phrase_0025",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v064",
+      "identity": "für jemanden einspringen",
+      "term": "für jemanden einspringen",
+      "type": "phrase",
+      "arabic": "يحل محل شخص في العمل",
+      "explanation_de": "Kurzfristig die Arbeit oder Schicht einer anderen Person übernehmen.",
+      "explanation_ar": "تولي مناوبة زميل بسبب غيابه.",
+      "examples": [
+        {
+          "de": "Kannst du am Freitag für mich einspringen?",
+          "ar": "هل يمكنك الحلول محلي يوم الجمعة؟"
+        },
+        {
+          "de": "Franca ist für eine kranke Kollegin eingesprungen.",
+          "ar": "حلّت فرانكا محل زميلة مريضة."
+        }
+      ],
+      "grammar": {
+        "pattern": "für + Akkusativ",
+        "praeteritum": "sprang ein",
+        "perfekt": "ist eingesprungen",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          34
+        ],
+        "section": "Dienstplan"
+      },
+      "tags": [
+        "phrase",
+        "schicht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v065",
+      "identity": "eine schicht übernehmen",
+      "term": "eine Schicht übernehmen",
+      "type": "phrase",
+      "arabic": "يتولى مناوبة",
+      "explanation_de": "Die Verantwortung für eine bestimmte Arbeitsschicht übernehmen.",
+      "explanation_ar": "الموافقة على العمل في مناوبة محددة.",
+      "examples": [
+        {
+          "de": "Armin kann die Spätschicht übernehmen.",
+          "ar": "يستطيع أرمين تولي المناوبة المسائية."
+        },
+        {
+          "de": "Wer übernimmt am Samstag die Frühschicht?",
+          "ar": "من سيتولى المناوبة الصباحية السبت؟"
+        }
+      ],
+      "grammar": {
+        "verb": "übernehmen",
+        "praeteritum": "übernahm",
+        "perfekt": "hat übernommen"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          34
+        ],
+        "section": "Dienstplan"
+      },
+      "tags": [
+        "phrase",
+        "schicht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v066",
+      "identity": "jemanden vertreten",
+      "term": "jemanden vertreten",
+      "type": "verb_phrase",
+      "arabic": "ينوب عن شخص",
+      "explanation_de": "Vorübergehend die Aufgaben einer anderen Person übernehmen.",
+      "explanation_ar": "القيام بمهام شخص آخر خلال غيابه.",
+      "examples": [
+        {
+          "de": "Herr Olert vertritt seine Kollegin.",
+          "ar": "ينوب السيد أولرت عن زميلته."
+        },
+        {
+          "de": "Die Chefin wird im Urlaub vertreten.",
+          "ar": "سينوب أحد عن المديرة خلال الإجازة."
+        }
+      ],
+      "grammar": {
+        "case": "Akkusativ",
+        "praeteritum": "vertrat",
+        "perfekt": "hat vertreten"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          34
+        ],
+        "section": "Dienstplan"
+      },
+      "tags": [
+        "phrase",
+        "vertretung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v067",
+      "identity": "einen dienstplan einhalten",
+      "term": "einen Dienstplan einhalten",
+      "type": "phrase",
+      "arabic": "يلتزم بجدول المناوبات",
+      "explanation_de": "Zu den im Dienstplan festgelegten Zeiten arbeiten.",
+      "explanation_ar": "العمل وفق الأيام والساعات المحددة في الجدول.",
+      "examples": [
+        {
+          "de": "Sie kann den Dienstplan wegen eines Termins nicht einhalten.",
+          "ar": "لا تستطيع الالتزام بالجدول بسبب موعد."
+        },
+        {
+          "de": "Alle müssen den vereinbarten Plan einhalten.",
+          "ar": "يجب على الجميع الالتزام بالجدول."
+        }
+      ],
+      "grammar": {
+        "verb": "einhalten",
+        "praeteritum": "hielt ein",
+        "perfekt": "hat eingehalten",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          34,
+          35
+        ],
+        "section": "Dienstplan"
+      },
+      "tags": [
+        "phrase",
+        "arbeitszeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v068",
+      "identity": "einen arbeitsauftrag erteilen",
+      "term": "einen Arbeitsauftrag erteilen",
+      "type": "phrase",
+      "arabic": "يعطي تكليفًا بالعمل",
+      "explanation_de": "Einer Person eine konkrete Aufgabe verbindlich übertragen.",
+      "explanation_ar": "إسناد مهمة محددة إلى موظف مع توضيح المطلوب.",
+      "examples": [
+        {
+          "de": "Die Chefin erteilt Franca einen Arbeitsauftrag.",
+          "ar": "تعطي المديرة فرانكا تكليفًا بالعمل."
+        },
+        {
+          "de": "Ein Auftrag sollte klar und vollständig erteilt werden.",
+          "ar": "ينبغي إعطاء التكليف بوضوح وبشكل كامل."
+        }
+      ],
+      "grammar": {
+        "verb": "erteilen",
+        "case": "Dativ + Akkusativ",
+        "praeteritum": "erteilte",
+        "perfekt": "hat erteilt"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          28,
+          29,
+          35
+        ],
+        "section": "Arbeitsaufträge"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v069",
+      "identity": "einen arbeitsauftrag entgegennehmen",
+      "term": "einen Arbeitsauftrag entgegennehmen",
+      "type": "phrase",
+      "arabic": "يتلقى تكليفًا بالعمل",
+      "explanation_de": "Eine übertragene Aufgabe annehmen und die Informationen aufnehmen.",
+      "explanation_ar": "استلام المهمة وفهم التفاصيل والموعد.",
+      "examples": [
+        {
+          "de": "Franca nimmt den Auftrag telefonisch entgegen.",
+          "ar": "تتلقى فرانكا التكليف هاتفيًا."
+        },
+        {
+          "de": "Bei Unklarheiten sollte man sofort nachfragen.",
+          "ar": "ينبغي الاستفسار فورًا عند وجود غموض."
+        }
+      ],
+      "grammar": {
+        "verb": "entgegennehmen",
+        "praeteritum": "nahm entgegen",
+        "perfekt": "hat entgegengenommen",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          29
+        ],
+        "section": "Arbeitsaufträge"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v070",
+      "identity": "sich für die eigenen interessen einsetzen",
+      "term": "sich für die eigenen Interessen einsetzen",
+      "type": "phrase",
+      "arabic": "يدافع عن مصالحه وحقوقه",
+      "explanation_de": "Aktiv dafür handeln, dass eigene berechtigte Bedürfnisse berücksichtigt werden.",
+      "explanation_ar": "التعبير عن الاحتياجات والحقوق والعمل على مراعاتها.",
+      "examples": [
+        {
+          "de": "Frau Dong setzt sich für ihre Interessen ein.",
+          "ar": "تدافع السيدة دونغ عن مصالحها."
+        },
+        {
+          "de": "Beschäftigte dürfen ihre Anliegen sachlich vertreten.",
+          "ar": "يحق للموظفين عرض مطالبهم بموضوعية."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich für + Akkusativ einsetzen",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          38,
+          39,
+          44
+        ],
+        "section": "Arbeit und Familie"
+      },
+      "tags": [
+        "phrase",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v071",
+      "identity": "sich gegen benachteiligung wehren",
+      "term": "sich gegen Benachteiligung wehren",
+      "type": "phrase",
+      "arabic": "يدافع عن نفسه ضد الإجحاف",
+      "explanation_de": "Aktiv gegen eine ungerechte Behandlung vorgehen.",
+      "explanation_ar": "الاعتراض واتخاذ خطوات ضد معاملة غير عادلة.",
+      "examples": [
+        {
+          "de": "Betroffene sollten sich gegen Benachteiligung wehren.",
+          "ar": "ينبغي للمتضررين الدفاع عن أنفسهم ضد الإجحاف."
+        },
+        {
+          "de": "Sie bittet den Betriebsrat um Unterstützung.",
+          "ar": "تطلب دعم مجلس العاملين."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich gegen + Akkusativ wehren"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          40,
+          41
+        ],
+        "section": "Benachteiligung"
+      },
+      "tags": [
+        "phrase",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v072",
+      "identity": "teilzeit beantragen",
+      "term": "Teilzeit beantragen",
+      "type": "phrase",
+      "arabic": "يقدم طلبًا للعمل بدوام جزئي",
+      "explanation_de": "Einen formellen Antrag auf Verringerung der Arbeitszeit stellen.",
+      "explanation_ar": "تقديم طلب رسمي لتخفيض ساعات العمل.",
+      "examples": [
+        {
+          "de": "Sie möchte ab September Teilzeit beantragen.",
+          "ar": "تريد طلب دوام جزئي ابتداءً من سبتمبر."
+        },
+        {
+          "de": "Der Antrag muss rechtzeitig schriftlich gestellt werden.",
+          "ar": "يجب تقديم الطلب خطيًا في الوقت المناسب."
+        }
+      ],
+      "grammar": {
+        "verb": "beantragen",
+        "praeteritum": "beantragte",
+        "perfekt": "hat beantragt"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Teilzeitarbeit"
+      },
+      "tags": [
+        "phrase",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v073",
+      "identity": "eine abmahnung aussprechen",
+      "term": "eine Abmahnung aussprechen",
+      "type": "phrase",
+      "arabic": "يوجه إنذارًا وظيفيًا",
+      "explanation_de": "Eine formelle arbeitsrechtliche Warnung erklären.",
+      "explanation_ar": "إصدار تحذير رسمي بسبب مخالفة.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber spricht eine Abmahnung aus.",
+          "ar": "يوجه صاحب العمل إنذارًا وظيفيًا."
+        },
+        {
+          "de": "Der Sachverhalt muss vorher geprüft werden.",
+          "ar": "يجب فحص الوقائع مسبقًا."
+        }
+      ],
+      "grammar": {
+        "verb": "aussprechen",
+        "praeteritum": "sprach aus",
+        "perfekt": "hat ausgesprochen",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          42,
+          43,
+          44
+        ],
+        "section": "Kündigungsrecht"
+      },
+      "tags": [
+        "phrase",
+        "arbeitsrecht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v074",
+      "identity": "widerspruch einlegen",
+      "term": "Widerspruch einlegen",
+      "type": "phrase",
+      "arabic": "يقدم اعتراضًا رسميًا",
+      "explanation_de": "Eine Entscheidung formell ablehnen und ihre Prüfung verlangen.",
+      "explanation_ar": "الاعتراض رسميًا على قرار والمطالبة بمراجعته.",
+      "examples": [
+        {
+          "de": "Sie legt schriftlich Widerspruch ein.",
+          "ar": "تقدم اعتراضًا خطيًا."
+        },
+        {
+          "de": "Vorher lässt sie sich rechtlich beraten.",
+          "ar": "تحصل على استشارة قانونية مسبقًا."
+        }
+      ],
+      "grammar": {
+        "verb": "einlegen",
+        "praeteritum": "legte ein",
+        "perfekt": "hat eingelegt",
+        "separable": true
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          41,
+          43
+        ],
+        "section": "Arbeitsrecht"
+      },
+      "tags": [
+        "phrase",
+        "verfahren"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u02-v075",
+      "identity": "zur verfügung stehen",
+      "term": "zur Verfügung stehen",
+      "type": "phrase",
+      "arabic": "يكون متاحًا",
+      "explanation_de": "Für ein Gespräch, eine Aufgabe oder einen Einsatz verfügbar sein.",
+      "explanation_ar": "الاستعداد للمساعدة أو العمل في وقت معين.",
+      "examples": [
+        {
+          "de": "Für Rückfragen stehe ich gern zur Verfügung.",
+          "ar": "أنا متاح بكل سرور للاستفسارات."
+        },
+        {
+          "de": "Am Freitag steht keine Vertretung zur Verfügung.",
+          "ar": "لا يوجد بديل متاح يوم الجمعة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "stand zur Verfügung",
+        "perfekt": "hat zur Verfügung gestanden"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          44,
+          45
+        ],
+        "section": "Formelle Kommunikation"
+      },
+      "tags": [
+        "phrase",
+        "formell"
+      ],
+      "globalRef": "phrases:phrase_0057",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u02-v076",
+      "identity": "eine bestellung reklamieren",
+      "term": "eine Bestellung reklamieren",
+      "type": "phrase",
+      "arabic": "يقدم شكوى بشأن طلبية",
+      "explanation_de": "Eine falsche, beschädigte oder verspätete Bestellung beanstanden.",
+      "explanation_ar": "إبلاغ البائع رسميًا بمشكلة في الطلبية.",
+      "examples": [
+        {
+          "de": "Die Kundin reklamiert die falsche Sofafarbe.",
+          "ar": "تشتكي الزبونة من لون الكنبة الخاطئ."
+        },
+        {
+          "de": "Man sollte Bestellnummer und Lieferdatum nennen.",
+          "ar": "ينبغي ذكر رقم الطلب وتاريخ التسليم."
+        }
+      ],
+      "grammar": {
+        "verb": "reklamieren",
+        "praeteritum": "reklamierte",
+        "perfekt": "hat reklamiert"
+      },
+      "source": {
+        "unit": 2,
+        "pages": [
+          46
+        ],
+        "section": "Kundenbeschwerden"
+      },
+      "tags": [
+        "phrase",
+        "service"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    }
+  ]
+}

@@ -1,0 +1,1269 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 8,
+  "unitTitle_de": "In der Gastronomie",
+  "unitTitle_ar": "في قطاع المطاعم والضيافة",
+  "grammarFocus": [
+    "Adjektivdeklination",
+    "damit",
+    "um ... zu",
+    "zum + substantivierter Infinitiv",
+    "formelle Bewerbung",
+    "Verhandlungs- und Reklamationssprache"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u08-e001",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Restaurantangebot",
+      "title_ar": "عرض المطعم",
+      "prompt_de": "Was gehört zu einem vielfältigen Restaurantangebot?",
+      "prompt_ar": "ما الذي يندرج ضمن عرض مطعم متنوع؟",
+      "answer": "verschiedene Speisen, Getränke und Serviceformen",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "verschiedene Speisen, Getränke und Serviceformen",
+        "nur ein Hauptgericht",
+        "nur die Öffnungszeiten",
+        "nur die Adresse"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v003"
+      ]
+    },
+    {
+      "id": "b2u08-e002",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Geschmack",
+      "title_ar": "الطعم",
+      "prompt_de": "Was bedeutet „knusprig“?",
+      "prompt_ar": "ما معنى knusprig؟",
+      "answer": "außen trocken und knackig",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "außen trocken und knackig",
+        "sehr flüssig",
+        "ohne Geschmack",
+        "ungekocht"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v009"
+      ]
+    },
+    {
+      "id": "b2u08-e003",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Menü",
+      "title_ar": "قائمة الطعام",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل المصطلحات.",
+      "answer": {
+        "Hauptgericht": "zentraler Gang",
+        "Nachspeise": "süßer Abschluss",
+        "Speisekarte": "Übersicht",
+        "Ambiente": "Atmosphäre"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Hauptgericht",
+          "zentraler Gang"
+        ],
+        [
+          "Nachspeise",
+          "süßer Abschluss"
+        ],
+        [
+          "Speisekarte",
+          "Übersicht"
+        ],
+        [
+          "Ambiente",
+          "Atmosphäre"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v014",
+        "b2u08-v015",
+        "b2u08-v013",
+        "b2u08-v011"
+      ]
+    },
+    {
+      "id": "b2u08-e004",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Restaurantbewertung",
+      "title_ar": "تقييم المطعم",
+      "prompt_de": "Das Restaurant hat ein angenehmes ______.",
+      "prompt_ar": "للمطعم ______ مريح.",
+      "answer": "Ambiente",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ambiente",
+        "ein angenehmes Ambiente"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v011"
+      ]
+    },
+    {
+      "id": "b2u08-e005",
+      "unit": 8,
+      "type": "guided_writing",
+      "title_de": "Restaurantbewertung",
+      "title_ar": "تقييم مطعم",
+      "prompt_de": "Schreiben Sie 80–100 Wörter über ein Restaurant.",
+      "prompt_ar": "اكتب 80–100 كلمة عن مطعم.",
+      "answer": {
+        "requiredConcepts": [
+          "Essen",
+          "Service",
+          "Ambiente",
+          "Preis",
+          "Empfehlung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v012"
+      ]
+    },
+    {
+      "id": "b2u08-e006",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Küchenwerkzeug",
+      "title_ar": "أداة مطبخ",
+      "prompt_de": "Womit wiegt man Zutaten ab?",
+      "prompt_ar": "بماذا تُوزن المكونات؟",
+      "answer": "mit der Waage",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "mit der Waage",
+        "mit der Küchenreibe",
+        "mit der Pfeffermühle",
+        "mit dem Sieb"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v023",
+        "b2u08-v026"
+      ]
+    },
+    {
+      "id": "b2u08-e007",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Küchenwerkzeuge",
+      "title_ar": "أدوات المطبخ",
+      "prompt_de": "Ordnen Sie Werkzeug und Funktion zu.",
+      "prompt_ar": "صِل الأداة بوظيفتها.",
+      "answer": {
+        "Küchenreibe": "reiben",
+        "Knoblauchpresse": "Knoblauch zerdrücken",
+        "Pfeffermühle": "Pfeffer mahlen",
+        "Waage": "abwiegen"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Küchenreibe",
+          "reiben"
+        ],
+        [
+          "Knoblauchpresse",
+          "Knoblauch zerdrücken"
+        ],
+        [
+          "Pfeffermühle",
+          "Pfeffer mahlen"
+        ],
+        [
+          "Waage",
+          "abwiegen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v020",
+        "b2u08-v021",
+        "b2u08-v022",
+        "b2u08-v023"
+      ]
+    },
+    {
+      "id": "b2u08-e008",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Zubereitung",
+      "title_ar": "التحضير",
+      "prompt_de": "Zum Schluss wird die Suppe ______.",
+      "prompt_ar": "في النهاية يُضبط طعم الحساء.",
+      "answer": "abgeschmeckt",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "abgeschmeckt"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v028"
+      ]
+    },
+    {
+      "id": "b2u08-e009",
+      "unit": 8,
+      "type": "sentence_order",
+      "title_de": "Kochablauf",
+      "title_ar": "خطوات الطبخ",
+      "prompt_de": "Ordnen Sie die Schritte.",
+      "prompt_ar": "رتّب الخطوات.",
+      "answer": [
+        "Zutaten abwiegen",
+        "Gemüse schneiden",
+        "Gemüse dünsten",
+        "Gericht abschmecken",
+        "servieren"
+      ],
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Gericht abschmecken",
+        "Zutaten abwiegen",
+        "servieren",
+        "Gemüse dünsten",
+        "Gemüse schneiden"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v026",
+        "b2u08-v027",
+        "b2u08-v028"
+      ]
+    },
+    {
+      "id": "b2u08-e010",
+      "unit": 8,
+      "type": "guided_speaking",
+      "title_de": "Lieblingsgericht",
+      "title_ar": "طبقي المفضل",
+      "prompt_de": "Beschreiben Sie die Zubereitung eines Gerichts.",
+      "prompt_ar": "صف تحضير طبق.",
+      "answer": {
+        "requiredConcepts": [
+          "Zutaten",
+          "Werkzeuge",
+          "Reihenfolge",
+          "Garzeit",
+          "Geschmack"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v024",
+        "b2u08-v025"
+      ]
+    },
+    {
+      "id": "b2u08-e011",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Lebensmittelkontrolle",
+      "title_ar": "مراقبة الأغذية",
+      "prompt_de": "Was wird kontrolliert?",
+      "prompt_ar": "ماذا يُفحص؟",
+      "answer": "Qualität, Hygiene und Lagerung",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Qualität, Hygiene und Lagerung",
+        "nur der Preis",
+        "nur die Werbung",
+        "nur die Kleidung"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v029"
+      ]
+    },
+    {
+      "id": "b2u08-e012",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Bestand",
+      "title_ar": "المخزون",
+      "prompt_de": "Die tägliche ______ zeigt, welche Zutaten fehlen.",
+      "prompt_ar": "تُظهر ______ اليومية المكونات الناقصة.",
+      "answer": "Bestandskontrolle",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Bestandskontrolle",
+        "die Bestandskontrolle"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v030"
+      ]
+    },
+    {
+      "id": "b2u08-e013",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Lieferung",
+      "title_ar": "التسليم",
+      "prompt_de": "Womit vergleicht man die gelieferte Ware?",
+      "prompt_ar": "بماذا تُقارن البضاعة؟",
+      "answer": "mit Bestellung und Lieferschein",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "mit Bestellung und Lieferschein",
+        "mit der Speisekarte",
+        "mit einer Bewertung",
+        "mit dem Lebenslauf"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v033",
+        "b2u08-v035"
+      ]
+    },
+    {
+      "id": "b2u08-e014",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Fehlmenge",
+      "title_ar": "الكمية الناقصة",
+      "prompt_de": "Die bestellte Menge wurde nicht vollständig geliefert. Es gibt eine ______.",
+      "prompt_ar": "لم تصل الكمية كاملة. توجد ______.",
+      "answer": "Fehlmenge",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Fehlmenge",
+        "eine Fehlmenge"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v034"
+      ]
+    },
+    {
+      "id": "b2u08-e015",
+      "unit": 8,
+      "type": "dialogue_choice",
+      "title_de": "Reklamation",
+      "title_ar": "شكوى",
+      "prompt_de": "Welche Reaktion ist professionell?",
+      "prompt_ar": "أي رد مهني؟",
+      "answer": "Ich prüfe den Lieferschein und organisiere eine Nachlieferung.",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich prüfe den Lieferschein und organisiere eine Nachlieferung.",
+        "Das ist nicht unser Problem.",
+        "Nehmen Sie die Ware trotzdem.",
+        "Wir beenden das Gespräch."
+      ],
+      "vocabularyRefs": [
+        "b2u08-v033",
+        "b2u08-v037"
+      ]
+    },
+    {
+      "id": "b2u08-e016",
+      "unit": 8,
+      "type": "guided_writing",
+      "title_de": "Lieferreklamation",
+      "title_ar": "شكوى توريد",
+      "prompt_de": "Schreiben Sie eine E-Mail wegen einer Fehlmenge.",
+      "prompt_ar": "اكتب رسالة بسبب كمية ناقصة.",
+      "answer": {
+        "requiredConcepts": [
+          "Bestellnummer",
+          "fehlende Menge",
+          "Lieferschein",
+          "gewünschte Lösung",
+          "Frist"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v034",
+        "b2u08-v033"
+      ]
+    },
+    {
+      "id": "b2u08-e017",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Lieferfrist",
+      "title_ar": "مهلة التسليم",
+      "prompt_de": "Was bedeutet Lieferfrist?",
+      "prompt_ar": "ما معنى Lieferfrist؟",
+      "answer": "vereinbarter Zeitraum bis zur Lieferung",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "vereinbarter Zeitraum bis zur Lieferung",
+        "Garantie für Geschmack",
+        "Preisnachlass",
+        "Arbeitszeit"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v038"
+      ]
+    },
+    {
+      "id": "b2u08-e018",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Garantie",
+      "title_ar": "الضمان",
+      "prompt_de": "Die ______ beträgt zehn Jahre.",
+      "prompt_ar": "تبلغ ______ عشر سنوات.",
+      "answer": "Garantiezeit",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Garantiezeit",
+        "die Garantiezeit"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v040"
+      ]
+    },
+    {
+      "id": "b2u08-e019",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Verhandeln",
+      "title_ar": "التفاوض",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Forderung stellen": "Anspruch formulieren",
+        "Konflikt austragen": "offen bearbeiten",
+        "Ball zurückspielen": "mit Rückfrage reagieren",
+        "beim Namen ansprechen": "persönlich adressieren"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Forderung stellen",
+          "Anspruch formulieren"
+        ],
+        [
+          "Konflikt austragen",
+          "offen bearbeiten"
+        ],
+        [
+          "Ball zurückspielen",
+          "mit Rückfrage reagieren"
+        ],
+        [
+          "beim Namen ansprechen",
+          "persönlich adressieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v043",
+        "b2u08-v044",
+        "b2u08-v045",
+        "b2u08-v046"
+      ]
+    },
+    {
+      "id": "b2u08-e020",
+      "unit": 8,
+      "type": "scenario_choice",
+      "title_de": "Verhandlung",
+      "title_ar": "التفاوض",
+      "prompt_de": "Der Preis ist zu hoch. Was ist sinnvoll?",
+      "prompt_ar": "السعر مرتفع. ما التصرف المناسب؟",
+      "answer": "nach Gründen fragen und ein Gegenangebot machen",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nach Gründen fragen und ein Gegenangebot machen",
+        "sofort beleidigen",
+        "ohne Prüfung zustimmen",
+        "das Gespräch abbrechen"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v041"
+      ]
+    },
+    {
+      "id": "b2u08-e021",
+      "unit": 8,
+      "type": "guided_speaking",
+      "title_de": "Einkaufsgespräch",
+      "title_ar": "حوار شراء",
+      "prompt_de": "Führen Sie ein Einkaufsgespräch.",
+      "prompt_ar": "أجرِ تفاوض شراء.",
+      "answer": {
+        "requiredConcepts": [
+          "Bedarf",
+          "Preis",
+          "Menge",
+          "Lieferfrist",
+          "Gegenangebot",
+          "Abschluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v041",
+        "b2u08-v038"
+      ]
+    },
+    {
+      "id": "b2u08-e022",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Jobbörse",
+      "title_ar": "منصة وظائف",
+      "prompt_de": "Was kann man in einer Jobbörse tun?",
+      "prompt_ar": "ماذا يمكن فعله في منصة وظائف؟",
+      "answer": "Stellen suchen und Bewerbungen vorbereiten",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Stellen suchen und Bewerbungen vorbereiten",
+        "nur Lebensmittel bestellen",
+        "nur Verträge kündigen",
+        "nur Kurse bewerten"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v047"
+      ]
+    },
+    {
+      "id": "b2u08-e023",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Jobmesse",
+      "title_ar": "معرض وظائف",
+      "prompt_de": "Was ist der Vorteil einer Jobmesse?",
+      "prompt_ar": "ما ميزة معرض الوظائف؟",
+      "answer": "direkter Kontakt zu Arbeitgebern",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "direkter Kontakt zu Arbeitgebern",
+        "automatische Einstellung",
+        "keine Vorbereitung nötig",
+        "garantiertes Gehalt"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v048"
+      ]
+    },
+    {
+      "id": "b2u08-e024",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Stellenanzeige",
+      "title_ar": "إعلان الوظيفة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Muss-Kriterium": "unbedingt erforderlich",
+        "Wunsch-Kriterium": "vorteilhaft, aber nicht zwingend",
+        "Einarbeitungsphase": "erste Lernzeit",
+        "Sicherheitsstandard": "festgelegtes Sicherheitsniveau"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Muss-Kriterium",
+          "unbedingt erforderlich"
+        ],
+        [
+          "Wunsch-Kriterium",
+          "vorteilhaft, aber nicht zwingend"
+        ],
+        [
+          "Einarbeitungsphase",
+          "erste Lernzeit"
+        ],
+        [
+          "Sicherheitsstandard",
+          "festgelegtes Sicherheitsniveau"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v052",
+        "b2u08-v053",
+        "b2u08-v054",
+        "b2u08-v063"
+      ]
+    },
+    {
+      "id": "b2u08-e025",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Kriterien",
+      "title_ar": "الشروط",
+      "prompt_de": "Der Führerschein ist ein ______.",
+      "prompt_ar": "رخصة القيادة ______.",
+      "answer": "Muss-Kriterium",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Muss-Kriterium",
+        "ein Muss-Kriterium"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v052"
+      ]
+    },
+    {
+      "id": "b2u08-e026",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Einarbeitung",
+      "title_ar": "التهيئة",
+      "prompt_de": "Neue Mitarbeitende lernen Abläufe in der ______ kennen.",
+      "prompt_ar": "يتعلم الموظفون الجدد الإجراءات في ______.",
+      "answer": "Einarbeitungsphase",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Einarbeitungsphase",
+        "der Einarbeitungsphase"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v054"
+      ]
+    },
+    {
+      "id": "b2u08-e027",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Schlüsselqualifikationen",
+      "title_ar": "الكفاءات الأساسية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Belastbarkeit": "unter Druck stabil arbeiten",
+        "Kundenorientierung": "Bedürfnisse der Kunden beachten",
+        "Organisationsfähigkeit": "Aufgaben sinnvoll planen",
+        "Lernbereitschaft": "Neues lernen wollen"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Belastbarkeit",
+          "unter Druck stabil arbeiten"
+        ],
+        [
+          "Kundenorientierung",
+          "Bedürfnisse der Kunden beachten"
+        ],
+        [
+          "Organisationsfähigkeit",
+          "Aufgaben sinnvoll planen"
+        ],
+        [
+          "Lernbereitschaft",
+          "Neues lernen wollen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v056",
+        "b2u08-v057",
+        "b2u08-v058",
+        "b2u08-v059"
+      ]
+    },
+    {
+      "id": "b2u08-e028",
+      "unit": 8,
+      "type": "guided_writing",
+      "title_de": "Eigene Kompetenzen",
+      "title_ar": "كفاءاتي",
+      "prompt_de": "Beschreiben Sie vier eigene Schlüsselqualifikationen.",
+      "prompt_ar": "صف أربع كفاءات لديك.",
+      "answer": {
+        "requiredConcepts": [
+          "Qualifikation nennen",
+          "Beispiel geben",
+          "Bezug zur Stelle",
+          "realistische Formulierung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v055"
+      ]
+    },
+    {
+      "id": "b2u08-e029",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Blickkontakt",
+      "title_ar": "التواصل البصري",
+      "prompt_de": "Warum ist Blickkontakt wichtig?",
+      "prompt_ar": "لماذا التواصل البصري مهم؟",
+      "answer": "Er zeigt Aufmerksamkeit und Selbstsicherheit.",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Er zeigt Aufmerksamkeit und Selbstsicherheit.",
+        "Er ersetzt alle Antworten.",
+        "Er beendet das Gespräch.",
+        "Er macht Vorbereitung unnötig."
+      ],
+      "vocabularyRefs": [
+        "b2u08-v064"
+      ]
+    },
+    {
+      "id": "b2u08-e030",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Gesprächsphasen",
+      "title_ar": "مراحل المقابلة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Aufwärmphase": "Begrüßung und Smalltalk",
+        "Qualifikation": "Erfahrung und Motivation",
+        "Information": "Firma und Arbeitsplatz",
+        "Abschlussphase": "Rückfragen und nächste Schritte"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Aufwärmphase",
+          "Begrüßung und Smalltalk"
+        ],
+        [
+          "Qualifikation",
+          "Erfahrung und Motivation"
+        ],
+        [
+          "Information",
+          "Firma und Arbeitsplatz"
+        ],
+        [
+          "Abschlussphase",
+          "Rückfragen und nächste Schritte"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v065",
+        "b2u08-v066"
+      ]
+    },
+    {
+      "id": "b2u08-e031",
+      "unit": 8,
+      "type": "sentence_order",
+      "title_de": "Bewerbungsgespräch",
+      "title_ar": "مقابلة العمل",
+      "prompt_de": "Ordnen Sie die Phasen.",
+      "prompt_ar": "رتّب المراحل.",
+      "answer": [
+        "Begrüßung",
+        "Smalltalk",
+        "Qualifikation und Motivation",
+        "Informationen zur Stelle",
+        "Rückfragen",
+        "Abschluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Rückfragen",
+        "Begrüßung",
+        "Informationen zur Stelle",
+        "Abschluss",
+        "Qualifikation und Motivation",
+        "Smalltalk"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v065",
+        "b2u08-v066"
+      ]
+    },
+    {
+      "id": "b2u08-e032",
+      "unit": 8,
+      "type": "dialogue_choice",
+      "title_de": "Rückfrage",
+      "title_ar": "سؤال مقابل",
+      "prompt_de": "Welche Frage ist professionell?",
+      "prompt_ar": "أي سؤال مهني؟",
+      "answer": "Wie lange dauert die Einarbeitungsphase?",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wie lange dauert die Einarbeitungsphase?",
+        "Kann ich immer zu spät kommen?",
+        "Muss ich überhaupt arbeiten?",
+        "Warum ist Ihr Büro so klein?"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v054"
+      ]
+    },
+    {
+      "id": "b2u08-e033",
+      "unit": 8,
+      "type": "guided_speaking",
+      "title_de": "Vorstellungsgespräch",
+      "title_ar": "مقابلة التوظيف",
+      "prompt_de": "Führen Sie ein kurzes Vorstellungsgespräch.",
+      "prompt_ar": "أجرِ مقابلة قصيرة.",
+      "answer": {
+        "requiredConcepts": [
+          "Begrüßung",
+          "Motivation",
+          "Berufserfahrung",
+          "Schlüsselqualifikationen",
+          "Rückfrage",
+          "Abschluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v064",
+        "b2u08-v055"
+      ]
+    },
+    {
+      "id": "b2u08-e034",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Führungszeugnis",
+      "title_ar": "شهادة حسن سلوك",
+      "prompt_de": "Was ist ein Führungszeugnis?",
+      "prompt_ar": "ما هي شهادة حسن السلوك؟",
+      "answer": "ein behördliches Dokument zu strafrechtlichen Einträgen",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ein behördliches Dokument zu strafrechtlichen Einträgen",
+        "eine Restaurantbewertung",
+        "ein Lieferschein",
+        "eine Speisekarte"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v069"
+      ]
+    },
+    {
+      "id": "b2u08-e035",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Kundschaft",
+      "title_ar": "الزبائن",
+      "prompt_de": "Was bedeutet Kundschaft?",
+      "prompt_ar": "ما معنى Kundschaft؟",
+      "answer": "alle Kundinnen und Kunden eines Unternehmens",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "alle Kundinnen und Kunden eines Unternehmens",
+        "nur Mitarbeitende",
+        "nur Lieferanten",
+        "nur Bewerber"
+      ],
+      "vocabularyRefs": [
+        "b2u02-v003"
+      ],
+      "reusedVocabularyRefs": []
+    },
+    {
+      "id": "b2u08-e036",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Kursabsage",
+      "title_ar": "إلغاء الدورة",
+      "prompt_de": "Die kurzfristige ______ hat viele Kunden verärgert.",
+      "prompt_ar": "أزعج ______ المفاجئ زبائن كثيرين.",
+      "answer": "Kursabsage",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Kursabsage",
+        "die Kursabsage"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v071"
+      ]
+    },
+    {
+      "id": "b2u08-e037",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Rückerstattung",
+      "title_ar": "استرداد المبلغ",
+      "prompt_de": "Was ist eine Rückerstattung?",
+      "prompt_ar": "ما معنى Rückerstattung؟",
+      "answer": "Rückzahlung eines gezahlten Betrags",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Rückzahlung eines gezahlten Betrags",
+        "neue Bestellung",
+        "Arbeitsvertrag",
+        "Kursbewertung"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v072"
+      ]
+    },
+    {
+      "id": "b2u08-e038",
+      "unit": 8,
+      "type": "email_order",
+      "title_de": "Beschwerdeantwort",
+      "title_ar": "الرد على شكوى",
+      "prompt_de": "Ordnen Sie die Antwort.",
+      "prompt_ar": "رتّب الرد.",
+      "answer": [
+        "Anrede",
+        "Dank und Entschuldigung",
+        "Erklärung",
+        "Lösung",
+        "Wiedergutmachung",
+        "Gruß"
+      ],
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "Lösung",
+          "text": "Wir erstatten Ihnen die Kursgebühr vollständig."
+        },
+        {
+          "id": "Anrede",
+          "text": "Sehr geehrter Herr Messerschmidt,"
+        },
+        {
+          "id": "Gruß",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "Erklärung",
+          "text": "Wegen eines Fehlers im Anmeldesystem wurde der Kurs überbucht."
+        },
+        {
+          "id": "Dank und Entschuldigung",
+          "text": "Vielen Dank für Ihre Nachricht. Wir entschuldigen uns für die Unannehmlichkeiten."
+        },
+        {
+          "id": "Wiedergutmachung",
+          "text": "Zusätzlich erhalten Sie einen Gutschein für einen weiteren Kurs."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u08-v072",
+        "b2u08-v073"
+      ]
+    },
+    {
+      "id": "b2u08-e039",
+      "unit": 8,
+      "type": "guided_writing",
+      "title_de": "Antwort auf Beschwerde",
+      "title_ar": "الرد على شكوى",
+      "prompt_de": "Schreiben Sie eine professionelle Antwort auf eine Kundenbeschwerde.",
+      "prompt_ar": "اكتب ردًا مهنيًا على شكوى.",
+      "answer": {
+        "requiredConcepts": [
+          "Bedauern",
+          "Grund",
+          "Lösung",
+          "Wiedergutmachung",
+          "höflicher Schluss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v073",
+        "b2u02-v003"
+      ],
+      "reusedVocabularyRefs": []
+    },
+    {
+      "id": "b2u08-e040",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Adjektivdeklination",
+      "title_ar": "تصريف الصفات",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "ein interessantes Restaurant",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ein interessantes Restaurant",
+        "ein interessanter Restaurant",
+        "ein interessante Restaurant",
+        "ein interessanten Restaurant"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v018"
+      ]
+    },
+    {
+      "id": "b2u08-e041",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "prompt_de": "Wir besuchen ein gemütlich___ Restaurant.",
+      "prompt_ar": "نزور مطعمًا مريحًا.",
+      "answer": "es",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "es"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v018"
+      ]
+    },
+    {
+      "id": "b2u08-e042",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "prompt_de": "Das frisch___ Gemüse schmeckt gut.",
+      "prompt_ar": "الخضار الطازج طعمه جيد.",
+      "answer": "e",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "e"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v018"
+      ]
+    },
+    {
+      "id": "b2u08-e043",
+      "unit": 8,
+      "type": "fill_blank",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "prompt_de": "Mit regional___ Zutaten kocht man besonders frisch.",
+      "prompt_ar": "باستخدام مكونات إقليمية.",
+      "answer": "en",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "en"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v018"
+      ]
+    },
+    {
+      "id": "b2u08-e044",
+      "unit": 8,
+      "type": "matching",
+      "title_de": "Adjektive",
+      "title_ar": "الصفات",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "knusprig": "Pommes",
+        "reichhaltig": "Buffet",
+        "landestypisch": "Gericht",
+        "angenehm": "Ambiente"
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "knusprig",
+          "Pommes"
+        ],
+        [
+          "reichhaltig",
+          "Buffet"
+        ],
+        [
+          "landestypisch",
+          "Gericht"
+        ],
+        [
+          "angenehm",
+          "Ambiente"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u08-v009",
+        "b2u08-v010",
+        "b2u08-v008",
+        "b2u08-v011"
+      ]
+    },
+    {
+      "id": "b2u08-e045",
+      "unit": 8,
+      "type": "multiple_choice",
+      "title_de": "Zweck ausdrücken",
+      "title_ar": "التعبير عن الهدف",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich benutze eine Waage, um die Zutaten abzuwiegen.",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich benutze eine Waage, um die Zutaten abzuwiegen.",
+        "Ich benutze eine Waage, damit die Zutaten abwiegen.",
+        "Ich benutze eine Waage, zum Zutaten abwiegen.",
+        "Ich benutze eine Waage, weil abzuwiegen."
+      ],
+      "vocabularyRefs": [
+        "b2u08-v023",
+        "b2u08-v026"
+      ]
+    },
+    {
+      "id": "b2u08-e046",
+      "unit": 8,
+      "type": "sentence_build",
+      "title_de": "Zweck",
+      "title_ar": "الهدف",
+      "prompt_de": "Verbinden Sie: Er diktiert das Rezept. Die Teilnehmer notieren die Mengen.",
+      "prompt_ar": "اربط الجملتين.",
+      "answer": "Er diktiert das Rezept, damit die Teilnehmer die Mengen notieren.",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Er diktiert das Rezept, damit die Teilnehmer die Mengen notieren."
+      ],
+      "vocabularyRefs": [
+        "b2u08-v025"
+      ]
+    },
+    {
+      "id": "b2u08-e047",
+      "unit": 8,
+      "type": "sentence_build",
+      "title_de": "Zweck",
+      "title_ar": "الهدف",
+      "prompt_de": "Verbinden Sie: Ich nehme eine Waage. Ich will die Zutaten genau abwiegen.",
+      "prompt_ar": "اربط الجملتين.",
+      "answer": "Ich nehme eine Waage, um die Zutaten genau abzuwiegen.",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ich nehme eine Waage, um die Zutaten genau abzuwiegen."
+      ],
+      "vocabularyRefs": [
+        "b2u08-v023",
+        "b2u08-v026"
+      ]
+    },
+    {
+      "id": "b2u08-e048",
+      "unit": 8,
+      "type": "scenario_choice",
+      "title_de": "Service",
+      "title_ar": "الخدمة",
+      "prompt_de": "Ein Gast beschwert sich über kaltes Essen. Was tun?",
+      "prompt_ar": "اشتكى زبون من طعام بارد. ماذا نفعل؟",
+      "answer": "entschuldigen, Gericht ersetzen und Ursache prüfen",
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "options": [
+        "entschuldigen, Gericht ersetzen und Ursache prüfen",
+        "Gast ignorieren",
+        "Rechnung erhöhen",
+        "Küche schließen"
+      ],
+      "vocabularyRefs": [
+        "b2u08-v057"
+      ]
+    },
+    {
+      "id": "b2u08-e049",
+      "unit": 8,
+      "type": "guided_speaking",
+      "title_de": "Beruf Koch/Köchin",
+      "title_ar": "مهنة الطاهي",
+      "prompt_de": "Beschreiben Sie Aufgaben und Kompetenzen eines Kochs.",
+      "prompt_ar": "صف مهام وكفاءات الطاهي.",
+      "answer": {
+        "requiredConcepts": [
+          "Planung",
+          "Zubereitung",
+          "Hygiene",
+          "Bestandskontrolle",
+          "Stress",
+          "Teamarbeit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v030",
+        "b2u08-v056",
+        "b2u08-v058"
+      ]
+    },
+    {
+      "id": "b2u08-e050",
+      "unit": 8,
+      "type": "guided_writing",
+      "title_de": "Stellenanzeige analysieren",
+      "title_ar": "تحليل إعلان وظيفة",
+      "prompt_de": "Analysieren Sie eine Stellenanzeige nach Muss- und Wunsch-Kriterien.",
+      "prompt_ar": "حلل إعلانًا حسب الشروط.",
+      "answer": {
+        "requiredConcepts": [
+          "Aufgaben",
+          "Muss-Kriterien",
+          "Wunsch-Kriterien",
+          "Arbeitsbedingungen",
+          "eigene Eignung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_08_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u08-v052",
+        "b2u08-v053"
+      ]
+    }
+  ]
+}

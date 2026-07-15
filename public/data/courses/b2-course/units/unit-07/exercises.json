@@ -1,0 +1,1336 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 7,
+  "unitTitle_de": "Berufe im Gesundheitswesen",
+  "unitTitle_ar": "المهن في قطاع الرعاية الصحية",
+  "grammarFocus": [
+    "Infinitiv mit zu",
+    "Infinitiv mit trennbaren Verben und Modalverben",
+    "Ausdrücke mit obligatorischem es",
+    "zweiteilige Konnektoren zur Meinungsäußerung",
+    "sachliche Dokumentation im Pflegebericht",
+    "Redemittel für Rat, Vorschläge und Problemmeldungen"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u07-e001",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Gesundheitsvorsorge",
+      "title_ar": "الوقاية الصحية",
+      "prompt_de": "Welche Maßnahme gehört zur Gesundheitsvorsorge?",
+      "prompt_ar": "أي إجراء يندرج ضمن الوقاية الصحية؟",
+      "answer": "regelmäßige Vorsorgeuntersuchungen",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "regelmäßige Vorsorgeuntersuchungen",
+        "ständige Erreichbarkeit",
+        "unbezahlte Überstunden",
+        "Verzicht auf Pausen"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v005",
+        "b2u07-v006"
+      ]
+    },
+    {
+      "id": "b2u07-e002",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Prävention",
+      "title_ar": "الوقاية",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "die Früherkennung": "Krankheiten möglichst früh erkennen",
+        "die Schutzimpfung": "vor bestimmten Infektionen schützen",
+        "das Rückentraining": "Rückenmuskulatur gezielt stärken",
+        "die Entspannungsübung": "Anspannung reduzieren"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Früherkennung",
+          "Krankheiten möglichst früh erkennen"
+        ],
+        [
+          "die Schutzimpfung",
+          "vor bestimmten Infektionen schützen"
+        ],
+        [
+          "das Rückentraining",
+          "Rückenmuskulatur gezielt stärken"
+        ],
+        [
+          "die Entspannungsübung",
+          "Anspannung reduzieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v007",
+        "b2u07-v008",
+        "b2u07-v010",
+        "b2u07-v011"
+      ]
+    },
+    {
+      "id": "b2u07-e003",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Gesundheit",
+      "title_ar": "الصحة",
+      "prompt_de": "Dauerhafter Stress kann die seelische ______ beeinträchtigen.",
+      "prompt_ar": "قد يؤثر الضغط المستمر سلبًا في ______ النفسية.",
+      "answer": "Gesundheit",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Gesundheit",
+        "die Gesundheit"
+      ],
+      "completedSentence_de": "Dauerhafter Stress kann die seelische Gesundheit beeinträchtigen.",
+      "completedSentence_ar": "قد يؤثر الضغط المستمر سلبًا في الصحة النفسية.",
+      "vocabularyRefs": [
+        "b2u07-v003"
+      ]
+    },
+    {
+      "id": "b2u07-e004",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Work-Life-Balance",
+      "title_ar": "التوازن بين العمل والحياة",
+      "prompt_de": "Was gefährdet die Work-Life-Balance besonders?",
+      "prompt_ar": "ما الذي يهدد التوازن بين العمل والحياة خصوصًا؟",
+      "answer": "ständige Erreichbarkeit außerhalb der Arbeitszeit",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "ständige Erreichbarkeit außerhalb der Arbeitszeit",
+        "klare Pausenregelungen",
+        "verlässliche Dienstpläne",
+        "ausreichender Urlaub"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v013",
+        "b2u07-v014"
+      ]
+    },
+    {
+      "id": "b2u07-e005",
+      "unit": 7,
+      "type": "scenario_choice",
+      "title_de": "Eigene Gesundheit",
+      "title_ar": "الصحة الشخصية",
+      "prompt_de": "Eine Pflegekraft arbeitet mehrere Schichten hintereinander und schläft schlecht. Was ist sinnvoll?",
+      "prompt_ar": "تعمل موظفة رعاية عدة مناوبات متتالية وتنام بصورة سيئة. ما الإجراء المناسب؟",
+      "answer": "Die Belastung früh ansprechen und Erholungszeiten einplanen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Belastung früh ansprechen und Erholungszeiten einplanen.",
+        "Noch mehr Schichten übernehmen.",
+        "Pausen dauerhaft auslassen.",
+        "Beschwerden ignorieren."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v080",
+        "b2u07-v017"
+      ]
+    },
+    {
+      "id": "b2u07-e006",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Entspannung",
+      "title_ar": "الاسترخاء",
+      "prompt_de": "Nach der Spätschicht fällt es ihr schwer, zur ______ zu kommen.",
+      "prompt_ar": "يصعب عليها بعد المناوبة المسائية أن تستعيد ______.",
+      "answer": "Ruhe",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ruhe",
+        "zur Ruhe"
+      ],
+      "completedSentence_de": "Nach der Spätschicht fällt es ihr schwer, zur Ruhe zu kommen.",
+      "completedSentence_ar": "يصعب عليها أن تهدأ بعد المناوبة المسائية.",
+      "vocabularyRefs": [
+        "b2u07-v020"
+      ]
+    },
+    {
+      "id": "b2u07-e007",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Gesundheitsangebot",
+      "title_ar": "عرض صحي",
+      "prompt_de": "Welche Aussage zur progressiven Muskelentspannung ist richtig?",
+      "prompt_ar": "أي عبارة صحيحة عن الاسترخاء العضلي التدريجي؟",
+      "answer": "Muskelgruppen werden nacheinander angespannt und entspannt.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Muskelgruppen werden nacheinander angespannt und entspannt.",
+        "Man trainiert nur die Ausdauer.",
+        "Sie ersetzt jede medizinische Behandlung.",
+        "Sie ist ausschließlich für Kinder."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v012"
+      ]
+    },
+    {
+      "id": "b2u07-e008",
+      "unit": 7,
+      "type": "dialogue_choice",
+      "title_de": "Meinung äußern",
+      "title_ar": "إبداء الرأي",
+      "prompt_de": "Welche Formulierung drückt eine ausgewogene Meinung aus?",
+      "prompt_ar": "أي صياغة تعبر عن رأي متوازن؟",
+      "answer": "Einerseits ist Sport wichtig, andererseits braucht der Körper auch Erholung.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Einerseits ist Sport wichtig, andererseits braucht der Körper auch Erholung.",
+        "Sport ist immer falsch.",
+        "Darüber kann man überhaupt nicht sprechen.",
+        "Alle Menschen müssen dasselbe tun."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v004"
+      ]
+    },
+    {
+      "id": "b2u07-e009",
+      "unit": 7,
+      "type": "guided_speaking",
+      "title_de": "Was bedeutet Gesundheit?",
+      "title_ar": "ماذا تعني الصحة؟",
+      "prompt_de": "Sprechen Sie zwei Minuten darüber, was Gesundheit für Sie bedeutet.",
+      "prompt_ar": "تحدث دقيقتين عن معنى الصحة بالنسبة لك.",
+      "answer": {
+        "requiredConcepts": [
+          "körperliche Gesundheit",
+          "seelische Gesundheit",
+          "Vorsorge",
+          "Bewegung und Ernährung",
+          "Erholung",
+          "eigene Prioritäten"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v002",
+        "b2u07-v003",
+        "b2u07-v005",
+        "b2u07-v004"
+      ]
+    },
+    {
+      "id": "b2u07-e010",
+      "unit": 7,
+      "type": "guided_writing",
+      "title_de": "Gesundheit am Arbeitsplatz",
+      "title_ar": "الصحة في مكان العمل",
+      "prompt_de": "Schreiben Sie 100–120 Wörter darüber, wie ein Betrieb die Gesundheit der Beschäftigten fördern kann.",
+      "prompt_ar": "اكتب 100–120 كلمة عن كيفية دعم الشركة لصحة الموظفين.",
+      "answer": {
+        "requiredConcepts": [
+          "Pausen",
+          "Arbeitsbelastung",
+          "Bewegungsangebot",
+          "Vorsorge",
+          "psychische Gesundheit",
+          "konkreter Vorschlag"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v005",
+        "b2u07-v015",
+        "b2u07-v013"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u04-v049"
+      ]
+    },
+    {
+      "id": "b2u07-e011",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Gesundheitsberufe",
+      "title_ar": "المهن الصحية",
+      "prompt_de": "Ordnen Sie Beruf und Aufgabe zu.",
+      "prompt_ar": "صِل المهنة بالمهمة.",
+      "answer": {
+        "der Logopäde / die Logopädin": "Sprach- und Sprechstörungen behandeln",
+        "der Orthopäde / die Orthopädin": "Erkrankungen des Bewegungsapparats behandeln",
+        "der Apotheker / die Apothekerin": "zu Arzneimitteln beraten",
+        "der Ernährungsberater / die Ernährungsberaterin": "zur Ernährung beraten"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Logopäde / die Logopädin",
+          "Sprach- und Sprechstörungen behandeln"
+        ],
+        [
+          "der Orthopäde / die Orthopädin",
+          "Erkrankungen des Bewegungsapparats behandeln"
+        ],
+        [
+          "der Apotheker / die Apothekerin",
+          "zu Arzneimitteln beraten"
+        ],
+        [
+          "der Ernährungsberater / die Ernährungsberaterin",
+          "zur Ernährung beraten"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v032",
+        "b2u07-v033",
+        "b2u07-v034",
+        "b2u07-v035"
+      ]
+    },
+    {
+      "id": "b2u07-e012",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Pflegeberuf",
+      "title_ar": "مهنة الرعاية",
+      "prompt_de": "Welche Aufgabe gehört zu einer Pflegekraft?",
+      "prompt_ar": "أي مهمة تخص موظف الرعاية؟",
+      "answer": "den Gesundheitszustand beobachten und Maßnahmen dokumentieren",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "den Gesundheitszustand beobachten und Maßnahmen dokumentieren",
+        "nur Rechnungen verkaufen",
+        "ausschließlich Gebäude planen",
+        "nur Medikamente herstellen"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v028",
+        "b2u07-v065"
+      ]
+    },
+    {
+      "id": "b2u07-e013",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Ambulant oder stationär?",
+      "title_ar": "خارجي أم داخلي؟",
+      "prompt_de": "Ordnen Sie die Aussagen zu.",
+      "prompt_ar": "صنّف العبارات.",
+      "answer": {
+        "Die Person bleibt im Krankenhaus.": "stationär",
+        "Die Pflegekraft besucht die Person zu Hause.": "ambulant",
+        "Es gibt eine feste Tour mit Hausbesuchen.": "ambulant",
+        "Es finden Schichtübergaben auf der Station statt.": "stationär"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Die Person bleibt im Krankenhaus.",
+          "stationär"
+        ],
+        [
+          "Die Pflegekraft besucht die Person zu Hause.",
+          "ambulant"
+        ],
+        [
+          "Es gibt eine feste Tour mit Hausbesuchen.",
+          "ambulant"
+        ],
+        [
+          "Es finden Schichtübergaben auf der Station statt.",
+          "stationär"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v041",
+        "b2u07-v042",
+        "b2u07-v024",
+        "b2u07-v025"
+      ]
+    },
+    {
+      "id": "b2u07-e014",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "prompt_de": "Bilden Sie einen Satz: notwendig / den Patienten gründlich untersuchen",
+      "prompt_ar": "كوّن جملة: من الضروري فحص المريض بدقة.",
+      "answer": "Es ist notwendig, den Patienten gründlich zu untersuchen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Es ist notwendig, den Patienten gründlich zu untersuchen."
+      ],
+      "grammarFocus": "Infinitiv mit zu",
+      "vocabularyRefs": [
+        "b2u07-v027"
+      ]
+    },
+    {
+      "id": "b2u07-e015",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "prompt_de": "Bilden Sie einen Satz: darauf angewiesen / Unterstützung bekommen",
+      "prompt_ar": "كوّن جملة: يعتمد المريض على تلقي الدعم.",
+      "answer": "Der Patient ist darauf angewiesen, Unterstützung zu bekommen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der Patient ist darauf angewiesen, Unterstützung zu bekommen."
+      ],
+      "grammarFocus": "darauf angewiesen sein, ... zu",
+      "vocabularyRefs": [
+        "b2u07-v088",
+        "b2u07-v027"
+      ]
+    },
+    {
+      "id": "b2u07-e016",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "prompt_de": "Die Pflegekraft hat die Chance, sich weiter ______.",
+      "prompt_ar": "تتاح لموظفة الرعاية فرصة ______.",
+      "answer": "zubilden",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "zubilden",
+        "weiterzubilden"
+      ],
+      "completedSentence_de": "Die Pflegekraft hat die Chance, sich weiterzubilden.",
+      "completedSentence_ar": "تتاح لموظفة الرعاية فرصة تطوير نفسها.",
+      "vocabularyRefs": [
+        "b2u07-v089"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u06-v070"
+      ]
+    },
+    {
+      "id": "b2u07-e017",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "prompt_de": "Welcher Satz ist korrekt?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Ich hoffe, die Prüfung erfolgreich zu bestehen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ich hoffe, die Prüfung erfolgreich zu bestehen.",
+        "Ich hoffe, die Prüfung erfolgreich bestehen zu.",
+        "Ich hoffe zu die Prüfung bestehen.",
+        "Ich hoffe, dass zu bestehen die Prüfung."
+      ],
+      "grammarFocus": "Infinitiv mit zu"
+    },
+    {
+      "id": "b2u07-e018",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Infinitiv mit Modalverb",
+      "title_ar": "المصدر مع فعل ناقص",
+      "prompt_de": "Bilden Sie einen Satz: sich darüber ärgern / täglich länger bleiben müssen",
+      "prompt_ar": "كوّن جملة: ينزعج من اضطراره إلى البقاء مدة أطول يوميًا.",
+      "answer": "Er ärgert sich darüber, täglich länger bleiben zu müssen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Er ärgert sich darüber, täglich länger bleiben zu müssen."
+      ],
+      "grammarFocus": "zu + Infinitiv + Modalverb im Infinitiv",
+      "vocabularyRefs": [
+        "b2u07-v090"
+      ]
+    },
+    {
+      "id": "b2u07-e019",
+      "unit": 7,
+      "type": "guided_speaking",
+      "title_de": "Gesundheitsberuf vorstellen",
+      "title_ar": "تقديم مهنة صحية",
+      "prompt_de": "Stellen Sie einen Gesundheitsberuf vor.",
+      "prompt_ar": "قدّم مهنة من المهن الصحية.",
+      "answer": {
+        "requiredConcepts": [
+          "Berufsbezeichnung",
+          "Ausbildung",
+          "typische Aufgaben",
+          "Arbeitsort",
+          "wichtige Kompetenzen",
+          "Vor- und Nachteile"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v021"
+      ]
+    },
+    {
+      "id": "b2u07-e020",
+      "unit": 7,
+      "type": "guided_writing",
+      "title_de": "Beruf in der Pflege",
+      "title_ar": "مهنة في الرعاية",
+      "prompt_de": "Schreiben Sie 100–120 Wörter über Chancen und Belastungen eines Pflegeberufs.",
+      "prompt_ar": "اكتب 100–120 كلمة عن فرص وضغوط مهنة الرعاية.",
+      "answer": {
+        "requiredConcepts": [
+          "Aufgaben",
+          "Verantwortung",
+          "Schichtarbeit",
+          "Zusammenarbeit",
+          "Belastung",
+          "Weiterbildung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v022",
+        "b2u07-v015"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v002",
+        "b2u06-v070"
+      ]
+    },
+    {
+      "id": "b2u07-e021",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Pflegewortschatz",
+      "title_ar": "مفردات الرعاية",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "die Akutversorgung": "schnelle Versorgung schwerer oder plötzlicher Fälle",
+        "die Übergabe": "Weitergabe wichtiger Informationen beim Schichtwechsel",
+        "das Hospiz": "Begleitung schwerstkranker Menschen",
+        "die Wundversorgung": "fachgerechte Pflege einer Wunde"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Akutversorgung",
+          "schnelle Versorgung schwerer oder plötzlicher Fälle"
+        ],
+        [
+          "die Übergabe",
+          "Weitergabe wichtiger Informationen beim Schichtwechsel"
+        ],
+        [
+          "das Hospiz",
+          "Begleitung schwerstkranker Menschen"
+        ],
+        [
+          "die Wundversorgung",
+          "fachgerechte Pflege einer Wunde"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v026",
+        "b2u07-v052",
+        "b2u07-v053",
+        "b2u07-v050"
+      ]
+    },
+    {
+      "id": "b2u07-e022",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Klinische Fachgebiete",
+      "title_ar": "الاختصاصات الطبية",
+      "prompt_de": "Welches Fachgebiet behandelt Verletzungen nach Unfällen?",
+      "prompt_ar": "أي اختصاص يعالج إصابات الحوادث؟",
+      "answer": "die Unfallchirurgie",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Unfallchirurgie",
+        "die Neurologie",
+        "die Logopädie",
+        "die Ernährungsberatung"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v047",
+        "b2u07-v048"
+      ]
+    },
+    {
+      "id": "b2u07-e023",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Lungenentzündung",
+      "title_ar": "الالتهاب الرئوي",
+      "prompt_de": "Welche Beobachtung kann bei einer Lungenentzündung auftreten?",
+      "prompt_ar": "أي ملاحظة قد تظهر في الالتهاب الرئوي؟",
+      "answer": "Fieber und Atemnot",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Fieber und Atemnot",
+        "bessere Sehfähigkeit",
+        "nur Zahnschmerzen",
+        "plötzlicher Haarwuchs"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v043"
+      ]
+    },
+    {
+      "id": "b2u07-e024",
+      "unit": 7,
+      "type": "sentence_order",
+      "title_de": "Pflegehandlung",
+      "title_ar": "إجراء رعاية",
+      "prompt_de": "Ordnen Sie die Schritte vor einer Medikamentengabe.",
+      "prompt_ar": "رتّب الخطوات قبل إعطاء الدواء.",
+      "answer": [
+        "Medikamentenplan kontrollieren",
+        "Identität der Person prüfen",
+        "verordnete Dosis prüfen",
+        "Medikament geben",
+        "Gabe dokumentieren"
+      ],
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Medikament geben",
+        "Gabe dokumentieren",
+        "Identität der Person prüfen",
+        "Medikamentenplan kontrollieren",
+        "verordnete Dosis prüfen"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v061",
+        "b2u07-v064"
+      ]
+    },
+    {
+      "id": "b2u07-e025",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Messungen und Maßnahmen",
+      "title_ar": "القياسات والإجراءات",
+      "prompt_de": "Ordnen Sie Aufgabe und Zweck zu.",
+      "prompt_ar": "صِل المهمة بالهدف.",
+      "answer": {
+        "den Blutdruck messen": "Kreislaufwerte kontrollieren",
+        "den Puls messen": "Herzfrequenz beobachten",
+        "Insulin spritzen": "verordnete Blutzuckerbehandlung durchführen",
+        "das Rezept nachreichen": "fehlende Verordnung später einreichen"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "den Blutdruck messen",
+          "Kreislaufwerte kontrollieren"
+        ],
+        [
+          "den Puls messen",
+          "Herzfrequenz beobachten"
+        ],
+        [
+          "Insulin spritzen",
+          "verordnete Blutzuckerbehandlung durchführen"
+        ],
+        [
+          "das Rezept nachreichen",
+          "fehlende Verordnung später einreichen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v058",
+        "b2u07-v059",
+        "b2u07-v060",
+        "b2u07-v062"
+      ]
+    },
+    {
+      "id": "b2u07-e026",
+      "unit": 7,
+      "type": "scenario_choice",
+      "title_de": "Problem im Pflegealltag",
+      "title_ar": "مشكلة في يوم الرعاية",
+      "prompt_de": "Das verordnete Insulin ist nicht auffindbar. Was ist zuerst sinnvoll?",
+      "prompt_ar": "لا يمكن العثور على الإنسولين الموصوف. ما الخطوة الأولى المناسبة؟",
+      "answer": "Die Situation prüfen, die Pflegedienstleitung informieren und nach Anweisung handeln.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Situation prüfen, die Pflegedienstleitung informieren und nach Anweisung handeln.",
+        "Ohne Prüfung ein anderes Medikament geben.",
+        "Das Problem verheimlichen.",
+        "Die Dokumentation löschen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v060",
+        "b2u07-v055",
+        "b2u07-v054"
+      ]
+    },
+    {
+      "id": "b2u07-e027",
+      "unit": 7,
+      "type": "dialogue_choice",
+      "title_de": "Um Rat bitten",
+      "title_ar": "طلب النصيحة",
+      "prompt_de": "Welche Formulierung ist professionell?",
+      "prompt_ar": "أي صياغة مهنية؟",
+      "answer": "Wie soll ich in dieser Situation mit der Patientin umgehen?",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Wie soll ich in dieser Situation mit der Patientin umgehen?",
+        "Das ist nicht meine Schuld.",
+        "Ich mache einfach irgendetwas.",
+        "Sie müssen das Problem allein lösen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v027"
+      ]
+    },
+    {
+      "id": "b2u07-e028",
+      "unit": 7,
+      "type": "scenario_choice",
+      "title_de": "Vertretung organisieren",
+      "title_ar": "تنظيم بديل",
+      "prompt_de": "Eine Pflegekraft ist krank und ihre feste Tour beginnt in einer Stunde. Was muss die Leitung tun?",
+      "prompt_ar": "موظفة الرعاية مريضة وتبدأ جولتها بعد ساعة. ماذا تفعل الإدارة؟",
+      "answer": "Eine Vertretung organisieren und die betroffenen Personen informieren.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine Vertretung organisieren und die betroffenen Personen informieren.",
+        "Die Tour ohne Information ausfallen lassen.",
+        "Alle Einträge löschen.",
+        "Die Patientinnen selbst fahren lassen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v056",
+        "b2u07-v055"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v026"
+      ]
+    },
+    {
+      "id": "b2u07-e029",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Pflegebericht",
+      "title_ar": "تقرير الرعاية",
+      "prompt_de": "Welche Formulierung ist für einen Pflegebericht geeignet?",
+      "prompt_ar": "أي صياغة مناسبة لتقرير الرعاية؟",
+      "answer": "Frau Schubert nahm drei Löffel Suppe zu sich und lehnte weitere Nahrung ab.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Frau Schubert nahm drei Löffel Suppe zu sich und lehnte weitere Nahrung ab.",
+        "Frau Schubert war heute völlig unmöglich.",
+        "Ich glaube, sie wollte uns ärgern.",
+        "Sie hat sich wieder komisch benommen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v065",
+        "b2u07-v067"
+      ]
+    },
+    {
+      "id": "b2u07-e030",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Objektive Dokumentation",
+      "title_ar": "التوثيق الموضوعي",
+      "prompt_de": "Was gehört nicht in einen Pflegebericht?",
+      "prompt_ar": "ما الذي لا ينبغي أن يرد في تقرير الرعاية؟",
+      "answer": "subjektive und abwertende Bewertungen",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "subjektive und abwertende Bewertungen",
+        "Datum und Uhrzeit",
+        "konkrete Beobachtungen",
+        "durchgeführte Maßnahmen"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v066",
+        "b2u07-v065"
+      ]
+    },
+    {
+      "id": "b2u07-e031",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Pflegebericht",
+      "title_ar": "تقرير الرعاية",
+      "prompt_de": "Die Pflegekraft traf den Patienten am Boden liegend ______.",
+      "prompt_ar": "وجدت موظفة الرعاية المريض مستلقيًا على الأرض.",
+      "answer": "an",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "an"
+      ],
+      "completedSentence_de": "Die Pflegekraft traf den Patienten am Boden liegend an.",
+      "completedSentence_ar": "وجدت موظفة الرعاية المريض مستلقيًا على الأرض.",
+      "vocabularyRefs": [
+        "b2u07-v068"
+      ]
+    },
+    {
+      "id": "b2u07-e032",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Pflegebericht",
+      "title_ar": "تقرير الرعاية",
+      "prompt_de": "Formulieren Sie sachlich: Die Kundin war komisch und wollte nicht essen.",
+      "prompt_ar": "صغ العبارة بموضوعية: كانت المريضة غريبة ولم ترغب في الأكل.",
+      "answer": "Die Kundin lehnte die angebotene Mahlzeit ab und antwortete nicht auf Fragen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Kundin lehnte die angebotene Mahlzeit ab und antwortete nicht auf Fragen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v067",
+        "b2u07-v066"
+      ]
+    },
+    {
+      "id": "b2u07-e033",
+      "unit": 7,
+      "type": "guided_writing",
+      "title_de": "Pflegebericht schreiben",
+      "title_ar": "كتابة تقرير رعاية",
+      "prompt_de": "Schreiben Sie einen kurzen Pflegebericht zu einem Sturz.",
+      "prompt_ar": "اكتب تقرير رعاية قصيرًا عن حالة سقوط.",
+      "answer": {
+        "requiredConcepts": [
+          "Datum und Uhrzeit",
+          "Ort und Lage beim Antreffen",
+          "konkrete Beobachtungen",
+          "durchgeführte Kontrolle",
+          "informierte Personen",
+          "weitere Maßnahme"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v065",
+        "b2u07-v071",
+        "b2u07-v068",
+        "b2u07-v063"
+      ]
+    },
+    {
+      "id": "b2u07-e034",
+      "unit": 7,
+      "type": "guided_speaking",
+      "title_de": "Übergabe im Pflegeteam",
+      "title_ar": "تسليم المعلومات في فريق الرعاية",
+      "prompt_de": "Führen Sie eine kurze Übergabe zu einer Patientin durch.",
+      "prompt_ar": "أجرِ تسليمًا قصيرًا للمعلومات عن مريضة.",
+      "answer": {
+        "requiredConcepts": [
+          "aktueller Zustand",
+          "wichtige Beobachtung",
+          "Medikamente",
+          "offene Aufgabe",
+          "Risiko",
+          "Rückfrage"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v052",
+        "b2u07-v061",
+        "b2u07-v028"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v001"
+      ]
+    },
+    {
+      "id": "b2u07-e035",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Pflegezustände",
+      "title_ar": "حالات الرعاية",
+      "prompt_de": "Ordnen Sie Zustand und Reaktion zu.",
+      "prompt_ar": "صِل الحالة بالتصرف.",
+      "answer": {
+        "plötzliche Verwirrtheit": "medizinisch abklären und dokumentieren",
+        "Sturz": "Verletzungen kontrollieren und Hilfe organisieren",
+        "Ablehnung eines Medikaments": "Weigerung dokumentieren und zuständige Stelle informieren",
+        "auffällige Wunde": "Wundzustand beschreiben und fachlich beurteilen lassen"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "plötzliche Verwirrtheit",
+          "medizinisch abklären und dokumentieren"
+        ],
+        [
+          "Sturz",
+          "Verletzungen kontrollieren und Hilfe organisieren"
+        ],
+        [
+          "Ablehnung eines Medikaments",
+          "Weigerung dokumentieren und zuständige Stelle informieren"
+        ],
+        [
+          "auffällige Wunde",
+          "Wundzustand beschreiben und fachlich beurteilen lassen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v070",
+        "b2u07-v071",
+        "b2u07-v069",
+        "b2u07-v050"
+      ]
+    },
+    {
+      "id": "b2u07-e036",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Leben vereinfachen",
+      "title_ar": "تبسيط الحياة",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "der Papierkram": "Formulare, Rechnungen und Verwaltungsaufgaben",
+        "die mentale Blockade": "innere Hemmung beim Denken oder Handeln",
+        "Prioritäten setzen": "Wichtiges bewusst zuerst behandeln",
+        "soziale Kontakte pflegen": "Beziehungen regelmäßig erhalten"
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "der Papierkram",
+          "Formulare, Rechnungen und Verwaltungsaufgaben"
+        ],
+        [
+          "die mentale Blockade",
+          "innere Hemmung beim Denken oder Handeln"
+        ],
+        [
+          "Prioritäten setzen",
+          "Wichtiges bewusst zuerst behandeln"
+        ],
+        [
+          "soziale Kontakte pflegen",
+          "Beziehungen regelmäßig erhalten"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v075",
+        "b2u07-v076",
+        "b2u07-v077",
+        "b2u07-v078"
+      ]
+    },
+    {
+      "id": "b2u07-e037",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Vereinfachung",
+      "title_ar": "التبسيط",
+      "prompt_de": "Welche Maßnahme kann den Alltag sinnvoll vereinfachen?",
+      "prompt_ar": "أي إجراء يمكن أن يبسط الحياة اليومية بصورة مفيدة؟",
+      "answer": "unnötige Aufgaben reduzieren und klare Prioritäten setzen",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "unnötige Aufgaben reduzieren und klare Prioritäten setzen",
+        "alle Beziehungen abbrechen",
+        "jede freie Minute verplanen",
+        "Probleme dauerhaft ignorieren"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v072",
+        "b2u07-v077"
+      ]
+    },
+    {
+      "id": "b2u07-e038",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Loslassen",
+      "title_ar": "التخلي",
+      "prompt_de": "Vielen Menschen fällt es schwer, sich von Erinnerungsstücken zu ______.",
+      "prompt_ar": "يصعب على أشخاص كثيرين ______ عن التذكارات.",
+      "answer": "trennen",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "trennen"
+      ],
+      "completedSentence_de": "Vielen Menschen fällt es schwer, sich von Erinnerungsstücken zu trennen.",
+      "completedSentence_ar": "يصعب على أشخاص كثيرين التخلي عن التذكارات.",
+      "vocabularyRefs": [
+        "b2u07-v073",
+        "b2u07-v083"
+      ]
+    },
+    {
+      "id": "b2u07-e039",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Perfektionismus",
+      "title_ar": "السعي إلى الكمال",
+      "prompt_de": "Welche Folge kann belastender Perfektionismus haben?",
+      "prompt_ar": "ما النتيجة المحتملة للكمالية المرهقة؟",
+      "answer": "Aufgaben dauern unnötig lange und verursachen Stress.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Aufgaben dauern unnötig lange und verursachen Stress.",
+        "Alle Aufgaben werden automatisch leichter.",
+        "Die Arbeitszeit wird immer kürzer.",
+        "Man braucht keine Erholung mehr."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v081",
+        "b2u07-v080"
+      ]
+    },
+    {
+      "id": "b2u07-e040",
+      "unit": 7,
+      "type": "matching",
+      "title_de": "Ausdrücke mit es",
+      "title_ar": "تراكيب مع es",
+      "prompt_de": "Ordnen Sie die Satzanfänge den Bedeutungen zu.",
+      "prompt_ar": "صِل بداية الجملة بالمعنى.",
+      "answer": {
+        "Es gelingt mir, ...": "Ich schaffe etwas erfolgreich.",
+        "Es fällt mir schwer, ...": "Etwas ist für mich schwierig.",
+        "Es ärgert mich, dass ...": "Eine Situation macht mich wütend.",
+        "Es freut mich, dass ...": "Eine Tatsache macht mich froh."
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Es gelingt mir, ...",
+          "Ich schaffe etwas erfolgreich."
+        ],
+        [
+          "Es fällt mir schwer, ...",
+          "Etwas ist für mich schwierig."
+        ],
+        [
+          "Es ärgert mich, dass ...",
+          "Eine Situation macht mich wütend."
+        ],
+        [
+          "Es freut mich, dass ...",
+          "Eine Tatsache macht mich froh."
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u07-v082",
+        "b2u07-v083",
+        "b2u07-v084",
+        "b2u07-v085"
+      ]
+    },
+    {
+      "id": "b2u07-e041",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Ausdruck mit es",
+      "title_ar": "تركيب مع es",
+      "prompt_de": "Bilden Sie einen Satz: mir / gelingen / Pausen regelmäßig einplanen",
+      "prompt_ar": "كوّن جملة: أنجح في التخطيط لاستراحات منتظمة.",
+      "answer": "Es gelingt mir, regelmäßig Pausen einzuplanen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Es gelingt mir, regelmäßig Pausen einzuplanen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v082"
+      ]
+    },
+    {
+      "id": "b2u07-e042",
+      "unit": 7,
+      "type": "sentence_build",
+      "title_de": "Ausdruck mit es",
+      "title_ar": "تركيب مع es",
+      "prompt_de": "Bilden Sie einen Satz: sie / ärgern / Dienstplan kurzfristig ändern",
+      "prompt_ar": "كوّن جملة: يزعجها أن خطة المناوبات تتغير في وقت قصير.",
+      "answer": "Es ärgert sie, dass der Dienstplan kurzfristig geändert wird.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Es ärgert sie, dass der Dienstplan kurzfristig geändert wird."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v084"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v023"
+      ]
+    },
+    {
+      "id": "b2u07-e043",
+      "unit": 7,
+      "type": "fill_blank",
+      "title_de": "Persönliche Priorität",
+      "title_ar": "أولوية شخصية",
+      "prompt_de": "Es ist mir wichtig, meine Arbeit sachlich zu ______.",
+      "prompt_ar": "من المهم لي أن ______ عملي بموضوعية.",
+      "answer": "dokumentieren",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "dokumentieren"
+      ],
+      "completedSentence_de": "Es ist mir wichtig, meine Arbeit sachlich zu dokumentieren.",
+      "completedSentence_ar": "من المهم لي توثيق عملي بموضوعية.",
+      "vocabularyRefs": [
+        "b2u07-v086",
+        "b2u07-v067"
+      ]
+    },
+    {
+      "id": "b2u07-e044",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Work-Life-Balance",
+      "title_ar": "التوازن بين العمل والحياة",
+      "prompt_de": "Welche betriebliche Maßnahme kann die Work-Life-Balance verbessern?",
+      "prompt_ar": "أي إجراء داخل الشركة قد يحسن التوازن بين العمل والحياة؟",
+      "answer": "verlässliche Arbeitszeiten und Schutz vor ständiger Erreichbarkeit",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "verlässliche Arbeitszeiten und Schutz vor ständiger Erreichbarkeit",
+        "dauerhafte Wochenendarbeit ohne Ausgleich",
+        "mehr unbezahlte Überstunden",
+        "kurzfristige Änderungen jeden Tag"
+      ],
+      "vocabularyRefs": [
+        "b2u07-v013",
+        "b2u07-v014"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u04-v049"
+      ]
+    },
+    {
+      "id": "b2u07-e045",
+      "unit": 7,
+      "type": "scenario_choice",
+      "title_de": "Überlastung melden",
+      "title_ar": "الإبلاغ عن الإرهاق",
+      "prompt_de": "Eine Mitarbeiterin kann ihre Aufgaben wegen dauerhafter Überlastung nicht mehr sicher erledigen. Was sollte sie tun?",
+      "prompt_ar": "لم تعد الموظفة قادرة على تنفيذ مهامها بأمان بسبب الإرهاق المستمر. ماذا تفعل؟",
+      "answer": "Die Belastung konkret dokumentieren und das Gespräch mit der Leitung suchen.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Belastung konkret dokumentieren und das Gespräch mit der Leitung suchen.",
+        "Fehler verheimlichen.",
+        "Jede zusätzliche Aufgabe übernehmen.",
+        "Ohne Nachricht nicht mehr erscheinen."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v015",
+        "b2u07-v080",
+        "b2u07-v067"
+      ]
+    },
+    {
+      "id": "b2u07-e046",
+      "unit": 7,
+      "type": "guided_writing",
+      "title_de": "Leserbrief zur Work-Life-Balance",
+      "title_ar": "رسالة قارئ عن التوازن",
+      "prompt_de": "Schreiben Sie einen Leserbrief mit 130–160 Wörtern zur Work-Life-Balance.",
+      "prompt_ar": "اكتب رسالة قارئ من 130–160 كلمة عن التوازن بين العمل والحياة.",
+      "answer": {
+        "requiredConcepts": [
+          "Bezug auf den Artikel",
+          "eigene Meinung",
+          "Situation im Herkunftsland oder Beruf",
+          "zwei Argumente",
+          "persönliches Beispiel",
+          "Fazit"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v013",
+        "b2u07-v016",
+        "b2u07-v014",
+        "b2u07-v015"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u07-e047",
+      "unit": 7,
+      "type": "guided_speaking",
+      "title_de": "Arbeitszeit und Gesundheit",
+      "title_ar": "ساعات العمل والصحة",
+      "prompt_de": "Diskutieren Sie: Sollte jeder Betrieb täglich bezahlte Bewegungszeit anbieten?",
+      "prompt_ar": "ناقش: هل ينبغي لكل شركة تقديم وقت حركة مدفوع يوميًا؟",
+      "answer": {
+        "requiredConcepts": [
+          "Vorteile für Gesundheit",
+          "Kosten für den Betrieb",
+          "Arbeitsorganisation",
+          "Teilnahme freiwillig oder verpflichtend",
+          "Kompromiss",
+          "eigene Position"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v002",
+        "b2u07-v004"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v050",
+        "b2u04-v049"
+      ]
+    },
+    {
+      "id": "b2u07-e048",
+      "unit": 7,
+      "type": "guided_speaking",
+      "title_de": "Probleme im Pflegealltag",
+      "title_ar": "مشكلات يوم الرعاية",
+      "prompt_de": "Melden Sie ein Problem und machen Sie einen konkreten Lösungsvorschlag.",
+      "prompt_ar": "أبلغ عن مشكلة في يوم الرعاية واقترح حلًا محددًا.",
+      "answer": {
+        "requiredConcepts": [
+          "Problem sachlich beschreiben",
+          "Auswirkung auf Patientensicherheit",
+          "bereits unternommene Schritte",
+          "Rat oder Anweisung erfragen",
+          "Lösung vorschlagen",
+          "Verantwortlichkeit klären"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v055",
+        "b2u07-v054",
+        "b2u07-v067"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u05-v033",
+        "b2u03-v067"
+      ]
+    },
+    {
+      "id": "b2u07-e049",
+      "unit": 7,
+      "type": "guided_writing",
+      "title_de": "Arbeitsplan in der Pflege",
+      "title_ar": "خطة عمل في الرعاية",
+      "prompt_de": "Erstellen Sie einen kurzen Arbeitsplan für eine ambulante Tour.",
+      "prompt_ar": "أنشئ خطة عمل قصيرة لجولة رعاية منزلية.",
+      "answer": {
+        "requiredConcepts": [
+          "Reihenfolge der Besuche",
+          "Zeitfenster",
+          "Messungen oder Medikamente",
+          "offene Aufgaben",
+          "Rückfragen",
+          "Vertretungsregel"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u07-v057",
+        "b2u07-v056",
+        "b2u07-v058",
+        "b2u07-v061"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u02-v026"
+      ]
+    },
+    {
+      "id": "b2u07-e050",
+      "unit": 7,
+      "type": "multiple_choice",
+      "title_de": "Bericht oder Meinung?",
+      "title_ar": "تقرير أم رأي؟",
+      "prompt_de": "Welche Aussage ist eine beobachtbare Tatsache?",
+      "prompt_ar": "أي عبارة حقيقة قابلة للملاحظة؟",
+      "answer": "Herr Petzl trank um 12:40 Uhr ein Glas Wasser.",
+      "source": "original_exercise_based_on_kapitel_07_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Herr Petzl trank um 12:40 Uhr ein Glas Wasser.",
+        "Herr Petzl war heute unerträglich.",
+        "Ich finde, er wollte Aufmerksamkeit.",
+        "Er benahm sich absichtlich schlecht."
+      ],
+      "vocabularyRefs": [
+        "b2u07-v065",
+        "b2u07-v066"
+      ]
+    }
+  ]
+}
