@@ -1,5 +1,10 @@
 import { useMemo, useState, type ChangeEvent } from "react";
 import { AlertCircle, Heart, Search } from "lucide-react";
+import {
+  getB2ExplanationLanguage,
+  setB2ExplanationLanguage,
+  type B2ExplanationLanguage,
+} from "./b2CourseExplanationLanguage";
 import { B2CourseProgressService } from "./b2CourseProgressService";
 import { normalizeAnswer } from "./exerciseEngine";
 import type { B2CourseVocabularyItem, B2VocabularyFilter } from "./types";
@@ -7,17 +12,6 @@ import type { B2CourseVocabularyItem, B2VocabularyFilter } from "./types";
 interface Props {
   items: B2CourseVocabularyItem[];
   isRtl: boolean;
-}
-
-type ExplanationLanguage = "ar" | "de";
-
-const EXPLANATION_LANGUAGE_KEY = "dmt_b2_course_explanation_language_v1";
-
-function getInitialExplanationLanguage(isRtl: boolean): ExplanationLanguage {
-  if (typeof window === "undefined") return isRtl ? "ar" : "de";
-  const stored = window.localStorage.getItem(EXPLANATION_LANGUAGE_KEY);
-  if (stored === "ar" || stored === "de") return stored;
-  return isRtl ? "ar" : "de";
 }
 
 function vocabularyFamily(type: string): Exclude<B2VocabularyFilter, "all"> {
@@ -67,7 +61,7 @@ function VocabularyCard({
 }: {
   item: B2CourseVocabularyItem;
   isRtl: boolean;
-  explanationLanguage: ExplanationLanguage;
+  explanationLanguage: B2ExplanationLanguage;
 }) {
   const [favorite, setFavorite] = useState(B2CourseProgressService.isFavorite(item.courseItemId));
   const [difficult, setDifficult] = useState(
@@ -134,15 +128,13 @@ function VocabularyCard({
 export default function B2CourseVocabulary({ items, isRtl }: Props) {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<B2VocabularyFilter>("all");
-  const [explanationLanguage, setExplanationLanguage] = useState<ExplanationLanguage>(
-    () => getInitialExplanationLanguage(isRtl),
+  const [explanationLanguage, setExplanationLanguage] = useState<B2ExplanationLanguage>(
+    () => getB2ExplanationLanguage(isRtl),
   );
 
-  const selectExplanationLanguage = (language: ExplanationLanguage) => {
+  const selectExplanationLanguage = (language: B2ExplanationLanguage) => {
     setExplanationLanguage(language);
-    if (typeof window !== "undefined") {
-      window.localStorage.setItem(EXPLANATION_LANGUAGE_KEY, language);
-    }
+    setB2ExplanationLanguage(language);
   };
 
   const filters: Array<[B2VocabularyFilter, string, string]> = [

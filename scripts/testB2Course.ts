@@ -60,7 +60,11 @@ for (const exercise of exercises) {
   }
 }
 
-assert(exercises.length === 111, `Expected 111 exercises, found ${exercises.length}`);
+const expectedExerciseCount = index.units.reduce((total, unit) => total + unit.exerciseCount, 0);
+assert(
+  exercises.length === expectedExerciseCount,
+  `Expected ${expectedExerciseCount} exercises, found ${exercises.length}`,
+);
 assert(Object.keys(counts).length === 11, `Expected all 11 exercise types, found ${Object.keys(counts).length}`);
 
 B2CourseProgressService.recordExerciseAttempt(1, "b2u01-e001", false, "wrong");

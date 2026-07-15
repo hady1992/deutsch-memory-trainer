@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AlertCircle, ArrowLeft, ChevronLeft, ChevronRight, Heart, Languages } from "lucide-react";
+import { getB2ExplanationLanguage } from "./b2CourseExplanationLanguage";
 import { B2CourseProgressService } from "./b2CourseProgressService";
 import type { B2CourseVocabularyItem } from "./types";
 
@@ -25,6 +26,7 @@ export default function B2CourseTrainer({ items, unit, isRtl, initialIndex, onCl
   if (!item) return null;
   const progress = B2CourseProgressService.getVocabularyProgress(item.courseItemId);
   const favorite = B2CourseProgressService.isFavorite(item.courseItemId);
+  const explanationLanguage = getB2ExplanationLanguage(isRtl);
 
   const move = (offset: number) => {
     setIndex((current) => (current + offset + items.length) % items.length);
@@ -74,10 +76,11 @@ export default function B2CourseTrainer({ items, unit, isRtl, initialIndex, onCl
         {revealed ? (
           <div className="mt-9 space-y-4">
             <p className="text-center text-2xl font-bold text-blue-700" dir="rtl">{item.arabic}</p>
-            <div className="grid gap-3 md:grid-cols-2">
+            {explanationLanguage === "de" ? (
               <p className="rounded-lg bg-slate-50 p-4 text-left font-semibold leading-7" dir="ltr">{item.explanation_de}</p>
+            ) : (
               <p className="rounded-lg bg-slate-50 p-4 text-right leading-7 text-slate-600" dir="rtl">{item.explanation_ar}</p>
-            </div>
+            )}
             {item.examples[0] && (
               <div className="rounded-lg border border-slate-200 p-4">
                 <p className="text-left font-semibold" dir="ltr">{item.examples[0].de}</p>

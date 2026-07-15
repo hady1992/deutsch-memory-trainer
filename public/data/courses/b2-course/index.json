@@ -14,7 +14,10 @@
       "slug": "unit-01",
       "title_de": "Arbeitsräume, Umzug und Probleme im Büro",
       "title_ar": "أماكن العمل والانتقال والمشكلات في المكتب",
-      "pages": [11, 22],
+      "pages": [
+        11,
+        22
+      ],
       "vocabularyFile": "units/unit-01/vocabulary.json",
       "exercisesFile": "units/unit-01/exercises.json",
       "vocabularyCount": 60,
@@ -26,7 +29,10 @@
       "slug": "unit-02",
       "title_de": "Mein eigener Laden – Selbstständigkeit, Arbeitsrecht und Kundenservice",
       "title_ar": "متجري الخاص – العمل المستقل وقانون العمل وخدمة الزبائن",
-      "pages": [23, 46],
+      "pages": [
+        23,
+        46
+      ],
       "vocabularyFile": "units/unit-02/vocabulary.json",
       "exercisesFile": "units/unit-02/exercises.json",
       "vocabularyCount": 76,
@@ -38,11 +44,29 @@
       "slug": "unit-03",
       "title_de": "Arbeit im Team",
       "title_ar": "العمل ضمن فريق",
-      "pages": [47, 60],
+      "pages": [
+        47,
+        60
+      ],
       "vocabularyFile": "units/unit-03/vocabulary.json",
       "exercisesFile": "units/unit-03/exercises.json",
       "vocabularyCount": 70,
       "exerciseCount": 42,
+      "enabled": true
+    },
+    {
+      "unit": 4,
+      "slug": "unit-04",
+      "title_de": "Tourismus",
+      "title_ar": "السياحة",
+      "pages": [
+        61,
+        84
+      ],
+      "vocabularyFile": "units/unit-04/vocabulary.json",
+      "exercisesFile": "units/unit-04/exercises.json",
+      "vocabularyCount": 94,
+      "exerciseCount": 50,
       "enabled": true
     }
   ]
