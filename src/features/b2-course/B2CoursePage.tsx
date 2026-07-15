@@ -131,7 +131,7 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
           <p className="mt-2 max-w-3xl text-slate-600">
             {isRtl
               ? "وحدات مستقلة تضم المفردات والشرح والأمثلة والتمارين، مع تقدم محفوظ لهذا الكورس فقط."
-              : "Eigenständige Einheiten mit Wortschatz, Erklärungen, Beispielen und Übungen sowie separatem Kursfortschritt."}
+              : "Eigenständige Kapitel mit Wortschatz, Erklärungen, Beispielen und Übungen sowie separatem Kursfortschritt."}
           </p>
         </div>
         <span className="rounded-lg bg-blue-100 px-4 py-2 text-sm font-black text-blue-700">B2</span>
@@ -174,7 +174,7 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
                   className="group rounded-lg border border-slate-200 bg-white p-6 text-start shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md"
                 >
                   <div className="flex items-center justify-between gap-3">
-                    <span className="rounded-lg bg-blue-600 px-3 py-2 text-sm font-black text-white" dir="ltr">Einheit {String(summary.unit).padStart(2, "0")}</span>
+                    <span className="rounded-lg bg-blue-600 px-3 py-2 text-sm font-black text-white" dir="ltr">Kapitel {String(summary.unit).padStart(2, "0")}</span>
                     <span className="text-sm font-black text-slate-500" dir="ltr">{stats.percent}%</span>
                   </div>
                   <h2 className="mt-5 text-xl font-black leading-8 text-slate-900">{isRtl ? summary.title_ar : summary.title_de}</h2>
@@ -183,10 +183,10 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
                     <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{summary.vocabularyCount}</strong>{isRtl ? "مفردة جديدة" : "Begriffe"}</div>
                     <div className="rounded-lg bg-slate-50 p-3"><strong className="block text-xl" dir="ltr">{summary.exerciseCount}</strong>{isRtl ? "تمرين" : "Übungen"}</div>
                   </div>
-                  {reusedCount > 0 && <p className="mt-3 text-xs font-semibold text-slate-500">{isRtl ? `+ ${reusedCount} مفردات مرتبطة من وحدات سابقة` : `+ ${reusedCount} verknüpfte Begriffe aus früheren Einheiten`}</p>}
+                  {reusedCount > 0 && <p className="mt-3 text-xs font-semibold text-slate-500">{isRtl ? `+ ${reusedCount} مفردات مرتبطة من وحدات سابقة` : `+ ${reusedCount} verknüpfte Begriffe aus früheren Kapiteln`}</p>}
                   <div className="mt-5 h-2 overflow-hidden rounded-full bg-slate-100"><div className="h-full bg-blue-600" style={{ width: `${stats.percent}%` }} /></div>
                   <span className="mt-4 flex items-center justify-end gap-1 text-sm font-bold text-blue-600">
-                    {isRtl ? "فتح الوحدة" : "Einheit öffnen"}<ChevronRight size={17} className={isRtl ? "rotate-180" : ""} />
+                    {isRtl ? "فتح الوحدة" : "Kapitel öffnen"}<ChevronRight size={17} className={isRtl ? "rotate-180" : ""} />
                   </span>
                 </button>
               );
