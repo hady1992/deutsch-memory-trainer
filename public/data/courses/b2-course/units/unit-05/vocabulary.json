@@ -1,0 +1,3197 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 5,
+    "unitTitle_de": "Aktiv im Handwerk",
+    "unitTitle_ar": "نشاط في قطاع الحرف",
+    "sourcePages": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Handwerksberufe und handwerkliche Tätigkeiten",
+      "Werkzeuge, Reparatur und Renovierung",
+      "Vorgangspassiv und Zustandspassiv",
+      "Arbeitsabläufe und technische Anweisungen",
+      "Verbesserungsvorschläge am Arbeitsplatz",
+      "Frauen im Handwerk und Einsteigerkurse",
+      "duale Ausbildung und Fachkräftemangel",
+      "Nachhaltigkeit, Barrierefreiheit und Digitalisierung",
+      "Unternehmensnachfolge",
+      "trennbare und untrennbare Verben"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne ausreichenden Lernwert",
+      "reine Bildbeschriftungen und Lehrbuchanweisungen",
+      "nicht themenrelevante Beispielwörter aus den Präfixübungen",
+      "bereits in Kapitel 1–4 vorhandene identische Begriffe"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u03-v007",
+      "term": "der Verbesserungsvorschlag",
+      "pages": [
+        89,
+        96,
+        98
+      ],
+      "reason": "المفهوم الأساسي لاقتراحات تحسين مكان العمل."
+    },
+    {
+      "courseItemId": "b2u01-v030",
+      "term": "der Schaden",
+      "pages": [
+        88,
+        89
+      ],
+      "reason": "يظهر في وصف الأعطال والإصلاحات."
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "term": "die Zusammenarbeit",
+      "pages": [
+        90,
+        93
+      ],
+      "reason": "التعاون بين المنشآت والمدارس والمصنعين ومقدمي الدورات."
+    },
+    {
+      "courseItemId": "b2u03-v001",
+      "term": "die Teamarbeit",
+      "pages": [
+        89,
+        90
+      ],
+      "reason": "تنفيذ التحسينات والعمل المشترك في المنشأة."
+    },
+    {
+      "courseItemId": "b2u02-v024",
+      "term": "der Arbeitsauftrag",
+      "pages": [
+        87,
+        94,
+        97
+      ],
+      "reason": "المهام التي يُطلب تنفيذها أو التأكد من إنجازها."
+    },
+    {
+      "courseItemId": "b2u03-v016",
+      "term": "die Abteilung",
+      "pages": [
+        89,
+        96
+      ],
+      "reason": "المشكلة والتحسين داخل قسم العمل."
+    },
+    {
+      "courseItemId": "b2u04-v089",
+      "term": "die Auftragslage",
+      "pages": [
+        90,
+        97
+      ],
+      "reason": "توفر الطلبات والفرص الاقتصادية للمنشآت الحرفية."
+    },
+    {
+      "courseItemId": "b2u04-v040",
+      "term": "die Einsatzbereitschaft",
+      "pages": [
+        85,
+        90
+      ],
+      "reason": "صفة مهنية مهمة في التدريب والعمل الحرفي."
+    },
+    {
+      "courseItemId": "b2u04-v084",
+      "term": "das Selbstvertrauen",
+      "pages": [
+        86,
+        93
+      ],
+      "reason": "تنمية الثقة في استخدام الأدوات والعمل العملي."
+    },
+    {
+      "courseItemId": "b2u04-v049",
+      "term": "die Arbeitsbedingung",
+      "pages": [
+        85,
+        90
+      ],
+      "reason": "ظروف العمل في المهن الحرفية."
+    },
+    {
+      "courseItemId": "b2u03-v067",
+      "term": "eine Aufgabe bewältigen",
+      "pages": [
+        87,
+        90
+      ],
+      "reason": "تنفيذ المهام العملية والتعامل مع تحديات العمل."
+    },
+    {
+      "courseItemId": "b2u03-v061",
+      "term": "den Überblick behalten",
+      "pages": [
+        88,
+        95
+      ],
+      "reason": "متابعة خطوات عملية الإصلاح أو التجديد."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u05-v001",
+      "identity": "das handwerk",
+      "term": "das Handwerk",
+      "type": "noun",
+      "arabic": "قطاع الحِرَف والمهن اليدوية",
+      "explanation_de": "Der Wirtschaftsbereich, in dem qualifizierte praktische und technische Arbeiten ausgeführt werden.",
+      "explanation_ar": "قطاع مهني يشمل أعمال البناء والإصلاح والتركيب والتصنيع اليدوي والتقني.",
+      "examples": [
+        {
+          "de": "Das Handwerk bietet vielfältige Ausbildungs- und Karrierewege.",
+          "ar": "يوفر قطاع الحرف مسارات متنوعة للتدريب والتطور المهني."
+        },
+        {
+          "de": "Viele Betriebe im Handwerk suchen dringend Nachwuchs.",
+          "ar": "تبحث منشآت حرفية كثيرة عن متدربين جدد بصورة عاجلة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          86,
+          90,
+          91,
+          93,
+          97,
+          98
+        ],
+        "section": "Handwerk und Zukunft"
+      },
+      "tags": [
+        "handwerk",
+        "arbeitswelt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v002",
+      "identity": "der handwerksberuf",
+      "term": "der Handwerksberuf",
+      "type": "noun",
+      "arabic": "مهنة حرفية",
+      "explanation_de": "Ein Beruf, in dem praktische, technische oder gestalterische Fähigkeiten im Mittelpunkt stehen.",
+      "explanation_ar": "مهنة تعتمد على المهارة العملية أو التقنية، مثل الكهرباء والنجارة والدهان.",
+      "examples": [
+        {
+          "de": "Ein Handwerksberuf verbindet Fachwissen mit praktischer Arbeit.",
+          "ar": "تجمع المهنة الحرفية بين المعرفة والتطبيق العملي."
+        },
+        {
+          "de": "Auch kreative Handwerksberufe bieten gute Zukunftschancen.",
+          "ar": "توفر المهن الحرفية الإبداعية فرصًا مستقبلية جيدة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Handwerksberufe"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          86,
+          90,
+          93,
+          98
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v003",
+      "identity": "der fliesenleger / die fliesenlegerin",
+      "term": "der Fliesenleger / die Fliesenlegerin",
+      "type": "noun",
+      "arabic": "مبلّط / مبلّطة",
+      "explanation_de": "Eine Fachkraft, die Fliesen an Wänden und Böden verlegt.",
+      "explanation_ar": "حرفي يركب البلاط على الجدران والأرضيات ويهيئ السطح للعمل.",
+      "examples": [
+        {
+          "de": "Der Fliesenleger verlegt neue Fliesen im Badezimmer.",
+          "ar": "يركب المبلّط بلاطًا جديدًا في الحمام."
+        },
+        {
+          "de": "Fliesenlegerinnen müssen genau messen und sauber arbeiten.",
+          "ar": "يجب على المبلّطات القياس بدقة والعمل بنظافة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Fliesenleger / die Fliesenlegerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          86
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v004",
+      "identity": "der schweißer / die schweißerin",
+      "term": "der Schweißer / die Schweißerin",
+      "type": "noun",
+      "arabic": "لحّام / لحّامة",
+      "explanation_de": "Eine Fachkraft, die Metallteile durch Schweißen dauerhaft miteinander verbindet.",
+      "explanation_ar": "حرفي يربط القطع المعدنية باستخدام الحرارة وتقنيات اللحام.",
+      "examples": [
+        {
+          "de": "Die Schweißerin verbindet zwei Metallteile.",
+          "ar": "تصل اللحّامة قطعتين معدنيتين."
+        },
+        {
+          "de": "Beim Schweißen ist geeignete Schutzkleidung vorgeschrieben.",
+          "ar": "يلزم ارتداء ملابس حماية مناسبة أثناء اللحام."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Schweißer / die Schweißerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "metall"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v005",
+      "identity": "der dachdecker / die dachdeckerin",
+      "term": "der Dachdecker / die Dachdeckerin",
+      "type": "noun",
+      "arabic": "عامل أو عاملة تسقيف",
+      "explanation_de": "Eine Fachkraft, die Dächer baut, deckt, repariert und abdichtet.",
+      "explanation_ar": "حرفي يبني الأسقف ويغطيها ويصلحها ويعزلها من الماء.",
+      "examples": [
+        {
+          "de": "Die Dachdeckerin repariert beschädigte Dachziegel.",
+          "ar": "تصلح عاملة التسقيف قرميد السقف المتضرر."
+        },
+        {
+          "de": "Dachdecker arbeiten häufig in großer Höhe.",
+          "ar": "يعمل عمال التسقيف غالبًا على ارتفاعات كبيرة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Dachdecker / die Dachdeckerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          90
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "bau"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v006",
+      "identity": "der elektriker / die elektrikerin",
+      "term": "der Elektriker / die Elektrikerin",
+      "type": "noun",
+      "arabic": "كهربائي / كهربائية",
+      "explanation_de": "Eine Fachkraft für elektrische Anlagen, Leitungen und Geräte.",
+      "explanation_ar": "حرفي مختص بتركيب الأنظمة والأسلاك والأجهزة الكهربائية وصيانتها.",
+      "examples": [
+        {
+          "de": "Die Elektrikerin tauscht defekte Leitungen aus.",
+          "ar": "تستبدل الكهربائية الأسلاك التالفة."
+        },
+        {
+          "de": "Elektriker müssen Sicherheitsvorschriften genau beachten.",
+          "ar": "يجب على الكهربائيين الالتزام بتعليمات السلامة بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Elektriker / die Elektrikerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          86,
+          90
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "elektro"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v007",
+      "identity": "der anlagenmechaniker / die anlagenmechanikerin",
+      "term": "der Anlagenmechaniker / die Anlagenmechanikerin",
+      "type": "noun",
+      "arabic": "فني أو فنية أنظمة صحية وتدفئة",
+      "explanation_de": "Eine Fachkraft für Sanitär-, Heizungs- und teilweise Klimatechnik.",
+      "explanation_ar": "حرفي يركب ويصون أنظمة المياه والتدفئة والتجهيزات الصحية.",
+      "examples": [
+        {
+          "de": "Der Anlagenmechaniker repariert die Heizungsanlage.",
+          "ar": "يصلح فني الأنظمة جهاز التدفئة."
+        },
+        {
+          "de": "Für einen barrierefreien Badumbau werden oft Anlagenmechaniker gebraucht.",
+          "ar": "يحتاج تعديل الحمام ليصبح مناسبًا لذوي الحركة المحدودة غالبًا إلى فني أنظمة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Anlagenmechaniker / die Anlagenmechanikerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          88,
+          90
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v008",
+      "identity": "der maler und lackierer / die malerin und lackiererin",
+      "term": "der Maler und Lackierer / die Malerin und Lackiererin",
+      "type": "noun",
+      "arabic": "دهّان ومطلي أسطح",
+      "explanation_de": "Eine Fachkraft, die Oberflächen vorbereitet, streicht, lackiert und gestaltet.",
+      "explanation_ar": "حرفي يجهز الجدران والأسطح ويطليها أو يدهنها ويحميها.",
+      "examples": [
+        {
+          "de": "Die Malerin klebt die Steckdosen ab und streicht die Wände.",
+          "ar": "تغطي الدهّانة المقابس وتطلي الجدران."
+        },
+        {
+          "de": "Vor dem Lackieren muss die Oberfläche gründlich gereinigt werden.",
+          "ar": "يجب تنظيف السطح جيدًا قبل الطلاء."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Maler und Lackierer / die Malerinnen und Lackiererinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          95
+        ],
+        "section": "Handwerkliche Berufe"
+      },
+      "tags": [
+        "handwerk",
+        "farbe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v009",
+      "identity": "fliesen verlegen",
+      "term": "Fliesen verlegen",
+      "type": "phrase",
+      "arabic": "يركّب البلاط",
+      "explanation_de": "Fliesen fachgerecht auf einem vorbereiteten Boden oder einer Wand befestigen.",
+      "explanation_ar": "تثبيت البلاط بصورة مهنية على أرض أو جدار جرى تجهيزه.",
+      "examples": [
+        {
+          "de": "Im neuen Bad werden rutschfeste Fliesen verlegt.",
+          "ar": "يُركب بلاط مقاوم للانزلاق في الحمام الجديد."
+        },
+        {
+          "de": "Bevor man Fliesen verlegt, muss der Untergrund eben sein.",
+          "ar": "يجب أن تكون الأرضية مستوية قبل تركيب البلاط."
+        }
+      ],
+      "grammar": {
+        "verb": "verlegen",
+        "praeteritum": "verlegte",
+        "perfekt": "hat verlegt"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          93
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "tätigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v010",
+      "identity": "dichtungen auswechseln",
+      "term": "Dichtungen auswechseln",
+      "type": "phrase",
+      "arabic": "يستبدل الحشوات المانعة للتسرب",
+      "explanation_de": "Alte oder defekte Dichtungen entfernen und durch neue ersetzen.",
+      "explanation_ar": "إزالة الحشوات القديمة أو التالفة وتركيب حشوات جديدة لمنع التسرب.",
+      "examples": [
+        {
+          "de": "Der Notdienst wechselt die defekte Dichtung aus.",
+          "ar": "تستبدل خدمة الطوارئ الحشوة التالفة."
+        },
+        {
+          "de": "Nach dem Auswechseln der Dichtung tropft der Wasserhahn nicht mehr.",
+          "ar": "بعد استبدال الحشوة لم يعد الصنبور يقطر."
+        }
+      ],
+      "grammar": {
+        "verb": "auswechseln",
+        "praeteritum": "wechselte aus",
+        "perfekt": "hat ausgewechselt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          88
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v011",
+      "identity": "eine steckdose anbringen",
+      "term": "eine Steckdose anbringen",
+      "type": "phrase",
+      "arabic": "يركّب مأخذًا كهربائيًا",
+      "explanation_de": "Eine Steckdose fachgerecht an einer vorgesehenen Stelle montieren und anschließen.",
+      "explanation_ar": "تركيب مأخذ كهربائي في مكان محدد وتوصيله بصورة آمنة.",
+      "examples": [
+        {
+          "de": "Die Elektrikerin bringt eine zusätzliche Steckdose an.",
+          "ar": "تركب الكهربائية مأخذًا إضافيًا."
+        },
+        {
+          "de": "Steckdosen dürfen nur von qualifizierten Personen angebracht werden.",
+          "ar": "يجب ألا يركب المآخذ إلا أشخاص مؤهلون."
+        }
+      ],
+      "grammar": {
+        "verb": "anbringen",
+        "praeteritum": "brachte an",
+        "perfekt": "hat angebracht",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "elektro"
+      ],
+      "globalRef": "phrases:phrase_0083",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v012",
+      "identity": "stromleitungen verlegen",
+      "term": "Stromleitungen verlegen",
+      "type": "phrase",
+      "arabic": "يمد الأسلاك الكهربائية",
+      "explanation_de": "Elektrische Leitungen nach einem Plan sicher in Wänden, Decken oder Schächten installieren.",
+      "explanation_ar": "تركيب الأسلاك الكهربائية داخل الجدران أو الأسقف وفق مخطط آمن.",
+      "examples": [
+        {
+          "de": "Vor dem Verputzen werden neue Stromleitungen verlegt.",
+          "ar": "تُمد أسلاك كهربائية جديدة قبل اللياسة."
+        },
+        {
+          "de": "Die Leitungen müssen den technischen Vorschriften entsprechen.",
+          "ar": "يجب أن تتوافق الأسلاك مع التعليمات التقنية."
+        }
+      ],
+      "grammar": {
+        "verb": "verlegen",
+        "praeteritum": "verlegte",
+        "perfekt": "hat verlegt"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "elektro"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v013",
+      "identity": "elektrische geräte reparieren",
+      "term": "elektrische Geräte reparieren",
+      "type": "phrase",
+      "arabic": "يصلح الأجهزة الكهربائية",
+      "explanation_de": "Defekte elektrische Geräte prüfen und wieder funktionsfähig machen.",
+      "explanation_ar": "فحص الأجهزة الكهربائية المعطلة وإعادتها إلى العمل.",
+      "examples": [
+        {
+          "de": "Die Werkstatt repariert elektrische Geräte verschiedener Hersteller.",
+          "ar": "تصلح الورشة أجهزة كهربائية من شركات مختلفة."
+        },
+        {
+          "de": "Vor der Reparatur wird das Gerät vom Strom getrennt.",
+          "ar": "يُفصل الجهاز عن الكهرباء قبل الإصلاح."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          92
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "reparatur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v014",
+      "identity": "einen verstopften abfluss reinigen",
+      "term": "einen verstopften Abfluss reinigen",
+      "type": "phrase",
+      "arabic": "ينظف مصرفًا مسدودًا",
+      "explanation_de": "Eine Blockierung in einem Abfluss entfernen, damit Wasser wieder ablaufen kann.",
+      "explanation_ar": "إزالة الانسداد من المصرف كي يتدفق الماء مجددًا.",
+      "examples": [
+        {
+          "de": "Der Heimwerkernotdienst reinigt den verstopften Abfluss.",
+          "ar": "تنظف خدمة الطوارئ المنزلية المصرف المسدود."
+        },
+        {
+          "de": "Bei hartnäckigen Verstopfungen braucht man spezielles Werkzeug.",
+          "ar": "تحتاج الانسدادات الصعبة إلى أدوات خاصة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          88,
+          92
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v015",
+      "identity": "eine wand tapezieren",
+      "term": "eine Wand tapezieren",
+      "type": "phrase",
+      "arabic": "يغلّف الجدار بورق الحائط",
+      "explanation_de": "Tapetenbahnen vorbereiten und fachgerecht an einer Wand befestigen.",
+      "explanation_ar": "تجهيز شرائح ورق الجدران وتثبيتها بصورة صحيحة.",
+      "examples": [
+        {
+          "de": "Die Wand ist bereits tapeziert worden.",
+          "ar": "تم تغليف الجدار بورق الحائط بالفعل."
+        },
+        {
+          "de": "Vor dem Tapezieren müssen alte Tapeten entfernt werden.",
+          "ar": "يجب إزالة ورق الجدران القديم قبل تركيب الجديد."
+        }
+      ],
+      "grammar": {
+        "verb": "tapezieren",
+        "praeteritum": "tapezierte",
+        "perfekt": "hat tapeziert"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          88
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "renovierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v016",
+      "identity": "wände streichen",
+      "term": "Wände streichen",
+      "type": "phrase",
+      "arabic": "يطلي الجدران",
+      "explanation_de": "Farbe gleichmäßig auf vorbereitete Wände auftragen.",
+      "explanation_ar": "وضع الطلاء على الجدران المجهزة بصورة متساوية.",
+      "examples": [
+        {
+          "de": "Die Wände werden zweimal gestrichen.",
+          "ar": "تُطلى الجدران مرتين."
+        },
+        {
+          "de": "Vor dem Streichen werden Boden und Möbel abgedeckt.",
+          "ar": "تُغطى الأرضية والأثاث قبل الطلاء."
+        }
+      ],
+      "grammar": {
+        "verb": "streichen",
+        "praeteritum": "strich",
+        "perfekt": "hat gestrichen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          88,
+          95
+        ],
+        "section": "Handwerkliche Tätigkeiten"
+      },
+      "tags": [
+        "handwerk",
+        "renovierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v017",
+      "identity": "der heimwerkernotdienst",
+      "term": "der Heimwerkernotdienst",
+      "type": "noun",
+      "arabic": "خدمة طوارئ للإصلاحات المنزلية",
+      "explanation_de": "Ein Service, der bei dringenden kleineren Reparaturen im Haushalt hilft.",
+      "explanation_ar": "خدمة تساعد في الأعطال المنزلية العاجلة والإصلاحات الصغيرة.",
+      "examples": [
+        {
+          "de": "Der Heimwerkernotdienst ist auch am Wochenende erreichbar.",
+          "ar": "يمكن التواصل مع خدمة الطوارئ المنزلية في عطلة نهاية الأسبوع."
+        },
+        {
+          "de": "Für größere Aufträge vermittelt der Dienst einen Fachbetrieb.",
+          "ar": "تحيل الخدمة الأعمال الكبيرة إلى شركة مختصة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Heimwerkernotdienste"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          88
+        ],
+        "section": "Können Sie mir helfen?"
+      },
+      "tags": [
+        "handwerk",
+        "dienstleistung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v018",
+      "identity": "werkzeug ausleihen",
+      "term": "Werkzeug ausleihen",
+      "type": "phrase",
+      "arabic": "يستعير أدوات",
+      "explanation_de": "Werkzeug für einen begrenzten Zeitraum gegen Gebühr oder Pfand nutzen.",
+      "explanation_ar": "استعمال أداة لفترة محددة مقابل أجرة أو تأمين.",
+      "examples": [
+        {
+          "de": "Im Baumarkt kann man schwere Geräte ausleihen.",
+          "ar": "يمكن استعارة الأجهزة الثقيلة من متجر مواد البناء."
+        },
+        {
+          "de": "Vor dem Ausleihen sollte man den Zustand des Werkzeugs prüfen.",
+          "ar": "ينبغي فحص حالة الأداة قبل استعارتها."
+        }
+      ],
+      "grammar": {
+        "verb": "ausleihen",
+        "praeteritum": "lieh aus",
+        "perfekt": "hat ausgeliehen",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          88
+        ],
+        "section": "Im Baumarkt"
+      },
+      "tags": [
+        "handwerk",
+        "werkzeug"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v019",
+      "identity": "der haupthahn",
+      "term": "der Haupthahn",
+      "type": "noun",
+      "arabic": "المحبس الرئيسي للمياه",
+      "explanation_de": "Das zentrale Ventil, mit dem die Wasserzufuhr eines Gebäudes oder Bereichs abgesperrt wird.",
+      "explanation_ar": "الصمام الرئيسي الذي يوقف تدفق الماء في المنزل أو القسم.",
+      "examples": [
+        {
+          "de": "Vor der Reparatur muss der Haupthahn zugedreht werden.",
+          "ar": "يجب إغلاق محبس المياه الرئيسي قبل الإصلاح."
+        },
+        {
+          "de": "Nach der Montage wird der Haupthahn langsam wieder geöffnet.",
+          "ar": "يُفتح المحبس الرئيسي ببطء بعد التركيب."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Haupthähne"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          88
+        ],
+        "section": "Einen Ablauf beschreiben"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": "nouns:noun_0188",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v020",
+      "identity": "das ventil",
+      "term": "das Ventil",
+      "type": "noun",
+      "arabic": "صمام",
+      "explanation_de": "Ein Bauteil, das den Durchfluss von Wasser, Gas oder Luft steuert.",
+      "explanation_ar": "قطعة تتحكم في مرور الماء أو الغاز أو الهواء.",
+      "examples": [
+        {
+          "de": "Das Ventil wird vorsichtig aufgeschraubt.",
+          "ar": "يُفك الصمام بحذر."
+        },
+        {
+          "de": "Ein beschädigtes Ventil kann zu einem Leck führen.",
+          "ar": "قد يؤدي الصمام التالف إلى تسرب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Ventile"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          88
+        ],
+        "section": "Einen Ablauf beschreiben"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": "nouns:noun_0189",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v021",
+      "identity": "die dichtung",
+      "term": "die Dichtung",
+      "type": "noun",
+      "arabic": "حشوة مانعة للتسرب",
+      "explanation_de": "Ein Bauteil, das Verbindungen abdichtet und das Austreten von Flüssigkeiten verhindert.",
+      "explanation_ar": "قطعة تمنع تسرب الماء أو الهواء بين الأجزاء المتصلة.",
+      "examples": [
+        {
+          "de": "Die alte Dichtung ist porös und muss ersetzt werden.",
+          "ar": "الحشوة القديمة متآكلة ويجب استبدالها."
+        },
+        {
+          "de": "Die neue Dichtung wird in das Ventil eingesetzt.",
+          "ar": "تُركب الحشوة الجديدة داخل الصمام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Dichtungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          88
+        ],
+        "section": "Einen Ablauf beschreiben"
+      },
+      "tags": [
+        "handwerk",
+        "sanitär"
+      ],
+      "globalRef": "nouns:noun_0169",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v022",
+      "identity": "einen ablauf beschreiben",
+      "term": "einen Ablauf beschreiben",
+      "type": "phrase",
+      "arabic": "يصف خطوات عمل",
+      "explanation_de": "Die einzelnen Schritte eines Vorgangs in einer klaren zeitlichen Reihenfolge erklären.",
+      "explanation_ar": "شرح مراحل تنفيذ مهمة بترتيب زمني واضح.",
+      "examples": [
+        {
+          "de": "Der Monteur beschreibt den Ablauf der Reparatur.",
+          "ar": "يصف الفني خطوات الإصلاح."
+        },
+        {
+          "de": "Beim Beschreiben eines Ablaufs helfen Wörter wie zuerst, danach und zum Schluss.",
+          "ar": "تساعد كلمات مثل أولًا وبعد ذلك وأخيرًا في وصف الخطوات."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          88,
+          95,
+          98
+        ],
+        "section": "Abläufe beschreiben"
+      },
+      "tags": [
+        "kommunikation",
+        "prozess"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v023",
+      "identity": "die zustandsbeschreibung",
+      "term": "die Zustandsbeschreibung",
+      "type": "noun",
+      "arabic": "وصف الحالة الناتجة",
+      "explanation_de": "Eine Beschreibung, die zeigt, in welchem Zustand sich etwas nach einer Handlung befindet.",
+      "explanation_ar": "وصف يبين الحالة التي أصبح عليها الشيء بعد انتهاء العمل.",
+      "examples": [
+        {
+          "de": "Die Zustandsbeschreibung lautet: Die Maschine ist ausgeschaltet.",
+          "ar": "وصف الحالة هو: الآلة مطفأة."
+        },
+        {
+          "de": "Beim Zustandspassiv steht das Ergebnis im Mittelpunkt.",
+          "ar": "يركز المبني للمجهول الوصفي على النتيجة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zustandsbeschreibungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          94,
+          98
+        ],
+        "section": "Zustandspassiv"
+      },
+      "tags": [
+        "grammatik",
+        "passiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v024",
+      "identity": "das vorgangspassiv",
+      "term": "das Vorgangspassiv",
+      "type": "noun",
+      "arabic": "المبني للمجهول الدال على الحدث",
+      "explanation_de": "Eine Passivform mit werden, die den Ablauf oder die Handlung betont.",
+      "explanation_ar": "صيغة مبني للمجهول تستخدم werden وتركز على تنفيذ الفعل.",
+      "examples": [
+        {
+          "de": "Im Vorgangspassiv heißt es: Die Wand wird gestrichen.",
+          "ar": "في المبني للمجهول نقول: يُطلى الجدار."
+        },
+        {
+          "de": "Das Vorgangspassiv kann im Präsens, Präteritum und Perfekt stehen.",
+          "ar": "يمكن أن يأتي المبني للمجهول في الحاضر والماضي البسيط والماضي التام."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          94,
+          98
+        ],
+        "section": "Passivformen"
+      },
+      "tags": [
+        "grammatik",
+        "passiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v025",
+      "identity": "das zustandspassiv",
+      "term": "das Zustandspassiv",
+      "type": "noun",
+      "arabic": "المبني للمجهول الدال على الحالة",
+      "explanation_de": "Eine Passivform mit sein und Partizip II, die das Ergebnis einer Handlung beschreibt.",
+      "explanation_ar": "صيغة تستخدم sein مع Partizip II لوصف الحالة الناتجة بعد انتهاء الفعل.",
+      "examples": [
+        {
+          "de": "Die Tür ist repariert: Das ist Zustandspassiv.",
+          "ar": "الباب مُصلح: هذا مبني للمجهول وصفي."
+        },
+        {
+          "de": "Das Zustandspassiv beantwortet die Frage, wie etwas jetzt ist.",
+          "ar": "يجيب المبني للمجهول الوصفي عن حالة الشيء الآن."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          94,
+          98
+        ],
+        "section": "Passivformen"
+      },
+      "tags": [
+        "grammatik",
+        "passiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v026",
+      "identity": "etwas ist erledigt",
+      "term": "etwas ist erledigt",
+      "type": "phrase",
+      "arabic": "تم إنجاز الشيء",
+      "explanation_de": "Eine Formulierung, die zeigt, dass eine Aufgabe vollständig abgeschlossen ist.",
+      "explanation_ar": "تعبير يدل على أن المهمة انتهت وأصبحت منجزة.",
+      "examples": [
+        {
+          "de": "Die Reparatur ist erledigt.",
+          "ar": "تم إنجاز الإصلاح."
+        },
+        {
+          "de": "Sind die Bestellungen schon erledigt?",
+          "ar": "هل أُنجزت الطلبات بالفعل؟"
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          94,
+          98
+        ],
+        "section": "Zustandspassiv"
+      },
+      "tags": [
+        "phrase",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v027",
+      "identity": "eine maschine ausschalten",
+      "term": "eine Maschine ausschalten",
+      "type": "phrase",
+      "arabic": "يطفئ آلة",
+      "explanation_de": "Eine Maschine außer Betrieb setzen, meist durch Betätigen eines Schalters.",
+      "explanation_ar": "إيقاف تشغيل آلة بواسطة المفتاح أو النظام المخصص.",
+      "examples": [
+        {
+          "de": "Vor der Wartung wird die Maschine ausgeschaltet.",
+          "ar": "تُطفأ الآلة قبل الصيانة."
+        },
+        {
+          "de": "Die Maschine ist bereits ausgeschaltet.",
+          "ar": "الآلة مطفأة بالفعل."
+        }
+      ],
+      "grammar": {
+        "verb": "ausschalten",
+        "praeteritum": "schaltete aus",
+        "perfekt": "hat ausgeschaltet",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          92
+        ],
+        "section": "Arbeitssicherheit"
+      },
+      "tags": [
+        "handwerk",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v028",
+      "identity": "den arbeitsplatz aufräumen",
+      "term": "den Arbeitsplatz aufräumen",
+      "type": "phrase",
+      "arabic": "يرتب مكان العمل",
+      "explanation_de": "Werkzeuge, Materialien und Abfälle ordnen und den Arbeitsbereich sauber hinterlassen.",
+      "explanation_ar": "جمع الأدوات والمواد وتنظيف موقع العمل بعد انتهاء المهمة.",
+      "examples": [
+        {
+          "de": "Nach Feierabend räumt das Team den Arbeitsplatz auf.",
+          "ar": "يرتب الفريق مكان العمل بعد انتهاء الدوام."
+        },
+        {
+          "de": "Ein aufgeräumter Arbeitsplatz verringert Unfallrisiken.",
+          "ar": "يقلل مكان العمل المرتب مخاطر الحوادث."
+        }
+      ],
+      "grammar": {
+        "verb": "aufräumen",
+        "praeteritum": "räumte auf",
+        "perfekt": "hat aufgeräumt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          87,
+          94
+        ],
+        "section": "Arbeitsorganisation"
+      },
+      "tags": [
+        "handwerk",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v029",
+      "identity": "die arbeitssicherheit",
+      "term": "die Arbeitssicherheit",
+      "type": "noun",
+      "arabic": "السلامة المهنية",
+      "explanation_de": "Alle Maßnahmen, die Beschäftigte vor Unfällen und gesundheitlichen Gefahren schützen.",
+      "explanation_ar": "مجموعة القواعد والإجراءات التي تحمي العاملين من الحوادث والأضرار الصحية.",
+      "examples": [
+        {
+          "de": "Arbeitssicherheit hat beim Schweißen höchste Priorität.",
+          "ar": "السلامة المهنية ذات أولوية قصوى أثناء اللحام."
+        },
+        {
+          "de": "Der Betrieb führt regelmäßig Schulungen zur Arbeitssicherheit durch.",
+          "ar": "تنظم الشركة تدريبات منتظمة حول السلامة المهنية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          90,
+          92
+        ],
+        "section": "Handwerk und Arbeitsplatz"
+      },
+      "tags": [
+        "arbeit",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v030",
+      "identity": "die schutzausrüstung",
+      "term": "die Schutzausrüstung",
+      "type": "noun",
+      "arabic": "معدات الوقاية",
+      "explanation_de": "Kleidung und Ausrüstung zum Schutz vor Gefahren bei der Arbeit.",
+      "explanation_ar": "ملابس وأدوات تحمي العامل من الشرر والغبار والضوضاء والسقوط.",
+      "examples": [
+        {
+          "de": "Beim Schweißen ist vollständige Schutzausrüstung notwendig.",
+          "ar": "تلزم معدات حماية كاملة أثناء اللحام."
+        },
+        {
+          "de": "Die Schutzausrüstung muss regelmäßig kontrolliert werden.",
+          "ar": "يجب فحص معدات الوقاية بصورة دورية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schutzausrüstungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          85,
+          90,
+          92
+        ],
+        "section": "Arbeitssicherheit"
+      },
+      "tags": [
+        "arbeit",
+        "sicherheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v031",
+      "identity": "der verbesserungsbedarf",
+      "term": "der Verbesserungsbedarf",
+      "type": "noun",
+      "arabic": "الحاجة إلى التحسين",
+      "explanation_de": "Der Bereich, in dem Abläufe, Ausstattung oder Bedingungen noch verbessert werden sollten.",
+      "explanation_ar": "الجانب الذي يحتاج إلى تطوير في العمل أو المعدات أو التنظيم.",
+      "examples": [
+        {
+          "de": "Beim Kopierer besteht deutlicher Verbesserungsbedarf.",
+          "ar": "توجد حاجة واضحة إلى تحسين جهاز النسخ."
+        },
+        {
+          "de": "Das Team sammelt Hinweise zum Verbesserungsbedarf.",
+          "ar": "يجمع الفريق ملاحظات حول الجوانب التي تحتاج إلى تطوير."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          89,
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "verbesserung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v032",
+      "identity": "die schwachstelle",
+      "term": "die Schwachstelle",
+      "type": "noun",
+      "arabic": "نقطة ضعف",
+      "explanation_de": "Ein Bereich eines Systems oder Ablaufs, der besonders fehleranfällig oder ineffizient ist.",
+      "explanation_ar": "جزء ضعيف في النظام أو سير العمل يسبب مشكلات أو هدرًا.",
+      "examples": [
+        {
+          "de": "Die alte Maschine ist eine Schwachstelle im Produktionsablauf.",
+          "ar": "الآلة القديمة نقطة ضعف في سير الإنتاج."
+        },
+        {
+          "de": "Vor einer Investition sollten die wichtigsten Schwachstellen analysiert werden.",
+          "ar": "ينبغي تحليل أهم نقاط الضعف قبل الاستثمار."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schwachstellen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          89,
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "analyse"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v033",
+      "identity": "der lösungsvorschlag",
+      "term": "der Lösungsvorschlag",
+      "type": "noun",
+      "arabic": "اقتراح حل",
+      "explanation_de": "Ein konkreter Vorschlag, wie ein Problem behoben oder ein Ablauf verbessert werden kann.",
+      "explanation_ar": "فكرة عملية توضح طريقة معالجة المشكلة.",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter nennt einen realistischen Lösungsvorschlag.",
+          "ar": "يقدم الموظف اقتراح حل واقعي."
+        },
+        {
+          "de": "Ein guter Lösungsvorschlag enthält auch Vorteile und mögliche Kosten.",
+          "ar": "يتضمن اقتراح الحل الجيد المزايا والتكاليف المحتملة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Lösungsvorschläge"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          89,
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "lösung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v034",
+      "identity": "die prämie",
+      "term": "die Prämie",
+      "type": "noun",
+      "arabic": "مكافأة مالية",
+      "explanation_de": "Eine zusätzliche Zahlung als Anerkennung für eine besondere Leistung oder Idee.",
+      "explanation_ar": "مبلغ إضافي يُمنح مقابل أداء أو اقتراح مميز.",
+      "examples": [
+        {
+          "de": "Für einen umgesetzten Verbesserungsvorschlag erhält sie eine Prämie.",
+          "ar": "تحصل على مكافأة مقابل اقتراح تحسين جرى تطبيقه."
+        },
+        {
+          "de": "Die Höhe der Prämie hängt vom Nutzen der Idee ab.",
+          "ar": "تعتمد قيمة المكافأة على فائدة الفكرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Prämien"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "vergütung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v035",
+      "identity": "kosten senken",
+      "term": "Kosten senken",
+      "type": "phrase",
+      "arabic": "يخفض التكاليف",
+      "explanation_de": "Ausgaben reduzieren, ohne die notwendige Qualität oder Sicherheit zu gefährden.",
+      "explanation_ar": "تقليل المصروفات مع الحفاظ على الجودة والسلامة.",
+      "examples": [
+        {
+          "de": "Die neue Anlage senkt Energie- und Wartungskosten.",
+          "ar": "تخفض المنشأة الجديدة تكاليف الطاقة والصيانة."
+        },
+        {
+          "de": "Der Vorschlag soll Kosten senken und Material sparen.",
+          "ar": "يهدف الاقتراح إلى خفض التكاليف وتوفير المواد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          89,
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v036",
+      "identity": "material einsparen",
+      "term": "Material einsparen",
+      "type": "phrase",
+      "arabic": "يوفر المواد",
+      "explanation_de": "Weniger Material verbrauchen, ohne die Qualität des Ergebnisses zu verschlechtern.",
+      "explanation_ar": "تقليل استهلاك المواد من دون التأثير سلبًا في جودة العمل.",
+      "examples": [
+        {
+          "de": "Durch genaues Zuschneiden lässt sich Material einsparen.",
+          "ar": "يمكن توفير المواد من خلال القص الدقيق."
+        },
+        {
+          "de": "Das Unternehmen möchte Verpackungsmaterial einsparen.",
+          "ar": "تريد الشركة توفير مواد التغليف."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "nachhaltigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v037",
+      "identity": "eine installation vereinfachen",
+      "term": "eine Installation vereinfachen",
+      "type": "phrase",
+      "arabic": "يبسط عملية التركيب",
+      "explanation_de": "Einen technischen Einbau so gestalten, dass er schneller und leichter durchgeführt werden kann.",
+      "explanation_ar": "جعل خطوات تركيب جهاز أو نظام أسهل وأسرع.",
+      "examples": [
+        {
+          "de": "Das neue Bauteil vereinfacht die Installation.",
+          "ar": "تسهل القطعة الجديدة عملية التركيب."
+        },
+        {
+          "de": "Eine klare Anleitung kann die Installation erheblich vereinfachen.",
+          "ar": "قد تسهل التعليمات الواضحة التركيب بدرجة كبيرة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "handwerk",
+        "prozess"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v038",
+      "identity": "verschwendung vermeiden",
+      "term": "Verschwendung vermeiden",
+      "type": "phrase",
+      "arabic": "يتجنب الهدر",
+      "explanation_de": "Unnötigen Verbrauch von Material, Energie, Zeit oder Geld verhindern.",
+      "explanation_ar": "منع الاستهلاك غير الضروري للمواد أو الطاقة أو الوقت أو المال.",
+      "examples": [
+        {
+          "de": "Genaue Planung hilft, Verschwendung zu vermeiden.",
+          "ar": "يساعد التخطيط الدقيق على تجنب الهدر."
+        },
+        {
+          "de": "Der Betrieb vermeidet Verschwendung durch wiederverwendbare Materialien.",
+          "ar": "تتجنب المنشأة الهدر باستخدام مواد قابلة لإعادة الاستخدام."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          89,
+          96
+        ],
+        "section": "Verbesserungsvorschläge"
+      },
+      "tags": [
+        "arbeit",
+        "nachhaltigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v039",
+      "identity": "die herausforderung",
+      "term": "die Herausforderung",
+      "type": "noun",
+      "arabic": "تحدٍّ",
+      "explanation_de": "Eine schwierige Aufgabe oder Situation, die besondere Anstrengung und Lösungen erfordert.",
+      "explanation_ar": "مشكلة أو مهمة صعبة تحتاج إلى جهد وتخطيط للتعامل معها.",
+      "examples": [
+        {
+          "de": "Der Fachkräftemangel ist eine große Herausforderung für das Handwerk.",
+          "ar": "نقص العمال المهرة تحدٍّ كبير لقطاع الحرف."
+        },
+        {
+          "de": "Neue Technik bringt Herausforderungen, aber auch Chancen.",
+          "ar": "تجلب التقنيات الجديدة تحديات وفرصًا أيضًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Herausforderungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "handwerk",
+        "zukunft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v040",
+      "identity": "die zukunftschance",
+      "term": "die Zukunftschance",
+      "type": "noun",
+      "arabic": "فرصة مستقبلية",
+      "explanation_de": "Eine Möglichkeit, die langfristig gute berufliche oder wirtschaftliche Perspektiven bietet.",
+      "explanation_ar": "إمكانية توفر آفاقًا جيدة للمستقبل المهني أو الاقتصادي.",
+      "examples": [
+        {
+          "de": "Nachhaltiges Bauen eröffnet dem Handwerk neue Zukunftschancen.",
+          "ar": "يفتح البناء المستدام فرصًا مستقبلية جديدة للحرف."
+        },
+        {
+          "de": "Digitale Verfahren schaffen zusätzliche Zukunftschancen.",
+          "ar": "تخلق الأساليب الرقمية فرصًا مستقبلية إضافية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zukunftschancen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "handwerk",
+        "zukunft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v041",
+      "identity": "der fachkräftemangel",
+      "term": "der Fachkräftemangel",
+      "type": "noun",
+      "arabic": "نقص العمال المهرة",
+      "explanation_de": "Eine Situation, in der nicht genügend qualifizierte Beschäftigte für offene Stellen vorhanden sind.",
+      "explanation_ar": "حالة لا يتوفر فيها عدد كافٍ من العمال المؤهلين لشغل الوظائف.",
+      "examples": [
+        {
+          "de": "Viele Handwerksbetriebe leiden unter Fachkräftemangel.",
+          "ar": "تعاني منشآت حرفية كثيرة من نقص العمال المهرة."
+        },
+        {
+          "de": "Ausbildung und Zuwanderung können den Fachkräftemangel verringern.",
+          "ar": "يمكن للتدريب والهجرة أن يخففا من نقص العمال المهرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          90,
+          97
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "arbeit",
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v042",
+      "identity": "das nachwuchsproblem",
+      "term": "das Nachwuchsproblem",
+      "type": "noun",
+      "arabic": "مشكلة نقص الجيل الجديد من المتدربين",
+      "explanation_de": "Die Schwierigkeit eines Berufsfeldes, genügend junge Menschen für Ausbildung und Nachfolge zu gewinnen.",
+      "explanation_ar": "صعوبة جذب عدد كافٍ من الشباب إلى التدريب والمهن الحرفية.",
+      "examples": [
+        {
+          "de": "Das Nachwuchsproblem gefährdet die Zukunft kleiner Betriebe.",
+          "ar": "تهدد مشكلة نقص المتدربين مستقبل المنشآت الصغيرة."
+        },
+        {
+          "de": "Eine moderne Werbekampagne soll das Nachwuchsproblem entschärfen.",
+          "ar": "تهدف حملة حديثة إلى تخفيف مشكلة نقص المتدربين."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Nachwuchsprobleme"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "handwerk",
+        "ausbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v043",
+      "identity": "die nachwuchsgewinnung",
+      "term": "die Nachwuchsgewinnung",
+      "type": "noun",
+      "arabic": "استقطاب المتدربين والجيل الجديد",
+      "explanation_de": "Alle Maßnahmen, mit denen junge Menschen für einen Beruf oder Betrieb gewonnen werden.",
+      "explanation_ar": "الإجراءات المستخدمة لجذب الشباب إلى التدريب والعمل في قطاع معين.",
+      "examples": [
+        {
+          "de": "Soziale Medien spielen bei der Nachwuchsgewinnung eine wichtige Rolle.",
+          "ar": "تلعب وسائل التواصل دورًا مهمًا في جذب المتدربين."
+        },
+        {
+          "de": "Der Betrieb arbeitet bei der Nachwuchsgewinnung mit Schulen zusammen.",
+          "ar": "تتعاون المنشأة مع المدارس لاستقطاب الجيل الجديد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "handwerk",
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v044",
+      "identity": "die duale ausbildung",
+      "term": "die duale Ausbildung",
+      "type": "noun",
+      "arabic": "التدريب المهني المزدوج",
+      "explanation_de": "Eine Ausbildung, die praktische Arbeit im Betrieb mit Unterricht in der Berufsschule verbindet.",
+      "explanation_ar": "تدريب يجمع بين العمل العملي في الشركة والدراسة في المدرسة المهنية.",
+      "examples": [
+        {
+          "de": "Die duale Ausbildung vermittelt Theorie und Berufspraxis.",
+          "ar": "ينقل التدريب المزدوج المعرفة النظرية والخبرة العملية."
+        },
+        {
+          "de": "Viele Handwerksberufe werden über eine duale Ausbildung erlernt.",
+          "ar": "تُتعلم مهن حرفية كثيرة من خلال التدريب المهني المزدوج."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die dualen Ausbildungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "handwerk"
+      ],
+      "globalRef": "nouns:noun_0196",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v045",
+      "identity": "der ausbildungsbetrieb",
+      "term": "der Ausbildungsbetrieb",
+      "type": "noun",
+      "arabic": "شركة أو منشأة تدريب مهني",
+      "explanation_de": "Ein Betrieb, der Auszubildende praktisch ausbildet und ihre berufliche Entwicklung begleitet.",
+      "explanation_ar": "شركة تستقبل المتدربين وتعلمهم الجانب العملي للمهنة.",
+      "examples": [
+        {
+          "de": "Der Ausbildungsbetrieb arbeitet eng mit der Berufsschule zusammen.",
+          "ar": "تتعاون منشأة التدريب بصورة وثيقة مع المدرسة المهنية."
+        },
+        {
+          "de": "Ein guter Ausbildungsbetrieb bietet regelmäßige Anleitung und Feedback.",
+          "ar": "تقدم منشأة التدريب الجيدة توجيهًا وملاحظات منتظمة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Ausbildungsbetriebe"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "betrieb"
+      ],
+      "globalRef": "nouns:noun_0144",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v046",
+      "identity": "die berufsschule",
+      "term": "die Berufsschule",
+      "type": "noun",
+      "arabic": "المدرسة المهنية",
+      "explanation_de": "Eine Schule, die den theoretischen Teil einer dualen Berufsausbildung vermittelt.",
+      "explanation_ar": "مدرسة تقدم الجزء النظري من التدريب المهني المزدوج.",
+      "examples": [
+        {
+          "de": "In der Berufsschule lernt die Auszubildende technische Grundlagen.",
+          "ar": "تتعلم المتدربة الأسس التقنية في المدرسة المهنية."
+        },
+        {
+          "de": "Der Unterricht in der Berufsschule ergänzt die Praxis im Betrieb.",
+          "ar": "يكمل التعليم في المدرسة المهنية التدريب العملي في الشركة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Berufsschulen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "schule"
+      ],
+      "globalRef": "nouns:noun_0145",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v047",
+      "identity": "der auszubildende / die auszubildende",
+      "term": "der Auszubildende / die Auszubildende",
+      "type": "noun",
+      "arabic": "متدرّب / متدرّبة مهنية",
+      "explanation_de": "Eine Person, die sich in einer anerkannten Berufsausbildung befindet.",
+      "explanation_ar": "شخص يتعلم مهنة ضمن تدريب رسمي في الشركة والمدرسة المهنية.",
+      "examples": [
+        {
+          "de": "Die Auszubildende lernt den sicheren Umgang mit Maschinen.",
+          "ar": "تتعلم المتدربة الاستخدام الآمن للآلات."
+        },
+        {
+          "de": "Der Betrieb übernimmt erfolgreiche Auszubildende häufig nach der Prüfung.",
+          "ar": "توظف المنشأة المتدربين الناجحين غالبًا بعد الامتحان."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Auszubildenden"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "personen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v048",
+      "identity": "der schulabgänger / die schulabgängerin",
+      "term": "der Schulabgänger / die Schulabgängerin",
+      "type": "noun",
+      "arabic": "خريج أو خريجة مدرسة",
+      "explanation_de": "Eine Person, die die Schule beendet hat und vor Ausbildung oder Studium steht.",
+      "explanation_ar": "شخص أنهى المدرسة ويبحث عن تدريب أو دراسة.",
+      "examples": [
+        {
+          "de": "Der Betrieb informiert Schulabgänger über handwerkliche Ausbildungsberufe.",
+          "ar": "تعرّف المنشأة خريجي المدارس بالمهن الحرفية."
+        },
+        {
+          "de": "Viele Schulabgänger unterschätzen die Karrierechancen im Handwerk.",
+          "ar": "يقلل خريجو مدارس كثيرون من قيمة فرص التطور في الحرف."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Schulabgänger / die Schulabgängerinnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "personen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v049",
+      "identity": "die werbekampagne",
+      "term": "die Werbekampagne",
+      "type": "noun",
+      "arabic": "حملة إعلانية",
+      "explanation_de": "Eine geplante Reihe von Werbemaßnahmen für ein Produkt, eine Idee oder ein Berufsfeld.",
+      "explanation_ar": "مجموعة إعلانات مخططة للترويج لقطاع أو خدمة أو فكرة.",
+      "examples": [
+        {
+          "de": "Die Werbekampagne zeigt moderne Seiten des Handwerks.",
+          "ar": "تعرض الحملة الإعلانية الجوانب الحديثة للحرف."
+        },
+        {
+          "de": "Mit kurzen Videos möchte die Kammer Jugendliche erreichen.",
+          "ar": "تريد الغرفة الوصول إلى الشباب عبر مقاطع قصيرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Werbekampagnen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Nachwuchsgewinnung"
+      },
+      "tags": [
+        "werbung",
+        "handwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v050",
+      "identity": "die anerkennung ausländischer abschlüsse",
+      "term": "die Anerkennung ausländischer Abschlüsse",
+      "type": "noun_phrase",
+      "arabic": "الاعتراف بالشهادات الأجنبية",
+      "explanation_de": "Ein Verfahren, bei dem geprüft wird, ob ein ausländischer Berufsabschluss einem deutschen Abschluss entspricht.",
+      "explanation_ar": "إجراء يحدد مدى معادلة مؤهل مهني أجنبي لمؤهل ألماني.",
+      "examples": [
+        {
+          "de": "Eine schnellere Anerkennung ausländischer Abschlüsse kann Betrieben helfen.",
+          "ar": "قد يساعد تسريع الاعتراف بالشهادات الأجنبية المنشآت."
+        },
+        {
+          "de": "Für manche Berufe ist eine formelle Anerkennung erforderlich.",
+          "ar": "يلزم اعتراف رسمي في بعض المهن."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Fachkräftegewinnung"
+      },
+      "tags": [
+        "arbeit",
+        "qualifikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v051",
+      "identity": "klimafreundlich",
+      "term": "klimafreundlich",
+      "type": "adjective_adverb",
+      "arabic": "صديق للمناخ",
+      "explanation_de": "So gestaltet, dass möglichst wenige klimaschädliche Emissionen entstehen.",
+      "explanation_ar": "وصف لعمل أو مادة تقلل الانبعاثات الضارة بالمناخ.",
+      "examples": [
+        {
+          "de": "Klimafreundliche Heizsysteme werden stärker nachgefragt.",
+          "ar": "يزداد الطلب على أنظمة التدفئة الصديقة للمناخ."
+        },
+        {
+          "de": "Der Betrieb berät Kunden zu klimafreundlichen Lösungen.",
+          "ar": "تقدم المنشأة استشارات حول حلول صديقة للمناخ."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "klimafreundlicher",
+        "superlative": "am klimafreundlichsten"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Nachhaltiges Handwerk"
+      },
+      "tags": [
+        "nachhaltigkeit",
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v052",
+      "identity": "nachhaltig",
+      "term": "nachhaltig",
+      "type": "adjective_adverb",
+      "arabic": "مستدام",
+      "explanation_de": "So geplant, dass Ressourcen langfristig geschont und Umweltbelastungen reduziert werden.",
+      "explanation_ar": "وصف لعمل يحافظ على الموارد ويقلل الأثر البيئي على المدى الطويل.",
+      "examples": [
+        {
+          "de": "Nachhaltiges Bauen berücksichtigt Energieverbrauch und Materialwahl.",
+          "ar": "يراعي البناء المستدام استهلاك الطاقة واختيار المواد."
+        },
+        {
+          "de": "Reparaturen sind oft nachhaltiger als ein Neukauf.",
+          "ar": "يكون الإصلاح غالبًا أكثر استدامة من شراء منتج جديد."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "nachhaltiger",
+        "superlative": "am nachhaltigsten"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          96,
+          97
+        ],
+        "section": "Nachhaltiges Handwerk"
+      },
+      "tags": [
+        "nachhaltigkeit",
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0044",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v053",
+      "identity": "die wärmedämmung",
+      "term": "die Wärmedämmung",
+      "type": "noun",
+      "arabic": "العزل الحراري",
+      "explanation_de": "Bauliche Maßnahmen, die Wärmeverluste eines Gebäudes verringern.",
+      "explanation_ar": "مواد وإجراءات تقلل فقدان الحرارة في المبنى.",
+      "examples": [
+        {
+          "de": "Eine gute Wärmedämmung senkt die Heizkosten.",
+          "ar": "يخفض العزل الحراري الجيد تكاليف التدفئة."
+        },
+        {
+          "de": "Für die Dämmung sind fachgerechte Anschlüsse besonders wichtig.",
+          "ar": "تكون الوصلات المهنية مهمة جدًا في أعمال العزل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Wärmedämmungen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Nachhaltiges Handwerk"
+      },
+      "tags": [
+        "bau",
+        "energie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v054",
+      "identity": "barrierefrei",
+      "term": "barrierefrei",
+      "type": "adjective_adverb",
+      "arabic": "خالٍ من العوائق ومناسب لذوي الإعاقة",
+      "explanation_de": "So gestaltet, dass Menschen mit unterschiedlichen körperlichen Fähigkeiten etwas ohne fremde Hilfe nutzen können.",
+      "explanation_ar": "وصف لمكان يمكن استخدامه من دون عوائق من قبل الأشخاص ذوي الحركة المحدودة.",
+      "examples": [
+        {
+          "de": "Der Eingang wird barrierefrei umgebaut.",
+          "ar": "يُعدّل المدخل ليصبح خاليًا من العوائق."
+        },
+        {
+          "de": "Ein barrierefreies Bad bietet mehr Sicherheit.",
+          "ar": "يوفر الحمام الخالي من العوائق أمانًا أكبر."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Altersgerechtes Wohnen"
+      },
+      "tags": [
+        "bau",
+        "barrierefreiheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v055",
+      "identity": "altersgerecht",
+      "term": "altersgerecht",
+      "type": "adjective_adverb",
+      "arabic": "مناسب لكبار السن",
+      "explanation_de": "An die Bedürfnisse älterer Menschen angepasst.",
+      "explanation_ar": "مصمم بما يتناسب مع احتياجات كبار السن وسلامتهم.",
+      "examples": [
+        {
+          "de": "Die Wohnung wird altersgerecht umgebaut.",
+          "ar": "تُعدّل الشقة لتناسب كبار السن."
+        },
+        {
+          "de": "Altersgerechte Badezimmer haben rutschfeste Böden und Haltegriffe.",
+          "ar": "تحتوي الحمامات المناسبة لكبار السن على أرضيات مانعة للانزلاق ومقابض."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Altersgerechtes Wohnen"
+      },
+      "tags": [
+        "bau",
+        "pflege"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v056",
+      "identity": "die eingeschränkte mobilität",
+      "term": "die eingeschränkte Mobilität",
+      "type": "noun_phrase",
+      "arabic": "محدودية الحركة",
+      "explanation_de": "Eine verminderte Fähigkeit, sich selbstständig und sicher fortzubewegen.",
+      "explanation_ar": "انخفاض قدرة الشخص على الحركة بصورة مستقلة وآمنة.",
+      "examples": [
+        {
+          "de": "Ein Treppenlift hilft Menschen mit eingeschränkter Mobilität.",
+          "ar": "يساعد مصعد الدرج الأشخاص ذوي الحركة المحدودة."
+        },
+        {
+          "de": "Beim Umbau müssen die Bedürfnisse von Menschen mit eingeschränkter Mobilität berücksichtigt werden.",
+          "ar": "يجب مراعاة احتياجات ذوي الحركة المحدودة أثناء التعديل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Altersgerechtes Wohnen"
+      },
+      "tags": [
+        "mobilität",
+        "pflege"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v057",
+      "identity": "der treppenlift",
+      "term": "der Treppenlift",
+      "type": "noun",
+      "arabic": "مصعد الدرج",
+      "explanation_de": "Ein technisches Gerät, das Menschen sitzend entlang einer Treppe befördert.",
+      "explanation_ar": "جهاز ينقل الشخص على الدرج وهو جالس.",
+      "examples": [
+        {
+          "de": "Der Treppenlift wurde an einer schmalen Treppe montiert.",
+          "ar": "رُكب مصعد الدرج على درج ضيق."
+        },
+        {
+          "de": "Vor dem Einbau wird die Treppe genau vermessen.",
+          "ar": "يُقاس الدرج بدقة قبل التركيب."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Treppenlifte"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Altersgerechtes Wohnen"
+      },
+      "tags": [
+        "handwerk",
+        "mobilität"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v058",
+      "identity": "der badumbau",
+      "term": "der Badumbau",
+      "type": "noun",
+      "arabic": "تعديل الحمام",
+      "explanation_de": "Die bauliche Veränderung eines Badezimmers, zum Beispiel für mehr Sicherheit oder Barrierefreiheit.",
+      "explanation_ar": "تغيير تصميم وتجهيز الحمام لجعله أكثر أمانًا أو سهولة في الاستخدام.",
+      "examples": [
+        {
+          "de": "Der Badumbau umfasst eine bodengleiche Dusche und Haltegriffe.",
+          "ar": "يشمل تعديل الحمام دشًا بمستوى الأرض ومقابض."
+        },
+        {
+          "de": "Für den Badumbau arbeiten mehrere Gewerke zusammen.",
+          "ar": "تتعاون عدة تخصصات حرفية في تعديل الحمام."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Badumbauten"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Altersgerechtes Wohnen"
+      },
+      "tags": [
+        "bau",
+        "sanitär"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v059",
+      "identity": "die digitalisierung",
+      "term": "die Digitalisierung",
+      "type": "noun",
+      "arabic": "التحول الرقمي",
+      "explanation_de": "Die Nutzung digitaler Technik zur Veränderung und Verbesserung von Arbeitsprozessen.",
+      "explanation_ar": "استخدام التقنيات الرقمية لتطوير طرق العمل والخدمات.",
+      "examples": [
+        {
+          "de": "Die Digitalisierung verändert Planung und Fertigung im Handwerk.",
+          "ar": "يغيّر التحول الرقمي التخطيط والتصنيع في الحرف."
+        },
+        {
+          "de": "Digitale Aufmaße sparen Zeit und reduzieren Fehler.",
+          "ar": "توفر القياسات الرقمية الوقت وتقلل الأخطاء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          91
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "digitalisierung",
+        "handwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v060",
+      "identity": "millimetergenau",
+      "term": "millimetergenau",
+      "type": "adjective_adverb",
+      "arabic": "بدقة المليمتر",
+      "explanation_de": "Mit einer Genauigkeit bis auf einzelne Millimeter.",
+      "explanation_ar": "بدقة عالية جدًا تصل إلى المليمتر.",
+      "examples": [
+        {
+          "de": "Die Maschine fertigt das Teil millimetergenau.",
+          "ar": "تصنع الآلة القطعة بدقة المليمتر."
+        },
+        {
+          "de": "Digitale Messgeräte ermöglichen millimetergenaue Planung.",
+          "ar": "تتيح أدوات القياس الرقمية تخطيطًا دقيقًا جدًا."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Digitales Handwerk"
+      },
+      "tags": [
+        "digitalisierung",
+        "präzision"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v061",
+      "identity": "das 3d-verfahren",
+      "term": "das 3D-Verfahren",
+      "type": "noun",
+      "arabic": "تقنية ثلاثية الأبعاد",
+      "explanation_de": "Ein digitales Verfahren zur Planung, Messung oder Herstellung dreidimensionaler Objekte.",
+      "explanation_ar": "طريقة رقمية تستخدم النماذج ثلاثية الأبعاد في القياس أو التصميم أو التصنيع.",
+      "examples": [
+        {
+          "de": "Mit einem 3D-Verfahren wird der Raum exakt vermessen.",
+          "ar": "تُقاس الغرفة بدقة باستخدام تقنية ثلاثية الأبعاد."
+        },
+        {
+          "de": "Das 3D-Verfahren erleichtert individuelle Anfertigungen.",
+          "ar": "تسهل التقنية ثلاثية الأبعاد التصنيع حسب الطلب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die 3D-Verfahren"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90
+        ],
+        "section": "Digitales Handwerk"
+      },
+      "tags": [
+        "digitalisierung",
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v062",
+      "identity": "die unternehmensnachfolge",
+      "term": "die Unternehmensnachfolge",
+      "type": "noun",
+      "arabic": "خلافة إدارة المنشأة",
+      "explanation_de": "Die Übergabe eines Unternehmens an eine neue Inhaberin oder einen neuen Inhaber.",
+      "explanation_ar": "نقل ملكية وإدارة الشركة إلى شخص جديد عند تقاعد المالك.",
+      "examples": [
+        {
+          "de": "Viele Familienbetriebe suchen eine Lösung für die Unternehmensnachfolge.",
+          "ar": "تبحث منشآت عائلية كثيرة عن حل لخلافة الإدارة."
+        },
+        {
+          "de": "Eine früh geplante Unternehmensnachfolge sichert Arbeitsplätze.",
+          "ar": "يحافظ التخطيط المبكر لخلافة المنشأة على الوظائف."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Unternehmensnachfolgen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Die Zukunft des Handwerks"
+      },
+      "tags": [
+        "unternehmen",
+        "nachfolge"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v063",
+      "identity": "einen betrieb übernehmen",
+      "term": "einen Betrieb übernehmen",
+      "type": "phrase",
+      "arabic": "يتولى أو يستلم إدارة منشأة",
+      "explanation_de": "Eigentum und Verantwortung für einen bestehenden Betrieb übernehmen.",
+      "explanation_ar": "استلام ملكية وإدارة شركة قائمة ومواصلة عملها.",
+      "examples": [
+        {
+          "de": "Die Meisterin möchte den Betrieb ihres Chefs übernehmen.",
+          "ar": "تريد الحرفية المعلّمة استلام منشأة مديرها."
+        },
+        {
+          "de": "Vor der Übernahme werden Finanzen und Auftragslage geprüft.",
+          "ar": "تُفحص الأموال وحالة الطلبات قبل الاستلام."
+        }
+      ],
+      "grammar": {
+        "verb": "übernehmen",
+        "praeteritum": "übernahm",
+        "perfekt": "hat übernommen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Unternehmensnachfolge"
+      },
+      "tags": [
+        "unternehmen",
+        "nachfolge"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v064",
+      "identity": "einen guten ruf haben",
+      "term": "einen guten Ruf haben",
+      "type": "phrase",
+      "arabic": "يتمتع بسمعة جيدة",
+      "explanation_de": "Von Kundinnen, Kunden oder Fachleuten positiv bewertet und als zuverlässig angesehen werden.",
+      "explanation_ar": "أن تكون لدى الناس صورة جيدة عن جودة العمل والموثوقية.",
+      "examples": [
+        {
+          "de": "Der Betrieb hat in der Region einen sehr guten Ruf.",
+          "ar": "تتمتع المنشأة بسمعة جيدة جدًا في المنطقة."
+        },
+        {
+          "de": "Ein guter Ruf sorgt häufig für neue Aufträge.",
+          "ar": "تجلب السمعة الجيدة غالبًا طلبات جديدة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          97
+        ],
+        "section": "Zukunft des Handwerks"
+      },
+      "tags": [
+        "unternehmen",
+        "qualität"
+      ],
+      "globalRef": "phrases:phrase_0068",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v065",
+      "identity": "der frauenanteil",
+      "term": "der Frauenanteil",
+      "type": "noun",
+      "arabic": "نسبة النساء",
+      "explanation_de": "Der prozentuale Anteil von Frauen in einer Gruppe, Branche oder Ausbildung.",
+      "explanation_ar": "النسبة المئوية للنساء في قطاع أو مهنة أو تدريب.",
+      "examples": [
+        {
+          "de": "Der Frauenanteil ist in manchen Handwerksberufen weiterhin niedrig.",
+          "ar": "لا تزال نسبة النساء منخفضة في بعض المهن الحرفية."
+        },
+        {
+          "de": "Informationsangebote können den Frauenanteil in technischen Berufen erhöhen.",
+          "ar": "قد ترفع العروض التعريفية نسبة النساء في المهن التقنية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Frauenanteile"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          93
+        ],
+        "section": "Frauen im Handwerk"
+      },
+      "tags": [
+        "handwerk",
+        "gleichstellung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v066",
+      "identity": "männerdominiert",
+      "term": "männerdominiert",
+      "type": "adjective",
+      "arabic": "يهيمن عليه الرجال",
+      "explanation_de": "So geprägt, dass der größte Teil der Beschäftigten oder Verantwortlichen Männer sind.",
+      "explanation_ar": "وصف لقطاع يشكل الرجال فيه الغالبية الكبيرة.",
+      "examples": [
+        {
+          "de": "Das Bauhandwerk gilt in vielen Bereichen als männerdominiert.",
+          "ar": "يُعد قطاع البناء في مجالات كثيرة قطاعًا يهيمن عليه الرجال."
+        },
+        {
+          "de": "Auch in männerdominierten Berufen arbeiten erfolgreiche Frauen.",
+          "ar": "تعمل نساء ناجحات أيضًا في المهن التي يهيمن عليها الرجال."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          93
+        ],
+        "section": "Frauen im Handwerk"
+      },
+      "tags": [
+        "handwerk",
+        "gleichstellung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v067",
+      "identity": "die ausbildungsstelle",
+      "term": "die Ausbildungsstelle",
+      "type": "noun",
+      "arabic": "مقعد تدريب مهني",
+      "explanation_de": "Ein konkreter Platz in einem Betrieb für eine Berufsausbildung.",
+      "explanation_ar": "فرصة تدريب مهني متاحة لدى شركة أو منشأة.",
+      "examples": [
+        {
+          "de": "Viele Ausbildungsstellen im Handwerk bleiben unbesetzt.",
+          "ar": "تبقى مقاعد تدريب كثيرة في الحرف شاغرة."
+        },
+        {
+          "de": "Die Jugendliche bewirbt sich um eine Ausbildungsstelle als Elektrikerin.",
+          "ar": "تتقدم الشابة إلى تدريب مهني ككهربائية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ausbildungsstellen"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          90
+        ],
+        "section": "Ausbildung im Handwerk"
+      },
+      "tags": [
+        "ausbildung",
+        "stelle"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v068",
+      "identity": "der einsteigerkurs",
+      "term": "der Einsteigerkurs",
+      "type": "noun",
+      "arabic": "دورة للمبتدئين",
+      "explanation_de": "Ein Kurs für Personen ohne oder mit nur geringen Vorkenntnissen.",
+      "explanation_ar": "دورة مخصصة لمن ليست لديهم خبرة سابقة أو لديهم معرفة بسيطة.",
+      "examples": [
+        {
+          "de": "Der Baumarkt bietet einen Einsteigerkurs zum Tapezieren an.",
+          "ar": "يقدم متجر مواد البناء دورة للمبتدئين في تركيب ورق الجدران."
+        },
+        {
+          "de": "Im Einsteigerkurs lernen die Teilnehmerinnen den sicheren Umgang mit Werkzeug.",
+          "ar": "تتعلم المشاركات في دورة المبتدئين الاستخدام الآمن للأدوات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Einsteigerkurse"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          93
+        ],
+        "section": "Ladies Night im Baumarkt"
+      },
+      "tags": [
+        "kurs",
+        "handwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v069",
+      "identity": "das workshopangebot",
+      "term": "das Workshopangebot",
+      "type": "noun",
+      "arabic": "مجموعة ورشات العمل المتاحة",
+      "explanation_de": "Die Gesamtheit der angebotenen praktischen Kurse oder Workshops.",
+      "explanation_ar": "مجمل الورشات العملية التي تقدمها مؤسسة أو متجر.",
+      "examples": [
+        {
+          "de": "Das Workshopangebot reicht vom Fliesenlegen bis zur Gartengestaltung.",
+          "ar": "يمتد عرض الورشات من تركيب البلاط إلى تنسيق الحدائق."
+        },
+        {
+          "de": "Das Workshopangebot wird wegen hoher Nachfrage erweitert.",
+          "ar": "سيتم توسيع عرض الورشات بسبب ارتفاع الطلب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Workshopangebote"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          93
+        ],
+        "section": "Ladies Night im Baumarkt"
+      },
+      "tags": [
+        "kurs",
+        "angebot"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v070",
+      "identity": "der fortbildungsbedarf",
+      "term": "der Fortbildungsbedarf",
+      "type": "noun",
+      "arabic": "الحاجة إلى دورات تطوير مهني",
+      "explanation_de": "Der Bedarf an zusätzlichem Wissen oder neuen beruflichen Fähigkeiten.",
+      "explanation_ar": "الحاجة إلى تعلم مهارات جديدة أو تحديث المعرفة المهنية.",
+      "examples": [
+        {
+          "de": "Auch erfahrene Heimwerker haben Fortbildungsbedarf.",
+          "ar": "يحتاج أصحاب الخبرة في الإصلاحات المنزلية أيضًا إلى تطوير."
+        },
+        {
+          "de": "Der Betrieb ermittelt den Fortbildungsbedarf seiner Beschäftigten.",
+          "ar": "تحدد المنشأة حاجة موظفيها إلى التدريب الإضافي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          93
+        ],
+        "section": "Ladies Night im Baumarkt"
+      },
+      "tags": [
+        "weiterbildung",
+        "handwerk"
+      ],
+      "globalRef": "nouns:noun_0180",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u05-v071",
+      "identity": "das veranstaltungskonzept",
+      "term": "das Veranstaltungskonzept",
+      "type": "noun",
+      "arabic": "مفهوم أو خطة الفعالية",
+      "explanation_de": "Die grundlegende Idee und organisatorische Gestaltung einer Veranstaltung.",
+      "explanation_ar": "الفكرة العامة وطريقة تنظيم فعالية أو دورة.",
+      "examples": [
+        {
+          "de": "Die Ladies Night ist ein bewährtes Veranstaltungskonzept.",
+          "ar": "ليلة السيدات مفهوم فعاليات مجرّب."
+        },
+        {
+          "de": "Das Veranstaltungskonzept verbindet Beratung und praktische Übungen.",
+          "ar": "يجمع مفهوم الفعالية بين الاستشارة والتطبيق العملي."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Veranstaltungskonzepte"
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          93
+        ],
+        "section": "Ladies Night im Baumarkt"
+      },
+      "tags": [
+        "veranstaltung",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v072",
+      "identity": "ein vorurteil abbauen",
+      "term": "ein Vorurteil abbauen",
+      "type": "phrase",
+      "arabic": "يقلل أو يفكك حكمًا مسبقًا",
+      "explanation_de": "Eine unbegründete negative Vorstellung durch Erfahrung und Information verringern.",
+      "explanation_ar": "تغيير فكرة مسبقة غير صحيحة من خلال المعرفة والتجربة.",
+      "examples": [
+        {
+          "de": "Praktische Workshops können Vorurteile über Frauen im Handwerk abbauen.",
+          "ar": "قد تقلل الورشات العملية الأحكام المسبقة حول النساء في الحرف."
+        },
+        {
+          "de": "Der Betrieb möchte Vorurteile gegenüber technischen Berufen abbauen.",
+          "ar": "تريد المنشأة تقليل الأحكام المسبقة تجاه المهن التقنية."
+        }
+      ],
+      "grammar": {
+        "verb": "abbauen",
+        "praeteritum": "baute ab",
+        "perfekt": "hat abgebaut",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          86,
+          93
+        ],
+        "section": "Frauen im Handwerk"
+      },
+      "tags": [
+        "gleichstellung",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v073",
+      "identity": "einen raum ausräumen",
+      "term": "einen Raum ausräumen",
+      "type": "phrase",
+      "arabic": "يفرغ الغرفة",
+      "explanation_de": "Möbel und Gegenstände vollständig aus einem Raum entfernen.",
+      "explanation_ar": "إخراج الأثاث والأغراض من الغرفة قبل بدء العمل.",
+      "examples": [
+        {
+          "de": "Vor der Renovierung wird der Raum ausgeräumt.",
+          "ar": "تُفرغ الغرفة قبل التجديد."
+        },
+        {
+          "de": "Kleine Gegenstände sollten zuerst ausgeräumt werden.",
+          "ar": "ينبغي إخراج الأغراض الصغيرة أولًا."
+        }
+      ],
+      "grammar": {
+        "verb": "ausräumen",
+        "praeteritum": "räumte aus",
+        "perfekt": "hat ausgeräumt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Zimmer renovieren"
+      },
+      "tags": [
+        "renovierung",
+        "ablauf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v074",
+      "identity": "schwere möbel abdecken",
+      "term": "schwere Möbel abdecken",
+      "type": "phrase",
+      "arabic": "يغطي الأثاث الثقيل",
+      "explanation_de": "Möbel mit Folie oder Schutzmaterial vor Staub und Farbe schützen.",
+      "explanation_ar": "تغطية الأثاث الثقيل لحمايته من الغبار والطلاء.",
+      "examples": [
+        {
+          "de": "Schwere Möbel werden mit Plastikfolie abgedeckt.",
+          "ar": "يُغطى الأثاث الثقيل بالنايلون."
+        },
+        {
+          "de": "Beim Abdecken müssen auch Kanten geschützt werden.",
+          "ar": "يجب حماية الحواف أيضًا أثناء التغطية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Zimmer renovieren"
+      },
+      "tags": [
+        "renovierung",
+        "schutz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v075",
+      "identity": "steckdosenabdeckungen abnehmen",
+      "term": "Steckdosenabdeckungen abnehmen",
+      "type": "phrase",
+      "arabic": "يفك أغطية المقابس",
+      "explanation_de": "Die Abdeckungen elektrischer Steckdosen vor Renovierungsarbeiten vorsichtig entfernen.",
+      "explanation_ar": "إزالة أغطية المقابس بحذر قبل أعمال التجديد.",
+      "examples": [
+        {
+          "de": "Vor dem Streichen werden die Steckdosenabdeckungen abgenommen.",
+          "ar": "تُفك أغطية المقابس قبل الطلاء."
+        },
+        {
+          "de": "Der Strom muss vorher ausgeschaltet werden.",
+          "ar": "يجب فصل الكهرباء مسبقًا."
+        }
+      ],
+      "grammar": {
+        "verb": "abnehmen",
+        "praeteritum": "nahm ab",
+        "perfekt": "hat abgenommen",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Zimmer renovieren"
+      },
+      "tags": [
+        "renovierung",
+        "elektro"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v076",
+      "identity": "flächen abkleben",
+      "term": "Flächen abkleben",
+      "type": "phrase",
+      "arabic": "يغطي الحواف بشريط لاصق",
+      "explanation_de": "Kanten und Flächen mit Klebeband schützen, damit keine Farbe darauf gelangt.",
+      "explanation_ar": "حماية الحواف والأسطح بشريط لاصق لمنع وصول الطلاء إليها.",
+      "examples": [
+        {
+          "de": "Fensterrahmen und Steckdosen werden sorgfältig abgeklebt.",
+          "ar": "تُغطى إطارات النوافذ والمقابس بشريط لاصق بعناية."
+        },
+        {
+          "de": "Sauberes Abkleben erleichtert ein genaues Ergebnis.",
+          "ar": "يسهل التغطية الدقيقة الحصول على نتيجة نظيفة."
+        }
+      ],
+      "grammar": {
+        "verb": "abkleben",
+        "praeteritum": "klebte ab",
+        "perfekt": "hat abgeklebt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Zimmer renovieren"
+      },
+      "tags": [
+        "renovierung",
+        "farbe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v077",
+      "identity": "farbe anmischen",
+      "term": "Farbe anmischen",
+      "type": "phrase",
+      "arabic": "يخلط الطلاء",
+      "explanation_de": "Farben oder Bestandteile in einem bestimmten Verhältnis mischen.",
+      "explanation_ar": "خلط الألوان أو مكونات الطلاء بنسبة محددة.",
+      "examples": [
+        {
+          "de": "Die Farbe wird nach Herstellerangaben angemischt.",
+          "ar": "يُخلط الطلاء وفق تعليمات الشركة."
+        },
+        {
+          "de": "Mischen Sie nur so viel Farbe an, wie Sie benötigen.",
+          "ar": "اخلط كمية الطلاء التي تحتاجها فقط."
+        }
+      ],
+      "grammar": {
+        "verb": "anmischen",
+        "praeteritum": "mischte an",
+        "perfekt": "hat angemischt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Zimmer renovieren"
+      },
+      "tags": [
+        "renovierung",
+        "farbe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v078",
+      "identity": "eine druckerpatrone auswechseln",
+      "term": "eine Druckerpatrone auswechseln",
+      "type": "phrase",
+      "arabic": "يستبدل خرطوشة الطابعة",
+      "explanation_de": "Eine leere Druckerpatrone entfernen und eine neue korrekt einsetzen.",
+      "explanation_ar": "إزالة خرطوشة فارغة وتركيب خرطوشة جديدة بصورة صحيحة.",
+      "examples": [
+        {
+          "de": "Die leere Druckerpatrone wird vorsichtig herausgenommen.",
+          "ar": "تُخرج خرطوشة الطابعة الفارغة بحذر."
+        },
+        {
+          "de": "Nach dem Auswechseln wird eine Testseite gedruckt.",
+          "ar": "تُطبع صفحة اختبار بعد الاستبدال."
+        }
+      ],
+      "grammar": {
+        "verb": "auswechseln",
+        "praeteritum": "wechselte aus",
+        "perfekt": "hat ausgewechselt",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          95
+        ],
+        "section": "Technische Abläufe"
+      },
+      "tags": [
+        "technik",
+        "ablauf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v079",
+      "identity": "durchrechnen",
+      "term": "durchrechnen",
+      "type": "verb",
+      "arabic": "يحسب بدقة من البداية إلى النهاية",
+      "explanation_de": "Alle Zahlen und Kosten eines Vorhabens vollständig berechnen und prüfen.",
+      "explanation_ar": "إجراء حساب كامل للتكاليف أو الخطة والتحقق منها.",
+      "examples": [
+        {
+          "de": "Vor dem Umbau rechnet die Meisterin alle Kosten durch.",
+          "ar": "تحسب الحرفية المعلّمة جميع التكاليف قبل التعديل."
+        },
+        {
+          "de": "Das Angebot wurde noch einmal vollständig durchgerechnet.",
+          "ar": "أُعيد حساب العرض كاملًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "rechnete durch",
+        "perfekt": "hat durchgerechnet",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          91,
+          97
+        ],
+        "section": "Trennbare und untrennbare Verben"
+      },
+      "tags": [
+        "verb",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v080",
+      "identity": "widerspiegeln",
+      "term": "widerspiegeln",
+      "type": "verb",
+      "arabic": "يعكس",
+      "explanation_de": "Etwas deutlich zeigen oder zum Ausdruck bringen.",
+      "explanation_ar": "إظهار واقع أو اتجاه بصورة واضحة.",
+      "examples": [
+        {
+          "de": "Die Werbekampagne spiegelt die Vielfalt des Handwerks wider.",
+          "ar": "تعكس الحملة تنوع قطاع الحرف."
+        },
+        {
+          "de": "Die Zahlen spiegeln den Fachkräftemangel wider.",
+          "ar": "تعكس الأرقام نقص العمال المهرة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "spiegelte wider",
+        "perfekt": "hat widergespiegelt",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          91,
+          97
+        ],
+        "section": "Trennbare und untrennbare Verben"
+      },
+      "tags": [
+        "verb",
+        "beschreibung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v081",
+      "identity": "umbauen",
+      "term": "umbauen",
+      "type": "verb",
+      "arabic": "يعدّل أو يعيد بناء",
+      "explanation_de": "Ein Gebäude oder einen Raum baulich verändern und an neue Bedürfnisse anpassen.",
+      "explanation_ar": "تغيير مبنى أو غرفة لتناسب استخدامًا جديدًا.",
+      "examples": [
+        {
+          "de": "Die Wohnung wird altersgerecht umgebaut.",
+          "ar": "تُعدّل الشقة لتناسب كبار السن."
+        },
+        {
+          "de": "Der Betrieb hat das Badezimmer vollständig umgebaut.",
+          "ar": "عدّلت المنشأة الحمام كاملًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "baute um",
+        "perfekt": "hat umgebaut",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          90,
+          91,
+          97
+        ],
+        "section": "Trennbare und untrennbare Verben"
+      },
+      "tags": [
+        "verb",
+        "bau"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u05-v082",
+      "identity": "unterschreiben",
+      "term": "unterschreiben",
+      "type": "verb",
+      "arabic": "يوقّع",
+      "explanation_de": "Ein Dokument mit der eigenen Unterschrift rechtsverbindlich bestätigen.",
+      "explanation_ar": "تأكيد وثيقة بالتوقيع لتصبح ملزمة.",
+      "examples": [
+        {
+          "de": "Der Kunde unterschreibt den Auftrag erst nach der Kostenprüfung.",
+          "ar": "يوقع الزبون الطلب بعد فحص التكاليف."
+        },
+        {
+          "de": "Der Vertrag wurde von beiden Seiten unterschrieben.",
+          "ar": "وُقع العقد من الطرفين."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "unterschrieb",
+        "perfekt": "hat unterschrieben",
+        "auxiliary": "haben",
+        "separable": false
+      },
+      "source": {
+        "unit": 5,
+        "pages": [
+          91,
+          97
+        ],
+        "section": "Trennbare und untrennbare Verben"
+      },
+      "tags": [
+        "verb",
+        "vertrag"
+      ],
+      "globalRef": "verbs:215",
+      "integrationStatus": "linked_to_production"
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 5,
+  "unitTitle_de": "Aktiv im Handwerk",
+  "unitTitle_ar": "نشاط في قطاع الحرف",
+  "grammarFocus": [
+    "Vorgangspassiv im Präsens, Präteritum und Perfekt",
+    "Zustandspassiv: sein + Partizip II",
+    "Arbeitsabläufe mit zeitlichen Konnektoren",
+    "trennbare und untrennbare Verben",
+    "Verbesserungsvorschläge formulieren"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u05-e001",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Handwerksberufe",
+      "title_ar": "المهن الحرفية",
+      "prompt_de": "Wer verlegt Fliesen an Wänden und Böden?",
+      "prompt_ar": "من يركّب البلاط على الجدران والأرضيات؟",
+      "answer": "der Fliesenleger / die Fliesenlegerin",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Fliesenleger / die Fliesenlegerin",
+        "der Elektriker / die Elektrikerin",
+        "der Schweißer / die Schweißerin",
+        "der Dachdecker / die Dachdeckerin"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v003"
+      ]
+    },
+    {
+      "id": "b2u05-e002",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Handwerksberufe",
+      "title_ar": "المهن الحرفية",
+      "prompt_de": "Welche Fachkraft verbindet Metallteile dauerhaft miteinander?",
+      "prompt_ar": "أي حرفي يصل القطع المعدنية ببعضها بصورة دائمة؟",
+      "answer": "der Schweißer / die Schweißerin",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Schweißer / die Schweißerin",
+        "der Maler und Lackierer / die Malerin und Lackiererin",
+        "der Anlagenmechaniker / die Anlagenmechanikerin",
+        "der Fliesenleger / die Fliesenlegerin"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v004"
+      ]
+    },
+    {
+      "id": "b2u05-e003",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Berufe und Aufgaben",
+      "title_ar": "المهن والمهام",
+      "prompt_de": "Ordnen Sie die Berufe den typischen Aufgaben zu.",
+      "prompt_ar": "صِل المهن بالمهام المعتادة.",
+      "answer": {
+        "Elektrikerin": "Stromleitungen verlegen",
+        "Dachdecker": "Dachziegel reparieren",
+        "Malerin und Lackiererin": "Wände streichen",
+        "Anlagenmechaniker": "Heizungs- und Sanitäranlagen reparieren"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Elektrikerin",
+          "Stromleitungen verlegen"
+        ],
+        [
+          "Dachdecker",
+          "Dachziegel reparieren"
+        ],
+        [
+          "Malerin und Lackiererin",
+          "Wände streichen"
+        ],
+        [
+          "Anlagenmechaniker",
+          "Heizungs- und Sanitäranlagen reparieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v006",
+        "b2u05-v005",
+        "b2u05-v008",
+        "b2u05-v007"
+      ]
+    },
+    {
+      "id": "b2u05-e004",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Tätigkeit und Bedeutung",
+      "title_ar": "المهمة ومعناها",
+      "prompt_de": "Ordnen Sie die Tätigkeiten den Erklärungen zu.",
+      "prompt_ar": "صِل المهام بالشروح.",
+      "answer": {
+        "Fliesen verlegen": "Fliesen auf Wand oder Boden befestigen",
+        "Dichtungen auswechseln": "alte Dichtungen durch neue ersetzen",
+        "Stromleitungen verlegen": "elektrische Kabel nach Plan installieren",
+        "einen Abfluss reinigen": "eine Blockierung entfernen"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Fliesen verlegen",
+          "Fliesen auf Wand oder Boden befestigen"
+        ],
+        [
+          "Dichtungen auswechseln",
+          "alte Dichtungen durch neue ersetzen"
+        ],
+        [
+          "Stromleitungen verlegen",
+          "elektrische Kabel nach Plan installieren"
+        ],
+        [
+          "einen Abfluss reinigen",
+          "eine Blockierung entfernen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v009",
+        "b2u05-v010",
+        "b2u05-v012",
+        "b2u05-v014"
+      ]
+    },
+    {
+      "id": "b2u05-e005",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Handwerkliche Tätigkeit",
+      "title_ar": "مهمة حرفية",
+      "prompt_de": "Vor dem Verputzen werden neue ______ verlegt.",
+      "prompt_ar": "قبل اللياسة يتم تمديد ______ جديدة.",
+      "answer": "Stromleitungen",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Stromleitungen",
+        "die Stromleitungen"
+      ],
+      "completedSentence_de": "Vor dem Verputzen werden neue Stromleitungen verlegt.",
+      "completedSentence_ar": "تُمد أسلاك كهربائية جديدة قبل اللياسة.",
+      "vocabularyRefs": [
+        "b2u05-v012"
+      ]
+    },
+    {
+      "id": "b2u05-e006",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Sanitärreparatur",
+      "title_ar": "إصلاح صحي",
+      "prompt_de": "Die alte ______ ist porös und muss ersetzt werden.",
+      "prompt_ar": "الحشوة القديمة متآكلة ويجب استبدالها.",
+      "answer": "Dichtung",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Dichtung",
+        "die Dichtung"
+      ],
+      "completedSentence_de": "Die alte Dichtung ist porös und muss ersetzt werden.",
+      "completedSentence_ar": "الحشوة القديمة متآكلة ويجب استبدالها.",
+      "vocabularyRefs": [
+        "b2u05-v021"
+      ]
+    },
+    {
+      "id": "b2u05-e007",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Werkzeugservice",
+      "title_ar": "خدمة الأدوات",
+      "prompt_de": "Was bedeutet „Werkzeug ausleihen“?",
+      "prompt_ar": "ما معنى Werkzeug ausleihen؟",
+      "answer": "Werkzeug für begrenzte Zeit benutzen und später zurückgeben",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Werkzeug für begrenzte Zeit benutzen und später zurückgeben",
+        "Werkzeug kostenlos behalten",
+        "Werkzeug endgültig entsorgen",
+        "Werkzeug selbst herstellen"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v018"
+      ]
+    },
+    {
+      "id": "b2u05-e008",
+      "unit": 5,
+      "type": "scenario_choice",
+      "title_de": "Arbeitssicherheit",
+      "title_ar": "السلامة المهنية",
+      "prompt_de": "Vor einer Reparatur an einer elektrischen Maschine: Was ist zuerst zu tun?",
+      "prompt_ar": "قبل إصلاح آلة كهربائية، ما الخطوة الأولى؟",
+      "answer": "Die Maschine ausschalten und vom Strom trennen.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Maschine ausschalten und vom Strom trennen.",
+        "Sofort das Gehäuse öffnen.",
+        "Die Maschine unter Last testen.",
+        "Die Schutzausrüstung ablegen."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v027",
+        "b2u05-v029"
+      ]
+    },
+    {
+      "id": "b2u05-e009",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Schutzausrüstung",
+      "title_ar": "معدات الوقاية",
+      "prompt_de": "Warum ist Schutzausrüstung beim Schweißen notwendig?",
+      "prompt_ar": "لماذا تلزم معدات الوقاية أثناء اللحام؟",
+      "answer": "Sie schützt vor Funken, Hitze und Verletzungen.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sie schützt vor Funken, Hitze und Verletzungen.",
+        "Sie erhöht nur die Geschwindigkeit.",
+        "Sie ersetzt die Ausbildung.",
+        "Sie ist nur bei Büroarbeit nötig."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v030",
+        "b2u05-v004"
+      ]
+    },
+    {
+      "id": "b2u05-e010",
+      "unit": 5,
+      "type": "guided_speaking",
+      "title_de": "Mein Beruf im Handwerk",
+      "title_ar": "مهنتي في الحرف",
+      "prompt_de": "Beschreiben Sie einen Handwerksberuf und seine typischen Tätigkeiten.",
+      "prompt_ar": "صف مهنة حرفية ومهامها المعتادة.",
+      "answer": {
+        "requiredConcepts": [
+          "Berufsbezeichnung",
+          "typische Tätigkeiten",
+          "Werkzeuge oder Materialien",
+          "Arbeitssicherheit",
+          "wichtige Fähigkeiten",
+          "eigene Meinung zum Beruf"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v002",
+        "b2u05-v029"
+      ]
+    },
+    {
+      "id": "b2u05-e011",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Passivformen",
+      "title_ar": "صيغ المبني للمجهول",
+      "prompt_de": "Welcher Satz steht im Vorgangspassiv?",
+      "prompt_ar": "أي جملة في المبني للمجهول الدال على الحدث؟",
+      "answer": "Die Wand wird gestrichen.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Wand wird gestrichen.",
+        "Die Wand ist gestrichen.",
+        "Der Maler streicht die Wand.",
+        "Die Wand war weiß."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v024",
+        "b2u05-v025"
+      ]
+    },
+    {
+      "id": "b2u05-e012",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Passivformen",
+      "title_ar": "صيغ المبني للمجهول",
+      "prompt_de": "Welcher Satz beschreibt das Ergebnis einer Handlung?",
+      "prompt_ar": "أي جملة تصف نتيجة الفعل؟",
+      "answer": "Die Maschine ist ausgeschaltet.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Maschine ist ausgeschaltet.",
+        "Die Maschine wird ausgeschaltet.",
+        "Der Mitarbeiter schaltet die Maschine aus.",
+        "Die Maschine läuft."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v025",
+        "b2u05-v027"
+      ]
+    },
+    {
+      "id": "b2u05-e013",
+      "unit": 5,
+      "type": "sentence_build",
+      "title_de": "Vorgangspassiv Präsens",
+      "title_ar": "المبني للمجهول في الحاضر",
+      "prompt_de": "Formulieren Sie im Passiv: Die Elektrikerin repariert die Leitung.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: تصلح الكهربائية السلك.",
+      "answer": "Die Leitung wird von der Elektrikerin repariert.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Leitung wird von der Elektrikerin repariert."
+      ],
+      "grammarFocus": "werden + Partizip II",
+      "vocabularyRefs": [
+        "b2u05-v006"
+      ]
+    },
+    {
+      "id": "b2u05-e014",
+      "unit": 5,
+      "type": "sentence_build",
+      "title_de": "Vorgangspassiv Präteritum",
+      "title_ar": "المبني للمجهول في الماضي",
+      "prompt_de": "Formulieren Sie im Passiv Präteritum: Die Firma renovierte den Raum.",
+      "prompt_ar": "حوّل إلى المبني للمجهول في الماضي: جددت الشركة الغرفة.",
+      "answer": "Der Raum wurde von der Firma renoviert.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Der Raum wurde von der Firma renoviert."
+      ],
+      "grammarFocus": "wurde/wurden + Partizip II"
+    },
+    {
+      "id": "b2u05-e015",
+      "unit": 5,
+      "type": "sentence_build",
+      "title_de": "Vorgangspassiv Perfekt",
+      "title_ar": "المبني للمجهول في الماضي التام",
+      "prompt_de": "Formulieren Sie im Passiv Perfekt: Die Monteure haben die Anlage repariert.",
+      "prompt_ar": "حوّل إلى المبني للمجهول التام: أصلح الفنيون المنشأة.",
+      "answer": "Die Anlage ist von den Monteuren repariert worden.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Anlage ist von den Monteuren repariert worden."
+      ],
+      "grammarFocus": "sein + Partizip II + worden"
+    },
+    {
+      "id": "b2u05-e016",
+      "unit": 5,
+      "type": "sentence_build",
+      "title_de": "Zustandspassiv",
+      "title_ar": "المبني للمجهول الوصفي",
+      "prompt_de": "Beschreiben Sie den Zustand nach der Arbeit: Jemand hat die Wand gestrichen.",
+      "prompt_ar": "صف الحالة بعد انتهاء العمل: قام شخص بطلاء الجدار.",
+      "answer": "Die Wand ist gestrichen.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Wand ist gestrichen."
+      ],
+      "grammarFocus": "sein + Partizip II",
+      "vocabularyRefs": [
+        "b2u05-v025",
+        "b2u05-v016"
+      ]
+    },
+    {
+      "id": "b2u05-e017",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Vorgang oder Zustand?",
+      "title_ar": "حدث أم حالة؟",
+      "prompt_de": "Ordnen Sie die Sätze zu.",
+      "prompt_ar": "صِل كل جملة بنوعها.",
+      "answer": {
+        "Die Tür wird repariert.": "Vorgang",
+        "Die Tür ist repariert.": "Zustand",
+        "Das Werkzeug wurde aufgeräumt.": "Vorgang",
+        "Das Werkzeug ist aufgeräumt.": "Zustand"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Die Tür wird repariert.",
+          "Vorgang"
+        ],
+        [
+          "Die Tür ist repariert.",
+          "Zustand"
+        ],
+        [
+          "Das Werkzeug wurde aufgeräumt.",
+          "Vorgang"
+        ],
+        [
+          "Das Werkzeug ist aufgeräumt.",
+          "Zustand"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v024",
+        "b2u05-v025",
+        "b2u05-v028"
+      ]
+    },
+    {
+      "id": "b2u05-e018",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Zustandspassiv",
+      "title_ar": "المبني للمجهول الوصفي",
+      "prompt_de": "Die Reparatur ______ erledigt.",
+      "prompt_ar": "الإصلاح ______ منجزًا.",
+      "answer": "ist",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "ist"
+      ],
+      "completedSentence_de": "Die Reparatur ist erledigt.",
+      "completedSentence_ar": "تم إنجاز الإصلاح.",
+      "grammarFocus": "sein + Partizip II",
+      "vocabularyRefs": [
+        "b2u05-v026"
+      ]
+    },
+    {
+      "id": "b2u05-e019",
+      "unit": 5,
+      "type": "dialogue_choice",
+      "title_de": "Ist das schon erledigt?",
+      "title_ar": "هل تم إنجاز ذلك؟",
+      "prompt_de": "Welche Antwort beschreibt einen fertigen Zustand?",
+      "prompt_ar": "أي جواب يصف حالة مكتملة؟",
+      "answer": "Ja, die Maschine ist schon ausgeschaltet.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ja, die Maschine ist schon ausgeschaltet.",
+        "Ja, die Maschine wird vielleicht ausgeschaltet.",
+        "Der Mitarbeiter möchte die Maschine ausschalten.",
+        "Die Maschine muss morgen laufen."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v027",
+        "b2u05-v025"
+      ]
+    },
+    {
+      "id": "b2u05-e020",
+      "unit": 5,
+      "type": "sentence_order",
+      "title_de": "Eine Dichtung auswechseln",
+      "title_ar": "استبدال الحشوة",
+      "prompt_de": "Bringen Sie die Arbeitsschritte in die richtige Reihenfolge.",
+      "prompt_ar": "رتّب خطوات استبدال الحشوة.",
+      "answer": [
+        "Haupthahn zudrehen",
+        "Griff und Ventil lösen",
+        "alte Dichtung entfernen",
+        "neue Dichtung einsetzen",
+        "Ventil wieder zusammenschrauben",
+        "Haupthahn öffnen und prüfen"
+      ],
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "alte Dichtung entfernen",
+        "Ventil wieder zusammenschrauben",
+        "Haupthahn zudrehen",
+        "Haupthahn öffnen und prüfen",
+        "neue Dichtung einsetzen",
+        "Griff und Ventil lösen"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v019",
+        "b2u05-v020",
+        "b2u05-v021",
+        "b2u05-v010"
+      ]
+    },
+    {
+      "id": "b2u05-e021",
+      "unit": 5,
+      "type": "sentence_order",
+      "title_de": "Ein Zimmer renovieren",
+      "title_ar": "تجديد غرفة",
+      "prompt_de": "Ordnen Sie die Renovierungsschritte.",
+      "prompt_ar": "رتّب خطوات تجديد الغرفة.",
+      "answer": [
+        "Raum ausräumen",
+        "schwere Möbel abdecken",
+        "Steckdosenabdeckungen abnehmen",
+        "Flächen abkleben",
+        "Farbe anmischen",
+        "Wände streichen",
+        "Abdeckungen wieder anbringen"
+      ],
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Farbe anmischen",
+        "Raum ausräumen",
+        "Wände streichen",
+        "Abdeckungen wieder anbringen",
+        "Flächen abkleben",
+        "Steckdosenabdeckungen abnehmen",
+        "schwere Möbel abdecken"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v073",
+        "b2u05-v074",
+        "b2u05-v075",
+        "b2u05-v076",
+        "b2u05-v077",
+        "b2u05-v016"
+      ]
+    },
+    {
+      "id": "b2u05-e022",
+      "unit": 5,
+      "type": "sentence_order",
+      "title_de": "Druckerpatrone wechseln",
+      "title_ar": "استبدال خرطوشة الطابعة",
+      "prompt_de": "Ordnen Sie die Anweisungen.",
+      "prompt_ar": "رتّب تعليمات استبدال خرطوشة الطابعة.",
+      "answer": [
+        "Gerät einschalten",
+        "Klappe öffnen",
+        "leere Patrone entfernen",
+        "neue Patrone einsetzen",
+        "Klappe schließen"
+      ],
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "neue Patrone einsetzen",
+        "Klappe schließen",
+        "Gerät einschalten",
+        "leere Patrone entfernen",
+        "Klappe öffnen"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v078"
+      ]
+    },
+    {
+      "id": "b2u05-e023",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Ablauf beschreiben",
+      "title_ar": "وصف الخطوات",
+      "prompt_de": "Welche Reihenfolge der Konnektoren ist für eine Anleitung passend?",
+      "prompt_ar": "أي ترتيب للروابط مناسب للتعليمات؟",
+      "answer": "Zuerst – danach – anschließend – zum Schluss",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Zuerst – danach – anschließend – zum Schluss",
+        "Obwohl – trotzdem – deshalb – während",
+        "Weder – noch – sondern – aber",
+        "Falls – weil – denn – sodass"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v022"
+      ]
+    },
+    {
+      "id": "b2u05-e024",
+      "unit": 5,
+      "type": "guided_writing",
+      "title_de": "Arbeitsablauf beschreiben",
+      "title_ar": "وصف سير عمل",
+      "prompt_de": "Beschreiben Sie in 80–100 Wörtern einen handwerklichen Ablauf.",
+      "prompt_ar": "صف في 80–100 كلمة خطوات مهمة حرفية.",
+      "answer": {
+        "requiredConcepts": [
+          "benötigte Werkzeuge oder Materialien",
+          "Sicherheitsmaßnahme",
+          "mindestens fünf Arbeitsschritte",
+          "zeitliche Konnektoren",
+          "Kontrolle des Ergebnisses"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v022",
+        "b2u05-v029"
+      ]
+    },
+    {
+      "id": "b2u05-e025",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Renovierung",
+      "title_ar": "التجديد",
+      "prompt_de": "Vor dem Streichen werden Fensterrahmen und Steckdosen sorgfältig ______.",
+      "prompt_ar": "قبل الطلاء تُغطى إطارات النوافذ والمقابس بشريط لاصق بعناية.",
+      "answer": "abgeklebt",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "abgeklebt"
+      ],
+      "completedSentence_de": "Vor dem Streichen werden Fensterrahmen und Steckdosen sorgfältig abgeklebt.",
+      "completedSentence_ar": "تُغطى إطارات النوافذ والمقابس بشريط لاصق بعناية قبل الطلاء.",
+      "vocabularyRefs": [
+        "b2u05-v076"
+      ]
+    },
+    {
+      "id": "b2u05-e026",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Renovierung",
+      "title_ar": "التجديد",
+      "prompt_de": "Die Farbe wird nach Herstellerangaben ______.",
+      "prompt_ar": "يُخلط الطلاء وفق تعليمات الشركة.",
+      "answer": "angemischt",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "angemischt"
+      ],
+      "completedSentence_de": "Die Farbe wird nach Herstellerangaben angemischt.",
+      "completedSentence_ar": "يُخلط الطلاء وفق تعليمات الشركة.",
+      "vocabularyRefs": [
+        "b2u05-v077"
+      ]
+    },
+    {
+      "id": "b2u05-e027",
+      "unit": 5,
+      "type": "scenario_choice",
+      "title_de": "Renovierung sicher durchführen",
+      "title_ar": "تنفيذ التجديد بأمان",
+      "prompt_de": "Was muss vor dem Abnehmen der Steckdosenabdeckungen geschehen?",
+      "prompt_ar": "ما الذي يجب فعله قبل فك أغطية المقابس؟",
+      "answer": "Der Strom muss ausgeschaltet werden.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Der Strom muss ausgeschaltet werden.",
+        "Die Farbe muss angemischt werden.",
+        "Der Raum muss geheizt werden.",
+        "Die Möbel müssen ausgepackt werden."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v075",
+        "b2u05-v027"
+      ]
+    },
+    {
+      "id": "b2u05-e028",
+      "unit": 5,
+      "type": "dialogue_choice",
+      "title_de": "Notdienst anrufen",
+      "title_ar": "الاتصال بخدمة الطوارئ",
+      "prompt_de": "Welche Beschreibung ist für den Notdienst am hilfreichsten?",
+      "prompt_ar": "أي وصف أكثر فائدة لخدمة الطوارئ؟",
+      "answer": "Seit heute Morgen tropft Wasser unter dem Waschbecken; der Haupthahn ist geschlossen.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Seit heute Morgen tropft Wasser unter dem Waschbecken; der Haupthahn ist geschlossen.",
+        "Irgendetwas ist kaputt.",
+        "Kommen Sie irgendwann.",
+        "Ich weiß nichts und möchte nichts erklären."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v017",
+        "b2u05-v019"
+      ]
+    },
+    {
+      "id": "b2u05-e029",
+      "unit": 5,
+      "type": "guided_speaking",
+      "title_de": "Einen Reparaturauftrag erklären",
+      "title_ar": "شرح طلب إصلاح",
+      "prompt_de": "Rufen Sie einen Heimwerkernotdienst an und beschreiben Sie das Problem.",
+      "prompt_ar": "اتصل بخدمة إصلاح منزلية واشرح المشكلة.",
+      "answer": {
+        "requiredConcepts": [
+          "genauer Ort des Problems",
+          "seit wann das Problem besteht",
+          "sichtbare Symptome",
+          "bereits getroffene Sicherheitsmaßnahme",
+          "gewünschter Termin",
+          "Rückfrage zu Kosten"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v017",
+        "b2u05-v019",
+        "b2u05-v021"
+      ]
+    },
+    {
+      "id": "b2u05-e030",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Verbesserungsbedarf",
+      "title_ar": "الحاجة إلى التحسين",
+      "prompt_de": "Was bedeutet „Verbesserungsbedarf“?",
+      "prompt_ar": "ما معنى Verbesserungsbedarf؟",
+      "answer": "Ein Bereich sollte noch verbessert werden.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ein Bereich sollte noch verbessert werden.",
+        "Eine Aufgabe ist vollständig beendet.",
+        "Eine Maschine ist neu gekauft.",
+        "Ein Vertrag wurde unterschrieben."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v031"
+      ]
+    },
+    {
+      "id": "b2u05-e031",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Problem und Lösung",
+      "title_ar": "المشكلة والحل",
+      "prompt_de": "Ordnen Sie jedem Problem einen sinnvollen Lösungsvorschlag zu.",
+      "prompt_ar": "صِل كل مشكلة باقتراح حل مناسب.",
+      "answer": {
+        "zu hoher Papierverbrauch": "Druckaufträge digital prüfen",
+        "Materialreste": "genauer zuschneiden und wiederverwenden",
+        "lange Werkzeugssuche": "Werkzeugplätze eindeutig markieren",
+        "hohe Energiekosten": "Verbrauch messen und Geräte modernisieren"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "zu hoher Papierverbrauch",
+          "Druckaufträge digital prüfen"
+        ],
+        [
+          "Materialreste",
+          "genauer zuschneiden und wiederverwenden"
+        ],
+        [
+          "lange Werkzeugssuche",
+          "Werkzeugplätze eindeutig markieren"
+        ],
+        [
+          "hohe Energiekosten",
+          "Verbrauch messen und Geräte modernisieren"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v033",
+        "b2u05-v036",
+        "b2u05-v035"
+      ]
+    },
+    {
+      "id": "b2u05-e032",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Guter Verbesserungsvorschlag",
+      "title_ar": "اقتراح تحسين جيد",
+      "prompt_de": "Welche Information gehört zu einem guten Verbesserungsvorschlag?",
+      "prompt_ar": "أي معلومة يجب أن يتضمنها اقتراح التحسين الجيد؟",
+      "answer": "Problem, konkrete Lösung und erwarteter Nutzen",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Problem, konkrete Lösung und erwarteter Nutzen",
+        "nur Kritik an Kollegen",
+        "eine unklare Beschwerde ohne Beispiel",
+        "private Informationen über Kunden"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v033",
+        "b2u05-v031"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v007"
+      ]
+    },
+    {
+      "id": "b2u05-e033",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Betriebliche Verbesserung",
+      "title_ar": "تحسين العمل",
+      "prompt_de": "Der neue Ablauf soll Zeit sparen und die Kosten ______.",
+      "prompt_ar": "يجب أن يوفر سير العمل الجديد الوقت وأن ______ التكاليف.",
+      "answer": "senken",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "senken"
+      ],
+      "completedSentence_de": "Der neue Ablauf soll Zeit sparen und die Kosten senken.",
+      "completedSentence_ar": "يجب أن يوفر سير العمل الجديد الوقت ويخفض التكاليف.",
+      "vocabularyRefs": [
+        "b2u05-v035"
+      ]
+    },
+    {
+      "id": "b2u05-e034",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Nachhaltigkeit",
+      "title_ar": "الاستدامة",
+      "prompt_de": "Durch genaues Zuschneiden kann der Betrieb Material ______.",
+      "prompt_ar": "يمكن للمنشأة ______ المواد من خلال القص الدقيق.",
+      "answer": "einsparen",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "einsparen"
+      ],
+      "completedSentence_de": "Durch genaues Zuschneiden kann der Betrieb Material einsparen.",
+      "completedSentence_ar": "يمكن للمنشأة توفير المواد من خلال القص الدقيق.",
+      "vocabularyRefs": [
+        "b2u05-v036"
+      ]
+    },
+    {
+      "id": "b2u05-e035",
+      "unit": 5,
+      "type": "email_order",
+      "title_de": "Verbesserungsvorschlag per E-Mail",
+      "title_ar": "اقتراح تحسين عبر البريد",
+      "prompt_de": "Ordnen Sie die Teile der E-Mail.",
+      "prompt_ar": "رتّب أجزاء رسالة اقتراح تحسين.",
+      "answer": [
+        "anrede",
+        "problem",
+        "vorschlag",
+        "nutzen",
+        "gespräch",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "nutzen",
+          "text": "Dadurch könnten wir Papier, Zeit und Wartungskosten sparen."
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Frau Grobhein,"
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "problem",
+          "text": "In unserer Abteilung kommt es regelmäßig zu Papierstaus am Kopierer."
+        },
+        {
+          "id": "gespräch",
+          "text": "Gern erläutere ich den Vorschlag in einem kurzen Gespräch."
+        },
+        {
+          "id": "vorschlag",
+          "text": "Ich schlage vor, große Druckaufträge künftig am neuen Drucker auszuführen."
+        }
+      ],
+      "vocabularyRefs": [
+        "b2u05-v033",
+        "b2u05-v035"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v016",
+        "b2u01-v059"
+      ]
+    },
+    {
+      "id": "b2u05-e036",
+      "unit": 5,
+      "type": "guided_writing",
+      "title_de": "Verbesserungsvorschlag",
+      "title_ar": "اقتراح تحسين",
+      "prompt_de": "Schreiben Sie einen Verbesserungsvorschlag mit 100–120 Wörtern.",
+      "prompt_ar": "اكتب اقتراح تحسين من 100–120 كلمة.",
+      "answer": {
+        "requiredConcepts": [
+          "Problem genau benennen",
+          "Ursache oder Auswirkung beschreiben",
+          "konkrete Lösung vorschlagen",
+          "Nutzen für Betrieb oder Mitarbeitende",
+          "mögliche Kosten oder Aufwand",
+          "Bitte um Rückmeldung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v031",
+        "b2u05-v032",
+        "b2u05-v033",
+        "b2u05-v035"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v007"
+      ]
+    },
+    {
+      "id": "b2u05-e037",
+      "unit": 5,
+      "type": "scenario_choice",
+      "title_de": "Verbesserungsidee bewerten",
+      "title_ar": "تقييم فكرة تحسين",
+      "prompt_de": "Welche Idee ist am nachhaltigsten?",
+      "prompt_ar": "أي فكرة هي الأكثر استدامة؟",
+      "answer": "Materialreste sortieren und für kleinere Aufträge wiederverwenden.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Materialreste sortieren und für kleinere Aufträge wiederverwenden.",
+        "Alle Reste sofort entsorgen.",
+        "Maschinen während der Pause laufen lassen.",
+        "Mehr Papierausdrucke ohne Prüfung erstellen."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v036",
+        "b2u05-v038",
+        "b2u05-v052"
+      ]
+    },
+    {
+      "id": "b2u05-e038",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Prämie für Ideen",
+      "title_ar": "مكافأة الأفكار",
+      "prompt_de": "Wofür kann eine Prämie gezahlt werden?",
+      "prompt_ar": "مقابل ماذا يمكن دفع مكافأة؟",
+      "answer": "Für einen nützlichen und umgesetzten Verbesserungsvorschlag",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Für einen nützlichen und umgesetzten Verbesserungsvorschlag",
+        "Für jede private Meinung",
+        "Für unentschuldigtes Fehlen",
+        "Für die Ablehnung jeder Veränderung"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v034"
+      ],
+      "reusedVocabularyRefs": [
+        "b2u03-v007"
+      ]
+    },
+    {
+      "id": "b2u05-e039",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Zukunft des Handwerks",
+      "title_ar": "مستقبل الحرف",
+      "prompt_de": "Ordnen Sie Herausforderung und mögliche Lösung zu.",
+      "prompt_ar": "صِل كل تحدٍّ بحل محتمل.",
+      "answer": {
+        "Fachkräftemangel": "mehr Ausbildungsplätze und gezielte Nachwuchsgewinnung",
+        "hohe Energiekosten": "Wärmedämmung und klimafreundliche Technik",
+        "alternde Bevölkerung": "barrierefreie und altersgerechte Umbauten",
+        "fehlende Betriebsnachfolge": "frühzeitig geeignete Übernehmer suchen"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Fachkräftemangel",
+          "mehr Ausbildungsplätze und gezielte Nachwuchsgewinnung"
+        ],
+        [
+          "hohe Energiekosten",
+          "Wärmedämmung und klimafreundliche Technik"
+        ],
+        [
+          "alternde Bevölkerung",
+          "barrierefreie und altersgerechte Umbauten"
+        ],
+        [
+          "fehlende Betriebsnachfolge",
+          "frühzeitig geeignete Übernehmer suchen"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v041",
+        "b2u05-v043",
+        "b2u05-v053",
+        "b2u05-v054",
+        "b2u05-v055",
+        "b2u05-v062"
+      ]
+    },
+    {
+      "id": "b2u05-e040",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Duale Ausbildung",
+      "title_ar": "التدريب المزدوج",
+      "prompt_de": "Was kennzeichnet die duale Ausbildung?",
+      "prompt_ar": "ما الذي يميز التدريب المهني المزدوج؟",
+      "answer": "Praxis im Betrieb und Unterricht in der Berufsschule",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Praxis im Betrieb und Unterricht in der Berufsschule",
+        "nur selbstständiges Lernen zu Hause",
+        "ausschließlich Unterricht an einer Universität",
+        "nur ein unbezahltes Praktikum"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v044",
+        "b2u05-v045",
+        "b2u05-v046"
+      ]
+    },
+    {
+      "id": "b2u05-e041",
+      "unit": 5,
+      "type": "fill_blank",
+      "title_de": "Ausbildung im Handwerk",
+      "title_ar": "التدريب في الحرف",
+      "prompt_de": "Viele Betriebe können ihre freien ______ nicht besetzen.",
+      "prompt_ar": "لا تستطيع منشآت كثيرة شغل ______ التدريب الشاغرة.",
+      "answer": "Ausbildungsstellen",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ausbildungsstellen",
+        "die Ausbildungsstellen"
+      ],
+      "completedSentence_de": "Viele Betriebe können ihre freien Ausbildungsstellen nicht besetzen.",
+      "completedSentence_ar": "لا تستطيع منشآت كثيرة شغل مقاعد التدريب الشاغرة.",
+      "vocabularyRefs": [
+        "b2u05-v067"
+      ]
+    },
+    {
+      "id": "b2u05-e042",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Barrierefreier Umbau",
+      "title_ar": "التعديل الخالي من العوائق",
+      "prompt_de": "Welche Maßnahme unterstützt Menschen mit eingeschränkter Mobilität?",
+      "prompt_ar": "أي إجراء يساعد الأشخاص ذوي الحركة المحدودة؟",
+      "answer": "Ein Treppenlift und eine bodengleiche Dusche",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ein Treppenlift und eine bodengleiche Dusche",
+        "höhere Türschwellen",
+        "glatte Fliesen ohne Haltegriffe",
+        "schmalere Durchgänge"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v056",
+        "b2u05-v057",
+        "b2u05-v058",
+        "b2u05-v054"
+      ]
+    },
+    {
+      "id": "b2u05-e043",
+      "unit": 5,
+      "type": "multiple_choice",
+      "title_de": "Digitales Handwerk",
+      "title_ar": "الحرف الرقمية",
+      "prompt_de": "Welchen Vorteil kann ein 3D-Verfahren haben?",
+      "prompt_ar": "ما الفائدة المحتملة للتقنية ثلاثية الأبعاد؟",
+      "answer": "Räume und Bauteile können sehr genau geplant werden.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Räume und Bauteile können sehr genau geplant werden.",
+        "Jede Messung wird ungenauer.",
+        "Handwerkliche Ausbildung wird überflüssig.",
+        "Materialkosten spielen keine Rolle mehr."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v061",
+        "b2u05-v060",
+        "b2u05-v059"
+      ]
+    },
+    {
+      "id": "b2u05-e044",
+      "unit": 5,
+      "type": "scenario_choice",
+      "title_de": "Unternehmensnachfolge",
+      "title_ar": "خلافة المنشأة",
+      "prompt_de": "Ein Meister möchte in zwei Jahren in Rente gehen. Was sollte der Betrieb frühzeitig tun?",
+      "prompt_ar": "يريد صاحب منشأة التقاعد بعد سنتين. ماذا ينبغي أن تفعل المنشأة مبكرًا؟",
+      "answer": "Eine geeignete Person für die Betriebsübernahme suchen und einarbeiten.",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine geeignete Person für die Betriebsübernahme suchen und einarbeiten.",
+        "Alle Kunden ohne Information verlieren.",
+        "Keine Verträge mehr bearbeiten.",
+        "Die Werkzeuge sofort verkaufen."
+      ],
+      "vocabularyRefs": [
+        "b2u05-v062",
+        "b2u05-v063"
+      ]
+    },
+    {
+      "id": "b2u05-e045",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Frauen im Handwerk",
+      "title_ar": "النساء في الحرف",
+      "prompt_de": "Ordnen Sie Begriff und Erklärung zu.",
+      "prompt_ar": "صِل المصطلح بالشرح.",
+      "answer": {
+        "männerdominiert": "Männer bilden die deutliche Mehrheit",
+        "der Frauenanteil": "prozentualer Anteil der Frauen",
+        "der Einsteigerkurs": "Kurs ohne vorausgesetzte Vorkenntnisse",
+        "Vorurteile abbauen": "unbegründete Vorstellungen durch Erfahrung verändern"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "männerdominiert",
+          "Männer bilden die deutliche Mehrheit"
+        ],
+        [
+          "der Frauenanteil",
+          "prozentualer Anteil der Frauen"
+        ],
+        [
+          "der Einsteigerkurs",
+          "Kurs ohne vorausgesetzte Vorkenntnisse"
+        ],
+        [
+          "Vorurteile abbauen",
+          "unbegründete Vorstellungen durch Erfahrung verändern"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v066",
+        "b2u05-v065",
+        "b2u05-v068",
+        "b2u05-v072"
+      ]
+    },
+    {
+      "id": "b2u05-e046",
+      "unit": 5,
+      "type": "guided_writing",
+      "title_de": "Frauen in Handwerksberufen",
+      "title_ar": "النساء في المهن الحرفية",
+      "prompt_de": "Schreiben Sie 90–120 Wörter darüber, wie mehr Frauen für Handwerksberufe gewonnen werden können.",
+      "prompt_ar": "اكتب 90–120 كلمة عن كيفية جذب مزيد من النساء إلى المهن الحرفية.",
+      "answer": {
+        "requiredConcepts": [
+          "aktuelle Situation",
+          "Vorurteile oder Hindernisse",
+          "praktische Einsteigerkurse",
+          "Vorbilder und Information",
+          "Ausbildungsstellen",
+          "eigene Einschätzung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v065",
+        "b2u05-v066",
+        "b2u05-v068",
+        "b2u05-v072",
+        "b2u05-v067"
+      ]
+    },
+    {
+      "id": "b2u05-e047",
+      "unit": 5,
+      "type": "matching",
+      "title_de": "Trennbare und untrennbare Verben",
+      "title_ar": "الأفعال المنفصلة وغير المنفصلة",
+      "prompt_de": "Ordnen Sie die Verben zu.",
+      "prompt_ar": "صنّف الأفعال.",
+      "answer": {
+        "durchrechnen": "trennbar",
+        "umbauen": "trennbar",
+        "widerspiegeln": "trennbar",
+        "unterschreiben": "untrennbar"
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "durchrechnen",
+          "trennbar"
+        ],
+        [
+          "umbauen",
+          "trennbar"
+        ],
+        [
+          "widerspiegeln",
+          "trennbar"
+        ],
+        [
+          "unterschreiben",
+          "untrennbar"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u05-v079",
+        "b2u05-v081",
+        "b2u05-v080",
+        "b2u05-v082"
+      ]
+    },
+    {
+      "id": "b2u05-e048",
+      "unit": 5,
+      "type": "verb_form",
+      "title_de": "Perfekt bilden",
+      "title_ar": "صياغة الماضي التام",
+      "prompt_de": "Bilden Sie das Perfekt von „durchrechnen“.",
+      "prompt_ar": "صغ Perfekt للفعل durchrechnen.",
+      "answer": "hat durchgerechnet",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "hat durchgerechnet",
+        "durchgerechnet"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v079"
+      ]
+    },
+    {
+      "id": "b2u05-e049",
+      "unit": 5,
+      "type": "verb_form",
+      "title_de": "Perfekt bilden",
+      "title_ar": "صياغة الماضي التام",
+      "prompt_de": "Bilden Sie das Perfekt von „umbauen“.",
+      "prompt_ar": "صغ Perfekt للفعل umbauen.",
+      "answer": "hat umgebaut",
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "hat umgebaut",
+        "umgebaut"
+      ],
+      "vocabularyRefs": [
+        "b2u05-v081"
+      ]
+    },
+    {
+      "id": "b2u05-e050",
+      "unit": 5,
+      "type": "guided_speaking",
+      "title_de": "Die Zukunft des Handwerks",
+      "title_ar": "مستقبل الحرف",
+      "prompt_de": "Sprechen Sie zwei bis drei Minuten über Herausforderungen und Chancen des Handwerks.",
+      "prompt_ar": "تحدث دقيقتين إلى ثلاث عن تحديات وفرص قطاع الحرف.",
+      "answer": {
+        "requiredConcepts": [
+          "Fachkräftemangel",
+          "duale Ausbildung",
+          "Nachhaltigkeit und Wärmedämmung",
+          "barrierefreier Umbau",
+          "Digitalisierung",
+          "Unternehmensnachfolge",
+          "persönliche Einschätzung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_05_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u05-v041",
+        "b2u05-v044",
+        "b2u05-v052",
+        "b2u05-v053",
+        "b2u05-v054",
+        "b2u05-v059",
+        "b2u05-v062"
+      ]
+    }
+  ]
+}

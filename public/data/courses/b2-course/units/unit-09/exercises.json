@@ -1,0 +1,1327 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 9,
+  "unitTitle_de": "Handel international",
+  "unitTitle_ar": "التجارة الدولية",
+  "grammarFocus": [
+    "Partizip I und II als Adjektive",
+    "Partizipien im Satz",
+    "indem",
+    "ohne zu",
+    "ohne dass",
+    "temporale Konnektoren",
+    "Pronomen mit -einander",
+    "formeller Beschwerdebrief",
+    "Unternehmensvorstellung"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u09-e001",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Großhandel",
+      "title_ar": "تجارة الجملة",
+      "prompt_de": "Was kennzeichnet den Großhandel?",
+      "prompt_ar": "ما الذي يميز تجارة الجملة؟",
+      "answer": "Er verkauft große Mengen vor allem an Unternehmen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v001"
+      ],
+      "options": [
+        "Er verkauft große Mengen vor allem an Unternehmen",
+        "Er verkauft nur gebrauchte Waren",
+        "Er beliefert ausschließlich Privatpersonen",
+        "Er arbeitet nur ohne Lager"
+      ]
+    },
+    {
+      "id": "b2u09-e002",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Wechselkurs",
+      "title_ar": "سعر الصرف",
+      "prompt_de": "Welche Folge kann ein ungünstiger Wechselkurs haben?",
+      "prompt_ar": "ما النتيجة المحتملة لسعر صرف غير ملائم؟",
+      "answer": "Exporte können teurer werden",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v005"
+      ],
+      "options": [
+        "Exporte können teurer werden",
+        "Die Zielgruppe verschwindet",
+        "Die Website wird automatisch mehrsprachig",
+        "Der Energieverbrauch sinkt immer"
+      ]
+    },
+    {
+      "id": "b2u09-e003",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Marktbegriffe",
+      "title_ar": "مصطلحات السوق",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل المصطلحات بالتعريفات.",
+      "answer": {
+        "Marktlücke": "nicht gedeckter Bedarf",
+        "Zielgruppe": "angesprochene Kundengruppe",
+        "Umsatz": "Wert der Verkäufe",
+        "Firmenstandort": "Ort des Betriebs"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v010",
+        "b2u09-v015",
+        "b2u09-v014",
+        "b2u09-v011"
+      ],
+      "pairs": [
+        [
+          "Marktlücke",
+          "nicht gedeckter Bedarf"
+        ],
+        [
+          "Zielgruppe",
+          "angesprochene Kundengruppe"
+        ],
+        [
+          "Umsatz",
+          "Wert der Verkäufe"
+        ],
+        [
+          "Firmenstandort",
+          "Ort des Betriebs"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e004",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Nachfrage",
+      "title_ar": "الطلب",
+      "prompt_de": "Die ______ nach nachhaltigen Produkten steigt.",
+      "prompt_ar": "يزداد ______ على المنتجات المستدامة.",
+      "answer": "Nachfrage",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v004"
+      ],
+      "acceptedAnswers": [
+        "Nachfrage",
+        "die Nachfrage"
+      ]
+    },
+    {
+      "id": "b2u09-e005",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Expansion",
+      "title_ar": "التوسع",
+      "prompt_de": "Ein Unternehmen möchte einen neuen Auslandsmarkt erschließen. Welches Verb passt?",
+      "prompt_ar": "شركة تريد فتح سوق خارجية جديدة. أي فعل يناسب؟",
+      "answer": "expandieren",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v008"
+      ],
+      "options": [
+        "expandieren",
+        "stornieren",
+        "kündigen",
+        "mahnen"
+      ]
+    },
+    {
+      "id": "b2u09-e006",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Handelsformen",
+      "title_ar": "أشكال التجارة",
+      "prompt_de": "Ordnen Sie zu: stationärer Handel oder Onlinehandel.",
+      "prompt_ar": "صنّف: تجارة تقليدية أم إلكترونية.",
+      "answer": {
+        "persönliche Beratung im Laden": "stationärer Handel",
+        "Einkaufserlebnis vor Ort": "stationärer Handel",
+        "Bestellung über eine Website": "Onlinehandel",
+        "digitale Konkurrenz": "Onlinehandel"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v016",
+        "b2u09-v023",
+        "b2u09-v020",
+        "b2u09-v017"
+      ],
+      "pairs": [
+        [
+          "persönliche Beratung im Laden",
+          "stationärer Handel"
+        ],
+        [
+          "Einkaufserlebnis vor Ort",
+          "stationärer Handel"
+        ],
+        [
+          "Bestellung über eine Website",
+          "Onlinehandel"
+        ],
+        [
+          "digitale Konkurrenz",
+          "Onlinehandel"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e007",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Export",
+      "title_ar": "التصدير",
+      "prompt_de": "Die Firma ______ Bauteile in mehr als fünfzig Länder.",
+      "prompt_ar": "تُصدّر الشركة قطعًا إلى أكثر من خمسين بلدًا.",
+      "answer": "exportiert",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v013"
+      ],
+      "acceptedAnswers": [
+        "exportiert"
+      ]
+    },
+    {
+      "id": "b2u09-e008",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Umfrage",
+      "title_ar": "الاستطلاع",
+      "prompt_de": "Wann gilt eine Umfrage als repräsentativ?",
+      "prompt_ar": "متى يُعد الاستطلاع تمثيليًا؟",
+      "answer": "Wenn die Stichprobe die größere Zielgruppe zuverlässig abbildet",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v019"
+      ],
+      "options": [
+        "Wenn die Stichprobe die größere Zielgruppe zuverlässig abbildet",
+        "Wenn nur ein Kunde antwortet",
+        "Wenn keine Fragen gestellt werden",
+        "Wenn nur Mitarbeitende teilnehmen"
+      ]
+    },
+    {
+      "id": "b2u09-e009",
+      "unit": 9,
+      "type": "sentence_order",
+      "title_de": "Marktrückgang",
+      "title_ar": "تراجع السوق",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتّب الجملة.",
+      "answer": "Experten rechnen mit einem Rückgang der Ladengeschäfte.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v022"
+      ],
+      "tokens": [
+        "Experten",
+        "rechnen",
+        "mit einem Rückgang",
+        "der Ladengeschäfte."
+      ]
+    },
+    {
+      "id": "b2u09-e010",
+      "unit": 9,
+      "type": "guided_writing",
+      "title_de": "Handel heute",
+      "title_ar": "التجارة اليوم",
+      "prompt_de": "Schreiben Sie 80–100 Wörter über Unterschiede zwischen stationärem Handel und Onlinehandel.",
+      "prompt_ar": "اكتب 80–100 كلمة عن الفروق بين التجارة التقليدية والإلكترونية.",
+      "answer": {
+        "requiredConcepts": [
+          "stationärer Handel",
+          "Onlinehandel",
+          "Einkaufserlebnis",
+          "Verbraucherverhalten",
+          "eigene Meinung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v016",
+        "b2u09-v023",
+        "b2u09-v020",
+        "b2u09-v018"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    },
+    {
+      "id": "b2u09-e011",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Leserichtung",
+      "title_ar": "اتجاه القراءة",
+      "prompt_de": "Warum ist die Leserichtung für internationale Websites wichtig?",
+      "prompt_ar": "لماذا اتجاه القراءة مهم للمواقع الدولية؟",
+      "answer": "Weil Nutzer Texte je nach Sprache unterschiedlich lesen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v028"
+      ],
+      "options": [
+        "Weil Nutzer Texte je nach Sprache unterschiedlich lesen",
+        "Weil jede Website dieselbe Sprache hat",
+        "Weil Bilder immer von rechts nach links gelesen werden",
+        "Weil Farben keine Wirkung haben"
+      ]
+    },
+    {
+      "id": "b2u09-e012",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Webdesign",
+      "title_ar": "تصميم الموقع",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل المصطلحات.",
+      "answer": {
+        "Navigation": "Orientierung auf der Seite",
+        "Mehrsprachigkeit": "mehrere Sprachen",
+        "Wirkung": "Eindruck auf Nutzer",
+        "Zielgruppe": "Adressaten"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v044",
+        "b2u09-v029",
+        "b2u09-v033",
+        "b2u09-v015"
+      ],
+      "pairs": [
+        [
+          "Navigation",
+          "Orientierung auf der Seite"
+        ],
+        [
+          "Mehrsprachigkeit",
+          "mehrere Sprachen"
+        ],
+        [
+          "Wirkung",
+          "Eindruck auf Nutzer"
+        ],
+        [
+          "Zielgruppe",
+          "Adressaten"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e013",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Interkulturell",
+      "title_ar": "عابر للثقافات",
+      "prompt_de": "Ein internationaler Webauftritt muss ______ geplant werden.",
+      "prompt_ar": "يجب التخطيط للحضور الدولي على الإنترنت بطريقة ______.",
+      "answer": "interkulturell",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v027"
+      ],
+      "acceptedAnswers": [
+        "interkulturell"
+      ]
+    },
+    {
+      "id": "b2u09-e014",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Farbwirkung",
+      "title_ar": "تأثير الألوان",
+      "prompt_de": "Die gleiche Farbe hat in verschiedenen Ländern unterschiedliche Bedeutungen. Was soll die Agentur tun?",
+      "prompt_ar": "للّون نفسه معانٍ مختلفة في بلدان متعددة. ماذا تفعل الوكالة؟",
+      "answer": "kulturelle Unterschiede berücksichtigen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v043",
+        "b2u09-v033"
+      ],
+      "options": [
+        "kulturelle Unterschiede berücksichtigen",
+        "alle Farben entfernen",
+        "nur Text veröffentlichen",
+        "die Leserichtung ignorieren"
+      ]
+    },
+    {
+      "id": "b2u09-e015",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Aufmerksamkeit",
+      "title_ar": "الانتباه",
+      "prompt_de": "Welche Formulierung bedeutet „Interesse wecken“?",
+      "prompt_ar": "أي تعبير يعني إثارة الاهتمام؟",
+      "answer": "die Aufmerksamkeit erregen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v035"
+      ],
+      "options": [
+        "die Aufmerksamkeit erregen",
+        "eine Rechnung begleichen",
+        "vom Terminplan abweichen",
+        "einen Mangel beseitigen"
+      ]
+    },
+    {
+      "id": "b2u09-e016",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Zuschneiden",
+      "title_ar": "التصميم حسب الفئة",
+      "prompt_de": "Die Inhalte sollten genau auf die Zielgruppe ______ werden.",
+      "prompt_ar": "يجب تصميم المحتوى بدقة بما يناسب الفئة المستهدفة.",
+      "answer": "zugeschnitten",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v036"
+      ],
+      "acceptedAnswers": [
+        "zugeschnitten"
+      ]
+    },
+    {
+      "id": "b2u09-e017",
+      "unit": 9,
+      "type": "sentence_order",
+      "title_de": "Zurechtfinden",
+      "title_ar": "سهولة التنقل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتّب الجملة.",
+      "answer": "Die Nutzer sollen sich schnell auf der Website zurechtfinden.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v037"
+      ],
+      "tokens": [
+        "Die Nutzer",
+        "sollen",
+        "sich",
+        "schnell",
+        "auf der Website",
+        "zurechtfinden."
+      ]
+    },
+    {
+      "id": "b2u09-e018",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Vertikal oder horizontal",
+      "title_ar": "عمودي أم أفقي",
+      "prompt_de": "Korrigieren Sie: „Ein Menü von oben nach unten ist horizontal.“",
+      "prompt_ar": "صحح: القائمة من الأعلى إلى الأسفل أفقية.",
+      "answer": "Ein Menü von oben nach unten ist vertikal.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v039",
+        "b2u09-v040"
+      ],
+      "acceptedAnswers": [
+        "Ein Menü von oben nach unten ist vertikal."
+      ]
+    },
+    {
+      "id": "b2u09-e019",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Navigation",
+      "title_ar": "التنقل",
+      "prompt_de": "Was verbessert die Orientierung auf einer Website?",
+      "prompt_ar": "ما الذي يحسن سهولة التنقل في الموقع؟",
+      "answer": "eine klare Navigation",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v044",
+        "b2u09-v032"
+      ],
+      "options": [
+        "eine klare Navigation",
+        "unterschiedliche Schriftarten in jedem Satz",
+        "versteckte Links",
+        "lange Texte ohne Überschriften"
+      ]
+    },
+    {
+      "id": "b2u09-e020",
+      "unit": 9,
+      "type": "guided_writing",
+      "title_de": "Website beraten",
+      "title_ar": "تقديم نصيحة للموقع",
+      "prompt_de": "Geben Sie drei Ratschläge für eine internationale Website und verwenden Sie einmal „indem“.",
+      "prompt_ar": "قدّم ثلاث نصائح لموقع دولي واستخدم indem مرة واحدة.",
+      "answer": {
+        "requiredConcepts": [
+          "Zielgruppe",
+          "Navigation",
+          "kulturelle Unterschiede",
+          "indem"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v015",
+        "b2u09-v044",
+        "b2u09-v043"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    },
+    {
+      "id": "b2u09-e021",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Indem",
+      "title_ar": "باستخدام indem",
+      "prompt_de": "Man verbessert die Orientierung, ______ man die Navigation vereinfacht.",
+      "prompt_ar": "نحسن سهولة التنقل من خلال تبسيط القوائم.",
+      "answer": "indem",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "acceptedAnswers": [
+        "indem"
+      ]
+    },
+    {
+      "id": "b2u09-e022",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Ohne zu",
+      "title_ar": "بدون أن",
+      "prompt_de": "Man sollte keine Bilder veröffentlichen, ______ ihre Wirkung zu prüfen.",
+      "prompt_ar": "لا ينبغي نشر صور دون فحص تأثيرها.",
+      "answer": "ohne",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "acceptedAnswers": [
+        "ohne"
+      ]
+    },
+    {
+      "id": "b2u09-e023",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Ohne dass",
+      "title_ar": "بدون أن",
+      "prompt_de": "Verbinden Sie: „Die Firma änderte das Layout. Die Kunden wurden nicht informiert.“",
+      "prompt_ar": "اربط الجملتين باستخدام ohne dass.",
+      "answer": "Die Firma änderte das Layout, ohne dass die Kunden informiert wurden.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "acceptedAnswers": [
+        "Die Firma änderte das Layout, ohne dass die Kunden informiert wurden."
+      ]
+    },
+    {
+      "id": "b2u09-e024",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Temporale Konnektoren",
+      "title_ar": "روابط زمنية",
+      "prompt_de": "Ordnen Sie die Satzteile sinnvoll zu.",
+      "prompt_ar": "صِل أجزاء الجمل بشكل منطقي.",
+      "answer": {
+        "bevor": "vor einem späteren Ereignis",
+        "seitdem": "ab einem Zeitpunkt bis heute",
+        "während": "gleichzeitig",
+        "bis": "Endpunkt"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "pairs": [
+        [
+          "bevor",
+          "vor einem späteren Ereignis"
+        ],
+        [
+          "seitdem",
+          "ab einem Zeitpunkt bis heute"
+        ],
+        [
+          "während",
+          "gleichzeitig"
+        ],
+        [
+          "bis",
+          "Endpunkt"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e025",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Satzverbindung",
+      "title_ar": "ربط الجملة",
+      "prompt_de": "Korrigieren Sie: „Die Website wird internationaler, indem mehrere Sprachen anbieten.“",
+      "prompt_ar": "صحح الجملة.",
+      "answer": "Die Website wird internationaler, indem man mehrere Sprachen anbietet.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "acceptedAnswers": [
+        "Die Website wird internationaler, indem man mehrere Sprachen anbietet."
+      ]
+    },
+    {
+      "id": "b2u09-e026",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Projektverlauf",
+      "title_ar": "سير المشروع",
+      "prompt_de": "Was beschreibt der Projektverlauf?",
+      "prompt_ar": "ماذا يصف سير المشروع؟",
+      "answer": "die zeitliche und inhaltliche Entwicklung eines Projekts",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v046"
+      ],
+      "options": [
+        "die zeitliche und inhaltliche Entwicklung eines Projekts",
+        "nur den Rechnungsbetrag",
+        "nur das Firmenlogo",
+        "die private Meinung eines Kunden"
+      ]
+    },
+    {
+      "id": "b2u09-e027",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Projektphasen",
+      "title_ar": "مراحل المشروع",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل المصطلحات.",
+      "answer": {
+        "Entwurf": "erste Fassung",
+        "Überarbeitung": "gezielte Verbesserung",
+        "Erprobungsphase": "praktischer Test",
+        "Launch-Termin": "geplanter Veröffentlichungstag"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v047",
+        "b2u09-v048",
+        "b2u09-v049",
+        "b2u09-v052"
+      ],
+      "pairs": [
+        [
+          "Entwurf",
+          "erste Fassung"
+        ],
+        [
+          "Überarbeitung",
+          "gezielte Verbesserung"
+        ],
+        [
+          "Erprobungsphase",
+          "praktischer Test"
+        ],
+        [
+          "Launch-Termin",
+          "geplanter Veröffentlichungstag"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e028",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Mangel",
+      "title_ar": "العيب",
+      "prompt_de": "Der Dienstleister muss den bestehenden Mangel vollständig ______.",
+      "prompt_ar": "يجب على مقدم الخدمة معالجة العيب القائم بالكامل.",
+      "answer": "beseitigen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v050"
+      ],
+      "acceptedAnswers": [
+        "beseitigen"
+      ]
+    },
+    {
+      "id": "b2u09-e029",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Außer Betrieb",
+      "title_ar": "خارج الخدمة",
+      "prompt_de": "Die Homepage ist wegen eines technischen Fehlers nicht erreichbar. Welche Formulierung passt?",
+      "prompt_ar": "الموقع غير متاح بسبب خطأ تقني. ما التعبير المناسب؟",
+      "answer": "Die Homepage ist außer Betrieb.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v051"
+      ],
+      "options": [
+        "Die Homepage ist außer Betrieb.",
+        "Die Homepage ist termingerecht.",
+        "Die Homepage ist wertschätzend.",
+        "Die Homepage ist repräsentativ."
+      ]
+    },
+    {
+      "id": "b2u09-e030",
+      "unit": 9,
+      "type": "sentence_order",
+      "title_de": "Online gehen",
+      "title_ar": "الإطلاق",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتّب الجملة.",
+      "answer": "Die neue Website soll spätestens am Montag online gehen.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v053"
+      ],
+      "tokens": [
+        "Die neue Website",
+        "soll",
+        "spätestens am Montag",
+        "online gehen."
+      ]
+    },
+    {
+      "id": "b2u09-e031",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Frist",
+      "title_ar": "المهلة",
+      "prompt_de": "Was bedeutet „eine Frist einhalten“?",
+      "prompt_ar": "ما معنى الالتزام بالمهلة؟",
+      "answer": "eine verbindliche Zeitgrenze nicht überschreiten",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v054"
+      ],
+      "options": [
+        "eine verbindliche Zeitgrenze nicht überschreiten",
+        "einen Termin beliebig verschieben",
+        "keinen Vertrag abschließen",
+        "eine Rechnung zurückschicken"
+      ]
+    },
+    {
+      "id": "b2u09-e032",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Terminplan",
+      "title_ar": "الجدول الزمني",
+      "prompt_de": "Das Projekt darf nicht erneut vom Terminplan ______.",
+      "prompt_ar": "يجب ألا ينحرف المشروع مجددًا عن الجدول الزمني.",
+      "answer": "abweichen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v055"
+      ],
+      "acceptedAnswers": [
+        "abweichen"
+      ]
+    },
+    {
+      "id": "b2u09-e033",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Lieferverzug",
+      "title_ar": "تأخر التسليم",
+      "prompt_de": "Wann liegt Lieferverzug vor?",
+      "prompt_ar": "متى يوجد تأخر في التسليم؟",
+      "answer": "Wenn eine vereinbarte Lieferung zu spät erfolgt",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v056"
+      ],
+      "options": [
+        "Wenn eine vereinbarte Lieferung zu spät erfolgt",
+        "Wenn ein Kunde früh bestellt",
+        "Wenn der Preis sinkt",
+        "Wenn die Ware sofort ankommt"
+      ]
+    },
+    {
+      "id": "b2u09-e034",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Preisnachlass",
+      "title_ar": "تخفيض السعر",
+      "prompt_de": "Die gelieferten Möbel haben mehrere Mängel. Welche Forderung ist angemessen?",
+      "prompt_ar": "الأثاث المسلم فيه عدة عيوب. ما المطالبة المناسبة؟",
+      "answer": "einen Preisnachlass fordern",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v059"
+      ],
+      "options": [
+        "einen Preisnachlass fordern",
+        "die Zielgruppe ändern",
+        "den Exportanteil erhöhen",
+        "die Leserichtung wechseln"
+      ]
+    },
+    {
+      "id": "b2u09-e035",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Rechnung",
+      "title_ar": "الفاتورة",
+      "prompt_de": "Wir werden die Rechnung erst nach der Reparatur ______.",
+      "prompt_ar": "سنسدد الفاتورة بعد الإصلاح فقط.",
+      "answer": "begleichen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v060"
+      ],
+      "acceptedAnswers": [
+        "begleichen"
+      ]
+    },
+    {
+      "id": "b2u09-e036",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Beschwerderedemittel",
+      "title_ar": "عبارات الشكوى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل العبارات بوظيفتها.",
+      "answer": {
+        "trotz wiederholter Mahnungen": "bisher erfolglose Aufforderungen",
+        "angesichts der aufgetretenen Probleme": "Begründung der Forderung",
+        "eine Frist setzen": "letzten Termin nennen",
+        "vom Kaufvertrag zurücktreten": "Vertrag beenden"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v061",
+        "b2u09-v062",
+        "b2u09-v064",
+        "b2u09-v063"
+      ],
+      "pairs": [
+        [
+          "trotz wiederholter Mahnungen",
+          "bisher erfolglose Aufforderungen"
+        ],
+        [
+          "angesichts der aufgetretenen Probleme",
+          "Begründung der Forderung"
+        ],
+        [
+          "eine Frist setzen",
+          "letzten Termin nennen"
+        ],
+        [
+          "vom Kaufvertrag zurücktreten",
+          "Vertrag beenden"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e037",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Rücktritt",
+      "title_ar": "الانسحاب من العقد",
+      "prompt_de": "Die gesetzte Frist ist abgelaufen und der erhebliche Mangel besteht weiter. Was kann angekündigt werden?",
+      "prompt_ar": "انتهت المهلة والعيب الجسيم ما زال قائمًا. ما الإجراء الذي يمكن إعلانه؟",
+      "answer": "vom Kaufvertrag zurücktreten",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v063"
+      ],
+      "options": [
+        "vom Kaufvertrag zurücktreten",
+        "die Website freischalten",
+        "den Umsatz melden",
+        "die Zielgruppe erweitern"
+      ]
+    },
+    {
+      "id": "b2u09-e038",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Funktionstüchtigkeit",
+      "title_ar": "القدرة على العمل",
+      "prompt_de": "Nach der Reparatur wird die volle ______ des Geräts geprüft.",
+      "prompt_ar": "بعد الإصلاح تُفحص القدرة الكاملة للجهاز على العمل.",
+      "answer": "Funktionstüchtigkeit",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v065"
+      ],
+      "acceptedAnswers": [
+        "Funktionstüchtigkeit"
+      ]
+    },
+    {
+      "id": "b2u09-e039",
+      "unit": 9,
+      "type": "sentence_order",
+      "title_de": "Einschreiben",
+      "title_ar": "البريد المسجل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتّب الجملة.",
+      "answer": "Die Beschwerde wurde per Einschreiben mit Rückschein versandt.",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v067"
+      ],
+      "tokens": [
+        "Die Beschwerde",
+        "wurde",
+        "per Einschreiben mit Rückschein",
+        "versandt."
+      ]
+    },
+    {
+      "id": "b2u09-e040",
+      "unit": 9,
+      "type": "guided_writing",
+      "title_de": "Beschwerdebrief",
+      "title_ar": "رسالة شكوى",
+      "prompt_de": "Schreiben Sie einen formellen Beschwerdebrief mit Problem, Verlauf, Forderung und Frist.",
+      "prompt_ar": "اكتب رسالة شكوى رسمية تتضمن المشكلة وسيرها والمطالبة والمهلة.",
+      "answer": {
+        "requiredConcepts": [
+          "Anrede",
+          "Problem",
+          "Projektverlauf",
+          "Forderung",
+          "Frist",
+          "Grußformel"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v046",
+        "b2u09-v064",
+        "b2u09-v059"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    },
+    {
+      "id": "b2u09-e041",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Produktionsstandort",
+      "title_ar": "موقع الإنتاج",
+      "prompt_de": "Was ist ein Produktionsstandort?",
+      "prompt_ar": "ما هو موقع الإنتاج؟",
+      "answer": "der Ort, an dem Waren hergestellt werden",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v068"
+      ],
+      "options": [
+        "der Ort, an dem Waren hergestellt werden",
+        "die Zielgruppe einer Kampagne",
+        "ein Abschnitt einer Website",
+        "eine Beschwerdeformel"
+      ]
+    },
+    {
+      "id": "b2u09-e042",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Unternehmenswerte",
+      "title_ar": "قيم الشركة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل القيم بالتفسير.",
+      "answer": {
+        "qualitätsbewusst": "achtet konsequent auf Qualität",
+        "wertschätzend": "respektvoll und anerkennend",
+        "zukunftsorientiert": "auf kommende Entwicklungen ausgerichtet",
+        "nachhaltig": "langfristig ökologisch und sozial verantwortlich"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v075",
+        "b2u09-v076",
+        "b2u09-v074"
+      ],
+      "pairs": [
+        [
+          "qualitätsbewusst",
+          "achtet konsequent auf Qualität"
+        ],
+        [
+          "wertschätzend",
+          "respektvoll und anerkennend"
+        ],
+        [
+          "zukunftsorientiert",
+          "auf kommende Entwicklungen ausgerichtet"
+        ],
+        [
+          "nachhaltig",
+          "langfristig ökologisch und sozial verantwortlich"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e043",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Vernetzung",
+      "title_ar": "الترابط",
+      "prompt_de": "Alle Abteilungen sind digital miteinander ______.",
+      "prompt_ar": "جميع الأقسام مترابطة رقميًا.",
+      "answer": "vernetzt",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v070"
+      ],
+      "acceptedAnswers": [
+        "vernetzt"
+      ]
+    },
+    {
+      "id": "b2u09-e044",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Exportanteil",
+      "title_ar": "حصة التصدير",
+      "prompt_de": "Was sagt ein Exportanteil von 60 Prozent aus?",
+      "prompt_ar": "ماذا تعني حصة تصدير مقدارها 60 بالمئة؟",
+      "answer": "60 Prozent des betreffenden Umsatzes oder der Produktion gehen ins Ausland",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v072"
+      ],
+      "options": [
+        "60 Prozent des betreffenden Umsatzes oder der Produktion gehen ins Ausland",
+        "60 Prozent der Mitarbeitenden kündigen",
+        "60 Prozent der Website ist offline",
+        "60 Prozent der Rechnungen sind falsch"
+      ]
+    },
+    {
+      "id": "b2u09-e045",
+      "unit": 9,
+      "type": "scenario_choice",
+      "title_de": "Nachhaltigkeit",
+      "title_ar": "الاستدامة",
+      "prompt_de": "Die Firma will ihre Umweltbilanz verbessern. Welche Maßnahmen passen?",
+      "prompt_ar": "تريد الشركة تحسين أثرها البيئي. ما الإجراءات المناسبة؟",
+      "answer": "Energieverbrauch senken und Haltbarkeit erhöhen",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v077",
+        "b2u09-v078"
+      ],
+      "options": [
+        "Energieverbrauch senken und Haltbarkeit erhöhen",
+        "mehr Mängel akzeptieren",
+        "Fristen ignorieren",
+        "Navigation entfernen"
+      ]
+    },
+    {
+      "id": "b2u09-e046",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Wert legen",
+      "title_ar": "إيلاء الأهمية",
+      "prompt_de": "Das Unternehmen legt großen Wert ______ Datenschutz.",
+      "prompt_ar": "تولي الشركة أهمية كبيرة لحماية البيانات.",
+      "answer": "auf",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v079",
+        "b2u09-v083"
+      ],
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "b2u09-e047",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Unternehmensbereiche",
+      "title_ar": "أقسام الشركة",
+      "prompt_de": "Ordnen Sie die Aufgaben dem passenden Bereich zu.",
+      "prompt_ar": "صنّف المهام حسب القسم المناسب.",
+      "answer": {
+        "Regeln einhalten": "Compliance",
+        "personenbezogene Daten schützen": "Datenschutz",
+        "Sicherheit am Arbeitsplatz": "Arbeitsschutz",
+        "faire Chancen fördern": "Gleichstellung"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v084",
+        "b2u09-v083",
+        "b2u09-v082",
+        "b2u09-v081"
+      ],
+      "pairs": [
+        [
+          "Regeln einhalten",
+          "Compliance"
+        ],
+        [
+          "personenbezogene Daten schützen",
+          "Datenschutz"
+        ],
+        [
+          "Sicherheit am Arbeitsplatz",
+          "Arbeitsschutz"
+        ],
+        [
+          "faire Chancen fördern",
+          "Gleichstellung"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e048",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "-einander",
+      "title_ar": "ضمائر einander",
+      "prompt_de": "Ordnen Sie die Ausdrücke zu.",
+      "prompt_ar": "صِل التعبيرات.",
+      "answer": {
+        "miteinander": "gemeinsam",
+        "voneinander": "einer vom anderen",
+        "füreinander": "einer für den anderen",
+        "ineinander": "eines in das andere"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "pairs": [
+        [
+          "miteinander",
+          "gemeinsam"
+        ],
+        [
+          "voneinander",
+          "einer vom anderen"
+        ],
+        [
+          "füreinander",
+          "einer für den anderen"
+        ],
+        [
+          "ineinander",
+          "eines in das andere"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e049",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Partizip als Adjektiv",
+      "title_ar": "اسم المفعول كصفة",
+      "prompt_de": "Welche Form passt? „die gestern ______ Homepage“",
+      "prompt_ar": "أي صيغة تناسب؟ die gestern ... Homepage",
+      "answer": "installierte",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "options": [
+        "installierte",
+        "installierende",
+        "installieren",
+        "installiert haben"
+      ]
+    },
+    {
+      "id": "b2u09-e050",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Partizip im Satz",
+      "title_ar": "Partizip في الجملة",
+      "prompt_de": "Der von uns ______ Entwurf wurde ausführlich kommentiert.",
+      "prompt_ar": "جرت مناقشة المسودة التي أعددناها بالتفصيل.",
+      "answer": "erstellte",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v047"
+      ],
+      "acceptedAnswers": [
+        "erstellte"
+      ]
+    },
+    {
+      "id": "b2u09-e051",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Partizip I",
+      "title_ar": "Partizip I",
+      "prompt_de": "Welche Form passt? „die im Foyer ______ Gäste“",
+      "prompt_ar": "أي صيغة تناسب؟ الضيوف الذين ينتظرون في البهو.",
+      "answer": "wartenden",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "options": [
+        "wartenden",
+        "gewarteten",
+        "gewartet",
+        "warten"
+      ]
+    },
+    {
+      "id": "b2u09-e052",
+      "unit": 9,
+      "type": "multiple_choice",
+      "title_de": "Partizip II",
+      "title_ar": "Partizip II",
+      "prompt_de": "Welche Form passt? „die für die Konferenz ______ Unterlagen“",
+      "prompt_ar": "أي صيغة تناسب؟ الأوراق المطبوعة للمؤتمر.",
+      "answer": "gedruckten",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "options": [
+        "gedruckten",
+        "druckenden",
+        "gedruckt haben",
+        "drucken"
+      ]
+    },
+    {
+      "id": "b2u09-e053",
+      "unit": 9,
+      "type": "matching",
+      "title_de": "Partizip I oder II",
+      "title_ar": "Partizip I أم II",
+      "prompt_de": "Ordnen Sie die Ausdrücke zu.",
+      "prompt_ar": "صنّف التعبيرات.",
+      "answer": {
+        "die diskutierenden Arbeitsgruppen": "Partizip I",
+        "das fliegende Personal": "Partizip I",
+        "die vorbereiteten Häppchen": "Partizip II",
+        "die verschwundenen Koffer": "Partizip II"
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "pairs": [
+        [
+          "die diskutierenden Arbeitsgruppen",
+          "Partizip I"
+        ],
+        [
+          "das fliegende Personal",
+          "Partizip I"
+        ],
+        [
+          "die vorbereiteten Häppchen",
+          "Partizip II"
+        ],
+        [
+          "die verschwundenen Koffer",
+          "Partizip II"
+        ]
+      ]
+    },
+    {
+      "id": "b2u09-e054",
+      "unit": 9,
+      "type": "fill_blank",
+      "title_de": "Partizip als Adjektiv",
+      "title_ar": "Partizip كصفة",
+      "prompt_de": "Der ______ Mangel muss schnell behoben werden.",
+      "prompt_ar": "يجب معالجة العيب القائم بسرعة.",
+      "answer": "bestehende",
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [],
+      "acceptedAnswers": [
+        "bestehende"
+      ]
+    },
+    {
+      "id": "b2u09-e055",
+      "unit": 9,
+      "type": "guided_writing",
+      "title_de": "Unternehmen vorstellen",
+      "title_ar": "تقديم شركة",
+      "prompt_de": "Stellen Sie ein Unternehmen in 100–120 Wörtern vor: Produkte, Märkte, Werte, Mitarbeitende und Zukunft.",
+      "prompt_ar": "قدّم شركة في 100–120 كلمة: المنتجات والأسواق والقيم والموظفون والمستقبل.",
+      "answer": {
+        "requiredConcepts": [
+          "Produkt oder Dienstleistung",
+          "Firmenstandort",
+          "Auslandsmarkt",
+          "Unternehmenswerte",
+          "Zukunftsstrategie"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_09_topics",
+      "bookTextCopied": false,
+      "vocabularyRefs": [
+        "b2u09-v011",
+        "b2u09-v073",
+        "b2u09-v074",
+        "b2u09-v079"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

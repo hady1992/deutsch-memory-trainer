@@ -68,6 +68,81 @@
       "vocabularyCount": 94,
       "exerciseCount": 50,
       "enabled": true
+    },
+    {
+      "unit": 5,
+      "slug": "unit-05",
+      "title_de": "Aktiv im Handwerk",
+      "title_ar": "نشاط في قطاع الحرف",
+      "pages": [
+        85,
+        98
+      ],
+      "vocabularyFile": "units/unit-05/vocabulary.json",
+      "exercisesFile": "units/unit-05/exercises.json",
+      "vocabularyCount": 82,
+      "exerciseCount": 50,
+      "enabled": true
+    },
+    {
+      "unit": 6,
+      "slug": "unit-06",
+      "title_de": "Arbeit in der Metropolregion",
+      "title_ar": "العمل في المنطقة الحضرية الكبرى",
+      "pages": [
+        99,
+        112
+      ],
+      "vocabularyFile": "units/unit-06/vocabulary.json",
+      "exercisesFile": "units/unit-06/exercises.json",
+      "vocabularyCount": 80,
+      "exerciseCount": 50,
+      "enabled": true
+    },
+    {
+      "unit": 7,
+      "slug": "unit-07",
+      "title_de": "Berufe im Gesundheitswesen",
+      "title_ar": "المهن في قطاع الرعاية الصحية",
+      "pages": [
+        119,
+        132
+      ],
+      "vocabularyFile": "units/unit-07/vocabulary.json",
+      "exercisesFile": "units/unit-07/exercises.json",
+      "vocabularyCount": 90,
+      "exerciseCount": 50,
+      "enabled": true
+    },
+    {
+      "unit": 8,
+      "slug": "unit-08",
+      "title_de": "In der Gastronomie",
+      "title_ar": "في قطاع المطاعم والضيافة",
+      "pages": [
+        133,
+        156
+      ],
+      "vocabularyFile": "units/unit-08/vocabulary.json",
+      "exercisesFile": "units/unit-08/exercises.json",
+      "vocabularyCount": 72,
+      "exerciseCount": 50,
+      "enabled": true
+    },
+    {
+      "unit": 9,
+      "slug": "unit-09",
+      "title_de": "Handel international",
+      "title_ar": "التجارة الدولية",
+      "pages": [
+        157,
+        170
+      ],
+      "vocabularyFile": "units/unit-09/vocabulary.json",
+      "exercisesFile": "units/unit-09/exercises.json",
+      "vocabularyCount": 85,
+      "exerciseCount": 55,
+      "enabled": true
     }
   ]
 }
