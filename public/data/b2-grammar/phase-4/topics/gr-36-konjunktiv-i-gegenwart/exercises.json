@@ -1,0 +1,538 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-36",
+  "title_de": "Konjunktiv I in der Gegenwart – Übungen",
+  "title_ar": "تمارين Konjunktiv I في الحاضر",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr36-e001",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Sein im Konjunktiv I",
+      "title_ar": "sein في Konjunktiv I",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Mitarbeiter sagt, er sei krank.",
+      "explanation_de": "Die Konjunktiv-I-Form von sein lautet in der 3. Person Singular sei.",
+      "explanation_ar": "صيغة sein في الغائب المفرد هي sei.",
+      "grammarFocus": "konj1_sein",
+      "options": [
+        "Der Mitarbeiter sagt, er sei krank.",
+        "Der Mitarbeiter sagt, er ist krank.",
+        "Der Mitarbeiter sagt, er wäre krank gewesen.",
+        "Der Mitarbeiter sagt, er sein krank."
+      ]
+    },
+    {
+      "id": "gr36-e002",
+      "topicId": "gr-36",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Haben im Konjunktiv I",
+      "title_ar": "haben في Konjunktiv I",
+      "prompt_de": "Der Bewerber erklärt, er ______ bereits Berufserfahrung.",
+      "prompt_ar": "يوضح المتقدم أن لديه خبرة مهنية مسبقة.",
+      "answer": "habe",
+      "explanation_de": "Die Form der 3. Person Singular von haben lautet habe.",
+      "explanation_ar": "صيغة الغائب المفرد من haben هي habe.",
+      "grammarFocus": "konj1_haben",
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "gr36-e003",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Regelmäßiges Verb",
+      "title_ar": "فعل منتظم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Kollegin sagt, sie arbeite heute im Homeoffice.",
+      "explanation_de": "Die Konjunktiv-I-Form der 3. Person Singular lautet arbeite.",
+      "explanation_ar": "صيغة الغائب المفرد هي arbeite.",
+      "grammarFocus": "regular_konj1",
+      "options": [
+        "Die Kollegin sagt, sie arbeite heute im Homeoffice.",
+        "Die Kollegin sagt, sie arbeitet heute im Homeoffice.",
+        "Die Kollegin sagt, sie arbeitete heute im Homeoffice.",
+        "Die Kollegin sagt, sie arbeiten heute im Homeoffice."
+      ]
+    },
+    {
+      "id": "gr36-e004",
+      "topicId": "gr-36",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Wichtige Formen",
+      "title_ar": "صيغ مهمة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "sein": "sei",
+        "haben": "habe",
+        "werden": "werde",
+        "können": "könne",
+        "müssen": "müsse"
+      },
+      "explanation_de": "Die Formen stehen jeweils in der 3. Person Singular.",
+      "explanation_ar": "جميع الصيغ في الغائب المفرد.",
+      "grammarFocus": "important_forms_matching",
+      "pairs": [
+        [
+          "sein",
+          "sei"
+        ],
+        [
+          "haben",
+          "habe"
+        ],
+        [
+          "werden",
+          "werde"
+        ],
+        [
+          "können",
+          "könne"
+        ],
+        [
+          "müssen",
+          "müsse"
+        ]
+      ]
+    },
+    {
+      "id": "gr36-e005",
+      "topicId": "gr-36",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Wortstellung ohne dass",
+      "title_ar": "ترتيب الكلمات من دون dass",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Kollegin erklärt, sie brauche mehr Zeit.",
+      "explanation_de": "Ohne dass steht das Verb brauche an Position zwei.",
+      "explanation_ar": "من دون dass يأتي الفعل brauche في الموقع الثاني.",
+      "grammarFocus": "word_order_without_dass",
+      "tokens": [
+        "mehr Zeit",
+        "sie brauche",
+        "Die Kollegin erklärt"
+      ],
+      "acceptedAnswers": [
+        "Die Kollegin erklärt, sie brauche mehr Zeit."
+      ]
+    },
+    {
+      "id": "gr36-e006",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb können",
+      "title_ar": "الفعل الناقص können",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie sagt, sie könne an der Besprechung teilnehmen.",
+      "explanation_de": "Die Konjunktiv-I-Form lautet könne.",
+      "explanation_ar": "صيغة Konjunktiv I هي könne.",
+      "grammarFocus": "modal_koennen",
+      "options": [
+        "Sie sagt, sie könne an der Besprechung teilnehmen.",
+        "Sie sagt, sie kann an der Besprechung teilnehmen.",
+        "Sie sagt, sie könnte an der Besprechung teilnimmt.",
+        "Sie sagt, sie können an der Besprechung teilnehmen."
+      ]
+    },
+    {
+      "id": "gr36-e007",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Werden",
+      "title_ar": "werden",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Leitung teilt mit, der Termin werde verschoben.",
+      "explanation_de": "Die Konjunktiv-I-Form von werden lautet werde.",
+      "explanation_ar": "صيغة Konjunktiv I من werden هي werde.",
+      "grammarFocus": "konj1_werden",
+      "options": [
+        "Die Leitung teilt mit, der Termin werde verschoben.",
+        "Die Leitung teilt mit, der Termin wird verschoben.",
+        "Die Leitung teilt mit, der Termin würde verschoben ist.",
+        "Die Leitung teilt mit, der Termin werden verschoben."
+      ]
+    },
+    {
+      "id": "gr36-e008",
+      "topicId": "gr-36",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Modalverb müssen",
+      "title_ar": "الفعل الناقص müssen",
+      "prompt_de": "Er erklärt, er ______ die Frist unbedingt einhalten.",
+      "prompt_ar": "يوضح أنه يجب عليه الالتزام بالمهلة.",
+      "answer": "müsse",
+      "explanation_de": "Die Konjunktiv-I-Form der 3. Person Singular lautet müsse.",
+      "explanation_ar": "صيغة الغائب المفرد هي müsse.",
+      "grammarFocus": "modal_muessen",
+      "acceptedAnswers": [
+        "müsse"
+      ]
+    },
+    {
+      "id": "gr36-e009",
+      "topicId": "gr-36",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Direkte Rede umformen",
+      "title_ar": "تحويل الكلام المباشر",
+      "prompt_de": "Formen Sie um: Die Mitarbeiterin sagt: „Ich bin für diese Aufgabe zuständig.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Die Mitarbeiterin sagt, sie sei für diese Aufgabe zuständig.",
+      "explanation_de": "Ich wird zu sie; bin wird zu sei.",
+      "explanation_ar": "تتحول ich إلى sie، وتتحول bin إلى sei.",
+      "grammarFocus": "direct_to_indirect_sein",
+      "acceptedAnswers": [
+        "Die Mitarbeiterin sagt, sie sei für diese Aufgabe zuständig."
+      ]
+    },
+    {
+      "id": "gr36-e010",
+      "topicId": "gr-36",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Haben umformen",
+      "title_ar": "تحويل haben",
+      "prompt_de": "Formen Sie um: Der Bewerber sagt: „Ich habe bereits mehrere Jahre Berufserfahrung.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Der Bewerber sagt, er habe bereits mehrere Jahre Berufserfahrung.",
+      "explanation_de": "Ich wird zu er; habe bleibt als Konjunktiv-I-Form habe.",
+      "explanation_ar": "تتحول ich إلى er، وتكون صيغة Konjunktiv I هي habe.",
+      "grammarFocus": "direct_to_indirect_haben",
+      "acceptedAnswers": [
+        "Der Bewerber sagt, er habe bereits mehrere Jahre Berufserfahrung."
+      ]
+    },
+    {
+      "id": "gr36-e011",
+      "topicId": "gr-36",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Dass-Satz",
+      "title_ar": "جملة dass",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Mitarbeiter sagt, dass er heute im Homeoffice arbeite.",
+      "explanation_de": "Im dass-Satz steht arbeite am Ende.",
+      "explanation_ar": "في جملة dass تأتي arbeite في النهاية.",
+      "grammarFocus": "dass_word_order",
+      "tokens": [
+        "arbeite",
+        "dass er heute im Homeoffice",
+        "Der Mitarbeiter sagt"
+      ],
+      "acceptedAnswers": [
+        "Der Mitarbeiter sagt, dass er heute im Homeoffice arbeite."
+      ]
+    },
+    {
+      "id": "gr36-e012",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb ohne dass",
+      "title_ar": "فعل قابل للفصل من دون dass",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Kollegin sagt, sie nehme morgen an der Besprechung teil.",
+      "explanation_de": "Ohne dass wird teilnehmen getrennt: nehme ... teil.",
+      "explanation_ar": "من دون dass ينفصل teilnehmen: nehme ... teil.",
+      "grammarFocus": "separable_without_dass",
+      "options": [
+        "Die Kollegin sagt, sie nehme morgen an der Besprechung teil.",
+        "Die Kollegin sagt, sie teilnehme morgen an der Besprechung.",
+        "Die Kollegin sagt, sie nimmt morgen an der Besprechung teil.",
+        "Die Kollegin sagt, sie nehme teil morgen an der Besprechung."
+      ]
+    },
+    {
+      "id": "gr36-e013",
+      "topicId": "gr-36",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Direkte und indirekte Form",
+      "title_ar": "الصيغة المباشرة والمنقولة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ich bin": "er sei",
+        "ich habe": "er habe",
+        "ich kann": "er könne",
+        "ich muss": "er müsse",
+        "ich will": "er wolle"
+      },
+      "explanation_de": "Pronomen und Verbform werden an die indirekte Rede angepasst.",
+      "explanation_ar": "تُعدّل الضمائر وصيغة الفعل وفق الكلام المنقول.",
+      "grammarFocus": "direct_indirect_matching",
+      "pairs": [
+        [
+          "ich bin",
+          "er sei"
+        ],
+        [
+          "ich habe",
+          "er habe"
+        ],
+        [
+          "ich kann",
+          "er könne"
+        ],
+        [
+          "ich muss",
+          "er müsse"
+        ],
+        [
+          "ich will",
+          "er wolle"
+        ]
+      ]
+    },
+    {
+      "id": "gr36-e014",
+      "topicId": "gr-36",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Der Anbieter erklärt, das System werde regelmäßig gewartet.",
+      "explanation_de": "Die Aussage wird distanziert und im Passiv wiedergegeben.",
+      "explanation_ar": "يُنقل القول بمسافة موضوعية وفي المبني للمجهول.",
+      "grammarFocus": "formal_report_passive",
+      "options": [
+        "Der Anbieter erklärt, das System werde regelmäßig gewartet.",
+        "Der Anbieter erklärt, das System wird regelmäßig gewartet, und das stimmt.",
+        "Der Anbieter erklärt, das System wäre regelmäßig gewartet wird.",
+        "Der Anbieter erklärt, das System sei regelmäßig warten."
+      ]
+    },
+    {
+      "id": "gr36-e015",
+      "topicId": "gr-36",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Passiv im Konjunktiv I",
+      "title_ar": "المبني للمجهول",
+      "prompt_de": "Die Behörde teilt mit, der Antrag ______ derzeit geprüft.",
+      "prompt_ar": "تبلغ الجهة بأن الطلب تتم مراجعته حاليًا.",
+      "answer": "werde",
+      "explanation_de": "Das Passiv im Konjunktiv I wird mit werde + Partizip II gebildet.",
+      "explanation_ar": "يُبنى المبني للمجهول باستخدام werde + Partizip II.",
+      "grammarFocus": "passive_werde",
+      "acceptedAnswers": [
+        "werde"
+      ]
+    },
+    {
+      "id": "gr36-e016",
+      "topicId": "gr-36",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Pronomen anpassen",
+      "title_ar": "تعديل الضمائر",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Chef sagt, er bespreche das mit seinem Team.",
+      "explanation_de": "Ich und meinem werden zu er und seinem.",
+      "explanation_ar": "تتحول ich وmeinem إلى er وseinem.",
+      "grammarFocus": "pronoun_adjustment",
+      "tokens": [
+        "mit seinem Team",
+        "er bespreche das",
+        "Der Chef sagt"
+      ],
+      "acceptedAnswers": [
+        "Der Chef sagt, er bespreche das mit seinem Team."
+      ]
+    },
+    {
+      "id": "gr36-e017",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Dass oder ohne dass",
+      "title_ar": "مع dass أو من دونه",
+      "prompt_de": "Welche beiden Sätze sind korrekt?",
+      "prompt_ar": "أي جملتين صحيحتان؟",
+      "answer": "Er sagt, er arbeite heute länger. / Er sagt, dass er heute länger arbeite.",
+      "explanation_de": "Ohne dass steht das Verb an Position zwei; mit dass am Ende.",
+      "explanation_ar": "من دون dass يأتي الفعل في الموقع الثاني، ومع dass في النهاية.",
+      "grammarFocus": "dass_contrast",
+      "options": [
+        "Er sagt, er arbeite heute länger. / Er sagt, dass er heute länger arbeite.",
+        "Er sagt, arbeite er heute länger. / Er sagt, dass er arbeite heute länger.",
+        "Er sagt, er arbeitet heute länger. / Er sagt, dass er heute länger arbeitet sei.",
+        "Er sagt, dass heute er länger arbeite. / Er sagt, heute länger er arbeite."
+      ]
+    },
+    {
+      "id": "gr36-e018",
+      "topicId": "gr-36",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Modalverb und trennbares Verb",
+      "title_ar": "فعل ناقص وفعل قابل للفصل",
+      "prompt_de": "Formen Sie um: Sie sagt: „Ich kann morgen an der Schulung teilnehmen.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Sie sagt, sie könne morgen an der Schulung teilnehmen.",
+      "explanation_de": "Das Modalverb steht im Konjunktiv I; der zweite Infinitiv bleibt am Satzende.",
+      "explanation_ar": "يأتي الفعل الناقص في Konjunktiv I، ويبقى المصدر الثاني في النهاية.",
+      "grammarFocus": "modal_with_infinitive",
+      "acceptedAnswers": [
+        "Sie sagt, sie könne morgen an der Schulung teilnehmen."
+      ]
+    },
+    {
+      "id": "gr36-e019",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Ersatzform im Plural",
+      "title_ar": "صيغة بديلة في الجمع",
+      "prompt_de": "Welche Form markiert die indirekte Rede eindeutig?",
+      "prompt_ar": "أي صيغة تحدد الكلام المنقول بوضوح؟",
+      "answer": "Die Mitarbeitenden sagen, sie hätten ausreichend Zeit.",
+      "explanation_de": "Konjunktiv I und Indikativ von haben sind im Plural gleich; deshalb wird häufig hätten verwendet.",
+      "explanation_ar": "تتطابق صيغة Konjunktiv I وIndikativ من haben في الجمع، لذلك تُستخدم غالبًا hätten.",
+      "grammarFocus": "replacement_plural",
+      "options": [
+        "Die Mitarbeitenden sagen, sie hätten ausreichend Zeit.",
+        "Die Mitarbeitenden sagen, sie haben ausreichend Zeit.",
+        "Die Mitarbeitenden sagen, sie habe ausreichend Zeit.",
+        "Die Mitarbeitenden sagen, sie seien ausreichend Zeit."
+      ]
+    },
+    {
+      "id": "gr36-e020",
+      "topicId": "gr-36",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Protokollierte Aussage",
+      "title_ar": "قول في محضر",
+      "prompt_de": "Welche Formulierung ist neutral und präzise?",
+      "prompt_ar": "أي صياغة محايدة ودقيقة؟",
+      "answer": "Die Projektleiterin erklärt, die aktuelle Verzögerung habe keinen Einfluss auf den Endtermin.",
+      "explanation_de": "Habe kennzeichnet die Aussage als wiedergegeben, ohne sie zu bestätigen.",
+      "explanation_ar": "تحدد habe القول بوصفه منقولًا من دون تأكيده.",
+      "grammarFocus": "neutral_minutes",
+      "options": [
+        "Die Projektleiterin erklärt, die aktuelle Verzögerung habe keinen Einfluss auf den Endtermin.",
+        "Die Projektleiterin erklärt, die Verzögerung hat sicher keinen Einfluss.",
+        "Die Projektleiterin erklärt, die Verzögerung hätte keinen Einfluss gehabt wird.",
+        "Die Projektleiterin erklärt, die Verzögerung sei keinen Einfluss."
+      ]
+    },
+    {
+      "id": "gr36-e021",
+      "topicId": "gr-36",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Passiv und Modalverb",
+      "title_ar": "المبني للمجهول والفعل الناقص",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Anbieter versichert, die Daten könnten jederzeit wiederhergestellt werden.",
+      "explanation_de": "Im Plural wird zur eindeutigen indirekten Rede häufig könnten verwendet; das Passiv endet mit werden.",
+      "explanation_ar": "في الجمع تُستخدم غالبًا könnten لتوضيح الكلام المنقول، وينتهي المبني للمجهول بـ werden.",
+      "grammarFocus": "passive_modal_replacement",
+      "tokens": [
+        "jederzeit wiederhergestellt werden",
+        "die Daten könnten",
+        "Der Anbieter versichert"
+      ],
+      "acceptedAnswers": [
+        "Der Anbieter versichert, die Daten könnten jederzeit wiederhergestellt werden."
+      ]
+    },
+    {
+      "id": "gr36-e022",
+      "topicId": "gr-36",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Trennbares Verb mit dass",
+      "title_ar": "فعل قابل للفصل مع dass",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er sagt, dass er an der Sitzung teilnehme.",
+      "explanation_de": "Im dass-Satz steht das trennbare Verb zusammengeschrieben am Ende.",
+      "explanation_ar": "في جملة dass يأتي الفعل القابل للفصل كلمة واحدة في النهاية.",
+      "grammarFocus": "separable_with_dass",
+      "options": [
+        "Er sagt, dass er an der Sitzung teilnehme.",
+        "Er sagt, dass er nehme an der Sitzung teil.",
+        "Er sagt, dass er an der Sitzung nehme teil.",
+        "Er sagt, dass er an der Sitzung teilnimmt sei."
+      ]
+    },
+    {
+      "id": "gr36-e023",
+      "topicId": "gr-36",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Aussagen wiedergeben",
+      "title_ar": "نقل عدة أقوال",
+      "prompt_de": "Formen Sie um: Der Mitarbeiter sagt: „Ich bin zuständig. Ich habe alle Unterlagen. Ich kann sofort beginnen.“",
+      "prompt_ar": "حوّل الأقوال إلى كلام منقول.",
+      "answer": "Der Mitarbeiter sagt, er sei zuständig, habe alle Unterlagen und könne sofort beginnen.",
+      "explanation_de": "Die drei Aussagen werden mit sei, habe und könne wiedergegeben.",
+      "explanation_ar": "تُنقل الأقوال الثلاثة باستخدام sei وhabe وkönne.",
+      "grammarFocus": "multiple_indirect_statements",
+      "acceptedAnswers": [
+        "Der Mitarbeiter sagt, er sei zuständig, habe alle Unterlagen und könne sofort beginnen."
+      ]
+    },
+    {
+      "id": "gr36-e024",
+      "topicId": "gr-36",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Konjunktiv I",
+      "title_ar": "تدريب ختامي على Konjunktiv I",
+      "prompt_de": "Schreiben Sie einen sachlichen Bericht mit mindestens zwölf Sätzen über Aussagen aus einer Besprechung. Verwenden Sie mindestens acht eindeutige Konjunktiv-I-Formen im Präsens, darunter sei, habe, werde, könne, müsse, solle und wolle. Verwenden Sie Sätze mit und ohne dass, ein trennbares Verb, zwei Passivformen und mindestens zwei passende Ersatzformen im Konjunktiv II.",
+      "prompt_ar": "اكتب تقريرًا موضوعيًا من اثنتي عشرة جملة على الأقل عن أقوال في اجتماع. استخدم ثماني صيغ واضحة على الأقل من Konjunktiv I في الحاضر، منها sei وhabe وwerde وkönne وmüsse وsolle وwolle. استخدم جملًا مع dass ومن دونها، وفعلًا قابلًا للفصل، وصيغتين للمبني للمجهول، وصيغتين بديلتين مناسبتين على الأقل في Konjunktiv II.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens acht eindeutige Konjunktiv-I-Formen",
+          "mindestens ein Satz mit sei",
+          "mindestens ein Satz mit habe",
+          "mindestens ein Satz mit werde",
+          "mindestens drei verschiedene Modalverben",
+          "mindestens zwei dass-Sätze",
+          "mindestens zwei Sätze ohne dass",
+          "mindestens ein trennbares Verb",
+          "mindestens zwei Passivformen",
+          "mindestens zwei Ersatzformen bei identischem Konjunktiv I"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Perspektive, Pronomen, Verbform, Wortstellung, Passiv und sachliche Distanz.",
+      "explanation_ar": "راجع المنظور والضمائر وصيغة الفعل وترتيب الكلمات والمبني للمجهول والمسافة الموضوعية.",
+      "grammarFocus": "mixed_konjunktiv_i_present",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "b2-grammar-phase-index-v1",
+  "contentVersion": "2026-07-16",
+  "courseId": "b2-course",
+  "phaseId": "grammar-phase-4",
+  "title_de": "B2 Grammatik – Phase 4",
+  "title_ar": "قواعد B2 – المرحلة الرابعة",
+  "level": "B2",
+  "status": "assembled_and_validated",
+  "progressKeyRecommendation": "dmt_b2_grammar_progress_v1",
+  "topicCount": 10,
+  "exerciseCount": 246,
+  "difficultyDistribution": {
+    "easy": 71,
+    "hard": 71,
+    "medium": 104
+  },
+  "typeDistribution": {
+    "dialogue_choice": 1,
+    "fill_blank": 31,
+    "guided_writing": 10,
+    "matching": 21,
+    "multiple_choice": 81,
+    "scenario_choice": 20,
+    "sentence_build": 41,
+    "sentence_order": 41
+  },
+  "topics": [
+    {
+      "id": "gr-31",
+      "order": 31,
+      "slug": "gr-31-nominalisierung-verben-adjektive",
+      "title_de": "Nominalisierung von Verben und Adjektiven",
+      "title_ar": "تحويل الأفعال والصفات إلى أسماء",
+      "level": "B2",
+      "lessonPath": "topics/gr-31-nominalisierung-verben-adjektive/lesson.json",
+      "exercisesPath": "topics/gr-31-nominalisierung-verben-adjektive/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "nominalisierung"
+    },
+    {
+      "id": "gr-32",
+      "order": 32,
+      "slug": "gr-32-verbalisierung-und-nominalstil",
+      "title_de": "Verbalisierung und Nominalstil",
+      "title_ar": "التحويل إلى أسلوب فعلي والأسلوب الاسمي",
+      "level": "B2",
+      "lessonPath": "topics/gr-32-verbalisierung-und-nominalstil/lesson.json",
+      "exercisesPath": "topics/gr-32-verbalisierung-und-nominalstil/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "nominalisierung"
+    },
+    {
+      "id": "gr-33",
+      "order": 33,
+      "slug": "gr-33-nomen-verb-verbindungen-grundlagen",
+      "title_de": "Nomen-Verb-Verbindungen – Grundlagen",
+      "title_ar": "روابط الاسم والفعل – الأساسيات",
+      "level": "B2",
+      "lessonPath": "topics/gr-33-nomen-verb-verbindungen-grundlagen/lesson.json",
+      "exercisesPath": "topics/gr-33-nomen-verb-verbindungen-grundlagen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "nomen_verb_verbindungen"
+    },
+    {
+      "id": "gr-34",
+      "order": 34,
+      "slug": "gr-34-nomen-verb-verbindungen-beruflicher-kontext",
+      "title_de": "Nomen-Verb-Verbindungen im beruflichen Kontext",
+      "title_ar": "روابط الاسم والفعل في السياق المهني",
+      "level": "B2",
+      "lessonPath": "topics/gr-34-nomen-verb-verbindungen-beruflicher-kontext/lesson.json",
+      "exercisesPath": "topics/gr-34-nomen-verb-verbindungen-beruflicher-kontext/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 65,
+      "sourceType": "grundlage",
+      "category": "nomen_verb_verbindungen"
+    },
+    {
+      "id": "gr-35",
+      "order": 35,
+      "slug": "gr-35-funktionsverbgefuege-bedeutungsnuancen",
+      "title_de": "Funktionsverbgefüge und Bedeutungsnuancen",
+      "title_ar": "تراكيب الأفعال الوظيفية وفروق المعنى",
+      "level": "B2",
+      "lessonPath": "topics/gr-35-funktionsverbgefuege-bedeutungsnuancen/lesson.json",
+      "exercisesPath": "topics/gr-35-funktionsverbgefuege-bedeutungsnuancen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 65,
+      "sourceType": "grundlage",
+      "category": "funktionsverbgefuege"
+    },
+    {
+      "id": "gr-36",
+      "order": 36,
+      "slug": "gr-36-konjunktiv-i-gegenwart",
+      "title_de": "Konjunktiv I in der Gegenwart",
+      "title_ar": "Konjunktiv I في الحاضر",
+      "level": "B2",
+      "lessonPath": "topics/gr-36-konjunktiv-i-gegenwart/lesson.json",
+      "exercisesPath": "topics/gr-36-konjunktiv-i-gegenwart/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 65,
+      "sourceType": "grundlage",
+      "category": "indirekte_rede"
+    },
+    {
+      "id": "gr-37",
+      "order": 37,
+      "slug": "gr-37-konjunktiv-i-vergangenheit-zukunft",
+      "title_de": "Konjunktiv I in Vergangenheit und Zukunft",
+      "title_ar": "Konjunktiv I في الماضي والمستقبل",
+      "level": "B2",
+      "lessonPath": "topics/gr-37-konjunktiv-i-vergangenheit-zukunft/lesson.json",
+      "exercisesPath": "topics/gr-37-konjunktiv-i-vergangenheit-zukunft/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 70,
+      "sourceType": "grundlage",
+      "category": "indirekte_rede"
+    },
+    {
+      "id": "gr-38",
+      "order": 38,
+      "slug": "gr-38-indirekte-rede-pronomen-zeit-ort",
+      "title_de": "Indirekte Rede: Pronomen, Zeit- und Ortsangaben",
+      "title_ar": "الكلام المنقول: الضمائر وتعبيرات الزمان والمكان",
+      "level": "B2",
+      "lessonPath": "topics/gr-38-indirekte-rede-pronomen-zeit-ort/lesson.json",
+      "exercisesPath": "topics/gr-38-indirekte-rede-pronomen-zeit-ort/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 65,
+      "sourceType": "grundlage",
+      "category": "indirekte_rede"
+    },
+    {
+      "id": "gr-39",
+      "order": 39,
+      "slug": "gr-39-konjunktiv-i-ii-indikativ-indirekte-rede",
+      "title_de": "Konjunktiv I, Konjunktiv II und Indikativ in der indirekten Rede",
+      "title_ar": "Konjunktiv I وKonjunktiv II وIndikativ في الكلام المنقول",
+      "level": "B2",
+      "lessonPath": "topics/gr-39-konjunktiv-i-ii-indikativ-indirekte-rede/lesson.json",
+      "exercisesPath": "topics/gr-39-konjunktiv-i-ii-indikativ-indirekte-rede/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 70,
+      "sourceType": "grundlage",
+      "category": "indirekte_rede"
+    },
+    {
+      "id": "gr-40",
+      "order": 40,
+      "slug": "gr-40-gemischtes-training-phase-4",
+      "title_de": "Gemischtes Training – Phase 4",
+      "title_ar": "التدريب المختلط – المرحلة الرابعة",
+      "level": "B2",
+      "lessonPath": "topics/gr-40-gemischtes-training-phase-4/lesson.json",
+      "exercisesPath": "topics/gr-40-gemischtes-training-phase-4/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "hard": 8,
+        "medium": 14
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 3,
+        "multiple_choice": 9,
+        "scenario_choice": 2,
+        "sentence_build": 5,
+        "sentence_order": 5
+      },
+      "estimatedMinutes": 80,
+      "sourceType": "gemischtes_training",
+      "category": "phase_4_review"
+    }
+  ]
+}

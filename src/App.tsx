@@ -39,6 +39,7 @@ import {
 } from "./pages/SpecializedVocabularyTrainer";
 import VerbCategoryTrainer from "./pages/VerbCategoryTrainer";
 import DailyStudySet from "./pages/DailyStudySet";
+import B2CoursePage from "./features/b2-course/B2CoursePage";
 import B2GrammarPage from "./features/b2-grammar/B2GrammarPage";
 
 import { ProgressService } from "./services/progressService";
@@ -46,6 +47,16 @@ import { UserSettings } from "./types";
 import { getTranslation, Language } from "./services/translationService";
 
 const SETTINGS_KEY = "dmt_settings";
+const B2_PAGE_IDS = new Set(["b2-course", "b2-grammar"]);
+
+function getPageFromHash(): string {
+  const hashPage = window.location.hash.slice(1).split("/")[0];
+  return B2_PAGE_IDS.has(hashPage) ? hashPage : "dashboard";
+}
+
+function getInitialPage(): string {
+  return getPageFromHash();
+}
 
 const defaultSettings: UserSettings = {
   speechSpeed: "normal",
@@ -59,7 +70,7 @@ const defaultSettings: UserSettings = {
 import ZeitenTrainer from "./pages/ZeitenTrainer";
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<string>("dashboard");
+  const [currentPage, setCurrentPage] = useState<string>(getInitialPage);
   const [navigationParams, setNavigationParams] = useState<any>(null);
   const [settings, setSettings] = useState<UserSettings>(defaultSettings);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -127,7 +138,25 @@ export default function App() {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(newSettings));
   };
 
+  useEffect(() => {
+    const syncPageFromUrl = () => {
+      setCurrentPage(getPageFromHash());
+      setNavigationParams(null);
+      setMobileMenuOpen(false);
+    };
+    window.addEventListener("popstate", syncPageFromUrl);
+    window.addEventListener("hashchange", syncPageFromUrl);
+    return () => {
+      window.removeEventListener("popstate", syncPageFromUrl);
+      window.removeEventListener("hashchange", syncPageFromUrl);
+    };
+  }, []);
+
   const handleNavigate = (page: string, params?: any) => {
+    const nextUrl = B2_PAGE_IDS.has(page)
+      ? `${window.location.pathname}${window.location.search}#${page}`
+      : `${window.location.pathname}${window.location.search}`;
+    window.history.pushState(null, "", nextUrl);
     setCurrentPage(page);
     setNavigationParams(params || null);
     setMobileMenuOpen(false);
@@ -199,6 +228,7 @@ export default function App() {
     { id: "phrase-trainer", label: translate("phraseTrainer"), icon: MessageSquareText },
     { id: "general-vocabulary-trainer", label: translate("generalVocabularyTrainer"), icon: ListChecks },
     { id: "verb-category-trainer", label: translate("verbCategoryTrainer"), icon: Target },
+    { id: "b2-course", label: translate("b2Course"), icon: GraduationCap },
     { id: "b2-grammar", label: isRtl ? "قواعد B2" : "B2 Grammatik", icon: LibraryBig },
     { id: "quick", label: translate("quickPractice"), icon: Shuffle },
     { id: "review", label: translate("reviewMode"), icon: AlertTriangle },
@@ -365,7 +395,7 @@ export default function App() {
 
       {/* MAIN VIEW CONTENT CONTAINER */}
       <main 
-        className={`flex-1 pt-16 lg:pt-0 min-h-screen flex flex-col justify-between transition-all ${
+        className={`min-w-0 flex-1 pt-16 lg:pt-0 min-h-screen flex flex-col justify-between transition-all ${
           isRtl ? "lg:pr-64 lg:pl-0" : "lg:pl-64 lg:pr-0"
         }`}
       >
@@ -416,7 +446,12 @@ export default function App() {
             {currentPage === "verb-category-trainer" && (
               <VerbCategoryTrainer onNavigate={handleNavigate} settings={settings} />
             )}
-            {currentPage === "b2-grammar" && <B2GrammarPage settings={settings} />}
+            {currentPage === "b2-course" && (
+              <B2CoursePage onNavigate={handleNavigate} settings={settings} />
+            )}
+            {currentPage === "b2-grammar" && (
+              <B2GrammarPage onNavigate={handleNavigate} settings={settings} />
+            )}
             {currentPage === "quick" && (
               <QuickPractice onNavigate={handleNavigate} settings={settings} />
             )}

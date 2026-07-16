@@ -1,0 +1,538 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-38",
+  "title_de": "Indirekte Rede: Pronomen, Zeit- und Ortsangaben – Übungen",
+  "title_ar": "تمارين الكلام المنقول: الضمائر وتعبيرات الزمان والمكان",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr38-e001",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Ich und mein",
+      "title_ar": "ich وmein",
+      "prompt_de": "Welche indirekte Form ist korrekt? Frau Keller sagt: „Ich brauche meine Unterlagen.“",
+      "prompt_ar": "أي صيغة منقولة صحيحة؟",
+      "answer": "Frau Keller sagt, sie brauche ihre Unterlagen.",
+      "explanation_de": "Ich wird zu sie und meine zu ihre.",
+      "explanation_ar": "تتحول ich إلى sie وmeine إلى ihre.",
+      "grammarFocus": "personal_possessive_pronouns",
+      "options": [
+        "Frau Keller sagt, sie brauche ihre Unterlagen.",
+        "Frau Keller sagt, ich brauche meine Unterlagen.",
+        "Frau Keller sagt, er brauche seine Unterlagen.",
+        "Frau Keller sagt, sie brauche meine Unterlagen."
+      ]
+    },
+    {
+      "id": "gr38-e002",
+      "topicId": "gr-38",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Mir anpassen",
+      "title_ar": "تعديل mir",
+      "prompt_de": "Die Kundin sagt: „Der Berater hat mir geholfen.“ → Die Kundin sagt, der Berater habe ______ geholfen.",
+      "prompt_ar": "تقول العميلة إن المستشار ساعدها.",
+      "answer": "ihr",
+      "explanation_de": "Mir bezieht sich auf die Kundin und wird zu ihr.",
+      "explanation_ar": "تعود mir على العميلة ولذلك تتحول إلى ihr.",
+      "grammarFocus": "dative_pronoun",
+      "acceptedAnswers": [
+        "ihr"
+      ]
+    },
+    {
+      "id": "gr38-e003",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Gestern",
+      "title_ar": "gestern",
+      "prompt_de": "Welche spätere Wiedergabe ist korrekt?",
+      "prompt_ar": "أي نقل لاحق صحيح؟",
+      "answer": "Sie sagte, sie habe am Vortag angerufen.",
+      "explanation_de": "Gestern wird bei späterer Wiedergabe zu am Vortag.",
+      "explanation_ar": "تتحول gestern عند النقل اللاحق إلى am Vortag.",
+      "grammarFocus": "gestern_to_vortag",
+      "options": [
+        "Sie sagte, sie habe am Vortag angerufen.",
+        "Sie sagte, sie habe morgen angerufen.",
+        "Sie sagte, sie rufe gestern an.",
+        "Sie sagte, sie habe an diesem Ort angerufen."
+      ]
+    },
+    {
+      "id": "gr38-e004",
+      "topicId": "gr-38",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Zeitangaben",
+      "title_ar": "تعبيرات الزمن",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "heute": "an diesem Tag",
+        "gestern": "am Vortag",
+        "morgen": "am nächsten Tag",
+        "vorgestern": "zwei Tage zuvor",
+        "übermorgen": "zwei Tage später"
+      },
+      "explanation_de": "Die Angaben werden relativ zum ursprünglichen Sprechzeitpunkt angepasst.",
+      "explanation_ar": "تُعدّل التعبيرات بالنسبة إلى وقت الكلام الأصلي.",
+      "grammarFocus": "time_expression_matching",
+      "pairs": [
+        [
+          "heute",
+          "an diesem Tag"
+        ],
+        [
+          "gestern",
+          "am Vortag"
+        ],
+        [
+          "morgen",
+          "am nächsten Tag"
+        ],
+        [
+          "vorgestern",
+          "zwei Tage zuvor"
+        ],
+        [
+          "übermorgen",
+          "zwei Tage später"
+        ]
+      ]
+    },
+    {
+      "id": "gr38-e005",
+      "topicId": "gr-38",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Hier zu dort",
+      "title_ar": "hier إلى dort",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Später berichtete sie, dort sei es sehr laut gewesen.",
+      "explanation_de": "Bei geändertem Ort wird hier zu dort.",
+      "explanation_ar": "عند تغير المكان تتحول hier إلى dort.",
+      "grammarFocus": "place_shift_order",
+      "tokens": [
+        "sehr laut gewesen",
+        "dort sei es",
+        "Später berichtete sie"
+      ],
+      "acceptedAnswers": [
+        "Später berichtete sie, dort sei es sehr laut gewesen."
+      ]
+    },
+    {
+      "id": "gr38-e006",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Morgen",
+      "title_ar": "morgen",
+      "prompt_de": "Er sagte am Montag: „Ich komme morgen.“ Welche Form ist korrekt?",
+      "prompt_ar": "قال يوم الاثنين: «سآتي غدًا». ما الصيغة الصحيحة؟",
+      "answer": "Er sagte am Montag, er komme am nächsten Tag.",
+      "explanation_de": "Morgen wird bei späterer Wiedergabe zu am nächsten Tag.",
+      "explanation_ar": "تتحول morgen عند النقل اللاحق إلى am nächsten Tag.",
+      "grammarFocus": "morgen_to_next_day",
+      "options": [
+        "Er sagte am Montag, er komme am nächsten Tag.",
+        "Er sagte am Montag, er komme gestern.",
+        "Er sagte am Montag, er sei morgen gekommen.",
+        "Er sagte am Montag, er komme an diesem Ort."
+      ]
+    },
+    {
+      "id": "gr38-e007",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Mehrdeutigkeit vermeiden",
+      "title_ar": "تجنب الالتباس",
+      "prompt_de": "Welche Form ist am klarsten? Die Chefin sagt zu Anna: „Sie müssen warten.“",
+      "prompt_ar": "أي صيغة هي الأوضح؟",
+      "answer": "Die Chefin sagt, Anna müsse warten.",
+      "explanation_de": "Der Name vermeidet die Mehrdeutigkeit von sie.",
+      "explanation_ar": "يمنع الاسم التباس الضمير sie.",
+      "grammarFocus": "avoid_ambiguity",
+      "options": [
+        "Die Chefin sagt, Anna müsse warten.",
+        "Die Chefin sagt, sie müsse warten.",
+        "Die Chefin sagt, ich müsse warten.",
+        "Die Chefin sagt, wir müsse warten."
+      ]
+    },
+    {
+      "id": "gr38-e008",
+      "topicId": "gr-38",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Unsere Abteilung",
+      "title_ar": "قسمنا",
+      "prompt_de": "Sie sagt: „Unsere Abteilung ist zuständig.“ → Sie sagt, ______ Abteilung sei zuständig.",
+      "prompt_ar": "تقول إن قسمها مسؤول.",
+      "answer": "ihre",
+      "explanation_de": "Unser wird bei einer weiblichen Sprecherin zu ihr-.",
+      "explanation_ar": "تتحول unser عند متحدثة مؤنثة إلى ihr-.",
+      "grammarFocus": "possessive_plural_group",
+      "acceptedAnswers": [
+        "ihre"
+      ]
+    },
+    {
+      "id": "gr38-e009",
+      "topicId": "gr-38",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Pronomen anpassen",
+      "title_ar": "تعديل الضمائر",
+      "prompt_de": "Formen Sie um: Herr Wolf sagt: „Ich bespreche das mit meinem Team.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Herr Wolf sagt, er bespreche das mit seinem Team.",
+      "explanation_de": "Ich wird zu er; meinem wird zu seinem.",
+      "explanation_ar": "تتحول ich إلى er وmeinem إلى seinem.",
+      "grammarFocus": "pronoun_reformulation",
+      "acceptedAnswers": [
+        "Herr Wolf sagt, er bespreche das mit seinem Team."
+      ]
+    },
+    {
+      "id": "gr38-e010",
+      "topicId": "gr-38",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Zeit und Besitz",
+      "title_ar": "الزمن والملكية",
+      "prompt_de": "Formen Sie um: Frau Sommer sagte am Montag zu Herrn Klein: „Ich sende Ihnen morgen meine Unterlagen.“",
+      "prompt_ar": "حوّل إلى كلام منقول واضح.",
+      "answer": "Frau Sommer sagte am Montag, sie werde Herrn Klein am nächsten Tag ihre Unterlagen senden.",
+      "explanation_de": "Sprecher, Adressat, Zeit und Possessivpronomen werden angepasst.",
+      "explanation_ar": "يتم تعديل المتحدث والمخاطب والزمن وضمير الملكية.",
+      "grammarFocus": "complex_pronoun_time",
+      "acceptedAnswers": [
+        "Frau Sommer sagte am Montag, sie werde Herrn Klein am nächsten Tag ihre Unterlagen senden."
+      ]
+    },
+    {
+      "id": "gr38-e011",
+      "topicId": "gr-38",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Jetzt",
+      "title_ar": "jetzt",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie erklärte, zu diesem Zeitpunkt sei alles geklärt gewesen.",
+      "explanation_de": "Jetzt wird bei späterer Wiedergabe zu zu diesem Zeitpunkt.",
+      "explanation_ar": "تتحول jetzt عند النقل اللاحق إلى zu diesem Zeitpunkt.",
+      "grammarFocus": "jetzt_shift_order",
+      "tokens": [
+        "alles geklärt gewesen",
+        "zu diesem Zeitpunkt sei",
+        "Sie erklärte"
+      ],
+      "acceptedAnswers": [
+        "Sie erklärte, zu diesem Zeitpunkt sei alles geklärt gewesen."
+      ]
+    },
+    {
+      "id": "gr38-e012",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Letzte Woche",
+      "title_ar": "الأسبوع الماضي",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er sagte, er sei in der Vorwoche krank gewesen.",
+      "explanation_de": "Letzte Woche wird bei späterer Wiedergabe zu in der Vorwoche.",
+      "explanation_ar": "تتحول letzte Woche عند النقل اللاحق إلى in der Vorwoche.",
+      "grammarFocus": "last_week_shift",
+      "options": [
+        "Er sagte, er sei in der Vorwoche krank gewesen.",
+        "Er sagte, er sei in der nächsten Woche krank gewesen.",
+        "Er sagte, er arbeite letzte Woche krank.",
+        "Er sagte, er sei dort Woche krank gewesen."
+      ]
+    },
+    {
+      "id": "gr38-e013",
+      "topicId": "gr-38",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Ortsangaben",
+      "title_ar": "تعبيرات المكان",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "hier": "dort",
+        "hierher": "dorthin",
+        "von hier": "von dort",
+        "bei uns": "bei ihnen",
+        "zu mir": "zu ihm / zu ihr"
+      },
+      "explanation_de": "Die Ortsangaben werden an den neuen Berichtsort angepasst.",
+      "explanation_ar": "تُعدّل تعبيرات المكان وفق مكان النقل الجديد.",
+      "grammarFocus": "place_expression_matching",
+      "pairs": [
+        [
+          "hier",
+          "dort"
+        ],
+        [
+          "hierher",
+          "dorthin"
+        ],
+        [
+          "von hier",
+          "von dort"
+        ],
+        [
+          "bei uns",
+          "bei ihnen"
+        ],
+        [
+          "zu mir",
+          "zu ihm / zu ihr"
+        ]
+      ]
+    },
+    {
+      "id": "gr38-e014",
+      "topicId": "gr-38",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung ist eindeutig und sachlich?",
+      "prompt_ar": "أي صياغة واضحة وموضوعية؟",
+      "answer": "Die Antragstellerin erklärte, der Sachbearbeiter habe ihr am Vortag dort geholfen.",
+      "explanation_de": "Das Nomen Antragstellerin und die angepassten Angaben vermeiden Mehrdeutigkeit.",
+      "explanation_ar": "يمنع الاسم Antragstellerin والتعبيران المعدلان الالتباس.",
+      "grammarFocus": "formal_clear_reference",
+      "options": [
+        "Die Antragstellerin erklärte, der Sachbearbeiter habe ihr am Vortag dort geholfen.",
+        "Sie erklärte, er habe ihr gestern hier geholfen, wobei niemand klar ist.",
+        "Die Antragstellerin erklärte, ich habe mir morgen geholfen.",
+        "Die Antragstellerin erklärte, der Sachbearbeiter sei ihr dort helfen."
+      ]
+    },
+    {
+      "id": "gr38-e015",
+      "topicId": "gr-38",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Von hier",
+      "title_ar": "من هنا",
+      "prompt_de": "Er sagte im alten Büro: „Die Unterlagen wurden von hier versandt.“ → Er sagte später, die Unterlagen seien von ______ versandt worden.",
+      "prompt_ar": "قال لاحقًا إن المستندات أُرسلت من هناك.",
+      "answer": "dort",
+      "explanation_de": "Von hier wird bei Ortswechsel zu von dort.",
+      "explanation_ar": "تتحول von hier عند تغير المكان إلى von dort.",
+      "grammarFocus": "from_here_shift",
+      "acceptedAnswers": [
+        "dort"
+      ]
+    },
+    {
+      "id": "gr38-e016",
+      "topicId": "gr-38",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nächste Woche",
+      "title_ar": "الأسبوع المقبل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Leitung kündigte an, die Schulung werde in der folgenden Woche beginnen.",
+      "explanation_de": "Nächste Woche wird bei späterer Wiedergabe zu in der folgenden Woche.",
+      "explanation_ar": "تتحول nächste Woche عند النقل اللاحق إلى in der folgenden Woche.",
+      "grammarFocus": "next_week_order",
+      "tokens": [
+        "in der folgenden Woche beginnen",
+        "die Schulung werde",
+        "Die Leitung kündigte an"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung kündigte an, die Schulung werde in der folgenden Woche beginnen."
+      ]
+    },
+    {
+      "id": "gr38-e017",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Gleicher Tag",
+      "title_ar": "اليوم نفسه",
+      "prompt_de": "Welche Form ist korrekt, wenn die Aussage noch am selben Tag wiedergegeben wird?",
+      "prompt_ar": "أي صيغة صحيحة عندما يُنقل القول في اليوم نفسه؟",
+      "answer": "Sie sagt, sie komme heute.",
+      "explanation_de": "Bei gleichem Berichtstag kann heute unverändert bleiben.",
+      "explanation_ar": "عند النقل في اليوم نفسه يمكن أن تبقى heute كما هي.",
+      "grammarFocus": "same_day_context",
+      "options": [
+        "Sie sagt, sie komme heute.",
+        "Sie sagt, sie komme zwingend am Vortag.",
+        "Sie sagt, sie sei gestern kommen.",
+        "Sie sagt, sie komme dort Tag."
+      ]
+    },
+    {
+      "id": "gr38-e018",
+      "topicId": "gr-38",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Bezüge anpassen",
+      "title_ar": "تعديل عدة مراجع",
+      "prompt_de": "Formen Sie um: Die Beschäftigten sagten am Dienstag: „Unser Team hat gestern hier gearbeitet.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Die Beschäftigten sagten am Dienstag, ihr Team habe am Vortag dort gearbeitet.",
+      "explanation_de": "Unser, gestern und hier werden angepasst.",
+      "explanation_ar": "تتغير unser وgestern وhier.",
+      "grammarFocus": "multiple_reference_shift",
+      "acceptedAnswers": [
+        "Die Beschäftigten sagten am Dienstag, ihr Team habe am Vortag dort gearbeitet."
+      ]
+    },
+    {
+      "id": "gr38-e019",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Kontextabhängige Anpassung",
+      "title_ar": "التعديل بحسب السياق",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Zeit- und Ortsangaben werden nur verändert, wenn sich der relevante Zeitpunkt oder Ort der Wiedergabe ändert.",
+      "explanation_de": "Die Anpassung hängt von der tatsächlichen Kommunikationssituation ab.",
+      "explanation_ar": "يعتمد التعديل على وضع التواصل الفعلي.",
+      "grammarFocus": "context_dependent_shift",
+      "options": [
+        "Zeit- und Ortsangaben werden nur verändert, wenn sich der relevante Zeitpunkt oder Ort der Wiedergabe ändert.",
+        "Heute muss in jeder indirekten Rede immer zu gestern werden.",
+        "Hier muss auch am selben Ort immer zu dort werden.",
+        "Pronomen und Zeitangaben dürfen nie verändert werden."
+      ]
+    },
+    {
+      "id": "gr38-e020",
+      "topicId": "gr-38",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Protokoll mit klaren Bezügen",
+      "title_ar": "محضر بمراجع واضحة",
+      "prompt_de": "Welche Formulierung eignet sich am besten für ein Protokoll mit mehreren weiblichen Personen?",
+      "prompt_ar": "أي صياغة أنسب لمحضر فيه عدة أشخاص مؤنثين؟",
+      "answer": "Frau Yilmaz erklärte, Frau Berger habe ihr die Unterlagen am Vortag übergeben.",
+      "explanation_de": "Die Namen klären, wer gehandelt und wer die Unterlagen erhalten hat.",
+      "explanation_ar": "توضح الأسماء من قامت بالفعل ومن استلمت المستندات.",
+      "grammarFocus": "multiple_female_references",
+      "options": [
+        "Frau Yilmaz erklärte, Frau Berger habe ihr die Unterlagen am Vortag übergeben.",
+        "Sie erklärte, sie habe ihr die Unterlagen gestern übergeben.",
+        "Sie sagte, sie gebe sie ihr, ohne klare Bezüge.",
+        "Frau Yilmaz erklärte, ich habe sie ihr morgen gegeben."
+      ]
+    },
+    {
+      "id": "gr38-e021",
+      "topicId": "gr-38",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Zeit, Ort und Pronomen",
+      "title_ar": "الزمن والمكان والضمير",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Kundin berichtete, der Berater habe ihr zwei Tage zuvor dort ausführlich geholfen.",
+      "explanation_de": "Mir, vorgestern und hier werden zu ihr, zwei Tage zuvor und dort.",
+      "explanation_ar": "تتحول mir وvorgestern وhier إلى ihr وzwei Tage zuvor وdort.",
+      "grammarFocus": "triple_shift_order",
+      "tokens": [
+        "zwei Tage zuvor dort ausführlich geholfen",
+        "der Berater habe ihr",
+        "Die Kundin berichtete"
+      ],
+      "acceptedAnswers": [
+        "Die Kundin berichtete, der Berater habe ihr zwei Tage zuvor dort ausführlich geholfen."
+      ]
+    },
+    {
+      "id": "gr38-e022",
+      "topicId": "gr-38",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Futur II und Zeitangabe",
+      "title_ar": "Futur II وتعبير الزمن",
+      "prompt_de": "Welche Form ist korrekt? Der Projektleiter sagte am Montag: „Bis übermorgen werde ich den Bericht fertiggestellt haben.“",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Projektleiter sagte am Montag, er werde den Bericht bis zum Mittwoch fertiggestellt haben.",
+      "explanation_de": "Übermorgen entspricht bei einer Aussage am Montag dem Mittwoch.",
+      "explanation_ar": "تعني übermorgen في قول صدر يوم الاثنين يوم الأربعاء.",
+      "grammarFocus": "future_perfect_time_shift",
+      "options": [
+        "Der Projektleiter sagte am Montag, er werde den Bericht bis zum Mittwoch fertiggestellt haben.",
+        "Der Projektleiter sagte am Montag, er habe den Bericht gestern fertigstellen.",
+        "Der Projektleiter sagte am Montag, er werde den Bericht bis vorgestern abgeschlossen haben.",
+        "Der Projektleiter sagte am Montag, ich werde diesen Bericht hier fertiggestellt haben."
+      ]
+    },
+    {
+      "id": "gr38-e023",
+      "topicId": "gr-38",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe Aussage wiedergeben",
+      "title_ar": "نقل قول معقد",
+      "prompt_de": "Formen Sie um: Frau Neumann sagte am Freitag zu Herrn Roth: „Ich habe Ihnen gestern meine Auswertung hier gezeigt und werde Ihnen nächste Woche die neue Version schicken.“",
+      "prompt_ar": "حوّل إلى كلام منقول واضح.",
+      "answer": "Frau Neumann sagte am Freitag, sie habe Herrn Roth am Vortag dort ihre Auswertung gezeigt und werde ihm in der folgenden Woche die neue Version schicken.",
+      "explanation_de": "Sprecher, Adressat, Possessivpronomen, zwei Zeitangaben und die Ortsangabe werden angepasst.",
+      "explanation_ar": "يتم تعديل المتحدث والمخاطب وضمير الملكية وتعبيرين زمنيين وتعبير المكان.",
+      "grammarFocus": "complex_full_shift",
+      "acceptedAnswers": [
+        "Frau Neumann sagte am Freitag, sie habe Herrn Roth am Vortag dort ihre Auswertung gezeigt und werde ihm in der folgenden Woche die neue Version schicken."
+      ]
+    },
+    {
+      "id": "gr38-e024",
+      "topicId": "gr-38",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Perspektivwechsel",
+      "title_ar": "تدريب ختامي على تغيير المنظور",
+      "prompt_de": "Schreiben Sie ein sachliches Besprechungsprotokoll mit mindestens zwölf Sätzen. Geben Sie Aussagen von mindestens vier Personen wieder. Passen Sie Personal-, Possessiv-, Dativ- und Akkusativpronomen sowie mindestens sechs Zeit- und vier Ortsangaben korrekt an. Vermeiden Sie mehrdeutige Bezüge.",
+      "prompt_ar": "اكتب محضر اجتماع موضوعيًا من اثنتي عشرة جملة على الأقل. انقل أقوال أربعة أشخاص على الأقل. عدّل ضمائر الشخص والملكية وDativ وAkkusativ، إضافة إلى ستة تعبيرات زمنية وأربعة تعبيرات مكانية على الأقل. تجنب المراجع الملتبسة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier verschiedene Sprecher",
+          "mindestens vier angepasste Personalpronomen",
+          "mindestens drei angepasste Possessivpronomen",
+          "mindestens zwei Dativpronomen",
+          "mindestens zwei Akkusativpronomen oder eindeutige Nomen",
+          "mindestens sechs angepasste Zeitangaben",
+          "mindestens vier angepasste Ortsangaben",
+          "mindestens zwei unveränderte Angaben bei gleichem Kontext",
+          "keine mehrdeutigen Pronomen",
+          "korrekte Konjunktivformen und sachlicher Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Sprecher, Adressat, Besitz, Zeit, Ort, Verbform und Eindeutigkeit.",
+      "explanation_ar": "راجع المتحدث والمخاطب والملكية والزمن والمكان وصيغة الفعل ووضوح المرجع.",
+      "grammarFocus": "mixed_pronoun_time_place_shift",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

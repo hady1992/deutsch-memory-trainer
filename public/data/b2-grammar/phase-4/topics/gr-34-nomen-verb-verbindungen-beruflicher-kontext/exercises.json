@@ -1,0 +1,548 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-34",
+  "title_de": "Nomen-Verb-Verbindungen im beruflichen Kontext – Übungen",
+  "title_ar": "تمارين روابط الاسم والفعل في السياق المهني",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr34-e001",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Kontakt aufnehmen",
+      "title_ar": "التواصل",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Bitte nehmen Sie Kontakt mit der Personalabteilung auf.",
+      "explanation_de": "Kontakt aufnehmen verlangt mit + Dativ.",
+      "explanation_ar": "تحتاج Kontakt aufnehmen إلى mit + Dativ.",
+      "grammarFocus": "contact_collocation",
+      "options": [
+        "Bitte nehmen Sie Kontakt mit der Personalabteilung auf.",
+        "Bitte nehmen Sie Kontakt zu die Personalabteilung auf.",
+        "Bitte machen Sie Kontakt mit der Personalabteilung.",
+        "Bitte stellen Sie Kontakt an der Personalabteilung."
+      ]
+    },
+    {
+      "id": "gr34-e002",
+      "topicId": "gr-34",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Stellung nehmen",
+      "title_ar": "إبداء موقف",
+      "prompt_de": "Der Betriebsrat nimmt ______ dem Vorschlag Stellung.",
+      "prompt_ar": "يبدي مجلس العمال موقفه من الاقتراح.",
+      "answer": "zu",
+      "explanation_de": "Stellung nehmen verlangt zu + Dativ.",
+      "explanation_ar": "تحتاج Stellung nehmen إلى zu + Dativ.",
+      "grammarFocus": "stellung_preposition",
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr34-e003",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zur Kenntnis nehmen",
+      "title_ar": "الإحاطة علمًا",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir haben Ihre Mitteilung zur Kenntnis genommen.",
+      "explanation_de": "Die feste Verbindung lautet etwas zur Kenntnis nehmen.",
+      "explanation_ar": "الرابط الثابت هو etwas zur Kenntnis nehmen.",
+      "grammarFocus": "kenntnis_collocation",
+      "options": [
+        "Wir haben Ihre Mitteilung zur Kenntnis genommen.",
+        "Wir haben Ihre Mitteilung in Kenntnis genommen.",
+        "Wir haben Ihre Mitteilung zur Kenntnis gebracht uns.",
+        "Wir sind Ihre Mitteilung zur Kenntnis genommen."
+      ]
+    },
+    {
+      "id": "gr34-e004",
+      "topicId": "gr-34",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Verbindung und Bedeutung",
+      "title_ar": "الرابط والمعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Kontakt aufnehmen": "eine Kommunikation beginnen",
+        "Stellung nehmen": "eine Position äußern",
+        "zur Kenntnis nehmen": "offiziell wahrnehmen",
+        "Bezug nehmen": "sich auf etwas beziehen",
+        "eine Rückmeldung geben": "antworten"
+      },
+      "explanation_de": "Die Verbindungen haben unterschiedliche kommunikative Funktionen.",
+      "explanation_ar": "للروابط وظائف تواصلية مختلفة.",
+      "grammarFocus": "professional_meaning_matching",
+      "pairs": [
+        [
+          "Kontakt aufnehmen",
+          "eine Kommunikation beginnen"
+        ],
+        [
+          "Stellung nehmen",
+          "eine Position äußern"
+        ],
+        [
+          "zur Kenntnis nehmen",
+          "offiziell wahrnehmen"
+        ],
+        [
+          "Bezug nehmen",
+          "sich auf etwas beziehen"
+        ],
+        [
+          "eine Rückmeldung geben",
+          "antworten"
+        ]
+      ]
+    },
+    {
+      "id": "gr34-e005",
+      "topicId": "gr-34",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Auftrag erteilen",
+      "title_ar": "تكليف رسمي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Geschäftsleitung erteilt der IT-Abteilung den Auftrag zur Umsetzung.",
+      "explanation_de": "Der Empfänger des Auftrags steht im Dativ.",
+      "explanation_ar": "يأتي متلقي التكليف في Dativ.",
+      "grammarFocus": "auftrag_order",
+      "tokens": [
+        "den Auftrag zur Umsetzung",
+        "erteilt",
+        "der IT-Abteilung",
+        "Die Geschäftsleitung"
+      ],
+      "acceptedAnswers": [
+        "Die Geschäftsleitung erteilt der IT-Abteilung den Auftrag zur Umsetzung."
+      ]
+    },
+    {
+      "id": "gr34-e006",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Anforderungen erfüllen",
+      "title_ar": "استيفاء المتطلبات",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Angebot erfüllt alle technischen Anforderungen.",
+      "explanation_de": "Die feste Verbindung lautet Anforderungen erfüllen.",
+      "explanation_ar": "الرابط الثابت هو Anforderungen erfüllen.",
+      "grammarFocus": "requirements_collocation",
+      "options": [
+        "Das Angebot erfüllt alle technischen Anforderungen.",
+        "Das Angebot macht alle technischen Anforderungen.",
+        "Das Angebot trifft alle technischen Anforderungen.",
+        "Das Angebot nimmt alle technischen Anforderungen."
+      ]
+    },
+    {
+      "id": "gr34-e007",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Frist einhalten",
+      "title_ar": "الالتزام بالمهلة",
+      "prompt_de": "Welche Verbindung ist korrekt?",
+      "prompt_ar": "أي رابط صحيح؟",
+      "answer": "eine Frist einhalten",
+      "explanation_de": "Die feste Verbindung lautet eine Frist einhalten.",
+      "explanation_ar": "الرابط الثابت هو eine Frist einhalten.",
+      "grammarFocus": "deadline_collocation",
+      "options": [
+        "eine Frist einhalten",
+        "eine Frist behalten",
+        "eine Frist nehmen",
+        "eine Frist üben"
+      ]
+    },
+    {
+      "id": "gr34-e008",
+      "topicId": "gr-34",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Bezug nehmen",
+      "title_ar": "الإشارة إلى",
+      "prompt_de": "In meinem Schreiben nehme ich Bezug ______ Ihre E-Mail vom Montag.",
+      "prompt_ar": "أشير في رسالتي إلى بريدك يوم الاثنين.",
+      "answer": "auf",
+      "explanation_de": "Bezug nehmen verlangt auf + Akkusativ.",
+      "explanation_ar": "تحتاج Bezug nehmen إلى auf + Akkusativ.",
+      "grammarFocus": "bezug_preposition",
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "gr34-e009",
+      "topicId": "gr-34",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Formell umformulieren",
+      "title_ar": "إعادة صياغة رسمية",
+      "prompt_de": "Formulieren Sie formeller: Wir kontaktieren die zuständige Stelle.",
+      "prompt_ar": "أعد الصياغة بصورة أكثر رسمية.",
+      "answer": "Wir nehmen Kontakt mit der zuständigen Stelle auf.",
+      "explanation_de": "Kontakt aufnehmen ist eine typische formelle Verbindung.",
+      "explanation_ar": "Kontakt aufnehmen رابط رسمي شائع.",
+      "grammarFocus": "contact_reformulation",
+      "acceptedAnswers": [
+        "Wir nehmen Kontakt mit der zuständigen Stelle auf."
+      ]
+    },
+    {
+      "id": "gr34-e010",
+      "topicId": "gr-34",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Stellung nehmen",
+      "title_ar": "إبداء موقف",
+      "prompt_de": "Formulieren Sie mit einer Nomen-Verb-Verbindung: Der Betriebsrat äußert sich zu dem Vorschlag.",
+      "prompt_ar": "أعد الصياغة باستخدام رابط اسم وفعل.",
+      "answer": "Der Betriebsrat nimmt zu dem Vorschlag Stellung.",
+      "explanation_de": "Sich äußern zu kann formell durch Stellung nehmen zu ausgedrückt werden.",
+      "explanation_ar": "يمكن التعبير رسميًا عن sich äußern zu باستخدام Stellung nehmen zu.",
+      "grammarFocus": "stellung_reformulation",
+      "acceptedAnswers": [
+        "Der Betriebsrat nimmt zu dem Vorschlag Stellung."
+      ]
+    },
+    {
+      "id": "gr34-e011",
+      "topicId": "gr-34",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "In Kraft treten",
+      "title_ar": "بدء السريان",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die neue Regelung tritt am 1. Oktober in Kraft.",
+      "explanation_de": "Treten beschreibt den Beginn der Geltung ohne handelndes Subjekt.",
+      "explanation_ar": "تصف treten بدء السريان من دون فاعل يقوم بالفعل.",
+      "grammarFocus": "inkrafttreten_order",
+      "tokens": [
+        "in Kraft",
+        "am 1. Oktober",
+        "tritt",
+        "Die neue Regelung"
+      ],
+      "acceptedAnswers": [
+        "Die neue Regelung tritt am 1. Oktober in Kraft."
+      ]
+    },
+    {
+      "id": "gr34-e012",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "In Kraft setzen",
+      "title_ar": "وضع موضع التنفيذ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Behörde setzt die neue Regelung zum 1. Oktober in Kraft.",
+      "explanation_de": "Setzen wird verwendet, wenn ein Handelnder die Geltung aktiv veranlasst.",
+      "explanation_ar": "نستخدم setzen عندما يضع فاعل النظام موضع التنفيذ.",
+      "grammarFocus": "inkraftsetzen_active",
+      "options": [
+        "Die Behörde setzt die neue Regelung zum 1. Oktober in Kraft.",
+        "Die Behörde tritt die neue Regelung zum 1. Oktober in Kraft.",
+        "Die neue Regelung setzt am 1. Oktober in Kraft.",
+        "Die Behörde macht die Regelung in Kraft."
+      ]
+    },
+    {
+      "id": "gr34-e013",
+      "topicId": "gr-34",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Verbindung und Ergänzung",
+      "title_ar": "الرابط والمتمم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Kontakt aufnehmen": "mit + Dativ",
+        "Stellung nehmen": "zu + Dativ",
+        "Bezug nehmen": "auf + Akkusativ",
+        "Beschwerde einreichen": "bei + Dativ / gegen + Akkusativ",
+        "Verhandlungen führen": "mit + Dativ / über + Akkusativ"
+      },
+      "explanation_de": "Präposition und Kasus gehören fest zur Verbindung.",
+      "explanation_ar": "يكون حرف الجر والحالة جزءًا ثابتًا من الرابط.",
+      "grammarFocus": "professional_complement_matching",
+      "pairs": [
+        [
+          "Kontakt aufnehmen",
+          "mit + Dativ"
+        ],
+        [
+          "Stellung nehmen",
+          "zu + Dativ"
+        ],
+        [
+          "Bezug nehmen",
+          "auf + Akkusativ"
+        ],
+        [
+          "Beschwerde einreichen",
+          "bei + Dativ / gegen + Akkusativ"
+        ],
+        [
+          "Verhandlungen führen",
+          "mit + Dativ / über + Akkusativ"
+        ]
+      ]
+    },
+    {
+      "id": "gr34-e014",
+      "topicId": "gr-34",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "بريد رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in eine formelle E-Mail?",
+      "prompt_ar": "أي صياغة تناسب بريدًا رسميًا؟",
+      "answer": "Unter Bezugnahme auf unser Gespräch bitten wir Sie um eine Rückmeldung bis Freitag.",
+      "explanation_de": "Die Formulierung verbindet Bezugnahme und Rückmeldung in sachlichem Stil.",
+      "explanation_ar": "تجمع الصياغة بين الإشارة إلى حديث سابق وطلب الرد بأسلوب موضوعي.",
+      "grammarFocus": "formal_email",
+      "options": [
+        "Unter Bezugnahme auf unser Gespräch bitten wir Sie um eine Rückmeldung bis Freitag.",
+        "Wegen unserem Gespräch sagen Sie uns Freitag Bescheid mal.",
+        "Wir nehmen unser Gespräch und wollen Antwort.",
+        "Bezug auf Gespräch, Rückmeldung machen bis Freitag."
+      ]
+    },
+    {
+      "id": "gr34-e015",
+      "topicId": "gr-34",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Beschwerde einreichen",
+      "title_ar": "تقديم شكوى",
+      "prompt_de": "Die Kundin reichte bei der zuständigen Stelle eine Beschwerde ______.",
+      "prompt_ar": "قدمت العميلة شكوى لدى الجهة المختصة.",
+      "answer": "ein",
+      "explanation_de": "Das trennbare Verb einreichen wird im Hauptsatz getrennt.",
+      "explanation_ar": "ينفصل الفعل einreichen في الجملة الرئيسية.",
+      "grammarFocus": "complaint_separable",
+      "acceptedAnswers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "gr34-e016",
+      "topicId": "gr-34",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vereinbarung treffen",
+      "title_ar": "إبرام اتفاق",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Parteien trafen eine Vereinbarung über die weitere Zusammenarbeit.",
+      "explanation_de": "Treffen bildet mit Vereinbarung eine feste Verbindung.",
+      "explanation_ar": "يشكل treffen مع Vereinbarung رابطًا ثابتًا.",
+      "grammarFocus": "agreement_order",
+      "tokens": [
+        "über die weitere Zusammenarbeit",
+        "trafen",
+        "eine Vereinbarung",
+        "Die Parteien"
+      ],
+      "acceptedAnswers": [
+        "Die Parteien trafen eine Vereinbarung über die weitere Zusammenarbeit."
+      ]
+    },
+    {
+      "id": "gr34-e017",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Rückmeldung geben",
+      "title_ar": "تقديم رد",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Bitte geben Sie uns bis Freitag eine Rückmeldung.",
+      "explanation_de": "Der Empfänger steht im Dativ; die feste Verbindung lautet eine Rückmeldung geben.",
+      "explanation_ar": "يأتي متلقي الرد في Dativ، والرابط الثابت هو eine Rückmeldung geben.",
+      "grammarFocus": "feedback_collocation",
+      "options": [
+        "Bitte geben Sie uns bis Freitag eine Rückmeldung.",
+        "Bitte machen Sie uns bis Freitag eine Rückmeldung.",
+        "Bitte geben Sie wir bis Freitag eine Rückmeldung.",
+        "Bitte stellen Sie bis Freitag Rückmeldung an uns."
+      ]
+    },
+    {
+      "id": "gr34-e018",
+      "topicId": "gr-34",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Passiv bilden",
+      "title_ar": "تكوين المبني للمجهول",
+      "prompt_de": "Setzen Sie ins Passiv: Die Leitung erteilte der Abteilung den Auftrag.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Der Abteilung wurde der Auftrag erteilt.",
+      "explanation_de": "Der frühere Dativ bleibt Dativ; der Auftrag wird zum Subjekt.",
+      "explanation_ar": "يبقى Dativ كما هو، ويتحول Auftrag إلى فاعل نحوي.",
+      "grammarFocus": "auftrag_passive",
+      "acceptedAnswers": [
+        "Der Abteilung wurde der Auftrag erteilt.",
+        "Der Auftrag wurde der Abteilung erteilt."
+      ]
+    },
+    {
+      "id": "gr34-e019",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Treten oder setzen",
+      "title_ar": "treten أم setzen",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Eine Regelung tritt in Kraft; eine Behörde setzt eine Regelung in Kraft.",
+      "explanation_de": "Treten ist intransitiv, setzen transitiv mit handelndem Subjekt und Akkusativobjekt.",
+      "explanation_ar": "treten لازم، بينما setzen متعدٍ مع فاعل ومفعول Akkusativ.",
+      "grammarFocus": "treten_setzen_contrast",
+      "options": [
+        "Eine Regelung tritt in Kraft; eine Behörde setzt eine Regelung in Kraft.",
+        "Eine Regelung setzt immer selbst in Kraft.",
+        "Eine Behörde tritt eine Regelung in Kraft.",
+        "Treten und setzen sind in dieser Verbindung völlig austauschbar."
+      ]
+    },
+    {
+      "id": "gr34-e020",
+      "topicId": "gr-34",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachliches Protokoll",
+      "title_ar": "محضر موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in ein Sitzungsprotokoll?",
+      "prompt_ar": "أي صياغة تناسب محضر اجتماع؟",
+      "answer": "Die Geschäftsführung nahm den Bericht zur Kenntnis und erteilte der Projektgruppe den Auftrag, weitere Maßnahmen vorzubereiten.",
+      "explanation_de": "Die Verbindungen beschreiben Wahrnehmung und offiziellen Auftrag präzise.",
+      "explanation_ar": "تصف الروابط الإحاطة بالتقرير والتكليف الرسمي بدقة.",
+      "grammarFocus": "minutes_style",
+      "options": [
+        "Die Geschäftsführung nahm den Bericht zur Kenntnis und erteilte der Projektgruppe den Auftrag, weitere Maßnahmen vorzubereiten.",
+        "Die Geschäftsführung las den Bericht irgendwie und gab der Gruppe Arbeit.",
+        "Der Bericht wurde Kenntnis und die Gruppe bekam Auftrag gemacht.",
+        "Die Geschäftsführung stellte Kenntnis und traf einen Auftrag."
+      ]
+    },
+    {
+      "id": "gr34-e021",
+      "topicId": "gr-34",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Verhandlungen führen",
+      "title_ar": "إجراء مفاوضات",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Unternehmen führt mit dem Betriebsrat Verhandlungen über neue Arbeitszeitmodelle.",
+      "explanation_de": "Mit nennt den Verhandlungspartner, über das Thema.",
+      "explanation_ar": "تذكر mit شريك التفاوض، وتذكر über الموضوع.",
+      "grammarFocus": "negotiations_order",
+      "tokens": [
+        "über neue Arbeitszeitmodelle",
+        "führt",
+        "mit dem Betriebsrat",
+        "Verhandlungen",
+        "Das Unternehmen"
+      ],
+      "acceptedAnswers": [
+        "Das Unternehmen führt mit dem Betriebsrat Verhandlungen über neue Arbeitszeitmodelle."
+      ]
+    },
+    {
+      "id": "gr34-e022",
+      "topicId": "gr-34",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Mehrere Präpositionen",
+      "title_ar": "عدة حروف جر",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "Wir nehmen Bezug auf Ihr Schreiben, nehmen zu Ihrem Vorschlag Stellung und nehmen anschließend Kontakt mit Ihnen auf.",
+      "explanation_de": "Die drei Verbindungen verlangen auf + Akkusativ, zu + Dativ und mit + Dativ.",
+      "explanation_ar": "تحتاج الروابط الثلاثة إلى auf + Akkusativ وzu + Dativ وmit + Dativ.",
+      "grammarFocus": "multiple_prepositions",
+      "options": [
+        "Wir nehmen Bezug auf Ihr Schreiben, nehmen zu Ihrem Vorschlag Stellung und nehmen anschließend Kontakt mit Ihnen auf.",
+        "Wir nehmen Bezug zu Ihrem Schreiben, Stellung auf Ihren Vorschlag und Kontakt bei Ihnen auf.",
+        "Wir nehmen auf Ihr Schreiben Bezug, Stellung an Ihrem Vorschlag und Kontakt zu Ihnen.",
+        "Wir nehmen Bezug von Ihrem Schreiben, Stellung mit Ihrem Vorschlag und Kontakt auf Ihnen."
+      ]
+    },
+    {
+      "id": "gr34-e023",
+      "topicId": "gr-34",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe berufliche Umformung",
+      "title_ar": "إعادة صياغة مهنية معقدة",
+      "prompt_de": "Formulieren Sie mit Nomen-Verb-Verbindungen: Die Behörde informiert den Antragsteller offiziell, beauftragt die Fachstelle und verlangt eine Antwort bis Freitag.",
+      "prompt_ar": "أعد الصياغة باستخدام روابط الاسم والفعل.",
+      "answer": "Die Behörde gibt dem Antragsteller offiziell Bescheid, erteilt der Fachstelle einen Auftrag und bittet um eine Rückmeldung bis Freitag.",
+      "explanation_de": "Informieren, beauftragen und antworten werden durch typische berufliche Verbindungen ausgedrückt.",
+      "explanation_ar": "يُعبّر عن informieren وbeauftragen وantworten باستخدام روابط مهنية شائعة.",
+      "grammarFocus": "complex_professional_reformulation",
+      "acceptedAnswers": [
+        "Die Behörde gibt dem Antragsteller offiziell Bescheid, erteilt der Fachstelle einen Auftrag und bittet um eine Rückmeldung bis Freitag."
+      ]
+    },
+    {
+      "id": "gr34-e024",
+      "topicId": "gr-34",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining berufliche Verbindungen",
+      "title_ar": "تدريب ختامي على الروابط المهنية",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens zwölf verschiedene Nomen-Verb-Verbindungen aus Kommunikation, Verwaltung und Projektarbeit. Nutzen Sie dabei Aktiv, Passiv, Perfekt und mindestens fünf feste Präpositionen.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم اثني عشر رابطًا مختلفًا على الأقل من التواصل والإدارة والعمل بالمشروعات. استخدم المعلوم والمجهول وPerfekt وخمسة حروف جر ثابتة على الأقل.",
+      "answer": {
+        "requiredConcepts": [
+          "Kontakt aufnehmen mit",
+          "Stellung nehmen zu",
+          "Bezug nehmen auf",
+          "etwas zur Kenntnis nehmen",
+          "jemandem einen Auftrag erteilen",
+          "Anforderungen erfüllen",
+          "eine Frist setzen oder einhalten",
+          "in Kraft treten oder setzen",
+          "eine Beschwerde einreichen",
+          "eine Vereinbarung treffen",
+          "eine Rückmeldung geben",
+          "Verhandlungen führen",
+          "mindestens zwei Passivsätze",
+          "korrekte Präpositionen und Kasus"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie feste Verbwahl, Präposition, Kasus, Zeitform, Passiv und sachlichen Stil.",
+      "explanation_ar": "راجع الفعل الثابت وحرف الجر والحالة والزمن والمبني للمجهول والأسلوب الموضوعي.",
+      "grammarFocus": "mixed_professional_collocations",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import {
   B2GrammarTopic,
 } from "./types";
 
-export const B2_GRAMMAR_DATA_VERSION = "2026-07-16-phases-1-2";
+export const B2_GRAMMAR_DATA_VERSION = "2026-07-16-phases-1-4";
 
 export const SUPPORTED_B2_GRAMMAR_TYPES: readonly B2GrammarExerciseType[] = [
   "multiple_choice",
@@ -24,7 +24,12 @@ export const SUPPORTED_B2_GRAMMAR_TYPES: readonly B2GrammarExerciseType[] = [
   "guided_speaking",
 ] as const;
 
-const PHASE_ROOTS = ["/data/b2-grammar/phase-1", "/data/b2-grammar/phase-2"] as const;
+const PHASE_ROOTS = [
+  "/data/b2-grammar/phase-1",
+  "/data/b2-grammar/phase-2",
+  "/data/b2-grammar/phase-3",
+  "/data/b2-grammar/phase-4",
+] as const;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
@@ -117,7 +122,7 @@ export function loadB2GrammarCourse(): Promise<B2GrammarCourse> {
       const phases = loaded.map((item) => item.phase);
       const topics = loaded.flatMap((item) => item.topics).sort((a, b) => a.index.order - b.index.order);
       const ids = topics.flatMap((topic) => topic.exercises.map((exercise) => exercise.id));
-      if (topics.length !== 20 || ids.length !== 464 || new Set(ids).size !== ids.length) {
+      if (topics.length !== 40 || ids.length !== 956 || new Set(ids).size !== ids.length) {
         throw new Error(`B2 grammar course validation failed: ${topics.length} topics, ${ids.length} exercises`);
       }
       return { phases, topics, exerciseCount: ids.length };

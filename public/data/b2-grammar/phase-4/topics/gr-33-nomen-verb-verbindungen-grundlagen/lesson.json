@@ -1,0 +1,478 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-33",
+  "slug": "gr-33-nomen-verb-verbindungen-grundlagen",
+  "order": 33,
+  "title_de": "Nomen-Verb-Verbindungen – Grundlagen",
+  "title_ar": "روابط الاسم والفعل – الأساسيات",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "nomen_verb_verbindungen",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Häufige Nomen-Verb-Verbindungen als feste sprachliche Einheiten erkennen.",
+    "Die Gesamtbedeutung einer Verbindung mit einem einfachen Verb vergleichen.",
+    "Artikel, Kasus und feste Präpositionen korrekt verwenden.",
+    "Das Funktionsverb passend konjugieren und im Satz positionieren.",
+    "Zwischen freien Wortverbindungen und festen Nomen-Verb-Verbindungen unterscheiden.",
+    "Aktiv- und Passivformen ausgewählter Verbindungen bilden.",
+    "Häufige Verbindungen in sachlichen B2-Sätzen sicher einsetzen."
+  ],
+  "learningObjectives_ar": [
+    "تمييز روابط الاسم والفعل الشائعة بوصفها وحدات لغوية ثابتة.",
+    "مقارنة المعنى الكامل للرابط بفعل بسيط.",
+    "استخدام الأداة والحالة وحرف الجر الثابت بصورة صحيحة.",
+    "تصريف الفعل الوظيفي ووضعه في الجملة بصورة صحيحة.",
+    "التمييز بين التراكيب الحرة وروابط الاسم والفعل الثابتة.",
+    "تكوين صيغ المعلوم والمجهول لبعض الروابط.",
+    "استخدام الروابط الشائعة بثقة في جمل B2 موضوعية."
+  ],
+  "shortDescription_de": "Nomen-Verb-Verbindungen bestehen aus einem bedeutungstragenden Nomen und einem Verb, das häufig vor allem eine grammatische Funktion übernimmt. Viele dieser Verbindungen sind fest und müssen als Einheit gelernt werden.",
+  "shortDescription_ar": "تتكوّن روابط الاسم والفعل من اسم يحمل المعنى الأساسي وفعل يؤدي غالبًا وظيفة نحوية. وكثير من هذه الروابط ثابت ويجب تعلمه بوصفه وحدة واحدة.",
+  "explanation_de": "In einer Nomen-Verb-Verbindung trägt das Nomen meist die Hauptbedeutung, während das Verb die Verbindung grammatisch bildet. Zum Beispiel bedeutet eine Entscheidung treffen ungefähr entscheiden, einen Antrag stellen ungefähr beantragen und Kritik üben ungefähr kritisieren. Die Verbindungen sind jedoch nicht beliebig: Man sagt eine Entscheidung treffen, nicht eine Entscheidung machen. Artikel, Kasus und Präposition gehören häufig fest zur Verbindung: einen Antrag stellen, Einfluss nehmen auf + Akkusativ, Rücksicht nehmen auf + Akkusativ, zur Verfügung stehen und in Anspruch nehmen. Das Verb wird normal konjugiert und steht an der üblichen Satzposition: Die Leitung trifft morgen eine Entscheidung. Im Perfekt lautet die Form: Die Leitung hat eine Entscheidung getroffen. Einige Verbindungen können im Passiv stehen: Eine Entscheidung wurde getroffen. Andere werden häufiger aktiv verwendet, besonders wenn das Subjekt wichtig ist: Die Abteilung übernimmt Verantwortung. Nicht jede Kombination aus Nomen und Verb ist eine feste Verbindung. Bei freien Verbindungen behält das Verb seine volle konkrete Bedeutung, zum Beispiel einen schweren Karton tragen. Bei einer festen Verbindung wie Verantwortung tragen ist die Bedeutung abstrakter und als Einheit gespeichert.",
+  "explanation_ar": "في رابط الاسم والفعل يحمل الاسم غالبًا المعنى الأساسي، بينما يبني الفعل التركيب من الناحية النحوية. فمثلًا تعني eine Entscheidung treffen تقريبًا entscheiden، وتعني einen Antrag stellen تقريبًا beantragen، وتعني Kritik üben تقريبًا kritisieren. لكن هذه الروابط ليست اختيارية؛ فنقول eine Entscheidung treffen وليس eine Entscheidung machen. وغالبًا تكون الأداة والحالة وحرف الجر جزءًا ثابتًا من الرابط، مثل: einen Antrag stellen، وEinfluss nehmen auf + Akkusativ، وRücksicht nehmen auf + Akkusativ، وzur Verfügung stehen، وin Anspruch nehmen. ويُصرف الفعل بصورة طبيعية ويأتي في موقعه المعتاد: Die Leitung trifft morgen eine Entscheidung. وفي Perfekt نقول: Die Leitung hat eine Entscheidung getroffen. ويمكن استخدام بعض الروابط في المبني للمجهول: Eine Entscheidung wurde getroffen. بينما يُستخدم بعضها الآخر غالبًا في المعلوم، خصوصًا عندما يكون الفاعل مهمًا، مثل: Die Abteilung übernimmt Verantwortung. وليست كل مجموعة من اسم وفعل رابطًا ثابتًا. ففي التركيب الحر يحتفظ الفعل بمعناه الحسي الكامل، مثل einen schweren Karton tragen. أما في رابط ثابت مثل Verantwortung tragen فيصبح المعنى أكثر تجريدًا ويُحفظ التركيب كوحدة.",
+  "rules": [
+    {
+      "id": "gr33-r01",
+      "title_de": "Feste Einheit",
+      "title_ar": "وحدة ثابتة",
+      "explanation_de": "Nomen und Verb bilden gemeinsam eine feste oder stark bevorzugte Verbindung.",
+      "explanation_ar": "يشكّل الاسم والفعل معًا رابطًا ثابتًا أو مفضّلًا بصورة قوية.",
+      "formula": "Nomen + festes Verb",
+      "examples": [
+        {
+          "de": "eine Entscheidung treffen",
+          "ar": "اتخاذ قرار"
+        },
+        {
+          "de": "einen Antrag stellen",
+          "ar": "تقديم طلب"
+        },
+        {
+          "de": "Verantwortung übernehmen",
+          "ar": "تحمل المسؤولية"
+        }
+      ]
+    },
+    {
+      "id": "gr33-r02",
+      "title_de": "Bedeutung liegt meist im Nomen",
+      "title_ar": "المعنى الأساسي في الاسم",
+      "explanation_de": "Das Nomen trägt häufig die lexikalische Hauptbedeutung.",
+      "explanation_ar": "يحمل الاسم غالبًا المعنى المعجمي الأساسي.",
+      "formula": "Entscheidung treffen ≈ entscheiden",
+      "examples": [
+        {
+          "de": "Die Leitung trifft heute eine Entscheidung.",
+          "ar": "تتخذ الإدارة اليوم قرارًا."
+        },
+        {
+          "de": "Die Leitung entscheidet heute.",
+          "ar": "تقرر الإدارة اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r03",
+      "title_de": "Fester Artikel und Kasus",
+      "title_ar": "أداة وحالة ثابتتان",
+      "explanation_de": "Viele Verbindungen verlangen einen bestimmten Artikel und Kasus.",
+      "explanation_ar": "تحتاج روابط كثيرة إلى أداة وحالة محددتين.",
+      "formula": "einen Antrag stellen | eine Entscheidung treffen | Hilfe leisten",
+      "examples": [
+        {
+          "de": "Sie stellt einen Antrag auf Verlängerung.",
+          "ar": "تقدم طلب تمديد."
+        },
+        {
+          "de": "Das Team leistet wichtige Hilfe.",
+          "ar": "يقدم الفريق مساعدة مهمة."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r04",
+      "title_de": "Feste Präposition",
+      "title_ar": "حرف جر ثابت",
+      "explanation_de": "Bei vielen Verbindungen gehört eine Präposition fest dazu.",
+      "explanation_ar": "يكون حرف الجر جزءًا ثابتًا من روابط كثيرة.",
+      "formula": "Einfluss nehmen auf + Akk. | Rücksicht nehmen auf + Akk.",
+      "examples": [
+        {
+          "de": "Die Änderung nimmt Einfluss auf den Ablauf.",
+          "ar": "يؤثر التغيير في سير العمل."
+        },
+        {
+          "de": "Wir nehmen Rücksicht auf individuelle Bedürfnisse.",
+          "ar": "نراعي الاحتياجات الفردية."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r05",
+      "title_de": "Zur Verfügung stehen",
+      "title_ar": "zur Verfügung stehen",
+      "explanation_de": "Die Verbindung bedeutet verfügbar sein.",
+      "explanation_ar": "يعني الرابط أن يكون الشيء متاحًا.",
+      "formula": "jemandem zur Verfügung stehen",
+      "examples": [
+        {
+          "de": "Für Rückfragen steht Ihnen unser Team zur Verfügung.",
+          "ar": "فريقنا متاح لاستفساراتك."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r06",
+      "title_de": "Zur Verfügung stellen",
+      "title_ar": "zur Verfügung stellen",
+      "explanation_de": "Die Verbindung bedeutet bereitstellen oder verfügbar machen.",
+      "explanation_ar": "يعني الرابط توفير الشيء أو جعله متاحًا.",
+      "formula": "jemandem etwas zur Verfügung stellen",
+      "examples": [
+        {
+          "de": "Die Firma stellt den Beschäftigten neue Geräte zur Verfügung.",
+          "ar": "توفر الشركة للموظفين أجهزة جديدة."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r07",
+      "title_de": "In Anspruch nehmen",
+      "title_ar": "in Anspruch nehmen",
+      "explanation_de": "Die Verbindung bedeutet nutzen oder beanspruchen.",
+      "explanation_ar": "يعني الرابط الاستفادة من شيء أو المطالبة به.",
+      "formula": "etwas in Anspruch nehmen",
+      "examples": [
+        {
+          "de": "Sie können eine kostenlose Beratung in Anspruch nehmen.",
+          "ar": "يمكنك الاستفادة من استشارة مجانية."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r08",
+      "title_de": "Maßnahmen ergreifen",
+      "title_ar": "Maßnahmen ergreifen",
+      "explanation_de": "Die Verbindung bedeutet gezielt handeln.",
+      "explanation_ar": "يعني الرابط اتخاذ إجراءات محددة.",
+      "formula": "Maßnahmen ergreifen",
+      "examples": [
+        {
+          "de": "Die Leitung ergreift Maßnahmen zur Verbesserung der Sicherheit.",
+          "ar": "تتخذ الإدارة إجراءات لتحسين السلامة."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r09",
+      "title_de": "Kritik üben an",
+      "title_ar": "Kritik üben an",
+      "explanation_de": "Die Verbindung bedeutet kritisieren und verlangt an + Dativ.",
+      "explanation_ar": "يعني الرابط الانتقاد ويحتاج إلى an + Dativ.",
+      "formula": "Kritik üben an + Dativ",
+      "examples": [
+        {
+          "de": "Der Betriebsrat übt Kritik an der neuen Regelung.",
+          "ar": "ينتقد مجلس العمال النظام الجديد."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r10",
+      "title_de": "Bescheid geben",
+      "title_ar": "Bescheid geben",
+      "explanation_de": "Die Verbindung bedeutet informieren oder mitteilen.",
+      "explanation_ar": "يعني الرابط الإبلاغ أو إعطاء خبر.",
+      "formula": "jemandem Bescheid geben",
+      "examples": [
+        {
+          "de": "Bitte geben Sie mir rechtzeitig Bescheid.",
+          "ar": "يرجى إبلاغي في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r11",
+      "title_de": "Konjugation und Perfekt",
+      "title_ar": "التصريف وPerfekt",
+      "explanation_de": "Das Verb wird normal konjugiert; im Perfekt steht sein Partizip II.",
+      "explanation_ar": "يُصرف الفعل بصورة طبيعية، وفي Perfekt نستخدم Partizip II الخاص به.",
+      "formula": "trifft → hat getroffen | stellt → hat gestellt",
+      "examples": [
+        {
+          "de": "Die Leitung hat eine Entscheidung getroffen.",
+          "ar": "اتخذت الإدارة قرارًا."
+        },
+        {
+          "de": "Er hat einen Antrag gestellt.",
+          "ar": "قدّم طلبًا."
+        }
+      ]
+    },
+    {
+      "id": "gr33-r12",
+      "title_de": "Passiv",
+      "title_ar": "المبني للمجهول",
+      "explanation_de": "Viele Verbindungen können passivisch verwendet werden, wenn der Vorgang im Mittelpunkt steht.",
+      "explanation_ar": "يمكن استخدام روابط كثيرة في المبني للمجهول عندما يكون الإجراء هو المهم.",
+      "formula": "Eine Entscheidung wird getroffen.",
+      "examples": [
+        {
+          "de": "Die endgültige Entscheidung wurde gestern getroffen.",
+          "ar": "تم اتخاذ القرار النهائي أمس."
+        },
+        {
+          "de": "Es wurden sofort Maßnahmen ergriffen.",
+          "ar": "تم اتخاذ إجراءات فورًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr33-t01",
+      "title_de": "Häufige Grundverbindungen",
+      "title_ar": "روابط أساسية شائعة",
+      "headers_de": [
+        "Nomen-Verb-Verbindung",
+        "einfaches Verb",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "رابط الاسم والفعل",
+        "الفعل البسيط",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "eine Entscheidung treffen",
+          "entscheiden",
+          "اتخاذ قرار"
+        ],
+        [
+          "einen Antrag stellen",
+          "beantragen",
+          "تقديم طلب"
+        ],
+        [
+          "eine Frage stellen",
+          "fragen",
+          "طرح سؤال"
+        ],
+        [
+          "Hilfe leisten",
+          "helfen",
+          "تقديم مساعدة"
+        ],
+        [
+          "Kritik üben",
+          "kritisieren",
+          "الانتقاد"
+        ],
+        [
+          "Verantwortung übernehmen",
+          "verantwortlich sein / Verantwortung tragen",
+          "تحمل المسؤولية"
+        ],
+        [
+          "Maßnahmen ergreifen",
+          "handeln",
+          "اتخاذ إجراءات"
+        ],
+        [
+          "Bescheid geben",
+          "informieren",
+          "الإبلاغ"
+        ]
+      ]
+    },
+    {
+      "id": "gr33-t02",
+      "title_de": "Verbindungen mit Präpositionen",
+      "title_ar": "روابط مع حروف جر",
+      "headers_de": [
+        "Verbindung",
+        "Ergänzung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الرابط",
+        "المتمم",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Einfluss nehmen",
+          "auf + Akkusativ",
+          "Einfluss auf den Ablauf nehmen"
+        ],
+        [
+          "Rücksicht nehmen",
+          "auf + Akkusativ",
+          "Rücksicht auf das Team nehmen"
+        ],
+        [
+          "Kritik üben",
+          "an + Dativ",
+          "Kritik an der Regelung üben"
+        ],
+        [
+          "Anspruch haben",
+          "auf + Akkusativ",
+          "Anspruch auf Unterstützung haben"
+        ],
+        [
+          "zur Verfügung stehen",
+          "jemandem + Dativ",
+          "Ihnen zur Verfügung stehen"
+        ],
+        [
+          "Bescheid geben",
+          "jemandem + Dativ",
+          "mir Bescheid geben"
+        ]
+      ]
+    },
+    {
+      "id": "gr33-t03",
+      "title_de": "Zeitformen und Passiv",
+      "title_ar": "الأزمنة والمبني للمجهول",
+      "headers_de": [
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "Die Leitung trifft eine Entscheidung."
+        ],
+        [
+          "Präteritum",
+          "Die Leitung traf eine Entscheidung."
+        ],
+        [
+          "Perfekt",
+          "Die Leitung hat eine Entscheidung getroffen."
+        ],
+        [
+          "Passiv Präsens",
+          "Eine Entscheidung wird getroffen."
+        ],
+        [
+          "Passiv Präteritum",
+          "Eine Entscheidung wurde getroffen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Geschäftsleitung wird nach Abschluss der Prüfung eine endgültige Entscheidung treffen.",
+      "ar": "ستتخذ الإدارة التنفيذية قرارًا نهائيًا بعد انتهاء المراجعة.",
+      "note_de": "Feste Verbindung mit Akkusativobjekt.",
+      "note_ar": "رابط ثابت مع مفعول Akkusativ."
+    },
+    {
+      "de": "Für die Verlängerung der Frist muss ein schriftlicher Antrag gestellt werden.",
+      "ar": "يجب تقديم طلب خطي لتمديد المهلة.",
+      "note_de": "Passivische Verwendung von einen Antrag stellen.",
+      "note_ar": "استخدام الرابط einen Antrag stellen في المبني للمجهول."
+    },
+    {
+      "de": "Die neue Regelung nimmt erheblichen Einfluss auf die Aufgabenverteilung.",
+      "ar": "يؤثر النظام الجديد بصورة كبيرة في توزيع المهام.",
+      "note_de": "Einfluss nehmen auf + Akkusativ.",
+      "note_ar": "Einfluss nehmen auf + Akkusativ."
+    },
+    {
+      "de": "Die Beschäftigten können bei Bedarf eine vertrauliche Beratung in Anspruch nehmen.",
+      "ar": "يمكن للموظفين عند الحاجة الاستفادة من استشارة سرية.",
+      "note_de": "In Anspruch nehmen bedeutet nutzen.",
+      "note_ar": "تعني in Anspruch nehmen الاستفادة أو الاستخدام."
+    },
+    {
+      "de": "Nach dem Vorfall wurden unverzüglich geeignete Maßnahmen ergriffen.",
+      "ar": "بعد الحادث تم اتخاذ إجراءات مناسبة فورًا.",
+      "note_de": "Passivische Verwendung von Maßnahmen ergreifen.",
+      "note_ar": "استخدام Maßnahmen ergreifen في المبني للمجهول."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Leitung macht eine Entscheidung.",
+      "correct": "Die Leitung trifft eine Entscheidung.",
+      "explanation_de": "Die feste Verbindung lautet eine Entscheidung treffen.",
+      "explanation_ar": "الرابط الثابت هو eine Entscheidung treffen."
+    },
+    {
+      "wrong": "Er macht einen Antrag.",
+      "correct": "Er stellt einen Antrag.",
+      "explanation_de": "Die feste Verbindung lautet einen Antrag stellen.",
+      "explanation_ar": "الرابط الثابت هو einen Antrag stellen."
+    },
+    {
+      "wrong": "Wir nehmen Rücksicht an die Kolleginnen.",
+      "correct": "Wir nehmen Rücksicht auf die Kolleginnen.",
+      "explanation_de": "Rücksicht nehmen verlangt auf + Akkusativ.",
+      "explanation_ar": "تحتاج Rücksicht nehmen إلى auf + Akkusativ."
+    },
+    {
+      "wrong": "Der Betriebsrat übt Kritik auf der Regelung.",
+      "correct": "Der Betriebsrat übt Kritik an der Regelung.",
+      "explanation_de": "Kritik üben verlangt an + Dativ.",
+      "explanation_ar": "تحتاج Kritik üben إلى an + Dativ."
+    },
+    {
+      "wrong": "Die Firma steht neue Geräte zur Verfügung.",
+      "correct": "Die Firma stellt neue Geräte zur Verfügung.",
+      "explanation_de": "Bereitstellen heißt zur Verfügung stellen; verfügbar sein heißt zur Verfügung stehen.",
+      "explanation_ar": "التوفير يعني zur Verfügung stellen، أما كون الشيء متاحًا فيعني zur Verfügung stehen."
+    },
+    {
+      "wrong": "Eine Entscheidung hat getroffen.",
+      "correct": "Die Leitung hat eine Entscheidung getroffen. / Eine Entscheidung wurde getroffen.",
+      "explanation_de": "Aktiv braucht ein Subjekt; ohne handelnde Person ist das Passiv passend.",
+      "explanation_ar": "تحتاج الجملة المعلومة إلى فاعل، وعند عدم ذكره يناسب المبني للمجهول."
+    }
+  ],
+  "quickSummary_de": [
+    "Nomen-Verb-Verbindungen werden als feste Einheiten gelernt.",
+    "Das Nomen trägt häufig die Hauptbedeutung.",
+    "Das Verb ist nicht frei austauschbar.",
+    "Artikel und Kasus gehören oft fest zur Verbindung.",
+    "Präpositionen müssen mitgelernt werden.",
+    "Eine Entscheidung trifft man.",
+    "Einen Antrag stellt man.",
+    "Einfluss und Rücksicht nimmt man auf etwas.",
+    "Kritik übt man an etwas.",
+    "Etwas steht jemandem zur Verfügung oder wird jemandem zur Verfügung gestellt.",
+    "Das Verb wird normal konjugiert.",
+    "Viele Verbindungen können im Passiv stehen."
+  ],
+  "quickSummary_ar": [
+    "تُتعلم روابط الاسم والفعل بوصفها وحدات ثابتة.",
+    "يحمل الاسم غالبًا المعنى الأساسي.",
+    "لا يمكن تبديل الفعل بحرية.",
+    "تكون الأداة والحالة جزءًا ثابتًا من الرابط غالبًا.",
+    "يجب حفظ حرف الجر مع الرابط.",
+    "نستخدم treffen مع Entscheidung.",
+    "نستخدم stellen مع Antrag.",
+    "تحتاج Einfluss nehmen وRücksicht nehmen إلى auf.",
+    "تحتاج Kritik üben إلى an.",
+    "قد يكون الشيء متاحًا لشخص أو يتم توفيره له.",
+    "يُصرف الفعل بصورة طبيعية.",
+    "يمكن استخدام روابط كثيرة في المبني للمجهول."
+  ],
+  "relatedTopics": [
+    "gr-31",
+    "gr-32",
+    "gr-34",
+    "gr-35",
+    "gr-40"
+  ]
+}

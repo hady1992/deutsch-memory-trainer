@@ -1,0 +1,434 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-35",
+  "slug": "gr-35-funktionsverbgefuege-bedeutungsnuancen",
+  "order": 35,
+  "title_de": "Funktionsverbgefüge und Bedeutungsnuancen",
+  "title_ar": "تراكيب الأفعال الوظيفية وفروق المعنى",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "funktionsverbgefuege",
+  "estimatedMinutes": 65,
+  "learningObjectives_de": [
+    "Häufige Funktionsverbgefüge als feste Einheiten erkennen.",
+    "Zwischen aktivem Verursachen, Zustandsbeginn und bestehendem Zustand unterscheiden.",
+    "Bedeutungsunterschiede zwischen bringen, kommen, setzen, geraten, stehen und ziehen erfassen.",
+    "Funktionsverbgefüge durch einfache Verben erklären, ohne Bedeutungsnuancen zu verlieren.",
+    "Feste Präpositionen, Artikel und Kasus korrekt verwenden.",
+    "Aktiv-, Passiv- und Zustandsformulierungen sicher bilden.",
+    "Funktionsverbgefüge in Berichten, Protokollen und sachlichen Argumentationen gezielt einsetzen."
+  ],
+  "learningObjectives_ar": [
+    "تمييز تراكيب الأفعال الوظيفية الشائعة بوصفها وحدات ثابتة.",
+    "التمييز بين التسبب في الحدث وبداية الحالة والحالة القائمة.",
+    "فهم فروق المعنى بين bringen وkommen وsetzen وgeraten وstehen وziehen.",
+    "شرح التركيب بفعل بسيط من دون فقدان الفروق الدقيقة.",
+    "استخدام حرف الجر والأداة والحالة الثابتة بصورة صحيحة.",
+    "تكوين صيغ المعلوم والمجهول والحالة القائمة بثقة.",
+    "استخدام التراكيب في التقارير والمحاضر والحجج الموضوعية."
+  ],
+  "shortDescription_de": "Funktionsverbgefüge verbinden ein bedeutungstragendes Nomen mit einem Funktionsverb. Das gewählte Verb zeigt oft, ob jemand einen Vorgang verursacht, ob ein Zustand beginnt oder bereits besteht.",
+  "shortDescription_ar": "تربط تراكيب الأفعال الوظيفية اسمًا يحمل المعنى بفعل وظيفي. وغالبًا يوضح الفعل ما إذا كان شخص ما يسبب الحدث، أو تبدأ حالة، أو تكون الحالة قائمة بالفعل.",
+  "explanation_de": "Funktionsverbgefüge sind feste Verbindungen wie in Gang bringen, in Gang kommen, unter Druck setzen, unter Druck geraten oder unter Druck stehen. Das Nomen trägt die Hauptbedeutung, während das Funktionsverb eine Aktionsart oder Perspektive ausdrückt. Bringen und setzen markieren häufig eine aktive Verursachung: Die Leitung bringt den Prozess in Gang. Die neuen Fristen setzen das Team unter Druck. Kommen und geraten markieren häufig den Beginn eines Zustands oder Vorgangs: Der Prozess kommt in Gang. Das Team gerät unter Druck. Stehen beschreibt häufig einen bestehenden Zustand: Das Team steht unter Druck. Auch andere Verben tragen Bedeutungsnuancen: etwas in Betracht ziehen bedeutet eine Möglichkeit prüfen; etwas zur Sprache bringen bedeutet ein Thema aktiv ansprechen; etwas zum Ausdruck bringen bedeutet etwas deutlich ausdrücken; etwas in Verbindung bringen mit bedeutet einen Zusammenhang herstellen. Im Passiv bleibt die aktive Verursachung oft sichtbar: Das Thema wurde zur Sprache gebracht. Ein einfaches Verb kann die Grundbedeutung wiedergeben, aber nicht immer alle stilistischen oder aspektuellen Unterschiede. Deshalb sollten die Verbindungen zusammen mit ihrer typischen Perspektive gelernt werden.",
+  "explanation_ar": "تراكيب الأفعال الوظيفية هي روابط ثابتة مثل in Gang bringen وin Gang kommen وunter Druck setzen وunter Druck geraten وunter Druck stehen. يحمل الاسم المعنى الأساسي، بينما يعبّر الفعل الوظيفي عن طريقة الحدث أو زاوية النظر إليه. وغالبًا تدل bringen وsetzen على التسبب الفعلي: Die Leitung bringt den Prozess in Gang. Die neuen Fristen setzen das Team unter Druck. أما kommen وgeraten فتدلان كثيرًا على بداية حالة أو عملية: Der Prozess kommt in Gang. Das Team gerät unter Druck. وتصف stehen غالبًا حالة قائمة: Das Team steht unter Druck. وتحمل أفعال أخرى فروقًا دقيقة أيضًا: etwas in Betracht ziehen تعني دراسة إمكانية، وetwas zur Sprache bringen تعني طرح موضوع بصورة فعلية، وetwas zum Ausdruck bringen تعني التعبير الواضح، وetwas in Verbindung bringen mit تعني إنشاء علاقة أو ربط. وفي المبني للمجهول يبقى التسبب الفعلي ظاهرًا غالبًا: Das Thema wurde zur Sprache gebracht. وقد ينقل فعل بسيط المعنى الأساسي، لكنه لا ينقل دائمًا جميع الفروق الأسلوبية أو المتعلقة ببداية الحالة واستمرارها. لذلك ينبغي تعلم كل تركيب مع زاوية المعنى التي يعبر عنها.",
+  "rules": [
+    {
+      "id": "gr35-r01",
+      "title_de": "In Gang bringen",
+      "title_ar": "in Gang bringen",
+      "explanation_de": "Die Verbindung bedeutet einen Prozess aktiv beginnen oder auslösen.",
+      "explanation_ar": "يعني الرابط بدء عملية بصورة فعالة أو التسبب فيها.",
+      "formula": "jemand bringt etwas in Gang",
+      "examples": [
+        {
+          "de": "Die Projektleitung bringt die Umstellung schrittweise in Gang.",
+          "ar": "تبدأ إدارة المشروع عملية التحول تدريجيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r02",
+      "title_de": "In Gang kommen",
+      "title_ar": "in Gang kommen",
+      "explanation_de": "Die Verbindung beschreibt, dass ein Prozess beginnt oder funktioniert.",
+      "explanation_ar": "يصف الرابط بدء العملية أو دخولها مرحلة العمل.",
+      "formula": "etwas kommt in Gang",
+      "examples": [
+        {
+          "de": "Nach einigen Verzögerungen kam die Produktion wieder in Gang.",
+          "ar": "بعد بعض التأخيرات عادت عملية الإنتاج إلى العمل."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r03",
+      "title_de": "Unter Druck setzen",
+      "title_ar": "unter Druck setzen",
+      "explanation_de": "Jemand oder etwas verursacht aktiv Druck.",
+      "explanation_ar": "يتسبب شخص أو شيء بضغط بصورة فعالة.",
+      "formula": "jemand setzt jemanden unter Druck",
+      "examples": [
+        {
+          "de": "Die extrem kurze Frist setzt das Team unter Druck.",
+          "ar": "تضع المهلة القصيرة جدًا الفريق تحت الضغط."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r04",
+      "title_de": "Unter Druck geraten",
+      "title_ar": "unter Druck geraten",
+      "explanation_de": "Die Verbindung beschreibt den Beginn eines Druckzustands.",
+      "explanation_ar": "يصف الرابط بداية الدخول في حالة ضغط.",
+      "formula": "jemand gerät unter Druck",
+      "examples": [
+        {
+          "de": "Durch unerwartete Zusatzaufgaben geriet das Team unter Druck.",
+          "ar": "دخل الفريق تحت الضغط بسبب المهام الإضافية غير المتوقعة."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r05",
+      "title_de": "Unter Druck stehen",
+      "title_ar": "unter Druck stehen",
+      "explanation_de": "Die Verbindung beschreibt einen bestehenden Zustand.",
+      "explanation_ar": "يصف الرابط حالة ضغط قائمة.",
+      "formula": "jemand steht unter Druck",
+      "examples": [
+        {
+          "de": "Das Team steht seit mehreren Wochen unter erheblichem Druck.",
+          "ar": "يعيش الفريق منذ عدة أسابيع تحت ضغط كبير."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r06",
+      "title_de": "Zur Sprache bringen",
+      "title_ar": "zur Sprache bringen",
+      "explanation_de": "Ein Thema wird aktiv angesprochen.",
+      "explanation_ar": "يتم طرح موضوع بصورة فعالة.",
+      "formula": "jemand bringt etwas zur Sprache",
+      "examples": [
+        {
+          "de": "Die Beschäftigten brachten die ungleiche Aufgabenverteilung zur Sprache.",
+          "ar": "طرح الموظفون موضوع التوزيع غير المتساوي للمهام."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r07",
+      "title_de": "Zur Sprache kommen",
+      "title_ar": "zur Sprache kommen",
+      "explanation_de": "Ein Thema wird im Gespräch erwähnt oder behandelt, ohne den Handelnden hervorzuheben.",
+      "explanation_ar": "يُذكر الموضوع أو تتم مناقشته من دون إبراز من طرحه.",
+      "formula": "etwas kommt zur Sprache",
+      "examples": [
+        {
+          "de": "Im Gespräch kam auch die Arbeitsbelastung zur Sprache.",
+          "ar": "طُرح أيضًا موضوع ضغط العمل في الحديث."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r08",
+      "title_de": "In Betracht ziehen",
+      "title_ar": "in Betracht ziehen",
+      "explanation_de": "Die Verbindung bedeutet eine Möglichkeit ernsthaft prüfen.",
+      "explanation_ar": "يعني الرابط دراسة إمكانية بصورة جدية.",
+      "formula": "jemand zieht etwas in Betracht",
+      "examples": [
+        {
+          "de": "Die Leitung zieht einen Abteilungswechsel in Betracht.",
+          "ar": "تدرس الإدارة إمكانية النقل إلى قسم آخر."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r09",
+      "title_de": "In Betracht kommen",
+      "title_ar": "in Betracht kommen",
+      "explanation_de": "Die Verbindung bedeutet als Möglichkeit geeignet oder möglich sein.",
+      "explanation_ar": "يعني الرابط أن يكون الشيء مناسبًا أو ممكنًا كخيار.",
+      "formula": "etwas kommt in Betracht",
+      "examples": [
+        {
+          "de": "Für die Übergangszeit kommt eine interne Versetzung in Betracht.",
+          "ar": "يمكن أن يكون النقل الداخلي خيارًا للفترة الانتقالية."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r10",
+      "title_de": "Zum Ausdruck bringen",
+      "title_ar": "zum Ausdruck bringen",
+      "explanation_de": "Die Verbindung bedeutet etwas deutlich ausdrücken.",
+      "explanation_ar": "يعني الرابط التعبير عن شيء بوضوح.",
+      "formula": "jemand bringt etwas zum Ausdruck",
+      "examples": [
+        {
+          "de": "Die Mitarbeitenden brachten ihre Sorge deutlich zum Ausdruck.",
+          "ar": "عبّر الموظفون بوضوح عن قلقهم."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r11",
+      "title_de": "In Verbindung bringen mit",
+      "title_ar": "in Verbindung bringen mit",
+      "explanation_de": "Die Verbindung bedeutet einen Zusammenhang herstellen oder vermuten.",
+      "explanation_ar": "يعني الرابط إنشاء علاقة أو افتراض وجودها.",
+      "formula": "etwas mit etwas in Verbindung bringen",
+      "examples": [
+        {
+          "de": "Die Störung wird mit einem fehlerhaften Update in Verbindung gebracht.",
+          "ar": "يتم ربط العطل بتحديث معيب."
+        }
+      ]
+    },
+    {
+      "id": "gr35-r12",
+      "title_de": "Zur Anwendung kommen / bringen",
+      "title_ar": "zur Anwendung kommen / bringen",
+      "explanation_de": "Kommen beschreibt, dass etwas angewendet wird; bringen betont die aktive Umsetzung.",
+      "explanation_ar": "تصف kommen أن شيئًا ما يُطبّق، بينما تؤكد bringen على التنفيذ الفعلي.",
+      "formula": "eine Regel kommt zur Anwendung | jemand bringt eine Regel zur Anwendung",
+      "examples": [
+        {
+          "de": "Bei schweren Verstößen kommt ein besonderes Verfahren zur Anwendung.",
+          "ar": "يُطبّق إجراء خاص عند المخالفات الجسيمة."
+        },
+        {
+          "de": "Die Behörde bringt das neue Verfahren ab Oktober zur Anwendung.",
+          "ar": "تبدأ الجهة تطبيق الإجراء الجديد اعتبارًا من أكتوبر."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr35-t01",
+      "title_de": "Verursachung, Beginn und Zustand",
+      "title_ar": "التسبب والبداية والحالة",
+      "headers_de": [
+        "Perspektive",
+        "typisches Verb",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المنظور",
+        "الفعل الشائع",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "aktive Verursachung",
+          "bringen / setzen",
+          "etwas in Gang bringen"
+        ],
+        [
+          "Beginn eines Zustands",
+          "kommen / geraten",
+          "unter Druck geraten"
+        ],
+        [
+          "bestehender Zustand",
+          "stehen / sein",
+          "unter Druck stehen"
+        ],
+        [
+          "Möglichkeit aktiv prüfen",
+          "ziehen",
+          "in Betracht ziehen"
+        ],
+        [
+          "als Möglichkeit möglich sein",
+          "kommen",
+          "in Betracht kommen"
+        ]
+      ]
+    },
+    {
+      "id": "gr35-t02",
+      "title_de": "Häufige Funktionsverbgefüge",
+      "title_ar": "تراكيب أفعال وظيفية شائعة",
+      "headers_de": [
+        "Gefüge",
+        "ungefähres einfaches Verb",
+        "Nuance"
+      ],
+      "headers_ar": [
+        "التركيب",
+        "الفعل البسيط التقريبي",
+        "فرق المعنى"
+      ],
+      "rows": [
+        [
+          "in Gang bringen",
+          "starten",
+          "aktive Verursachung"
+        ],
+        [
+          "zur Sprache bringen",
+          "ansprechen",
+          "aktives Thematisieren"
+        ],
+        [
+          "in Betracht ziehen",
+          "erwägen",
+          "bewusste Prüfung"
+        ],
+        [
+          "zum Ausdruck bringen",
+          "ausdrücken",
+          "deutliche Formulierung"
+        ],
+        [
+          "in Verbindung bringen mit",
+          "verbinden / zuordnen",
+          "Zusammenhang herstellen"
+        ],
+        [
+          "zur Anwendung kommen",
+          "angewendet werden",
+          "Vorgang ohne Agensfokus"
+        ]
+      ]
+    },
+    {
+      "id": "gr35-t03",
+      "title_de": "Aktiv, Prozess und Zustand",
+      "title_ar": "المعلوم والعملية والحالة",
+      "headers_de": [
+        "Aktiv",
+        "Prozessbeginn",
+        "Zustand"
+      ],
+      "headers_ar": [
+        "التسبب الفعلي",
+        "بداية العملية",
+        "الحالة"
+      ],
+      "rows": [
+        [
+          "Das Projekt wird in Gang gebracht.",
+          "Das Projekt kommt in Gang.",
+          "Das Projekt läuft."
+        ],
+        [
+          "Die Frist setzt das Team unter Druck.",
+          "Das Team gerät unter Druck.",
+          "Das Team steht unter Druck."
+        ],
+        [
+          "Die Leitung bringt das Thema zur Sprache.",
+          "Das Thema kommt zur Sprache.",
+          "Das Thema ist Teil der Diskussion."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die angekündigten Umstrukturierungen setzten mehrere Abteilungen unter erheblichen Zeitdruck.",
+      "ar": "وضعت إعادة الهيكلة المعلنة عدة أقسام تحت ضغط زمني كبير.",
+      "note_de": "Aktive Verursachung mit setzen.",
+      "note_ar": "تسبب فعلي باستخدام setzen."
+    },
+    {
+      "de": "Im Laufe der Sitzung kam die Frage nach einer gerechteren Aufgabenverteilung zur Sprache.",
+      "ar": "خلال الاجتماع طُرح سؤال حول توزيع أكثر عدلًا للمهام.",
+      "note_de": "Das Thema wird genannt, der Handelnde bleibt im Hintergrund.",
+      "note_ar": "ذُكر الموضوع من دون التركيز على من طرحه."
+    },
+    {
+      "de": "Die Geschäftsleitung zieht sowohl eine interne Versetzung als auch eine Neuverteilung der Aufgaben in Betracht.",
+      "ar": "تدرس الإدارة التنفيذية كلًا من النقل الداخلي وإعادة توزيع المهام.",
+      "note_de": "Zwei Möglichkeiten werden bewusst geprüft.",
+      "note_ar": "تتم دراسة خيارين بصورة واعية."
+    },
+    {
+      "de": "Die hohe Fehlerquote wird mit der unzureichenden Einarbeitung neuer Mitarbeitender in Verbindung gebracht.",
+      "ar": "تُربط نسبة الأخطاء المرتفعة بعدم كفاية تدريب الموظفين الجدد.",
+      "note_de": "Passivische Zuordnung eines möglichen Zusammenhangs.",
+      "note_ar": "ربط محتمل في المبني للمجهول."
+    },
+    {
+      "de": "Die Beschäftigten brachten deutlich zum Ausdruck, dass sie mehr Unterstützung benötigen.",
+      "ar": "عبّر الموظفون بوضوح عن حاجتهم إلى دعم أكبر.",
+      "note_de": "Die Verbindung hebt die deutliche Äußerung hervor.",
+      "note_ar": "يؤكد الرابط على وضوح التعبير."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Leitung macht den Prozess in Gang.",
+      "correct": "Die Leitung bringt den Prozess in Gang.",
+      "explanation_de": "Die feste Verbindung lautet etwas in Gang bringen.",
+      "explanation_ar": "الصيغة الثابتة هي etwas in Gang bringen."
+    },
+    {
+      "wrong": "Das Team setzt unter Druck.",
+      "correct": "Das Team steht unter Druck. / Die Frist setzt das Team unter Druck.",
+      "explanation_de": "Setzen braucht einen Verursacher und ein Akkusativobjekt; stehen beschreibt den Zustand.",
+      "explanation_ar": "تحتاج setzen إلى سبب ومفعول، بينما تصف stehen الحالة."
+    },
+    {
+      "wrong": "Im Gespräch brachte die Arbeitsbelastung zur Sprache.",
+      "correct": "Im Gespräch kam die Arbeitsbelastung zur Sprache. / Die Kollegin brachte die Arbeitsbelastung zur Sprache.",
+      "explanation_de": "Bringen braucht ein handelndes Subjekt; kommen stellt das Thema in den Vordergrund.",
+      "explanation_ar": "تحتاج bringen إلى فاعل، بينما تضع kommen الموضوع في المقدمة."
+    },
+    {
+      "wrong": "Die Leitung kommt einen Abteilungswechsel in Betracht.",
+      "correct": "Die Leitung zieht einen Abteilungswechsel in Betracht.",
+      "explanation_de": "Eine Person prüft eine Möglichkeit mit ziehen; eine Möglichkeit selbst kommt in Betracht.",
+      "explanation_ar": "يدرس الشخص الخيار باستخدام ziehen، أما الخيار نفسه فيأتي مع kommen."
+    },
+    {
+      "wrong": "Die Störung wird mit einem Update in Verbindung gesetzt.",
+      "correct": "Die Störung wird mit einem Update in Verbindung gebracht.",
+      "explanation_de": "Die feste Verbindung lautet etwas in Verbindung bringen mit.",
+      "explanation_ar": "الصيغة الثابتة هي etwas in Verbindung bringen mit."
+    },
+    {
+      "wrong": "Die Regel wird zur Anwendung gemacht.",
+      "correct": "Die Regel kommt zur Anwendung. / Die Behörde bringt die Regel zur Anwendung.",
+      "explanation_de": "Kommen beschreibt die Anwendung, bringen die aktive Umsetzung.",
+      "explanation_ar": "تصف kommen التطبيق، بينما تصف bringen التنفيذ الفعلي."
+    }
+  ],
+  "quickSummary_de": [
+    "Funktionsverbgefüge werden als feste Einheiten gelernt.",
+    "Bringen und setzen drücken häufig aktive Verursachung aus.",
+    "Kommen und geraten markieren häufig einen Beginn.",
+    "Stehen beschreibt häufig einen bestehenden Zustand.",
+    "Etwas wird in Gang gebracht; ein Prozess kommt in Gang.",
+    "Jemand setzt jemanden unter Druck; jemand gerät oder steht unter Druck.",
+    "Jemand bringt ein Thema zur Sprache; ein Thema kommt zur Sprache.",
+    "Jemand zieht eine Möglichkeit in Betracht; eine Möglichkeit kommt in Betracht.",
+    "Zum Ausdruck bringen bedeutet deutlich ausdrücken.",
+    "In Verbindung bringen mit stellt einen Zusammenhang her.",
+    "Zur Anwendung kommen beschreibt die Anwendung ohne Agensfokus.",
+    "Das einfache Verb gibt nicht immer alle Bedeutungsnuancen wieder."
+  ],
+  "quickSummary_ar": [
+    "تُتعلم تراكيب الأفعال الوظيفية بوصفها وحدات ثابتة.",
+    "تعبّر bringen وsetzen كثيرًا عن التسبب الفعلي.",
+    "تدل kommen وgeraten كثيرًا على بداية حالة.",
+    "تصف stehen غالبًا حالة قائمة.",
+    "يُبدأ الشيء باستخدام in Gang bringen، وتبدأ العملية باستخدام in Gang kommen.",
+    "يضع شخص آخر تحت الضغط، بينما يدخل الشخص تحت الضغط أو يبقى فيه.",
+    "يطرح شخص موضوعًا، بينما قد يأتي الموضوع نفسه في الحديث.",
+    "يدرس شخص خيارًا باستخدام ziehen، بينما يكون الخيار ممكنًا باستخدام kommen.",
+    "تعني zum Ausdruck bringen التعبير بوضوح.",
+    "تعني in Verbindung bringen mit إنشاء علاقة.",
+    "تصف zur Anwendung kommen التطبيق من دون التركيز على الفاعل.",
+    "لا ينقل الفعل البسيط دائمًا جميع فروق المعنى."
+  ],
+  "relatedTopics": [
+    "gr-33",
+    "gr-34",
+    "gr-40"
+  ]
+}

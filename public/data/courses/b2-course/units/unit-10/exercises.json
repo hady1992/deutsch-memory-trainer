@@ -1,0 +1,1369 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 10,
+  "unitTitle_de": "Rechte und Pflichten",
+  "unitTitle_ar": "الحقوق والواجبات في العمل",
+  "grammarFocus": [
+    "Präpositionen mit Genitiv",
+    "formelle Vertragssprache",
+    "Gesprächsführung mit Vorgesetzten",
+    "Kündigungs- und Arbeitsschutzsprache"
+  ],
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u10-e001",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsbedingungen",
+      "title_ar": "شروط العمل",
+      "prompt_de": "Was gehört zu den Arbeitsbedingungen?",
+      "prompt_ar": "ما الذي يندرج ضمن شروط العمل؟",
+      "answer": "Arbeitszeit, Arbeitsort, Vergütung und Urlaub",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Arbeitszeit, Arbeitsort, Vergütung und Urlaub",
+        "nur der Firmenname",
+        "nur private Hobbys",
+        "nur die Farbe des Büros"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v049",
+        "b2u10-v001"
+      ]
+    },
+    {
+      "id": "b2u10-e002",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Brutto und Netto",
+      "title_ar": "الإجمالي والصافي",
+      "prompt_de": "Ordnen Sie die Begriffe zu.",
+      "prompt_ar": "صِل المصطلحات بالشروح.",
+      "answer": {
+        "Bruttolohn": "vor Abzügen",
+        "Nettolohn": "nach Abzügen",
+        "Versicherungsbeitrag": "regelmäßige Versicherungszahlung",
+        "Abzug": "vom Brutto abgezogener Betrag"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Bruttolohn",
+          "vor Abzügen"
+        ],
+        [
+          "Nettolohn",
+          "nach Abzügen"
+        ],
+        [
+          "Versicherungsbeitrag",
+          "regelmäßige Versicherungszahlung"
+        ],
+        [
+          "Abzug",
+          "vom Brutto abgezogener Betrag"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u04-v087",
+        "b2u04-v088",
+        "b2u10-v004",
+        "b2u10-v005"
+      ]
+    },
+    {
+      "id": "b2u10-e003",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Gehalt",
+      "title_ar": "الراتب",
+      "prompt_de": "Nach Steuern und Sozialabgaben bleibt der ______ übrig.",
+      "prompt_ar": "بعد الضرائب والاشتراكات يبقى ______.",
+      "answer": "Nettolohn",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Nettolohn",
+        "der Nettolohn"
+      ],
+      "vocabularyRefs": [
+        "b2u04-v088"
+      ]
+    },
+    {
+      "id": "b2u10-e004",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Arbeitszeit",
+      "title_ar": "ساعات العمل",
+      "prompt_de": "Zwischen neun und fünfzehn Uhr gilt die ______.",
+      "prompt_ar": "بين التاسعة والثالثة تسري ______.",
+      "answer": "Kernarbeitszeit",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Kernarbeitszeit",
+        "die Kernarbeitszeit"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v002"
+      ]
+    },
+    {
+      "id": "b2u10-e005",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Homeoffice",
+      "title_ar": "العمل من المنزل",
+      "prompt_de": "Welche Aussage ist richtig?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Homeoffice muss mit den betrieblichen Regeln vereinbar sein.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Homeoffice muss mit den betrieblichen Regeln vereinbar sein.",
+        "Homeoffice bedeutet immer freie Arbeitszeit.",
+        "Im Homeoffice gelten keine Pflichten.",
+        "Homeoffice ersetzt den Arbeitsvertrag."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v003"
+      ]
+    },
+    {
+      "id": "b2u10-e006",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Vertragsparteien",
+      "title_ar": "أطراف العقد",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Arbeitgeber": "stellt ein und zahlt",
+        "Arbeitnehmer": "arbeitet aufgrund des Vertrags",
+        "Vertragspartei": "ist an den Vertrag gebunden",
+        "Beschäftigungsverhältnis": "rechtliche Beziehung"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Arbeitgeber",
+          "stellt ein und zahlt"
+        ],
+        [
+          "Arbeitnehmer",
+          "arbeitet aufgrund des Vertrags"
+        ],
+        [
+          "Vertragspartei",
+          "ist an den Vertrag gebunden"
+        ],
+        [
+          "Beschäftigungsverhältnis",
+          "rechtliche Beziehung"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v008",
+        "b2u10-v009",
+        "b2u10-v010",
+        "b2u10-v007"
+      ]
+    },
+    {
+      "id": "b2u10-e007",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Betriebsvereinbarung",
+      "title_ar": "الاتفاقية الداخلية",
+      "prompt_de": "Wer schließt eine Betriebsvereinbarung ab?",
+      "prompt_ar": "من يبرم الاتفاقية الداخلية؟",
+      "answer": "Arbeitgeber und Betriebsrat",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Arbeitgeber und Betriebsrat",
+        "zwei Kunden",
+        "nur die Krankenkasse",
+        "Lieferant und Kunde"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v011",
+        "b2u02-v032"
+      ]
+    },
+    {
+      "id": "b2u10-e008",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Vorkenntnisse",
+      "title_ar": "المعارف السابقة",
+      "prompt_de": "Die Aufgabe entspricht seinen technischen ______.",
+      "prompt_ar": "تناسب المهمة ______ التقنية السابقة.",
+      "answer": "Vorkenntnissen",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Vorkenntnissen",
+        "Vorkenntnisse"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v015"
+      ]
+    },
+    {
+      "id": "b2u10-e009",
+      "unit": 10,
+      "type": "sentence_build",
+      "title_de": "Vertragssprache",
+      "title_ar": "لغة العقد",
+      "prompt_de": "Bilden Sie einen Satz: Urlaubstermine / Arbeitgeber / abstimmen",
+      "prompt_ar": "كوّن جملة عن تنسيق الإجازة.",
+      "answer": "Die Urlaubstermine werden mit dem Arbeitgeber abgestimmt.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Urlaubstermine werden mit dem Arbeitgeber abgestimmt."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v016",
+        "b2u10-v019"
+      ]
+    },
+    {
+      "id": "b2u10-e010",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Vertragssprache",
+      "title_ar": "لغة العقد",
+      "prompt_de": "Im Vertrag wurde eine Probezeit ______.",
+      "prompt_ar": "تم ______ على فترة تجربة في العقد.",
+      "answer": "vereinbart",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "vereinbart"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v017",
+        "b2u06-v065"
+      ]
+    },
+    {
+      "id": "b2u10-e011",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Zumutbare Arbeit",
+      "title_ar": "العمل المقبول",
+      "prompt_de": "Welche Arbeit ist grundsätzlich nicht zumutbar?",
+      "prompt_ar": "أي عمل ليس مقبولًا؟",
+      "answer": "eine gefährliche Tätigkeit ohne notwendige Schutzausrüstung",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine gefährliche Tätigkeit ohne notwendige Schutzausrüstung",
+        "eine passende Aufgabe mit Einweisung",
+        "eine vereinbarte Tätigkeit",
+        "eine Aufgabe gemäß Vorkenntnissen"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v014",
+        "b2u05-v030"
+      ]
+    },
+    {
+      "id": "b2u10-e012",
+      "unit": 10,
+      "type": "guided_writing",
+      "title_de": "Fragen vor Arbeitsbeginn",
+      "title_ar": "أسئلة قبل بدء العمل",
+      "prompt_de": "Formulieren Sie acht Fragen zu einer neuen Arbeitsstelle.",
+      "prompt_ar": "صغ ثمانية أسئلة عن وظيفة جديدة.",
+      "answer": {
+        "requiredConcepts": [
+          "Arbeitsort",
+          "Kernarbeitszeit",
+          "Homeoffice",
+          "Bruttolohn",
+          "Urlaub",
+          "Probezeit",
+          "Tätigkeit",
+          "Pausen"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v001",
+        "b2u10-v002",
+        "b2u10-v003",
+        "b2u04-v087"
+      ]
+    },
+    {
+      "id": "b2u10-e013",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Verschwiegenheit",
+      "title_ar": "السرية",
+      "prompt_de": "Was bedeutet das Verschwiegenheitsgebot?",
+      "prompt_ar": "ما معنى واجب السرية؟",
+      "answer": "Vertrauliche Informationen dürfen nicht weitergegeben werden.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Vertrauliche Informationen dürfen nicht weitergegeben werden.",
+        "Alle Informationen müssen veröffentlicht werden.",
+        "Beschäftigte dürfen nie sprechen.",
+        "Der Vertrag ist geheim."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v020",
+        "b2u06-v072"
+      ]
+    },
+    {
+      "id": "b2u10-e014",
+      "unit": 10,
+      "type": "scenario_choice",
+      "title_de": "Krankmeldung",
+      "title_ar": "الإبلاغ عن المرض",
+      "prompt_de": "Eine Beschäftigte ist arbeitsunfähig. Was soll sie zuerst tun?",
+      "prompt_ar": "موظفة غير قادرة على العمل. ماذا تفعل؟",
+      "answer": "Die Erkrankung unverzüglich mitteilen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Erkrankung unverzüglich mitteilen.",
+        "Ohne Nachricht zu Hause bleiben.",
+        "Die Personalakte löschen.",
+        "Den Urlaub verlängern."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v021"
+      ]
+    },
+    {
+      "id": "b2u10-e015",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Personalakte",
+      "title_ar": "ملف الموظف",
+      "prompt_de": "Welches Recht haben Beschäftigte?",
+      "prompt_ar": "ما الحق الذي يملكه الموظف؟",
+      "answer": "Sie dürfen Einsicht in ihre Personalakte nehmen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Sie dürfen Einsicht in ihre Personalakte nehmen.",
+        "Sie dürfen fremde Akten veröffentlichen.",
+        "Sie dürfen ihr Gehalt selbst festlegen.",
+        "Sie dürfen alle Aufträge ablehnen."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v023",
+        "b2u10-v024"
+      ]
+    },
+    {
+      "id": "b2u10-e016",
+      "unit": 10,
+      "type": "scenario_choice",
+      "title_de": "Gewissenskonflikt",
+      "title_ar": "صراع الضمير",
+      "prompt_de": "Eine Aufgabe widerspricht ernsthaft den moralischen Überzeugungen. Was ist sinnvoll?",
+      "prompt_ar": "مهمة تتعارض جديًا مع القناعات. ما المناسب؟",
+      "answer": "Das Problem begründen und früh das Gespräch suchen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Das Problem begründen und früh das Gespräch suchen.",
+        "Ohne Erklärung gehen.",
+        "Alle Kollegen beschuldigen.",
+        "Die Akte vernichten."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v025"
+      ]
+    },
+    {
+      "id": "b2u10-e017",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Arbeitsauftrag verweigern",
+      "title_ar": "رفض مهمة",
+      "prompt_de": "Wann kann eine Verweigerung berechtigt sein?",
+      "prompt_ar": "متى قد يكون الرفض مبررًا؟",
+      "answer": "wenn eine akute erhebliche Gefahr besteht",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "wenn eine akute erhebliche Gefahr besteht",
+        "wenn die Aufgabe langweilig ist",
+        "wenn das Wetter schön ist",
+        "wenn man keine Lust hat"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v026"
+      ]
+    },
+    {
+      "id": "b2u10-e018",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Gleichbehandlung",
+      "title_ar": "المعاملة المتساوية",
+      "prompt_de": "Alle Beschäftigten haben Anspruch auf faire ______.",
+      "prompt_ar": "لجميع الموظفين حق في ______ عادلة.",
+      "answer": "Gleichbehandlung",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Gleichbehandlung"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v027"
+      ]
+    },
+    {
+      "id": "b2u10-e019",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Kleidung im Betrieb",
+      "title_ar": "الملابس في الشركة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Dienstkleidung": "vorgeschriebene Kleidung",
+        "Alltagskleidung": "private Kleidung",
+        "Schutzausrüstung": "Schutz vor Gefahren",
+        "Laborkittel": "Schutz im Labor"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Dienstkleidung",
+          "vorgeschriebene Kleidung"
+        ],
+        [
+          "Alltagskleidung",
+          "private Kleidung"
+        ],
+        [
+          "Schutzausrüstung",
+          "Schutz vor Gefahren"
+        ],
+        [
+          "Laborkittel",
+          "Schutz im Labor"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v028",
+        "b2u10-v029",
+        "b2u05-v030",
+        "b2u10-v053"
+      ]
+    },
+    {
+      "id": "b2u10-e020",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Weisungsrecht",
+      "title_ar": "حق إصدار التعليمات",
+      "prompt_de": "Welche Aussage ist richtig?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Das Weisungsrecht ist durch Gesetz und Vertrag begrenzt.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Das Weisungsrecht ist durch Gesetz und Vertrag begrenzt.",
+        "Der Arbeitgeber darf jede Gefahr anordnen.",
+        "Beschäftigte haben keine Rechte.",
+        "Es ersetzt alle Gesetze."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v012"
+      ]
+    },
+    {
+      "id": "b2u10-e021",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Betriebsversammlung",
+      "title_ar": "اجتماع الموظفين",
+      "prompt_de": "Wozu dient eine Betriebsversammlung?",
+      "prompt_ar": "ما هدف اجتماع الموظفين؟",
+      "answer": "Information und Austausch über betriebliche Themen",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Information und Austausch über betriebliche Themen",
+        "private Bestellungen",
+        "Verkauf von Waren",
+        "Ausstellung von Pässen"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v030"
+      ]
+    },
+    {
+      "id": "b2u10-e022",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Pünktlichkeit",
+      "title_ar": "الالتزام بالمواعيد",
+      "prompt_de": "Während der Kernarbeitszeit ist ______ besonders wichtig.",
+      "prompt_ar": "خلال فترة الحضور يكون ______ مهمًا.",
+      "answer": "Pünktlichkeit",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Pünktlichkeit"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v031",
+        "b2u10-v002"
+      ]
+    },
+    {
+      "id": "b2u10-e023",
+      "unit": 10,
+      "type": "scenario_choice",
+      "title_de": "Betriebsrat",
+      "title_ar": "مجلس العمال",
+      "prompt_de": "Ein Problem mit der Gruppenleitung bleibt ungelöst. Was kann die Beschäftigte tun?",
+      "prompt_ar": "مشكلة مع المسؤولة لم تُحل. ماذا تفعل؟",
+      "answer": "Den Betriebsrat einschalten.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Den Betriebsrat einschalten.",
+        "Den Vertrag heimlich ändern.",
+        "Die Firma ohne Nachricht verlassen.",
+        "Kundendaten veröffentlichen."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v037",
+        "b2u02-v032"
+      ]
+    },
+    {
+      "id": "b2u10-e024",
+      "unit": 10,
+      "type": "guided_speaking",
+      "title_de": "Rechte und Pflichten",
+      "title_ar": "الحقوق والواجبات",
+      "prompt_de": "Erklären Sie drei Rechte und drei Pflichten.",
+      "prompt_ar": "اشرح ثلاثة حقوق وثلاثة واجبات.",
+      "answer": {
+        "requiredConcepts": [
+          "Personalakte",
+          "Gleichbehandlung",
+          "Arbeitsschutz",
+          "Verschwiegenheit",
+          "Krankmeldung",
+          "betriebliche Regeln"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v023",
+        "b2u10-v027",
+        "b2u09-v082",
+        "b2u10-v020"
+      ]
+    },
+    {
+      "id": "b2u10-e025",
+      "unit": 10,
+      "type": "guided_writing",
+      "title_de": "Betriebsregel",
+      "title_ar": "قاعدة في الشركة",
+      "prompt_de": "Schreiben Sie einen kurzen Forumsbeitrag über eine neue Betriebsregel.",
+      "prompt_ar": "اكتب منشورًا قصيرًا عن قاعدة جديدة.",
+      "answer": {
+        "requiredConcepts": [
+          "Regel",
+          "Vorteil",
+          "Nachteil",
+          "Meinung",
+          "Vorschlag"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v011",
+        "b2u10-v030"
+      ]
+    },
+    {
+      "id": "b2u10-e026",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Gesprächsthemen",
+      "title_ar": "موضوعات الحوار",
+      "prompt_de": "Ordnen Sie Thema und Formulierung zu.",
+      "prompt_ar": "صِل الموضوع بالصياغة.",
+      "answer": {
+        "Arbeitsbelastung": "Ich schaffe die Menge dauerhaft nicht.",
+        "Gehaltswunsch": "Ich halte eine Anpassung für angemessen.",
+        "Pünktlichkeit": "Könnte ich später beginnen?",
+        "Überstunden": "Wie werden sie ausgeglichen?"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Arbeitsbelastung",
+          "Ich schaffe die Menge dauerhaft nicht."
+        ],
+        [
+          "Gehaltswunsch",
+          "Ich halte eine Anpassung für angemessen."
+        ],
+        [
+          "Pünktlichkeit",
+          "Könnte ich später beginnen?"
+        ],
+        [
+          "Überstunden",
+          "Wie werden sie ausgeglichen?"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v032",
+        "b2u10-v033",
+        "b2u10-v031",
+        "b2u10-v035"
+      ]
+    },
+    {
+      "id": "b2u10-e027",
+      "unit": 10,
+      "type": "scenario_choice",
+      "title_de": "Gehaltsgespräch",
+      "title_ar": "حوار الراتب",
+      "prompt_de": "Welche Formulierung ist sachlich?",
+      "prompt_ar": "أي صياغة موضوعية؟",
+      "answer": "Aufgrund meiner zusätzlichen Verantwortung halte ich eine Anpassung für angemessen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Aufgrund meiner zusätzlichen Verantwortung halte ich eine Anpassung für angemessen.",
+        "Zahlen Sie sofort mehr.",
+        "Ich will einfach mehr Geld.",
+        "Mein Kollege verdient mehr."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v033",
+        "b2u10-v063"
+      ]
+    },
+    {
+      "id": "b2u10-e028",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Tarif",
+      "title_ar": "التعرفة",
+      "prompt_de": "Wegen seiner Zusatzqualifikation wird er ______ Tarif bezahlt.",
+      "prompt_ar": "بسبب مؤهله يتقاضى ______ التعرفة.",
+      "answer": "über",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "über"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v034",
+        "b2u04-v057"
+      ]
+    },
+    {
+      "id": "b2u10-e029",
+      "unit": 10,
+      "type": "guided_speaking",
+      "title_de": "Gespräch mit der Vorgesetzten",
+      "title_ar": "حوار مع المسؤولة",
+      "prompt_de": "Führen Sie ein Gespräch über eine zu hohe Arbeitsbelastung.",
+      "prompt_ar": "أجرِ حوارًا عن عبء عمل مرتفع.",
+      "answer": {
+        "requiredConcepts": [
+          "Problem",
+          "Beispiele",
+          "Auswirkungen",
+          "Lösung",
+          "Vereinbarung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v032",
+        "b2u10-v017"
+      ]
+    },
+    {
+      "id": "b2u10-e030",
+      "unit": 10,
+      "type": "sentence_build",
+      "title_de": "Überstunden",
+      "title_ar": "الساعات الإضافية",
+      "prompt_de": "Bilden Sie einen höflichen Satz: 25 Überstunden / Ausgleich / fragen",
+      "prompt_ar": "كوّن سؤالًا مهذبًا.",
+      "answer": "Ich möchte gern besprechen, wie meine 25 Überstunden ausgeglichen werden.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Ich möchte gern besprechen, wie meine 25 Überstunden ausgeglichen werden."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v035"
+      ]
+    },
+    {
+      "id": "b2u10-e031",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Pünktlichkeit",
+      "title_ar": "الالتزام بالمواعيد",
+      "prompt_de": "Was ist bei wiederholter Verspätung sinnvoll?",
+      "prompt_ar": "ما المناسب عند التأخر المتكرر؟",
+      "answer": "Ursachen und Lösungen sachlich besprechen",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Ursachen und Lösungen sachlich besprechen",
+        "das Problem ignorieren",
+        "heimlich Zeiten ändern",
+        "Kollegen beschuldigen"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v031"
+      ]
+    },
+    {
+      "id": "b2u10-e032",
+      "unit": 10,
+      "type": "guided_writing",
+      "title_de": "Gesprächsvorbereitung",
+      "title_ar": "التحضير للحوار",
+      "prompt_de": "Notieren Sie Stichpunkte für ein Gespräch über Gehalt oder Arbeitszeit.",
+      "prompt_ar": "اكتب نقاطًا لحوار عن الراتب أو الدوام.",
+      "answer": {
+        "requiredConcepts": [
+          "Ziel",
+          "Fakten",
+          "Begründung",
+          "Forderung",
+          "Kompromiss"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v033",
+        "b2u10-v002",
+        "b2u10-v032"
+      ]
+    },
+    {
+      "id": "b2u10-e033",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Auftragslage",
+      "title_ar": "وضع الطلبات",
+      "prompt_de": "Warum kann eine hohe Arbeitsbelastung entstehen?",
+      "prompt_ar": "لماذا قد يرتفع عبء العمل؟",
+      "answer": "wegen einer guten Auftragslage und zu wenig Personal",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "wegen einer guten Auftragslage und zu wenig Personal",
+        "wegen der Personalakte",
+        "wegen eines Führungszeugnisses",
+        "nur wegen Urlaub"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v032",
+        "b2u04-v089"
+      ]
+    },
+    {
+      "id": "b2u10-e034",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Vereinbarung",
+      "title_ar": "الاتفاق",
+      "prompt_de": "Am Ende wurde eine konkrete Lösung ______.",
+      "prompt_ar": "في نهاية الحوار تم ______ على حل.",
+      "answer": "vereinbart",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "vereinbart"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v017"
+      ]
+    },
+    {
+      "id": "b2u10-e035",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Bruttovergütung",
+      "title_ar": "الأجر الإجمالي",
+      "prompt_de": "Wann wird die Bruttovergütung zum Nettolohn?",
+      "prompt_ar": "متى يصبح الأجر الإجمالي صافيًا؟",
+      "answer": "nach Abzug von Steuern und Versicherungsbeiträgen",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "nach Abzug von Steuern und Versicherungsbeiträgen",
+        "nach dem Urlaub",
+        "nach der Probezeit",
+        "nach einer Versammlung"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v006",
+        "b2u10-v005",
+        "b2u10-v004",
+        "b2u04-v088"
+      ]
+    },
+    {
+      "id": "b2u10-e036",
+      "unit": 10,
+      "type": "dialogue_choice",
+      "title_de": "Arbeitszeit",
+      "title_ar": "ساعات العمل",
+      "prompt_de": "Welche Frage passt zu einer neuen Arbeitsstelle?",
+      "prompt_ar": "أي سؤال مناسب؟",
+      "answer": "Von wann bis wann gilt die Kernarbeitszeit?",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Von wann bis wann gilt die Kernarbeitszeit?",
+        "Welche Musik hören Sie?",
+        "Wie heißt Ihr Nachbar?",
+        "Welche Farbe hat Ihr Auto?"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v002"
+      ]
+    },
+    {
+      "id": "b2u10-e037",
+      "unit": 10,
+      "type": "guided_speaking",
+      "title_de": "Arbeitsbedingungen vergleichen",
+      "title_ar": "مقارنة شروط العمل",
+      "prompt_de": "Vergleichen Sie die Arbeitsbedingungen in zwei Ländern oder Betrieben.",
+      "prompt_ar": "قارن شروط العمل في بلدين أو شركتين.",
+      "answer": {
+        "requiredConcepts": [
+          "Arbeitszeit",
+          "Urlaub",
+          "Gehalt",
+          "Kündigungsschutz",
+          "Arbeitsschutz",
+          "Mitbestimmung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u04-v049",
+        "b2u09-v082"
+      ]
+    },
+    {
+      "id": "b2u10-e038",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Kündigung",
+      "title_ar": "إنهاء العمل",
+      "prompt_de": "Was ist eine Kündigung?",
+      "prompt_ar": "ما هو إنهاء العمل؟",
+      "answer": "eine einseitige Erklärung zur Beendigung des Arbeitsverhältnisses",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "eine einseitige Erklärung zur Beendigung des Arbeitsverhältnisses",
+        "eine Gehaltserhöhung",
+        "eine Betriebsversammlung",
+        "eine Krankmeldung"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v038",
+        "b2u10-v040"
+      ]
+    },
+    {
+      "id": "b2u10-e039",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Kündigungsbegriffe",
+      "title_ar": "مصطلحات الإنهاء",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Kündigungsgrund": "Anlass der Kündigung",
+        "Entlassung": "Beendigung durch Arbeitgeber",
+        "Gültigkeit": "rechtliche Wirksamkeit",
+        "Lohnrückstand": "noch nicht gezahlter Lohn"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Kündigungsgrund",
+          "Anlass der Kündigung"
+        ],
+        [
+          "Entlassung",
+          "Beendigung durch Arbeitgeber"
+        ],
+        [
+          "Gültigkeit",
+          "rechtliche Wirksamkeit"
+        ],
+        [
+          "Lohnrückstand",
+          "noch nicht gezahlter Lohn"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v039",
+        "b2u10-v041",
+        "b2u10-v043",
+        "b2u10-v045"
+      ]
+    },
+    {
+      "id": "b2u10-e040",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Wirksamkeit",
+      "title_ar": "النفاذ",
+      "prompt_de": "Die neue Regel tritt am ersten Januar in ______.",
+      "prompt_ar": "تدخل القاعدة حيز ______.",
+      "answer": "Kraft",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Kraft"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v044"
+      ]
+    },
+    {
+      "id": "b2u10-e041",
+      "unit": 10,
+      "type": "scenario_choice",
+      "title_de": "Diskriminierung",
+      "title_ar": "التمييز",
+      "prompt_de": "Eine Kündigung erfolgt wegen einer Schwangerschaft. Was ist zu tun?",
+      "prompt_ar": "تم الفصل بسبب الحمل. ماذا ينبغي؟",
+      "answer": "Die Kündigung rechtlich prüfen und Beratung suchen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Kündigung rechtlich prüfen und Beratung suchen.",
+        "Die Unterlagen vernichten.",
+        "Nichts dokumentieren.",
+        "Eine neue Personalakte anlegen."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v047",
+        "b2u10-v038",
+        "b2u02-v030"
+      ]
+    },
+    {
+      "id": "b2u10-e042",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Kündigung aussprechen",
+      "title_ar": "إصدار الإنهاء",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Eine Kündigung muss eindeutig und formgerecht erklärt werden.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Eine Kündigung muss eindeutig und formgerecht erklärt werden.",
+        "Sie gilt immer mündlich.",
+        "Sie braucht nie eine Frist.",
+        "Sie ist automatisch wirksam."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v042",
+        "b2u10-v043"
+      ]
+    },
+    {
+      "id": "b2u10-e043",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Lohnrückstand",
+      "title_ar": "تأخر الأجر",
+      "prompt_de": "Was bedeutet Lohnrückstand?",
+      "prompt_ar": "ما معنى Lohnrückstand؟",
+      "answer": "fälliger, aber noch nicht gezahlter Lohn",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "fälliger, aber noch nicht gezahlter Lohn",
+        "künftiger Urlaub",
+        "Versicherungsbeitrag",
+        "Arbeitskleidung"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v045"
+      ]
+    },
+    {
+      "id": "b2u10-e044",
+      "unit": 10,
+      "type": "guided_writing",
+      "title_de": "Kündigung prüfen",
+      "title_ar": "فحص الإنهاء",
+      "prompt_de": "Schreiben Sie eine Checkliste nach Erhalt einer Kündigung.",
+      "prompt_ar": "اكتب قائمة فحص بعد استلام إنهاء العمل.",
+      "answer": {
+        "requiredConcepts": [
+          "Zugang",
+          "Form",
+          "Frist",
+          "Grund",
+          "Schutzrechte",
+          "Beratung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v038",
+        "b2u10-v039",
+        "b2u10-v043",
+        "b2u02-v036"
+      ]
+    },
+    {
+      "id": "b2u10-e045",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Äußerungen",
+      "title_ar": "التصريحات",
+      "prompt_de": "Herabsetzende Aussagen über geschützte Merkmale sind ______ Äußerungen.",
+      "prompt_ar": "التصريحات المهينة هي تصريحات ______.",
+      "answer": "diskriminierende",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "diskriminierende"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v046"
+      ]
+    },
+    {
+      "id": "b2u10-e046",
+      "unit": 10,
+      "type": "guided_speaking",
+      "title_de": "Kündigungsarten",
+      "title_ar": "أنواع الإنهاء",
+      "prompt_de": "Erklären Sie den Unterschied zwischen ordentlicher und außerordentlicher Kündigung.",
+      "prompt_ar": "اشرح الفرق بين النوعين.",
+      "answer": {
+        "requiredConcepts": [
+          "Frist",
+          "wichtiger Grund",
+          "sofortige Wirkung",
+          "Beispiele",
+          "Prüfung"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u10-v038",
+        "b2u02-v034",
+        "b2u02-v035"
+      ]
+    },
+    {
+      "id": "b2u10-e047",
+      "unit": 10,
+      "type": "sentence_build",
+      "title_de": "Kündigung",
+      "title_ar": "الإنهاء",
+      "prompt_de": "Bilden Sie einen Satz: Kündigung / Monatsende / in Kraft treten",
+      "prompt_ar": "كوّن جملة.",
+      "answer": "Die Kündigung tritt zum Monatsende in Kraft.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Kündigung tritt zum Monatsende in Kraft."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v038",
+        "b2u10-v044"
+      ]
+    },
+    {
+      "id": "b2u10-e048",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Arbeitsschutz",
+      "title_ar": "السلامة المهنية",
+      "prompt_de": "Ordnen Sie Gefahr und Schutzmaßnahme zu.",
+      "prompt_ar": "صِل الخطر بإجراء الحماية.",
+      "answer": {
+        "Gefahrstoff": "Schutzhandschuhe und Maske",
+        "Baustelle": "Schutzhelm",
+        "lange Lenkzeit": "Ruhezeit",
+        "schwere Last": "technisches Hilfsmittel"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Gefahrstoff",
+          "Schutzhandschuhe und Maske"
+        ],
+        [
+          "Baustelle",
+          "Schutzhelm"
+        ],
+        [
+          "lange Lenkzeit",
+          "Ruhezeit"
+        ],
+        [
+          "schwere Last",
+          "technisches Hilfsmittel"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v050",
+        "b2u10-v052",
+        "b2u10-v054",
+        "b2u10-v051",
+        "b2u01-v027",
+        "b2u10-v057"
+      ]
+    },
+    {
+      "id": "b2u10-e049",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Mutterschutz",
+      "title_ar": "حماية الأمومة",
+      "prompt_de": "Was verlangt der Mutterschutz?",
+      "prompt_ar": "ماذا تتطلب حماية الأمومة؟",
+      "answer": "Gefährliche Tätigkeiten müssen ausgeschlossen oder angepasst werden.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Gefährliche Tätigkeiten müssen ausgeschlossen oder angepasst werden.",
+        "Schwangere müssen mehr Überstunden machen.",
+        "Schutzkleidung ist verboten.",
+        "Krankmeldungen sind unnötig."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v048",
+        "b2u10-v047"
+      ]
+    },
+    {
+      "id": "b2u10-e050",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Jugendarbeitsschutz",
+      "title_ar": "حماية القاصرين",
+      "prompt_de": "Was schützt der Jugendarbeitsschutz?",
+      "prompt_ar": "ماذا تحمي قواعد القاصرين؟",
+      "answer": "minderjährige Beschäftigte vor Überlastung und gefährlichen Arbeiten",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "minderjährige Beschäftigte vor Überlastung und gefährlichen Arbeiten",
+        "nur leitende Angestellte",
+        "nur Kunden",
+        "nur Rentner"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v058",
+        "b2u10-v059"
+      ]
+    },
+    {
+      "id": "b2u10-e051",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Schutz",
+      "title_ar": "الحماية",
+      "prompt_de": "Beim Umgang mit Chemikalien trägt sie geeignete ______.",
+      "prompt_ar": "عند التعامل مع الكيميائيات ترتدي ______ مناسبة.",
+      "answer": "Schutzhandschuhe",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Schutzhandschuhe"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v052"
+      ]
+    },
+    {
+      "id": "b2u10-e052",
+      "unit": 10,
+      "type": "multiple_choice",
+      "title_de": "Genitivpräposition",
+      "title_ar": "حرف جر مع المضاف إليه",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Aufgrund meiner Berufserfahrung habe ich die Stelle bekommen.",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Aufgrund meiner Berufserfahrung habe ich die Stelle bekommen.",
+        "Aufgrund meine Berufserfahrung habe ich die Stelle bekommen.",
+        "Aufgrund meiner Berufserfahrung ich die Stelle bekommen.",
+        "Aufgrund meinen Berufserfahrung habe ich die Stelle bekommen."
+      ],
+      "vocabularyRefs": [
+        "b2u10-v063",
+        "b2u10-v062"
+      ]
+    },
+    {
+      "id": "b2u10-e053",
+      "unit": 10,
+      "type": "matching",
+      "title_de": "Genitivpräpositionen",
+      "title_ar": "حروف الجر",
+      "prompt_de": "Ordnen Sie Bedeutung und Präposition zu.",
+      "prompt_ar": "صِل المعنى بحرف الجر.",
+      "answer": {
+        "Grund": "aufgrund",
+        "Gegensatz": "trotz",
+        "Zeitraum": "während",
+        "Frist": "innerhalb",
+        "außerhalb eines Bereichs": "außerhalb",
+        "Anlass": "anlässlich",
+        "Ersatz": "statt"
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Grund",
+          "aufgrund"
+        ],
+        [
+          "Gegensatz",
+          "trotz"
+        ],
+        [
+          "Zeitraum",
+          "während"
+        ],
+        [
+          "Frist",
+          "innerhalb"
+        ],
+        [
+          "außerhalb eines Bereichs",
+          "außerhalb"
+        ],
+        [
+          "Anlass",
+          "anlässlich"
+        ],
+        [
+          "Ersatz",
+          "statt"
+        ]
+      ],
+      "vocabularyRefs": [
+        "b2u10-v063",
+        "b2u10-v064",
+        "b2u10-v065",
+        "b2u10-v066",
+        "b2u10-v067",
+        "b2u10-v068",
+        "b2u10-v069"
+      ]
+    },
+    {
+      "id": "b2u10-e054",
+      "unit": 10,
+      "type": "fill_blank",
+      "title_de": "Genitiv",
+      "title_ar": "المضاف إليه",
+      "prompt_de": "______ der Arbeitszeit darf man die Personalakte einsehen.",
+      "prompt_ar": "______ وقت العمل يحق الاطلاع على الملف.",
+      "answer": "Während",
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Während",
+        "während"
+      ],
+      "vocabularyRefs": [
+        "b2u10-v065",
+        "b2u10-v023"
+      ]
+    },
+    {
+      "id": "b2u10-e055",
+      "unit": 10,
+      "type": "guided_writing",
+      "title_de": "Arbeitsschutz im Betrieb",
+      "title_ar": "السلامة في الشركة",
+      "prompt_de": "Schreiben Sie einen Forumsbeitrag zu einer neuen Arbeitsschutzregel.",
+      "prompt_ar": "اكتب منشورًا عن قاعدة سلامة جديدة.",
+      "answer": {
+        "requiredConcepts": [
+          "Gefahr",
+          "Schutzmaßnahme",
+          "Vorteil",
+          "Einwand",
+          "Position"
+        ]
+      },
+      "source": "original_exercise_based_on_kapitel_10_topics",
+      "bookTextCopied": false,
+      "evaluationMode": "self_check_with_checklist",
+      "vocabularyRefs": [
+        "b2u09-v082",
+        "b2u05-v030",
+        "b2u10-v056"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,12 @@ import type {
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataRoot = path.join(projectRoot, "public", "data", "b2-grammar");
-const phaseRoots = ["phase-1", "phase-2"];
+const phaseSpecs = [
+  { root: "phase-1", phaseId: "grammar-phase-1", firstTopic: 1, lastTopic: 10, exerciseCount: 228 },
+  { root: "phase-2", phaseId: "grammar-phase-2", firstTopic: 11, lastTopic: 20, exerciseCount: 236 },
+  { root: "phase-3", phaseId: "grammar-phase-3", firstTopic: 21, lastTopic: 30, exerciseCount: 246 },
+  { root: "phase-4", phaseId: "grammar-phase-4", firstTopic: 31, lastTopic: 40, exerciseCount: 246 },
+] as const;
 
 async function readJson<T>(filePath: string): Promise<T> {
   return JSON.parse(await readFile(filePath, "utf8")) as T;
@@ -27,11 +32,26 @@ async function audit(): Promise<void> {
   const typeCounts = new Map<string, number>();
   let exerciseCount = 0;
 
-  for (const phaseRoot of phaseRoots) {
+  for (const spec of phaseSpecs) {
+    const phaseRoot = spec.root;
     const root = path.join(dataRoot, phaseRoot);
     const index = await readJson<B2GrammarPhaseIndex>(path.join(root, "index.json"));
+    if (index.phaseId !== spec.phaseId) errors.push(`${phaseRoot}: phaseId mismatch`);
+    if (index.topicCount !== 10) errors.push(`${phaseRoot}: expected 10 topics, found ${index.topicCount}`);
+    if (index.exerciseCount !== spec.exerciseCount) {
+      errors.push(`${phaseRoot}: expected ${spec.exerciseCount} exercises, found ${index.exerciseCount}`);
+    }
     if (index.topics.length !== index.topicCount) errors.push(`${phaseRoot}: topicCount mismatch`);
     let phaseExerciseCount = 0;
+
+    const expectedTopicIds = Array.from(
+      { length: spec.lastTopic - spec.firstTopic + 1 },
+      (_, offset) => `gr-${String(spec.firstTopic + offset).padStart(2, "0")}`,
+    );
+    const actualTopicIds = index.topics.map((topic) => topic.id);
+    if (actualTopicIds.join("|") !== expectedTopicIds.join("|")) {
+      errors.push(`${phaseRoot}: topic IDs or order do not match ${expectedTopicIds[0]} through ${expectedTopicIds.at(-1)}`);
+    }
 
     for (const topic of index.topics) {
       if (topicIds.has(topic.id)) errors.push(`Duplicate topic id: ${topic.id}`);
@@ -78,8 +98,8 @@ async function audit(): Promise<void> {
   for (const type of typeCounts.keys()) {
     if (!SUPPORTED_B2_GRAMMAR_TYPES.includes(type as never)) errors.push(`Unsupported type: ${type}`);
   }
-  if (topicIds.size !== 20) errors.push(`Expected 20 topics, found ${topicIds.size}`);
-  if (exerciseCount !== 464 || exerciseIds.size !== 464) errors.push(`Expected 464 unique exercises, found ${exerciseCount}/${exerciseIds.size}`);
+  if (topicIds.size !== 40) errors.push(`Expected 40 topics, found ${topicIds.size}`);
+  if (exerciseCount !== 956 || exerciseIds.size !== 956) errors.push(`Expected 956 unique exercises, found ${exerciseCount}/${exerciseIds.size}`);
 
   console.log("B2 grammar content audit");
   console.log(`Topics: ${topicIds.size}`);

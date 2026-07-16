@@ -1,0 +1,554 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-21",
+  "title_de": "Kausale Konnektoren – Übungen",
+  "title_ar": "تمارين أدوات الربط السببية",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr21-e001",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Weil-Satz",
+      "title_ar": "جملة weil",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir warten, weil der Antrag noch geprüft wird.",
+      "explanation_de": "Im weil-Satz steht wird am Ende.",
+      "explanation_ar": "في جملة weil تأتي wird في النهاية.",
+      "grammarFocus": "weil_word_order",
+      "options": [
+        "Wir warten, weil der Antrag noch geprüft wird.",
+        "Wir warten, weil wird der Antrag noch geprüft.",
+        "Wir warten, weil der Antrag wird noch geprüft.",
+        "Wir warten, weil noch wird der Antrag geprüft."
+      ]
+    },
+    {
+      "id": "gr21-e002",
+      "topicId": "gr-21",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Grund mit weil",
+      "title_ar": "سبب باستخدام weil",
+      "prompt_de": "Die Sitzung fällt aus, ______ mehrere Personen erkrankt sind.",
+      "prompt_ar": "أُلغي الاجتماع لأن عدة أشخاص مرضى.",
+      "answer": "weil",
+      "explanation_de": "Weil leitet den Grund als Nebensatz ein.",
+      "explanation_ar": "تدخل weil السبب في جملة فرعية.",
+      "grammarFocus": "weil_reason",
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "gr21-e003",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Denn-Satz",
+      "title_ar": "جملة denn",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir müssen uns beeilen, denn die Frist endet morgen.",
+      "explanation_de": "Nach denn gilt die normale Hauptsatzstellung.",
+      "explanation_ar": "بعد denn يبقى ترتيب الجملة الرئيسية عاديًا.",
+      "grammarFocus": "denn_word_order",
+      "options": [
+        "Wir müssen uns beeilen, denn die Frist endet morgen.",
+        "Wir müssen uns beeilen, denn morgen die Frist endet.",
+        "Wir müssen uns beeilen, denn endet die Frist morgen.",
+        "Wir müssen uns beeilen, denn die Frist morgen enden."
+      ]
+    },
+    {
+      "id": "gr21-e004",
+      "topicId": "gr-21",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Ursache oder Folge",
+      "title_ar": "سبب أم نتيجة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "weil": "Ursache",
+        "da": "Ursache",
+        "denn": "Ursache",
+        "deshalb": "Folge",
+        "deswegen": "Folge",
+        "daher": "Folge"
+      },
+      "explanation_de": "Die Konnektoren unterscheiden Ursache und Folge.",
+      "explanation_ar": "تميّز الأدوات بين السبب والنتيجة.",
+      "grammarFocus": "cause_effect_matching",
+      "pairs": [
+        [
+          "weil",
+          "Ursache"
+        ],
+        [
+          "da",
+          "Ursache"
+        ],
+        [
+          "denn",
+          "Ursache"
+        ],
+        [
+          "deshalb",
+          "Folge"
+        ],
+        [
+          "deswegen",
+          "Folge"
+        ],
+        [
+          "daher",
+          "Folge"
+        ]
+      ]
+    },
+    {
+      "id": "gr21-e005",
+      "topicId": "gr-21",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Deshalb",
+      "title_ar": "deshalb",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unterlagen fehlen. Deshalb können wir nicht beginnen.",
+      "explanation_de": "Nach deshalb folgt direkt das konjugierte Verb können.",
+      "explanation_ar": "بعد deshalb يأتي الفعل المصرف können مباشرة.",
+      "grammarFocus": "deshalb_order",
+      "tokens": [
+        "nicht beginnen",
+        "Die Unterlagen fehlen",
+        "können",
+        "Deshalb",
+        "wir"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen fehlen. Deshalb können wir nicht beginnen."
+      ]
+    },
+    {
+      "id": "gr21-e006",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Da am Satzanfang",
+      "title_ar": "da في بداية الجملة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Da die Frist morgen endet, müssen wir heute reagieren.",
+      "explanation_de": "Im da-Satz steht endet am Ende; danach beginnt der Hauptsatz mit müssen.",
+      "explanation_ar": "في جملة da تأتي endet في النهاية، وبعدها تبدأ الجملة الرئيسية بـ müssen.",
+      "grammarFocus": "da_fronted",
+      "options": [
+        "Da die Frist morgen endet, müssen wir heute reagieren.",
+        "Da endet die Frist morgen, wir müssen heute reagieren.",
+        "Da die Frist endet morgen, müssen wir heute reagieren.",
+        "Da die Frist morgen endet, wir müssen heute reagieren."
+      ]
+    },
+    {
+      "id": "gr21-e007",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Formelle Folge",
+      "title_ar": "نتيجة رسمية",
+      "prompt_de": "Welche Verbindung wirkt besonders formell?",
+      "prompt_ar": "أي أداة تبدو رسمية بصورة خاصة؟",
+      "answer": "Aus diesem Grund kann der Antrag noch nicht entschieden werden.",
+      "explanation_de": "Aus diesem Grund eignet sich besonders für formelle Texte.",
+      "explanation_ar": "تناسب aus diesem Grund النصوص الرسمية بصورة خاصة.",
+      "grammarFocus": "formal_effect_connector",
+      "options": [
+        "Aus diesem Grund kann der Antrag noch nicht entschieden werden.",
+        "Weil kann der Antrag noch nicht entschieden werden.",
+        "Denn kann der Antrag noch nicht entschieden werden.",
+        "Da kann der Antrag noch nicht entschieden werden."
+      ]
+    },
+    {
+      "id": "gr21-e008",
+      "topicId": "gr-21",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Folge mit deswegen",
+      "title_ar": "نتيجة باستخدام deswegen",
+      "prompt_de": "Der Server ist ausgefallen. ______ können wir nicht weiterarbeiten.",
+      "prompt_ar": "تعطل الخادم، لذلك لا نستطيع متابعة العمل.",
+      "answer": "Deswegen",
+      "explanation_de": "Deswegen leitet die Folge ein und steht hier auf Position 1.",
+      "explanation_ar": "تقدم Deswegen النتيجة وتأتي هنا في المرتبة الأولى.",
+      "grammarFocus": "deswegen_effect",
+      "acceptedAnswers": [
+        "Deswegen",
+        "deswegen"
+      ]
+    },
+    {
+      "id": "gr21-e009",
+      "topicId": "gr-21",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Weil zu deshalb",
+      "title_ar": "من weil إلى deshalb",
+      "prompt_de": "Formen Sie um: Wir bleiben im Büro, weil ein wichtiger Termin bevorsteht.",
+      "prompt_ar": "أعد الصياغة باستخدام deshalb.",
+      "answer": "Ein wichtiger Termin steht bevor. Deshalb bleiben wir im Büro.",
+      "explanation_de": "Der Grund steht im ersten Satz; deshalb leitet die Folge ein.",
+      "explanation_ar": "يأتي السبب في الجملة الأولى وتقدم deshalb النتيجة.",
+      "grammarFocus": "cause_to_effect",
+      "acceptedAnswers": [
+        "Ein wichtiger Termin steht bevor. Deshalb bleiben wir im Büro."
+      ]
+    },
+    {
+      "id": "gr21-e010",
+      "topicId": "gr-21",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Deshalb zu weil",
+      "title_ar": "من deshalb إلى weil",
+      "prompt_de": "Formen Sie um: Die Unterlagen sind unvollständig. Deshalb wird der Antrag zurückgestellt.",
+      "prompt_ar": "أعد الصياغة باستخدام weil.",
+      "answer": "Der Antrag wird zurückgestellt, weil die Unterlagen unvollständig sind.",
+      "explanation_de": "Weil leitet den Grund als Nebensatz ein.",
+      "explanation_ar": "تدخل weil السبب في جملة فرعية.",
+      "grammarFocus": "effect_to_cause",
+      "acceptedAnswers": [
+        "Der Antrag wird zurückgestellt, weil die Unterlagen unvollständig sind."
+      ]
+    },
+    {
+      "id": "gr21-e011",
+      "topicId": "gr-21",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Denn mit Hauptsatz",
+      "title_ar": "denn مع جملة رئيسية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Termin wird verschoben, denn der Raum ist nicht verfügbar.",
+      "explanation_de": "Nach denn steht der Raum vor dem Verb ist.",
+      "explanation_ar": "بعد denn يأتي der Raum قبل الفعل ist.",
+      "grammarFocus": "denn_main_clause_order",
+      "tokens": [
+        "nicht verfügbar",
+        "denn",
+        "ist",
+        "Der Termin wird verschoben",
+        "der Raum"
+      ],
+      "acceptedAnswers": [
+        "Der Termin wird verschoben, denn der Raum ist nicht verfügbar."
+      ]
+    },
+    {
+      "id": "gr21-e012",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Richtige Blickrichtung",
+      "title_ar": "اتجاه العلاقة الصحيح",
+      "prompt_de": "Welche Verbindung nennt zuerst die Ursache und danach die Folge?",
+      "prompt_ar": "أي صيغة تذكر السبب أولًا ثم النتيجة؟",
+      "answer": "Die Angaben sind widersprüchlich. Daher muss der Vorgang erneut geprüft werden.",
+      "explanation_de": "Der erste Satz nennt die Ursache; daher leitet die Folge ein.",
+      "explanation_ar": "تذكر الجملة الأولى السبب وتقدم daher النتيجة.",
+      "grammarFocus": "cause_then_effect",
+      "options": [
+        "Die Angaben sind widersprüchlich. Daher muss der Vorgang erneut geprüft werden.",
+        "Der Vorgang wird geprüft, daher die Angaben widersprüchlich sind.",
+        "Die Angaben sind widersprüchlich, weil muss der Vorgang geprüft werden.",
+        "Daher die Angaben widersprüchlich sind, wird geprüft."
+      ]
+    },
+    {
+      "id": "gr21-e013",
+      "topicId": "gr-21",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Konnektor und Satzstellung",
+      "title_ar": "الأداة وترتيب الجملة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "weil": "Verb am Ende",
+        "da": "Verb am Ende",
+        "denn": "normale Hauptsatzstellung",
+        "deshalb": "Verb direkt nach dem Konnektor",
+        "aus diesem Grund": "Verb auf Position 2"
+      },
+      "explanation_de": "Jeder Konnektortyp verlangt eine bestimmte Satzstellung.",
+      "explanation_ar": "يتطلب كل نوع من أدوات الربط ترتيبًا معينًا.",
+      "grammarFocus": "connector_word_order_matching",
+      "pairs": [
+        [
+          "weil",
+          "Verb am Ende"
+        ],
+        [
+          "da",
+          "Verb am Ende"
+        ],
+        [
+          "denn",
+          "normale Hauptsatzstellung"
+        ],
+        [
+          "deshalb",
+          "Verb direkt nach dem Konnektor"
+        ],
+        [
+          "aus diesem Grund",
+          "Verb auf Position 2"
+        ]
+      ]
+    },
+    {
+      "id": "gr21-e014",
+      "topicId": "gr-21",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "بريد رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in eine formelle E-Mail?",
+      "prompt_ar": "أي صياغة تناسب بريدًا رسميًا أكثر؟",
+      "answer": "Da die erforderlichen Nachweise noch nicht vollständig vorliegen, bitten wir um eine Fristverlängerung.",
+      "explanation_de": "Da eignet sich gut für eine formelle Begründung.",
+      "explanation_ar": "تناسب da التعليل الرسمي.",
+      "grammarFocus": "formal_email_reason",
+      "options": [
+        "Da die erforderlichen Nachweise noch nicht vollständig vorliegen, bitten wir um eine Fristverlängerung.",
+        "Weil fehlen die Nachweise, wollen wir mehr Zeit.",
+        "Denn die Nachweise noch fehlen, brauchen wir länger.",
+        "Deswegen die Nachweise fehlen, bitten wir Frist."
+      ]
+    },
+    {
+      "id": "gr21-e015",
+      "topicId": "gr-21",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Daher",
+      "title_ar": "daher",
+      "prompt_de": "Die Daten sind unvollständig. ______ ist eine erneute Prüfung erforderlich.",
+      "prompt_ar": "البيانات غير مكتملة، لذلك يلزم فحص جديد.",
+      "answer": "Daher",
+      "explanation_de": "Daher leitet eine eher formelle Folge ein.",
+      "explanation_ar": "تقدم Daher نتيجة ذات طابع رسمي نسبيًا.",
+      "grammarFocus": "daher_effect",
+      "acceptedAnswers": [
+        "Daher",
+        "daher"
+      ]
+    },
+    {
+      "id": "gr21-e016",
+      "topicId": "gr-21",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Weil die technischen Voraussetzungen fehlen, kann das Projekt noch nicht beginnen.",
+      "explanation_de": "Nach dem vorangestellten Nebensatz beginnt der Hauptsatz mit kann.",
+      "explanation_ar": "بعد الجملة الفرعية المقدمة تبدأ الجملة الرئيسية بـ kann.",
+      "grammarFocus": "fronted_subordinate",
+      "tokens": [
+        "noch nicht beginnen",
+        "fehlen",
+        "kann",
+        "Weil",
+        "das Projekt",
+        "die technischen Voraussetzungen"
+      ],
+      "acceptedAnswers": [
+        "Weil die technischen Voraussetzungen fehlen, kann das Projekt noch nicht beginnen."
+      ]
+    },
+    {
+      "id": "gr21-e017",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Da oder denn",
+      "title_ar": "da أم denn",
+      "prompt_de": "Welche Form ist korrekt und stilistisch passend?",
+      "prompt_ar": "أي صيغة صحيحة ومناسبة أسلوبيًا؟",
+      "answer": "Da alle Unterlagen vorliegen, kann die Bearbeitung beginnen.",
+      "explanation_de": "Da leitet hier eine formelle Begründung am Satzanfang ein.",
+      "explanation_ar": "تقدم da هنا تعليلًا رسميًا في بداية الجملة.",
+      "grammarFocus": "da_vs_denn",
+      "options": [
+        "Da alle Unterlagen vorliegen, kann die Bearbeitung beginnen.",
+        "Denn alle Unterlagen vorliegen, kann die Bearbeitung beginnen.",
+        "Da liegen alle Unterlagen vor, die Bearbeitung kann beginnen.",
+        "Denn die Bearbeitung kann beginnen, alle Unterlagen liegen vor."
+      ]
+    },
+    {
+      "id": "gr21-e018",
+      "topicId": "gr-21",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Stilistische Variation",
+      "title_ar": "تنويع أسلوبي",
+      "prompt_de": "Verbinden Sie drei Aussagen abwechslungsreich: Die Nachfrage ist gestiegen. Mehr Personal wird gebraucht. Die Arbeitszeiten werden neu geplant.",
+      "prompt_ar": "اربط العبارات الثلاث بأسلوب متنوع.",
+      "answer": "Da die Nachfrage gestiegen ist, wird mehr Personal gebraucht. Aus diesem Grund werden auch die Arbeitszeiten neu geplant.",
+      "explanation_de": "Da leitet die Ursache ein; aus diesem Grund leitet eine weitere Folge ein.",
+      "explanation_ar": "تقدم da السبب، وتقدم aus diesem Grund نتيجة إضافية.",
+      "grammarFocus": "stylistic_variation",
+      "acceptedAnswers": [
+        "Da die Nachfrage gestiegen ist, wird mehr Personal gebraucht. Aus diesem Grund werden auch die Arbeitszeiten neu geplant."
+      ]
+    },
+    {
+      "id": "gr21-e019",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Fehleranalyse",
+      "title_ar": "تحليل الخطأ",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Da die Angaben widersprüchlich waren, musste der Vorgang erneut geprüft werden.",
+      "explanation_de": "Im da-Satz steht waren am Ende; der Hauptsatz beginnt mit musste.",
+      "explanation_ar": "في جملة da تأتي waren في النهاية وتبدأ الجملة الرئيسية بـ musste.",
+      "grammarFocus": "complex_da_clause",
+      "options": [
+        "Da die Angaben widersprüchlich waren, musste der Vorgang erneut geprüft werden.",
+        "Da waren die Angaben widersprüchlich, der Vorgang musste erneut geprüft werden.",
+        "Da die Angaben waren widersprüchlich, musste geprüft der Vorgang werden.",
+        "Da die Angaben widersprüchlich waren, der Vorgang musste erneut geprüft werden."
+      ]
+    },
+    {
+      "id": "gr21-e020",
+      "topicId": "gr-21",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا أكثر؟",
+      "answer": "Ein sicherheitsrelevanter Fehler wurde festgestellt. Daher blieb die Anlage außer Betrieb.",
+      "explanation_de": "Daher verbindet Ursache und Folge sachlich und knapp.",
+      "explanation_ar": "تربط daher السبب والنتيجة بأسلوب موضوعي ومختصر.",
+      "grammarFocus": "formal_report_effect",
+      "options": [
+        "Ein sicherheitsrelevanter Fehler wurde festgestellt. Daher blieb die Anlage außer Betrieb.",
+        "Da war ein Fehler, die Anlage blieb irgendwie aus.",
+        "Die Anlage blieb aus, weil deshalb ein Fehler war.",
+        "Denn wurde ein Fehler festgestellt, deshalb die Anlage blieb aus."
+      ]
+    },
+    {
+      "id": "gr21-e021",
+      "topicId": "gr-21",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Ursache",
+      "title_ar": "سبب معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wir bitten um eine Verlängerung, denn mehrere erforderliche Nachweise liegen noch nicht vor.",
+      "explanation_de": "Denn verbindet zwei Hauptsätze; liegen steht auf Position 2.",
+      "explanation_ar": "يربط denn بين جملتين رئيسيتين وتأتي liegen في المرتبة الثانية.",
+      "grammarFocus": "complex_denn_clause",
+      "tokens": [
+        "noch nicht vor",
+        "denn",
+        "liegen",
+        "mehrere erforderliche Nachweise",
+        "Wir bitten um eine Verlängerung"
+      ],
+      "acceptedAnswers": [
+        "Wir bitten um eine Verlängerung, denn mehrere erforderliche Nachweise liegen noch nicht vor."
+      ]
+    },
+    {
+      "id": "gr21-e022",
+      "topicId": "gr-21",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Ursache statt Folge",
+      "title_ar": "سبب بدل نتيجة",
+      "prompt_de": "Welche Ergänzung ist korrekt?",
+      "prompt_ar": "أي تكملة صحيحة؟",
+      "answer": "Der Termin wurde abgesagt, weil der Referent erkrankt war.",
+      "explanation_de": "Nach dem Komma wird ein Grund genannt; deshalb passt weil.",
+      "explanation_ar": "بعد الفاصلة يُذكر السبب، لذلك تناسب weil.",
+      "grammarFocus": "choose_cause_connector",
+      "options": [
+        "Der Termin wurde abgesagt, weil der Referent erkrankt war.",
+        "Der Termin wurde abgesagt, deshalb der Referent erkrankt war.",
+        "Der Termin wurde abgesagt, daher der Referent war erkrankt.",
+        "Der Termin wurde abgesagt, aus diesem Grund der Referent erkrankt war."
+      ]
+    },
+    {
+      "id": "gr21-e023",
+      "topicId": "gr-21",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrfachumformung",
+      "title_ar": "إعادة صياغة متعددة",
+      "prompt_de": "Formulieren Sie dieselbe kausale Beziehung einmal mit weil, einmal mit denn und einmal mit deshalb: Die Anlage bleibt außer Betrieb. Ein Fehler wurde festgestellt.",
+      "prompt_ar": "صغ العلاقة نفسها مرة باستخدام weil ومرة باستخدام denn ومرة باستخدام deshalb.",
+      "answer": "Die Anlage bleibt außer Betrieb, weil ein Fehler festgestellt wurde. Die Anlage bleibt außer Betrieb, denn ein Fehler wurde festgestellt. Ein Fehler wurde festgestellt. Deshalb bleibt die Anlage außer Betrieb.",
+      "explanation_de": "Die drei Formen unterscheiden sich in Blickrichtung und Satzstellung.",
+      "explanation_ar": "تختلف الصيغ الثلاث في اتجاه العلاقة وترتيب الجملة.",
+      "grammarFocus": "multiple_reformulation",
+      "acceptedAnswers": [
+        "Die Anlage bleibt außer Betrieb, weil ein Fehler festgestellt wurde. Die Anlage bleibt außer Betrieb, denn ein Fehler wurde festgestellt. Ein Fehler wurde festgestellt. Deshalb bleibt die Anlage außer Betrieb."
+      ]
+    },
+    {
+      "id": "gr21-e024",
+      "topicId": "gr-21",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining kausale Konnektoren",
+      "title_ar": "تدريب ختامي على أدوات الربط السببية",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens neun Sätzen. Beschreiben Sie ein Problem, seine Ursachen und mehrere Folgen. Verwenden Sie weil, da, denn, deshalb, deswegen, daher und aus diesem Grund jeweils mindestens einmal. Verwenden Sie mindestens zwei vorangestellte Nebensätze und achten Sie auf abwechslungsreiche Satzstellung.",
+      "prompt_ar": "اكتب نصًا مهنيًا من تسع جمل على الأقل. صف مشكلة وأسبابها وعدة نتائج. استخدم weil وda وdenn وdeshalb وdeswegen وdaher وaus diesem Grund مرة واحدة على الأقل لكل منها. استخدم جملتين فرعيتين مقدمتين على الأقل وانتبه إلى التنويع في ترتيب الجملة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens ein Satz mit weil",
+          "mindestens ein Satz mit da",
+          "mindestens ein Satz mit denn",
+          "mindestens ein Satz mit deshalb",
+          "mindestens ein Satz mit deswegen",
+          "mindestens ein Satz mit daher",
+          "mindestens ein Satz mit aus diesem Grund",
+          "mindestens zwei vorangestellte Nebensätze",
+          "korrekte Verbendstellung nach weil und da",
+          "korrekte Verbposition nach Folgekonnektoren"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Ursache, Folge, Verbposition und stilistische Variation.",
+      "explanation_ar": "راجع السبب والنتيجة وموقع الفعل والتنويع الأسلوبي.",
+      "grammarFocus": "mixed_causal_connectors",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

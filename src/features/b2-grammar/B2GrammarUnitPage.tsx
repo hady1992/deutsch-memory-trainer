@@ -9,15 +9,21 @@ interface Props {
   initialMode: B2GrammarMode;
   language: B2GrammarLanguage;
   onBack: () => void;
+  onModeChange: (mode: B2GrammarMode) => void;
   onMixed: () => void;
   onProgress: () => void;
 }
 
-export default function B2GrammarUnitPage({ topic, initialMode, language, onBack, onMixed, onProgress }: Props) {
+export default function B2GrammarUnitPage({ topic, initialMode, language, onBack, onModeChange, onMixed, onProgress }: Props) {
   const [mode, setMode] = useState<B2GrammarMode>(initialMode);
   const isAr = language === "ar";
 
   useEffect(() => setMode(initialMode), [initialMode, topic.index.id]);
+
+  const changeMode = (nextMode: B2GrammarMode) => {
+    setMode(nextMode);
+    onModeChange(nextMode);
+  };
 
   const modes = [
     { id: "learn" as const, label: isAr ? "تعلّم" : "Lernen", icon: BookOpen },
@@ -47,7 +53,7 @@ export default function B2GrammarUnitPage({ topic, initialMode, language, onBack
 
       <div className="mb-7 grid grid-cols-2 gap-2 sm:grid-cols-4">
         {modes.map(({ id, label, icon: Icon }) => (
-          <button key={id} type="button" onClick={() => setMode(id)} className={`flex min-h-12 items-center justify-center gap-2 border px-3 py-2 text-sm font-black rounded-lg ${mode === id ? "border-blue-600 bg-blue-600 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-blue-300"}`}>
+          <button key={id} type="button" onClick={() => changeMode(id)} className={`flex min-h-12 items-center justify-center gap-2 border px-3 py-2 text-sm font-black rounded-lg ${mode === id ? "border-blue-600 bg-blue-600 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-blue-300"}`}>
             <Icon size={17} /> {label}
           </button>
         ))}
@@ -60,7 +66,7 @@ export default function B2GrammarUnitPage({ topic, initialMode, language, onBack
         <B2GrammarLesson lesson={topic.lesson} language={language} />
       ) : (
         <div key={`${topic.index.id}-${mode}`}>
-          <B2GrammarTrainer topic={topic} mode={mode} language={language} onBack={() => setMode("learn")} onProgress={onProgress} />
+          <B2GrammarTrainer topic={topic} mode={mode} language={language} onBack={() => changeMode("learn")} onProgress={onProgress} />
         </div>
       )}
     </div>

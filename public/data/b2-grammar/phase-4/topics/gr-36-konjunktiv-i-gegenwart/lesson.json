@@ -1,0 +1,455 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-36",
+  "slug": "gr-36-konjunktiv-i-gegenwart",
+  "order": 36,
+  "title_de": "Konjunktiv I in der Gegenwart",
+  "title_ar": "Konjunktiv I في الحاضر",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "indirekte_rede",
+  "estimatedMinutes": 65,
+  "learningObjectives_de": [
+    "Die Funktion des Konjunktivs I in der indirekten Rede erklären.",
+    "Regelmäßige Konjunktiv-I-Formen im Präsens bilden.",
+    "Die wichtigen Formen von sein, haben und werden sicher verwenden.",
+    "Modalverben im Konjunktiv I korrekt bilden.",
+    "Direkte Aussagen in indirekte Rede umformen.",
+    "Zwischen indirekter Rede mit und ohne dass unterscheiden.",
+    "Konjunktiv I im Passiv und bei trennbaren Verben anwenden.",
+    "Sachliche Distanz in Berichten, Protokollen und Nachrichten ausdrücken."
+  ],
+  "learningObjectives_ar": [
+    "شرح وظيفة Konjunktiv I في الكلام المنقول.",
+    "تكوين صيغ Konjunktiv I المنتظمة في الحاضر.",
+    "استخدام الصيغ المهمة من sein وhaben وwerden.",
+    "تكوين الأفعال الناقصة في Konjunktiv I بصورة صحيحة.",
+    "تحويل الأقوال المباشرة إلى كلام منقول.",
+    "التمييز بين الكلام المنقول مع dass ومن دونه.",
+    "استخدام Konjunktiv I في المبني للمجهول ومع الأفعال القابلة للفصل.",
+    "التعبير عن الحياد والمسافة في التقارير والمحاضر والأخبار."
+  ],
+  "shortDescription_de": "Der Konjunktiv I wird vor allem in der indirekten Rede verwendet. Er zeigt, dass eine Aussage wiedergegeben und nicht automatisch als eigene Tatsache bestätigt wird.",
+  "shortDescription_ar": "يُستخدم Konjunktiv I أساسًا في الكلام المنقول. وهو يوضح أن المتحدث ينقل قول شخص آخر ولا يؤكده تلقائيًا بوصفه حقيقة شخصية.",
+  "explanation_de": "Der Konjunktiv I ist die typische Form der indirekten Rede in Nachrichten, Berichten, Protokollen und sachlichen Zusammenfassungen. Direkte Rede: Die Mitarbeiterin sagt: „Ich bin krank.“ Indirekte Rede: Die Mitarbeiterin sagt, sie sei krank. Die Formen werden meistens aus dem Verbstamm und den Endungen -e, -est, -e, -en, -et, -en gebildet: ich arbeite, du arbeitest, er arbeite, wir arbeiten, ihr arbeitet, sie arbeiten. Besonders wichtig ist die 3. Person Singular, weil sie sich deutlich vom Indikativ unterscheidet. Sein, haben und werden lauten unter anderem: er sei, er habe, er werde. Bei Modalverben stehen Formen wie er könne, müsse, dürfe, solle oder wolle. Ohne dass hat der wiedergegebene Satz häufig Hauptsatzwortstellung: Er erklärt, er arbeite heute im Homeoffice. Mit dass steht das konjugierte Verb am Ende: Er erklärt, dass er heute im Homeoffice arbeite. Im Passiv lautet die Form: Der Antrag werde geprüft. Bei trennbaren Verben steht der abgetrennte Verbteil am Satzende: Er sagt, er nehme an der Sitzung teil. Sind Konjunktiv I und Indikativ gleich, wird zur eindeutigen Kennzeichnung häufig eine Ersatzform im Konjunktiv II verwendet. Diese Auswahl wird in einer späteren Einheit vertieft.",
+  "explanation_ar": "يُعد Konjunktiv I الصيغة الشائعة للكلام المنقول في الأخبار والتقارير والمحاضر والملخصات الموضوعية. الكلام المباشر: Die Mitarbeiterin sagt: „Ich bin krank.“ الكلام المنقول: Die Mitarbeiterin sagt, sie sei krank. تُبنى الصيغ غالبًا من جذر الفعل والنهايات -e و-est و-e و-en و-et و-en، مثل: ich arbeite، du arbeitest، er arbeite، wir arbeiten، ihr arbeitet، sie arbeiten. وتُعد صيغة الغائب المفرد مهمة بصورة خاصة لأنها تختلف غالبًا بوضوح عن Indikativ. وتكون الصيغ المهمة من sein وhaben وwerden: er sei وer habe وer werde. أما الأفعال الناقصة فتأتي مثل er könne وmüsse وdürfe وsolle وwolle. ومن دون dass يحتفظ الكلام المنقول غالبًا بترتيب الجملة الرئيسية: Er erklärt, er arbeite heute im Homeoffice. ومع dass يأتي الفعل المصرف في النهاية: Er erklärt, dass er heute im Homeoffice arbeite. وفي المبني للمجهول نقول: Der Antrag werde geprüft. ومع الفعل القابل للفصل يأتي الجزء المنفصل في نهاية الجملة: Er sagt, er nehme an der Sitzung teil. وعندما تتطابق صيغة Konjunktiv I مع Indikativ تُستخدم غالبًا صيغة بديلة في Konjunktiv II لتوضيح أن الكلام منقول. وسيُشرح هذا الاختيار بصورة أعمق في وحدة لاحقة.",
+  "rules": [
+    {
+      "id": "gr36-r01",
+      "title_de": "Funktion der indirekten Rede",
+      "title_ar": "وظيفة الكلام المنقول",
+      "explanation_de": "Der Konjunktiv I kennzeichnet eine wiedergegebene Aussage und schafft sachliche Distanz.",
+      "explanation_ar": "يحدد Konjunktiv I أن القول منقول ويخلق مسافة موضوعية.",
+      "formula": "Person sagt/erklärt/behauptet, sie + Konjunktiv I",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter sagt, er sei krank.",
+          "ar": "يقول الموظف إنه مريض."
+        },
+        {
+          "de": "Die Firma erklärt, die Lieferung erfolge pünktlich.",
+          "ar": "توضح الشركة أن التسليم يتم في الوقت المحدد."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r02",
+      "title_de": "Regelmäßige Bildung",
+      "title_ar": "التكوين المنتظم",
+      "explanation_de": "Die Formen entstehen aus dem Verbstamm und den Endungen -e, -est, -e, -en, -et, -en.",
+      "explanation_ar": "تُبنى الصيغ من جذر الفعل والنهايات -e و-est و-e و-en و-et و-en.",
+      "formula": "mach-e, mach-est, mach-e, mach-en, mach-et, mach-en",
+      "examples": [
+        {
+          "de": "Er sagt, er arbeite heute länger.",
+          "ar": "يقول إنه يعمل اليوم مدة أطول."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r03",
+      "title_de": "Sein",
+      "title_ar": "sein",
+      "explanation_de": "Sein hat eigene Formen: sei, seiest/seist, sei, seien, seiet, seien.",
+      "explanation_ar": "للفعل sein صيغ خاصة: sei وseiest/seist وsei وseien وseiet وseien.",
+      "formula": "ich sei | du seiest/seist | er sei | wir seien | ihr seiet | sie seien",
+      "examples": [
+        {
+          "de": "Die Kollegin erklärt, sie sei für die Aufgabe zuständig.",
+          "ar": "توضح الزميلة أنها مسؤولة عن المهمة."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r04",
+      "title_de": "Haben",
+      "title_ar": "haben",
+      "explanation_de": "In der 3. Person Singular lautet die Form habe.",
+      "explanation_ar": "تكون صيغة الغائب المفرد habe.",
+      "formula": "er/sie/es habe",
+      "examples": [
+        {
+          "de": "Der Bewerber sagt, er habe bereits Berufserfahrung.",
+          "ar": "يقول المتقدم إن لديه خبرة مهنية مسبقة."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r05",
+      "title_de": "Werden",
+      "title_ar": "werden",
+      "explanation_de": "In der 3. Person Singular lautet die Form werde.",
+      "explanation_ar": "تكون صيغة الغائب المفرد werde.",
+      "formula": "er/sie/es werde",
+      "examples": [
+        {
+          "de": "Die Leitung teilt mit, der Termin werde verschoben.",
+          "ar": "تبلغ الإدارة بأن الموعد سيتم تأجيله."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r06",
+      "title_de": "Modalverben",
+      "title_ar": "الأفعال الناقصة",
+      "explanation_de": "Die 3. Person Singular lautet könne, müsse, dürfe, solle, wolle oder möge.",
+      "explanation_ar": "تكون صيغة الغائب المفرد könne أو müsse أو dürfe أو solle أو wolle أو möge.",
+      "formula": "er könne / müsse / dürfe / solle / wolle",
+      "examples": [
+        {
+          "de": "Sie erklärt, sie könne an der Besprechung teilnehmen.",
+          "ar": "توضح أنها تستطيع المشاركة في الاجتماع."
+        },
+        {
+          "de": "Er sagt, er müsse die Frist einhalten.",
+          "ar": "يقول إنه يجب عليه الالتزام بالمهلة."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r07",
+      "title_de": "Ohne dass",
+      "title_ar": "من دون dass",
+      "explanation_de": "Ohne dass steht der wiedergegebene Satz häufig mit Verb an Position zwei.",
+      "explanation_ar": "من دون dass يأتي الفعل في الكلام المنقول غالبًا في الموقع الثاني.",
+      "formula": "Er sagt, er arbeite heute.",
+      "examples": [
+        {
+          "de": "Die Kollegin erklärt, sie brauche mehr Zeit.",
+          "ar": "توضح الزميلة أنها تحتاج إلى وقت أكبر."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r08",
+      "title_de": "Mit dass",
+      "title_ar": "مع dass",
+      "explanation_de": "Mit dass steht das konjugierte Verb am Ende des Nebensatzes.",
+      "explanation_ar": "مع dass يأتي الفعل المصرف في نهاية الجملة الفرعية.",
+      "formula": "Er sagt, dass er heute arbeite.",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter sagt, dass er heute im Homeoffice arbeite.",
+          "ar": "يقول الموظف إنه يعمل اليوم من المنزل."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r09",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Ohne dass wird das Verb getrennt; mit dass steht es am Ende zusammengeschrieben.",
+      "explanation_ar": "من دون dass ينفصل الفعل، ومع dass يأتي في النهاية كلمة واحدة.",
+      "formula": "er nehme teil | dass er teilnehme",
+      "examples": [
+        {
+          "de": "Er sagt, er nehme an der Sitzung teil.",
+          "ar": "يقول إنه يشارك في الاجتماع."
+        },
+        {
+          "de": "Er sagt, dass er an der Sitzung teilnehme.",
+          "ar": "يقول إنه يشارك في الاجتماع."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r10",
+      "title_de": "Passiv im Konjunktiv I",
+      "title_ar": "المبني للمجهول في Konjunktiv I",
+      "explanation_de": "Das Vorgangspassiv wird mit Partizip II + werde gebildet.",
+      "explanation_ar": "يُبنى Vorgangspassiv باستخدام Partizip II + werde.",
+      "formula": "Der Antrag werde geprüft.",
+      "examples": [
+        {
+          "de": "Die Behörde teilt mit, der Antrag werde derzeit geprüft.",
+          "ar": "تبلغ الجهة بأن الطلب تتم مراجعته حاليًا."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r11",
+      "title_de": "Pronomen anpassen",
+      "title_ar": "تعديل الضمائر",
+      "explanation_de": "Pronomen werden an die Perspektive des berichtenden Satzes angepasst.",
+      "explanation_ar": "تُعدّل الضمائر وفق منظور الجملة الناقلة.",
+      "formula": "„Ich brauche Zeit.“ → Sie sagt, sie brauche Zeit.",
+      "examples": [
+        {
+          "de": "Der Chef sagt: „Ich bespreche das mit meinem Team.“ → Der Chef sagt, er bespreche das mit seinem Team.",
+          "ar": "يقول المدير: «سأناقش ذلك مع فريقي». ← يقول المدير إنه يناقش ذلك مع فريقه."
+        }
+      ]
+    },
+    {
+      "id": "gr36-r12",
+      "title_de": "Ersatzform bei gleicher Form",
+      "title_ar": "الصيغة البديلة عند التطابق",
+      "explanation_de": "Ist Konjunktiv I mit dem Indikativ identisch, wird häufig Konjunktiv II verwendet, um indirekte Rede klar zu markieren.",
+      "explanation_ar": "عندما تتطابق صيغة Konjunktiv I مع Indikativ يُستخدم غالبًا Konjunktiv II لتوضيح الكلام المنقول.",
+      "formula": "sie sagen, sie hätten Zeit",
+      "examples": [
+        {
+          "de": "Die Mitarbeitenden sagen, sie hätten ausreichend Zeit.",
+          "ar": "يقول الموظفون إن لديهم وقتًا كافيًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr36-t01",
+      "title_de": "Regelmäßiges Verb arbeiten",
+      "title_ar": "الفعل المنتظم arbeiten",
+      "headers_de": [
+        "Person",
+        "Konjunktiv I"
+      ],
+      "headers_ar": [
+        "الضمير",
+        "Konjunktiv I"
+      ],
+      "rows": [
+        [
+          "ich",
+          "arbeite"
+        ],
+        [
+          "du",
+          "arbeitest"
+        ],
+        [
+          "er/sie/es",
+          "arbeite"
+        ],
+        [
+          "wir",
+          "arbeiten"
+        ],
+        [
+          "ihr",
+          "arbeitet"
+        ],
+        [
+          "sie/Sie",
+          "arbeiten"
+        ]
+      ]
+    },
+    {
+      "id": "gr36-t02",
+      "title_de": "Wichtige unregelmäßige Formen",
+      "title_ar": "صيغ مهمة غير منتظمة",
+      "headers_de": [
+        "Verb",
+        "3. Person Singular",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الفعل",
+        "الغائب المفرد",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "sein",
+          "sei",
+          "er sei zuständig"
+        ],
+        [
+          "haben",
+          "habe",
+          "er habe Erfahrung"
+        ],
+        [
+          "werden",
+          "werde",
+          "der Termin werde verschoben"
+        ],
+        [
+          "können",
+          "könne",
+          "sie könne teilnehmen"
+        ],
+        [
+          "müssen",
+          "müsse",
+          "er müsse warten"
+        ],
+        [
+          "dürfen",
+          "dürfe",
+          "sie dürfe beginnen"
+        ],
+        [
+          "sollen",
+          "solle",
+          "er solle anrufen"
+        ],
+        [
+          "wollen",
+          "wolle",
+          "sie wolle wechseln"
+        ]
+      ]
+    },
+    {
+      "id": "gr36-t03",
+      "title_de": "Wortstellung",
+      "title_ar": "ترتيب الكلمات",
+      "headers_de": [
+        "Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "البنية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "ohne dass",
+          "Er sagt, er arbeite heute."
+        ],
+        [
+          "mit dass",
+          "Er sagt, dass er heute arbeite."
+        ],
+        [
+          "trennbares Verb ohne dass",
+          "Er sagt, er nehme teil."
+        ],
+        [
+          "trennbares Verb mit dass",
+          "Er sagt, dass er teilnehme."
+        ],
+        [
+          "Passiv",
+          "Er sagt, der Antrag werde geprüft."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Personalabteilung erklärt, die Bearbeitung des Antrags dauere derzeit etwa zwei Wochen.",
+      "ar": "يوضح قسم الموارد البشرية أن معالجة الطلب تستغرق حاليًا نحو أسبوعين.",
+      "note_de": "Regelmäßiges Verb in der 3. Person Singular.",
+      "note_ar": "فعل منتظم في الغائب المفرد."
+    },
+    {
+      "de": "Der Bewerber gibt an, er habe bereits mehrere Jahre Berufserfahrung.",
+      "ar": "يذكر المتقدم أن لديه عدة سنوات من الخبرة المهنية.",
+      "note_de": "Haben im Konjunktiv I.",
+      "note_ar": "haben في Konjunktiv I."
+    },
+    {
+      "de": "Die Leitung teilt mit, alle Beschäftigten müssten an der Schulung teilnehmen.",
+      "ar": "تبلغ الإدارة بأن جميع الموظفين يجب أن يشاركوا في الدورة.",
+      "note_de": "Ersatzform im Konjunktiv II, weil die eindeutige Konjunktiv-I-Form im Plural fehlt.",
+      "note_ar": "صيغة بديلة في Konjunktiv II لأن صيغة Konjunktiv I في الجمع غير مميزة."
+    },
+    {
+      "de": "Der Anbieter versichert, das System werde regelmäßig gewartet.",
+      "ar": "يؤكد المزوّد أن النظام تتم صيانته بانتظام.",
+      "note_de": "Passiv Präsens im Konjunktiv I.",
+      "note_ar": "Passiv Präsens في Konjunktiv I."
+    },
+    {
+      "de": "Die Kollegin sagt, sie nehme morgen an der Online-Besprechung teil.",
+      "ar": "تقول الزميلة إنها ستشارك غدًا في الاجتماع عبر الإنترنت.",
+      "note_de": "Trennbares Verb mit Hauptsatzwortstellung.",
+      "note_ar": "فعل قابل للفصل مع ترتيب الجملة الرئيسية."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Er sagt, er ist krank.",
+      "correct": "Er sagt, er sei krank.",
+      "explanation_de": "In formeller indirekter Rede steht Konjunktiv I.",
+      "explanation_ar": "في الكلام المنقول الرسمي نستخدم Konjunktiv I."
+    },
+    {
+      "wrong": "Sie erklärt, sie hat keine Zeit.",
+      "correct": "Sie erklärt, sie habe keine Zeit.",
+      "explanation_de": "Die Konjunktiv-I-Form von haben in der 3. Person Singular lautet habe.",
+      "explanation_ar": "صيغة haben في الغائب المفرد من Konjunktiv I هي habe."
+    },
+    {
+      "wrong": "Er sagt, dass er arbeite heute länger.",
+      "correct": "Er sagt, dass er heute länger arbeite.",
+      "explanation_de": "Im dass-Satz steht das konjugierte Verb am Ende.",
+      "explanation_ar": "في جملة dass يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Sie sagt, sie teilnehme an der Sitzung.",
+      "correct": "Sie sagt, sie nehme an der Sitzung teil.",
+      "explanation_de": "Ohne dass wird das trennbare Verb in Hauptsatzstellung getrennt.",
+      "explanation_ar": "من دون dass ينفصل الفعل القابل للفصل مع ترتيب الجملة الرئيسية."
+    },
+    {
+      "wrong": "Die Behörde sagt, der Antrag sei geprüft.",
+      "correct": "Die Behörde sagt, der Antrag werde geprüft.",
+      "explanation_de": "Für einen laufenden passiven Vorgang steht werde + Partizip II.",
+      "explanation_ar": "للإجراء الجاري في المبني للمجهول نستخدم werde + Partizip II."
+    },
+    {
+      "wrong": "Der Chef sagt: „Ich bespreche das mit meinem Team.“ → Der Chef sagt, ich bespreche das mit meinem Team.",
+      "correct": "Der Chef sagt, er bespreche das mit seinem Team.",
+      "explanation_de": "Pronomen müssen an die neue Perspektive angepasst werden.",
+      "explanation_ar": "يجب تعديل الضمائر وفق المنظور الجديد."
+    }
+  ],
+  "quickSummary_de": [
+    "Konjunktiv I kennzeichnet vor allem indirekte Rede.",
+    "Er schafft Distanz zur wiedergegebenen Aussage.",
+    "Regelmäßige Endungen sind -e, -est, -e, -en, -et, -en.",
+    "Die 3. Person Singular ist besonders wichtig.",
+    "Sein lautet er sei.",
+    "Haben lautet er habe.",
+    "Werden lautet er werde.",
+    "Modalverben lauten zum Beispiel könne, müsse und solle.",
+    "Ohne dass steht das Verb meist an Position zwei.",
+    "Mit dass steht das Verb am Ende.",
+    "Das Passiv lautet Partizip II + werde.",
+    "Bei identischen Formen wird häufig Konjunktiv II als Ersatz verwendet."
+  ],
+  "quickSummary_ar": [
+    "يحدد Konjunktiv I أساسًا الكلام المنقول.",
+    "وهو يخلق مسافة عن القول المنقول.",
+    "النهايات المنتظمة هي -e و-est و-e و-en و-et و-en.",
+    "صيغة الغائب المفرد مهمة بصورة خاصة.",
+    "صيغة sein هي er sei.",
+    "صيغة haben هي er habe.",
+    "صيغة werden هي er werde.",
+    "تأتي الأفعال الناقصة مثل könne وmüsse وsolle.",
+    "من دون dass يأتي الفعل غالبًا في الموقع الثاني.",
+    "مع dass يأتي الفعل في النهاية.",
+    "يُبنى المبني للمجهول باستخدام Partizip II + werde.",
+    "عند تطابق الصيغ يُستخدم غالبًا Konjunktiv II كصيغة بديلة."
+  ],
+  "relatedTopics": [
+    "gr-37",
+    "gr-38",
+    "gr-39",
+    "gr-40"
+  ]
+}

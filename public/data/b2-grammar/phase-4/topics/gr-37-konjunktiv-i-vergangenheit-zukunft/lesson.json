@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-37",
+  "slug": "gr-37-konjunktiv-i-vergangenheit-zukunft",
+  "order": 37,
+  "title_de": "Konjunktiv I in Vergangenheit und Zukunft",
+  "title_ar": "Konjunktiv I في الماضي والمستقبل",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "indirekte_rede",
+  "estimatedMinutes": 70,
+  "learningObjectives_de": [
+    "Vergangene Aussagen in der indirekten Rede korrekt wiedergeben.",
+    "Die Konjunktiv-I-Vergangenheit mit habe oder sei und Partizip II bilden.",
+    "Aktiv und Passiv in der Vergangenheit unterscheiden.",
+    "Modalverben in der Vergangenheit mit Ersatzinfinitiv verwenden.",
+    "Zukünftige Aussagen mit werde und Infinitiv wiedergeben.",
+    "Zukünftige Passivformen korrekt bilden.",
+    "Zukünftig abgeschlossene Handlungen mit Futur II ausdrücken.",
+    "Zeitverhältnisse in sachlichen Berichten und Protokollen präzise darstellen."
+  ],
+  "learningObjectives_ar": [
+    "نقل الأقوال الماضية بصورة صحيحة في الكلام غير المباشر.",
+    "تكوين ماضي Konjunktiv I باستخدام habe أو sei وPartizip II.",
+    "التمييز بين المعلوم والمجهول في الماضي.",
+    "استخدام الأفعال الناقصة في الماضي مع Ersatzinfinitiv.",
+    "نقل الأقوال المستقبلية باستخدام werde والمصدر.",
+    "تكوين المبني للمجهول في المستقبل بصورة صحيحة.",
+    "التعبير عن أفعال ستكون منتهية مستقبلًا باستخدام Futur II.",
+    "عرض العلاقات الزمنية بدقة في التقارير والمحاضر."
+  ],
+  "shortDescription_de": "In der indirekten Rede wird Vergangenheit meist mit habe oder sei plus Partizip II ausgedrückt. Zukunft wird mit werde plus Infinitiv gebildet; für eine zukünftig abgeschlossene Handlung steht Futur II.",
+  "shortDescription_ar": "يُعبّر عن الماضي في الكلام المنقول غالبًا باستخدام habe أو sei مع Partizip II. أما المستقبل فيُبنى باستخدام werde مع المصدر، ويُستخدم Futur II للفعل الذي سيكون منتهيًا في المستقبل.",
+  "explanation_de": "Für vergangene Aussagen verwendet die indirekte Rede normalerweise eine zusammengesetzte Konjunktiv-I-Form: habe oder sei im Konjunktiv I plus Partizip II. Direkt: „Ich habe den Bericht geschrieben.“ Indirekt: Er sagt, er habe den Bericht geschrieben. Bei Verben der Bewegung oder Zustandsänderung, die im Perfekt sein verwenden, steht sei: Sie erklärt, sie sei bereits angekommen. Auch direkte Aussagen im Präteritum oder Plusquamperfekt werden in der indirekten Rede häufig mit dieser Vergangenheitsform wiedergegeben: „Ich war krank.“ → Er sagt, er sei krank gewesen. „Ich hatte alles vorbereitet.“ → Er sagt, er habe alles vorbereitet. Das vergangene Passiv wird mit sei + Partizip II + worden gebildet: Der Anbieter erklärt, das System sei überprüft worden. Bei Modalverben steht häufig der Ersatzinfinitiv: Er sagt, er habe länger arbeiten müssen. Für die Zukunft verwendet man werde + Infinitiv: Sie sagt, sie werde morgen anrufen. Im zukünftigen Passiv lautet die Form werde + Partizip II + werden: Der Antrag werde nächste Woche geprüft werden. Futur II drückt aus, dass eine Handlung zu einem zukünftigen Zeitpunkt abgeschlossen sein wird: Er erklärt, er werde den Bericht bis Freitag fertiggestellt haben. Bei Verben mit sein lautet die Endung entsprechend sein: Sie sagt, sie werde bis dahin angekommen sein.",
+  "explanation_ar": "لنقل الأقوال الماضية نستخدم عادة صيغة مركبة من Konjunktiv I: habe أو sei في Konjunktiv I مع Partizip II. الكلام المباشر: „Ich habe den Bericht geschrieben.“ الكلام المنقول: Er sagt, er habe den Bericht geschrieben. ومع أفعال الحركة أو تغير الحالة التي تستخدم sein في Perfekt نستخدم sei، مثل: Sie erklärt, sie sei bereits angekommen. كما تتحول الأقوال المباشرة في Präteritum أو Plusquamperfekt كثيرًا إلى هذه الصيغة الماضية في الكلام المنقول: „Ich war krank.“ ← Er sagt, er sei krank gewesen. „Ich hatte alles vorbereitet.“ ← Er sagt, er habe alles vorbereitet. ويُبنى الماضي المبني للمجهول باستخدام sei + Partizip II + worden: Der Anbieter erklärt, das System sei überprüft worden. ومع الأفعال الناقصة نستخدم غالبًا Ersatzinfinitiv: Er sagt, er habe länger arbeiten müssen. أما المستقبل فيُبنى باستخدام werde + Infinitiv: Sie sagt, sie werde morgen anrufen. ويكون المبني للمجهول المستقبلي: werde + Partizip II + werden، مثل: Der Antrag werde nächste Woche geprüft werden. ويعبّر Futur II عن فعل سيكون قد اكتمل عند نقطة مستقبلية: Er erklärt, er werde den Bericht bis Freitag fertiggestellt haben. ومع الأفعال التي تستخدم sein نقول: Sie sagt, sie werde bis dahin angekommen sein.",
+  "rules": [
+    {
+      "id": "gr37-r01",
+      "title_de": "Vergangenheit mit haben",
+      "title_ar": "الماضي باستخدام haben",
+      "explanation_de": "Die meisten Verben bilden die indirekte Vergangenheit mit habe + Partizip II.",
+      "explanation_ar": "تكوّن معظم الأفعال الماضي المنقول باستخدام habe + Partizip II.",
+      "formula": "er habe + Partizip II",
+      "examples": [
+        {
+          "de": "Er sagt, er habe den Bericht geschrieben.",
+          "ar": "يقول إنه كتب التقرير."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r02",
+      "title_de": "Vergangenheit mit sein",
+      "title_ar": "الماضي باستخدام sein",
+      "explanation_de": "Verben mit sein im Perfekt bilden die indirekte Vergangenheit mit sei + Partizip II.",
+      "explanation_ar": "تستخدم الأفعال التي تأخذ sein في Perfekt الصيغة sei + Partizip II.",
+      "formula": "er/sie sei + Partizip II",
+      "examples": [
+        {
+          "de": "Sie sagt, sie sei bereits angekommen.",
+          "ar": "تقول إنها وصلت بالفعل."
+        },
+        {
+          "de": "Er erklärt, er sei krank geworden.",
+          "ar": "يوضح أنه أصبح مريضًا."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r03",
+      "title_de": "Sein in der Vergangenheit",
+      "title_ar": "sein في الماضي",
+      "explanation_de": "War oder ist gewesen wird in der indirekten Rede zu sei gewesen.",
+      "explanation_ar": "تتحول war أو ist gewesen في الكلام المنقول إلى sei gewesen.",
+      "formula": "er sei gewesen",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter sagt, er sei gestern krank gewesen.",
+          "ar": "يقول الموظف إنه كان مريضًا أمس."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r04",
+      "title_de": "Haben in der Vergangenheit",
+      "title_ar": "haben في الماضي",
+      "explanation_de": "Hatte oder hat gehabt wird zu habe gehabt.",
+      "explanation_ar": "تتحول hatte أو hat gehabt إلى habe gehabt.",
+      "formula": "er habe gehabt",
+      "examples": [
+        {
+          "de": "Er erklärt, er habe keine Gelegenheit gehabt, früher zu antworten.",
+          "ar": "يوضح أنه لم تتح له فرصة للرد في وقت أبكر."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r05",
+      "title_de": "Vergangenes Passiv",
+      "title_ar": "المبني للمجهول في الماضي",
+      "explanation_de": "Das Passiv der Vergangenheit wird mit sei + Partizip II + worden gebildet.",
+      "explanation_ar": "يُبنى المبني للمجهول في الماضي باستخدام sei + Partizip II + worden.",
+      "formula": "etwas sei geprüft worden",
+      "examples": [
+        {
+          "de": "Die Behörde teilt mit, der Antrag sei geprüft worden.",
+          "ar": "تبلغ الجهة بأن الطلب قد تمت مراجعته."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r06",
+      "title_de": "Modalverb in der Vergangenheit",
+      "title_ar": "الفعل الناقص في الماضي",
+      "explanation_de": "Bei Modalverben steht habe + Infinitiv + Modalinfinitiv.",
+      "explanation_ar": "مع الأفعال الناقصة نستخدم habe + المصدر + مصدر الفعل الناقص.",
+      "formula": "er habe arbeiten müssen",
+      "examples": [
+        {
+          "de": "Er sagt, er habe am Wochenende arbeiten müssen.",
+          "ar": "يقول إنه اضطر إلى العمل في عطلة نهاية الأسبوع."
+        },
+        {
+          "de": "Sie erklärt, sie habe nicht teilnehmen können.",
+          "ar": "توضح أنها لم تستطع المشاركة."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r07",
+      "title_de": "Zukunft mit werde",
+      "title_ar": "المستقبل باستخدام werde",
+      "explanation_de": "Zukünftige Handlungen werden mit werde + Infinitiv wiedergegeben.",
+      "explanation_ar": "تُنقل الأفعال المستقبلية باستخدام werde + Infinitiv.",
+      "formula": "er werde + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie sagt, sie werde morgen anrufen.",
+          "ar": "تقول إنها ستتصل غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r08",
+      "title_de": "Zukunft mit Modalverb",
+      "title_ar": "المستقبل مع فعل ناقص",
+      "explanation_de": "Im Futur steht werde + Vollverb im Infinitiv + Modalverb im Infinitiv.",
+      "explanation_ar": "في المستقبل نستخدم werde + مصدر الفعل الأساسي + مصدر الفعل الناقص.",
+      "formula": "er werde länger arbeiten müssen",
+      "examples": [
+        {
+          "de": "Er sagt, er werde nächste Woche länger arbeiten müssen.",
+          "ar": "يقول إنه سيضطر إلى العمل مدة أطول الأسبوع المقبل."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r09",
+      "title_de": "Zukünftiges Passiv",
+      "title_ar": "المبني للمجهول في المستقبل",
+      "explanation_de": "Das zukünftige Passiv wird mit werde + Partizip II + werden gebildet.",
+      "explanation_ar": "يُبنى المبني للمجهول المستقبلي باستخدام werde + Partizip II + werden.",
+      "formula": "der Antrag werde geprüft werden",
+      "examples": [
+        {
+          "de": "Die Behörde erklärt, der Antrag werde nächste Woche geprüft werden.",
+          "ar": "توضح الجهة أن الطلب ستتم مراجعته الأسبوع المقبل."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r10",
+      "title_de": "Futur II mit haben",
+      "title_ar": "Futur II باستخدام haben",
+      "explanation_de": "Eine zukünftig abgeschlossene Handlung wird mit werde + Partizip II + haben gebildet.",
+      "explanation_ar": "يُعبّر عن الفعل الذي سيكون منتهيًا مستقبلًا باستخدام werde + Partizip II + haben.",
+      "formula": "er werde etwas erledigt haben",
+      "examples": [
+        {
+          "de": "Er erklärt, er werde den Bericht bis Freitag fertiggestellt haben.",
+          "ar": "يوضح أنه سيكون قد أنهى التقرير حتى يوم الجمعة."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r11",
+      "title_de": "Futur II mit sein",
+      "title_ar": "Futur II باستخدام sein",
+      "explanation_de": "Bei Verben mit sein steht werde + Partizip II + sein.",
+      "explanation_ar": "مع الأفعال التي تستخدم sein نستخدم werde + Partizip II + sein.",
+      "formula": "sie werde angekommen sein",
+      "examples": [
+        {
+          "de": "Sie sagt, sie werde bis dahin angekommen sein.",
+          "ar": "تقول إنها ستكون قد وصلت بحلول ذلك الوقت."
+        }
+      ]
+    },
+    {
+      "id": "gr37-r12",
+      "title_de": "Zeitstufe aus dem Kontext",
+      "title_ar": "تحديد الزمن من السياق",
+      "explanation_de": "Zeitangaben und Zusammenhang zeigen, ob Gegenwart, Vergangenheit, Zukunft oder zukünftiger Abschluss gemeint ist.",
+      "explanation_ar": "توضح ظروف الزمن والسياق ما إذا كان المقصود الحاضر أو الماضي أو المستقبل أو فعلًا منتهيًا مستقبلًا.",
+      "formula": "gestern → Vergangenheit | morgen → Zukunft | bis Freitag → oft Futur II",
+      "examples": [
+        {
+          "de": "Sie sagt, sie habe gestern gearbeitet, arbeite heute zu Hause und werde morgen frei haben.",
+          "ar": "تقول إنها عملت أمس، وتعمل اليوم من المنزل، وستكون في إجازة غدًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr37-t01",
+      "title_de": "Vergangenheit Aktiv",
+      "title_ar": "الماضي المعلوم",
+      "headers_de": [
+        "Direkte Aussage",
+        "Indirekte Rede"
+      ],
+      "headers_ar": [
+        "القول المباشر",
+        "الكلام المنقول"
+      ],
+      "rows": [
+        [
+          "Ich habe gearbeitet.",
+          "er habe gearbeitet"
+        ],
+        [
+          "Ich bin angekommen.",
+          "er sei angekommen"
+        ],
+        [
+          "Ich war krank.",
+          "er sei krank gewesen"
+        ],
+        [
+          "Ich hatte keine Zeit.",
+          "er habe keine Zeit gehabt"
+        ],
+        [
+          "Ich musste arbeiten.",
+          "er habe arbeiten müssen"
+        ]
+      ]
+    },
+    {
+      "id": "gr37-t02",
+      "title_de": "Passiv und Zukunft",
+      "title_ar": "المبني للمجهول والمستقبل",
+      "headers_de": [
+        "Bedeutung",
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المعنى",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Vergangenheit Passiv",
+          "sei + Partizip II + worden",
+          "der Antrag sei geprüft worden"
+        ],
+        [
+          "Zukunft Aktiv",
+          "werde + Infinitiv",
+          "er werde anrufen"
+        ],
+        [
+          "Zukunft Passiv",
+          "werde + Partizip II + werden",
+          "der Antrag werde geprüft werden"
+        ],
+        [
+          "Futur II mit haben",
+          "werde + Partizip II + haben",
+          "er werde abgeschlossen haben"
+        ],
+        [
+          "Futur II mit sein",
+          "werde + Partizip II + sein",
+          "sie werde angekommen sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr37-t03",
+      "title_de": "Zeitvergleich",
+      "title_ar": "مقارنة الأزمنة",
+      "headers_de": [
+        "Zeit",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Gegenwart",
+          "Er sagt, er arbeite heute."
+        ],
+        [
+          "Vergangenheit",
+          "Er sagt, er habe gestern gearbeitet."
+        ],
+        [
+          "Zukunft",
+          "Er sagt, er werde morgen arbeiten."
+        ],
+        [
+          "zukünftig abgeschlossen",
+          "Er sagt, er werde bis Freitag alles erledigt haben."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Projektleiterin erklärt, das Team habe die erste Testphase erfolgreich abgeschlossen.",
+      "ar": "توضح مديرة المشروع أن الفريق أنهى مرحلة الاختبار الأولى بنجاح.",
+      "note_de": "Vergangenheit Aktiv mit habe + Partizip II.",
+      "note_ar": "ماضٍ معلوم باستخدام habe + Partizip II."
+    },
+    {
+      "de": "Der Mitarbeiter berichtet, er sei wegen einer Zugstörung verspätet angekommen.",
+      "ar": "يفيد الموظف بأنه وصل متأخرًا بسبب عطل في القطار.",
+      "note_de": "Vergangenheit mit sein.",
+      "note_ar": "الماضي باستخدام sein."
+    },
+    {
+      "de": "Der Anbieter versichert, sämtliche Sicherheitsprüfungen seien ordnungsgemäß durchgeführt worden.",
+      "ar": "يؤكد المزوّد أن جميع فحوص السلامة قد أُجريت وفق الأصول.",
+      "note_de": "Pluralform als Ersatzform im vergangenen Passiv.",
+      "note_ar": "صيغة جمع بديلة في المبني للمجهول الماضي."
+    },
+    {
+      "de": "Die Leitung kündigt an, sie werde im kommenden Monat zusätzliche Stellen ausschreiben.",
+      "ar": "تعلن الإدارة أنها ستنشر وظائف إضافية في الشهر المقبل.",
+      "note_de": "Zukunft mit werde + Infinitiv.",
+      "note_ar": "المستقبل باستخدام werde + Infinitiv."
+    },
+    {
+      "de": "Der Projektleiter erklärt, das Team werde die Umstellung bis zum Jahresende abgeschlossen haben.",
+      "ar": "يوضح مدير المشروع أن الفريق سيكون قد أنهى عملية التحول حتى نهاية السنة.",
+      "note_de": "Futur II mit haben.",
+      "note_ar": "Futur II باستخدام haben."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Er sagt, er habe gestern gearbeitet hat.",
+      "correct": "Er sagt, er habe gestern gearbeitet.",
+      "explanation_de": "Habe ist bereits das konjugierte Hilfsverb; ein zweites hat ist falsch.",
+      "explanation_ar": "habe هو الفعل المساعد المصرف، لذلك لا نضيف hat ثانية."
+    },
+    {
+      "wrong": "Sie sagt, sie habe angekommen.",
+      "correct": "Sie sagt, sie sei angekommen.",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Perfekt."
+    },
+    {
+      "wrong": "Die Behörde sagt, der Antrag habe geprüft worden.",
+      "correct": "Die Behörde sagt, der Antrag sei geprüft worden.",
+      "explanation_de": "Das vergangene Passiv wird mit sei + Partizip II + worden gebildet.",
+      "explanation_ar": "يُبنى الماضي المبني للمجهول باستخدام sei + Partizip II + worden."
+    },
+    {
+      "wrong": "Er sagt, er habe gemusst arbeiten.",
+      "correct": "Er sagt, er habe arbeiten müssen.",
+      "explanation_de": "Bei Modalverben steht der Ersatzinfinitiv: arbeiten müssen.",
+      "explanation_ar": "مع الأفعال الناقصة نستخدم Ersatzinfinitiv: arbeiten müssen."
+    },
+    {
+      "wrong": "Sie sagt, sie werde morgen angerufen.",
+      "correct": "Sie sagt, sie werde morgen anrufen.",
+      "explanation_de": "Für die aktive Zukunft steht werde + Infinitiv.",
+      "explanation_ar": "للمستقبل المعلوم نستخدم werde + المصدر."
+    },
+    {
+      "wrong": "Der Antrag werde nächste Woche prüfen werden.",
+      "correct": "Der Antrag werde nächste Woche geprüft werden.",
+      "explanation_de": "Im zukünftigen Passiv steht das Partizip II geprüft vor werden.",
+      "explanation_ar": "في المبني للمجهول المستقبلي يأتي Partizip II geprüft قبل werden."
+    }
+  ],
+  "quickSummary_de": [
+    "Vergangenheit Aktiv wird meist mit habe oder sei plus Partizip II gebildet.",
+    "Die meisten Verben verwenden habe.",
+    "Verben mit sein im Perfekt verwenden sei.",
+    "War wird häufig zu sei gewesen.",
+    "Hatte wird häufig zu habe gehabt.",
+    "Vergangenes Passiv lautet sei + Partizip II + worden.",
+    "Bei Modalverben steht häufig der Ersatzinfinitiv.",
+    "Zukunft lautet werde + Infinitiv.",
+    "Zukunft Passiv lautet werde + Partizip II + werden.",
+    "Futur II mit haben lautet werde + Partizip II + haben.",
+    "Futur II mit sein lautet werde + Partizip II + sein.",
+    "Zeitangaben helfen bei der Wahl der richtigen Zeitstufe."
+  ],
+  "quickSummary_ar": [
+    "يُبنى الماضي المعلوم غالبًا باستخدام habe أو sei مع Partizip II.",
+    "تستخدم معظم الأفعال habe.",
+    "تستخدم الأفعال التي تأخذ sein في Perfekt الصيغة sei.",
+    "تتحول war غالبًا إلى sei gewesen.",
+    "تتحول hatte غالبًا إلى habe gehabt.",
+    "يكون الماضي المبني للمجهول sei + Partizip II + worden.",
+    "نستخدم غالبًا Ersatzinfinitiv مع الأفعال الناقصة.",
+    "يكون المستقبل werde + Infinitiv.",
+    "يكون المستقبل المبني للمجهول werde + Partizip II + werden.",
+    "يكون Futur II مع haben: werde + Partizip II + haben.",
+    "يكون Futur II مع sein: werde + Partizip II + sein.",
+    "تساعد ظروف الزمن على اختيار المستوى الزمني الصحيح."
+  ],
+  "relatedTopics": [
+    "gr-36",
+    "gr-38",
+    "gr-39",
+    "gr-40"
+  ]
+}

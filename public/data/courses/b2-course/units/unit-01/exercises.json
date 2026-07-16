@@ -1,0 +1,629 @@
+{
+  "schemaVersion": "b2-course-exercises-v1",
+  "courseId": "b2-kurs",
+  "unit": 1,
+  "unitTitle_de": "Arbeitsräume, Umzug und Probleme im Büro",
+  "unitTitle_ar": "أماكن العمل والانتقال والمشكلات في المكتب",
+  "progressKeyProposal": "dmt_b2_course_progress_v1",
+  "idPolicy": {
+    "exerciseIdsAreNewAndStable": true,
+    "existingProgressKeysMustNotBeChanged": true
+  },
+  "exercises": [
+    {
+      "id": "b2u01-e001",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „der Nachsendeauftrag“?",
+      "prompt_ar": "ما معنى «der Nachsendeauftrag»؟",
+      "answer": "طلب تحويل البريد إلى العنوان الجديد",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "عقد الإيجار",
+        "طلب تحويل البريد إلى العنوان الجديد",
+        "موعد المعاينة",
+        "إثبات الدخل"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v011"
+      ]
+    },
+    {
+      "id": "b2u01-e002",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „die Kaution“?",
+      "prompt_ar": "ما معنى «die Kaution»؟",
+      "answer": "مبلغ ضمان يدفعه المستأجر",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "مبلغ ضمان يدفعه المستأجر",
+        "تكاليف الكهرباء",
+        "راتب الموظف",
+        "قيمة الأثاث"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v013"
+      ]
+    },
+    {
+      "id": "b2u01-e003",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „der Mangel“?",
+      "prompt_ar": "ما معنى «der Mangel»؟",
+      "answer": "عيب أو خلل",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "عقد",
+        "ترخيص",
+        "عيب أو خلل",
+        "مخطط"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v029"
+      ]
+    },
+    {
+      "id": "b2u01-e004",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Wortbedeutung",
+      "title_ar": "معنى الكلمة",
+      "prompt_de": "Was bedeutet „ausgebucht“?",
+      "prompt_ar": "ما معنى «ausgebucht»؟",
+      "answer": "محجوز بالكامل",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "مرن",
+        "محجوز بالكامل",
+        "مستعجل",
+        "تجاري"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v046"
+      ]
+    },
+    {
+      "id": "b2u01-e005",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر الكلمة الألمانية",
+      "prompt_de": "Welche deutsche Bezeichnung passt?",
+      "prompt_ar": "اختر الكلمة الألمانية المناسبة: «إدارة العقار»",
+      "answer": "die Hausverwaltung",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "die Hausverwaltung",
+        "die Umzugsfirma",
+        "die Einbauküche",
+        "die Ruhezeit"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v015"
+      ]
+    },
+    {
+      "id": "b2u01-e006",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Deutsch wählen",
+      "title_ar": "اختر الكلمة الألمانية",
+      "prompt_de": "Welche deutsche Bezeichnung passt?",
+      "prompt_ar": "اختر الكلمة الألمانية المناسبة: «محضر تسليم العقار»",
+      "answer": "das Übergabeprotokoll",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "der Einkommensnachweis",
+        "das Übergabeprotokoll",
+        "der Grundriss",
+        "der Mietvertrag"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v028"
+      ]
+    },
+    {
+      "id": "b2u01-e007",
+      "unit": 1,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Wir möchten bei drei Firmen ein ______ einholen.",
+      "prompt_ar": "نريد طلب ______ من ثلاث شركات.",
+      "answer": "Angebot",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Angebot",
+        "ein Angebot"
+      ],
+      "completedSentence_de": "Wir möchten bei drei Firmen ein Angebot einholen.",
+      "completedSentence_ar": "نريد طلب عرض سعر من ثلاث شركات.",
+      "vocabularyRefs": [
+        "b2u01-v004",
+        "b2u01-v051"
+      ]
+    },
+    {
+      "id": "b2u01-e008",
+      "unit": 1,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Der Abfluss ist ______ und das Wasser läuft nicht ab.",
+      "prompt_ar": "المصرف ______ والماء لا يتصرف.",
+      "answer": "verstopft",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "verstopft"
+      ],
+      "completedSentence_de": "Der Abfluss ist verstopft und das Wasser läuft nicht ab.",
+      "completedSentence_ar": "المصرف مسدود والماء لا يتصرف.",
+      "vocabularyRefs": [
+        "b2u01-v018",
+        "b2u01-v050"
+      ]
+    },
+    {
+      "id": "b2u01-e009",
+      "unit": 1,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Bitte ______ Sie die zuständige Firma.",
+      "prompt_ar": "يرجى ______ الشركة المختصة.",
+      "answer": "verständigen",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "verständigen"
+      ],
+      "completedSentence_de": "Bitte verständigen Sie die zuständige Firma.",
+      "completedSentence_ar": "يرجى إبلاغ الشركة المختصة.",
+      "vocabularyRefs": [
+        "b2u01-v043"
+      ]
+    },
+    {
+      "id": "b2u01-e010",
+      "unit": 1,
+      "type": "fill_blank",
+      "title_de": "Lückensatz",
+      "title_ar": "أكمل الفراغ",
+      "prompt_de": "Können Sie uns beim Preis etwas ______?",
+      "prompt_ar": "هل يمكنكم تقديم بعض التسهيل لنا في السعر؟",
+      "answer": "entgegenkommen",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "entgegenkommen"
+      ],
+      "completedSentence_de": "Können Sie uns beim Preis etwas entgegenkommen?",
+      "completedSentence_ar": "هل يمكنكم تقديم بعض التسهيل لنا في السعر؟",
+      "vocabularyRefs": [
+        "b2u01-v054"
+      ]
+    },
+    {
+      "id": "b2u01-e011",
+      "unit": 1,
+      "type": "verb_form",
+      "title_de": "Perfekt",
+      "title_ar": "صيغة الماضي Perfekt",
+      "prompt_de": "Bilden Sie das Perfekt von „umziehen“.",
+      "prompt_ar": "اكتب صيغة Perfekt للفعل «umziehen».",
+      "answer": "ist umgezogen",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "ist umgezogen",
+        "umgezogen"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v031"
+      ]
+    },
+    {
+      "id": "b2u01-e012",
+      "unit": 1,
+      "type": "verb_form",
+      "title_de": "Präteritum",
+      "title_ar": "صيغة Präteritum",
+      "prompt_de": "Bilden Sie das Präteritum von „beheben“.",
+      "prompt_ar": "اكتب صيغة Präteritum للفعل «beheben».",
+      "answer": "behob",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "behob"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v042"
+      ]
+    },
+    {
+      "id": "b2u01-e013",
+      "unit": 1,
+      "type": "verb_form",
+      "title_de": "Perfekt",
+      "title_ar": "صيغة الماضي Perfekt",
+      "prompt_de": "Bilden Sie das Perfekt von „abbauen“.",
+      "prompt_ar": "اكتب صيغة Perfekt للفعل «abbauen».",
+      "answer": "hat abgebaut",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "hat abgebaut",
+        "abgebaut"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v038"
+      ]
+    },
+    {
+      "id": "b2u01-e014",
+      "unit": 1,
+      "type": "sentence_order",
+      "title_de": "Wann–warum–wie–wohin",
+      "title_ar": "ترتيب الجملة",
+      "prompt_de": "Ordnen Sie die Satzteile.",
+      "prompt_ar": "رتب أجزاء الجملة وفق قاعدة Wann–warum–wie–wohin.",
+      "answer": "Adil ist vor einem Monat aus beruflichen Gründen spontan nach Stralsund gezogen.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Adil ist",
+        "vor einem Monat",
+        "aus beruflichen Gründen",
+        "spontan",
+        "nach Stralsund",
+        "gezogen."
+      ],
+      "grammarFocus": "Wann–warum–wie–wohin"
+    },
+    {
+      "id": "b2u01-e015",
+      "unit": 1,
+      "type": "sentence_order",
+      "title_de": "Wann–warum–wie–wohin",
+      "title_ar": "ترتيب الجملة",
+      "prompt_de": "Ordnen Sie die Satzteile.",
+      "prompt_ar": "رتب أجزاء الجملة وفق قاعدة Wann–warum–wie–wohin.",
+      "answer": "Wir sind gestern wegen des Umzugs mit dem Firmenwagen ins neue Büro gefahren.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Wir sind",
+        "gestern",
+        "wegen des Umzugs",
+        "mit dem Firmenwagen",
+        "ins neue Büro",
+        "gefahren."
+      ],
+      "grammarFocus": "Wann–warum–wie–wohin"
+    },
+    {
+      "id": "b2u01-e016",
+      "unit": 1,
+      "type": "sentence_order",
+      "title_de": "Wann–warum–wie–wohin",
+      "title_ar": "ترتيب الجملة",
+      "prompt_de": "Ordnen Sie die Satzteile.",
+      "prompt_ar": "رتب أجزاء الجملة وفق قاعدة Wann–warum–wie–wohin.",
+      "answer": "Meine Kollegin ist am Freitag trotz des schlechten Wetters allein nach Köln gefahren.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "tokens": [
+        "Meine Kollegin ist",
+        "am Freitag",
+        "trotz des schlechten Wetters",
+        "allein",
+        "nach Köln",
+        "gefahren."
+      ],
+      "grammarFocus": "Wann–warum–wie–wohin"
+    },
+    {
+      "id": "b2u01-e017",
+      "unit": 1,
+      "type": "sentence_build",
+      "title_de": "Lassen + Infinitiv",
+      "title_ar": "فعل lassen مع المصدر",
+      "prompt_de": "Bilden Sie einen Satz mit „lassen“: die Wände / streichen.",
+      "prompt_ar": "كوّن جملة باستعمال lassen: طلاء الجدران.",
+      "answer": "Wir lassen die Wände streichen.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wir lassen die Wände streichen.",
+        "Ich lasse die Wände streichen."
+      ],
+      "grammarFocus": "lassen + Akkusativ + Infinitiv"
+    },
+    {
+      "id": "b2u01-e018",
+      "unit": 1,
+      "type": "sentence_build",
+      "title_de": "Lassen + Infinitiv",
+      "title_ar": "فعل lassen مع المصدر",
+      "prompt_de": "Bilden Sie einen Satz mit „lassen“: die Möbel / aufbauen.",
+      "prompt_ar": "كوّن جملة باستعمال lassen: تركيب الأثاث.",
+      "answer": "Wir lassen die Möbel aufbauen.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Wir lassen die Möbel aufbauen.",
+        "Ich lasse die Möbel aufbauen."
+      ],
+      "grammarFocus": "lassen + Akkusativ + Infinitiv"
+    },
+    {
+      "id": "b2u01-e019",
+      "unit": 1,
+      "type": "sentence_build",
+      "title_de": "Passiv mit Modalverb",
+      "title_ar": "المبني للمجهول مع فعل ناقص",
+      "prompt_de": "Formulieren Sie im Passiv: Man muss die Türklinke austauschen.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: يجب استبدال مقبض الباب.",
+      "answer": "Die Türklinke muss ausgetauscht werden.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Türklinke muss ausgetauscht werden."
+      ],
+      "grammarFocus": "Modalverb + Partizip II + werden"
+    },
+    {
+      "id": "b2u01-e020",
+      "unit": 1,
+      "type": "sentence_build",
+      "title_de": "Passiv mit Modalverb",
+      "title_ar": "المبني للمجهول مع فعل ناقص",
+      "prompt_de": "Formulieren Sie im Passiv: Man muss die Sprechanlage überprüfen.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: يجب فحص جهاز الاتصال.",
+      "answer": "Die Sprechanlage muss überprüft werden.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Sprechanlage muss überprüft werden."
+      ],
+      "grammarFocus": "Modalverb + Partizip II + werden"
+    },
+    {
+      "id": "b2u01-e021",
+      "unit": 1,
+      "type": "sentence_build",
+      "title_de": "Passiv mit Modalverb",
+      "title_ar": "المبني للمجهول مع فعل ناقص",
+      "prompt_de": "Formulieren Sie im Passiv: Man muss die Zentralheizung entlüften.",
+      "prompt_ar": "حوّل إلى المبني للمجهول: يجب تفريغ الهواء من التدفئة المركزية.",
+      "answer": "Die Zentralheizung muss entlüftet werden.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "acceptedAnswers": [
+        "Die Zentralheizung muss entlüftet werden."
+      ],
+      "grammarFocus": "Modalverb + Partizip II + werden"
+    },
+    {
+      "id": "b2u01-e022",
+      "unit": 1,
+      "type": "email_order",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "ترتيب رسالة رسمية",
+      "prompt_de": "Bringen Sie die Teile der E-Mail in die richtige Reihenfolge.",
+      "prompt_ar": "رتّب أجزاء الرسالة الرسمية ترتيبًا صحيحًا.",
+      "answer": [
+        "anrede",
+        "bezug",
+        "problem",
+        "bitte",
+        "erreichbarkeit",
+        "dank",
+        "schluss"
+      ],
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "blocks": [
+        {
+          "id": "problem",
+          "text": "Seit einer Woche funktioniert die Sprechanlage nicht."
+        },
+        {
+          "id": "schluss",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "anrede",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "erreichbarkeit",
+          "text": "Sie erreichen mich werktags zwischen 9 und 16 Uhr."
+        },
+        {
+          "id": "bitte",
+          "text": "Bitte lassen Sie die Anlage so schnell wie möglich reparieren."
+        },
+        {
+          "id": "bezug",
+          "text": "Ich beziehe mich auf unser heutiges Telefongespräch."
+        },
+        {
+          "id": "dank",
+          "text": "Vielen Dank im Voraus."
+        }
+      ],
+      "grammarFocus": "formelle E-Mail"
+    },
+    {
+      "id": "b2u01-e023",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "رسالة رسمية",
+      "prompt_de": "Welche Formulierung ist für eine formelle E-Mail geeignet?",
+      "prompt_ar": "أي صياغة مناسبة لرسالة رسمية؟",
+      "answer": "Ich beziehe mich auf unser heutiges Telefongespräch.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Hey, wir haben doch heute telefoniert.",
+        "Ich beziehe mich auf unser heutiges Telefongespräch.",
+        "Du musst das sofort machen.",
+        "Was ist denn da los?"
+      ],
+      "vocabularyRefs": [
+        "b2u01-v056"
+      ]
+    },
+    {
+      "id": "b2u01-e024",
+      "unit": 1,
+      "type": "multiple_choice",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "رسالة رسمية",
+      "prompt_de": "Welche Bitte ist höflich und dringend?",
+      "prompt_ar": "أي طلب مهذب وعاجل؟",
+      "answer": "Deshalb bitte ich Sie dringend darum, den Schaden so schnell wie möglich zu beheben.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Reparieren Sie das sofort!",
+        "Vielleicht machen Sie irgendwann etwas.",
+        "Deshalb bitte ich Sie dringend darum, den Schaden so schnell wie möglich zu beheben.",
+        "Der Schaden ist nicht mein Problem."
+      ],
+      "vocabularyRefs": [
+        "b2u01-v042",
+        "b2u01-v049",
+        "b2u01-v057"
+      ]
+    },
+    {
+      "id": "b2u01-e025",
+      "unit": 1,
+      "type": "dialogue_choice",
+      "title_de": "Umzugsfirma anrufen",
+      "title_ar": "الاتصال بشركة نقل",
+      "prompt_de": "Die Firma fragt: „Wie groß ist Ihr jetziges Büro?“ Welche Antwort passt?",
+      "prompt_ar": "تسأل الشركة: «ما مساحة مكتبكم الحالي؟» ما الجواب المناسب؟",
+      "answer": "Es hat ungefähr 80 Quadratmeter.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Es hat ungefähr 80 Quadratmeter.",
+        "Wir ziehen am 14. März um.",
+        "Es liegt im fünften Stock.",
+        "Die Kartons packen wir selbst."
+      ],
+      "grammarFocus": "Details klären"
+    },
+    {
+      "id": "b2u01-e026",
+      "unit": 1,
+      "type": "dialogue_choice",
+      "title_de": "Problem melden",
+      "title_ar": "الإبلاغ عن مشكلة",
+      "prompt_de": "Die Hausverwaltung fragt: „Worum geht es?“ Welche Antwort passt?",
+      "prompt_ar": "تسأل إدارة العقار: «ما الموضوع؟» ما الجواب المناسب؟",
+      "answer": "Die Sprechanlage funktioniert seit gestern nicht.",
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "options": [
+        "Die Sprechanlage funktioniert seit gestern nicht.",
+        "Vielen Dank im Voraus.",
+        "Wir sind bezüglich des Termins flexibel.",
+        "Der Umzug kostet 500 Euro."
+      ],
+      "vocabularyRefs": [
+        "b2u01-v016"
+      ]
+    },
+    {
+      "id": "b2u01-e027",
+      "unit": 1,
+      "type": "matching",
+      "title_de": "Problem und Lösung",
+      "title_ar": "المشكلة والحل",
+      "prompt_de": "Ordnen Sie jedem Problem eine passende Lösung zu.",
+      "prompt_ar": "صِل كل مشكلة بالحل المناسب.",
+      "answer": {
+        "Der Abfluss ist verstopft.": "Einen Abflussreiniger verwenden.",
+        "Die Türklinke ist abgebrochen.": "Die Türklinke austauschen.",
+        "Die Zentralheizung funktioniert nicht richtig.": "Die Anlage überprüfen und entlüften.",
+        "Der Wasserhahn tropft.": "Einen Installateur beauftragen."
+      },
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "Der Abfluss ist verstopft.",
+          "Einen Abflussreiniger verwenden."
+        ],
+        [
+          "Die Türklinke ist abgebrochen.",
+          "Die Türklinke austauschen."
+        ],
+        [
+          "Die Zentralheizung funktioniert nicht richtig.",
+          "Die Anlage überprüfen und entlüften."
+        ],
+        [
+          "Der Wasserhahn tropft.",
+          "Einen Installateur beauftragen."
+        ]
+      ]
+    },
+    {
+      "id": "b2u01-e028",
+      "unit": 1,
+      "type": "matching",
+      "title_de": "Begriff und Erklärung",
+      "title_ar": "الكلمة والشرح",
+      "prompt_de": "Ordnen Sie die Begriffe den Erklärungen zu.",
+      "prompt_ar": "صِل الكلمات بالشروحات المناسبة.",
+      "answer": {
+        "die Kaution": "Geld als Sicherheit für den Vermieter",
+        "der Grundriss": "Zeichnung der Raumaufteilung",
+        "das Übergabeprotokoll": "Dokument über den Zustand bei der Übergabe",
+        "der Einkommensnachweis": "Dokument über das regelmäßige Einkommen"
+      },
+      "source": "original_exercise_based_on_unit_01_topics",
+      "bookTextCopied": false,
+      "pairs": [
+        [
+          "die Kaution",
+          "Geld als Sicherheit für den Vermieter"
+        ],
+        [
+          "der Grundriss",
+          "Zeichnung der Raumaufteilung"
+        ],
+        [
+          "das Übergabeprotokoll",
+          "Dokument über den Zustand bei der Übergabe"
+        ],
+        [
+          "der Einkommensnachweis",
+          "Dokument über das regelmäßige Einkommen"
+        ]
+      ]
+    }
+  ]
+}

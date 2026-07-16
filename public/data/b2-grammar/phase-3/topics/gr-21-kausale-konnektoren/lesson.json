@@ -1,0 +1,419 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-21",
+  "slug": "gr-21-kausale-konnektoren",
+  "order": 21,
+  "title_de": "Kausale Konnektoren",
+  "title_ar": "أدوات الربط السببية",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konnektoren",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Kausale Beziehungen mit weil, da und denn korrekt ausdrücken.",
+    "Folgen mit deshalb, deswegen, daher und aus diesem Grund formulieren.",
+    "Die Wortstellung nach subordinierenden, koordinierenden und konjunktionalen Verbindungen unterscheiden.",
+    "Zwischen Ursache und Folge sicher unterscheiden.",
+    "Da in formellen oder vorausgesetzten Begründungen passend verwenden.",
+    "Denn in Hauptsatzverbindungen mit korrekter Verbposition verwenden.",
+    "Kausale Zusammenhänge in beruflichen Texten abwechslungsreich und präzise formulieren."
+  ],
+  "learningObjectives_ar": [
+    "التعبير عن العلاقات السببية باستخدام weil وda وdenn بصورة صحيحة.",
+    "صياغة النتائج باستخدام deshalb وdeswegen وdaher وaus diesem Grund.",
+    "التمييز بين ترتيب الكلمات بعد أدوات الربط التابعة والمنسقة والروابط الظرفية.",
+    "التمييز بثقة بين السبب والنتيجة.",
+    "استخدام da في الأسلوب الرسمي أو عندما يكون السبب معلومًا.",
+    "استخدام denn بين جملتين رئيسيتين مع ترتيب فعل صحيح.",
+    "صياغة العلاقات السببية في النصوص المهنية بأسلوب متنوع ودقيق."
+  ],
+  "shortDescription_de": "Kausale Konnektoren verbinden Ursache und Folge. Weil und da leiten Nebensätze ein, denn verbindet Hauptsätze, und deshalb, deswegen, daher sowie aus diesem Grund leiten eine Folge ein.",
+  "shortDescription_ar": "تربط أدوات السببية بين السبب والنتيجة. تدخل weil وda جملة فرعية، ويربط denn بين جملتين رئيسيتين، بينما تقدم deshalb وdeswegen وdaher وaus diesem Grund النتيجة.",
+  "explanation_de": "Weil und da leiten einen Nebensatz ein. Das konjugierte Verb steht am Ende: Wir verschieben den Termin, weil die Unterlagen noch fehlen. Da wird häufig in formelleren Texten verwendet oder wenn die Begründung als bekannt oder naheliegend gilt. Da-Sätze stehen oft am Anfang: Da die Unterlagen noch fehlen, verschieben wir den Termin. Denn verbindet zwei Hauptsätze. Nach denn bleibt die normale Hauptsatzstellung erhalten: Wir verschieben den Termin, denn die Unterlagen fehlen noch. Deshalb, deswegen und daher leiten eine Folge ein. Stehen sie am Satzanfang, folgt das konjugierte Verb direkt: Die Unterlagen fehlen noch. Deshalb verschieben wir den Termin. Aus diesem Grund ist eine präpositionale Verbindung mit derselben Funktion: Die Unterlagen fehlen noch. Aus diesem Grund verschieben wir den Termin. Wichtig ist die Blickrichtung: weil, da und denn nennen die Ursache; deshalb, deswegen, daher und aus diesem Grund nennen die Folge.",
+  "explanation_ar": "تدخل weil وda جملة فرعية، ولذلك يأتي الفعل المصرف في النهاية، مثل: Wir verschieben den Termin, weil die Unterlagen noch fehlen. تُستخدم da كثيرًا في النصوص الرسمية أو عندما يُعد السبب معلومًا أو واضحًا، وغالبًا تأتي جملة da في البداية. أما denn فترتبط به جملتان رئيسيتان ويبقى ترتيب الجملة الرئيسية عاديًا بعده. وتقدم deshalb وdeswegen وdaher نتيجة السبب، وإذا جاءت في أول الجملة يأتي الفعل المصرف بعدها مباشرة. أما aus diesem Grund فهي عبارة جرّية تؤدي الوظيفة نفسها. ومن المهم تحديد اتجاه العلاقة: تذكر weil وda وdenn السبب، بينما تذكر deshalb وdeswegen وdaher وaus diesem Grund النتيجة.",
+  "rules": [
+    {
+      "id": "gr21-r01",
+      "title_de": "Weil + Nebensatz",
+      "title_ar": "weil مع جملة فرعية",
+      "explanation_de": "Weil nennt einen Grund. Das konjugierte Verb steht am Ende.",
+      "explanation_ar": "تذكر weil السبب، ويأتي الفعل المصرف في نهاية الجملة.",
+      "formula": "Hauptsatz, weil + ... + Verb",
+      "examples": [
+        {
+          "de": "Wir warten, weil der Antrag noch geprüft wird.",
+          "ar": "ننتظر لأن الطلب ما زال قيد الفحص."
+        },
+        {
+          "de": "Die Sitzung fällt aus, weil mehrere Personen erkrankt sind.",
+          "ar": "أُلغي الاجتماع لأن عدة أشخاص مرضى."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r02",
+      "title_de": "Da + Nebensatz",
+      "title_ar": "da مع جملة فرعية",
+      "explanation_de": "Da nennt ebenfalls einen Grund und wird häufig formeller oder bei bekannten Gründen verwendet.",
+      "explanation_ar": "تذكر da السبب أيضًا وتُستخدم كثيرًا في الأسلوب الرسمي أو مع الأسباب المعروفة.",
+      "formula": "Da + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Da die Frist morgen endet, müssen wir heute reagieren.",
+          "ar": "بما أن المهلة تنتهي غدًا، يجب أن نتصرف اليوم."
+        },
+        {
+          "de": "Da alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+          "ar": "بما أن جميع المستندات متوفرة، يمكن معالجة الطلب."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r03",
+      "title_de": "Denn + Hauptsatz",
+      "title_ar": "denn مع جملة رئيسية",
+      "explanation_de": "Denn verbindet zwei Hauptsätze. Nach denn steht das Verb auf Position 2.",
+      "explanation_ar": "يربط denn بين جملتين رئيسيتين، ويأتي الفعل بعدها في المرتبة الثانية.",
+      "formula": "Hauptsatz, denn + Subjekt + Verb + ...",
+      "examples": [
+        {
+          "de": "Wir müssen uns beeilen, denn die Frist endet morgen.",
+          "ar": "يجب أن نسرع، لأن المهلة تنتهي غدًا."
+        },
+        {
+          "de": "Der Termin wird verschoben, denn der Raum ist nicht verfügbar.",
+          "ar": "سيتم تأجيل الموعد لأن الغرفة غير متاحة."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r04",
+      "title_de": "Deshalb",
+      "title_ar": "deshalb",
+      "explanation_de": "Deshalb nennt die Folge. Steht es auf Position 1, folgt direkt das konjugierte Verb.",
+      "explanation_ar": "تذكر deshalb النتيجة، وإذا جاءت في المرتبة الأولى يأتي الفعل المصرف بعدها مباشرة.",
+      "formula": "Ursache. Deshalb + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Die Frist endet morgen. Deshalb müssen wir heute reagieren.",
+          "ar": "تنتهي المهلة غدًا، لذلك يجب أن نتصرف اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r05",
+      "title_de": "Deswegen",
+      "title_ar": "deswegen",
+      "explanation_de": "Deswegen ist in der Bedeutung meist mit deshalb austauschbar und leitet eine Folge ein.",
+      "explanation_ar": "تساوي deswegen غالبًا deshalb في المعنى وتقدم النتيجة.",
+      "formula": "Ursache. Deswegen + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Der Server ist ausgefallen. Deswegen können wir nicht weiterarbeiten.",
+          "ar": "تعطل الخادم، لذلك لا نستطيع متابعة العمل."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r06",
+      "title_de": "Daher",
+      "title_ar": "daher",
+      "explanation_de": "Daher leitet ebenfalls eine Folge ein und wirkt häufig etwas formeller.",
+      "explanation_ar": "تقدم daher النتيجة أيضًا وغالبًا تبدو أكثر رسمية قليلًا.",
+      "formula": "Ursache. Daher + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Die Daten sind unvollständig. Daher ist eine erneute Prüfung erforderlich.",
+          "ar": "البيانات غير مكتملة، لذلك يلزم فحص جديد."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r07",
+      "title_de": "Aus diesem Grund",
+      "title_ar": "aus diesem Grund",
+      "explanation_de": "Aus diesem Grund nennt eine Folge und eignet sich besonders für formelle Texte.",
+      "explanation_ar": "تذكر aus diesem Grund النتيجة وتناسب النصوص الرسمية بصورة خاصة.",
+      "formula": "Ursache. Aus diesem Grund + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Es fehlen wichtige Nachweise. Aus diesem Grund kann der Antrag noch nicht entschieden werden.",
+          "ar": "تنقص إثباتات مهمة، ولهذا السبب لا يمكن البت في الطلب بعد."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r08",
+      "title_de": "Ursache oder Folge?",
+      "title_ar": "سبب أم نتيجة؟",
+      "explanation_de": "Weil, da und denn führen die Ursache ein. Deshalb, deswegen, daher und aus diesem Grund führen die Folge ein.",
+      "explanation_ar": "تقدم weil وda وdenn السبب، بينما تقدم deshalb وdeswegen وdaher وaus diesem Grund النتيجة.",
+      "formula": "Ursache → weil/da/denn | Folge → deshalb/deswegen/daher/aus diesem Grund",
+      "examples": [
+        {
+          "de": "Wir warten, weil das System aktualisiert wird.",
+          "ar": "ننتظر لأن النظام يتم تحديثه."
+        },
+        {
+          "de": "Das System wird aktualisiert. Deshalb warten wir.",
+          "ar": "يتم تحديث النظام، لذلك ننتظر."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r09",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "explanation_de": "Steht der weil- oder da-Satz zuerst, beginnt der folgende Hauptsatz direkt mit dem konjugierten Verb.",
+      "explanation_ar": "إذا جاءت جملة weil أو da أولًا، تبدأ الجملة الرئيسية التالية مباشرة بالفعل المصرف.",
+      "formula": "Weil/Da + ... + Verb, Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Weil die Unterlagen fehlen, kann der Antrag nicht bearbeitet werden.",
+          "ar": "لأن المستندات ناقصة، لا يمكن معالجة الطلب."
+        },
+        {
+          "de": "Da die Ursache bekannt ist, können wir gezielt handeln.",
+          "ar": "بما أن السبب معروف، يمكننا التصرف بصورة محددة."
+        }
+      ]
+    },
+    {
+      "id": "gr21-r10",
+      "title_de": "Stilistische Variation",
+      "title_ar": "التنويع الأسلوبي",
+      "explanation_de": "In längeren Texten sollte derselbe Konnektor nicht unnötig wiederholt werden.",
+      "explanation_ar": "في النصوص الطويلة يُفضّل عدم تكرار أداة الربط نفسها بلا حاجة.",
+      "formula": "weil ↔ da ↔ denn | deshalb ↔ deswegen ↔ daher ↔ aus diesem Grund",
+      "examples": [
+        {
+          "de": "Da die Daten fehlen, kann die Prüfung nicht abgeschlossen werden. Aus diesem Grund wird eine neue Frist gesetzt.",
+          "ar": "بما أن البيانات ناقصة، لا يمكن إنهاء الفحص. ولهذا السبب تم تحديد مهلة جديدة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr21-t01",
+      "title_de": "Konnektoren und Satzstellung",
+      "title_ar": "أدوات الربط وترتيب الجملة",
+      "headers_de": [
+        "Konnektor",
+        "Funktion",
+        "Satzstellung"
+      ],
+      "headers_ar": [
+        "الأداة",
+        "الوظيفة",
+        "ترتيب الجملة"
+      ],
+      "rows": [
+        [
+          "weil",
+          "Ursache",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "da",
+          "Ursache",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "denn",
+          "Ursache",
+          "Hauptsatz: Verb auf Position 2"
+        ],
+        [
+          "deshalb",
+          "Folge",
+          "Verb direkt nach dem Konnektor"
+        ],
+        [
+          "deswegen",
+          "Folge",
+          "Verb direkt nach dem Konnektor"
+        ],
+        [
+          "daher",
+          "Folge",
+          "Verb direkt nach dem Konnektor"
+        ],
+        [
+          "aus diesem Grund",
+          "Folge",
+          "Verb auf Position 2"
+        ]
+      ]
+    },
+    {
+      "id": "gr21-t02",
+      "title_de": "Ursache und Folge umformen",
+      "title_ar": "تحويل السبب والنتيجة",
+      "headers_de": [
+        "Ursache mit weil",
+        "Folge mit deshalb"
+      ],
+      "headers_ar": [
+        "السبب باستخدام weil",
+        "النتيجة باستخدام deshalb"
+      ],
+      "rows": [
+        [
+          "Wir bleiben zu Hause, weil es stark schneit.",
+          "Es schneit stark. Deshalb bleiben wir zu Hause."
+        ],
+        [
+          "Der Antrag verzögert sich, weil Nachweise fehlen.",
+          "Nachweise fehlen. Deshalb verzögert sich der Antrag."
+        ],
+        [
+          "Die Sitzung fällt aus, weil der Raum nicht frei ist.",
+          "Der Raum ist nicht frei. Deshalb fällt die Sitzung aus."
+        ]
+      ]
+    },
+    {
+      "id": "gr21-t03",
+      "title_de": "Stil und Verwendung",
+      "title_ar": "الأسلوب والاستخدام",
+      "headers_de": [
+        "Form",
+        "typischer Stil",
+        "Hinweis"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الأسلوب الشائع",
+        "ملاحظة"
+      ],
+      "rows": [
+        [
+          "weil",
+          "neutral / sehr häufig",
+          "alltäglich und schriftlich"
+        ],
+        [
+          "da",
+          "häufig formeller",
+          "oft am Satzanfang"
+        ],
+        [
+          "denn",
+          "neutral / schriftlich und mündlich",
+          "keine Verbendstellung"
+        ],
+        [
+          "daher",
+          "eher formell",
+          "Folge"
+        ],
+        [
+          "aus diesem Grund",
+          "deutlich formell",
+          "gut für Berichte und E-Mails"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Da die technischen Voraussetzungen noch nicht erfüllt sind, kann das Projekt nicht wie geplant beginnen.",
+      "ar": "بما أن المتطلبات التقنية لم تتحقق بعد، لا يمكن أن يبدأ المشروع كما هو مخطط.",
+      "note_de": "Formelle Begründung mit da.",
+      "note_ar": "تعليل رسمي باستخدام da."
+    },
+    {
+      "de": "Wir bitten um eine Fristverlängerung, denn mehrere erforderliche Nachweise liegen noch nicht vor.",
+      "ar": "نطلب تمديد المهلة لأن عدة إثباتات مطلوبة لم تتوفر بعد.",
+      "note_de": "Denn verbindet zwei Hauptsätze.",
+      "note_ar": "يربط denn بين جملتين رئيسيتين."
+    },
+    {
+      "de": "Die Nachfrage ist deutlich gestiegen. Deshalb wurde zusätzliches Personal eingesetzt.",
+      "ar": "ازداد الطلب بصورة واضحة، لذلك تم تعيين موظفين إضافيين.",
+      "note_de": "Folge mit deshalb.",
+      "note_ar": "نتيجة باستخدام deshalb."
+    },
+    {
+      "de": "Die Angaben waren widersprüchlich. Daher musste der Vorgang erneut geprüft werden.",
+      "ar": "كانت المعلومات متناقضة، لذلك كان لا بد من فحص المعاملة مجددًا.",
+      "note_de": "Formelle Folge mit daher.",
+      "note_ar": "نتيجة رسمية باستخدام daher."
+    },
+    {
+      "de": "Ein sicherheitsrelevanter Fehler wurde festgestellt. Aus diesem Grund blieb die Anlage außer Betrieb.",
+      "ar": "تم اكتشاف خطأ متعلق بالسلامة، ولهذا السبب بقيت المنشأة خارج الخدمة.",
+      "note_de": "Formelle kausale Verbindung in einem Bericht.",
+      "note_ar": "ربط سببي رسمي في تقرير."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wir warten, weil der Antrag wird geprüft.",
+      "correct": "Wir warten, weil der Antrag geprüft wird.",
+      "explanation_de": "Nach weil steht das konjugierte Verb am Ende.",
+      "explanation_ar": "بعد weil يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Wir müssen uns beeilen, denn morgen die Frist endet.",
+      "correct": "Wir müssen uns beeilen, denn die Frist endet morgen.",
+      "explanation_de": "Nach denn gilt die normale Hauptsatzstellung.",
+      "explanation_ar": "بعد denn يبقى ترتيب الجملة الرئيسية عاديًا."
+    },
+    {
+      "wrong": "Die Unterlagen fehlen. Deshalb wir können nicht beginnen.",
+      "correct": "Die Unterlagen fehlen. Deshalb können wir nicht beginnen.",
+      "explanation_de": "Nach deshalb steht das konjugierte Verb direkt.",
+      "explanation_ar": "بعد deshalb يأتي الفعل المصرف مباشرة."
+    },
+    {
+      "wrong": "Da die Frist endet morgen, müssen wir handeln.",
+      "correct": "Da die Frist morgen endet, müssen wir handeln.",
+      "explanation_de": "Im da-Nebensatz steht das Verb am Ende.",
+      "explanation_ar": "في جملة da الفرعية يأتي الفعل في النهاية."
+    },
+    {
+      "wrong": "Der Server ist ausgefallen, deswegen wir nicht arbeiten können.",
+      "correct": "Der Server ist ausgefallen. Deswegen können wir nicht arbeiten.",
+      "explanation_de": "Deswegen leitet hier einen neuen Hauptsatz ein; das Verb folgt direkt.",
+      "explanation_ar": "تدخل deswegen هنا جملة رئيسية جديدة ويأتي الفعل بعدها مباشرة."
+    },
+    {
+      "wrong": "Wir verschieben den Termin, deshalb der Raum nicht frei ist.",
+      "correct": "Wir verschieben den Termin, weil der Raum nicht frei ist.",
+      "explanation_de": "Hier wird die Ursache genannt; deshalb würde eine Folge einleiten.",
+      "explanation_ar": "المذكور هنا هو السبب، بينما deshalb تقدم النتيجة."
+    }
+  ],
+  "quickSummary_de": [
+    "Weil und da leiten Nebensätze ein; das Verb steht am Ende.",
+    "Denn verbindet zwei Hauptsätze; die Verbposition bleibt normal.",
+    "Deshalb, deswegen und daher leiten eine Folge ein.",
+    "Nach deshalb, deswegen und daher folgt bei Satzanfang direkt das Verb.",
+    "Aus diesem Grund eignet sich besonders für formelle Texte.",
+    "Weil, da und denn nennen die Ursache.",
+    "Deshalb, deswegen, daher und aus diesem Grund nennen die Folge.",
+    "Da steht häufig am Anfang und wirkt oft formeller.",
+    "Nach einem vorangestellten Nebensatz beginnt der Hauptsatz mit dem Verb.",
+    "Stilistische Variation verbessert längere Texte."
+  ],
+  "quickSummary_ar": [
+    "تدخل weil وda جملة فرعية ويأتي الفعل في النهاية.",
+    "يربط denn بين جملتين رئيسيتين ويبقى ترتيب الفعل عاديًا.",
+    "تقدم deshalb وdeswegen وdaher النتيجة.",
+    "إذا جاءت deshalb أو deswegen أو daher أولًا يأتي الفعل بعدها مباشرة.",
+    "تناسب aus diesem Grund النصوص الرسمية بصورة خاصة.",
+    "تذكر weil وda وdenn السبب.",
+    "تذكر deshalb وdeswegen وdaher وaus diesem Grund النتيجة.",
+    "تأتي da كثيرًا في البداية وتبدو غالبًا أكثر رسمية.",
+    "بعد جملة فرعية مقدمة تبدأ الجملة الرئيسية بالفعل.",
+    "يحسن التنويع الأسلوبي جودة النصوص الطويلة."
+  ],
+  "relatedTopics": [
+    "gr-22",
+    "gr-23",
+    "gr-24",
+    "gr-30"
+  ]
+}

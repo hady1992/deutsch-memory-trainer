@@ -1,0 +1,548 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-26",
+  "title_de": "um ... zu, ohne ... zu und anstatt ... zu – Übungen",
+  "title_ar": "تمارين um ... zu وohne ... zu وanstatt ... zu",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr26-e001",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Ziel mit um ... zu",
+      "title_ar": "غاية باستخدام um ... zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir prüfen die Daten, um Fehler frühzeitig zu erkennen.",
+      "explanation_de": "Um ... zu nennt das Ziel der Prüfung.",
+      "explanation_ar": "تذكر um ... zu غاية الفحص.",
+      "grammarFocus": "um_zu_goal",
+      "options": [
+        "Wir prüfen die Daten, um Fehler frühzeitig zu erkennen.",
+        "Wir prüfen die Daten, um Fehler frühzeitig erkennen.",
+        "Wir prüfen die Daten, damit Fehler frühzeitig zu erkennen.",
+        "Wir prüfen die Daten, um zu Fehler frühzeitig erkennen."
+      ]
+    },
+    {
+      "id": "gr26-e002",
+      "topicId": "gr-26",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Um ergänzen",
+      "title_ar": "إكمال um",
+      "prompt_de": "Sie nimmt an der Fortbildung teil, ______ ihre Fachkenntnisse zu erweitern.",
+      "prompt_ar": "تشارك في الدورة لتوسيع معرفتها المهنية.",
+      "answer": "um",
+      "explanation_de": "Um leitet die finale Infinitivgruppe ein.",
+      "explanation_ar": "تدخل um تركيب المصدر الدال على الغاية.",
+      "grammarFocus": "insert_um",
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "gr26-e003",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Ohne ... zu",
+      "title_ar": "ohne ... zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er verließ die Besprechung, ohne sich abzumelden.",
+      "explanation_de": "Ohne ... zu beschreibt eine nicht ausgeführte Handlung.",
+      "explanation_ar": "تصف ohne ... zu فعلًا لم يتم تنفيذه.",
+      "grammarFocus": "ohne_zu_basic",
+      "options": [
+        "Er verließ die Besprechung, ohne sich abzumelden.",
+        "Er verließ die Besprechung, ohne sich zu abmelden.",
+        "Er verließ die Besprechung, ohne dass sich abzumelden.",
+        "Er verließ die Besprechung, ohne sich abmelden."
+      ]
+    },
+    {
+      "id": "gr26-e004",
+      "topicId": "gr-26",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Bedeutung zuordnen",
+      "title_ar": "مطابقة المعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "um ... zu": "Ziel",
+        "ohne ... zu": "Handlung geschieht nicht",
+        "anstatt ... zu": "nicht gewählte Alternative",
+        "damit": "Ziel bei anderem Subjekt",
+        "ohne dass": "fehlende Handlung bei anderem Subjekt"
+      },
+      "explanation_de": "Die Strukturen haben unterschiedliche logische Funktionen.",
+      "explanation_ar": "للتراكيب وظائف منطقية مختلفة.",
+      "grammarFocus": "meaning_matching",
+      "pairs": [
+        [
+          "um ... zu",
+          "Ziel"
+        ],
+        [
+          "ohne ... zu",
+          "Handlung geschieht nicht"
+        ],
+        [
+          "anstatt ... zu",
+          "nicht gewählte Alternative"
+        ],
+        [
+          "damit",
+          "Ziel bei anderem Subjekt"
+        ],
+        [
+          "ohne dass",
+          "fehlende Handlung bei anderem Subjekt"
+        ]
+      ]
+    },
+    {
+      "id": "gr26-e005",
+      "topicId": "gr-26",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Anstatt ... zu",
+      "title_ar": "anstatt ... zu",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Anstatt das Problem zu lösen, verschob man die Entscheidung.",
+      "explanation_de": "Anstatt leitet die nicht gewählte Alternative ein.",
+      "explanation_ar": "تدخل anstatt البديل الذي لم يتم اختياره.",
+      "grammarFocus": "anstatt_order",
+      "tokens": [
+        "verschob man",
+        "das Problem",
+        "Anstatt",
+        "die Entscheidung",
+        "zu lösen"
+      ],
+      "acceptedAnswers": [
+        "Anstatt das Problem zu lösen, verschob man die Entscheidung."
+      ]
+    },
+    {
+      "id": "gr26-e006",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Gleiches Subjekt",
+      "title_ar": "الفاعل نفسه",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie liest den Bericht, um sich auf die Sitzung vorzubereiten.",
+      "explanation_de": "Sie ist in beiden Satzteilen die handelnde Person.",
+      "explanation_ar": "هي الفاعل في الجزأين.",
+      "grammarFocus": "same_subject_um",
+      "options": [
+        "Sie liest den Bericht, um sich auf die Sitzung vorzubereiten.",
+        "Sie liest den Bericht, damit sich auf die Sitzung vorzubereiten.",
+        "Sie liest den Bericht, um sie sich vorbereitet.",
+        "Sie liest den Bericht, um auf die Sitzung sie vorzubereiten."
+      ]
+    },
+    {
+      "id": "gr26-e007",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Unterschiedliche Subjekte",
+      "title_ar": "فاعل مختلف",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+      "explanation_de": "Bei unterschiedlichen Subjekten verwendet man damit.",
+      "explanation_ar": "عند اختلاف الفاعل نستخدم damit.",
+      "grammarFocus": "different_subject_damit",
+      "options": [
+        "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+        "Ich erkläre den Ablauf, um die Kundin ihn zu verstehen.",
+        "Ich erkläre den Ablauf, um die Kundin versteht ihn.",
+        "Ich erkläre den Ablauf, damit die Kundin ihn zu verstehen."
+      ]
+    },
+    {
+      "id": "gr26-e008",
+      "topicId": "gr-26",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Ohne dass",
+      "title_ar": "ohne dass",
+      "prompt_de": "Er verließ das Büro, ______ seine Kollegin es bemerkte.",
+      "prompt_ar": "غادر المكتب من دون أن تلاحظ زميلته ذلك.",
+      "answer": "ohne dass",
+      "explanation_de": "Die Subjekte er und seine Kollegin sind verschieden.",
+      "explanation_ar": "الفاعلان er وseine Kollegin مختلفان.",
+      "grammarFocus": "ohne_dass",
+      "acceptedAnswers": [
+        "ohne dass"
+      ]
+    },
+    {
+      "id": "gr26-e009",
+      "topicId": "gr-26",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Ziel ausdrücken",
+      "title_ar": "التعبير عن الغاية",
+      "prompt_de": "Verbinden Sie: Wir dokumentieren alle Schritte. Wir wollen den Ablauf später nachvollziehen können.",
+      "prompt_ar": "اربط الجملتين باستخدام um ... zu.",
+      "answer": "Wir dokumentieren alle Schritte, um den Ablauf später nachvollziehen zu können.",
+      "explanation_de": "Bei einem Modalverb steht zu vor können.",
+      "explanation_ar": "مع الفعل الناقص تأتي zu قبل können.",
+      "grammarFocus": "um_zu_modal",
+      "acceptedAnswers": [
+        "Wir dokumentieren alle Schritte, um den Ablauf später nachvollziehen zu können."
+      ]
+    },
+    {
+      "id": "gr26-e010",
+      "topicId": "gr-26",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Ohne ... zu bilden",
+      "title_ar": "تكوين ohne ... zu",
+      "prompt_de": "Verbinden Sie: Sie unterschrieb den Vertrag. Sie las ihn nicht vollständig.",
+      "prompt_ar": "اربط الجملتين باستخدام ohne ... zu.",
+      "answer": "Sie unterschrieb den Vertrag, ohne ihn vollständig zu lesen.",
+      "explanation_de": "Die nicht ausgeführte Handlung wird als Infinitivgruppe formuliert.",
+      "explanation_ar": "يُصاغ الفعل الذي لم يحدث بتركيب مصدر.",
+      "grammarFocus": "build_ohne_zu",
+      "acceptedAnswers": [
+        "Sie unterschrieb den Vertrag, ohne ihn vollständig zu lesen."
+      ]
+    },
+    {
+      "id": "gr26-e011",
+      "topicId": "gr-26",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل قابل للفصل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Er ging, ohne sich ordnungsgemäß abzumelden.",
+      "explanation_de": "Bei abmelden steht zu zwischen ab und melden.",
+      "explanation_ar": "في abmelden تأتي zu بين ab وmelden.",
+      "grammarFocus": "separable_ohne",
+      "tokens": [
+        "ordnungsgemäß",
+        "ohne",
+        "Er ging",
+        "sich",
+        "abzumelden"
+      ],
+      "acceptedAnswers": [
+        "Er ging, ohne sich ordnungsgemäß abzumelden."
+      ]
+    },
+    {
+      "id": "gr26-e012",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Statt ... zu",
+      "title_ar": "statt ... zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie diskutierten weiter, statt eine konkrete Maßnahme zu vereinbaren.",
+      "explanation_de": "Statt ... zu nennt die nicht gewählte Alternative.",
+      "explanation_ar": "تذكر statt ... zu البديل الذي لم يتم اختياره.",
+      "grammarFocus": "statt_zu",
+      "options": [
+        "Sie diskutierten weiter, statt eine konkrete Maßnahme zu vereinbaren.",
+        "Sie diskutierten weiter, statt eine konkrete Maßnahme vereinbaren.",
+        "Sie diskutierten weiter, statt dass eine konkrete Maßnahme zu vereinbaren.",
+        "Sie diskutierten weiter, statt zu eine Maßnahme vereinbaren."
+      ]
+    },
+    {
+      "id": "gr26-e013",
+      "topicId": "gr-26",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Gleiches und anderes Subjekt",
+      "title_ar": "فاعل نفسه ومختلف",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "um ... zu": "gleiches Subjekt, Ziel",
+        "damit": "anderes Subjekt, Ziel",
+        "ohne ... zu": "gleiches Subjekt, fehlende Handlung",
+        "ohne dass": "anderes Subjekt, fehlende Handlung",
+        "anstatt dass": "vollständige Alternative mit Subjekt"
+      },
+      "explanation_de": "Die Wahl hängt von Bedeutung und Subjektbezug ab.",
+      "explanation_ar": "يعتمد الاختيار على المعنى وعلاقة الفاعل.",
+      "grammarFocus": "subject_relation_matching",
+      "pairs": [
+        [
+          "um ... zu",
+          "gleiches Subjekt, Ziel"
+        ],
+        [
+          "damit",
+          "anderes Subjekt, Ziel"
+        ],
+        [
+          "ohne ... zu",
+          "gleiches Subjekt, fehlende Handlung"
+        ],
+        [
+          "ohne dass",
+          "anderes Subjekt, fehlende Handlung"
+        ],
+        [
+          "anstatt dass",
+          "vollständige Alternative mit Subjekt"
+        ]
+      ]
+    },
+    {
+      "id": "gr26-e014",
+      "topicId": "gr-26",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Berufliche Alternative",
+      "title_ar": "بديل مهني",
+      "prompt_de": "Welche Formulierung ist sachlich und korrekt?",
+      "prompt_ar": "أي صياغة موضوعية وصحيحة؟",
+      "answer": "Anstatt kurzfristig zu reagieren, entwickelte das Team eine nachhaltige Lösung.",
+      "explanation_de": "Anstatt ... zu stellt die gewählte Handlung einer verworfenen Alternative gegenüber.",
+      "explanation_ar": "تقارن anstatt ... zu بين الفعل المختار والبديل المتروك.",
+      "grammarFocus": "professional_alternative",
+      "options": [
+        "Anstatt kurzfristig zu reagieren, entwickelte das Team eine nachhaltige Lösung.",
+        "Anstatt das Team kurzfristig reagierte, entwickelte es eine Lösung.",
+        "Anstatt zu kurzfristig reagieren, entwickelte das Team eine Lösung.",
+        "Anstatt dass kurzfristig zu reagieren, entwickelte das Team eine Lösung."
+      ]
+    },
+    {
+      "id": "gr26-e015",
+      "topicId": "gr-26",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Modalverb in der Infinitivgruppe",
+      "title_ar": "فعل ناقص داخل تركيب المصدر",
+      "prompt_de": "Wir prüfen die Unterlagen, um eine fundierte Entscheidung treffen ______ können.",
+      "prompt_ar": "نفحص المستندات لكي نتمكن من اتخاذ قرار مبني على أسس.",
+      "answer": "zu",
+      "explanation_de": "Zu steht vor dem Modalverb können.",
+      "explanation_ar": "تأتي zu قبل الفعل الناقص können.",
+      "grammarFocus": "modal_infinitive_insert",
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr26-e016",
+      "topicId": "gr-26",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Um ... zu mit Modalverb",
+      "title_ar": "um ... zu مع فعل ناقص",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wir sichern die Daten, um sie später wiederherstellen zu können.",
+      "explanation_de": "Die Reihenfolge lautet wiederherstellen zu können.",
+      "explanation_ar": "الترتيب هو wiederherstellen zu können.",
+      "grammarFocus": "modal_infinitive_order",
+      "tokens": [
+        "zu können",
+        "um",
+        "Wir sichern die Daten",
+        "später",
+        "wiederherstellen",
+        "sie"
+      ],
+      "acceptedAnswers": [
+        "Wir sichern die Daten, um sie später wiederherstellen zu können."
+      ]
+    },
+    {
+      "id": "gr26-e017",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Anstatt dass",
+      "title_ar": "anstatt dass",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Anstatt dass die Leitung entschied, wurde die Frage erneut vertagt.",
+      "explanation_de": "Anstatt dass leitet eine vollständige alternative Aussage ein.",
+      "explanation_ar": "تدخل anstatt dass جملة بديلة كاملة.",
+      "grammarFocus": "anstatt_dass",
+      "options": [
+        "Anstatt dass die Leitung entschied, wurde die Frage erneut vertagt.",
+        "Anstatt die Leitung entschied, wurde die Frage vertagt.",
+        "Anstatt dass die Leitung zu entscheiden, wurde vertagt.",
+        "Anstatt dass entschied die Leitung, wurde die Frage vertagt."
+      ]
+    },
+    {
+      "id": "gr26-e018",
+      "topicId": "gr-26",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Infinitiv Perfekt mit ohne",
+      "title_ar": "Infinitiv Perfekt مع ohne",
+      "prompt_de": "Verbinden Sie: Er antwortete. Er hatte die Nachricht nicht vollständig gelesen.",
+      "prompt_ar": "اربط الجملتين باستخدام ohne وInfinitiv Perfekt.",
+      "answer": "Er antwortete, ohne die Nachricht vollständig gelesen zu haben.",
+      "explanation_de": "Die nicht ausgeführte frühere Handlung steht im Infinitiv Perfekt.",
+      "explanation_ar": "يأتي الفعل الأسبق غير المنفذ في Infinitiv Perfekt.",
+      "grammarFocus": "ohne_perfect_infinitive",
+      "acceptedAnswers": [
+        "Er antwortete, ohne die Nachricht vollständig gelesen zu haben."
+      ]
+    },
+    {
+      "id": "gr26-e019",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Passives Infinitiv Perfekt",
+      "title_ar": "Infinitiv Perfekt المبني للمجهول",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Sie ging, ohne über die Änderung informiert worden zu sein.",
+      "explanation_de": "Das passive Infinitiv Perfekt lautet informiert worden zu sein.",
+      "explanation_ar": "صيغة Infinitiv Perfekt المبني للمجهول هي informiert worden zu sein.",
+      "grammarFocus": "passive_perfect_infinitive",
+      "options": [
+        "Sie ging, ohne über die Änderung informiert worden zu sein.",
+        "Sie ging, ohne über die Änderung zu informiert worden sein.",
+        "Sie ging, ohne über die Änderung informiert zu worden sein.",
+        "Sie ging, ohne über die Änderung informiert gewesen zu werden."
+      ]
+    },
+    {
+      "id": "gr26-e020",
+      "topicId": "gr-26",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formeller Maßnahmenplan",
+      "title_ar": "خطة إجراءات رسمية",
+      "prompt_de": "Welche Formulierung passt am besten?",
+      "prompt_ar": "أي صياغة تناسب أكثر؟",
+      "answer": "Um die Prozessqualität zu erhöhen, werden verbindliche Kontrollschritte eingeführt.",
+      "explanation_de": "Die Infinitivgruppe nennt das Ziel der Maßnahme.",
+      "explanation_ar": "يذكر تركيب المصدر غاية الإجراء.",
+      "grammarFocus": "formal_purpose_plan",
+      "options": [
+        "Um die Prozessqualität zu erhöhen, werden verbindliche Kontrollschritte eingeführt.",
+        "Um erhöht die Prozessqualität, werden Kontrollschritte eingeführt.",
+        "Damit die Prozessqualität zu erhöhen, werden Kontrollschritte eingeführt.",
+        "Um die Prozessqualität erhöhen, werden Schritte eingeführt."
+      ]
+    },
+    {
+      "id": "gr26-e021",
+      "topicId": "gr-26",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Alternative",
+      "title_ar": "بديل معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Anstatt die vorhandenen Daten sorgfältig auszuwerten, traf die Leitung eine vorschnelle Entscheidung.",
+      "explanation_de": "Bei auswerten steht zu zwischen aus und werten.",
+      "explanation_ar": "في auswerten تأتي zu بين aus وwerten.",
+      "grammarFocus": "complex_anstatt",
+      "tokens": [
+        "eine vorschnelle Entscheidung",
+        "die vorhandenen Daten",
+        "Anstatt",
+        "traf die Leitung",
+        "sorgfältig",
+        "auszuwerten"
+      ],
+      "acceptedAnswers": [
+        "Anstatt die vorhandenen Daten sorgfältig auszuwerten, traf die Leitung eine vorschnelle Entscheidung."
+      ]
+    },
+    {
+      "id": "gr26-e022",
+      "topicId": "gr-26",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Logischer Bezug",
+      "title_ar": "المرجع المنطقي",
+      "prompt_de": "Welche Form ist logisch und grammatisch korrekt?",
+      "prompt_ar": "أي صيغة صحيحة منطقيًا ونحويًا؟",
+      "answer": "Die Leitung informiert das Team frühzeitig, damit alle ihre Aufgaben planen können.",
+      "explanation_de": "Die handelnden Personen sind Leitung und Team; deshalb steht damit.",
+      "explanation_ar": "الفاعلان هما الإدارة والفريق، لذلك نستخدم damit.",
+      "grammarFocus": "logical_subject_reference",
+      "options": [
+        "Die Leitung informiert das Team frühzeitig, damit alle ihre Aufgaben planen können.",
+        "Die Leitung informiert das Team frühzeitig, um alle ihre Aufgaben planen zu können.",
+        "Die Leitung informiert das Team frühzeitig, ohne alle ihre Aufgaben planen zu können.",
+        "Die Leitung informiert das Team frühzeitig, anstatt alle ihre Aufgaben planen zu können."
+      ]
+    },
+    {
+      "id": "gr26-e023",
+      "topicId": "gr-26",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Bedeutungen",
+      "title_ar": "ثلاثة معانٍ",
+      "prompt_de": "Formulieren Sie drei Sätze zum selben Thema: Ziel mit um ... zu, fehlende Handlung mit ohne ... zu und Alternative mit anstatt ... zu.",
+      "prompt_ar": "صغ ثلاث جمل عن الموضوع نفسه: غاية وفعل غائب وبديل.",
+      "answer": "Wir prüfen die Daten, um eine fundierte Entscheidung zu treffen. Wir treffen keine Entscheidung, ohne die Daten zu prüfen. Anstatt vorschnell zu entscheiden, prüfen wir zunächst alle Daten.",
+      "explanation_de": "Die drei Sätze unterscheiden Ziel, fehlende Handlung und Alternative.",
+      "explanation_ar": "تميّز الجمل الثلاث بين الغاية والفعل الغائب والبديل.",
+      "grammarFocus": "compare_three_structures",
+      "acceptedAnswers": [
+        "Wir prüfen die Daten, um eine fundierte Entscheidung zu treffen. Wir treffen keine Entscheidung, ohne die Daten zu prüfen. Anstatt vorschnell zu entscheiden, prüfen wir zunächst alle Daten."
+      ]
+    },
+    {
+      "id": "gr26-e024",
+      "topicId": "gr-26",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Infinitivkonstruktionen",
+      "title_ar": "تدريب ختامي على تراكيب المصدر",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens drei Sätze mit um ... zu, zwei mit ohne ... zu, zwei mit anstatt oder statt ... zu, einen damit-Satz, einen ohne-dass-Satz, einen anstatt-dass-Satz, ein trennbares Verb, eine Modalverbgruppe und einen Infinitiv Perfekt.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم ثلاث جمل على الأقل مع um ... zu، وجملتين مع ohne ... zu، وجملتين مع anstatt أو statt ... zu، وجملة damit، وجملة ohne dass، وجملة anstatt dass، وفعلًا قابلًا للفصل، ومجموعة فعل ناقص، وInfinitiv Perfekt.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Sätze mit um ... zu",
+          "mindestens zwei Sätze mit ohne ... zu",
+          "mindestens zwei Sätze mit anstatt/statt ... zu",
+          "mindestens ein damit-Satz",
+          "mindestens ein ohne-dass-Satz",
+          "mindestens ein anstatt-dass-Satz",
+          "mindestens ein trennbares Verb",
+          "mindestens eine Infinitivgruppe mit Modalverb",
+          "mindestens ein Infinitiv Perfekt",
+          "korrekte Kommasetzung und eindeutiger Subjektbezug"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bedeutung, Subjektbezug, Position von zu und Kommasetzung.",
+      "explanation_ar": "راجع المعنى وعلاقة الفاعل وموقع zu والفواصل.",
+      "grammarFocus": "mixed_um_ohne_anstatt",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

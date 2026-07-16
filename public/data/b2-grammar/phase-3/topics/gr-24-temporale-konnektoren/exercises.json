@@ -1,0 +1,562 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-24",
+  "title_de": "Temporale Konnektoren – Übungen",
+  "title_ar": "تمارين أدوات الربط الزمنية",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr24-e001",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Als oder wenn",
+      "title_ar": "als أم wenn",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Als ich den Bescheid erhielt, rief ich sofort an.",
+      "explanation_de": "Es handelt sich um ein einmaliges Ereignis in der Vergangenheit.",
+      "explanation_ar": "الحدث وقع مرة واحدة في الماضي.",
+      "grammarFocus": "als_once_past",
+      "options": [
+        "Als ich den Bescheid erhielt, rief ich sofort an.",
+        "Wenn ich den Bescheid gestern erhielt, rief ich einmal an.",
+        "Wann ich den Bescheid erhielt, rief ich sofort an.",
+        "Als ich den Bescheid erhalte, rufe ich immer an."
+      ]
+    },
+    {
+      "id": "gr24-e002",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wiederholung mit wenn",
+      "title_ar": "التكرار باستخدام wenn",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wenn ich einen Bescheid erhalte, prüfe ich ihn sorgfältig.",
+      "explanation_de": "Wenn beschreibt hier einen wiederholten Ablauf.",
+      "explanation_ar": "تصف wenn هنا حدثًا متكررًا.",
+      "grammarFocus": "wenn_repetition",
+      "options": [
+        "Wenn ich einen Bescheid erhalte, prüfe ich ihn sorgfältig.",
+        "Als ich einen Bescheid erhalte, prüfe ich ihn immer.",
+        "Wann ich einen Bescheid erhalte, prüfe ich ihn.",
+        "Wenn erhalte ich einen Bescheid, prüfe ich ihn."
+      ]
+    },
+    {
+      "id": "gr24-e003",
+      "topicId": "gr-24",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Gleichzeitigkeit",
+      "title_ar": "التزامن",
+      "prompt_de": "______ die Daten übertragen werden, darf das Gerät nicht ausgeschaltet werden.",
+      "prompt_ar": "أثناء نقل البيانات لا يجوز إيقاف الجهاز.",
+      "answer": "Während",
+      "explanation_de": "Während beschreibt zwei gleichzeitig geltende Vorgänge.",
+      "explanation_ar": "تصف Während حدثين متزامنين.",
+      "grammarFocus": "waehrend_simultaneous",
+      "acceptedAnswers": [
+        "Während",
+        "während"
+      ]
+    },
+    {
+      "id": "gr24-e004",
+      "topicId": "gr-24",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Zeitliche Bedeutung",
+      "title_ar": "المعنى الزمني",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "als": "einmalige Vergangenheit",
+        "wenn": "Wiederholung oder Zukunft",
+        "bevor": "vor einem anderen Ereignis",
+        "nachdem": "nach einem früheren Ereignis",
+        "bis": "Endpunkt",
+        "sobald": "unmittelbar danach"
+      },
+      "explanation_de": "Die Konnektoren ordnen Ereignisse unterschiedlich.",
+      "explanation_ar": "ترتب الأدوات الأحداث بطرق مختلفة.",
+      "grammarFocus": "temporal_meaning_matching",
+      "pairs": [
+        [
+          "als",
+          "einmalige Vergangenheit"
+        ],
+        [
+          "wenn",
+          "Wiederholung oder Zukunft"
+        ],
+        [
+          "bevor",
+          "vor einem anderen Ereignis"
+        ],
+        [
+          "nachdem",
+          "nach einem früheren Ereignis"
+        ],
+        [
+          "bis",
+          "Endpunkt"
+        ],
+        [
+          "sobald",
+          "unmittelbar danach"
+        ]
+      ]
+    },
+    {
+      "id": "gr24-e005",
+      "topicId": "gr-24",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Während-Satz",
+      "title_ar": "جملة während",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Während die Software installiert wird, bleibt das Programm geschlossen.",
+      "explanation_de": "Im während-Satz steht wird am Ende.",
+      "explanation_ar": "في جملة während تأتي wird في النهاية.",
+      "grammarFocus": "waehrend_order",
+      "tokens": [
+        "bleibt",
+        "Während",
+        "geschlossen",
+        "wird",
+        "das Programm",
+        "die Software",
+        "installiert"
+      ],
+      "acceptedAnswers": [
+        "Während die Software installiert wird, bleibt das Programm geschlossen."
+      ]
+    },
+    {
+      "id": "gr24-e006",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Bis",
+      "title_ar": "bis",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir warten, bis die Freigabe erteilt wird.",
+      "explanation_de": "Bis nennt den Endpunkt; das Verb steht im Nebensatz am Ende.",
+      "explanation_ar": "تحدد bis نقطة النهاية ويأتي الفعل في نهاية الجملة الفرعية.",
+      "grammarFocus": "bis_endpoint",
+      "options": [
+        "Wir warten, bis die Freigabe erteilt wird.",
+        "Wir warten, bis wird die Freigabe erteilt.",
+        "Wir warten, bis die Freigabe wird erteilt.",
+        "Wir warten, bis erteilt die Freigabe wird."
+      ]
+    },
+    {
+      "id": "gr24-e007",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wann",
+      "title_ar": "wann",
+      "prompt_de": "Welche Form ist eine indirekte Frage nach dem Zeitpunkt?",
+      "prompt_ar": "أي صيغة سؤال غير مباشر عن الوقت؟",
+      "answer": "Ich weiß noch nicht, wann die Besprechung beginnt.",
+      "explanation_de": "Wann wird in einer indirekten Zeitfrage verwendet.",
+      "explanation_ar": "تُستخدم wann في سؤال غير مباشر عن الوقت.",
+      "grammarFocus": "wann_indirect_question",
+      "options": [
+        "Ich weiß noch nicht, wann die Besprechung beginnt.",
+        "Ich weiß noch nicht, wenn die Besprechung beginnt.",
+        "Ich weiß noch nicht, als die Besprechung beginnt.",
+        "Ich weiß noch nicht, wann beginnt die Besprechung."
+      ]
+    },
+    {
+      "id": "gr24-e008",
+      "topicId": "gr-24",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Sobald",
+      "title_ar": "sobald",
+      "prompt_de": "______ die Unterlagen vollständig sind, beginnen wir mit der Bearbeitung.",
+      "prompt_ar": "فور اكتمال المستندات نبدأ المعالجة.",
+      "answer": "Sobald",
+      "explanation_de": "Sobald bezeichnet eine unmittelbar folgende Handlung.",
+      "explanation_ar": "تدل Sobald على فعل يحدث مباشرة بعد الحدث الأول.",
+      "grammarFocus": "sobald_immediate",
+      "acceptedAnswers": [
+        "Sobald",
+        "sobald"
+      ]
+    },
+    {
+      "id": "gr24-e009",
+      "topicId": "gr-24",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Als zu wenn",
+      "title_ar": "من als إلى wenn",
+      "prompt_de": "Formulieren Sie als wiederholten Ablauf: Als ich eine Rückfrage hatte, rief ich die Fachabteilung an.",
+      "prompt_ar": "حوّلها إلى حدث متكرر.",
+      "answer": "Wenn ich eine Rückfrage habe, rufe ich die Fachabteilung an.",
+      "explanation_de": "Für einen wiederholten Ablauf verwendet man wenn und meist Präsens.",
+      "explanation_ar": "نستخدم wenn وغالبًا Präsens للحدث المتكرر.",
+      "grammarFocus": "als_to_wenn",
+      "acceptedAnswers": [
+        "Wenn ich eine Rückfrage habe, rufe ich die Fachabteilung an."
+      ]
+    },
+    {
+      "id": "gr24-e010",
+      "topicId": "gr-24",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Bevor",
+      "title_ar": "bevor",
+      "prompt_de": "Verbinden Sie: Der Vertrag wird unterschrieben. Vorher wird er rechtlich geprüft.",
+      "prompt_ar": "اربط الجملتين باستخدام bevor.",
+      "answer": "Bevor der Vertrag unterschrieben wird, wird er rechtlich geprüft.",
+      "explanation_de": "Der bevor-Satz nennt das später eintretende Ereignis; die Prüfung geschieht vorher.",
+      "explanation_ar": "تذكر جملة bevor الحدث اللاحق، بينما يقع الفحص قبله.",
+      "grammarFocus": "build_bevor",
+      "acceptedAnswers": [
+        "Bevor der Vertrag unterschrieben wird, wird er rechtlich geprüft."
+      ]
+    },
+    {
+      "id": "gr24-e011",
+      "topicId": "gr-24",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nachdem",
+      "title_ar": "nachdem",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem der Bericht geprüft worden war, wurde er freigegeben.",
+      "explanation_de": "Das frühere Ereignis steht hier im Plusquamperfekt.",
+      "explanation_ar": "يأتي الحدث الأسبق هنا في Plusquamperfekt.",
+      "grammarFocus": "nachdem_pluperfect_order",
+      "tokens": [
+        "freigegeben",
+        "Nachdem",
+        "war",
+        "wurde er",
+        "geprüft",
+        "worden",
+        "der Bericht"
+      ],
+      "acceptedAnswers": [
+        "Nachdem der Bericht geprüft worden war, wurde er freigegeben."
+      ]
+    },
+    {
+      "id": "gr24-e012",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Seitdem",
+      "title_ar": "seitdem",
+      "prompt_de": "Welche Form beschreibt eine Entwicklung seit einem Zeitpunkt in der Vergangenheit?",
+      "prompt_ar": "أي صيغة تصف تطورًا منذ وقت في الماضي؟",
+      "answer": "Seitdem das neue System eingeführt wurde, hat sich die Bearbeitungszeit verkürzt.",
+      "explanation_de": "Seitdem verbindet einen früheren Beginn mit einer späteren oder aktuellen Wirkung.",
+      "explanation_ar": "تربط seitdem بداية سابقة بأثر لاحق أو حالي.",
+      "grammarFocus": "seitdem_since",
+      "options": [
+        "Seitdem das neue System eingeführt wurde, hat sich die Bearbeitungszeit verkürzt.",
+        "Bis das neue System eingeführt wurde, verkürzt sich seitdem die Zeit.",
+        "Als das neue System immer eingeführt wird, verkürzt sich die Zeit.",
+        "Wann das System eingeführt wurde, hat sich die Zeit seitdem."
+      ]
+    },
+    {
+      "id": "gr24-e013",
+      "topicId": "gr-24",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Konnektor und Beispiel",
+      "title_ar": "الأداة والمثال",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "während": "Während ich warte, beantworte ich E-Mails.",
+        "solange": "Solange die Prüfung läuft, bleibt der Zugang gesperrt.",
+        "seitdem": "Seitdem wir umgestellt haben, läuft es besser.",
+        "sooft": "Sooft ein Fehler auftritt, wird er dokumentiert.",
+        "ehe": "Ehe wir entscheiden, prüfen wir alle Angaben."
+      },
+      "explanation_de": "Die Beispiele zeigen typische zeitliche Beziehungen.",
+      "explanation_ar": "توضح الأمثلة العلاقات الزمنية النموذجية.",
+      "grammarFocus": "temporal_example_matching",
+      "pairs": [
+        [
+          "während",
+          "Während ich warte, beantworte ich E-Mails."
+        ],
+        [
+          "solange",
+          "Solange die Prüfung läuft, bleibt der Zugang gesperrt."
+        ],
+        [
+          "seitdem",
+          "Seitdem wir umgestellt haben, läuft es besser."
+        ],
+        [
+          "sooft",
+          "Sooft ein Fehler auftritt, wird er dokumentiert."
+        ],
+        [
+          "ehe",
+          "Ehe wir entscheiden, prüfen wir alle Angaben."
+        ]
+      ]
+    },
+    {
+      "id": "gr24-e014",
+      "topicId": "gr-24",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Technischer Hinweis",
+      "title_ar": "تنبيه تقني",
+      "prompt_de": "Welche Formulierung passt in einen technischen Hinweis?",
+      "prompt_ar": "أي صياغة تناسب تنبيهًا تقنيًا؟",
+      "answer": "Während die Aktualisierung durchgeführt wird, darf das Gerät nicht ausgeschaltet werden.",
+      "explanation_de": "Während beschreibt die gleichzeitig geltende Einschränkung.",
+      "explanation_ar": "تصف während القيد الساري أثناء العملية.",
+      "grammarFocus": "technical_while",
+      "options": [
+        "Während die Aktualisierung durchgeführt wird, darf das Gerät nicht ausgeschaltet werden.",
+        "Als die Aktualisierung durchgeführt wird, darf das Gerät immer nicht aus.",
+        "Wann die Aktualisierung läuft, das Gerät darf nicht ausgeschaltet werden.",
+        "Nachdem die Aktualisierung durchgeführt wird, darf während das Gerät nicht aus."
+      ]
+    },
+    {
+      "id": "gr24-e015",
+      "topicId": "gr-24",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Sooft",
+      "title_ar": "sooft",
+      "prompt_de": "______ eine Störung auftritt, wird sie im System dokumentiert.",
+      "prompt_ar": "كلما وقع عطل يتم توثيقه في النظام.",
+      "answer": "Sooft",
+      "explanation_de": "Sooft beschreibt ein Ereignis, das bei jedem Auftreten wiederholt wird.",
+      "explanation_ar": "تصف Sooft حدثًا يتكرر كلما وقع الحدث الأول.",
+      "grammarFocus": "sooft_repetition",
+      "acceptedAnswers": [
+        "Sooft",
+        "sooft"
+      ]
+    },
+    {
+      "id": "gr24-e016",
+      "topicId": "gr-24",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Solange",
+      "title_ar": "solange",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Solange die Prüfung läuft, bleibt der Zugang gesperrt.",
+      "explanation_de": "Der solange-Satz beschreibt die Dauer des gesperrten Zustands.",
+      "explanation_ar": "تصف جملة solange مدة استمرار حالة الإغلاق.",
+      "grammarFocus": "solange_order",
+      "tokens": [
+        "der Zugang",
+        "Solange",
+        "gesperrt",
+        "läuft",
+        "bleibt",
+        "die Prüfung"
+      ],
+      "acceptedAnswers": [
+        "Solange die Prüfung läuft, bleibt der Zugang gesperrt."
+      ]
+    },
+    {
+      "id": "gr24-e017",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Zukunft mit wenn",
+      "title_ar": "المستقبل مع wenn",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wenn die Unterlagen morgen eintreffen, bearbeiten wir den Antrag sofort.",
+      "explanation_de": "In einem temporalen Zukunftssatz steht im Deutschen häufig Präsens.",
+      "explanation_ar": "يُستخدم Präsens كثيرًا في الجملة الزمنية المتعلقة بالمستقبل.",
+      "grammarFocus": "future_when_present",
+      "options": [
+        "Wenn die Unterlagen morgen eintreffen, bearbeiten wir den Antrag sofort.",
+        "Wenn die Unterlagen morgen werden eintreffen, bearbeiten wir den Antrag.",
+        "Als die Unterlagen morgen eintreffen, bearbeiten wir den Antrag.",
+        "Wann die Unterlagen morgen eintreffen, bearbeiten wir den Antrag sofort."
+      ]
+    },
+    {
+      "id": "gr24-e018",
+      "topicId": "gr-24",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zeitliche Abfolge",
+      "title_ar": "تسلسل زمني",
+      "prompt_de": "Verbinden Sie drei Schritte: Die Daten werden gespeichert. Danach wird das Programm geschlossen. Anschließend wird das Gerät neu gestartet.",
+      "prompt_ar": "اربط الخطوات الثلاث زمنيًا.",
+      "answer": "Nachdem die Daten gespeichert worden sind, wird das Programm geschlossen. Sobald das Programm geschlossen ist, wird das Gerät neu gestartet.",
+      "explanation_de": "Nachdem markiert den ersten abgeschlossenen Schritt; sobald leitet den unmittelbar folgenden Schritt ein.",
+      "explanation_ar": "تحدد nachdem الخطوة الأولى المنتهية، وتقدم sobald الخطوة التالية مباشرة.",
+      "grammarFocus": "multi_step_sequence",
+      "acceptedAnswers": [
+        "Nachdem die Daten gespeichert worden sind, wird das Programm geschlossen. Sobald das Programm geschlossen ist, wird das Gerät neu gestartet."
+      ]
+    },
+    {
+      "id": "gr24-e019",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Komplexe Vorzeitigkeit",
+      "title_ar": "حدث أسبق معقد",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Nachdem alle Beteiligten angehört worden waren, traf die Leitung ihre Entscheidung.",
+      "explanation_de": "Der nachdem-Satz beschreibt das frühere abgeschlossene Ereignis.",
+      "explanation_ar": "تصف جملة nachdem الحدث الأسبق المنتهي.",
+      "grammarFocus": "complex_nachdem",
+      "options": [
+        "Nachdem alle Beteiligten angehört worden waren, traf die Leitung ihre Entscheidung.",
+        "Nachdem alle Beteiligten wurden angehört, die Leitung traf ihre Entscheidung.",
+        "Nachdem waren alle Beteiligten angehört worden, traf die Leitung.",
+        "Nachdem alle Beteiligten angehört worden waren, die Leitung traf ihre Entscheidung."
+      ]
+    },
+    {
+      "id": "gr24-e020",
+      "topicId": "gr-24",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formeller Ablauf",
+      "title_ar": "تسلسل رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in eine Verfahrensbeschreibung?",
+      "prompt_ar": "أي صياغة تناسب وصف إجراء رسمي؟",
+      "answer": "Ehe eine endgültige Entscheidung getroffen wird, werden sämtliche Einwände geprüft.",
+      "explanation_de": "Ehe ist eine formellere Variante von bevor und passt in eine Verfahrensbeschreibung.",
+      "explanation_ar": "تُعد ehe صيغة أكثر رسمية من bevor وتناسب وصف الإجراءات.",
+      "grammarFocus": "formal_ehe",
+      "options": [
+        "Ehe eine endgültige Entscheidung getroffen wird, werden sämtliche Einwände geprüft.",
+        "Ehe wird eine Entscheidung getroffen, sämtliche Einwände werden geprüft.",
+        "Als eine endgültige Entscheidung getroffen wird, prüfen wir vorher.",
+        "Wann die Entscheidung getroffen wird, ehe werden Einwände geprüft."
+      ]
+    },
+    {
+      "id": "gr24-e021",
+      "topicId": "gr-24",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Seitdem im Beruf",
+      "title_ar": "seitdem في العمل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Seitdem die Zuständigkeiten klar geregelt sind, treten weniger Verzögerungen auf.",
+      "explanation_de": "Der seitdem-Satz nennt den Beginn einer bis heute wirksamen Veränderung.",
+      "explanation_ar": "تذكر جملة seitdem بداية تغير مستمر الأثر حتى اليوم.",
+      "grammarFocus": "seitdem_order",
+      "tokens": [
+        "klar geregelt sind",
+        "weniger Verzögerungen",
+        "Seitdem",
+        "treten",
+        "die Zuständigkeiten",
+        "auf"
+      ],
+      "acceptedAnswers": [
+        "Seitdem die Zuständigkeiten klar geregelt sind, treten weniger Verzögerungen auf."
+      ]
+    },
+    {
+      "id": "gr24-e022",
+      "topicId": "gr-24",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Als, wenn oder wann",
+      "title_ar": "als أم wenn أم wann",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "Als ich die Stelle antrat, war ich nervös. Wenn ich heute Fragen habe, frage ich nach. Ich weiß, wann die Besprechung beginnt.",
+      "explanation_de": "Als, wenn und wann erfüllen hier drei verschiedene Funktionen.",
+      "explanation_ar": "تؤدي als وwenn وwann هنا ثلاث وظائف مختلفة.",
+      "grammarFocus": "als_wenn_wann_contrast",
+      "options": [
+        "Als ich die Stelle antrat, war ich nervös. Wenn ich heute Fragen habe, frage ich nach. Ich weiß, wann die Besprechung beginnt.",
+        "Wenn ich die Stelle einmal antrat, war ich nervös. Als ich heute Fragen habe, frage ich nach. Ich weiß, wenn die Besprechung beginnt.",
+        "Wann ich die Stelle antrat, war ich nervös. Als ich Fragen habe, frage ich nach. Ich weiß, wenn sie beginnt.",
+        "Als ich die Stelle antrat, war ich nervös. Wann ich Fragen habe, frage ich nach. Ich weiß, als die Besprechung beginnt."
+      ]
+    },
+    {
+      "id": "gr24-e023",
+      "topicId": "gr-24",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrfachumformung",
+      "title_ar": "إعادة صياغة متعددة",
+      "prompt_de": "Formulieren Sie denselben Ablauf mit bevor und nachdem: Erst werden die Unterlagen geprüft, dann wird die Entscheidung getroffen.",
+      "prompt_ar": "صغ التسلسل نفسه باستخدام bevor وnachdem.",
+      "answer": "Bevor die Entscheidung getroffen wird, werden die Unterlagen geprüft. Nachdem die Unterlagen geprüft worden sind, wird die Entscheidung getroffen.",
+      "explanation_de": "Bevor betrachtet das spätere Ereignis aus der Perspektive des früheren; nachdem nennt das frühere Ereignis ausdrücklich.",
+      "explanation_ar": "تنظر bevor إلى الحدث اللاحق من منظور السابق، بينما تذكر nachdem الحدث الأسبق صراحة.",
+      "grammarFocus": "bevor_nachdem_reformulation",
+      "acceptedAnswers": [
+        "Bevor die Entscheidung getroffen wird, werden die Unterlagen geprüft. Nachdem die Unterlagen geprüft worden sind, wird die Entscheidung getroffen."
+      ]
+    },
+    {
+      "id": "gr24-e024",
+      "topicId": "gr-24",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining temporale Konnektoren",
+      "title_ar": "تدريب ختامي على أدوات الربط الزمنية",
+      "prompt_de": "Schreiben Sie eine berufliche Prozessbeschreibung mit mindestens zwölf Sätzen. Verwenden Sie als, wenn, während, solange, bevor oder ehe, nachdem, seitdem, bis, sobald und sooft jeweils mindestens einmal. Beschreiben Sie einen einmaligen vergangenen Ablauf, einen wiederholten Ablauf und einen zukünftigen Ablauf.",
+      "prompt_ar": "اكتب وصفًا مهنيًا لعملية من اثنتي عشرة جملة على الأقل. استخدم als وwenn وwährend وsolange وbevor أو ehe وnachdem وseitdem وbis وsobald وsooft مرة واحدة على الأقل لكل منها. صف حدثًا ماضيًا وقع مرة واحدة وعملية متكررة وتسلسلًا مستقبليًا.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens ein Satz mit als",
+          "mindestens zwei Sätze mit wenn",
+          "mindestens ein Satz mit während",
+          "mindestens ein Satz mit solange",
+          "mindestens ein Satz mit bevor oder ehe",
+          "mindestens ein Satz mit nachdem",
+          "mindestens ein Satz mit seitdem",
+          "mindestens ein Satz mit bis",
+          "mindestens ein Satz mit sobald",
+          "mindestens ein Satz mit sooft",
+          "korrekte Verbendstellung",
+          "logische Zeitformen und klare Reihenfolge"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie zeitliche Beziehung, Zeitform und Verbposition.",
+      "explanation_ar": "راجع العلاقة الزمنية والزمن وموقع الفعل.",
+      "grammarFocus": "mixed_temporal_connectors",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

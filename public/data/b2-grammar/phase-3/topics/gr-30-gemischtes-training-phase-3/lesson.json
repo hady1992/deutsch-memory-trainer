@@ -1,0 +1,453 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-30",
+  "slug": "gr-30-gemischtes-training-phase-3",
+  "order": 30,
+  "title_de": "Gemischtes Training – Phase 3",
+  "title_ar": "التدريب المختلط – المرحلة الثالثة",
+  "level": "B2",
+  "sourceType": "gemischtes_training",
+  "category": "phase_3_review",
+  "estimatedMinutes": 75,
+  "learningObjectives_de": [
+    "Kausale, konzessive, adversative, finale, konsekutive und temporale Beziehungen unterscheiden.",
+    "Infinitivkonstruktionen mit zu, um ... zu, ohne ... zu und anstatt ... zu sicher verwenden.",
+    "Relativpronomen im Nominativ, Akkusativ, Dativ und Genitiv korrekt auswählen.",
+    "Relativsätze mit Präpositionen sowie mit was und wo bilden.",
+    "Verbendstellung, Hauptsatzstellung und Kommasetzung zuverlässig anwenden.",
+    "Grammatische Entscheidungen in beruflichen B2-Situationen begründen.",
+    "Mehrere Strukturen in zusammenhängenden Texten flexibel kombinieren."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بين علاقات السبب والاستدراك والتعارض والغاية والنتيجة والزمن.",
+    "استخدام تراكيب المصدر مع zu وum ... zu وohne ... zu وanstatt ... zu بصورة صحيحة.",
+    "اختيار ضمير الوصل الصحيح في Nominativ وAkkusativ وDativ وGenitiv.",
+    "تكوين جمل موصولة مع حروف الجر ومع was وwo.",
+    "تطبيق موقع الفعل في الجملة الفرعية والرئيسية وقواعد الفاصلة.",
+    "تعليل الاختيار النحوي في مواقف مهنية على مستوى B2.",
+    "دمج عدة تراكيب بمرونة داخل نصوص مترابطة."
+  ],
+  "shortDescription_de": "Diese Einheit wiederholt und verbindet die Inhalte aus gr-21 bis gr-29. Der Schwerpunkt liegt auf der Wahl der passenden Struktur und ihrer korrekten Verwendung in beruflichen Kontexten.",
+  "shortDescription_ar": "تراجع هذه الوحدة محتوى gr-21 حتى gr-29 وتربط بينه. ويركز التدريب على اختيار التركيب المناسب واستخدامه بصورة صحيحة في السياقات المهنية.",
+  "explanation_de": "Im gemischten Training muss zuerst die logische Beziehung erkannt werden. Ein Grund wird zum Beispiel mit weil, da oder denn ausgedrückt; eine Folge mit deshalb oder sodass; ein Gegengrund mit obwohl oder trotzdem; ein Ziel mit damit oder um ... zu. Temporale Konnektoren ordnen Ereignisse nach Zeitpunkt, Dauer oder Reihenfolge. Bei Infinitivkonstruktionen ist besonders zu prüfen, ob Hauptsatz und Infinitivgruppe denselben Handelnden haben. Bei Relativsätzen übernimmt das Relativpronomen Genus und Numerus vom Bezugswort, während der Kasus durch seine Funktion, ein Verb oder eine Präposition im Relativsatz bestimmt wird. Dessen und deren drücken Zugehörigkeit aus; was kann sich auf unbestimmte Pronomen, Superlative oder einen ganzen Satz beziehen. Eine sichere Lösung entsteht daher in drei Schritten: Bedeutung bestimmen, Satzstruktur wählen und anschließend Verbposition, Kasus und Kommas prüfen.",
+  "explanation_ar": "في التدريب المختلط يجب أولًا تحديد العلاقة المنطقية. فالسبب يُعبّر عنه مثلًا بـ weil أو da أو denn، والنتيجة بـ deshalb أو sodass، والسبب المعاكس بـ obwohl أو trotzdem، والغاية بـ damit أو um ... zu. وترتب أدوات الزمن الأحداث بحسب الوقت أو المدة أو التسلسل. وفي تراكيب المصدر يجب التأكد خصوصًا مما إذا كان فاعل الجملة الرئيسية هو نفسه فاعل تركيب المصدر. أما في الجملة الموصولة فيأخذ ضمير الوصل الجنس والعدد من الاسم المرجعي، لكن حالته تتحدد بحسب وظيفته أو الفعل أو حرف الجر داخل الجملة الموصولة. وتعبّر dessen وderen عن الانتماء، بينما قد تعود was على ضمير غير محدد أو صيغة تفضيل أو جملة كاملة. لذلك يكون الحل الآمن عبر ثلاث خطوات: تحديد المعنى، اختيار بنية الجملة، ثم مراجعة موقع الفعل والحالة والفواصل.",
+  "rules": [
+    {
+      "id": "gr30-r01",
+      "title_de": "Schritt 1: Logische Beziehung erkennen",
+      "title_ar": "الخطوة الأولى: تحديد العلاقة المنطقية",
+      "explanation_de": "Fragen Sie nach Grund, Gegensatz, Ziel, Folge, Zeit, fehlender Handlung oder Alternative.",
+      "explanation_ar": "حدّد ما إذا كانت العلاقة سببًا أو تعارضًا أو غاية أو نتيجة أو زمنًا أو فعلًا غائبًا أو بديلًا.",
+      "formula": "Warum? | Trotz welcher Tatsache? | Wozu? | Mit welcher Folge? | Wann?",
+      "examples": [
+        {
+          "de": "Wir verschieben den Termin, weil wichtige Unterlagen fehlen.",
+          "ar": "نؤجل الموعد لأن مستندات مهمة ناقصة."
+        },
+        {
+          "de": "Obwohl Unterlagen fehlen, beginnen wir mit der Vorprüfung.",
+          "ar": "رغم نقص المستندات نبدأ المراجعة الأولية."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r02",
+      "title_de": "Schritt 2: Satztyp wählen",
+      "title_ar": "الخطوة الثانية: اختيار نوع الجملة",
+      "explanation_de": "Unterscheiden Sie Nebensatz, Hauptsatzverbindung und Infinitivgruppe.",
+      "explanation_ar": "ميّز بين الجملة الفرعية وربط الجمل الرئيسية وتركيب المصدر.",
+      "formula": "weil + Verbende | deshalb + Verb | um ... zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir prüfen erneut, weil ein Wert unklar ist.",
+          "ar": "نفحص مجددًا لأن قيمة ما غير واضحة."
+        },
+        {
+          "de": "Ein Wert ist unklar. Deshalb prüfen wir erneut.",
+          "ar": "قيمة ما غير واضحة، لذلك نفحص مجددًا."
+        },
+        {
+          "de": "Wir prüfen erneut, um Fehler auszuschließen.",
+          "ar": "نفحص مجددًا لاستبعاد الأخطاء."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r03",
+      "title_de": "Schritt 3: Form kontrollieren",
+      "title_ar": "الخطوة الثالثة: مراجعة الصيغة",
+      "explanation_de": "Prüfen Sie Verbposition, Kasus, Relativpronomen, Position von zu und Kommas.",
+      "explanation_ar": "راجع موقع الفعل والحالة وضمير الوصل وموقع zu والفواصل.",
+      "formula": "Bedeutung → Struktur → Formkontrolle",
+      "examples": [
+        {
+          "de": "Der Kollege, mit dem ich gesprochen habe, ist zuständig.",
+          "ar": "الزميل الذي تحدثت معه هو المسؤول."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r04",
+      "title_de": "Grund und Folge",
+      "title_ar": "السبب والنتيجة",
+      "explanation_de": "Weil, da und denn nennen einen Grund; deshalb, daher und sodass nennen eine Folge.",
+      "explanation_ar": "تذكر weil وda وdenn السبب، بينما تذكر deshalb وdaher وsodass النتيجة.",
+      "formula": "Grund ↔ Folge",
+      "examples": [
+        {
+          "de": "Da die Frist kurz ist, arbeiten wir in zwei Teams.",
+          "ar": "نظرًا لقصر المهلة نعمل ضمن فريقين."
+        },
+        {
+          "de": "Die Frist ist kurz, sodass wir in zwei Teams arbeiten müssen.",
+          "ar": "المهلة قصيرة، ولذلك يجب أن نعمل ضمن فريقين."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r05",
+      "title_de": "Einräumung und Gegensatz",
+      "title_ar": "الاستدراك والتعارض",
+      "explanation_de": "Obwohl und trotzdem drücken eine unerwartete Beziehung aus; aber, jedoch und dagegen stellen Aussagen gegenüber.",
+      "explanation_ar": "تعبّر obwohl وtrotzdem عن علاقة غير متوقعة، بينما تقارن aber وjedoch وdagegen بين العبارات.",
+      "formula": "obwohl + Verbende | trotzdem + Verb | zwar ... aber",
+      "examples": [
+        {
+          "de": "Obwohl die Lösung teuer ist, wird sie empfohlen.",
+          "ar": "رغم أن الحل مكلف تتم التوصية به."
+        },
+        {
+          "de": "Die Lösung ist teuer. Trotzdem wird sie empfohlen.",
+          "ar": "الحل مكلف، ومع ذلك تتم التوصية به."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r06",
+      "title_de": "Ziel und Infinitivbezug",
+      "title_ar": "الغاية ومرجع المصدر",
+      "explanation_de": "Bei gleichem Handelnden steht häufig um ... zu; bei unterschiedlichen Subjekten damit.",
+      "explanation_ar": "مع الفاعل نفسه نستخدم غالبًا um ... zu، وعند اختلاف الفاعل نستخدم damit.",
+      "formula": "gleiches Subjekt → um ... zu | anderes Subjekt → damit",
+      "examples": [
+        {
+          "de": "Wir prüfen die Datei, um Fehler zu finden.",
+          "ar": "نفحص الملف لاكتشاف الأخطاء."
+        },
+        {
+          "de": "Wir erklären den Ablauf, damit neue Mitarbeitende ihn verstehen.",
+          "ar": "نشرح الإجراء لكي يفهمه الموظفون الجدد."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r07",
+      "title_de": "Zeitliche Reihenfolge",
+      "title_ar": "التسلسل الزمني",
+      "explanation_de": "Als, wenn, während, bevor, nachdem, seitdem, bis und sobald unterscheiden Zeitpunkt und Reihenfolge.",
+      "explanation_ar": "تميّز als وwenn وwährend وbevor وnachdem وseitdem وbis وsobald بين الوقت والتسلسل.",
+      "formula": "einmalige Vergangenheit → als | Wiederholung/Zukunft → wenn",
+      "examples": [
+        {
+          "de": "Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht freigegeben.",
+          "ar": "بعد انتهاء المراجعة تم اعتماد التقرير."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r08",
+      "title_de": "Relativpronomen bestimmen",
+      "title_ar": "تحديد ضمير الوصل",
+      "explanation_de": "Genus und Numerus kommen vom Bezugswort; der Kasus entsteht im Relativsatz.",
+      "explanation_ar": "يأتي الجنس والعدد من الاسم المرجعي، بينما تتحدد الحالة داخل الجملة الموصولة.",
+      "formula": "Bezugswort + Funktion/Präposition → Relativpronomen",
+      "examples": [
+        {
+          "de": "Der Kollege, der anruft, ist zuständig.",
+          "ar": "الزميل الذي يتصل هو المسؤول."
+        },
+        {
+          "de": "Der Kollege, den ich anrufe, ist zuständig.",
+          "ar": "الزميل الذي أتصل به هو المسؤول."
+        },
+        {
+          "de": "Der Kollege, mit dem ich spreche, ist zuständig.",
+          "ar": "الزميل الذي أتحدث معه هو المسؤول."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r09",
+      "title_de": "Genitiv, was und wo",
+      "title_ar": "Genitiv وwas وwo",
+      "explanation_de": "Dessen und deren zeigen Zugehörigkeit; was hat besondere Bezugsformen; wo bezeichnet einen Ort.",
+      "explanation_ar": "توضح dessen وderen الانتماء، ولـ was مراجع خاصة، بينما تدل wo على مكان.",
+      "formula": "dessen/deren | alles, was | Ort, wo/in dem",
+      "examples": [
+        {
+          "de": "Die Firma, deren Angebot überzeugt hat, erhält den Auftrag.",
+          "ar": "الشركة التي كان عرضها مقنعًا ستحصل على العقد."
+        },
+        {
+          "de": "Alles, was vereinbart wurde, wird dokumentiert.",
+          "ar": "كل ما تم الاتفاق عليه سيتم توثيقه."
+        }
+      ]
+    },
+    {
+      "id": "gr30-r10",
+      "title_de": "Beruflicher Stil",
+      "title_ar": "الأسلوب المهني",
+      "explanation_de": "Formelle Texte bevorzugen klare Bezüge, vollständige Satzstrukturen und präzise Präpositionalformen.",
+      "explanation_ar": "تفضّل النصوص الرسمية المراجع الواضحة وبنى الجمل المكتملة وصيغ حروف الجر الدقيقة.",
+      "formula": "klarer Bezug + präziser Konnektor + korrekte Form",
+      "examples": [
+        {
+          "de": "Der Abschnitt, auf den sich Ihre Frage bezieht, wurde inzwischen aktualisiert.",
+          "ar": "تم تحديث الفقرة التي يتعلق بها سؤالك."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr30-t01",
+      "title_de": "Entscheidungshilfe Konnektoren",
+      "title_ar": "مساعدة لاختيار أداة الربط",
+      "headers_de": [
+        "Bedeutung",
+        "Strukturen"
+      ],
+      "headers_ar": [
+        "المعنى",
+        "التراكيب"
+      ],
+      "rows": [
+        [
+          "Grund",
+          "weil, da, denn"
+        ],
+        [
+          "Folge",
+          "deshalb, daher, sodass, so ... dass"
+        ],
+        [
+          "Einräumung",
+          "obwohl, trotzdem, zwar ... aber"
+        ],
+        [
+          "Gegensatz/Korrektur",
+          "aber, jedoch, dagegen, sondern"
+        ],
+        [
+          "Ziel",
+          "damit, um ... zu, zu diesem Zweck"
+        ],
+        [
+          "Zeit",
+          "als, wenn, während, bevor, nachdem, seitdem, bis, sobald"
+        ]
+      ]
+    },
+    {
+      "id": "gr30-t02",
+      "title_de": "Infinitivkonstruktionen",
+      "title_ar": "تراكيب المصدر",
+      "headers_de": [
+        "Struktur",
+        "Funktion",
+        "Subjektbezug"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الوظيفة",
+        "علاقة الفاعل"
+      ],
+      "rows": [
+        [
+          "Infinitiv mit zu",
+          "Ergänzung nach Verb/Adjektiv/Nomen",
+          "eindeutiger Bezug"
+        ],
+        [
+          "um ... zu",
+          "Ziel",
+          "meist gleiches Subjekt"
+        ],
+        [
+          "ohne ... zu",
+          "fehlende Handlung",
+          "meist gleiches Subjekt"
+        ],
+        [
+          "anstatt ... zu",
+          "Alternative",
+          "meist gleiches Subjekt"
+        ],
+        [
+          "damit / ohne dass / anstatt dass",
+          "vollständiger Nebensatz",
+          "anderes Subjekt möglich"
+        ]
+      ]
+    },
+    {
+      "id": "gr30-t03",
+      "title_de": "Relativpronomen – Überblick",
+      "title_ar": "نظرة عامة على ضمائر الوصل",
+      "headers_de": [
+        "Kasus",
+        "maskulin",
+        "feminin",
+        "neutrum",
+        "Plural"
+      ],
+      "headers_ar": [
+        "الحالة",
+        "المذكر",
+        "المؤنث",
+        "المحايد",
+        "الجمع"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "der",
+          "die",
+          "das",
+          "die"
+        ],
+        [
+          "Akkusativ",
+          "den",
+          "die",
+          "das",
+          "die"
+        ],
+        [
+          "Dativ",
+          "dem",
+          "der",
+          "dem",
+          "denen"
+        ],
+        [
+          "Genitiv",
+          "dessen",
+          "deren",
+          "dessen",
+          "deren"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Da die Unterlagen unvollständig waren, wurde eine Nachforderung verschickt, damit der Antrag vollständig geprüft werden konnte.",
+      "ar": "نظرًا إلى أن المستندات كانت غير مكتملة، تم إرسال طلب استكمال لكي يمكن فحص الطلب بالكامل.",
+      "note_de": "Kausaler und finaler Zusammenhang.",
+      "note_ar": "علاقة سببية وعلاقة غاية."
+    },
+    {
+      "de": "Obwohl die Umstellung aufwendig war, wurde sie fristgerecht abgeschlossen, was von der Geschäftsleitung positiv bewertet wurde.",
+      "ar": "رغم أن التحول كان مرهقًا، تم إنجازه في الموعد، وهو ما قيّمته الإدارة التنفيذية إيجابيًا.",
+      "note_de": "Konzessiver Satz und was als Satzbezug.",
+      "note_ar": "جملة استدراكية وwas للإشارة إلى جملة كاملة."
+    },
+    {
+      "de": "Nachdem die Mitarbeitenden, denen neue Aufgaben übertragen worden waren, geschult worden waren, begann die neue Arbeitsphase.",
+      "ar": "بعد تدريب الموظفين الذين كانت قد أُسندت إليهم مهام جديدة، بدأت مرحلة العمل الجديدة.",
+      "note_de": "Temporalsatz und Relativsatz im Dativ.",
+      "note_ar": "جملة زمنية وجملة موصولة في Dativ."
+    },
+    {
+      "de": "Die Abteilung plant, den Prozess zu vereinfachen, um Anfragen schneller bearbeiten zu können.",
+      "ar": "يخطط القسم لتبسيط الإجراء لكي يتمكن من معالجة الاستفسارات بسرعة أكبر.",
+      "note_de": "Infinitiv mit zu und um ... zu mit Modalverb.",
+      "note_ar": "مصدر مع zu وum ... zu مع فعل ناقص."
+    },
+    {
+      "de": "Die Firma, deren Angebot fachlich überzeugt hat, erhält den Auftrag, obwohl ihr Preis höher war.",
+      "ar": "الشركة التي كان عرضها مقنعًا من الناحية المهنية ستحصل على العقد رغم أن سعرها كان أعلى.",
+      "note_de": "Genitivischer Relativsatz und Einräumung.",
+      "note_ar": "جملة موصولة في Genitiv واستدراك."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Weil die Unterlagen fehlen, deshalb warten wir.",
+      "correct": "Weil die Unterlagen fehlen, warten wir. / Die Unterlagen fehlen, deshalb warten wir.",
+      "explanation_de": "Weil und deshalb werden hier nicht doppelt für dieselbe Verbindung verwendet.",
+      "explanation_ar": "لا نستخدم weil وdeshalb معًا بهذه الصورة للعلاقة نفسها."
+    },
+    {
+      "wrong": "Obwohl die Lösung teuer ist, aber wird sie gewählt.",
+      "correct": "Obwohl die Lösung teuer ist, wird sie gewählt. / Die Lösung ist teuer, aber sie wird gewählt.",
+      "explanation_de": "Obwohl und aber werden nicht als festes Paar verwendet.",
+      "explanation_ar": "لا تُستخدم obwohl وaber بوصفهما زوجًا ثابتًا."
+    },
+    {
+      "wrong": "Ich erkläre es, um die Kundin es versteht.",
+      "correct": "Ich erkläre es, damit die Kundin es versteht.",
+      "explanation_de": "Bei unterschiedlichen Subjekten steht damit.",
+      "explanation_ar": "عند اختلاف الفاعل نستخدم damit."
+    },
+    {
+      "wrong": "Der Kollege, den ich geholfen habe, ist zuständig.",
+      "correct": "Der Kollege, dem ich geholfen habe, ist zuständig.",
+      "explanation_de": "Helfen verlangt Dativ.",
+      "explanation_ar": "يحتاج helfen إلى Dativ."
+    },
+    {
+      "wrong": "Die Firma, dessen Angebot geprüft wird, wartet.",
+      "correct": "Die Firma, deren Angebot geprüft wird, wartet.",
+      "explanation_de": "Das feminine Bezugswort Firma verlangt deren.",
+      "explanation_ar": "الاسم المؤنث Firma يحتاج إلى deren."
+    },
+    {
+      "wrong": "Alles, das besprochen wurde, wird dokumentiert.",
+      "correct": "Alles, was besprochen wurde, wird dokumentiert.",
+      "explanation_de": "Nach alles steht was.",
+      "explanation_ar": "بعد alles نستخدم was."
+    }
+  ],
+  "quickSummary_de": [
+    "Bestimmen Sie zuerst die logische Beziehung.",
+    "Wählen Sie danach Nebensatz, Hauptsatzverbindung oder Infinitivgruppe.",
+    "Prüfen Sie abschließend Verbposition, Kasus und Kommas.",
+    "Grund und Folge dürfen nicht verwechselt werden.",
+    "Obwohl und trotzdem drücken Einräumung aus.",
+    "Um ... zu verlangt meist denselben Handelnden; damit erlaubt ein anderes Subjekt.",
+    "Temporale Konnektoren ordnen Ereignisse.",
+    "Bei Relativsätzen kommen Genus und Numerus vom Bezugswort.",
+    "Der Kasus des Relativpronomens entsteht im Relativsatz.",
+    "Präpositionen stehen vor dem Relativpronomen.",
+    "Dessen und deren drücken Zugehörigkeit aus.",
+    "Was steht unter anderem nach alles und als Bezug auf einen ganzen Satz."
+  ],
+  "quickSummary_ar": [
+    "حدّد العلاقة المنطقية أولًا.",
+    "اختر بعد ذلك الجملة الفرعية أو ربط الجمل الرئيسية أو تركيب المصدر.",
+    "راجع أخيرًا موقع الفعل والحالة والفواصل.",
+    "يجب عدم الخلط بين السبب والنتيجة.",
+    "تعبّر obwohl وtrotzdem عن الاستدراك.",
+    "تحتاج um ... zu غالبًا إلى الفاعل نفسه، بينما تسمح damit بفاعل مختلف.",
+    "ترتب الأدوات الزمنية الأحداث.",
+    "في الجملة الموصولة يأتي الجنس والعدد من الاسم المرجعي.",
+    "تتحدد حالة ضمير الوصل داخل الجملة الموصولة.",
+    "تأتي حروف الجر قبل ضمير الوصل.",
+    "تعبّر dessen وderen عن الانتماء.",
+    "تأتي was مثلًا بعد alles وعند الإشارة إلى جملة كاملة."
+  ],
+  "relatedTopics": [
+    "gr-21",
+    "gr-22",
+    "gr-23",
+    "gr-24",
+    "gr-25",
+    "gr-26",
+    "gr-27",
+    "gr-28",
+    "gr-29"
+  ]
+}

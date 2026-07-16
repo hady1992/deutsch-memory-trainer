@@ -1,0 +1,3263 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 9,
+    "unitTitle_de": "Handel international",
+    "unitTitle_ar": "التجارة الدولية",
+    "sourcePages": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Internationaler Handel und Marktentwicklung",
+      "Interkulturelle Webseiten und Webdesign",
+      "Projektverlauf, Fristen und Beschwerdebriefe",
+      "Unternehmensprofil, Werte und Organisation",
+      "Partizip I und II als Adjektive",
+      "Satzverbindungen mit indem, ohne zu und ohne dass",
+      "Pronomen mit -einander"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter",
+      "reine Lehrbuchanweisungen",
+      "Firmennamen und Eigennamen",
+      "identische Begriffe aus Kapitel 1–8"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u01-v004",
+      "term": "das Angebot",
+      "pages": [
+        157,
+        164,
+        169
+      ],
+      "reason": "ورد في سياق العروض التجارية والأسواق الدولية."
+    },
+    {
+      "courseItemId": "b2u01-v047",
+      "term": "flexibel",
+      "pages": [
+        157,
+        162
+      ],
+      "reason": "قيمة أساسية للشركة وقدرة على التكيف."
+    },
+    {
+      "courseItemId": "b2u05-v052",
+      "term": "nachhaltig",
+      "pages": [
+        157,
+        162,
+        169
+      ],
+      "reason": "الاستدامة في التجارة وإدارة الشركة."
+    },
+    {
+      "courseItemId": "b2u01-v029",
+      "term": "der Mangel",
+      "pages": [
+        160,
+        161,
+        167,
+        168
+      ],
+      "reason": "المصطلح الأساسي في رسائل الشكوى."
+    },
+    {
+      "courseItemId": "b2u04-v080",
+      "term": "der Liefertermin",
+      "pages": [
+        160,
+        167
+      ],
+      "reason": "موعد التسليم في حالات التأخير والشكوى."
+    },
+    {
+      "courseItemId": "b2u03-v012",
+      "term": "der Ansprechpartner / die Ansprechpartnerin",
+      "pages": [
+        160
+      ],
+      "reason": "جهة التواصل المسؤولة عن مشروع الموقع."
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        160,
+        167
+      ],
+      "reason": "صيغة ختام رسائل الشكوى الرسمية."
+    },
+    {
+      "courseItemId": "b2u08-v057",
+      "term": "die Kundenorientierung",
+      "pages": [
+        157,
+        162
+      ],
+      "reason": "قيمة مركزية في التجارة الدولية والخدمة."
+    },
+    {
+      "courseItemId": "b2u02-v055",
+      "term": "die Reklamation",
+      "pages": [
+        160,
+        161,
+        167
+      ],
+      "reason": "الموضوع الأساسي في الجزء الخاص برسائل الشكوى."
+    },
+    {
+      "courseItemId": "b2u08-v061",
+      "term": "die Zuverlässigkeit",
+      "pages": [
+        162
+      ],
+      "reason": "إحدى قيم الشركة في النص التعريفي."
+    },
+    {
+      "courseItemId": "b2u06-v070",
+      "term": "die Weiterbildung",
+      "pages": [
+        169
+      ],
+      "reason": "قسم من أقسام الموارد البشرية في المخطط التنظيمي."
+    },
+    {
+      "courseItemId": "b2u03-v001",
+      "term": "die Teamarbeit",
+      "pages": [
+        169
+      ],
+      "reason": "وردت في تدريب العمل المشترك داخل الشركة."
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "term": "die Zusammenarbeit",
+      "pages": [
+        162,
+        163,
+        169
+      ],
+      "reason": "التنسيق بين الأقسام والموظفين في الشركة."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u09-v001",
+      "identity": "der großhandel",
+      "term": "der Großhandel",
+      "type": "noun",
+      "arabic": "تجارة الجملة",
+      "explanation_de": "Handel, bei dem große Warenmengen an Unternehmen und nicht direkt an Endkunden verkauft werden.",
+      "explanation_ar": "تجارة تُباع فيها كميات كبيرة للشركات وليس مباشرة للمستهلك النهائي.",
+      "examples": [
+        {
+          "de": "Der Großhandel beliefert zahlreiche Einzelhändler.",
+          "ar": "تزوّد تجارة الجملة عددًا كبيرًا من تجار التجزئة."
+        },
+        {
+          "de": "Im Großhandel sind zuverlässige Lieferketten besonders wichtig.",
+          "ar": "تُعد سلاسل التوريد الموثوقة مهمة جدًا في تجارة الجملة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          164
+        ],
+        "section": "Handel früher und heute"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": "nouns:noun_0335",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v002",
+      "identity": "der umweltstandard",
+      "term": "der Umweltstandard",
+      "type": "noun",
+      "arabic": "المعيار البيئي",
+      "explanation_de": "Eine verbindliche oder freiwillige Vorgabe zum Schutz der Umwelt.",
+      "explanation_ar": "قاعدة إلزامية أو طوعية تهدف إلى حماية البيئة.",
+      "examples": [
+        {
+          "de": "Das Unternehmen erfüllt hohe Umweltstandards.",
+          "ar": "تلتزم الشركة بمعايير بيئية مرتفعة."
+        },
+        {
+          "de": "Internationale Kunden achten zunehmend auf Umweltstandards.",
+          "ar": "يهتم العملاء الدوليون بشكل متزايد بالمعايير البيئية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Umweltstandards"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          164
+        ],
+        "section": "Internationaler Handel"
+      },
+      "tags": [
+        "nachhaltigkeit"
+      ],
+      "globalRef": "nouns:noun_0342",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v003",
+      "identity": "die flexibilität",
+      "term": "die Flexibilität",
+      "type": "noun",
+      "arabic": "المرونة",
+      "explanation_de": "Die Fähigkeit, sich schnell an neue Bedingungen oder Wünsche anzupassen.",
+      "explanation_ar": "القدرة على التكيف بسرعة مع الظروف أو المتطلبات الجديدة.",
+      "examples": [
+        {
+          "de": "Flexibilität ist im internationalen Geschäft entscheidend.",
+          "ar": "المرونة أمر حاسم في الأعمال الدولية."
+        },
+        {
+          "de": "Die Website muss bei Sprachen und Layout Flexibilität bieten.",
+          "ar": "يجب أن يوفّر الموقع مرونة في اللغات والتصميم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          158,
+          164
+        ],
+        "section": "Handel und Webauftritt"
+      },
+      "tags": [
+        "kompetenz"
+      ],
+      "globalRef": "nouns:noun_0113",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v004",
+      "identity": "die nachfrage",
+      "term": "die Nachfrage",
+      "type": "noun",
+      "arabic": "الطلب",
+      "explanation_de": "Das Interesse von Kundinnen und Kunden an einem Produkt oder einer Dienstleistung.",
+      "explanation_ar": "رغبة العملاء في شراء منتج أو خدمة.",
+      "examples": [
+        {
+          "de": "Die Nachfrage nach nachhaltigen Produkten wächst.",
+          "ar": "يزداد الطلب على المنتجات المستدامة."
+        },
+        {
+          "de": "Das Unternehmen reagiert flexibel auf die Nachfrage.",
+          "ar": "تستجيب الشركة بمرونة للطلب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          164
+        ],
+        "section": "Markt"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": "nouns:noun_0064",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v005",
+      "identity": "der wechselkurs",
+      "term": "der Wechselkurs",
+      "type": "noun",
+      "arabic": "سعر الصرف",
+      "explanation_de": "Das Verhältnis, zu dem zwei Währungen gegeneinander getauscht werden.",
+      "explanation_ar": "النسبة التي تُحوّل بها عملتان إلى بعضهما.",
+      "examples": [
+        {
+          "de": "Ein ungünstiger Wechselkurs verteuert den Export.",
+          "ar": "يرفع سعر الصرف غير الملائم تكلفة التصدير."
+        },
+        {
+          "de": "Der Wechselkurs kann sich täglich ändern.",
+          "ar": "يمكن أن يتغير سعر الصرف يوميًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Wechselkurse"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          164
+        ],
+        "section": "Internationaler Handel"
+      },
+      "tags": [
+        "finanzen"
+      ],
+      "globalRef": "nouns:noun_0344",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v006",
+      "identity": "der internetauftritt",
+      "term": "der Internetauftritt",
+      "type": "noun",
+      "arabic": "الحضور على الإنترنت",
+      "explanation_de": "Die gesamte öffentliche Darstellung eines Unternehmens im Internet.",
+      "explanation_ar": "الصورة العامة الكاملة للشركة على الإنترنت.",
+      "examples": [
+        {
+          "de": "Der Internetauftritt soll professionell und mehrsprachig sein.",
+          "ar": "يجب أن يكون حضور الشركة على الإنترنت احترافيًا ومتعدد اللغات."
+        },
+        {
+          "de": "Ein moderner Internetauftritt stärkt das Vertrauen der Kunden.",
+          "ar": "يعزّز الحضور الحديث على الإنترنت ثقة العملاء."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Internetauftritte"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          158,
+          159,
+          160
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v007",
+      "identity": "die produktqualität",
+      "term": "die Produktqualität",
+      "type": "noun",
+      "arabic": "جودة المنتج",
+      "explanation_de": "Die Gesamtheit der Eigenschaften, die den Wert und die Zuverlässigkeit eines Produkts bestimmen.",
+      "explanation_ar": "مجمل الخصائص التي تحدد قيمة المنتج وموثوقيته.",
+      "examples": [
+        {
+          "de": "Hohe Produktqualität verbessert die Kundenbindung.",
+          "ar": "تحسن جودة المنتج المرتفعة ولاء العملاء."
+        },
+        {
+          "de": "Das Unternehmen kontrolliert die Produktqualität regelmäßig.",
+          "ar": "تفحص الشركة جودة المنتج بانتظام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          164
+        ],
+        "section": "Produkte und Werte"
+      },
+      "tags": [
+        "qualität"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v008",
+      "identity": "expandieren",
+      "term": "expandieren",
+      "type": "verb",
+      "arabic": "يتوسّع",
+      "explanation_de": "Die Geschäftstätigkeit auf neue Märkte, Regionen oder Bereiche ausdehnen.",
+      "explanation_ar": "توسيع النشاط التجاري إلى أسواق أو مناطق أو مجالات جديدة.",
+      "examples": [
+        {
+          "de": "Die Firma expandiert nach Osteuropa.",
+          "ar": "تتوسع الشركة نحو أوروبا الشرقية."
+        },
+        {
+          "de": "Das Unternehmen hat in mehrere Auslandsmärkte expandiert.",
+          "ar": "توسعت الشركة إلى عدة أسواق خارجية."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "expandierte",
+        "perfekt": "hat expandiert",
+        "separable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162
+        ],
+        "section": "Internationalisierung"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v009",
+      "identity": "die servicequalität",
+      "term": "die Servicequalität",
+      "type": "noun",
+      "arabic": "جودة الخدمة",
+      "explanation_de": "Die Qualität, mit der Kundinnen und Kunden beraten, betreut und unterstützt werden.",
+      "explanation_ar": "مستوى جودة استشارة العملاء ورعايتهم ودعمهم.",
+      "examples": [
+        {
+          "de": "Gute Servicequalität schafft langfristiges Vertrauen.",
+          "ar": "تخلق جودة الخدمة الجيدة ثقة طويلة الأمد."
+        },
+        {
+          "de": "Die Servicequalität wird regelmäßig bewertet.",
+          "ar": "تُقيَّم جودة الخدمة بانتظام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          164
+        ],
+        "section": "Kundenservice"
+      },
+      "tags": [
+        "qualität"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v010",
+      "identity": "die marktlücke",
+      "term": "die Marktlücke",
+      "type": "noun",
+      "arabic": "فجوة في السوق",
+      "explanation_de": "Ein Bedarf am Markt, der von bestehenden Angeboten noch nicht ausreichend gedeckt wird.",
+      "explanation_ar": "حاجة في السوق لا تغطيها العروض الموجودة بشكل كافٍ.",
+      "examples": [
+        {
+          "de": "Das Start-up hat eine interessante Marktlücke entdeckt.",
+          "ar": "اكتشفت الشركة الناشئة فجوة مثيرة في السوق."
+        },
+        {
+          "de": "Eine Marktlücke allein garantiert noch keinen Erfolg.",
+          "ar": "وجود فجوة في السوق لا يضمن النجاح وحده."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Marktlücken"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          164
+        ],
+        "section": "Markt"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": "nouns:noun_0337",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v011",
+      "identity": "der firmenstandort",
+      "term": "der Firmenstandort",
+      "type": "noun",
+      "arabic": "موقع الشركة",
+      "explanation_de": "Der Ort, an dem ein Unternehmen seinen Betrieb oder eine Niederlassung hat.",
+      "explanation_ar": "المكان الذي توجد فيه الشركة أو أحد فروعها.",
+      "examples": [
+        {
+          "de": "Der Firmenstandort liegt nahe am Flughafen.",
+          "ar": "يقع موقع الشركة قرب المطار."
+        },
+        {
+          "de": "Ein guter Firmenstandort erleichtert die Logistik.",
+          "ar": "يسهّل الموقع الجيد للشركة الخدمات اللوجستية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Firmenstandorte"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          164
+        ],
+        "section": "Unternehmen"
+      },
+      "tags": [
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v012",
+      "identity": "die nachhaltigkeit",
+      "term": "die Nachhaltigkeit",
+      "type": "noun",
+      "arabic": "الاستدامة",
+      "explanation_de": "Ein Handlungsprinzip, das wirtschaftliche, soziale und ökologische Folgen langfristig berücksichtigt.",
+      "explanation_ar": "مبدأ يراعي الآثار الاقتصادية والاجتماعية والبيئية على المدى الطويل.",
+      "examples": [
+        {
+          "de": "Nachhaltigkeit gehört zur Unternehmensstrategie.",
+          "ar": "تُعد الاستدامة جزءًا من استراتيجية الشركة."
+        },
+        {
+          "de": "Die Firma investiert in Nachhaltigkeit und niedrigen Energieverbrauch.",
+          "ar": "تستثمر الشركة في الاستدامة وخفض استهلاك الطاقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          169
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "nachhaltigkeit"
+      ],
+      "globalRef": "nouns:noun_0339",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v013",
+      "identity": "exportieren",
+      "term": "exportieren",
+      "type": "verb",
+      "arabic": "يصدّر",
+      "explanation_de": "Waren oder Dienstleistungen in ein anderes Land verkaufen.",
+      "explanation_ar": "بيع السلع أو الخدمات إلى بلد آخر.",
+      "examples": [
+        {
+          "de": "K&L exportiert Bauteile in mehr als fünfzig Länder.",
+          "ar": "تصدّر الشركة قطعًا إلى أكثر من خمسين دولة."
+        },
+        {
+          "de": "Im letzten Jahr hat die Firma deutlich mehr exportiert.",
+          "ar": "صدّرت الشركة كمية أكبر بكثير في العام الماضي."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "exportierte",
+        "perfekt": "hat exportiert",
+        "separable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          162,
+          164
+        ],
+        "section": "Internationaler Handel"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v014",
+      "identity": "der umsatz",
+      "term": "der Umsatz",
+      "type": "noun",
+      "arabic": "حجم المبيعات / الإيرادات",
+      "explanation_de": "Der Gesamtwert der in einem Zeitraum verkauften Waren und Dienstleistungen.",
+      "explanation_ar": "القيمة الإجمالية للسلع والخدمات المباعة خلال مدة محددة.",
+      "examples": [
+        {
+          "de": "Der Umsatz ist im letzten Jahr um vier Prozent gestiegen.",
+          "ar": "ارتفعت الإيرادات أربعة بالمئة في العام الماضي."
+        },
+        {
+          "de": "Das Auslandsgeschäft trägt erheblich zum Umsatz bei.",
+          "ar": "يساهم النشاط الخارجي بشكل كبير في الإيرادات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Umsätze"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          163,
+          169
+        ],
+        "section": "Kennzahlen"
+      },
+      "tags": [
+        "finanzen"
+      ],
+      "globalRef": "nouns:noun_0341",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v015",
+      "identity": "die zielgruppe",
+      "term": "die Zielgruppe",
+      "type": "noun",
+      "arabic": "الفئة المستهدفة",
+      "explanation_de": "Die Gruppe von Menschen oder Unternehmen, an die sich ein Angebot richtet.",
+      "explanation_ar": "مجموعة الأشخاص أو الشركات التي يستهدفها عرض معين.",
+      "examples": [
+        {
+          "de": "Die Website muss zur Zielgruppe passen.",
+          "ar": "يجب أن يناسب الموقع الفئة المستهدفة."
+        },
+        {
+          "de": "Vor der Kampagne wurde die Zielgruppe genau analysiert.",
+          "ar": "جرت دراسة الفئة المستهدفة بدقة قبل الحملة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zielgruppen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          157,
+          158,
+          159
+        ],
+        "section": "Marketing"
+      },
+      "tags": [
+        "marketing"
+      ],
+      "globalRef": "nouns:noun_0345",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v016",
+      "identity": "der stationäre handel",
+      "term": "der stationäre Handel",
+      "type": "noun",
+      "arabic": "التجارة التقليدية في المتاجر",
+      "explanation_de": "Handel in festen Ladengeschäften im Gegensatz zum Onlinehandel.",
+      "explanation_ar": "التجارة في متاجر فعلية مقابل التجارة الإلكترونية.",
+      "examples": [
+        {
+          "de": "Der stationäre Handel bleibt für viele Kunden wichtig.",
+          "ar": "تبقى التجارة التقليدية مهمة لكثير من العملاء."
+        },
+        {
+          "de": "Der stationäre Handel setzt stärker auf persönliche Beratung.",
+          "ar": "تعتمد التجارة التقليدية أكثر على الاستشارة الشخصية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v017",
+      "identity": "der digitale wettbewerb",
+      "term": "der digitale Wettbewerb",
+      "type": "noun",
+      "arabic": "المنافسة الرقمية",
+      "explanation_de": "Konkurrenz zwischen Unternehmen auf digitalen Plattformen und im Internet.",
+      "explanation_ar": "التنافس بين الشركات عبر المنصات الرقمية والإنترنت.",
+      "examples": [
+        {
+          "de": "Der digitale Wettbewerb zwingt Händler zu Investitionen.",
+          "ar": "تجبر المنافسة الرقمية التجار على الاستثمار."
+        },
+        {
+          "de": "Kleine Unternehmen müssen sich im digitalen Wettbewerb klar positionieren.",
+          "ar": "يجب على الشركات الصغيرة تحديد موقعها بوضوح في المنافسة الرقمية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "digital"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v018",
+      "identity": "das verbraucherverhalten",
+      "term": "das Verbraucherverhalten",
+      "type": "noun",
+      "arabic": "سلوك المستهلك",
+      "explanation_de": "Die Art, wie Verbraucher Produkte auswählen, kaufen und nutzen.",
+      "explanation_ar": "الطريقة التي يختار بها المستهلكون المنتجات ويشترونها ويستخدمونها.",
+      "examples": [
+        {
+          "de": "Die Studie untersucht das Verbraucherverhalten im Internet.",
+          "ar": "تدرس الدراسة سلوك المستهلك على الإنترنت."
+        },
+        {
+          "de": "Das Verbraucherverhalten hat sich deutlich verändert.",
+          "ar": "تغير سلوك المستهلك بشكل واضح."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Marktforschung"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v019",
+      "identity": "die repräsentative umfrage",
+      "term": "die repräsentative Umfrage",
+      "type": "noun",
+      "arabic": "استطلاع تمثيلي",
+      "explanation_de": "Eine Befragung, deren Ergebnisse eine größere Bevölkerungsgruppe zuverlässig abbilden sollen.",
+      "explanation_ar": "استطلاع يُفترض أن تمثل نتائجه مجموعة سكانية أكبر بشكل موثوق.",
+      "examples": [
+        {
+          "de": "Eine repräsentative Umfrage bestätigt den Trend.",
+          "ar": "يؤكد استطلاع تمثيلي هذا الاتجاه."
+        },
+        {
+          "de": "Die Ergebnisse stammen aus einer repräsentativen Umfrage.",
+          "ar": "تأتي النتائج من استطلاع تمثيلي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die repräsentativen Umfragen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Marktforschung"
+      },
+      "tags": [
+        "studie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v020",
+      "identity": "das einkaufserlebnis",
+      "term": "das Einkaufserlebnis",
+      "type": "noun",
+      "arabic": "تجربة التسوق",
+      "explanation_de": "Die Gesamterfahrung beim Einkaufen, einschließlich Atmosphäre, Beratung und Komfort.",
+      "explanation_ar": "التجربة الكاملة أثناء التسوق بما فيها الجو والاستشارة والراحة.",
+      "examples": [
+        {
+          "de": "Viele Geschäfte verbessern gezielt das Einkaufserlebnis.",
+          "ar": "تحسن متاجر كثيرة تجربة التسوق بشكل مقصود."
+        },
+        {
+          "de": "Ein gutes Einkaufserlebnis kann Kunden langfristig binden.",
+          "ar": "يمكن لتجربة التسوق الجيدة أن تربط العملاء طويلًا."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Einkaufserlebnisse"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Stationärer Handel"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v021",
+      "identity": "in den onlinehandel einsteigen",
+      "term": "in den Onlinehandel einsteigen",
+      "type": "phrase",
+      "arabic": "يدخل مجال التجارة الإلكترونية",
+      "explanation_de": "Beginnen, Produkte oder Dienstleistungen systematisch über das Internet zu verkaufen.",
+      "explanation_ar": "البدء ببيع المنتجات أو الخدمات عبر الإنترنت بشكل منظم.",
+      "examples": [
+        {
+          "de": "Viele kleine Läden steigen in den Onlinehandel ein.",
+          "ar": "تدخل متاجر صغيرة كثيرة مجال التجارة الإلكترونية."
+        },
+        {
+          "de": "Die Firma ist während der Pandemie in den Onlinehandel eingestiegen.",
+          "ar": "دخلت الشركة مجال التجارة الإلكترونية خلال الجائحة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "stieg ein",
+          "perfekt": "ist eingestiegen"
+        },
+        "separable": true
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v022",
+      "identity": "mit einem rückgang rechnen",
+      "term": "mit einem Rückgang rechnen",
+      "type": "phrase",
+      "arabic": "يتوقع تراجعًا",
+      "explanation_de": "Erwarten, dass eine Zahl, Nachfrage oder Entwicklung sinken wird.",
+      "explanation_ar": "توقع انخفاض رقم أو طلب أو تطور ما.",
+      "examples": [
+        {
+          "de": "Experten rechnen mit einem Rückgang der Ladengeschäfte.",
+          "ar": "يتوقع الخبراء تراجع عدد المتاجر."
+        },
+        {
+          "de": "Das Unternehmen hat mit einem vorübergehenden Rückgang gerechnet.",
+          "ar": "توقعت الشركة تراجعًا مؤقتًا."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "rechnete",
+          "perfekt": "hat gerechnet"
+        },
+        "preposition": "mit + Dativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165
+        ],
+        "section": "Marktentwicklung"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v023",
+      "identity": "der onlinehandel",
+      "term": "der Onlinehandel",
+      "type": "noun",
+      "arabic": "التجارة الإلكترونية",
+      "explanation_de": "Der Kauf und Verkauf von Waren oder Dienstleistungen über das Internet.",
+      "explanation_ar": "شراء وبيع السلع أو الخدمات عبر الإنترنت.",
+      "examples": [
+        {
+          "de": "Der Onlinehandel wächst in vielen Branchen.",
+          "ar": "تنمو التجارة الإلكترونية في قطاعات كثيرة."
+        },
+        {
+          "de": "Nicht jedes Produkt eignet sich gleich gut für den Onlinehandel.",
+          "ar": "لا يناسب كل منتج التجارة الإلكترونية بالقدر نفسه."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          165,
+          166
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "digital"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v024",
+      "identity": "die gewinnorientierung",
+      "term": "die Gewinnorientierung",
+      "type": "noun",
+      "arabic": "التوجّه نحو الربح",
+      "explanation_de": "Die Ausrichtung wirtschaftlicher Entscheidungen auf die Erzielung von Gewinn.",
+      "explanation_ar": "توجيه القرارات الاقتصادية نحو تحقيق الربح.",
+      "examples": [
+        {
+          "de": "Gewinnorientierung darf soziale Verantwortung nicht ausschließen.",
+          "ar": "يجب ألا يستبعد التوجه نحو الربح المسؤولية الاجتماعية."
+        },
+        {
+          "de": "Die Firma verbindet Gewinnorientierung mit nachhaltigem Handeln.",
+          "ar": "تربط الشركة التوجه نحو الربح بالعمل المستدام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          169
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v025",
+      "identity": "die soziale verantwortung",
+      "term": "die soziale Verantwortung",
+      "type": "noun",
+      "arabic": "المسؤولية الاجتماعية",
+      "explanation_de": "Die Verpflichtung eines Unternehmens gegenüber Mitarbeitenden und Gesellschaft.",
+      "explanation_ar": "التزام الشركة تجاه الموظفين والمجتمع.",
+      "examples": [
+        {
+          "de": "Soziale Verantwortung gehört zu den Grundwerten des Betriebs.",
+          "ar": "تنتمي المسؤولية الاجتماعية إلى القيم الأساسية للشركة."
+        },
+        {
+          "de": "Das Projekt verbindet wirtschaftlichen Erfolg mit sozialer Verantwortung.",
+          "ar": "يربط المشروع النجاح الاقتصادي بالمسؤولية الاجتماعية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          169
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v026",
+      "identity": "der spagat zwischen ... und ...",
+      "term": "der Spagat zwischen ... und ...",
+      "type": "phrase",
+      "arabic": "الموازنة الصعبة بين ... و...",
+      "explanation_de": "Die schwierige Aufgabe, zwei unterschiedliche Ziele gleichzeitig zu erfüllen.",
+      "explanation_ar": "مهمة صعبة لتحقيق هدفين مختلفين في الوقت نفسه.",
+      "examples": [
+        {
+          "de": "Dem Unternehmen gelingt der Spagat zwischen Wachstum und Nachhaltigkeit.",
+          "ar": "تنجح الشركة في الموازنة بين النمو والاستدامة."
+        },
+        {
+          "de": "Der Spagat zwischen niedrigen Kosten und hoher Qualität ist anspruchsvoll.",
+          "ar": "الموازنة بين التكاليف المنخفضة والجودة العالية أمر صعب."
+        }
+      ],
+      "grammar": {
+        "fixedPattern": "der Spagat zwischen + Dativ und + Dativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Unternehmensprofil"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v027",
+      "identity": "interkulturell",
+      "term": "interkulturell",
+      "type": "adjective",
+      "arabic": "متعدد الثقافات / عابر للثقافات",
+      "explanation_de": "Auf das Zusammenspiel verschiedener Kulturen bezogen.",
+      "explanation_ar": "مرتبط بالتفاعل بين ثقافات مختلفة.",
+      "examples": [
+        {
+          "de": "Interkulturelle Kompetenz ist im Exportgeschäft wichtig.",
+          "ar": "الكفاءة العابرة للثقافات مهمة في أعمال التصدير."
+        },
+        {
+          "de": "Die Agentur plant einen interkulturellen Webauftritt.",
+          "ar": "تخطط الوكالة لحضور إلكتروني متعدد الثقافات."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159,
+          166
+        ],
+        "section": "Handel im Netz"
+      },
+      "tags": [
+        "kultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v028",
+      "identity": "die leserichtung",
+      "term": "die Leserichtung",
+      "type": "noun",
+      "arabic": "اتجاه القراءة",
+      "explanation_de": "Die Richtung, in der Schriftzeichen und Texte gelesen werden.",
+      "explanation_ar": "الاتجاه الذي تُقرأ فيه الكتابة والنصوص.",
+      "examples": [
+        {
+          "de": "Die Leserichtung unterscheidet sich je nach Sprache.",
+          "ar": "يختلف اتجاه القراءة بحسب اللغة."
+        },
+        {
+          "de": "Das Layout muss die jeweilige Leserichtung berücksichtigen.",
+          "ar": "يجب أن يراعي التصميم اتجاه القراءة المعتمد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Leserichtungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v029",
+      "identity": "die mehrsprachigkeit",
+      "term": "die Mehrsprachigkeit",
+      "type": "noun",
+      "arabic": "تعدد اللغات",
+      "explanation_de": "Die Verwendung oder Beherrschung mehrerer Sprachen.",
+      "explanation_ar": "استخدام عدة لغات أو إتقانها.",
+      "examples": [
+        {
+          "de": "Mehrsprachigkeit erweitert den internationalen Kundenkreis.",
+          "ar": "يوسّع تعدد اللغات دائرة العملاء الدوليين."
+        },
+        {
+          "de": "Die Mehrsprachigkeit der Website wurde technisch verbessert.",
+          "ar": "حُسِّن تعدد اللغات في الموقع تقنيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "sprache"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v030",
+      "identity": "die mimik und gestik",
+      "term": "die Mimik und Gestik",
+      "type": "phrase",
+      "arabic": "تعابير الوجه والإيماءات",
+      "explanation_de": "Gesichtsausdruck und Körperbewegungen, die Kommunikation begleiten.",
+      "explanation_ar": "تعابير الوجه وحركات الجسد التي ترافق التواصل.",
+      "examples": [
+        {
+          "de": "Mimik und Gestik werden kulturell unterschiedlich verstanden.",
+          "ar": "تُفهم تعابير الوجه والإيماءات بشكل مختلف ثقافيًا."
+        },
+        {
+          "de": "Bei Bildern sollte man die Wirkung von Mimik und Gestik prüfen.",
+          "ar": "ينبغي فحص تأثير تعابير الوجه والإيماءات في الصور."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Interkulturelle Kommunikation"
+      },
+      "tags": [
+        "kultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v031",
+      "identity": "aufeinander abgestimmt sein",
+      "term": "aufeinander abgestimmt sein",
+      "type": "phrase",
+      "arabic": "يكون منسقًا مع بعضه",
+      "explanation_de": "So zusammenpassen, dass mehrere Elemente harmonisch funktionieren.",
+      "explanation_ar": "أن تتناسب عدة عناصر مع بعضها وتعمل بانسجام.",
+      "examples": [
+        {
+          "de": "Farben, Schrift und Bilder müssen aufeinander abgestimmt sein.",
+          "ar": "يجب أن تكون الألوان والخط والصور منسقة مع بعضها."
+        },
+        {
+          "de": "Die Inhalte sind gut auf die Zielgruppen abgestimmt.",
+          "ar": "المحتويات منسقة جيدًا مع الفئات المستهدفة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "war abgestimmt",
+          "perfekt": "ist abgestimmt gewesen"
+        },
+        "preposition": "auf + Akkusativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v032",
+      "identity": "die orientierung",
+      "term": "die Orientierung",
+      "type": "noun",
+      "arabic": "سهولة التوجّه / الإرشاد",
+      "explanation_de": "Die Möglichkeit, sich in einer Umgebung oder auf einer Website schnell zurechtzufinden.",
+      "explanation_ar": "إمكانية فهم المكان أو الموقع والتنقل فيه بسرعة.",
+      "examples": [
+        {
+          "de": "Eine klare Navigation verbessert die Orientierung.",
+          "ar": "تحسن القوائم الواضحة سهولة التوجه."
+        },
+        {
+          "de": "Die Nutzer verlieren auf der Seite nicht die Orientierung.",
+          "ar": "لا يفقد المستخدمون القدرة على التوجه في الصفحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v033",
+      "identity": "die wirkung",
+      "term": "die Wirkung",
+      "type": "noun",
+      "arabic": "التأثير",
+      "explanation_de": "Der Eindruck oder Effekt, den etwas auf Menschen hat.",
+      "explanation_ar": "الانطباع أو الأثر الذي يتركه شيء على الناس.",
+      "examples": [
+        {
+          "de": "Farben haben in verschiedenen Kulturen eine andere Wirkung.",
+          "ar": "للألوان تأثير مختلف في الثقافات المتعددة."
+        },
+        {
+          "de": "Die Wirkung eines Bildes sollte vorher getestet werden.",
+          "ar": "ينبغي اختبار تأثير الصورة مسبقًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Wirkungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Gestaltung"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v034",
+      "identity": "eine wirkung hervorrufen",
+      "term": "eine Wirkung hervorrufen",
+      "type": "phrase",
+      "arabic": "يُحدث تأثيرًا",
+      "explanation_de": "Bei Menschen einen bestimmten Eindruck oder eine Reaktion auslösen.",
+      "explanation_ar": "إحداث انطباع أو رد فعل محدد لدى الناس.",
+      "examples": [
+        {
+          "de": "Rot kann eine starke emotionale Wirkung hervorrufen.",
+          "ar": "يمكن للأحمر أن يُحدث تأثيرًا عاطفيًا قويًا."
+        },
+        {
+          "de": "Das neue Layout hat eine positive Wirkung hervorgerufen.",
+          "ar": "أحدث التصميم الجديد تأثيرًا إيجابيًا."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "rief hervor",
+          "perfekt": "hat hervorgerufen"
+        },
+        "separable": true
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Gestaltung"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v035",
+      "identity": "die aufmerksamkeit erregen",
+      "term": "die Aufmerksamkeit erregen",
+      "type": "phrase",
+      "arabic": "يلفت الانتباه",
+      "explanation_de": "Dafür sorgen, dass Menschen etwas bewusst wahrnehmen.",
+      "explanation_ar": "جعل الناس ينتبهون إلى شيء ما بوضوح.",
+      "examples": [
+        {
+          "de": "Die Startseite soll sofort Aufmerksamkeit erregen.",
+          "ar": "يجب أن تلفت الصفحة الرئيسية الانتباه فورًا."
+        },
+        {
+          "de": "Die Kampagne hat international viel Aufmerksamkeit erregt.",
+          "ar": "لفتت الحملة اهتمامًا كبيرًا دوليًا."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "erregte",
+          "perfekt": "hat erregt"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158
+        ],
+        "section": "Marketing"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v036",
+      "identity": "auf eine zielgruppe zuschneiden",
+      "term": "auf eine Zielgruppe zuschneiden",
+      "type": "phrase",
+      "arabic": "يصمّم بما يناسب فئة مستهدفة",
+      "explanation_de": "Inhalt, Sprache oder Gestaltung genau an eine bestimmte Zielgruppe anpassen.",
+      "explanation_ar": "تكييف المحتوى أو اللغة أو التصميم بدقة مع فئة مستهدفة.",
+      "examples": [
+        {
+          "de": "Die Inhalte werden auf junge Kundinnen und Kunden zugeschnitten.",
+          "ar": "تُصمم المحتويات بما يناسب العملاء الشباب."
+        },
+        {
+          "de": "Die Agentur hat die Website auf internationale Partner zugeschnitten.",
+          "ar": "صممت الوكالة الموقع بما يناسب الشركاء الدوليين."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "schnitt zu",
+          "perfekt": "hat zugeschnitten"
+        },
+        "separable": true,
+        "preposition": "auf + Akkusativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v037",
+      "identity": "sich zurechtfinden",
+      "term": "sich zurechtfinden",
+      "type": "verb",
+      "arabic": "يهتدي بسهولة / يعرف طريقه",
+      "explanation_de": "Sich in einer neuen Umgebung oder Struktur orientieren können.",
+      "explanation_ar": "القدرة على فهم بيئة أو بنية جديدة والتنقل فيها.",
+      "examples": [
+        {
+          "de": "Die Nutzer sollen sich schnell auf der Website zurechtfinden.",
+          "ar": "ينبغي أن يهتدي المستخدمون بسرعة داخل الموقع."
+        },
+        {
+          "de": "Ich habe mich in der neuen Navigation sofort zurechtgefunden.",
+          "ar": "تمكنت من فهم القوائم الجديدة فورًا."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "fand sich zurecht",
+        "perfekt": "hat sich zurechtgefunden",
+        "separable": true,
+        "reflexive": true
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          159,
+          170
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v038",
+      "identity": "die website freischalten",
+      "term": "die Website freischalten",
+      "type": "phrase",
+      "arabic": "يفعّل الموقع وينشره",
+      "explanation_de": "Eine Website technisch öffentlich zugänglich machen.",
+      "explanation_ar": "جعل الموقع متاحًا للجمهور تقنيًا.",
+      "examples": [
+        {
+          "de": "Die Agentur soll die Website spätestens am Montag freischalten.",
+          "ar": "ينبغي أن تفعّل الوكالة الموقع في موعد أقصاه الاثنين."
+        },
+        {
+          "de": "Nach dem Test wurde die Website freigeschaltet.",
+          "ar": "فُعّل الموقع بعد الاختبار."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "schaltete frei",
+          "perfekt": "hat freigeschaltet"
+        },
+        "separable": true
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          160
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v039",
+      "identity": "vertikal",
+      "term": "vertikal",
+      "type": "adjective",
+      "arabic": "عمودي",
+      "explanation_de": "In einer Richtung von oben nach unten verlaufend.",
+      "explanation_ar": "يسير في اتجاه من الأعلى إلى الأسفل.",
+      "examples": [
+        {
+          "de": "Die Navigation ist vertikal angeordnet.",
+          "ar": "القائمة مرتبة عموديًا."
+        },
+        {
+          "de": "Auf kleinen Bildschirmen erscheint das Menü vertikal.",
+          "ar": "تظهر القائمة عموديًا على الشاشات الصغيرة."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Layout"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v040",
+      "identity": "horizontal",
+      "term": "horizontal",
+      "type": "adjective",
+      "arabic": "أفقي",
+      "explanation_de": "In einer Richtung von links nach rechts verlaufend.",
+      "explanation_ar": "يسير في اتجاه من اليسار إلى اليمين.",
+      "examples": [
+        {
+          "de": "Die Hauptnavigation verläuft horizontal.",
+          "ar": "تمتد قائمة التنقل الأساسية أفقيًا."
+        },
+        {
+          "de": "Die Bilder sind horizontal nebeneinander angeordnet.",
+          "ar": "الصور مرتبة أفقيًا بجانب بعضها."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Layout"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v041",
+      "identity": "anpassungsfähig",
+      "term": "anpassungsfähig",
+      "type": "adjective",
+      "arabic": "قابل للتكيف",
+      "explanation_de": "In der Lage, sich an unterschiedliche Bedingungen anzupassen.",
+      "explanation_ar": "قادر على التكيف مع ظروف مختلفة.",
+      "examples": [
+        {
+          "de": "Ein anpassungsfähiges Layout funktioniert auf vielen Geräten.",
+          "ar": "يعمل التصميم القابل للتكيف على أجهزة كثيرة."
+        },
+        {
+          "de": "Das Unternehmen reagiert anpassungsfähig auf neue Märkte.",
+          "ar": "تستجيب الشركة بمرونة لأسواق جديدة."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "anpassungsfähiger",
+        "superlative": "am anpassungsfähigsten"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0127",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v042",
+      "identity": "visuell",
+      "term": "visuell",
+      "type": "adjective",
+      "arabic": "بصري",
+      "explanation_de": "Auf das Sehen und die bildliche Wahrnehmung bezogen.",
+      "explanation_ar": "مرتبط بالرؤية والإدراك البصري.",
+      "examples": [
+        {
+          "de": "Visuelle Zeichen können kulturell unterschiedlich wirken.",
+          "ar": "قد تؤثر العلامات البصرية بشكل مختلف ثقافيًا."
+        },
+        {
+          "de": "Die Daten werden visuell übersichtlich dargestellt.",
+          "ar": "تُعرض البيانات بصريًا بشكل واضح."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159
+        ],
+        "section": "Gestaltung"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": "adjectives:adj_0123",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v043",
+      "identity": "kulturelle unterschiede berücksichtigen",
+      "term": "kulturelle Unterschiede berücksichtigen",
+      "type": "phrase",
+      "arabic": "يراعي الاختلافات الثقافية",
+      "explanation_de": "Bei Planung und Kommunikation Besonderheiten verschiedener Kulturen einbeziehen.",
+      "explanation_ar": "إدخال خصوصيات الثقافات المختلفة في التخطيط والتواصل.",
+      "examples": [
+        {
+          "de": "Internationale Websites müssen kulturelle Unterschiede berücksichtigen.",
+          "ar": "يجب أن تراعي المواقع الدولية الاختلافات الثقافية."
+        },
+        {
+          "de": "Die Agentur hat regionale Gewohnheiten berücksichtigt.",
+          "ar": "راعت الوكالة العادات الإقليمية."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "berücksichtigte",
+          "perfekt": "hat berücksichtigt"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159,
+          166
+        ],
+        "section": "Interkulturelle Kommunikation"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v044",
+      "identity": "die navigation",
+      "term": "die Navigation",
+      "type": "noun",
+      "arabic": "نظام التنقل في الموقع",
+      "explanation_de": "Die Struktur von Menüs und Links, mit der Nutzer Inhalte finden.",
+      "explanation_ar": "بنية القوائم والروابط التي تساعد المستخدم على إيجاد المحتوى.",
+      "examples": [
+        {
+          "de": "Die Navigation sollte klar und konsistent sein.",
+          "ar": "ينبغي أن يكون نظام التنقل واضحًا ومتسقًا."
+        },
+        {
+          "de": "Wir haben die Navigation vollständig überarbeitet.",
+          "ar": "أعدنا تصميم نظام التنقل بالكامل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Navigationen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          158,
+          159,
+          160
+        ],
+        "section": "Webdesign"
+      },
+      "tags": [
+        "web"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v045",
+      "identity": "die ursprüngliche vereinbarung",
+      "term": "die ursprüngliche Vereinbarung",
+      "type": "noun",
+      "arabic": "الاتفاق الأصلي",
+      "explanation_de": "Die zuerst getroffene und verbindliche Absprache zwischen den Beteiligten.",
+      "explanation_ar": "الاتفاق الأول الملزم بين الأطراف.",
+      "examples": [
+        {
+          "de": "Die ursprüngliche Vereinbarung sah einen früheren Termin vor.",
+          "ar": "كان الاتفاق الأصلي ينص على موعد أبكر."
+        },
+        {
+          "de": "Die Leistung weicht von der ursprünglichen Vereinbarung ab.",
+          "ar": "تختلف الخدمة عن الاتفاق الأصلي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die ursprünglichen Vereinbarungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          167
+        ],
+        "section": "Beschwerdebrief"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v046",
+      "identity": "der projektverlauf",
+      "term": "der Projektverlauf",
+      "type": "noun",
+      "arabic": "سير المشروع",
+      "explanation_de": "Die zeitliche und inhaltliche Entwicklung eines Projekts.",
+      "explanation_ar": "التطور الزمني والمضموني للمشروع.",
+      "examples": [
+        {
+          "de": "Im Brief wird der Projektverlauf sachlich beschrieben.",
+          "ar": "يُوصف سير المشروع بموضوعية في الرسالة."
+        },
+        {
+          "de": "Der Projektverlauf wurde lückenlos dokumentiert.",
+          "ar": "وُثّق سير المشروع دون انقطاع."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Projektverläufe"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Projektmanagement"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v047",
+      "identity": "der entwurf",
+      "term": "der Entwurf",
+      "type": "noun",
+      "arabic": "المسودة / التصميم الأولي",
+      "explanation_de": "Eine vorläufige Fassung, die noch geprüft und verändert werden kann.",
+      "explanation_ar": "نسخة أولية يمكن مراجعتها وتعديلها.",
+      "examples": [
+        {
+          "de": "Der erste Entwurf entsprach nicht allen Anforderungen.",
+          "ar": "لم تلبِّ المسودة الأولى جميع المتطلبات."
+        },
+        {
+          "de": "Wir haben den Entwurf ausführlich kommentiert.",
+          "ar": "علّقنا على المسودة بالتفصيل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Entwürfe"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          161,
+          168
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": "nouns:noun_0097",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v048",
+      "identity": "die überarbeitung",
+      "term": "die Überarbeitung",
+      "type": "noun",
+      "arabic": "إعادة الصياغة / التعديل",
+      "explanation_de": "Die gezielte Verbesserung oder Veränderung einer vorhandenen Fassung.",
+      "explanation_ar": "تحسين أو تعديل نسخة موجودة بشكل مقصود.",
+      "examples": [
+        {
+          "de": "Die Überarbeitung dauerte länger als vereinbart.",
+          "ar": "استغرق التعديل وقتًا أطول من المتفق عليه."
+        },
+        {
+          "de": "Nach der Überarbeitung wurde die Seite erneut getestet.",
+          "ar": "اختُبرت الصفحة من جديد بعد التعديل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Überarbeitungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": "nouns:noun_0361",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v049",
+      "identity": "die erprobungsphase",
+      "term": "die Erprobungsphase",
+      "type": "noun",
+      "arabic": "مرحلة التجربة",
+      "explanation_de": "Ein Zeitraum, in dem ein neues System praktisch getestet wird.",
+      "explanation_ar": "فترة يُختبر فيها نظام جديد عمليًا.",
+      "examples": [
+        {
+          "de": "In der Erprobungsphase traten technische Probleme auf.",
+          "ar": "ظهرت مشكلات تقنية خلال مرحلة التجربة."
+        },
+        {
+          "de": "Die Erprobungsphase wurde um eine Woche verlängert.",
+          "ar": "مُدّدت مرحلة التجربة أسبوعًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Erprobungsphasen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": "nouns:noun_0364",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v050",
+      "identity": "einen mangel beseitigen",
+      "term": "einen Mangel beseitigen",
+      "type": "phrase",
+      "arabic": "يعالج عيبًا",
+      "explanation_de": "Einen Fehler oder eine unzureichende Leistung vollständig beheben.",
+      "explanation_ar": "إصلاح خطأ أو نقص في الخدمة بشكل كامل.",
+      "examples": [
+        {
+          "de": "Die Agentur muss alle bestehenden Mängel beseitigen.",
+          "ar": "يجب على الوكالة معالجة جميع العيوب القائمة."
+        },
+        {
+          "de": "Der Mangel wurde trotz mehrerer Hinweise nicht beseitigt.",
+          "ar": "لم يُعالج العيب رغم عدة تنبيهات."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "beseitigte",
+          "perfekt": "hat beseitigt"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          161,
+          167,
+          168
+        ],
+        "section": "Reklamation"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v051",
+      "identity": "außer betrieb sein",
+      "term": "außer Betrieb sein",
+      "type": "phrase",
+      "arabic": "يكون خارج الخدمة",
+      "explanation_de": "Wegen eines Fehlers vorübergehend nicht funktionieren oder nicht nutzbar sein.",
+      "explanation_ar": "ألا يعمل مؤقتًا بسبب خلل.",
+      "examples": [
+        {
+          "de": "Die Homepage war mehrere Stunden außer Betrieb.",
+          "ar": "كان الموقع خارج الخدمة عدة ساعات."
+        },
+        {
+          "de": "Die Maschine ist nach dem Ausfall noch außer Betrieb.",
+          "ar": "لا تزال الآلة خارج الخدمة بعد العطل."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "war außer Betrieb",
+          "perfekt": "ist außer Betrieb gewesen"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Technische Probleme"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v052",
+      "identity": "der launch-termin",
+      "term": "der Launch-Termin",
+      "type": "noun",
+      "arabic": "موعد الإطلاق",
+      "explanation_de": "Der verbindlich geplante Zeitpunkt, an dem ein Produkt oder eine Website veröffentlicht wird.",
+      "explanation_ar": "الموعد المحدد لإطلاق منتج أو موقع.",
+      "examples": [
+        {
+          "de": "Der Launch-Termin darf nicht erneut verschoben werden.",
+          "ar": "يجب ألا يُؤجّل موعد الإطلاق مجددًا."
+        },
+        {
+          "de": "Alle Abteilungen bereiten sich auf den Launch-Termin vor.",
+          "ar": "تستعد جميع الأقسام لموعد الإطلاق."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Launch-Termine"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v053",
+      "identity": "online gehen",
+      "term": "online gehen",
+      "type": "phrase",
+      "arabic": "يدخل الخدمة على الإنترنت",
+      "explanation_de": "Im Internet veröffentlicht und öffentlich erreichbar werden.",
+      "explanation_ar": "أن يُنشر ويصبح متاحًا للجمهور على الإنترنت.",
+      "examples": [
+        {
+          "de": "Die neue Homepage soll am Montag online gehen.",
+          "ar": "من المفترض أن يدخل الموقع الجديد الخدمة يوم الاثنين."
+        },
+        {
+          "de": "Das Portal ist gestern erfolgreich online gegangen.",
+          "ar": "دخلت المنصة الخدمة بنجاح أمس."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "ging online",
+          "perfekt": "ist online gegangen"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          161
+        ],
+        "section": "Webprojekt"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": "phrases:phrase_0166",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v054",
+      "identity": "die frist einhalten",
+      "term": "die Frist einhalten",
+      "type": "phrase",
+      "arabic": "يلتزم بالمهلة",
+      "explanation_de": "Eine verbindlich gesetzte Zeitgrenze nicht überschreiten.",
+      "explanation_ar": "عدم تجاوز مدة زمنية محددة وملزمة.",
+      "examples": [
+        {
+          "de": "Der Auftragnehmer muss die Frist einhalten.",
+          "ar": "يجب على المتعهد الالتزام بالمهلة."
+        },
+        {
+          "de": "Die vereinbarte Frist wurde nicht eingehalten.",
+          "ar": "لم يُلتزم بالمهلة المتفق عليها."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "hielt ein",
+          "perfekt": "hat eingehalten"
+        },
+        "separable": true
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          161,
+          167
+        ],
+        "section": "Fristen"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v055",
+      "identity": "vom terminplan abweichen",
+      "term": "vom Terminplan abweichen",
+      "type": "phrase",
+      "arabic": "ينحرف عن الجدول الزمني",
+      "explanation_de": "Einen vereinbarten zeitlichen Ablauf nicht einhalten.",
+      "explanation_ar": "عدم الالتزام بالتسلسل الزمني المتفق عليه.",
+      "examples": [
+        {
+          "de": "Der Dienstleister darf nicht vom Terminplan abweichen.",
+          "ar": "لا يجوز لمقدم الخدمة الانحراف عن الجدول الزمني."
+        },
+        {
+          "de": "Das Projekt ist mehrfach vom Terminplan abgewichen.",
+          "ar": "انحرف المشروع عدة مرات عن الجدول الزمني."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "wich ab",
+          "perfekt": "ist abgewichen"
+        },
+        "separable": true,
+        "preposition": "von + Dativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          161,
+          167
+        ],
+        "section": "Projektmanagement"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v056",
+      "identity": "der lieferverzug",
+      "term": "der Lieferverzug",
+      "type": "noun",
+      "arabic": "تأخر التسليم",
+      "explanation_de": "Die verspätete Erfüllung einer vereinbarten Lieferung.",
+      "explanation_ar": "تنفيذ عملية التسليم بعد الموعد المتفق عليه.",
+      "examples": [
+        {
+          "de": "Wegen des Lieferverzugs entstand ein Produktionsausfall.",
+          "ar": "حدث توقف في الإنتاج بسبب تأخر التسليم."
+        },
+        {
+          "de": "Bei erheblichem Lieferverzug kann der Kunde eine Frist setzen.",
+          "ar": "عند تأخر كبير في التسليم يمكن للعميل تحديد مهلة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Lieferverzüge"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          161,
+          167,
+          170
+        ],
+        "section": "Reklamation"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v057",
+      "identity": "termingerecht",
+      "term": "termingerecht",
+      "type": "adjective",
+      "arabic": "في الموعد المحدد",
+      "explanation_de": "Genau innerhalb des vereinbarten Zeitrahmens.",
+      "explanation_ar": "ضمن الإطار الزمني المتفق عليه بدقة.",
+      "examples": [
+        {
+          "de": "Die Möbel wurden nicht termingerecht aufgebaut.",
+          "ar": "لم يُركب الأثاث في الموعد المحدد."
+        },
+        {
+          "de": "Eine termingerechte Lieferung ist vertraglich zugesichert.",
+          "ar": "التسليم في الموعد مضمون تعاقديًا."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          167
+        ],
+        "section": "Fristen"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v058",
+      "identity": "die zugesagte lieferung",
+      "term": "die zugesagte Lieferung",
+      "type": "noun",
+      "arabic": "التسليم الموعود",
+      "explanation_de": "Eine Lieferung, die verbindlich angekündigt oder versprochen wurde.",
+      "explanation_ar": "عملية تسليم أُعلن عنها أو وُعد بها بشكل ملزم.",
+      "examples": [
+        {
+          "de": "Die zugesagte Lieferung kam mehrere Stunden zu spät.",
+          "ar": "وصل التسليم الموعود متأخرًا عدة ساعات."
+        },
+        {
+          "de": "Die zugesagte Lieferung war unvollständig.",
+          "ar": "كان التسليم الموعود ناقصًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die zugesagten Lieferungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167,
+          168
+        ],
+        "section": "Reklamation"
+      },
+      "tags": [
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v059",
+      "identity": "einen preisnachlass fordern",
+      "term": "einen Preisnachlass fordern",
+      "type": "phrase",
+      "arabic": "يطالب بتخفيض السعر",
+      "explanation_de": "Wegen eines Mangels oder einer verspäteten Leistung eine Reduzierung des Preises verlangen.",
+      "explanation_ar": "طلب خفض السعر بسبب عيب أو تأخر في الخدمة.",
+      "examples": [
+        {
+          "de": "Der Kunde fordert einen Preisnachlass von fünfzehn Prozent.",
+          "ar": "يطالب العميل بتخفيض قدره خمسة عشر بالمئة."
+        },
+        {
+          "de": "Wir haben wegen der Mängel einen Preisnachlass gefordert.",
+          "ar": "طالبنا بتخفيض السعر بسبب العيوب."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "forderte",
+          "perfekt": "hat gefordert"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Beschwerdebrief"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v060",
+      "identity": "eine rechnung begleichen",
+      "term": "eine Rechnung begleichen",
+      "type": "phrase",
+      "arabic": "يسدد فاتورة",
+      "explanation_de": "Den offenen Rechnungsbetrag vollständig bezahlen.",
+      "explanation_ar": "دفع مبلغ الفاتورة المستحق بالكامل.",
+      "examples": [
+        {
+          "de": "Wir begleichen die Rechnung erst nach der Mängelbeseitigung.",
+          "ar": "سنسدد الفاتورة فقط بعد معالجة العيوب."
+        },
+        {
+          "de": "Die Rechnung wurde fristgerecht beglichen.",
+          "ar": "سُددت الفاتورة ضمن المهلة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "beglich",
+          "perfekt": "hat beglichen"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Zahlung"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v061",
+      "identity": "trotz wiederholter mahnungen",
+      "term": "trotz wiederholter Mahnungen",
+      "type": "phrase",
+      "arabic": "رغم الإنذارات المتكررة",
+      "explanation_de": "Obwohl mehrfach schriftlich oder mündlich zur Erfüllung aufgefordert wurde.",
+      "explanation_ar": "على الرغم من المطالبة المتكررة بالتنفيذ كتابيًا أو شفهيًا.",
+      "examples": [
+        {
+          "de": "Trotz wiederholter Mahnungen wurde die Ware nicht geliefert.",
+          "ar": "لم تُسلّم البضاعة رغم الإنذارات المتكررة."
+        },
+        {
+          "de": "Die Rechnung blieb trotz wiederholter Mahnungen offen.",
+          "ar": "بقيت الفاتورة غير مدفوعة رغم الإنذارات المتكررة."
+        }
+      ],
+      "grammar": {
+        "case": "trotz + Genitiv"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Beschwerdebrief"
+      },
+      "tags": [
+        "redemittel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v062",
+      "identity": "angesichts der aufgetretenen probleme",
+      "term": "angesichts der aufgetretenen Probleme",
+      "type": "phrase",
+      "arabic": "نظرًا إلى المشكلات التي ظهرت",
+      "explanation_de": "Unter Berücksichtigung der Probleme, die tatsächlich entstanden sind.",
+      "explanation_ar": "بالنظر إلى المشكلات التي حدثت فعليًا.",
+      "examples": [
+        {
+          "de": "Angesichts der aufgetretenen Probleme erwarten wir eine schnelle Lösung.",
+          "ar": "نظرًا إلى المشكلات التي ظهرت نتوقع حلًا سريعًا."
+        },
+        {
+          "de": "Angesichts der aufgetretenen Probleme wurde das Projekt gestoppt.",
+          "ar": "أُوقف المشروع بالنظر إلى المشكلات التي ظهرت."
+        }
+      ],
+      "grammar": {
+        "case": "angesichts + Genitiv"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Beschwerdebrief"
+      },
+      "tags": [
+        "redemittel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v063",
+      "identity": "vom kaufvertrag zurücktreten",
+      "term": "vom Kaufvertrag zurücktreten",
+      "type": "phrase",
+      "arabic": "ينسحب من عقد الشراء",
+      "explanation_de": "Einen Kaufvertrag unter bestimmten rechtlichen Voraussetzungen beenden.",
+      "explanation_ar": "إنهاء عقد شراء ضمن شروط قانونية محددة.",
+      "examples": [
+        {
+          "de": "Wenn die Frist verstreicht, treten wir vom Kaufvertrag zurück.",
+          "ar": "إذا انتهت المهلة فسننسحب من عقد الشراء."
+        },
+        {
+          "de": "Der Kunde ist wegen erheblicher Mängel vom Vertrag zurückgetreten.",
+          "ar": "انسحب العميل من العقد بسبب عيوب جسيمة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "trat zurück",
+          "perfekt": "ist zurückgetreten"
+        },
+        "separable": true,
+        "preposition": "von + Dativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Beschwerdebrief"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v064",
+      "identity": "eine frist setzen",
+      "term": "eine Frist setzen",
+      "type": "phrase",
+      "arabic": "يحدد مهلة",
+      "explanation_de": "Einen verbindlichen letzten Zeitpunkt für eine Leistung festlegen.",
+      "explanation_ar": "تحديد موعد نهائي ملزم لتنفيذ عمل.",
+      "examples": [
+        {
+          "de": "Wir setzen Ihnen eine Frist bis zum 20. Mai.",
+          "ar": "نحدد لكم مهلة حتى 20 أيار."
+        },
+        {
+          "de": "Der Kunde hat dem Lieferanten eine neue Frist gesetzt.",
+          "ar": "حدد العميل للمورّد مهلة جديدة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "setzte",
+          "perfekt": "hat gesetzt"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          160,
+          167
+        ],
+        "section": "Fristen"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v065",
+      "identity": "die funktionstüchtigkeit",
+      "term": "die Funktionstüchtigkeit",
+      "type": "noun",
+      "arabic": "القدرة على العمل بشكل سليم",
+      "explanation_de": "Der Zustand, in dem ein Gerät oder System vollständig und zuverlässig funktioniert.",
+      "explanation_ar": "حالة يعمل فيها الجهاز أو النظام كاملًا وبموثوقية.",
+      "examples": [
+        {
+          "de": "Die volle Funktionstüchtigkeit konnte nicht bestätigt werden.",
+          "ar": "تعذر تأكيد القدرة الكاملة على العمل."
+        },
+        {
+          "de": "Nach der Reparatur wurde die Funktionstüchtigkeit geprüft.",
+          "ar": "فُحصت القدرة على العمل بعد الإصلاح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Technische Reklamation"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v066",
+      "identity": "die montagearbeiten",
+      "term": "die Montagearbeiten",
+      "type": "noun",
+      "arabic": "أعمال التركيب",
+      "explanation_de": "Arbeiten zum Zusammenbauen und Installieren von Einrichtungen oder Geräten.",
+      "explanation_ar": "أعمال تجميع وتركيب التجهيزات أو الأجهزة.",
+      "examples": [
+        {
+          "de": "Die Montagearbeiten wurden nicht vollständig beendet.",
+          "ar": "لم تُنجز أعمال التركيب بالكامل."
+        },
+        {
+          "de": "Für die Montagearbeiten fehlten die richtigen Werkzeuge.",
+          "ar": "كانت الأدوات المناسبة مفقودة لأعمال التركيب."
+        }
+      ],
+    "grammar": {
+      "article": "die",
+      "pluralOnly": true,
+      "numberType": "plural_only"
+    },
+      "source": {
+        "unit": 9,
+        "pages": [
+          167
+        ],
+        "section": "Lieferung und Aufbau"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v067",
+      "identity": "per einschreiben mit rückschein",
+      "term": "per Einschreiben mit Rückschein",
+      "type": "phrase",
+      "arabic": "بالبريد المسجل مع إشعار استلام",
+      "explanation_de": "Eine Versandart, bei der Zustellung und Empfang schriftlich nachgewiesen werden.",
+      "explanation_ar": "طريقة إرسال يُثبت فيها التسليم والاستلام كتابيًا.",
+      "examples": [
+        {
+          "de": "Die Beschwerde wurde per Einschreiben mit Rückschein verschickt.",
+          "ar": "أُرسلت الشكوى بالبريد المسجل مع إشعار استلام."
+        },
+        {
+          "de": "Wichtige Fristsetzungen sollte man per Einschreiben mit Rückschein senden.",
+          "ar": "ينبغي إرسال تحديدات المهلة المهمة بالبريد المسجل مع إشعار استلام."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 9,
+        "pages": [
+          160
+        ],
+        "section": "Formeller Brief"
+      },
+      "tags": [
+        "redemittel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v068",
+      "identity": "der produktionsstandort",
+      "term": "der Produktionsstandort",
+      "type": "noun",
+      "arabic": "موقع الإنتاج",
+      "explanation_de": "Der Ort, an dem Waren industriell hergestellt werden.",
+      "explanation_ar": "المكان الذي تُصنّع فيه السلع صناعيًا.",
+      "examples": [
+        {
+          "de": "Der Produktionsstandort befindet sich in Bayern.",
+          "ar": "يقع موقع الإنتاج في بافاريا."
+        },
+        {
+          "de": "Am Produktionsstandort arbeiten internationale Teams.",
+          "ar": "تعمل فرق دولية في موقع الإنتاج."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Produktionsstandorte"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          163
+        ],
+        "section": "Unternehmensprofil"
+      },
+      "tags": [
+        "produktion"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v069",
+      "identity": "einsatzbereit",
+      "term": "einsatzbereit",
+      "type": "adjective",
+      "arabic": "جاهز للاستخدام",
+      "explanation_de": "Technisch vollständig vorbereitet und sofort nutzbar.",
+      "explanation_ar": "مجهز تقنيًا وقابل للاستخدام فورًا.",
+      "examples": [
+        {
+          "de": "Die Bauteile werden einsatzbereit ausgeliefert.",
+          "ar": "تُسلّم القطع جاهزة للاستخدام."
+        },
+        {
+          "de": "Nach dem Test war die Anlage wieder einsatzbereit.",
+          "ar": "أصبحت المنشأة جاهزة للاستخدام مجددًا بعد الاختبار."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Produktion und Service"
+      },
+      "tags": [
+        "technik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v070",
+      "identity": "miteinander vernetzt sein",
+      "term": "miteinander vernetzt sein",
+      "type": "phrase",
+      "arabic": "يكون مترابطًا مع بعضه",
+      "explanation_de": "Durch technische oder organisatorische Verbindungen eng zusammenarbeiten.",
+      "explanation_ar": "أن تكون العناصر أو الأشخاص مرتبطين تقنيًا أو تنظيميًا.",
+      "examples": [
+        {
+          "de": "Alle Mitarbeitenden sind digital miteinander vernetzt.",
+          "ar": "جميع الموظفين مترابطون رقميًا."
+        },
+        {
+          "de": "Die Abteilungen sind über ein gemeinsames System miteinander vernetzt.",
+          "ar": "الأقسام مترابطة عبر نظام مشترك."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "war vernetzt",
+          "perfekt": "ist vernetzt gewesen"
+        }
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          163
+        ],
+        "section": "Zusammenarbeit"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v071",
+      "identity": "die umsetzung",
+      "term": "die Umsetzung",
+      "type": "noun",
+      "arabic": "التنفيذ",
+      "explanation_de": "Die praktische Realisierung eines Plans, Konzepts oder Projekts.",
+      "explanation_ar": "تحويل خطة أو مفهوم أو مشروع إلى تطبيق عملي.",
+      "examples": [
+        {
+          "de": "Die nachhaltige Umsetzung des Projekts ist gesichert.",
+          "ar": "التنفيذ المستدام للمشروع مضمون."
+        },
+        {
+          "de": "Für die Umsetzung brauchen wir einen klaren Zeitplan.",
+          "ar": "نحتاج إلى جدول زمني واضح للتنفيذ."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Umsetzungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Projektmanagement"
+      },
+      "tags": [
+        "projekt"
+      ],
+      "globalRef": "nouns:noun_0443",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u09-v072",
+      "identity": "der exportanteil",
+      "term": "der Exportanteil",
+      "type": "noun",
+      "arabic": "حصة التصدير",
+      "explanation_de": "Der prozentuale Anteil des Umsatzes oder der Produktion, der ins Ausland geht.",
+      "explanation_ar": "النسبة من الإيرادات أو الإنتاج التي تذهب إلى الخارج.",
+      "examples": [
+        {
+          "de": "Der Exportanteil liegt bei über fünfzig Prozent.",
+          "ar": "تتجاوز حصة التصدير خمسين بالمئة."
+        },
+        {
+          "de": "Der Exportanteil ist in den letzten Jahren gestiegen.",
+          "ar": "ارتفعت حصة التصدير في السنوات الأخيرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Exportanteile"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          163
+        ],
+        "section": "Internationalisierung"
+      },
+      "tags": [
+        "finanzen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v073",
+      "identity": "der auslandsmarkt",
+      "term": "der Auslandsmarkt",
+      "type": "noun",
+      "arabic": "السوق الخارجية",
+      "explanation_de": "Ein Markt außerhalb des eigenen Landes.",
+      "explanation_ar": "سوق تقع خارج بلد الشركة.",
+      "examples": [
+        {
+          "de": "Die Firma erschließt neue Auslandsmärkte.",
+          "ar": "تفتح الشركة أسواقًا خارجية جديدة."
+        },
+        {
+          "de": "Auf jedem Auslandsmarkt gelten andere Anforderungen.",
+          "ar": "تسري متطلبات مختلفة في كل سوق خارجية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Auslandsmärkte"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Internationalisierung"
+      },
+      "tags": [
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v074",
+      "identity": "zukunftsorientiert",
+      "term": "zukunftsorientiert",
+      "type": "adjective",
+      "arabic": "موجّه نحو المستقبل",
+      "explanation_de": "Auf langfristige Entwicklungen, Innovation und kommende Anforderungen ausgerichtet.",
+      "explanation_ar": "موجّه نحو التطورات والابتكار والمتطلبات المستقبلية.",
+      "examples": [
+        {
+          "de": "Das Unternehmen verfolgt eine zukunftsorientierte Strategie.",
+          "ar": "تتبع الشركة استراتيجية موجهة نحو المستقبل."
+        },
+        {
+          "de": "Zukunftsorientierte Betriebe investieren in Weiterbildung.",
+          "ar": "تستثمر الشركات الموجهة نحو المستقبل في التدريب المستمر."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "zukunftsorientierter",
+        "superlative": "am zukunftsorientiertesten"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Unternehmensstrategie"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v075",
+      "identity": "qualitätsbewusst",
+      "term": "qualitätsbewusst",
+      "type": "adjective",
+      "arabic": "حريص على الجودة",
+      "explanation_de": "Bei Entscheidungen und Arbeit konsequent auf hohe Qualität achtend.",
+      "explanation_ar": "يهتم باستمرار بالجودة العالية في القرارات والعمل.",
+      "examples": [
+        {
+          "de": "Qualitätsbewusste Mitarbeitende prüfen jeden Arbeitsschritt.",
+          "ar": "يفحص الموظفون الحريصون على الجودة كل خطوة عمل."
+        },
+        {
+          "de": "Die Firma tritt als qualitätsbewusster Anbieter auf.",
+          "ar": "تظهر الشركة كمزود حريص على الجودة."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "qualitätsbewusster",
+        "superlative": "am qualitätsbewusstesten"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v076",
+      "identity": "wertschätzend",
+      "term": "wertschätzend",
+      "type": "adjective",
+      "arabic": "مُقدِّر ومحترم",
+      "explanation_de": "Von Respekt, Anerkennung und fairer Behandlung geprägt.",
+      "explanation_ar": "يتسم بالاحترام والتقدير والمعاملة العادلة.",
+      "examples": [
+        {
+          "de": "Die Führungskraft kommuniziert wertschätzend mit dem Team.",
+          "ar": "يتواصل المسؤول بتقدير مع الفريق."
+        },
+        {
+          "de": "Ein wertschätzender Umgang stärkt die Zusammenarbeit.",
+          "ar": "تعزز المعاملة القائمة على التقدير التعاون."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "wertschätzender",
+        "superlative": "am wertschätzendsten"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v077",
+      "identity": "der energieverbrauch",
+      "term": "der Energieverbrauch",
+      "type": "noun",
+      "arabic": "استهلاك الطاقة",
+      "explanation_de": "Die Menge an Energie, die ein Gerät, Prozess oder Betrieb benötigt.",
+      "explanation_ar": "كمية الطاقة التي يحتاجها جهاز أو عملية أو منشأة.",
+      "examples": [
+        {
+          "de": "Der Energieverbrauch soll deutlich sinken.",
+          "ar": "من المفترض أن ينخفض استهلاك الطاقة بوضوح."
+        },
+        {
+          "de": "Neue Maschinen haben einen geringeren Energieverbrauch.",
+          "ar": "للآلات الجديدة استهلاك أقل للطاقة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Nachhaltigkeit"
+      },
+      "tags": [
+        "energie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v078",
+      "identity": "die haltbarkeit",
+      "term": "die Haltbarkeit",
+      "type": "noun",
+      "arabic": "المتانة / مدة الصلاحية",
+      "explanation_de": "Die Dauer, in der ein Produkt funktionsfähig oder nutzbar bleibt.",
+      "explanation_ar": "المدة التي يبقى فيها المنتج صالحًا أو قابلًا للاستخدام.",
+      "examples": [
+        {
+          "de": "Das Unternehmen legt Wert auf eine lange Haltbarkeit.",
+          "ar": "تركز الشركة على متانة طويلة."
+        },
+        {
+          "de": "Die Haltbarkeit der Bauteile wurde verbessert.",
+          "ar": "حُسنت متانة القطع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162
+        ],
+        "section": "Produktqualität"
+      },
+      "tags": [
+        "qualität"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v079",
+      "identity": "wert legen auf",
+      "term": "Wert legen auf",
+      "type": "phrase",
+      "arabic": "يولي أهمية لـ",
+      "explanation_de": "Etwas als besonders wichtig ansehen und bewusst berücksichtigen.",
+      "explanation_ar": "اعتبار أمر ما مهمًا جدًا ومراعاته بشكل مقصود.",
+      "examples": [
+        {
+          "de": "Die Firma legt großen Wert auf Nachhaltigkeit.",
+          "ar": "تولي الشركة أهمية كبيرة للاستدامة."
+        },
+        {
+          "de": "Wir haben stets Wert auf Qualität gelegt.",
+          "ar": "لقد أولينا دائمًا أهمية للجودة."
+        }
+      ],
+      "grammar": {
+        "verbForms": {
+          "praeteritum": "legte Wert",
+          "perfekt": "hat Wert gelegt"
+        },
+        "preposition": "auf + Akkusativ"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          162,
+          169
+        ],
+        "section": "Unternehmenswerte"
+      },
+      "tags": [
+        "phrase"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v080",
+      "identity": "die geschäftsführung",
+      "term": "die Geschäftsführung",
+      "type": "noun",
+      "arabic": "الإدارة التنفيذية",
+      "explanation_de": "Die Personen oder das Organ, die ein Unternehmen leiten und vertreten.",
+      "explanation_ar": "الأشخاص أو الجهة التي تدير الشركة وتمثلها.",
+      "examples": [
+        {
+          "de": "Die Geschäftsführung entscheidet über die Strategie.",
+          "ar": "تقرر الإدارة التنفيذية الاستراتيجية."
+        },
+        {
+          "de": "Der Bericht wurde der Geschäftsführung vorgelegt.",
+          "ar": "عُرض التقرير على الإدارة التنفيذية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Geschäftsführungen"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Organigramm"
+      },
+      "tags": [
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v081",
+      "identity": "die gleichstellung",
+      "term": "die Gleichstellung",
+      "type": "noun",
+      "arabic": "المساواة في الحقوق والفرص",
+      "explanation_de": "Die tatsächliche Gleichbehandlung und Chancengleichheit verschiedener Gruppen.",
+      "explanation_ar": "المعاملة المتساوية وتكافؤ الفرص الفعلي بين المجموعات.",
+      "examples": [
+        {
+          "de": "Die Personalabteilung fördert die Gleichstellung.",
+          "ar": "يدعم قسم الموارد البشرية المساواة."
+        },
+        {
+          "de": "Gleichstellung ist ein zentraler Unternehmenswert.",
+          "ar": "المساواة قيمة أساسية في الشركة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Compliance und Werte"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v082",
+      "identity": "der arbeitsschutz",
+      "term": "der Arbeitsschutz",
+      "type": "noun",
+      "arabic": "السلامة وحماية العاملين",
+      "explanation_de": "Alle Maßnahmen zum Schutz der Gesundheit und Sicherheit am Arbeitsplatz.",
+      "explanation_ar": "جميع الإجراءات لحماية صحة وسلامة العاملين في مكان العمل.",
+      "examples": [
+        {
+          "de": "Der Arbeitsschutz wird regelmäßig kontrolliert.",
+          "ar": "تُراقب السلامة المهنية بانتظام."
+        },
+        {
+          "de": "Neue Mitarbeitende erhalten eine Schulung zum Arbeitsschutz.",
+          "ar": "يحصل الموظفون الجدد على تدريب في السلامة المهنية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Personal"
+      },
+      "tags": [
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v083",
+      "identity": "der datenschutz",
+      "term": "der Datenschutz",
+      "type": "noun",
+      "arabic": "حماية البيانات",
+      "explanation_de": "Der rechtliche und technische Schutz personenbezogener Daten.",
+      "explanation_ar": "الحماية القانونية والتقنية للبيانات الشخصية.",
+      "examples": [
+        {
+          "de": "Der Datenschutz muss auf der Website gewährleistet sein.",
+          "ar": "يجب ضمان حماية البيانات في الموقع."
+        },
+        {
+          "de": "Alle Beschäftigten werden zum Datenschutz geschult.",
+          "ar": "يُدرّب جميع الموظفين على حماية البيانات."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Compliance und Werte"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v084",
+      "identity": "die compliance",
+      "term": "die Compliance",
+      "type": "noun",
+      "arabic": "الامتثال للقواعد والأنظمة",
+      "explanation_de": "Die Einhaltung gesetzlicher Regeln und interner Unternehmensrichtlinien.",
+      "explanation_ar": "الالتزام بالقوانين واللوائح الداخلية للشركة.",
+      "examples": [
+        {
+          "de": "Die Compliance-Abteilung prüft interne Prozesse.",
+          "ar": "يفحص قسم الامتثال العمليات الداخلية."
+        },
+        {
+          "de": "Verstöße gegen die Compliance müssen gemeldet werden.",
+          "ar": "يجب الإبلاغ عن مخالفات الامتثال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Compliance und Werte"
+      },
+      "tags": [
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u09-v085",
+      "identity": "das kreditwesen",
+      "term": "das Kreditwesen",
+      "type": "noun",
+      "arabic": "قطاع الائتمان",
+      "explanation_de": "Der Bereich, der sich mit Krediten, Finanzierung und deren Verwaltung beschäftigt.",
+      "explanation_ar": "المجال الذي يتعامل مع القروض والتمويل وإدارتهما.",
+      "examples": [
+        {
+          "de": "Das Kreditwesen gehört zur wirtschaftlichen Steuerung.",
+          "ar": "ينتمي قطاع الائتمان إلى الإدارة الاقتصادية."
+        },
+        {
+          "de": "Im Kreditwesen gelten strenge Prüfregeln.",
+          "ar": "تسري قواعد تدقيق صارمة في قطاع الائتمان."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 9,
+        "pages": [
+          169
+        ],
+        "section": "Wirtschaftliche Steuerung"
+      },
+      "tags": [
+        "finanzen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

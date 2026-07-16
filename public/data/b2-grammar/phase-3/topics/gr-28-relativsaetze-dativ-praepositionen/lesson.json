@@ -1,0 +1,473 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-28",
+  "slug": "gr-28-relativsaetze-dativ-praepositionen",
+  "order": 28,
+  "title_de": "Relativsätze im Dativ und mit Präpositionen",
+  "title_ar": "الجمل الموصولة في Dativ ومع حروف الجر",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "relativsaetze",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Relativpronomen im Dativ sicher verwenden.",
+    "Die Formen dem, der und denen korrekt zuordnen.",
+    "Dativverben in Relativsätzen erkennen und richtig ergänzen.",
+    "Präpositionen vor Relativpronomen korrekt positionieren.",
+    "Den Kasus nach der Präposition oder dem Verb bestimmen.",
+    "Relativsätze mit festen Verb-Präposition-Verbindungen bilden.",
+    "Komplexe berufliche Informationen präzise mit Relativsätzen verknüpfen."
+  ],
+  "learningObjectives_ar": [
+    "استخدام ضمائر الوصل في Dativ بصورة صحيحة.",
+    "اختيار الصيغ dem وder وdenen بدقة.",
+    "تمييز الأفعال التي تحتاج Dativ داخل الجملة الموصولة.",
+    "وضع حرف الجر قبل ضمير الوصل بصورة صحيحة.",
+    "تحديد الحالة بحسب حرف الجر أو الفعل.",
+    "تكوين جمل موصولة مع روابط الفعل وحرف الجر الثابتة.",
+    "ربط المعلومات المهنية المعقدة بجمل موصولة دقيقة."
+  ],
+  "shortDescription_de": "Im Dativ lauten die Relativpronomen dem, der, dem und denen. Steht eine Präposition im Relativsatz, steht sie direkt vor dem Relativpronomen und bestimmt häufig dessen Kasus.",
+  "shortDescription_ar": "تأتي ضمائر الوصل في Dativ بصيغ dem وder وdem وdenen. وعند وجود حرف جر في الجملة الموصولة يأتي مباشرة قبل ضمير الوصل، وغالبًا يحدد حالته الإعرابية.",
+  "explanation_de": "Das Relativpronomen übernimmt Genus und Numerus vom Bezugswort. Sein Kasus wird jedoch durch seine Funktion im Relativsatz bestimmt. Bei einem Dativobjekt verwendet man dem für maskuline und neutrale Bezugswörter, der für feminine Bezugswörter und denen im Plural: Der Kollege, dem ich geholfen habe, arbeitet heute von zu Hause. Die Kollegin, der wir danken, hat das Projekt abgeschlossen. Die Mitarbeitenden, denen die Leitung vertraut, übernehmen neue Aufgaben. Steht eine Präposition im Relativsatz, kommt sie unmittelbar vor das Relativpronomen: Der Ansprechpartner, mit dem Sie gesprochen haben, ist heute nicht erreichbar. Die Regelung, auf die sich die Frage bezieht, gilt ab Montag. Der Kasus richtet sich nach der Präposition oder der festen Verb-Präposition-Verbindung, zum Beispiel mit + Dativ, für + Akkusativ, bei + Dativ, von + Dativ, sich beziehen auf + Akkusativ und teilnehmen an + Dativ. Das konjugierte Verb steht weiterhin am Ende des Relativsatzes.",
+  "explanation_ar": "يأخذ ضمير الوصل جنس الاسم المرجعي وعدده، لكن حالته تتحدد بحسب وظيفته داخل الجملة الموصولة. مع مفعول Dativ نستخدم dem للمذكر والمحايد، وder للمؤنث، وdenen للجمع. مثل: Der Kollege, dem ich geholfen habe, arbeitet heute von zu Hause. وعند وجود حرف جر يأتي مباشرة قبل ضمير الوصل، مثل: Der Ansprechpartner, mit dem Sie gesprochen haben, ist heute nicht erreichbar. وتتحدد الحالة بحسب حرف الجر أو علاقة الفعل بحرف الجر، مثل mit + Dativ وfür + Akkusativ وbei + Dativ وvon + Dativ وsich beziehen auf + Akkusativ وteilnehmen an + Dativ. ويبقى الفعل المصرف في نهاية الجملة الموصولة.",
+  "rules": [
+    {
+      "id": "gr28-r01",
+      "title_de": "Dativformen",
+      "title_ar": "صيغ Dativ",
+      "explanation_de": "Im Dativ lauten die Relativpronomen dem, der, dem und denen.",
+      "explanation_ar": "تأتي ضمائر الوصل في Dativ بصيغ dem وder وdem وdenen.",
+      "formula": "maskulin dem | feminin der | neutrum dem | Plural denen",
+      "examples": [
+        {
+          "de": "Der Kollege, dem ich geholfen habe, bedankt sich.",
+          "ar": "الزميل الذي ساعدته يشكرني."
+        },
+        {
+          "de": "Die Kollegin, der wir vertrauen, leitet das Projekt.",
+          "ar": "الزميلة التي نثق بها تدير المشروع."
+        },
+        {
+          "de": "Die Mitarbeitenden, denen wir geschrieben haben, antworteten sofort.",
+          "ar": "الموظفون الذين كتبنا إليهم أجابوا فورًا."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r02",
+      "title_de": "Dativ durch das Verb",
+      "title_ar": "Dativ بسبب الفعل",
+      "explanation_de": "Verben wie helfen, danken, vertrauen, zustimmen, widersprechen und folgen verlangen Dativ.",
+      "explanation_ar": "تحتاج أفعال مثل helfen وdanken وvertrauen وzustimmen وwidersprechen وfolgen إلى Dativ.",
+      "formula": "Dativverb + dem/der/dem/denen",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter, dem wir danken, hat kurzfristig geholfen.",
+          "ar": "الموظف الذي نشكره ساعد في وقت قصير."
+        },
+        {
+          "de": "Die Regelung, der der Betriebsrat zugestimmt hat, tritt morgen in Kraft.",
+          "ar": "النظام الذي وافق عليه مجلس العمال يدخل حيز التنفيذ غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r03",
+      "title_de": "Präposition vor Relativpronomen",
+      "title_ar": "حرف الجر قبل ضمير الوصل",
+      "explanation_de": "Die Präposition steht direkt vor dem Relativpronomen.",
+      "explanation_ar": "يأتي حرف الجر مباشرة قبل ضمير الوصل.",
+      "formula": "Bezugswort, Präposition + Relativpronomen + ... + Verb",
+      "examples": [
+        {
+          "de": "Der Ansprechpartner, mit dem Sie gesprochen haben, ist nicht erreichbar.",
+          "ar": "جهة الاتصال التي تحدثت معها غير متاحة."
+        },
+        {
+          "de": "Das Projekt, an dem sie arbeitet, ist anspruchsvoll.",
+          "ar": "المشروع الذي تعمل عليه صعب."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r04",
+      "title_de": "Mit + Dativ",
+      "title_ar": "mit + Dativ",
+      "explanation_de": "Mit verlangt immer den Dativ.",
+      "explanation_ar": "يحتاج mit دائمًا إلى Dativ.",
+      "formula": "mit dem | mit der | mit denen",
+      "examples": [
+        {
+          "de": "Die Kollegin, mit der ich das Gespräch geführt habe, ist sehr erfahren.",
+          "ar": "الزميلة التي أجريت معها الحديث ذات خبرة كبيرة."
+        },
+        {
+          "de": "Die Geräte, mit denen wir arbeiten, werden regelmäßig gewartet.",
+          "ar": "الأجهزة التي نعمل بها تتم صيانتها بانتظام."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r05",
+      "title_de": "Für + Akkusativ",
+      "title_ar": "für + Akkusativ",
+      "explanation_de": "Für verlangt immer den Akkusativ.",
+      "explanation_ar": "يحتاج für دائمًا إلى Akkusativ.",
+      "formula": "für den | für die | für das | für die",
+      "examples": [
+        {
+          "de": "Der Bereich, für den sie verantwortlich ist, wird erweitert.",
+          "ar": "المجال الذي هي مسؤولة عنه سيتم توسيعه."
+        },
+        {
+          "de": "Die Aufgabe, für die wir mehr Zeit benötigen, ist besonders komplex.",
+          "ar": "المهمة التي نحتاج إلى وقت أكبر من أجلها معقدة بصورة خاصة."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r06",
+      "title_de": "Von und bei + Dativ",
+      "title_ar": "von وbei مع Dativ",
+      "explanation_de": "Von und bei verlangen den Dativ.",
+      "explanation_ar": "يحتاج von وbei إلى Dativ.",
+      "formula": "von dem/der/denen | bei dem/der/denen",
+      "examples": [
+        {
+          "de": "Die Faktoren, von denen das Ergebnis abhängt, werden geprüft.",
+          "ar": "العوامل التي تعتمد عليها النتيجة تتم مراجعتها."
+        },
+        {
+          "de": "Die Firma, bei der er arbeitet, eröffnet eine neue Niederlassung.",
+          "ar": "الشركة التي يعمل لديها تفتح فرعًا جديدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r07",
+      "title_de": "Sich beziehen auf + Akkusativ",
+      "title_ar": "sich beziehen auf + Akkusativ",
+      "explanation_de": "Die feste Verbindung sich beziehen auf verlangt Akkusativ.",
+      "explanation_ar": "تحتاج الصيغة الثابتة sich beziehen auf إلى Akkusativ.",
+      "formula": "auf den/die/das/die",
+      "examples": [
+        {
+          "de": "Der Absatz, auf den sich Ihre Frage bezieht, steht auf Seite drei.",
+          "ar": "الفقرة التي يتعلق بها سؤالك موجودة في الصفحة الثالثة."
+        },
+        {
+          "de": "Die Vorschriften, auf die wir uns beziehen, sind aktuell.",
+          "ar": "اللوائح التي نستند إليها حديثة."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r08",
+      "title_de": "Teilnehmen an + Dativ",
+      "title_ar": "teilnehmen an + Dativ",
+      "explanation_de": "Teilnehmen an verlangt Dativ.",
+      "explanation_ar": "يحتاج teilnehmen an إلى Dativ.",
+      "formula": "an dem | an der | an denen",
+      "examples": [
+        {
+          "de": "Das Seminar, an dem ich teilgenommen habe, war sehr praxisnah.",
+          "ar": "الندوة التي شاركت فيها كانت عملية جدًا."
+        },
+        {
+          "de": "Die Fortbildungen, an denen sie teilnimmt, finden online statt.",
+          "ar": "الدورات التي تشارك فيها تُقام عبر الإنترنت."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r09",
+      "title_de": "Sich wenden an + Akkusativ",
+      "title_ar": "sich wenden an + Akkusativ",
+      "explanation_de": "Sich wenden an verlangt Akkusativ.",
+      "explanation_ar": "تحتاج الصيغة sich wenden an إلى Akkusativ.",
+      "formula": "an den | an die | an das | an die",
+      "examples": [
+        {
+          "de": "Der Ansprechpartner, an den Sie sich wenden können, ist im Servicebüro.",
+          "ar": "جهة الاتصال التي يمكنك التوجه إليها موجودة في مكتب الخدمة."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r10",
+      "title_de": "Präposition bestimmt den Kasus",
+      "title_ar": "حرف الجر يحدد الحالة",
+      "explanation_de": "Nicht das Bezugswort im Hauptsatz, sondern die Präposition im Relativsatz bestimmt den Kasus.",
+      "explanation_ar": "لا يحدد الاسم المرجعي في الجملة الرئيسية الحالة، بل يحددها حرف الجر داخل الجملة الموصولة.",
+      "formula": "mit → Dativ | für → Akkusativ | von → Dativ | auf → je nach Verbindung",
+      "examples": [
+        {
+          "de": "Der Kollege, mit dem ich spreche, ist zuständig.",
+          "ar": "الزميل الذي أتحدث معه مسؤول."
+        },
+        {
+          "de": "Der Kollege, für den ich die Unterlagen vorbereite, ist zuständig.",
+          "ar": "الزميل الذي أجهز المستندات من أجله مسؤول."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r11",
+      "title_de": "Plural im Dativ",
+      "title_ar": "الجمع في Dativ",
+      "explanation_de": "Im Dativ Plural lautet das Relativpronomen denen.",
+      "explanation_ar": "تكون صيغة ضمير الوصل في Dativ الجمع denen.",
+      "formula": "die Personen, denen ... | mit denen ...",
+      "examples": [
+        {
+          "de": "Die Beschäftigten, denen neue Aufgaben übertragen wurden, erhalten eine Schulung.",
+          "ar": "الموظفون الذين أُسندت إليهم مهام جديدة سيتلقون تدريبًا."
+        },
+        {
+          "de": "Die Systeme, mit denen wir arbeiten, sind miteinander verbunden.",
+          "ar": "الأنظمة التي نعمل بها مترابطة."
+        }
+      ]
+    },
+    {
+      "id": "gr28-r12",
+      "title_de": "Verbendstellung und Kommas",
+      "title_ar": "الفعل في النهاية والفواصل",
+      "explanation_de": "Auch nach einer Präposition steht das konjugierte Verb am Ende; der Relativsatz wird durch Kommas abgetrennt.",
+      "explanation_ar": "حتى مع وجود حرف جر يأتي الفعل المصرف في النهاية، وتُفصل الجملة الموصولة بفواصل.",
+      "formula": "Bezugswort, Präposition + Pronomen + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Die Abteilung, in der ich seit zwei Jahren arbeite, wird umstrukturiert.",
+          "ar": "القسم الذي أعمل فيه منذ عامين ستتم إعادة هيكلته."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr28-t01",
+      "title_de": "Relativpronomen im Dativ",
+      "title_ar": "ضمائر الوصل في Dativ",
+      "headers_de": [
+        "Genus/Numerus",
+        "Dativ"
+      ],
+      "headers_ar": [
+        "الجنس/العدد",
+        "Dativ"
+      ],
+      "rows": [
+        [
+          "maskulin",
+          "dem"
+        ],
+        [
+          "feminin",
+          "der"
+        ],
+        [
+          "neutrum",
+          "dem"
+        ],
+        [
+          "Plural",
+          "denen"
+        ]
+      ]
+    },
+    {
+      "id": "gr28-t02",
+      "title_de": "Häufige Präpositionen",
+      "title_ar": "حروف جر شائعة",
+      "headers_de": [
+        "Präposition/Verbindung",
+        "Kasus",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "حرف الجر/التركيب",
+        "الحالة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "mit",
+          "Dativ",
+          "mit dem / mit der / mit denen"
+        ],
+        [
+          "von",
+          "Dativ",
+          "von dem / von der / von denen"
+        ],
+        [
+          "bei",
+          "Dativ",
+          "bei dem / bei der"
+        ],
+        [
+          "für",
+          "Akkusativ",
+          "für den / für die / für das"
+        ],
+        [
+          "sich beziehen auf",
+          "Akkusativ",
+          "auf den / auf die / auf das"
+        ],
+        [
+          "teilnehmen an",
+          "Dativ",
+          "an dem / an der / an denen"
+        ],
+        [
+          "sich wenden an",
+          "Akkusativ",
+          "an den / an die / an das"
+        ]
+      ]
+    },
+    {
+      "id": "gr28-t03",
+      "title_de": "Dativ durch Verb oder Präposition",
+      "title_ar": "Dativ بسبب الفعل أو حرف الجر",
+      "headers_de": [
+        "Auslöser",
+        "Beispiel",
+        "Relativsatz"
+      ],
+      "headers_ar": [
+        "العنصر المحدد",
+        "المثال",
+        "الجملة الموصولة"
+      ],
+      "rows": [
+        [
+          "helfen + Dativ",
+          "Ich helfe dem Kollegen.",
+          "der Kollege, dem ich helfe"
+        ],
+        [
+          "vertrauen + Dativ",
+          "Wir vertrauen der Kollegin.",
+          "die Kollegin, der wir vertrauen"
+        ],
+        [
+          "mit + Dativ",
+          "Ich spreche mit dem Kunden.",
+          "der Kunde, mit dem ich spreche"
+        ],
+        [
+          "für + Akkusativ",
+          "Ich arbeite für die Firma.",
+          "die Firma, für die ich arbeite"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Der Mitarbeiter, dem die zusätzliche Aufgabe übertragen wurde, erhält Unterstützung.",
+      "ar": "الموظف الذي أُسندت إليه المهمة الإضافية سيتلقى دعمًا.",
+      "note_de": "Maskulines Relativpronomen im Dativ.",
+      "note_ar": "ضمير وصل مذكر في Dativ."
+    },
+    {
+      "de": "Die Kollegin, mit der die Abstimmung durchgeführt wurde, übernimmt die weitere Koordination.",
+      "ar": "الزميلة التي تم التنسيق معها ستتولى التنسيق اللاحق.",
+      "note_de": "Mit + Dativ in einem passiven Relativsatz.",
+      "note_ar": "mit + Dativ داخل جملة موصولة مجهولة."
+    },
+    {
+      "de": "Die Anforderungen, auf die sich der Bericht bezieht, wurden vollständig berücksichtigt.",
+      "ar": "المتطلبات التي يشير إليها التقرير أُخذت بالكامل في الاعتبار.",
+      "note_de": "Sich beziehen auf + Akkusativ.",
+      "note_ar": "sich beziehen auf + Akkusativ."
+    },
+    {
+      "de": "Die Schulungen, an denen alle neuen Mitarbeitenden teilnehmen, beginnen im September.",
+      "ar": "الدورات التي يشارك فيها جميع الموظفين الجدد تبدأ في سبتمبر.",
+      "note_de": "Teilnehmen an + Dativ Plural.",
+      "note_ar": "teilnehmen an + Dativ الجمع."
+    },
+    {
+      "de": "Der Ansprechpartner, an den Sie sich bei technischen Problemen wenden können, ist rund um die Uhr erreichbar.",
+      "ar": "جهة الاتصال التي يمكنك التوجه إليها عند المشكلات التقنية متاحة على مدار الساعة.",
+      "note_de": "Sich wenden an + Akkusativ.",
+      "note_ar": "sich wenden an + Akkusativ."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Kollege, den ich geholfen habe, bedankt sich.",
+      "correct": "Der Kollege, dem ich geholfen habe, bedankt sich.",
+      "explanation_de": "Helfen verlangt Dativ; maskulin lautet die Form dem.",
+      "explanation_ar": "يحتاج helfen إلى Dativ، وصيغة المذكر هي dem."
+    },
+    {
+      "wrong": "Die Kollegin, die wir vertrauen, leitet das Projekt.",
+      "correct": "Die Kollegin, der wir vertrauen, leitet das Projekt.",
+      "explanation_de": "Vertrauen verlangt Dativ; feminin lautet die Form der.",
+      "explanation_ar": "يحتاج vertrauen إلى Dativ، وصيغة المؤنث هي der."
+    },
+    {
+      "wrong": "Die Mitarbeitenden, den wir geschrieben haben, antworteten sofort.",
+      "correct": "Die Mitarbeitenden, denen wir geschrieben haben, antworteten sofort.",
+      "explanation_de": "Im Dativ Plural lautet das Relativpronomen denen.",
+      "explanation_ar": "صيغة ضمير الوصل في Dativ الجمع هي denen."
+    },
+    {
+      "wrong": "Der Ansprechpartner, dem mit Sie gesprochen haben, ist nicht da.",
+      "correct": "Der Ansprechpartner, mit dem Sie gesprochen haben, ist nicht da.",
+      "explanation_de": "Die Präposition steht vor dem Relativpronomen.",
+      "explanation_ar": "يأتي حرف الجر قبل ضمير الوصل."
+    },
+    {
+      "wrong": "Der Absatz, auf dem sich Ihre Frage bezieht, steht auf Seite drei.",
+      "correct": "Der Absatz, auf den sich Ihre Frage bezieht, steht auf Seite drei.",
+      "explanation_de": "Sich beziehen auf verlangt Akkusativ.",
+      "explanation_ar": "تحتاج الصيغة sich beziehen auf إلى Akkusativ."
+    },
+    {
+      "wrong": "Das Seminar, an das ich teilgenommen habe, war hilfreich.",
+      "correct": "Das Seminar, an dem ich teilgenommen habe, war hilfreich.",
+      "explanation_de": "Teilnehmen an verlangt Dativ.",
+      "explanation_ar": "يحتاج teilnehmen an إلى Dativ."
+    }
+  ],
+  "quickSummary_de": [
+    "Dativformen: dem, der, dem, denen.",
+    "Genus und Numerus kommen vom Bezugswort.",
+    "Der Kasus ergibt sich aus Verb oder Präposition im Relativsatz.",
+    "Dativverben wie helfen, danken und vertrauen verlangen Dativ.",
+    "Die Präposition steht direkt vor dem Relativpronomen.",
+    "Mit, von und bei verlangen Dativ.",
+    "Für verlangt Akkusativ.",
+    "Sich beziehen auf verlangt Akkusativ.",
+    "Teilnehmen an verlangt Dativ.",
+    "Sich wenden an verlangt Akkusativ.",
+    "Im Dativ Plural steht denen.",
+    "Das konjugierte Verb steht am Ende."
+  ],
+  "quickSummary_ar": [
+    "صيغ Dativ هي dem وder وdem وdenen.",
+    "يأتي الجنس والعدد من الاسم المرجعي.",
+    "تتحدد الحالة بحسب الفعل أو حرف الجر داخل الجملة الموصولة.",
+    "تحتاج أفعال مثل helfen وdanken وvertrauen إلى Dativ.",
+    "يأتي حرف الجر مباشرة قبل ضمير الوصل.",
+    "تحتاج mit وvon وbei إلى Dativ.",
+    "تحتاج für إلى Akkusativ.",
+    "تحتاج sich beziehen auf إلى Akkusativ.",
+    "تحتاج teilnehmen an إلى Dativ.",
+    "تحتاج sich wenden an إلى Akkusativ.",
+    "في Dativ الجمع نستخدم denen.",
+    "يأتي الفعل المصرف في النهاية."
+  ],
+  "relatedTopics": [
+    "gr-27",
+    "gr-29",
+    "gr-30"
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "b2-grammar-phase-index-v1",
+  "contentVersion": "2026-07-16",
+  "courseId": "b2-course",
+  "phaseId": "grammar-phase-3",
+  "title_de": "B2 Grammatik – Phase 3",
+  "title_ar": "قواعد B2 – المرحلة الثالثة",
+  "level": "B2",
+  "status": "assembled_and_validated",
+  "progressKeyRecommendation": "dmt_b2_grammar_progress_v1",
+  "topicCount": 10,
+  "exerciseCount": 246,
+  "difficultyDistribution": {
+    "easy": 71,
+    "hard": 71,
+    "medium": 104
+  },
+  "typeDistribution": {
+    "dialogue_choice": 1,
+    "fill_blank": 31,
+    "guided_writing": 10,
+    "matching": 21,
+    "multiple_choice": 81,
+    "scenario_choice": 20,
+    "sentence_build": 41,
+    "sentence_order": 41
+  },
+  "topics": [
+    {
+      "id": "gr-21",
+      "order": 21,
+      "slug": "gr-21-kausale-konnektoren",
+      "title_de": "Kausale Konnektoren",
+      "title_ar": "أدوات الربط السببية",
+      "level": "B2",
+      "lessonPath": "topics/gr-21-kausale-konnektoren/lesson.json",
+      "exercisesPath": "topics/gr-21-kausale-konnektoren/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "konnektoren"
+    },
+    {
+      "id": "gr-22",
+      "order": 22,
+      "slug": "gr-22-konzessive-adversative-konnektoren",
+      "title_de": "Konzessive und adversative Konnektoren",
+      "title_ar": "أدوات الربط الاستدراكية والتعارضية",
+      "level": "B2",
+      "lessonPath": "topics/gr-22-konzessive-adversative-konnektoren/lesson.json",
+      "exercisesPath": "topics/gr-22-konzessive-adversative-konnektoren/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 55,
+      "sourceType": "grundlage",
+      "category": "konnektoren"
+    },
+    {
+      "id": "gr-23",
+      "order": 23,
+      "slug": "gr-23-finale-und-konsekutive-strukturen",
+      "title_de": "Finale und konsekutive Strukturen",
+      "title_ar": "تراكيب الغاية والنتيجة",
+      "level": "B2",
+      "lessonPath": "topics/gr-23-finale-und-konsekutive-strukturen/lesson.json",
+      "exercisesPath": "topics/gr-23-finale-und-konsekutive-strukturen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 55,
+      "sourceType": "grundlage",
+      "category": "konnektoren"
+    },
+    {
+      "id": "gr-24",
+      "order": 24,
+      "slug": "gr-24-temporale-konnektoren",
+      "title_de": "Temporale Konnektoren",
+      "title_ar": "أدوات الربط الزمنية",
+      "level": "B2",
+      "lessonPath": "topics/gr-24-temporale-konnektoren/lesson.json",
+      "exercisesPath": "topics/gr-24-temporale-konnektoren/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "konnektoren"
+    },
+    {
+      "id": "gr-25",
+      "order": 25,
+      "slug": "gr-25-infinitiv-mit-zu",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "level": "B2",
+      "lessonPath": "topics/gr-25-infinitiv-mit-zu/lesson.json",
+      "exercisesPath": "topics/gr-25-infinitiv-mit-zu/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "infinitivkonstruktionen"
+    },
+    {
+      "id": "gr-26",
+      "order": 26,
+      "slug": "gr-26-um-ohne-anstatt-zu",
+      "title_de": "um ... zu, ohne ... zu und anstatt ... zu",
+      "title_ar": "um ... zu وohne ... zu وanstatt ... zu",
+      "level": "B2",
+      "lessonPath": "topics/gr-26-um-ohne-anstatt-zu/lesson.json",
+      "exercisesPath": "topics/gr-26-um-ohne-anstatt-zu/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 55,
+      "sourceType": "grundlage",
+      "category": "infinitivkonstruktionen"
+    },
+    {
+      "id": "gr-27",
+      "order": 27,
+      "slug": "gr-27-relativsaetze-nominativ-akkusativ",
+      "title_de": "Relativsätze im Nominativ und Akkusativ",
+      "title_ar": "الجمل الموصولة في Nominativ وAkkusativ",
+      "level": "B2",
+      "lessonPath": "topics/gr-27-relativsaetze-nominativ-akkusativ/lesson.json",
+      "exercisesPath": "topics/gr-27-relativsaetze-nominativ-akkusativ/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "relativsaetze"
+    },
+    {
+      "id": "gr-28",
+      "order": 28,
+      "slug": "gr-28-relativsaetze-dativ-praepositionen",
+      "title_de": "Relativsätze im Dativ und mit Präpositionen",
+      "title_ar": "الجمل الموصولة في Dativ ومع حروف الجر",
+      "level": "B2",
+      "lessonPath": "topics/gr-28-relativsaetze-dativ-praepositionen/lesson.json",
+      "exercisesPath": "topics/gr-28-relativsaetze-dativ-praepositionen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "relativsaetze"
+    },
+    {
+      "id": "gr-29",
+      "order": 29,
+      "slug": "gr-29-relativsaetze-genitiv-was-wo",
+      "title_de": "Relativsätze im Genitiv sowie mit was und wo",
+      "title_ar": "الجمل الموصولة في Genitiv ومع was وwo",
+      "level": "B2",
+      "lessonPath": "topics/gr-29-relativsaetze-genitiv-was-wo/lesson.json",
+      "exercisesPath": "topics/gr-29-relativsaetze-genitiv-was-wo/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "relativsaetze"
+    },
+    {
+      "id": "gr-30",
+      "order": 30,
+      "slug": "gr-30-gemischtes-training-phase-3",
+      "title_de": "Gemischtes Training – Phase 3",
+      "title_ar": "التدريب المختلط – المرحلة الثالثة",
+      "level": "B2",
+      "lessonPath": "topics/gr-30-gemischtes-training-phase-3/lesson.json",
+      "exercisesPath": "topics/gr-30-gemischtes-training-phase-3/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "hard": 8,
+        "medium": 14
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 3,
+        "multiple_choice": 9,
+        "scenario_choice": 2,
+        "sentence_build": 5,
+        "sentence_order": 5
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "gemischtes_training",
+      "category": "phase_3_review"
+    }
+  ]
+}

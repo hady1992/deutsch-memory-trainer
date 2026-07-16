@@ -42,7 +42,17 @@ B2GrammarProgressService.recordSelfAssessment("gr-01", "gr01-e024", "text", "rev
 assert.equal(B2GrammarProgressService.getProgress().exercises["gr01-e024"].wrongCount, 0);
 assert.equal(B2GrammarProgressService.getProgress().exercises["gr01-e024"].status, "review");
 
+B2GrammarProgressService.visit("gr-21", "gr21-e007", 6);
+B2GrammarProgressService.recordAnswer("gr-21", "gr21-e007", "phase three answer", true);
+B2GrammarProgressService.visit("gr-31", "gr31-e004", 3);
+B2GrammarProgressService.recordAnswer("gr-31", "gr31-e004", "phase four wrong answer", false);
+assert.equal(B2GrammarProgressService.getResumePosition("gr-21", ["gr21-e001", "gr21-e007"]), 1);
+assert.equal(B2GrammarProgressService.getProgress().exercises["gr31-e004"].unresolvedMistake, true);
+
 const validBackup = B2GrammarProgressService.getBackupData();
+assert.equal(validBackup.topics["gr-21"].lastExerciseId, "gr21-e007");
+assert.equal(validBackup.topics["gr-31"].lastExerciseId, "gr31-e004");
+assert.equal(validBackup.exercises["gr31-e004"].unresolvedMistake, true);
 assert.equal(B2GrammarProgressService.validateBackup(validBackup), true);
 assert.equal(B2GrammarProgressService.importBackup({ version: 1, topics: [], exercises: [] }), false);
 const exportedBackup = ImportExportService.createFullBackup();
@@ -55,6 +65,8 @@ const importResult = ImportExportService.applyFullBackup({
 });
 assert.equal(importResult.success, true);
 assert.deepEqual(B2GrammarProgressService.getProgress(), validBackup);
+assert.equal(B2GrammarProgressService.getProgress().topics["gr-21"].lastExerciseId, "gr21-e007");
+assert.equal(B2GrammarProgressService.getProgress().exercises["gr31-e004"].unresolvedMistake, true);
 assert.deepEqual(JSON.parse(storage.getItem("dmt_progress") || "{}"), { legacy: true });
 assert.deepEqual(JSON.parse(storage.getItem("dmt_b2_course_progress_v1") || "{}"), { course: true });
 
@@ -84,3 +96,4 @@ console.log("Corrupt storage fallback: PASSED");
 console.log("Legacy progress isolation: PASSED");
 console.log("Full backup export/import integration: PASSED");
 console.log("Legacy backup compatibility: PASSED");
+console.log("Phase 3/4 resume and backup restoration: PASSED");

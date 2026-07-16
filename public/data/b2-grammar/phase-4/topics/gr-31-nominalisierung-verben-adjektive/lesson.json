@@ -1,0 +1,499 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-31",
+  "slug": "gr-31-nominalisierung-verben-adjektive",
+  "order": 31,
+  "title_de": "Nominalisierung von Verben und Adjektiven",
+  "title_ar": "تحويل الأفعال والصفات إلى أسماء",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "nominalisierung",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Verben als substantivierte Infinitive korrekt verwenden.",
+    "Häufige Nomenbildungen mit -ung, -tion, -ment und weiteren Endungen erkennen.",
+    "Adjektive mit -heit, -keit und -igkeit nominalisieren.",
+    "Substantivierte Adjektive für Personen und unbestimmte Inhalte bilden.",
+    "Artikel, Genus, Plural und Großschreibung nominalisierter Formen beachten.",
+    "Ergänzungen eines Verbs in passende Nominalgruppen umformen.",
+    "Nominalisierungen in sachlichen beruflichen Sätzen gezielt einsetzen."
+  ],
+  "learningObjectives_ar": [
+    "استخدام مصدر الفعل بوصفه اسمًا بصورة صحيحة.",
+    "تمييز صيغ الأسماء الشائعة مع -ung و-tion و-ment ونهايات أخرى.",
+    "تحويل الصفات إلى أسماء باستخدام -heit و-keit و-igkeit.",
+    "تكوين صفات مستعملة كأسماء للدلالة على الأشخاص أو الأشياء غير المحددة.",
+    "مراعاة الأداة والجنس والجمع والكتابة بحرف كبير.",
+    "تحويل متممات الفعل إلى مجموعات اسمية مناسبة.",
+    "استخدام التحويل الاسمي بصورة مقصودة في الجمل المهنية الموضوعية."
+  ],
+  "shortDescription_de": "Bei der Nominalisierung werden Verben, Adjektive oder ganze Aussagen als Nomen ausgedrückt. Dadurch entstehen kompakte und häufig formellere Formulierungen.",
+  "shortDescription_ar": "في التحويل الاسمي يُعبّر عن الأفعال أو الصفات أو العبارات الكاملة باستخدام أسماء. وينتج عن ذلك أسلوب أكثر اختصارًا وغالبًا أكثر رسمية.",
+  "explanation_de": "Ein Verb kann als substantivierter Infinitiv verwendet werden. Dann wird es großgeschrieben und ist normalerweise neutral: arbeiten → das Arbeiten, lesen → das Lesen, einhalten → das Einhalten. Daneben gibt es abgeleitete Nomen, zum Beispiel prüfen → die Prüfung, entscheiden → die Entscheidung, informieren → die Information und dokumentieren → die Dokumentation. Die Bildung ist nicht immer vollständig vorhersagbar; deshalb müssen Artikel und Plural mitgelernt werden. Viele Adjektive bilden abstrakte Nomen mit -heit, -keit oder -igkeit: sicher → die Sicherheit, möglich → die Möglichkeit, zuverlässig → die Zuverlässigkeit. Adjektive können außerdem wie Nomen verwendet werden: der Verantwortliche, die Beschäftigte, die Verantwortlichen, etwas Wichtiges, nichts Neues. Sie werden großgeschrieben, behalten aber die Adjektivendung. Bei der Umformung einer verbalen Aussage werden Objekte häufig zu Genitivattributen oder Präpositionalgruppen: Die Fachabteilung prüft die Unterlagen → die Prüfung der Unterlagen durch die Fachabteilung. Nominalisierungen sind besonders in Berichten, Anträgen und offiziellen Mitteilungen verbreitet, sollten aber verständlich und nicht unnötig gehäuft verwendet werden.",
+  "explanation_ar": "يمكن استخدام مصدر الفعل بوصفه اسمًا. عندها يُكتب بحرف كبير ويكون عادة محايدًا: arbeiten ← das Arbeiten، وlesen ← das Lesen، وeinhalten ← das Einhalten. وتوجد كذلك أسماء مشتقة، مثل prüfen ← die Prüfung، وentscheiden ← die Entscheidung، وinformieren ← die Information، وdokumentieren ← die Dokumentation. ولا يمكن توقع الصيغة دائمًا بشكل كامل، لذلك يجب حفظ الأداة والجمع مع الاسم. وتكوّن صفات كثيرة أسماء مجردة باستخدام -heit أو -keit أو -igkeit، مثل sicher ← die Sicherheit، وmöglich ← die Möglichkeit، وzuverlässig ← die Zuverlässigkeit. كما يمكن استعمال الصفة بوصفها اسمًا: der Verantwortliche وdie Beschäftigte وdie Verantwortlichen وetwas Wichtiges وnichts Neues. وتُكتب بحرف كبير لكنها تحتفظ بنهاية الصفة. وعند تحويل جملة فعلية إلى مجموعة اسمية يتحول المفعول غالبًا إلى Genitiv أو مجموعة مع حرف جر، مثل: Die Fachabteilung prüft die Unterlagen ← die Prüfung der Unterlagen durch die Fachabteilung. ويكثر هذا الأسلوب في التقارير والطلبات والرسائل الرسمية، لكن ينبغي ألا يُستخدم بكثرة على حساب الوضوح.",
+  "rules": [
+    {
+      "id": "gr31-r01",
+      "title_de": "Substantivierter Infinitiv",
+      "title_ar": "المصدر المستخدم كاسم",
+      "explanation_de": "Der Infinitiv wird großgeschrieben und ist normalerweise neutral.",
+      "explanation_ar": "يُكتب المصدر بحرف كبير ويكون عادة محايدًا.",
+      "formula": "Verb → das + Infinitiv",
+      "examples": [
+        {
+          "de": "Das Lesen der Sicherheitsanweisung ist verpflichtend.",
+          "ar": "قراءة تعليمات السلامة إلزامية."
+        },
+        {
+          "de": "Beim Arbeiten mit Chemikalien müssen Schutzregeln beachtet werden.",
+          "ar": "عند العمل بالمواد الكيميائية يجب مراعاة قواعد الحماية."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r02",
+      "title_de": "Trennbare Verben als Nomen",
+      "title_ar": "الأفعال القابلة للفصل عند تحويلها إلى أسماء",
+      "explanation_de": "Beim substantivierten Infinitiv bleibt das Verb zusammengeschrieben.",
+      "explanation_ar": "عند استخدام المصدر اسمًا يبقى الفعل القابل للفصل مكتوبًا كلمة واحدة.",
+      "formula": "einhalten → das Einhalten | vorbereiten → das Vorbereiten",
+      "examples": [
+        {
+          "de": "Das Einhalten der Frist ist unbedingt erforderlich.",
+          "ar": "الالتزام بالمهلة ضروري للغاية."
+        },
+        {
+          "de": "Das Vorbereiten der Besprechung dauert etwa eine Stunde.",
+          "ar": "تحضير الاجتماع يستغرق نحو ساعة."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r03",
+      "title_de": "Nomen mit -ung",
+      "title_ar": "الأسماء المنتهية بـ -ung",
+      "explanation_de": "Viele Verben bilden feminine Nomen mit -ung.",
+      "explanation_ar": "تكوّن أفعال كثيرة أسماء مؤنثة باستخدام -ung.",
+      "formula": "prüfen → die Prüfung | entscheiden → die Entscheidung",
+      "examples": [
+        {
+          "de": "Die Prüfung der Unterlagen dauert zwei Werktage.",
+          "ar": "مراجعة المستندات تستغرق يومي عمل."
+        },
+        {
+          "de": "Die Einführung des neuen Systems erfolgt schrittweise.",
+          "ar": "سيتم إدخال النظام الجديد تدريجيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r04",
+      "title_de": "Fremdwortendungen",
+      "title_ar": "النهايات الأجنبية",
+      "explanation_de": "Verben auf -ieren bilden häufig Nomen auf -tion oder -ierung.",
+      "explanation_ar": "تكوّن الأفعال المنتهية بـ -ieren كثيرًا أسماء تنتهي بـ -tion أو -ierung.",
+      "formula": "informieren → Information | dokumentieren → Dokumentation | digitalisieren → Digitalisierung",
+      "examples": [
+        {
+          "de": "Die Information der Beschäftigten erfolgt per E-Mail.",
+          "ar": "سيتم إبلاغ الموظفين عبر البريد الإلكتروني."
+        },
+        {
+          "de": "Die Digitalisierung der Abläufe reduziert den Papierverbrauch.",
+          "ar": "رقمنة الإجراءات تقلل استهلاك الورق."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r05",
+      "title_de": "Nomenbildung ist nicht immer regelmäßig",
+      "title_ar": "اشتقاق الاسم ليس منتظمًا دائمًا",
+      "explanation_de": "Artikel, Plural und genaue Bedeutung müssen mit dem Nomen gelernt werden.",
+      "explanation_ar": "يجب حفظ الأداة والجمع والمعنى الدقيق مع الاسم.",
+      "formula": "beginnen → der Beginn | beantragen → der Antrag | sich bewerben → die Bewerbung",
+      "examples": [
+        {
+          "de": "Der Beginn der Schulung wurde verschoben.",
+          "ar": "تم تأجيل بداية الدورة."
+        },
+        {
+          "de": "Die Bewerbung muss vollständig eingereicht werden.",
+          "ar": "يجب تقديم طلب التوظيف كاملًا."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r06",
+      "title_de": "Adjektive mit -heit",
+      "title_ar": "الصفات مع -heit",
+      "explanation_de": "Viele Adjektive bilden feminine abstrakte Nomen mit -heit.",
+      "explanation_ar": "تكوّن صفات كثيرة أسماء مجردة مؤنثة باستخدام -heit.",
+      "formula": "sicher → die Sicherheit | klar → die Klarheit",
+      "examples": [
+        {
+          "de": "Die Sicherheit der Anlage hat höchste Priorität.",
+          "ar": "سلامة المنشأة لها الأولوية القصوى."
+        },
+        {
+          "de": "Die Klarheit der Aufgabenbeschreibung verhindert Missverständnisse.",
+          "ar": "وضوح وصف المهمة يمنع سوء الفهم."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r07",
+      "title_de": "Adjektive mit -keit und -igkeit",
+      "title_ar": "الصفات مع -keit و-igkeit",
+      "explanation_de": "Adjektive auf -bar, -lich, -ig und ähnliche Formen bilden häufig Nomen mit -keit oder -igkeit.",
+      "explanation_ar": "تكوّن صفات كثيرة، خاصة المنتهية بـ -bar أو -lich أو -ig، أسماء باستخدام -keit أو -igkeit.",
+      "formula": "möglich → Möglichkeit | verfügbar → Verfügbarkeit | zuverlässig → Zuverlässigkeit",
+      "examples": [
+        {
+          "de": "Die Verfügbarkeit des Systems wird rund um die Uhr überwacht.",
+          "ar": "تتم مراقبة توفر النظام على مدار الساعة."
+        },
+        {
+          "de": "Die Zuverlässigkeit der Daten muss geprüft werden.",
+          "ar": "يجب فحص موثوقية البيانات."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r08",
+      "title_de": "Substantivierte Adjektive für Personen",
+      "title_ar": "الصفات المستخدمة كأسماء للأشخاص",
+      "explanation_de": "Das Adjektiv wird großgeschrieben und wie ein Adjektiv dekliniert.",
+      "explanation_ar": "تُكتب الصفة بحرف كبير وتُصرف مثل الصفة.",
+      "formula": "der Verantwortliche | eine Beschäftigte | die Verantwortlichen",
+      "examples": [
+        {
+          "de": "Der Verantwortliche wird über den Vorfall informiert.",
+          "ar": "سيتم إبلاغ الشخص المسؤول بالحادث."
+        },
+        {
+          "de": "Alle Beschäftigten müssen an der Unterweisung teilnehmen.",
+          "ar": "يجب على جميع الموظفين المشاركة في التوجيه."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r09",
+      "title_de": "Etwas, nichts und viel + substantiviertes Adjektiv",
+      "title_ar": "etwas وnichts وviel مع صفة مستخدمة كاسم",
+      "explanation_de": "Nach etwas, nichts und viel steht häufig ein substantiviertes Adjektiv im Neutrum.",
+      "explanation_ar": "بعد etwas وnichts وviel تأتي كثيرًا صفة مستخدمة كاسم في المحايد.",
+      "formula": "etwas Neues | nichts Wichtiges | viel Positives",
+      "examples": [
+        {
+          "de": "Gibt es etwas Neues zum Antrag?",
+          "ar": "هل يوجد شيء جديد بخصوص الطلب؟"
+        },
+        {
+          "de": "Im Bericht steht nichts Wesentliches zur Ursache.",
+          "ar": "لا يوجد في التقرير شيء جوهري حول السبب."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r10",
+      "title_de": "Objekt wird Genitivattribut",
+      "title_ar": "تحويل المفعول إلى Genitiv",
+      "explanation_de": "Das Objekt eines Verbs wird bei der Nominalisierung häufig zu einem Genitivattribut.",
+      "explanation_ar": "يتحول مفعول الفعل عند التحويل الاسمي غالبًا إلى Genitiv.",
+      "formula": "die Unterlagen prüfen → die Prüfung der Unterlagen",
+      "examples": [
+        {
+          "de": "Die Prüfung der Unterlagen wurde abgeschlossen.",
+          "ar": "اكتملت مراجعة المستندات."
+        },
+        {
+          "de": "Die Verbesserung der Arbeitsbedingungen bleibt ein wichtiges Ziel.",
+          "ar": "يبقى تحسين ظروف العمل هدفًا مهمًا."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r11",
+      "title_de": "Handelnde Person mit durch oder von",
+      "title_ar": "ذكر القائم بالفعل باستخدام durch أو von",
+      "explanation_de": "Die handelnde Person kann besonders bei Prozessnomen mit durch oder von ergänzt werden.",
+      "explanation_ar": "يمكن ذكر القائم بالفعل، خاصة مع أسماء العمليات، باستخدام durch أو von.",
+      "formula": "Prüfung der Unterlagen durch die Fachabteilung",
+      "examples": [
+        {
+          "de": "Die Prüfung der Unterlagen durch die Fachabteilung beginnt morgen.",
+          "ar": "تبدأ غدًا مراجعة المستندات من قبل القسم المختص."
+        },
+        {
+          "de": "Die Information der Beschäftigten durch die Leitung erfolgte rechtzeitig.",
+          "ar": "تم إبلاغ الموظفين من قبل الإدارة في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr31-r12",
+      "title_de": "Prozess oder abstrakte Eigenschaft",
+      "title_ar": "عملية أم صفة مجردة",
+      "explanation_de": "Wählen Sie die Nominalisierung nach der gewünschten Bedeutung.",
+      "explanation_ar": "اختر صيغة الاسم بحسب المعنى المطلوب.",
+      "formula": "prüfen → das Prüfen / die Prüfung | sicher → die Sicherheit",
+      "examples": [
+        {
+          "de": "Das Prüfen einzelner Werte ist zeitaufwendig.",
+          "ar": "فحص القيم كل واحدة على حدة يستغرق وقتًا."
+        },
+        {
+          "de": "Die Prüfung findet am Montag statt.",
+          "ar": "سيُجرى الفحص يوم الاثنين."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr31-t01",
+      "title_de": "Häufige Nominalisierungen von Verben",
+      "title_ar": "تحويلات اسمية شائعة للأفعال",
+      "headers_de": [
+        "Verb",
+        "Nomen",
+        "Genus"
+      ],
+      "headers_ar": [
+        "الفعل",
+        "الاسم",
+        "الجنس"
+      ],
+      "rows": [
+        [
+          "prüfen",
+          "die Prüfung",
+          "feminin"
+        ],
+        [
+          "entscheiden",
+          "die Entscheidung",
+          "feminin"
+        ],
+        [
+          "einführen",
+          "die Einführung",
+          "feminin"
+        ],
+        [
+          "informieren",
+          "die Information",
+          "feminin"
+        ],
+        [
+          "digitalisieren",
+          "die Digitalisierung",
+          "feminin"
+        ],
+        [
+          "beginnen",
+          "der Beginn",
+          "maskulin"
+        ],
+        [
+          "beantragen",
+          "der Antrag",
+          "maskulin"
+        ],
+        [
+          "arbeiten",
+          "das Arbeiten",
+          "neutrum"
+        ]
+      ]
+    },
+    {
+      "id": "gr31-t02",
+      "title_de": "Nominalisierung von Adjektiven",
+      "title_ar": "تحويل الصفات إلى أسماء",
+      "headers_de": [
+        "Adjektiv",
+        "abstraktes Nomen",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصفة",
+        "الاسم المجرد",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "sicher",
+          "die Sicherheit",
+          "Sicherheit am Arbeitsplatz"
+        ],
+        [
+          "klar",
+          "die Klarheit",
+          "Klarheit der Regelung"
+        ],
+        [
+          "möglich",
+          "die Möglichkeit",
+          "Möglichkeit einer Verlängerung"
+        ],
+        [
+          "verfügbar",
+          "die Verfügbarkeit",
+          "Verfügbarkeit des Systems"
+        ],
+        [
+          "zuverlässig",
+          "die Zuverlässigkeit",
+          "Zuverlässigkeit der Daten"
+        ]
+      ]
+    },
+    {
+      "id": "gr31-t03",
+      "title_de": "Substantivierte Adjektive",
+      "title_ar": "الصفات المستخدمة كأسماء",
+      "headers_de": [
+        "Struktur",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "البنية",
+        "المثال",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "bestimmter Artikel",
+          "der Verantwortliche",
+          "eine bestimmte Person"
+        ],
+        [
+          "Plural",
+          "die Beschäftigten",
+          "eine Personengruppe"
+        ],
+        [
+          "etwas + Adjektiv",
+          "etwas Neues",
+          "eine unbestimmte Sache"
+        ],
+        [
+          "nichts + Adjektiv",
+          "nichts Wichtiges",
+          "keine wichtige Sache"
+        ],
+        [
+          "viel + Adjektiv",
+          "viel Positives",
+          "eine größere positive Menge"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Einführung eines digitalen Dokumentenmanagementsystems soll die Bearbeitungszeit verkürzen.",
+      "ar": "يهدف إدخال نظام رقمي لإدارة المستندات إلى تقصير مدة المعالجة.",
+      "note_de": "Abgeleitetes Nomen mit -ung und Genitivattribut.",
+      "note_ar": "اسم مشتق بـ -ung مع Genitiv."
+    },
+    {
+      "de": "Das regelmäßige Überprüfen der Zugriffsrechte erhöht die Sicherheit.",
+      "ar": "يزيد الفحص المنتظم لصلاحيات الوصول من مستوى الأمان.",
+      "note_de": "Substantivierter Infinitiv mit adjektivischer Ergänzung.",
+      "note_ar": "مصدر مستخدم كاسم مع صفة."
+    },
+    {
+      "de": "Die Zuverlässigkeit der Messergebnisse wurde durch eine zweite Kontrolle bestätigt.",
+      "ar": "تم تأكيد موثوقية نتائج القياس بواسطة فحص ثانٍ.",
+      "note_de": "Abstraktes Nomen auf -igkeit.",
+      "note_ar": "اسم مجرد منتهٍ بـ -igkeit."
+    },
+    {
+      "de": "Alle Verantwortlichen wurden gebeten, die Beschäftigten rechtzeitig zu informieren.",
+      "ar": "طُلب من جميع المسؤولين إبلاغ الموظفين في الوقت المناسب.",
+      "note_de": "Zwei substantivierte Adjektive im Plural.",
+      "note_ar": "صفتان مستخدمتان كاسم في الجمع."
+    },
+    {
+      "de": "Die Prüfung der Unterlagen durch die zuständige Stelle ist noch nicht abgeschlossen.",
+      "ar": "لم تنته بعد مراجعة المستندات من قبل الجهة المختصة.",
+      "note_de": "Objekt als Genitivattribut und Handelnder mit durch.",
+      "note_ar": "المفعول تحوّل إلى Genitiv، والقائم بالفعل ذُكر باستخدام durch."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Das lesen der Anleitung ist verpflichtend.",
+      "correct": "Das Lesen der Anleitung ist verpflichtend.",
+      "explanation_de": "Substantivierte Infinitive werden großgeschrieben.",
+      "explanation_ar": "يُكتب المصدر المستخدم كاسم بحرف كبير."
+    },
+    {
+      "wrong": "Die Prüfen der Unterlagen dauert lange.",
+      "correct": "Die Prüfung der Unterlagen dauert lange. / Das Prüfen der Unterlagen dauert lange.",
+      "explanation_de": "Entweder steht das abgeleitete Nomen Prüfung oder der substantivierte Infinitiv das Prüfen.",
+      "explanation_ar": "نستخدم إما الاسم المشتق Prüfung أو المصدر المستخدم كاسم das Prüfen."
+    },
+    {
+      "wrong": "Die sicher des Systems ist wichtig.",
+      "correct": "Die Sicherheit des Systems ist wichtig.",
+      "explanation_de": "Das abstrakte Nomen zu sicher lautet Sicherheit.",
+      "explanation_ar": "الاسم المجرد من sicher هو Sicherheit."
+    },
+    {
+      "wrong": "Der Verantwortlich wurde informiert.",
+      "correct": "Der Verantwortliche wurde informiert.",
+      "explanation_de": "Das substantivierte Adjektiv behält seine Deklinationsendung.",
+      "explanation_ar": "تحتفظ الصفة المستخدمة كاسم بنهاية التصريف."
+    },
+    {
+      "wrong": "Gibt es etwas Neu zum Antrag?",
+      "correct": "Gibt es etwas Neues zum Antrag?",
+      "explanation_de": "Nach etwas steht hier ein substantiviertes Adjektiv mit der Endung -es.",
+      "explanation_ar": "بعد etwas تأتي هنا الصفة المستخدمة كاسم مع النهاية -es."
+    },
+    {
+      "wrong": "Die Prüfung die Unterlagen durch die Abteilung beginnt morgen.",
+      "correct": "Die Prüfung der Unterlagen durch die Abteilung beginnt morgen.",
+      "explanation_de": "Das frühere Akkusativobjekt wird zum Genitivattribut.",
+      "explanation_ar": "يتحول المفعول السابق إلى Genitiv."
+    }
+  ],
+  "quickSummary_de": [
+    "Substantivierte Infinitive sind meistens neutral und werden großgeschrieben.",
+    "Trennbare Verben bleiben beim substantivierten Infinitiv zusammengeschrieben.",
+    "Viele abgeleitete Nomen enden auf -ung, -tion oder -ierung.",
+    "Artikel und Plural müssen mit dem Nomen gelernt werden.",
+    "Adjektive bilden häufig Nomen mit -heit, -keit oder -igkeit.",
+    "Substantivierte Adjektive werden großgeschrieben und dekliniert.",
+    "Nach etwas und nichts steht häufig eine neutrale Form auf -es.",
+    "Verbobjekte werden bei der Nominalisierung oft zu Genitivattributen.",
+    "Die handelnde Person kann mit durch oder von ergänzt werden.",
+    "Das Prüfen bezeichnet eher die Tätigkeit, die Prüfung häufig einen organisierten Vorgang oder Termin.",
+    "Nominalisierungen sind im beruflichen Stil häufig.",
+    "Zu viele Nominalisierungen können einen Text schwer verständlich machen."
+  ],
+  "quickSummary_ar": [
+    "يكون المصدر المستخدم كاسم غالبًا محايدًا ويُكتب بحرف كبير.",
+    "تبقى الأفعال القابلة للفصل كلمة واحدة عند استخدام المصدر اسمًا.",
+    "تنتهي أسماء مشتقة كثيرة بـ -ung أو -tion أو -ierung.",
+    "يجب حفظ الأداة والجمع مع الاسم.",
+    "تكوّن الصفات كثيرًا أسماء باستخدام -heit أو -keit أو -igkeit.",
+    "تُكتب الصفة المستخدمة كاسم بحرف كبير وتُصرف.",
+    "بعد etwas وnichts تأتي كثيرًا صيغة محايدة منتهية بـ -es.",
+    "يتحول مفعول الفعل عند التحويل الاسمي غالبًا إلى Genitiv.",
+    "يمكن ذكر القائم بالفعل باستخدام durch أو von.",
+    "تدل das Prüfen أكثر على النشاط، بينما تدل die Prüfung كثيرًا على عملية منظمة أو موعد فحص.",
+    "يكثر التحويل الاسمي في الأسلوب المهني.",
+    "قد تجعل كثرة التحويلات الاسمية النص صعب الفهم."
+  ],
+  "relatedTopics": [
+    "gr-25",
+    "gr-32",
+    "gr-33",
+    "gr-40"
+  ]
+}

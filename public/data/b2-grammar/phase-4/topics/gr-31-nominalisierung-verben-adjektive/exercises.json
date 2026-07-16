@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-31",
+  "title_de": "Nominalisierung von Verben und Adjektiven – Übungen",
+  "title_ar": "تمارين تحويل الأفعال والصفات إلى أسماء",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr31-e001",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Substantivierter Infinitiv",
+      "title_ar": "المصدر المستخدم كاسم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Lesen der Sicherheitsanweisung ist verpflichtend.",
+      "explanation_de": "Der substantivierte Infinitiv wird großgeschrieben und ist neutral.",
+      "explanation_ar": "يُكتب المصدر المستخدم كاسم بحرف كبير ويكون محايدًا.",
+      "grammarFocus": "nominalized_infinitive",
+      "options": [
+        "Das Lesen der Sicherheitsanweisung ist verpflichtend.",
+        "Das lesen der Sicherheitsanweisung ist verpflichtend.",
+        "Die Lesen der Sicherheitsanweisung ist verpflichtend.",
+        "Das Gelesen der Sicherheitsanweisung ist verpflichtend."
+      ]
+    },
+    {
+      "id": "gr31-e002",
+      "topicId": "gr-31",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Nomen auf -ung",
+      "title_ar": "اسم منتهٍ بـ -ung",
+      "prompt_de": "Die ______ der Unterlagen dauert zwei Werktage. (prüfen)",
+      "prompt_ar": "تستغرق مراجعة المستندات يومي عمل.",
+      "answer": "Prüfung",
+      "explanation_de": "Das abgeleitete Nomen zu prüfen lautet Prüfung.",
+      "explanation_ar": "الاسم المشتق من prüfen هو Prüfung.",
+      "grammarFocus": "verb_to_ung",
+      "acceptedAnswers": [
+        "Prüfung",
+        "die Prüfung"
+      ]
+    },
+    {
+      "id": "gr31-e003",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Adjektiv zu Nomen",
+      "title_ar": "تحويل الصفة إلى اسم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Sicherheit der Anlage hat höchste Priorität.",
+      "explanation_de": "Das abstrakte Nomen zu sicher lautet Sicherheit.",
+      "explanation_ar": "الاسم المجرد من sicher هو Sicherheit.",
+      "grammarFocus": "adjective_to_heit",
+      "options": [
+        "Die Sicherheit der Anlage hat höchste Priorität.",
+        "Die Sicher der Anlage hat höchste Priorität.",
+        "Das Sicherkeit der Anlage hat höchste Priorität.",
+        "Die sichere der Anlage hat höchste Priorität."
+      ]
+    },
+    {
+      "id": "gr31-e004",
+      "topicId": "gr-31",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Verb und Nomen",
+      "title_ar": "الفعل والاسم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "prüfen": "die Prüfung",
+        "entscheiden": "die Entscheidung",
+        "einführen": "die Einführung",
+        "informieren": "die Information",
+        "beginnen": "der Beginn"
+      },
+      "explanation_de": "Die Nomen haben unterschiedliche Bildungstypen und Artikel.",
+      "explanation_ar": "للأسماء أنماط اشتقاق وأدوات مختلفة.",
+      "grammarFocus": "verb_noun_matching",
+      "pairs": [
+        [
+          "prüfen",
+          "die Prüfung"
+        ],
+        [
+          "entscheiden",
+          "die Entscheidung"
+        ],
+        [
+          "einführen",
+          "die Einführung"
+        ],
+        [
+          "informieren",
+          "die Information"
+        ],
+        [
+          "beginnen",
+          "der Beginn"
+        ]
+      ]
+    },
+    {
+      "id": "gr31-e005",
+      "topicId": "gr-31",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Großschreibung",
+      "title_ar": "الكتابة بحرف كبير",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Einhalten der Frist ist unbedingt erforderlich.",
+      "explanation_de": "Einhalten ist hier ein substantivierter Infinitiv und wird großgeschrieben.",
+      "explanation_ar": "Einhalten مصدر مستخدم كاسم ولذلك يُكتب بحرف كبير.",
+      "grammarFocus": "capitalization_infinitive",
+      "tokens": [
+        "ist unbedingt erforderlich",
+        "der Frist",
+        "Das Einhalten"
+      ],
+      "acceptedAnswers": [
+        "Das Einhalten der Frist ist unbedingt erforderlich."
+      ]
+    },
+    {
+      "id": "gr31-e006",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Substantiviertes Adjektiv",
+      "title_ar": "صفة مستخدمة كاسم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Verantwortliche wurde über den Vorfall informiert.",
+      "explanation_de": "Das substantivierte Adjektiv wird großgeschrieben und dekliniert.",
+      "explanation_ar": "تُكتب الصفة المستخدمة كاسم بحرف كبير وتُصرف.",
+      "grammarFocus": "nominalized_adjective_person",
+      "options": [
+        "Der Verantwortliche wurde über den Vorfall informiert.",
+        "Der Verantwortlich wurde über den Vorfall informiert.",
+        "Der verantwortliche wurde über den Vorfall informiert.",
+        "Das Verantwortliche wurde über den Vorfall informiert."
+      ]
+    },
+    {
+      "id": "gr31-e007",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Etwas Neues",
+      "title_ar": "etwas Neues",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Gibt es etwas Neues zum Antrag?",
+      "explanation_de": "Nach etwas steht das substantivierte Adjektiv hier im Neutrum mit -es.",
+      "explanation_ar": "بعد etwas تأتي الصفة المستخدمة كاسم في المحايد مع -es.",
+      "grammarFocus": "etwas_nominalized_adjective",
+      "options": [
+        "Gibt es etwas Neues zum Antrag?",
+        "Gibt es etwas Neu zum Antrag?",
+        "Gibt es etwas Neue zum Antrag?",
+        "Gibt es etwas neuen zum Antrag?"
+      ]
+    },
+    {
+      "id": "gr31-e008",
+      "topicId": "gr-31",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Abstraktes Nomen",
+      "title_ar": "اسم مجرد",
+      "prompt_de": "Die ______ der Daten muss vor der Veröffentlichung geprüft werden. (zuverlässig)",
+      "prompt_ar": "يجب فحص موثوقية البيانات قبل النشر.",
+      "answer": "Zuverlässigkeit",
+      "explanation_de": "Das abstrakte Nomen zu zuverlässig lautet Zuverlässigkeit.",
+      "explanation_ar": "الاسم المجرد من zuverlässig هو Zuverlässigkeit.",
+      "grammarFocus": "adjective_to_igkeit",
+      "acceptedAnswers": [
+        "Zuverlässigkeit",
+        "die Zuverlässigkeit"
+      ]
+    },
+    {
+      "id": "gr31-e009",
+      "topicId": "gr-31",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Objekt nominalisieren",
+      "title_ar": "تحويل المفعول إلى صيغة اسمية",
+      "prompt_de": "Formen Sie um: Die Fachabteilung prüft die Unterlagen.",
+      "prompt_ar": "حوّل الجملة إلى مجموعة اسمية.",
+      "answer": "die Prüfung der Unterlagen durch die Fachabteilung",
+      "explanation_de": "Das Akkusativobjekt wird zum Genitivattribut; die handelnde Stelle steht mit durch.",
+      "explanation_ar": "يتحول المفعول إلى Genitiv، وتأتي الجهة القائمة بالفعل مع durch.",
+      "grammarFocus": "object_to_genitive",
+      "acceptedAnswers": [
+        "die Prüfung der Unterlagen durch die Fachabteilung",
+        "Die Prüfung der Unterlagen durch die Fachabteilung"
+      ]
+    },
+    {
+      "id": "gr31-e010",
+      "topicId": "gr-31",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Adjektiv nominalisieren",
+      "title_ar": "تحويل الصفة إلى اسم",
+      "prompt_de": "Formen Sie um: Das System ist jederzeit verfügbar.",
+      "prompt_ar": "حوّل الجملة باستخدام اسم مجرد.",
+      "answer": "die jederzeitige Verfügbarkeit des Systems",
+      "explanation_de": "Verfügbar wird zu Verfügbarkeit; das System steht als Genitivattribut.",
+      "explanation_ar": "تتحول verfügbar إلى Verfügbarkeit، ويأتي النظام في Genitiv.",
+      "grammarFocus": "adjective_clause_to_noun_phrase",
+      "acceptedAnswers": [
+        "die jederzeitige Verfügbarkeit des Systems",
+        "Die jederzeitige Verfügbarkeit des Systems"
+      ]
+    },
+    {
+      "id": "gr31-e011",
+      "topicId": "gr-31",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nominalgruppe",
+      "title_ar": "مجموعة اسمية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Einführung des neuen Systems erfolgt schrittweise.",
+      "explanation_de": "Einführung ist feminin; des neuen Systems ist ein Genitivattribut.",
+      "explanation_ar": "Einführung مؤنث، وdes neuen Systems تركيب Genitiv.",
+      "grammarFocus": "nominal_group_order",
+      "tokens": [
+        "erfolgt schrittweise",
+        "des neuen Systems",
+        "Die Einführung"
+      ],
+      "acceptedAnswers": [
+        "Die Einführung des neuen Systems erfolgt schrittweise."
+      ]
+    },
+    {
+      "id": "gr31-e012",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Infinitiv oder abgeleitetes Nomen",
+      "title_ar": "مصدر أم اسم مشتق",
+      "prompt_de": "Welche Formulierung beschreibt am ehesten einen festgelegten Termin oder organisierten Vorgang?",
+      "prompt_ar": "أي صياغة تدل أكثر على موعد أو إجراء منظم؟",
+      "answer": "Die Prüfung findet am Montag statt.",
+      "explanation_de": "Prüfung bezeichnet hier einen organisierten Vorgang oder Termin.",
+      "explanation_ar": "تدل Prüfung هنا على إجراء أو موعد منظم.",
+      "grammarFocus": "process_vs_activity",
+      "options": [
+        "Die Prüfung findet am Montag statt.",
+        "Das Prüfen findet am Montag als einzelnes Verb statt.",
+        "Die Prüfen findet am Montag statt.",
+        "Das geprüft findet am Montag statt."
+      ]
+    },
+    {
+      "id": "gr31-e013",
+      "topicId": "gr-31",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Adjektiv und abstraktes Nomen",
+      "title_ar": "الصفة والاسم المجرد",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "sicher": "die Sicherheit",
+        "klar": "die Klarheit",
+        "möglich": "die Möglichkeit",
+        "verfügbar": "die Verfügbarkeit",
+        "zuverlässig": "die Zuverlässigkeit"
+      },
+      "explanation_de": "Die Endungen -heit, -keit und -igkeit bilden abstrakte Nomen.",
+      "explanation_ar": "تكوّن النهايات -heit و-keit و-igkeit أسماء مجردة.",
+      "grammarFocus": "adjective_noun_matching",
+      "pairs": [
+        [
+          "sicher",
+          "die Sicherheit"
+        ],
+        [
+          "klar",
+          "die Klarheit"
+        ],
+        [
+          "möglich",
+          "die Möglichkeit"
+        ],
+        [
+          "verfügbar",
+          "die Verfügbarkeit"
+        ],
+        [
+          "zuverlässig",
+          "die Zuverlässigkeit"
+        ]
+      ]
+    },
+    {
+      "id": "gr31-e014",
+      "topicId": "gr-31",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen formellen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا رسميًا؟",
+      "answer": "Die Überprüfung der Zugriffsrechte durch die IT-Abteilung wurde abgeschlossen.",
+      "explanation_de": "Die Nominalgruppe benennt Vorgang, Gegenstand und handelnde Abteilung präzise.",
+      "explanation_ar": "تذكر المجموعة الاسمية الإجراء وموضوعه والجهة القائمة به بدقة.",
+      "grammarFocus": "formal_nominal_style",
+      "options": [
+        "Die Überprüfung der Zugriffsrechte durch die IT-Abteilung wurde abgeschlossen.",
+        "Die IT-Abteilung hat halt geschaut, wer reinkommt.",
+        "Das Überprüfen von die Rechte durch IT ist fertig.",
+        "Die Zugriffsrechte prüfen die IT-Abteilung wurde abgeschlossen."
+      ]
+    },
+    {
+      "id": "gr31-e015",
+      "topicId": "gr-31",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Substantiviertes Adjektiv im Plural",
+      "title_ar": "صفة مستخدمة كاسم في الجمع",
+      "prompt_de": "Alle ______ müssen an der Unterweisung teilnehmen. (beschäftigt)",
+      "prompt_ar": "يجب على جميع الموظفين المشاركة في التوجيه.",
+      "answer": "Beschäftigten",
+      "explanation_de": "Nach alle steht das substantivierte Adjektiv im Plural mit -en.",
+      "explanation_ar": "بعد alle تأتي الصفة المستخدمة كاسم في الجمع مع -en.",
+      "grammarFocus": "nominalized_adjective_plural",
+      "acceptedAnswers": [
+        "Beschäftigten",
+        "die Beschäftigten"
+      ]
+    },
+    {
+      "id": "gr31-e016",
+      "topicId": "gr-31",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Durch-Ergänzung",
+      "title_ar": "إضافة durch",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Information der Beschäftigten durch die Leitung erfolgte rechtzeitig.",
+      "explanation_de": "Der Gegenstand steht im Genitiv; die handelnde Stelle wird mit durch ergänzt.",
+      "explanation_ar": "يأتي موضوع الإبلاغ في Genitiv، وتُذكر الجهة القائمة بالفعل مع durch.",
+      "grammarFocus": "agent_durch_order",
+      "tokens": [
+        "erfolgte rechtzeitig",
+        "durch die Leitung",
+        "der Beschäftigten",
+        "Die Information"
+      ],
+      "acceptedAnswers": [
+        "Die Information der Beschäftigten durch die Leitung erfolgte rechtzeitig."
+      ]
+    },
+    {
+      "id": "gr31-e017",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Etwas Wichtiges",
+      "title_ar": "etwas Wichtiges",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "etwas Wichtiges – nichts Neues – viel Positives",
+      "explanation_de": "Alle Formen sind substantivierte Adjektive und werden großgeschrieben.",
+      "explanation_ar": "جميع الصيغ صفات مستخدمة كأسماء وتُكتب بحرف كبير.",
+      "grammarFocus": "indefinite_nominalized_adjectives",
+      "options": [
+        "etwas Wichtiges – nichts Neues – viel Positives",
+        "etwas wichtiges – nichts neues – viel positives",
+        "etwas Wichtig – nichts Neue – viel Positive",
+        "etwas Wichtigen – nichts Neuen – viel Positiv"
+      ]
+    },
+    {
+      "id": "gr31-e018",
+      "topicId": "gr-31",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe Nominalisierung",
+      "title_ar": "تحويل اسمي معقد",
+      "prompt_de": "Nominalisieren Sie: Die Leitung informierte die Beschäftigten rechtzeitig über die Änderung.",
+      "prompt_ar": "حوّل الجملة إلى صيغة اسمية.",
+      "answer": "die rechtzeitige Information der Beschäftigten über die Änderung durch die Leitung",
+      "explanation_de": "Beschäftigte und Änderung bleiben Ergänzungen; die Leitung wird mit durch genannt.",
+      "explanation_ar": "يبقى الموظفون والتغيير متممين، وتُذكر الإدارة باستخدام durch.",
+      "grammarFocus": "complex_nominalization",
+      "acceptedAnswers": [
+        "die rechtzeitige Information der Beschäftigten über die Änderung durch die Leitung",
+        "Die rechtzeitige Information der Beschäftigten über die Änderung durch die Leitung"
+      ]
+    },
+    {
+      "id": "gr31-e019",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Artikel und Plural",
+      "title_ar": "الأداة والجمع",
+      "prompt_de": "Welche Reihe ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "die Entscheidung – die Entscheidungen; die Möglichkeit – die Möglichkeiten; der Beginn – die Beginne",
+      "explanation_de": "Die Artikel und Pluralformen sind korrekt.",
+      "explanation_ar": "الأدوات وصيغ الجمع صحيحة.",
+      "grammarFocus": "article_plural",
+      "options": [
+        "die Entscheidung – die Entscheidungen; die Möglichkeit – die Möglichkeiten; der Beginn – die Beginne",
+        "der Entscheidung – die Entscheidunge; das Möglichkeit – die Möglichkeiten; die Beginn – die Beginnen",
+        "die Entscheidung – die Entscheidung; der Möglichkeit – die Möglichkeite; das Beginn – die Beginne",
+        "das Entscheidung – die Entscheidungen; die Möglichkeit – die Möglichkeiten; der Beginn – die Beginns"
+      ]
+    },
+    {
+      "id": "gr31-e020",
+      "topicId": "gr-31",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formelle Maßnahmenbeschreibung",
+      "title_ar": "وصف إجراء رسمي",
+      "prompt_de": "Welche Formulierung ist präzise und grammatisch korrekt?",
+      "prompt_ar": "أي صياغة دقيقة وصحيحة نحويًا؟",
+      "answer": "Die Verbesserung der Datensicherheit erfordert die regelmäßige Überprüfung aller Zugriffsrechte.",
+      "explanation_de": "Verbesserung und Überprüfung sind korrekt gebildete Prozessnomen mit Genitivattributen.",
+      "explanation_ar": "Verbesserung وÜberprüfung اسمان صحيحان لعمليتين مع تراكيب Genitiv.",
+      "grammarFocus": "formal_measure_nominalization",
+      "options": [
+        "Die Verbesserung der Datensicherheit erfordert die regelmäßige Überprüfung aller Zugriffsrechte.",
+        "Das Verbessern die Datensicherheit erfordert die regelmäßig Prüfen alle Rechte.",
+        "Die Verbesserkeit von Datensicherheit erfordert das Überprüft der Rechte.",
+        "Die Verbesserung der Datensicherheit erfordert regelmäßig alle Zugriffsrechte überprüfen."
+      ]
+    },
+    {
+      "id": "gr31-e021",
+      "topicId": "gr-31",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Nominalisierungen",
+      "title_ar": "عدة تحويلات اسمية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die sorgfältige Vorbereitung und die zuverlässige Durchführung der Maßnahme sind entscheidend für ihren Erfolg.",
+      "explanation_de": "Vorbereitung und Durchführung sind feminine Nomen; der Maßnahme ist Genitiv.",
+      "explanation_ar": "Vorbereitung وDurchführung اسمان مؤنثان، وder Maßnahme تركيب Genitiv.",
+      "grammarFocus": "multiple_nominalizations_order",
+      "tokens": [
+        "sind entscheidend für ihren Erfolg",
+        "der Maßnahme",
+        "und die zuverlässige Durchführung",
+        "Die sorgfältige Vorbereitung"
+      ],
+      "acceptedAnswers": [
+        "Die sorgfältige Vorbereitung und die zuverlässige Durchführung der Maßnahme sind entscheidend für ihren Erfolg."
+      ]
+    },
+    {
+      "id": "gr31-e022",
+      "topicId": "gr-31",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutungsunterschied",
+      "title_ar": "فرق المعنى",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Das Prüfen der Werte“ betont eher die Tätigkeit; „die Prüfung“ kann einen organisierten Vorgang oder ein Ergebnis bezeichnen.",
+      "explanation_de": "Substantivierter Infinitiv und abgeleitetes Nomen können unterschiedliche Schwerpunkte haben.",
+      "explanation_ar": "قد يختلف التركيز بين المصدر المستخدم كاسم والاسم المشتق.",
+      "grammarFocus": "meaning_difference",
+      "options": [
+        "„Das Prüfen der Werte“ betont eher die Tätigkeit; „die Prüfung“ kann einen organisierten Vorgang oder ein Ergebnis bezeichnen.",
+        "„Das Prüfen“ und „die Prüfung“ sind in jedem Kontext vollständig austauschbar.",
+        "„Die Prüfung“ ist immer ein Verb.",
+        "„Das Prüfen“ darf nie mit einer Ergänzung stehen."
+      ]
+    },
+    {
+      "id": "gr31-e023",
+      "topicId": "gr-31",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Verb und Adjektiv nominalisieren",
+      "title_ar": "تحويل فعل وصفة إلى أسماء",
+      "prompt_de": "Formen Sie um: Die Daten werden regelmäßig geprüft, weil sie zuverlässig sein müssen.",
+      "prompt_ar": "حوّل الجملة باستخدام اسم للفعل واسم للصفة.",
+      "answer": "Die regelmäßige Prüfung der Daten ist zur Gewährleistung der erforderlichen Zuverlässigkeit notwendig.",
+      "explanation_de": "Prüfen wird zu Prüfung und zuverlässig zu Zuverlässigkeit; zur Gewährleistung drückt das Ziel präzise aus.",
+      "explanation_ar": "تتحول prüfen إلى Prüfung وzuverlässig إلى Zuverlässigkeit، وتعبّر zur Gewährleistung عن الغاية بدقة.",
+      "grammarFocus": "verb_adjective_nominalization",
+      "acceptedAnswers": [
+        "Die regelmäßige Prüfung der Daten ist zur Gewährleistung der erforderlichen Zuverlässigkeit notwendig."
+      ]
+    },
+    {
+      "id": "gr31-e024",
+      "topicId": "gr-31",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Nominalisierung",
+      "title_ar": "تدريب ختامي على التحويل الاسمي",
+      "prompt_de": "Schreiben Sie einen sachlichen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens vier substantivierte Infinitive, fünf abgeleitete Nomen aus Verben, vier abstrakte Nomen aus Adjektiven, zwei substantivierte Adjektive für Personen und zwei Formen nach etwas, nichts oder viel.",
+      "prompt_ar": "اكتب نصًا مهنيًا موضوعيًا من اثنتي عشرة جملة على الأقل. استخدم أربعة مصادر على الأقل بوصفها أسماء، وخمسة أسماء مشتقة من أفعال، وأربعة أسماء مجردة مشتقة من صفات، وصفتين مستخدمتين كأسماء للأشخاص، وصيغتين بعد etwas أو nichts أو viel.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier substantivierte Infinitive",
+          "mindestens fünf abgeleitete Nomen aus Verben",
+          "mindestens vier abstrakte Nomen auf -heit, -keit oder -igkeit",
+          "mindestens zwei substantivierte Adjektive für Personen",
+          "mindestens zwei Formen wie etwas Neues oder nichts Wichtiges",
+          "mindestens drei Genitivattribute",
+          "mindestens eine handelnde Stelle mit durch",
+          "korrekte Artikel und Großschreibung",
+          "verständlicher sachlicher Stil",
+          "keine unnötige Häufung von Nominalisierungen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Wortbildung, Artikel, Großschreibung, Ergänzungen und Verständlichkeit.",
+      "explanation_ar": "راجع اشتقاق الكلمات والأدوات والكتابة بحرف كبير والمتممات ووضوح النص.",
+      "grammarFocus": "mixed_nominalization",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

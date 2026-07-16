@@ -1,0 +1,550 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-22",
+  "title_de": "Konzessive und adversative Konnektoren – Übungen",
+  "title_ar": "تمارين أدوات الربط الاستدراكية والتعارضية",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr22-e001",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Obwohl-Satz",
+      "title_ar": "جملة obwohl",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Obwohl die Frist kurz war, wurde der Bericht rechtzeitig fertig.",
+      "explanation_de": "Im obwohl-Satz steht war am Ende.",
+      "explanation_ar": "في جملة obwohl تأتي war في النهاية.",
+      "grammarFocus": "obwohl_word_order",
+      "options": [
+        "Obwohl die Frist kurz war, wurde der Bericht rechtzeitig fertig.",
+        "Obwohl war die Frist kurz, wurde der Bericht rechtzeitig fertig.",
+        "Obwohl die Frist war kurz, wurde der Bericht rechtzeitig fertig.",
+        "Obwohl die Frist kurz war, der Bericht wurde rechtzeitig fertig."
+      ]
+    },
+    {
+      "id": "gr22-e002",
+      "topicId": "gr-22",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Einräumung",
+      "title_ar": "استدراك",
+      "prompt_de": "Wir führen das Projekt fort, ______ das Budget knapp ist.",
+      "prompt_ar": "نواصل المشروع رغم أن الميزانية محدودة.",
+      "answer": "obwohl",
+      "explanation_de": "Obwohl leitet den Gegengrund als Nebensatz ein.",
+      "explanation_ar": "تدخل obwohl السبب المعاكس في جملة فرعية.",
+      "grammarFocus": "obwohl_concession",
+      "acceptedAnswers": [
+        "obwohl"
+      ]
+    },
+    {
+      "id": "gr22-e003",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Trotzdem",
+      "title_ar": "trotzdem",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Budget ist knapp. Trotzdem führen wir das Projekt fort.",
+      "explanation_de": "Nach trotzdem folgt direkt das konjugierte Verb führen.",
+      "explanation_ar": "بعد trotzdem يأتي الفعل المصرف führen مباشرة.",
+      "grammarFocus": "trotzdem_order",
+      "options": [
+        "Das Budget ist knapp. Trotzdem führen wir das Projekt fort.",
+        "Das Budget ist knapp. Trotzdem wir führen das Projekt fort.",
+        "Das Budget ist knapp. Trotzdem das Projekt wir fortführen.",
+        "Das Budget ist knapp. Trotzdem wir das Projekt fortführen."
+      ]
+    },
+    {
+      "id": "gr22-e004",
+      "topicId": "gr-22",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Funktion zuordnen",
+      "title_ar": "مطابقة الوظيفة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "obwohl": "Einräumung im Nebensatz",
+        "trotzdem": "unerwartete Folge",
+        "aber": "neutraler Gegensatz",
+        "sondern": "Korrektur nach Negation",
+        "dagegen": "direkte Gegenüberstellung"
+      },
+      "explanation_de": "Jeder Konnektor hat eine typische Funktion.",
+      "explanation_ar": "لكل أداة وظيفة نموذجية.",
+      "grammarFocus": "function_matching",
+      "pairs": [
+        [
+          "obwohl",
+          "Einräumung im Nebensatz"
+        ],
+        [
+          "trotzdem",
+          "unerwartete Folge"
+        ],
+        [
+          "aber",
+          "neutraler Gegensatz"
+        ],
+        [
+          "sondern",
+          "Korrektur nach Negation"
+        ],
+        [
+          "dagegen",
+          "direkte Gegenüberstellung"
+        ]
+      ]
+    },
+    {
+      "id": "gr22-e005",
+      "topicId": "gr-22",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Aber-Satz",
+      "title_ar": "جملة aber",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Lösung ist einfach, aber sie ist nicht dauerhaft.",
+      "explanation_de": "Nach aber bleibt die normale Hauptsatzstellung erhalten.",
+      "explanation_ar": "بعد aber يبقى ترتيب الجملة الرئيسية عاديًا.",
+      "grammarFocus": "aber_order",
+      "tokens": [
+        "nicht dauerhaft",
+        "aber",
+        "Die Lösung ist einfach",
+        "sie",
+        "ist"
+      ],
+      "acceptedAnswers": [
+        "Die Lösung ist einfach, aber sie ist nicht dauerhaft."
+      ]
+    },
+    {
+      "id": "gr22-e006",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Sondern",
+      "title_ar": "sondern",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir brauchen nicht mehr Personal, sondern klarere Abläufe.",
+      "explanation_de": "Nach einer verneinten Aussage wird mit sondern korrigiert.",
+      "explanation_ar": "بعد جملة منفية نستخدم sondern للتصحيح.",
+      "grammarFocus": "sondern_after_negation",
+      "options": [
+        "Wir brauchen nicht mehr Personal, sondern klarere Abläufe.",
+        "Wir brauchen nicht mehr Personal, aber klarere Abläufe.",
+        "Wir brauchen mehr Personal, sondern klarere Abläufe.",
+        "Wir brauchen nicht mehr Personal, trotzdem klarere Abläufe."
+      ]
+    },
+    {
+      "id": "gr22-e007",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nicht nur ... sondern auch",
+      "title_ar": "nicht nur ... sondern auch",
+      "prompt_de": "Welche feste Verbindung ist korrekt?",
+      "prompt_ar": "أي تركيب ثابت صحيح؟",
+      "answer": "Die Maßnahme spart nicht nur Kosten, sondern verbessert auch die Sicherheit.",
+      "explanation_de": "Die feste Verbindung lautet nicht nur ... sondern auch.",
+      "explanation_ar": "التركيب الثابت هو nicht nur ... sondern auch.",
+      "grammarFocus": "not_only_but_also",
+      "options": [
+        "Die Maßnahme spart nicht nur Kosten, sondern verbessert auch die Sicherheit.",
+        "Die Maßnahme spart nicht nur Kosten, aber verbessert auch die Sicherheit.",
+        "Die Maßnahme spart nur nicht Kosten, sondern auch Sicherheit.",
+        "Die Maßnahme spart nicht Kosten, sondern auch verbessert Sicherheit."
+      ]
+    },
+    {
+      "id": "gr22-e008",
+      "topicId": "gr-22",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Jedoch",
+      "title_ar": "jedoch",
+      "prompt_de": "Die erste Lösung war günstig. ______ erfüllte sie nicht alle Anforderungen.",
+      "prompt_ar": "كان الحل الأول رخيصًا، لكنه لم يلبِّ جميع المتطلبات.",
+      "answer": "Jedoch",
+      "explanation_de": "Jedoch leitet einen formelleren Gegensatz ein.",
+      "explanation_ar": "تقدم Jedoch تعارضًا أكثر رسمية.",
+      "grammarFocus": "jedoch_contrast",
+      "acceptedAnswers": [
+        "Jedoch",
+        "jedoch"
+      ]
+    },
+    {
+      "id": "gr22-e009",
+      "topicId": "gr-22",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Obwohl zu trotzdem",
+      "title_ar": "من obwohl إلى trotzdem",
+      "prompt_de": "Formen Sie um: Obwohl mehrere Risiken bestanden, wurde die Maßnahme umgesetzt.",
+      "prompt_ar": "أعد الصياغة باستخدام trotzdem.",
+      "answer": "Mehrere Risiken bestanden. Trotzdem wurde die Maßnahme umgesetzt.",
+      "explanation_de": "Der Gegengrund steht zuerst; trotzdem leitet die unerwartete Folge ein.",
+      "explanation_ar": "يأتي السبب المعاكس أولًا وتقدم trotzdem النتيجة غير المتوقعة.",
+      "grammarFocus": "obwohl_to_trotzdem",
+      "acceptedAnswers": [
+        "Mehrere Risiken bestanden. Trotzdem wurde die Maßnahme umgesetzt."
+      ]
+    },
+    {
+      "id": "gr22-e010",
+      "topicId": "gr-22",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Trotzdem zu obwohl",
+      "title_ar": "من trotzdem إلى obwohl",
+      "prompt_de": "Formen Sie um: Die Daten waren unvollständig. Trotzdem wurde eine vorläufige Bewertung erstellt.",
+      "prompt_ar": "أعد الصياغة باستخدام obwohl.",
+      "answer": "Obwohl die Daten unvollständig waren, wurde eine vorläufige Bewertung erstellt.",
+      "explanation_de": "Obwohl leitet den Gegengrund als Nebensatz ein.",
+      "explanation_ar": "تدخل obwohl السبب المعاكس في جملة فرعية.",
+      "grammarFocus": "trotzdem_to_obwohl",
+      "acceptedAnswers": [
+        "Obwohl die Daten unvollständig waren, wurde eine vorläufige Bewertung erstellt."
+      ]
+    },
+    {
+      "id": "gr22-e011",
+      "topicId": "gr-22",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Jedoch am Satzanfang",
+      "title_ar": "jedoch في بداية الجملة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Lösung war kostengünstig. Jedoch verursachte sie hohe Folgekosten.",
+      "explanation_de": "Nach jedoch folgt direkt das Verb verursachte.",
+      "explanation_ar": "بعد jedoch يأتي الفعل verursachte مباشرة.",
+      "grammarFocus": "jedoch_order",
+      "tokens": [
+        "hohe Folgekosten",
+        "Jedoch",
+        "sie",
+        "verursachte",
+        "Die Lösung war kostengünstig"
+      ],
+      "acceptedAnswers": [
+        "Die Lösung war kostengünstig. Jedoch verursachte sie hohe Folgekosten."
+      ]
+    },
+    {
+      "id": "gr22-e012",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Dagegen",
+      "title_ar": "dagegen",
+      "prompt_de": "Welche Form stellt zwei Systeme direkt gegenüber?",
+      "prompt_ar": "أي صيغة تقارن بين نظامين مباشرة؟",
+      "answer": "Das alte System ist langsam. Dagegen arbeitet das neue deutlich schneller.",
+      "explanation_de": "Dagegen stellt zwei Sachverhalte direkt gegenüber.",
+      "explanation_ar": "تقارن Dagegen بين حالتين مباشرة.",
+      "grammarFocus": "dagegen_comparison",
+      "options": [
+        "Das alte System ist langsam. Dagegen arbeitet das neue deutlich schneller.",
+        "Das alte System ist langsam, obwohl arbeitet das neue schneller.",
+        "Das alte System ist langsam, sondern das neue schneller.",
+        "Das alte System ist langsam. Trotzdem das neue arbeitet schneller."
+      ]
+    },
+    {
+      "id": "gr22-e013",
+      "topicId": "gr-22",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Strukturen ergänzen",
+      "title_ar": "إكمال التراكيب",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "zwar": "aber",
+        "nicht nur": "sondern auch",
+        "nicht": "sondern",
+        "obwohl": "Verb am Ende",
+        "trotzdem": "Verb direkt danach"
+      },
+      "explanation_de": "Die Strukturen haben feste Partner oder Wortstellungsregeln.",
+      "explanation_ar": "للتراكيب شركاء ثابتون أو قواعد ترتيب محددة.",
+      "grammarFocus": "structure_matching",
+      "pairs": [
+        [
+          "zwar",
+          "aber"
+        ],
+        [
+          "nicht nur",
+          "sondern auch"
+        ],
+        [
+          "nicht",
+          "sondern"
+        ],
+        [
+          "obwohl",
+          "Verb am Ende"
+        ],
+        [
+          "trotzdem",
+          "Verb direkt danach"
+        ]
+      ]
+    },
+    {
+      "id": "gr22-e014",
+      "topicId": "gr-22",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Beruflicher Vergleich",
+      "title_ar": "مقارنة مهنية",
+      "prompt_de": "Welche Formulierung ist sachlich und ausgewogen?",
+      "prompt_ar": "أي صياغة موضوعية ومتوازنة؟",
+      "answer": "Die neue Lösung ist zwar teurer, aber deutlich zuverlässiger.",
+      "explanation_de": "Zwar ... aber räumt einen Nachteil ein und nennt danach einen Vorteil.",
+      "explanation_ar": "تعترف zwar ... aber بعيب ثم تذكر ميزة.",
+      "grammarFocus": "balanced_evaluation",
+      "options": [
+        "Die neue Lösung ist zwar teurer, aber deutlich zuverlässiger.",
+        "Die neue Lösung ist teuer, deshalb unzuverlässig.",
+        "Die neue Lösung ist nicht teuer, sondern zuverlässig.",
+        "Obwohl die neue Lösung teurer ist, aber ist sie zuverlässig."
+      ]
+    },
+    {
+      "id": "gr22-e015",
+      "topicId": "gr-22",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Sondern-Korrektur",
+      "title_ar": "تصحيح باستخدام sondern",
+      "prompt_de": "Nicht die Technik, ______ die fehlende Planung war das Problem.",
+      "prompt_ar": "لم تكن التقنية، بل كان التخطيط الناقص هو المشكلة.",
+      "answer": "sondern",
+      "explanation_de": "Sondern korrigiert eine verneinte Aussage.",
+      "explanation_ar": "تُستخدم sondern لتصحيح جملة منفية.",
+      "grammarFocus": "sondern_correction",
+      "acceptedAnswers": [
+        "sondern"
+      ]
+    },
+    {
+      "id": "gr22-e016",
+      "topicId": "gr-22",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Obwohl zuerst",
+      "title_ar": "obwohl أولًا",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Obwohl mehrere Mitarbeitende fehlten, konnte der Betrieb aufrechterhalten werden.",
+      "explanation_de": "Nach dem Nebensatz beginnt der Hauptsatz mit konnte.",
+      "explanation_ar": "بعد الجملة الفرعية تبدأ الجملة الرئيسية بـ konnte.",
+      "grammarFocus": "fronted_obwohl",
+      "tokens": [
+        "aufrechterhalten werden",
+        "mehrere Mitarbeitende",
+        "konnte",
+        "Obwohl",
+        "fehlten",
+        "der Betrieb"
+      ],
+      "acceptedAnswers": [
+        "Obwohl mehrere Mitarbeitende fehlten, konnte der Betrieb aufrechterhalten werden."
+      ]
+    },
+    {
+      "id": "gr22-e017",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Obgleich",
+      "title_ar": "obgleich",
+      "prompt_de": "Welche Form ist korrekt und eher formell?",
+      "prompt_ar": "أي صيغة صحيحة وأكثر رسمية؟",
+      "answer": "Obgleich mehrere Einwände vorlagen, wurde die Entscheidung getroffen.",
+      "explanation_de": "Obgleich ist eine formellere Variante von obwohl.",
+      "explanation_ar": "تُعد obgleich صيغة أكثر رسمية من obwohl.",
+      "grammarFocus": "obgleich_formal",
+      "options": [
+        "Obgleich mehrere Einwände vorlagen, wurde die Entscheidung getroffen.",
+        "Obgleich lagen mehrere Einwände vor, wurde entschieden.",
+        "Obgleich mehrere Einwände vorlagen, die Entscheidung wurde getroffen.",
+        "Obgleich mehrere Einwände lagen vor, wurde entschieden."
+      ]
+    },
+    {
+      "id": "gr22-e018",
+      "topicId": "gr-22",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Dreifache Umformung",
+      "title_ar": "إعادة صياغة ثلاثية",
+      "prompt_de": "Formulieren Sie dieselbe Beziehung mit obwohl, trotzdem und zwar ... aber: Die Umstellung ist aufwendig. Sie ist langfristig sinnvoll.",
+      "prompt_ar": "صغ العلاقة نفسها باستخدام obwohl وtrotzdem وzwar ... aber.",
+      "answer": "Obwohl die Umstellung aufwendig ist, ist sie langfristig sinnvoll. Die Umstellung ist aufwendig. Trotzdem ist sie langfristig sinnvoll. Die Umstellung ist zwar aufwendig, aber langfristig sinnvoll.",
+      "explanation_de": "Die drei Formen drücken denselben Grundkontrast mit unterschiedlicher Struktur aus.",
+      "explanation_ar": "تعبّر الصيغ الثلاث عن التعارض نفسه ببنى مختلفة.",
+      "grammarFocus": "multiple_concessive_reformulation",
+      "acceptedAnswers": [
+        "Obwohl die Umstellung aufwendig ist, ist sie langfristig sinnvoll. Die Umstellung ist aufwendig. Trotzdem ist sie langfristig sinnvoll. Die Umstellung ist zwar aufwendig, aber langfristig sinnvoll."
+      ]
+    },
+    {
+      "id": "gr22-e019",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Fehleranalyse",
+      "title_ar": "تحليل الخطأ",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Obwohl die Nachfrage gestiegen ist, konnte der Umsatz nicht erhöht werden.",
+      "explanation_de": "Im obwohl-Satz steht ist am Ende; der Hauptsatz beginnt mit konnte.",
+      "explanation_ar": "في جملة obwohl تأتي ist في النهاية وتبدأ الجملة الرئيسية بـ konnte.",
+      "grammarFocus": "complex_obwohl",
+      "options": [
+        "Obwohl die Nachfrage gestiegen ist, konnte der Umsatz nicht erhöht werden.",
+        "Obwohl ist die Nachfrage gestiegen, der Umsatz konnte nicht erhöht werden.",
+        "Obwohl die Nachfrage ist gestiegen, konnte nicht der Umsatz erhöht werden.",
+        "Obwohl die Nachfrage gestiegen ist, der Umsatz konnte nicht erhöht werden."
+      ]
+    },
+    {
+      "id": "gr22-e020",
+      "topicId": "gr-22",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Die Maßnahme senkte zwar kurzfristig die Kosten, führte jedoch langfristig zu höheren Ausgaben.",
+      "explanation_de": "Zwar und jedoch formulieren einen differenzierten Gegensatz.",
+      "explanation_ar": "تعبّر zwar وjedoch عن تعارض دقيق ومتوازن.",
+      "grammarFocus": "formal_report_contrast",
+      "options": [
+        "Die Maßnahme senkte zwar kurzfristig die Kosten, führte jedoch langfristig zu höheren Ausgaben.",
+        "Die Maßnahme war billig, aber später irgendwie teuer.",
+        "Obwohl die Maßnahme senkte Kosten, jedoch Ausgaben stiegen.",
+        "Die Maßnahme senkte Kosten, sondern die Ausgaben waren hoch."
+      ]
+    },
+    {
+      "id": "gr22-e021",
+      "topicId": "gr-22",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Nicht nur ... sondern auch",
+      "title_ar": "nicht nur ... sondern auch",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die neue Regelung verbessert nicht nur die Qualität, sondern reduziert auch die Bearbeitungszeit.",
+      "explanation_de": "Die feste Verbindung lautet nicht nur ... sondern auch.",
+      "explanation_ar": "الصيغة الثابتة هي nicht nur ... sondern auch.",
+      "grammarFocus": "not_only_order",
+      "tokens": [
+        "die Bearbeitungszeit",
+        "reduziert",
+        "nicht nur",
+        "sondern",
+        "auch",
+        "Die neue Regelung verbessert",
+        "die Qualität"
+      ],
+      "acceptedAnswers": [
+        "Die neue Regelung verbessert nicht nur die Qualität, sondern reduziert auch die Bearbeitungszeit."
+      ]
+    },
+    {
+      "id": "gr22-e022",
+      "topicId": "gr-22",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Korrektur oder Gegensatz",
+      "title_ar": "تصحيح أم تعارض",
+      "prompt_de": "Welche Verbindung ist korrekt?",
+      "prompt_ar": "أي ربط صحيح؟",
+      "answer": "Das Problem lag nicht an der Technik, sondern an der fehlenden Abstimmung.",
+      "explanation_de": "Die zweite Angabe korrigiert die verneinte erste Angabe.",
+      "explanation_ar": "تصحح العبارة الثانية العبارة الأولى المنفية.",
+      "grammarFocus": "correction_not_contrast",
+      "options": [
+        "Das Problem lag nicht an der Technik, sondern an der fehlenden Abstimmung.",
+        "Das Problem lag nicht an der Technik, aber an der fehlenden Abstimmung.",
+        "Das Problem lag an der Technik, sondern an der Abstimmung.",
+        "Das Problem lag nicht an der Technik, trotzdem an der Abstimmung."
+      ]
+    },
+    {
+      "id": "gr22-e023",
+      "topicId": "gr-22",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Stilistische Variation",
+      "title_ar": "تنويع أسلوبي",
+      "prompt_de": "Verbinden Sie drei Aussagen abwechslungsreich: Die Lösung ist schnell. Sie ist ungenau. Sie spart außerdem Kosten.",
+      "prompt_ar": "اربط العبارات الثلاث بأسلوب متنوع.",
+      "answer": "Die Lösung ist zwar schnell, aber ungenau. Sie spart jedoch nicht nur Zeit, sondern auch Kosten.",
+      "explanation_de": "Zwar ... aber zeigt den Gegensatz; nicht nur ... sondern auch ergänzt positiv.",
+      "explanation_ar": "توضح zwar ... aber التعارض، وتضيف nicht nur ... sondern auch معلومة إيجابية.",
+      "grammarFocus": "stylistic_variation",
+      "acceptedAnswers": [
+        "Die Lösung ist zwar schnell, aber ungenau. Sie spart jedoch nicht nur Zeit, sondern auch Kosten."
+      ]
+    },
+    {
+      "id": "gr22-e024",
+      "topicId": "gr-22",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Konzessiv und Adversativ",
+      "title_ar": "تدريب ختامي على الاستدراك والتعارض",
+      "prompt_de": "Schreiben Sie einen beruflichen Vergleich mit mindestens zehn Sätzen. Verwenden Sie obwohl, obgleich, trotzdem, aber, jedoch, dagegen, sondern, zwar ... aber und nicht nur ... sondern auch jeweils mindestens einmal. Stellen Sie zwei Lösungen oder Arbeitsweisen differenziert gegenüber.",
+      "prompt_ar": "اكتب مقارنة مهنية من عشر جمل على الأقل. استخدم obwohl وobgleich وtrotzdem وaber وjedoch وdagegen وsondern وzwar ... aber وnicht nur ... sondern auch مرة واحدة على الأقل لكل منها. قارن بين حلين أو طريقتين للعمل بصورة دقيقة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens ein Satz mit obwohl",
+          "mindestens ein Satz mit obgleich",
+          "mindestens ein Satz mit trotzdem",
+          "mindestens ein Satz mit aber",
+          "mindestens ein Satz mit jedoch",
+          "mindestens ein Satz mit dagegen",
+          "mindestens eine Korrektur mit sondern",
+          "mindestens ein Satz mit zwar ... aber",
+          "mindestens ein Satz mit nicht nur ... sondern auch",
+          "korrekte Verbposition und sachlicher Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Funktion, Verbposition und stilistische Angemessenheit.",
+      "explanation_ar": "راجع الوظيفة وموقع الفعل وملاءمة الأسلوب.",
+      "grammarFocus": "mixed_concessive_adversative",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

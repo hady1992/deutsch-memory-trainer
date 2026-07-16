@@ -1,0 +1,811 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-30",
+  "title_de": "Gemischtes Training – Phase 3 – Übungen",
+  "title_ar": "تمارين التدريب المختلط – المرحلة الثالثة",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr30-e001",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grund ausdrücken",
+      "title_ar": "التعبير عن السبب",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir verschieben den Termin, weil wichtige Unterlagen fehlen.",
+      "explanation_de": "Weil leitet einen kausalen Nebensatz ein; das Verb steht am Ende.",
+      "explanation_ar": "تدخل weil جملة سببية فرعية ويأتي الفعل في النهاية.",
+      "grammarFocus": "causal_weil",
+      "sourceTopics": [
+        "gr-21"
+      ],
+      "options": [
+        "Wir verschieben den Termin, weil wichtige Unterlagen fehlen.",
+        "Wir verschieben den Termin, weil fehlen wichtige Unterlagen.",
+        "Wir verschieben den Termin, deshalb wichtige Unterlagen fehlen.",
+        "Wir verschieben den Termin, denn wichtige Unterlagen fehlen am Ende."
+      ]
+    },
+    {
+      "id": "gr30-e002",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Einräumung",
+      "title_ar": "الاستدراك",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Obwohl die Lösung teuer ist, wird sie empfohlen.",
+      "explanation_de": "Obwohl leitet einen Nebensatz ein; der Hauptsatz beginnt danach mit dem Verb.",
+      "explanation_ar": "تدخل obwohl جملة فرعية، ثم تبدأ الجملة الرئيسية بالفعل.",
+      "grammarFocus": "concessive_obwohl",
+      "sourceTopics": [
+        "gr-22"
+      ],
+      "options": [
+        "Obwohl die Lösung teuer ist, wird sie empfohlen.",
+        "Obwohl ist die Lösung teuer, sie wird empfohlen.",
+        "Obwohl die Lösung teuer ist, aber wird sie empfohlen.",
+        "Trotzdem die Lösung teuer ist, wird sie empfohlen."
+      ]
+    },
+    {
+      "id": "gr30-e003",
+      "topicId": "gr-30",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Ziel mit damit",
+      "title_ar": "غاية باستخدام damit",
+      "prompt_de": "Wir erklären den Ablauf, ______ neue Mitarbeitende ihn sicher anwenden können.",
+      "prompt_ar": "نشرح الإجراء لكي يتمكن الموظفون الجدد من تطبيقه بأمان.",
+      "answer": "damit",
+      "explanation_de": "Die Subjekte wir und neue Mitarbeitende sind verschieden; deshalb steht damit.",
+      "explanation_ar": "الفاعلان wir وneue Mitarbeitende مختلفان، لذلك نستخدم damit.",
+      "grammarFocus": "final_damit",
+      "sourceTopics": [
+        "gr-23",
+        "gr-26"
+      ],
+      "acceptedAnswers": [
+        "damit"
+      ]
+    },
+    {
+      "id": "gr30-e004",
+      "topicId": "gr-30",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Struktur und Funktion",
+      "title_ar": "الصيغة والوظيفة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "weil": "Grund",
+        "obwohl": "Einräumung",
+        "sodass": "Folge",
+        "sobald": "unmittelbare zeitliche Folge",
+        "ohne ... zu": "nicht ausgeführte Handlung"
+      },
+      "explanation_de": "Die Strukturen drücken unterschiedliche logische Beziehungen aus.",
+      "explanation_ar": "تعبّر التراكيب عن علاقات منطقية مختلفة.",
+      "grammarFocus": "connector_function",
+      "sourceTopics": [
+        "gr-21",
+        "gr-22",
+        "gr-23",
+        "gr-24",
+        "gr-26"
+      ],
+      "pairs": [
+        [
+          "weil",
+          "Grund"
+        ],
+        [
+          "obwohl",
+          "Einräumung"
+        ],
+        [
+          "sodass",
+          "Folge"
+        ],
+        [
+          "sobald",
+          "unmittelbare zeitliche Folge"
+        ],
+        [
+          "ohne ... zu",
+          "nicht ausgeführte Handlung"
+        ]
+      ]
+    },
+    {
+      "id": "gr30-e005",
+      "topicId": "gr-30",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Temporale Reihenfolge",
+      "title_ar": "تسلسل زمني",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem der Bericht geprüft worden war, wurde er freigegeben.",
+      "explanation_de": "Das frühere Ereignis steht im nachdem-Satz; das Verb steht am Ende.",
+      "explanation_ar": "يأتي الحدث الأسبق في جملة nachdem ويأتي الفعل في النهاية.",
+      "grammarFocus": "temporal_nachdem",
+      "sourceTopics": [
+        "gr-24"
+      ],
+      "tokens": [
+        "wurde er freigegeben",
+        "geprüft worden war",
+        "Nachdem",
+        "der Bericht"
+      ],
+      "acceptedAnswers": [
+        "Nachdem der Bericht geprüft worden war, wurde er freigegeben."
+      ]
+    },
+    {
+      "id": "gr30-e006",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Infinitiv mit zu",
+      "title_ar": "المصدر مع zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Abteilung plant, den Prozess zu vereinfachen.",
+      "explanation_de": "Nach planen steht eine Infinitivgruppe mit zu.",
+      "explanation_ar": "بعد planen يأتي تركيب مصدر مع zu.",
+      "grammarFocus": "infinitive_zu",
+      "sourceTopics": [
+        "gr-25"
+      ],
+      "options": [
+        "Die Abteilung plant, den Prozess zu vereinfachen.",
+        "Die Abteilung plant, den Prozess vereinfachen.",
+        "Die Abteilung plant, zu den Prozess vereinfachen.",
+        "Die Abteilung plant, den Prozess vereinfacht zu."
+      ]
+    },
+    {
+      "id": "gr30-e007",
+      "topicId": "gr-30",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Relativpronomen Akkusativ",
+      "title_ar": "ضمير وصل في Akkusativ",
+      "prompt_de": "Der Bericht, ______ wir gestern geprüft haben, ist vollständig.",
+      "prompt_ar": "التقرير الذي راجعناه أمس كامل.",
+      "answer": "den",
+      "explanation_de": "Bericht ist maskulin und direktes Objekt von prüfen; deshalb steht den.",
+      "explanation_ar": "Bericht مذكر ومفعول مباشر للفعل prüfen، لذلك نستخدم den.",
+      "grammarFocus": "relative_accusative",
+      "sourceTopics": [
+        "gr-27"
+      ],
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "gr30-e008",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Dativ mit Präposition",
+      "title_ar": "Dativ مع حرف جر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Kollegin, mit der ich gesprochen habe, leitet das Projekt.",
+      "explanation_de": "Mit verlangt Dativ; feminin lautet die Form der.",
+      "explanation_ar": "يحتاج mit إلى Dativ، وصيغة المؤنث هي der.",
+      "grammarFocus": "relative_preposition_dative",
+      "sourceTopics": [
+        "gr-28"
+      ],
+      "options": [
+        "Die Kollegin, mit der ich gesprochen habe, leitet das Projekt.",
+        "Die Kollegin, mit die ich gesprochen habe, leitet das Projekt.",
+        "Die Kollegin, der mit ich gesprochen habe, leitet das Projekt.",
+        "Die Kollegin, mit der habe ich gesprochen, leitet das Projekt."
+      ]
+    },
+    {
+      "id": "gr30-e009",
+      "topicId": "gr-30",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Grund und Folge umformen",
+      "title_ar": "تحويل السبب والنتيجة",
+      "prompt_de": "Formen Sie um: Weil die Nachfrage stark gestiegen ist, benötigen wir zusätzliches Personal. Verwenden Sie deshalb.",
+      "prompt_ar": "أعد الصياغة باستخدام deshalb.",
+      "answer": "Die Nachfrage ist stark gestiegen. Deshalb benötigen wir zusätzliches Personal.",
+      "explanation_de": "Deshalb leitet einen Hauptsatz mit der Folge ein.",
+      "explanation_ar": "تدخل deshalb جملة رئيسية تذكر النتيجة.",
+      "grammarFocus": "causal_result_reformulation",
+      "sourceTopics": [
+        "gr-21"
+      ],
+      "acceptedAnswers": [
+        "Die Nachfrage ist stark gestiegen. Deshalb benötigen wir zusätzliches Personal."
+      ]
+    },
+    {
+      "id": "gr30-e010",
+      "topicId": "gr-30",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zwar ... aber",
+      "title_ar": "zwar ... aber",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Umstellung ist zwar aufwendig, aber langfristig sinnvoll.",
+      "explanation_de": "Zwar räumt den ersten Punkt ein; aber nennt den Gegensatz.",
+      "explanation_ar": "تعترف zwar بالنقطة الأولى وتذكر aber الفكرة المعاكسة.",
+      "grammarFocus": "zwar_aber",
+      "sourceTopics": [
+        "gr-22"
+      ],
+      "tokens": [
+        "aber",
+        "Die Umstellung ist",
+        "langfristig sinnvoll",
+        "zwar aufwendig"
+      ],
+      "acceptedAnswers": [
+        "Die Umstellung ist zwar aufwendig, aber langfristig sinnvoll."
+      ]
+    },
+    {
+      "id": "gr30-e011",
+      "topicId": "gr-30",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Ziel oder Folge",
+      "title_ar": "غاية أم نتيجة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "damit": "Ziel bei vollständigem Nebensatz",
+        "um ... zu": "Ziel bei gleichem Bezug",
+        "sodass": "tatsächliche Folge",
+        "so ... dass": "Grad und Folge",
+        "zu ... als dass": "nicht realisierbare Folge"
+      },
+      "explanation_de": "Die Strukturen unterscheiden Ziel, Folge und nicht mögliche Folge.",
+      "explanation_ar": "تميّز التراكيب بين الغاية والنتيجة والنتيجة غير الممكنة.",
+      "grammarFocus": "final_consecutive_matching",
+      "sourceTopics": [
+        "gr-23",
+        "gr-26"
+      ],
+      "pairs": [
+        [
+          "damit",
+          "Ziel bei vollständigem Nebensatz"
+        ],
+        [
+          "um ... zu",
+          "Ziel bei gleichem Bezug"
+        ],
+        [
+          "sodass",
+          "tatsächliche Folge"
+        ],
+        [
+          "so ... dass",
+          "Grad und Folge"
+        ],
+        [
+          "zu ... als dass",
+          "nicht realisierbare Folge"
+        ]
+      ]
+    },
+    {
+      "id": "gr30-e012",
+      "topicId": "gr-30",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Als oder wenn",
+      "title_ar": "als أم wenn",
+      "prompt_de": "______ ich die Stelle antrat, war das Verfahren noch vollständig papierbasiert.",
+      "prompt_ar": "عندما بدأت الوظيفة كان الإجراء ما يزال ورقيًا بالكامل.",
+      "answer": "Als",
+      "explanation_de": "Es handelt sich um ein einmaliges Ereignis in der Vergangenheit.",
+      "explanation_ar": "هذا حدث وقع مرة واحدة في الماضي.",
+      "grammarFocus": "als_once_past",
+      "sourceTopics": [
+        "gr-24"
+      ],
+      "acceptedAnswers": [
+        "Als",
+        "als"
+      ]
+    },
+    {
+      "id": "gr30-e013",
+      "topicId": "gr-30",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Infinitiv Perfekt",
+      "title_ar": "Infinitiv Perfekt",
+      "prompt_de": "Formulieren Sie mit Infinitiv Perfekt: Der Anbieter behauptet, dass er alle Anforderungen erfüllt hat.",
+      "prompt_ar": "صغ الجملة باستخدام Infinitiv Perfekt.",
+      "answer": "Der Anbieter behauptet, alle Anforderungen erfüllt zu haben.",
+      "explanation_de": "Die frühere Handlung wird mit Partizip II + zu haben ausgedrückt.",
+      "explanation_ar": "يُعبّر عن الفعل الأسبق باستخدام Partizip II + zu haben.",
+      "grammarFocus": "perfect_infinitive",
+      "sourceTopics": [
+        "gr-25"
+      ],
+      "acceptedAnswers": [
+        "Der Anbieter behauptet, alle Anforderungen erfüllt zu haben."
+      ]
+    },
+    {
+      "id": "gr30-e014",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nominativ oder Dativ",
+      "title_ar": "Nominativ أم Dativ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Mitarbeiter, dem neue Aufgaben übertragen wurden, erhält eine Schulung.",
+      "explanation_de": "Übertragen wird hier mit einem Dativempfänger verwendet; maskulin steht dem.",
+      "explanation_ar": "يأتي مستلم المهام في Dativ، وصيغة المذكر هي dem.",
+      "grammarFocus": "relative_dative",
+      "sourceTopics": [
+        "gr-27",
+        "gr-28"
+      ],
+      "options": [
+        "Der Mitarbeiter, dem neue Aufgaben übertragen wurden, erhält eine Schulung.",
+        "Der Mitarbeiter, der neue Aufgaben übertragen wurden, erhält eine Schulung.",
+        "Der Mitarbeiter, den neue Aufgaben übertragen wurden, erhält eine Schulung.",
+        "Der Mitarbeiter, dem wurden neue Aufgaben übertragen, erhält eine Schulung."
+      ]
+    },
+    {
+      "id": "gr30-e015",
+      "topicId": "gr-30",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Genitiv im Bericht",
+      "title_ar": "Genitiv في تقرير",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Die Firma, deren Angebot alle technischen Anforderungen erfüllt, wird für die nächste Runde berücksichtigt.",
+      "explanation_de": "Deren bezieht sich auf das feminine Bezugswort Firma und drückt Zugehörigkeit aus.",
+      "explanation_ar": "تعود deren على الاسم المؤنث Firma وتعبّر عن الانتماء.",
+      "grammarFocus": "relative_genitive_formal",
+      "sourceTopics": [
+        "gr-29"
+      ],
+      "options": [
+        "Die Firma, deren Angebot alle technischen Anforderungen erfüllt, wird für die nächste Runde berücksichtigt.",
+        "Die Firma, dessen Angebot alle Anforderungen erfüllt, wird berücksichtigt.",
+        "Die Firma, deren das Angebot alle Anforderungen erfüllt, wird berücksichtigt.",
+        "Die Firma, der Angebot alle Anforderungen erfüllt, wird berücksichtigt."
+      ]
+    },
+    {
+      "id": "gr30-e016",
+      "topicId": "gr-30",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Kausal und temporal",
+      "title_ar": "سبب وزمن",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Da die Störung weiterhin bestand, wurde der Betrieb erst fortgesetzt, nachdem die Ursache behoben worden war.",
+      "explanation_de": "Da nennt den Grund; nachdem nennt das frühere abgeschlossene Ereignis.",
+      "explanation_ar": "تذكر da السبب وتذكر nachdem الحدث الأسبق المنتهي.",
+      "grammarFocus": "causal_temporal_combination",
+      "sourceTopics": [
+        "gr-21",
+        "gr-24"
+      ],
+      "tokens": [
+        "nachdem die Ursache behoben worden war",
+        "Da die Störung weiterhin bestand",
+        "wurde der Betrieb erst fortgesetzt"
+      ],
+      "acceptedAnswers": [
+        "Da die Störung weiterhin bestand, wurde der Betrieb erst fortgesetzt, nachdem die Ursache behoben worden war."
+      ]
+    },
+    {
+      "id": "gr30-e017",
+      "topicId": "gr-30",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Einräumung und Ziel",
+      "title_ar": "استدراك وغاية",
+      "prompt_de": "Kollegin: „Die Schulung ist zeitaufwendig.“ – Welche Antwort ist grammatisch und logisch passend?",
+      "prompt_ar": "زميلة: «الدورة تستغرق وقتًا طويلًا». ما الرد الصحيح منطقيًا ونحويًا؟",
+      "answer": "Das stimmt. Trotzdem nehmen wir teil, um die neue Software sicher anwenden zu können.",
+      "explanation_de": "Trotzdem drückt Einräumung aus; um ... zu nennt das Ziel bei demselben Subjekt wir.",
+      "explanation_ar": "تعبّر trotzdem عن الاستدراك، وتذكر um ... zu الغاية مع الفاعل نفسه wir.",
+      "grammarFocus": "concessive_final_dialogue",
+      "sourceTopics": [
+        "gr-22",
+        "gr-23",
+        "gr-26"
+      ],
+      "options": [
+        "Das stimmt. Trotzdem nehmen wir teil, um die neue Software sicher anwenden zu können.",
+        "Das stimmt. Obwohl nehmen wir teil, damit wir die Software sicher anwenden zu können.",
+        "Das stimmt. Sondern nehmen wir teil, sodass als Ziel die Software anwenden.",
+        "Das stimmt. Trotzdem wir teilnehmen, um können die Software anwenden."
+      ]
+    },
+    {
+      "id": "gr30-e018",
+      "topicId": "gr-30",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Ohne ... zu",
+      "title_ar": "ohne ... zu",
+      "prompt_de": "Der Mitarbeiter änderte die Einstellung, ohne die möglichen Folgen sorgfältig ______ prüfen.",
+      "prompt_ar": "غيّر الموظف الإعداد من دون فحص النتائج المحتملة بعناية.",
+      "answer": "zu",
+      "explanation_de": "Ohne leitet eine Infinitivgruppe mit zu ein.",
+      "explanation_ar": "تدخل ohne تركيب مصدر مع zu.",
+      "grammarFocus": "ohne_zu",
+      "sourceTopics": [
+        "gr-25",
+        "gr-26"
+      ],
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr30-e019",
+      "topicId": "gr-30",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Relativsatz im Akkusativ",
+      "title_ar": "جملة موصولة في Akkusativ",
+      "prompt_de": "Verbinden Sie: Die Unterlagen sind noch unvollständig. Wir benötigen die Unterlagen für die abschließende Prüfung.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Die Unterlagen, die wir für die abschließende Prüfung benötigen, sind noch unvollständig.",
+      "explanation_de": "Die Unterlagen sind Akkusativobjekt von benötigen; im Plural steht die.",
+      "explanation_ar": "المستندات مفعول للفعل benötigen، وصيغة الجمع هي die.",
+      "grammarFocus": "relative_acc_plural",
+      "sourceTopics": [
+        "gr-27"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen, die wir für die abschließende Prüfung benötigen, sind noch unvollständig."
+      ]
+    },
+    {
+      "id": "gr30-e020",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Präposition und Kasus",
+      "title_ar": "حرف الجر والحالة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Abschnitt, auf den sich Ihre Frage bezieht, wurde aktualisiert.",
+      "explanation_de": "Sich beziehen auf verlangt Akkusativ; maskulin steht den.",
+      "explanation_ar": "تحتاج sich beziehen auf إلى Akkusativ، وصيغة المذكر هي den.",
+      "grammarFocus": "relative_preposition_acc",
+      "sourceTopics": [
+        "gr-28"
+      ],
+      "options": [
+        "Der Abschnitt, auf den sich Ihre Frage bezieht, wurde aktualisiert.",
+        "Der Abschnitt, auf dem sich Ihre Frage bezieht, wurde aktualisiert.",
+        "Der Abschnitt, den auf sich Ihre Frage bezieht, wurde aktualisiert.",
+        "Der Abschnitt, auf den bezieht sich Ihre Frage, wurde aktualisiert."
+      ]
+    },
+    {
+      "id": "gr30-e021",
+      "topicId": "gr-30",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Was als Satzbezug",
+      "title_ar": "was للإشارة إلى جملة كاملة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Bearbeitungszeit wurde verkürzt, was von den Kundinnen und Kunden positiv bewertet wurde.",
+      "explanation_de": "Was bezieht sich auf die gesamte vorhergehende Aussage.",
+      "explanation_ar": "تعود was على العبارة السابقة كاملة.",
+      "grammarFocus": "was_clause_reference",
+      "sourceTopics": [
+        "gr-29"
+      ],
+      "tokens": [
+        "was",
+        "Die Bearbeitungszeit wurde verkürzt",
+        "positiv bewertet wurde",
+        "von den Kundinnen und Kunden"
+      ],
+      "acceptedAnswers": [
+        "Die Bearbeitungszeit wurde verkürzt, was von den Kundinnen und Kunden positiv bewertet wurde."
+      ]
+    },
+    {
+      "id": "gr30-e022",
+      "topicId": "gr-30",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Maßnahmenbeschreibung",
+      "title_ar": "وصف إجراء رسمي",
+      "prompt_de": "Welche Formulierung ist logisch, grammatisch und stilistisch passend?",
+      "prompt_ar": "أي صياغة صحيحة منطقيًا ونحويًا وأسلوبيًا؟",
+      "answer": "Da die Fehlerquote gestiegen ist, wird ein zusätzliches Kontrollverfahren eingeführt, damit Abweichungen früher erkannt werden.",
+      "explanation_de": "Da nennt den Grund; damit nennt das Ziel der Maßnahme.",
+      "explanation_ar": "تذكر da السبب وتذكر damit غاية الإجراء.",
+      "grammarFocus": "formal_causal_final",
+      "sourceTopics": [
+        "gr-21",
+        "gr-23"
+      ],
+      "options": [
+        "Da die Fehlerquote gestiegen ist, wird ein zusätzliches Kontrollverfahren eingeführt, damit Abweichungen früher erkannt werden.",
+        "Da ist die Fehlerquote gestiegen, deshalb damit Abweichungen erkannt werden.",
+        "Obwohl die Fehlerquote gestiegen ist, wird ein Verfahren eingeführt, um Abweichungen werden erkannt.",
+        "Die Fehlerquote ist gestiegen, sondern wird ein Verfahren eingeführt, sodass als Ziel Abweichungen."
+      ]
+    },
+    {
+      "id": "gr30-e023",
+      "topicId": "gr-30",
+      "type": "matching",
+      "difficulty": "hard",
+      "title_de": "Komplexe Auswahl",
+      "title_ar": "اختيار مركب",
+      "prompt_de": "Ordnen Sie jede Situation der passendsten Struktur zu.",
+      "prompt_ar": "صِل كل حالة بالتركيب الأنسب.",
+      "answer": {
+        "anderes Subjekt, Ziel": "damit",
+        "gleiches Subjekt, Ziel": "um ... zu",
+        "einmalige Vergangenheit": "als",
+        "Dativ Plural im Relativsatz": "denen",
+        "Zugehörigkeit zu femininem Bezugswort": "deren",
+        "ganze vorherige Aussage": "was"
+      },
+      "explanation_de": "Für eine sichere Lösung müssen Bedeutung, Subjektbezug und Kasus gemeinsam geprüft werden.",
+      "explanation_ar": "للوصول إلى حل صحيح يجب مراجعة المعنى وعلاقة الفاعل والحالة معًا.",
+      "grammarFocus": "mixed_decision_matrix",
+      "sourceTopics": [
+        "gr-23",
+        "gr-24",
+        "gr-26",
+        "gr-28",
+        "gr-29"
+      ],
+      "pairs": [
+        [
+          "anderes Subjekt, Ziel",
+          "damit"
+        ],
+        [
+          "gleiches Subjekt, Ziel",
+          "um ... zu"
+        ],
+        [
+          "einmalige Vergangenheit",
+          "als"
+        ],
+        [
+          "Dativ Plural im Relativsatz",
+          "denen"
+        ],
+        [
+          "Zugehörigkeit zu femininem Bezugswort",
+          "deren"
+        ],
+        [
+          "ganze vorherige Aussage",
+          "was"
+        ]
+      ]
+    },
+    {
+      "id": "gr30-e024",
+      "topicId": "gr-30",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Infinitiv und Relativsatz kombinieren",
+      "title_ar": "دمج المصدر والجملة الموصولة",
+      "prompt_de": "Verbinden Sie: Die Abteilung plant eine neue Schulung. Die Schulung soll Mitarbeitenden helfen. Die Mitarbeitenden müssen künftig mit dem System arbeiten.",
+      "prompt_ar": "اربط المعلومات في جملة دقيقة.",
+      "answer": "Die Abteilung plant, eine neue Schulung anzubieten, die den Mitarbeitenden helfen soll, künftig sicher mit dem System zu arbeiten.",
+      "explanation_de": "Der Satz kombiniert Infinitiv mit zu, einen Relativsatz und eine weitere Infinitivgruppe.",
+      "explanation_ar": "تجمع الجملة بين المصدر مع zu وجملة موصولة وتركيب مصدر إضافي.",
+      "grammarFocus": "infinitive_relative_combination",
+      "sourceTopics": [
+        "gr-25",
+        "gr-26",
+        "gr-27"
+      ],
+      "acceptedAnswers": [
+        "Die Abteilung plant, eine neue Schulung anzubieten, die den Mitarbeitenden helfen soll, künftig sicher mit dem System zu arbeiten."
+      ]
+    },
+    {
+      "id": "gr30-e025",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Dativ und Genitiv",
+      "title_ar": "Dativ وGenitiv",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Die Beschäftigten, denen neue Aufgaben übertragen wurden, arbeiten in einer Abteilung, deren Zuständigkeiten erweitert wurden.",
+      "explanation_de": "Denen ist Dativ Plural; deren bezieht sich auf das feminine Bezugswort Abteilung.",
+      "explanation_ar": "denen صيغة Dativ الجمع، وتعود deren على الاسم المؤنث Abteilung.",
+      "grammarFocus": "relative_dative_genitive",
+      "sourceTopics": [
+        "gr-28",
+        "gr-29"
+      ],
+      "options": [
+        "Die Beschäftigten, denen neue Aufgaben übertragen wurden, arbeiten in einer Abteilung, deren Zuständigkeiten erweitert wurden.",
+        "Die Beschäftigten, den neue Aufgaben übertragen wurden, arbeiten in einer Abteilung, dessen Zuständigkeiten erweitert wurden.",
+        "Die Beschäftigten, denen wurden neue Aufgaben übertragen, arbeiten in einer Abteilung, deren die Zuständigkeiten erweitert wurden.",
+        "Die Beschäftigten, die neue Aufgaben übertragen wurden, arbeiten in einer Abteilung, der Zuständigkeiten erweitert wurden."
+      ]
+    },
+    {
+      "id": "gr30-e026",
+      "topicId": "gr-30",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Konnektoren",
+      "title_ar": "عدة أدوات ربط",
+      "prompt_de": "Ordnen Sie den Text.",
+      "prompt_ar": "رتب النص.",
+      "answer": "Obwohl die Frist sehr kurz war, wurde der Bericht rechtzeitig abgeschlossen, weil das Team zusätzliche Schichten übernahm, sodass alle Ergebnisse noch vor der Sitzung vorlagen.",
+      "explanation_de": "Der Satz kombiniert Einräumung, Grund und Folge mit korrekter Verbendstellung.",
+      "explanation_ar": "تجمع الجملة بين الاستدراك والسبب والنتيجة مع موقع فعل صحيح.",
+      "grammarFocus": "multi_connector_order",
+      "sourceTopics": [
+        "gr-21",
+        "gr-22",
+        "gr-23"
+      ],
+      "tokens": [
+        "sodass alle Ergebnisse noch vor der Sitzung vorlagen",
+        "Obwohl die Frist sehr kurz war",
+        "weil das Team zusätzliche Schichten übernahm",
+        "wurde der Bericht rechtzeitig abgeschlossen"
+      ],
+      "acceptedAnswers": [
+        "Obwohl die Frist sehr kurz war, wurde der Bericht rechtzeitig abgeschlossen, weil das Team zusätzliche Schichten übernahm, sodass alle Ergebnisse noch vor der Sitzung vorlagen."
+      ]
+    },
+    {
+      "id": "gr30-e027",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Komplexe Infinitivformen",
+      "title_ar": "صيغ مصدر مركبة",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Der Anbieter behauptet, alle Vorgaben eingehalten zu haben, ohne auf mögliche Risiken hingewiesen worden zu sein.",
+      "explanation_de": "Der Satz enthält Infinitiv Perfekt aktiv und passives Infinitiv Perfekt mit ohne.",
+      "explanation_ar": "تحتوي الجملة على Infinitiv Perfekt للمعلوم ومصدر ماضٍ مبني للمجهول مع ohne.",
+      "grammarFocus": "complex_infinitive_forms",
+      "sourceTopics": [
+        "gr-25",
+        "gr-26"
+      ],
+      "options": [
+        "Der Anbieter behauptet, alle Vorgaben eingehalten zu haben, ohne auf mögliche Risiken hingewiesen worden zu sein.",
+        "Der Anbieter behauptet, alle Vorgaben zu eingehalten haben, ohne hingewiesen zu worden sein.",
+        "Der Anbieter behauptet, alle Vorgaben eingehalten haben zu, ohne auf Risiken informiert gewesen zu werden.",
+        "Der Anbieter behauptet, dass alle Vorgaben eingehalten zu haben, ohne auf Risiken hingewiesen."
+      ]
+    },
+    {
+      "id": "gr30-e028",
+      "topicId": "gr-30",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Relativsätze in vier Kasus",
+      "title_ar": "جمل موصولة في أربع حالات",
+      "prompt_de": "Bilden Sie vier kurze Sätze zu derselben Person: Nominativ, Akkusativ, Dativ und Genitiv.",
+      "prompt_ar": "كوّن أربع جمل قصيرة عن الشخص نفسه في Nominativ وAkkusativ وDativ وGenitiv.",
+      "answer": "Der Kollege, der die Sitzung leitet, ist erfahren. Der Kollege, den wir ausgewählt haben, ist erfahren. Der Kollege, dem wir vertrauen, ist erfahren. Der Kollege, dessen Vorschlag angenommen wurde, ist erfahren.",
+      "explanation_de": "Die vier Sätze zeigen der, den, dem und dessen.",
+      "explanation_ar": "توضح الجمل الأربع der وden وdem وdessen.",
+      "grammarFocus": "relative_four_cases",
+      "sourceTopics": [
+        "gr-27",
+        "gr-28",
+        "gr-29"
+      ],
+      "acceptedAnswers": [
+        "Der Kollege, der die Sitzung leitet, ist erfahren. Der Kollege, den wir ausgewählt haben, ist erfahren. Der Kollege, dem wir vertrauen, ist erfahren. Der Kollege, dessen Vorschlag angenommen wurde, ist erfahren."
+      ]
+    },
+    {
+      "id": "gr30-e029",
+      "topicId": "gr-30",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Komplexer beruflicher Satz",
+      "title_ar": "جملة مهنية معقدة",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Nachdem die Abteilung, deren Aufgaben erweitert worden waren, zusätzliches Personal erhalten hatte, konnte sie die Anträge schneller bearbeiten, was die Wartezeit deutlich verkürzte.",
+      "explanation_de": "Der Satz verbindet temporale Vorzeitigkeit, einen Genitiv-Relativsatz und was als Satzbezug.",
+      "explanation_ar": "تجمع الجملة بين حدث زمني أسبق وجملة موصولة في Genitiv وwas للإشارة إلى جملة كاملة.",
+      "grammarFocus": "complex_phase3_integration",
+      "sourceTopics": [
+        "gr-24",
+        "gr-27",
+        "gr-29"
+      ],
+      "options": [
+        "Nachdem die Abteilung, deren Aufgaben erweitert worden waren, zusätzliches Personal erhalten hatte, konnte sie die Anträge schneller bearbeiten, was die Wartezeit deutlich verkürzte.",
+        "Nachdem die Abteilung, dessen Aufgaben erweitert waren, hatte Personal erhalten, konnte sie schneller bearbeiten, das die Wartezeit verkürzte.",
+        "Nachdem hatte die Abteilung Personal erhalten, deren Aufgaben wurden erweitert, was verkürzte die Wartezeit.",
+        "Nachdem die Abteilung, deren die Aufgaben erweitert worden waren, Personal erhalten hatte, sie konnte schneller bearbeiten, was verkürzte die Wartezeit."
+      ]
+    },
+    {
+      "id": "gr30-e030",
+      "topicId": "gr-30",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Phase 3",
+      "title_ar": "التدريب الختامي للمرحلة الثالثة",
+      "prompt_de": "Schreiben Sie einen zusammenhängenden beruflichen Text mit mindestens 18 Sätzen. Beschreiben Sie ein Problem, seine Ursachen, Gegenargumente, Ziele, Maßnahmen, zeitliche Abläufe und Ergebnisse. Verwenden Sie Strukturen aus allen Themen gr-21 bis gr-29.",
+      "prompt_ar": "اكتب نصًا مهنيًا مترابطًا من 18 جملة على الأقل. صف مشكلة وأسبابها واعتراضات أو أفكارًا معاكسة وأهدافًا وإجراءات وتسلسلًا زمنيًا ونتائج. استخدم تراكيب من جميع الوحدات gr-21 حتى gr-29.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei kausale Verbindungen aus gr-21",
+          "mindestens zwei konzessive oder adversative Verbindungen aus gr-22",
+          "mindestens zwei finale oder konsekutive Strukturen aus gr-23",
+          "mindestens drei temporale Konnektoren aus gr-24",
+          "mindestens zwei Infinitivgruppen mit zu aus gr-25",
+          "mindestens je ein Beispiel mit um ... zu, ohne ... zu und anstatt ... zu aus gr-26",
+          "mindestens zwei Relativsätze im Nominativ oder Akkusativ aus gr-27",
+          "mindestens zwei Relativsätze im Dativ oder mit Präposition aus gr-28",
+          "mindestens ein Satz mit dessen oder deren und ein Satz mit was aus gr-29",
+          "korrekte Verbposition, Kasus, Kommas und sachlicher B2-Stil"
+        ]
+      },
+      "explanation_de": "Prüfen Sie den Text in drei Schritten: logische Beziehung, gewählte Struktur und grammatische Form.",
+      "explanation_ar": "راجع النص بثلاث خطوات: العلاقة المنطقية، والتركيب المختار، والصيغة النحوية.",
+      "grammarFocus": "phase3_full_review",
+      "sourceTopics": [
+        "gr-21",
+        "gr-22",
+        "gr-23",
+        "gr-24",
+        "gr-25",
+        "gr-26",
+        "gr-27",
+        "gr-28",
+        "gr-29"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

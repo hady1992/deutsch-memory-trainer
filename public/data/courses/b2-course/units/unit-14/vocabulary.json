@@ -1,0 +1,3789 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 14,
+    "unitTitle_de": "Weiterbildung",
+    "unitTitle_ar": "التعليم المستمر",
+    "sourcePages": [
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Bildungsgeschichten und Bildungswege",
+      "Fort- und Weiterbildung",
+      "Förderprogramme und Anerkennung ausländischer Qualifikationen",
+      "Weiterbildungsangebote und formelle Anfragen",
+      "Lernen und Emotionen",
+      "Konjunktiv I in der indirekten Rede",
+      "irreale Vergleichssätze mit als ob / als wenn",
+      "Motivationsschreiben"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne B2-Lernwert",
+      "Personen- und Institutionsnamen",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–13"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u06-v070",
+      "term": "die Weiterbildung",
+      "sourceUnit": 6,
+      "pages": [
+        243,
+        246,
+        247,
+        250,
+        253,
+        256
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 14 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v037",
+      "term": "der Studiengang",
+      "sourceUnit": 6,
+      "pages": [
+        246,
+        250
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 14 wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u14-v001",
+      "identity": "die bildungsgeschichte",
+      "term": "die Bildungsgeschichte",
+      "type": "noun",
+      "arabic": "المسيرة التعليمية",
+      "explanation_de": "Die persönliche Entwicklung von Schule, Ausbildung, Studium und späterem Lernen.",
+      "explanation_ar": "التطور الشخصي عبر المدرسة والتدريب والدراسة والتعلم اللاحق.",
+      "examples": [
+        {
+          "de": "Ihre Bildungsgeschichte führte von der Berufsschule bis zur Hochschule.",
+          "ar": "امتدت مسيرتها التعليمية من المدرسة المهنية إلى الجامعة."
+        },
+        {
+          "de": "Im Gespräch berichtete er offen über seine Bildungsgeschichte.",
+          "ar": "تحدث في الحوار بصراحة عن مسيرته التعليمية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          250,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "bildung",
+        "biografie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Bildungsgeschichten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v002",
+      "identity": "die bildungsbiografie",
+      "term": "die Bildungsbiografie",
+      "type": "noun",
+      "arabic": "السيرة التعليمية",
+      "explanation_de": "Eine zusammenhängende Darstellung aller wichtigen Lern- und Bildungsstationen einer Person.",
+      "explanation_ar": "عرض مترابط للمراحل التعليمية والتعلمية المهمة في حياة الشخص.",
+      "examples": [
+        {
+          "de": "Die Bildungsbiografie zeigt mehrere berufliche Neuanfänge.",
+          "ar": "تُظهر السيرة التعليمية عدة بدايات مهنية جديدة."
+        },
+        {
+          "de": "Migration kann eine Bildungsbiografie stark prägen.",
+          "ar": "قد تؤثر الهجرة بقوة في السيرة التعليمية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "bildung",
+        "biografie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Bildungsbiografien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v003",
+      "identity": "der bildungsweg",
+      "term": "der Bildungsweg",
+      "type": "noun",
+      "arabic": "المسار التعليمي",
+      "explanation_de": "Der Weg durch verschiedene Bildungsstufen und Qualifikationen.",
+      "explanation_ar": "المسار عبر مستويات تعليمية ومؤهلات مختلفة.",
+      "examples": [
+        {
+          "de": "Ihr Bildungsweg war nicht geradlinig, aber erfolgreich.",
+          "ar": "لم يكن مسارها التعليمي مستقيمًا لكنه كان ناجحًا."
+        },
+        {
+          "de": "Für jeden Bildungsweg gibt es unterschiedliche Fördermöglichkeiten.",
+          "ar": "توجد إمكانات دعم مختلفة لكل مسار تعليمي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          250,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "bildung",
+        "weg"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Bildungswege"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v004",
+      "identity": "der lernweg",
+      "term": "der Lernweg",
+      "type": "noun",
+      "arabic": "مسار التعلم",
+      "explanation_de": "Die individuelle Art und Abfolge, in der jemand Kenntnisse und Fähigkeiten erwirbt.",
+      "explanation_ar": "الطريقة والتسلسل الفرديان لاكتساب المعرفة والمهارات.",
+      "examples": [
+        {
+          "de": "Jeder Lernweg verläuft anders.",
+          "ar": "يختلف مسار التعلم من شخص لآخر."
+        },
+        {
+          "de": "Digitale Angebote können den Lernweg flexibler machen.",
+          "ar": "قد تجعل العروض الرقمية مسار التعلم أكثر مرونة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          248,
+          249,
+          256
+        ],
+        "section": "Lernen und Entwicklung"
+      },
+      "tags": [
+        "lernen",
+        "weg"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Lernwege"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v005",
+      "identity": "das lebenslange lernen",
+      "term": "das lebenslange Lernen",
+      "type": "noun",
+      "arabic": "التعلم مدى الحياة",
+      "explanation_de": "Die kontinuierliche Bereitschaft, während des gesamten Lebens Neues zu lernen.",
+      "explanation_ar": "الاستعداد المستمر لتعلم الجديد طوال الحياة.",
+      "examples": [
+        {
+          "de": "Lebenslanges Lernen ist in vielen Berufen unverzichtbar.",
+          "ar": "التعلم مدى الحياة ضروري في مهن كثيرة."
+        },
+        {
+          "de": "Auch im hohen Alter bleibt lebenslanges Lernen möglich.",
+          "ar": "يبقى التعلم مدى الحياة ممكنًا حتى في سن متقدمة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "lernen",
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v006",
+      "identity": "die frühkindliche förderung",
+      "term": "die frühkindliche Förderung",
+      "type": "noun",
+      "arabic": "دعم الطفولة المبكرة",
+      "explanation_de": "Gezielte Unterstützung der Entwicklung und des Lernens im frühen Kindesalter.",
+      "explanation_ar": "دعم مقصود لتطور الطفل وتعلمه في سن مبكرة.",
+      "examples": [
+        {
+          "de": "Frühkindliche Förderung kann Sprachkompetenzen stärken.",
+          "ar": "يمكن لدعم الطفولة المبكرة تقوية المهارات اللغوية."
+        },
+        {
+          "de": "Die Stadt investiert stärker in frühkindliche Förderung.",
+          "ar": "تستثمر المدينة أكثر في دعم الطفولة المبكرة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          256
+        ],
+        "section": "Bildungsbereiche"
+      },
+      "tags": [
+        "bildung",
+        "kinder"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v007",
+      "identity": "die umschulung",
+      "term": "die Umschulung",
+      "type": "noun",
+      "arabic": "إعادة التأهيل المهني",
+      "explanation_de": "Eine berufliche Qualifizierung für einen neuen Beruf, meist nach einer vorherigen Tätigkeit.",
+      "explanation_ar": "تأهيل مهني لمهنة جديدة غالبًا بعد ممارسة مهنة سابقة.",
+      "examples": [
+        {
+          "de": "Nach dem Unfall begann er eine Umschulung zum Kaufmann.",
+          "ar": "بدأ بعد الحادث إعادة تأهيل مهني ليصبح موظفًا تجاريًا."
+        },
+        {
+          "de": "Die Umschulung wird teilweise finanziell gefördert.",
+          "ar": "يُموّل التأهيل المهني جزئيًا."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          250,
+          256
+        ],
+        "section": "Bildungsbereiche"
+      },
+      "tags": [
+        "beruf",
+        "neuorientierung"
+      ],
+      "globalRef": "nouns:noun_0503",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "die Umschulungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v008",
+      "identity": "das e-learning",
+      "term": "das E-Learning",
+      "type": "noun",
+      "arabic": "التعلم الإلكتروني",
+      "explanation_de": "Lernen mit digitalen Plattformen, Videos, Online-Kursen oder interaktiven Materialien.",
+      "explanation_ar": "التعلم باستخدام منصات رقمية وفيديوهات ودورات ومواد تفاعلية.",
+      "examples": [
+        {
+          "de": "E-Learning ermöglicht ortsunabhängiges Lernen.",
+          "ar": "يتيح التعلم الإلكتروني التعلم من أي مكان."
+        },
+        {
+          "de": "Der Kurs kombiniert Präsenzunterricht und E-Learning.",
+          "ar": "تجمع الدورة بين التعليم الحضوري والإلكتروني."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          247,
+          256
+        ],
+        "section": "Bildungsformen"
+      },
+      "tags": [
+        "digital",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v009",
+      "identity": "das abendgymnasium",
+      "term": "das Abendgymnasium",
+      "type": "noun",
+      "arabic": "ثانوية مسائية",
+      "explanation_de": "Eine Schule, an der Erwachsene neben Beruf oder Familie einen höheren Schulabschluss nachholen.",
+      "explanation_ar": "مدرسة يكمّل فيها البالغون شهادة مدرسية عليا بجانب العمل أو الأسرة.",
+      "examples": [
+        {
+          "de": "Sie holt am Abendgymnasium ihr Abitur nach.",
+          "ar": "تكمل شهادة الأبيتور في الثانوية المسائية."
+        },
+        {
+          "de": "Das Abendgymnasium bietet flexible Unterrichtszeiten.",
+          "ar": "تقدم الثانوية المسائية أوقات دراسة مرنة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          250
+        ],
+        "section": "Bildungsformen"
+      },
+      "tags": [
+        "schule",
+        "abschluss"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Abendgymnasien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v010",
+      "identity": "die fernuniversität",
+      "term": "die Fernuniversität",
+      "type": "noun",
+      "arabic": "جامعة للتعليم عن بعد",
+      "explanation_de": "Eine Hochschule, an der überwiegend ortsunabhängig und mit digitalen Materialien studiert wird.",
+      "explanation_ar": "جامعة تتم الدراسة فيها غالبًا عن بعد وبمواد رقمية.",
+      "examples": [
+        {
+          "de": "An einer Fernuniversität lässt sich Studium und Beruf verbinden.",
+          "ar": "يمكن الجمع بين الدراسة والعمل في جامعة عن بعد."
+        },
+        {
+          "de": "Die Fernuniversität verlangt viel Selbstorganisation.",
+          "ar": "تتطلب الجامعة عن بعد تنظيمًا ذاتيًا كبيرًا."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          250
+        ],
+        "section": "Bildungsformen"
+      },
+      "tags": [
+        "studium",
+        "digital"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Fernuniversitäten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v011",
+      "identity": "der bildungsabschluss",
+      "term": "der Bildungsabschluss",
+      "type": "noun",
+      "arabic": "مؤهل تعليمي",
+      "explanation_de": "Ein offiziell anerkannter Abschluss einer Schule, Ausbildung oder Hochschule.",
+      "explanation_ar": "شهادة رسمية معترف بها من مدرسة أو تدريب أو جامعة.",
+      "examples": [
+        {
+          "de": "Der Bildungsabschluss verbessert ihre beruflichen Chancen.",
+          "ar": "يحسن المؤهل التعليمي فرصها المهنية."
+        },
+        {
+          "de": "Für die Förderung muss ein Bildungsabschluss nachgewiesen werden.",
+          "ar": "يجب إثبات مؤهل تعليمي للحصول على الدعم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          246,
+          250,
+          252,
+          256
+        ],
+        "section": "Abschlüsse"
+      },
+      "tags": [
+        "abschluss",
+        "bildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Bildungsabschlüsse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v012",
+      "identity": "der schulabschluss",
+      "term": "der Schulabschluss",
+      "type": "noun",
+      "arabic": "شهادة مدرسية",
+      "explanation_de": "Der formale Abschluss einer allgemeinbildenden Schule.",
+      "explanation_ar": "الشهادة الرسمية لإنهاء مدرسة تعليم عام.",
+      "examples": [
+        {
+          "de": "Er hat den Schulabschluss später nachgeholt.",
+          "ar": "أكمل الشهادة المدرسية لاحقًا."
+        },
+        {
+          "de": "Ohne Schulabschluss sind manche Ausbildungswege schwerer zugänglich.",
+          "ar": "تكون بعض مسارات التدريب أصعب دون شهادة مدرسية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          250,
+          251,
+          256
+        ],
+        "section": "Abschlüsse"
+      },
+      "tags": [
+        "schule",
+        "abschluss"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Schulabschlüsse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v013",
+      "identity": "der berufsabschluss",
+      "term": "der Berufsabschluss",
+      "type": "noun",
+      "arabic": "مؤهل مهني",
+      "explanation_de": "Ein anerkannter Abschluss, der zur Ausübung eines bestimmten Berufs qualifiziert.",
+      "explanation_ar": "مؤهل معترف به يسمح بممارسة مهنة محددة.",
+      "examples": [
+        {
+          "de": "Der Berufsabschluss wurde im Ausland erworben.",
+          "ar": "تم الحصول على المؤهل المهني في الخارج."
+        },
+        {
+          "de": "Ein Berufsabschluss ist Voraussetzung für die Stelle.",
+          "ar": "المؤهل المهني شرط للوظيفة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          250,
+          252,
+          256
+        ],
+        "section": "Abschlüsse"
+      },
+      "tags": [
+        "beruf",
+        "abschluss"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Berufsabschlüsse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v014",
+      "identity": "die fortbildung",
+      "term": "die Fortbildung",
+      "type": "noun",
+      "arabic": "تدريب تطويري",
+      "explanation_de": "Eine Qualifizierung, die vorhandene berufliche Kenntnisse erweitert oder aktualisiert.",
+      "explanation_ar": "تأهيل يوسّع أو يحدّث المعارف المهنية الموجودة.",
+      "examples": [
+        {
+          "de": "Die Fortbildung vermittelt neue Pflegetechniken.",
+          "ar": "يقدم التدريب التطويري تقنيات رعاية جديدة."
+        },
+        {
+          "de": "Für die Fortbildung beantragt sie finanzielle Unterstützung.",
+          "ar": "تطلب دعمًا ماليًا للتدريب التطويري."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          246,
+          250,
+          253,
+          256
+        ],
+        "section": "Weiterbildung"
+      },
+      "tags": [
+        "beruf",
+        "qualifikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Fortbildungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v015",
+      "identity": "die weiterbildungsmaßnahme",
+      "term": "die Weiterbildungsmaßnahme",
+      "type": "noun",
+      "arabic": "إجراء تعليمي مستمر",
+      "explanation_de": "Ein organisierter Kurs oder ein Programm zur beruflichen Qualifizierung.",
+      "explanation_ar": "دورة أو برنامج منظّم للتأهيل المهني.",
+      "examples": [
+        {
+          "de": "Die Weiterbildungsmaßnahme wird vom Arbeitgeber unterstützt.",
+          "ar": "يدعم صاحب العمل إجراء التعليم المستمر."
+        },
+        {
+          "de": "Vor der Anmeldung prüft sie die Ziele der Weiterbildungsmaßnahme.",
+          "ar": "تفحص أهداف الإجراء قبل التسجيل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          247,
+          250,
+          253
+        ],
+        "section": "Weiterbildung"
+      },
+      "tags": [
+        "weiterbildung",
+        "kurs"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Weiterbildungsmaßnahmen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v016",
+      "identity": "die berufliche entwicklung",
+      "term": "die berufliche Entwicklung",
+      "type": "noun",
+      "arabic": "التطور المهني",
+      "explanation_de": "Die Veränderung und Verbesserung von Kompetenzen, Aufgaben und Karrierechancen.",
+      "explanation_ar": "تغير وتحسن المهارات والمهام وفرص المسار المهني.",
+      "examples": [
+        {
+          "de": "Die Weiterbildung unterstützt ihre berufliche Entwicklung.",
+          "ar": "يدعم التعليم المستمر تطورها المهني."
+        },
+        {
+          "de": "Im Gespräch wurden Ziele der beruflichen Entwicklung festgelegt.",
+          "ar": "حُددت أهداف التطور المهني في الحوار."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          253,
+          256
+        ],
+        "section": "Berufliche Entwicklung"
+      },
+      "tags": [
+        "beruf",
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v017",
+      "identity": "die berufliche neuorientierung",
+      "term": "die berufliche Neuorientierung",
+      "type": "noun",
+      "arabic": "إعادة التوجيه المهني",
+      "explanation_de": "Die bewusste Entscheidung, sich beruflich in eine neue Richtung zu entwickeln.",
+      "explanation_ar": "قرار واعٍ بالتوجه مهنيًا إلى مجال جديد.",
+      "examples": [
+        {
+          "de": "Nach vielen Jahren plant sie eine berufliche Neuorientierung.",
+          "ar": "تخطط بعد سنوات لإعادة توجيه مهني."
+        },
+        {
+          "de": "Eine Beratung kann bei der beruflichen Neuorientierung helfen.",
+          "ar": "قد تساعد الاستشارة في إعادة التوجيه المهني."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          246,
+          253
+        ],
+        "section": "Berufliche Entwicklung"
+      },
+      "tags": [
+        "beruf",
+        "neuorientierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v018",
+      "identity": "die bildungskarriere",
+      "term": "die Bildungskarriere",
+      "type": "noun",
+      "arabic": "مسيرة تعليمية",
+      "explanation_de": "Der langfristige Verlauf von Bildungsentscheidungen und erreichten Abschlüssen.",
+      "explanation_ar": "المسار الطويل لقرارات التعليم والشهادات المحققة.",
+      "examples": [
+        {
+          "de": "Ihre ungewöhnliche Bildungskarriere begann erst im Erwachsenenalter.",
+          "ar": "بدأت مسيرتها التعليمية غير المعتادة في سن البلوغ."
+        },
+        {
+          "de": "Eine Bildungskarriere kann Unterbrechungen enthalten.",
+          "ar": "قد تتضمن المسيرة التعليمية انقطاعات."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "bildung",
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Bildungskarrieren"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v019",
+      "identity": "eine ausbildung abbrechen",
+      "term": "eine Ausbildung abbrechen",
+      "type": "phrase",
+      "arabic": "يقطع التدريب المهني",
+      "explanation_de": "Eine begonnene Ausbildung vor dem vorgesehenen Abschluss beenden.",
+      "explanation_ar": "إنهاء تدريب بدأ قبل الوصول إلى الشهادة المقررة.",
+      "examples": [
+        {
+          "de": "Er musste die Ausbildung aus familiären Gründen abbrechen.",
+          "ar": "اضطر إلى قطع التدريب لأسباب عائلية."
+        },
+        {
+          "de": "Vor dem Abbruch sollte man sich beraten lassen.",
+          "ar": "ينبغي طلب استشارة قبل الانقطاع."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          251
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "ausbildung",
+        "abbruch"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v020",
+      "identity": "einen abschluss nachholen",
+      "term": "einen Abschluss nachholen",
+      "type": "phrase",
+      "arabic": "يستدرك شهادة",
+      "explanation_de": "Einen früher nicht erreichten Schul- oder Berufsabschluss später erwerben.",
+      "explanation_ar": "الحصول لاحقًا على شهادة مدرسية أو مهنية لم تُنجز سابقًا.",
+      "examples": [
+        {
+          "de": "Sie holte ihren Schulabschluss mit dreißig nach.",
+          "ar": "استدركت شهادتها المدرسية في سن الثلاثين."
+        },
+        {
+          "de": "Der Kurs hilft Erwachsenen, einen Abschluss nachzuholen.",
+          "ar": "تساعد الدورة البالغين على استدراك شهادة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          251,
+          256
+        ],
+        "section": "Bildungsgeschichten"
+      },
+      "tags": [
+        "abschluss",
+        "nachholen"
+      ],
+      "globalRef": "phrases:phrase_0292",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v021",
+      "identity": "eine qualifikation erwerben",
+      "term": "eine Qualifikation erwerben",
+      "type": "phrase",
+      "arabic": "يكتسب مؤهلًا",
+      "explanation_de": "Durch Ausbildung, Studium oder Weiterbildung einen anerkannten Kompetenznachweis erhalten.",
+      "explanation_ar": "الحصول على إثبات مهارات معترف به عبر التدريب أو الدراسة.",
+      "examples": [
+        {
+          "de": "Sie möchte eine zusätzliche Qualifikation erwerben.",
+          "ar": "تريد اكتساب مؤهل إضافي."
+        },
+        {
+          "de": "Die Qualifikation wurde berufsbegleitend erworben.",
+          "ar": "اكتُسب المؤهل إلى جانب العمل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          250,
+          252,
+          253
+        ],
+        "section": "Qualifikation"
+      },
+      "tags": [
+        "qualifikation",
+        "erwerben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v022",
+      "identity": "sich beruflich weiterbilden",
+      "term": "sich beruflich weiterbilden",
+      "type": "phrase",
+      "arabic": "يطور نفسه مهنيًا",
+      "explanation_de": "Neue berufliche Kenntnisse erwerben und bestehende Kompetenzen vertiefen.",
+      "explanation_ar": "اكتساب معارف مهنية جديدة وتعميق المهارات الحالية.",
+      "examples": [
+        {
+          "de": "Fachkräfte müssen sich regelmäßig beruflich weiterbilden.",
+          "ar": "يجب على المختصين تطوير أنفسهم مهنيًا بانتظام."
+        },
+        {
+          "de": "Sie bildet sich neben ihrer Teilzeitstelle weiter.",
+          "ar": "تطور نفسها مهنيًا بجانب عملها الجزئي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          244,
+          246,
+          247,
+          253,
+          256
+        ],
+        "section": "Weiterbildung"
+      },
+      "tags": [
+        "beruf",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "sich + beruflich + weiterbilden"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v023",
+      "identity": "beruflich weiterkommen",
+      "term": "beruflich weiterkommen",
+      "type": "phrase",
+      "arabic": "يتقدم مهنيًا",
+      "explanation_de": "Die eigenen beruflichen Möglichkeiten, Aufgaben oder Positionen verbessern.",
+      "explanation_ar": "تحسين الفرص أو المهام أو المكانة المهنية.",
+      "examples": [
+        {
+          "de": "Mit dem Zertifikat möchte er beruflich weiterkommen.",
+          "ar": "يريد التقدم مهنيًا بالشهادة."
+        },
+        {
+          "de": "Sprachkenntnisse helfen ihr, beruflich weiterzukommen.",
+          "ar": "تساعدها المهارات اللغوية على التقدم المهني."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          243,
+          246,
+          247,
+          253,
+          256
+        ],
+        "section": "Berufliche Entwicklung"
+      },
+      "tags": [
+        "karriere",
+        "entwicklung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "weiterkommen + beruflich"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v024",
+      "identity": "der anerkennungszuschuss",
+      "term": "der Anerkennungszuschuss",
+      "type": "noun",
+      "arabic": "منحة تكاليف الاعتراف",
+      "explanation_de": "Eine finanzielle Unterstützung für Kosten eines beruflichen Anerkennungsverfahrens.",
+      "explanation_ar": "دعم مالي لتكاليف إجراءات الاعتراف المهني.",
+      "examples": [
+        {
+          "de": "Der Anerkennungszuschuss übernimmt einen Teil der Gebühren.",
+          "ar": "تغطي منحة الاعتراف جزءًا من الرسوم."
+        },
+        {
+          "de": "Der Antrag auf Anerkennungszuschuss muss vollständig sein.",
+          "ar": "يجب أن يكون طلب منحة الاعتراف كاملًا."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "anerkennung",
+        "finanzierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Anerkennungszuschüsse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v025",
+      "identity": "die bildungsprämie",
+      "term": "die Bildungsprämie",
+      "type": "noun",
+      "arabic": "منحة تعليمية",
+      "explanation_de": "Ein finanzieller Zuschuss zu bestimmten beruflichen Weiterbildungen.",
+      "explanation_ar": "دعم مالي لبعض برامج التعليم المهني المستمر.",
+      "examples": [
+        {
+          "de": "Sie beantragt eine Bildungsprämie für den Kurs.",
+          "ar": "تطلب منحة تعليمية للدورة."
+        },
+        {
+          "de": "Die Bildungsprämie ist an Einkommensgrenzen gebunden.",
+          "ar": "ترتبط المنحة التعليمية بحدود دخل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          247,
+          252
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "förderung",
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Bildungsprämien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v026",
+      "identity": "die fördermöglichkeit",
+      "term": "die Fördermöglichkeit",
+      "type": "noun",
+      "arabic": "إمكانية دعم",
+      "explanation_de": "Eine konkrete Möglichkeit, finanzielle oder organisatorische Unterstützung zu erhalten.",
+      "explanation_ar": "طريقة محددة للحصول على دعم مالي أو تنظيمي.",
+      "examples": [
+        {
+          "de": "Die Beraterin erklärt verschiedene Fördermöglichkeiten.",
+          "ar": "تشرح المستشارة إمكانات دعم مختلفة."
+        },
+        {
+          "de": "Nicht jede Fördermöglichkeit passt zu jedem Kurs.",
+          "ar": "لا تناسب كل إمكانية دعم كل دورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          247,
+          253,
+          256
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "förderung",
+        "beratung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Fördermöglichkeiten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v027",
+      "identity": "die staatliche unterstützung",
+      "term": "die staatliche Unterstützung",
+      "type": "noun",
+      "arabic": "دعم حكومي",
+      "explanation_de": "Finanzielle oder organisatorische Hilfe durch staatliche Stellen.",
+      "explanation_ar": "مساعدة مالية أو تنظيمية من جهات حكومية.",
+      "examples": [
+        {
+          "de": "Die staatliche Unterstützung deckt einen Teil der Kosten.",
+          "ar": "يغطي الدعم الحكومي جزءًا من التكاليف."
+        },
+        {
+          "de": "Für die staatliche Unterstützung gelten klare Voraussetzungen.",
+          "ar": "توجد شروط واضحة للدعم الحكومي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "staat",
+        "förderung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v028",
+      "identity": "das stipendium",
+      "term": "das Stipendium",
+      "type": "noun",
+      "arabic": "منحة دراسية",
+      "explanation_de": "Eine finanzielle Förderung für Studium, Forschung oder Weiterbildung.",
+      "explanation_ar": "دعم مالي للدراسة أو البحث أو التعليم المستمر.",
+      "examples": [
+        {
+          "de": "Sie erhielt ein Stipendium für ihr Masterstudium.",
+          "ar": "حصلت على منحة لدراسة الماجستير."
+        },
+        {
+          "de": "Das Stipendium wird nach Leistung und Motivation vergeben.",
+          "ar": "تُمنح المنحة بناءً على الأداء والدافع."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          250,
+          252,
+          253
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "studium",
+        "förderung"
+      ],
+      "globalRef": "nouns:noun_0515",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "das",
+        "plural": "die Stipendien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v029",
+      "identity": "das teilstipendium",
+      "term": "das Teilstipendium",
+      "type": "noun",
+      "arabic": "منحة جزئية",
+      "explanation_de": "Ein Stipendium, das nur einen Teil der entstehenden Kosten übernimmt.",
+      "explanation_ar": "منحة تغطي جزءًا فقط من التكاليف.",
+      "examples": [
+        {
+          "de": "Das Teilstipendium reicht nicht für alle Lebenshaltungskosten.",
+          "ar": "لا تكفي المنحة الجزئية لكل تكاليف المعيشة."
+        },
+        {
+          "de": "Sie kombiniert das Teilstipendium mit einem Nebenjob.",
+          "ar": "تجمع بين المنحة الجزئية وعمل جانبي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "stipendium",
+        "finanzierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Teilstipendien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v030",
+      "identity": "das weiterbildungsstipendium",
+      "term": "das Weiterbildungsstipendium",
+      "type": "noun",
+      "arabic": "منحة للتعليم المستمر",
+      "explanation_de": "Eine Förderung für leistungsstarke Berufstätige, die sich weiterqualifizieren möchten.",
+      "explanation_ar": "دعم للعاملين المتميزين الراغبين في تأهيل إضافي.",
+      "examples": [
+        {
+          "de": "Das Weiterbildungsstipendium finanziert einen Meisterkurs.",
+          "ar": "تمول منحة التعليم المستمر دورة ماستر مهني."
+        },
+        {
+          "de": "Für das Weiterbildungsstipendium ist Berufserfahrung erforderlich.",
+          "ar": "تُطلب خبرة مهنية لمنحة التعليم المستمر."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252,
+          253,
+          256
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "weiterbildung",
+        "stipendium"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Weiterbildungsstipendien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v031",
+      "identity": "das anerkennungsverfahren",
+      "term": "das Anerkennungsverfahren",
+      "type": "noun",
+      "arabic": "إجراء الاعتراف بالمؤهل",
+      "explanation_de": "Das formale Verfahren zur Prüfung einer ausländischen Berufsqualifikation.",
+      "explanation_ar": "الإجراء الرسمي لفحص مؤهل مهني أجنبي.",
+      "examples": [
+        {
+          "de": "Das Anerkennungsverfahren kann mehrere Monate dauern.",
+          "ar": "قد يستغرق إجراء الاعتراف عدة أشهر."
+        },
+        {
+          "de": "Für das Anerkennungsverfahren werden übersetzte Zeugnisse benötigt.",
+          "ar": "تُطلب شهادات مترجمة لإجراء الاعتراف."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Anerkennung"
+      },
+      "tags": [
+        "anerkennung",
+        "qualifikation"
+      ],
+      "globalRef": "nouns:noun_0514",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "das",
+        "plural": "die Anerkennungsverfahren"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v032",
+      "identity": "die gleichwertigkeit",
+      "term": "die Gleichwertigkeit",
+      "type": "noun",
+      "arabic": "التكافؤ",
+      "explanation_de": "Die Feststellung, dass eine ausländische Qualifikation einem deutschen Abschluss entspricht.",
+      "explanation_ar": "إثبات أن المؤهل الأجنبي يعادل شهادة ألمانية.",
+      "examples": [
+        {
+          "de": "Die Behörde prüft die Gleichwertigkeit der Ausbildung.",
+          "ar": "تفحص الجهة تكافؤ التدريب."
+        },
+        {
+          "de": "Bei voller Gleichwertigkeit kann sie den Beruf ausüben.",
+          "ar": "يمكنها ممارسة المهنة عند إثبات التكافؤ الكامل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Anerkennung"
+      },
+      "tags": [
+        "anerkennung",
+        "vergleich"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v033",
+      "identity": "die ausländische berufsqualifikation",
+      "term": "die ausländische Berufsqualifikation",
+      "type": "noun",
+      "arabic": "مؤهل مهني أجنبي",
+      "explanation_de": "Eine berufliche Qualifikation, die außerhalb Deutschlands erworben wurde.",
+      "explanation_ar": "مؤهل مهني تم الحصول عليه خارج ألمانيا.",
+      "examples": [
+        {
+          "de": "Ihre ausländische Berufsqualifikation wird geprüft.",
+          "ar": "يتم فحص مؤهلها المهني الأجنبي."
+        },
+        {
+          "de": "Für reglementierte Berufe ist die Anerkennung oft notwendig.",
+          "ar": "غالبًا ما يكون الاعتراف ضروريًا للمهن المنظمة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Anerkennung"
+      },
+      "tags": [
+        "ausland",
+        "qualifikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die ausländischen Berufsqualifikationen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v034",
+      "identity": "den abschluss anerkennen lassen",
+      "term": "den Abschluss anerkennen lassen",
+      "type": "phrase",
+      "arabic": "يطلب الاعتراف بالشهادة",
+      "explanation_de": "Bei einer zuständigen Stelle die formale Anerkennung eines Abschlusses beantragen.",
+      "explanation_ar": "تقديم طلب لجهة مختصة للاعتراف الرسمي بالشهادة.",
+      "examples": [
+        {
+          "de": "Er lässt seinen Berufsabschluss anerkennen.",
+          "ar": "يطلب الاعتراف بمؤهله المهني."
+        },
+        {
+          "de": "Vor der Bewerbung ließ sie den Abschluss anerkennen.",
+          "ar": "طلبت الاعتراف بالشهادة قبل التقديم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Anerkennung"
+      },
+      "tags": [
+        "abschluss",
+        "anerkennung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ + lassen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v035",
+      "identity": "eine qualifikation nachweisen",
+      "term": "eine Qualifikation nachweisen",
+      "type": "phrase",
+      "arabic": "يثبت مؤهلًا",
+      "explanation_de": "Durch Zeugnisse, Bescheinigungen oder Prüfungen belegen, dass eine Qualifikation vorhanden ist.",
+      "explanation_ar": "إثبات وجود مؤهل عبر شهادات أو وثائق أو امتحانات.",
+      "examples": [
+        {
+          "de": "Die Bewerberin muss ihre Qualifikation nachweisen.",
+          "ar": "يجب على المتقدمة إثبات مؤهلها."
+        },
+        {
+          "de": "Sprachkenntnisse werden mit einem Zertifikat nachgewiesen.",
+          "ar": "تُثبت المهارات اللغوية بشهادة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252,
+          253
+        ],
+        "section": "Anerkennung"
+      },
+      "tags": [
+        "nachweis",
+        "qualifikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v036",
+      "identity": "das zu versteuernde jahreseinkommen",
+      "term": "das zu versteuernde Jahreseinkommen",
+      "type": "noun",
+      "arabic": "الدخل السنوي الخاضع للضريبة",
+      "explanation_de": "Das Jahreseinkommen, das nach gesetzlichen Regeln versteuert werden muss.",
+      "explanation_ar": "الدخل السنوي الذي يجب دفع الضريبة عليه وفق القانون.",
+      "examples": [
+        {
+          "de": "Die Förderung hängt vom zu versteuernden Jahreseinkommen ab.",
+          "ar": "يعتمد الدعم على الدخل السنوي الخاضع للضريبة."
+        },
+        {
+          "de": "Das zu versteuernde Jahreseinkommen darf die Grenze nicht überschreiten.",
+          "ar": "يجب ألا يتجاوز الدخل الخاضع للضريبة الحد."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Fördervoraussetzungen"
+      },
+      "tags": [
+        "einkommen",
+        "förderung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v037",
+      "identity": "die erwerbstätigkeit",
+      "term": "die Erwerbstätigkeit",
+      "type": "noun",
+      "arabic": "نشاط مهني مدفوع",
+      "explanation_de": "Eine Tätigkeit, mit der eine Person Einkommen erzielt.",
+      "explanation_ar": "عمل يحقق منه الشخص دخلًا.",
+      "examples": [
+        {
+          "de": "Die Förderung verlangt eine bestimmte Dauer der Erwerbstätigkeit.",
+          "ar": "يتطلب الدعم مدة معينة من النشاط المهني."
+        },
+        {
+          "de": "Während der Erwerbstätigkeit sammelte sie praktische Erfahrung.",
+          "ar": "جمعت خبرة عملية أثناء نشاطها المهني."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Fördervoraussetzungen"
+      },
+      "tags": [
+        "arbeit",
+        "einkommen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Erwerbstätigkeiten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v038",
+      "identity": "erwerbstätig sein",
+      "term": "erwerbstätig sein",
+      "type": "phrase",
+      "arabic": "يكون عاملًا بأجر",
+      "explanation_de": "Einer bezahlten selbstständigen oder angestellten Tätigkeit nachgehen.",
+      "explanation_ar": "ممارسة عمل مدفوع كموظف أو مستقل.",
+      "examples": [
+        {
+          "de": "Für das Programm muss man erwerbstätig sein.",
+          "ar": "يجب أن يكون الشخص عاملًا للاستفادة من البرنامج."
+        },
+        {
+          "de": "Sie ist seit fünf Jahren erwerbstätig.",
+          "ar": "تعمل بأجر منذ خمس سنوات."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Fördervoraussetzungen"
+      },
+      "tags": [
+        "arbeit",
+        "voraussetzung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "sein + Adjektiv"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v039",
+      "identity": "die berufstätigkeit",
+      "term": "die Berufstätigkeit",
+      "type": "noun",
+      "arabic": "ممارسة مهنية",
+      "explanation_de": "Die praktische Ausübung eines Berufs über einen bestimmten Zeitraum.",
+      "explanation_ar": "ممارسة مهنة عمليًا خلال مدة معينة.",
+      "examples": [
+        {
+          "de": "Drei Jahre Berufstätigkeit sind erforderlich.",
+          "ar": "تُطلب ثلاث سنوات من الممارسة المهنية."
+        },
+        {
+          "de": "Die Berufstätigkeit wurde durch Arbeitszeugnisse belegt.",
+          "ar": "أُثبتت الممارسة المهنية بشهادات عمل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          252
+        ],
+        "section": "Fördervoraussetzungen"
+      },
+      "tags": [
+        "beruf",
+        "erfahrung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Berufstätigkeiten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v040",
+      "identity": "die teilnahmevoraussetzung",
+      "term": "die Teilnahmevoraussetzung",
+      "type": "noun",
+      "arabic": "شرط المشاركة",
+      "explanation_de": "Eine Bedingung, die vor der Teilnahme an einem Kurs erfüllt sein muss.",
+      "explanation_ar": "شرط يجب تحقيقه قبل المشاركة في دورة.",
+      "examples": [
+        {
+          "de": "Berufserfahrung ist eine Teilnahmevoraussetzung.",
+          "ar": "الخبرة المهنية شرط للمشاركة."
+        },
+        {
+          "de": "Die Teilnahmevoraussetzungen stehen im Flyer.",
+          "ar": "شروط المشاركة مكتوبة في المنشور."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          253,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "kurs",
+        "voraussetzung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Teilnahmevoraussetzungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v041",
+      "identity": "der vollzeitkurs",
+      "term": "der Vollzeitkurs",
+      "type": "noun",
+      "arabic": "دورة بدوام كامل",
+      "explanation_de": "Ein Kurs mit einem hohen wöchentlichen Zeitumfang, meist tagsüber.",
+      "explanation_ar": "دورة بعدد ساعات أسبوعية كبير غالبًا نهارًا.",
+      "examples": [
+        {
+          "de": "Der Vollzeitkurs dauert drei Wochen.",
+          "ar": "تستمر دورة الدوام الكامل ثلاثة أسابيع."
+        },
+        {
+          "de": "Für Berufstätige ist der Vollzeitkurs schwer zu organisieren.",
+          "ar": "يصعب تنظيم دورة الدوام الكامل للعاملين."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "kurs",
+        "zeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Vollzeitkurse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v042",
+      "identity": "der präsenzunterricht",
+      "term": "der Präsenzunterricht",
+      "type": "noun",
+      "arabic": "تعليم حضوري",
+      "explanation_de": "Unterricht, bei dem Lehrende und Lernende am selben Ort anwesend sind.",
+      "explanation_ar": "تعليم يكون فيه المدرّس والمتعلمون في المكان نفسه.",
+      "examples": [
+        {
+          "de": "Der Präsenzunterricht findet in Regensburg statt.",
+          "ar": "يُقام التعليم الحضوري في ريغنسبورغ."
+        },
+        {
+          "de": "Der Kurs ergänzt den Präsenzunterricht durch Online-Module.",
+          "ar": "تكمل الدورة التعليم الحضوري بوحدات إلكترونية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "unterricht",
+        "präsenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v043",
+      "identity": "die abschlussprüfung",
+      "term": "die Abschlussprüfung",
+      "type": "noun",
+      "arabic": "امتحان نهائي",
+      "explanation_de": "Eine Prüfung am Ende einer Ausbildung oder Weiterbildung.",
+      "explanation_ar": "امتحان في نهاية تدريب أو تعليم مستمر.",
+      "examples": [
+        {
+          "de": "Die Abschlussprüfung besteht aus einem praktischen und einem theoretischen Teil.",
+          "ar": "يتكون الامتحان النهائي من جزء عملي ونظري."
+        },
+        {
+          "de": "Nach bestandener Abschlussprüfung erhält man ein Zertifikat.",
+          "ar": "يحصل الشخص على شهادة بعد النجاح في الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          250,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "prüfung",
+        "abschluss"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Abschlussprüfungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v044",
+      "identity": "das zertifikat",
+      "term": "das Zertifikat",
+      "type": "noun",
+      "arabic": "شهادة إثبات",
+      "explanation_de": "Ein Dokument, das eine bestandene Prüfung oder erworbene Kompetenz bestätigt.",
+      "explanation_ar": "وثيقة تثبت نجاحًا في امتحان أو اكتساب مهارة.",
+      "examples": [
+        {
+          "de": "Das Zertifikat ist in der Branche anerkannt.",
+          "ar": "الشهادة معترف بها في القطاع."
+        },
+        {
+          "de": "Sie legt das Zertifikat ihrer Bewerbung bei.",
+          "ar": "ترفق الشهادة بطلب التوظيف."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          252,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "nachweis",
+        "zertifikat"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Zertifikate"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v045",
+      "identity": "die kursgebühr",
+      "term": "die Kursgebühr",
+      "type": "noun",
+      "arabic": "رسوم الدورة",
+      "explanation_de": "Der Geldbetrag, der für die Teilnahme an einem Kurs bezahlt werden muss.",
+      "explanation_ar": "المبلغ الذي يجب دفعه للمشاركة في دورة.",
+      "examples": [
+        {
+          "de": "Die Kursgebühr beträgt 350 Euro.",
+          "ar": "تبلغ رسوم الدورة 350 يورو."
+        },
+        {
+          "de": "Eine Förderung kann die Kursgebühr teilweise übernehmen.",
+          "ar": "قد يغطي الدعم جزءًا من رسوم الدورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          250,
+          253
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "kosten",
+        "kurs"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Kursgebühren"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v046",
+      "identity": "die studiengebühr",
+      "term": "die Studiengebühr",
+      "type": "noun",
+      "arabic": "رسوم الدراسة الجامعية",
+      "explanation_de": "Eine Gebühr, die für ein Studium oder bestimmte Hochschulleistungen erhoben wird.",
+      "explanation_ar": "رسوم تُفرض للدراسة أو لبعض خدمات الجامعة.",
+      "examples": [
+        {
+          "de": "Für den Studiengang fallen keine Studiengebühren an.",
+          "ar": "لا توجد رسوم دراسة لهذا البرنامج."
+        },
+        {
+          "de": "Die Studiengebühren werden semesterweise gezahlt.",
+          "ar": "تُدفع الرسوم لكل فصل دراسي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Studium"
+      },
+      "tags": [
+        "kosten",
+        "studium"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Studiengebühren"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v047",
+      "identity": "die ausbildungsvergütung",
+      "term": "die Ausbildungsvergütung",
+      "type": "noun",
+      "arabic": "راتب التدريب المهني",
+      "explanation_de": "Die regelmäßige Bezahlung, die Auszubildende während der Ausbildung erhalten.",
+      "explanation_ar": "الدفع المنتظم الذي يحصل عليه المتدرب خلال التدريب المهني.",
+      "examples": [
+        {
+          "de": "Die Ausbildungsvergütung steigt jedes Ausbildungsjahr.",
+          "ar": "يرتفع راتب التدريب كل سنة."
+        },
+        {
+          "de": "Die Höhe der Ausbildungsvergütung steht im Vertrag.",
+          "ar": "قيمة راتب التدريب مذكورة في العقد."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Berufsausbildung"
+      },
+      "tags": [
+        "ausbildung",
+        "gehalt"
+      ],
+      "globalRef": "nouns:noun_0508",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "die Ausbildungsvergütungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v048",
+      "identity": "die teilnehmerbescheinigung",
+      "term": "die Teilnehmerbescheinigung",
+      "type": "noun",
+      "arabic": "شهادة مشاركة",
+      "explanation_de": "Ein Dokument, das die Teilnahme an einem Kurs oder Seminar bestätigt.",
+      "explanation_ar": "وثيقة تثبت المشاركة في دورة أو ندوة.",
+      "examples": [
+        {
+          "de": "Nach dem Seminar erhielt sie eine Teilnehmerbescheinigung.",
+          "ar": "حصلت بعد الندوة على شهادة مشاركة."
+        },
+        {
+          "de": "Die Teilnehmerbescheinigung ersetzt keine Abschlussprüfung.",
+          "ar": "لا تحل شهادة المشاركة محل الامتحان النهائي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "teilnahme",
+        "nachweis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Teilnehmerbescheinigungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v049",
+      "identity": "die gesellenprüfung",
+      "term": "die Gesellenprüfung",
+      "type": "noun",
+      "arabic": "امتحان العامل الحرفي",
+      "explanation_de": "Die Abschlussprüfung einer handwerklichen Berufsausbildung.",
+      "explanation_ar": "الامتحان النهائي لتدريب مهني حرفي.",
+      "examples": [
+        {
+          "de": "Nach der Gesellenprüfung arbeitete er in einer Werkstatt.",
+          "ar": "عمل في ورشة بعد امتحان العامل الحرفي."
+        },
+        {
+          "de": "Die Gesellenprüfung enthält praktische Aufgaben.",
+          "ar": "يتضمن الامتحان مهام عملية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Berufsausbildung"
+      },
+      "tags": [
+        "handwerk",
+        "prüfung"
+      ],
+      "globalRef": "nouns:noun_0507",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "die Gesellenprüfungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v050",
+      "identity": "die meisterprüfung",
+      "term": "die Meisterprüfung",
+      "type": "noun",
+      "arabic": "امتحان الماستر الحرفي",
+      "explanation_de": "Eine anspruchsvolle berufliche Prüfung für eine höhere Qualifikation im Handwerk.",
+      "explanation_ar": "امتحان مهني متقدم للحصول على مؤهل أعلى في الحرفة.",
+      "examples": [
+        {
+          "de": "Sie bereitet sich auf die Meisterprüfung vor.",
+          "ar": "تستعد لامتحان الماستر الحرفي."
+        },
+        {
+          "de": "Mit der Meisterprüfung darf er einen Betrieb führen.",
+          "ar": "يمكنه إدارة منشأة بعد الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Berufsausbildung"
+      },
+      "tags": [
+        "handwerk",
+        "prüfung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Meisterprüfungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v051",
+      "identity": "der kursleiter",
+      "term": "der Kursleiter",
+      "type": "noun",
+      "arabic": "مدير الدورة / المدرّب",
+      "explanation_de": "Die Person, die einen Kurs plant, leitet und die Lernenden begleitet.",
+      "explanation_ar": "الشخص الذي يخطط الدورة ويديرها ويرافق المتعلمين.",
+      "examples": [
+        {
+          "de": "Der Kursleiter erklärt die Prüfungsanforderungen.",
+          "ar": "يشرح مدير الدورة متطلبات الامتحان."
+        },
+        {
+          "de": "Bei Fragen wendet man sich an die Kursleiterin.",
+          "ar": "عند الأسئلة يُتواصل مع مديرة الدورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          250,
+          254
+        ],
+        "section": "Lernorganisation"
+      },
+      "tags": [
+        "kurs",
+        "leitung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Kursleiter / die Kursleiterinnen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v052",
+      "identity": "die volkshochschule",
+      "term": "die Volkshochschule",
+      "type": "noun",
+      "arabic": "مركز تعليم الكبار",
+      "explanation_de": "Eine öffentliche Bildungseinrichtung mit Kursen für Erwachsene.",
+      "explanation_ar": "مؤسسة تعليم عامة تقدم دورات للبالغين.",
+      "examples": [
+        {
+          "de": "Die Volkshochschule bietet Sprach- und Computerkurse an.",
+          "ar": "يقدم مركز تعليم الكبار دورات لغة وحاسوب."
+        },
+        {
+          "de": "Der Abendkurs findet an der Volkshochschule statt.",
+          "ar": "تُقام الدورة المسائية في مركز تعليم الكبار."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          250,
+          256
+        ],
+        "section": "Bildungseinrichtungen"
+      },
+      "tags": [
+        "bildung",
+        "erwachsene"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Volkshochschulen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v053",
+      "identity": "die warteliste",
+      "term": "die Warteliste",
+      "type": "noun",
+      "arabic": "قائمة انتظار",
+      "explanation_de": "Eine Liste für Interessierte, die erst bei einem freien Platz teilnehmen können.",
+      "explanation_ar": "قائمة للمهتمين الذين يشاركون عند توفر مكان.",
+      "examples": [
+        {
+          "de": "Der Kurs ist voll, deshalb steht er auf der Warteliste.",
+          "ar": "الدورة ممتلئة لذلك هو على قائمة الانتظار."
+        },
+        {
+          "de": "Ein Platz auf der Warteliste garantiert keine Teilnahme.",
+          "ar": "المكان في قائمة الانتظار لا يضمن المشاركة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "anmeldung",
+        "kurs"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Wartelisten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v054",
+      "identity": "die rücktrittsmöglichkeit",
+      "term": "die Rücktrittsmöglichkeit",
+      "type": "noun",
+      "arabic": "إمكانية الانسحاب",
+      "explanation_de": "Die vertraglich geregelte Möglichkeit, eine Anmeldung wieder zu stornieren.",
+      "explanation_ar": "إمكانية محددة تعاقديًا لإلغاء التسجيل.",
+      "examples": [
+        {
+          "de": "Vor der Anmeldung prüft sie die Rücktrittsmöglichkeit.",
+          "ar": "تتحقق من إمكانية الانسحاب قبل التسجيل."
+        },
+        {
+          "de": "Die Rücktrittsmöglichkeit endet eine Woche vor Kursbeginn.",
+          "ar": "تنتهي إمكانية الانسحاب قبل أسبوع من بدء الدورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "vertrag",
+        "anmeldung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Rücktrittsmöglichkeiten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v055",
+      "identity": "die anmeldefrist",
+      "term": "die Anmeldefrist",
+      "type": "noun",
+      "arabic": "مهلة التسجيل",
+      "explanation_de": "Der letzte Termin, bis zu dem eine Anmeldung eingereicht werden kann.",
+      "explanation_ar": "آخر موعد يمكن حتى تاريخه تقديم التسجيل.",
+      "examples": [
+        {
+          "de": "Die Anmeldefrist endet am 15. März.",
+          "ar": "تنتهي مهلة التسجيل في 15 مارس."
+        },
+        {
+          "de": "Nach Ablauf der Anmeldefrist werden keine Anträge angenommen.",
+          "ar": "لا تُقبل طلبات بعد انتهاء المهلة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          247,
+          256
+        ],
+        "section": "Weiterbildungsangebot"
+      },
+      "tags": [
+        "frist",
+        "anmeldung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Anmeldefristen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v056",
+      "identity": "eine förderung beantragen",
+      "term": "eine Förderung beantragen",
+      "type": "phrase",
+      "arabic": "يقدم طلب دعم",
+      "explanation_de": "Bei einer zuständigen Stelle offiziell finanzielle Unterstützung anfordern.",
+      "explanation_ar": "طلب دعم مالي رسميًا من جهة مختصة.",
+      "examples": [
+        {
+          "de": "Sie beantragt eine Förderung für die Weiterbildung.",
+          "ar": "تقدم طلب دعم للتعليم المستمر."
+        },
+        {
+          "de": "Die Förderung muss vor Kursbeginn beantragt werden.",
+          "ar": "يجب تقديم طلب الدعم قبل بدء الدورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          247,
+          252,
+          253,
+          256
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "antrag",
+        "förderung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v057",
+      "identity": "einen antrag begründen",
+      "term": "einen Antrag begründen",
+      "type": "phrase",
+      "arabic": "يعلل الطلب",
+      "explanation_de": "Nachvollziehbar erklären, warum eine beantragte Leistung benötigt wird.",
+      "explanation_ar": "شرح واضح لسبب الحاجة إلى الخدمة المطلوبة.",
+      "examples": [
+        {
+          "de": "Im Motivationsschreiben begründet er seinen Antrag.",
+          "ar": "يعلل طلبه في رسالة الدافع."
+        },
+        {
+          "de": "Die Antragstellerin begründet den beruflichen Nutzen der Maßnahme.",
+          "ar": "تشرح صاحبة الطلب الفائدة المهنية من الإجراء."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          253,
+          256
+        ],
+        "section": "Motivationsschreiben"
+      },
+      "tags": [
+        "antrag",
+        "begründung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v058",
+      "identity": "die lernumgebung",
+      "term": "die Lernumgebung",
+      "type": "noun",
+      "arabic": "بيئة التعلم",
+      "explanation_de": "Die räumlichen, sozialen und organisatorischen Bedingungen, unter denen gelernt wird.",
+      "explanation_ar": "الظروف المكانية والاجتماعية والتنظيمية التي يحدث فيها التعلم.",
+      "examples": [
+        {
+          "de": "Eine ruhige Lernumgebung verbessert die Konzentration.",
+          "ar": "تحسن بيئة التعلم الهادئة التركيز."
+        },
+        {
+          "de": "Die Gruppe gestaltet eine unterstützende Lernumgebung.",
+          "ar": "تصمم المجموعة بيئة تعلم داعمة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "umgebung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Lernumgebungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v059",
+      "identity": "die lernleistung",
+      "term": "die Lernleistung",
+      "type": "noun",
+      "arabic": "أداء التعلم",
+      "explanation_de": "Das Ergebnis und die Qualität des Lernens in einem bestimmten Zeitraum.",
+      "explanation_ar": "نتيجة وجودة التعلم خلال مدة معينة.",
+      "examples": [
+        {
+          "de": "Starker Stress kann die Lernleistung senken.",
+          "ar": "قد يخفض الضغط الشديد أداء التعلم."
+        },
+        {
+          "de": "Regelmäßige Pausen stabilisieren die Lernleistung.",
+          "ar": "تثبت الاستراحات المنتظمة أداء التعلم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "leistung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Lernleistungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v060",
+      "identity": "die leistungsfähigkeit",
+      "term": "die Leistungsfähigkeit",
+      "type": "noun",
+      "arabic": "القدرة على الأداء",
+      "explanation_de": "Die Fähigkeit, geistige oder körperliche Aufgaben wirksam zu bewältigen.",
+      "explanation_ar": "القدرة على إنجاز مهام ذهنية أو جسدية بفعالية.",
+      "examples": [
+        {
+          "de": "Schlafmangel beeinträchtigt die Leistungsfähigkeit.",
+          "ar": "يؤثر نقص النوم في القدرة على الأداء."
+        },
+        {
+          "de": "Entspannung kann die Leistungsfähigkeit wiederherstellen.",
+          "ar": "قد يعيد الاسترخاء القدرة على الأداء."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "leistung",
+        "gesundheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v061",
+      "identity": "die speicherfähigkeit",
+      "term": "die Speicherfähigkeit",
+      "type": "noun",
+      "arabic": "قدرة الذاكرة على التخزين",
+      "explanation_de": "Die Fähigkeit des Gehirns, Informationen aufzunehmen und dauerhaft zu behalten.",
+      "explanation_ar": "قدرة الدماغ على استقبال المعلومات والاحتفاظ بها.",
+      "examples": [
+        {
+          "de": "Angst kann die Speicherfähigkeit des Gehirns einschränken.",
+          "ar": "قد يقيد الخوف قدرة الدماغ على التخزين."
+        },
+        {
+          "de": "Wiederholung stärkt die Speicherfähigkeit.",
+          "ar": "يقوي التكرار قدرة الذاكرة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "gehirn",
+        "gedächtnis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v062",
+      "identity": "die lernblockade",
+      "term": "die Lernblockade",
+      "type": "noun",
+      "arabic": "عائق تعلم نفسي",
+      "explanation_de": "Ein Zustand, in dem Stress oder Angst das Lernen vorübergehend stark erschwert.",
+      "explanation_ar": "حالة تجعل فيها الضغوط أو المخاوف التعلم صعبًا مؤقتًا.",
+      "examples": [
+        {
+          "de": "Vor der Prüfung entwickelte sie eine Lernblockade.",
+          "ar": "أصيبت بعائق تعلم قبل الامتحان."
+        },
+        {
+          "de": "Entspannungsübungen können Lernblockaden lösen.",
+          "ar": "قد تحل تمارين الاسترخاء عوائق التعلم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "stress"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Lernblockaden"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v063",
+      "identity": "die lernstrategie",
+      "term": "die Lernstrategie",
+      "type": "noun",
+      "arabic": "استراتيجية تعلم",
+      "explanation_de": "Eine bewusst gewählte Methode, um Lernziele effizienter zu erreichen.",
+      "explanation_ar": "طريقة مختارة بوعي للوصول إلى أهداف التعلم بكفاءة.",
+      "examples": [
+        {
+          "de": "Karteikarten sind eine mögliche Lernstrategie.",
+          "ar": "البطاقات التعليمية استراتيجية ممكنة."
+        },
+        {
+          "de": "Sie passt ihre Lernstrategie an die Prüfung an.",
+          "ar": "تكيف استراتيجية التعلم مع الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          255,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "methode"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Lernstrategien"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v064",
+      "identity": "die prüfungsangst",
+      "term": "die Prüfungsangst",
+      "type": "noun",
+      "arabic": "خوف الامتحان",
+      "explanation_de": "Starke Angst vor Prüfungen, die Denken, Konzentration und Leistung beeinträchtigen kann.",
+      "explanation_ar": "خوف شديد من الامتحانات قد يؤثر في التفكير والتركيز والأداء.",
+      "examples": [
+        {
+          "de": "Mit Atemübungen reduziert er seine Prüfungsangst.",
+          "ar": "يخفف خوف الامتحان بتمارين التنفس."
+        },
+        {
+          "de": "Prüfungsangst sollte frühzeitig ernst genommen werden.",
+          "ar": "ينبغي أخذ خوف الامتحان بجدية مبكرًا."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          249,
+          254,
+          255,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "angst",
+        "prüfung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v065",
+      "identity": "das angstsignal",
+      "term": "das Angstsignal",
+      "type": "noun",
+      "arabic": "إشارة خوف",
+      "explanation_de": "Eine körperliche oder psychische Reaktion, die auf wahrgenommene Gefahr hinweist.",
+      "explanation_ar": "رد فعل جسدي أو نفسي يشير إلى خطر مُدرَك.",
+      "examples": [
+        {
+          "de": "Das Gehirn bewertet die Situation als Angstsignal.",
+          "ar": "يقيّم الدماغ الموقف كإشارة خوف."
+        },
+        {
+          "de": "Ein Angstsignal ist nicht immer ein Hinweis auf reale Gefahr.",
+          "ar": "ليست إشارة الخوف دائمًا دليلًا على خطر حقيقي."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "angst",
+        "gehirn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Angstsignale"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v066",
+      "identity": "der positive stress",
+      "term": "der positive Stress",
+      "type": "noun",
+      "arabic": "ضغط إيجابي",
+      "explanation_de": "Eine begrenzte Aktivierung, die Motivation und Konzentration fördern kann.",
+      "explanation_ar": "تنشيط محدود قد يعزز الدافع والتركيز.",
+      "examples": [
+        {
+          "de": "Positiver Stress hilft ihm, die Aufgabe rechtzeitig zu beenden.",
+          "ar": "يساعده الضغط الإيجابي على إنهاء المهمة في الوقت."
+        },
+        {
+          "de": "Zu viel positiver Stress kann jedoch in Überlastung umschlagen.",
+          "ar": "قد يتحول الضغط الإيجابي الزائد إلى إرهاق."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "stress",
+        "motivation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v067",
+      "identity": "das durchhaltevermögen",
+      "term": "das Durchhaltevermögen",
+      "type": "noun",
+      "arabic": "المثابرة",
+      "explanation_de": "Die Fähigkeit, trotz Schwierigkeiten konsequent an einem Ziel weiterzuarbeiten.",
+      "explanation_ar": "القدرة على مواصلة العمل نحو هدف رغم الصعوبات.",
+      "examples": [
+        {
+          "de": "Für die berufsbegleitende Weiterbildung braucht man Durchhaltevermögen.",
+          "ar": "يتطلب التعليم بجانب العمل مثابرة."
+        },
+        {
+          "de": "Ihr Durchhaltevermögen half ihr durch die Prüfungsphase.",
+          "ar": "ساعدتها مثابرتها في فترة الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "motivation",
+        "ausdauer"
+      ],
+      "globalRef": "nouns:noun_0525",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "das",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v068",
+      "identity": "die konzentrationsfähigkeit",
+      "term": "die Konzentrationsfähigkeit",
+      "type": "noun",
+      "arabic": "القدرة على التركيز",
+      "explanation_de": "Die Fähigkeit, die Aufmerksamkeit über eine bestimmte Zeit auf eine Aufgabe zu richten.",
+      "explanation_ar": "القدرة على توجيه الانتباه لمهمة خلال وقت معين.",
+      "examples": [
+        {
+          "de": "Lärm senkt seine Konzentrationsfähigkeit.",
+          "ar": "يخفض الضجيج قدرته على التركيز."
+        },
+        {
+          "de": "Kurze Pausen fördern die Konzentrationsfähigkeit.",
+          "ar": "تعزز الاستراحات القصيرة القدرة على التركيز."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "konzentration",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v069",
+      "identity": "die lernpause",
+      "term": "die Lernpause",
+      "type": "noun",
+      "arabic": "استراحة تعلم",
+      "explanation_de": "Eine bewusst eingeplante Unterbrechung während des Lernens.",
+      "explanation_ar": "توقف مخطط له أثناء التعلم.",
+      "examples": [
+        {
+          "de": "Nach neunzig Minuten macht die Gruppe eine Lernpause.",
+          "ar": "تأخذ المجموعة استراحة بعد تسعين دقيقة."
+        },
+        {
+          "de": "In der Lernpause bewegt sie sich kurz.",
+          "ar": "تتحرك قليلًا في استراحة التعلم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "pause",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Lernpausen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v070",
+      "identity": "der misserfolg",
+      "term": "der Misserfolg",
+      "type": "noun",
+      "arabic": "إخفاق",
+      "explanation_de": "Ein Ergebnis, bei dem ein gesetztes Ziel nicht erreicht wird.",
+      "explanation_ar": "نتيجة لا يتحقق فيها الهدف المحدد.",
+      "examples": [
+        {
+          "de": "Aus einem Misserfolg kann man wichtige Schlüsse ziehen.",
+          "ar": "يمكن استخلاص دروس مهمة من الإخفاق."
+        },
+        {
+          "de": "Ein einzelner Misserfolg bestimmt nicht die gesamte Laufbahn.",
+          "ar": "لا يحدد إخفاق واحد المسيرة كلها."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "ergebnis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Misserfolge"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v071",
+      "identity": "die positive verstärkung",
+      "term": "die positive Verstärkung",
+      "type": "noun",
+      "arabic": "تعزيز إيجابي",
+      "explanation_de": "Lob oder Belohnung, die erwünschtes Verhalten und Motivation stärkt.",
+      "explanation_ar": "مدح أو مكافأة تعزز السلوك المرغوب والدافع.",
+      "examples": [
+        {
+          "de": "Die Lehrerin nutzt positive Verstärkung statt Druck.",
+          "ar": "تستخدم المعلمة التعزيز الإيجابي بدل الضغط."
+        },
+        {
+          "de": "Konkretes Lob ist eine wirksame positive Verstärkung.",
+          "ar": "المدح المحدد تعزيز إيجابي فعال."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "motivation",
+        "lob"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die positiven Verstärkungen"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v072",
+      "identity": "die empathie",
+      "term": "die Empathie",
+      "type": "noun",
+      "arabic": "التعاطف",
+      "explanation_de": "Die Fähigkeit, Gefühle und Perspektiven anderer Menschen nachzuvollziehen.",
+      "explanation_ar": "القدرة على فهم مشاعر ووجهات نظر الآخرين.",
+      "examples": [
+        {
+          "de": "Empathie verbessert die Zusammenarbeit in Lerngruppen.",
+          "ar": "يحسن التعاطف التعاون في مجموعات التعلم."
+        },
+        {
+          "de": "Die Kursleiterin reagierte mit Empathie auf die Prüfungsangst.",
+          "ar": "استجابت مديرة الدورة بتعاطف لخوف الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "sozial",
+        "gefühl"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v073",
+      "identity": "das mitgefühl",
+      "term": "das Mitgefühl",
+      "type": "noun",
+      "arabic": "الشفقة المتفهمة",
+      "explanation_de": "Ein verständnisvolles Gefühl für das Leid oder die Schwierigkeiten einer anderen Person.",
+      "explanation_ar": "شعور متفهم لمعاناة أو صعوبة شخص آخر.",
+      "examples": [
+        {
+          "de": "Sein Mitgefühl half der Teilnehmerin, offen zu sprechen.",
+          "ar": "ساعد تعاطفه المشاركة على التحدث بصراحة."
+        },
+        {
+          "de": "Mitgefühl bedeutet nicht, auf klare Ziele zu verzichten.",
+          "ar": "لا يعني التعاطف التخلي عن أهداف واضحة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "gefühl",
+        "sozial"
+      ],
+      "globalRef": "nouns:noun_0526",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "das",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v074",
+      "identity": "die neugier",
+      "term": "die Neugier",
+      "type": "noun",
+      "arabic": "الفضول",
+      "explanation_de": "Der Wunsch, Neues zu entdecken, zu verstehen und Fragen zu stellen.",
+      "explanation_ar": "الرغبة في اكتشاف الجديد وفهمه وطرح الأسئلة.",
+      "examples": [
+        {
+          "de": "Neugier ist ein starker Motor des Lernens.",
+          "ar": "الفضول محرّك قوي للتعلم."
+        },
+        {
+          "de": "Die Aufgabe weckte ihre Neugier.",
+          "ar": "أثارت المهمة فضولها."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "motivation",
+        "lernen"
+      ],
+      "globalRef": "nouns:noun_0105",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v075",
+      "identity": "die gehirnforschung",
+      "term": "die Gehirnforschung",
+      "type": "noun",
+      "arabic": "أبحاث الدماغ",
+      "explanation_de": "Die wissenschaftliche Untersuchung von Aufbau und Funktionen des Gehirns.",
+      "explanation_ar": "البحث العلمي في بنية الدماغ ووظائفه.",
+      "examples": [
+        {
+          "de": "Die Gehirnforschung untersucht den Einfluss von Stress auf das Lernen.",
+          "ar": "تبحث علوم الدماغ تأثير الضغط على التعلم."
+        },
+        {
+          "de": "Ergebnisse der Gehirnforschung werden oft vereinfacht dargestellt.",
+          "ar": "تُعرض نتائج أبحاث الدماغ أحيانًا بصورة مبسطة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "wissenschaft",
+        "gehirn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v076",
+      "identity": "das untersuchungsergebnis",
+      "term": "das Untersuchungsergebnis",
+      "type": "noun",
+      "arabic": "نتيجة دراسة",
+      "explanation_de": "Ein Ergebnis, das durch eine wissenschaftliche Untersuchung gewonnen wurde.",
+      "explanation_ar": "نتيجة تم التوصل إليها عبر دراسة علمية.",
+      "examples": [
+        {
+          "de": "Das Untersuchungsergebnis bestätigt den Nutzen regelmäßiger Pausen.",
+          "ar": "تؤكد نتيجة الدراسة فائدة الاستراحات المنتظمة."
+        },
+        {
+          "de": "Die Untersuchungsergebnisse werden kritisch diskutiert.",
+          "ar": "تُناقش نتائج الدراسة نقديًا."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "forschung",
+        "ergebnis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Untersuchungsergebnisse"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v077",
+      "identity": "die gefühlswelt",
+      "term": "die Gefühlswelt",
+      "type": "noun",
+      "arabic": "العالم العاطفي",
+      "explanation_de": "Die Gesamtheit der Gefühle und emotionalen Reaktionen einer Person.",
+      "explanation_ar": "مجموع مشاعر الشخص وردوده العاطفية.",
+      "examples": [
+        {
+          "de": "Lernen ist eng mit der Gefühlswelt verbunden.",
+          "ar": "يرتبط التعلم بالعالم العاطفي ارتباطًا وثيقًا."
+        },
+        {
+          "de": "Ein sicherer Kursraum schützt die Gefühlswelt der Lernenden.",
+          "ar": "تحمي بيئة الدورة الآمنة العالم العاطفي للمتعلمين."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "gefühl",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Gefühlswelten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v078",
+      "identity": "sich gegenseitig unterstützen",
+      "term": "sich gegenseitig unterstützen",
+      "type": "phrase",
+      "arabic": "يدعم بعضهم بعضًا",
+      "explanation_de": "Einander aktiv helfen, ermutigen und bei Schwierigkeiten begleiten.",
+      "explanation_ar": "مساعدة وتشجيع بعضهم بعضًا ومرافقتهم عند الصعوبات.",
+      "examples": [
+        {
+          "de": "In der Lerngruppe unterstützen sich alle gegenseitig.",
+          "ar": "يدعم الجميع بعضهم بعضًا في مجموعة التعلم."
+        },
+        {
+          "de": "Kollegen können sich bei der Prüfungsvorbereitung gegenseitig unterstützen.",
+          "ar": "يمكن للزملاء دعم بعضهم في التحضير."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "team",
+        "lernen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "sich gegenseitig + Verb"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v079",
+      "identity": "realistische ziele setzen",
+      "term": "realistische Ziele setzen",
+      "type": "phrase",
+      "arabic": "يضع أهدافًا واقعية",
+      "explanation_de": "Ziele wählen, die anspruchsvoll, aber mit den verfügbaren Mitteln erreichbar sind.",
+      "explanation_ar": "اختيار أهداف طموحة لكنها قابلة للتحقيق بالإمكانات المتاحة.",
+      "examples": [
+        {
+          "de": "Vor dem Kurs setzt sie sich realistische Ziele.",
+          "ar": "تضع أهدافًا واقعية قبل الدورة."
+        },
+        {
+          "de": "Realistische Ziele verhindern unnötigen Frust.",
+          "ar": "تمنع الأهداف الواقعية الإحباط غير الضروري."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "ziel",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v080",
+      "identity": "sich selbst motivieren",
+      "term": "sich selbst motivieren",
+      "type": "phrase",
+      "arabic": "يحفز نفسه",
+      "explanation_de": "Die eigene Bereitschaft zum Handeln bewusst stärken.",
+      "explanation_ar": "تعزيز الاستعداد الشخصي للعمل بوعي.",
+      "examples": [
+        {
+          "de": "Mit kleinen Etappenzielen motiviert er sich selbst.",
+          "ar": "يحفز نفسه بأهداف مرحلية صغيرة."
+        },
+        {
+          "de": "An schwierigen Tagen fällt es ihr schwer, sich selbst zu motivieren.",
+          "ar": "يصعب عليها تحفيز نفسها في الأيام الصعبة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "motivation",
+        "selbst"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "sich selbst + motivieren"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v081",
+      "identity": "lerninhalte miteinander verknüpfen",
+      "term": "Lerninhalte miteinander verknüpfen",
+      "type": "phrase",
+      "arabic": "يربط محتويات التعلم",
+      "explanation_de": "Neue Informationen bewusst mit bereits vorhandenem Wissen verbinden.",
+      "explanation_ar": "ربط المعلومات الجديدة بالمعرفة الموجودة بوعي.",
+      "examples": [
+        {
+          "de": "Grafiken helfen, Lerninhalte miteinander zu verknüpfen.",
+          "ar": "تساعد الرسومات على ربط محتويات التعلم."
+        },
+        {
+          "de": "Sie verknüpft Fachbegriffe mit praktischen Beispielen.",
+          "ar": "تربط المصطلحات بأمثلة عملية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "gedächtnis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ + miteinander"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v082",
+      "identity": "eine lernblockade lösen",
+      "term": "eine Lernblockade lösen",
+      "type": "phrase",
+      "arabic": "يحل عائق تعلم",
+      "explanation_de": "Die Ursachen einer Blockade erkennen und die Lernfähigkeit schrittweise wiederherstellen.",
+      "explanation_ar": "التعرف على أسباب العائق واستعادة القدرة على التعلم تدريجيًا.",
+      "examples": [
+        {
+          "de": "Ein ruhiges Gespräch half, die Lernblockade zu lösen.",
+          "ar": "ساعد حوار هادئ على حل عائق التعلم."
+        },
+        {
+          "de": "Manchmal lässt sich eine Lernblockade durch einen Methodenwechsel lösen.",
+          "ar": "قد يُحل العائق بتغيير الطريقة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          248,
+          254,
+          256
+        ],
+        "section": "Lernen und Emotionen"
+      },
+      "tags": [
+        "lernen",
+        "lösung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v083",
+      "identity": "die indirekte rede",
+      "term": "die indirekte Rede",
+      "type": "noun",
+      "arabic": "الكلام المنقول",
+      "explanation_de": "Die sprachliche Wiedergabe einer Aussage, ohne sie wörtlich zu zitieren.",
+      "explanation_ar": "نقل قول شخص دون اقتباسه حرفيًا.",
+      "examples": [
+        {
+          "de": "In der indirekten Rede steht das Verb häufig im Konjunktiv I.",
+          "ar": "يأتي الفعل غالبًا في Konjunktiv I بالكلام المنقول."
+        },
+        {
+          "de": "Der Artikel gibt die Aussagen in indirekter Rede wieder.",
+          "ar": "ينقل المقال الأقوال بالكلام غير المباشر."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          245,
+          251,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik",
+        "wiedergabe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v084",
+      "identity": "der konjunktiv i",
+      "term": "der Konjunktiv I",
+      "type": "noun",
+      "arabic": "صيغة النقل الأولى",
+      "explanation_de": "Eine Verbform, die besonders in Nachrichten und Berichten zur distanzierten Wiedergabe genutzt wird.",
+      "explanation_ar": "صيغة فعل تُستخدم خصوصًا في الأخبار والتقارير لنقل القول بمسافة.",
+      "examples": [
+        {
+          "de": "„Er sei krank“ steht im Konjunktiv I.",
+          "ar": "جملة «إنه مريض» بصيغة النقل الأولى."
+        },
+        {
+          "de": "Der Konjunktiv I zeigt, dass die Aussage von einer anderen Person stammt.",
+          "ar": "يوضح أن القول صادر عن شخص آخر."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          245,
+          251,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik",
+        "konjunktiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "—"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v085",
+      "identity": "eine aussage wiedergeben",
+      "term": "eine Aussage wiedergeben",
+      "type": "phrase",
+      "arabic": "ينقل تصريحًا",
+      "explanation_de": "Den Inhalt einer Äußerung sachlich und sinngemäß formulieren.",
+      "explanation_ar": "صياغة مضمون قول بموضوعية وبالمعنى.",
+      "examples": [
+        {
+          "de": "Die Zeitung gibt die Aussage des Experten wieder.",
+          "ar": "تنقل الصحيفة تصريح الخبير."
+        },
+        {
+          "de": "Bitte geben Sie die Aussage in indirekter Rede wieder.",
+          "ar": "انقل التصريح بالكلام غير المباشر."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          245,
+          251,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "sprache",
+        "bericht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v086",
+      "identity": "der irreale vergleichssatz",
+      "term": "der irreale Vergleichssatz",
+      "type": "noun",
+      "arabic": "جملة مقارنة غير واقعية",
+      "explanation_de": "Ein Satz mit als ob oder als wenn, der einen nur vorgestellten Vergleich ausdrückt.",
+      "explanation_ar": "جملة بـ als ob أو als wenn تعبر عن مقارنة متخيلة.",
+      "examples": [
+        {
+          "de": "„Er spricht, als ob er alles wüsste“ ist ein irrealer Vergleichssatz.",
+          "ar": "هذه جملة مقارنة غير واقعية."
+        },
+        {
+          "de": "Irreale Vergleichssätze stehen meist im Konjunktiv II.",
+          "ar": "تأتي المقارنات غير الواقعية غالبًا في Konjunktiv II."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          249,
+          255,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "grammatik",
+        "vergleich"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die irrealen Vergleichssätze"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v087",
+      "identity": "als ob",
+      "term": "als ob",
+      "type": "connector",
+      "arabic": "كما لو أن",
+      "explanation_de": "Leitet einen irrealen Vergleich ein; das Verb steht häufig im Konjunktiv II.",
+      "explanation_ar": "تبدأ مقارنة غير واقعية ويأتي الفعل غالبًا بصيغة Konjunktiv II.",
+      "examples": [
+        {
+          "de": "Sie wirkt, als ob sie die Prüfung schon bestanden hätte.",
+          "ar": "تبدو كما لو أنها نجحت في الامتحان."
+        },
+        {
+          "de": "Er redet, als ob er der Kursleiter wäre.",
+          "ar": "يتحدث كما لو كان مدير الدورة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          249,
+          255,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "konjunktiv",
+        "vergleich"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "syntax": "Nebensatz; Verb am Ende"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v088",
+      "identity": "als wenn",
+      "term": "als wenn",
+      "type": "connector",
+      "arabic": "كما لو أن",
+      "explanation_de": "Eine alternative Verbindung für einen irrealen Vergleich.",
+      "explanation_ar": "أداة بديلة للتعبير عن مقارنة غير واقعية.",
+      "examples": [
+        {
+          "de": "Es fühlt sich an, als wenn die Zeit stillstünde.",
+          "ar": "يبدو كما لو أن الوقت توقف."
+        },
+        {
+          "de": "Sie tut so, als wenn sie nichts gehört hätte.",
+          "ar": "تتصرف كما لو أنها لم تسمع."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          249,
+          255,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "konjunktiv",
+        "vergleich"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "syntax": "Nebensatz; Verb am Ende"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v089",
+      "identity": "sich fühlen, als würde ...",
+      "term": "sich fühlen, als würde ...",
+      "type": "phrase",
+      "arabic": "يشعر كما لو أن ...",
+      "explanation_de": "Eine subjektive, nicht reale Wahrnehmung mit würde und Infinitiv ausdrücken.",
+      "explanation_ar": "التعبير عن إحساس ذاتي غير واقعي باستخدام würde والمصدر.",
+      "examples": [
+        {
+          "de": "Nach der Prüfung fühlte er sich, als würde eine Last verschwinden.",
+          "ar": "شعر بعد الامتحان كما لو أن عبئًا يزول."
+        },
+        {
+          "de": "Sie fühlt sich, als würde sie wieder ganz am Anfang stehen.",
+          "ar": "تشعر كما لو أنها عادت للبداية."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          249,
+          255,
+          256
+        ],
+        "section": "Grammatik"
+      },
+      "tags": [
+        "gefühl",
+        "konjunktiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "sich fühlen, als würde + Infinitiv"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v090",
+      "identity": "das motivationsschreiben",
+      "term": "das Motivationsschreiben",
+      "type": "noun",
+      "arabic": "رسالة دافع",
+      "explanation_de": "Ein formeller Text, der Motivation, Eignung und Ziele für eine Bewerbung oder Förderung erklärt.",
+      "explanation_ar": "نص رسمي يشرح الدافع والملاءمة والأهداف لطلب أو منحة.",
+      "examples": [
+        {
+          "de": "Im Motivationsschreiben beschreibt sie ihr Weiterbildungsziel.",
+          "ar": "تصف هدف التعليم المستمر في رسالة الدافع."
+        },
+        {
+          "de": "Das Motivationsschreiben sollte konkrete Erfahrungen nennen.",
+          "ar": "ينبغي أن تذكر رسالة الدافع خبرات محددة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          253,
+          256
+        ],
+        "section": "Motivationsschreiben"
+      },
+      "tags": [
+        "bewerbung",
+        "förderung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Motivationsschreiben"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v091",
+      "identity": "eine weiterbildung finanzieren",
+      "term": "eine Weiterbildung finanzieren",
+      "type": "phrase",
+      "arabic": "يمول تعليمًا مستمرًا",
+      "explanation_de": "Die Kosten einer beruflichen Weiterbildung ganz oder teilweise übernehmen.",
+      "explanation_ar": "تغطية تكاليف التعليم المستمر كليًا أو جزئيًا.",
+      "examples": [
+        {
+          "de": "Das Stipendium finanziert die Weiterbildung.",
+          "ar": "تمول المنحة التعليم المستمر."
+        },
+        {
+          "de": "Sie sucht nach einer Möglichkeit, die Weiterbildung zu finanzieren.",
+          "ar": "تبحث عن طريقة لتمويل التعليم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          246,
+          247,
+          253,
+          256
+        ],
+        "section": "Förderprogramme"
+      },
+      "tags": [
+        "finanzierung",
+        "weiterbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "pattern": "Akkusativ"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v092",
+      "identity": "zielstrebig",
+      "term": "zielstrebig",
+      "type": "adjective",
+      "arabic": "هادف ومثابر",
+      "explanation_de": "Konsequent auf ein klares Ziel hinarbeitend.",
+      "explanation_ar": "يعمل بثبات نحو هدف واضح.",
+      "examples": [
+        {
+          "de": "Sie verfolgt ihren Bildungsweg sehr zielstrebig.",
+          "ar": "تتابع مسارها التعليمي بإصرار."
+        },
+        {
+          "de": "Zielstrebige Lernende planen ihre nächsten Schritte.",
+          "ar": "يخطط المتعلمون الهادفون خطواتهم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "ziel"
+      ],
+      "globalRef": "adjectives:adj_0175",
+      "integrationStatus": "linked_to_production",
+      "grammar": {}
+    },
+    {
+      "courseItemId": "b2u14-v093",
+      "identity": "belastbar",
+      "term": "belastbar",
+      "type": "adjective",
+      "arabic": "قادر على تحمل الضغط",
+      "explanation_de": "Auch unter hoher Belastung handlungsfähig und zuverlässig.",
+      "explanation_ar": "قادر على العمل بثبات تحت ضغط كبير.",
+      "examples": [
+        {
+          "de": "Für die berufsbegleitende Weiterbildung muss man belastbar sein.",
+          "ar": "يجب أن يكون الشخص قادرًا على التحمل."
+        },
+        {
+          "de": "Sie bleibt auch in Prüfungsphasen belastbar.",
+          "ar": "تبقى قادرة على التحمل في فترة الامتحان."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "stress"
+      ],
+      "globalRef": "adjectives:adj_0111",
+      "integrationStatus": "linked_to_production",
+      "grammar": {}
+    },
+    {
+      "courseItemId": "b2u14-v094",
+      "identity": "engagiert",
+      "term": "engagiert",
+      "type": "adjective",
+      "arabic": "ملتزم ونشيط",
+      "explanation_de": "Mit großem persönlichen Einsatz und Interesse handelnd.",
+      "explanation_ar": "يتصرف باهتمام وجهد شخصي كبير.",
+      "examples": [
+        {
+          "de": "Die engagierte Lehrerin unterstützt schwächere Schüler.",
+          "ar": "تدعم المعلمة الملتزمة الطلاب الأضعف."
+        },
+        {
+          "de": "Er engagiert sich zusätzlich in einer Lerngruppe.",
+          "ar": "ينشط أيضًا في مجموعة تعلم."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          245,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "einsatz"
+      ],
+      "globalRef": "adjectives:adj_0110",
+      "integrationStatus": "linked_to_production",
+      "grammar": {}
+    },
+    {
+      "courseItemId": "b2u14-v095",
+      "identity": "verantwortungsbewusst",
+      "term": "verantwortungsbewusst",
+      "type": "adjective",
+      "arabic": "واعٍ بالمسؤولية",
+      "explanation_de": "Die Folgen des eigenen Handelns berücksichtigend und zuverlässig entscheidend.",
+      "explanation_ar": "يراعي نتائج أفعاله ويتخذ قرارات موثوقة.",
+      "examples": [
+        {
+          "de": "Sie plant die Weiterbildung verantwortungsbewusst.",
+          "ar": "تخطط للتعليم المستمر بمسؤولية."
+        },
+        {
+          "de": "Verantwortungsbewusste Kursleiter schützen persönliche Daten.",
+          "ar": "يحمي مدراء الدورات المسؤولون البيانات."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "verantwortung"
+      ],
+      "globalRef": "adjectives:adj_0173",
+      "integrationStatus": "linked_to_production",
+      "grammar": {}
+    },
+    {
+      "courseItemId": "b2u14-v096",
+      "identity": "selbstbewusst",
+      "term": "selbstbewusst",
+      "type": "adjective",
+      "arabic": "واثق من نفسه",
+      "explanation_de": "Von den eigenen Fähigkeiten überzeugt, ohne andere abzuwerten.",
+      "explanation_ar": "واثق بقدراته دون التقليل من الآخرين.",
+      "examples": [
+        {
+          "de": "Im Beratungsgespräch trat sie selbstbewusst auf.",
+          "ar": "ظهرت بثقة في الاستشارة."
+        },
+        {
+          "de": "Gute Vorbereitung macht ihn selbstbewusster.",
+          "ar": "يجعله التحضير الجيد أكثر ثقة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "comparative": "selbstbewusster",
+        "superlative": "am selbstbewusstesten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v097",
+      "identity": "mutig",
+      "term": "mutig",
+      "type": "adjective",
+      "arabic": "شجاع",
+      "explanation_de": "Bereit, trotz Unsicherheit eine schwierige Entscheidung zu treffen.",
+      "explanation_ar": "مستعد لاتخاذ قرار صعب رغم عدم اليقين.",
+      "examples": [
+        {
+          "de": "Es war mutig, den Abschluss später nachzuholen.",
+          "ar": "كان من الشجاعة استدراك الشهادة."
+        },
+        {
+          "de": "Sie stellte mutig Fragen zur Finanzierung.",
+          "ar": "طرحت بشجاعة أسئلة عن التمويل."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "comparative": "mutiger",
+        "superlative": "am mutigsten"
+      }
+    },
+    {
+      "courseItemId": "b2u14-v098",
+      "identity": "diszipliniert",
+      "term": "diszipliniert",
+      "type": "adjective",
+      "arabic": "منضبط",
+      "explanation_de": "Regelmäßig, geordnet und konsequent an Aufgaben arbeitend.",
+      "explanation_ar": "يعمل على المهام بانتظام ونظام وثبات.",
+      "examples": [
+        {
+          "de": "Für ein Fernstudium muss man diszipliniert lernen.",
+          "ar": "يجب التعلم بانضباط في الدراسة عن بعد."
+        },
+        {
+          "de": "Er bearbeitet seinen Lernplan diszipliniert.",
+          "ar": "ينفذ خطة التعلم بانضباط."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "lernen"
+      ],
+      "globalRef": "adjectives:adj_0162",
+      "integrationStatus": "linked_to_production",
+      "grammar": {}
+    },
+    {
+      "courseItemId": "b2u14-v099",
+      "identity": "zäh",
+      "term": "zäh",
+      "type": "adjective",
+      "arabic": "مثابر وصلب",
+      "explanation_de": "Auch bei langen Schwierigkeiten nicht schnell aufgebend.",
+      "explanation_ar": "لا يستسلم بسرعة أمام الصعوبات الطويلة.",
+      "examples": [
+        {
+          "de": "Sie blieb zäh und bestand die Prüfung beim zweiten Versuch.",
+          "ar": "ثابرت ونجحت في المحاولة الثانية."
+        },
+        {
+          "de": "Zähe Lernende lassen sich von Rückschlägen nicht sofort entmutigen.",
+          "ar": "لا يُحبط المتعلمون المثابرون بسرعة."
+        }
+      ],
+      "source": {
+        "unit": 14,
+        "pages": [
+          244,
+          256
+        ],
+        "section": "Persönliche Eigenschaften"
+      },
+      "tags": [
+        "person",
+        "ausdauer"
+      ],
+      "globalRef": "adjectives:adj_0105",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "comparative": "zäher",
+        "superlative": "am zähesten"
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-32",
+  "title_de": "Verbalisierung und Nominalstil – Übungen",
+  "title_ar": "تمارين التحويل إلى أسلوب فعلي والأسلوب الاسمي",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr32-e001",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wegen verbalisieren",
+      "title_ar": "تحويل wegen",
+      "prompt_de": "Welche Verbalisierung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "Weil die Lieferung verspätet war, wurde der Termin verschoben.",
+      "explanation_de": "Wegen der Verspätung wird durch einen weil-Satz verbalisiert.",
+      "explanation_ar": "تُحوّل صيغة wegen إلى جملة باستخدام weil.",
+      "grammarFocus": "wegen_to_weil",
+      "options": [
+        "Weil die Lieferung verspätet war, wurde der Termin verschoben.",
+        "Wegen die Lieferung verspätet war, wurde der Termin verschoben.",
+        "Weil war die Lieferung verspätet, wurde der Termin verschoben.",
+        "Aufgrund die Lieferung verspätet war, wurde der Termin verschoben."
+      ]
+    },
+    {
+      "id": "gr32-e002",
+      "topicId": "gr-32",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Trotz verbalisieren",
+      "title_ar": "تحويل trotz",
+      "prompt_de": "______ die Frist kurz war, wurde der Bericht rechtzeitig fertiggestellt.",
+      "prompt_ar": "رغم أن المهلة كانت قصيرة تم إنجاز التقرير في الوقت المناسب.",
+      "answer": "Obwohl",
+      "explanation_de": "Trotz der kurzen Frist entspricht hier obwohl die Frist kurz war.",
+      "explanation_ar": "تقابل trotz der kurzen Frist هنا obwohl die Frist kurz war.",
+      "grammarFocus": "trotz_to_obwohl",
+      "acceptedAnswers": [
+        "Obwohl",
+        "obwohl"
+      ]
+    },
+    {
+      "id": "gr32-e003",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nach verbalisieren",
+      "title_ar": "تحويل nach",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht versandt.",
+      "explanation_de": "Nach Abschluss der Prüfung wird mit einem nachdem-Satz verbalisiert.",
+      "explanation_ar": "تُحوّل nach Abschluss der Prüfung باستخدام جملة nachdem.",
+      "grammarFocus": "nach_to_nachdem",
+      "options": [
+        "Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht versandt.",
+        "Nach die Prüfung abgeschlossen worden war, wurde der Bericht versandt.",
+        "Nachdem war die Prüfung abgeschlossen, wurde der Bericht versandt.",
+        "Nach dem die Prüfung abgeschlossen war, wurde der Bericht versandt."
+      ]
+    },
+    {
+      "id": "gr32-e004",
+      "topicId": "gr-32",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Präposition und Konnektor",
+      "title_ar": "حرف الجر وأداة الربط",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "wegen": "weil",
+        "trotz": "obwohl",
+        "nach": "nachdem",
+        "vor": "bevor",
+        "zur Verbesserung": "um ... zu"
+      },
+      "explanation_de": "Die Präpositionalgruppen werden durch passende Satzstrukturen ersetzt.",
+      "explanation_ar": "تُستبدل المجموعات مع حروف الجر ببنى جمل مناسبة.",
+      "grammarFocus": "preposition_connector_matching",
+      "pairs": [
+        [
+          "wegen",
+          "weil"
+        ],
+        [
+          "trotz",
+          "obwohl"
+        ],
+        [
+          "nach",
+          "nachdem"
+        ],
+        [
+          "vor",
+          "bevor"
+        ],
+        [
+          "zur Verbesserung",
+          "um ... zu"
+        ]
+      ]
+    },
+    {
+      "id": "gr32-e005",
+      "topicId": "gr-32",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Vor → bevor",
+      "title_ar": "vor ← bevor",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Bevor der Vertrag unterzeichnet wird, wird er rechtlich geprüft.",
+      "explanation_de": "Vor der Unterzeichnung wird durch einen bevor-Satz ausgedrückt.",
+      "explanation_ar": "تُعبّر صيغة vor der Unterzeichnung بجملة bevor.",
+      "grammarFocus": "vor_to_bevor_order",
+      "tokens": [
+        "wird er rechtlich geprüft",
+        "Bevor",
+        "unterzeichnet wird",
+        "der Vertrag"
+      ],
+      "acceptedAnswers": [
+        "Bevor der Vertrag unterzeichnet wird, wird er rechtlich geprüft."
+      ]
+    },
+    {
+      "id": "gr32-e006",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Ziel verbalisieren",
+      "title_ar": "تحويل الغاية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Um die Qualität zu verbessern, wird ein neues Kontrollsystem eingeführt.",
+      "explanation_de": "Zur Verbesserung der Qualität wird mit um ... zu verbalisiert.",
+      "explanation_ar": "تُحوّل zur Verbesserung der Qualität باستخدام um ... zu.",
+      "grammarFocus": "purpose_um_zu",
+      "options": [
+        "Um die Qualität zu verbessern, wird ein neues Kontrollsystem eingeführt.",
+        "Zur die Qualität verbessern wird ein Kontrollsystem eingeführt.",
+        "Damit die Qualität zu verbessern, wird ein Kontrollsystem eingeführt.",
+        "Um die Qualität verbessern, wird ein Kontrollsystem eingeführt."
+      ]
+    },
+    {
+      "id": "gr32-e007",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Handelnde Stelle",
+      "title_ar": "الجهة القائمة بالفعل",
+      "prompt_de": "Welche Verbalisierung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "Die Fachabteilung prüft die Unterlagen.",
+      "explanation_de": "Die durch-Ergänzung wird im Aktivsatz zum Subjekt.",
+      "explanation_ar": "تتحول إضافة durch في الجملة المعلومة إلى فاعل.",
+      "grammarFocus": "agent_to_subject",
+      "options": [
+        "Die Fachabteilung prüft die Unterlagen.",
+        "Die Fachabteilung die Prüfung der Unterlagen.",
+        "Die Unterlagen prüfen durch die Fachabteilung.",
+        "Die Prüfung prüft die Fachabteilung."
+      ]
+    },
+    {
+      "id": "gr32-e008",
+      "topicId": "gr-32",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Durch verbalisieren",
+      "title_ar": "تحويل durch",
+      "prompt_de": "______ die Abläufe digitalisiert wurden, konnte viel Zeit gespart werden.",
+      "prompt_ar": "من خلال رقمنة الإجراءات أمكن توفير الكثير من الوقت.",
+      "answer": "Indem",
+      "explanation_de": "Durch die Digitalisierung der Abläufe wird mit indem verbalisiert.",
+      "explanation_ar": "تُحوّل durch die Digitalisierung der Abläufe باستخدام indem.",
+      "grammarFocus": "durch_to_indem",
+      "acceptedAnswers": [
+        "Indem",
+        "indem"
+      ]
+    },
+    {
+      "id": "gr32-e009",
+      "topicId": "gr-32",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Kausale Verbalisierung",
+      "title_ar": "تحويل سببي",
+      "prompt_de": "Verbalisieren Sie: Aufgrund der unvollständigen Angaben konnte der Antrag nicht abschließend geprüft werden.",
+      "prompt_ar": "حوّل الجملة إلى أسلوب فعلي.",
+      "answer": "Weil die Angaben unvollständig waren, konnte der Antrag nicht abschließend geprüft werden.",
+      "explanation_de": "Aufgrund der unvollständigen Angaben wird zu weil die Angaben unvollständig waren.",
+      "explanation_ar": "تتحول aufgrund der unvollständigen Angaben إلى weil die Angaben unvollständig waren.",
+      "grammarFocus": "complex_causal_verbalization",
+      "acceptedAnswers": [
+        "Weil die Angaben unvollständig waren, konnte der Antrag nicht abschließend geprüft werden.",
+        "Da die Angaben unvollständig waren, konnte der Antrag nicht abschließend geprüft werden."
+      ]
+    },
+    {
+      "id": "gr32-e010",
+      "topicId": "gr-32",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Konzessive Verbalisierung",
+      "title_ar": "تحويل استدراكي",
+      "prompt_de": "Verbalisieren Sie: Trotz der Ablehnung des ersten Vorschlags setzte das Team die Arbeit fort.",
+      "prompt_ar": "حوّل الجملة إلى أسلوب فعلي.",
+      "answer": "Obwohl der erste Vorschlag abgelehnt worden war, setzte das Team die Arbeit fort.",
+      "explanation_de": "Die nominale Einräumung wird mit obwohl und einem Passivsatz wiedergegeben.",
+      "explanation_ar": "تُصاغ العلاقة الاستدراكية باستخدام obwohl وجملة مجهولة.",
+      "grammarFocus": "complex_concessive_verbalization",
+      "acceptedAnswers": [
+        "Obwohl der erste Vorschlag abgelehnt worden war, setzte das Team die Arbeit fort."
+      ]
+    },
+    {
+      "id": "gr32-e011",
+      "topicId": "gr-32",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Bei → wenn",
+      "title_ar": "bei ← wenn",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wenn technische Probleme auftreten, wenden Sie sich an den Support.",
+      "explanation_de": "Bei technischen Problemen wird hier als Bedingung mit wenn verbalisiert.",
+      "explanation_ar": "تُحوّل bei technischen Problemen هنا بوصفها شرطًا باستخدام wenn.",
+      "grammarFocus": "bei_to_wenn_order",
+      "tokens": [
+        "wenden Sie sich an den Support",
+        "Wenn",
+        "auftreten",
+        "technische Probleme"
+      ],
+      "acceptedAnswers": [
+        "Wenn technische Probleme auftreten, wenden Sie sich an den Support."
+      ]
+    },
+    {
+      "id": "gr32-e012",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Bei richtig deuten",
+      "title_ar": "فهم bei بصورة صحيحة",
+      "prompt_de": "Welche Verbalisierung passt zu „Bei der Besprechung wurden mehrere Fragen geklärt“?",
+      "prompt_ar": "أي تحويل يناسب الجملة؟",
+      "answer": "Während die Besprechung stattfand, wurden mehrere Fragen geklärt.",
+      "explanation_de": "Bei bezeichnet hier Gleichzeitigkeit und wird mit während verbalisiert.",
+      "explanation_ar": "تدل bei هنا على التزامن وتُحوّل باستخدام während.",
+      "grammarFocus": "bei_to_waehrend",
+      "options": [
+        "Während die Besprechung stattfand, wurden mehrere Fragen geklärt.",
+        "Wenn die Besprechung stattfinden wird, wurden Fragen geklärt.",
+        "Weil die Besprechung stattfand, wurden Fragen geklärt.",
+        "Obwohl die Besprechung stattfand, wurden Fragen geklärt."
+      ]
+    },
+    {
+      "id": "gr32-e013",
+      "topicId": "gr-32",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Nominale Ergänzung auflösen",
+      "title_ar": "تفكيك المتمم الاسمي",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Prüfung der Daten": "die Daten prüfen",
+        "Verbesserung der Abläufe": "die Abläufe verbessern",
+        "Information der Beschäftigten": "die Beschäftigten informieren",
+        "Kontrolle der Geräte": "die Geräte kontrollieren",
+        "Einführung des Systems": "das System einführen"
+      },
+      "explanation_de": "Das Genitivattribut wird bei der Verbalisierung häufig zum Objekt.",
+      "explanation_ar": "يتحول تركيب Genitiv عند التحويل غالبًا إلى مفعول.",
+      "grammarFocus": "noun_phrase_to_verb_matching",
+      "pairs": [
+        [
+          "Prüfung der Daten",
+          "die Daten prüfen"
+        ],
+        [
+          "Verbesserung der Abläufe",
+          "die Abläufe verbessern"
+        ],
+        [
+          "Information der Beschäftigten",
+          "die Beschäftigten informieren"
+        ],
+        [
+          "Kontrolle der Geräte",
+          "die Geräte kontrollieren"
+        ],
+        [
+          "Einführung des Systems",
+          "das System einführen"
+        ]
+      ]
+    },
+    {
+      "id": "gr32-e014",
+      "topicId": "gr-32",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Verantwortlichkeit klar ausdrücken",
+      "title_ar": "توضيح المسؤولية",
+      "prompt_de": "Welche Formulierung zeigt am klarsten, wer handelt?",
+      "prompt_ar": "أي صياغة توضح بشكل أفضل من يقوم بالفعل؟",
+      "answer": "Die IT-Abteilung kontrolliert die Zugriffsrechte regelmäßig.",
+      "explanation_de": "Der Aktivsatz nennt die verantwortliche Abteilung ausdrücklich als Subjekt.",
+      "explanation_ar": "تذكر الجملة المعلومة القسم المسؤول صراحة بوصفه فاعلًا.",
+      "grammarFocus": "clear_responsibility",
+      "options": [
+        "Die IT-Abteilung kontrolliert die Zugriffsrechte regelmäßig.",
+        "Die regelmäßige Kontrolle der Zugriffsrechte.",
+        "Es erfolgt die regelmäßige Kontrolle.",
+        "Die Zugriffsrechte mit regelmäßiger Kontrolle."
+      ]
+    },
+    {
+      "id": "gr32-e015",
+      "topicId": "gr-32",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Ohne dass",
+      "title_ar": "ohne dass",
+      "prompt_de": "Die Änderung wurde umgesetzt, ohne ______ die Mitarbeitenden informiert wurden.",
+      "prompt_ar": "تم تنفيذ التغيير من دون أن يُبلّغ الموظفون.",
+      "answer": "dass",
+      "explanation_de": "Bei unterschiedlichen Subjekten steht ohne dass.",
+      "explanation_ar": "عند اختلاف الفاعل نستخدم ohne dass.",
+      "grammarFocus": "without_different_subject",
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "gr32-e016",
+      "topicId": "gr-32",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Passiv beibehalten",
+      "title_ar": "الإبقاء على المبني للمجهول",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem die Unterlagen geprüft worden waren, wurde die Freigabe erteilt.",
+      "explanation_de": "Der Handelnde bleibt ungenannt; deshalb ist das Passiv passend.",
+      "explanation_ar": "يبقى القائم بالفعل غير مذكور، لذلك يناسب المبني للمجهول.",
+      "grammarFocus": "passive_verbalization_order",
+      "tokens": [
+        "wurde die Freigabe erteilt",
+        "geprüft worden waren",
+        "Nachdem",
+        "die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Nachdem die Unterlagen geprüft worden waren, wurde die Freigabe erteilt."
+      ]
+    },
+    {
+      "id": "gr32-e017",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nominal- und Verbalstil kombinieren",
+      "title_ar": "دمج الأسلوب الاسمي والفعلي",
+      "prompt_de": "Welche Textfolge ist stilistisch ausgewogen?",
+      "prompt_ar": "أي تتابع نصي متوازن أسلوبيًا؟",
+      "answer": "Die Einführung des Systems beginnt im September. Zunächst schult die IT-Abteilung alle Beschäftigten.",
+      "explanation_de": "Der erste Satz benennt das Thema kompakt; der zweite erklärt den Ablauf verbal.",
+      "explanation_ar": "تسمي الجملة الأولى الموضوع باختصار، وتشرح الثانية الإجراء بأسلوب فعلي.",
+      "grammarFocus": "balanced_style",
+      "options": [
+        "Die Einführung des Systems beginnt im September. Zunächst schult die IT-Abteilung alle Beschäftigten.",
+        "Die Einführung, die Schulung, die Information, die Durchführung im September.",
+        "Das System September Einführung. IT Schulung alle.",
+        "Es wird Einführung gemacht und dann Schulung durchgeführt werdend."
+      ]
+    },
+    {
+      "id": "gr32-e018",
+      "topicId": "gr-32",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Finale Verbalisierung mit anderem Subjekt",
+      "title_ar": "تحويل الغاية مع فاعل مختلف",
+      "prompt_de": "Verbalisieren Sie: Zur Information der Beschäftigten wird eine Mitteilung versandt.",
+      "prompt_ar": "حوّل الجملة مع مراعاة اختلاف الفاعل.",
+      "answer": "Damit die Beschäftigten informiert sind, wird eine Mitteilung versandt.",
+      "explanation_de": "Die Beschäftigten sind nicht der Handelnde des Hauptsatzes; deshalb passt damit.",
+      "explanation_ar": "الموظفون ليسوا فاعل الجملة الرئيسية، لذلك تناسب damit.",
+      "grammarFocus": "purpose_damit",
+      "acceptedAnswers": [
+        "Damit die Beschäftigten informiert sind, wird eine Mitteilung versandt.",
+        "Damit die Beschäftigten informiert werden, wird eine Mitteilung versandt."
+      ]
+    },
+    {
+      "id": "gr32-e019",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Mittel oder Ursache",
+      "title_ar": "وسيلة أم سبب",
+      "prompt_de": "Welche Verbalisierung ist korrekt und bedeutungsgleich?",
+      "prompt_ar": "أي تحويل صحيح ومساوٍ في المعنى؟",
+      "answer": "Indem das Team die Arbeitsschritte standardisierte, verringerte es die Fehlerquote.",
+      "explanation_de": "Durch die Standardisierung der Arbeitsschritte bezeichnet hier das Mittel.",
+      "explanation_ar": "تدل durch die Standardisierung der Arbeitsschritte هنا على الوسيلة.",
+      "grammarFocus": "means_indem",
+      "options": [
+        "Indem das Team die Arbeitsschritte standardisierte, verringerte es die Fehlerquote.",
+        "Obwohl das Team die Arbeitsschritte standardisierte, verringerte es die Fehlerquote.",
+        "Bevor das Team die Arbeitsschritte standardisierte, verringerte es die Fehlerquote.",
+        "Damit das Team die Arbeitsschritte standardisierte, verringerte es die Fehlerquote."
+      ]
+    },
+    {
+      "id": "gr32-e020",
+      "topicId": "gr-32",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Verständlicher Behördenbrief",
+      "title_ar": "رسالة رسمية واضحة",
+      "prompt_de": "Welche Formulierung ist für einen verständlichen Behördenbrief am besten?",
+      "prompt_ar": "أي صياغة أنسب لرسالة رسمية واضحة؟",
+      "answer": "Weil noch Unterlagen fehlen, können wir Ihren Antrag derzeit nicht abschließend bearbeiten.",
+      "explanation_de": "Der Verbalstil nennt Grund und Handlung direkt und verständlich.",
+      "explanation_ar": "يذكر الأسلوب الفعلي السبب والإجراء بصورة مباشرة وواضحة.",
+      "grammarFocus": "clear_official_style",
+      "options": [
+        "Weil noch Unterlagen fehlen, können wir Ihren Antrag derzeit nicht abschließend bearbeiten.",
+        "Aufgrund des Vorliegens einer Unvollständigkeit der Unterlagen besteht die Nichtmöglichkeit der abschließenden Bearbeitung.",
+        "Unterlagen fehlend, Antrag keine Bearbeitung.",
+        "Wegen fehlen Unterlagen kann Bearbeitung nicht."
+      ]
+    },
+    {
+      "id": "gr32-e021",
+      "topicId": "gr-32",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrfache Verbalisierung",
+      "title_ar": "تحويل متعدد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem das neue System eingeführt worden war, schulte die IT-Abteilung die Beschäftigten, damit sie es sicher anwenden konnten.",
+      "explanation_de": "Der Satz kombiniert temporale Verbalisierung, ein klares Subjekt und einen finalen damit-Satz.",
+      "explanation_ar": "تجمع الجملة بين التحويل الزمني وفاعل واضح وجملة غاية باستخدام damit.",
+      "grammarFocus": "combined_verbalization_order",
+      "tokens": [
+        "damit sie es sicher anwenden konnten",
+        "Nachdem das neue System eingeführt worden war",
+        "schulte die IT-Abteilung die Beschäftigten"
+      ],
+      "acceptedAnswers": [
+        "Nachdem das neue System eingeführt worden war, schulte die IT-Abteilung die Beschäftigten, damit sie es sicher anwenden konnten."
+      ]
+    },
+    {
+      "id": "gr32-e022",
+      "topicId": "gr-32",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Aktiv oder Passiv wählen",
+      "title_ar": "اختيار المعلوم أو المجهول",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Wenn die verantwortliche Stelle wichtig ist, macht ein Aktivsatz die Verantwortlichkeit meist klarer.",
+      "explanation_de": "Aktiv nennt den Handelnden ausdrücklich; Passiv kann ihn ausblenden.",
+      "explanation_ar": "يذكر المعلوم القائم بالفعل صراحة، بينما قد يحذفه المجهول.",
+      "grammarFocus": "active_passive_choice",
+      "options": [
+        "Wenn die verantwortliche Stelle wichtig ist, macht ein Aktivsatz die Verantwortlichkeit meist klarer.",
+        "Passiv ist in jedem beruflichen Text immer besser.",
+        "Aktiv darf in offiziellen Texten nicht verwendet werden.",
+        "Nominalstil nennt Verantwortlichkeiten immer klarer als Verbalstil."
+      ]
+    },
+    {
+      "id": "gr32-e023",
+      "topicId": "gr-32",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexen Nominalstil auflösen",
+      "title_ar": "تفكيك أسلوب اسمي معقد",
+      "prompt_de": "Verbalisieren Sie: Aufgrund der Durchführung einer zusätzlichen Kontrolle durch die Qualitätsabteilung erfolgte die Freigabe des Produkts.",
+      "prompt_ar": "حوّل الجملة إلى أسلوب فعلي واضح.",
+      "answer": "Weil die Qualitätsabteilung eine zusätzliche Kontrolle durchgeführt hatte, wurde das Produkt freigegeben.",
+      "explanation_de": "Die Qualitätsabteilung wird zum Subjekt, Kontrolle zum Verb und Freigabe zum Passivverb.",
+      "explanation_ar": "تتحول إدارة الجودة إلى فاعل، وKontrolle إلى فعل، وFreigabe إلى فعل مبني للمجهول.",
+      "grammarFocus": "complex_nominal_style_resolution",
+      "acceptedAnswers": [
+        "Weil die Qualitätsabteilung eine zusätzliche Kontrolle durchgeführt hatte, wurde das Produkt freigegeben.",
+        "Nachdem die Qualitätsabteilung eine zusätzliche Kontrolle durchgeführt hatte, wurde das Produkt freigegeben."
+      ]
+    },
+    {
+      "id": "gr32-e024",
+      "topicId": "gr-32",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Verbalisierung",
+      "title_ar": "تدريب ختامي على التحويل إلى الأسلوب الفعلي",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Beginnen Sie mit fünf nominalen Formulierungen und verbalisieren Sie jede davon. Verwenden Sie dabei weil oder da, obwohl, nachdem, bevor, wenn oder während, um ... zu oder damit, indem sowie mindestens einen Aktiv- und einen Passivsatz.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. ابدأ بخمس صيغ اسمية ثم حوّل كل واحدة منها إلى صيغة فعلية. استخدم weil أو da، وobwohl، وnachdem، وbevor، وwenn أو während، وum ... zu أو damit، وindem، إضافة إلى جملة معلومة وأخرى مجهولة على الأقل.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens fünf Nominalformulierungen",
+          "zu jeder Nominalform eine passende Verbalisierung",
+          "mindestens ein kausaler Nebensatz",
+          "mindestens ein konzessiver Nebensatz",
+          "mindestens zwei temporale Nebensätze",
+          "mindestens eine finale Struktur",
+          "mindestens ein Satz mit indem",
+          "mindestens ein klarer Aktivsatz",
+          "mindestens ein sinnvoller Passivsatz",
+          "verständlicher und ausgewogener beruflicher Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie logische Beziehung, Subjekt, Verbform, Satzstellung und Stil.",
+      "explanation_ar": "راجع العلاقة المنطقية والفاعل وصيغة الفعل وترتيب الجملة والأسلوب.",
+      "grammarFocus": "mixed_verbalization",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,3705 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 4,
+    "unitTitle_de": "Tourismus",
+    "unitTitle_ar": "السياحة",
+    "sourcePages": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Reiseformen und Kundenwünsche",
+      "Reiseangebote, Verträge und Versicherungen",
+      "Konjunktiv II in der Vergangenheit",
+      "Tourismusberufe und Bewerbung",
+      "Arbeitsformen und Zeitarbeit",
+      "Logistik und Containertransport",
+      "telefonische Problemlösung",
+      "Arbeitsbedingungen verhandeln",
+      "Telefonnotizen und Dokumentation"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne Lernwert",
+      "Kreuzworträtsel-Hinweise als eigenständige Einträge",
+      "humoristische Übertreibungen aus der Satire ohne beruflichen Nutzen",
+      "wiederholte Lehrbuchanweisungen",
+      "bereits in Kapitel 1–3 vorhandene identische Begriffe"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u01-v030",
+      "term": "der Schaden",
+      "pages": [
+        81
+      ],
+      "reason": "يظهر في الشكاوى ومشكلات التسليم."
+    },
+    {
+      "courseItemId": "b2u01-v040",
+      "term": "verhandeln",
+      "pages": [
+        69,
+        82,
+        83
+      ],
+      "reason": "يُستخدم في العقود وشروط العمل."
+    },
+    {
+      "courseItemId": "b2u01-v041",
+      "term": "sich kümmern um",
+      "pages": [
+        64,
+        65,
+        81
+      ],
+      "reason": "يظهر في رعاية الضيوف وخدمة الزبائن."
+    },
+    {
+      "courseItemId": "b2u01-v056",
+      "term": "sich auf etwas beziehen",
+      "pages": [
+        62,
+        77,
+        83
+      ],
+      "reason": "يُستخدم في الرسائل المتعلقة بالعروض والإعلانات."
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        62,
+        65,
+        77,
+        81,
+        83
+      ],
+      "reason": "صيغة ختام الرسائل الرسمية."
+    },
+    {
+      "courseItemId": "b2u02-v005",
+      "term": "die Gleitzeit",
+      "pages": [
+        77
+      ],
+      "reason": "تظهر ضمن شروط وظيفة Facility Manager."
+    },
+    {
+      "courseItemId": "b2u02-v008",
+      "term": "der Lieferant / die Lieferantin",
+      "pages": [
+        80,
+        81
+      ],
+      "reason": "يظهر في حل مشكلات التسليم."
+    },
+    {
+      "courseItemId": "b2u02-v044",
+      "term": "die Teilzeitbeschäftigung",
+      "pages": [
+        76,
+        82,
+        83
+      ],
+      "reason": "شكل عمل وارد في BSK-Spezial B."
+    },
+    {
+      "courseItemId": "b2u02-v045",
+      "term": "die Vollzeitbeschäftigung",
+      "pages": [
+        76,
+        82
+      ],
+      "reason": "شكل عمل وارد في المفاوضات."
+    },
+    {
+      "courseItemId": "b2u02-v047",
+      "term": "die Aufstockung",
+      "pages": [
+        82,
+        83
+      ],
+      "reason": "زيادة ساعات العمل ضمن التفاوض."
+    },
+    {
+      "courseItemId": "b2u02-v050",
+      "term": "der Kompromiss",
+      "pages": [
+        82,
+        83
+      ],
+      "reason": "حل وسط في مفاوضات شروط العمل."
+    },
+    {
+      "courseItemId": "b2u02-v051",
+      "term": "der Verdienst",
+      "pages": [
+        76,
+        77
+      ],
+      "reason": "الدخل ضمن مقارنة أشكال العمل."
+    },
+    {
+      "courseItemId": "b2u02-v053",
+      "term": "die Ersatzlieferung",
+      "pages": [
+        81
+      ],
+      "reason": "حل محتمل للشكوى."
+    },
+    {
+      "courseItemId": "b2u02-v055",
+      "term": "die Reklamation",
+      "pages": [
+        81
+      ],
+      "reason": "موضوع الرد على شكوى الزبون."
+    },
+    {
+      "courseItemId": "b2u03-v001",
+      "term": "die Teamarbeit",
+      "pages": [
+        65,
+        76
+      ],
+      "reason": "كفاءة مطلوبة في وظائف السياحة والعمل."
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "term": "die Zusammenarbeit",
+      "pages": [
+        65,
+        81
+      ],
+      "reason": "التعاون مع الضيوف والمصنع والمورد."
+    },
+    {
+      "courseItemId": "b2u03-v016",
+      "term": "die Abteilung",
+      "pages": [
+        65,
+        72,
+        82,
+        83
+      ],
+      "reason": "الأقسام ومسؤول القسم في العمل."
+    },
+    {
+      "courseItemId": "b2u03-v054",
+      "term": "einen Alternativvorschlag machen",
+      "pages": [
+        80,
+        82
+      ],
+      "reason": "اقتراح بديل عند حل المشكلات والتفاوض."
+    },
+    {
+      "courseItemId": "b2u03-v055",
+      "term": "sich einigen",
+      "pages": [
+        82,
+        83
+      ],
+      "reason": "التوصل إلى اتفاق مهني."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u04-v001",
+      "identity": "die pauschalreise",
+      "term": "die Pauschalreise",
+      "type": "noun",
+      "arabic": "رحلة سياحية شاملة",
+      "explanation_de": "Eine Reise, bei der mehrere Leistungen wie Flug, Hotel und Transfer gemeinsam gebucht werden.",
+      "explanation_ar": "رحلة تُحجز فيها خدمات متعددة ضمن عرض واحد، مثل الطيران والفندق والنقل.",
+      "examples": [
+        {
+          "de": "Bei einer Pauschalreise sind Flug und Hotel im Gesamtpreis enthalten.",
+          "ar": "تكون تذكرة الطيران والفندق مشمولتين في السعر الإجمالي للرحلة الشاملة."
+        },
+        {
+          "de": "Viele Familien wählen eine Pauschalreise, weil die Organisation einfacher ist.",
+          "ar": "تختار عائلات كثيرة الرحلة الشاملة لأن تنظيمها أسهل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Pauschalreisen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          62,
+          68,
+          69,
+          74
+        ],
+        "section": "Reiseformen und Angebote"
+      },
+      "tags": [
+        "tourismus",
+        "reiseform"
+      ],
+      "globalRef": "nouns:noun_0119",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v002",
+      "identity": "die individualreise",
+      "term": "die Individualreise",
+      "type": "noun",
+      "arabic": "رحلة فردية منظّمة ذاتيًا",
+      "explanation_de": "Eine Reise, bei der Reisende Unterkunft, Transport und Aktivitäten selbst planen.",
+      "explanation_ar": "رحلة يخطط فيها المسافر بنفسه للسكن والمواصلات والأنشطة.",
+      "examples": [
+        {
+          "de": "Bei einer Individualreise kann man den Ablauf flexibel gestalten.",
+          "ar": "يمكن تنظيم البرنامج بمرونة في الرحلة الفردية."
+        },
+        {
+          "de": "Eine Individualreise erfordert mehr Vorbereitung als eine Pauschalreise.",
+          "ar": "تتطلب الرحلة الفردية تحضيرًا أكبر من الرحلة الشاملة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Individualreisen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          62,
+          64,
+          74
+        ],
+        "section": "Reiseformen und Angebote"
+      },
+      "tags": [
+        "tourismus",
+        "reiseform"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v003",
+      "identity": "der campingurlaub",
+      "term": "der Campingurlaub",
+      "type": "noun",
+      "arabic": "عطلة تخييم",
+      "explanation_de": "Ein Urlaub, bei dem man auf einem Campingplatz oder in der Natur übernachtet.",
+      "explanation_ar": "عطلة يقيم فيها الشخص في خيمة أو عربة تخييم، غالبًا في موقع مخصص.",
+      "examples": [
+        {
+          "de": "Beim Campingurlaub wohnen wir in einem Zelt direkt am See.",
+          "ar": "نقيم في خيمة قرب البحيرة خلال عطلة التخييم."
+        },
+        {
+          "de": "Ein Campingurlaub ist oft günstiger, aber weniger komfortabel.",
+          "ar": "تكون عطلة التخييم أرخص غالبًا لكنها أقل راحة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Campingurlaube"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          74
+        ],
+        "section": "Reiseformen"
+      },
+      "tags": [
+        "tourismus",
+        "reiseform"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v004",
+      "identity": "die städtereise",
+      "term": "die Städtereise",
+      "type": "noun",
+      "arabic": "رحلة إلى مدينة",
+      "explanation_de": "Eine kurze Reise mit Besichtigungen und kulturellen Aktivitäten in einer Stadt.",
+      "explanation_ar": "رحلة قصيرة لزيارة المعالم والمتاحف والأماكن الثقافية في مدينة.",
+      "examples": [
+        {
+          "de": "Für eine Städtereise nach Wien reichen drei Tage.",
+          "ar": "تكفي ثلاثة أيام لرحلة إلى مدينة فيينا."
+        },
+        {
+          "de": "Bei Städtereisen ist eine zentrale Unterkunft besonders praktisch.",
+          "ar": "يكون السكن المركزي عمليًا جدًا في رحلات المدن."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Städtereisen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          68,
+          74
+        ],
+        "section": "Reiseformen"
+      },
+      "tags": [
+        "tourismus",
+        "reiseform"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v005",
+      "identity": "die fahrradtour",
+      "term": "die Fahrradtour",
+      "type": "noun",
+      "arabic": "جولة بالدراجة",
+      "explanation_de": "Eine Reise oder ein Ausflug, bei dem längere Strecken mit dem Fahrrad zurückgelegt werden.",
+      "explanation_ar": "رحلة أو جولة تُقطع فيها المسافات باستخدام الدراجة.",
+      "examples": [
+        {
+          "de": "Für die Fahrradtour nehmen wir nur leichtes Gepäck mit.",
+          "ar": "سنأخذ أمتعة خفيفة فقط لجولة الدراجة."
+        },
+        {
+          "de": "Die Fahrradtour führt durch mehrere kleine Dörfer.",
+          "ar": "تمر جولة الدراجة عبر عدة قرى صغيرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fahrradtouren"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61
+        ],
+        "section": "Reiseformen"
+      },
+      "tags": [
+        "tourismus",
+        "aktivurlaub"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v006",
+      "identity": "die reisegruppe",
+      "term": "die Reisegruppe",
+      "type": "noun",
+      "arabic": "مجموعة سياحية",
+      "explanation_de": "Mehrere Personen, die gemeinsam reisen und häufig ein gemeinsames Programm haben.",
+      "explanation_ar": "مجموعة من الأشخاص تسافر معًا وغالبًا تتبع برنامجًا واحدًا.",
+      "examples": [
+        {
+          "de": "Die Reisegruppe wird am Flughafen von der Reiseleiterin empfangen.",
+          "ar": "تستقبل المرشدة السياحية المجموعة في المطار."
+        },
+        {
+          "de": "In einer großen Reisegruppe muss man sich an feste Zeiten halten.",
+          "ar": "يجب الالتزام بأوقات محددة في المجموعة السياحية الكبيرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reisegruppen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          64,
+          68
+        ],
+        "section": "Reiseformen und Reiseleitung"
+      },
+      "tags": [
+        "tourismus",
+        "gruppe"
+      ],
+      "globalRef": "nouns:noun_0122",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v007",
+      "identity": "die hotelanlage",
+      "term": "die Hotelanlage",
+      "type": "noun",
+      "arabic": "مجمع فندقي",
+      "explanation_de": "Ein größeres Hotelgelände mit Zimmern, Restaurants, Freizeitangeboten und weiteren Einrichtungen.",
+      "explanation_ar": "منطقة فندقية كبيرة تضم غرفًا ومطاعم ومرافق ترفيهية وخدمات أخرى.",
+      "examples": [
+        {
+          "de": "Die Hotelanlage verfügt über mehrere Pools und Restaurants.",
+          "ar": "يضم المجمع الفندقي عدة مسابح ومطاعم."
+        },
+        {
+          "de": "Die Gäste müssen die Hotelanlage während ihres Aufenthalts kaum verlassen.",
+          "ar": "لا يحتاج الضيوف إلى مغادرة المجمع الفندقي كثيرًا أثناء الإقامة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Hotelanlagen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          62
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "hotel"
+      ],
+      "globalRef": "nouns:noun_0121",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v008",
+      "identity": "die vollpension",
+      "term": "die Vollpension",
+      "type": "noun",
+      "arabic": "إقامة تشمل ثلاث وجبات",
+      "explanation_de": "Eine Verpflegungsform im Hotel mit Frühstück, Mittagessen und Abendessen.",
+      "explanation_ar": "نوع إقامة فندقية يشمل الفطور والغداء والعشاء.",
+      "examples": [
+        {
+          "de": "Die Familie bucht das Hotel mit Vollpension.",
+          "ar": "تحجز العائلة الفندق مع ثلاث وجبات."
+        },
+        {
+          "de": "Bei Vollpension sind Getränke nicht automatisch im Preis enthalten.",
+          "ar": "لا تكون المشروبات مشمولة تلقائيًا في سعر الإقامة الكاملة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61,
+          68
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "hotel"
+      ],
+      "globalRef": "nouns:noun_0120",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v009",
+      "identity": "die halbpension",
+      "term": "die Halbpension",
+      "type": "noun",
+      "arabic": "إقامة تشمل وجبتين",
+      "explanation_de": "Eine Verpflegungsform mit Frühstück und einer weiteren Hauptmahlzeit.",
+      "explanation_ar": "نوع إقامة يشمل الفطور ووجبة رئيسية إضافية، غالبًا العشاء.",
+      "examples": [
+        {
+          "de": "Das Angebot umfasst sieben Übernachtungen mit Halbpension.",
+          "ar": "يشمل العرض سبع ليالٍ مع وجبتين يوميًا."
+        },
+        {
+          "de": "Halbpension ist für Reisende praktisch, die tagsüber Ausflüge machen.",
+          "ar": "تكون الإقامة بنصف وجبات مناسبة لمن يقومون برحلات نهارية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "hotel"
+      ],
+      "globalRef": "nouns:noun_0135",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v010",
+      "identity": "das animationsprogramm",
+      "term": "das Animationsprogramm",
+      "type": "noun",
+      "arabic": "برنامج الأنشطة الترفيهية",
+      "explanation_de": "Ein organisiertes Freizeitprogramm für Hotelgäste, zum Beispiel Sport, Spiele oder Shows.",
+      "explanation_ar": "برنامج ترفيهي منظم لنزلاء الفندق، مثل الرياضة والألعاب والعروض.",
+      "examples": [
+        {
+          "de": "Das Animationsprogramm bietet täglich Sport und Abendshows.",
+          "ar": "يقدم البرنامج الترفيهي رياضة وعروضًا مسائية يوميًا."
+        },
+        {
+          "de": "Nele sucht ein ruhiges Hotel ohne großes Animationsprogramm.",
+          "ar": "تبحث نيلي عن فندق هادئ من دون برنامج ترفيهي كبير."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Animationsprogramme"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61
+        ],
+        "section": "Kundenwünsche"
+      },
+      "tags": [
+        "tourismus",
+        "freizeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v011",
+      "identity": "die strandnähe",
+      "term": "die Strandnähe",
+      "type": "noun",
+      "arabic": "القرب من الشاطئ",
+      "explanation_de": "Die räumliche Nähe einer Unterkunft zum Strand.",
+      "explanation_ar": "وجود الفندق أو السكن على مسافة قريبة من الشاطئ.",
+      "examples": [
+        {
+          "de": "Für die Kundin ist die Strandnähe besonders wichtig.",
+          "ar": "القرب من الشاطئ مهم جدًا للزبونة."
+        },
+        {
+          "de": "Hotels in direkter Strandnähe sind meist teurer.",
+          "ar": "تكون الفنادق القريبة مباشرة من الشاطئ أغلى غالبًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          61
+        ],
+        "section": "Kundenwünsche"
+      },
+      "tags": [
+        "tourismus",
+        "lage"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v012",
+      "identity": "der frühbucherrabatt",
+      "term": "der Frühbucherrabatt",
+      "type": "noun",
+      "arabic": "خصم الحجز المبكر",
+      "explanation_de": "Ein Preisnachlass für Kundinnen und Kunden, die eine Reise frühzeitig buchen.",
+      "explanation_ar": "تخفيض يُمنح لمن يحجز الرحلة قبل موعدها بفترة طويلة.",
+      "examples": [
+        {
+          "de": "Bei einer Buchung bis Ende März erhalten Sie einen Frühbucherrabatt.",
+          "ar": "تحصلون على خصم للحجز المبكر عند الحجز حتى نهاية مارس."
+        },
+        {
+          "de": "Der Frühbucherrabatt gilt nur für ausgewählte Termine.",
+          "ar": "يسري خصم الحجز المبكر على مواعيد محددة فقط."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Frühbucherrabatte"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "rabatt"
+      ],
+      "globalRef": "nouns:noun_0134",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v013",
+      "identity": "die anzahlung",
+      "term": "die Anzahlung",
+      "type": "noun",
+      "arabic": "دفعة مقدّمة",
+      "explanation_de": "Ein Teilbetrag, der vor der vollständigen Zahlung geleistet wird.",
+      "explanation_ar": "جزء من السعر يُدفع مقدمًا لتأكيد الحجز.",
+      "examples": [
+        {
+          "de": "Die Anzahlung muss innerhalb von sieben Tagen überwiesen werden.",
+          "ar": "يجب تحويل الدفعة المقدمة خلال سبعة أيام."
+        },
+        {
+          "de": "Ohne Anzahlung kann die Reservierung nicht bestätigt werden.",
+          "ar": "لا يمكن تأكيد الحجز من دون دفعة مقدمة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Anzahlungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "zahlung"
+      ],
+      "globalRef": "nouns:noun_0139",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v014",
+      "identity": "die versteckte gebühr",
+      "term": "die versteckte Gebühr",
+      "type": "noun",
+      "arabic": "رسوم مخفية",
+      "explanation_de": "Eine zusätzliche Zahlung, die im ersten Preis nicht deutlich erkennbar war.",
+      "explanation_ar": "تكلفة إضافية لم تكن ظاهرة بوضوح في السعر المعلن.",
+      "examples": [
+        {
+          "de": "Vor der Buchung sollte man prüfen, ob versteckte Gebühren entstehen.",
+          "ar": "ينبغي التحقق من وجود رسوم مخفية قبل الحجز."
+        },
+        {
+          "de": "Die Kundin beschwerte sich über eine versteckte Gebühr.",
+          "ar": "اشتكت الزبونة من رسوم مخفية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die versteckten Gebühren"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v015",
+      "identity": "das reiseangebot",
+      "term": "das Reiseangebot",
+      "type": "noun",
+      "arabic": "عرض سفر",
+      "explanation_de": "Ein konkretes Angebot mit Reiseziel, Zeitraum, Leistungen und Preis.",
+      "explanation_ar": "عرض يتضمن الوجهة والمدة والخدمات والسعر.",
+      "examples": [
+        {
+          "de": "Das Reisebüro schickt der Kundin drei passende Reiseangebote.",
+          "ar": "يرسل مكتب السفر للزبونة ثلاثة عروض مناسبة."
+        },
+        {
+          "de": "Bitte senden Sie uns ein unverbindliches Reiseangebot.",
+          "ar": "يرجى إرسال عرض سفر غير ملزم لنا."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Reiseangebote"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62,
+          69
+        ],
+        "section": "Reiseangebote"
+      },
+      "tags": [
+        "tourismus",
+        "angebot"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v016",
+      "identity": "die reiserücktrittsversicherung",
+      "term": "die Reiserücktrittsversicherung",
+      "type": "noun",
+      "arabic": "تأمين إلغاء السفر",
+      "explanation_de": "Eine Versicherung, die unter bestimmten Bedingungen Stornokosten übernimmt.",
+      "explanation_ar": "تأمين يغطي تكاليف إلغاء الرحلة عند تحقق أسباب منصوص عليها.",
+      "examples": [
+        {
+          "de": "Vor einer teuren Reise kann eine Reiserücktrittsversicherung sinnvoll sein.",
+          "ar": "قد يكون تأمين إلغاء السفر مفيدًا قبل رحلة مكلفة."
+        },
+        {
+          "de": "Die Versicherung übernimmt die Kosten nur bei anerkannten Gründen.",
+          "ar": "يغطي التأمين التكاليف فقط عند وجود أسباب معترف بها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reiserücktrittsversicherungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63,
+          68,
+          70,
+          73,
+          74
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "tourismus",
+        "versicherung"
+      ],
+      "globalRef": "nouns:noun_0140",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v017",
+      "identity": "die allgemeinen geschäftsbedingungen (agb)",
+      "term": "die allgemeinen Geschäftsbedingungen (AGB)",
+      "type": "noun_plural",
+      "arabic": "الشروط والأحكام العامة",
+      "explanation_de": "Vorformulierte Vertragsbedingungen eines Unternehmens für viele ähnliche Verträge.",
+      "explanation_ar": "شروط موحدة تحدد حقوق والتزامات الطرفين عند إبرام عقد.",
+      "examples": [
+        {
+          "de": "Lesen Sie die allgemeinen Geschäftsbedingungen vor der Buchung aufmerksam.",
+          "ar": "اقرأ الشروط والأحكام العامة بعناية قبل الحجز."
+        },
+        {
+          "de": "In den AGB stehen Informationen zu Zahlung und Stornierung.",
+          "ar": "ترد معلومات الدفع والإلغاء في الشروط العامة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "abbreviation": "AGB",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63,
+          69
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "vertrag",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v018",
+      "identity": "die stornokosten",
+      "term": "die Stornokosten",
+      "type": "noun_plural",
+      "arabic": "تكاليف الإلغاء",
+      "explanation_de": "Kosten, die entstehen, wenn eine gebuchte Reise oder Leistung abgesagt wird.",
+      "explanation_ar": "مبالغ تُدفع عند إلغاء رحلة أو خدمة سبق حجزها.",
+      "examples": [
+        {
+          "de": "Je später die Reise storniert wird, desto höher können die Stornokosten sein.",
+          "ar": "قد ترتفع تكاليف الإلغاء كلما تأخر إلغاء الرحلة."
+        },
+        {
+          "de": "Die Versicherung hat die Stornokosten übernommen.",
+          "ar": "تحمل التأمين تكاليف الإلغاء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "tourismus",
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v019",
+      "identity": "einen vertrag abschließen",
+      "term": "einen Vertrag abschließen",
+      "type": "phrase",
+      "arabic": "يبرم عقدًا",
+      "explanation_de": "Einen Vertrag rechtswirksam vereinbaren und verbindlich eingehen.",
+      "explanation_ar": "الموافقة رسميًا على عقد بحيث تصبح شروطه ملزمة.",
+      "examples": [
+        {
+          "de": "Vor der Buchung schließt die Kundin einen Reisevertrag ab.",
+          "ar": "تبرم الزبونة عقد سفر قبل الحجز."
+        },
+        {
+          "de": "Ein Vertrag sollte erst nach sorgfältiger Prüfung abgeschlossen werden.",
+          "ar": "ينبغي إبرام العقد بعد مراجعته بعناية."
+        }
+      ],
+      "grammar": {
+        "verb": "abschließen",
+        "praeteritum": "schloss ab",
+        "perfekt": "hat abgeschlossen",
+        "separable": true
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63,
+          69
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "phrase",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v020",
+      "identity": "eine versicherung abschließen",
+      "term": "eine Versicherung abschließen",
+      "type": "phrase",
+      "arabic": "يعقد تأمينًا",
+      "explanation_de": "Einen Versicherungsvertrag vereinbaren und Versicherungsschutz erwerben.",
+      "explanation_ar": "إبرام عقد تأمين للحصول على تغطية ضد خطر معين.",
+      "examples": [
+        {
+          "de": "Sie hätte vor der Reise eine Versicherung abschließen sollen.",
+          "ar": "كان ينبغي لها أن تعقد تأمينًا قبل الرحلة."
+        },
+        {
+          "de": "Viele Reisende schließen eine Auslandskrankenversicherung ab.",
+          "ar": "يعقد مسافرون كثيرون تأمينًا صحيًا للسفر إلى الخارج."
+        }
+      ],
+      "grammar": {
+        "verb": "abschließen",
+        "praeteritum": "schloss ab",
+        "perfekt": "hat abgeschlossen",
+        "separable": true
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63,
+          69,
+          70
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "phrase",
+        "versicherung"
+      ],
+      "globalRef": "phrases:phrase_0062",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v021",
+      "identity": "eine reise stornieren",
+      "term": "eine Reise stornieren",
+      "type": "phrase",
+      "arabic": "يلغي رحلة محجوزة",
+      "explanation_de": "Eine bereits gebuchte Reise offiziell absagen.",
+      "explanation_ar": "إلغاء رحلة بعد حجزها رسميًا.",
+      "examples": [
+        {
+          "de": "Wegen einer Krankheit musste die Familie die Reise stornieren.",
+          "ar": "اضطرت العائلة إلى إلغاء الرحلة بسبب مرض."
+        },
+        {
+          "de": "Die Reise sollte so früh wie möglich storniert werden.",
+          "ar": "ينبغي إلغاء الرحلة في أقرب وقت ممكن."
+        }
+      ],
+      "grammar": {
+        "verb": "stornieren",
+        "praeteritum": "stornierte",
+        "perfekt": "hat storniert"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63,
+          69
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "phrase",
+        "tourismus"
+      ],
+      "globalRef": "phrases:phrase_0064",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v022",
+      "identity": "die kosten übernehmen",
+      "term": "die Kosten übernehmen",
+      "type": "phrase",
+      "arabic": "يتحمّل التكاليف",
+      "explanation_de": "Für entstandene Kosten zahlen oder finanziell verantwortlich sein.",
+      "explanation_ar": "دفع التكاليف أو تحمل المسؤولية المالية عنها.",
+      "examples": [
+        {
+          "de": "Die Versicherung übernimmt einen Teil der Stornokosten.",
+          "ar": "يتحمل التأمين جزءًا من تكاليف الإلغاء."
+        },
+        {
+          "de": "Das Unternehmen hat die Kosten für die Umbuchung übernommen.",
+          "ar": "تحملت الشركة تكاليف تغيير الحجز."
+        }
+      ],
+      "grammar": {
+        "verb": "übernehmen",
+        "praeteritum": "übernahm",
+        "perfekt": "hat übernommen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          63
+        ],
+        "section": "Verträge und Versicherungen"
+      },
+      "tags": [
+        "phrase",
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v023",
+      "identity": "die umbuchung",
+      "term": "die Umbuchung",
+      "type": "noun",
+      "arabic": "تغيير الحجز",
+      "explanation_de": "Die Änderung einer bereits gebuchten Reise, Verbindung oder Leistung.",
+      "explanation_ar": "تعديل موعد أو مسار أو خدمة في حجز قائم.",
+      "examples": [
+        {
+          "de": "Für die Umbuchung auf einen späteren Flug fällt eine Gebühr an.",
+          "ar": "تُفرض رسوم عند تغيير الحجز إلى رحلة طيران لاحقة."
+        },
+        {
+          "de": "Das Reisebüro bestätigt die Umbuchung schriftlich.",
+          "ar": "يؤكد مكتب السفر تغيير الحجز خطيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Umbuchungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          66,
+          73,
+          74,
+          84
+        ],
+        "section": "Reiseorganisation"
+      },
+      "tags": [
+        "tourismus",
+        "buchung"
+      ],
+      "globalRef": "nouns:noun_0157",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v024",
+      "identity": "das reiseziel",
+      "term": "das Reiseziel",
+      "type": "noun",
+      "arabic": "وجهة السفر",
+      "explanation_de": "Der Ort oder das Land, zu dem eine Reise führt.",
+      "explanation_ar": "المكان أو البلد الذي يسافر إليه الشخص.",
+      "examples": [
+        {
+          "de": "Marokko ist das Reiseziel der Gruppe.",
+          "ar": "المغرب هو وجهة المجموعة."
+        },
+        {
+          "de": "Bei der Präsentation nennt sie zuerst das Reiseziel.",
+          "ar": "تذكر وجهة السفر أولًا في العرض."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Reiseziele"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          67,
+          74
+        ],
+        "section": "Reisepräsentation"
+      },
+      "tags": [
+        "tourismus",
+        "reiseplanung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v025",
+      "identity": "der reisezeitraum",
+      "term": "der Reisezeitraum",
+      "type": "noun",
+      "arabic": "الفترة الزمنية للرحلة",
+      "explanation_de": "Der Zeitraum zwischen Reisebeginn und Reiseende.",
+      "explanation_ar": "الفترة المحددة لبداية الرحلة ونهايتها.",
+      "examples": [
+        {
+          "de": "Der gewünschte Reisezeitraum liegt im Juli.",
+          "ar": "تقع فترة السفر المطلوبة في شهر يوليو."
+        },
+        {
+          "de": "Im Reiseangebot müssen Ziel und Reisezeitraum klar genannt werden.",
+          "ar": "يجب ذكر الوجهة وفترة السفر بوضوح في العرض."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Reisezeiträume"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          62,
+          67
+        ],
+        "section": "Reiseplanung"
+      },
+      "tags": [
+        "tourismus",
+        "zeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v026",
+      "identity": "die reiseroute",
+      "term": "die Reiseroute",
+      "type": "noun",
+      "arabic": "مسار الرحلة",
+      "explanation_de": "Der geplante Verlauf einer Reise mit den vorgesehenen Stationen.",
+      "explanation_ar": "المسار الذي ستتبعه الرحلة والمحطات المخطط زيارتها.",
+      "examples": [
+        {
+          "de": "Die Reiseleiterin erklärt der Gruppe die Reiseroute.",
+          "ar": "تشرح المرشدة السياحية مسار الرحلة للمجموعة."
+        },
+        {
+          "de": "Wegen des Wetters musste die Reiseroute geändert werden.",
+          "ar": "اضطروا إلى تغيير مسار الرحلة بسبب الطقس."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Reiserouten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64,
+          66,
+          67
+        ],
+        "section": "Reiseorganisation"
+      },
+      "tags": [
+        "tourismus",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v027",
+      "identity": "die reiseleitung",
+      "term": "die Reiseleitung",
+      "type": "noun",
+      "arabic": "إدارة أو مرافقة المجموعة السياحية",
+      "explanation_de": "Die organisatorische und fachliche Betreuung einer Reisegruppe.",
+      "explanation_ar": "تنظيم برنامج المجموعة السياحية ومرافقتها وتقديم المعلومات لها.",
+      "examples": [
+        {
+          "de": "Die Reiseleitung informiert die Gäste über das Tagesprogramm.",
+          "ar": "تبلغ إدارة الرحلة الضيوف بالبرنامج اليومي."
+        },
+        {
+          "de": "Eine professionelle Reiseleitung reagiert ruhig auf Probleme.",
+          "ar": "تتعامل إدارة الرحلة المحترفة بهدوء مع المشكلات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64,
+          65,
+          66,
+          73
+        ],
+        "section": "Berufe im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v028",
+      "identity": "der reiseleiter / die reiseleiterin",
+      "term": "der Reiseleiter / die Reiseleiterin",
+      "type": "noun",
+      "arabic": "مرشد أو مرشدة سياحية",
+      "explanation_de": "Eine Person, die Reisegruppen begleitet, informiert und organisatorisch betreut.",
+      "explanation_ar": "شخص يرافق المجموعات السياحية ويشرح المعالم وينظم البرنامج.",
+      "examples": [
+        {
+          "de": "Der Reiseleiter begleitet die Gruppe während der gesamten Rundreise.",
+          "ar": "يرافق المرشد المجموعة خلال الرحلة السياحية كاملة."
+        },
+        {
+          "de": "Reiseleiterinnen brauchen Fremdsprachen und Organisationstalent.",
+          "ar": "تحتاج المرشدات السياحيات إلى لغات أجنبية وقدرة على التنظيم."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Reiseleiter / die Reiseleiterinnen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65,
+          66,
+          67,
+          71,
+          72,
+          73
+        ],
+        "section": "Berufe im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v029",
+      "identity": "der stadtführer / die stadtführerin",
+      "term": "der Stadtführer / die Stadtführerin",
+      "type": "noun",
+      "arabic": "دليل أو مرشد مدينة",
+      "explanation_de": "Eine Person, die Besucherinnen und Besuchern Sehenswürdigkeiten einer Stadt erklärt.",
+      "explanation_ar": "شخص يعرّف الزوار على معالم المدينة وتاريخها.",
+      "examples": [
+        {
+          "de": "Der Stadtführer bietet Führungen auf Arabisch und Deutsch an.",
+          "ar": "يقدم مرشد المدينة جولات بالعربية والألمانية."
+        },
+        {
+          "de": "Als Stadtführerin muss sie auch auf schwierige Fragen reagieren können.",
+          "ar": "يجب أن تستطيع مرشدة المدينة التعامل مع الأسئلة الصعبة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Stadtführer / die Stadtführerinnen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64
+        ],
+        "section": "Berufe im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v030",
+      "identity": "die kinderanimateurin / der kinderanimateur",
+      "term": "die Kinderanimateurin / der Kinderanimateur",
+      "type": "noun",
+      "arabic": "منشّطة أو منشّط أطفال",
+      "explanation_de": "Eine Person, die in Hotels oder Ferienanlagen Freizeitprogramme für Kinder organisiert.",
+      "explanation_ar": "شخص ينظم ألعابًا وأنشطة وترفيهًا للأطفال في الفنادق والمنتجعات.",
+      "examples": [
+        {
+          "de": "Die Kinderanimateurin plant Programme für verschiedene Altersgruppen.",
+          "ar": "تخطط منشّطة الأطفال لبرامج تناسب فئات عمرية مختلفة."
+        },
+        {
+          "de": "Kinderanimateure brauchen Geduld, Kreativität und Verantwortungsbewusstsein.",
+          "ar": "يحتاج منشّطو الأطفال إلى الصبر والإبداع والإحساس بالمسؤولية."
+        }
+      ],
+      "grammar": {
+        "article": "die/der",
+        "plural": "die Kinderanimateurinnen / die Kinderanimateure"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64
+        ],
+        "section": "Berufe im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v031",
+      "identity": "die rundreise",
+      "term": "die Rundreise",
+      "type": "noun",
+      "arabic": "رحلة سياحية متعددة المحطات",
+      "explanation_de": "Eine Reise mit mehreren Orten oder Stationen und häufig einem geplanten Programm.",
+      "explanation_ar": "رحلة تمر بعدة مدن أو مناطق ضمن برنامج محدد.",
+      "examples": [
+        {
+          "de": "Die achttägige Rundreise führt durch den Süden Marokkos.",
+          "ar": "تمر الرحلة السياحية التي تستغرق ثمانية أيام عبر جنوب المغرب."
+        },
+        {
+          "de": "Bei einer Rundreise wechselt man häufig die Unterkunft.",
+          "ar": "يغير المسافر السكن كثيرًا في الرحلات متعددة المحطات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Rundreisen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64,
+          68
+        ],
+        "section": "Reiseformen"
+      },
+      "tags": [
+        "tourismus",
+        "reiseform"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v032",
+      "identity": "die gästebetreuung",
+      "term": "die Gästebetreuung",
+      "type": "noun",
+      "arabic": "رعاية وخدمة الضيوف",
+      "explanation_de": "Die persönliche Unterstützung und Betreuung von Gästen während ihres Aufenthalts.",
+      "explanation_ar": "مساعدة الضيوف والإجابة عن أسئلتهم وتنظيم احتياجاتهم أثناء الإقامة.",
+      "examples": [
+        {
+          "de": "Die Gästebetreuung gehört zu den wichtigsten Aufgaben an der Rezeption.",
+          "ar": "تعد رعاية الضيوف من أهم مهام الاستقبال."
+        },
+        {
+          "de": "Bei Beschwerden ist eine ruhige Gästebetreuung besonders wichtig.",
+          "ar": "تكون خدمة الضيوف الهادئة مهمة جدًا عند الشكاوى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64,
+          65
+        ],
+        "section": "Berufe im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "service"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v033",
+      "identity": "die serviceorientierung",
+      "term": "die Serviceorientierung",
+      "type": "noun",
+      "arabic": "التوجّه نحو خدمة الزبائن",
+      "explanation_de": "Die Bereitschaft, Wünsche und Bedürfnisse von Gästen oder Kunden professionell zu berücksichtigen.",
+      "explanation_ar": "الاهتمام باحتياجات الزبائن وتقديم خدمة مهنية وودية.",
+      "examples": [
+        {
+          "de": "Für die Stelle wird ein hohes Maß an Serviceorientierung erwartet.",
+          "ar": "يُتوقع مستوى عالٍ من التوجه نحو الخدمة للوظيفة."
+        },
+        {
+          "de": "Serviceorientierung zeigt sich besonders im Umgang mit Beschwerden.",
+          "ar": "يظهر التوجه نحو الخدمة خصوصًا في التعامل مع الشكاوى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65,
+          72
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "beruf",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v034",
+      "identity": "das höfliche auftreten",
+      "term": "das höfliche Auftreten",
+      "type": "noun_phrase",
+      "arabic": "الظهور والتصرف المهذب",
+      "explanation_de": "Ein freundliches, respektvolles und professionelles Verhalten gegenüber anderen.",
+      "explanation_ar": "التعامل بأدب واحترام وبأسلوب مهني مع الضيوف والزملاء.",
+      "examples": [
+        {
+          "de": "Ein höfliches Auftreten ist im Kundenkontakt unverzichtbar.",
+          "ar": "التصرف المهذب ضروري في التواصل مع الزبائن."
+        },
+        {
+          "de": "Die Bewerberin überzeugte durch ihr ruhiges und höfliches Auftreten.",
+          "ar": "أقنعت المتقدمة بأسلوبها الهادئ والمهذب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "beruf",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v035",
+      "identity": "die ansprechende erscheinung",
+      "term": "die ansprechende Erscheinung",
+      "type": "noun_phrase",
+      "arabic": "مظهر لائق وجذاب مهنيًا",
+      "explanation_de": "Ein gepflegtes und zur beruflichen Situation passendes äußeres Erscheinungsbild.",
+      "explanation_ar": "مظهر مرتب ومناسب لطبيعة الوظيفة من دون مبالغة.",
+      "examples": [
+        {
+          "de": "Die Stellenanzeige nennt eine ansprechende Erscheinung als Voraussetzung.",
+          "ar": "يذكر إعلان الوظيفة المظهر اللائق كشرط."
+        },
+        {
+          "de": "Eine ansprechende Erscheinung ersetzt jedoch keine fachliche Kompetenz.",
+          "ar": "لا يحل المظهر اللائق محل الكفاءة المهنية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "beruf",
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v036",
+      "identity": "die fremdsprachenkenntnisse",
+      "term": "die Fremdsprachenkenntnisse",
+      "type": "noun_plural",
+      "arabic": "معرفة اللغات الأجنبية",
+      "explanation_de": "Kenntnisse und praktische Fähigkeiten in einer oder mehreren Fremdsprachen.",
+      "explanation_ar": "القدرة على استخدام لغة أجنبية في التواصل المهني.",
+      "examples": [
+        {
+          "de": "Gute Fremdsprachenkenntnisse sind für Reiseleiter besonders wichtig.",
+          "ar": "معرفة اللغات الأجنبية مهمة جدًا للمرشدين السياحيين."
+        },
+        {
+          "de": "In der Bewerbung sollte sie ihre Fremdsprachenkenntnisse genau angeben.",
+          "ar": "ينبغي أن تذكر معرفتها باللغات الأجنبية بدقة في الطلب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65,
+          72
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "beruf",
+        "sprache"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v037",
+      "identity": "die ausflugsabrechnung",
+      "term": "die Ausflugsabrechnung",
+      "type": "noun",
+      "arabic": "حسابات الرحلات والأنشطة",
+      "explanation_de": "Die finanzielle Abrechnung von Ausflügen, Einnahmen und Ausgaben.",
+      "explanation_ar": "تسجيل وحساب تكاليف وإيرادات الرحلات السياحية.",
+      "examples": [
+        {
+          "de": "Die Reiseleiterin erstellt nach jedem Ausflug eine Ausflugsabrechnung.",
+          "ar": "تعد المرشدة حساب الرحلة بعد كل نشاط."
+        },
+        {
+          "de": "Fehler in der Ausflugsabrechnung müssen sofort korrigiert werden.",
+          "ar": "يجب تصحيح الأخطاء في حسابات الرحلات فورًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ausflugsabrechnungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "verwaltung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v038",
+      "identity": "die ablage",
+      "term": "die Ablage",
+      "type": "noun",
+      "arabic": "الأرشفة أو حفظ المستندات",
+      "explanation_de": "Die geordnete Aufbewahrung von Dokumenten und Unterlagen.",
+      "explanation_ar": "تنظيم الملفات والمستندات وحفظها بطريقة يمكن الرجوع إليها.",
+      "examples": [
+        {
+          "de": "Die Ablage der Buchungsunterlagen muss vollständig sein.",
+          "ar": "يجب أن تكون أرشفة مستندات الحجز كاملة."
+        },
+        {
+          "de": "Digitale Ablage spart Platz und erleichtert die Suche.",
+          "ar": "توفر الأرشفة الرقمية المكان وتسهل البحث."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ablagen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "verwaltung",
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v039",
+      "identity": "das ausflugsprogramm",
+      "term": "das Ausflugsprogramm",
+      "type": "noun",
+      "arabic": "برنامج الرحلات والأنشطة",
+      "explanation_de": "Ein geplanter Ablauf verschiedener Ausflüge und Besichtigungen.",
+      "explanation_ar": "برنامج منظم للرحلات والزيارات والأنشطة.",
+      "examples": [
+        {
+          "de": "Das Ausflugsprogramm umfasst eine Stadtführung und eine Bootsfahrt.",
+          "ar": "يشمل برنامج الرحلات جولة في المدينة ورحلة بالقارب."
+        },
+        {
+          "de": "Die Reiseleiterin entwickelt neue Ausflugsprogramme für Familien.",
+          "ar": "تطور المرشدة برامج رحلات جديدة للعائلات."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Ausflugsprogramme"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "tourismus",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v040",
+      "identity": "die einsatzbereitschaft",
+      "term": "die Einsatzbereitschaft",
+      "type": "noun",
+      "arabic": "الاستعداد للعمل وبذل الجهد",
+      "explanation_de": "Die Bereitschaft, sich aktiv, flexibel und zuverlässig für eine Aufgabe einzusetzen.",
+      "explanation_ar": "الاستعداد للمساهمة بجدية وتحمل المسؤولية عند الحاجة.",
+      "examples": [
+        {
+          "de": "Die Stelle verlangt hohe Einsatzbereitschaft und Flexibilität.",
+          "ar": "تتطلب الوظيفة استعدادًا عاليًا للعمل ومرونة."
+        },
+        {
+          "de": "Ihre Einsatzbereitschaft wurde im Vorstellungsgespräch positiv bewertet.",
+          "ar": "قُيّم استعدادها للعمل بشكل إيجابي في المقابلة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65,
+          72
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "beruf",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v041",
+      "identity": "die bewerbungsunterlagen",
+      "term": "die Bewerbungsunterlagen",
+      "type": "noun_plural",
+      "arabic": "مستندات التقديم للوظيفة",
+      "explanation_de": "Alle Dokumente einer Bewerbung, zum Beispiel Anschreiben, Lebenslauf und Zeugnisse.",
+      "explanation_ar": "جميع الوثائق المرسلة مع طلب الوظيفة، مثل السيرة الذاتية والشهادات.",
+      "examples": [
+        {
+          "de": "Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per E-Mail.",
+          "ar": "يرجى إرسال مستندات التقديم كاملة عبر البريد."
+        },
+        {
+          "de": "Unvollständige Bewerbungsunterlagen verzögern das Auswahlverfahren.",
+          "ar": "تؤخر مستندات التقديم الناقصة عملية الاختيار."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "bewerbung",
+        "dokumente"
+      ],
+      "globalRef": "nouns:noun_0154",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v042",
+      "identity": "das auswahlverfahren",
+      "term": "das Auswahlverfahren",
+      "type": "noun",
+      "arabic": "إجراءات اختيار المتقدمين",
+      "explanation_de": "Der Prozess, mit dem ein Unternehmen geeignete Bewerberinnen und Bewerber auswählt.",
+      "explanation_ar": "المراحل التي تستخدمها الشركة لاختيار المرشح المناسب.",
+      "examples": [
+        {
+          "de": "Das Auswahlverfahren beginnt mit einem Telefoninterview.",
+          "ar": "تبدأ إجراءات الاختيار بمقابلة هاتفية."
+        },
+        {
+          "de": "Nach dem Auswahlverfahren erhalten alle Bewerber eine Rückmeldung.",
+          "ar": "يتلقى جميع المتقدمين ردًا بعد إجراءات الاختيار."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Auswahlverfahren"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "bewerbung",
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v043",
+      "identity": "das telefoninterview",
+      "term": "das Telefoninterview",
+      "type": "noun",
+      "arabic": "مقابلة عمل هاتفية",
+      "explanation_de": "Ein Bewerbungsgespräch, das telefonisch durchgeführt wird.",
+      "explanation_ar": "مقابلة أولية مع المتقدم للوظيفة تتم عبر الهاتف.",
+      "examples": [
+        {
+          "de": "Im Telefoninterview fragt die Personalerin nach der Berufserfahrung.",
+          "ar": "تسأل موظفة الموارد البشرية عن الخبرة في المقابلة الهاتفية."
+        },
+        {
+          "de": "Für ein Telefoninterview sollte man die Stellenanzeige bereithalten.",
+          "ar": "ينبغي إبقاء إعلان الوظيفة أمامك أثناء المقابلة الهاتفية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Telefoninterviews"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65,
+          74
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "bewerbung",
+        "telefon"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v044",
+      "identity": "die freie unterkunft",
+      "term": "die freie Unterkunft",
+      "type": "noun",
+      "arabic": "سكن مجاني",
+      "explanation_de": "Eine Unterkunft, für die Beschäftigte keine Miete bezahlen müssen.",
+      "explanation_ar": "سكن يقدمه صاحب العمل للموظف من دون أجرة.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber bietet im Einsatzgebiet eine freie Unterkunft.",
+          "ar": "يوفر صاحب العمل سكنًا مجانيًا في منطقة العمل."
+        },
+        {
+          "de": "Freie Unterkunft kann bei Saisonarbeit ein wichtiger Vorteil sein.",
+          "ar": "قد يكون السكن المجاني ميزة مهمة في العمل الموسمي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die freien Unterkünfte"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "arbeit",
+        "benefit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v045",
+      "identity": "das einsatzgebiet",
+      "term": "das Einsatzgebiet",
+      "type": "noun",
+      "arabic": "منطقة أو مجال العمل",
+      "explanation_de": "Der räumliche oder fachliche Bereich, in dem jemand eingesetzt wird.",
+      "explanation_ar": "المكان أو المجال الذي يعمل فيه الموظف.",
+      "examples": [
+        {
+          "de": "Das Einsatzgebiet umfasst Marokko und Tunesien.",
+          "ar": "تشمل منطقة العمل المغرب وتونس."
+        },
+        {
+          "de": "Vor Vertragsbeginn sollte das genaue Einsatzgebiet geklärt werden.",
+          "ar": "ينبغي توضيح منطقة العمل بدقة قبل بدء العقد."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Einsatzgebiete"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          65
+        ],
+        "section": "Bewerbung im Tourismus"
+      },
+      "tags": [
+        "arbeit",
+        "ort"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v046",
+      "identity": "die aufstiegsmöglichkeit",
+      "term": "die Aufstiegsmöglichkeit",
+      "type": "noun",
+      "arabic": "فرصة الترقّي المهني",
+      "explanation_de": "Eine Möglichkeit, beruflich eine höhere Position oder mehr Verantwortung zu erreichen.",
+      "explanation_ar": "فرصة للانتقال إلى منصب أعلى أو تحمل مسؤوليات أكبر.",
+      "examples": [
+        {
+          "de": "Das Hotel bietet gute Aufstiegsmöglichkeiten.",
+          "ar": "يقدم الفندق فرصًا جيدة للترقي."
+        },
+        {
+          "de": "Vor der Bewerbung fragt Faris nach den Aufstiegsmöglichkeiten.",
+          "ar": "يسأل فارس عن فرص الترقي قبل التقديم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Aufstiegsmöglichkeiten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64
+        ],
+        "section": "Arbeitsbedingungen im Tourismus"
+      },
+      "tags": [
+        "arbeit",
+        "karriere"
+      ],
+      "globalRef": "nouns:noun_0129",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v047",
+      "identity": "das grundgehalt",
+      "term": "das Grundgehalt",
+      "type": "noun",
+      "arabic": "الراتب الأساسي",
+      "explanation_de": "Das feste Gehalt ohne Provisionen, Zuschläge oder Prämien.",
+      "explanation_ar": "الراتب الثابت قبل إضافة العمولات أو البدلات.",
+      "examples": [
+        {
+          "de": "Das Grundgehalt liegt bei 1700 Euro brutto.",
+          "ar": "يبلغ الراتب الأساسي 1700 يورو إجماليًا."
+        },
+        {
+          "de": "Zusätzlich zum Grundgehalt erhält sie eine Provision.",
+          "ar": "تحصل على عمولة إضافة إلى الراتب الأساسي."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Grundgehälter"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64
+        ],
+        "section": "Arbeitsbedingungen im Tourismus"
+      },
+      "tags": [
+        "arbeit",
+        "gehalt"
+      ],
+      "globalRef": "nouns:noun_0128",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v048",
+      "identity": "die provision",
+      "term": "die Provision",
+      "type": "noun",
+      "arabic": "عمولة",
+      "explanation_de": "Eine zusätzliche erfolgsabhängige Vergütung, häufig für Verkäufe oder Buchungen.",
+      "explanation_ar": "مبلغ إضافي يعتمد على المبيعات أو الحجوزات التي يحققها الموظف.",
+      "examples": [
+        {
+          "de": "Für jede verkaufte Reise erhält der Mitarbeiter eine Provision.",
+          "ar": "يحصل الموظف على عمولة عن كل رحلة يبيعها."
+        },
+        {
+          "de": "Die Höhe der Provision ist im Vertrag geregelt.",
+          "ar": "يحدد العقد قيمة العمولة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Provisionen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64
+        ],
+        "section": "Arbeitsbedingungen im Tourismus"
+      },
+      "tags": [
+        "arbeit",
+        "gehalt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v049",
+      "identity": "die arbeitsbedingung",
+      "term": "die Arbeitsbedingung",
+      "type": "noun",
+      "arabic": "شرط من شروط العمل",
+      "explanation_de": "Eine Regel oder ein Umstand, unter dem eine berufliche Tätigkeit ausgeübt wird.",
+      "explanation_ar": "كل ما يتعلق بساعات العمل والراتب والمكان والعقد والسلامة وغيرها.",
+      "examples": [
+        {
+          "de": "Vor der Bewerbung informiert sich Faris über die Arbeitsbedingungen.",
+          "ar": "يستفسر فارس عن شروط العمل قبل التقديم."
+        },
+        {
+          "de": "Gute Arbeitsbedingungen erhöhen die Zufriedenheit der Beschäftigten.",
+          "ar": "ترفع شروط العمل الجيدة رضا الموظفين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Arbeitsbedingungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          64,
+          65,
+          71,
+          73,
+          74,
+          82
+        ],
+        "section": "Arbeitswelt"
+      },
+      "tags": [
+        "arbeit",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v050",
+      "identity": "der befristete vertrag",
+      "term": "der befristete Vertrag",
+      "type": "noun",
+      "arabic": "عقد محدد المدة",
+      "explanation_de": "Ein Arbeitsvertrag, der zu einem festgelegten Zeitpunkt oder Zweck endet.",
+      "explanation_ar": "عقد عمل ينتهي في تاريخ محدد أو عند انتهاء مهمة معينة.",
+      "examples": [
+        {
+          "de": "Der befristete Vertrag läuft Ende September aus.",
+          "ar": "ينتهي العقد محدد المدة في نهاية سبتمبر."
+        },
+        {
+          "de": "Ein befristeter Vertrag kann unter bestimmten Bedingungen verlängert werden.",
+          "ar": "يمكن تمديد العقد محدد المدة ضمن شروط معينة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die befristeten Verträge"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          82,
+          83
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v051",
+      "identity": "der unbefristete vertrag",
+      "term": "der unbefristete Vertrag",
+      "type": "noun",
+      "arabic": "عقد غير محدد المدة",
+      "explanation_de": "Ein Arbeitsvertrag ohne vorher festgelegtes Enddatum.",
+      "explanation_ar": "عقد عمل دائم لا يتضمن تاريخ انتهاء محددًا مسبقًا.",
+      "examples": [
+        {
+          "de": "Die Mitarbeiterin hofft auf einen unbefristeten Vertrag.",
+          "ar": "تأمل الموظفة في الحصول على عقد غير محدد المدة."
+        },
+        {
+          "de": "Nach der Probezeit wurde ihm ein unbefristeter Vertrag angeboten.",
+          "ar": "عُرض عليه عقد دائم بعد فترة التجربة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die unbefristeten Verträge"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          82,
+          83
+        ],
+        "section": "Arbeitsbedingungen"
+      },
+      "tags": [
+        "arbeit",
+        "vertrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v052",
+      "identity": "die freiberufliche tätigkeit",
+      "term": "die freiberufliche Tätigkeit",
+      "type": "noun",
+      "arabic": "نشاط مهني حر",
+      "explanation_de": "Eine selbstständige berufliche Tätigkeit, häufig in einem freien Beruf.",
+      "explanation_ar": "عمل مستقل يُقدّم فيه الشخص خدماته لحسابه الخاص.",
+      "examples": [
+        {
+          "de": "Sie übt nebenberuflich eine freiberufliche Tätigkeit aus.",
+          "ar": "تمارس نشاطًا مهنيًا حرًا إلى جانب وظيفتها."
+        },
+        {
+          "de": "Bei einer freiberuflichen Tätigkeit ist man selbst für Steuern verantwortlich.",
+          "ar": "في النشاط الحر يكون الشخص مسؤولًا عن ضرائبه."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die freiberuflichen Tätigkeiten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "selbstständigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v053",
+      "identity": "der minijob",
+      "term": "der Minijob",
+      "type": "noun",
+      "arabic": "عمل صغير محدود الدخل",
+      "explanation_de": "Eine geringfügige Beschäftigung bis zur gesetzlich festgelegten Verdienstgrenze.",
+      "explanation_ar": "عمل محدود الدخل يخضع لقواعد خاصة في الضرائب والتأمينات.",
+      "examples": [
+        {
+          "de": "Sie arbeitet am Wochenende in einem Minijob.",
+          "ar": "تعمل في وظيفة صغيرة خلال عطلة نهاية الأسبوع."
+        },
+        {
+          "de": "Ein Minijob ist nicht mit Schwarzarbeit gleichzusetzen.",
+          "ar": "العمل الصغير ليس هو العمل غير القانوني."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Minijobs"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "beschäftigung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v054",
+      "identity": "die saisonarbeit",
+      "term": "die Saisonarbeit",
+      "type": "noun",
+      "arabic": "العمل الموسمي",
+      "explanation_de": "Eine Beschäftigung, die nur während einer bestimmten Jahreszeit benötigt wird.",
+      "explanation_ar": "عمل يُمارس في موسم محدد، مثل السياحة أو الزراعة.",
+      "examples": [
+        {
+          "de": "In Ferienorten gibt es im Sommer viel Saisonarbeit.",
+          "ar": "يوجد عمل موسمي كثير في المناطق السياحية صيفًا."
+        },
+        {
+          "de": "Saisonarbeit ist häufig befristet und körperlich anstrengend.",
+          "ar": "يكون العمل الموسمي غالبًا محدد المدة ومتعبًا جسديًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          77
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "saison"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v055",
+      "identity": "die zeitarbeit",
+      "term": "die Zeitarbeit",
+      "type": "noun",
+      "arabic": "العمل عبر شركة توظيف مؤقت",
+      "explanation_de": "Eine Beschäftigungsform, bei der eine Zeitarbeitsfirma Beschäftigte an andere Betriebe überlässt.",
+      "explanation_ar": "نظام يعمل فيه الموظف لدى شركة توظيف مؤقت وتُرسله للعمل في شركات أخرى.",
+      "examples": [
+        {
+          "de": "Durch Zeitarbeit sammelt er Erfahrung in verschiedenen Betrieben.",
+          "ar": "يجمع خبرة في شركات مختلفة من خلال العمل المؤقت."
+        },
+        {
+          "de": "Für Zeitarbeit gelten tarifliche und gesetzliche Regeln.",
+          "ar": "تسري على العمل المؤقت قواعد تعاقدية وقانونية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          77,
+          78
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "zeitarbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v056",
+      "identity": "die zeitarbeitsfirma",
+      "term": "die Zeitarbeitsfirma",
+      "type": "noun",
+      "arabic": "شركة توظيف مؤقت",
+      "explanation_de": "Ein Unternehmen, das Beschäftigte einstellt und zeitweise an andere Betriebe überlässt.",
+      "explanation_ar": "شركة توظف العامل ثم ترسله للعمل مؤقتًا لدى شركات أخرى.",
+      "examples": [
+        {
+          "de": "Die Zeitarbeitsfirma zahlt das Gehalt und organisiert den Einsatz.",
+          "ar": "تدفع شركة التوظيف المؤقت الراتب وتنظم مكان العمل."
+        },
+        {
+          "de": "Vor Vertragsabschluss sollte man die Zeitarbeitsfirma genau prüfen.",
+          "ar": "ينبغي فحص شركة التوظيف المؤقت جيدًا قبل توقيع العقد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zeitarbeitsfirmen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77,
+          78
+        ],
+        "section": "Zeitarbeit"
+      },
+      "tags": [
+        "arbeit",
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v057",
+      "identity": "der tarifvertrag",
+      "term": "der Tarifvertrag",
+      "type": "noun",
+      "arabic": "اتفاقية جماعية للأجور وشروط العمل",
+      "explanation_de": "Ein Vertrag zwischen Gewerkschaften und Arbeitgebern über Löhne und Arbeitsbedingungen.",
+      "explanation_ar": "اتفاق ينظم الأجور وساعات العمل وشروطًا أخرى لفئة من الموظفين.",
+      "examples": [
+        {
+          "de": "Der Tarifvertrag legt Mindestentgelt und Zuschläge fest.",
+          "ar": "تحدد الاتفاقية الجماعية الحد الأدنى للأجر والبدلات."
+        },
+        {
+          "de": "In der Zeitarbeitsbranche gelten besondere Tarifverträge.",
+          "ar": "توجد اتفاقيات جماعية خاصة بقطاع العمل المؤقت."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Tarifverträge"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          77
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "recht"
+      ],
+      "globalRef": "nouns:noun_0396",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v058",
+      "identity": "der mindestlohn",
+      "term": "der Mindestlohn",
+      "type": "noun",
+      "arabic": "الحد الأدنى للأجور",
+      "explanation_de": "Der gesetzlich niedrigste zulässige Lohn pro Arbeitsstunde.",
+      "explanation_ar": "أقل أجر مسموح قانونيًا لكل ساعة عمل.",
+      "examples": [
+        {
+          "de": "Der Arbeitgeber muss mindestens den gesetzlichen Mindestlohn zahlen.",
+          "ar": "يجب على صاحب العمل دفع الحد الأدنى القانوني للأجور."
+        },
+        {
+          "de": "Der Mindestlohn wird regelmäßig angepasst.",
+          "ar": "يُعدّل الحد الأدنى للأجور بصورة دورية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Mindestlöhne"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          77
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "lohn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v059",
+      "identity": "die schwarzarbeit",
+      "term": "die Schwarzarbeit",
+      "type": "noun",
+      "arabic": "العمل غير المصرح به",
+      "explanation_de": "Bezahlte Arbeit, die nicht ordnungsgemäß angemeldet oder versteuert wird.",
+      "explanation_ar": "عمل مدفوع لا يتم تسجيله رسميًا أو دفع الضرائب والتأمينات عنه.",
+      "examples": [
+        {
+          "de": "Schwarzarbeit ist verboten und kann bestraft werden.",
+          "ar": "العمل غير المصرح به ممنوع وقد يعاقب عليه القانون."
+        },
+        {
+          "de": "Ein offiziell angemeldeter Minijob ist keine Schwarzarbeit.",
+          "ar": "العمل الصغير المسجل رسميًا ليس عملًا أسود."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          76,
+          77
+        ],
+        "section": "Arbeitsformen"
+      },
+      "tags": [
+        "arbeit",
+        "recht"
+      ],
+      "globalRef": "nouns:noun_0418",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v060",
+      "identity": "die gehaltsstufe",
+      "term": "die Gehaltsstufe",
+      "type": "noun",
+      "arabic": "درجة الراتب",
+      "explanation_de": "Eine tarifliche oder betriebliche Einstufung, die die Höhe des Gehalts beeinflusst.",
+      "explanation_ar": "فئة راتب تعتمد على التأهيل والخبرة ونوع العمل.",
+      "examples": [
+        {
+          "de": "Die Ausbildung beeinflusst die Gehaltsstufe.",
+          "ar": "يؤثر التأهيل في درجة الراتب."
+        },
+        {
+          "de": "Mit mehr Berufserfahrung kann eine höhere Gehaltsstufe erreicht werden.",
+          "ar": "يمكن الوصول إلى درجة راتب أعلى مع زيادة الخبرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Gehaltsstufen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77
+        ],
+        "section": "Zeitarbeit"
+      },
+      "tags": [
+        "arbeit",
+        "gehalt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v061",
+      "identity": "die equal-pay-vorschrift",
+      "term": "die Equal-Pay-Vorschrift",
+      "type": "noun",
+      "arabic": "قاعدة الأجر المتساوي",
+      "explanation_de": "Eine Regel, nach der Zeitarbeitende unter bestimmten Bedingungen gleich bezahlt werden müssen wie vergleichbare Stammkräfte.",
+      "explanation_ar": "قاعدة تضمن للموظف المؤقت أجرًا مساويًا لموظف ثابت مماثل بعد تحقق شروط معينة.",
+      "examples": [
+        {
+          "de": "Nach neun Monaten kann die Equal-Pay-Vorschrift gelten.",
+          "ar": "قد تسري قاعدة الأجر المتساوي بعد تسعة أشهر."
+        },
+        {
+          "de": "Die Equal-Pay-Vorschrift soll Benachteiligung verhindern.",
+          "ar": "تهدف قاعدة الأجر المتساوي إلى منع الإجحاف."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Equal-Pay-Vorschriften"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77
+        ],
+        "section": "Zeitarbeit"
+      },
+      "tags": [
+        "arbeit",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v062",
+      "identity": "der festangestellte / die festangestellte",
+      "term": "der Festangestellte / die Festangestellte",
+      "type": "noun",
+      "arabic": "موظف ثابت",
+      "explanation_de": "Eine Person mit einem regulären Arbeitsverhältnis direkt beim Einsatzbetrieb.",
+      "explanation_ar": "موظف يعمل مباشرة لدى الشركة بعقد ثابت، بخلاف العامل المؤقت.",
+      "examples": [
+        {
+          "de": "Zeitarbeitende erhalten später oft die gleiche Bezahlung wie vergleichbare Festangestellte.",
+          "ar": "يحصل العاملون المؤقتون لاحقًا غالبًا على أجر مماثل للموظفين الثابتين."
+        },
+        {
+          "de": "Die Firma übernimmt mehrere Zeitarbeiter als Festangestellte.",
+          "ar": "توظف الشركة عدة عمال مؤقتين كموظفين ثابتين."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Festangestellten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77
+        ],
+        "section": "Zeitarbeit"
+      },
+      "tags": [
+        "arbeit",
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v063",
+      "identity": "der facility manager / die facility managerin",
+      "term": "der Facility Manager / die Facility Managerin",
+      "type": "noun",
+      "arabic": "مدير أو مديرة إدارة المرافق",
+      "explanation_de": "Eine Person, die Gebäude, technische Anlagen und betriebliche Dienstleistungen organisiert.",
+      "explanation_ar": "شخص مسؤول عن إدارة المباني والتجهيزات والخدمات التقنية.",
+      "examples": [
+        {
+          "de": "Der Facility Manager kontrolliert technische Anlagen und organisiert Reparaturen.",
+          "ar": "يفحص مدير المرافق التجهيزات التقنية وينظم الإصلاحات."
+        },
+        {
+          "de": "Für die Stelle werden handwerkliches Geschick und Organisationstalent verlangt.",
+          "ar": "تتطلب الوظيفة مهارة يدوية وقدرة على التنظيم."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Facility Manager / die Facility Managerinnen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77
+        ],
+        "section": "Stellenanzeige"
+      },
+      "tags": [
+        "arbeit",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v064",
+      "identity": "die sonderzahlung",
+      "term": "die Sonderzahlung",
+      "type": "noun",
+      "arabic": "دفعة مالية إضافية",
+      "explanation_de": "Eine zusätzliche Zahlung zum regulären Gehalt, zum Beispiel Weihnachtsgeld oder eine Prämie.",
+      "explanation_ar": "مبلغ إضافي إلى الراتب العادي، مثل مكافأة أو بدل خاص.",
+      "examples": [
+        {
+          "de": "Das Unternehmen zahlt eine Sonderzahlung bei Nachteinsätzen.",
+          "ar": "تدفع الشركة مبلغًا إضافيًا عند العمل الليلي."
+        },
+        {
+          "de": "Die Sonderzahlung ist im Arbeitsvertrag geregelt.",
+          "ar": "ينظم عقد العمل الدفعة الإضافية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Sonderzahlungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          77
+        ],
+        "section": "Arbeitsbedingungen"
+      },
+      "tags": [
+        "arbeit",
+        "gehalt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v065",
+      "identity": "der disponent / die disponentin",
+      "term": "der Disponent / die Disponentin",
+      "type": "noun",
+      "arabic": "منسّق أو منسّقة عمليات النقل",
+      "explanation_de": "Eine Person, die Transporte, Fahrzeuge, Aufträge und Fahrer plant und koordiniert.",
+      "explanation_ar": "شخص ينظم عمليات النقل ويوزع المهام ويتابع السائقين والمواعيد.",
+      "examples": [
+        {
+          "de": "Die Disponentin plant die Touren und informiert die Fahrer.",
+          "ar": "تخطط منسقة النقل للجولات وتبلغ السائقين."
+        },
+        {
+          "de": "Bei einer Panne sucht der Disponent schnell eine Ersatzlösung.",
+          "ar": "يبحث منسق النقل بسرعة عن حل بديل عند حدوث عطل."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Disponenten / die Disponentinnen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          78,
+          79,
+          80
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "logistik",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v066",
+      "identity": "einen auftrag abwickeln",
+      "term": "einen Auftrag abwickeln",
+      "type": "phrase",
+      "arabic": "ينفّذ أو يعالج طلب عمل بالكامل",
+      "explanation_de": "Einen Auftrag von der Annahme bis zum Abschluss organisatorisch bearbeiten.",
+      "explanation_ar": "متابعة الطلب من بدايته حتى إتمامه، بما يشمل التنسيق والفواتير.",
+      "examples": [
+        {
+          "de": "Die Disponentin wickelt täglich mehrere Transportaufträge ab.",
+          "ar": "تعالج منسقة النقل عدة طلبات نقل يوميًا."
+        },
+        {
+          "de": "Der Auftrag wurde trotz der Verzögerung vollständig abgewickelt.",
+          "ar": "تم تنفيذ الطلب كاملًا رغم التأخير."
+        }
+      ],
+      "grammar": {
+        "verb": "abwickeln",
+        "praeteritum": "wickelte ab",
+        "perfekt": "hat abgewickelt",
+        "separable": true
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          78,
+          79
+        ],
+        "section": "Arbeitsabläufe in der Logistik"
+      },
+      "tags": [
+        "phrase",
+        "logistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v067",
+      "identity": "sich in eine software einarbeiten",
+      "term": "sich in eine Software einarbeiten",
+      "type": "phrase",
+      "arabic": "يتدرّب على استخدام برنامج جديد",
+      "explanation_de": "Eine Software schrittweise kennenlernen, bis man selbstständig damit arbeiten kann.",
+      "explanation_ar": "تعلم برنامج جديد عمليًا حتى يصبح الشخص قادرًا على استخدامه وحده.",
+      "examples": [
+        {
+          "de": "Neue Mitarbeitende müssen sich in die Dispositionssoftware einarbeiten.",
+          "ar": "يجب على الموظفين الجدد تعلم برنامج تنسيق النقل."
+        },
+        {
+          "de": "Nach zwei Wochen hatte sie sich gut in die Software eingearbeitet.",
+          "ar": "بعد أسبوعين كانت قد أتقنت استخدام البرنامج جيدًا."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich in + Akkusativ einarbeiten",
+        "praeteritum": "arbeitete sich ein",
+        "perfekt": "hat sich eingearbeitet",
+        "separable": true
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          78
+        ],
+        "section": "Arbeitsabläufe in der Logistik"
+      },
+      "tags": [
+        "phrase",
+        "software"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v068",
+      "identity": "die auslastung",
+      "term": "die Auslastung",
+      "type": "noun",
+      "arabic": "نسبة الاستفادة من القدرة المتاحة",
+      "explanation_de": "Das Verhältnis zwischen verfügbarer Kapazität und tatsächlicher Nutzung.",
+      "explanation_ar": "مقدار استخدام طاقة المركبات أو الموظفين أو الآلات مقارنة بالمتاح.",
+      "examples": [
+        {
+          "de": "Die optimale Auslastung der Lkw senkt die Transportkosten.",
+          "ar": "يخفض الاستخدام الأمثل للشاحنات تكاليف النقل."
+        },
+        {
+          "de": "Eine geringe Auslastung macht die Tour unwirtschaftlich.",
+          "ar": "تجعل نسبة الاستخدام المنخفضة الجولة غير اقتصادية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Auslastungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          78,
+          79
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "logistik",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v069",
+      "identity": "die lieferkette",
+      "term": "die Lieferkette",
+      "type": "noun",
+      "arabic": "سلسلة التوريد",
+      "explanation_de": "Die Abfolge aller Stationen vom Rohstoff oder Erzeuger bis zum Endkunden.",
+      "explanation_ar": "تسلسل المراحل من الإنتاج والنقل والتخزين حتى وصول السلعة للمستهلك.",
+      "examples": [
+        {
+          "de": "Eine Unterbrechung der Lieferkette kann zu Verzögerungen führen.",
+          "ar": "قد يؤدي انقطاع سلسلة التوريد إلى تأخيرات."
+        },
+        {
+          "de": "Das Unternehmen überprüft jede Station der Lieferkette.",
+          "ar": "تفحص الشركة كل مرحلة من سلسلة التوريد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Lieferketten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          78,
+          79
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "logistik",
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v070",
+      "identity": "der welthandel",
+      "term": "der Welthandel",
+      "type": "noun",
+      "arabic": "التجارة العالمية",
+      "explanation_de": "Der internationale Austausch von Waren und Dienstleistungen zwischen Ländern.",
+      "explanation_ar": "تبادل السلع والخدمات بين دول العالم.",
+      "examples": [
+        {
+          "de": "Container haben den Welthandel stark verändert.",
+          "ar": "غيّرت الحاويات التجارة العالمية بصورة كبيرة."
+        },
+        {
+          "de": "Störungen in Häfen wirken sich schnell auf den Welthandel aus.",
+          "ar": "تؤثر اضطرابات الموانئ بسرعة في التجارة العالمية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Die Container-Revolution"
+      },
+      "tags": [
+        "logistik",
+        "handel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v071",
+      "identity": "die standardisierung",
+      "term": "die Standardisierung",
+      "type": "noun",
+      "arabic": "التوحيد القياسي",
+      "explanation_de": "Die Einführung einheitlicher Maße, Regeln oder Abläufe.",
+      "explanation_ar": "اعتماد مقاييس وقواعد موحدة لتسهيل العمل والتبادل.",
+      "examples": [
+        {
+          "de": "Die Standardisierung der Container beschleunigte den Transport.",
+          "ar": "سرّع توحيد مقاسات الحاويات عملية النقل."
+        },
+        {
+          "de": "Standardisierung senkt Fehler und vereinfacht Abläufe.",
+          "ar": "يقلل التوحيد القياسي الأخطاء ويسهل الإجراءات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Standardisierungen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Die Container-Revolution"
+      },
+      "tags": [
+        "logistik",
+        "prozess"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v072",
+      "identity": "das containerschiff",
+      "term": "das Containerschiff",
+      "type": "noun",
+      "arabic": "سفينة حاويات",
+      "explanation_de": "Ein Frachtschiff, das speziell für den Transport standardisierter Container gebaut ist.",
+      "explanation_ar": "سفينة شحن مصممة لنقل الحاويات القياسية.",
+      "examples": [
+        {
+          "de": "Das Containerschiff wird im Hafen entladen.",
+          "ar": "تُفرغ سفينة الحاويات في الميناء."
+        },
+        {
+          "de": "Große Containerschiffe transportieren Tausende Container.",
+          "ar": "تنقل سفن الحاويات الكبيرة آلاف الحاويات."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Containerschiffe"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Die Container-Revolution"
+      },
+      "tags": [
+        "logistik",
+        "transport"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v073",
+      "identity": "das containerterminal",
+      "term": "das Containerterminal",
+      "type": "noun",
+      "arabic": "محطة حاويات",
+      "explanation_de": "Ein Bereich im Hafen, in dem Container umgeschlagen, gelagert und weitertransportiert werden.",
+      "explanation_ar": "منطقة في الميناء تُحمّل فيها الحاويات وتُخزن وتنقل.",
+      "examples": [
+        {
+          "de": "Das Containerterminal arbeitet weitgehend automatisiert.",
+          "ar": "تعمل محطة الحاويات بصورة آلية إلى حد كبير."
+        },
+        {
+          "de": "Am Terminal werden Container auf Züge und Lkw verteilt.",
+          "ar": "تُوزع الحاويات في المحطة على القطارات والشاحنات."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Containerterminals"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Die Container-Revolution"
+      },
+      "tags": [
+        "logistik",
+        "hafen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v074",
+      "identity": "die liegezeit",
+      "term": "die Liegezeit",
+      "type": "noun",
+      "arabic": "مدة بقاء السفينة في الميناء",
+      "explanation_de": "Die Zeit, in der ein Schiff im Hafen liegt und nicht weiterfahren kann.",
+      "explanation_ar": "الفترة التي تبقى فيها السفينة في الميناء للتحميل أو التفريغ.",
+      "examples": [
+        {
+          "de": "Kurze Liegezeiten senken die Kosten im Hafen.",
+          "ar": "تخفض فترات الرسو القصيرة تكاليف الميناء."
+        },
+        {
+          "de": "Durch Container konnten die Liegezeiten deutlich reduziert werden.",
+          "ar": "أمكن تقليل مدة بقاء السفن في الميناء بفضل الحاويات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Liegezeiten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Die Container-Revolution"
+      },
+      "tags": [
+        "logistik",
+        "zeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v075",
+      "identity": "die spedition",
+      "term": "die Spedition",
+      "type": "noun",
+      "arabic": "شركة شحن ونقل",
+      "explanation_de": "Ein Unternehmen, das den Transport von Waren organisiert.",
+      "explanation_ar": "شركة تنسق شحن البضائع ونقلها بين المرسل والمستلم.",
+      "examples": [
+        {
+          "de": "Die Spedition organisiert den Transport nach Ghana.",
+          "ar": "تنظم شركة الشحن النقل إلى غانا."
+        },
+        {
+          "de": "Bei Verspätungen informiert die Spedition den Kunden.",
+          "ar": "تبلغ شركة الشحن الزبون عند حدوث تأخير."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Speditionen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79,
+          80
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "logistik",
+        "unternehmen"
+      ],
+      "globalRef": "nouns:noun_0021",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v076",
+      "identity": "der transporteur / die transporteurin",
+      "term": "der Transporteur / die Transporteurin",
+      "type": "noun",
+      "arabic": "ناقل البضائع",
+      "explanation_de": "Eine Person oder Firma, die Waren von einem Ort zum anderen transportiert.",
+      "explanation_ar": "شخص أو شركة تتولى نقل البضائع.",
+      "examples": [
+        {
+          "de": "Der Transporteur holt den Container beim Absender ab.",
+          "ar": "يستلم الناقل الحاوية من المرسل."
+        },
+        {
+          "de": "Mit dem Transporteur wurde ein fester Liefertermin vereinbart.",
+          "ar": "تم الاتفاق مع الناقل على موعد تسليم ثابت."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Transporteure / die Transporteurinnen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "logistik",
+        "transport"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v077",
+      "identity": "be- und entladen",
+      "term": "be- und entladen",
+      "type": "verb_phrase",
+      "arabic": "يحمّل ويفرّغ",
+      "explanation_de": "Waren oder Container auf ein Transportmittel laden und wieder herunterholen.",
+      "explanation_ar": "وضع البضائع في وسيلة النقل ثم إخراجها عند الوصول.",
+      "examples": [
+        {
+          "de": "Der Lkw wird am Morgen beladen und am Nachmittag entladen.",
+          "ar": "تُحمّل الشاحنة صباحًا وتُفرغ بعد الظهر."
+        },
+        {
+          "de": "Container lassen sich schnell be- und entladen.",
+          "ar": "يمكن تحميل الحاويات وتفريغها بسرعة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "belud und entlud",
+        "perfekt": "hat be- und entladen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          79,
+          80
+        ],
+        "section": "Logistik"
+      },
+      "tags": [
+        "phrase",
+        "transport"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v078",
+      "identity": "die annahme verweigern",
+      "term": "die Annahme verweigern",
+      "type": "phrase",
+      "arabic": "يرفض استلام البضاعة",
+      "explanation_de": "Eine Lieferung bewusst nicht akzeptieren oder entgegennehmen.",
+      "explanation_ar": "رفض استلام شحنة بسبب عيب أو خطأ أو سبب آخر.",
+      "examples": [
+        {
+          "de": "Der Kunde verweigert die Annahme, weil die Lieferung beschädigt ist.",
+          "ar": "يرفض الزبون استلام الشحنة لأنها متضررة."
+        },
+        {
+          "de": "Bei verweigerter Annahme muss die Spedition informiert werden.",
+          "ar": "يجب إبلاغ شركة الشحن عند رفض الاستلام."
+        }
+      ],
+      "grammar": {
+        "verb": "verweigern",
+        "praeteritum": "verweigerte",
+        "perfekt": "hat verweigert"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          80,
+          81
+        ],
+        "section": "Problemlösung am Telefon"
+      },
+      "tags": [
+        "phrase",
+        "reklamation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v079",
+      "identity": "die technische panne",
+      "term": "die technische Panne",
+      "type": "noun",
+      "arabic": "عطل تقني",
+      "explanation_de": "Eine unerwartete technische Störung an einem Fahrzeug, Gerät oder System.",
+      "explanation_ar": "خلل مفاجئ في مركبة أو جهاز أو نظام.",
+      "examples": [
+        {
+          "de": "Wegen einer technischen Panne verspätet sich der Lkw.",
+          "ar": "تتأخر الشاحنة بسبب عطل تقني."
+        },
+        {
+          "de": "Der Fahrer meldet die Panne sofort der Disposition.",
+          "ar": "يبلغ السائق قسم التنسيق بالعطل فورًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die technischen Pannen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          80,
+          81
+        ],
+        "section": "Problemlösung am Telefon"
+      },
+      "tags": [
+        "logistik",
+        "problem"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v080",
+      "identity": "der liefertermin",
+      "term": "der Liefertermin",
+      "type": "noun",
+      "arabic": "موعد التسليم",
+      "explanation_de": "Der vereinbarte Zeitpunkt, zu dem eine Ware geliefert werden soll.",
+      "explanation_ar": "الوقت المتفق عليه لوصول الشحنة.",
+      "examples": [
+        {
+          "de": "Der Liefertermin kann wegen des Unfalls nicht eingehalten werden.",
+          "ar": "لا يمكن الالتزام بموعد التسليم بسبب الحادث."
+        },
+        {
+          "de": "Bitte bestätigen Sie den neuen Liefertermin schriftlich.",
+          "ar": "يرجى تأكيد موعد التسليم الجديد خطيًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Liefertermine"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          80,
+          81
+        ],
+        "section": "Problemlösung am Telefon"
+      },
+      "tags": [
+        "logistik",
+        "termin"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v081",
+      "identity": "effektiv telefonieren",
+      "term": "effektiv telefonieren",
+      "type": "phrase",
+      "arabic": "يتواصل هاتفيًا بفعالية",
+      "explanation_de": "Ein Telefongespräch klar, freundlich, zielgerichtet und lösungsorientiert führen.",
+      "explanation_ar": "إجراء مكالمة واضحة ومهنية تركز على الهدف والحل.",
+      "examples": [
+        {
+          "de": "Wer effektiv telefoniert, fasst das Problem kurz zusammen.",
+          "ar": "من يتواصل بفعالية يلخص المشكلة باختصار."
+        },
+        {
+          "de": "Eine ruhige Stimme hilft, auch in schwierigen Situationen effektiv zu telefonieren.",
+          "ar": "يساعد الصوت الهادئ على التواصل الفعال في المواقف الصعبة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 4,
+        "pages": [
+          80,
+          81,
+          84
+        ],
+        "section": "Telefonkommunikation"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v082",
+      "identity": "die sprachweise",
+      "term": "die Sprachweise",
+      "type": "noun",
+      "arabic": "أسلوب الكلام",
+      "explanation_de": "Die Art und Weise, wie jemand spricht und formuliert.",
+      "explanation_ar": "طريقة اختيار الكلمات والنبرة وبناء الجمل أثناء الحديث.",
+      "examples": [
+        {
+          "de": "Eine freundliche Sprachweise wirkt professionell.",
+          "ar": "يعطي أسلوب الكلام الودود انطباعًا مهنيًا."
+        },
+        {
+          "de": "Im Beschwerdegespräch sollte die Sprachweise ruhig bleiben.",
+          "ar": "ينبغي أن يبقى أسلوب الكلام هادئًا في حديث الشكوى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Sprachweisen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          81
+        ],
+        "section": "Effektiv telefonieren"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v083",
+      "identity": "die floskel",
+      "term": "die Floskel",
+      "type": "noun",
+      "arabic": "عبارة محفوظة أو جوفاء",
+      "explanation_de": "Eine häufig verwendete, wenig konkrete oder inhaltsarme Redewendung.",
+      "explanation_ar": "عبارة متكررة لا تضيف معنى واضحًا، وقد تبدو غير صادقة.",
+      "examples": [
+        {
+          "de": "Vermeiden Sie Floskeln und formulieren Sie konkret.",
+          "ar": "تجنب العبارات الجاهزة وصغ كلامك بصورة محددة."
+        },
+        {
+          "de": "Eine höfliche Standardformel ist nicht automatisch eine leere Floskel.",
+          "ar": "ليست كل صيغة مهذبة عبارة جوفاء."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Floskeln"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          81
+        ],
+        "section": "Effektiv telefonieren"
+      },
+      "tags": [
+        "telefon",
+        "sprache"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v084",
+      "identity": "das selbstvertrauen",
+      "term": "das Selbstvertrauen",
+      "type": "noun",
+      "arabic": "الثقة بالنفس",
+      "explanation_de": "Das Vertrauen in die eigenen Fähigkeiten und Entscheidungen.",
+      "explanation_ar": "إيمان الشخص بقدرته على التصرف والتواصل بصورة مناسبة.",
+      "examples": [
+        {
+          "de": "Gute Vorbereitung stärkt das Selbstvertrauen am Telefon.",
+          "ar": "يقوي التحضير الجيد الثقة بالنفس في المكالمة."
+        },
+        {
+          "de": "Sie spricht mit Selbstvertrauen und bleibt trotzdem höflich.",
+          "ar": "تتحدث بثقة وتبقى مهذبة في الوقت نفسه."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          81
+        ],
+        "section": "Effektiv telefonieren"
+      },
+      "tags": [
+        "kommunikation",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v085",
+      "identity": "eine reklamation beantworten",
+      "term": "eine Reklamation beantworten",
+      "type": "phrase",
+      "arabic": "يرد على شكوى",
+      "explanation_de": "Auf eine Beschwerde sachlich reagieren, Verantwortung klären und eine Lösung anbieten.",
+      "explanation_ar": "الرد مهنيًا على شكوى وشرح الخطوات واقتراح حل.",
+      "examples": [
+        {
+          "de": "Der Kundenservice beantwortet die Reklamation noch am selben Tag.",
+          "ar": "ترد خدمة الزبائن على الشكوى في اليوم نفسه."
+        },
+        {
+          "de": "Eine gute Antwort entschuldigt sich und nennt eine konkrete Lösung.",
+          "ar": "يتضمن الرد الجيد اعتذارًا وحلًا محددًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 4,
+        "pages": [
+          81
+        ],
+        "section": "Reklamationen"
+      },
+      "tags": [
+        "phrase",
+        "service"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v086",
+      "identity": "über arbeitsbedingungen verhandeln",
+      "term": "über Arbeitsbedingungen verhandeln",
+      "type": "phrase",
+      "arabic": "يتفاوض بشأن شروط العمل",
+      "explanation_de": "Mit dem Arbeitgeber über Arbeitszeit, Gehalt, Vertrag oder Einsatz sprechen.",
+      "explanation_ar": "مناقشة ساعات العمل والراتب ونوع العقد وغيرها للوصول إلى اتفاق.",
+      "examples": [
+        {
+          "de": "Zunair verhandelt mit dem Abteilungsleiter über seine Arbeitsbedingungen.",
+          "ar": "يتفاوض زنير مع مدير القسم بشأن شروط عمله."
+        },
+        {
+          "de": "Vor der Verhandlung sollte man die eigenen Prioritäten kennen.",
+          "ar": "ينبغي معرفة الأولويات الشخصية قبل التفاوض."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 4,
+        "pages": [
+          82,
+          83
+        ],
+        "section": "Arbeitsbedingungen verhandeln"
+      },
+      "tags": [
+        "phrase",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v087",
+      "identity": "der bruttolohn",
+      "term": "der Bruttolohn",
+      "type": "noun",
+      "arabic": "الأجر الإجمالي قبل الخصومات",
+      "explanation_de": "Der Lohn vor dem Abzug von Steuern und Sozialversicherungsbeiträgen.",
+      "explanation_ar": "الأجر قبل خصم الضرائب والتأمينات الاجتماعية.",
+      "examples": [
+        {
+          "de": "Im Vertrag wird der Bruttolohn pro Stunde genannt.",
+          "ar": "يُذكر الأجر الإجمالي لكل ساعة في العقد."
+        },
+        {
+          "de": "Vom Bruttolohn werden Steuern und Beiträge abgezogen.",
+          "ar": "تُخصم الضرائب والاشتراكات من الأجر الإجمالي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Bruttolöhne"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          83
+        ],
+        "section": "Arbeitsbedingungen"
+      },
+      "tags": [
+        "arbeit",
+        "lohn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v088",
+      "identity": "der nettolohn",
+      "term": "der Nettolohn",
+      "type": "noun",
+      "arabic": "الأجر الصافي بعد الخصومات",
+      "explanation_de": "Der Betrag, der nach allen Abzügen tatsächlich ausgezahlt wird.",
+      "explanation_ar": "المبلغ الذي يصل للموظف بعد خصم الضرائب والتأمينات.",
+      "examples": [
+        {
+          "de": "Der Nettolohn fällt niedriger aus als der Bruttolohn.",
+          "ar": "يكون الأجر الصافي أقل من الإجمالي."
+        },
+        {
+          "de": "Für die Haushaltsplanung ist der Nettolohn entscheidend.",
+          "ar": "الأجر الصافي مهم لتخطيط ميزانية الأسرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Nettolöhne"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          83
+        ],
+        "section": "Arbeitsbedingungen"
+      },
+      "tags": [
+        "arbeit",
+        "lohn"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v089",
+      "identity": "die auftragslage",
+      "term": "die Auftragslage",
+      "type": "noun",
+      "arabic": "حجم أو وضع الطلبات لدى الشركة",
+      "explanation_de": "Die aktuelle Menge und Entwicklung der Aufträge eines Unternehmens.",
+      "explanation_ar": "عدد الطلبات المتوفرة لدى الشركة ومدى قوتها أو ضعفها.",
+      "examples": [
+        {
+          "de": "Wegen der guten Auftragslage sucht die Firma zusätzliche Arbeitskräfte.",
+          "ar": "تبحث الشركة عن عمال إضافيين بسبب كثرة الطلبات."
+        },
+        {
+          "de": "Bei schwacher Auftragslage werden Verträge manchmal nicht verlängert.",
+          "ar": "قد لا تمدد العقود عند ضعف وضع الطلبات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Auftragslagen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          82,
+          83
+        ],
+        "section": "Arbeitsbedingungen"
+      },
+      "tags": [
+        "arbeit",
+        "unternehmen"
+      ],
+      "globalRef": "nouns:noun_0407",
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v090",
+      "identity": "die direktheit",
+      "term": "die Direktheit",
+      "type": "noun",
+      "arabic": "المباشرة في التواصل",
+      "explanation_de": "Eine Kommunikationsweise, bei der Aussagen klar und ohne große Umwege formuliert werden.",
+      "explanation_ar": "أسلوب كلام واضح ومباشر من دون مقدمات طويلة.",
+      "examples": [
+        {
+          "de": "Die Direktheit deutscher Geschäftsleute kann ungewohnt wirken.",
+          "ar": "قد تبدو مباشرة رجال الأعمال الألمان غير معتادة."
+        },
+        {
+          "de": "Direktheit sollte nicht mit Unhöflichkeit verwechselt werden.",
+          "ar": "لا ينبغي الخلط بين المباشرة وقلة الأدب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          83
+        ],
+        "section": "Kommunikationsverhalten"
+      },
+      "tags": [
+        "kommunikation",
+        "kultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v091",
+      "identity": "zum punkt kommen",
+      "term": "zum Punkt kommen",
+      "type": "phrase",
+      "arabic": "يدخل في صلب الموضوع",
+      "explanation_de": "Ohne lange Umwege das Wesentliche ansprechen.",
+      "explanation_ar": "الانتقال إلى الموضوع الأساسي بسرعة ووضوح.",
+      "examples": [
+        {
+          "de": "Im Gespräch kam der Abteilungsleiter schnell zum Punkt.",
+          "ar": "دخل مدير القسم في صلب الموضوع بسرعة."
+        },
+        {
+          "de": "Nach einer kurzen Begrüßung sollten wir zum Punkt kommen.",
+          "ar": "بعد تحية قصيرة ينبغي الانتقال إلى صلب الموضوع."
+        }
+      ],
+      "grammar": {
+        "verb": "kommen",
+        "praeteritum": "kam zum Punkt",
+        "perfekt": "ist zum Punkt gekommen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          83
+        ],
+        "section": "Kommunikationsverhalten"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v092",
+      "identity": "im auge behalten",
+      "term": "im Auge behalten",
+      "type": "phrase",
+      "arabic": "يبقي تحت المراقبة أو المتابعة",
+      "explanation_de": "Etwas aufmerksam beobachten und bei Entscheidungen berücksichtigen.",
+      "explanation_ar": "متابعة أمر ما وعدم إهماله أثناء التخطيط أو التنفيذ.",
+      "examples": [
+        {
+          "de": "Die Teamleitung behält die Kosten im Auge.",
+          "ar": "تبقي إدارة الفريق التكاليف تحت المراقبة."
+        },
+        {
+          "de": "Wir müssen den Liefertermin im Auge behalten.",
+          "ar": "يجب أن نتابع موعد التسليم باستمرار."
+        }
+      ],
+      "grammar": {
+        "verb": "behalten",
+        "praeteritum": "behielt im Auge",
+        "perfekt": "hat im Auge behalten"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          83
+        ],
+        "section": "Kommunikationsverhalten"
+      },
+      "tags": [
+        "phrase",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v093",
+      "identity": "die telefonnotiz",
+      "term": "die Telefonnotiz",
+      "type": "noun",
+      "arabic": "مذكرة هاتفية",
+      "explanation_de": "Eine kurze schriftliche Dokumentation eines Telefonats mit Kontaktdaten und Aufgaben.",
+      "explanation_ar": "تسجيل مختصر لمحتوى المكالمة وبيانات المتصل وما يجب إنجازه.",
+      "examples": [
+        {
+          "de": "Die Mitarbeiterin trägt alle Informationen in die Telefonnotiz ein.",
+          "ar": "تسجل الموظفة جميع المعلومات في المذكرة الهاتفية."
+        },
+        {
+          "de": "Eine Telefonnotiz sollte Name, Nummer und Rückrufgrund enthalten.",
+          "ar": "ينبغي أن تحتوي المذكرة الهاتفية على الاسم والرقم وسبب الاتصال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Telefonnotizen"
+      },
+      "source": {
+        "unit": 4,
+        "pages": [
+          84
+        ],
+        "section": "Hören und Schreiben"
+      },
+      "tags": [
+        "telefon",
+        "dokumentation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u04-v094",
+      "identity": "eine kundenanfrage dokumentieren",
+      "term": "eine Kundenanfrage dokumentieren",
+      "type": "phrase",
+      "arabic": "يوثّق استفسار زبون",
+      "explanation_de": "Die wichtigsten Informationen eines Kundenkontakts schriftlich festhalten.",
+      "explanation_ar": "تسجيل معلومات استفسار الزبون وطلبه بصورة مختصرة ومنظمة.",
+      "examples": [
+        {
+          "de": "Alle telefonischen Kundenanfragen werden dokumentiert.",
+          "ar": "تُوثق جميع استفسارات الزبائن الهاتفية."
+        },
+        {
+          "de": "Notieren Sie nur die Informationen, die für die Bearbeitung wichtig sind.",
+          "ar": "دوّن فقط المعلومات المهمة لمعالجة الطلب."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 4,
+        "pages": [
+          84
+        ],
+        "section": "Hören und Schreiben"
+      },
+      "tags": [
+        "phrase",
+        "kundenservice"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

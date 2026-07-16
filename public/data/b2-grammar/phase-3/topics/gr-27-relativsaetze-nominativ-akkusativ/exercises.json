@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-27",
+  "title_de": "Relativsätze im Nominativ und Akkusativ – Übungen",
+  "title_ar": "تمارين الجمل الموصولة في Nominativ وAkkusativ",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr27-e001",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nominativ maskulin",
+      "title_ar": "Nominativ للمذكر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Kollege, der die Besprechung leitet, arbeitet seit zehn Jahren hier.",
+      "explanation_de": "Der Kollege ist Subjekt im Relativsatz; deshalb steht der.",
+      "explanation_ar": "الزميل فاعل داخل الجملة الموصولة، لذلك نستخدم der.",
+      "grammarFocus": "relative_nom_masc",
+      "options": [
+        "Der Kollege, der die Besprechung leitet, arbeitet seit zehn Jahren hier.",
+        "Der Kollege, den die Besprechung leitet, arbeitet seit zehn Jahren hier.",
+        "Der Kollege, die die Besprechung leitet, arbeitet hier.",
+        "Der Kollege, der leitet die Besprechung, arbeitet hier."
+      ]
+    },
+    {
+      "id": "gr27-e002",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Akkusativ maskulin",
+      "title_ar": "Akkusativ للمذكر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Kollege, den ich gestern kennengelernt habe, arbeitet in der IT-Abteilung.",
+      "explanation_de": "Der Kollege ist Objekt von kennenlernen; deshalb steht den.",
+      "explanation_ar": "الزميل مفعول للفعل kennenlernen، لذلك نستخدم den.",
+      "grammarFocus": "relative_acc_masc",
+      "options": [
+        "Der Kollege, den ich gestern kennengelernt habe, arbeitet in der IT-Abteilung.",
+        "Der Kollege, der ich gestern kennengelernt habe, arbeitet in der IT-Abteilung.",
+        "Der Kollege, den habe ich gestern kennengelernt, arbeitet dort.",
+        "Der Kollege, die ich gestern kennengelernt habe, arbeitet dort."
+      ]
+    },
+    {
+      "id": "gr27-e003",
+      "topicId": "gr-27",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Feminin",
+      "title_ar": "المؤنث",
+      "prompt_de": "Die Bewerberin, ______ heute kommt, hat viel Erfahrung.",
+      "prompt_ar": "المتقدمة التي ستأتي اليوم لديها خبرة كبيرة.",
+      "answer": "die",
+      "explanation_de": "Die Bewerberin ist Subjekt; die ist die passende feminine Form.",
+      "explanation_ar": "المتقدمة فاعل، وصيغة المؤنث المناسبة هي die.",
+      "grammarFocus": "relative_fem_nom",
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "gr27-e004",
+      "topicId": "gr-27",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Relativpronomen",
+      "title_ar": "ضمائر الوصل",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "maskulin Nominativ": "der",
+        "maskulin Akkusativ": "den",
+        "feminin Nominativ/Akkusativ": "die",
+        "neutrum Nominativ/Akkusativ": "das",
+        "Plural Nominativ/Akkusativ": "die"
+      },
+      "explanation_de": "Die Formen richten sich nach Genus, Numerus und Kasus.",
+      "explanation_ar": "تعتمد الصيغ على الجنس والعدد والحالة.",
+      "grammarFocus": "relative_pronoun_matching",
+      "pairs": [
+        [
+          "maskulin Nominativ",
+          "der"
+        ],
+        [
+          "maskulin Akkusativ",
+          "den"
+        ],
+        [
+          "feminin Nominativ/Akkusativ",
+          "die"
+        ],
+        [
+          "neutrum Nominativ/Akkusativ",
+          "das"
+        ],
+        [
+          "Plural Nominativ/Akkusativ",
+          "die"
+        ]
+      ]
+    },
+    {
+      "id": "gr27-e005",
+      "topicId": "gr-27",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Verb am Ende",
+      "title_ar": "الفعل في النهاية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Formular, das auf dem Schreibtisch liegt, ist vertraulich.",
+      "explanation_de": "Im Relativsatz steht liegt am Ende.",
+      "explanation_ar": "في الجملة الموصولة تأتي liegt في النهاية.",
+      "grammarFocus": "relative_word_order",
+      "tokens": [
+        "ist vertraulich",
+        "das",
+        "liegt",
+        "auf dem Schreibtisch",
+        "Das Formular"
+      ],
+      "acceptedAnswers": [
+        "Das Formular, das auf dem Schreibtisch liegt, ist vertraulich."
+      ]
+    },
+    {
+      "id": "gr27-e006",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Plural",
+      "title_ar": "الجمع",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Mitarbeitenden, die heute fehlen, werden informiert.",
+      "explanation_de": "Im Plural lautet das Relativpronomen die.",
+      "explanation_ar": "في الجمع يكون ضمير الوصل die.",
+      "grammarFocus": "relative_plural_nom",
+      "options": [
+        "Die Mitarbeitenden, die heute fehlen, werden informiert.",
+        "Die Mitarbeitenden, den heute fehlen, werden informiert.",
+        "Die Mitarbeitenden, der heute fehlen, werden informiert.",
+        "Die Mitarbeitenden, die fehlen heute, werden informiert."
+      ]
+    },
+    {
+      "id": "gr27-e007",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Neutrum Akkusativ",
+      "title_ar": "Akkusativ للمحايد",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Dokument, das Sie unterschreiben müssen, liegt bereit.",
+      "explanation_de": "Das Dokument ist Akkusativobjekt; die neutrale Form bleibt das.",
+      "explanation_ar": "المستند مفعول Akkusativ، وصيغة المحايد تبقى das.",
+      "grammarFocus": "relative_neut_acc",
+      "options": [
+        "Das Dokument, das Sie unterschreiben müssen, liegt bereit.",
+        "Das Dokument, den Sie unterschreiben müssen, liegt bereit.",
+        "Das Dokument, das müssen Sie unterschreiben, liegt bereit.",
+        "Das Dokument, der Sie unterschreiben müssen, liegt bereit."
+      ]
+    },
+    {
+      "id": "gr27-e008",
+      "topicId": "gr-27",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Akkusativ feminin",
+      "title_ar": "Akkusativ للمؤنث",
+      "prompt_de": "Die Bewerberin, ______ wir eingeladen haben, kommt heute.",
+      "prompt_ar": "المتقدمة التي دعوناها ستأتي اليوم.",
+      "answer": "die",
+      "explanation_de": "Das Bezugswort ist feminin; im Akkusativ lautet die Form die.",
+      "explanation_ar": "الاسم المرجعي مؤنث، وصيغة Akkusativ هي die.",
+      "grammarFocus": "relative_fem_acc",
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "gr27-e009",
+      "topicId": "gr-27",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Zwei Sätze verbinden",
+      "title_ar": "دمج جملتين",
+      "prompt_de": "Verbinden Sie: Das ist der Bericht. Der Bericht enthält alle Ergebnisse.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Das ist der Bericht, der alle Ergebnisse enthält.",
+      "explanation_de": "Der Bericht ist Subjekt im Relativsatz; deshalb steht der.",
+      "explanation_ar": "التقرير فاعل داخل الجملة الموصولة، لذلك نستخدم der.",
+      "grammarFocus": "combine_nom",
+      "acceptedAnswers": [
+        "Das ist der Bericht, der alle Ergebnisse enthält."
+      ]
+    },
+    {
+      "id": "gr27-e010",
+      "topicId": "gr-27",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Akkusativ verbinden",
+      "title_ar": "دمج باستخدام Akkusativ",
+      "prompt_de": "Verbinden Sie: Das ist der Bericht. Ich habe den Bericht gestern geprüft.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Das ist der Bericht, den ich gestern geprüft habe.",
+      "explanation_de": "Der Bericht ist Objekt von prüfen; deshalb steht den.",
+      "explanation_ar": "التقرير مفعول للفعل prüfen، لذلك نستخدم den.",
+      "grammarFocus": "combine_acc",
+      "acceptedAnswers": [
+        "Das ist der Bericht, den ich gestern geprüft habe."
+      ]
+    },
+    {
+      "id": "gr27-e011",
+      "topicId": "gr-27",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Relativsatz im Mittelfeld",
+      "title_ar": "جملة موصولة وسط الجملة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Antrag, den wir gestern erhalten haben, wird heute bearbeitet.",
+      "explanation_de": "Der Hauptsatz wird nach dem Relativsatz fortgesetzt.",
+      "explanation_ar": "تستمر الجملة الرئيسية بعد الجملة الموصولة.",
+      "grammarFocus": "relative_middle",
+      "tokens": [
+        "wird heute bearbeitet",
+        "den",
+        "Der Antrag",
+        "gestern",
+        "wir",
+        "erhalten haben"
+      ],
+      "acceptedAnswers": [
+        "Der Antrag, den wir gestern erhalten haben, wird heute bearbeitet."
+      ]
+    },
+    {
+      "id": "gr27-e012",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Kasus bestimmen",
+      "title_ar": "تحديد الحالة",
+      "prompt_de": "Welcher Satz enthält ein Relativpronomen im Akkusativ?",
+      "prompt_ar": "أي جملة تحتوي ضمير وصل في Akkusativ؟",
+      "answer": "Der Ansprechpartner, den Sie gestern erreicht haben, ist heute nicht da.",
+      "explanation_de": "Den ist Objekt von erreichen.",
+      "explanation_ar": "den مفعول للفعل erreichen.",
+      "grammarFocus": "identify_accusative",
+      "options": [
+        "Der Ansprechpartner, den Sie gestern erreicht haben, ist heute nicht da.",
+        "Der Ansprechpartner, der heute arbeitet, ist zuständig.",
+        "Die Kollegin, die heute arbeitet, ist zuständig.",
+        "Das Formular, das auf dem Tisch liegt, ist neu."
+      ]
+    },
+    {
+      "id": "gr27-e013",
+      "topicId": "gr-27",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Funktion und Kasus",
+      "title_ar": "الوظيفة والحالة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Wer leitet die Sitzung?": "Nominativ",
+        "Wen habe ich angerufen?": "Akkusativ",
+        "Wer kommt heute?": "Nominativ",
+        "Was müssen Sie unterschreiben?": "Akkusativ"
+      },
+      "explanation_de": "Die Frage im Relativsatz zeigt die Funktion.",
+      "explanation_ar": "يوضح السؤال داخل الجملة الموصولة الوظيفة.",
+      "grammarFocus": "function_case_matching",
+      "pairs": [
+        [
+          "Wer leitet die Sitzung?",
+          "Nominativ"
+        ],
+        [
+          "Wen habe ich angerufen?",
+          "Akkusativ"
+        ],
+        [
+          "Wer kommt heute?",
+          "Nominativ"
+        ],
+        [
+          "Was müssen Sie unterschreiben?",
+          "Akkusativ"
+        ]
+      ]
+    },
+    {
+      "id": "gr27-e014",
+      "topicId": "gr-27",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Berufliche Beschreibung",
+      "title_ar": "وصف مهني",
+      "prompt_de": "Welche Formulierung ist korrekt und präzise?",
+      "prompt_ar": "أي صياغة صحيحة ودقيقة؟",
+      "answer": "Die Mitarbeiterin, die für die Terminplanung zuständig ist, wird Sie morgen kontaktieren.",
+      "explanation_de": "Die Mitarbeiterin ist Subjekt des Relativsatzes.",
+      "explanation_ar": "الموظفة فاعل داخل الجملة الموصولة.",
+      "grammarFocus": "professional_description",
+      "options": [
+        "Die Mitarbeiterin, die für die Terminplanung zuständig ist, wird Sie morgen kontaktieren.",
+        "Die Mitarbeiterin, den für die Terminplanung zuständig ist, wird Sie kontaktieren.",
+        "Die Mitarbeiterin, die ist für die Terminplanung zuständig, wird Sie kontaktieren.",
+        "Die Mitarbeiterin die für die Terminplanung zuständig ist wird Sie kontaktieren."
+      ]
+    },
+    {
+      "id": "gr27-e015",
+      "topicId": "gr-27",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Maskulin Akkusativ",
+      "title_ar": "Akkusativ للمذكر",
+      "prompt_de": "Der Bewerber, ______ wir ausgewählt haben, beginnt nächste Woche.",
+      "prompt_ar": "المتقدم الذي اخترناه سيبدأ الأسبوع المقبل.",
+      "answer": "den",
+      "explanation_de": "Der Bewerber ist direktes Objekt von auswählen.",
+      "explanation_ar": "المتقدم مفعول مباشر للفعل auswählen.",
+      "grammarFocus": "relative_masc_acc_fill",
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "gr27-e016",
+      "topicId": "gr-27",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Modalverb im Relativsatz",
+      "title_ar": "فعل ناقص في الجملة الموصولة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Formular, das Sie noch ausfüllen müssen, liegt auf dem Schreibtisch.",
+      "explanation_de": "Im Relativsatz steht müssen am Ende.",
+      "explanation_ar": "في الجملة الموصولة تأتي müssen في النهاية.",
+      "grammarFocus": "relative_modal_order",
+      "tokens": [
+        "noch",
+        "liegt auf dem Schreibtisch",
+        "das",
+        "Das Formular",
+        "ausfüllen",
+        "Sie",
+        "müssen"
+      ],
+      "acceptedAnswers": [
+        "Das Formular, das Sie noch ausfüllen müssen, liegt auf dem Schreibtisch."
+      ]
+    },
+    {
+      "id": "gr27-e017",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Passiv im Relativsatz",
+      "title_ar": "المجهول في الجملة الموصولة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Verfahren, das derzeit geprüft wird, soll im kommenden Monat eingeführt werden.",
+      "explanation_de": "Das ist Subjekt des passiven Relativsatzes; wird steht am Ende.",
+      "explanation_ar": "das فاعل نحوي في الجملة الموصولة المجهولة، وتأتي wird في النهاية.",
+      "grammarFocus": "relative_passive",
+      "options": [
+        "Das Verfahren, das derzeit geprüft wird, soll im kommenden Monat eingeführt werden.",
+        "Das Verfahren, den derzeit geprüft wird, soll eingeführt werden.",
+        "Das Verfahren, das wird derzeit geprüft, soll eingeführt werden.",
+        "Das Verfahren das derzeit geprüft wird soll eingeführt werden."
+      ]
+    },
+    {
+      "id": "gr27-e018",
+      "topicId": "gr-27",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zwei Objekte unterscheiden",
+      "title_ar": "تمييز الفاعل والمفعول",
+      "prompt_de": "Verbinden Sie: Die Änderungen werden besprochen. Der Betriebsrat hat die Änderungen vorgeschlagen.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Die Änderungen, die der Betriebsrat vorgeschlagen hat, werden besprochen.",
+      "explanation_de": "Die Änderungen sind Objekt; der Betriebsrat ist Subjekt.",
+      "explanation_ar": "التعديلات مفعول، ومجلس العمال هو الفاعل.",
+      "grammarFocus": "complex_object_subject",
+      "acceptedAnswers": [
+        "Die Änderungen, die der Betriebsrat vorgeschlagen hat, werden besprochen."
+      ]
+    },
+    {
+      "id": "gr27-e019",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Formgleichheit erkennen",
+      "title_ar": "تمييز تشابه الصيغ",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "In „Die Bewerberin, die wir eingeladen haben“ ist die Akkusativ, obwohl die Form wie im Nominativ aussieht.",
+      "explanation_de": "Bei femininen Relativpronomen sind Nominativ und Akkusativ formgleich.",
+      "explanation_ar": "في المؤنث تتشابه صيغة Nominativ وAkkusativ.",
+      "grammarFocus": "form_same_case",
+      "options": [
+        "In „Die Bewerberin, die wir eingeladen haben“ ist die Akkusativ, obwohl die Form wie im Nominativ aussieht.",
+        "Die ist immer Nominativ.",
+        "Die ist hier Dativ.",
+        "Der Kasus richtet sich ausschließlich nach dem Hauptsatz."
+      ]
+    },
+    {
+      "id": "gr27-e020",
+      "topicId": "gr-27",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formeller Bericht",
+      "title_ar": "تقرير رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Der Bericht, der alle relevanten Kennzahlen enthält, wurde an die Geschäftsleitung weitergeleitet.",
+      "explanation_de": "Der Relativsatz beschreibt den Bericht präzise und sachlich.",
+      "explanation_ar": "تصف الجملة الموصولة التقرير بدقة وموضوعية.",
+      "grammarFocus": "formal_report_relative",
+      "options": [
+        "Der Bericht, der alle relevanten Kennzahlen enthält, wurde an die Geschäftsleitung weitergeleitet.",
+        "Der Bericht, den alle relevanten Kennzahlen enthält, wurde weitergeleitet.",
+        "Der Bericht der alle Kennzahlen enthält wurde weitergeleitet.",
+        "Der Bericht, der enthält alle Kennzahlen, wurde weitergeleitet."
+      ]
+    },
+    {
+      "id": "gr27-e021",
+      "topicId": "gr-27",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Relativsatz",
+      "title_ar": "جملة موصولة معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unterlagen, die wir für die abschließende Prüfung benötigen, sind noch nicht vollständig.",
+      "explanation_de": "Die ist Akkusativobjekt von benötigen; das Verb steht am Ende.",
+      "explanation_ar": "die مفعول للفعل benötigen، ويأتي الفعل في النهاية.",
+      "grammarFocus": "complex_relative_order",
+      "tokens": [
+        "noch nicht vollständig",
+        "die",
+        "für die abschließende Prüfung",
+        "Die Unterlagen",
+        "benötigen",
+        "wir",
+        "sind"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen, die wir für die abschließende Prüfung benötigen, sind noch nicht vollständig."
+      ]
+    },
+    {
+      "id": "gr27-e022",
+      "topicId": "gr-27",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Mehrere Relativsätze",
+      "title_ar": "عدة جمل موصولة",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Die Kollegin, die das Projekt leitet, hat den Bericht vorbereitet, den wir morgen besprechen.",
+      "explanation_de": "Der erste Relativsatz hat Nominativ, der zweite Akkusativ.",
+      "explanation_ar": "الجملة الموصولة الأولى في Nominativ والثانية في Akkusativ.",
+      "grammarFocus": "two_relatives",
+      "options": [
+        "Die Kollegin, die das Projekt leitet, hat den Bericht vorbereitet, den wir morgen besprechen.",
+        "Die Kollegin, den das Projekt leitet, hat den Bericht vorbereitet, der wir morgen besprechen.",
+        "Die Kollegin die das Projekt leitet hat den Bericht vorbereitet den wir morgen besprechen.",
+        "Die Kollegin, die leitet das Projekt, hat den Bericht, den besprechen wir morgen, vorbereitet."
+      ]
+    },
+    {
+      "id": "gr27-e023",
+      "topicId": "gr-27",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Dreifache Umformung",
+      "title_ar": "إعادة صياغة ثلاثية",
+      "prompt_de": "Verbinden Sie drei Paare: der Kollege / leitet die Sitzung; der Kollege / ich kenne ihn; das Dokument / Sie müssen es unterschreiben.",
+      "prompt_ar": "ادمج كل زوج في جملة موصولة.",
+      "answer": "Der Kollege, der die Sitzung leitet, ist erfahren. Der Kollege, den ich kenne, ist erfahren. Das Dokument, das Sie unterschreiben müssen, liegt bereit.",
+      "explanation_de": "Die Beispiele zeigen maskulinen Nominativ, maskulinen Akkusativ und neutralen Akkusativ.",
+      "explanation_ar": "توضح الأمثلة Nominativ للمذكر وAkkusativ للمذكر وAkkusativ للمحايد.",
+      "grammarFocus": "mixed_case_reformulation",
+      "acceptedAnswers": [
+        "Der Kollege, der die Sitzung leitet, ist erfahren. Der Kollege, den ich kenne, ist erfahren. Das Dokument, das Sie unterschreiben müssen, liegt bereit."
+      ]
+    },
+    {
+      "id": "gr27-e024",
+      "topicId": "gr-27",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Relativsätze",
+      "title_ar": "تدريب ختامي على الجمل الموصولة",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens vier Relativsätze im Nominativ und vier im Akkusativ. Verwenden Sie maskuline, feminine, neutrale und plurale Bezugswörter, mindestens einen Relativsatz mit Modalverb, einen mit Passiv und zwei Relativsätze im Mittelfeld.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم أربع جمل موصولة على الأقل في Nominativ وأربعًا في Akkusativ. استخدم أسماء مرجعية مذكرة ومؤنثة ومحايدة وجمعًا، وجملة موصولة مع فعل ناقص، وأخرى مع المبني للمجهول، وجملتين موصولتين في وسط الجملة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Relativsätze im Nominativ",
+          "mindestens vier Relativsätze im Akkusativ",
+          "mindestens ein maskulines Bezugswort",
+          "mindestens ein feminines Bezugswort",
+          "mindestens ein neutrales Bezugswort",
+          "mindestens ein Bezugswort im Plural",
+          "mindestens ein Relativsatz mit Modalverb",
+          "mindestens ein Relativsatz im Passiv",
+          "mindestens zwei Relativsätze im Mittelfeld",
+          "korrekte Kommas und Verbendstellung"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bezugswort, Genus, Numerus, Kasus, Kommas und Verbposition.",
+      "explanation_ar": "راجع الاسم المرجعي والجنس والعدد والحالة والفواصل وموقع الفعل.",
+      "grammarFocus": "mixed_relative_nom_acc",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

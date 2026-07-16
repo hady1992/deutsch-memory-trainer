@@ -1,0 +1,3480 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 13,
+    "unitTitle_de": "Konflikte lösen",
+    "unitTitle_ar": "حل النزاعات",
+    "sourcePages": [
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Konflikte im Arbeitsalltag erkennen und lösen",
+      "konstruktive Kritik, Rücksichtnahme und Kompromisse",
+      "berufliche Telefongespräche und Bestätigungsmails",
+      "irreale Konditionalsätze in der Vergangenheit",
+      "Relativsätze im Genitiv",
+      "veränderte Rollen in Beruf, Partnerschaft und Familie",
+      "Gleichberechtigung, Netzwerke und Vereinbarkeit"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne B2-Lernwert",
+      "Personen- und Firmennamen",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–12"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u02-v050",
+      "term": "der Kompromiss",
+      "sourceUnit": 2,
+      "pages": [
+        229,
+        231,
+        237,
+        238,
+        240,
+        242
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u03-v055",
+      "term": "sich einigen",
+      "sourceUnit": 3,
+      "pages": [
+        231,
+        237,
+        242
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u03-v043",
+      "term": "Kritik üben",
+      "sourceUnit": 3,
+      "pages": [
+        229,
+        231,
+        242
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u08-v044",
+      "term": "einen Konflikt austragen",
+      "sourceUnit": 8,
+      "pages": [
+        231,
+        238
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u12-v015",
+      "term": "die Missverständnisklärung",
+      "sourceUnit": 12,
+      "pages": [
+        229,
+        231,
+        242
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u12-v018",
+      "term": "sich für ein Missverständnis entschuldigen",
+      "sourceUnit": 12,
+      "pages": [
+        230,
+        231,
+        242
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u04-v093",
+      "term": "die Telefonnotiz",
+      "sourceUnit": 4,
+      "pages": [
+        232,
+        239
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u02-v044",
+      "term": "die Teilzeitbeschäftigung",
+      "sourceUnit": 2,
+      "pages": [
+        234,
+        236,
+        240
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u06-v070",
+      "term": "die Weiterbildung",
+      "sourceUnit": 6,
+      "pages": [
+        236,
+        240
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u05-v065",
+      "term": "der Frauenanteil",
+      "sourceUnit": 5,
+      "pages": [
+        234,
+        240
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u09-v081",
+      "term": "die Gleichstellung",
+      "sourceUnit": 9,
+      "pages": [
+        234,
+        235,
+        240,
+        241
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u09-v027",
+      "term": "interkulturell",
+      "sourceUnit": 9,
+      "pages": [
+        230,
+        231,
+        238
+      ],
+      "reason": "Bereits in einem früheren Kapitel vorhanden; für Kapitel 13 wiederverwendet."
+    },
+    {
+      "courseItemId": "b2u07-v016",
+      "term": "die Vereinbarkeit von Beruf und Privatleben",
+      "sourceUnit": 7,
+      "pages": [
+        229,
+        230,
+        234,
+        236,
+        237,
+        240,
+        241
+      ],
+      "reason": "Semantisch identisch mit „Vereinbarkeit von Beruf und Familie“; vorhandenes Course-Item wird wiederverwendet."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u13-v001",
+      "identity": "die konfliktsituation",
+      "term": "die Konfliktsituation",
+      "type": "noun",
+      "arabic": "موقف نزاع",
+      "explanation_de": "Eine Situation, in der Interessen, Erwartungen oder Bedürfnisse verschiedener Personen aufeinanderprallen.",
+      "explanation_ar": "موقف تتعارض فيه مصالح أو توقعات أو احتياجات أشخاص مختلفين.",
+      "examples": [
+        {
+          "de": "Die Konfliktsituation entstand durch einen unklaren Schichtplan.",
+          "ar": "نشأ موقف النزاع بسبب جدول مناوبات غير واضح."
+        },
+        {
+          "de": "Sie analysierten die Konfliktsituation, bevor sie eine Lösung suchten.",
+          "ar": "حللوا الموقف قبل البحث عن حل."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          231,
+          236,
+          237,
+          238
+        ],
+        "section": "Konflikte im Arbeitsalltag"
+      },
+      "tags": [
+        "konflikt",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Konfliktsituationen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v002",
+      "identity": "der arbeitskonflikt",
+      "term": "der Arbeitskonflikt",
+      "type": "noun",
+      "arabic": "نزاع في مكان العمل",
+      "explanation_de": "Ein Konflikt zwischen Beschäftigten oder zwischen Beschäftigten und Vorgesetzten.",
+      "explanation_ar": "نزاع بين موظفين أو بين الموظفين والمسؤولين.",
+      "examples": [
+        {
+          "de": "Der Arbeitskonflikt wurde in einem moderierten Gespräch geklärt.",
+          "ar": "حُل نزاع العمل في حوار مُدار."
+        },
+        {
+          "de": "Unfaire Aufgabenverteilung kann Arbeitskonflikte auslösen.",
+          "ar": "قد يسبب توزيع المهام غير العادل نزاعات عمل."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          236,
+          238,
+          242
+        ],
+        "section": "Probleme im Arbeitsalltag"
+      },
+      "tags": [
+        "konflikt",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitskonflikte"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v003",
+      "identity": "die konfliktlösung",
+      "term": "die Konfliktlösung",
+      "type": "noun",
+      "arabic": "حل النزاع",
+      "explanation_de": "Der Prozess, einen Konflikt sachlich zu bearbeiten und eine tragfähige Vereinbarung zu erreichen.",
+      "explanation_ar": "عملية معالجة النزاع بموضوعية والوصول إلى اتفاق قابل للتطبيق.",
+      "examples": [
+        {
+          "de": "Eine nachhaltige Konfliktlösung berücksichtigt beide Seiten.",
+          "ar": "يراعي حل النزاع المستدام الطرفين."
+        },
+        {
+          "de": "Für die Konfliktlösung wurde eine neutrale Person hinzugezogen.",
+          "ar": "تم إشراك شخص محايد لحل النزاع."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          237,
+          238,
+          242
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "lösung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Konfliktlösungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v004",
+      "identity": "der meinungsunterschied",
+      "term": "der Meinungsunterschied",
+      "type": "noun",
+      "arabic": "اختلاف في الرأي",
+      "explanation_de": "Eine sachliche Differenz zwischen Ansichten oder Bewertungen.",
+      "explanation_ar": "اختلاف موضوعي بين الآراء أو التقييمات.",
+      "examples": [
+        {
+          "de": "Ein Meinungsunterschied muss nicht zu einem persönlichen Streit werden.",
+          "ar": "لا يجب أن يتحول اختلاف الرأي إلى شجار شخصي."
+        },
+        {
+          "de": "Das Team sprach offen über seine Meinungsunterschiede.",
+          "ar": "تحدث الفريق بصراحة عن اختلافاته."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Meinungsunterschiede"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v005",
+      "identity": "der streitpunkt",
+      "term": "der Streitpunkt",
+      "type": "noun",
+      "arabic": "نقطة الخلاف",
+      "explanation_de": "Der konkrete Aspekt, über den Personen unterschiedlicher Meinung sind.",
+      "explanation_ar": "النقطة المحددة التي يختلف حولها الأشخاص.",
+      "examples": [
+        {
+          "de": "Der wichtigste Streitpunkt war die Verteilung der Wochenendschichten.",
+          "ar": "كانت نقطة الخلاف الأساسية توزيع مناوبات نهاية الأسبوع."
+        },
+        {
+          "de": "Zuerst sollten alle Streitpunkte gesammelt werden.",
+          "ar": "ينبغي أولًا جمع جميع نقاط الخلاف."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          231,
+          237
+        ],
+        "section": "Konflikte im Arbeitsalltag"
+      },
+      "tags": [
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Streitpunkte"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v006",
+      "identity": "die auseinandersetzung",
+      "term": "die Auseinandersetzung",
+      "type": "noun",
+      "arabic": "خلاف أو مواجهة",
+      "explanation_de": "Ein intensiver Austausch gegensätzlicher Positionen, der sachlich oder emotional verlaufen kann.",
+      "explanation_ar": "نقاش أو مواجهة مكثفة بين مواقف متعارضة وقد تكون موضوعية أو عاطفية.",
+      "examples": [
+        {
+          "de": "Nach der Auseinandersetzung vereinbarten beide klare Regeln.",
+          "ar": "اتفق الطرفان بعد الخلاف على قواعد واضحة."
+        },
+        {
+          "de": "Die Auseinandersetzung sollte nicht vor Kunden stattfinden.",
+          "ar": "لا ينبغي أن تحدث المواجهة أمام العملاء."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          231,
+          238
+        ],
+        "section": "Konflikte im Arbeitsalltag"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Auseinandersetzungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v007",
+      "identity": "das konfliktpotenzial",
+      "term": "das Konfliktpotenzial",
+      "type": "noun",
+      "arabic": "احتمال نشوء النزاع",
+      "explanation_de": "Die Möglichkeit, dass eine Situation aufgrund unterschiedlicher Interessen zu einem Konflikt führt.",
+      "explanation_ar": "إمكانية تحول موقف بسبب المصالح المختلفة إلى نزاع.",
+      "examples": [
+        {
+          "de": "Unklare Zuständigkeiten bergen erhebliches Konfliktpotenzial.",
+          "ar": "تنطوي المسؤوليات غير الواضحة على احتمال نزاع كبير."
+        },
+        {
+          "de": "Das Konfliktpotenzial steigt bei dauerhaftem Zeitdruck.",
+          "ar": "يزداد احتمال النزاع مع ضغط الوقت المستمر."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          236,
+          238
+        ],
+        "section": "Probleme im Arbeitsalltag"
+      },
+      "tags": [
+        "konflikt",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v008",
+      "identity": "die eskalation",
+      "term": "die Eskalation",
+      "type": "noun",
+      "arabic": "تصعيد النزاع",
+      "explanation_de": "Eine Verschärfung eines Konflikts, bei der Ton, Druck oder Folgen stärker werden.",
+      "explanation_ar": "تفاقم النزاع وازدياد حدته أو ضغطه أو عواقبه.",
+      "examples": [
+        {
+          "de": "Eine frühzeitige Aussprache kann die Eskalation verhindern.",
+          "ar": "قد يمنع الحوار المبكر التصعيد."
+        },
+        {
+          "de": "Nach der Eskalation war ein moderiertes Gespräch notwendig.",
+          "ar": "أصبح الحوار المُدار ضروريًا بعد التصعيد."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Eskalationen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v009",
+      "identity": "die deeskalation",
+      "term": "die Deeskalation",
+      "type": "noun",
+      "arabic": "خفض التصعيد",
+      "explanation_de": "Maßnahmen, die Spannung und Aggression in einem Konflikt bewusst verringern.",
+      "explanation_ar": "إجراءات تهدف إلى تقليل التوتر والعدوان في النزاع.",
+      "examples": [
+        {
+          "de": "Ruhiges Nachfragen dient der Deeskalation.",
+          "ar": "يساعد السؤال الهادئ في خفض التصعيد."
+        },
+        {
+          "de": "Die Führungskraft wurde in Deeskalation geschult.",
+          "ar": "تلقى المسؤول تدريبًا على خفض التصعيد."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v010",
+      "identity": "die gesprächsbereitschaft",
+      "term": "die Gesprächsbereitschaft",
+      "type": "noun",
+      "arabic": "الاستعداد للحوار",
+      "explanation_de": "Die Bereitschaft, offen zuzuhören, zu antworten und gemeinsam nach Lösungen zu suchen.",
+      "explanation_ar": "الاستعداد للاستماع والرد والبحث المشترك عن الحلول.",
+      "examples": [
+        {
+          "de": "Ohne Gesprächsbereitschaft lässt sich der Konflikt kaum lösen.",
+          "ar": "يصعب حل النزاع دون استعداد للحوار."
+        },
+        {
+          "de": "Beide Seiten signalisierten Gesprächsbereitschaft.",
+          "ar": "أبدى الطرفان استعدادًا للحوار."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          230,
+          231,
+          237,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v011",
+      "identity": "die kompromissbereitschaft",
+      "term": "die Kompromissbereitschaft",
+      "type": "noun",
+      "arabic": "الاستعداد للتسوية",
+      "explanation_de": "Die Bereitschaft, eigene Forderungen teilweise zurückzunehmen, um eine gemeinsame Lösung zu ermöglichen.",
+      "explanation_ar": "الاستعداد للتنازل جزئيًا عن المطالب للوصول إلى حل مشترك.",
+      "examples": [
+        {
+          "de": "Kompromissbereitschaft ist bei der Urlaubsplanung besonders wichtig.",
+          "ar": "الاستعداد للتسوية مهم في تخطيط الإجازات."
+        },
+        {
+          "de": "Das Team zeigte wenig Kompromissbereitschaft.",
+          "ar": "أظهر الفريق استعدادًا ضعيفًا للتسوية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          234,
+          237,
+          238,
+          240
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v012",
+      "identity": "die kritikfähigkeit",
+      "term": "die Kritikfähigkeit",
+      "type": "noun",
+      "arabic": "القدرة على تقبل النقد والتعامل معه",
+      "explanation_de": "Die Fähigkeit, Kritik sachlich anzunehmen, zu prüfen und konstruktiv darauf zu reagieren.",
+      "explanation_ar": "القدرة على تقبل النقد وفحصه والرد عليه بصورة بناءة.",
+      "examples": [
+        {
+          "de": "Kritikfähigkeit gehört zu einer professionellen Zusammenarbeit.",
+          "ar": "القدرة على تقبل النقد جزء من التعاون المهني."
+        },
+        {
+          "de": "Sie reagierte kritikfähig und fragte nach konkreten Beispielen.",
+          "ar": "تعاملت مع النقد مهنيًا وطلبت أمثلة محددة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          238,
+          242
+        ],
+        "section": "Konstruktive Kritik"
+      },
+      "tags": [
+        "kommunikation",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v013",
+      "identity": "der vorwurf",
+      "term": "der Vorwurf",
+      "type": "noun",
+      "arabic": "اتهام أو لوم",
+      "explanation_de": "Eine Aussage, mit der jemand für ein problematisches Verhalten verantwortlich gemacht wird.",
+      "explanation_ar": "قول يحمّل شخصًا مسؤولية تصرف مشكلة.",
+      "examples": [
+        {
+          "de": "Der Vorwurf war sehr allgemein und deshalb schwer zu beantworten.",
+          "ar": "كان الاتهام عامًا جدًا ولذلك صعب الرد عليه."
+        },
+        {
+          "de": "Statt eines Vorwurfs formulierte sie eine konkrete Beobachtung.",
+          "ar": "بدل اللوم صاغت ملاحظة محددة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          231
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Vorwürfe"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v014",
+      "identity": "die rechtfertigung",
+      "term": "die Rechtfertigung",
+      "type": "noun",
+      "arabic": "تبرير الدفاع عن النفس",
+      "explanation_de": "Eine Erklärung, mit der eine Person ihr Verhalten verteidigt oder begründet.",
+      "explanation_ar": "تفسير يدافع فيه الشخص عن تصرفه أو يبرره.",
+      "examples": [
+        {
+          "de": "Seine sofortige Rechtfertigung verhinderte zunächst ein ruhiges Gespräch.",
+          "ar": "منع تبريره الفوري حوارًا هادئًا في البداية."
+        },
+        {
+          "de": "Die Kollegin gab eine sachliche Rechtfertigung für ihre Entscheidung.",
+          "ar": "قدمت الزميلة تبريرًا موضوعيًا لقرارها."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          230,
+          231
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Rechtfertigungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v015",
+      "identity": "die rücksichtnahme",
+      "term": "die Rücksichtnahme",
+      "type": "noun",
+      "arabic": "مراعاة الآخرين",
+      "explanation_de": "Ein Verhalten, bei dem Bedürfnisse und Grenzen anderer Personen bewusst berücksichtigt werden.",
+      "explanation_ar": "سلوك يراعي احتياجات وحدود الآخرين.",
+      "examples": [
+        {
+          "de": "Gegenseitige Rücksichtnahme verbessert das Arbeitsklima.",
+          "ar": "تحسن مراعاة الآخرين المتبادلة جو العمل."
+        },
+        {
+          "de": "Bei der Schichtplanung ist Rücksichtnahme auf Familienpflichten nötig.",
+          "ar": "تلزم مراعاة الالتزامات العائلية في تخطيط المناوبات."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          234,
+          238,
+          241
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "respekt",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v016",
+      "identity": "das einfühlungsvermögen",
+      "term": "das Einfühlungsvermögen",
+      "type": "noun",
+      "arabic": "التعاطف وفهم مشاعر الآخرين",
+      "explanation_de": "Die Fähigkeit, Gefühle und Perspektiven anderer Menschen zu verstehen.",
+      "explanation_ar": "القدرة على فهم مشاعر الآخرين ووجهات نظرهم.",
+      "examples": [
+        {
+          "de": "Einfühlungsvermögen hilft bei schwierigen Mitarbeitergesprächen.",
+          "ar": "يساعد التعاطف في حوارات الموظفين الصعبة."
+        },
+        {
+          "de": "Die Pflegekraft zeigte großes Einfühlungsvermögen.",
+          "ar": "أظهرت الممرضة تعاطفًا كبيرًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "kommunikation",
+        "kompetenz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v017",
+      "identity": "die perspektivübernahme",
+      "term": "die Perspektivübernahme",
+      "type": "noun",
+      "arabic": "تبني منظور الطرف الآخر",
+      "explanation_de": "Der bewusste Versuch, eine Situation aus der Sicht einer anderen Person zu betrachten.",
+      "explanation_ar": "محاولة واعية للنظر إلى الموقف من وجهة نظر شخص آخر.",
+      "examples": [
+        {
+          "de": "Perspektivübernahme kann festgefahrene Konflikte lösen.",
+          "ar": "قد يساعد تبني منظور الآخر في حل النزاعات المتجمّدة."
+        },
+        {
+          "de": "Im Training übten sie die Perspektivübernahme.",
+          "ar": "تدربوا على تبني منظور الطرف الآخر."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v018",
+      "identity": "die fehlerkultur",
+      "term": "die Fehlerkultur",
+      "type": "noun",
+      "arabic": "ثقافة التعامل مع الأخطاء",
+      "explanation_de": "Die Art, wie eine Organisation mit Fehlern umgeht, daraus lernt und Verantwortung verteilt.",
+      "explanation_ar": "طريقة تعامل المؤسسة مع الأخطاء والتعلم منها وتوزيع المسؤولية.",
+      "examples": [
+        {
+          "de": "Eine gute Fehlerkultur verhindert, dass Schuld nur weitergegeben wird.",
+          "ar": "تمنع ثقافة الأخطاء الجيدة تبادل الاتهامات فقط."
+        },
+        {
+          "de": "Die Führungskraft fördert eine offene Fehlerkultur.",
+          "ar": "يعزز المسؤول ثقافة أخطاء منفتحة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Hilfe bei Konflikten"
+      },
+      "tags": [
+        "arbeit",
+        "unternehmen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Fehlerkulturen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v019",
+      "identity": "das arbeitsklima",
+      "term": "das Arbeitsklima",
+      "type": "noun",
+      "arabic": "مناخ العمل",
+      "explanation_de": "Die allgemeine Atmosphäre und Qualität der Beziehungen am Arbeitsplatz.",
+      "explanation_ar": "الأجواء العامة وجودة العلاقات في مكان العمل.",
+      "examples": [
+        {
+          "de": "Respekt und Verlässlichkeit verbessern das Arbeitsklima.",
+          "ar": "يحسن الاحترام والموثوقية مناخ العمل."
+        },
+        {
+          "de": "Dauernde Konflikte belasten das Arbeitsklima.",
+          "ar": "تثقل النزاعات المستمرة مناخ العمل."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          234,
+          238
+        ],
+        "section": "Probleme im Arbeitsalltag"
+      },
+      "tags": [
+        "arbeit",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Arbeitsklimata"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v020",
+      "identity": "der lösungsansatz",
+      "term": "der Lösungsansatz",
+      "type": "noun",
+      "arabic": "نهج للحل",
+      "explanation_de": "Eine erste konkrete Idee oder Methode, mit der ein Problem bearbeitet werden kann.",
+      "explanation_ar": "فكرة أو طريقة أولية ملموسة لمعالجة مشكلة.",
+      "examples": [
+        {
+          "de": "Der Lösungsansatz berücksichtigt die Interessen beider Seiten.",
+          "ar": "يراعي نهج الحل مصالح الطرفين."
+        },
+        {
+          "de": "Mehrere Lösungsansätze wurden im Team verglichen.",
+          "ar": "قارن الفريق عدة أساليب للحل."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          237,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "lösung",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Lösungsansätze"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v021",
+      "identity": "vorwürfe machen",
+      "term": "Vorwürfe machen",
+      "type": "phrase",
+      "arabic": "يوجّه اللوم والاتهامات",
+      "explanation_de": "Eine andere Person direkt für ein Problem verantwortlich machen, häufig in konfrontativer Form.",
+      "explanation_ar": "تحميل شخص آخر مسؤولية المشكلة بصيغة مواجهة غالبًا.",
+      "examples": [
+        {
+          "de": "Vorwürfe machen die gemeinsame Lösung oft schwieriger.",
+          "ar": "يجعل اللوم الحل المشترك أصعب غالبًا."
+        },
+        {
+          "de": "Statt Vorwürfe zu machen, beschrieb sie die konkrete Situation.",
+          "ar": "بدل توجيه اللوم شرحت الموقف المحدد."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          231
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v022",
+      "identity": "sich rechtfertigen",
+      "term": "sich rechtfertigen",
+      "type": "verb",
+      "arabic": "يبرّر تصرفه دفاعًا عن نفسه",
+      "explanation_de": "Das eigene Verhalten erklären oder verteidigen, weil es kritisiert wurde.",
+      "explanation_ar": "شرح السلوك أو الدفاع عنه لأنه تعرض للنقد.",
+      "examples": [
+        {
+          "de": "Er rechtfertigte sich mit dem hohen Zeitdruck.",
+          "ar": "برر تصرفه بضغط الوقت الكبير."
+        },
+        {
+          "de": "Sie hat sich nicht sofort gerechtfertigt, sondern zuerst zugehört.",
+          "ar": "لم تبرر فورًا بل استمعت أولًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          230,
+          231
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+  "grammar": {
+    "praeteritum": "rechtfertigte sich",
+    "partizipII": "hat sich gerechtfertigt",
+    "perfekt": "hat sich gerechtfertigt",
+    "auxiliary": "haben",
+    "reflexive": true
+  }
+    },
+    {
+      "courseItemId": "b2u13-v023",
+      "identity": "aufmerksam zuhören",
+      "term": "aufmerksam zuhören",
+      "type": "phrase",
+      "arabic": "يصغي بانتباه",
+      "explanation_de": "Dem Gesprächspartner konzentriert folgen und wichtige Aussagen wahrnehmen.",
+      "explanation_ar": "متابعة كلام الطرف الآخر بتركيز وفهم النقاط المهمة.",
+      "examples": [
+        {
+          "de": "Hören Sie aufmerksam zu, bevor Sie reagieren.",
+          "ar": "استمع بانتباه قبل الرد."
+        },
+        {
+          "de": "Die Teamleitung hörte beiden Seiten aufmerksam zu.",
+          "ar": "استمعت قيادة الفريق للطرفين بانتباه."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v024",
+      "identity": "sich gegenseitig ausreden lassen",
+      "term": "sich gegenseitig ausreden lassen",
+      "type": "phrase",
+      "arabic": "يترك كل طرف الآخر يكمل كلامه",
+      "explanation_de": "Nicht unterbrechen und beiden Seiten ausreichend Raum zum Sprechen geben.",
+      "explanation_ar": "عدم المقاطعة ومنح الطرفين وقتًا كافيًا للكلام.",
+      "examples": [
+        {
+          "de": "Im Konfliktgespräch sollten sich beide gegenseitig ausreden lassen.",
+          "ar": "ينبغي أن يترك الطرفان بعضهما يكمل الكلام."
+        },
+        {
+          "de": "Sie ließen sich ausreden und notierten die wichtigsten Punkte.",
+          "ar": "تركا بعضهما يتحدث حتى النهاية ودوّنا النقاط."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          237,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "kommunikation",
+        "einander"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v025",
+      "identity": "verständnis zeigen",
+      "term": "Verständnis zeigen",
+      "type": "phrase",
+      "arabic": "يُظهر تفهمًا",
+      "explanation_de": "Signalisieren, dass man die Gefühle oder Gründe einer anderen Person nachvollziehen kann.",
+      "explanation_ar": "إظهار القدرة على فهم مشاعر أو أسباب الطرف الآخر.",
+      "examples": [
+        {
+          "de": "Die Chefin zeigte Verständnis für die Betreuungssituation.",
+          "ar": "أظهرت المديرة تفهمًا لوضع رعاية الأطفال."
+        },
+        {
+          "de": "Verständnis zu zeigen bedeutet nicht automatisch zuzustimmen.",
+          "ar": "إظهار التفهم لا يعني الموافقة تلقائيًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          237,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "kommunikation",
+        "empathie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v026",
+      "identity": "sich in die lage des anderen versetzen",
+      "term": "sich in die Lage des anderen versetzen",
+      "type": "phrase",
+      "arabic": "يضع نفسه مكان الآخر",
+      "explanation_de": "Versuchen, eine Situation aus der Perspektive der anderen Person zu verstehen.",
+      "explanation_ar": "محاولة فهم الموقف من منظور الطرف الآخر.",
+      "examples": [
+        {
+          "de": "Versetzen Sie sich kurz in die Lage des anderen.",
+          "ar": "ضع نفسك لحظة مكان الطرف الآخر."
+        },
+        {
+          "de": "Sie konnte sich in seine Lage versetzen und reagierte ruhiger.",
+          "ar": "تمكنت من فهم موقفه وردت بهدوء."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "kommunikation",
+        "empathie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v027",
+      "identity": "einen kompromiss aushandeln",
+      "term": "einen Kompromiss aushandeln",
+      "type": "phrase",
+      "arabic": "يتفاوض للوصول إلى تسوية",
+      "explanation_de": "In einem Gespräch eine für beide Seiten akzeptable Zwischenlösung entwickeln.",
+      "explanation_ar": "تطوير حل وسط مقبول للطرفين عبر التفاوض.",
+      "examples": [
+        {
+          "de": "Das Team handelte einen Kompromiss zur Urlaubsplanung aus.",
+          "ar": "تفاوض الفريق على تسوية لتخطيط الإجازات."
+        },
+        {
+          "de": "Eltern und Arbeitgeber müssen manchmal flexible Kompromisse aushandeln.",
+          "ar": "يحتاج الأهل وأرباب العمل أحيانًا إلى تسويات مرنة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          234,
+          237,
+          240
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "verhandlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v028",
+      "identity": "missverständnisse klären",
+      "term": "Missverständnisse klären",
+      "type": "phrase",
+      "arabic": "يوضح سوء الفهم",
+      "explanation_de": "Unklare oder falsch verstandene Aussagen offen besprechen und richtigstellen.",
+      "explanation_ar": "مناقشة الأقوال غير الواضحة أو المفهومة خطأ وتصحيحها.",
+      "examples": [
+        {
+          "de": "Ein persönliches Gespräch half, die Missverständnisse zu klären.",
+          "ar": "ساعد الحوار الشخصي على توضيح سوء الفهم."
+        },
+        {
+          "de": "Klären Sie Missverständnisse möglichst frühzeitig.",
+          "ar": "وضّح سوء الفهم في وقت مبكر قدر الإمكان."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          242
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v029",
+      "identity": "gefühle offen äußern",
+      "term": "Gefühle offen äußern",
+      "type": "phrase",
+      "arabic": "يعبّر عن مشاعره بصراحة",
+      "explanation_de": "Eigene Gefühle klar benennen, ohne die andere Person anzugreifen.",
+      "explanation_ar": "تسمية المشاعر بوضوح دون مهاجمة الطرف الآخر.",
+      "examples": [
+        {
+          "de": "Sie äußerte offen, dass sie sich übergangen fühlte.",
+          "ar": "قالت بصراحة إنها شعرت بالتجاهل."
+        },
+        {
+          "de": "Offen geäußerte Gefühle können das gegenseitige Verständnis fördern.",
+          "ar": "قد تعزز المشاعر المعبر عنها بصراحة التفاهم."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          230,
+          231
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "kommunikation",
+        "gefühl"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v030",
+      "identity": "ein problem direkt ansprechen",
+      "term": "ein Problem direkt ansprechen",
+      "type": "phrase",
+      "arabic": "يطرح المشكلة مباشرة",
+      "explanation_de": "Eine Schwierigkeit klar und respektvoll benennen, statt sie zu verdrängen.",
+      "explanation_ar": "تسمية المشكلة بوضوح واحترام بدل تجاهلها.",
+      "examples": [
+        {
+          "de": "Sprechen Sie das Problem direkt, aber sachlich an.",
+          "ar": "اطرح المشكلة مباشرة ولكن بموضوعية."
+        },
+        {
+          "de": "Die Kollegin sprach die häufigen Unterbrechungen direkt an.",
+          "ar": "طرحت الزميلة المقاطعات المتكررة مباشرة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          238
+        ],
+        "section": "Konflikte ansprechen"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v031",
+      "identity": "nicht nachtragend sein",
+      "term": "nicht nachtragend sein",
+      "type": "phrase",
+      "arabic": "لا يحمل ضغينة",
+      "explanation_de": "Nach einem geklärten Konflikt nicht dauerhaft ärgerlich bleiben oder alte Vorwürfe wiederholen.",
+      "explanation_ar": "عدم الاستمرار في الغضب أو إعادة الاتهامات بعد حل النزاع.",
+      "examples": [
+        {
+          "de": "Nach der Entschuldigung war er nicht nachtragend.",
+          "ar": "لم يحمل ضغينة بعد الاعتذار."
+        },
+        {
+          "de": "Ein Neuanfang gelingt leichter, wenn beide nicht nachtragend sind.",
+          "ar": "يسهل البدء من جديد عندما لا يحمل الطرفان ضغينة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "beziehung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v032",
+      "identity": "einen neuanfang wagen",
+      "term": "einen Neuanfang wagen",
+      "type": "phrase",
+      "arabic": "يجرؤ على بداية جديدة",
+      "explanation_de": "Nach einem Konflikt bewusst versuchen, die Zusammenarbeit neu und besser zu gestalten.",
+      "explanation_ar": "المحاولة الواعية لبدء تعاون أفضل بعد نزاع.",
+      "examples": [
+        {
+          "de": "Nach dem klärenden Gespräch wagte das Team einen Neuanfang.",
+          "ar": "جرّب الفريق بداية جديدة بعد الحوار."
+        },
+        {
+          "de": "Beide wollten einen Neuanfang wagen und klare Regeln vereinbaren.",
+          "ar": "أراد الطرفان بدء صفحة جديدة ووضع قواعد واضحة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v033",
+      "identity": "aufeinander zugehen",
+      "term": "aufeinander zugehen",
+      "type": "phrase",
+      "arabic": "يتقارب الطرفان ويقدمان تنازلات",
+      "explanation_de": "Bereitschaft zeigen, die Position der anderen Seite anzuerkennen und sich anzunähern.",
+      "explanation_ar": "إظهار الاستعداد للاعتراف بموقف الطرف الآخر والتقارب معه.",
+      "examples": [
+        {
+          "de": "Beide Seiten müssen aufeinander zugehen.",
+          "ar": "يجب أن يتقارب الطرفان."
+        },
+        {
+          "de": "Nach einigen Tagen gingen die Kollegen wieder aufeinander zu.",
+          "ar": "تقارب الزملاء مجددًا بعد عدة أيام."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          237
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "konflikt",
+        "einander"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v034",
+      "identity": "respektvoll miteinander umgehen",
+      "term": "respektvoll miteinander umgehen",
+      "type": "phrase",
+      "arabic": "يتعاملون مع بعضهم باحترام",
+      "explanation_de": "Auch bei unterschiedlichen Meinungen höflich, fair und wertschätzend bleiben.",
+      "explanation_ar": "البقاء مهذبين ومنصفين ومقدّرين رغم اختلاف الآراء.",
+      "examples": [
+        {
+          "de": "Im Team müssen alle respektvoll miteinander umgehen.",
+          "ar": "يجب أن يتعامل الجميع باحترام."
+        },
+        {
+          "de": "Die Vereinbarung beschreibt, wie man respektvoll miteinander umgeht.",
+          "ar": "يصف الاتفاق طريقة التعامل المحترم."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          231,
+          237,
+          238
+        ],
+        "section": "Gemeinsam Lösungen finden"
+      },
+      "tags": [
+        "respekt",
+        "einander"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v035",
+      "identity": "jemandem einen fehler in die schuhe schieben",
+      "term": "jemandem einen Fehler in die Schuhe schieben",
+      "type": "phrase",
+      "arabic": "يلقي الخطأ على شخص آخر",
+      "explanation_de": "Umgangssprachlich: eine andere Person unfair für einen Fehler verantwortlich machen.",
+      "explanation_ar": "تعبير عامي يعني تحميل شخص آخر الخطأ بصورة غير عادلة.",
+      "examples": [
+        {
+          "de": "Niemand sollte den Fehler einfach der neuen Kollegin in die Schuhe schieben.",
+          "ar": "لا ينبغي إلقاء الخطأ على الزميلة الجديدة."
+        },
+        {
+          "de": "Eine gute Fehlerkultur verhindert, dass man anderen alles in die Schuhe schiebt.",
+          "ar": "تمنع ثقافة الأخطاء إلقاء كل شيء على الآخرين."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          238
+        ],
+        "section": "Hilfe bei Konflikten"
+      },
+      "tags": [
+        "redemittel",
+        "fehlerkultur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v036",
+      "identity": "hinter dem rücken über jemanden sprechen",
+      "term": "hinter dem Rücken über jemanden sprechen",
+      "type": "phrase",
+      "arabic": "يتحدث عن شخص من وراء ظهره",
+      "explanation_de": "Über eine Person sprechen, ohne dass sie anwesend ist, häufig in negativer oder unfairer Weise.",
+      "explanation_ar": "التحدث عن شخص في غيابه وغالبًا بصورة سلبية أو غير عادلة.",
+      "examples": [
+        {
+          "de": "Probleme sollten nicht nur hinter dem Rücken der Betroffenen besprochen werden.",
+          "ar": "لا ينبغي مناقشة المشكلات فقط من وراء ظهر المعنيين."
+        },
+        {
+          "de": "Sie sprach direkt mit ihm, statt hinter seinem Rücken über ihn zu reden.",
+          "ar": "تحدثت معه مباشرة بدل الكلام عنه في غيابه."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          238
+        ],
+        "section": "Hilfe bei Konflikten"
+      },
+      "tags": [
+        "kommunikation",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v037",
+      "identity": "eine dritte person einschalten",
+      "term": "eine dritte Person einschalten",
+      "type": "phrase",
+      "arabic": "يستعين بطرف ثالث",
+      "explanation_de": "Eine neutrale Person zur Vermittlung oder Unterstützung in einen Konflikt einbeziehen.",
+      "explanation_ar": "إشراك شخص محايد للوساطة أو الدعم في النزاع.",
+      "examples": [
+        {
+          "de": "Wenn das Gespräch scheitert, kann man eine dritte Person einschalten.",
+          "ar": "عند فشل الحوار يمكن الاستعانة بطرف ثالث."
+        },
+        {
+          "de": "Der Betriebsrat wurde als dritte Person eingeschaltet.",
+          "ar": "تم إشراك مجلس العمال كطرف ثالث."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "konflikt",
+        "vermittlung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v038",
+      "identity": "einen konflikt deeskalieren",
+      "term": "einen Konflikt deeskalieren",
+      "type": "phrase",
+      "arabic": "يخفف حدة النزاع",
+      "explanation_de": "Durch ruhige Sprache, klare Grenzen und lösungsorientierte Fragen die Spannung verringern.",
+      "explanation_ar": "تقليل التوتر عبر لغة هادئة وحدود واضحة وأسئلة موجهة للحل.",
+      "examples": [
+        {
+          "de": "Die Teamleiterin deeskalierte den Konflikt mit ruhigen Fragen.",
+          "ar": "خففت قائدة الفريق النزاع بأسئلة هادئة."
+        },
+        {
+          "de": "Pausen können helfen, einen sehr emotionalen Konflikt zu deeskalieren.",
+          "ar": "قد تساعد الاستراحة في خفض نزاع عاطفي جدًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          231,
+          238
+        ],
+        "section": "Konflikte lösen"
+      },
+      "tags": [
+        "konflikt",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v039",
+      "identity": "die leidenschaft",
+      "term": "die Leidenschaft",
+      "type": "noun",
+      "arabic": "الشغف",
+      "explanation_de": "Eine starke innere Begeisterung oder intensive emotionale Beteiligung.",
+      "explanation_ar": "حماس داخلي قوي أو مشاركة عاطفية شديدة.",
+      "examples": [
+        {
+          "de": "Sie arbeitet mit großer Leidenschaft an ihrem Projekt.",
+          "ar": "تعمل بشغف كبير على مشروعها."
+        },
+        {
+          "de": "Leidenschaft allein ersetzt keine sachliche Argumentation.",
+          "ar": "لا يغني الشغف وحده عن الحجج الموضوعية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Leidenschaften"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v040",
+      "identity": "die aufmerksamkeit",
+      "term": "die Aufmerksamkeit",
+      "type": "noun",
+      "arabic": "الانتباه",
+      "explanation_de": "Die konzentrierte Wahrnehmung einer Person, Aussage oder Situation.",
+      "explanation_ar": "الإدراك المركّز لشخص أو قول أو موقف.",
+      "examples": [
+        {
+          "de": "Das Gespräch erfordert volle Aufmerksamkeit.",
+          "ar": "يتطلب الحوار انتباهًا كاملًا."
+        },
+        {
+          "de": "Sie schenkte der Beschwerde große Aufmerksamkeit.",
+          "ar": "أولت الشكوى اهتمامًا كبيرًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung"
+      ],
+      "globalRef": "nouns:noun_0163",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v041",
+      "identity": "die versöhnlichkeit",
+      "term": "die Versöhnlichkeit",
+      "type": "noun",
+      "arabic": "الميل إلى المصالحة",
+      "explanation_de": "Die Bereitschaft, nach einem Streit Frieden zu schließen und die Beziehung zu verbessern.",
+      "explanation_ar": "الاستعداد للمصالحة وتحسين العلاقة بعد الشجار.",
+      "examples": [
+        {
+          "de": "Ihre Versöhnlichkeit erleichterte den Neuanfang.",
+          "ar": "سهّل ميلها للمصالحة البداية الجديدة."
+        },
+        {
+          "de": "Versöhnlichkeit bedeutet nicht, jedes Verhalten zu akzeptieren.",
+          "ar": "المصالحة لا تعني قبول كل سلوك."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v042",
+      "identity": "die offenheit",
+      "term": "die Offenheit",
+      "type": "noun",
+      "arabic": "الصراحة والانفتاح",
+      "explanation_de": "Die Bereitschaft, ehrlich zu sprechen und neue Perspektiven zuzulassen.",
+      "explanation_ar": "الاستعداد للحديث بصدق وقبول وجهات نظر جديدة.",
+      "examples": [
+        {
+          "de": "Offenheit ist eine wichtige Voraussetzung für Konfliktgespräche.",
+          "ar": "الصراحة شرط مهم لحوارات النزاع."
+        },
+        {
+          "de": "Die Offenheit des Teams förderte eine schnelle Lösung.",
+          "ar": "ساعد انفتاح الفريق على حل سريع."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v043",
+      "identity": "die aggression",
+      "term": "die Aggression",
+      "type": "noun",
+      "arabic": "العدوانية",
+      "explanation_de": "Ein feindseliges oder angreifendes Verhalten, das körperlich oder sprachlich sein kann.",
+      "explanation_ar": "سلوك عدائي أو هجومي قد يكون جسديًا أو لفظيًا.",
+      "examples": [
+        {
+          "de": "Aggression verschärft Konflikte und verhindert sachliche Lösungen.",
+          "ar": "تزيد العدوانية النزاع وتمنع الحلول الموضوعية."
+        },
+        {
+          "de": "Die Schulung vermittelt Techniken zum Umgang mit Aggression.",
+          "ar": "تعلّم الدورة أساليب التعامل مع العدوانية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung",
+        "konflikt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Aggressionen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v044",
+      "identity": "die vertrautheit",
+      "term": "die Vertrautheit",
+      "type": "noun",
+      "arabic": "الألفة والثقة الناتجة عن المعرفة",
+      "explanation_de": "Ein Zustand, in dem Personen oder Abläufe gut bekannt und nicht fremd sind.",
+      "explanation_ar": "حالة يكون فيها الأشخاص أو الإجراءات مألوفين وغير غرباء.",
+      "examples": [
+        {
+          "de": "Durch die lange Zusammenarbeit entstand Vertrautheit.",
+          "ar": "نشأت ألفة بسبب التعاون الطويل."
+        },
+        {
+          "de": "Zu viel Vertrautheit darf professionelle Grenzen nicht aufheben.",
+          "ar": "لا ينبغي أن تلغي الألفة الزائدة الحدود المهنية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          239
+        ],
+        "section": "Nomen aus Adjektiven"
+      },
+      "tags": [
+        "wortbildung",
+        "beziehung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v045",
+      "identity": "die gesprächsvorbereitung",
+      "term": "die Gesprächsvorbereitung",
+      "type": "noun",
+      "arabic": "التحضير للمحادثة",
+      "explanation_de": "Die gezielte Vorbereitung von Ziel, Informationen, Unterlagen und Fragen vor einem Gespräch.",
+      "explanation_ar": "التحضير المقصود للهدف والمعلومات والمستندات والأسئلة قبل الحوار.",
+      "examples": [
+        {
+          "de": "Eine gute Gesprächsvorbereitung spart Zeit und verhindert Rückfragen.",
+          "ar": "يوفر التحضير الجيد الوقت ويمنع الأسئلة الإضافية."
+        },
+        {
+          "de": "Zur Gesprächsvorbereitung legte sie Kalender und Kundendaten bereit.",
+          "ar": "جهزت التقويم وبيانات العميل استعدادًا للمحادثة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Gesprächsvorbereitungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v046",
+      "identity": "das anliegen",
+      "term": "das Anliegen",
+      "type": "noun",
+      "arabic": "الطلب أو الموضوع الذي يتواصل الشخص بسببه",
+      "explanation_de": "Der konkrete Wunsch, die Frage oder das Problem, wegen dessen jemand Kontakt aufnimmt.",
+      "explanation_ar": "الطلب أو السؤال أو المشكلة المحددة التي يتواصل الشخص بسببها.",
+      "examples": [
+        {
+          "de": "Zu Beginn des Telefonats nannte der Kunde sein Anliegen.",
+          "ar": "ذكر العميل طلبه في بداية المكالمة."
+        },
+        {
+          "de": "Das Anliegen wurde an die zuständige Abteilung weitergeleitet.",
+          "ar": "تم تحويل الطلب إلى القسم المختص."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Anliegen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v047",
+      "identity": "der gesprächsgrund",
+      "term": "der Gesprächsgrund",
+      "type": "noun",
+      "arabic": "سبب المحادثة",
+      "explanation_de": "Der Anlass, aus dem ein Gespräch geführt oder ein Anruf gemacht wird.",
+      "explanation_ar": "السبب الذي تُجرى من أجله المحادثة أو المكالمة.",
+      "examples": [
+        {
+          "de": "Der Gesprächsgrund war eine Anfrage zu einem Messeauftritt.",
+          "ar": "كان سبب المكالمة استفسارًا عن مشاركة في معرض."
+        },
+        {
+          "de": "Die Gesprächsnotiz enthält den Gesprächsgrund.",
+          "ar": "تتضمن الملاحظة سبب المحادثة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Gesprächsgründe"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v048",
+      "identity": "der gesprächsverlauf",
+      "term": "der Gesprächsverlauf",
+      "type": "noun",
+      "arabic": "سير المحادثة",
+      "explanation_de": "Die zeitliche und inhaltliche Entwicklung eines Gesprächs vom Anfang bis zum Abschluss.",
+      "explanation_ar": "التطور الزمني والمضموني للمحادثة من البداية إلى النهاية.",
+      "examples": [
+        {
+          "de": "Der Gesprächsverlauf wurde kurz dokumentiert.",
+          "ar": "تم توثيق سير المحادثة باختصار."
+        },
+        {
+          "de": "Ein klarer Gesprächsverlauf erleichtert die Ergebnissicherung.",
+          "ar": "يسهل السير الواضح تثبيت النتائج."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Gesprächsverläufe"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v049",
+      "identity": "die rückfrage",
+      "term": "die Rückfrage",
+      "type": "noun",
+      "arabic": "سؤال استيضاحي",
+      "explanation_de": "Eine zusätzliche Frage, mit der eine Information präzisiert oder überprüft wird.",
+      "explanation_ar": "سؤال إضافي لتحديد معلومة أو التحقق منها.",
+      "examples": [
+        {
+          "de": "Bei Unklarheiten stellte sie eine gezielte Rückfrage.",
+          "ar": "طرحت سؤالًا استيضاحيًا عند الغموض."
+        },
+        {
+          "de": "Die Rückfragen wurden am Ende des Gesprächs beantwortet.",
+          "ar": "تمت الإجابة عن الأسئلة الإضافية في نهاية الحوار."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "kommunikation"
+      ],
+      "globalRef": "nouns:noun_0496",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "die Rückfragen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v050",
+      "identity": "die schriftliche bestätigung",
+      "term": "die schriftliche Bestätigung",
+      "type": "noun",
+      "arabic": "تأكيد خطي",
+      "explanation_de": "Eine schriftliche Nachricht, die zuvor besprochene Daten, Leistungen oder Vereinbarungen verbindlich festhält.",
+      "explanation_ar": "رسالة مكتوبة تثبت البيانات أو الخدمات أو الاتفاقات التي نوقشت.",
+      "examples": [
+        {
+          "de": "Der Kunde bat um eine schriftliche Bestätigung des Angebots.",
+          "ar": "طلب العميل تأكيدًا خطيًا للعرض."
+        },
+        {
+          "de": "Die schriftliche Bestätigung enthält Termin, Preis und Leistungsumfang.",
+          "ar": "يتضمن التأكيد الموعد والسعر ونطاق الخدمة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          233,
+          239,
+          242
+        ],
+        "section": "Bestätigungsmail"
+      },
+      "tags": [
+        "email",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die schriftlichen Bestätigungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v051",
+      "identity": "die bestätigungsmail",
+      "term": "die Bestätigungsmail",
+      "type": "noun",
+      "arabic": "رسالة تأكيد بالبريد الإلكتروني",
+      "explanation_de": "Eine E-Mail, die Ergebnisse oder Vereinbarungen eines Telefonats schriftlich bestätigt.",
+      "explanation_ar": "بريد إلكتروني يؤكد خطيًا نتائج أو اتفاقات مكالمة.",
+      "examples": [
+        {
+          "de": "Nach dem Telefonat verschickte sie eine Bestätigungsmail.",
+          "ar": "أرسلت رسالة تأكيد بعد المكالمة."
+        },
+        {
+          "de": "Die Bestätigungsmail nennt alle offenen Punkte.",
+          "ar": "تذكر رسالة التأكيد جميع النقاط المفتوحة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          239,
+          242
+        ],
+        "section": "Bestätigungsmail"
+      },
+      "tags": [
+        "email",
+        "telefon"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Bestätigungsmails"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v052",
+      "identity": "die standfläche",
+      "term": "die Standfläche",
+      "type": "noun",
+      "arabic": "مساحة جناح المعرض",
+      "explanation_de": "Die reservierte Fläche, auf der ein Unternehmen seinen Messestand aufbaut.",
+      "explanation_ar": "المساحة المحجوزة التي تقيم عليها الشركة جناح المعرض.",
+      "examples": [
+        {
+          "de": "Die Standfläche beträgt zwanzig Quadratmeter.",
+          "ar": "تبلغ مساحة الجناح عشرين مترًا مربعًا."
+        },
+        {
+          "de": "Für die Standfläche wurde ein genauer Plan geschickt.",
+          "ar": "أُرسل مخطط دقيق لمساحة الجناح."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          233,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "messe",
+        "auftrag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Standflächen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v053",
+      "identity": "das werbematerial",
+      "term": "das Werbematerial",
+      "type": "noun",
+      "arabic": "مواد دعائية",
+      "explanation_de": "Gedruckte oder digitale Materialien, mit denen ein Angebot, Produkt oder Unternehmen beworben wird.",
+      "explanation_ar": "مواد مطبوعة أو رقمية للترويج لعرض أو منتج أو شركة.",
+      "examples": [
+        {
+          "de": "Das Werbematerial muss rechtzeitig produziert werden.",
+          "ar": "يجب إنتاج المواد الدعائية في الوقت المناسب."
+        },
+        {
+          "de": "Die Agentur fragte nach Menge und Format des Werbematerials.",
+          "ar": "سألت الوكالة عن كمية المواد الدعائية وحجمها."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          233,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "werbung",
+        "messe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Werbematerialien"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v054",
+      "identity": "die auftragsbestätigung",
+      "term": "die Auftragsbestätigung",
+      "type": "noun",
+      "arabic": "تأكيد الطلب أو التكليف",
+      "explanation_de": "Ein geschäftliches Dokument, das die Annahme eines Auftrags und dessen Bedingungen bestätigt.",
+      "explanation_ar": "وثيقة مهنية تؤكد قبول الطلب وشروطه.",
+      "examples": [
+        {
+          "de": "Die Auftragsbestätigung wurde als PDF versandt.",
+          "ar": "أُرسل تأكيد الطلب بصيغة PDF."
+        },
+        {
+          "de": "Prüfen Sie die Auftragsbestätigung auf Termin und Preis.",
+          "ar": "افحص الموعد والسعر في تأكيد الطلب."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          239
+        ],
+        "section": "Bestätigungsmail"
+      },
+      "tags": [
+        "auftrag",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Auftragsbestätigungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v055",
+      "identity": "einen termin schriftlich bestätigen",
+      "term": "einen Termin schriftlich bestätigen",
+      "type": "phrase",
+      "arabic": "يؤكد موعدًا خطيًا",
+      "explanation_de": "Einen zuvor vereinbarten Termin in einer E-Mail oder einem Schreiben verbindlich festhalten.",
+      "explanation_ar": "تثبيت الموعد المتفق عليه في بريد أو رسالة.",
+      "examples": [
+        {
+          "de": "Bitte bestätigen Sie den Termin schriftlich.",
+          "ar": "يرجى تأكيد الموعد خطيًا."
+        },
+        {
+          "de": "Die Agentur bestätigte den Aufbau am 8. November schriftlich.",
+          "ar": "أكدت الوكالة موعد التركيب خطيًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          233,
+          239
+        ],
+        "section": "Bestätigungsmail"
+      },
+      "tags": [
+        "email",
+        "termin"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v056",
+      "identity": "eine gesprächsnotiz anfertigen",
+      "term": "eine Gesprächsnotiz anfertigen",
+      "type": "phrase",
+      "arabic": "يُعدّ ملاحظة عن المحادثة",
+      "explanation_de": "Die wichtigsten Daten, Aussagen und Aufgaben eines Gesprächs strukturiert notieren.",
+      "explanation_ar": "تدوين أهم بيانات وأقوال ومهام المحادثة بصورة منظمة.",
+      "examples": [
+        {
+          "de": "Nach jedem Kundenanruf fertigt sie eine Gesprächsnotiz an.",
+          "ar": "تعد ملاحظة بعد كل اتصال عميل."
+        },
+        {
+          "de": "Die Gesprächsnotiz dient der internen Weitergabe.",
+          "ar": "تستخدم الملاحظة لنقل المعلومات داخليًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          232,
+          239
+        ],
+        "section": "Berufliche Telefongespräche"
+      },
+      "tags": [
+        "telefon",
+        "dokumentation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v057",
+      "identity": "der irreale konditionalsatz in der vergangenheit",
+      "term": "der irreale Konditionalsatz in der Vergangenheit",
+      "type": "noun",
+      "arabic": "جملة شرط غير حقيقية في الماضي",
+      "explanation_de": "Eine Konstruktion für vergangene Bedingungen, die nicht eingetreten sind, und ihre hypothetischen Folgen.",
+      "explanation_ar": "بناء لغوي لشرط ماضٍ لم يتحقق ونتيجته الافتراضية.",
+      "examples": [
+        {
+          "de": "Wenn ich früher angerufen hätte, hätten wir mehr Zeit gehabt.",
+          "ar": "لو اتصلت أبكر لكان لدينا وقت أكثر."
+        },
+        {
+          "de": "Wenn der Service besser gewesen wäre, wäre ich geblieben.",
+          "ar": "لو كانت الخدمة أفضل لبقيت."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          240,
+          242
+        ],
+        "section": "Irreale Konditionalsätze"
+      },
+      "tags": [
+        "grammatik",
+        "konjunktiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die irrealen Konditionalsätze in der Vergangenheit"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v058",
+      "identity": "die irreale bedingung",
+      "term": "die irreale Bedingung",
+      "type": "noun",
+      "arabic": "الشرط غير المتحقق",
+      "explanation_de": "Eine gedachte Bedingung, die in der Vergangenheit tatsächlich nicht erfüllt wurde.",
+      "explanation_ar": "شرط مفترض لم يتحقق فعليًا في الماضي.",
+      "examples": [
+        {
+          "de": "Die irreale Bedingung steht häufig im wenn-Satz.",
+          "ar": "يأتي الشرط غير المتحقق غالبًا في جملة wenn."
+        },
+        {
+          "de": "Für die irreale Bedingung verwendet man hätte oder wäre plus Partizip II.",
+          "ar": "يستخدم hätte أو wäre مع Partizip II."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          240
+        ],
+        "section": "Irreale Konditionalsätze"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die irrealen Bedingungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v059",
+      "identity": "die hypothetische folge",
+      "term": "die hypothetische Folge",
+      "type": "noun",
+      "arabic": "النتيجة الافتراضية",
+      "explanation_de": "Eine nur gedachte Konsequenz, die unter einer nicht erfüllten Bedingung eingetreten wäre.",
+      "explanation_ar": "نتيجة متخيلة كانت ستحدث لو تحقق شرط لم يقع.",
+      "examples": [
+        {
+          "de": "Die hypothetische Folge steht im Hauptsatz.",
+          "ar": "تأتي النتيجة الافتراضية في الجملة الرئيسية."
+        },
+        {
+          "de": "Sie wird oft mit hätte oder wäre und Partizip II gebildet.",
+          "ar": "تُصاغ غالبًا بـ hätte أو wäre وPartizip II."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          240
+        ],
+        "section": "Irreale Konditionalsätze"
+      },
+      "tags": [
+        "grammatik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die hypothetischen Folgen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v060",
+      "identity": "wenn ich das gewusst hätte hätte ich",
+      "term": "Wenn ich das gewusst hätte, hätte ich …",
+      "type": "phrase",
+      "arabic": "لو كنت أعرف ذلك لفعلت…",
+      "explanation_de": "Ein Satzmuster, mit dem man eine vergangene Entscheidung oder Handlung rückblickend bewertet.",
+      "explanation_ar": "نمط جملة لتقييم قرار أو تصرف ماضٍ بأثر رجعي.",
+      "examples": [
+        {
+          "de": "Wenn ich das gewusst hätte, hätte ich früher reagiert.",
+          "ar": "لو كنت أعرف ذلك لتصرفت أبكر."
+        },
+        {
+          "de": "Wenn ich das gewusst hätte, hätte ich den Auftrag nicht angenommen.",
+          "ar": "لو كنت أعرف ذلك لما قبلت الطلب."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          233,
+          240,
+          242
+        ],
+        "section": "Irreale Konditionalsätze"
+      },
+      "tags": [
+        "grammatik",
+        "redemittel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v061",
+      "identity": "der relativsatz im genitiv",
+      "term": "der Relativsatz im Genitiv",
+      "type": "noun",
+      "arabic": "الجملة الموصولة في حالة المضاف إليه",
+      "explanation_de": "Ein Relativsatz mit dessen oder deren, der eine Zugehörigkeit ausdrückt.",
+      "explanation_ar": "جملة موصولة تستخدم dessen أو deren للتعبير عن الملكية أو الارتباط.",
+      "examples": [
+        {
+          "de": "Die Kollegin, deren Kind krank ist, arbeitet heute von zu Hause.",
+          "ar": "الزميلة التي طفلها مريض تعمل اليوم من المنزل."
+        },
+        {
+          "de": "Der Mitarbeiter, dessen Schicht geändert wurde, fragt nach.",
+          "ar": "الموظف الذي تغيرت مناوبته يسأل."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          235,
+          241,
+          242
+        ],
+        "section": "Relativsätze im Genitiv"
+      },
+      "tags": [
+        "grammatik",
+        "relativsatz"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Relativsätze im Genitiv"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v062",
+      "identity": "das relativpronomen im genitiv",
+      "term": "das Relativpronomen im Genitiv",
+      "type": "noun",
+      "arabic": "ضمير الوصل في حالة المضاف إليه",
+      "explanation_de": "Die Formen dessen und deren, die in Relativsätzen Zugehörigkeit anzeigen.",
+      "explanation_ar": "الصيغتان dessen وderen اللتان تدلان على الملكية في الجملة الموصولة.",
+      "examples": [
+        {
+          "de": "Für maskuline und neutrale Bezugswörter verwendet man dessen.",
+          "ar": "يستخدم dessen مع المذكر والمحايد."
+        },
+        {
+          "de": "Für feminine und plurale Bezugswörter verwendet man deren.",
+          "ar": "يستخدم deren مع المؤنث والجمع."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          235,
+          241
+        ],
+        "section": "Relativsätze im Genitiv"
+      },
+      "tags": [
+        "grammatik",
+        "pronomen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Relativpronomen im Genitiv"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v063",
+      "identity": "die rollenverteilung",
+      "term": "die Rollenverteilung",
+      "type": "noun",
+      "arabic": "توزيع الأدوار",
+      "explanation_de": "Die Aufteilung von Aufgaben und Verantwortlichkeiten zwischen Personen in Familie, Partnerschaft oder Beruf.",
+      "explanation_ar": "تقسيم المهام والمسؤوليات بين الأشخاص في الأسرة أو الشراكة أو العمل.",
+      "examples": [
+        {
+          "de": "Die Rollenverteilung in vielen Familien verändert sich.",
+          "ar": "يتغير توزيع الأدوار في كثير من الأسر."
+        },
+        {
+          "de": "Das Paar sprach offen über seine Rollenverteilung.",
+          "ar": "ناقش الزوجان توزيع الأدوار بصراحة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "gesellschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Rollenverteilungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v064",
+      "identity": "der rollentausch",
+      "term": "der Rollentausch",
+      "type": "noun",
+      "arabic": "تبادل الأدوار",
+      "explanation_de": "Eine bewusste Veränderung, bei der Personen bisherige Aufgaben oder Zuständigkeiten tauschen.",
+      "explanation_ar": "تغيير واعٍ يتبادل فيه الأشخاص المهام أو المسؤوليات السابقة.",
+      "examples": [
+        {
+          "de": "Der Rollentausch ermöglichte der Mutter den beruflichen Wiedereinstieg.",
+          "ar": "أتاح تبادل الأدوار للأم العودة إلى العمل."
+        },
+        {
+          "de": "Für beide Partner war der Rollentausch zunächst ungewohnt.",
+          "ar": "كان تبادل الأدوار غير مألوف للطرفين في البداية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "gesellschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Rollentausche"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v065",
+      "identity": "die geschlechterrolle",
+      "term": "die Geschlechterrolle",
+      "type": "noun",
+      "arabic": "الدور الاجتماعي المرتبط بالجنس",
+      "explanation_de": "Eine gesellschaftliche Erwartung daran, wie Frauen oder Männer sich verhalten oder welche Aufgaben sie übernehmen sollen.",
+      "explanation_ar": "توقع اجتماعي حول سلوك النساء أو الرجال والمهام التي يُفترض أن يؤدوها.",
+      "examples": [
+        {
+          "de": "Traditionelle Geschlechterrollen werden zunehmend hinterfragt.",
+          "ar": "تتعرض الأدوار التقليدية للمراجعة بصورة متزايدة."
+        },
+        {
+          "de": "Geschlechterrollen beeinflussen Berufsentscheidungen.",
+          "ar": "تؤثر الأدوار الجندرية في القرارات المهنية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gesellschaft",
+        "gleichstellung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Geschlechterrollen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v066",
+      "identity": "die doppelbelastung",
+      "term": "die Doppelbelastung",
+      "type": "noun",
+      "arabic": "العبء المزدوج بين العمل والأسرة",
+      "explanation_de": "Die gleichzeitige Belastung durch Erwerbsarbeit und umfangreiche Familien- oder Betreuungsaufgaben.",
+      "explanation_ar": "الضغط المتزامن الناتج عن العمل ومهام الأسرة أو الرعاية.",
+      "examples": [
+        {
+          "de": "Viele Eltern erleben eine Doppelbelastung durch Beruf und Kinderbetreuung.",
+          "ar": "يعاني كثير من الأهل من عبء مزدوج."
+        },
+        {
+          "de": "Flexible Arbeitszeiten können die Doppelbelastung reduzieren.",
+          "ar": "قد تقلل أوقات العمل المرنة العبء المزدوج."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          234,
+          236,
+          240,
+          241
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "arbeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Doppelbelastungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v067",
+      "identity": "die care-arbeit",
+      "term": "die Care-Arbeit",
+      "type": "noun",
+      "arabic": "أعمال الرعاية غير المدفوعة غالبًا",
+      "explanation_de": "Betreuungs-, Pflege- und Haushaltsarbeit, die häufig unbezahlt in Familien geleistet wird.",
+      "explanation_ar": "أعمال رعاية وتمريض ومنزل تُؤدى غالبًا بلا أجر داخل الأسرة.",
+      "examples": [
+        {
+          "de": "Care-Arbeit wird gesellschaftlich oft ungleich verteilt.",
+          "ar": "تتوزع أعمال الرعاية بصورة غير متساوية غالبًا."
+        },
+        {
+          "de": "Auch Männer übernehmen zunehmend mehr Care-Arbeit.",
+          "ar": "يتولى الرجال أيضًا مزيدًا من أعمال الرعاية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "gesellschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v068",
+      "identity": "die betreuungsaufgabe",
+      "term": "die Betreuungsaufgabe",
+      "type": "noun",
+      "arabic": "مهمة رعاية",
+      "explanation_de": "Eine konkrete Aufgabe bei der Betreuung von Kindern, älteren oder unterstützungsbedürftigen Personen.",
+      "explanation_ar": "مهمة محددة في رعاية الأطفال أو كبار السن أو المحتاجين للمساعدة.",
+      "examples": [
+        {
+          "de": "Die Betreuungsaufgaben werden zwischen beiden Eltern aufgeteilt.",
+          "ar": "تُقسم مهام الرعاية بين الوالدين."
+        },
+        {
+          "de": "Auch Großeltern übernehmen häufig Betreuungsaufgaben.",
+          "ar": "يتولى الأجداد مهام رعاية كثيرًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "betreuung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Betreuungsaufgaben"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v069",
+      "identity": "die führungsaufgabe",
+      "term": "die Führungsaufgabe",
+      "type": "noun",
+      "arabic": "مهمة قيادية",
+      "explanation_de": "Eine Aufgabe mit Verantwortung für Entscheidungen, Mitarbeitende oder betriebliche Abläufe.",
+      "explanation_ar": "مهمة تتضمن مسؤولية عن القرارات أو الموظفين أو سير العمل.",
+      "examples": [
+        {
+          "de": "Immer mehr Frauen übernehmen Führungsaufgaben.",
+          "ar": "تتولى نساء أكثر مهام قيادية."
+        },
+        {
+          "de": "Die Führungsaufgabe erfordert Kommunikations- und Konfliktfähigkeit.",
+          "ar": "تتطلب المهمة القيادية تواصلًا وقدرة على حل النزاع."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "karriere",
+        "führung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Führungsaufgaben"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v070",
+      "identity": "die karrierechance",
+      "term": "die Karrierechance",
+      "type": "noun",
+      "arabic": "فرصة مهنية للتقدم",
+      "explanation_de": "Eine Möglichkeit, beruflich aufzusteigen oder verantwortungsvollere Aufgaben zu übernehmen.",
+      "explanation_ar": "إمكانية التقدم المهني أو تولي مسؤوليات أكبر.",
+      "examples": [
+        {
+          "de": "Teilzeit darf Karrierechancen nicht grundsätzlich verhindern.",
+          "ar": "لا ينبغي أن يمنع الدوام الجزئي فرص التقدم."
+        },
+        {
+          "de": "Das Netzwerk eröffnet jungen Frauen neue Karrierechancen.",
+          "ar": "تفتح الشبكة فرصًا مهنية جديدة للشابات."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          236,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Karrierechancen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v071",
+      "identity": "das frauennetzwerk",
+      "term": "das Frauennetzwerk",
+      "type": "noun",
+      "arabic": "شبكة مهنية للنساء",
+      "explanation_de": "Ein Netzwerk, in dem Frauen berufliche Kontakte, Erfahrungen und Unterstützung austauschen.",
+      "explanation_ar": "شبكة تتبادل فيها النساء العلاقات والخبرات والدعم المهني.",
+      "examples": [
+        {
+          "de": "Das Frauennetzwerk organisiert Mentoring und Workshops.",
+          "ar": "تنظم شبكة النساء إرشادًا وورشات."
+        },
+        {
+          "de": "Über das Frauennetzwerk fand sie eine erfahrene Ansprechpartnerin.",
+          "ar": "وجدت مرشدة خبيرة عبر الشبكة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Frauennetzwerke und Vätergruppen"
+      },
+      "tags": [
+        "netzwerk",
+        "gleichstellung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Frauennetzwerke"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v072",
+      "identity": "die vätergruppe",
+      "term": "die Vätergruppe",
+      "type": "noun",
+      "arabic": "مجموعة دعم للآباء",
+      "explanation_de": "Eine organisierte Gruppe, in der Väter Erfahrungen austauschen und sich gegenseitig unterstützen.",
+      "explanation_ar": "مجموعة منظمة يتبادل فيها الآباء الخبرات والدعم.",
+      "examples": [
+        {
+          "de": "Die Vätergruppe trifft sich regelmäßig mit den Kindern.",
+          "ar": "تلتقي مجموعة الآباء بانتظام مع الأطفال."
+        },
+        {
+          "de": "In der Vätergruppe werden Betreuungsmodelle besprochen.",
+          "ar": "تُناقش نماذج الرعاية في المجموعة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Frauennetzwerke und Vätergruppen"
+      },
+      "tags": [
+        "familie",
+        "netzwerk"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Vätergruppen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v073",
+      "identity": "der gender-pay-gap",
+      "term": "der Gender-Pay-Gap",
+      "type": "noun",
+      "arabic": "فجوة الأجور بين الجنسين",
+      "explanation_de": "Der statistische Unterschied zwischen den durchschnittlichen Einkommen von Frauen und Männern.",
+      "explanation_ar": "الفرق الإحصائي بين متوسط دخل النساء والرجال.",
+      "examples": [
+        {
+          "de": "Der Gender-Pay-Gap wird durch verschiedene strukturelle Faktoren beeinflusst.",
+          "ar": "تتأثر فجوة الأجور بعوامل هيكلية متعددة."
+        },
+        {
+          "de": "Transparente Gehaltsstrukturen können den Gender-Pay-Gap verringern.",
+          "ar": "قد تقلل هياكل الأجور الشفافة الفجوة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gleichstellung",
+        "gehalt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Gender-Pay-Gaps"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v074",
+      "identity": "der männeranteil",
+      "term": "der Männeranteil",
+      "type": "noun",
+      "arabic": "نسبة الرجال",
+      "explanation_de": "Der prozentuale oder zahlenmäßige Anteil von Männern in einer Gruppe oder einem Bereich.",
+      "explanation_ar": "النسبة المئوية أو العددية للرجال في مجموعة أو مجال.",
+      "examples": [
+        {
+          "de": "In manchen Pflegeberufen ist der Männeranteil weiterhin niedrig.",
+          "ar": "لا تزال نسبة الرجال منخفضة في بعض مهن الرعاية."
+        },
+        {
+          "de": "Der Männeranteil in Elternzeit steigt langsam.",
+          "ar": "ترتفع نسبة الرجال في إجازة الوالدين ببطء."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gesellschaft",
+        "statistik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "der",
+        "plural": "die Männeranteile"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v075",
+      "identity": "die nachwuchskraft",
+      "term": "die Nachwuchskraft",
+      "type": "noun",
+      "arabic": "كفاءة أو موظف شاب صاعد",
+      "explanation_de": "Eine junge Person am Anfang ihrer beruflichen Entwicklung, die für spätere Fach- oder Führungsaufgaben aufgebaut wird.",
+      "explanation_ar": "شخص شاب في بداية تطوره المهني يُؤهل لمهام تخصصية أو قيادية.",
+      "examples": [
+        {
+          "de": "Das Unternehmen fördert weibliche Nachwuchskräfte.",
+          "ar": "تدعم الشركة الكفاءات النسائية الصاعدة."
+        },
+        {
+          "de": "Nachwuchskräfte erhalten ein Mentoring-Angebot.",
+          "ar": "تحصل الكفاءات الصاعدة على برنامج إرشاد."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "karriere",
+        "förderung"
+      ],
+      "globalRef": "nouns:noun_0502",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "plural": "die Nachwuchskräfte"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v076",
+      "identity": "das frauenförderprogramm",
+      "term": "das Frauenförderprogramm",
+      "type": "noun",
+      "arabic": "برنامج دعم وتطوير النساء مهنيًا",
+      "explanation_de": "Ein betriebliches Programm zur Verbesserung beruflicher Chancen von Frauen.",
+      "explanation_ar": "برنامج مؤسسي لتحسين الفرص المهنية للنساء.",
+      "examples": [
+        {
+          "de": "Das Frauenförderprogramm bietet Coaching und Netzwerkveranstaltungen.",
+          "ar": "يقدم البرنامج تدريبًا وفعاليات تواصل."
+        },
+        {
+          "de": "Die Teilnahme am Frauenförderprogramm ist freiwillig.",
+          "ar": "المشاركة في البرنامج طوعية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gleichstellung",
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Frauenförderprogramme"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v077",
+      "identity": "die chancengleichheit",
+      "term": "die Chancengleichheit",
+      "type": "noun",
+      "arabic": "تكافؤ الفرص",
+      "explanation_de": "Der Grundsatz, dass Menschen unabhängig von Geschlecht oder Hintergrund vergleichbare Möglichkeiten erhalten sollen.",
+      "explanation_ar": "مبدأ حصول الناس على فرص متقاربة بغض النظر عن الجنس أو الخلفية.",
+      "examples": [
+        {
+          "de": "Chancengleichheit erfordert transparente Auswahlverfahren.",
+          "ar": "يتطلب تكافؤ الفرص إجراءات اختيار شفافة."
+        },
+        {
+          "de": "Das Unternehmen überprüft seine Maßnahmen zur Chancengleichheit.",
+          "ar": "تراجع الشركة إجراءات تكافؤ الفرص."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gleichstellung",
+        "gesellschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v078",
+      "identity": "die gleichberechtigung",
+      "term": "die Gleichberechtigung",
+      "type": "noun",
+      "arabic": "المساواة في الحقوق",
+      "explanation_de": "Der rechtliche und gesellschaftliche Grundsatz gleicher Rechte und Möglichkeiten.",
+      "explanation_ar": "مبدأ قانوني واجتماعي للمساواة في الحقوق والفرص.",
+      "examples": [
+        {
+          "de": "Gleichberechtigung betrifft Beruf, Familie und gesellschaftliche Teilhabe.",
+          "ar": "تشمل المساواة العمل والأسرة والمشاركة المجتمعية."
+        },
+        {
+          "de": "Formale Gleichberechtigung führt nicht automatisch zu gleicher Aufgabenverteilung.",
+          "ar": "لا تؤدي المساواة القانونية تلقائيًا إلى توزيع متساوٍ للمهام."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gleichstellung",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v079",
+      "identity": "die rollenveränderung",
+      "term": "die Rollenveränderung",
+      "type": "noun",
+      "arabic": "تغير الأدوار",
+      "explanation_de": "Eine längerfristige Veränderung gesellschaftlicher oder familiärer Erwartungen an bestimmte Rollen.",
+      "explanation_ar": "تغير طويل الأمد في التوقعات الاجتماعية أو العائلية المتعلقة بالأدوار.",
+      "examples": [
+        {
+          "de": "Die Rollenveränderung zeigt sich auch bei der Elternzeit.",
+          "ar": "يظهر تغير الأدوار أيضًا في إجازة الوالدين."
+        },
+        {
+          "de": "Technischer und gesellschaftlicher Wandel beschleunigt Rollenveränderungen.",
+          "ar": "يسرّع التحول التقني والاجتماعي تغير الأدوار."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "gesellschaft",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Rollenveränderungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v080",
+      "identity": "das beziehungsumfeld",
+      "term": "das Beziehungsumfeld",
+      "type": "noun",
+      "arabic": "المحيط الاجتماعي للعلاقة",
+      "explanation_de": "Das soziale Umfeld aus Familie, Freundeskreis und weiteren Bezugspersonen, das eine Partnerschaft beeinflusst.",
+      "explanation_ar": "المحيط الاجتماعي من الأسرة والأصدقاء والأشخاص المقربين المؤثر في العلاقة.",
+      "examples": [
+        {
+          "de": "Das Beziehungsumfeld kann Eltern stark unterstützen.",
+          "ar": "قد يدعم المحيط الاجتماعي الأهل كثيرًا."
+        },
+        {
+          "de": "Fehlende Unterstützung im Beziehungsumfeld erhöht die Belastung.",
+          "ar": "يزيد غياب الدعم من الضغط."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "beziehung",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "das",
+        "plural": "die Beziehungsumfelder"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v081",
+      "identity": "die familiengründung",
+      "term": "die Familiengründung",
+      "type": "noun",
+      "arabic": "تأسيس أسرة",
+      "explanation_de": "Die Lebensphase, in der eine Partnerschaft eine Familie mit Kindern gründet.",
+      "explanation_ar": "مرحلة تأسيس الزوجين أسرة مع أطفال.",
+      "examples": [
+        {
+          "de": "Die Familiengründung verändert häufig die berufliche Planung.",
+          "ar": "يغير تأسيس الأسرة التخطيط المهني غالبًا."
+        },
+        {
+          "de": "Vor der Familiengründung sprachen beide über die Aufgabenverteilung.",
+          "ar": "تحدث الطرفان عن توزيع المهام قبل تأسيس الأسرة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Familiengründungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v082",
+      "identity": "die karriereunterbrechung",
+      "term": "die Karriereunterbrechung",
+      "type": "noun",
+      "arabic": "انقطاع المسار المهني",
+      "explanation_de": "Eine zeitlich begrenzte Pause im Berufsleben, etwa wegen Betreuung, Pflege oder Weiterbildung.",
+      "explanation_ar": "توقف مؤقت في المسار المهني بسبب الرعاية أو التمريض أو التدريب.",
+      "examples": [
+        {
+          "de": "Eine längere Karriereunterbrechung kann den Wiedereinstieg erschweren.",
+          "ar": "قد يصعب الانقطاع الطويل العودة للعمل."
+        },
+        {
+          "de": "Das Programm unterstützt Frauen nach einer Karriereunterbrechung.",
+          "ar": "يدعم البرنامج النساء بعد انقطاع مهني."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "karriere",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Karriereunterbrechungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v083",
+      "identity": "die elternzeit",
+      "term": "die Elternzeit",
+      "type": "noun",
+      "arabic": "إجازة الوالدين",
+      "explanation_de": "Eine gesetzlich geregelte berufliche Auszeit zur Betreuung eines Kindes.",
+      "explanation_ar": "إجازة منظمة قانونيًا لرعاية الطفل.",
+      "examples": [
+        {
+          "de": "Beide Eltern können Elternzeit nehmen.",
+          "ar": "يمكن للوالدين أخذ إجازة والدية."
+        },
+        {
+          "de": "Eine gute Planung erleichtert den Wiedereinstieg nach der Elternzeit.",
+          "ar": "يسهل التخطيط العودة بعد الإجازة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          236,
+          240
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "arbeitsrecht"
+      ],
+      "globalRef": "nouns:noun_0490",
+      "integrationStatus": "linked_to_production",
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v084",
+      "identity": "die betreuungslücke",
+      "term": "die Betreuungslücke",
+      "type": "noun",
+      "arabic": "فجوة أو نقص في رعاية الأطفال",
+      "explanation_de": "Ein Zeitraum, in dem keine geeignete Betreuung für ein Kind oder eine pflegebedürftige Person verfügbar ist.",
+      "explanation_ar": "فترة لا تتوفر فيها رعاية مناسبة لطفل أو شخص محتاج للرعاية.",
+      "examples": [
+        {
+          "de": "Die Betreuungslücke am Nachmittag erschwert ihre Arbeitsplanung.",
+          "ar": "تصعّب فجوة الرعاية تخطيط عملها."
+        },
+        {
+          "de": "Flexible Schichten können eine Betreuungslücke teilweise überbrücken.",
+          "ar": "قد تساعد المناوبات المرنة في سد فجوة الرعاية."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          234,
+          236,
+          240
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "betreuung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Betreuungslücken"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v085",
+      "identity": "die arbeitszeitreduzierung",
+      "term": "die Arbeitszeitreduzierung",
+      "type": "noun",
+      "arabic": "تخفيض ساعات العمل",
+      "explanation_de": "Die vereinbarte Verringerung der regelmäßigen Arbeitszeit.",
+      "explanation_ar": "خفض ساعات العمل المنتظمة باتفاق.",
+      "examples": [
+        {
+          "de": "Die Arbeitszeitreduzierung wurde für ein Jahr vereinbart.",
+          "ar": "تم الاتفاق على تخفيض ساعات العمل لمدة سنة."
+        },
+        {
+          "de": "Vor einer Arbeitszeitreduzierung sollten finanzielle Folgen geprüft werden.",
+          "ar": "ينبغي فحص الآثار المالية قبل تخفيض الساعات."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          236,
+          240,
+          241
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "arbeitszeit",
+        "familie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check",
+      "grammar": {
+        "article": "die",
+        "plural": "die Arbeitszeitreduzierungen"
+      }
+    },
+    {
+      "courseItemId": "b2u13-v086",
+      "identity": "kinderbetreuung organisieren",
+      "term": "Kinderbetreuung organisieren",
+      "type": "phrase",
+      "arabic": "ينظم رعاية الأطفال",
+      "explanation_de": "Verlässlich klären, wer ein Kind zu welchen Zeiten betreut.",
+      "explanation_ar": "تحديد من يرعى الطفل وفي أي أوقات بصورة موثوقة.",
+      "examples": [
+        {
+          "de": "Vor der Spätschicht muss sie die Kinderbetreuung organisieren.",
+          "ar": "يجب أن تنظم رعاية الطفل قبل المناوبة المسائية."
+        },
+        {
+          "de": "Das Paar organisiert die Kinderbetreuung gemeinsam.",
+          "ar": "ينظم الزوجان رعاية الأطفال معًا."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          234,
+          236,
+          240
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "betreuung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v087",
+      "identity": "betreuungsaufgaben aufteilen",
+      "term": "Betreuungsaufgaben aufteilen",
+      "type": "phrase",
+      "arabic": "يقسم مهام الرعاية",
+      "explanation_de": "Aufgaben der Kinder- oder Angehörigenbetreuung fair zwischen mehreren Personen verteilen.",
+      "explanation_ar": "توزيع مهام رعاية الأطفال أو الأقارب بعدل بين عدة أشخاص.",
+      "examples": [
+        {
+          "de": "Beide Partner teilen die Betreuungsaufgaben verbindlich auf.",
+          "ar": "يقسم الطرفان مهام الرعاية بوضوح."
+        },
+        {
+          "de": "Eine faire Aufteilung entlastet die Familie.",
+          "ar": "يخفف التقسيم العادل الضغط عن الأسرة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "aufgaben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v088",
+      "identity": "karriere und familie vereinbaren",
+      "term": "Karriere und Familie vereinbaren",
+      "type": "phrase",
+      "arabic": "يوفّق بين المهنة والأسرة",
+      "explanation_de": "Berufliche Entwicklung und familiäre Verantwortung so organisieren, dass beides dauerhaft möglich bleibt.",
+      "explanation_ar": "تنظيم التطور المهني والمسؤولية الأسرية بما يسمح باستمرارهما.",
+      "examples": [
+        {
+          "de": "Flexible Modelle helfen, Karriere und Familie zu vereinbaren.",
+          "ar": "تساعد النماذج المرنة على التوفيق بينهما."
+        },
+        {
+          "de": "Viele Beschäftigte wünschen sich Unterstützung, um Karriere und Familie zu vereinbaren.",
+          "ar": "يرغب كثير من الموظفين في دعم للتوفيق بينهما."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          229,
+          230,
+          234,
+          236,
+          240,
+          241
+        ],
+        "section": "Beruf und Familie"
+      },
+      "tags": [
+        "familie",
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u13-v089",
+      "identity": "auf hilfe angewiesen sein",
+      "term": "auf Hilfe angewiesen sein",
+      "type": "phrase",
+      "arabic": "يكون بحاجة إلى مساعدة",
+      "explanation_de": "Eine Aufgabe oder Situation nicht ohne Unterstützung anderer bewältigen können.",
+      "explanation_ar": "عدم القدرة على التعامل مع مهمة أو موقف دون دعم الآخرين.",
+      "examples": [
+        {
+          "de": "Viele Eltern sind zeitweise auf Hilfe der Großeltern angewiesen.",
+          "ar": "يعتمد كثير من الأهل أحيانًا على مساعدة الأجداد."
+        },
+        {
+          "de": "Bei kurzfristigen Schichtänderungen ist sie auf Unterstützung angewiesen.",
+          "ar": "تحتاج إلى دعم عند تغيير المناوبات فجأة."
+        }
+      ],
+      "source": {
+        "unit": 13,
+        "pages": [
+          234,
+          235,
+          240,
+          241
+        ],
+        "section": "Veränderte Rollen"
+      },
+      "tags": [
+        "familie",
+        "unterstützung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}

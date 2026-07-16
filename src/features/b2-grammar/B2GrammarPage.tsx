@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { AlertCircle, BookOpen, CheckCircle2, Clock, Play, RotateCcw } from "lucide-react";
+import { AlertCircle, ArrowLeft, BookOpen, CheckCircle2, Clock, Play, RotateCcw } from "lucide-react";
 import { B2GrammarProgressService } from "./b2GrammarProgressService";
 import { findB2GrammarTopic, loadB2GrammarCourse } from "./b2GrammarService";
 import B2GrammarUnitPage from "./B2GrammarUnitPage";
@@ -7,16 +7,30 @@ import { B2GrammarCourse, B2GrammarMode } from "./types";
 import { UserSettings } from "../../types";
 
 interface Props {
+  onNavigate: (page: string, params?: unknown) => void;
   settings: UserSettings;
 }
 
-export default function B2GrammarPage({ settings }: Props) {
+const GRAMMAR_MODES: readonly B2GrammarMode[] = ["learn", "practice", "mistakes", "mixed"];
+
+function readGrammarRoute(): { topicId: string; mode: B2GrammarMode } {
+  const [page, topicId = "", rawMode = "learn"] = window.location.hash.slice(1).split("/");
+  const mode = GRAMMAR_MODES.includes(rawMode as B2GrammarMode) ? rawMode as B2GrammarMode : "learn";
+  return page === "b2-grammar" && /^gr-\d{2}$/.test(topicId) ? { topicId, mode } : { topicId: "", mode: "learn" };
+}
+
+function setGrammarRoute(topicId = "", mode: B2GrammarMode = "learn"): void {
+  const suffix = topicId ? `/${topicId}/${mode}` : "";
+  window.history.pushState(null, "", `${window.location.pathname}${window.location.search}#b2-grammar${suffix}`);
+}
+
+export default function B2GrammarPage({ onNavigate, settings }: Props) {
   const language = settings.language === "ar" ? "ar" : "de";
   const isAr = language === "ar";
   const [course, setCourse] = useState<B2GrammarCourse | null>(null);
   const [error, setError] = useState("");
-  const [selectedTopicId, setSelectedTopicId] = useState("");
-  const [initialMode, setInitialMode] = useState<B2GrammarMode>("learn");
+  const [selectedTopicId, setSelectedTopicId] = useState(() => readGrammarRoute().topicId);
+  const [initialMode, setInitialMode] = useState<B2GrammarMode>(() => readGrammarRoute().mode);
   const [progressRevision, setProgressRevision] = useState(0);
 
   useEffect(() => {
@@ -27,12 +41,27 @@ export default function B2GrammarPage({ settings }: Props) {
     return () => { active = false; };
   }, []);
 
+  useEffect(() => {
+    const syncRoute = () => {
+      const route = readGrammarRoute();
+      setSelectedTopicId(route.topicId);
+      setInitialMode(route.mode);
+    };
+    window.addEventListener("popstate", syncRoute);
+    window.addEventListener("hashchange", syncRoute);
+    return () => {
+      window.removeEventListener("popstate", syncRoute);
+      window.removeEventListener("hashchange", syncRoute);
+    };
+  }, []);
+
   const selectedTopic = useMemo(
     () => course && selectedTopicId ? findB2GrammarTopic(course, selectedTopicId) : undefined,
     [course, selectedTopicId],
   );
 
   const openTopic = (topicId: string, mode: B2GrammarMode) => {
+    setGrammarRoute(topicId, mode);
     setSelectedTopicId(topicId);
     setInitialMode(mode);
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -55,13 +84,17 @@ export default function B2GrammarPage({ settings }: Props) {
   }
 
   if (selectedTopic) {
-    const mixedId = selectedTopic.phaseId === "grammar-phase-1" ? "gr-10" : "gr-20";
+    const mixedId = course.topics
+      .filter((topic) => topic.phaseId === selectedTopic.phaseId)
+      .sort((a, b) => a.index.order - b.index.order)
+      .at(-1)?.index.id ?? selectedTopic.index.id;
     return (
       <B2GrammarUnitPage
         topic={selectedTopic}
         initialMode={initialMode}
         language={language}
-        onBack={() => { setSelectedTopicId(""); setProgressRevision((value) => value + 1); }}
+        onBack={() => { setGrammarRoute(); setSelectedTopicId(""); setProgressRevision((value) => value + 1); }}
+        onModeChange={(mode) => { setGrammarRoute(selectedTopic.index.id, mode); setInitialMode(mode); }}
         onMixed={() => openTopic(mixedId, "mixed")}
         onProgress={() => setProgressRevision((value) => value + 1)}
       />
@@ -77,10 +110,20 @@ export default function B2GrammarPage({ settings }: Props) {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
       <header className="mb-8 border-b border-slate-200 pb-7">
+        <button
+          type="button"
+          onClick={() => onNavigate("b2-course")}
+          className="mb-4 flex min-h-11 items-center gap-2 text-sm font-bold text-slate-500 hover:text-blue-700"
+        >
+          <ArrowLeft size={17} className={isAr ? "rotate-180" : ""} />
+          {isAr ? "العودة إلى كورس B2" : "Zurück zum B2 Kurs"}
+        </button>
         <p className="text-xs font-black uppercase text-blue-600">B2 · Grammatik</p>
         <h1 className="mt-2 text-3xl font-black text-slate-950">{isAr ? "قواعد B2" : "B2 Grammatik"}</h1>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
-          {isAr ? "عشرون وحدة مستقلة للتعلّم والتدريب ومراجعة الأخطاء، مع حفظ تقدمك محليًا." : "Zwanzig Einheiten zum Lernen, Üben und Wiederholen mit lokal gespeichertem Fortschritt."}
+          {isAr
+            ? `${course.topics.length} وحدة مستقلة للتعلّم والتدريب ومراجعة الأخطاء، مع حفظ تقدمك محليًا.`
+            : `${course.topics.length} Einheiten zum Lernen, Üben und Wiederholen mit lokal gespeichertem Fortschritt.`}
         </p>
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
           <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "الوحدات" : "Einheiten"}</span><p className="mt-1 text-2xl font-black">{course.topics.length}</p></div>
@@ -100,7 +143,7 @@ export default function B2GrammarPage({ settings }: Props) {
                   <h2 className="text-xl font-black text-slate-900">{isAr ? phase.title_ar : phase.title_de}</h2>
                   <p className="mt-1 text-sm text-slate-500">{phase.topicCount} {isAr ? "وحدات" : "Einheiten"} · {phase.exerciseCount} {isAr ? "تمرينًا" : "Übungen"}</p>
                 </div>
-                <button type="button" onClick={() => openTopic(phase.phaseId === "grammar-phase-1" ? "gr-10" : "gr-20", "mixed")} className="flex items-center gap-2 border border-slate-300 bg-white px-4 py-2 text-sm font-bold rounded-lg"><Play size={16} />{isAr ? "التدريب المختلط" : "Gemischtes Training"}</button>
+                <button type="button" onClick={() => { const mixedTopic = phaseTopics.slice().sort((a, b) => a.index.order - b.index.order).at(-1); if (mixedTopic) openTopic(mixedTopic.index.id, "mixed"); }} className="flex items-center gap-2 border border-slate-300 bg-white px-4 py-2 text-sm font-bold rounded-lg"><Play size={16} />{isAr ? "التدريب المختلط" : "Gemischtes Training"}</button>
               </div>
 
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

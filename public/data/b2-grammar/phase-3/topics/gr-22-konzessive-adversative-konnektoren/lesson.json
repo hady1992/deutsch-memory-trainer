@@ -1,0 +1,397 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-22",
+  "slug": "gr-22-konzessive-adversative-konnektoren",
+  "order": 22,
+  "title_de": "Konzessive und adversative Konnektoren",
+  "title_ar": "أدوات الربط الاستدراكية والتعارضية",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konnektoren",
+  "estimatedMinutes": 55,
+  "learningObjectives_de": [
+    "Gegensätze mit aber, sondern, jedoch und dagegen korrekt ausdrücken.",
+    "Einräumungen mit obwohl, obgleich und trotzdem formulieren.",
+    "Nicht nur ... sondern auch und zwar ... aber sicher verwenden.",
+    "Die Wortstellung nach Nebensatzkonnektoren und Konjunktionaladverbien unterscheiden.",
+    "Sondern korrekt nach einer Negation verwenden.",
+    "Konzessive und adversative Beziehungen in beruflichen Texten präzise darstellen.",
+    "Stilistische Unterschiede zwischen neutralen, formellen und gehobenen Konnektoren erkennen."
+  ],
+  "learningObjectives_ar": [
+    "التعبير عن التعارض باستخدام aber وsondern وjedoch وdagegen.",
+    "صياغة الاستدراك أو التنازل باستخدام obwohl وobgleich وtrotzdem.",
+    "استخدام nicht nur ... sondern auch وzwar ... aber بصورة صحيحة.",
+    "التمييز بين ترتيب الجملة بعد أدوات الجمل الفرعية وروابط الجمل الرئيسية.",
+    "استخدام sondern بصورة صحيحة بعد النفي.",
+    "عرض العلاقات الاستدراكية والتعارضية بدقة في النصوص المهنية.",
+    "تمييز الفروق الأسلوبية بين الأدوات المحايدة والرسمية والرفيعة."
+  ],
+  "shortDescription_de": "Konzessive Konnektoren drücken aus, dass etwas trotz eines Gegengrundes geschieht. Adversative Konnektoren stellen zwei Aussagen oder Eigenschaften einander gegenüber.",
+  "shortDescription_ar": "تعبّر الأدوات الاستدراكية عن حدوث شيء رغم وجود سبب معاكس، بينما تقارن الأدوات التعارضية بين عبارتين أو صفتين متقابلتين.",
+  "explanation_de": "Obwohl und obgleich leiten Nebensätze ein; das konjugierte Verb steht am Ende. Trotzdem leitet einen Hauptsatz ein und steht häufig auf Position 1, gefolgt vom konjugierten Verb. Aber verbindet zwei Hauptsätze oder Satzteile und drückt einen neutralen Gegensatz aus. Jedoch ist oft formeller als aber und kann im Satzinneren oder am Satzanfang stehen; dann folgt das Verb direkt. Dagegen stellt zwei Sachverhalte ausdrücklich gegenüber. Sondern wird nach einer verneinten Aussage verwendet und korrigiert sie: nicht ..., sondern ... Zwar ... aber räumt den ersten Punkt ein und stellt anschließend einen Gegengedanken gegenüber. Nicht nur ... sondern auch verbindet zwei positive Informationen und verstärkt die Aussage.",
+  "explanation_ar": "تدخل obwohl وobgleich جملة فرعية، ولذلك يأتي الفعل المصرف في النهاية. أما trotzdem فتدخل جملة رئيسية وغالبًا تأتي في المرتبة الأولى ويأتي الفعل بعدها مباشرة. ويربط aber بين جملتين رئيسيتين أو عنصرين ويعبّر عن تعارض محايد. وتبدو jedoch أكثر رسمية من aber غالبًا، ويمكن أن تأتي في بداية الجملة أو داخلها. أما dagegen فتقارن بين حالتين أو معلومتين بشكل واضح. وتُستخدم sondern بعد جملة منفية لتصحيحها: nicht ..., sondern ... وتعترف zwar ... aber بالنقطة الأولى ثم تقدم فكرة معاكسة. أما nicht nur ... sondern auch فتربط بين معلومتين إيجابيتين وتؤكد كلتيهما.",
+  "rules": [
+    {
+      "id": "gr22-r01",
+      "title_de": "Obwohl + Nebensatz",
+      "title_ar": "obwohl مع جملة فرعية",
+      "explanation_de": "Obwohl nennt einen Gegengrund. Das Verb steht am Ende.",
+      "explanation_ar": "تذكر obwohl سببًا معاكسًا ويأتي الفعل في النهاية.",
+      "formula": "Hauptsatz, obwohl + ... + Verb",
+      "examples": [
+        {
+          "de": "Wir führen das Projekt fort, obwohl das Budget knapp ist.",
+          "ar": "نواصل المشروع رغم أن الميزانية محدودة."
+        },
+        {
+          "de": "Obwohl die Frist kurz war, wurde der Bericht rechtzeitig fertig.",
+          "ar": "رغم أن المهلة كانت قصيرة، أُنجز التقرير في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r02",
+      "title_de": "Obgleich",
+      "title_ar": "obgleich",
+      "explanation_de": "Obgleich hat dieselbe Funktion wie obwohl, wirkt aber formeller oder gehobener.",
+      "explanation_ar": "تؤدي obgleich وظيفة obwohl نفسها لكنها تبدو أكثر رسمية أو فصاحة.",
+      "formula": "obgleich + ... + Verb",
+      "examples": [
+        {
+          "de": "Obgleich mehrere Risiken bestanden, wurde die Maßnahme umgesetzt.",
+          "ar": "رغم وجود عدة مخاطر، تم تنفيذ الإجراء."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r03",
+      "title_de": "Trotzdem",
+      "title_ar": "trotzdem",
+      "explanation_de": "Trotzdem leitet die unerwartete Folge in einem Hauptsatz ein.",
+      "explanation_ar": "تقدم trotzdem النتيجة غير المتوقعة في جملة رئيسية.",
+      "formula": "Gegengrund. Trotzdem + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Das Budget ist knapp. Trotzdem führen wir das Projekt fort.",
+          "ar": "الميزانية محدودة، ومع ذلك نواصل المشروع."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r04",
+      "title_de": "Aber",
+      "title_ar": "aber",
+      "explanation_de": "Aber drückt einen neutralen Gegensatz aus und verändert die Hauptsatzstellung nicht.",
+      "explanation_ar": "تعبّر aber عن تعارض محايد ولا تغيّر ترتيب الجملة الرئيسية.",
+      "formula": "Hauptsatz, aber + Subjekt + Verb + ...",
+      "examples": [
+        {
+          "de": "Die Lösung ist einfach, aber sie ist nicht dauerhaft.",
+          "ar": "الحل بسيط لكنه غير دائم."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r05",
+      "title_de": "Jedoch",
+      "title_ar": "jedoch",
+      "explanation_de": "Jedoch drückt einen Gegensatz aus und wirkt häufig formeller als aber.",
+      "explanation_ar": "تعبّر jedoch عن تعارض وغالبًا تبدو أكثر رسمية من aber.",
+      "formula": "Aussage. Jedoch + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Die erste Lösung war kostengünstig. Jedoch erfüllte sie nicht alle Anforderungen.",
+          "ar": "كان الحل الأول منخفض التكلفة، لكنه لم يلبِّ جميع المتطلبات."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r06",
+      "title_de": "Dagegen",
+      "title_ar": "dagegen",
+      "explanation_de": "Dagegen stellt zwei Sachverhalte direkt gegenüber.",
+      "explanation_ar": "تقارن dagegen بين حالتين مباشرة.",
+      "formula": "Aussage 1. Dagegen + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Die alte Software ist langsam. Dagegen arbeitet das neue System deutlich schneller.",
+          "ar": "البرنامج القديم بطيء، بينما يعمل النظام الجديد بسرعة أكبر بكثير."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r07",
+      "title_de": "Sondern",
+      "title_ar": "sondern",
+      "explanation_de": "Sondern folgt auf eine verneinte Aussage und korrigiert sie.",
+      "explanation_ar": "تأتي sondern بعد جملة منفية لتصحيحها.",
+      "formula": "nicht ..., sondern ...",
+      "examples": [
+        {
+          "de": "Nicht die Technik, sondern die fehlende Planung war das Problem.",
+          "ar": "لم تكن التقنية هي المشكلة، بل كان التخطيط الناقص."
+        },
+        {
+          "de": "Wir brauchen nicht mehr Personal, sondern klarere Abläufe.",
+          "ar": "لا نحتاج إلى موظفين أكثر، بل إلى إجراءات أوضح."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r08",
+      "title_de": "Zwar ... aber",
+      "title_ar": "zwar ... aber",
+      "explanation_de": "Zwar räumt den ersten Punkt ein; aber stellt anschließend einen Gegengedanken gegenüber.",
+      "explanation_ar": "تعترف zwar بالنقطة الأولى ثم تقدم aber فكرة معاكسة.",
+      "formula": "zwar ..., aber ...",
+      "examples": [
+        {
+          "de": "Die Umstellung ist zwar aufwendig, aber langfristig sinnvoll.",
+          "ar": "التحول مرهق فعلًا، لكنه مفيد على المدى الطويل."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r09",
+      "title_de": "Nicht nur ... sondern auch",
+      "title_ar": "nicht nur ... sondern auch",
+      "explanation_de": "Die Verbindung ergänzt eine zweite positive Information und verstärkt beide Aussagen.",
+      "explanation_ar": "تضيف هذه الصيغة معلومة إيجابية ثانية وتؤكد العبارتين.",
+      "formula": "nicht nur ..., sondern auch ...",
+      "examples": [
+        {
+          "de": "Die neue Regelung spart nicht nur Zeit, sondern verbessert auch die Qualität.",
+          "ar": "لا يوفر النظام الجديد الوقت فقط، بل يحسن الجودة أيضًا."
+        }
+      ]
+    },
+    {
+      "id": "gr22-r10",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "explanation_de": "Steht der obwohl-Satz zuerst, beginnt der Hauptsatz direkt mit dem konjugierten Verb.",
+      "explanation_ar": "إذا جاءت جملة obwohl أولًا تبدأ الجملة الرئيسية مباشرة بالفعل المصرف.",
+      "formula": "Obwohl + ... + Verb, Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Obwohl die Daten unvollständig waren, konnte eine vorläufige Bewertung erstellt werden.",
+          "ar": "رغم أن البيانات كانت غير مكتملة، أمكن إعداد تقييم أولي."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr22-t01",
+      "title_de": "Konnektoren und Satzstellung",
+      "title_ar": "أدوات الربط وترتيب الجملة",
+      "headers_de": [
+        "Konnektor",
+        "Funktion",
+        "Satzstellung"
+      ],
+      "headers_ar": [
+        "الأداة",
+        "الوظيفة",
+        "ترتيب الجملة"
+      ],
+      "rows": [
+        [
+          "obwohl",
+          "Einräumung",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "obgleich",
+          "formelle Einräumung",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "trotzdem",
+          "unerwartete Folge",
+          "Verb direkt nach dem Konnektor"
+        ],
+        [
+          "aber",
+          "neutraler Gegensatz",
+          "normale Hauptsatzstellung"
+        ],
+        [
+          "jedoch",
+          "formeller Gegensatz",
+          "bei Satzanfang Verb direkt danach"
+        ],
+        [
+          "dagegen",
+          "direkte Gegenüberstellung",
+          "Verb direkt danach"
+        ],
+        [
+          "sondern",
+          "Korrektur nach Negation",
+          "normale Satzstellung"
+        ]
+      ]
+    },
+    {
+      "id": "gr22-t02",
+      "title_de": "Einräumung umformen",
+      "title_ar": "تحويل الاستدراك",
+      "headers_de": [
+        "Mit obwohl",
+        "Mit trotzdem"
+      ],
+      "headers_ar": [
+        "باستخدام obwohl",
+        "باستخدام trotzdem"
+      ],
+      "rows": [
+        [
+          "Wir arbeiten weiter, obwohl das Budget knapp ist.",
+          "Das Budget ist knapp. Trotzdem arbeiten wir weiter."
+        ],
+        [
+          "Obwohl die Frist kurz war, wurde alles fertig.",
+          "Die Frist war kurz. Trotzdem wurde alles fertig."
+        ],
+        [
+          "Obwohl es Einwände gab, wurde entschieden.",
+          "Es gab Einwände. Trotzdem wurde entschieden."
+        ]
+      ]
+    },
+    {
+      "id": "gr22-t03",
+      "title_de": "Typische Kontraste",
+      "title_ar": "تعارضات شائعة",
+      "headers_de": [
+        "Struktur",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "nicht ..., sondern ...",
+          "Korrektur",
+          "Nicht teuer, sondern ineffizient."
+        ],
+        [
+          "zwar ..., aber ...",
+          "Einräumung + Gegensatz",
+          "Zwar schnell, aber ungenau."
+        ],
+        [
+          "nicht nur ..., sondern auch ...",
+          "Ergänzung und Verstärkung",
+          "Nicht nur schnell, sondern auch sicher."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Obwohl mehrere Mitarbeitende krank waren, konnte der Betrieb aufrechterhalten werden.",
+      "ar": "رغم مرض عدة موظفين، أمكن استمرار العمل.",
+      "note_de": "Konzessiver Nebensatz mit obwohl.",
+      "note_ar": "جملة استدراكية باستخدام obwohl."
+    },
+    {
+      "de": "Die erste Lösung war günstig. Jedoch verursachte sie langfristig höhere Folgekosten.",
+      "ar": "كان الحل الأول رخيصًا، لكنه تسبب في تكاليف لاحقة أعلى.",
+      "note_de": "Formeller Gegensatz mit jedoch.",
+      "note_ar": "تعارض رسمي باستخدام jedoch."
+    },
+    {
+      "de": "Nicht die Arbeitsmenge, sondern die unklare Aufgabenverteilung führte zu Verzögerungen.",
+      "ar": "لم يكن حجم العمل، بل عدم وضوح توزيع المهام، سبب التأخير.",
+      "note_de": "Korrektur mit sondern.",
+      "note_ar": "تصحيح باستخدام sondern."
+    },
+    {
+      "de": "Die neue Lösung ist zwar teurer, aber deutlich zuverlässiger.",
+      "ar": "الحل الجديد أغلى فعلًا، لكنه أكثر موثوقية بكثير.",
+      "note_de": "Einräumung mit zwar ... aber.",
+      "note_ar": "استدراك باستخدام zwar ... aber."
+    },
+    {
+      "de": "Die Maßnahme reduziert nicht nur die Kosten, sondern verbessert auch die Sicherheit.",
+      "ar": "لا يقلل الإجراء التكاليف فقط، بل يحسن السلامة أيضًا.",
+      "note_de": "Verstärkende Verbindung.",
+      "note_ar": "ربط تعزيزي."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Obwohl die Frist war kurz, wurde alles fertig.",
+      "correct": "Obwohl die Frist kurz war, wurde alles fertig.",
+      "explanation_de": "Nach obwohl steht das konjugierte Verb am Ende.",
+      "explanation_ar": "بعد obwohl يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Das Budget ist knapp. Trotzdem wir arbeiten weiter.",
+      "correct": "Das Budget ist knapp. Trotzdem arbeiten wir weiter.",
+      "explanation_de": "Nach trotzdem steht das konjugierte Verb direkt.",
+      "explanation_ar": "بعد trotzdem يأتي الفعل المصرف مباشرة."
+    },
+    {
+      "wrong": "Die Lösung ist einfach, aber ist sie nicht dauerhaft.",
+      "correct": "Die Lösung ist einfach, aber sie ist nicht dauerhaft.",
+      "explanation_de": "Nach aber bleibt die normale Hauptsatzstellung erhalten.",
+      "explanation_ar": "بعد aber يبقى ترتيب الجملة الرئيسية عاديًا."
+    },
+    {
+      "wrong": "Wir brauchen nicht mehr Personal, aber klarere Abläufe.",
+      "correct": "Wir brauchen nicht mehr Personal, sondern klarere Abläufe.",
+      "explanation_de": "Nach einer verneinten Korrektur verwendet man sondern.",
+      "explanation_ar": "بعد نفي وتصحيح نستخدم sondern."
+    },
+    {
+      "wrong": "Die Umstellung ist zwar aufwendig, sondern sinnvoll.",
+      "correct": "Die Umstellung ist zwar aufwendig, aber sinnvoll.",
+      "explanation_de": "Zwar wird normalerweise mit aber kombiniert.",
+      "explanation_ar": "تُستخدم zwar عادة مع aber."
+    },
+    {
+      "wrong": "Die Regelung spart nicht nur Zeit, aber verbessert auch die Qualität.",
+      "correct": "Die Regelung spart nicht nur Zeit, sondern verbessert auch die Qualität.",
+      "explanation_de": "Die feste Verbindung lautet nicht nur ... sondern auch.",
+      "explanation_ar": "الصيغة الثابتة هي nicht nur ... sondern auch."
+    }
+  ],
+  "quickSummary_de": [
+    "Obwohl und obgleich leiten Nebensätze ein; das Verb steht am Ende.",
+    "Trotzdem leitet eine unerwartete Folge ein; das Verb folgt direkt.",
+    "Aber drückt einen neutralen Gegensatz aus.",
+    "Jedoch wirkt oft formeller als aber.",
+    "Dagegen stellt zwei Sachverhalte direkt gegenüber.",
+    "Sondern steht nach einer verneinten Aussage und korrigiert sie.",
+    "Zwar ... aber verbindet Einräumung und Gegensatz.",
+    "Nicht nur ... sondern auch ergänzt und verstärkt.",
+    "Nach einem vorangestellten obwohl-Satz beginnt der Hauptsatz mit dem Verb.",
+    "Die Wahl des Konnektors beeinflusst Stil und Präzision."
+  ],
+  "quickSummary_ar": [
+    "تدخل obwohl وobgleich جملة فرعية ويأتي الفعل في النهاية.",
+    "تقدم trotzdem نتيجة غير متوقعة ويأتي الفعل بعدها مباشرة.",
+    "تعبّر aber عن تعارض محايد.",
+    "تبدو jedoch أكثر رسمية غالبًا من aber.",
+    "تقارن dagegen بين حالتين مباشرة.",
+    "تأتي sondern بعد جملة منفية لتصحيحها.",
+    "تربط zwar ... aber بين الاستدراك والتعارض.",
+    "تضيف nicht nur ... sondern auch معلومة ثانية وتؤكدها.",
+    "بعد جملة obwohl مقدمة تبدأ الجملة الرئيسية بالفعل.",
+    "يؤثر اختيار الأداة في الأسلوب والدقة."
+  ],
+  "relatedTopics": [
+    "gr-21",
+    "gr-23",
+    "gr-24",
+    "gr-30"
+  ]
+}

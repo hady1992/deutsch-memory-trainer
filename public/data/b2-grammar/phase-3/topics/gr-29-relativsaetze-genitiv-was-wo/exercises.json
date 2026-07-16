@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-29",
+  "title_de": "Relativsätze im Genitiv sowie mit was und wo – Übungen",
+  "title_ar": "تمارين الجمل الموصولة في Genitiv ومع was وwo",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr29-e001",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Dessen maskulin",
+      "title_ar": "dessen للمذكر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Mitarbeiter, dessen Antrag geprüft wird, wartet auf eine Rückmeldung.",
+      "explanation_de": "Das Bezugswort ist maskulin; deshalb steht dessen.",
+      "explanation_ar": "الاسم المرجعي مذكر، لذلك نستخدم dessen.",
+      "grammarFocus": "genitive_dessen_masc",
+      "options": [
+        "Der Mitarbeiter, dessen Antrag geprüft wird, wartet auf eine Rückmeldung.",
+        "Der Mitarbeiter, deren Antrag geprüft wird, wartet auf eine Rückmeldung.",
+        "Der Mitarbeiter, dessen der Antrag geprüft wird, wartet.",
+        "Der Mitarbeiter, dem Antrag geprüft wird, wartet."
+      ]
+    },
+    {
+      "id": "gr29-e002",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Deren feminin",
+      "title_ar": "deren للمؤنث",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Kollegin, deren Vorschlag angenommen wurde, leitet die Umsetzung.",
+      "explanation_de": "Das Bezugswort ist feminin; deshalb steht deren.",
+      "explanation_ar": "الاسم المرجعي مؤنث، لذلك نستخدم deren.",
+      "grammarFocus": "genitive_deren_fem",
+      "options": [
+        "Die Kollegin, deren Vorschlag angenommen wurde, leitet die Umsetzung.",
+        "Die Kollegin, dessen Vorschlag angenommen wurde, leitet die Umsetzung.",
+        "Die Kollegin, deren der Vorschlag angenommen wurde, leitet die Umsetzung.",
+        "Die Kollegin, der Vorschlag deren angenommen wurde, leitet die Umsetzung."
+      ]
+    },
+    {
+      "id": "gr29-e003",
+      "topicId": "gr-29",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Genitiv Plural",
+      "title_ar": "Genitiv الجمع",
+      "prompt_de": "Die Firmen, ______ Angebote geprüft wurden, erhalten nächste Woche eine Antwort.",
+      "prompt_ar": "الشركات التي تمت مراجعة عروضها ستتلقى ردًا الأسبوع المقبل.",
+      "answer": "deren",
+      "explanation_de": "Bei einem pluralen Bezugswort steht deren.",
+      "explanation_ar": "مع الاسم المرجعي في الجمع نستخدم deren.",
+      "grammarFocus": "genitive_plural",
+      "acceptedAnswers": [
+        "deren"
+      ]
+    },
+    {
+      "id": "gr29-e004",
+      "topicId": "gr-29",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Dessen oder deren",
+      "title_ar": "dessen أم deren",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "der Mitarbeiter": "dessen",
+        "die Kollegin": "deren",
+        "das Unternehmen": "dessen",
+        "die Firmen": "deren"
+      },
+      "explanation_de": "Die Form richtet sich nach Genus und Numerus des Bezugsworts.",
+      "explanation_ar": "تعتمد الصيغة على جنس الاسم المرجعي وعدده.",
+      "grammarFocus": "genitive_matching",
+      "pairs": [
+        [
+          "der Mitarbeiter",
+          "dessen"
+        ],
+        [
+          "die Kollegin",
+          "deren"
+        ],
+        [
+          "das Unternehmen",
+          "dessen"
+        ],
+        [
+          "die Firmen",
+          "deren"
+        ]
+      ]
+    },
+    {
+      "id": "gr29-e005",
+      "topicId": "gr-29",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Dessen im Relativsatz",
+      "title_ar": "dessen داخل الجملة الموصولة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Unternehmen, dessen Umsatz gestiegen ist, stellt neues Personal ein.",
+      "explanation_de": "Dessen bezieht sich auf das neutrale Bezugswort Unternehmen.",
+      "explanation_ar": "تعود dessen على الاسم المحايد Unternehmen.",
+      "grammarFocus": "dessen_order",
+      "tokens": [
+        "stellt neues Personal ein",
+        "dessen",
+        "gestiegen ist",
+        "Umsatz",
+        "Das Unternehmen"
+      ],
+      "acceptedAnswers": [
+        "Das Unternehmen, dessen Umsatz gestiegen ist, stellt neues Personal ein."
+      ]
+    },
+    {
+      "id": "gr29-e006",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Was nach alles",
+      "title_ar": "was بعد alles",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Alles, was Sie für den Antrag benötigen, finden Sie auf unserer Website.",
+      "explanation_de": "Nach alles verwendet man was.",
+      "explanation_ar": "بعد alles نستخدم was.",
+      "grammarFocus": "was_after_alles",
+      "options": [
+        "Alles, was Sie für den Antrag benötigen, finden Sie auf unserer Website.",
+        "Alles, das Sie für den Antrag benötigen, finden Sie online.",
+        "Alles, welches Sie benötigen, finden Sie online.",
+        "Alles, was benötigen Sie, finden Sie online."
+      ]
+    },
+    {
+      "id": "gr29-e007",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wo bei Ort",
+      "title_ar": "wo مع المكان",
+      "prompt_de": "Welche Form ist grammatisch möglich?",
+      "prompt_ar": "أي صيغة ممكنة نحويًا؟",
+      "answer": "Das ist der Ort, wo die Schulung stattfindet.",
+      "explanation_de": "Wo kann sich auf einen Ort beziehen; das Verb steht am Ende.",
+      "explanation_ar": "يمكن أن تعود wo على مكان، ويأتي الفعل في النهاية.",
+      "grammarFocus": "wo_place_basic",
+      "options": [
+        "Das ist der Ort, wo die Schulung stattfindet.",
+        "Das ist der Ort, wo findet die Schulung statt.",
+        "Das ist der Ort, was die Schulung stattfindet.",
+        "Das ist der Ort, dessen die Schulung stattfindet."
+      ]
+    },
+    {
+      "id": "gr29-e008",
+      "topicId": "gr-29",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Was nach nichts",
+      "title_ar": "was بعد nichts",
+      "prompt_de": "Es gibt nichts, ______ gegen die vorgeschlagene Lösung spricht.",
+      "prompt_ar": "لا يوجد ما يتعارض مع الحل المقترح.",
+      "answer": "was",
+      "explanation_de": "Nach nichts verwendet man was.",
+      "explanation_ar": "بعد nichts نستخدم was.",
+      "grammarFocus": "was_after_nichts",
+      "acceptedAnswers": [
+        "was"
+      ]
+    },
+    {
+      "id": "gr29-e009",
+      "topicId": "gr-29",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Genitiv verbinden",
+      "title_ar": "دمج باستخدام Genitiv",
+      "prompt_de": "Verbinden Sie: Der Kunde wurde informiert. Seine Beschwerde wird bearbeitet.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Der Kunde, dessen Beschwerde bearbeitet wird, wurde informiert.",
+      "explanation_de": "Dessen drückt die Zugehörigkeit der Beschwerde zum Kunden aus.",
+      "explanation_ar": "تعبّر dessen عن انتماء الشكوى إلى العميل.",
+      "grammarFocus": "combine_genitive_masc",
+      "acceptedAnswers": [
+        "Der Kunde, dessen Beschwerde bearbeitet wird, wurde informiert."
+      ]
+    },
+    {
+      "id": "gr29-e010",
+      "topicId": "gr-29",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Deren verbinden",
+      "title_ar": "دمج باستخدام deren",
+      "prompt_de": "Verbinden Sie: Die Abteilung erhält zusätzliche Stellen. Ihre Aufgaben wurden erweitert.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Die Abteilung, deren Aufgaben erweitert wurden, erhält zusätzliche Stellen.",
+      "explanation_de": "Deren bezieht sich auf das feminine Bezugswort Abteilung.",
+      "explanation_ar": "تعود deren على الاسم المؤنث Abteilung.",
+      "grammarFocus": "combine_genitive_fem",
+      "acceptedAnswers": [
+        "Die Abteilung, deren Aufgaben erweitert wurden, erhält zusätzliche Stellen."
+      ]
+    },
+    {
+      "id": "gr29-e011",
+      "topicId": "gr-29",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Was als Satzbezug",
+      "title_ar": "was للإشارة إلى جملة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Frist wurde verlängert, was alle Beteiligten entlastete.",
+      "explanation_de": "Was bezieht sich auf die gesamte vorhergehende Aussage.",
+      "explanation_ar": "تعود was على العبارة السابقة كاملة.",
+      "grammarFocus": "was_sentence_reference",
+      "tokens": [
+        "alle Beteiligten",
+        "was",
+        "entlastete",
+        "Die Frist wurde verlängert"
+      ],
+      "acceptedAnswers": [
+        "Die Frist wurde verlängert, was alle Beteiligten entlastete."
+      ]
+    },
+    {
+      "id": "gr29-e012",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Substantivierter Superlativ",
+      "title_ar": "صيغة تفضيل اسمية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Wichtigste, was wir jetzt brauchen, ist eine klare Entscheidung.",
+      "explanation_de": "Nach einem substantivierten Superlativ steht was.",
+      "explanation_ar": "بعد صيغة التفضيل الاسمية نستخدم was.",
+      "grammarFocus": "was_superlative",
+      "options": [
+        "Das Wichtigste, was wir jetzt brauchen, ist eine klare Entscheidung.",
+        "Das Wichtigste, das wir jetzt brauchen, ist eine klare Entscheidung.",
+        "Das Wichtigste, dessen wir brauchen, ist eine Entscheidung.",
+        "Das Wichtigste, was brauchen wir jetzt, ist eine Entscheidung."
+      ]
+    },
+    {
+      "id": "gr29-e013",
+      "topicId": "gr-29",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Was verwenden",
+      "title_ar": "استخدام was",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "alles": "was",
+        "etwas": "was",
+        "nichts": "was",
+        "das Beste": "was",
+        "ganzer Satz": "was"
+      },
+      "explanation_de": "In allen diesen Fällen ist was die passende Relativform.",
+      "explanation_ar": "في جميع هذه الحالات تكون was صيغة الوصل المناسبة.",
+      "grammarFocus": "was_usage_matching",
+      "pairs": [
+        [
+          "alles",
+          "was"
+        ],
+        [
+          "etwas",
+          "was"
+        ],
+        [
+          "nichts",
+          "was"
+        ],
+        [
+          "das Beste",
+          "was"
+        ],
+        [
+          "ganzer Satz",
+          "was"
+        ]
+      ]
+    },
+    {
+      "id": "gr29-e014",
+      "topicId": "gr-29",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Ortsangabe",
+      "title_ar": "إشارة مكان رسمية",
+      "prompt_de": "Welche Formulierung ist in einem formellen Text am präzisesten?",
+      "prompt_ar": "أي صياغة أدق في نص رسمي؟",
+      "answer": "Der Raum, in dem die Besprechung stattfindet, befindet sich im zweiten Stock.",
+      "explanation_de": "Bei einem konkreten Raum ist in dem formell präziser als wo.",
+      "explanation_ar": "مع غرفة محددة تكون in dem أدق رسميًا من wo.",
+      "grammarFocus": "formal_location_relative",
+      "options": [
+        "Der Raum, in dem die Besprechung stattfindet, befindet sich im zweiten Stock.",
+        "Der Raum, wo die Besprechung stattfindet, befindet sich im zweiten Stock.",
+        "Der Raum, in dem findet die Besprechung statt, befindet sich oben.",
+        "Der Raum, was die Besprechung stattfindet, befindet sich oben."
+      ]
+    },
+    {
+      "id": "gr29-e015",
+      "topicId": "gr-29",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dessen neutrum",
+      "title_ar": "dessen للمحايد",
+      "prompt_de": "Das Gebäude, ______ Eingang renoviert wird, bleibt geöffnet.",
+      "prompt_ar": "المبنى الذي يتم تجديد مدخله يبقى مفتوحًا.",
+      "answer": "dessen",
+      "explanation_de": "Das Bezugswort Gebäude ist neutral; deshalb steht dessen.",
+      "explanation_ar": "الاسم Gebäude محايد، لذلك نستخدم dessen.",
+      "grammarFocus": "dessen_neut_fill",
+      "acceptedAnswers": [
+        "dessen"
+      ]
+    },
+    {
+      "id": "gr29-e016",
+      "topicId": "gr-29",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Deren Plural",
+      "title_ar": "deren للجمع",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unternehmen, deren Produkte zertifiziert sind, dürfen am Verfahren teilnehmen.",
+      "explanation_de": "Deren bezieht sich auf das plurale Bezugswort Unternehmen.",
+      "explanation_ar": "تعود deren على الاسم Unternehmen في الجمع.",
+      "grammarFocus": "deren_plural_order",
+      "tokens": [
+        "dürfen am Verfahren teilnehmen",
+        "deren",
+        "zertifiziert sind",
+        "Produkte",
+        "Die Unternehmen"
+      ],
+      "acceptedAnswers": [
+        "Die Unternehmen, deren Produkte zertifiziert sind, dürfen am Verfahren teilnehmen."
+      ]
+    },
+    {
+      "id": "gr29-e017",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Woher und wohin",
+      "title_ar": "woher وwohin",
+      "prompt_de": "Welche Kombination ist korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة؟",
+      "answer": "Das ist die Abteilung, woher die Anfrage kam, und das Büro, wohin sie weitergeleitet wurde.",
+      "explanation_de": "Woher bezeichnet Herkunft, wohin Richtung.",
+      "explanation_ar": "تدل woher على المصدر وwohin على الاتجاه.",
+      "grammarFocus": "woher_wohin",
+      "options": [
+        "Das ist die Abteilung, woher die Anfrage kam, und das Büro, wohin sie weitergeleitet wurde.",
+        "Das ist die Abteilung, wohin die Anfrage kam, und das Büro, woher sie geschickt wurde.",
+        "Das ist die Abteilung, was die Anfrage kam, und das Büro, dessen sie ging.",
+        "Das ist die Abteilung, woher kam die Anfrage, und das Büro, wohin wurde sie geleitet."
+      ]
+    },
+    {
+      "id": "gr29-e018",
+      "topicId": "gr-29",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Kasus des folgenden Nomens",
+      "title_ar": "حالة الاسم بعد dessen",
+      "prompt_de": "Verbinden Sie: Der Bewerber wird eingeladen. Wir haben seine Unterlagen geprüft.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Der Bewerber, dessen Unterlagen wir geprüft haben, wird eingeladen.",
+      "explanation_de": "Dessen zeigt die Zugehörigkeit; Unterlagen ist Akkusativobjekt von prüfen.",
+      "explanation_ar": "توضح dessen الملكية، وUnterlagen مفعول Akkusativ للفعل prüfen.",
+      "grammarFocus": "genitive_following_noun_case",
+      "acceptedAnswers": [
+        "Der Bewerber, dessen Unterlagen wir geprüft haben, wird eingeladen."
+      ]
+    },
+    {
+      "id": "gr29-e019",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Satzbezug mit was",
+      "title_ar": "was مع جملة سابقة",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Der Server fiel erneut aus, was zu erheblichen Verzögerungen führte.",
+      "explanation_de": "Was bezieht sich auf den gesamten vorhergehenden Sachverhalt.",
+      "explanation_ar": "تعود was على الحدث السابق كاملًا.",
+      "grammarFocus": "was_full_clause",
+      "options": [
+        "Der Server fiel erneut aus, was zu erheblichen Verzögerungen führte.",
+        "Der Server fiel erneut aus, das zu erheblichen Verzögerungen führte.",
+        "Der Server fiel erneut aus, was führte zu Verzögerungen.",
+        "Der Server fiel erneut aus, dessen zu Verzögerungen führte."
+      ]
+    },
+    {
+      "id": "gr29-e020",
+      "topicId": "gr-29",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Die Bearbeitungszeit wurde deutlich verkürzt, was von den Kundinnen und Kunden positiv bewertet wurde.",
+      "explanation_de": "Was verknüpft die Bewertung mit der gesamten vorhergehenden Aussage.",
+      "explanation_ar": "تربط was التقييم بالعبارة السابقة كاملة.",
+      "grammarFocus": "formal_report_was",
+      "options": [
+        "Die Bearbeitungszeit wurde deutlich verkürzt, was von den Kundinnen und Kunden positiv bewertet wurde.",
+        "Die Bearbeitungszeit wurde verkürzt, das die Kunden positiv bewerteten.",
+        "Die Bearbeitungszeit wurde verkürzt, was wurde positiv bewertet.",
+        "Die Bearbeitungszeit wurde verkürzt, deren die Kunden positiv bewerteten."
+      ]
+    },
+    {
+      "id": "gr29-e021",
+      "topicId": "gr-29",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Genitivsatz",
+      "title_ar": "جملة Genitiv معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Bewerber, dessen Qualifikationen besonders gut zum Stellenprofil passen, wird erneut eingeladen.",
+      "explanation_de": "Dessen bezieht sich auf Bewerber; passen steht am Ende.",
+      "explanation_ar": "تعود dessen على Bewerber، وتأتي passen في النهاية.",
+      "grammarFocus": "complex_genitive_order",
+      "tokens": [
+        "wird erneut eingeladen",
+        "dessen",
+        "besonders gut",
+        "zum Stellenprofil",
+        "Der Bewerber",
+        "Qualifikationen",
+        "passen"
+      ],
+      "acceptedAnswers": [
+        "Der Bewerber, dessen Qualifikationen besonders gut zum Stellenprofil passen, wird erneut eingeladen."
+      ]
+    },
+    {
+      "id": "gr29-e022",
+      "topicId": "gr-29",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Wo oder in dem",
+      "title_ar": "wo أم in dem",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Der Raum, in dem wir arbeiten“ ist in einem formellen Text meist präziser als „der Raum, wo wir arbeiten“.",
+      "explanation_de": "Bei konkreten Nomen bevorzugt man in formellen Texten häufig Präposition + Relativpronomen.",
+      "explanation_ar": "مع الأسماء المحددة نفضّل غالبًا في النص الرسمي حرف الجر مع ضمير الوصل.",
+      "grammarFocus": "wo_formal_register",
+      "options": [
+        "„Der Raum, in dem wir arbeiten“ ist in einem formellen Text meist präziser als „der Raum, wo wir arbeiten“.",
+        "Wo ist bei jedem Bezugswort obligatorisch.",
+        "In dem darf nie in Relativsätzen stehen.",
+        "Wo kann nur auf Personen verweisen."
+      ]
+    },
+    {
+      "id": "gr29-e023",
+      "topicId": "gr-29",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Dessen, deren und was",
+      "title_ar": "dessen وderen وwas",
+      "prompt_de": "Bilden Sie drei Sätze: der Kunde / seine Beschwerde; die Firma / ihr Sitz; die Frist wurde verlängert / das entlastete alle.",
+      "prompt_ar": "كوّن ثلاث جمل موصولة.",
+      "answer": "Der Kunde, dessen Beschwerde bearbeitet wird, wurde informiert. Die Firma, deren Sitz in München liegt, wächst. Die Frist wurde verlängert, was alle Beteiligten entlastete.",
+      "explanation_de": "Die Sätze verwenden dessen, deren und was als Satzbezug.",
+      "explanation_ar": "تستخدم الجمل dessen وderen وwas للإشارة إلى جملة كاملة.",
+      "grammarFocus": "mixed_genitive_was",
+      "acceptedAnswers": [
+        "Der Kunde, dessen Beschwerde bearbeitet wird, wurde informiert. Die Firma, deren Sitz in München liegt, wächst. Die Frist wurde verlängert, was alle Beteiligten entlastete."
+      ]
+    },
+    {
+      "id": "gr29-e024",
+      "topicId": "gr-29",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Relativsätze",
+      "title_ar": "تدريب ختامي على الجمل الموصولة",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens zwei Sätze mit dessen, zwei mit deren, je einen Satz mit alles, was; nichts, was; einem substantivierten Superlativ mit was; einen Satzbezug mit was; einen Ortsbezug mit wo sowie zwei formell präzise Präpositionalformen wie in dem, in der, bei der oder an dem.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم جملتين على الأقل مع dessen، وجملتين مع deren، وجملة مع alles, was، وأخرى مع nichts, was، وصيغة تفضيل اسمية مع was، وجملة تستخدم was للإشارة إلى عبارة كاملة، ومرجعًا مكانيًا مع wo، وصيغتين رسميتين دقيقتين على الأقل مثل in dem وin der وbei der وan dem.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Relativsätze mit dessen",
+          "mindestens zwei Relativsätze mit deren",
+          "mindestens ein Satz mit alles, was",
+          "mindestens ein Satz mit nichts, was oder etwas, was",
+          "mindestens ein substantivierter Superlativ mit was",
+          "mindestens ein Satzbezug mit was",
+          "mindestens ein Ortsbezug mit wo",
+          "mindestens zwei Präpositionalformen statt wo",
+          "korrekte Kommas und Verbendstellung",
+          "sachlicher beruflicher Zusammenhang"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bezugswort, Besitzbeziehung, Wahl von was oder wo, Register und Wortstellung.",
+      "explanation_ar": "راجع الاسم المرجعي وعلاقة الملكية واختيار was أو wo والأسلوب وترتيب الكلمات.",
+      "grammarFocus": "mixed_genitive_was_wo",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

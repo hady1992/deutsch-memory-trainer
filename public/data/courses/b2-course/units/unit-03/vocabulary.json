@@ -1,0 +1,2722 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 3,
+    "unitTitle_de": "Arbeit im Team",
+    "unitTitle_ar": "العمل ضمن فريق",
+    "sourcePages": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Teamarbeit und Teamrollen",
+      "Neu im Team",
+      "berufliche Vorstellung per E-Mail",
+      "Protokoll und Tagesordnung",
+      "Teamgespräche und Redemittel",
+      "Passiv Präteritum"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter",
+      "wiederholte Lehrbuchanweisungen",
+      "bereits in Einheiten 1 und 2 vorhandene identische Begriffe",
+      "Inhalte aus Einheit 4 Tourismus"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u01-v048",
+      "term": "verantwortlich",
+      "pages": [
+        49,
+        50,
+        56
+      ],
+      "reason": "تظهر في سياق المسؤوليات داخل الفريق والمحضر."
+    },
+    {
+      "courseItemId": "b2u01-v049",
+      "term": "dringend",
+      "pages": [
+        48
+      ],
+      "reason": "تظهر في نصائح الموظف الجديد وسياق المهام."
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        49,
+        55,
+        59
+      ],
+      "reason": "تُعاد في رسائل التعريف الرسمية."
+    },
+    {
+      "courseItemId": "b2u02-v008",
+      "term": "der Lieferant / die Lieferantin",
+      "pages": [
+        49,
+        50,
+        56
+      ],
+      "reason": "تظهر في التواصل المهني واجتماع الفريق."
+    },
+    {
+      "courseItemId": "b2u02-v023",
+      "term": "der Dienstplan",
+      "pages": [
+        53
+      ],
+      "reason": "يُستخدم كموقف مقترح للعمل الجماعي."
+    },
+    {
+      "courseItemId": "b2u02-v024",
+      "term": "der Arbeitsauftrag",
+      "pages": [
+        49,
+        54
+      ],
+      "reason": "يظهر في يوم العمل الأول وتمارين المبني للمجهول."
+    },
+    {
+      "courseItemId": "b2u02-v026",
+      "term": "die Vertretung",
+      "pages": [
+        48
+      ],
+      "reason": "تظهر في نصائح بداية العمل."
+    },
+    {
+      "courseItemId": "b2u02-v058",
+      "term": "verfügbar",
+      "pages": [
+        51
+      ],
+      "reason": "تظهر عند مناقشة الوقت والقدرة على المشاركة."
+    },
+    {
+      "courseItemId": "b2u02-v059",
+      "term": "unangemessen",
+      "pages": [
+        48
+      ],
+      "reason": "تظهر لوصف السلوك أو التواصل غير الملائم."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u03-v001",
+      "identity": "die teamarbeit",
+      "term": "die Teamarbeit",
+      "type": "noun",
+      "arabic": "العمل الجماعي",
+      "explanation_de": "Die gemeinsame Arbeit mehrerer Personen an einem Ziel oder einer Aufgabe.",
+      "explanation_ar": "عمل عدة أشخاص معًا لتحقيق هدف أو إنجاز مهمة مشتركة.",
+      "examples": [
+        {
+          "de": "Gute Teamarbeit setzt klare Absprachen voraus.",
+          "ar": "يتطلب العمل الجماعي الجيد اتفاقات واضحة."
+        },
+        {
+          "de": "Durch Teamarbeit können komplexe Aufgaben schneller gelöst werden.",
+          "ar": "يمكن حل المهام المعقدة بسرعة أكبر من خلال العمل الجماعي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          47,
+          54,
+          60
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "team",
+        "zusammenarbeit"
+      ],
+      "globalRef": "nouns:noun_0073",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "identity": "die zusammenarbeit",
+      "term": "die Zusammenarbeit",
+      "type": "noun",
+      "arabic": "التعاون",
+      "explanation_de": "Das planvolle und gegenseitig abgestimmte Arbeiten mit anderen Personen.",
+      "explanation_ar": "تنسيق العمل مع أشخاص آخرين وتبادل المساعدة والمعلومات لتحقيق نتيجة مشتركة.",
+      "examples": [
+        {
+          "de": "Ich freue mich auf eine gute Zusammenarbeit mit dem neuen Team.",
+          "ar": "أتطلع إلى تعاون جيد مع الفريق الجديد."
+        },
+        {
+          "de": "Die Zusammenarbeit funktioniert besser, wenn Zuständigkeiten klar sind.",
+          "ar": "يعمل التعاون بشكل أفضل عندما تكون المسؤوليات واضحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zusammenarbeiten",
+        "pluralNote": "Der Plural wird selten verwendet."
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          49,
+          52,
+          60
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "team",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v003",
+      "identity": "das teammitglied",
+      "term": "das Teammitglied",
+      "type": "noun",
+      "arabic": "عضو الفريق",
+      "explanation_de": "Eine Person, die zu einem Team gehört und an gemeinsamen Aufgaben mitarbeitet.",
+      "explanation_ar": "شخص ينتمي إلى فريق ويساهم في تنفيذ المهام المشتركة.",
+      "examples": [
+        {
+          "de": "Jedes Teammitglied bringt andere Erfahrungen mit.",
+          "ar": "يجلب كل عضو في الفريق خبرات مختلفة."
+        },
+        {
+          "de": "Die Teammitglieder unterstützen sich gegenseitig.",
+          "ar": "يدعم أعضاء الفريق بعضهم بعضًا."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Teammitglieder"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          52
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "team",
+        "personen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v004",
+      "identity": "die teamrolle",
+      "term": "die Teamrolle",
+      "type": "noun",
+      "arabic": "الدور داخل الفريق",
+      "explanation_de": "Eine typische Funktion oder Verhaltensweise, die jemand in einem Team übernimmt.",
+      "explanation_ar": "الدور الذي يؤديه الشخص داخل الفريق بحسب أسلوب عمله ونقاط قوته.",
+      "examples": [
+        {
+          "de": "Die Teamrolle hängt von Stärken und Arbeitsweise ab.",
+          "ar": "يعتمد الدور داخل الفريق على نقاط القوة وأسلوب العمل."
+        },
+        {
+          "de": "In einem guten Team ergänzen sich unterschiedliche Teamrollen.",
+          "ar": "تتكامل الأدوار المختلفة في الفريق الجيد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Teamrollen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          53,
+          58,
+          60
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "team",
+        "rollen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v005",
+      "identity": "die aufgabenverteilung",
+      "term": "die Aufgabenverteilung",
+      "type": "noun",
+      "arabic": "توزيع المهام",
+      "explanation_de": "Die Zuordnung einzelner Aufgaben zu den zuständigen Personen.",
+      "explanation_ar": "تحديد الشخص المسؤول عن كل مهمة وتقسيم العمل بين أعضاء الفريق.",
+      "examples": [
+        {
+          "de": "Eine gerechte Aufgabenverteilung verhindert Überlastung.",
+          "ar": "يمنع التوزيع العادل للمهام الإرهاق الزائد."
+        },
+        {
+          "de": "Wir klären die Aufgabenverteilung zu Beginn der Sitzung.",
+          "ar": "نوضح توزيع المهام في بداية الاجتماع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Aufgabenverteilungen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          47,
+          50,
+          54
+        ],
+        "section": "Teamarbeit und Protokoll"
+      },
+      "tags": [
+        "team",
+        "aufgaben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v006",
+      "identity": "die absprache",
+      "term": "die Absprache",
+      "type": "noun",
+      "arabic": "اتفاق أو تنسيق مسبق",
+      "explanation_de": "Eine Vereinbarung darüber, wie etwas gemeinsam gemacht oder organisiert wird.",
+      "explanation_ar": "اتفاق بين أشخاص على طريقة تنفيذ أمر أو تقسيم العمل.",
+      "examples": [
+        {
+          "de": "Bitte halten Sie sich an die Absprachen im Team.",
+          "ar": "يرجى الالتزام بالاتفاقات داخل الفريق."
+        },
+        {
+          "de": "Nach einer kurzen Absprache übernimmt Lena den Kundenkontakt.",
+          "ar": "بعد تنسيق قصير تتولى لينا التواصل مع الزبائن."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Absprachen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "team",
+        "vereinbarung"
+      ],
+      "globalRef": "nouns:noun_0077",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v007",
+      "identity": "der verbesserungsvorschlag",
+      "term": "der Verbesserungsvorschlag",
+      "type": "noun",
+      "arabic": "اقتراح للتحسين",
+      "explanation_de": "Ein konkreter Vorschlag, wie ein Ablauf, Produkt oder Ergebnis verbessert werden kann.",
+      "explanation_ar": "فكرة عملية لتحسين طريقة العمل أو النتيجة.",
+      "examples": [
+        {
+          "de": "Neue Mitarbeitende dürfen Verbesserungsvorschläge machen.",
+          "ar": "يحق للموظفين الجدد تقديم اقتراحات للتحسين."
+        },
+        {
+          "de": "Der Verbesserungsvorschlag wird in der nächsten Sitzung besprochen.",
+          "ar": "سيناقش اقتراح التحسين في الاجتماع القادم."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Verbesserungsvorschläge"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "team",
+        "verbesserung"
+      ],
+      "globalRef": "nouns:noun_0079",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v008",
+      "identity": "der erste eindruck",
+      "term": "der erste Eindruck",
+      "type": "noun",
+      "arabic": "الانطباع الأول",
+      "explanation_de": "Die erste Wirkung, die eine Person oder Situation auf andere hat.",
+      "explanation_ar": "الصورة الأولية التي تتكون لدى الآخرين عند اللقاء الأول.",
+      "examples": [
+        {
+          "de": "Ein freundlicher erster Eindruck erleichtert den Einstieg ins Team.",
+          "ar": "يسهّل الانطباع الأول الودود الاندماج في الفريق."
+        },
+        {
+          "de": "Ein Fehler am ersten Tag muss keinen schlechten Eindruck hinterlassen.",
+          "ar": "لا يجب أن يترك خطأ في اليوم الأول انطباعًا سيئًا."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die ersten Eindrücke"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "team",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v009",
+      "identity": "klatsch und tratsch",
+      "term": "Klatsch und Tratsch",
+      "type": "noun_phrase",
+      "arabic": "النميمة والقيل والقال",
+      "explanation_de": "Private oder nicht bestätigte Gespräche über andere Personen.",
+      "explanation_ar": "أحاديث غير مهنية عن أشخاص آخرين، وغالبًا تتضمن معلومات غير مؤكدة.",
+      "examples": [
+        {
+          "de": "Klatsch und Tratsch können das Vertrauen im Team beschädigen.",
+          "ar": "يمكن للنميمة أن تضر بالثقة داخل الفريق."
+        },
+        {
+          "de": "Sofia beteiligt sich nicht an Klatsch und Tratsch.",
+          "ar": "لا تشارك صوفيا في القيل والقال."
+        }
+      ],
+      "grammar": {
+        "numberType": "fixed_expression"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "team",
+        "gerüchte"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v010",
+      "identity": "das gerücht",
+      "term": "das Gerücht",
+      "type": "noun",
+      "arabic": "إشاعة",
+      "explanation_de": "Eine nicht bestätigte Information, die von Person zu Person weitergegeben wird.",
+      "explanation_ar": "معلومة غير مؤكدة تنتشر بين الناس من دون مصدر موثوق.",
+      "examples": [
+        {
+          "de": "Im Team verbreitete sich ein Gerücht über eine Kollegin.",
+          "ar": "انتشرت في الفريق إشاعة عن إحدى الزميلات."
+        },
+        {
+          "de": "Bevor man reagiert, sollte man ein Gerücht überprüfen.",
+          "ar": "ينبغي التحقق من الإشاعة قبل التصرف بناءً عليها."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Gerüchte"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "team",
+        "kommunikation"
+      ],
+      "globalRef": "nouns:noun_0081",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v011",
+      "identity": "der vorgesetzte / die vorgesetzte",
+      "term": "der Vorgesetzte / die Vorgesetzte",
+      "type": "noun",
+      "arabic": "الرئيس المباشر / الرئيسة المباشرة",
+      "explanation_de": "Eine Person, die anderen Beschäftigten dienstlich übergeordnet ist.",
+      "explanation_ar": "الشخص المسؤول إداريًا عن الموظف ويعطيه التوجيهات والمهام.",
+      "examples": [
+        {
+          "de": "Die Vorgesetzte erklärt Sofia ihre ersten Aufgaben.",
+          "ar": "تشرح الرئيسة المباشرة لصوفيا مهامها الأولى."
+        },
+        {
+          "de": "Bei Unsicherheit fragt er seinen Vorgesetzten nach.",
+          "ar": "عند عدم التأكد يستفسر من رئيسه المباشر."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Vorgesetzten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54,
+          55
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "arbeit",
+        "hierarchie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v012",
+      "identity": "der ansprechpartner / die ansprechpartnerin",
+      "term": "der Ansprechpartner / die Ansprechpartnerin",
+      "type": "noun",
+      "arabic": "جهة الاتصال أو الشخص المسؤول عن الاستفسارات",
+      "explanation_de": "Eine Person, an die man sich mit Fragen oder Anliegen wenden kann.",
+      "explanation_ar": "الشخص الذي يمكن التواصل معه للحصول على معلومات أو حل مشكلة.",
+      "examples": [
+        {
+          "de": "Sofia ist die neue Ansprechpartnerin für Kunden und Lieferanten.",
+          "ar": "صوفيا هي جهة الاتصال الجديدة للزبائن والمورّدين."
+        },
+        {
+          "de": "Bei technischen Fragen ist Herr Krüger Ihr Ansprechpartner.",
+          "ar": "السيد كروغر هو جهة الاتصال للأسئلة التقنية."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Ansprechpartner / die Ansprechpartnerinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          49
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "kommunikation",
+        "kontakt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v013",
+      "identity": "die kundenkommunikation",
+      "term": "die Kundenkommunikation",
+      "type": "noun",
+      "arabic": "التواصل مع الزبائن",
+      "explanation_de": "Die mündliche und schriftliche Kommunikation eines Unternehmens mit seinen Kundinnen und Kunden.",
+      "explanation_ar": "التواصل الشفهي والكتابي مع الزبائن، مثل الاستفسارات والطلبات والشكاوى.",
+      "examples": [
+        {
+          "de": "Sofia hat Erfahrung in der Kundenkommunikation.",
+          "ar": "لدى صوفيا خبرة في التواصل مع الزبائن."
+        },
+        {
+          "de": "Eine klare Kundenkommunikation verhindert Missverständnisse.",
+          "ar": "يمنع التواصل الواضح مع الزبائن سوء الفهم."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          49,
+          55
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "kunden",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v014",
+      "identity": "der geschäftspartner / die geschäftspartnerin",
+      "term": "der Geschäftspartner / die Geschäftspartnerin",
+      "type": "noun",
+      "arabic": "شريك أو شريكة أعمال",
+      "explanation_de": "Eine Person oder Organisation, mit der ein Unternehmen geschäftlich zusammenarbeitet.",
+      "explanation_ar": "شخص أو شركة تربطها بالمؤسسة علاقة تعاون تجاري.",
+      "examples": [
+        {
+          "de": "Sie betreut Geschäftspartner im In- und Ausland.",
+          "ar": "تتولى رعاية شركاء الأعمال داخل البلاد وخارجها."
+        },
+        {
+          "de": "Das Team informiert die Geschäftspartner über die Änderung.",
+          "ar": "يبلغ الفريق شركاء الأعمال بالتغيير."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Geschäftspartner / die Geschäftspartnerinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          49
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "unternehmen",
+        "kontakt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v015",
+      "identity": "das betriebspraktikum",
+      "term": "das Betriebspraktikum",
+      "type": "noun",
+      "arabic": "تدريب عملي داخل شركة",
+      "explanation_de": "Ein zeitlich begrenztes Praktikum in einem Betrieb, um berufliche Erfahrungen zu sammeln.",
+      "explanation_ar": "فترة تدريب في شركة للتعرف إلى الأقسام والمهام واكتساب خبرة عملية.",
+      "examples": [
+        {
+          "de": "Der Praktikant absolviert ein zweimonatiges Betriebspraktikum.",
+          "ar": "يؤدي المتدرب تدريبًا عمليًا لمدة شهرين."
+        },
+        {
+          "de": "Während des Betriebspraktikums lernt er verschiedene Abteilungen kennen.",
+          "ar": "يتعرف خلال التدريب العملي إلى أقسام مختلفة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Betriebspraktika"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          55,
+          59
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "ausbildung",
+        "praktikum"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v016",
+      "identity": "die abteilung",
+      "term": "die Abteilung",
+      "type": "noun",
+      "arabic": "القسم داخل المؤسسة",
+      "explanation_de": "Ein organisatorischer Bereich eines Unternehmens mit bestimmten Aufgaben.",
+      "explanation_ar": "جزء من الشركة مختص بمجال معين، مثل المبيعات أو الموارد البشرية.",
+      "examples": [
+        {
+          "de": "Sofia arbeitet in der Abteilung Kundenservice.",
+          "ar": "تعمل صوفيا في قسم خدمة الزبائن."
+        },
+        {
+          "de": "Der Praktikant lernt alle wichtigen Abteilungen kennen.",
+          "ar": "يتعرف المتدرب إلى جميع الأقسام المهمة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Abteilungen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          49,
+          55,
+          59
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "unternehmen",
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v017",
+      "identity": "das protokoll",
+      "term": "das Protokoll",
+      "type": "noun",
+      "arabic": "محضر الاجتماع",
+      "explanation_de": "Eine schriftliche Zusammenfassung des Ablaufs und der Ergebnisse einer Sitzung.",
+      "explanation_ar": "وثيقة تسجل موضوعات الاجتماع والقرارات والمهام والمواعيد.",
+      "examples": [
+        {
+          "de": "Sofia schreibt das Protokoll der Teambesprechung.",
+          "ar": "تكتب صوفيا محضر اجتماع الفريق."
+        },
+        {
+          "de": "Im Protokoll stehen die Ergebnisse und Zuständigkeiten.",
+          "ar": "ترد النتائج والمسؤوليات في المحضر."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Protokolle"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          51,
+          56,
+          60
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "meeting",
+        "dokument"
+      ],
+      "globalRef": "nouns:noun_0092",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v018",
+      "identity": "der tagesordnungspunkt (top)",
+      "term": "der Tagesordnungspunkt (TOP)",
+      "type": "noun",
+      "arabic": "بند جدول الأعمال",
+      "explanation_de": "Ein einzelnes Thema, das während einer Sitzung behandelt wird.",
+      "explanation_ar": "موضوع محدد مدرج للنقاش ضمن جدول الاجتماع.",
+      "examples": [
+        {
+          "de": "Der erste Tagesordnungspunkt ist die Urlaubsplanung.",
+          "ar": "البند الأول في جدول الأعمال هو تخطيط الإجازات."
+        },
+        {
+          "de": "Zu jedem TOP wird ein Ergebnis notiert.",
+          "ar": "تُسجل نتيجة لكل بند."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Tagesordnungspunkte"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          56
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "meeting",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v019",
+      "identity": "die tagesordnung",
+      "term": "die Tagesordnung",
+      "type": "noun",
+      "arabic": "جدول أعمال الاجتماع",
+      "explanation_de": "Eine geordnete Liste der Themen, die in einer Sitzung besprochen werden.",
+      "explanation_ar": "قائمة مرتبة بالموضوعات التي ستناقش في الاجتماع.",
+      "examples": [
+        {
+          "de": "Die Tagesordnung wird vor der Sitzung verschickt.",
+          "ar": "يُرسل جدول الأعمال قبل الاجتماع."
+        },
+        {
+          "de": "Ein zusätzlicher Punkt wurde in die Tagesordnung aufgenommen.",
+          "ar": "أُضيف بند جديد إلى جدول الأعمال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Tagesordnungen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "meeting",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v020",
+      "identity": "die sitzungsleitung",
+      "term": "die Sitzungsleitung",
+      "type": "noun",
+      "arabic": "إدارة أو رئاسة الاجتماع",
+      "explanation_de": "Die Person oder Funktion, die eine Sitzung eröffnet, strukturiert und moderiert.",
+      "explanation_ar": "الشخص أو المهمة المسؤولة عن تنظيم النقاش وإدارة وقت الاجتماع.",
+      "examples": [
+        {
+          "de": "Herr Krüger übernimmt die Sitzungsleitung.",
+          "ar": "يتولى السيد كروغر إدارة الاجتماع."
+        },
+        {
+          "de": "Die Sitzungsleitung achtet auf die Reihenfolge der Themen.",
+          "ar": "تراقب إدارة الاجتماع ترتيب الموضوعات."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Sitzungsleitungen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "meeting",
+        "moderation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v021",
+      "identity": "der protokollant / die protokollantin",
+      "term": "der Protokollant / die Protokollantin",
+      "type": "noun",
+      "arabic": "كاتب أو كاتبة المحضر",
+      "explanation_de": "Eine Person, die während einer Sitzung Notizen macht und das Protokoll erstellt.",
+      "explanation_ar": "الشخص الذي يسجل النقاش والنتائج ويكتب محضر الاجتماع.",
+      "examples": [
+        {
+          "de": "Die Protokollantin notiert Entscheidungen möglichst neutral.",
+          "ar": "تسجل كاتبة المحضر القرارات بأسلوب محايد قدر الإمكان."
+        },
+        {
+          "de": "Der Protokollant nennt auch den Termin der nächsten Sitzung.",
+          "ar": "يذكر كاتب المحضر موعد الاجتماع التالي أيضًا."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Protokollanten / die Protokollantinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "meeting",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v022",
+      "identity": "die teambesprechung",
+      "term": "die Teambesprechung",
+      "type": "noun",
+      "arabic": "اجتماع الفريق",
+      "explanation_de": "Eine Besprechung, in der ein Team Aufgaben, Probleme und Entscheidungen gemeinsam klärt.",
+      "explanation_ar": "اجتماع يناقش فيه الفريق سير العمل والمهام والمشكلات والقرارات.",
+      "examples": [
+        {
+          "de": "Die Teambesprechung beginnt um zehn Uhr.",
+          "ar": "يبدأ اجتماع الفريق الساعة العاشرة."
+        },
+        {
+          "de": "Wegen eines Termins wird die Teambesprechung verschoben.",
+          "ar": "يؤجل اجتماع الفريق بسبب موعد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Teambesprechungen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          51,
+          57,
+          59
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "meeting",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v023",
+      "identity": "der werbeentwurf",
+      "term": "der Werbeentwurf",
+      "type": "noun",
+      "arabic": "مسودة تصميم إعلاني",
+      "explanation_de": "Ein vorläufiger Entwurf für eine Werbeanzeige oder ein Werbemittel.",
+      "explanation_ar": "نسخة أولية من تصميم أو نص إعلان قبل اعتماده نهائيًا.",
+      "examples": [
+        {
+          "de": "Das Team bespricht zwei Werbeentwürfe.",
+          "ar": "يناقش الفريق مسودتين إعلانيتين."
+        },
+        {
+          "de": "Der Werbeentwurf muss noch überarbeitet werden.",
+          "ar": "يجب تعديل مسودة الإعلان مرة أخرى."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Werbeentwürfe"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          56
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "werbung",
+        "meeting"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v024",
+      "identity": "die aushilfskraft",
+      "term": "die Aushilfskraft",
+      "type": "noun",
+      "arabic": "عامل أو موظف مؤقت للمساعدة",
+      "explanation_de": "Eine Person, die zeitlich begrenzt oder bei zusätzlichem Arbeitsbedarf mithilft.",
+      "explanation_ar": "موظف يعمل مؤقتًا لتغطية ضغط العمل أو غياب موظفين.",
+      "examples": [
+        {
+          "de": "Für die Sommersaison werden zwei Aushilfskräfte gesucht.",
+          "ar": "يُبحث عن عاملين مؤقتين للموسم الصيفي."
+        },
+        {
+          "de": "Die Aushilfskraft unterstützt das Team am Wochenende.",
+          "ar": "يساعد الموظف المؤقت الفريق في عطلة نهاية الأسبوع."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Aushilfskräfte"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          56
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "arbeit",
+        "personal"
+      ],
+      "globalRef": "nouns:noun_0100",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v025",
+      "identity": "der macher / die macherin",
+      "term": "der Macher / die Macherin",
+      "type": "noun",
+      "arabic": "الشخص العملي المبادر",
+      "explanation_de": "Ein Teamtyp, der gern handelt, ausprobiert und Aufgaben direkt umsetzt.",
+      "explanation_ar": "عضو فريق يفضّل التنفيذ العملي وتجربة الأفكار بدل الاكتفاء بالتخطيط.",
+      "examples": [
+        {
+          "de": "Die Macherin setzt neue Ideen schnell in die Praxis um.",
+          "ar": "تحوّل الشخصية العملية الأفكار الجديدة بسرعة إلى تطبيق."
+        },
+        {
+          "de": "Ein Macher braucht manchmal jemanden, der Risiken genauer prüft.",
+          "ar": "يحتاج الشخص المبادر أحيانًا إلى من يفحص المخاطر بدقة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Macher / die Macherinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "teamrolle",
+        "persönlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v026",
+      "identity": "der konservative / die konservative",
+      "term": "der Konservative / die Konservative",
+      "type": "noun",
+      "arabic": "الشخص المحافظ في الفريق",
+      "explanation_de": "Ein Teamtyp, der Sicherheit, Erfahrung und bewährte Abläufe besonders wichtig findet.",
+      "explanation_ar": "عضو يفضّل الطرق المجربة والاستقرار ويتعامل بحذر مع التغييرات.",
+      "examples": [
+        {
+          "de": "Die Konservative erinnert das Team an bewährte Lösungen.",
+          "ar": "تذكّر الشخصية المحافظة الفريق بالحلول المجربة."
+        },
+        {
+          "de": "Konservative Teammitglieder prüfen Veränderungen oft besonders sorgfältig.",
+          "ar": "يفحص أعضاء الفريق المحافظون التغييرات بعناية خاصة."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Konservativen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "teamrolle",
+        "persönlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v027",
+      "identity": "der analytiker / die analytikerin",
+      "term": "der Analytiker / die Analytikerin",
+      "type": "noun",
+      "arabic": "الشخص التحليلي",
+      "explanation_de": "Ein Teamtyp, der Informationen strukturiert, vergleicht und systematisch bewertet.",
+      "explanation_ar": "عضو فريق يدرس البيانات والخطط بعقلانية ويبحث عن منطق واضح.",
+      "examples": [
+        {
+          "de": "Die Analytikerin prüft Kosten und Risiken des Projekts.",
+          "ar": "تفحص الشخصية التحليلية تكاليف المشروع ومخاطره."
+        },
+        {
+          "de": "Ein Analytiker trifft Entscheidungen gern auf Grundlage von Fakten.",
+          "ar": "يفضل الشخص التحليلي اتخاذ القرارات بناءً على الحقائق."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Analytiker / die Analytikerinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "teamrolle",
+        "analyse"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v028",
+      "identity": "der visionär / die visionärin",
+      "term": "der Visionär / die Visionärin",
+      "type": "noun",
+      "arabic": "الشخص صاحب الرؤية والأفكار المستقبلية",
+      "explanation_de": "Ein Teamtyp, der neue Möglichkeiten erkennt und ungewöhnliche Ideen entwickelt.",
+      "explanation_ar": "عضو يطرح أفكارًا مبتكرة ويركز على المستقبل والفرص الجديدة.",
+      "examples": [
+        {
+          "de": "Der Visionär entwickelt ein neues Konzept für das Unternehmen.",
+          "ar": "يطوّر صاحب الرؤية مفهومًا جديدًا للشركة."
+        },
+        {
+          "de": "Visionäre motivieren Teams häufig mit langfristigen Zielen.",
+          "ar": "غالبًا ما يحفّز أصحاب الرؤية الفرق بأهداف بعيدة المدى."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Visionäre / die Visionärinnen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "teamrolle",
+        "innovation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v029",
+      "identity": "experimentierfreudig",
+      "term": "experimentierfreudig",
+      "type": "adjective",
+      "arabic": "محب للتجربة",
+      "explanation_de": "Bereit, neue Methoden oder Ideen auszuprobieren.",
+      "explanation_ar": "صفة لشخص يستمتع بتجربة طرق وأفكار جديدة.",
+      "examples": [
+        {
+          "de": "Experimentierfreudige Mitarbeitende testen gern neue Lösungen.",
+          "ar": "يختبر الموظفون المحبون للتجربة حلولًا جديدة."
+        },
+        {
+          "de": "Das Team ist offen und experimentierfreudig.",
+          "ar": "الفريق منفتح ومحب للتجربة."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "experimentierfreudiger",
+        "superlative": "am experimentierfreudigsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "innovation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v030",
+      "identity": "risikobereit",
+      "term": "risikobereit",
+      "type": "adjective",
+      "arabic": "مستعد لتحمّل المخاطر",
+      "explanation_de": "Bereit, für eine mögliche Chance ein vertretbares Risiko einzugehen.",
+      "explanation_ar": "صفة لشخص يقبل مخاطرة محسوبة من أجل فرصة أو نتيجة جديدة.",
+      "examples": [
+        {
+          "de": "Der Visionär ist risikobereit, aber nicht leichtsinnig.",
+          "ar": "صاحب الرؤية مستعد للمخاطرة لكنه ليس متهورًا."
+        },
+        {
+          "de": "Für dieses Projekt braucht das Team eine risikobereite Leitung.",
+          "ar": "يحتاج هذا المشروع إلى إدارة مستعدة لتحمل المخاطر."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "risikobereiter",
+        "superlative": "am risikobereitesten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v031",
+      "identity": "systematisch",
+      "term": "systematisch",
+      "type": "adjective_adverb",
+      "arabic": "منهجي / بطريقة منظمة",
+      "explanation_de": "Nach einem klaren Plan und in nachvollziehbaren Schritten.",
+      "explanation_ar": "تنفيذ العمل وفق خطة وخطوات مرتبة بدل التصرف العشوائي.",
+      "examples": [
+        {
+          "de": "Die Analytikerin geht bei der Prüfung systematisch vor.",
+          "ar": "تعمل المحللة بصورة منهجية أثناء الفحص."
+        },
+        {
+          "de": "Ein systematischer Ablauf spart Zeit.",
+          "ar": "يوفر سير العمل المنهجي الوقت."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "systematischer",
+        "superlative": "am systematischsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "planung"
+      ],
+      "globalRef": "adjectives:adj_0017",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v032",
+      "identity": "konstruktiv",
+      "term": "konstruktiv",
+      "type": "adjective_adverb",
+      "arabic": "بنّاء",
+      "explanation_de": "So formuliert oder gestaltet, dass eine Verbesserung oder Lösung möglich wird.",
+      "explanation_ar": "وصف لنقد أو نقاش يساعد على التحسين والوصول إلى حل.",
+      "examples": [
+        {
+          "de": "Die Kollegin äußert konstruktive Kritik.",
+          "ar": "تعبر الزميلة عن نقد بنّاء."
+        },
+        {
+          "de": "Wir sollten den Konflikt konstruktiv besprechen.",
+          "ar": "ينبغي أن نناقش الخلاف بأسلوب بنّاء."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "konstruktiver",
+        "superlative": "am konstruktivsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          53,
+          59
+        ],
+        "section": "Teamrollen und Kommunikation"
+      },
+      "tags": [
+        "adjektiv",
+        "kommunikation"
+      ],
+      "globalRef": "adjectives:adj_0022",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v033",
+      "identity": "inspirierend",
+      "term": "inspirierend",
+      "type": "adjective",
+      "arabic": "ملهم",
+      "explanation_de": "So anregend, dass neue Gedanken, Motivation oder Ideen entstehen.",
+      "explanation_ar": "صفة لشخص أو فكرة تشجع الآخرين على الإبداع والحماس.",
+      "examples": [
+        {
+          "de": "Ihre Präsentation war für das ganze Team inspirierend.",
+          "ar": "كان عرضها ملهمًا للفريق كله."
+        },
+        {
+          "de": "Ein inspirierender Visionär eröffnet neue Perspektiven.",
+          "ar": "يفتح صاحب الرؤية الملهم آفاقًا جديدة."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "inspirierender",
+        "superlative": "am inspirierendsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          53,
+          58
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "motivation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v034",
+      "identity": "erfolgsorientiert",
+      "term": "erfolgsorientiert",
+      "type": "adjective",
+      "arabic": "موجّه نحو النجاح والنتائج",
+      "explanation_de": "Stark auf das Erreichen konkreter Ziele und Ergebnisse ausgerichtet.",
+      "explanation_ar": "صفة لشخص يركز على تحقيق الأهداف والنتائج العملية.",
+      "examples": [
+        {
+          "de": "Das Team arbeitet engagiert und erfolgsorientiert.",
+          "ar": "يعمل الفريق بحماس وتركيز على النجاح."
+        },
+        {
+          "de": "Eine erfolgsorientierte Planung braucht messbare Ziele.",
+          "ar": "يحتاج التخطيط الموجّه للنجاح إلى أهداف قابلة للقياس."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "erfolgsorientierter",
+        "superlative": "am erfolgsorientiertesten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "ziel"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v035",
+      "identity": "gefühlsbetont",
+      "term": "gefühlsbetont",
+      "type": "adjective",
+      "arabic": "عاطفي أو متأثر بالمشاعر",
+      "explanation_de": "Stark von Gefühlen geprägt oder auf zwischenmenschliche Gefühle ausgerichtet.",
+      "explanation_ar": "صفة لأسلوب يعتمد كثيرًا على المشاعر والعلاقات الإنسانية.",
+      "examples": [
+        {
+          "de": "Die Entscheidung war eher gefühlsbetont als sachlich.",
+          "ar": "كان القرار عاطفيًا أكثر منه موضوعيًا."
+        },
+        {
+          "de": "Gefühlsbetonte Teammitglieder achten stark auf die Stimmung.",
+          "ar": "يهتم أعضاء الفريق العاطفيون كثيرًا بالأجواء."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "gefühlsbetonter",
+        "superlative": "am gefühlsbetontesten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          53,
+          58
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "persönlichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v036",
+      "identity": "praktisch veranlagt",
+      "term": "praktisch veranlagt",
+      "type": "adjective_phrase",
+      "arabic": "ذو عقلية عملية",
+      "explanation_de": "So orientiert, dass konkrete und umsetzbare Lösungen bevorzugt werden.",
+      "explanation_ar": "صفة لشخص يفضّل الحلول القابلة للتطبيق والعمل المباشر.",
+      "examples": [
+        {
+          "de": "Die Macherin ist praktisch veranlagt und beginnt sofort mit der Umsetzung.",
+          "ar": "الشخصية العملية تبدأ التنفيذ فورًا."
+        },
+        {
+          "de": "Praktisch veranlagte Menschen lösen Probleme oft direkt vor Ort.",
+          "ar": "يحل الأشخاص ذوو العقلية العملية المشكلات مباشرة في الموقع."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          53
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "adjektiv",
+        "praxis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v037",
+      "identity": "zurückhaltend",
+      "term": "zurückhaltend",
+      "type": "adjective",
+      "arabic": "متحفظ أو قليل المبادرة في البداية",
+      "explanation_de": "Ruhig und vorsichtig im Auftreten, ohne sich stark in den Vordergrund zu stellen.",
+      "explanation_ar": "صفة لشخص لا يتكلم أو يتصرف بسرعة ويفضل مراقبة الموقف أولًا.",
+      "examples": [
+        {
+          "de": "Am ersten Arbeitstag war Sofia noch etwas zurückhaltend.",
+          "ar": "كانت صوفيا متحفظة قليلًا في يوم العمل الأول."
+        },
+        {
+          "de": "Zurückhaltende Mitarbeitende brauchen manchmal direkte Ermutigung.",
+          "ar": "يحتاج الموظفون المتحفظون أحيانًا إلى تشجيع مباشر."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "zurückhaltender",
+        "superlative": "am zurückhaltendsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "adjektiv",
+        "verhalten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v038",
+      "identity": "souverän",
+      "term": "souverän",
+      "type": "adjective_adverb",
+      "arabic": "واثق ومتمكن",
+      "explanation_de": "Ruhig, sicher und kompetent auch in schwierigen Situationen.",
+      "explanation_ar": "التصرف بثقة وهدوء وكفاءة حتى عند وجود ضغط أو مشكلة.",
+      "examples": [
+        {
+          "de": "Sofia reagiert souverän auf die kritische Frage.",
+          "ar": "ترد صوفيا بثقة على السؤال النقدي."
+        },
+        {
+          "de": "Ein souveräner Auftritt schafft Vertrauen.",
+          "ar": "يخلق الظهور الواثق الثقة."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "souveräner",
+        "superlative": "am souveränsten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "adjektiv",
+        "kommunikation"
+      ],
+      "globalRef": "adjectives:adj_0009",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v039",
+      "identity": "überfordert",
+      "term": "überfordert",
+      "type": "adjective",
+      "arabic": "مُثقَل أو غير قادر على مجاراة المتطلبات",
+      "explanation_de": "Mit den Anforderungen einer Aufgabe oder Situation nicht mehr ausreichend zurechtkommend.",
+      "explanation_ar": "حالة يشعر فيها الشخص أن المهام أو الضغط أكبر من قدرته الحالية.",
+      "examples": [
+        {
+          "de": "Die neue Kollegin fühlte sich mit zu vielen Aufgaben überfordert.",
+          "ar": "شعرت الزميلة الجديدة بأنها مثقلة بسبب كثرة المهام."
+        },
+        {
+          "de": "Wer überfordert ist, sollte rechtzeitig um Hilfe bitten.",
+          "ar": "ينبغي لمن يشعر بالعجز أمام المتطلبات أن يطلب المساعدة مبكرًا."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "adjektiv",
+        "belastung"
+      ],
+      "globalRef": "adjectives:adj_0011",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v040",
+      "identity": "unvoreingenommen",
+      "term": "unvoreingenommen",
+      "type": "adjective_adverb",
+      "arabic": "منفتح بلا أحكام مسبقة",
+      "explanation_de": "Ohne Vorurteile und bereit, eine Person oder Situation neutral kennenzulernen.",
+      "explanation_ar": "التعامل مع الآخرين من دون أحكام مسبقة أو تأثر بالإشاعات.",
+      "examples": [
+        {
+          "de": "Begegnen Sie neuen Kolleginnen unvoreingenommen.",
+          "ar": "تعامل مع الزميلات الجديدات من دون أحكام مسبقة."
+        },
+        {
+          "de": "Eine unvoreingenommene Haltung verbessert die Zusammenarbeit.",
+          "ar": "يحسن الموقف المنفتح التعاون."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54,
+          58
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "adjektiv",
+        "verhalten"
+      ],
+      "globalRef": "adjectives:adj_0010",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v041",
+      "identity": "sich an absprachen halten",
+      "term": "sich an Absprachen halten",
+      "type": "phrase",
+      "arabic": "يلتزم بالاتفاقات",
+      "explanation_de": "Vereinbarte Regeln, Aufgaben oder Termine zuverlässig beachten.",
+      "explanation_ar": "تنفيذ ما تم الاتفاق عليه من مهام ومواعيد وقواعد.",
+      "examples": [
+        {
+          "de": "Alle Teammitglieder müssen sich an die Absprachen halten.",
+          "ar": "يجب على جميع أعضاء الفريق الالتزام بالاتفاقات."
+        },
+        {
+          "de": "Er hat sich nicht an den vereinbarten Termin gehalten.",
+          "ar": "لم يلتزم بالموعد المتفق عليه."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich an + Akkusativ halten",
+        "praeteritum": "hielt sich an",
+        "perfekt": "hat sich an ... gehalten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "vereinbarung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v042",
+      "identity": "frischen wind ins team bringen",
+      "term": "frischen Wind ins Team bringen",
+      "type": "phrase",
+      "arabic": "يجلب أفكارًا وطاقة جديدة إلى الفريق",
+      "explanation_de": "Neue Impulse, Ideen oder Arbeitsweisen in ein Team einbringen.",
+      "explanation_ar": "إضافة أفكار وأساليب جديدة تنشّط الفريق.",
+      "examples": [
+        {
+          "de": "Die neue Kollegin bringt frischen Wind ins Team.",
+          "ar": "تجلب الزميلة الجديدة أفكارًا وطاقة جديدة إلى الفريق."
+        },
+        {
+          "de": "Neue Perspektiven können frischen Wind in ein Projekt bringen.",
+          "ar": "يمكن للوجهات الجديدة أن تنشط المشروع."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "innovation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v043",
+      "identity": "kritik üben",
+      "term": "Kritik üben",
+      "type": "phrase",
+      "arabic": "يوجّه نقدًا",
+      "explanation_de": "Eine Leistung oder ein Verhalten sachlich beurteilen und Schwächen benennen.",
+      "explanation_ar": "التعبير عن ملاحظات نقدية على عمل أو سلوك، ويفضل أن يكون ذلك باحترام.",
+      "examples": [
+        {
+          "de": "Die Vorgesetzte übt sachliche Kritik an dem Entwurf.",
+          "ar": "توجه الرئيسة نقدًا موضوعيًا للمسودة."
+        },
+        {
+          "de": "Kritik sollte konkret und konstruktiv geäußert werden.",
+          "ar": "ينبغي التعبير عن النقد بصورة محددة وبنّاءة."
+        }
+      ],
+      "grammar": {
+        "verb": "üben",
+        "praeteritum": "übte Kritik",
+        "perfekt": "hat Kritik geübt"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v044",
+      "identity": "jemanden mit arbeit überhäufen",
+      "term": "jemanden mit Arbeit überhäufen",
+      "type": "phrase",
+      "arabic": "يثقل شخصًا بكمية كبيرة من العمل",
+      "explanation_de": "Einer Person so viele Aufgaben geben, dass sie kaum zu bewältigen sind.",
+      "explanation_ar": "تكليف شخص بعدد مفرط من المهام بما قد يؤدي إلى إرهاقه.",
+      "examples": [
+        {
+          "de": "Neue Mitarbeitende sollten nicht sofort mit Arbeit überhäuft werden.",
+          "ar": "لا ينبغي إثقال الموظفين الجدد بالعمل فورًا."
+        },
+        {
+          "de": "Der Chef hat ihn in der ersten Woche mit Aufträgen überhäuft.",
+          "ar": "أثقله المدير بالتكليفات في الأسبوع الأول."
+        }
+      ],
+      "grammar": {
+        "case": "Akkusativ",
+        "praeteritum": "überhäufte",
+        "perfekt": "hat überhäuft"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "belastung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v045",
+      "identity": "jemanden im unklaren lassen",
+      "term": "jemanden im Unklaren lassen",
+      "type": "phrase",
+      "arabic": "يترك شخصًا من دون معلومات واضحة",
+      "explanation_de": "Einer Person wichtige Informationen oder klare Erklärungen nicht geben.",
+      "explanation_ar": "عدم توضيح المطلوب أو الوضع لشخص وتركه في حالة عدم يقين.",
+      "examples": [
+        {
+          "de": "Bitte lassen Sie neue Kolleginnen nicht über ihre Aufgaben im Unklaren.",
+          "ar": "لا تتركوا الزميلات الجديدات من دون توضيح مهامهن."
+        },
+        {
+          "de": "Die unklare Nachricht ließ das Team im Unklaren.",
+          "ar": "تركت الرسالة الغامضة الفريق من دون وضوح."
+        }
+      ],
+      "grammar": {
+        "case": "Akkusativ",
+        "praeteritum": "ließ im Unklaren",
+        "perfekt": "hat im Unklaren gelassen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v046",
+      "identity": "sich unbeliebt machen",
+      "term": "sich unbeliebt machen",
+      "type": "phrase",
+      "arabic": "يجعل نفسه غير محبوب",
+      "explanation_de": "Durch ein Verhalten erreichen, dass andere eine Person weniger mögen.",
+      "explanation_ar": "التصرف بطريقة تجعل الآخرين ينفرون من الشخص.",
+      "examples": [
+        {
+          "de": "Wer ständig Gerüchte verbreitet, macht sich im Team unbeliebt.",
+          "ar": "من ينشر الإشاعات باستمرار يجعل نفسه غير محبوب في الفريق."
+        },
+        {
+          "de": "Mit einem respektlosen Ton kann man sich schnell unbeliebt machen.",
+          "ar": "قد يجعل الشخص نفسه غير محبوب بسرعة بسبب نبرة غير محترمة."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "machte sich unbeliebt",
+        "perfekt": "hat sich unbeliebt gemacht"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "verhalten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v047",
+      "identity": "einen lockeren ton verwenden",
+      "term": "einen lockeren Ton verwenden",
+      "type": "phrase",
+      "arabic": "يستخدم أسلوبًا وديًا غير متكلف",
+      "explanation_de": "In einer freundlichen, wenig formellen und entspannten Weise sprechen.",
+      "explanation_ar": "التحدث بنبرة ودية ومريحة من دون رسمية زائدة، عندما يسمح الموقف بذلك.",
+      "examples": [
+        {
+          "de": "Im Team verwendet man oft einen lockeren Ton.",
+          "ar": "يستخدم الفريق غالبًا أسلوبًا وديًا غير رسمي."
+        },
+        {
+          "de": "Im Kundengespräch ist ein zu lockerer Ton nicht immer passend.",
+          "ar": "الأسلوب الودي الزائد ليس مناسبًا دائمًا مع الزبائن."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          54
+        ],
+        "section": "Neu im Team"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v048",
+      "identity": "sich zu wort melden",
+      "term": "sich zu Wort melden",
+      "type": "phrase",
+      "arabic": "يطلب الكلام أو يبدي رغبته في الحديث",
+      "explanation_de": "Zeigen, dass man in einer Besprechung etwas sagen möchte.",
+      "explanation_ar": "الإشارة أثناء الاجتماع إلى الرغبة في المشاركة بالكلام.",
+      "examples": [
+        {
+          "de": "Sofia meldet sich zu Wort und macht einen Vorschlag.",
+          "ar": "تطلب صوفيا الكلام وتقدم اقتراحًا."
+        },
+        {
+          "de": "Bitte melden Sie sich zu Wort, bevor Sie sprechen.",
+          "ar": "يرجى طلب الكلام قبل التحدث."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "meldete sich zu Wort",
+        "perfekt": "hat sich zu Wort gemeldet"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57,
+          60
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "meeting"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v049",
+      "identity": "nachfragen",
+      "term": "nachfragen",
+      "type": "verb",
+      "arabic": "يستفسر مرة أخرى",
+      "explanation_de": "Noch einmal oder genauer fragen, wenn etwas unklar ist.",
+      "explanation_ar": "طرح سؤال إضافي للتأكد من الفهم أو الحصول على تفاصيل.",
+      "examples": [
+        {
+          "de": "Wenn etwas unklar ist, sollten Sie sofort nachfragen.",
+          "ar": "إذا كان شيء غير واضح فينبغي الاستفسار فورًا."
+        },
+        {
+          "de": "Die Kollegin fragte nach, wer den Auftrag übernimmt.",
+          "ar": "استفسرت الزميلة عمن سيتولى المهمة."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "fragte nach",
+        "perfekt": "hat nachgefragt",
+        "auxiliary": "haben",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "verb",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v050",
+      "identity": "etwas vorschlagen",
+      "term": "etwas vorschlagen",
+      "type": "verb_phrase",
+      "arabic": "يقترح شيئًا",
+      "explanation_de": "Eine Idee oder Möglichkeit nennen, über die gemeinsam entschieden werden kann.",
+      "explanation_ar": "تقديم فكرة أو خيار للنقاش واتخاذ القرار.",
+      "examples": [
+        {
+          "de": "Ich schlage vor, dass wir die Aufgaben neu verteilen.",
+          "ar": "أقترح أن نعيد توزيع المهام."
+        },
+        {
+          "de": "Die Kollegin hat einen früheren Termin vorgeschlagen.",
+          "ar": "اقترحت الزميلة موعدًا أبكر."
+        }
+      ],
+      "grammar": {
+        "verb": "vorschlagen",
+        "praeteritum": "schlug vor",
+        "perfekt": "hat vorgeschlagen",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "meeting"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v051",
+      "identity": "zustimmen",
+      "term": "zustimmen",
+      "type": "verb",
+      "arabic": "يوافق",
+      "explanation_de": "Ausdrücken, dass man eine Meinung, Idee oder Entscheidung unterstützt.",
+      "explanation_ar": "التعبير عن الموافقة على رأي أو اقتراح.",
+      "examples": [
+        {
+          "de": "Dem Vorschlag kann ich nur zustimmen.",
+          "ar": "لا يسعني إلا الموافقة على الاقتراح."
+        },
+        {
+          "de": "Die Mehrheit hat der Lösung zugestimmt.",
+          "ar": "وافقت الأغلبية على الحل."
+        }
+      ],
+      "grammar": {
+        "pattern": "jemandem / etwas im Dativ zustimmen",
+        "praeteritum": "stimmte zu",
+        "perfekt": "hat zugestimmt",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "verb",
+        "meeting"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v052",
+      "identity": "etwas ablehnen",
+      "term": "etwas ablehnen",
+      "type": "verb_phrase",
+      "arabic": "يرفض شيئًا",
+      "explanation_de": "Eine Idee, Bitte oder einen Vorschlag nicht akzeptieren.",
+      "explanation_ar": "عدم قبول اقتراح أو طلب مع توضيح السبب بصورة مهنية.",
+      "examples": [
+        {
+          "de": "Die Teamleitung lehnt den Termin aus organisatorischen Gründen ab.",
+          "ar": "ترفض إدارة الفريق الموعد لأسباب تنظيمية."
+        },
+        {
+          "de": "Ein Vorschlag sollte nicht ohne Begründung abgelehnt werden.",
+          "ar": "لا ينبغي رفض الاقتراح من دون تعليل."
+        }
+      ],
+      "grammar": {
+        "verb": "ablehnen",
+        "praeteritum": "lehnte ab",
+        "perfekt": "hat abgelehnt",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "meeting"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v053",
+      "identity": "ein problem äußern",
+      "term": "ein Problem äußern",
+      "type": "phrase",
+      "arabic": "يعبّر عن مشكلة",
+      "explanation_de": "Ein Problem offen und verständlich in einem Gespräch ansprechen.",
+      "explanation_ar": "طرح مشكلة بوضوح أثناء النقاش بدل تجاهلها.",
+      "examples": [
+        {
+          "de": "Die Mitarbeiterin äußert ein Problem mit der Aufgabenverteilung.",
+          "ar": "تعبر الموظفة عن مشكلة في توزيع المهام."
+        },
+        {
+          "de": "Probleme sollten frühzeitig und sachlich geäußert werden.",
+          "ar": "ينبغي طرح المشكلات مبكرًا وبأسلوب موضوعي."
+        }
+      ],
+      "grammar": {
+        "verb": "äußern",
+        "praeteritum": "äußerte",
+        "perfekt": "hat geäußert"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v054",
+      "identity": "einen alternativvorschlag machen",
+      "term": "einen Alternativvorschlag machen",
+      "type": "phrase",
+      "arabic": "يقدم اقتراحًا بديلًا",
+      "explanation_de": "Eine andere Lösung anbieten, wenn ein ursprünglicher Vorschlag nicht passt.",
+      "explanation_ar": "تقديم خيار آخر عند عدم مناسبة الاقتراح الأول.",
+      "examples": [
+        {
+          "de": "Wenn der Termin nicht passt, machen Sie bitte einen Alternativvorschlag.",
+          "ar": "إذا لم يناسب الموعد، يرجى تقديم اقتراح بديل."
+        },
+        {
+          "de": "Der Alternativvorschlag wurde von allen akzeptiert.",
+          "ar": "قُبل الاقتراح البديل من الجميع."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "lösung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v055",
+      "identity": "sich einigen",
+      "term": "sich einigen",
+      "type": "verb",
+      "arabic": "يتوصل إلى اتفاق",
+      "explanation_de": "Nach einer Diskussion eine gemeinsame Lösung oder Entscheidung finden.",
+      "explanation_ar": "الوصول إلى حل أو قرار مشترك بعد النقاش.",
+      "examples": [
+        {
+          "de": "Das Team einigt sich auf einen neuen Termin.",
+          "ar": "يتفق الفريق على موعد جديد."
+        },
+        {
+          "de": "Nach langer Diskussion haben wir uns auf eine Lösung geeinigt.",
+          "ar": "توصلنا إلى اتفاق على حل بعد نقاش طويل."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich auf + Akkusativ einigen",
+        "praeteritum": "einigte sich",
+        "perfekt": "hat sich geeinigt"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "verb",
+        "vereinbarung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v056",
+      "identity": "etwas abstimmen",
+      "term": "etwas abstimmen",
+      "type": "verb_phrase",
+      "arabic": "ينسّق أو يطرح أمرًا للتصويت",
+      "explanation_de": "Eine Entscheidung gemeinsam klären oder durch eine Abstimmung treffen.",
+      "explanation_ar": "تنسيق قرار بين الأطراف أو حسمه عبر التصويت.",
+      "examples": [
+        {
+          "de": "Darüber müssen wir im Team noch abstimmen.",
+          "ar": "يجب أن ننسق أو نصوت على ذلك داخل الفريق."
+        },
+        {
+          "de": "Die Urlaubsplanung wurde mit allen Abteilungen abgestimmt.",
+          "ar": "تم تنسيق تخطيط الإجازات مع جميع الأقسام."
+        }
+      ],
+      "grammar": {
+        "verb": "abstimmen",
+        "praeteritum": "stimmte ab",
+        "perfekt": "hat abgestimmt",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          51,
+          57
+        ],
+        "section": "Teamgespräch"
+      },
+      "tags": [
+        "phrase",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v057",
+      "identity": "ein protokoll schreiben",
+      "term": "ein Protokoll schreiben",
+      "type": "phrase",
+      "arabic": "يكتب محضرًا",
+      "explanation_de": "Die wichtigsten Inhalte, Ergebnisse und Aufgaben einer Sitzung schriftlich festhalten.",
+      "explanation_ar": "تسجيل الموضوعات والقرارات والمهام والمواعيد التي نوقشت في الاجتماع.",
+      "examples": [
+        {
+          "de": "Sofia schreibt nach der Sitzung das Protokoll.",
+          "ar": "تكتب صوفيا المحضر بعد الاجتماع."
+        },
+        {
+          "de": "Ein Protokoll sollte präzise und neutral geschrieben werden.",
+          "ar": "ينبغي كتابة المحضر بدقة وحياد."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          51,
+          56,
+          60
+        ],
+        "section": "Das Protokoll"
+      },
+      "tags": [
+        "phrase",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v058",
+      "identity": "aufgaben gerecht verteilen",
+      "term": "Aufgaben gerecht verteilen",
+      "type": "phrase",
+      "arabic": "يوزّع المهام بعدل",
+      "explanation_de": "Aufgaben so zuordnen, dass Belastung, Fähigkeiten und Verantwortung angemessen berücksichtigt werden.",
+      "explanation_ar": "تقسيم العمل بطريقة تراعي قدرات الأشخاص وحجم الضغط.",
+      "examples": [
+        {
+          "de": "Die Teamleitung verteilt die Aufgaben gerecht.",
+          "ar": "توزع إدارة الفريق المهام بعدل."
+        },
+        {
+          "de": "Wenn Aufgaben gerecht verteilt werden, steigt die Motivation.",
+          "ar": "ترتفع الدافعية عندما توزع المهام بعدل."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          47,
+          54
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "phrase",
+        "aufgaben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v059",
+      "identity": "sich gegenseitig ergänzen",
+      "term": "sich gegenseitig ergänzen",
+      "type": "phrase",
+      "arabic": "يكمل بعضهم بعضًا",
+      "explanation_de": "Unterschiedliche Fähigkeiten so verbinden, dass die Schwächen einer Person durch Stärken anderer ausgeglichen werden.",
+      "explanation_ar": "استخدام نقاط القوة المختلفة بحيث يعوّض أعضاء الفريق نقاط ضعف بعضهم.",
+      "examples": [
+        {
+          "de": "Die verschiedenen Teamrollen ergänzen sich gegenseitig.",
+          "ar": "تكمل أدوار الفريق المختلفة بعضها بعضًا."
+        },
+        {
+          "de": "Gute Teams bestehen aus Menschen, die sich fachlich ergänzen.",
+          "ar": "تتكون الفرق الجيدة من أشخاص يكمل بعضهم بعضًا مهنيًا."
+        }
+      ],
+      "grammar": {
+        "reflexive_reciprocal": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          58
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "team"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v060",
+      "identity": "systematisch vorgehen",
+      "term": "systematisch vorgehen",
+      "type": "phrase",
+      "arabic": "يتصرف بصورة منهجية",
+      "explanation_de": "Eine Aufgabe nach einem klaren Plan und in geordneten Schritten bearbeiten.",
+      "explanation_ar": "تنفيذ المهمة وفق خطة وتسلسل واضح.",
+      "examples": [
+        {
+          "de": "Bei komplexen Problemen sollten wir systematisch vorgehen.",
+          "ar": "ينبغي أن نعمل بصورة منهجية عند المشكلات المعقدة."
+        },
+        {
+          "de": "Die Analytikerin ist systematisch vorgegangen.",
+          "ar": "عملت المحللة بطريقة منهجية."
+        }
+      ],
+      "grammar": {
+        "verb": "vorgehen",
+        "praeteritum": "ging vor",
+        "perfekt": "ist vorgegangen",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "planung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v061",
+      "identity": "den überblick behalten",
+      "term": "den Überblick behalten",
+      "type": "phrase",
+      "arabic": "يحافظ على النظرة الشاملة",
+      "explanation_de": "Auch bei vielen Informationen oder Aufgaben die wichtigsten Zusammenhänge erkennen.",
+      "explanation_ar": "القدرة على متابعة الصورة العامة وعدم الضياع بين التفاصيل.",
+      "examples": [
+        {
+          "de": "Die Sitzungsleitung muss den Überblick behalten.",
+          "ar": "يجب على إدارة الاجتماع الحفاظ على النظرة الشاملة."
+        },
+        {
+          "de": "Mit einer klaren Liste behält das Team den Überblick.",
+          "ar": "يحافظ الفريق على وضوح الصورة بفضل قائمة مرتبة."
+        }
+      ],
+      "grammar": {
+        "verb": "behalten",
+        "praeteritum": "behielt",
+        "perfekt": "hat behalten"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          50,
+          52
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "phrase",
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v062",
+      "identity": "sich nicht festlegen",
+      "term": "sich nicht festlegen",
+      "type": "phrase",
+      "arabic": "لا يلتزم بقرار محدد",
+      "explanation_de": "Eine endgültige Entscheidung vermeiden oder mehrere Möglichkeiten offenlassen.",
+      "explanation_ar": "عدم حسم الخيار النهائي وترك عدة احتمالات مفتوحة.",
+      "examples": [
+        {
+          "de": "Der Visionär möchte sich noch nicht auf eine Variante festlegen.",
+          "ar": "لا يريد صاحب الرؤية الالتزام بخيار واحد بعد."
+        },
+        {
+          "de": "Im Gespräch hat sie sich nicht auf einen Termin festgelegt.",
+          "ar": "لم تحسم موعدًا محددًا في الحديث."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich auf + Akkusativ festlegen",
+        "praeteritum": "legte sich fest",
+        "perfekt": "hat sich festgelegt",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          58
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v063",
+      "identity": "die realität aus den augen verlieren",
+      "term": "die Realität aus den Augen verlieren",
+      "type": "phrase",
+      "arabic": "يفقد الصلة بالواقع",
+      "explanation_de": "Bei Ideen oder Planungen praktische Grenzen und tatsächliche Bedingungen nicht mehr beachten.",
+      "explanation_ar": "الانشغال بالأفكار إلى درجة تجاهل الظروف الواقعية والحدود العملية.",
+      "examples": [
+        {
+          "de": "Bei großen Visionen darf man die Realität nicht aus den Augen verlieren.",
+          "ar": "لا يجوز فقدان الصلة بالواقع عند وضع رؤى كبيرة."
+        },
+        {
+          "de": "Das Team verlor wegen unrealistischer Ziele die Realität aus den Augen.",
+          "ar": "فقد الفريق الصلة بالواقع بسبب أهداف غير واقعية."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "planung"
+      ],
+      "globalRef": "phrases:phrase_0046",
+      "integrationStatus": "linked_existing_content"
+    },
+    {
+      "courseItemId": "b2u03-v064",
+      "identity": "formale vorgaben ignorieren",
+      "term": "formale Vorgaben ignorieren",
+      "type": "phrase",
+      "arabic": "يتجاهل التعليمات الرسمية",
+      "explanation_de": "Verbindliche Regeln, Abläufe oder Anforderungen nicht beachten.",
+      "explanation_ar": "عدم مراعاة القواعد أو الإجراءات الرسمية المطلوبة.",
+      "examples": [
+        {
+          "de": "Kreativität bedeutet nicht, formale Vorgaben zu ignorieren.",
+          "ar": "لا يعني الإبداع تجاهل التعليمات الرسمية."
+        },
+        {
+          "de": "Wer Vorgaben ignoriert, kann den Projektablauf gefährden.",
+          "ar": "قد يعرّض من يتجاهل التعليمات سير المشروع للخطر."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "regeln"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v065",
+      "identity": "allein nicht weiterkommen",
+      "term": "allein nicht weiterkommen",
+      "type": "phrase",
+      "arabic": "لا يستطيع التقدم بمفرده",
+      "explanation_de": "Eine Aufgabe ohne Unterstützung nicht erfolgreich fortsetzen können.",
+      "explanation_ar": "عدم القدرة على مواصلة الحل أو العمل من دون مساعدة.",
+      "examples": [
+        {
+          "de": "Wenn Sie allein nicht weiterkommen, fragen Sie das Team.",
+          "ar": "إذا لم تستطع التقدم وحدك فاسأل الفريق."
+        },
+        {
+          "de": "Bei diesem Problem bin ich allein nicht weitergekommen.",
+          "ar": "لم أتمكن من التقدم وحدي في هذه المشكلة."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          54
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "phrase",
+        "hilfe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v066",
+      "identity": "ein gutes zusammenspiel",
+      "term": "ein gutes Zusammenspiel",
+      "type": "noun_phrase",
+      "arabic": "تعاون منسجم",
+      "explanation_de": "Eine gut koordinierte Verbindung verschiedener Personen, Aufgaben oder Fähigkeiten.",
+      "explanation_ar": "تناسق جيد بين الأشخاص والمهام بحيث يعمل الجميع معًا بفعالية.",
+      "examples": [
+        {
+          "de": "Der Erfolg beruht auf einem guten Zusammenspiel der Abteilungen.",
+          "ar": "يعتمد النجاح على تعاون منسجم بين الأقسام."
+        },
+        {
+          "de": "Für die Veranstaltung ist ein gutes Zusammenspiel aller Beteiligten nötig.",
+          "ar": "يلزم تعاون منسجم بين جميع المشاركين للفعالية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          54
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "team",
+        "koordination"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v067",
+      "identity": "eine aufgabe bewältigen",
+      "term": "eine Aufgabe bewältigen",
+      "type": "phrase",
+      "arabic": "ينجز مهمة صعبة بنجاح",
+      "explanation_de": "Eine anspruchsvolle Aufgabe erfolgreich bearbeiten und abschließen.",
+      "explanation_ar": "التعامل بنجاح مع مهمة تحتاج إلى جهد أو تخطيط.",
+      "examples": [
+        {
+          "de": "Gemeinsam konnte das Team die schwierige Aufgabe bewältigen.",
+          "ar": "تمكن الفريق معًا من إنجاز المهمة الصعبة."
+        },
+        {
+          "de": "Für diese Aufgabe brauchen wir zusätzliche Erfahrung.",
+          "ar": "نحتاج إلى خبرة إضافية لهذه المهمة."
+        }
+      ],
+      "grammar": {
+        "verb": "bewältigen",
+        "praeteritum": "bewältigte",
+        "perfekt": "hat bewältigt"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          52,
+          58
+        ],
+        "section": "Teamarbeit"
+      },
+      "tags": [
+        "phrase",
+        "aufgaben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v068",
+      "identity": "ideen kombinieren",
+      "term": "Ideen kombinieren",
+      "type": "phrase",
+      "arabic": "يدمج الأفكار",
+      "explanation_de": "Mehrere Gedanken oder Vorschläge zu einer neuen Lösung verbinden.",
+      "explanation_ar": "ربط أفكار مختلفة لإنتاج حل أو مفهوم جديد.",
+      "examples": [
+        {
+          "de": "Die Macherin kombiniert praktische und kreative Ideen.",
+          "ar": "تدمج الشخصية العملية الأفكار العملية والإبداعية."
+        },
+        {
+          "de": "Im Workshop wurden mehrere Vorschläge miteinander kombiniert.",
+          "ar": "تم دمج عدة اقتراحات في ورشة العمل."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 3,
+        "pages": [
+          52
+        ],
+        "section": "Teamrollen"
+      },
+      "tags": [
+        "phrase",
+        "innovation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v069",
+      "identity": "auf gute zusammenarbeit hoffen",
+      "term": "auf gute Zusammenarbeit hoffen",
+      "type": "phrase",
+      "arabic": "يأمل في تعاون جيد",
+      "explanation_de": "Den Wunsch ausdrücken, dass die gemeinsame Arbeit erfolgreich und angenehm verläuft.",
+      "explanation_ar": "صيغة تستخدم غالبًا عند تقديم النفس أو بدء تعاون مهني.",
+      "examples": [
+        {
+          "de": "Ich hoffe auf eine gute Zusammenarbeit mit Ihnen.",
+          "ar": "آمل في تعاون جيد معكم."
+        },
+        {
+          "de": "Die neue Kollegin freut sich darauf, das Team kennenzulernen, und hofft auf gute Zusammenarbeit.",
+          "ar": "تتطلع الزميلة الجديدة للتعرف إلى الفريق وتأمل في تعاون جيد."
+        }
+      ],
+      "grammar": {
+        "pattern": "auf + Akkusativ hoffen"
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          49,
+          55,
+          60
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "phrase",
+        "formell"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    },
+    {
+      "courseItemId": "b2u03-v070",
+      "identity": "sich kurz vorstellen",
+      "term": "sich kurz vorstellen",
+      "type": "phrase",
+      "arabic": "يعرّف بنفسه باختصار",
+      "explanation_de": "In wenigen Sätzen wichtige Informationen zur eigenen Person, Erfahrung und Aufgabe geben.",
+      "explanation_ar": "تقديم معلومات مختصرة عن الاسم والخبرة والدور المهني.",
+      "examples": [
+        {
+          "de": "Zu Beginn der Sitzung stellt Sofia sich kurz vor.",
+          "ar": "تعرّف صوفيا بنفسها باختصار في بداية الاجتماع."
+        },
+        {
+          "de": "Bitte stellen Sie sich den Kundinnen per E-Mail kurz vor.",
+          "ar": "يرجى التعريف بنفسك للزبائن باختصار عبر البريد الإلكتروني."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "stellte sich vor",
+        "perfekt": "hat sich vorgestellt",
+        "separable": true
+      },
+      "source": {
+        "unit": 3,
+        "pages": [
+          48,
+          49,
+          55,
+          60
+        ],
+        "section": "Sich vorstellen"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "course_only"
+    }
+  ]
+}

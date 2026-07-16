@@ -1,0 +1,3133 @@
+{
+  "schemaVersion": "b2-course-content-v1",
+  "course": {
+    "id": "b2-kurs",
+    "title_de": "B2 Kurs",
+    "title_ar": "كورس B2",
+    "unit": 6,
+    "unitTitle_de": "Arbeit in der Metropolregion",
+    "unitTitle_ar": "العمل في المنطقة الحضرية الكبرى",
+    "sourcePages": [
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ]
+  },
+  "selectionPolicy": {
+    "focus": "topic_relevant_non_obvious_B2_vocabulary",
+    "includedTopics": [
+      "Metropolregion, Arbeitsmarkt und Lebensqualität",
+      "Zuwanderung und Integration",
+      "Nomen-Verb-Verbindungen",
+      "Region vorstellen und Freizeitangebote",
+      "duales Studium und Bewerbung",
+      "Bewerbungsschreiben und Vorstellungsgespräch",
+      "Arbeitsvertrag und Vertragsbedingungen"
+    ],
+    "excluded": [
+      "sehr einfache Grundwörter ohne eigenständigen B2-Lernwert",
+      "Orts- und Personennamen als Vokabeleinträge",
+      "reine Lehrbuchanweisungen",
+      "identische Begriffe aus Kapitel 1–5",
+      "Testtraining A auf den Seiten 113–118, da es nicht zu Kapitel 6 gehört"
+    ]
+  },
+  "idPolicy": {
+    "courseItemIdsAreLocal": true,
+    "oldGlobalIdsMustNotChange": true,
+    "newGlobalIdsAreNotAssignedInThisDraft": true,
+    "duplicateCheckRequiredBeforeIntegration": true
+  },
+  "reusedVocabularyRefs": [
+    {
+      "courseItemId": "b2u03-v001",
+      "term": "die Teamarbeit",
+      "pages": [
+        100,
+        105
+      ],
+      "reason": "التعاون عند الاندماج وتخطيط نشاط أو رحلة مشتركة."
+    },
+    {
+      "courseItemId": "b2u03-v002",
+      "term": "die Zusammenarbeit",
+      "pages": [
+        100,
+        105
+      ],
+      "reason": "التعاون بين الشركات والموظفين ومؤسسات المنطقة."
+    },
+    {
+      "courseItemId": "b2u01-v059",
+      "term": "Mit freundlichen Grüßen",
+      "pages": [
+        102,
+        103
+      ],
+      "reason": "صيغة ختام خطاب التقديم الرسمي."
+    },
+    {
+      "courseItemId": "b2u04-v041",
+      "term": "die Bewerbungsunterlagen",
+      "pages": [
+        102,
+        112
+      ],
+      "reason": "الوثائق المطلوبة للتقديم إلى الدراسة المزدوجة."
+    },
+    {
+      "courseItemId": "b2u03-v012",
+      "term": "der Ansprechpartner / die Ansprechpartnerin",
+      "pages": [
+        102,
+        112
+      ],
+      "reason": "جهة التواصل في إعلان الوظيفة."
+    },
+    {
+      "courseItemId": "b2u02-v036",
+      "term": "die Kündigungsfrist",
+      "pages": [
+        104,
+        112
+      ],
+      "reason": "مهلة إنهاء عقد العمل."
+    },
+    {
+      "courseItemId": "b2u04-v036",
+      "term": "die Fremdsprachenkenntnisse",
+      "pages": [
+        102,
+        103
+      ],
+      "reason": "المعارف اللغوية المطلوبة في التقديم."
+    },
+    {
+      "courseItemId": "b2u04-v019",
+      "term": "einen Vertrag abschließen",
+      "pages": [
+        104
+      ],
+      "reason": "إبرام عقد العمل بعد نجاح التقديم."
+    }
+  ],
+  "items": [
+    {
+      "courseItemId": "b2u06-v001",
+      "identity": "die metropolregion",
+      "term": "die Metropolregion",
+      "type": "noun",
+      "arabic": "منطقة حضرية كبرى مترابطة",
+      "explanation_de": "Ein großer Wirtschafts- und Lebensraum, der mehrere Städte und Gemeinden eng miteinander verbindet.",
+      "explanation_ar": "منطقة واسعة تضم مدنًا وبلدات مترابطة اقتصاديًا واجتماعيًا وبالمواصلات.",
+      "examples": [
+        {
+          "de": "Die Metropolregion Rhein-Neckar verbindet mehrere Städte und Wirtschaftsstandorte.",
+          "ar": "تربط منطقة الراين-نيكار الحضرية عدة مدن ومراكز اقتصادية."
+        },
+        {
+          "de": "Viele Menschen pendeln täglich innerhalb der Metropolregion.",
+          "ar": "يتنقل أشخاص كثيرون يوميًا داخل المنطقة الحضرية الكبرى."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Metropolregionen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100,
+          101,
+          112
+        ],
+        "section": "Eine Region vorstellen"
+      },
+      "tags": [
+        "region",
+        "arbeitsmarkt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v002",
+      "identity": "der wirtschaftsraum",
+      "term": "der Wirtschaftsraum",
+      "type": "noun",
+      "arabic": "منطقة اقتصادية",
+      "explanation_de": "Eine Region, deren Unternehmen, Arbeitsmarkt und Infrastruktur wirtschaftlich eng verbunden sind.",
+      "explanation_ar": "منطقة مترابطة اقتصاديًا من حيث الشركات وسوق العمل والبنية التحتية.",
+      "examples": [
+        {
+          "de": "Der Wirtschaftsraum zieht Fachkräfte aus dem In- und Ausland an.",
+          "ar": "تجذب المنطقة الاقتصادية العمال المهرة من الداخل والخارج."
+        },
+        {
+          "de": "Eine gute Verkehrsanbindung stärkt den Wirtschaftsraum.",
+          "ar": "تعزز شبكة النقل الجيدة المنطقة الاقتصادية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Wirtschaftsräume"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100
+        ],
+        "section": "Eine Region vorstellen"
+      },
+      "tags": [
+        "region",
+        "wirtschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v003",
+      "identity": "attraktiv",
+      "term": "attraktiv",
+      "type": "adjective",
+      "arabic": "جذّاب",
+      "explanation_de": "So vorteilhaft oder interessant, dass Menschen dort leben, arbeiten oder investieren möchten.",
+      "explanation_ar": "صفة لمكان أو عرض يجذب الناس بسبب مزاياه وفرصه.",
+      "examples": [
+        {
+          "de": "Die Region ist für junge Fachkräfte besonders attraktiv.",
+          "ar": "المنطقة جذابة خصوصًا للعمال المهرة الشباب."
+        },
+        {
+          "de": "Günstige Wohnungen machen einen Standort attraktiver.",
+          "ar": "يجعل السكن المناسب الموقع أكثر جاذبية."
+        }
+      ],
+      "grammar": {
+        "gradable": true,
+        "comparative": "attraktiver",
+        "superlative": "am attraktivsten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100,
+          101
+        ],
+        "section": "Eine Region vorstellen"
+      },
+      "tags": [
+        "region",
+        "adjektiv"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v004",
+      "identity": "die demografische entwicklung",
+      "term": "die demografische Entwicklung",
+      "type": "noun_phrase",
+      "arabic": "التطور الديموغرافي",
+      "explanation_de": "Die langfristige Veränderung der Bevölkerungszahl, Altersstruktur und Zusammensetzung.",
+      "explanation_ar": "التغير طويل المدى في عدد السكان وأعمارهم وتركيبتهم.",
+      "examples": [
+        {
+          "de": "Die demografische Entwicklung erhöht den Bedarf an qualifizierten Beschäftigten.",
+          "ar": "يزيد التطور الديموغرافي الحاجة إلى موظفين مؤهلين."
+        },
+        {
+          "de": "Betriebe machen sich Gedanken über die Folgen der demografischen Entwicklung.",
+          "ar": "تفكر الشركات في آثار التطور الديموغرافي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101
+        ],
+        "section": "Arbeitsmarkt und Bevölkerung"
+      },
+      "tags": [
+        "region",
+        "demografie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v005",
+      "identity": "der fachkräftebedarf",
+      "term": "der Fachkräftebedarf",
+      "type": "noun",
+      "arabic": "الحاجة إلى العمال المهرة",
+      "explanation_de": "Der Bedarf von Unternehmen und Branchen an qualifizierten Beschäftigten.",
+      "explanation_ar": "عدد العمال المؤهلين الذين تحتاج إليهم الشركات والقطاعات.",
+      "examples": [
+        {
+          "de": "Der Fachkräftebedarf steigt in technischen und sozialen Berufen.",
+          "ar": "تزداد الحاجة إلى العمال المهرة في المهن التقنية والاجتماعية."
+        },
+        {
+          "de": "Die Region versucht, ihren Fachkräftebedarf durch Ausbildung und Zuwanderung zu decken.",
+          "ar": "تحاول المنطقة تلبية حاجتها إلى العمال المهرة من خلال التدريب والهجرة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          107
+        ],
+        "section": "Arbeitsmarkt"
+      },
+      "tags": [
+        "arbeitsmarkt",
+        "personal"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v006",
+      "identity": "die fachkraft",
+      "term": "die Fachkraft",
+      "type": "noun",
+      "arabic": "عامل أو موظف مؤهل",
+      "explanation_de": "Eine Person mit einer anerkannten beruflichen oder akademischen Qualifikation.",
+      "explanation_ar": "شخص يمتلك مؤهلًا مهنيًا أو جامعيًا معترفًا به.",
+      "examples": [
+        {
+          "de": "Viele Unternehmen suchen qualifizierte Fachkräfte.",
+          "ar": "تبحث شركات كثيرة عن عمال مهرة مؤهلين."
+        },
+        {
+          "de": "Die Fachkraft bringt Berufserfahrung und Sprachkenntnisse mit.",
+          "ar": "يمتلك الموظف المؤهل خبرة مهنية ومعرفة لغوية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Fachkräfte"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          107
+        ],
+        "section": "Arbeitsmarkt"
+      },
+      "tags": [
+        "arbeitsmarkt",
+        "person"
+      ],
+      "globalRef": "nouns:noun_0517",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v007",
+      "identity": "der wohnraum",
+      "term": "der Wohnraum",
+      "type": "noun",
+      "arabic": "المساكن المتاحة",
+      "explanation_de": "Wohnungen und Häuser, die Menschen in einer Region zum Leben zur Verfügung stehen.",
+      "explanation_ar": "الشقق والمنازل المتاحة للسكن في منطقة ما.",
+      "examples": [
+        {
+          "de": "Bezahlbarer Wohnraum wird in vielen Großstädten knapp.",
+          "ar": "يصبح السكن المناسب ماديًا نادرًا في مدن كبرى كثيرة."
+        },
+        {
+          "de": "Der Mangel an Wohnraum kann die Attraktivität einer Region verringern.",
+          "ar": "قد يقلل نقص السكن من جاذبية المنطقة."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101
+        ],
+        "section": "Leben in der Region"
+      },
+      "tags": [
+        "wohnen",
+        "region"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v008",
+      "identity": "die lebensqualität",
+      "term": "die Lebensqualität",
+      "type": "noun",
+      "arabic": "جودة الحياة",
+      "explanation_de": "Die Gesamtheit der Bedingungen, die das tägliche Leben angenehm, sicher und gesund machen.",
+      "explanation_ar": "مجمل العوامل التي تجعل الحياة اليومية مريحة وآمنة وصحية.",
+      "examples": [
+        {
+          "de": "Grünflächen und kurze Wege erhöhen die Lebensqualität.",
+          "ar": "ترفع المساحات الخضراء وقصر المسافات جودة الحياة."
+        },
+        {
+          "de": "Für viele Beschäftigte ist Lebensqualität genauso wichtig wie das Gehalt.",
+          "ar": "جودة الحياة مهمة لموظفين كثيرين بقدر أهمية الراتب."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          108
+        ],
+        "section": "Leben in der Region"
+      },
+      "tags": [
+        "region",
+        "leben"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v009",
+      "identity": "die zuwanderung",
+      "term": "die Zuwanderung",
+      "type": "noun",
+      "arabic": "الهجرة إلى منطقة أو بلد",
+      "explanation_de": "Der Zuzug von Menschen aus anderen Regionen oder Ländern.",
+      "explanation_ar": "انتقال أشخاص من مناطق أو دول أخرى للإقامة والعمل.",
+      "examples": [
+        {
+          "de": "Die Region ist auf Zuwanderung qualifizierter Arbeitskräfte angewiesen.",
+          "ar": "تعتمد المنطقة على هجرة العمال المهرة إليها."
+        },
+        {
+          "de": "Zuwanderung bringt Chancen und neue Aufgaben für die Integration.",
+          "ar": "تجلب الهجرة فرصًا ومهامًا جديدة للاندماج."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          106
+        ],
+        "section": "Integration"
+      },
+      "tags": [
+        "migration",
+        "region"
+      ],
+      "globalRef": "nouns:noun_0210",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v010",
+      "identity": "die integration",
+      "term": "die Integration",
+      "type": "noun",
+      "arabic": "الاندماج",
+      "explanation_de": "Der Prozess, durch den Menschen in Gesellschaft, Arbeitsmarkt und Alltag einbezogen werden.",
+      "explanation_ar": "عملية مشاركة الأشخاص في المجتمع وسوق العمل والحياة اليومية.",
+      "examples": [
+        {
+          "de": "Sprachkenntnisse erleichtern die Integration am Arbeitsplatz.",
+          "ar": "تسهل المعرفة اللغوية الاندماج في مكان العمل."
+        },
+        {
+          "de": "Unternehmen tragen Verantwortung für eine gelungene Integration.",
+          "ar": "تتحمل الشركات مسؤولية المساهمة في اندماج ناجح."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          106
+        ],
+        "section": "Integration"
+      },
+      "tags": [
+        "migration",
+        "arbeitswelt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v011",
+      "identity": "der integrationshelfer / die integrationshelferin",
+      "term": "der Integrationshelfer / die Integrationshelferin",
+      "type": "noun",
+      "arabic": "مساعد أو مساعدة اندماج",
+      "explanation_de": "Eine Person, die Zugewanderte bei Alltag, Sprache, Behörden und Arbeit unterstützt.",
+      "explanation_ar": "شخص يساعد المهاجرين في الحياة اليومية واللغة والعمل والإجراءات.",
+      "examples": [
+        {
+          "de": "Die Integrationshelferin begleitet neue Mitarbeitende in den ersten Wochen.",
+          "ar": "ترافق مساعدة الاندماج الموظفين الجدد في الأسابيع الأولى."
+        },
+        {
+          "de": "Ein Integrationshelfer vermittelt zwischen Betrieb und Beschäftigten.",
+          "ar": "يتوسط مساعد الاندماج بين الشركة والموظفين."
+        }
+      ],
+      "grammar": {
+        "article": "der/die",
+        "plural": "die Integrationshelfer / die Integrationshelferinnen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          106,
+          107
+        ],
+        "section": "Integration"
+      },
+      "tags": [
+        "migration",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v012",
+      "identity": "die wirtschaftliche entwicklung",
+      "term": "die wirtschaftliche Entwicklung",
+      "type": "noun_phrase",
+      "arabic": "التطور الاقتصادي",
+      "explanation_de": "Die Veränderung von Unternehmen, Beschäftigung, Einkommen und Investitionen in einer Region.",
+      "explanation_ar": "تغير وضع الشركات والوظائف والاستثمارات والدخل في منطقة.",
+      "examples": [
+        {
+          "de": "Die wirtschaftliche Entwicklung schafft neue Arbeitsplätze.",
+          "ar": "يخلق التطور الاقتصادي فرص عمل جديدة."
+        },
+        {
+          "de": "Die Hochschule untersucht die wirtschaftliche Entwicklung der Region.",
+          "ar": "تدرس الجامعة التطور الاقتصادي للمنطقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Arbeitsmarkt"
+      },
+      "tags": [
+        "wirtschaft",
+        "region"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v013",
+      "identity": "der öffentliche nahverkehr",
+      "term": "der öffentliche Nahverkehr",
+      "type": "noun_phrase",
+      "arabic": "النقل العام المحلي",
+      "explanation_de": "Busse, Straßenbahnen und Nahverkehrszüge innerhalb einer Stadt oder Region.",
+      "explanation_ar": "الحافلات والترام والقطارات المحلية داخل المدينة أو المنطقة.",
+      "examples": [
+        {
+          "de": "Ein zuverlässiger öffentlicher Nahverkehr erleichtert den Arbeitsweg.",
+          "ar": "يسهل النقل العام الموثوق طريق الذهاب إلى العمل."
+        },
+        {
+          "de": "Viele Bewerber achten auf die Anbindung an den öffentlichen Nahverkehr.",
+          "ar": "يهتم متقدمون كثيرون بارتباط مكان العمل بالنقل العام."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          106,
+          108
+        ],
+        "section": "Infrastruktur"
+      },
+      "tags": [
+        "verkehr",
+        "region"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v014",
+      "identity": "die verkehrsanbindung",
+      "term": "die Verkehrsanbindung",
+      "type": "noun",
+      "arabic": "سهولة الاتصال بشبكة المواصلات",
+      "explanation_de": "Die Qualität der Verbindung eines Ortes mit Straßen, Bahn oder öffentlichem Verkehr.",
+      "explanation_ar": "مدى سهولة الوصول إلى مكان عبر الطرق والقطارات والنقل العام.",
+      "examples": [
+        {
+          "de": "Das Gewerbegebiet hat eine gute Verkehrsanbindung.",
+          "ar": "تتمتع المنطقة الصناعية باتصال جيد بالمواصلات."
+        },
+        {
+          "de": "Eine schlechte Verkehrsanbindung verlängert den Arbeitsweg.",
+          "ar": "يطيل ضعف المواصلات طريق العمل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Verkehrsanbindungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100,
+          108
+        ],
+        "section": "Infrastruktur"
+      },
+      "tags": [
+        "verkehr",
+        "standort"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v015",
+      "identity": "die infrastruktur",
+      "term": "die Infrastruktur",
+      "type": "noun",
+      "arabic": "البنية التحتية",
+      "explanation_de": "Grundlegende Einrichtungen und Netze wie Verkehr, Bildung, Energie und digitale Versorgung.",
+      "explanation_ar": "المرافق والشبكات الأساسية مثل النقل والتعليم والطاقة والاتصالات.",
+      "examples": [
+        {
+          "de": "Eine moderne Infrastruktur macht die Region für Unternehmen interessant.",
+          "ar": "تجعل البنية التحتية الحديثة المنطقة مهمة للشركات."
+        },
+        {
+          "de": "Zur Infrastruktur gehören auch Hochschulen und Forschungseinrichtungen.",
+          "ar": "تشمل البنية التحتية الجامعات ومراكز البحث أيضًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Infrastrukturen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100,
+          101
+        ],
+        "section": "Infrastruktur"
+      },
+      "tags": [
+        "region",
+        "wirtschaft"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v016",
+      "identity": "die lebenshaltungskosten",
+      "term": "die Lebenshaltungskosten",
+      "type": "noun_plural",
+      "arabic": "تكاليف المعيشة",
+      "explanation_de": "Regelmäßige Ausgaben für Wohnen, Lebensmittel, Verkehr und Alltag.",
+      "explanation_ar": "المصاريف اليومية للسكن والطعام والنقل والاحتياجات الأساسية.",
+      "examples": [
+        {
+          "de": "Die Lebenshaltungskosten sind in Großstädten häufig höher.",
+          "ar": "تكون تكاليف المعيشة أعلى غالبًا في المدن الكبرى."
+        },
+        {
+          "de": "Vor einem Umzug vergleicht sie Gehalt und Lebenshaltungskosten.",
+          "ar": "تقارن الراتب وتكاليف المعيشة قبل الانتقال."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          108
+        ],
+        "section": "Leben in der Region"
+      },
+      "tags": [
+        "kosten",
+        "wohnen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v017",
+      "identity": "die regionale vielfalt",
+      "term": "die regionale Vielfalt",
+      "type": "noun_phrase",
+      "arabic": "التنوع الإقليمي",
+      "explanation_de": "Die Mischung verschiedener Landschaften, Städte, Kulturen und wirtschaftlicher Angebote in einer Region.",
+      "explanation_ar": "تنوع المدن والطبيعة والثقافات والفرص الاقتصادية في المنطقة.",
+      "examples": [
+        {
+          "de": "Die regionale Vielfalt bietet viele Freizeit- und Arbeitsmöglichkeiten.",
+          "ar": "يوفر التنوع الإقليمي فرصًا كثيرة للعمل والترفيه."
+        },
+        {
+          "de": "Haki schätzt besonders die kulturelle Vielfalt der Region.",
+          "ar": "يقدّر هاكي خصوصًا التنوع الثقافي في المنطقة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          100,
+          105,
+          108
+        ],
+        "section": "Eine Region vorstellen"
+      },
+      "tags": [
+        "region",
+        "vielfalt"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v018",
+      "identity": "sich in einer region einleben",
+      "term": "sich in einer Region einleben",
+      "type": "phrase",
+      "arabic": "يتأقلم مع الحياة في منطقة",
+      "explanation_de": "Sich nach einem Umzug an Menschen, Orte und Alltag einer neuen Region gewöhnen.",
+      "explanation_ar": "التعود على الناس والأماكن والحياة اليومية بعد الانتقال.",
+      "examples": [
+        {
+          "de": "Nach einigen Monaten hat er sich gut in der Region eingelebt.",
+          "ar": "تأقلم جيدًا مع المنطقة بعد عدة أشهر."
+        },
+        {
+          "de": "Kontakte und Freizeitangebote helfen beim Einleben.",
+          "ar": "تساعد العلاقات والأنشطة على التأقلم."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "lebte sich ein",
+        "perfekt": "hat sich eingelebt",
+        "separable": true
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          105
+        ],
+        "section": "Integration"
+      },
+      "tags": [
+        "migration",
+        "alltag"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v019",
+      "identity": "sich gedanken machen",
+      "term": "sich Gedanken machen",
+      "type": "phrase",
+      "arabic": "يفكر بجدية أو يقلق بشأن أمر",
+      "explanation_de": "Über ein Problem oder eine zukünftige Entwicklung intensiv nachdenken.",
+      "explanation_ar": "التفكير بجدية في مشكلة أو تطور مستقبلي، وأحيانًا مع القلق.",
+      "examples": [
+        {
+          "de": "Viele Betriebe machen sich Gedanken über den Fachkräftebedarf.",
+          "ar": "تفكر شركات كثيرة في الحاجة المستقبلية إلى العمال المهرة."
+        },
+        {
+          "de": "Sie macht sich Gedanken darüber, ob sie für die Stelle umziehen soll.",
+          "ar": "تفكر فيما إذا كان عليها الانتقال من أجل الوظيفة."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich Gedanken über + Akkusativ machen",
+        "praeteritum": "machte sich Gedanken",
+        "perfekt": "hat sich Gedanken gemacht"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "denken"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v020",
+      "identity": "kosten tragen",
+      "term": "Kosten tragen",
+      "type": "phrase",
+      "arabic": "يتحمّل التكاليف",
+      "explanation_de": "Für Ausgaben finanziell verantwortlich sein und sie bezahlen.",
+      "explanation_ar": "تحمل المسؤولية المالية ودفع المصاريف.",
+      "examples": [
+        {
+          "de": "Das Unternehmen trägt die Kosten der Weiterbildung.",
+          "ar": "تتحمل الشركة تكاليف التدريب الإضافي."
+        },
+        {
+          "de": "Wer trägt die Kosten für die Unterkunft?",
+          "ar": "من يتحمل تكاليف السكن؟"
+        }
+      ],
+      "grammar": {
+        "verb": "tragen",
+        "praeteritum": "trug",
+        "perfekt": "hat getragen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "kosten"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v021",
+      "identity": "kontakt aufnehmen",
+      "term": "Kontakt aufnehmen",
+      "type": "phrase",
+      "arabic": "يتواصل مع شخص لأول مرة",
+      "explanation_de": "Eine Verbindung zu einer Person oder Institution herstellen.",
+      "explanation_ar": "بدء التواصل مع شخص أو جهة عبر الهاتف أو البريد أو اللقاء.",
+      "examples": [
+        {
+          "de": "Die Bewerberin nimmt telefonisch Kontakt mit der Ansprechpartnerin auf.",
+          "ar": "تتواصل المتقدمة هاتفيًا مع المسؤولة."
+        },
+        {
+          "de": "Neue Mitarbeitende sollten früh Kontakt zum Team aufnehmen.",
+          "ar": "ينبغي للموظفين الجدد التواصل مبكرًا مع الفريق."
+        }
+      ],
+      "grammar": {
+        "verb": "aufnehmen",
+        "praeteritum": "nahm Kontakt auf",
+        "perfekt": "hat Kontakt aufgenommen",
+        "separable": true
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v022",
+      "identity": "hilfe leisten",
+      "term": "Hilfe leisten",
+      "type": "phrase",
+      "arabic": "يقدّم المساعدة",
+      "explanation_de": "Jemanden aktiv unterstützen, besonders in einer schwierigen Situation.",
+      "explanation_ar": "تقديم دعم عملي لشخص يحتاج إلى مساعدة.",
+      "examples": [
+        {
+          "de": "Die Integrationshelferin leistet neuen Beschäftigten praktische Hilfe.",
+          "ar": "تقدم مساعدة الاندماج دعمًا عمليًا للموظفين الجدد."
+        },
+        {
+          "de": "Der Verein leistet Hilfe bei der beruflichen Orientierung.",
+          "ar": "تقدم الجمعية المساعدة في التوجيه المهني."
+        }
+      ],
+      "grammar": {
+        "verb": "leisten",
+        "praeteritum": "leistete Hilfe",
+        "perfekt": "hat Hilfe geleistet"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "hilfe"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v023",
+      "identity": "einfluss nehmen",
+      "term": "Einfluss nehmen",
+      "type": "phrase",
+      "arabic": "يؤثر في أمر",
+      "explanation_de": "Versuchen, eine Entwicklung oder Entscheidung aktiv zu verändern.",
+      "explanation_ar": "محاولة التأثير الفعلي في قرار أو تطور.",
+      "examples": [
+        {
+          "de": "Die Firmen versuchen, auf die Entwicklung des Arbeitsmarktes Einfluss zu nehmen.",
+          "ar": "تحاول الشركات التأثير في تطور سوق العمل."
+        },
+        {
+          "de": "Beschäftigte können über den Betriebsrat Einfluss nehmen.",
+          "ar": "يمكن للموظفين التأثير عبر مجلس العمال."
+        }
+      ],
+      "grammar": {
+        "pattern": "Einfluss auf + Akkusativ nehmen",
+        "praeteritum": "nahm Einfluss",
+        "perfekt": "hat Einfluss genommen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "einfluss"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v024",
+      "identity": "etwas in kauf nehmen",
+      "term": "etwas in Kauf nehmen",
+      "type": "phrase",
+      "arabic": "يتقبل سلبيات أمر مقابل فائدة",
+      "explanation_de": "Einen Nachteil bewusst akzeptieren, um ein anderes Ziel zu erreichen.",
+      "explanation_ar": "قبول عيب أو تكلفة لأن النتيجة الأخرى أهم.",
+      "examples": [
+        {
+          "de": "Für die interessante Stelle nimmt er einen längeren Arbeitsweg in Kauf.",
+          "ar": "يتقبل طريق عمل أطول من أجل الوظيفة المهمة."
+        },
+        {
+          "de": "Die Firma nimmt höhere Kosten für eine bessere Integration in Kauf.",
+          "ar": "تقبل الشركة تكاليف أعلى من أجل اندماج أفضل."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "nahm in Kauf",
+        "perfekt": "hat in Kauf genommen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v025",
+      "identity": "nicht infrage kommen",
+      "term": "nicht infrage kommen",
+      "type": "phrase",
+      "arabic": "لا يكون خيارًا ممكنًا",
+      "explanation_de": "Als Möglichkeit ausgeschlossen oder nicht akzeptabel sein.",
+      "explanation_ar": "ألا يكون الحل أو الخيار ممكنًا أو مناسبًا.",
+      "examples": [
+        {
+          "de": "Ein täglicher Arbeitsweg von drei Stunden kommt für sie nicht infrage.",
+          "ar": "لا يمكنها قبول طريق عمل يومي مدته ثلاث ساعات."
+        },
+        {
+          "de": "Eine Kündigung ohne wichtigen Grund kommt nicht infrage.",
+          "ar": "لا يمكن إنهاء العقد من دون سبب مهم."
+        }
+      ],
+      "grammar": {
+        "praeteritum": "kam nicht infrage",
+        "perfekt": "ist nicht infrage gekommen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          107
+        ],
+        "section": "Nomen-Verb-Verbindungen"
+      },
+      "tags": [
+        "phrase",
+        "entscheidung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v026",
+      "identity": "einen kurzvortrag halten",
+      "term": "einen Kurzvortrag halten",
+      "type": "phrase",
+      "arabic": "يقدّم عرضًا قصيرًا",
+      "explanation_de": "Ein Thema in wenigen Minuten strukturiert mündlich präsentieren.",
+      "explanation_ar": "عرض موضوع بصورة منظمة خلال مدة قصيرة.",
+      "examples": [
+        {
+          "de": "Im Kurs hält sie einen Kurzvortrag über ihre Region.",
+          "ar": "تقدم عرضًا قصيرًا عن منطقتها في الصف."
+        },
+        {
+          "de": "Ein Kurzvortrag braucht eine klare Einleitung und einen Schluss.",
+          "ar": "يحتاج العرض القصير إلى مقدمة وخاتمة واضحتين."
+        }
+      ],
+      "grammar": {
+        "verb": "halten",
+        "praeteritum": "hielt",
+        "perfekt": "hat gehalten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          99,
+          101,
+          108,
+          112
+        ],
+        "section": "Eine Region präsentieren"
+      },
+      "tags": [
+        "präsentation",
+        "sprechen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v027",
+      "identity": "das freizeitangebot",
+      "term": "das Freizeitangebot",
+      "type": "noun",
+      "arabic": "عرض الأنشطة الترفيهية",
+      "explanation_de": "Die Gesamtheit der Möglichkeiten für Sport, Kultur, Natur und Erholung.",
+      "explanation_ar": "مجموعة الأنشطة والخيارات المتاحة للرياضة والثقافة والاستجمام.",
+      "examples": [
+        {
+          "de": "Das Freizeitangebot reicht von Radtouren bis zu Konzerten.",
+          "ar": "يمتد عرض الأنشطة من جولات الدراجة إلى الحفلات."
+        },
+        {
+          "de": "Ein vielfältiges Freizeitangebot erhöht die Lebensqualität.",
+          "ar": "يرفع تنوع الأنشطة الترفيهية جودة الحياة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Freizeitangebote"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          101,
+          105,
+          110,
+          111
+        ],
+        "section": "Freizeit in der Region"
+      },
+      "tags": [
+        "freizeit",
+        "region"
+      ],
+      "globalRef": "nouns:noun_0214",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v028",
+      "identity": "das ausflugsziel",
+      "term": "das Ausflugsziel",
+      "type": "noun",
+      "arabic": "وجهة نزهة أو رحلة قصيرة",
+      "explanation_de": "Ein Ort, den man für einen Tagesausflug oder eine Freizeitaktivität besucht.",
+      "explanation_ar": "مكان يُزار في رحلة يومية أو نشاط ترفيهي.",
+      "examples": [
+        {
+          "de": "Das Schloss ist ein beliebtes Ausflugsziel.",
+          "ar": "القصر وجهة نزهة محبوبة."
+        },
+        {
+          "de": "Für den Betriebsausflug sucht das Team ein gut erreichbares Ausflugsziel.",
+          "ar": "يبحث الفريق عن وجهة سهلة الوصول لرحلة الشركة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Ausflugsziele"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          105,
+          110,
+          111
+        ],
+        "section": "Freizeit in der Region"
+      },
+      "tags": [
+        "freizeit",
+        "reise"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v029",
+      "identity": "der bundesfreiwilligendienst (bfd)",
+      "term": "der Bundesfreiwilligendienst (BFD)",
+      "type": "noun",
+      "arabic": "الخدمة التطوعية الاتحادية",
+      "explanation_de": "Ein staatlich geregelter Freiwilligendienst in sozialen, kulturellen oder ökologischen Bereichen.",
+      "explanation_ar": "خدمة تطوعية رسمية في مجالات اجتماعية أو ثقافية أو بيئية.",
+      "examples": [
+        {
+          "de": "Im Bundesfreiwilligendienst sammelt man praktische Erfahrungen.",
+          "ar": "يجمع الشخص خبرة عملية في الخدمة التطوعية الاتحادية."
+        },
+        {
+          "de": "Der BFD kann bei der beruflichen Orientierung helfen.",
+          "ar": "قد تساعد الخدمة التطوعية في التوجيه المهني."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "abbreviation": "BFD",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          110
+        ],
+        "section": "Regionale Angebote"
+      },
+      "tags": [
+        "freiwilligendienst",
+        "beruf"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v030",
+      "identity": "sich beruflich orientieren",
+      "term": "sich beruflich orientieren",
+      "type": "phrase",
+      "arabic": "يحدّد اتجاهه المهني",
+      "explanation_de": "Eigene Interessen und Fähigkeiten prüfen, um einen passenden Berufsweg zu finden.",
+      "explanation_ar": "التعرف إلى الميول والقدرات لاختيار مسار مهني مناسب.",
+      "examples": [
+        {
+          "de": "Nach der Schule möchte sie sich zunächst beruflich orientieren.",
+          "ar": "تريد بعد المدرسة أن تحدد اتجاهها المهني أولًا."
+        },
+        {
+          "de": "Ein Praktikum hilft dabei, sich beruflich zu orientieren.",
+          "ar": "يساعد التدريب العملي على التوجيه المهني."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "orientierte sich",
+        "perfekt": "hat sich orientiert"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          110,
+          112
+        ],
+        "section": "Berufliche Orientierung"
+      },
+      "tags": [
+        "beruf",
+        "orientierung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v031",
+      "identity": "arbeitserfahrung sammeln",
+      "term": "Arbeitserfahrung sammeln",
+      "type": "phrase",
+      "arabic": "يكتسب خبرة عملية",
+      "explanation_de": "Durch praktische Tätigkeiten berufliche Kenntnisse und Routine erwerben.",
+      "explanation_ar": "اكتساب معرفة ومهارة مهنية من خلال العمل الفعلي.",
+      "examples": [
+        {
+          "de": "Im Freiwilligendienst kann man Arbeitserfahrung sammeln.",
+          "ar": "يمكن اكتساب خبرة عملية في الخدمة التطوعية."
+        },
+        {
+          "de": "Vor dem Studium hat er in einem Unternehmen Arbeitserfahrung gesammelt.",
+          "ar": "اكتسب خبرة في شركة قبل الدراسة."
+        }
+      ],
+      "grammar": {
+        "verb": "sammeln",
+        "praeteritum": "sammelte",
+        "perfekt": "hat gesammelt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          100,
+          102,
+          110
+        ],
+        "section": "Berufliche Orientierung"
+      },
+      "tags": [
+        "beruf",
+        "erfahrung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v032",
+      "identity": "die schlossbeleuchtung",
+      "term": "die Schlossbeleuchtung",
+      "type": "noun",
+      "arabic": "إضاءة القصر الاحتفالية",
+      "explanation_de": "Eine besondere Beleuchtung eines Schlosses als kulturelle Veranstaltung.",
+      "explanation_ar": "فعالية تُضاء فيها مباني القصر بإضاءة خاصة.",
+      "examples": [
+        {
+          "de": "Die Schlossbeleuchtung findet mehrmals im Sommer statt.",
+          "ar": "تقام إضاءة القصر عدة مرات في الصيف."
+        },
+        {
+          "de": "Zur Schlossbeleuchtung gehört häufig ein Feuerwerk.",
+          "ar": "يرافق إضاءة القصر غالبًا عرض ألعاب نارية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Schlossbeleuchtungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          105,
+          110
+        ],
+        "section": "Freizeit in der Region"
+      },
+      "tags": [
+        "kultur",
+        "veranstaltung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v033",
+      "identity": "der anfängerkurs",
+      "term": "der Anfängerkurs",
+      "type": "noun",
+      "arabic": "دورة للمبتدئين",
+      "explanation_de": "Ein Kurs für Personen ohne oder mit nur wenigen Vorkenntnissen.",
+      "explanation_ar": "دورة مخصصة لمن ليس لديهم خبرة سابقة أو لديهم خبرة بسيطة.",
+      "examples": [
+        {
+          "de": "Der Fahrradkurs richtet sich an erwachsene Anfänger.",
+          "ar": "تستهدف دورة ركوب الدراجة المبتدئين البالغين."
+        },
+        {
+          "de": "Im Anfängerkurs werden die Grundlagen Schritt für Schritt erklärt.",
+          "ar": "تُشرح الأساسيات خطوة بخطوة في دورة المبتدئين."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Anfängerkurse"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          110,
+          111
+        ],
+        "section": "Regionale Kurse"
+      },
+      "tags": [
+        "kurs",
+        "freizeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v034",
+      "identity": "die kosmetikbehandlung",
+      "term": "die Kosmetikbehandlung",
+      "type": "noun",
+      "arabic": "جلسة عناية تجميلية",
+      "explanation_de": "Eine professionelle Behandlung zur Pflege von Haut oder Körper.",
+      "explanation_ar": "جلسة مهنية للعناية بالبشرة أو الجسم.",
+      "examples": [
+        {
+          "de": "Die Akademie bietet individuelle Kosmetikbehandlungen an.",
+          "ar": "تقدم الأكاديمية جلسات تجميل فردية."
+        },
+        {
+          "de": "Vor der Behandlung wird ein Beratungsgespräch geführt.",
+          "ar": "تُجرى استشارة قبل الجلسة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Kosmetikbehandlungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          111
+        ],
+        "section": "Regionale Angebote"
+      },
+      "tags": [
+        "dienstleistung",
+        "kosmetik"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v035",
+      "identity": "der fotokurs",
+      "term": "der Fotokurs",
+      "type": "noun",
+      "arabic": "دورة تصوير",
+      "explanation_de": "Ein Kurs, in dem fotografische Technik und Bildgestaltung vermittelt werden.",
+      "explanation_ar": "دورة لتعلم تقنيات التصوير وتكوين الصورة.",
+      "examples": [
+        {
+          "de": "Im Fotokurs lernen die Teilnehmenden den Umgang mit verschiedenen Einstellungen.",
+          "ar": "يتعلم المشاركون استخدام إعدادات مختلفة في دورة التصوير."
+        },
+        {
+          "de": "Für den Fotokurs ist keine professionelle Kamera erforderlich.",
+          "ar": "لا تحتاج دورة التصوير إلى كاميرا احترافية."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Fotokurse"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          110,
+          111
+        ],
+        "section": "Regionale Kurse"
+      },
+      "tags": [
+        "kurs",
+        "fotografie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v036",
+      "identity": "das duale studium",
+      "term": "das duale Studium",
+      "type": "noun",
+      "arabic": "دراسة جامعية مزدوجة",
+      "explanation_de": "Ein Studium, das Hochschulphasen mit regelmäßiger praktischer Arbeit in einem Unternehmen verbindet.",
+      "explanation_ar": "دراسة تجمع بين التعليم الجامعي والعمل العملي المنتظم في شركة.",
+      "examples": [
+        {
+          "de": "Im dualen Studium wechseln sich Theorie- und Praxisphasen ab.",
+          "ar": "تتناوب مراحل الدراسة والعمل العملي في الدراسة المزدوجة."
+        },
+        {
+          "de": "Das Unternehmen zahlt während des dualen Studiums eine Vergütung.",
+          "ar": "تدفع الشركة بدلًا ماليًا خلال الدراسة المزدوجة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die dualen Studiengänge"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          104,
+          108,
+          112
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "ausbildung"
+      ],
+      "globalRef": "nouns:noun_0217",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v037",
+      "identity": "der studiengang",
+      "term": "der Studiengang",
+      "type": "noun",
+      "arabic": "التخصص أو البرنامج الجامعي",
+      "explanation_de": "Ein klar strukturierter akademischer Ausbildungsgang an einer Hochschule.",
+      "explanation_ar": "برنامج دراسي جامعي له مواد ومتطلبات ومدة محددة.",
+      "examples": [
+        {
+          "de": "Der Studiengang verbindet Anlagenbau und Recyclingtechnik.",
+          "ar": "يجمع البرنامج بين بناء المنشآت وتقنيات إعادة التدوير."
+        },
+        {
+          "de": "Vor der Bewerbung informiert er sich über Inhalte und Dauer des Studiengangs.",
+          "ar": "يستفسر عن محتوى البرنامج ومدته قبل التقديم."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Studiengänge"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          104,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "hochschule"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v038",
+      "identity": "die zulassungsvoraussetzung",
+      "term": "die Zulassungsvoraussetzung",
+      "type": "noun",
+      "arabic": "شرط القبول",
+      "explanation_de": "Eine Bedingung, die erfüllt sein muss, um zu einem Studium oder einer Ausbildung zugelassen zu werden.",
+      "explanation_ar": "متطلب يجب تحقيقه للحصول على القبول في دراسة أو تدريب.",
+      "examples": [
+        {
+          "de": "Die Hochschulzulassung ist eine wichtige Zulassungsvoraussetzung.",
+          "ar": "يعد القبول الجامعي شرطًا مهمًا للالتحاق."
+        },
+        {
+          "de": "Die Anzeige nennt Berufserfahrung als zusätzliche Zulassungsvoraussetzung.",
+          "ar": "يذكر الإعلان الخبرة المهنية شرطًا إضافيًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Zulassungsvoraussetzungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "voraussetzung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v039",
+      "identity": "die hochschulzulassung",
+      "term": "die Hochschulzulassung",
+      "type": "noun",
+      "arabic": "مؤهل أو قبول الالتحاق بالجامعة",
+      "explanation_de": "Die formale Berechtigung, an einer Hochschule zu studieren.",
+      "explanation_ar": "الأهلية الرسمية للدراسة في جامعة أو كلية.",
+      "examples": [
+        {
+          "de": "Für den Bachelorstudiengang braucht man eine Hochschulzulassung.",
+          "ar": "يحتاج برنامج البكالوريوس إلى مؤهل دخول الجامعة."
+        },
+        {
+          "de": "Ausländische Dokumente werden für die Hochschulzulassung geprüft.",
+          "ar": "تُفحص الوثائق الأجنبية من أجل القبول الجامعي."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Hochschulzulassungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "zulassung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v040",
+      "identity": "die ausbildungsdauer",
+      "term": "die Ausbildungsdauer",
+      "type": "noun",
+      "arabic": "مدة التدريب أو الدراسة",
+      "explanation_de": "Die gesamte Zeit, die für eine Ausbildung oder ein Studienprogramm vorgesehen ist.",
+      "explanation_ar": "الفترة الكاملة المحددة لإتمام التدريب أو البرنامج.",
+      "examples": [
+        {
+          "de": "Die Ausbildungsdauer beträgt drei Jahre.",
+          "ar": "تبلغ مدة التدريب ثلاث سنوات."
+        },
+        {
+          "de": "Unter bestimmten Bedingungen kann sich die Ausbildungsdauer verkürzen.",
+          "ar": "قد تقصر مدة التدريب ضمن شروط معينة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Ausbildungsdauern"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "ausbildung",
+        "dauer"
+      ],
+      "globalRef": "nouns:noun_0218",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v041",
+      "identity": "der ausbildungsort",
+      "term": "der Ausbildungsort",
+      "type": "noun",
+      "arabic": "مكان التدريب أو الدراسة",
+      "explanation_de": "Der Ort oder die Einrichtung, an dem eine Ausbildung stattfindet.",
+      "explanation_ar": "المكان أو المؤسسة التي يتم فيها التدريب.",
+      "examples": [
+        {
+          "de": "Der Ausbildungsort wechselt zwischen Hochschule und Betrieb.",
+          "ar": "يتغير مكان التدريب بين الجامعة والشركة."
+        },
+        {
+          "de": "Vor der Bewerbung möchte Haki den genauen Ausbildungsort wissen.",
+          "ar": "يريد هاكي معرفة مكان التدريب بدقة قبل التقديم."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Ausbildungsorte"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "ausbildung",
+        "ort"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v042",
+      "identity": "die überdurchschnittliche vergütung",
+      "term": "die überdurchschnittliche Vergütung",
+      "type": "noun_phrase",
+      "arabic": "بدل مالي أعلى من المتوسط",
+      "explanation_de": "Eine Bezahlung, die über dem üblichen Niveau vergleichbarer Tätigkeiten liegt.",
+      "explanation_ar": "أجر أو بدل يتجاوز المستوى المعتاد لوظائف أو برامج مشابهة.",
+      "examples": [
+        {
+          "de": "Das Unternehmen bietet eine überdurchschnittliche Vergütung.",
+          "ar": "تقدم الشركة بدلًا ماليًا أعلى من المتوسط."
+        },
+        {
+          "de": "Die Vergütung macht das duale Studium finanziell attraktiv.",
+          "ar": "يجعل البدل المالي الدراسة المزدوجة جذابة ماديًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "vergütung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v043",
+      "identity": "finanziell unabhängig",
+      "term": "finanziell unabhängig",
+      "type": "adjective_phrase",
+      "arabic": "مستقل ماليًا",
+      "explanation_de": "So gestellt, dass man die eigenen laufenden Kosten ohne regelmäßige Unterstützung anderer bezahlen kann.",
+      "explanation_ar": "قادر على تغطية مصاريفه من دون اعتماد دائم على الآخرين.",
+      "examples": [
+        {
+          "de": "Durch die Vergütung bleibt der Studierende finanziell unabhängig.",
+          "ar": "يبقى الطالب مستقلًا ماليًا بفضل البدل."
+        },
+        {
+          "de": "Finanzielle Unabhängigkeit ist für viele Bewerber ein wichtiger Vorteil.",
+          "ar": "الاستقلال المالي ميزة مهمة لمتقدمين كثيرين."
+        }
+      ],
+      "grammar": {
+        "gradable": false
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "finanzen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v044",
+      "identity": "das führende unternehmen",
+      "term": "das führende Unternehmen",
+      "type": "noun_phrase",
+      "arabic": "شركة رائدة",
+      "explanation_de": "Ein Unternehmen, das in seiner Branche besonders erfolgreich, bekannt oder innovativ ist.",
+      "explanation_ar": "شركة تحتل موقعًا متقدمًا في قطاعها من حيث الخبرة أو النجاح أو الابتكار.",
+      "examples": [
+        {
+          "de": "Held ist ein führendes Unternehmen im Bereich Recyclingtechnik.",
+          "ar": "شركة هيلد رائدة في مجال تقنيات إعادة التدوير."
+        },
+        {
+          "de": "Ein führendes Unternehmen bietet häufig internationale Projekte.",
+          "ar": "تقدم الشركة الرائدة غالبًا مشاريع دولية."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die führenden Unternehmen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          108
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "unternehmen",
+        "branche"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v045",
+      "identity": "die recyclingtechnik",
+      "term": "die Recyclingtechnik",
+      "type": "noun",
+      "arabic": "تقنيات إعادة التدوير",
+      "explanation_de": "Technische Verfahren und Anlagen zur Wiederverwertung von Materialien.",
+      "explanation_ar": "طرق ومنشآت تقنية لإعادة استخدام المواد وتحويلها إلى موارد جديدة.",
+      "examples": [
+        {
+          "de": "Der Studiengang beschäftigt sich mit Anlagenbau und Recyclingtechnik.",
+          "ar": "يتناول البرنامج بناء المنشآت وتقنيات إعادة التدوير."
+        },
+        {
+          "de": "Recyclingtechnik gewinnt für nachhaltige Produktion an Bedeutung.",
+          "ar": "تزداد أهمية تقنيات إعادة التدوير للإنتاج المستدام."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "technik",
+        "nachhaltigkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v046",
+      "identity": "der anlagenbau",
+      "term": "der Anlagenbau",
+      "type": "noun",
+      "arabic": "بناء وتصميم المنشآت الصناعية",
+      "explanation_de": "Der technische Bereich, in dem industrielle Anlagen geplant, gebaut und in Betrieb genommen werden.",
+      "explanation_ar": "مجال هندسي لتخطيط المنشآت الصناعية وبنائها وتشغيلها.",
+      "examples": [
+        {
+          "de": "Im Anlagenbau arbeiten Ingenieurinnen mit verschiedenen Fachabteilungen zusammen.",
+          "ar": "يتعاون المهندسون مع أقسام متعددة في بناء المنشآت."
+        },
+        {
+          "de": "Der Betrieb bietet Praxisphasen im internationalen Anlagenbau.",
+          "ar": "تقدم الشركة مراحل تدريب عملي في بناء المنشآت الدولي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "technik",
+        "industrie"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v047",
+      "identity": "das bewerbungsschreiben",
+      "term": "das Bewerbungsschreiben",
+      "type": "noun",
+      "arabic": "رسالة التقديم للوظيفة",
+      "explanation_de": "Ein formeller Text, in dem Motivation, Qualifikation und Interesse an einer Stelle dargestellt werden.",
+      "explanation_ar": "رسالة رسمية يوضح فيها المتقدم دافعه ومؤهلاته واهتمامه بالوظيفة.",
+      "examples": [
+        {
+          "de": "Das Bewerbungsschreiben sollte klar gegliedert und individuell formuliert sein.",
+          "ar": "ينبغي أن تكون رسالة التقديم منظمة ومكتوبة بصورة شخصية."
+        },
+        {
+          "de": "Im Bewerbungsschreiben erklärt Haki, warum ihn das Unternehmen interessiert.",
+          "ar": "يشرح هاكي في الرسالة سبب اهتمامه بالشركة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Bewerbungsschreiben"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103,
+          112
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v048",
+      "identity": "das anschreiben",
+      "term": "das Anschreiben",
+      "type": "noun",
+      "arabic": "خطاب التقديم",
+      "explanation_de": "Der zentrale schriftliche Teil einer Bewerbung, der direkt an den Arbeitgeber gerichtet ist.",
+      "explanation_ar": "الجزء الأساسي من طلب التوظيف والموجه مباشرة إلى صاحب العمل.",
+      "examples": [
+        {
+          "de": "Das Anschreiben beginnt mit einer passenden Anrede.",
+          "ar": "يبدأ خطاب التقديم بتحية مناسبة."
+        },
+        {
+          "de": "Ein gutes Anschreiben verbindet Erfahrung und Motivation mit der Stelle.",
+          "ar": "يربط الخطاب الجيد الخبرة والدافع بالوظيفة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Anschreiben"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103,
+          112
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "dokument"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v049",
+      "identity": "die gliederung",
+      "term": "die Gliederung",
+      "type": "noun",
+      "arabic": "هيكل أو تنظيم النص",
+      "explanation_de": "Die sinnvolle Ordnung eines Textes in Einleitung, Hauptteil und Schluss.",
+      "explanation_ar": "ترتيب النص في أقسام مترابطة مثل المقدمة والمتن والخاتمة.",
+      "examples": [
+        {
+          "de": "Eine klare Gliederung erleichtert das Lesen des Anschreibens.",
+          "ar": "يسهل الهيكل الواضح قراءة خطاب التقديم."
+        },
+        {
+          "de": "Vor dem Schreiben notiert sie die wichtigsten Gliederungspunkte.",
+          "ar": "تدون أهم نقاط الهيكل قبل الكتابة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Gliederungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "schreiben",
+        "struktur"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v050",
+      "identity": "die bisherige tätigkeit",
+      "term": "die bisherige Tätigkeit",
+      "type": "noun_phrase",
+      "arabic": "النشاط أو العمل السابق",
+      "explanation_de": "Die berufliche oder praktische Tätigkeit, die eine Person bis zum jetzigen Zeitpunkt ausgeübt hat.",
+      "explanation_ar": "العمل أو النشاط الذي مارسه الشخص حتى الوقت الحالي.",
+      "examples": [
+        {
+          "de": "Im Anschreiben beschreibt er seine bisherige Tätigkeit im Anlagenbau.",
+          "ar": "يصف في الخطاب عمله السابق في بناء المنشآت."
+        },
+        {
+          "de": "Die bisherige Tätigkeit passt gut zu den Anforderungen der Stelle.",
+          "ar": "يناسب العمل السابق متطلبات الوظيفة جيدًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die bisherigen Tätigkeiten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "erfahrung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v051",
+      "identity": "die derzeitige tätigkeit",
+      "term": "die derzeitige Tätigkeit",
+      "type": "noun_phrase",
+      "arabic": "النشاط أو العمل الحالي",
+      "explanation_de": "Die Arbeit oder Ausbildung, die eine Person momentan ausübt.",
+      "explanation_ar": "العمل أو التدريب الذي يقوم به الشخص حاليًا.",
+      "examples": [
+        {
+          "de": "In seiner derzeitigen Tätigkeit sammelt Haki praktische Erfahrung.",
+          "ar": "يجمع هاكي خبرة عملية في عمله الحالي."
+        },
+        {
+          "de": "Die Bewerberin nennt ihre derzeitige Tätigkeit direkt nach der Einleitung.",
+          "ar": "تذكر المتقدمة نشاطها الحالي بعد المقدمة مباشرة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die derzeitigen Tätigkeiten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "erfahrung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v052",
+      "identity": "die sprachkenntnisse",
+      "term": "die Sprachkenntnisse",
+      "type": "noun_plural",
+      "arabic": "المعارف والمهارات اللغوية",
+      "explanation_de": "Die Fähigkeit, eine oder mehrere Sprachen auf einem bestimmten Niveau zu verwenden.",
+      "explanation_ar": "قدرة الشخص على استخدام لغة أو أكثر بمستوى محدد.",
+      "examples": [
+        {
+          "de": "Im Lebenslauf gibt sie ihre Sprachkenntnisse mit Niveau an.",
+          "ar": "تذكر في السيرة مهاراتها اللغوية مع المستوى."
+        },
+        {
+          "de": "Gute Deutschkenntnisse sind für das Studium erforderlich.",
+          "ar": "تلزم معرفة جيدة بالألمانية للدراسة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "plural_only"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "sprache"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v053",
+      "identity": "die muttersprache",
+      "term": "die Muttersprache",
+      "type": "noun",
+      "arabic": "اللغة الأم",
+      "explanation_de": "Die Sprache, die eine Person in der frühen Kindheit als erste gelernt hat.",
+      "explanation_ar": "اللغة التي تعلمها الشخص أولًا في طفولته.",
+      "examples": [
+        {
+          "de": "Englisch ist ihre Muttersprache, Deutsch spricht sie auf B2-Niveau.",
+          "ar": "الإنجليزية لغتها الأم وتتحدث الألمانية بمستوى B2."
+        },
+        {
+          "de": "Im Anschreiben muss die Muttersprache nur genannt werden, wenn sie relevant ist.",
+          "ar": "لا يلزم ذكر اللغة الأم في الخطاب إلا إذا كانت مهمة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Muttersprachen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "sprache",
+        "bewerbung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v054",
+      "identity": "das know-how",
+      "term": "das Know-how",
+      "type": "noun",
+      "arabic": "المعرفة والخبرة التطبيقية",
+      "explanation_de": "Praktisches Fachwissen und Erfahrung, die für eine Aufgabe oder Branche notwendig sind.",
+      "explanation_ar": "معرفة عملية وخبرة متخصصة يحتاجها الشخص لإنجاز العمل.",
+      "examples": [
+        {
+          "de": "Das Unternehmen verfügt über umfangreiches Know-how in der Recyclingtechnik.",
+          "ar": "تمتلك الشركة خبرة تطبيقية واسعة في تقنيات إعادة التدوير."
+        },
+        {
+          "de": "Im Praktikum konnte Haki sein technisches Know-how erweitern.",
+          "ar": "تمكن هاكي من تطوير خبرته التقنية في التدريب."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "kompetenz",
+        "fachwissen"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v055",
+      "identity": "sich beruflich weiterentwickeln",
+      "term": "sich beruflich weiterentwickeln",
+      "type": "phrase",
+      "arabic": "يطوّر نفسه مهنيًا",
+      "explanation_de": "Neue Kenntnisse, Qualifikationen oder Verantwortung erwerben und die eigene berufliche Position verbessern.",
+      "explanation_ar": "اكتساب مهارات ومؤهلات ومسؤوليات جديدة للتقدم في المسار المهني.",
+      "examples": [
+        {
+          "de": "Das duale Studium bietet ihm die Möglichkeit, sich beruflich weiterzuentwickeln.",
+          "ar": "تتيح له الدراسة المزدوجة التطور مهنيًا."
+        },
+        {
+          "de": "Sie sucht eine Stelle, in der sie sich langfristig weiterentwickeln kann.",
+          "ar": "تبحث عن وظيفة تستطيع التطور فيها على المدى الطويل."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "praeteritum": "entwickelte sich weiter",
+        "perfekt": "hat sich weiterentwickelt",
+        "separable": true
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103,
+          114
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "beruf",
+        "karriere"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v056",
+      "identity": "sich einer herausforderung stellen",
+      "term": "sich einer Herausforderung stellen",
+      "type": "phrase",
+      "arabic": "يواجه تحديًا",
+      "explanation_de": "Eine schwierige Aufgabe bewusst annehmen und aktiv bearbeiten.",
+      "explanation_ar": "قبول مهمة صعبة والتعامل معها بصورة فعالة.",
+      "examples": [
+        {
+          "de": "Haki möchte sich den Herausforderungen des dualen Studiums stellen.",
+          "ar": "يريد هاكي مواجهة تحديات الدراسة المزدوجة."
+        },
+        {
+          "de": "Wer Verantwortung übernimmt, muss sich neuen Herausforderungen stellen.",
+          "ar": "من يتحمل المسؤولية عليه مواجهة تحديات جديدة."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich einer Sache im Dativ stellen",
+        "praeteritum": "stellte sich",
+        "perfekt": "hat sich gestellt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "beruf",
+        "motivation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v057",
+      "identity": "einen schwerpunkt legen auf",
+      "term": "einen Schwerpunkt legen auf",
+      "type": "phrase",
+      "arabic": "يركّز على",
+      "explanation_de": "Einem Thema oder Bereich besondere Bedeutung geben.",
+      "explanation_ar": "إعطاء مجال معين أهمية خاصة في الدراسة أو العمل.",
+      "examples": [
+        {
+          "de": "Im Studium legt er einen Schwerpunkt auf Recyclingtechnik.",
+          "ar": "يركز في الدراسة على تقنيات إعادة التدوير."
+        },
+        {
+          "de": "Das Anschreiben legt den Schwerpunkt auf praktische Erfahrung.",
+          "ar": "يركز خطاب التقديم على الخبرة العملية."
+        }
+      ],
+      "grammar": {
+        "pattern": "einen Schwerpunkt auf + Akkusativ legen",
+        "praeteritum": "legte einen Schwerpunkt",
+        "perfekt": "hat einen Schwerpunkt gelegt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "phrase",
+        "fokus"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v058",
+      "identity": "sich bewerben um",
+      "term": "sich bewerben um",
+      "type": "phrase",
+      "arabic": "يتقدم إلى وظيفة أو مكان",
+      "explanation_de": "Eine formelle Bewerbung für eine Stelle, Ausbildung oder einen Studienplatz einreichen.",
+      "explanation_ar": "إرسال طلب رسمي للحصول على وظيفة أو تدريب أو مقعد دراسي.",
+      "examples": [
+        {
+          "de": "Haki bewirbt sich um einen dualen Studienplatz.",
+          "ar": "يتقدم هاكي إلى مقعد دراسة مزدوجة."
+        },
+        {
+          "de": "Sie hat sich bei mehreren Unternehmen um eine Ausbildung beworben.",
+          "ar": "تقدمت إلى عدة شركات للحصول على تدريب."
+        }
+      ],
+      "grammar": {
+        "reflexive": true,
+        "pattern": "sich bei + Dativ um + Akkusativ bewerben",
+        "praeteritum": "bewarb sich",
+        "perfekt": "hat sich beworben"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103,
+          112
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "verb"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v059",
+      "identity": "eine bewerbung einreichen",
+      "term": "eine Bewerbung einreichen",
+      "type": "phrase",
+      "arabic": "يقدّم طلب توظيف",
+      "explanation_de": "Bewerbungsunterlagen offiziell an ein Unternehmen oder eine Institution senden.",
+      "explanation_ar": "إرسال طلب التقديم رسميًا إلى الشركة أو المؤسسة.",
+      "examples": [
+        {
+          "de": "Die Bewerbung muss bis Ende Mai eingereicht werden.",
+          "ar": "يجب تقديم الطلب حتى نهاية مايو."
+        },
+        {
+          "de": "Nach dem Telefonat reicht Haki seine vollständige Bewerbung ein.",
+          "ar": "يقدم هاكي طلبه كاملًا بعد المكالمة."
+        }
+      ],
+      "grammar": {
+        "verb": "einreichen",
+        "praeteritum": "reichte ein",
+        "perfekt": "hat eingereicht",
+        "separable": true
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          103
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "prozess"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v060",
+      "identity": "einen guten eindruck machen",
+      "term": "einen guten Eindruck machen",
+      "type": "phrase",
+      "arabic": "يترك انطباعًا جيدًا",
+      "explanation_de": "Durch Auftreten, Sprache und Verhalten positiv wahrgenommen werden.",
+      "explanation_ar": "أن يُنظر إلى الشخص بإيجابية بسبب أسلوبه وكلامه وتصرفه.",
+      "examples": [
+        {
+          "de": "Eine gute Vorbereitung hilft, im Vorstellungsgespräch einen guten Eindruck zu machen.",
+          "ar": "يساعد التحضير الجيد على ترك انطباع جيد في المقابلة."
+        },
+        {
+          "de": "Das klare Anschreiben hat einen professionellen Eindruck gemacht.",
+          "ar": "ترك خطاب التقديم الواضح انطباعًا مهنيًا."
+        }
+      ],
+      "grammar": {},
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          107
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "kommunikation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v061",
+      "identity": "ein bewerbungsgespräch führen",
+      "term": "ein Bewerbungsgespräch führen",
+      "type": "phrase",
+      "arabic": "يجري مقابلة توظيف",
+      "explanation_de": "Ein strukturiertes Gespräch zwischen Arbeitgeber und Bewerberin oder Bewerber durchführen.",
+      "explanation_ar": "إجراء مقابلة منظمة بين صاحب العمل والمتقدم.",
+      "examples": [
+        {
+          "de": "Die Personalabteilung führt nächste Woche mehrere Bewerbungsgespräche.",
+          "ar": "يجري قسم الموارد البشرية عدة مقابلات الأسبوع القادم."
+        },
+        {
+          "de": "Vor dem Bewerbungsgespräch notiert Haki seine Rückfragen.",
+          "ar": "يدون هاكي أسئلته قبل المقابلة."
+        }
+      ],
+      "grammar": {
+        "verb": "führen",
+        "praeteritum": "führte",
+        "perfekt": "hat geführt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          107,
+          112
+        ],
+        "section": "Bewerbung"
+      },
+      "tags": [
+        "bewerbung",
+        "gespräch"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v062",
+      "identity": "der arbeitsvertrag",
+      "term": "der Arbeitsvertrag",
+      "type": "noun",
+      "arabic": "عقد العمل",
+      "explanation_de": "Eine schriftliche oder mündliche Vereinbarung über Rechte und Pflichten in einem Arbeitsverhältnis.",
+      "explanation_ar": "اتفاق يحدد حقوق وواجبات الموظف وصاحب العمل.",
+      "examples": [
+        {
+          "de": "Der Arbeitsvertrag regelt Vergütung, Arbeitszeit und Urlaub.",
+          "ar": "ينظم عقد العمل الراتب وساعات العمل والإجازة."
+        },
+        {
+          "de": "Vor der Unterschrift sollte man den Arbeitsvertrag vollständig lesen.",
+          "ar": "ينبغي قراءة عقد العمل كاملًا قبل التوقيع."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Arbeitsverträge"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109,
+          112
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "vertrag"
+      ],
+      "globalRef": "nouns:noun_0219",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v063",
+      "identity": "der vertragsbeginn",
+      "term": "der Vertragsbeginn",
+      "type": "noun",
+      "arabic": "بداية العقد",
+      "explanation_de": "Der Zeitpunkt, an dem ein Vertrag wirksam wird.",
+      "explanation_ar": "التاريخ الذي يبدأ فيه العقد بالعمل.",
+      "examples": [
+        {
+          "de": "Der Vertragsbeginn ist auf den 1. Oktober festgelegt.",
+          "ar": "حُدد بدء العقد في الأول من أكتوبر."
+        },
+        {
+          "de": "Vor dem Vertragsbeginn erhält Haki weitere Unterlagen.",
+          "ar": "يتلقى هاكي وثائق إضافية قبل بداية العقد."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Vertragsbeginne"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "zeit"
+      ],
+      "globalRef": "nouns:noun_0222",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v064",
+      "identity": "die vertragslaufzeit",
+      "term": "die Vertragslaufzeit",
+      "type": "noun",
+      "arabic": "مدة سريان العقد",
+      "explanation_de": "Der Zeitraum vom Beginn bis zum Ende eines Vertrags.",
+      "explanation_ar": "الفترة التي يكون فيها العقد ساريًا.",
+      "examples": [
+        {
+          "de": "Die Vertragslaufzeit endet mit dem Abschluss des Studiums.",
+          "ar": "تنتهي مدة العقد مع إنهاء الدراسة."
+        },
+        {
+          "de": "Bei befristeten Verträgen muss die Vertragslaufzeit klar angegeben sein.",
+          "ar": "يجب تحديد مدة العقد بوضوح في العقود المحددة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vertragslaufzeiten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "dauer"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v065",
+      "identity": "die probezeit",
+      "term": "die Probezeit",
+      "type": "noun",
+      "arabic": "فترة التجربة",
+      "explanation_de": "Die erste Zeit eines Arbeitsverhältnisses, in der beide Seiten das Arbeitsverhältnis leichter beenden können.",
+      "explanation_ar": "المرحلة الأولى من العمل التي يمكن فيها للطرفين إنهاء العقد بشروط أسهل.",
+      "examples": [
+        {
+          "de": "Die Probezeit dauert drei Monate.",
+          "ar": "تستمر فترة التجربة ثلاثة أشهر."
+        },
+        {
+          "de": "Während der Probezeit gilt eine kürzere Kündigungsfrist.",
+          "ar": "تسري مهلة إنهاء أقصر خلال فترة التجربة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Probezeiten"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109,
+          112
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "vertrag"
+      ],
+      "globalRef": "nouns:noun_0389",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v066",
+      "identity": "die vergütung",
+      "term": "die Vergütung",
+      "type": "noun",
+      "arabic": "الأجر أو البدل المالي",
+      "explanation_de": "Die finanzielle Gegenleistung für Arbeit, Ausbildung oder eine andere Leistung.",
+      "explanation_ar": "المبلغ المالي المدفوع مقابل العمل أو التدريب.",
+      "examples": [
+        {
+          "de": "Die Vergütung steigt in jedem Studienjahr.",
+          "ar": "يزداد البدل المالي في كل سنة دراسية."
+        },
+        {
+          "de": "Die Höhe der Vergütung steht im Vertrag.",
+          "ar": "ترد قيمة الأجر في العقد."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vergütungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          104,
+          108,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "vergütung"
+      ],
+      "globalRef": "nouns:noun_0223",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v067",
+      "identity": "die regelmäßige wöchentliche arbeitszeit",
+      "term": "die regelmäßige wöchentliche Arbeitszeit",
+      "type": "noun_phrase",
+      "arabic": "ساعات العمل الأسبوعية المنتظمة",
+      "explanation_de": "Die vertraglich vorgesehene Zahl der Arbeitsstunden pro Woche.",
+      "explanation_ar": "عدد ساعات العمل الأسبوعية المحدد في العقد.",
+      "examples": [
+        {
+          "de": "Die regelmäßige wöchentliche Arbeitszeit beträgt 38 Stunden.",
+          "ar": "تبلغ ساعات العمل الأسبوعية المنتظمة 38 ساعة."
+        },
+        {
+          "de": "In den Praxisphasen richtet sich die Arbeitszeit nach dem Betrieb.",
+          "ar": "تتبع ساعات العمل نظام الشركة في المراحل العملية."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "usually_singular"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "arbeitszeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v068",
+      "identity": "die praxisphase",
+      "term": "die Praxisphase",
+      "type": "noun",
+      "arabic": "مرحلة التدريب العملي",
+      "explanation_de": "Ein Zeitraum innerhalb eines Studiums oder einer Ausbildung, in dem praktisch im Betrieb gearbeitet wird.",
+      "explanation_ar": "فترة ضمن الدراسة أو التدريب يعمل فيها الطالب داخل الشركة.",
+      "examples": [
+        {
+          "de": "Während der Praxisphase arbeitet Haki in verschiedenen Abteilungen.",
+          "ar": "يعمل هاكي في أقسام مختلفة خلال المرحلة العملية."
+        },
+        {
+          "de": "Die Praxisphase ergänzt die theoretischen Inhalte der Hochschule.",
+          "ar": "تكمل المرحلة العملية المحتوى النظري للجامعة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Praxisphasen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          102,
+          104
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "praxis"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v069",
+      "identity": "die betriebliche erfordernis",
+      "term": "die betriebliche Erfordernis",
+      "type": "noun_phrase",
+      "arabic": "متطلب تشغيلي للشركة",
+      "explanation_de": "Eine organisatorische oder wirtschaftliche Notwendigkeit des Betriebs.",
+      "explanation_ar": "ضرورة مرتبطة بتنظيم العمل أو حاجة الشركة.",
+      "examples": [
+        {
+          "de": "Die Arbeitszeit kann sich nach betrieblichen Erfordernissen richten.",
+          "ar": "قد تتحدد ساعات العمل وفق متطلبات الشركة."
+        },
+        {
+          "de": "Betriebliche Erfordernisse müssen nachvollziehbar begründet werden.",
+          "ar": "يجب تعليل المتطلبات التشغيلية بصورة واضحة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die betrieblichen Erfordernisse"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "betrieb",
+        "organisation"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v070",
+      "identity": "die weiterbildung",
+      "term": "die Weiterbildung",
+      "type": "noun",
+      "arabic": "التدريب أو التطوير المهني",
+      "explanation_de": "Eine zusätzliche Qualifizierung nach oder während der ersten Ausbildung.",
+      "explanation_ar": "تعلم مهني إضافي لتحديث أو توسيع المهارات.",
+      "examples": [
+        {
+          "de": "Die Firma ermöglicht regelmäßige Weiterbildungen.",
+          "ar": "تتيح الشركة تدريبات مهنية منتظمة."
+        },
+        {
+          "de": "Weiterbildung verbessert langfristig die Karrierechancen.",
+          "ar": "يحسن التطوير المهني فرص التقدم على المدى الطويل."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Weiterbildungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "qualifikation"
+      ],
+      "globalRef": "nouns:noun_0506",
+      "integrationStatus": "linked_to_production"
+    },
+    {
+      "courseItemId": "b2u06-v071",
+      "identity": "stillschweigen bewahren",
+      "term": "Stillschweigen bewahren",
+      "type": "phrase",
+      "arabic": "يحافظ على السرية",
+      "explanation_de": "Vertrauliche Informationen nicht an unbefugte Personen weitergeben.",
+      "explanation_ar": "عدم كشف المعلومات السرية لأشخاص غير مخولين.",
+      "examples": [
+        {
+          "de": "Beschäftigte müssen über Betriebsgeheimnisse Stillschweigen bewahren.",
+          "ar": "يجب على الموظفين الحفاظ على سرية أسرار الشركة."
+        },
+        {
+          "de": "Die Pflicht gilt auch nach dem Ausscheiden aus der Firma.",
+          "ar": "يستمر الواجب بعد مغادرة الشركة أيضًا."
+        }
+      ],
+      "grammar": {
+        "verb": "bewahren",
+        "praeteritum": "bewahrte Stillschweigen",
+        "perfekt": "hat Stillschweigen bewahrt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "vertraulichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v072",
+      "identity": "das betriebsgeheimnis",
+      "term": "das Betriebsgeheimnis",
+      "type": "noun",
+      "arabic": "سر من أسرار الشركة",
+      "explanation_de": "Eine vertrauliche betriebliche Information, deren Bekanntwerden dem Unternehmen schaden könnte.",
+      "explanation_ar": "معلومة سرية تخص الشركة وقد يسبب كشفها ضررًا.",
+      "examples": [
+        {
+          "de": "Technische Verfahren können als Betriebsgeheimnis geschützt sein.",
+          "ar": "قد تُحمى الطرق التقنية بصفتها أسرار شركة."
+        },
+        {
+          "de": "Betriebsgeheimnisse dürfen nicht veröffentlicht werden.",
+          "ar": "لا يجوز نشر أسرار الشركة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "plural": "die Betriebsgeheimnisse"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "vertraulichkeit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v073",
+      "identity": "die ärztliche bescheinigung",
+      "term": "die ärztliche Bescheinigung",
+      "type": "noun",
+      "arabic": "شهادة طبية",
+      "explanation_de": "Ein Dokument einer Ärztin oder eines Arztes, das eine Erkrankung oder Arbeitsunfähigkeit bestätigt.",
+      "explanation_ar": "وثيقة طبية تثبت المرض أو عدم القدرة على العمل.",
+      "examples": [
+        {
+          "de": "Ab dem dritten Krankheitstag ist eine ärztliche Bescheinigung erforderlich.",
+          "ar": "تلزم شهادة طبية ابتداءً من اليوم الثالث للمرض."
+        },
+        {
+          "de": "Die Bescheinigung muss fristgerecht eingereicht werden.",
+          "ar": "يجب تقديم الشهادة ضمن المهلة."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die ärztlichen Bescheinigungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "krankheit"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v074",
+      "identity": "der urlaubsanspruch",
+      "term": "der Urlaubsanspruch",
+      "type": "noun",
+      "arabic": "الحق في الإجازة",
+      "explanation_de": "Die vertraglich oder gesetzlich festgelegte Zahl bezahlter Urlaubstage.",
+      "explanation_ar": "عدد أيام الإجازة المدفوعة التي يضمنها العقد أو القانون.",
+      "examples": [
+        {
+          "de": "Der Urlaubsanspruch beträgt 24 Arbeitstage pro Jahr.",
+          "ar": "يبلغ الحق في الإجازة 24 يوم عمل سنويًا."
+        },
+        {
+          "de": "Bei Teilzeit wird der Urlaubsanspruch entsprechend berechnet.",
+          "ar": "يُحسب حق الإجازة بما يناسب الدوام الجزئي."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "plural": "die Urlaubsansprüche"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "arbeit",
+        "urlaub"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v075",
+      "identity": "aus wichtigem grund kündigen",
+      "term": "aus wichtigem Grund kündigen",
+      "type": "phrase",
+      "arabic": "ينهي العقد لسبب جوهري",
+      "explanation_de": "Ein Vertragsverhältnis wegen eines schweren, rechtlich relevanten Grundes vorzeitig beenden.",
+      "explanation_ar": "إنهاء العقد مبكرًا بسبب مخالفة أو سبب خطير معترف به قانونيًا.",
+      "examples": [
+        {
+          "de": "Bei einem schweren Pflichtverstoß kann aus wichtigem Grund gekündigt werden.",
+          "ar": "يمكن إنهاء العقد لسبب مهم عند مخالفة جسيمة."
+        },
+        {
+          "de": "Die Gründe für eine fristlose Kündigung müssen genau geprüft werden.",
+          "ar": "يجب فحص أسباب الإنهاء الفوري بدقة."
+        }
+      ],
+      "grammar": {
+        "verb": "kündigen",
+        "praeteritum": "kündigte",
+        "perfekt": "hat gekündigt"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "kündigung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v076",
+      "identity": "der schadensersatz",
+      "term": "der Schadensersatz",
+      "type": "noun",
+      "arabic": "تعويض عن الضرر",
+      "explanation_de": "Eine finanzielle oder andere Leistung zum Ausgleich eines verursachten Schadens.",
+      "explanation_ar": "مبلغ أو تعويض يُدفع لجبر ضرر تسبب به طرف.",
+      "examples": [
+        {
+          "de": "Bei einer unbegründeten vorzeitigen Kündigung kann Schadensersatz verlangt werden.",
+          "ar": "قد يُطلب تعويض عند إنهاء مبكر غير مبرر."
+        },
+        {
+          "de": "Die Höhe des Schadensersatzes hängt vom entstandenen Schaden ab.",
+          "ar": "تعتمد قيمة التعويض على الضرر الحاصل."
+        }
+      ],
+      "grammar": {
+        "article": "der",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v077",
+      "identity": "die schriftform",
+      "term": "die Schriftform",
+      "type": "noun",
+      "arabic": "الصيغة الكتابية",
+      "explanation_de": "Die rechtliche Anforderung, dass eine Erklärung oder Vereinbarung schriftlich festgehalten wird.",
+      "explanation_ar": "اشتراط تسجيل الاتفاق أو التغيير كتابةً ليكون معتمدًا.",
+      "examples": [
+        {
+          "de": "Änderungen des Vertrags bedürfen der Schriftform.",
+          "ar": "تتطلب تعديلات العقد صيغة كتابية."
+        },
+        {
+          "de": "Eine mündliche Zusage ersetzt die vereinbarte Schriftform nicht.",
+          "ar": "لا يحل الوعد الشفهي محل الصيغة الكتابية المتفق عليها."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "recht"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v078",
+      "identity": "die vertragsänderung",
+      "term": "die Vertragsänderung",
+      "type": "noun",
+      "arabic": "تعديل العقد",
+      "explanation_de": "Eine nachträgliche Veränderung einzelner Vertragsbedingungen.",
+      "explanation_ar": "تغيير لاحق في شرط أو أكثر من شروط العقد.",
+      "examples": [
+        {
+          "de": "Die Erhöhung der Arbeitszeit wird als Vertragsänderung dokumentiert.",
+          "ar": "يُوثق رفع ساعات العمل كتعديل للعقد."
+        },
+        {
+          "de": "Eine Vertragsänderung sollte von beiden Seiten unterschrieben werden.",
+          "ar": "ينبغي توقيع تعديل العقد من الطرفين."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vertragsänderungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "änderung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v079",
+      "identity": "die vertragsergänzung",
+      "term": "die Vertragsergänzung",
+      "type": "noun",
+      "arabic": "إضافة إلى العقد",
+      "explanation_de": "Eine zusätzliche Regelung, die einen bestehenden Vertrag erweitert.",
+      "explanation_ar": "بند إضافي يوسّع عقدًا قائمًا.",
+      "examples": [
+        {
+          "de": "Die Regelung zum mobilen Arbeiten steht in einer Vertragsergänzung.",
+          "ar": "يرد تنظيم العمل عن بعد في إضافة إلى العقد."
+        },
+        {
+          "de": "Auch Vertragsergänzungen müssen klar formuliert sein.",
+          "ar": "يجب أن تكون إضافات العقد واضحة أيضًا."
+        }
+      ],
+      "grammar": {
+        "article": "die",
+        "plural": "die Vertragsergänzungen"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Arbeitsvertrag"
+      },
+      "tags": [
+        "vertrag",
+        "ergänzung"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    },
+    {
+      "courseItemId": "b2u06-v080",
+      "identity": "das regelstudium",
+      "term": "das Regelstudium",
+      "type": "noun",
+      "arabic": "مدة الدراسة النظامية",
+      "explanation_de": "Ein Studium, das nach dem vorgesehenen Studienplan und innerhalb der regulären Dauer absolviert wird.",
+      "explanation_ar": "الدراسة وفق الخطة والمدة الرسمية المحددة.",
+      "examples": [
+        {
+          "de": "Das Regelstudium dauert sechs Semester.",
+          "ar": "تستمر الدراسة النظامية ستة فصول."
+        },
+        {
+          "de": "Während des Regelstudiums wechseln Hochschul- und Praxisphasen.",
+          "ar": "تتناوب مراحل الجامعة والعمل العملي خلال الدراسة."
+        }
+      ],
+      "grammar": {
+        "article": "das",
+        "numberType": "uncountable"
+      },
+      "source": {
+        "unit": 6,
+        "pages": [
+          104,
+          109
+        ],
+        "section": "Duales Studium"
+      },
+      "tags": [
+        "studium",
+        "dauer"
+      ],
+      "globalRef": null,
+      "integrationStatus": "pending_global_identity_check"
+    }
+  ]
+}
