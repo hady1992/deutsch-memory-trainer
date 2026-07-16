@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-13",
+  "slug": "gr-13-irreale-bedingungen-und-vergleiche",
+  "order": 13,
+  "title_de": "Irreale Bedingungen und Vergleiche",
+  "title_ar": "الشروط والمقارنات غير الواقعية",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konjunktiv_ii",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Reale und irreale Bedingungen sicher unterscheiden.",
+    "Irreale Bedingungen in Gegenwart und Zukunft mit Konjunktiv II bilden.",
+    "Irreale Bedingungen in der Vergangenheit korrekt ausdrücken.",
+    "Bedingungssätze mit und ohne wenn formulieren.",
+    "Irreale Vergleiche mit als ob und als bilden.",
+    "Zeitverhältnisse und Verbposition in komplexen Konjunktiv-II-Sätzen korrekt verwenden."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بين الشروط الواقعية وغير الواقعية.",
+    "تكوين الشروط غير الواقعية في الحاضر والمستقبل باستخدام Konjunktiv II.",
+    "التعبير عن الشروط غير الواقعية في الماضي بصورة صحيحة.",
+    "صياغة جمل شرطية باستخدام wenn ومن دونها.",
+    "تكوين مقارنات غير واقعية باستخدام als ob وals.",
+    "استخدام التسلسل الزمني وموقع الفعل بصورة صحيحة في الجمل المعقدة."
+  ],
+  "shortDescription_de": "Diese Einheit behandelt hypothetische Bedingungen, nicht erfüllte Bedingungen in der Vergangenheit und irreale Vergleiche mit als ob und als.",
+  "shortDescription_ar": "تتناول هذه الوحدة الشروط الافتراضية، والشروط التي لم تتحقق في الماضي، والمقارنات غير الواقعية باستخدام als ob وals.",
+  "explanation_de": "Irreale Bedingungen beschreiben Situationen, die nicht wirklich bestehen oder nicht eingetreten sind. Für Gegenwart und Zukunft verwendet man häufig hätte, wäre, könnte, müsste oder würde + Infinitiv. Für nicht erfüllte Bedingungen in der Vergangenheit verwendet man hätte oder wäre + Partizip II. Das frühere, nicht eingetretene Ereignis steht dann ebenfalls im Konjunktiv II der Vergangenheit. Ein wenn-Satz kann auch ohne wenn formuliert werden; dann steht das konjugierte Verb an erster Stelle: Hätte ich mehr Zeit, würde ich teilnehmen. Irreale Vergleiche werden häufig mit als ob oder als gebildet. Nach als ob steht das Verb am Ende; nach als steht das konjugierte Verb direkt nach als: Er tut so, als ob er alles wüsste. Er tut so, als wüsste er alles.",
+  "explanation_ar": "تصف الشروط غير الواقعية مواقف غير موجودة فعليًا أو أحداثًا لم تقع. في الحاضر والمستقبل نستخدم غالبًا hätte أو wäre أو könnte أو müsste أو würde + المصدر. أما الشرط غير المتحقق في الماضي فيُصاغ باستخدام hätte أو wäre مع Partizip II. ويمكن صياغة الشرط من دون wenn، وعندها يأتي الفعل المصرف في بداية الجملة مثل: Hätte ich mehr Zeit, würde ich teilnehmen. وتُصاغ المقارنات غير الواقعية غالبًا باستخدام als ob أو als. بعد als ob يأتي الفعل في النهاية، أما بعد als فتأتي صيغة الفعل المصرفة مباشرة بعد als.",
+  "rules": [
+    {
+      "id": "gr13-r01",
+      "title_de": "Reale und irreale Bedingung",
+      "title_ar": "الشرط الواقعي وغير الواقعي",
+      "explanation_de": "Indikativ beschreibt eine reale oder mögliche Bedingung; Konjunktiv II beschreibt eine hypothetische oder unwahrscheinliche Bedingung.",
+      "explanation_ar": "يصف Indikativ شرطًا واقعيًا أو ممكنًا، بينما يصف Konjunktiv II شرطًا افتراضيًا أو غير محتمل.",
+      "formula": "real: wenn + Indikativ | irreal: wenn + Konjunktiv II",
+      "examples": [
+        {
+          "de": "Wenn ich Zeit habe, nehme ich teil.",
+          "ar": "إذا كان لدي وقت أشارك."
+        },
+        {
+          "de": "Wenn ich mehr Zeit hätte, würde ich teilnehmen.",
+          "ar": "لو كان لدي وقت أكثر لشاركت."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r02",
+      "title_de": "Irreale Bedingung in Gegenwart oder Zukunft",
+      "title_ar": "شرط غير واقعي في الحاضر أو المستقبل",
+      "explanation_de": "Im wenn-Satz steht häufig eine einfache Konjunktiv-II-Form; im Hauptsatz steht oft würde + Infinitiv.",
+      "explanation_ar": "تأتي في جملة wenn غالبًا صيغة Konjunktiv II بسيطة، وتأتي في الجملة الرئيسية غالبًا würde + المصدر.",
+      "formula": "Wenn + hätte/wäre/könnte ..., würde + Infinitiv",
+      "examples": [
+        {
+          "de": "Wenn wir mehr Personal hätten, würden wir schneller arbeiten.",
+          "ar": "لو كان لدينا موظفون أكثر لعملنا بسرعة أكبر."
+        },
+        {
+          "de": "Wenn der Termin später wäre, könnte ich teilnehmen.",
+          "ar": "لو كان الموعد لاحقًا لاستطعت المشاركة."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r03",
+      "title_de": "Irreale Bedingung in der Vergangenheit",
+      "title_ar": "شرط غير متحقق في الماضي",
+      "explanation_de": "Für Vergangenes verwendet man hätte oder wäre + Partizip II.",
+      "explanation_ar": "للماضي نستخدم hätte أو wäre مع Partizip II.",
+      "formula": "Wenn + hätte/wäre + Partizip II, hätte/wäre + Partizip II",
+      "examples": [
+        {
+          "de": "Wenn ich früher losgefahren wäre, hätte ich den Zug erreicht.",
+          "ar": "لو انطلقت أبكر للحقت بالقطار."
+        },
+        {
+          "de": "Wenn wir die Daten gesichert hätten, wäre nichts verloren gegangen.",
+          "ar": "لو كنا قد حفظنا البيانات لما ضاع شيء."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r04",
+      "title_de": "Bedingung ohne wenn",
+      "title_ar": "شرط من دون wenn",
+      "explanation_de": "Ohne wenn steht das konjugierte Verb an erster Stelle.",
+      "explanation_ar": "من دون wenn يأتي الفعل المصرف في أول الجملة.",
+      "formula": "Hätte/Wäre/Könnte + Subjekt ..., Hauptsatz",
+      "examples": [
+        {
+          "de": "Hätte ich mehr Zeit, würde ich den Kurs besuchen.",
+          "ar": "لو كان لدي وقت أكثر لالتحقت بالدورة."
+        },
+        {
+          "de": "Wäre die Frist länger, könnten wir genauer prüfen.",
+          "ar": "لو كانت المهلة أطول لاستطعنا التدقيق بصورة أفضل."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r05",
+      "title_de": "Irrealer Vergleich mit als ob",
+      "title_ar": "مقارنة غير واقعية باستخدام als ob",
+      "explanation_de": "Nach als ob steht das konjugierte Verb am Ende.",
+      "explanation_ar": "بعد als ob يأتي الفعل المصرف في نهاية الجملة.",
+      "formula": "Hauptsatz + als ob + ... + Konjunktiv II",
+      "examples": [
+        {
+          "de": "Er tut so, als ob er alles wüsste.",
+          "ar": "يتصرف كما لو أنه يعرف كل شيء."
+        },
+        {
+          "de": "Sie spricht, als ob sie die Entscheidung allein getroffen hätte.",
+          "ar": "تتكلم كما لو أنها اتخذت القرار وحدها."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r06",
+      "title_de": "Irrealer Vergleich mit als",
+      "title_ar": "مقارنة غير واقعية باستخدام als",
+      "explanation_de": "Nach als steht die konjugierte Konjunktiv-II-Form direkt nach als.",
+      "explanation_ar": "بعد als تأتي صيغة Konjunktiv II المصرفة مباشرة.",
+      "formula": "Hauptsatz + als + Konjunktiv-II-Verb + Subjekt ...",
+      "examples": [
+        {
+          "de": "Er tut so, als wüsste er alles.",
+          "ar": "يتصرف كما لو أنه يعرف كل شيء."
+        },
+        {
+          "de": "Sie sieht aus, als wäre sie sehr müde.",
+          "ar": "تبدو كما لو كانت متعبة جدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r07",
+      "title_de": "Gegenwart oder Vergangenheit im Vergleich",
+      "title_ar": "الحاضر أو الماضي في المقارنة",
+      "explanation_de": "Wüsste oder wäre beschreibt Gleichzeitigkeit; hätte gemacht oder wäre gegangen beschreibt Vorzeitigkeit.",
+      "explanation_ar": "تصف wüsste أو wäre حدثًا متزامنًا، بينما تصف hätte gemacht أو wäre gegangen حدثًا أسبق.",
+      "formula": "gleichzeitig: Konjunktiv II Präsens | vorher: Konjunktiv II Vergangenheit",
+      "examples": [
+        {
+          "de": "Er wirkt, als wäre er krank.",
+          "ar": "يبدو كما لو كان مريضًا."
+        },
+        {
+          "de": "Er wirkt, als hätte er die ganze Nacht gearbeitet.",
+          "ar": "يبدو كما لو أنه عمل طوال الليل."
+        }
+      ]
+    },
+    {
+      "id": "gr13-r08",
+      "title_de": "Folge mit sonst oder andernfalls",
+      "title_ar": "النتيجة باستخدام sonst أو andernfalls",
+      "explanation_de": "Sonst und andernfalls können eine nicht genannte Bedingung ausdrücken.",
+      "explanation_ar": "يمكن أن تعبّر sonst وandernfalls عن شرط غير مذكور صراحة.",
+      "formula": "Konjunktiv II ..., sonst/andernfalls ...",
+      "examples": [
+        {
+          "de": "Wir müssten früher beginnen, sonst würden wir nicht rechtzeitig fertig.",
+          "ar": "كان ينبغي أن نبدأ أبكر، وإلا لما انتهينا في الوقت المناسب."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr13-t01",
+      "title_de": "Bedingung nach Zeit",
+      "title_ar": "الشرط بحسب الزمن",
+      "headers_de": [
+        "Zeit",
+        "Bedingung",
+        "Folge"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "الشرط",
+        "النتيجة"
+      ],
+      "rows": [
+        [
+          "Gegenwart/Zukunft",
+          "wenn ich Zeit hätte",
+          "würde ich teilnehmen"
+        ],
+        [
+          "Vergangenheit",
+          "wenn ich Zeit gehabt hätte",
+          "hätte ich teilgenommen"
+        ],
+        [
+          "Vergangenheit mit sein",
+          "wenn ich früher gekommen wäre",
+          "hätte ich alles gehört"
+        ]
+      ]
+    },
+    {
+      "id": "gr13-t02",
+      "title_de": "Mit oder ohne wenn",
+      "title_ar": "مع wenn أو من دونها",
+      "headers_de": [
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "mit wenn",
+          "Wenn ich mehr Zeit hätte, würde ich helfen."
+        ],
+        [
+          "ohne wenn",
+          "Hätte ich mehr Zeit, würde ich helfen."
+        ],
+        [
+          "mit wenn Vergangenheit",
+          "Wenn ich früher gekommen wäre, hätte ich geholfen."
+        ],
+        [
+          "ohne wenn Vergangenheit",
+          "Wäre ich früher gekommen, hätte ich geholfen."
+        ]
+      ]
+    },
+    {
+      "id": "gr13-t03",
+      "title_de": "Irreale Vergleiche",
+      "title_ar": "المقارنات غير الواقعية",
+      "headers_de": [
+        "Struktur",
+        "Verbposition",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "موقع الفعل",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "als ob",
+          "Verb am Ende",
+          "Er tut so, als ob er alles wüsste."
+        ],
+        [
+          "als",
+          "Verb direkt nach als",
+          "Er tut so, als wüsste er alles."
+        ],
+        [
+          "Vergangenheit",
+          "hätte/wäre + Partizip II",
+          "Es klingt, als hätte er angerufen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wenn die Arbeitsbelastung geringer wäre, könnten wir sorgfältiger arbeiten.",
+      "ar": "لو كان ضغط العمل أقل لاستطعنا العمل بدقة أكبر.",
+      "note_de": "Irreale Bedingung in der Gegenwart.",
+      "note_ar": "شرط غير واقعي في الحاضر."
+    },
+    {
+      "de": "Hätten wir die Information früher erhalten, hätten wir anders reagiert.",
+      "ar": "لو تلقينا المعلومة أبكر لتصرفنا بصورة مختلفة.",
+      "note_de": "Irreale Bedingung in der Vergangenheit ohne wenn.",
+      "note_ar": "شرط غير متحقق في الماضي من دون wenn."
+    },
+    {
+      "de": "Der Kollege spricht, als ob er für das gesamte Projekt verantwortlich wäre.",
+      "ar": "يتحدث الزميل كما لو كان مسؤولًا عن المشروع كاملًا.",
+      "note_de": "Irrealer Vergleich mit als ob.",
+      "note_ar": "مقارنة غير واقعية باستخدام als ob."
+    },
+    {
+      "de": "Sie sah aus, als hätte sie die Nachricht bereits gelesen.",
+      "ar": "بدت كما لو أنها قرأت الرسالة بالفعل.",
+      "note_de": "Vorzeitigkeit im irrealen Vergleich.",
+      "note_ar": "حدث أسبق في مقارنة غير واقعية."
+    },
+    {
+      "de": "Ohne Ihre Unterstützung würde die Umsetzung deutlich länger dauern.",
+      "ar": "من دون دعمك لاستغرق التنفيذ وقتًا أطول بكثير.",
+      "note_de": "Irreale Bedingung als Präpositionalgruppe.",
+      "note_ar": "شرط غير واقعي بصيغة شبه جملة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wenn ich mehr Zeit habe, würde ich teilnehmen.",
+      "correct": "Wenn ich mehr Zeit hätte, würde ich teilnehmen.",
+      "explanation_de": "Bei einer irrealen Bedingung stehen beide Teilsätze im Konjunktiv II.",
+      "explanation_ar": "في الشرط غير الواقعي تأتي الجملتان في Konjunktiv II."
+    },
+    {
+      "wrong": "Wenn ich früher gekommen hätte, hätte ich geholfen.",
+      "correct": "Wenn ich früher gekommen wäre, hätte ich geholfen.",
+      "explanation_de": "Kommen bildet die zusammengesetzten Zeiten mit sein.",
+      "explanation_ar": "يستخدم kommen الفعل المساعد sein."
+    },
+    {
+      "wrong": "Hätte ich mehr Zeit, ich würde helfen.",
+      "correct": "Hätte ich mehr Zeit, würde ich helfen.",
+      "explanation_de": "Im Hauptsatz steht das konjugierte Verb auf Position 2.",
+      "explanation_ar": "في الجملة الرئيسية يأتي الفعل المصرف في المرتبة الثانية."
+    },
+    {
+      "wrong": "Er tut so, als ob weiß er alles.",
+      "correct": "Er tut so, als ob er alles wüsste.",
+      "explanation_de": "Nach als ob steht das Verb am Ende und im Konjunktiv II.",
+      "explanation_ar": "بعد als ob يأتي الفعل في النهاية وفي Konjunktiv II."
+    },
+    {
+      "wrong": "Er tut so, als er alles wüsste.",
+      "correct": "Er tut so, als wüsste er alles.",
+      "explanation_de": "Nach als steht das konjugierte Verb direkt nach als.",
+      "explanation_ar": "بعد als تأتي صيغة الفعل المصرفة مباشرة."
+    },
+    {
+      "wrong": "Wenn wir die Daten gesichert hätten, nichts wäre verloren gegangen.",
+      "correct": "Wenn wir die Daten gesichert hätten, wäre nichts verloren gegangen.",
+      "explanation_de": "Nach dem Nebensatz steht das finite Verb im Hauptsatz direkt an erster Stelle.",
+      "explanation_ar": "بعد الجملة الفرعية يأتي الفعل المصرف مباشرة في بداية الجملة الرئيسية."
+    }
+  ],
+  "quickSummary_de": [
+    "Reale Bedingungen stehen meist im Indikativ.",
+    "Irreale Bedingungen stehen im Konjunktiv II.",
+    "Gegenwart/Zukunft: hätte, wäre, könnte oder würde + Infinitiv.",
+    "Vergangenheit: hätte oder wäre + Partizip II.",
+    "Ohne wenn steht das konjugierte Verb am Anfang des Bedingungssatzes.",
+    "Nach als ob steht das Verb am Ende.",
+    "Nach als steht das Konjunktiv-II-Verb direkt nach als.",
+    "Konjunktiv II Präsens zeigt Gleichzeitigkeit; Konjunktiv II Vergangenheit zeigt Vorzeitigkeit."
+  ],
+  "quickSummary_ar": [
+    "تأتي الشروط الواقعية غالبًا في Indikativ.",
+    "تأتي الشروط غير الواقعية في Konjunktiv II.",
+    "الحاضر والمستقبل: hätte أو wäre أو könnte أو würde + المصدر.",
+    "الماضي: hätte أو wäre + Partizip II.",
+    "من دون wenn يأتي الفعل المصرف في بداية جملة الشرط.",
+    "بعد als ob يأتي الفعل في النهاية.",
+    "بعد als يأتي فعل Konjunktiv II مباشرة.",
+    "يدل Konjunktiv II للحاضر على التزامن، بينما يدل Konjunktiv II للماضي على الأسبقية."
+  ],
+  "relatedTopics": [
+    "gr-11",
+    "gr-12",
+    "gr-19",
+    "gr-20"
+  ]
+}

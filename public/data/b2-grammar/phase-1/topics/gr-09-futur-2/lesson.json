@@ -1,0 +1,373 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-09",
+  "slug": "gr-09-futur-2",
+  "order": 9,
+  "title_de": "Futur II",
+  "title_ar": "المستقبل التام",
+  "level": "B2",
+  "sourceType": "zusatzgrammatik",
+  "category": "zeiten_training",
+  "estimatedMinutes": 35,
+  "learningObjectives_de": [
+    "Das Futur II mit werden, Partizip II und haben oder sein korrekt bilden.",
+    "Eine bis zu einem zukünftigen Zeitpunkt abgeschlossene Handlung ausdrücken.",
+    "Vermutungen über bereits abgeschlossene vergangene Handlungen formulieren.",
+    "Zwischen Futur I, Perfekt und Futur II unterscheiden.",
+    "Futur II in Haupt- und Nebensätzen korrekt anordnen.",
+    "Typische Zeitangaben wie bis morgen, bis dahin und bereits passend verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Futur II باستخدام werden وPartizip II وhaben أو sein.",
+    "التعبير عن فعل سيكون قد انتهى قبل وقت مستقبلي محدد.",
+    "صياغة تخمين حول فعل انتهى في الماضي.",
+    "التمييز بين Futur I وPerfekt وFutur II.",
+    "ترتيب Futur II في الجمل الرئيسية والفرعية.",
+    "استخدام ظروف مثل bis morgen وbis dahin وbereits بصورة مناسبة."
+  ],
+  "shortDescription_de": "Das Futur II beschreibt eine Handlung, die zu einem zukünftigen Zeitpunkt abgeschlossen sein wird, oder eine Vermutung über eine bereits abgeschlossene Handlung.",
+  "shortDescription_ar": "يصف Futur II فعلًا سيكون قد انتهى عند وقت مستقبلي، أو تخمينًا حول فعل انتهى بالفعل.",
+  "explanation_de": "Das Futur II wird mit einer konjugierten Form von werden, dem Partizip II und dem Infinitiv von haben oder sein gebildet. Verben, die im Perfekt haben verwenden, bilden das Futur II mit haben: wird geschrieben haben. Verben, die im Perfekt sein verwenden, bilden es mit sein: wird angekommen sein. Die Zeitform hat zwei Hauptfunktionen: Erstens beschreibt sie eine Handlung, die bis zu einem zukünftigen Zeitpunkt abgeschlossen sein wird. Zweitens drückt sie eine Vermutung über eine bereits abgeschlossene Handlung aus. Im Hauptsatz steht werden auf Position 2; Partizip II und haben/sein stehen am Ende. Im Nebensatz steht die gesamte Verbgruppe am Ende: ..., dass er den Bericht fertiggestellt haben wird.",
+  "explanation_ar": "يتكوّن Futur II من صيغة مصرّفة للفعل werden، ومن Partizip II، ومن مصدر haben أو sein. الأفعال التي تستخدم haben في Perfekt تكوّن Futur II مع haben مثل: wird geschrieben haben. والأفعال التي تستخدم sein في Perfekt تكوّنه مع sein مثل: wird angekommen sein. لهذا الزمن وظيفتان أساسيتان: الأولى وصف فعل سيكون قد انتهى قبل وقت مستقبلي محدد، والثانية التعبير عن تخمين حول فعل انتهى بالفعل. في الجملة الرئيسية يأتي werden في المرتبة الثانية، وتأتي مجموعة Partizip II + haben/sein في النهاية. وفي الجملة الفرعية تأتي المجموعة الفعلية كاملة في النهاية.",
+  "rules": [
+    {
+      "id": "gr09-r01",
+      "title_de": "Bildung mit haben",
+      "title_ar": "التكوين مع haben",
+      "explanation_de": "Verben mit haben im Perfekt bilden das Futur II mit Partizip II + haben.",
+      "explanation_ar": "الأفعال التي تستخدم haben في Perfekt تكوّن Futur II باستخدام Partizip II + haben.",
+      "formula": "werden + Partizip II + haben",
+      "examples": [
+        {
+          "de": "Ich werde den Bericht bis Freitag fertiggestellt haben.",
+          "ar": "سأكون قد أنهيت التقرير بحلول الجمعة."
+        },
+        {
+          "de": "Sie wird die E-Mail bereits gelesen haben.",
+          "ar": "من المحتمل أنها تكون قد قرأت البريد بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r02",
+      "title_de": "Bildung mit sein",
+      "title_ar": "التكوين مع sein",
+      "explanation_de": "Verben mit sein im Perfekt bilden das Futur II mit Partizip II + sein.",
+      "explanation_ar": "الأفعال التي تستخدم sein في Perfekt تكوّن Futur II باستخدام Partizip II + sein.",
+      "formula": "werden + Partizip II + sein",
+      "examples": [
+        {
+          "de": "Der Zug wird bis dahin angekommen sein.",
+          "ar": "سيكون القطار قد وصل بحلول ذلك الوقت."
+        },
+        {
+          "de": "Die Kollegin wird schon nach Hause gegangen sein.",
+          "ar": "من المحتمل أن الزميلة قد ذهبت إلى المنزل بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r03",
+      "title_de": "Abschluss bis zu einem zukünftigen Zeitpunkt",
+      "title_ar": "الانتهاء قبل وقت مستقبلي",
+      "explanation_de": "Futur II zeigt, dass eine Handlung vor einem zukünftigen Zeitpunkt abgeschlossen sein wird.",
+      "explanation_ar": "يوضح Futur II أن الفعل سيكون قد انتهى قبل وقت مستقبلي محدد.",
+      "formula": "bis + zukünftiger Zeitpunkt + Futur II",
+      "examples": [
+        {
+          "de": "Bis Ende des Monats werden wir das Projekt abgeschlossen haben.",
+          "ar": "سنكون قد أنهينا المشروع بحلول نهاية الشهر."
+        },
+        {
+          "de": "Bis morgen wird die Behörde den Antrag geprüft haben.",
+          "ar": "ستكون الجهة قد فحصت الطلب بحلول الغد."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r04",
+      "title_de": "Vermutung über die Vergangenheit",
+      "title_ar": "تخمين حول الماضي",
+      "explanation_de": "Mit wahrscheinlich, wohl, vermutlich, sicher oder schon kann Futur II eine Vermutung über ein abgeschlossenes Ereignis ausdrücken.",
+      "explanation_ar": "يمكن أن يعبّر Futur II مع wahrscheinlich أو wohl أو vermutlich أو sicher أو schon عن تخمين حول حدث انتهى.",
+      "formula": "werden + vermutlich/wahrscheinlich/schon + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Er wird die Nachricht schon erhalten haben.",
+          "ar": "من المحتمل أنه استلم الرسالة بالفعل."
+        },
+        {
+          "de": "Sie wird vermutlich bereits angekommen sein.",
+          "ar": "من المرجح أنها وصلت بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r05",
+      "title_de": "Futur I oder Futur II",
+      "title_ar": "Futur I أم Futur II",
+      "explanation_de": "Futur I beschreibt einen zukünftigen Vorgang; Futur II betont dessen zukünftigen Abschluss.",
+      "explanation_ar": "يصف Futur I فعلًا سيحدث مستقبلًا، بينما يؤكد Futur II أن الفعل سيكون قد انتهى.",
+      "formula": "Futur I: wird machen | Futur II: wird gemacht haben",
+      "examples": [
+        {
+          "de": "Morgen werde ich den Bericht schreiben.",
+          "ar": "سأكتب التقرير غدًا."
+        },
+        {
+          "de": "Bis morgen werde ich den Bericht geschrieben haben.",
+          "ar": "سأكون قد كتبت التقرير بحلول الغد."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r06",
+      "title_de": "Perfekt oder Futur II",
+      "title_ar": "Perfekt أم Futur II",
+      "explanation_de": "Perfekt stellt eine vergangene Handlung als Tatsache dar; Futur II kann über ihren zukünftigen Abschluss oder vermuteten Abschluss sprechen.",
+      "explanation_ar": "يعرض Perfekt حدثًا ماضيًا كحقيقة، بينما يعبّر Futur II عن اكتماله المستقبلي أو عن التخمين بأنه انتهى.",
+      "formula": "hat gemacht = Tatsache | wird gemacht haben = Zukunft/Vermutung",
+      "examples": [
+        {
+          "de": "Sie hat den Vertrag unterschrieben.",
+          "ar": "لقد وقّعت العقد."
+        },
+        {
+          "de": "Sie wird den Vertrag schon unterschrieben haben.",
+          "ar": "من المحتمل أنها وقّعت العقد بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r07",
+      "title_de": "Satzstellung im Hauptsatz",
+      "title_ar": "ترتيب الجملة الرئيسية",
+      "explanation_de": "Die konjugierte Form von werden steht auf Position 2; Partizip II und haben/sein stehen am Ende.",
+      "explanation_ar": "تأتي صيغة werden المصرفة في المرتبة الثانية، وتأتي Partizip II وhaben/sein في النهاية.",
+      "formula": "Subjekt + werden + ... + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Wir werden die Aufgabe bis dahin erledigt haben.",
+          "ar": "سنكون قد أنجزنا المهمة بحلول ذلك الوقت."
+        }
+      ]
+    },
+    {
+      "id": "gr09-r08",
+      "title_de": "Futur II im Nebensatz",
+      "title_ar": "Futur II في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht die gesamte Verbgruppe am Ende; die konjugierte Form von werden steht zuletzt.",
+      "explanation_ar": "في الجملة الفرعية تأتي المجموعة الفعلية كاملة في النهاية، وتأتي صيغة werden المصرفة أخيرًا.",
+      "formula": "..., dass + ... + Partizip II + haben/sein + werden",
+      "examples": [
+        {
+          "de": "Ich glaube, dass sie den Bericht bis morgen fertiggestellt haben wird.",
+          "ar": "أعتقد أنها ستكون قد أنهت التقرير بحلول الغد."
+        },
+        {
+          "de": "Wir hoffen, dass der Zug bis dahin angekommen sein wird.",
+          "ar": "نأمل أن يكون القطار قد وصل بحلول ذلك الوقت."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr09-t01",
+      "title_de": "Bildung des Futur II",
+      "title_ar": "تكوين Futur II",
+      "headers_de": [
+        "Infinitiv",
+        "Perfekt",
+        "Futur II"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Perfekt",
+        "Futur II"
+      ],
+      "rows": [
+        [
+          "machen",
+          "hat gemacht",
+          "wird gemacht haben"
+        ],
+        [
+          "schreiben",
+          "hat geschrieben",
+          "wird geschrieben haben"
+        ],
+        [
+          "ankommen",
+          "ist angekommen",
+          "wird angekommen sein"
+        ],
+        [
+          "gehen",
+          "ist gegangen",
+          "wird gegangen sein"
+        ],
+        [
+          "sich vorbereiten",
+          "hat sich vorbereitet",
+          "wird sich vorbereitet haben"
+        ]
+      ]
+    },
+    {
+      "id": "gr09-t02",
+      "title_de": "Futur I und Futur II",
+      "title_ar": "Futur I وFutur II",
+      "headers_de": [
+        "Zeitform",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Futur I",
+          "zukünftiger Vorgang",
+          "Ich werde den Bericht schreiben."
+        ],
+        [
+          "Futur II",
+          "zukünftig abgeschlossen",
+          "Ich werde den Bericht geschrieben haben."
+        ],
+        [
+          "Futur II",
+          "Vermutung über Vergangenheit",
+          "Er wird die E-Mail gelesen haben."
+        ]
+      ]
+    },
+    {
+      "id": "gr09-t03",
+      "title_de": "Typische Signale",
+      "title_ar": "إشارات شائعة",
+      "headers_de": [
+        "Funktion",
+        "Signale",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الوظيفة",
+        "الإشارات",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "zukünftiger Abschluss",
+          "bis morgen, bis dahin, bis Ende ...",
+          "Bis Freitag wird alles erledigt sein."
+        ],
+        [
+          "Vermutung",
+          "wohl, vermutlich, wahrscheinlich, schon",
+          "Er wird schon angekommen sein."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Bis Ende der Woche werden wir alle offenen Anfragen bearbeitet haben.",
+      "ar": "سنكون قد عالجنا جميع الطلبات المفتوحة بحلول نهاية الأسبوع.",
+      "note_de": "Abschluss vor einem zukünftigen Zeitpunkt.",
+      "note_ar": "انتهاء الفعل قبل وقت مستقبلي."
+    },
+    {
+      "de": "Die Personalabteilung wird die Unterlagen vermutlich bereits geprüft haben.",
+      "ar": "من المحتمل أن قسم الموارد البشرية قد فحص المستندات بالفعل.",
+      "note_de": "Vermutung über eine abgeschlossene Handlung.",
+      "note_ar": "تخمين حول فعل منتهٍ."
+    },
+    {
+      "de": "Der Techniker wird inzwischen angekommen sein.",
+      "ar": "من المرجح أن الفني وصل في هذه الأثناء.",
+      "note_de": "Ankommen verwendet sein.",
+      "note_ar": "يستخدم ankommen الفعل sein."
+    },
+    {
+      "de": "Ich gehe davon aus, dass das Team die Aufgabe bis morgen abgeschlossen haben wird.",
+      "ar": "أفترض أن الفريق سيكون قد أنهى المهمة بحلول الغد.",
+      "note_de": "Futur II im Nebensatz.",
+      "note_ar": "Futur II في الجملة الفرعية."
+    },
+    {
+      "de": "Bis Sie zurückkommen, werde ich die wichtigsten Punkte zusammengefasst haben.",
+      "ar": "عند عودتك سأكون قد لخّصت أهم النقاط.",
+      "note_de": "Das Zusammenfassen ist vor der Rückkehr abgeschlossen.",
+      "note_ar": "سيكون التلخيص قد انتهى قبل العودة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich werde den Bericht fertiggestellt.",
+      "correct": "Ich werde den Bericht fertigstellen.",
+      "explanation_de": "Ohne haben ist das Futur I, daher steht der Infinitiv fertigstellen.",
+      "explanation_ar": "من دون haben تكون الجملة Futur I، ولذلك نستخدم المصدر fertigstellen."
+    },
+    {
+      "wrong": "Ich werde den Bericht fertiggestellt sein.",
+      "correct": "Ich werde den Bericht fertiggestellt haben.",
+      "explanation_de": "Das transitive Verb fertigstellen bildet das Perfekt mit haben.",
+      "explanation_ar": "يستخدم الفعل المتعدي fertigstellen الفعل المساعد haben."
+    },
+    {
+      "wrong": "Der Zug wird angekommen haben.",
+      "correct": "Der Zug wird angekommen sein.",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل المساعد sein."
+    },
+    {
+      "wrong": "Sie wird die Nachricht gelesen.",
+      "correct": "Sie wird die Nachricht gelesen haben.",
+      "explanation_de": "Futur II braucht Partizip II und haben oder sein.",
+      "explanation_ar": "يحتاج Futur II إلى Partizip II وإلى haben أو sein."
+    },
+    {
+      "wrong": "Ich glaube, dass sie wird den Bericht fertiggestellt haben.",
+      "correct": "Ich glaube, dass sie den Bericht fertiggestellt haben wird.",
+      "explanation_de": "Im Nebensatz steht die konjugierte Form von werden am Ende.",
+      "explanation_ar": "تأتي صيغة werden المصرفة في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Bis gestern werde ich die Aufgabe erledigt haben.",
+      "correct": "Bis morgen werde ich die Aufgabe erledigt haben.",
+      "explanation_de": "Für einen zukünftigen Abschluss braucht man einen zukünftigen Bezugszeitpunkt.",
+      "explanation_ar": "يحتاج التعبير عن اكتمال مستقبلي إلى وقت مرجعي في المستقبل."
+    }
+  ],
+  "quickSummary_de": [
+    "Futur II = werden + Partizip II + haben/sein.",
+    "Haben oder sein richtet sich nach der Perfektbildung des Verbs.",
+    "Futur II beschreibt einen zukünftigen Abschluss.",
+    "Es kann auch eine Vermutung über eine abgeschlossene Vergangenheit ausdrücken.",
+    "Bis morgen, bis dahin und bis Ende ... sind typische Zeitangaben.",
+    "Wohl, vermutlich, wahrscheinlich und schon markieren häufig Vermutungen.",
+    "Im Hauptsatz steht werden auf Position 2.",
+    "Im Nebensatz steht die konjugierte Form von werden ganz am Ende."
+  ],
+  "quickSummary_ar": [
+    "Futur II = werden + Partizip II + haben/sein.",
+    "يعتمد اختيار haben أو sein على تكوين Perfekt للفعل.",
+    "يصف Futur II اكتمالًا في المستقبل.",
+    "يمكن أن يعبّر أيضًا عن تخمين حول حدث ماضٍ منتهٍ.",
+    "تُعد bis morgen وbis dahin وbis Ende ... ظروفًا شائعة.",
+    "تدل wohl وvermutlich وwahrscheinlich وschon كثيرًا على التخمين.",
+    "يأتي werden في المرتبة الثانية في الجملة الرئيسية.",
+    "تأتي صيغة werden المصرفة في نهاية الجملة الفرعية."
+  ],
+  "relatedTopics": [
+    "gr-05",
+    "gr-07",
+    "gr-08",
+    "gr-10"
+  ]
+}

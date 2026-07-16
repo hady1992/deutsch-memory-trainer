@@ -1,0 +1,401 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-17",
+  "slug": "gr-17-vorgangspassiv-und-zustandspassiv",
+  "order": 17,
+  "title_de": "Vorgangspassiv und Zustandspassiv",
+  "title_ar": "المبني للمجهول للعملية وللحالة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Vorgangspassiv und Zustandspassiv sicher unterscheiden.",
+    "Das Vorgangspassiv mit werden + Partizip II korrekt bilden.",
+    "Das Zustandspassiv mit sein + Partizip II korrekt bilden.",
+    "Prozess, Ergebnis und Zustand zeitlich und inhaltlich unterscheiden.",
+    "Präsens und Präteritum beider Passivarten korrekt verwenden.",
+    "Typische Verben und Kontexte für das Zustandspassiv erkennen.",
+    "Mehrdeutige Partizip-II-Formen kontextgerecht interpretieren."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بثقة بين Vorgangspassiv وZustandspassiv.",
+    "تكوين Vorgangspassiv باستخدام werden + Partizip II.",
+    "تكوين Zustandspassiv باستخدام sein + Partizip II.",
+    "التمييز بين العملية والنتيجة والحالة زمنيًا ومعنويًا.",
+    "استخدام Präsens وPräteritum مع نوعي المبني للمجهول بصورة صحيحة.",
+    "تمييز الأفعال والسياقات الشائعة مع Zustandspassiv.",
+    "تفسير صيغ Partizip II المحتملة بحسب السياق."
+  ],
+  "shortDescription_de": "Das Vorgangspassiv beschreibt eine Handlung oder einen Ablauf. Das Zustandspassiv beschreibt das Ergebnis oder den Zustand nach einer Handlung.",
+  "shortDescription_ar": "يصف Vorgangspassiv الفعل أو العملية، بينما يصف Zustandspassiv النتيجة أو الحالة بعد انتهاء الفعل.",
+  "explanation_de": "Das Vorgangspassiv wird mit werden + Partizip II gebildet: Die Tür wird geöffnet. Es beantwortet vor allem die Frage: Was geschieht? Das Zustandspassiv wird mit sein + Partizip II gebildet: Die Tür ist geöffnet. Es beantwortet die Frage: In welchem Zustand befindet sich etwas? Im Präteritum lautet die Gegenüberstellung: Die Tür wurde geöffnet versus Die Tür war geöffnet. Beim Vorgangspassiv steht die Handlung im Mittelpunkt; beim Zustandspassiv das Ergebnis. Nicht jedes Verb bildet ein natürliches Zustandspassiv. Besonders geeignet sind Verben, deren Handlung zu einem klaren Ergebnis führt, zum Beispiel öffnen, schließen, reparieren, reservieren, unterschreiben oder abschließen. Bei manchen Partizipien ist auch eine adjektivische Lesart möglich. Der Kontext entscheidet dann, ob ein Zustand nach einer Handlung oder eine reine Eigenschaft gemeint ist.",
+  "explanation_ar": "يتكوّن Vorgangspassiv من werden + Partizip II مثل: Die Tür wird geöffnet. ويجيب أساسًا عن سؤال: ماذا يحدث؟ أما Zustandspassiv فيتكوّن من sein + Partizip II مثل: Die Tür ist geöffnet. ويجيب عن سؤال: ما الحالة التي يوجد فيها الشيء؟ في Präteritum نقارن بين: Die Tür wurde geöffnet وDie Tür war geöffnet. يركز Vorgangspassiv على العملية، بينما يركز Zustandspassiv على النتيجة. لا تكوّن جميع الأفعال Zustandspassiv بصورة طبيعية. وأكثر الأفعال ملاءمة هي التي تؤدي إلى نتيجة واضحة، مثل öffnen وschließen وreparieren وreservieren وunterschreiben وabschließen. وقد تحمل بعض صيغ Partizip معنى صفة أيضًا، وعندها يحدد السياق ما إذا كان المقصود حالة ناتجة عن فعل أو صفة مستقلة.",
+  "rules": [
+    {
+      "id": "gr17-r01",
+      "title_de": "Vorgangspassiv",
+      "title_ar": "Vorgangspassiv",
+      "explanation_de": "Werden + Partizip II beschreibt den Ablauf oder die Handlung.",
+      "explanation_ar": "تصف werden + Partizip II سير الفعل أو العملية.",
+      "formula": "werden + Partizip II",
+      "examples": [
+        {
+          "de": "Die Tür wird geöffnet.",
+          "ar": "يتم فتح الباب."
+        },
+        {
+          "de": "Der Vertrag wird unterschrieben.",
+          "ar": "يتم توقيع العقد."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r02",
+      "title_de": "Zustandspassiv",
+      "title_ar": "Zustandspassiv",
+      "explanation_de": "Sein + Partizip II beschreibt den Zustand oder das Ergebnis.",
+      "explanation_ar": "تصف sein + Partizip II الحالة أو النتيجة.",
+      "formula": "sein + Partizip II",
+      "examples": [
+        {
+          "de": "Die Tür ist geöffnet.",
+          "ar": "الباب مفتوح."
+        },
+        {
+          "de": "Der Vertrag ist unterschrieben.",
+          "ar": "العقد موقّع."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r03",
+      "title_de": "Präsens im Vergleich",
+      "title_ar": "المقارنة في Präsens",
+      "explanation_de": "Wird geöffnet beschreibt den laufenden Vorgang; ist geöffnet den bestehenden Zustand.",
+      "explanation_ar": "تصف wird geöffnet عملية جارية، بينما تصف ist geöffnet حالة قائمة.",
+      "formula": "Vorgang: wird gemacht | Zustand: ist gemacht",
+      "examples": [
+        {
+          "de": "Das Fenster wird geschlossen.",
+          "ar": "يتم إغلاق النافذة الآن."
+        },
+        {
+          "de": "Das Fenster ist geschlossen.",
+          "ar": "النافذة مغلقة."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r04",
+      "title_de": "Präteritum im Vergleich",
+      "title_ar": "المقارنة في Präteritum",
+      "explanation_de": "Wurde geöffnet beschreibt die vergangene Handlung; war geöffnet den damaligen Zustand.",
+      "explanation_ar": "تصف wurde geöffnet الفعل الماضي، بينما تصف war geöffnet الحالة في ذلك الوقت.",
+      "formula": "Vorgang: wurde gemacht | Zustand: war gemacht",
+      "examples": [
+        {
+          "de": "Die Tür wurde um acht Uhr geöffnet.",
+          "ar": "تم فتح الباب الساعة الثامنة."
+        },
+        {
+          "de": "Die Tür war den ganzen Tag geöffnet.",
+          "ar": "كان الباب مفتوحًا طوال اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r05",
+      "title_de": "Prozess und Ergebnis",
+      "title_ar": "العملية والنتيجة",
+      "explanation_de": "Häufig folgt auf einen Vorgang ein Zustand.",
+      "explanation_ar": "غالبًا ما ينتج عن العملية حالة.",
+      "formula": "Vorgang → Ergebnis/Zustand",
+      "examples": [
+        {
+          "de": "Die Techniker reparieren das Gerät. Das Gerät wird repariert. Danach ist es repariert.",
+          "ar": "يصلح الفنيون الجهاز. يتم إصلاح الجهاز. وبعد ذلك يصبح الجهاز مُصلحًا."
+        },
+        {
+          "de": "Die Sitzung wird vorbereitet. Um neun Uhr ist alles vorbereitet.",
+          "ar": "يتم التحضير للاجتماع. وعند الساعة التاسعة يكون كل شيء جاهزًا."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r06",
+      "title_de": "Geeignete Verben",
+      "title_ar": "الأفعال المناسبة",
+      "explanation_de": "Ein natürliches Zustandspassiv entsteht besonders bei Verben mit erkennbarem Resultat.",
+      "explanation_ar": "يتكوّن Zustandspassiv بصورة طبيعية خصوصًا مع الأفعال ذات النتيجة الواضحة.",
+      "formula": "öffnen, schließen, reparieren, reservieren, unterschreiben, abschließen",
+      "examples": [
+        {
+          "de": "Der Raum ist reserviert.",
+          "ar": "الغرفة محجوزة."
+        },
+        {
+          "de": "Die Arbeiten sind abgeschlossen.",
+          "ar": "الأعمال منتهية."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r07",
+      "title_de": "Zeitangaben als Hinweis",
+      "title_ar": "الظروف الزمنية بوصفها إشارة",
+      "explanation_de": "Zeitangaben können helfen: gerade, im Moment oder um acht Uhr markieren oft einen Vorgang; seit, den ganzen Tag oder bereits einen Zustand.",
+      "explanation_ar": "قد تساعد الظروف الزمنية: تشير gerade وim Moment أو um acht Uhr غالبًا إلى عملية، بينما تشير seit أو den ganzen Tag أو bereits كثيرًا إلى حالة.",
+      "formula": "Vorgang: gerade / um ... | Zustand: seit ... / bereits / den ganzen Tag",
+      "examples": [
+        {
+          "de": "Die Anlage wird gerade geprüft.",
+          "ar": "يتم فحص المنشأة الآن."
+        },
+        {
+          "de": "Die Anlage ist seit gestern geprüft und freigegeben.",
+          "ar": "المنشأة مفحوصة ومصرح بها منذ الأمس."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r08",
+      "title_de": "Zustandspassiv und Adjektiv",
+      "title_ar": "Zustandspassiv والصفة",
+      "explanation_de": "Manche Partizipien können auch wie Adjektive verwendet werden. Der Kontext zeigt, ob ein Handlungsergebnis oder eine Eigenschaft gemeint ist.",
+      "explanation_ar": "يمكن استخدام بعض صيغ Partizip كصفات أيضًا، ويحدد السياق ما إذا كان المقصود نتيجة فعل أم خاصية.",
+      "formula": "sein + Partizip II / adjektivisch verwendetes Partizip",
+      "examples": [
+        {
+          "de": "Der Zugang ist gesperrt.",
+          "ar": "المدخل مغلق أو محظور."
+        },
+        {
+          "de": "Die Mitarbeiterin ist erfahren.",
+          "ar": "الموظفة ذات خبرة؛ هنا erfahren صفة وليست مبنيًا للمجهول."
+        }
+      ]
+    },
+    {
+      "id": "gr17-r09",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht wird oder ist am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي wird أو ist في النهاية.",
+      "formula": "..., weil + ... + Partizip II + wird/ist",
+      "examples": [
+        {
+          "de": "Wir warten, weil der Raum noch gereinigt wird.",
+          "ar": "ننتظر لأن الغرفة ما زالت تُنظف."
+        },
+        {
+          "de": "Wir können beginnen, weil der Raum bereits gereinigt ist.",
+          "ar": "يمكننا البدء لأن الغرفة أصبحت نظيفة بالفعل."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr17-t01",
+      "title_de": "Vorgang und Zustand",
+      "title_ar": "العملية والحالة",
+      "headers_de": [
+        "Vorgangspassiv",
+        "Zustandspassiv",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "Vorgangspassiv",
+        "Zustandspassiv",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "Die Tür wird geöffnet.",
+          "Die Tür ist geöffnet.",
+          "Öffnung / geöffneter Zustand"
+        ],
+        [
+          "Der Vertrag wird unterschrieben.",
+          "Der Vertrag ist unterschrieben.",
+          "Unterzeichnung / Ergebnis"
+        ],
+        [
+          "Das Gerät wird repariert.",
+          "Das Gerät ist repariert.",
+          "Reparatur / reparierter Zustand"
+        ],
+        [
+          "Der Raum wird reserviert.",
+          "Der Raum ist reserviert.",
+          "Reservierung / reservierter Zustand"
+        ]
+      ]
+    },
+    {
+      "id": "gr17-t02",
+      "title_de": "Präsens und Präteritum",
+      "title_ar": "Präsens وPräteritum",
+      "headers_de": [
+        "Passivart",
+        "Präsens",
+        "Präteritum"
+      ],
+      "headers_ar": [
+        "نوع المبني للمجهول",
+        "Präsens",
+        "Präteritum"
+      ],
+      "rows": [
+        [
+          "Vorgangspassiv",
+          "wird geöffnet",
+          "wurde geöffnet"
+        ],
+        [
+          "Zustandspassiv",
+          "ist geöffnet",
+          "war geöffnet"
+        ]
+      ]
+    },
+    {
+      "id": "gr17-t03",
+      "title_de": "Typische Hinweise",
+      "title_ar": "إشارات شائعة",
+      "headers_de": [
+        "Hinweis",
+        "häufige Lesart",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الإشارة",
+        "المعنى الشائع",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "gerade / im Moment",
+          "Vorgang",
+          "Die Datei wird gerade geprüft."
+        ],
+        [
+          "um 9 Uhr wurde ...",
+          "vergangener Vorgang",
+          "Die Tür wurde um 9 Uhr geöffnet."
+        ],
+        [
+          "seit gestern / bereits",
+          "Zustand",
+          "Die Datei ist seit gestern freigegeben."
+        ],
+        [
+          "den ganzen Tag war ...",
+          "vergangener Zustand",
+          "Die Tür war den ganzen Tag geschlossen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die neue Software wird derzeit installiert; auf den ersten Geräten ist sie bereits installiert.",
+      "ar": "يتم تثبيت البرنامج الجديد حاليًا، وهو مثبت بالفعل على الأجهزة الأولى.",
+      "note_de": "Vorgang und Zustand im selben Kontext.",
+      "note_ar": "العملية والحالة في السياق نفسه."
+    },
+    {
+      "de": "Die Sitzung wurde um neun Uhr eröffnet. Der Besprechungsraum war zu diesem Zeitpunkt vollständig vorbereitet.",
+      "ar": "تم افتتاح الاجتماع الساعة التاسعة، وكانت غرفة الاجتماع مجهزة بالكامل في ذلك الوقت.",
+      "note_de": "Vergangener Vorgang und vergangener Zustand.",
+      "note_ar": "عملية ماضية وحالة ماضية."
+    },
+    {
+      "de": "Der Zugang ist gesperrt, weil die Sicherheitsprüfung noch durchgeführt wird.",
+      "ar": "المدخل مغلق لأن فحص السلامة ما زال جاريًا.",
+      "note_de": "Zustand im Hauptsatz, Vorgang im Nebensatz.",
+      "note_ar": "حالة في الجملة الرئيسية وعملية في الجملة الفرعية."
+    },
+    {
+      "de": "Sobald alle Formulare unterschrieben sind, kann der Vorgang abgeschlossen werden.",
+      "ar": "حالما تصبح جميع الاستمارات موقعة يمكن إنهاء العملية.",
+      "note_de": "Zustand als Voraussetzung für einen weiteren Vorgang.",
+      "note_ar": "حالة بوصفها شرطًا لعملية لاحقة."
+    },
+    {
+      "de": "Die Mitarbeiterin ist erfahren.",
+      "ar": "الموظفة ذات خبرة.",
+      "note_de": "Erfahren ist hier ein Adjektiv, kein Zustandspassiv.",
+      "note_ar": "كلمة erfahren هنا صفة وليست Zustandspassiv."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Tür ist gerade geöffnet.",
+      "correct": "Die Tür wird gerade geöffnet.",
+      "explanation_de": "Wenn der laufende Vorgang gemeint ist, verwendet man werden.",
+      "explanation_ar": "عندما يكون المقصود عملية جارية نستخدم werden."
+    },
+    {
+      "wrong": "Die Tür wird den ganzen Tag geöffnet.",
+      "correct": "Die Tür ist den ganzen Tag geöffnet.",
+      "explanation_de": "Wenn der bestehende Zustand gemeint ist, verwendet man sein.",
+      "explanation_ar": "عندما يكون المقصود حالة قائمة نستخدم sein."
+    },
+    {
+      "wrong": "Der Vertrag ist gestern um zehn Uhr unterschrieben.",
+      "correct": "Der Vertrag wurde gestern um zehn Uhr unterschrieben.",
+      "explanation_de": "Eine Handlung zu einem konkreten Zeitpunkt wird als Vorgang beschrieben.",
+      "explanation_ar": "يُعبَّر عن فعل وقع في وقت محدد بوصفه عملية."
+    },
+    {
+      "wrong": "Weil der Raum wird gereinigt, warten wir.",
+      "correct": "Weil der Raum gereinigt wird, warten wir.",
+      "explanation_de": "Im Nebensatz steht wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي wird في النهاية."
+    },
+    {
+      "wrong": "Die Arbeiten werden seit gestern abgeschlossen.",
+      "correct": "Die Arbeiten sind seit gestern abgeschlossen.",
+      "explanation_de": "Seit gestern bezeichnet hier einen bestehenden Zustand.",
+      "explanation_ar": "تدل seit gestern هنا على حالة قائمة."
+    },
+    {
+      "wrong": "Die Mitarbeiterin ist erfahren worden.",
+      "correct": "Die Mitarbeiterin ist erfahren.",
+      "explanation_de": "Erfahren ist hier ein Adjektiv und beschreibt eine Eigenschaft.",
+      "explanation_ar": "كلمة erfahren هنا صفة تصف خاصية."
+    }
+  ],
+  "quickSummary_de": [
+    "Vorgangspassiv = werden + Partizip II.",
+    "Zustandspassiv = sein + Partizip II.",
+    "Das Vorgangspassiv beantwortet: Was geschieht?",
+    "Das Zustandspassiv beantwortet: In welchem Zustand ist etwas?",
+    "Präteritum Vorgang: wurde gemacht.",
+    "Präteritum Zustand: war gemacht.",
+    "Ein Vorgang kann zu einem Zustand führen.",
+    "Nicht jedes Verb bildet ein natürliches Zustandspassiv.",
+    "Zeitangaben und Kontext helfen bei der Unterscheidung.",
+    "Manche Partizipien sind adjektivisch und kein Passiv."
+  ],
+  "quickSummary_ar": [
+    "Vorgangspassiv = werden + Partizip II.",
+    "Zustandspassiv = sein + Partizip II.",
+    "يجيب Vorgangspassiv عن سؤال: ماذا يحدث؟",
+    "يجيب Zustandspassiv عن سؤال: ما الحالة؟",
+    "Präteritum للعملية: wurde gemacht.",
+    "Präteritum للحالة: war gemacht.",
+    "يمكن أن تؤدي العملية إلى حالة.",
+    "لا تكوّن جميع الأفعال Zustandspassiv طبيعيًا.",
+    "تساعد الظروف الزمنية والسياق على التمييز.",
+    "قد تكون بعض صيغ Partizip صفات وليست مبنيًا للمجهول."
+  ],
+  "relatedTopics": [
+    "gr-14",
+    "gr-15",
+    "gr-16",
+    "gr-20"
+  ]
+}

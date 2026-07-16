@@ -1,0 +1,534 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-13",
+  "title_de": "Irreale Bedingungen und Vergleiche – Übungen",
+  "title_ar": "تمارين الشروط والمقارنات غير الواقعية",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr13-e001",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Reale oder irreale Bedingung",
+      "title_ar": "شرط واقعي أم غير واقعي",
+      "prompt_de": "Welcher Satz beschreibt eine irreale Bedingung?",
+      "prompt_ar": "أي جملة تصف شرطًا غير واقعي؟",
+      "answer": "Wenn ich mehr Zeit hätte, würde ich teilnehmen.",
+      "explanation_de": "Hätte und würde markieren eine hypothetische Situation.",
+      "explanation_ar": "تدل hätte وwürde على موقف افتراضي.",
+      "grammarFocus": "identify_irreal_condition",
+      "options": [
+        "Wenn ich mehr Zeit hätte, würde ich teilnehmen.",
+        "Wenn ich Zeit habe, nehme ich teil.",
+        "Ich habe gestern teilgenommen.",
+        "Morgen nehme ich sicher teil."
+      ]
+    },
+    {
+      "id": "gr13-e002",
+      "topicId": "gr-13",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Hätte im wenn-Satz",
+      "title_ar": "hätte في جملة wenn",
+      "prompt_de": "Wenn wir mehr Personal ______, würden wir schneller arbeiten.",
+      "prompt_ar": "لو كان لدينا موظفون أكثر لعملنا بسرعة أكبر.",
+      "answer": "hätten",
+      "explanation_de": "Haben bildet im Konjunktiv II die Form hätten.",
+      "explanation_ar": "صيغة Konjunktiv II من haben مع wir هي hätten.",
+      "grammarFocus": "condition_haetten",
+      "acceptedAnswers": [
+        "hätten"
+      ]
+    },
+    {
+      "id": "gr13-e003",
+      "topicId": "gr-13",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Wäre im wenn-Satz",
+      "title_ar": "wäre في جملة wenn",
+      "prompt_de": "Wenn der Termin später ______, könnte ich teilnehmen.",
+      "prompt_ar": "لو كان الموعد لاحقًا لاستطعت المشاركة.",
+      "answer": "wäre",
+      "explanation_de": "Sein bildet im Konjunktiv II die Form wäre.",
+      "explanation_ar": "صيغة Konjunktiv II من sein هي wäre.",
+      "grammarFocus": "condition_waere",
+      "acceptedAnswers": [
+        "wäre"
+      ]
+    },
+    {
+      "id": "gr13-e004",
+      "topicId": "gr-13",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Irreale Bedingung",
+      "title_ar": "شرط غير واقعي",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wenn ich mehr Zeit hätte, würde ich den Kurs besuchen.",
+      "explanation_de": "Im wenn-Satz steht hätte am Ende; im Hauptsatz steht würde auf Position 2.",
+      "explanation_ar": "تأتي hätte في نهاية جملة wenn وتأتي würde في المرتبة الثانية في الجملة الرئيسية.",
+      "grammarFocus": "condition_order",
+      "tokens": [
+        "würde",
+        "Wenn",
+        "mehr Zeit",
+        "ich",
+        "den Kurs",
+        "hätte",
+        "besuchen",
+        "ich"
+      ],
+      "acceptedAnswers": [
+        "Wenn ich mehr Zeit hätte, würde ich den Kurs besuchen."
+      ]
+    },
+    {
+      "id": "gr13-e005",
+      "topicId": "gr-13",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Zeitform erkennen",
+      "title_ar": "تمييز الزمن",
+      "prompt_de": "Ordnen Sie die Form zu.",
+      "prompt_ar": "صِل الصيغة.",
+      "answer": {
+        "wenn ich Zeit hätte": "irreale Gegenwart",
+        "wenn ich Zeit gehabt hätte": "irreale Vergangenheit",
+        "wenn ich Zeit habe": "reale Möglichkeit"
+      },
+      "explanation_de": "Die Verbform zeigt, ob die Bedingung real, gegenwärtig irreal oder vergangen irreal ist.",
+      "explanation_ar": "توضح صيغة الفعل ما إذا كان الشرط واقعيًا أو غير واقعي في الحاضر أو الماضي.",
+      "grammarFocus": "condition_time_matching",
+      "pairs": [
+        [
+          "wenn ich Zeit hätte",
+          "irreale Gegenwart"
+        ],
+        [
+          "wenn ich Zeit gehabt hätte",
+          "irreale Vergangenheit"
+        ],
+        [
+          "wenn ich Zeit habe",
+          "reale Möglichkeit"
+        ]
+      ]
+    },
+    {
+      "id": "gr13-e006",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Bedingung ohne wenn",
+      "title_ar": "شرط من دون wenn",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Hätte ich mehr Zeit, würde ich helfen.",
+      "explanation_de": "Ohne wenn steht hätte am Anfang.",
+      "explanation_ar": "من دون wenn تأتي hätte في البداية.",
+      "grammarFocus": "condition_without_wenn",
+      "options": [
+        "Hätte ich mehr Zeit, würde ich helfen.",
+        "Ich hätte mehr Zeit, würde ich helfen.",
+        "Hätte mehr Zeit ich, ich würde helfen.",
+        "Wenn hätte ich mehr Zeit, würde ich helfen."
+      ]
+    },
+    {
+      "id": "gr13-e007",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Als-ob-Satz",
+      "title_ar": "جملة als ob",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er tut so, als ob er alles wüsste.",
+      "explanation_de": "Nach als ob steht wüsste am Ende.",
+      "explanation_ar": "بعد als ob تأتي wüsste في النهاية.",
+      "grammarFocus": "als_ob_order",
+      "options": [
+        "Er tut so, als ob er alles wüsste.",
+        "Er tut so, als ob wüsste er alles.",
+        "Er tut so, als er alles wüsste.",
+        "Er tut so, als ob er alles weiß würde."
+      ]
+    },
+    {
+      "id": "gr13-e008",
+      "topicId": "gr-13",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vergangene Bedingung mit sein",
+      "title_ar": "شرط ماضٍ مع sein",
+      "prompt_de": "Wenn ich früher losgefahren ______, hätte ich den Zug erreicht.",
+      "prompt_ar": "لو انطلقت أبكر للحقت بالقطار.",
+      "answer": "wäre",
+      "explanation_de": "Losfahren bildet das Perfekt mit sein; deshalb lautet die Form losgefahren wäre.",
+      "explanation_ar": "يستخدم losfahren الفعل sein، لذلك نقول losgefahren wäre.",
+      "grammarFocus": "past_condition_sein",
+      "acceptedAnswers": [
+        "wäre"
+      ]
+    },
+    {
+      "id": "gr13-e009",
+      "topicId": "gr-13",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vergangene Bedingung mit haben",
+      "title_ar": "شرط ماضٍ مع haben",
+      "prompt_de": "Wenn wir die Daten gesichert ______, wäre nichts verloren gegangen.",
+      "prompt_ar": "لو كنا قد حفظنا البيانات لما ضاع شيء.",
+      "answer": "hätten",
+      "explanation_de": "Sichern bildet die zusammengesetzten Zeiten mit haben.",
+      "explanation_ar": "يستخدم sichern الفعل haben.",
+      "grammarFocus": "past_condition_haben",
+      "acceptedAnswers": [
+        "hätten"
+      ]
+    },
+    {
+      "id": "gr13-e010",
+      "topicId": "gr-13",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vergangene Irrealität",
+      "title_ar": "شرط غير متحقق في الماضي",
+      "prompt_de": "Verbinden Sie: Wir erhielten die Information zu spät. Deshalb reagierten wir nicht rechtzeitig.",
+      "prompt_ar": "حوّل المعنى إلى شرط غير متحقق في الماضي.",
+      "answer": "Wenn wir die Information früher erhalten hätten, hätten wir rechtzeitig reagiert.",
+      "explanation_de": "Beide Handlungen beziehen sich auf eine nicht eingetretene Vergangenheit.",
+      "explanation_ar": "تتعلق الجملتان بماضٍ لم يتحقق.",
+      "grammarFocus": "past_irreal_condition",
+      "acceptedAnswers": [
+        "Wenn wir die Information früher erhalten hätten, hätten wir rechtzeitig reagiert."
+      ]
+    },
+    {
+      "id": "gr13-e011",
+      "topicId": "gr-13",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vergangenheit ohne wenn",
+      "title_ar": "الماضي من دون wenn",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wäre ich früher gekommen, hätte ich alles gehört.",
+      "explanation_de": "Ohne wenn steht wäre am Anfang.",
+      "explanation_ar": "من دون wenn تأتي wäre في بداية الجملة.",
+      "grammarFocus": "past_condition_inversion",
+      "tokens": [
+        "alles",
+        "Wäre",
+        "früher",
+        "gekommen",
+        "ich",
+        "gehört",
+        "hätte",
+        "ich"
+      ],
+      "acceptedAnswers": [
+        "Wäre ich früher gekommen, hätte ich alles gehört."
+      ]
+    },
+    {
+      "id": "gr13-e012",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Haben oder sein",
+      "title_ar": "haben أم sein",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wenn die Kollegin früher gegangen wäre, hätte sie den Stau vermieden.",
+      "explanation_de": "Gehen verwendet sein; vermeiden verwendet haben.",
+      "explanation_ar": "يستخدم gehen الفعل sein، ويستخدم vermeiden الفعل haben.",
+      "grammarFocus": "past_auxiliary_choice",
+      "options": [
+        "Wenn die Kollegin früher gegangen wäre, hätte sie den Stau vermieden.",
+        "Wenn die Kollegin früher gegangen hätte, wäre sie den Stau vermieden.",
+        "Wenn die Kollegin früher gegangen wäre, wäre sie den Stau vermieden.",
+        "Wenn die Kollegin früher gegangen hat, hätte sie den Stau vermeiden."
+      ]
+    },
+    {
+      "id": "gr13-e013",
+      "topicId": "gr-13",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Ohne wenn umformen",
+      "title_ar": "إعادة الصياغة من دون wenn",
+      "prompt_de": "Formulieren Sie ohne wenn: Wenn die Frist länger wäre, könnten wir genauer prüfen.",
+      "prompt_ar": "أعد الصياغة من دون wenn.",
+      "answer": "Wäre die Frist länger, könnten wir genauer prüfen.",
+      "explanation_de": "Ohne wenn steht wäre an erster Stelle.",
+      "explanation_ar": "من دون wenn تأتي wäre في بداية الجملة.",
+      "grammarFocus": "remove_wenn",
+      "acceptedAnswers": [
+        "Wäre die Frist länger, könnten wir genauer prüfen."
+      ]
+    },
+    {
+      "id": "gr13-e014",
+      "topicId": "gr-13",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Als oder als ob",
+      "title_ar": "als أم als ob",
+      "prompt_de": "Ordnen Sie Satzanfang und passende Fortsetzung zu.",
+      "prompt_ar": "صِل بداية الجملة بالنهاية المناسبة.",
+      "answer": {
+        "Er tut so, als ob": "er alles wüsste.",
+        "Er tut so, als": "wüsste er alles.",
+        "Sie sieht aus, als ob": "sie sehr müde wäre.",
+        "Sie sieht aus, als": "wäre sie sehr müde."
+      },
+      "explanation_de": "Nach als ob steht das Verb am Ende; nach als steht es direkt nach als.",
+      "explanation_ar": "بعد als ob يأتي الفعل في النهاية، وبعد als يأتي مباشرة.",
+      "grammarFocus": "als_vs_als_ob",
+      "pairs": [
+        [
+          "Er tut so, als ob",
+          "er alles wüsste."
+        ],
+        [
+          "Er tut so, als",
+          "wüsste er alles."
+        ],
+        [
+          "Sie sieht aus, als ob",
+          "sie sehr müde wäre."
+        ],
+        [
+          "Sie sieht aus, als",
+          "wäre sie sehr müde."
+        ]
+      ]
+    },
+    {
+      "id": "gr13-e015",
+      "topicId": "gr-13",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vergleich mit als",
+      "title_ar": "مقارنة باستخدام als",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie sieht aus, als wäre sie sehr müde.",
+      "explanation_de": "Nach als steht wäre direkt vor dem Subjekt.",
+      "explanation_ar": "بعد als تأتي wäre مباشرة قبل الفاعل.",
+      "grammarFocus": "als_comparison_order",
+      "tokens": [
+        "sehr müde",
+        "als",
+        "sie",
+        "wäre",
+        "Sie sieht aus"
+      ],
+      "acceptedAnswers": [
+        "Sie sieht aus, als wäre sie sehr müde."
+      ]
+    },
+    {
+      "id": "gr13-e016",
+      "topicId": "gr-13",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Irrealer Vergleich im Beruf",
+      "title_ar": "مقارنة غير واقعية في العمل",
+      "prompt_de": "Ein Kollege spricht, obwohl er nicht für das ganze Projekt verantwortlich ist. Welche Form passt?",
+      "prompt_ar": "يتحدث زميل رغم أنه غير مسؤول عن المشروع كاملًا. أي صيغة مناسبة؟",
+      "answer": "Er spricht, als ob er für das gesamte Projekt verantwortlich wäre.",
+      "explanation_de": "Als ob + Konjunktiv II drückt einen irrealen Vergleich aus.",
+      "explanation_ar": "تعبّر als ob مع Konjunktiv II عن مقارنة غير واقعية.",
+      "grammarFocus": "professional_irreal_comparison",
+      "options": [
+        "Er spricht, als ob er für das gesamte Projekt verantwortlich wäre.",
+        "Er spricht, weil er für das gesamte Projekt verantwortlich ist.",
+        "Er sprach, als ob ist er verantwortlich.",
+        "Er spricht, als ob er verantwortlich sein wird."
+      ]
+    },
+    {
+      "id": "gr13-e017",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Gleichzeitigkeit oder Vorzeitigkeit",
+      "title_ar": "التزامن أم الأسبقية",
+      "prompt_de": "Welcher Satz zeigt, dass die Handlung vorher stattgefunden haben soll?",
+      "prompt_ar": "أي جملة تدل على أن الفعل يُفترض أنه حدث سابقًا؟",
+      "answer": "Sie sieht aus, als hätte sie die Nachricht bereits gelesen.",
+      "explanation_de": "Hätte gelesen zeigt Vorzeitigkeit.",
+      "explanation_ar": "تدل hätte gelesen على الأسبقية.",
+      "grammarFocus": "comparison_previous_action",
+      "options": [
+        "Sie sieht aus, als hätte sie die Nachricht bereits gelesen.",
+        "Sie sieht aus, als wäre sie müde.",
+        "Sie sieht aus, als ob sie krank wäre.",
+        "Sie sieht die Nachricht gerade."
+      ]
+    },
+    {
+      "id": "gr13-e018",
+      "topicId": "gr-13",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Bedingung als Präpositionalgruppe",
+      "title_ar": "شرط بصيغة شبه جملة",
+      "prompt_de": "Formulieren Sie hypothetisch: Ohne Ihre Unterstützung / die Umsetzung länger dauern",
+      "prompt_ar": "صغ جملة افتراضية.",
+      "answer": "Ohne Ihre Unterstützung würde die Umsetzung deutlich länger dauern.",
+      "explanation_de": "Die Präpositionalgruppe nennt die Bedingung ohne wenn.",
+      "explanation_ar": "تذكر شبه الجملة الشرط من دون wenn.",
+      "grammarFocus": "prepositional_condition",
+      "acceptedAnswers": [
+        "Ohne Ihre Unterstützung würde die Umsetzung deutlich länger dauern."
+      ]
+    },
+    {
+      "id": "gr13-e019",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Komplexe Zeitfolge",
+      "title_ar": "تسلسل زمني معقد",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Wenn wir die Warnung ernst genommen hätten, wäre der Fehler nicht aufgetreten.",
+      "explanation_de": "Beide Verbgruppen stehen im Konjunktiv II der Vergangenheit.",
+      "explanation_ar": "تأتي المجموعتان الفعليتان في Konjunktiv II للماضي.",
+      "grammarFocus": "complex_past_condition",
+      "options": [
+        "Wenn wir die Warnung ernst genommen hätten, wäre der Fehler nicht aufgetreten.",
+        "Wenn wir die Warnung ernst nehmen würden, wäre der Fehler gestern nicht aufgetreten.",
+        "Wenn wir die Warnung ernst genommen wären, hätte der Fehler nicht aufgetreten.",
+        "Wenn wir die Warnung ernst genommen haben, würde der Fehler nicht aufgetreten."
+      ]
+    },
+    {
+      "id": "gr13-e020",
+      "topicId": "gr-13",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer als-ob-Satz",
+      "title_ar": "جملة als ob معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Kunde reagierte, als ob wir seine Anfrage absichtlich ignoriert hätten.",
+      "explanation_de": "Im als-ob-Satz steht ignoriert hätten am Ende.",
+      "explanation_ar": "في جملة als ob تأتي ignoriert hätten في النهاية.",
+      "grammarFocus": "complex_als_ob_order",
+      "tokens": [
+        "als ob",
+        "absichtlich",
+        "wir",
+        "ignoriert",
+        "Der Kunde reagierte",
+        "seine Anfrage",
+        "hätten"
+      ],
+      "acceptedAnswers": [
+        "Der Kunde reagierte, als ob wir seine Anfrage absichtlich ignoriert hätten."
+      ]
+    },
+    {
+      "id": "gr13-e021",
+      "topicId": "gr-13",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Nicht erfüllte Voraussetzung",
+      "title_ar": "شرط لم يتحقق",
+      "prompt_de": "Das Team hatte keine zusätzlichen Informationen und traf deshalb keine andere Entscheidung. Welche Form passt?",
+      "prompt_ar": "لم يكن لدى الفريق معلومات إضافية، ولذلك لم يتخذ قرارًا مختلفًا. أي صيغة مناسبة؟",
+      "answer": "Hätte das Team zusätzliche Informationen gehabt, hätte es möglicherweise anders entschieden.",
+      "explanation_de": "Die Bedingung und ihre Folge liegen in einer nicht eingetretenen Vergangenheit.",
+      "explanation_ar": "يقع الشرط والنتيجة في ماضٍ لم يتحقق.",
+      "grammarFocus": "past_condition_without_wenn",
+      "options": [
+        "Hätte das Team zusätzliche Informationen gehabt, hätte es möglicherweise anders entschieden.",
+        "Hat das Team zusätzliche Informationen, entschied es anders.",
+        "Würde das Team Informationen gehabt, hätte es anders entscheiden.",
+        "Hätte das Team Informationen, hat es gestern anders entschieden."
+      ]
+    },
+    {
+      "id": "gr13-e022",
+      "topicId": "gr-13",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Irrealer Vergleich Vergangenheit",
+      "title_ar": "مقارنة غير واقعية في الماضي",
+      "prompt_de": "Formulieren Sie mit als ob: Der Kollege reagiert. Es scheint, dass er die Nachricht nicht erhalten hat.",
+      "prompt_ar": "صغ الجملة باستخدام als ob.",
+      "answer": "Der Kollege reagiert, als ob er die Nachricht nicht erhalten hätte.",
+      "explanation_de": "Erhalten hätte zeigt eine vermutete, vorherige Handlung.",
+      "explanation_ar": "تدل erhalten hätte على فعل سابق مفترض.",
+      "grammarFocus": "past_irreal_comparison",
+      "acceptedAnswers": [
+        "Der Kollege reagiert, als ob er die Nachricht nicht erhalten hätte."
+      ]
+    },
+    {
+      "id": "gr13-e023",
+      "topicId": "gr-13",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Als statt als ob",
+      "title_ar": "als بدل als ob",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي إعادة صياغة صحيحة؟",
+      "answer": "Er wirkt, als hätte er die ganze Nacht gearbeitet.",
+      "explanation_de": "Nach als steht hätte direkt nach als.",
+      "explanation_ar": "بعد als تأتي hätte مباشرة.",
+      "grammarFocus": "als_inversion",
+      "options": [
+        "Er wirkt, als hätte er die ganze Nacht gearbeitet.",
+        "Er wirkt, als er die ganze Nacht gearbeitet hätte.",
+        "Er wirkt, als ob hätte er die ganze Nacht gearbeitet.",
+        "Er wirkt, als hat er die ganze Nacht gearbeitet."
+      ]
+    },
+    {
+      "id": "gr13-e024",
+      "topicId": "gr-13",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining irreale Bedingungen",
+      "title_ar": "تدريب ختامي على الشروط غير الواقعية",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens acht Sätzen. Verwenden Sie zwei irreale Bedingungen in der Gegenwart, zwei irreale Bedingungen in der Vergangenheit, eine Bedingung ohne wenn, einen Vergleich mit als ob und einen Vergleich mit als.",
+      "prompt_ar": "اكتب نصًا مهنيًا من ثماني جمل على الأقل. استخدم شرطين غير واقعيين في الحاضر، وشرطين غير متحققين في الماضي، وشرطًا من دون wenn، ومقارنة باستخدام als ob، ومقارنة باستخدام als.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei irreale Bedingungen Gegenwart/Zukunft",
+          "mindestens zwei irreale Bedingungen Vergangenheit",
+          "mindestens eine Bedingung ohne wenn",
+          "mindestens ein Vergleich mit als ob",
+          "mindestens ein Vergleich mit als",
+          "korrekte Auswahl von hätte oder wäre",
+          "korrekte Verbposition",
+          "logischer zeitlicher Zusammenhang"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Zeitbezug, Hilfsverb und Verbposition.",
+      "explanation_ar": "انتبه إلى الزمن والفعل المساعد وموقع الفعل.",
+      "grammarFocus": "mixed_irreal_conditions_comparisons",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

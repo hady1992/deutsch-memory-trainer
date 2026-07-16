@@ -1,0 +1,329 @@
+{
+  "schemaVersion": "b2-grammar-phase-index-v1",
+  "contentVersion": "2026-07-16",
+  "courseId": "b2-course",
+  "phaseId": "grammar-phase-1",
+  "title_de": "B2 Grammatik – Phase 1",
+  "title_ar": "قواعد B2 – المرحلة الأولى",
+  "level": "B2",
+  "status": "assembled_and_validated",
+  "progressKeyRecommendation": "dmt_b2_grammar_progress_v1",
+  "topicCount": 10,
+  "exerciseCount": 228,
+  "difficultyDistribution": {
+    "easy": 69,
+    "medium": 106,
+    "hard": 53
+  },
+  "typeDistribution": {
+    "dialogue_choice": 1,
+    "fill_blank": 39,
+    "guided_writing": 11,
+    "matching": 19,
+    "multiple_choice": 53,
+    "scenario_choice": 20,
+    "sentence_build": 33,
+    "sentence_order": 38,
+    "verb_form": 14
+  },
+  "topics": [
+    {
+      "id": "gr-01",
+      "order": 1,
+      "slug": "gr-01-imperativ",
+      "title_de": "Imperativ",
+      "title_ar": "صيغة الأمر",
+      "level": "B2",
+      "lessonPath": "topics/gr-01-imperativ/lesson.json",
+      "exercisesPath": "topics/gr-01-imperativ/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "medium": 12,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 5,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 4,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 3,
+        "verb_form": 3
+      },
+      "estimatedMinutes": 35,
+      "sourceType": "grundlage",
+      "category": "grundlagen_festigen"
+    },
+    {
+      "id": "gr-02",
+      "order": 2,
+      "slug": "gr-02-satzstellung",
+      "title_de": "Satzstellung",
+      "title_ar": "ترتيب الجملة",
+      "level": "B2",
+      "lessonPath": "topics/gr-02-satzstellung/lesson.json",
+      "exercisesPath": "topics/gr-02-satzstellung/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "medium": 16,
+        "hard": 6
+      },
+      "typeDistribution": {
+        "fill_blank": 5,
+        "guided_writing": 1,
+        "matching": 3,
+        "multiple_choice": 7,
+        "scenario_choice": 2,
+        "sentence_build": 5,
+        "sentence_order": 7
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "grundlagen_festigen"
+    },
+    {
+      "id": "gr-03",
+      "order": 3,
+      "slug": "gr-03-negation",
+      "title_de": "Negation",
+      "title_ar": "النفي",
+      "level": "B2",
+      "lessonPath": "topics/gr-03-negation/lesson.json",
+      "exercisesPath": "topics/gr-03-negation/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 8,
+        "medium": 11,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "fill_blank": 6,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 6,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 3
+      },
+      "estimatedMinutes": 40,
+      "sourceType": "grundlage",
+      "category": "grundlagen_festigen"
+    },
+    {
+      "id": "gr-04",
+      "order": 4,
+      "slug": "gr-04-praesens",
+      "title_de": "Präsens",
+      "title_ar": "زمن الحاضر",
+      "level": "B2",
+      "lessonPath": "topics/gr-04-praesens/lesson.json",
+      "exercisesPath": "topics/gr-04-praesens/exercises.json",
+      "exerciseCount": 18,
+      "difficultyDistribution": {
+        "easy": 6,
+        "medium": 7,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 1,
+        "multiple_choice": 3,
+        "scenario_choice": 1,
+        "sentence_build": 2,
+        "sentence_order": 3,
+        "verb_form": 4
+      },
+      "estimatedMinutes": 35,
+      "sourceType": "grundlage",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-05",
+      "order": 5,
+      "slug": "gr-05-perfekt",
+      "title_de": "Perfekt",
+      "title_ar": "الماضي المركب",
+      "level": "B2",
+      "lessonPath": "topics/gr-05-perfekt/lesson.json",
+      "exercisesPath": "topics/gr-05-perfekt/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "medium": 12,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 5,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4,
+        "verb_form": 3
+      },
+      "estimatedMinutes": 45,
+      "sourceType": "grundlage",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-06",
+      "order": 6,
+      "slug": "gr-06-praeteritum",
+      "title_de": "Präteritum",
+      "title_ar": "الماضي البسيط",
+      "level": "B2",
+      "lessonPath": "topics/gr-06-praeteritum/lesson.json",
+      "exercisesPath": "topics/gr-06-praeteritum/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "medium": 12,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 5,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 3,
+        "verb_form": 3
+      },
+      "estimatedMinutes": 45,
+      "sourceType": "grundlage",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-07",
+      "order": 7,
+      "slug": "gr-07-plusquamperfekt",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "الماضي الأسبق",
+      "level": "B2",
+      "lessonPath": "topics/gr-07-plusquamperfekt/lesson.json",
+      "exercisesPath": "topics/gr-07-plusquamperfekt/exercises.json",
+      "exerciseCount": 20,
+      "difficultyDistribution": {
+        "easy": 6,
+        "medium": 9,
+        "hard": 5
+      },
+      "typeDistribution": {
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 4,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 40,
+      "sourceType": "grundlage",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-08",
+      "order": 8,
+      "slug": "gr-08-futur-1",
+      "title_de": "Futur I",
+      "title_ar": "المستقبل الأول",
+      "level": "B2",
+      "lessonPath": "topics/gr-08-futur-1/lesson.json",
+      "exercisesPath": "topics/gr-08-futur-1/exercises.json",
+      "exerciseCount": 18,
+      "difficultyDistribution": {
+        "easy": 6,
+        "medium": 8,
+        "hard": 4
+      },
+      "typeDistribution": {
+        "fill_blank": 2,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 4,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 3,
+        "verb_form": 1
+      },
+      "estimatedMinutes": 35,
+      "sourceType": "grundlage",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-09",
+      "order": 9,
+      "slug": "gr-09-futur-2",
+      "title_de": "Futur II",
+      "title_ar": "المستقبل التام",
+      "level": "B2",
+      "lessonPath": "topics/gr-09-futur-2/lesson.json",
+      "exercisesPath": "topics/gr-09-futur-2/exercises.json",
+      "exerciseCount": 16,
+      "difficultyDistribution": {
+        "easy": 6,
+        "medium": 7,
+        "hard": 3
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 4,
+        "scenario_choice": 1,
+        "sentence_build": 2,
+        "sentence_order": 3
+      },
+      "estimatedMinutes": 35,
+      "sourceType": "zusatzgrammatik",
+      "category": "zeiten_training"
+    },
+    {
+      "id": "gr-10",
+      "order": 10,
+      "slug": "gr-10-zeiten-gemischt",
+      "title_de": "Gemischtes Zeiten-Training",
+      "title_ar": "تدريب مختلط على الأزمنة",
+      "level": "B2",
+      "lessonPath": "topics/gr-10-zeiten-gemischt/lesson.json",
+      "exercisesPath": "topics/gr-10-zeiten-gemischt/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "medium": 12,
+        "hard": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 2,
+        "matching": 1,
+        "multiple_choice": 11,
+        "scenario_choice": 4,
+        "sentence_build": 4,
+        "sentence_order": 5
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "abschlusstraining",
+      "category": "zeiten_training"
+    }
+  ],
+  "contentRules": {
+    "stableIds": true,
+    "doNotRenumber": true,
+    "bilingualContent": [
+      "de",
+      "ar"
+    ],
+    "showOneExplanationLanguageAtATime": true,
+    "examplesAfterAnswerRecommended": true,
+    "separateProgressFromChapterCourse": true,
+    "mistakeReviewRecommended": true
+  }
+}

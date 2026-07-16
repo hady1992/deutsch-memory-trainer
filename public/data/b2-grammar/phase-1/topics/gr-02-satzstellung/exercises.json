@@ -1,0 +1,670 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-02",
+  "title_de": "Satzstellung – Übungen",
+  "title_ar": "تمارين ترتيب الجملة",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr02-e001",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Verb auf Position 2",
+      "title_ar": "الفعل في المرتبة الثانية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Morgen bespreche ich das Problem.",
+      "explanation_de": "Morgen steht auf Position 1; bespreche auf Position 2.",
+      "explanation_ar": "تأتي Morgen أولًا وbespreche ثانيًا.",
+      "grammarFocus": "main_clause_v2",
+      "tokens": [
+        "ich",
+        "das Problem",
+        "Morgen",
+        "bespreche"
+      ],
+      "acceptedAnswers": [
+        "Morgen bespreche ich das Problem."
+      ]
+    },
+    {
+      "id": "gr02-e002",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Richtige Inversion",
+      "title_ar": "التقديم الصحيح",
+      "prompt_de": "Welcher Satz ist korrekt?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Heute arbeitet die Abteilung im Homeoffice.",
+      "explanation_de": "Nach Heute folgt das Verb, dann das Subjekt.",
+      "explanation_ar": "بعد Heute يأتي الفعل ثم الفاعل.",
+      "grammarFocus": "inversion",
+      "options": [
+        "Heute arbeitet die Abteilung im Homeoffice.",
+        "Heute die Abteilung arbeitet im Homeoffice.",
+        "Heute arbeitet im Homeoffice die Abteilung immer ist.",
+        "Heute die Abteilung im Homeoffice arbeitet."
+      ]
+    },
+    {
+      "id": "gr02-e003",
+      "topicId": "gr-02",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Hauptsatz",
+      "title_ar": "الجملة الرئيسية",
+      "prompt_de": "Am Montag ______ wir die Ergebnisse. (besprechen)",
+      "prompt_ar": "يوم الاثنين ______ النتائج.",
+      "answer": "besprechen",
+      "explanation_de": "Das Verb steht nach der Zeitangabe auf Position 2.",
+      "explanation_ar": "يأتي الفعل بعد ظرف الزمن في المرتبة الثانية.",
+      "grammarFocus": "main_clause_v2",
+      "acceptedAnswers": [
+        "besprechen"
+      ]
+    },
+    {
+      "id": "gr02-e004",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل منفصل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich rufe den Kunden morgen an.",
+      "explanation_de": "Das Präfix an steht am Satzende.",
+      "explanation_ar": "يأتي an في نهاية الجملة.",
+      "grammarFocus": "sentence_bracket_separable",
+      "tokens": [
+        "morgen",
+        "Ich",
+        "an",
+        "den Kunden",
+        "rufe"
+      ],
+      "acceptedAnswers": [
+        "Ich rufe den Kunden morgen an."
+      ]
+    },
+    {
+      "id": "gr02-e005",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb",
+      "title_ar": "فعل ناقص",
+      "prompt_de": "Welche Satzstellung ist richtig?",
+      "prompt_ar": "أي ترتيب صحيح؟",
+      "answer": "Wir müssen den Termin verschieben.",
+      "explanation_de": "Das Modalverb ist finit; der Infinitiv steht am Ende.",
+      "explanation_ar": "الفعل الناقص مصرف والمصدر في النهاية.",
+      "grammarFocus": "sentence_bracket_modal",
+      "options": [
+        "Wir müssen den Termin verschieben.",
+        "Wir den Termin müssen verschieben.",
+        "Wir verschieben müssen den Termin.",
+        "Müssen wir den Termin verschieben wir."
+      ]
+    },
+    {
+      "id": "gr02-e006",
+      "topicId": "gr-02",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "prompt_de": "Ich bleibe zu Hause, weil ich krank ______.",
+      "prompt_ar": "أبقى في المنزل لأنني ______ مريضًا.",
+      "answer": "bin",
+      "explanation_de": "Im weil-Satz steht das Verb am Ende.",
+      "explanation_ar": "في جملة weil يأتي الفعل في النهاية.",
+      "grammarFocus": "subordinate_clause_final",
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "gr02-e007",
+      "topicId": "gr-02",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Verbpositionen",
+      "title_ar": "مواقع الفعل",
+      "prompt_de": "Ordnen Sie die Verbposition zu.",
+      "prompt_ar": "صِل نوع الجملة بموقع الفعل.",
+      "answer": {
+        "Hauptsatz": "Position 2",
+        "Nebensatz mit weil": "am Ende",
+        "Ja/Nein-Frage": "Position 1"
+      },
+      "explanation_de": "Die Satzart bestimmt die Verbposition.",
+      "explanation_ar": "يحدد نوع الجملة موقع الفعل.",
+      "grammarFocus": "verb_positions",
+      "pairs": [
+        [
+          "Hauptsatz",
+          "Position 2"
+        ],
+        [
+          "Nebensatz mit weil",
+          "am Ende"
+        ],
+        [
+          "Ja/Nein-Frage",
+          "Position 1"
+        ]
+      ]
+    },
+    {
+      "id": "gr02-e008",
+      "topicId": "gr-02",
+      "type": "sentence_build",
+      "difficulty": "easy",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "prompt_de": "Verbinden Sie: Ich bin krank. Ich bleibe zu Hause. Beginnen Sie mit Weil.",
+      "prompt_ar": "اربط الجملتين وابدأ بـ Weil.",
+      "answer": "Weil ich krank bin, bleibe ich zu Hause.",
+      "explanation_de": "Der Nebensatz besetzt Position 1; danach folgt Verb + Subjekt.",
+      "explanation_ar": "تشغل الجملة الفرعية البداية ثم يأتي الفعل فالفاعل.",
+      "grammarFocus": "subordinate_first",
+      "acceptedAnswers": [
+        "Weil ich krank bin, bleibe ich zu Hause."
+      ]
+    },
+    {
+      "id": "gr02-e009",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt im Hauptsatz",
+      "title_ar": "Perfekt في الجملة الرئيسية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Personalabteilung hat die Unterlagen gestern geschickt.",
+      "explanation_de": "Hat steht vorn; geschickt schließt die Satzklammer.",
+      "explanation_ar": "تأتي hat في البداية وتغلق geschickt إطار الجملة.",
+      "grammarFocus": "perfect_bracket",
+      "tokens": [
+        "geschickt",
+        "gestern",
+        "die Unterlagen",
+        "Die Personalabteilung",
+        "hat"
+      ],
+      "acceptedAnswers": [
+        "Die Personalabteilung hat die Unterlagen gestern geschickt."
+      ]
+    },
+    {
+      "id": "gr02-e010",
+      "topicId": "gr-02",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Passiv",
+      "title_ar": "المبني للمجهول",
+      "prompt_de": "Der Antrag ______ heute von der Behörde geprüft.",
+      "prompt_ar": "______ فحص الطلب اليوم من قبل الجهة.",
+      "answer": "wird",
+      "explanation_de": "Wird ist finit; geprüft steht am Ende.",
+      "explanation_ar": "wird هو الفعل المصرف وgeprüft في النهاية.",
+      "grammarFocus": "passive_bracket",
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "gr02-e011",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Futur I",
+      "title_ar": "المستقبل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir werden den Bericht morgen fertigstellen.",
+      "explanation_de": "Werden ist finit; der Infinitiv steht am Ende.",
+      "explanation_ar": "werden مصرف والمصدر في النهاية.",
+      "grammarFocus": "future_bracket",
+      "tokens": [
+        "morgen",
+        "Wir",
+        "fertigstellen",
+        "den Bericht",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "Wir werden den Bericht morgen fertigstellen."
+      ]
+    },
+    {
+      "id": "gr02-e012",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "TeKaMoLo",
+      "title_ar": "قاعدة TeKaMoLo",
+      "prompt_de": "Welche Reihenfolge ist neutral?",
+      "prompt_ar": "أي ترتيب محايد؟",
+      "answer": "Wir fahren morgen wegen des Termins mit dem Zug nach Berlin.",
+      "explanation_de": "Temporal – kausal – modal – lokal.",
+      "explanation_ar": "زمان، سبب، طريقة، مكان.",
+      "grammarFocus": "tekamolo",
+      "options": [
+        "Wir fahren morgen wegen des Termins mit dem Zug nach Berlin.",
+        "Wir fahren nach Berlin mit dem Zug wegen des Termins morgen.",
+        "Wir morgen nach Berlin fahren wegen des Termins mit dem Zug.",
+        "Morgen wir fahren mit dem Zug nach Berlin wegen."
+      ]
+    },
+    {
+      "id": "gr02-e013",
+      "topicId": "gr-02",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "TeKaMoLo erkennen",
+      "title_ar": "تمييز TeKaMoLo",
+      "prompt_de": "Ordnen Sie die Angaben zu.",
+      "prompt_ar": "صِل الظروف بفئاتها.",
+      "answer": {
+        "morgen": "temporal",
+        "wegen des Termins": "kausal",
+        "mit dem Zug": "modal",
+        "nach Berlin": "lokal"
+      },
+      "explanation_de": "TeKaMoLo ordnet Zeit, Grund, Art und Ort.",
+      "explanation_ar": "ترتب TeKaMoLo الزمان والسبب والطريقة والمكان.",
+      "grammarFocus": "tekamolo_categories",
+      "pairs": [
+        [
+          "morgen",
+          "temporal"
+        ],
+        [
+          "wegen des Termins",
+          "kausal"
+        ],
+        [
+          "mit dem Zug",
+          "modal"
+        ],
+        [
+          "nach Berlin",
+          "lokal"
+        ]
+      ]
+    },
+    {
+      "id": "gr02-e014",
+      "topicId": "gr-02",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "TeKaMoLo anwenden",
+      "title_ar": "تطبيق TeKaMoLo",
+      "prompt_de": "Bilden Sie einen neutralen Satz: wir / heute / wegen der Störung / konzentriert / im Besprechungsraum / arbeiten",
+      "prompt_ar": "كوّن جملة محايدة.",
+      "answer": "Wir arbeiten heute wegen der Störung konzentriert im Besprechungsraum.",
+      "explanation_de": "Die Angaben folgen TeKaMoLo.",
+      "explanation_ar": "تتبع الظروف ترتيب TeKaMoLo.",
+      "grammarFocus": "tekamolo_production",
+      "acceptedAnswers": [
+        "Wir arbeiten heute wegen der Störung konzentriert im Besprechungsraum."
+      ]
+    },
+    {
+      "id": "gr02-e015",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Dativ vor Akkusativ",
+      "title_ar": "Dativ قبل Akkusativ",
+      "prompt_de": "Welche Reihenfolge ist bei zwei Nomen üblich?",
+      "prompt_ar": "أي ترتيب شائع مع اسمين؟",
+      "answer": "Ich schicke dem Kunden die Rechnung.",
+      "explanation_de": "Bei zwei Nomen steht meist Dativ vor Akkusativ.",
+      "explanation_ar": "مع اسمين يأتي Dativ قبل Akkusativ غالبًا.",
+      "grammarFocus": "objects_two_nouns",
+      "options": [
+        "Ich schicke dem Kunden die Rechnung.",
+        "Ich schicke die Rechnung dem Kunden.",
+        "Ich dem Kunden schicke die Rechnung.",
+        "Dem Kunden die Rechnung ich schicke."
+      ]
+    },
+    {
+      "id": "gr02-e016",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Pronomen vor Nomen",
+      "title_ar": "الضمير قبل الاسم",
+      "prompt_de": "Welche Form ist neutral?",
+      "prompt_ar": "أي صيغة محايدة؟",
+      "answer": "Ich schicke sie dem Kunden.",
+      "explanation_de": "Das Pronomen steht vor dem nominalen Objekt.",
+      "explanation_ar": "الضمير يسبق المفعول الاسمي.",
+      "grammarFocus": "pronoun_before_noun",
+      "options": [
+        "Ich schicke sie dem Kunden.",
+        "Ich schicke dem Kunden sie.",
+        "Ich sie schicke dem Kunden.",
+        "Sie ich dem Kunden schicke."
+      ]
+    },
+    {
+      "id": "gr02-e017",
+      "topicId": "gr-02",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Zwei Pronomen",
+      "title_ar": "ضميران",
+      "prompt_de": "Ich gebe ______ ______. (die Unterlagen = sie / dem Kollegen = ihm)",
+      "prompt_ar": "أعطي ______ ______.",
+      "answer": "sie ihm",
+      "explanation_de": "Bei zwei Pronomen steht Akkusativ meist vor Dativ.",
+      "explanation_ar": "مع ضميرين يأتي Akkusativ قبل Dativ غالبًا.",
+      "grammarFocus": "two_pronouns",
+      "acceptedAnswers": [
+        "sie ihm"
+      ]
+    },
+    {
+      "id": "gr02-e018",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit Perfekt",
+      "title_ar": "جملة فرعية مع Perfekt",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass sie den Bericht geschrieben hat",
+      "explanation_de": "Partizip und Hilfsverb stehen am Ende.",
+      "explanation_ar": "يأتي اسم المفعول والفعل المساعد في النهاية.",
+      "grammarFocus": "subordinate_perfect",
+      "tokens": [
+        "geschrieben",
+        "dass",
+        "den Bericht",
+        "hat",
+        "sie"
+      ],
+      "acceptedAnswers": [
+        "dass sie den Bericht geschrieben hat"
+      ]
+    },
+    {
+      "id": "gr02-e019",
+      "topicId": "gr-02",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Obwohl-Satz",
+      "title_ar": "جملة obwohl",
+      "prompt_de": "Verbinden Sie: Der Termin wurde kurzfristig geändert. Alle nahmen teil.",
+      "prompt_ar": "اربط الجملتين باستخدام obwohl.",
+      "answer": "Obwohl der Termin kurzfristig geändert wurde, nahmen alle teil.",
+      "explanation_de": "Im obwohl-Satz steht wurde am Ende.",
+      "explanation_ar": "في جملة obwohl تأتي wurde في النهاية.",
+      "grammarFocus": "although_clause",
+      "acceptedAnswers": [
+        "Obwohl der Termin kurzfristig geändert wurde, nahmen alle teil.",
+        "Alle nahmen teil, obwohl der Termin kurzfristig geändert wurde."
+      ]
+    },
+    {
+      "id": "gr02-e020",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Position von nicht",
+      "title_ar": "موقع nicht",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صياغة صحيحة؟",
+      "answer": "Ich kann heute nicht kommen.",
+      "explanation_de": "Nicht steht bei allgemeiner Verbnegation vor dem Infinitiv.",
+      "explanation_ar": "تأتي nicht قبل المصدر عند نفي الفعل عمومًا.",
+      "grammarFocus": "nicht_general_negation",
+      "options": [
+        "Ich kann heute nicht kommen.",
+        "Ich nicht kann heute kommen.",
+        "Ich kann nicht heute kommen.",
+        "Nicht ich kann heute kommen."
+      ]
+    },
+    {
+      "id": "gr02-e021",
+      "topicId": "gr-02",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Gezielte Negation",
+      "title_ar": "نفي جزء محدد",
+      "prompt_de": "Nicht am Montag, sondern am Dienstag: Welche Form passt?",
+      "prompt_ar": "ليس الاثنين بل الثلاثاء: أي صيغة مناسبة؟",
+      "answer": "Ich komme nicht am Montag, sondern am Dienstag.",
+      "explanation_de": "Nicht steht direkt vor dem negierten Zeitteil.",
+      "explanation_ar": "تأتي nicht مباشرة قبل ظرف الزمن المنفي.",
+      "grammarFocus": "nicht_specific_constituent",
+      "options": [
+        "Ich komme nicht am Montag, sondern am Dienstag.",
+        "Ich nicht komme am Montag, sondern am Dienstag.",
+        "Nicht ich komme am Montag.",
+        "Ich komme am Montag nicht sondern Dienstag."
+      ]
+    },
+    {
+      "id": "gr02-e022",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Passiv Perfekt im Nebensatz",
+      "title_ar": "Passiv Perfekt في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Satzteil.",
+      "prompt_ar": "رتب جزء الجملة.",
+      "answer": "dass der Vertrag unterschrieben worden ist",
+      "explanation_de": "Die Verbgruppe steht gemeinsam am Ende.",
+      "explanation_ar": "تأتي مجموعة الأفعال مجتمعة في النهاية.",
+      "grammarFocus": "subordinate_passive_perfect",
+      "tokens": [
+        "worden",
+        "dass",
+        "unterschrieben",
+        "ist",
+        "der Vertrag"
+      ],
+      "acceptedAnswers": [
+        "dass der Vertrag unterschrieben worden ist"
+      ]
+    },
+    {
+      "id": "gr02-e023",
+      "topicId": "gr-02",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "prompt_de": "Nachdem sie die E-Mail gelesen hatte, ______ sie sofort an. (rufen, Präteritum)",
+      "prompt_ar": "بعد أن قرأت البريد ______ فورًا.",
+      "answer": "rief",
+      "explanation_de": "Nach dem Nebensatz steht im Hauptsatz das Verb vor dem Subjekt.",
+      "explanation_ar": "بعد الجملة الفرعية يأتي الفعل قبل الفاعل.",
+      "grammarFocus": "subordinate_first_inversion",
+      "acceptedAnswers": [
+        "rief"
+      ]
+    },
+    {
+      "id": "gr02-e024",
+      "topicId": "gr-02",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Satzklammer erkennen",
+      "title_ar": "تمييز إطار الجملة",
+      "prompt_de": "Ordnen Sie den rechten Teil der Satzklammer zu.",
+      "prompt_ar": "صِل الجزء الأخير من إطار الجملة.",
+      "answer": {
+        "Ich rufe den Kunden ...": "an.",
+        "Wir müssen den Antrag ...": "prüfen.",
+        "Der Bericht ist gestern ...": "geschrieben worden.",
+        "Sie wird die Aufgabe morgen ...": "erledigen."
+      },
+      "explanation_de": "Der zweite Verbteil schließt die Satzklammer.",
+      "explanation_ar": "يغلق الجزء الثاني من الفعل إطار الجملة.",
+      "grammarFocus": "sentence_bracket_types",
+      "pairs": [
+        [
+          "Ich rufe den Kunden ...",
+          "an."
+        ],
+        [
+          "Wir müssen den Antrag ...",
+          "prüfen."
+        ],
+        [
+          "Der Bericht ist gestern ...",
+          "geschrieben worden."
+        ],
+        [
+          "Sie wird die Aufgabe morgen ...",
+          "erledigen."
+        ]
+      ]
+    },
+    {
+      "id": "gr02-e025",
+      "topicId": "gr-02",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexer Hauptsatz",
+      "title_ar": "جملة رئيسية معقدة",
+      "prompt_de": "Bilden Sie einen Satz: die Personalabteilung / heute / allen Beschäftigten / per E-Mail / die neue Regelung / schicken",
+      "prompt_ar": "كوّن جملة صحيحة.",
+      "answer": "Die Personalabteilung schickt heute allen Beschäftigten per E-Mail die neue Regelung.",
+      "explanation_de": "Das finite Verb steht auf Position 2.",
+      "explanation_ar": "يأتي الفعل المصرف في المرتبة الثانية.",
+      "grammarFocus": "complex_main_clause",
+      "acceptedAnswers": [
+        "Die Personalabteilung schickt heute allen Beschäftigten per E-Mail die neue Regelung.",
+        "Heute schickt die Personalabteilung allen Beschäftigten per E-Mail die neue Regelung."
+      ]
+    },
+    {
+      "id": "gr02-e026",
+      "topicId": "gr-02",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Satzklammer",
+      "title_ar": "إطار جملة معقد",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir können den Bericht heute wegen der fehlenden Daten nicht fertigstellen.",
+      "explanation_de": "Nicht steht vor dem Infinitiv am Ende.",
+      "explanation_ar": "تأتي nicht قبل المصدر في النهاية.",
+      "grammarFocus": "modal_negation_tekamolo",
+      "tokens": [
+        "wegen der fehlenden Daten",
+        "Wir",
+        "nicht",
+        "heute",
+        "fertigstellen",
+        "den Bericht",
+        "können"
+      ],
+      "acceptedAnswers": [
+        "Wir können den Bericht heute wegen der fehlenden Daten nicht fertigstellen."
+      ]
+    },
+    {
+      "id": "gr02-e027",
+      "topicId": "gr-02",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Objekte und Pronomen",
+      "title_ar": "المفاعيل والضمائر",
+      "prompt_de": "Welche Form ist neutral und korrekt?",
+      "prompt_ar": "أي صياغة صحيحة ومحايدة؟",
+      "answer": "Ich habe sie ihm gestern im Büro gegeben.",
+      "explanation_de": "Akkusativpronomen steht vor Dativpronomen; Zeit meist vor Ort.",
+      "explanation_ar": "ضمير Akkusativ يسبق ضمير Dativ والزمان يسبق المكان غالبًا.",
+      "grammarFocus": "pronouns_tekamolo",
+      "options": [
+        "Ich habe sie ihm gestern im Büro gegeben.",
+        "Ich habe ihm sie im Büro gestern gegeben.",
+        "Ich sie habe ihm gestern im Büro gegeben.",
+        "Gestern ich habe sie ihm im Büro gegeben."
+      ]
+    },
+    {
+      "id": "gr02-e028",
+      "topicId": "gr-02",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Verbteile",
+      "title_ar": "عدة أجزاء فعلية",
+      "prompt_de": "Bilden Sie einen dass-Satz: Der Antrag ist gestern geprüft worden.",
+      "prompt_ar": "حوّل إلى جملة مع dass.",
+      "answer": "Ich weiß, dass der Antrag gestern geprüft worden ist.",
+      "explanation_de": "Im Nebensatz steht geprüft worden ist am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي geprüft worden ist في النهاية.",
+      "grammarFocus": "subordinate_multiple_verbs",
+      "acceptedAnswers": [
+        "Ich weiß, dass der Antrag gestern geprüft worden ist.",
+        "Er sagt, dass der Antrag gestern geprüft worden ist."
+      ]
+    },
+    {
+      "id": "gr02-e029",
+      "topicId": "gr-02",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Berufliche E-Mail",
+      "title_ar": "بريد مهني",
+      "prompt_de": "Welche Formulierung ist korrekt und klar?",
+      "prompt_ar": "أي صياغة صحيحة وواضحة؟",
+      "answer": "Im Anhang sende ich Ihnen heute die überarbeitete Version des Vertrags.",
+      "explanation_de": "Nach Im Anhang folgt das Verb; Ihnen steht vor dem nominalen Akkusativobjekt.",
+      "explanation_ar": "بعد Im Anhang يأتي الفعل، ويأتي Ihnen قبل المفعول الاسمي.",
+      "grammarFocus": "professional_word_order",
+      "options": [
+        "Im Anhang sende ich Ihnen heute die überarbeitete Version des Vertrags.",
+        "Im Anhang ich sende heute Ihnen die überarbeitete Version.",
+        "Ich Ihnen sende im Anhang heute den Vertrag.",
+        "Heute im Anhang die Version sende ich Ihnen ist."
+      ]
+    },
+    {
+      "id": "gr02-e030",
+      "topicId": "gr-02",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining",
+      "title_ar": "تدريب ختامي",
+      "prompt_de": "Schreiben Sie einen kurzen beruflichen Text mit mindestens fünf Sätzen. Verwenden Sie eine andere Position 1, einen Nebensatz, eine Satzklammer, TeKaMoLo und zwei Objekte.",
+      "prompt_ar": "اكتب نصًا مهنيًا قصيرًا من خمس جمل على الأقل، واستخدم بداية بغير الفاعل وجملة فرعية وإطار جملة وTeKaMoLo ومفعولين.",
+      "answer": {
+        "requiredConcepts": [
+          "Verb auf Position 2",
+          "Nebensatz mit Verbendstellung",
+          "Satzklammer",
+          "TeKaMoLo",
+          "korrekte Objektreihenfolge"
+        ]
+      },
+      "explanation_de": "Prüfen Sie Verbpositionen und Mittelfeld.",
+      "explanation_ar": "راجع مواقع الأفعال وترتيب وسط الجملة.",
+      "grammarFocus": "mixed_word_order",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-08",
+  "slug": "gr-08-futur-1",
+  "order": 8,
+  "title_de": "Futur I",
+  "title_ar": "المستقبل الأول",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "zeiten_training",
+  "estimatedMinutes": 35,
+  "learningObjectives_de": [
+    "Das Futur I mit werden und Infinitiv korrekt bilden.",
+    "Zukunft, Absicht, Versprechen und Prognose unterscheiden.",
+    "Futur I für Vermutungen über die Gegenwart verwenden.",
+    "Zwischen Präsens mit Zeitangabe und Futur I sinnvoll wählen.",
+    "Futur-I-Sätze in Haupt- und Nebensätzen korrekt ordnen.",
+    "Wahrscheinlichkeitswörter passend mit Futur I kombinieren."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Futur I باستخدام werden والمصدر بصورة صحيحة.",
+    "التمييز بين المستقبل والنية والوعد والتوقع.",
+    "استخدام Futur I للتخمين حول الحاضر.",
+    "الاختيار المناسب بين Präsens مع ظرف زمني وFutur I.",
+    "ترتيب Futur I في الجمل الرئيسية والفرعية.",
+    "استخدام كلمات الاحتمال بصورة مناسبة مع Futur I."
+  ],
+  "shortDescription_de": "Das Futur I beschreibt zukünftige Ereignisse, Absichten, Versprechen, Prognosen und Vermutungen über die Gegenwart.",
+  "shortDescription_ar": "يصف Futur I أحداثًا مستقبلية ونوايا ووعودًا وتوقعات، ويُستخدم أيضًا للتخمين حول الحاضر.",
+  "explanation_de": "Das Futur I wird mit einer konjugierten Form von werden und dem Infinitiv gebildet. Im Hauptsatz steht werden auf Position 2 und der Infinitiv am Satzende. Im Nebensatz steht der Infinitiv vor der konjugierten Form von werden am Satzende. Im Deutschen wird eine geplante Zukunft sehr häufig mit dem Präsens und einer Zeitangabe ausgedrückt: Morgen beginne ich den Kurs. Das Futur I wird besonders verwendet, wenn eine Absicht, ein Versprechen, eine Prognose oder eine Vermutung betont werden soll. Bei Vermutungen über die Gegenwart stehen häufig Wörter wie wahrscheinlich, vermutlich, wohl oder sicher.",
+  "explanation_ar": "يتكوّن Futur I من صيغة مصرّفة للفعل werden ومن مصدر الفعل الأساسي. في الجملة الرئيسية يأتي werden في المرتبة الثانية ويأتي المصدر في نهاية الجملة. وفي الجملة الفرعية يأتي المصدر ثم صيغة werden المصرفة في نهاية الجملة. يُعبَّر عن المستقبل المخطط في الألمانية كثيرًا باستخدام Präsens مع ظرف زمني مثل: Morgen beginne ich den Kurs. أما Futur I فيُستخدم بصورة أوضح عندما نريد التأكيد على نية أو وعد أو توقع أو تخمين. وعند التخمين حول الحاضر تظهر غالبًا كلمات مثل wahrscheinlich وvermutlich وwohl وsicher.",
+  "rules": [
+    {
+      "id": "gr08-r01",
+      "title_de": "Bildung",
+      "title_ar": "التكوين",
+      "explanation_de": "Werden wird konjugiert; der Vollverb-Infinitiv steht am Ende.",
+      "explanation_ar": "يُصرّف werden ويأتي مصدر الفعل الأساسي في النهاية.",
+      "formula": "Subjekt + werden + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Ich werde die Unterlagen morgen schicken.",
+          "ar": "سأرسل المستندات غدًا."
+        },
+        {
+          "de": "Wir werden das Problem gemeinsam lösen.",
+          "ar": "سنحل المشكلة معًا."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r02",
+      "title_de": "Konjugation von werden",
+      "title_ar": "تصريف werden",
+      "explanation_de": "Die Formen lauten: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden.",
+      "explanation_ar": "الصيغ هي: ich werde وdu wirst وer/sie/es wird وwir werden وihr werdet وsie/Sie werden.",
+      "formula": "werde | wirst | wird | werden | werdet | werden",
+      "examples": [
+        {
+          "de": "Du wirst morgen früher beginnen.",
+          "ar": "ستبدأ غدًا أبكر."
+        },
+        {
+          "de": "Die Abteilung wird bald umziehen.",
+          "ar": "سينتقل القسم قريبًا."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r03",
+      "title_de": "Zukünftiges Ereignis",
+      "title_ar": "حدث مستقبلي",
+      "explanation_de": "Futur I kann ein Ereignis ausdrücken, das nach dem Sprechzeitpunkt liegt.",
+      "explanation_ar": "يمكن أن يعبّر Futur I عن حدث يقع بعد وقت الكلام.",
+      "formula": "werden + Infinitiv + Zeitangabe",
+      "examples": [
+        {
+          "de": "Die Schulung wird nächste Woche stattfinden.",
+          "ar": "ستُعقد الدورة الأسبوع القادم."
+        },
+        {
+          "de": "Der Techniker wird morgen kommen.",
+          "ar": "سيأتي الفني غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r04",
+      "title_de": "Absicht und Versprechen",
+      "title_ar": "النية والوعد",
+      "explanation_de": "Mit Futur I kann man eine feste Absicht oder ein Versprechen hervorheben.",
+      "explanation_ar": "يمكن استخدام Futur I للتأكيد على نية ثابتة أو وعد.",
+      "formula": "Ich werde ...",
+      "examples": [
+        {
+          "de": "Ich werde mich sofort darum kümmern.",
+          "ar": "سأهتم بالأمر فورًا."
+        },
+        {
+          "de": "Wir werden Sie rechtzeitig informieren.",
+          "ar": "سنبلغك في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r05",
+      "title_de": "Prognose",
+      "title_ar": "التوقع",
+      "explanation_de": "Futur I wird häufig für Vorhersagen und erwartete Entwicklungen verwendet.",
+      "explanation_ar": "يُستخدم Futur I كثيرًا للتنبؤات والتطورات المتوقعة.",
+      "formula": "werden + voraussichtlich/wahrscheinlich + Infinitiv",
+      "examples": [
+        {
+          "de": "Die Preise werden voraussichtlich weiter steigen.",
+          "ar": "من المتوقع أن تستمر الأسعار في الارتفاع."
+        },
+        {
+          "de": "Die Umstellung wird einige Wochen dauern.",
+          "ar": "سيستغرق التحول عدة أسابيع."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r06",
+      "title_de": "Vermutung über die Gegenwart",
+      "title_ar": "تخمين حول الحاضر",
+      "explanation_de": "Futur I kann eine Vermutung über eine aktuelle Situation ausdrücken. Häufig stehen wohl, wahrscheinlich, vermutlich oder sicher.",
+      "explanation_ar": "يمكن أن يعبّر Futur I عن تخمين يتعلق بوضع حالي. وتظهر معه غالبًا wohl وwahrscheinlich وvermutlich وsicher.",
+      "formula": "werden + Vermutungswort + Infinitiv",
+      "examples": [
+        {
+          "de": "Er wird wahrscheinlich im Büro sein.",
+          "ar": "من المحتمل أنه في المكتب."
+        },
+        {
+          "de": "Die Kollegin wird wohl noch in einer Besprechung sitzen.",
+          "ar": "يبدو أن الزميلة ما زالت في اجتماع."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r07",
+      "title_de": "Präsens oder Futur I?",
+      "title_ar": "Präsens أم Futur I؟",
+      "explanation_de": "Bei klar geplanten Terminen genügt oft das Präsens mit Zeitangabe. Futur I betont stärker Absicht, Prognose, Versprechen oder Unsicherheit.",
+      "explanation_ar": "في المواعيد والخطط الواضحة يكفي غالبًا Präsens مع ظرف زمني. أما Futur I فيؤكد أكثر على النية أو التوقع أو الوعد أو عدم اليقين.",
+      "formula": "Morgen beginne ich. | Ich werde morgen beginnen.",
+      "examples": [
+        {
+          "de": "Morgen fahre ich nach München.",
+          "ar": "سأسافر غدًا إلى ميونخ؛ خطة واضحة."
+        },
+        {
+          "de": "Ich werde das Problem lösen.",
+          "ar": "سأحل المشكلة؛ تأكيد نية أو وعد."
+        }
+      ]
+    },
+    {
+      "id": "gr08-r08",
+      "title_de": "Futur I im Nebensatz",
+      "title_ar": "Futur I في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz stehen Infinitiv und konjugiertes werden gemeinsam am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي المصدر وصيغة werden المصرفة معًا في النهاية.",
+      "formula": "..., dass/weil + ... + Infinitiv + werden",
+      "examples": [
+        {
+          "de": "Ich glaube, dass die Besprechung länger dauern wird.",
+          "ar": "أعتقد أن الاجتماع سيستغرق وقتًا أطول."
+        },
+        {
+          "de": "Wir hoffen, dass sich die Lage bald verbessern wird.",
+          "ar": "نأمل أن يتحسن الوضع قريبًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr08-t01",
+      "title_de": "Konjugation von werden",
+      "title_ar": "تصريف werden",
+      "headers_de": [
+        "Person",
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الشخص",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde",
+          "Ich werde anrufen."
+        ],
+        [
+          "du",
+          "wirst",
+          "Du wirst anrufen."
+        ],
+        [
+          "er/sie/es",
+          "wird",
+          "Sie wird anrufen."
+        ],
+        [
+          "wir",
+          "werden",
+          "Wir werden anrufen."
+        ],
+        [
+          "ihr",
+          "werdet",
+          "Ihr werdet anrufen."
+        ],
+        [
+          "sie/Sie",
+          "werden",
+          "Sie werden anrufen."
+        ]
+      ]
+    },
+    {
+      "id": "gr08-t02",
+      "title_de": "Funktionen des Futur I",
+      "title_ar": "وظائف Futur I",
+      "headers_de": [
+        "Funktion",
+        "Signal",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الوظيفة",
+        "الإشارة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Zukunft",
+          "morgen/nächste Woche",
+          "Der Kurs wird morgen beginnen."
+        ],
+        [
+          "Absicht",
+          "fester Wille",
+          "Ich werde mich bewerben."
+        ],
+        [
+          "Versprechen",
+          "Zusage",
+          "Wir werden Sie informieren."
+        ],
+        [
+          "Prognose",
+          "voraussichtlich",
+          "Die Kosten werden steigen."
+        ],
+        [
+          "Vermutung über Gegenwart",
+          "wohl/wahrscheinlich",
+          "Er wird im Büro sein."
+        ]
+      ]
+    },
+    {
+      "id": "gr08-t03",
+      "title_de": "Hauptsatz und Nebensatz",
+      "title_ar": "الجملة الرئيسية والفرعية",
+      "headers_de": [
+        "Satzart",
+        "Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "نوع الجملة",
+        "البنية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Hauptsatz",
+          "wird ... Infinitiv",
+          "Die Sitzung wird länger dauern."
+        ],
+        [
+          "Nebensatz",
+          "... Infinitiv wird",
+          "..., dass die Sitzung länger dauern wird."
+        ],
+        [
+          "Frage",
+          "Wird ... Infinitiv?",
+          "Wird die Sitzung länger dauern?"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich werde Ihnen die korrigierte Datei noch heute schicken.",
+      "ar": "سأرسل لك الملف المصحح اليوم.",
+      "note_de": "Versprechen oder feste Zusage.",
+      "note_ar": "وعد أو التزام واضح."
+    },
+    {
+      "de": "Die Nachfrage wird in den kommenden Monaten wahrscheinlich steigen.",
+      "ar": "من المحتمل أن يرتفع الطلب في الأشهر القادمة.",
+      "note_de": "Prognose mit wahrscheinlich.",
+      "note_ar": "توقع باستخدام wahrscheinlich."
+    },
+    {
+      "de": "Herr Becker wird gerade mit einem Kunden sprechen.",
+      "ar": "من المحتمل أن السيد بيكر يتحدث الآن مع عميل.",
+      "note_de": "Vermutung über die Gegenwart.",
+      "note_ar": "تخمين حول الحاضر."
+    },
+    {
+      "de": "Morgen bespreche ich den Fall mit der Abteilungsleitung.",
+      "ar": "سأناقش الحالة غدًا مع إدارة القسم.",
+      "note_de": "Geplante Zukunft kann natürlich im Präsens stehen.",
+      "note_ar": "يمكن التعبير طبيعيًا عن المستقبل المخطط باستخدام Präsens."
+    },
+    {
+      "de": "Wir gehen davon aus, dass die Lieferung pünktlich eintreffen wird.",
+      "ar": "نفترض أن الشحنة ستصل في الوقت المحدد.",
+      "note_de": "Futur I im Nebensatz.",
+      "note_ar": "Futur I في جملة فرعية."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich werde morgen die Unterlagen geschickt.",
+      "correct": "Ich werde morgen die Unterlagen schicken.",
+      "explanation_de": "Futur I verwendet den Infinitiv, nicht das Partizip II.",
+      "explanation_ar": "يستخدم Futur I المصدر وليس Partizip II."
+    },
+    {
+      "wrong": "Du werdest morgen früher beginnen.",
+      "correct": "Du wirst morgen früher beginnen.",
+      "explanation_de": "Die Form von werden für du lautet wirst.",
+      "explanation_ar": "صيغة werden مع du هي wirst."
+    },
+    {
+      "wrong": "Ich glaube, dass die Besprechung wird länger dauern.",
+      "correct": "Ich glaube, dass die Besprechung länger dauern wird.",
+      "explanation_de": "Im Nebensatz stehen Infinitiv und wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي المصدر ثم wird في النهاية."
+    },
+    {
+      "wrong": "Morgen werde ich den Kurs begonnen.",
+      "correct": "Morgen werde ich den Kurs beginnen.",
+      "explanation_de": "Nach werden steht der Infinitiv beginnen.",
+      "explanation_ar": "يأتي المصدر beginnen بعد werden."
+    },
+    {
+      "wrong": "Er wird wahrscheinlich im Büro gewesen.",
+      "correct": "Er wird wahrscheinlich im Büro sein.",
+      "explanation_de": "Für eine Vermutung über die Gegenwart verwendet man Futur I mit sein.",
+      "explanation_ar": "للتخمين حول الحاضر نستخدم Futur I مع sein."
+    },
+    {
+      "wrong": "Nächste Woche ich werde Urlaub machen.",
+      "correct": "Nächste Woche werde ich Urlaub machen.",
+      "explanation_de": "Nach der Zeitangabe auf Position 1 folgt das finite Verb.",
+      "explanation_ar": "بعد ظرف الزمن في البداية يأتي الفعل المصرف."
+    }
+  ],
+  "quickSummary_de": [
+    "Futur I = werden + Infinitiv.",
+    "Im Hauptsatz steht werden auf Position 2.",
+    "Der Infinitiv steht am Satzende.",
+    "Im Nebensatz steht der Infinitiv vor werden am Ende.",
+    "Futur I drückt Zukunft, Absicht, Versprechen und Prognose aus.",
+    "Es kann auch eine Vermutung über die Gegenwart ausdrücken.",
+    "Wohl, wahrscheinlich und vermutlich markieren häufig eine Vermutung.",
+    "Für klar geplante Zukunft ist das Präsens mit Zeitangabe oft natürlicher."
+  ],
+  "quickSummary_ar": [
+    "Futur I = werden + المصدر.",
+    "يأتي werden في المرتبة الثانية في الجملة الرئيسية.",
+    "يأتي المصدر في نهاية الجملة.",
+    "في الجملة الفرعية يأتي المصدر قبل werden في النهاية.",
+    "يعبّر Futur I عن المستقبل والنية والوعد والتوقع.",
+    "يمكن أن يعبّر أيضًا عن تخمين حول الحاضر.",
+    "تظهر wohl وwahrscheinlich وvermutlich كثيرًا مع التخمين.",
+    "يكون Präsens مع ظرف زمني أكثر طبيعية غالبًا للمستقبل المخطط بوضوح."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-04",
+    "gr-07",
+    "gr-09",
+    "gr-10"
+  ]
+}

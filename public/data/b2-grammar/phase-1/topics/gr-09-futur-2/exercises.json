@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-09",
+  "title_de": "Futur II – Übungen",
+  "title_ar": "تمارين المستقبل التام",
+  "level": "B2",
+  "exerciseCount": 16,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr09-e001",
+      "topicId": "gr-09",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform mit haben",
+      "title_ar": "الصيغة الأساسية مع haben",
+      "prompt_de": "Welche Form ist Futur II?",
+      "prompt_ar": "أي صيغة هي Futur II؟",
+      "answer": "Ich werde den Bericht geschrieben haben.",
+      "explanation_de": "Futur II besteht aus werden, Partizip II und haben.",
+      "explanation_ar": "يتكوّن Futur II من werden وPartizip II وhaben.",
+      "grammarFocus": "formation_haben",
+      "options": [
+        "Ich werde den Bericht geschrieben haben.",
+        "Ich werde den Bericht schreiben.",
+        "Ich habe den Bericht geschrieben.",
+        "Ich hatte den Bericht geschrieben."
+      ]
+    },
+    {
+      "id": "gr09-e002",
+      "topicId": "gr-09",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform mit sein",
+      "title_ar": "الصيغة الأساسية مع sein",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Zug wird angekommen sein.",
+      "explanation_de": "Ankommen bildet das Futur II mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Futur II.",
+      "grammarFocus": "formation_sein",
+      "options": [
+        "Der Zug wird angekommen sein.",
+        "Der Zug wird angekommen haben.",
+        "Der Zug hat angekommen sein.",
+        "Der Zug wird ankommen gewesen."
+      ]
+    },
+    {
+      "id": "gr09-e003",
+      "topicId": "gr-09",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Partizip und Hilfsverb",
+      "title_ar": "Partizip والفعل المساعد",
+      "prompt_de": "Bis Freitag werde ich den Bericht fertiggestellt ______.",
+      "prompt_ar": "سأكون قد أنهيت التقرير بحلول الجمعة.",
+      "answer": "haben",
+      "explanation_de": "Fertigstellen bildet das Perfekt mit haben.",
+      "explanation_ar": "يستخدم fertigstellen الفعل المساعد haben.",
+      "grammarFocus": "future_two_haben",
+      "acceptedAnswers": [
+        "haben"
+      ]
+    },
+    {
+      "id": "gr09-e004",
+      "topicId": "gr-09",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Mit sein",
+      "title_ar": "مع sein",
+      "prompt_de": "Bis dahin wird die Kollegin angekommen ______.",
+      "prompt_ar": "ستكون الزميلة قد وصلت بحلول ذلك الوقت.",
+      "answer": "sein",
+      "explanation_de": "Ankommen bildet das Perfekt und Futur II mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein.",
+      "grammarFocus": "future_two_sein",
+      "acceptedAnswers": [
+        "sein"
+      ]
+    },
+    {
+      "id": "gr09-e005",
+      "topicId": "gr-09",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Futur I oder Futur II",
+      "title_ar": "Futur I أم Futur II",
+      "prompt_de": "Ordnen Sie Form und Bedeutung zu.",
+      "prompt_ar": "صِل الصيغة بالمعنى.",
+      "answer": {
+        "wird schreiben": "zukünftiger Vorgang",
+        "wird geschrieben haben": "zukünftig abgeschlossen",
+        "wird angekommen sein": "zukünftig abgeschlossen mit sein"
+      },
+      "explanation_de": "Der zusätzliche Infinitiv haben oder sein kennzeichnet Futur II.",
+      "explanation_ar": "يدل وجود haben أو sein على Futur II.",
+      "grammarFocus": "future_one_vs_two",
+      "pairs": [
+        [
+          "wird schreiben",
+          "zukünftiger Vorgang"
+        ],
+        [
+          "wird geschrieben haben",
+          "zukünftig abgeschlossen"
+        ],
+        [
+          "wird angekommen sein",
+          "zukünftig abgeschlossen mit sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr09-e006",
+      "topicId": "gr-09",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Satzklammer",
+      "title_ar": "إطار الجملة",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir werden die Aufgabe bis dahin erledigt haben.",
+      "explanation_de": "Werden steht auf Position 2; erledigt haben steht am Ende.",
+      "explanation_ar": "تأتي werden في المرتبة الثانية، وتأتي erledigt haben في النهاية.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "bis dahin",
+        "erledigt",
+        "Wir",
+        "haben",
+        "die Aufgabe",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "Wir werden die Aufgabe bis dahin erledigt haben."
+      ]
+    },
+    {
+      "id": "gr09-e007",
+      "topicId": "gr-09",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Zukünftiger Abschluss",
+      "title_ar": "اكتمال مستقبلي",
+      "prompt_de": "Bilden Sie einen Satz im Futur II: wir / das Projekt / bis Ende des Monats / abschließen",
+      "prompt_ar": "كوّن جملة في Futur II.",
+      "answer": "Wir werden das Projekt bis Ende des Monats abgeschlossen haben.",
+      "explanation_de": "Der Abschluss liegt vor dem zukünftigen Zeitpunkt Ende des Monats.",
+      "explanation_ar": "سيكون الانتهاء قبل نهاية الشهر.",
+      "grammarFocus": "future_completion",
+      "acceptedAnswers": [
+        "Wir werden das Projekt bis Ende des Monats abgeschlossen haben."
+      ]
+    },
+    {
+      "id": "gr09-e008",
+      "topicId": "gr-09",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vermutung",
+      "title_ar": "تخمين",
+      "prompt_de": "Er wird die Nachricht wahrscheinlich schon ______ haben. (erhalten)",
+      "prompt_ar": "من المحتمل أنه يكون قد ______ الرسالة بالفعل. (erhalten)",
+      "answer": "erhalten",
+      "explanation_de": "Das Partizip II von erhalten lautet ebenfalls erhalten.",
+      "explanation_ar": "صيغة Partizip II من erhalten هي أيضًا erhalten.",
+      "grammarFocus": "assumption_participle",
+      "acceptedAnswers": [
+        "erhalten"
+      ]
+    },
+    {
+      "id": "gr09-e009",
+      "topicId": "gr-09",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vermutung über Vergangenheit",
+      "title_ar": "تخمين حول الماضي",
+      "prompt_de": "Welche Aussage ist eine Vermutung über eine abgeschlossene Handlung?",
+      "prompt_ar": "أي جملة تعبّر عن تخمين حول فعل منتهٍ؟",
+      "answer": "Sie wird den Vertrag schon unterschrieben haben.",
+      "explanation_de": "Schon und Futur II markieren hier eine Vermutung über die Vergangenheit.",
+      "explanation_ar": "تدل schon مع Futur II هنا على تخمين حول الماضي.",
+      "grammarFocus": "past_assumption",
+      "options": [
+        "Sie wird den Vertrag schon unterschrieben haben.",
+        "Sie unterschreibt den Vertrag morgen.",
+        "Sie hat den Vertrag sicher vor mir.",
+        "Sie wird den Vertrag unterschreiben."
+      ]
+    },
+    {
+      "id": "gr09-e010",
+      "topicId": "gr-09",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Haben oder sein",
+      "title_ar": "haben أم sein",
+      "prompt_de": "Ordnen Sie die passende Futur-II-Endung zu.",
+      "prompt_ar": "صِل نهاية Futur II المناسبة.",
+      "answer": {
+        "geschrieben": "haben",
+        "geprüft": "haben",
+        "angekommen": "sein",
+        "gegangen": "sein"
+      },
+      "explanation_de": "Das Hilfsverb entspricht der Perfektbildung.",
+      "explanation_ar": "يتطابق الفعل المساعد مع تكوين Perfekt.",
+      "grammarFocus": "auxiliary_selection",
+      "pairs": [
+        [
+          "geschrieben",
+          "haben"
+        ],
+        [
+          "geprüft",
+          "haben"
+        ],
+        [
+          "angekommen",
+          "sein"
+        ],
+        [
+          "gegangen",
+          "sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr09-e011",
+      "topicId": "gr-09",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz",
+      "title_ar": "جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass sie den Bericht bis morgen fertiggestellt haben wird",
+      "explanation_de": "Im Nebensatz steht die konjugierte Form wird am Ende.",
+      "explanation_ar": "تأتي صيغة wird المصرفة في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_order",
+      "tokens": [
+        "wird",
+        "dass",
+        "bis morgen",
+        "fertiggestellt",
+        "sie",
+        "den Bericht",
+        "haben"
+      ],
+      "acceptedAnswers": [
+        "dass sie den Bericht bis morgen fertiggestellt haben wird"
+      ]
+    },
+    {
+      "id": "gr09-e012",
+      "topicId": "gr-09",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit sein",
+      "title_ar": "جملة فرعية مع sein",
+      "prompt_de": "Bilden Sie einen dass-Satz: der Zug / bis dahin / ankommen",
+      "prompt_ar": "كوّن جملة فرعية باستخدام dass.",
+      "answer": "Wir hoffen, dass der Zug bis dahin angekommen sein wird.",
+      "explanation_de": "Im Nebensatz steht angekommen sein wird am Ende.",
+      "explanation_ar": "تأتي angekommen sein wird في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_sein",
+      "acceptedAnswers": [
+        "Wir hoffen, dass der Zug bis dahin angekommen sein wird.",
+        "Ich glaube, dass der Zug bis dahin angekommen sein wird."
+      ]
+    },
+    {
+      "id": "gr09-e013",
+      "topicId": "gr-09",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Projektfrist",
+      "title_ar": "مهلة مشروع",
+      "prompt_de": "Das Projekt soll bis Freitag vollständig abgeschlossen sein. Welche Formulierung passt?",
+      "prompt_ar": "يجب أن يكون المشروع منتهيًا بالكامل بحلول الجمعة. أي صياغة مناسبة؟",
+      "answer": "Bis Freitag werden wir das Projekt vollständig abgeschlossen haben.",
+      "explanation_de": "Futur II betont den Abschluss vor der Frist.",
+      "explanation_ar": "يؤكد Futur II اكتمال العمل قبل المهلة.",
+      "grammarFocus": "deadline_completion",
+      "options": [
+        "Bis Freitag werden wir das Projekt vollständig abgeschlossen haben.",
+        "Am Freitag werden wir mit der Arbeit am Projekt beginnen.",
+        "Bis Freitag haben wir das Projekt morgen abgeschlossen.",
+        "Bis Freitag werden wir das Projekt abgeschlossen sein."
+      ]
+    },
+    {
+      "id": "gr09-e014",
+      "topicId": "gr-09",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Perfekt oder Futur II",
+      "title_ar": "Perfekt أم Futur II",
+      "prompt_de": "Welche Form stellt eine Vermutung dar und keine sichere Tatsache?",
+      "prompt_ar": "أي صيغة تعبر عن تخمين لا عن حقيقة مؤكدة؟",
+      "answer": "Die Behörde wird den Antrag bereits geprüft haben.",
+      "explanation_de": "Futur II mit bereits kann eine Vermutung ausdrücken.",
+      "explanation_ar": "يمكن أن يعبّر Futur II مع bereits عن تخمين.",
+      "grammarFocus": "fact_vs_assumption",
+      "options": [
+        "Die Behörde wird den Antrag bereits geprüft haben.",
+        "Die Behörde hat den Antrag geprüft.",
+        "Die Behörde prüfte den Antrag.",
+        "Die Behörde hatte den Antrag geprüft."
+      ]
+    },
+    {
+      "id": "gr09-e015",
+      "topicId": "gr-09",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexes Futur II",
+      "title_ar": "Futur II معقد",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Bis Sie zurückkommen, werde ich die wichtigsten Punkte zusammengefasst haben.",
+      "explanation_de": "Das Zusammenfassen wird vor der Rückkehr abgeschlossen sein.",
+      "explanation_ar": "سيكون التلخيص قد انتهى قبل العودة.",
+      "grammarFocus": "complex_future_completion",
+      "tokens": [
+        "werde",
+        "Bis Sie zurückkommen",
+        "zusammengefasst",
+        "haben",
+        "ich",
+        "die wichtigsten Punkte"
+      ],
+      "acceptedAnswers": [
+        "Bis Sie zurückkommen, werde ich die wichtigsten Punkte zusammengefasst haben."
+      ]
+    },
+    {
+      "id": "gr09-e016",
+      "topicId": "gr-09",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Futur II",
+      "title_ar": "تدريب ختامي على Futur II",
+      "prompt_de": "Schreiben Sie einen kurzen Text mit mindestens fünf Sätzen. Verwenden Sie zwei zukünftige Abschlüsse, zwei Vermutungen über die Vergangenheit, mindestens eine Form mit sein und einen Nebensatz im Futur II.",
+      "prompt_ar": "اكتب نصًا قصيرًا من خمس جمل على الأقل. استخدم حالتين لاكتمال مستقبلي، وتخمينين حول الماضي، وصيغة واحدة على الأقل مع sein، وجملة فرعية في Futur II.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei zukünftige Abschlüsse",
+          "mindestens zwei Vermutungen über abgeschlossene Handlungen",
+          "mindestens eine Futur-II-Form mit haben",
+          "mindestens eine Futur-II-Form mit sein",
+          "mindestens ein Nebensatz mit werden am Ende",
+          "passende Zeit- oder Vermutungsangaben"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Partizip II, Hilfsverb und die Stellung von werden.",
+      "explanation_ar": "انتبه إلى Partizip II والفعل المساعد وموقع werden.",
+      "grammarFocus": "mixed_future_two",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

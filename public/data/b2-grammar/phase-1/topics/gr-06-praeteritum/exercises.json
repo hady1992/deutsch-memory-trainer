@@ -1,0 +1,533 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-06",
+  "title_de": "Präteritum – Übungen",
+  "title_ar": "تمارين الماضي البسيط",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr06-e001",
+      "topicId": "gr-06",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Regelmäßiges Verb",
+      "title_ar": "فعل منتظم",
+      "prompt_de": "Bilden Sie das Präteritum von „arbeiten“ für ich.",
+      "prompt_ar": "كوّن Präteritum من arbeiten مع ich.",
+      "answer": "arbeitete",
+      "explanation_de": "Regelmäßige Verben bilden das Präteritum mit -te.",
+      "explanation_ar": "تكوّن الأفعال المنتظمة Präteritum باستخدام -te.",
+      "grammarFocus": "regular_past",
+      "acceptedAnswers": [
+        "arbeitete"
+      ],
+      "infinitive": "arbeiten",
+      "person": "ich"
+    },
+    {
+      "id": "gr06-e002",
+      "topicId": "gr-06",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Starkes Verb",
+      "title_ar": "فعل قوي",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er ging nach Hause.",
+      "explanation_de": "Gehen ist stark: gehen – ging – gegangen.",
+      "explanation_ar": "gehen فعل قوي: gehen – ging – gegangen.",
+      "grammarFocus": "strong_past",
+      "options": [
+        "Er ging nach Hause.",
+        "Er gehte nach Hause.",
+        "Er gegang nach Hause.",
+        "Er war gehen nach Hause."
+      ]
+    },
+    {
+      "id": "gr06-e003",
+      "topicId": "gr-06",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Sein im Präteritum",
+      "title_ar": "sein في Präteritum",
+      "prompt_de": "Ich ______ gestern krank.",
+      "prompt_ar": "أنا ______ مريضًا أمس.",
+      "answer": "war",
+      "explanation_de": "Präteritum von sein für ich lautet war.",
+      "explanation_ar": "صيغة sein مع ich في Präteritum هي war.",
+      "grammarFocus": "sein_past",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr06-e004",
+      "topicId": "gr-06",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Haben im Präteritum",
+      "title_ar": "haben في Präteritum",
+      "prompt_de": "Sie ______ keine Zeit.",
+      "prompt_ar": "لم يكن لديها وقت.",
+      "answer": "hatte",
+      "explanation_de": "Präteritum von haben für sie Singular lautet hatte.",
+      "explanation_ar": "صيغة haben مع sie المفرد في Präteritum هي hatte.",
+      "grammarFocus": "haben_past",
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "gr06-e005",
+      "topicId": "gr-06",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb müssen",
+      "title_ar": "الفعل müssen",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir mussten länger warten.",
+      "explanation_de": "Präteritum von müssen lautet mussten.",
+      "explanation_ar": "صيغة müssen في Präteritum هي mussten.",
+      "grammarFocus": "modal_past",
+      "options": [
+        "Wir mussten länger warten.",
+        "Wir müssten länger warten.",
+        "Wir gemusst länger warten.",
+        "Wir mussten länger gewartet."
+      ]
+    },
+    {
+      "id": "gr06-e006",
+      "topicId": "gr-06",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Wichtige Formen",
+      "title_ar": "صيغ مهمة",
+      "prompt_de": "Ordnen Sie Infinitiv und Präteritum zu.",
+      "prompt_ar": "صِل المصدر بصيغة Präteritum.",
+      "answer": {
+        "sein": "war",
+        "haben": "hatte",
+        "werden": "wurde",
+        "gehen": "ging",
+        "kommen": "kam"
+      },
+      "explanation_de": "Diese Formen gehören zu den häufigsten Präteritumformen.",
+      "explanation_ar": "هذه الصيغ من أكثر صيغ Präteritum شيوعًا.",
+      "grammarFocus": "common_forms",
+      "pairs": [
+        [
+          "sein",
+          "war"
+        ],
+        [
+          "haben",
+          "hatte"
+        ],
+        [
+          "werden",
+          "wurde"
+        ],
+        [
+          "gehen",
+          "ging"
+        ],
+        [
+          "kommen",
+          "kam"
+        ]
+      ]
+    },
+    {
+      "id": "gr06-e007",
+      "topicId": "gr-06",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Gemischtes Verb",
+      "title_ar": "فعل مختلط",
+      "prompt_de": "Bilden Sie das Präteritum von „bringen“ für er.",
+      "prompt_ar": "كوّن Präteritum من bringen مع er.",
+      "answer": "brachte",
+      "explanation_de": "Bringen ist gemischt: bringen – brachte – gebracht.",
+      "explanation_ar": "bringen فعل مختلط: bringen – brachte – gebracht.",
+      "grammarFocus": "mixed_past",
+      "acceptedAnswers": [
+        "brachte"
+      ],
+      "infinitive": "bringen",
+      "person": "er"
+    },
+    {
+      "id": "gr06-e008",
+      "topicId": "gr-06",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Berichtssatz",
+      "title_ar": "جملة تقرير",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Besprechung begann pünktlich um neun Uhr.",
+      "explanation_de": "Begann ist das finite Verb und steht auf Position 2.",
+      "explanation_ar": "begann هو الفعل المصرف ويأتي في المرتبة الثانية.",
+      "grammarFocus": "report_sentence",
+      "tokens": [
+        "pünktlich",
+        "begann",
+        "um neun Uhr",
+        "Die Besprechung"
+      ],
+      "acceptedAnswers": [
+        "Die Besprechung begann pünktlich um neun Uhr."
+      ]
+    },
+    {
+      "id": "gr06-e009",
+      "topicId": "gr-06",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Erhalten",
+      "title_ar": "الفعل erhalten",
+      "prompt_de": "Die Abteilung ______ mehrere Beschwerden. (erhalten)",
+      "prompt_ar": "تلقى القسم عدة شكاوى. (erhalten)",
+      "answer": "erhielt",
+      "explanation_de": "Erhalten ist stark: erhalten – erhielt – erhalten.",
+      "explanation_ar": "erhalten فعل قوي: erhalten – erhielt – erhalten.",
+      "grammarFocus": "strong_erhalten",
+      "acceptedAnswers": [
+        "erhielt"
+      ]
+    },
+    {
+      "id": "gr06-e010",
+      "topicId": "gr-06",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Perfekt oder Präteritum",
+      "title_ar": "Perfekt أم Präteritum",
+      "prompt_de": "Welche Form passt am besten in einen schriftlichen Bericht?",
+      "prompt_ar": "أي صيغة أنسب في تقرير مكتوب؟",
+      "answer": "Der Mitarbeiter rief den Kunden um 9 Uhr an.",
+      "explanation_de": "In einem schriftlichen Bericht ist das Präteritum besonders passend.",
+      "explanation_ar": "Präteritum مناسب بصورة خاصة في التقرير المكتوب.",
+      "grammarFocus": "register_choice",
+      "options": [
+        "Der Mitarbeiter rief den Kunden um 9 Uhr an.",
+        "Der Mitarbeiter hat den Kunden um 9 Uhr angerufen gehabt.",
+        "Der Mitarbeiter ruft den Kunden gestern an.",
+        "Der Mitarbeiter wird den Kunden gestern anrufen."
+      ]
+    },
+    {
+      "id": "gr06-e011",
+      "topicId": "gr-06",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Modalverb im Präteritum",
+      "title_ar": "فعل ناقص في Präteritum",
+      "prompt_de": "Bilden Sie einen Satz: die Mitarbeiterin / wegen einer Störung / nicht weiterarbeiten können",
+      "prompt_ar": "كوّن جملة في Präteritum.",
+      "answer": "Die Mitarbeiterin konnte wegen einer Störung nicht weiterarbeiten.",
+      "explanation_de": "Das Modalverb konnte ist finit; weiterarbeiten steht am Ende.",
+      "explanation_ar": "الفعل konnte مصرّف، ويأتي weiterarbeiten في النهاية.",
+      "grammarFocus": "modal_sentence_past",
+      "acceptedAnswers": [
+        "Die Mitarbeiterin konnte wegen einer Störung nicht weiterarbeiten."
+      ]
+    },
+    {
+      "id": "gr06-e012",
+      "topicId": "gr-06",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Modalverben",
+      "title_ar": "الأفعال الناقصة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "können": "konnte",
+        "müssen": "musste",
+        "dürfen": "durfte",
+        "sollen": "sollte",
+        "wollen": "wollte"
+      },
+      "explanation_de": "Modalverben verlieren im Präteritum meist den Umlaut.",
+      "explanation_ar": "تفقد الأفعال الناقصة الأوملاوت غالبًا في Präteritum.",
+      "grammarFocus": "modal_forms",
+      "pairs": [
+        [
+          "können",
+          "konnte"
+        ],
+        [
+          "müssen",
+          "musste"
+        ],
+        [
+          "dürfen",
+          "durfte"
+        ],
+        [
+          "sollen",
+          "sollte"
+        ],
+        [
+          "wollen",
+          "wollte"
+        ]
+      ]
+    },
+    {
+      "id": "gr06-e013",
+      "topicId": "gr-06",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Bleiben",
+      "title_ar": "الفعل bleiben",
+      "prompt_de": "Weil er krank war, ______ er zu Hause.",
+      "prompt_ar": "لأنه كان مريضًا ______ في المنزل.",
+      "answer": "blieb",
+      "explanation_de": "Präteritum von bleiben lautet blieb.",
+      "explanation_ar": "صيغة bleiben في Präteritum هي blieb.",
+      "grammarFocus": "bleiben_past",
+      "acceptedAnswers": [
+        "blieb"
+      ]
+    },
+    {
+      "id": "gr06-e014",
+      "topicId": "gr-06",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz",
+      "title_ar": "جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil der Server plötzlich ausfiel",
+      "explanation_de": "Im Nebensatz steht ausfiel am Ende.",
+      "explanation_ar": "يأتي ausfiel في نهاية الجملة الفرعية.",
+      "grammarFocus": "past_subordinate",
+      "tokens": [
+        "plötzlich",
+        "weil",
+        "der Server",
+        "ausfiel"
+      ],
+      "acceptedAnswers": [
+        "weil der Server plötzlich ausfiel"
+      ]
+    },
+    {
+      "id": "gr06-e015",
+      "topicId": "gr-06",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Nebensatz und Hauptsatz",
+      "title_ar": "جملة فرعية ورئيسية",
+      "prompt_de": "Verbinden Sie: Der Server fiel aus. Das System blieb offline.",
+      "prompt_ar": "اربط الجملتين باستخدام weil.",
+      "answer": "Weil der Server ausfiel, blieb das System offline.",
+      "explanation_de": "Im Nebensatz steht ausfiel am Ende; im Hauptsatz folgt blieb vor dem Subjekt.",
+      "explanation_ar": "في الجملة الفرعية يأتي ausfiel في النهاية، وفي الجملة الرئيسية يأتي blieb قبل الفاعل.",
+      "grammarFocus": "past_clause_linking",
+      "acceptedAnswers": [
+        "Weil der Server ausfiel, blieb das System offline.",
+        "Das System blieb offline, weil der Server ausfiel."
+      ]
+    },
+    {
+      "id": "gr06-e016",
+      "topicId": "gr-06",
+      "type": "verb_form",
+      "difficulty": "medium",
+      "title_de": "Entscheiden",
+      "title_ar": "الفعل entscheiden",
+      "prompt_de": "Bilden Sie das Präteritum von „entscheiden“ für die Leitung.",
+      "prompt_ar": "كوّن Präteritum من entscheiden مع die Leitung.",
+      "answer": "entschied",
+      "explanation_de": "Entscheiden ist stark: entscheiden – entschied – entschieden.",
+      "explanation_ar": "entscheiden فعل قوي: entscheiden – entschied – entschieden.",
+      "grammarFocus": "entscheiden_past",
+      "acceptedAnswers": [
+        "entschied"
+      ],
+      "infinitive": "entscheiden",
+      "person": "er_sie_es"
+    },
+    {
+      "id": "gr06-e017",
+      "topicId": "gr-06",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Protokollsprache",
+      "title_ar": "لغة المحاضر",
+      "prompt_de": "Welche Formulierung passt in ein Sitzungsprotokoll?",
+      "prompt_ar": "أي صياغة تناسب محضر اجتماع؟",
+      "answer": "Die Vorsitzende eröffnete die Sitzung und stellte die Tagesordnung vor.",
+      "explanation_de": "Ein Protokoll verwendet häufig das Präteritum für abgeschlossene Abläufe.",
+      "explanation_ar": "يستخدم المحضر Präteritum غالبًا للأحداث المنتهية.",
+      "grammarFocus": "minutes_style",
+      "options": [
+        "Die Vorsitzende eröffnete die Sitzung und stellte die Tagesordnung vor.",
+        "Die Vorsitzende hat die Sitzung eröffnen und stellt vor.",
+        "Die Vorsitzende eröffnet gestern die Sitzung.",
+        "Die Vorsitzende wird gestern die Sitzung eröffnen."
+      ]
+    },
+    {
+      "id": "gr06-e018",
+      "topicId": "gr-06",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Wurde oder geworden?",
+      "title_ar": "wurde أم geworden؟",
+      "prompt_de": "Welche Form ist ein Präteritum von werden?",
+      "prompt_ar": "أي صيغة هي Präteritum من werden؟",
+      "answer": "wurde",
+      "explanation_de": "Wurde ist die Präteritumform von werden; geworden ist das Partizip II.",
+      "explanation_ar": "wurde هي Präteritum من werden، أما geworden فهي Partizip II.",
+      "grammarFocus": "werden_past",
+      "options": [
+        "wurde",
+        "geworden",
+        "werdete",
+        "war geworden"
+      ]
+    },
+    {
+      "id": "gr06-e019",
+      "topicId": "gr-06",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Reflexives Verb",
+      "title_ar": "فعل انعكاسي",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Leitung entschied sich für eine neue Lösung.",
+      "explanation_de": "Das Reflexivpronomen sich steht im Mittelfeld.",
+      "explanation_ar": "يأتي الضمير الانعكاسي sich في وسط الجملة.",
+      "grammarFocus": "reflexive_past",
+      "tokens": [
+        "für eine neue Lösung",
+        "Die Leitung",
+        "sich",
+        "entschied"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung entschied sich für eine neue Lösung."
+      ]
+    },
+    {
+      "id": "gr06-e020",
+      "topicId": "gr-06",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zeitlicher Ablauf",
+      "title_ar": "تسلسل زمني",
+      "prompt_de": "Bilden Sie zwei zusammenhängende Sätze im Präteritum: Die Besprechung beginnen. Danach der Chef die Entscheidung bekannt geben.",
+      "prompt_ar": "كوّن جملتين مترابطتين في Präteritum.",
+      "answer": "Die Besprechung begann. Danach gab der Chef die Entscheidung bekannt.",
+      "explanation_de": "Begann und gab sind starke Präteritumformen; bekannt geben ist trennbar.",
+      "explanation_ar": "begann وgab صيغتان قويتان، وbekannt geben فعل منفصل.",
+      "grammarFocus": "sequence_past",
+      "acceptedAnswers": [
+        "Die Besprechung begann. Danach gab der Chef die Entscheidung bekannt.",
+        "Zuerst begann die Besprechung. Danach gab der Chef die Entscheidung bekannt."
+      ]
+    },
+    {
+      "id": "gr06-e021",
+      "topicId": "gr-06",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Präteritum oder Konjunktiv II",
+      "title_ar": "Präteritum أم Konjunktiv II",
+      "prompt_de": "Welche Form beschreibt eine reale Pflicht in der Vergangenheit?",
+      "prompt_ar": "أي صيغة تصف واجبًا حقيقيًا في الماضي؟",
+      "answer": "Wir mussten länger bleiben.",
+      "explanation_de": "Mussten ist Präteritum; müssten ist Konjunktiv II.",
+      "explanation_ar": "mussten هي Präteritum، أما müssten فهي Konjunktiv II.",
+      "grammarFocus": "past_vs_konjunktiv",
+      "options": [
+        "Wir mussten länger bleiben.",
+        "Wir müssten länger bleiben.",
+        "Wir haben länger bleiben mussten.",
+        "Wir wären länger bleiben."
+      ]
+    },
+    {
+      "id": "gr06-e022",
+      "topicId": "gr-06",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Nachrichtenstil",
+      "title_ar": "أسلوب الأخبار",
+      "prompt_de": "Welche Formulierung passt am besten in eine kurze Nachricht?",
+      "prompt_ar": "أي صياغة أنسب في خبر قصير؟",
+      "answer": "Am Montag fiel das interne Netzwerk für zwei Stunden aus.",
+      "explanation_de": "Nachrichten verwenden für vergangene Ereignisse häufig das Präteritum.",
+      "explanation_ar": "تستخدم الأخبار Präteritum كثيرًا للأحداث الماضية.",
+      "grammarFocus": "news_style",
+      "options": [
+        "Am Montag fiel das interne Netzwerk für zwei Stunden aus.",
+        "Am Montag ist das interne Netzwerk ausfallen.",
+        "Am Montag fällt das interne Netzwerk gestern aus.",
+        "Am Montag hatte das Netzwerk ausfallen wird."
+      ]
+    },
+    {
+      "id": "gr06-e023",
+      "topicId": "gr-06",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexer Berichtssatz",
+      "title_ar": "جملة تقرير معقدة",
+      "prompt_de": "Bilden Sie einen Satz: nachdem / die Abteilung mehrere Beschwerden erhalten / die Leitung / eine Untersuchung beginnen",
+      "prompt_ar": "كوّن جملة صحيحة في Präteritum.",
+      "answer": "Nachdem die Abteilung mehrere Beschwerden erhalten hatte, begann die Leitung eine Untersuchung.",
+      "explanation_de": "Für das frühere Ereignis steht Plusquamperfekt; das folgende Ereignis steht im Präteritum.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt، والحدث التالي في Präteritum.",
+      "grammarFocus": "past_sequence_bridge",
+      "acceptedAnswers": [
+        "Nachdem die Abteilung mehrere Beschwerden erhalten hatte, begann die Leitung eine Untersuchung."
+      ]
+    },
+    {
+      "id": "gr06-e024",
+      "topicId": "gr-06",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Präteritum",
+      "title_ar": "تدريب ختامي على Präteritum",
+      "prompt_de": "Schreiben Sie einen kurzen sachlichen Bericht über einen vergangenen Arbeitstag. Verwenden Sie mindestens acht Präteritumformen, darunter sein, haben, ein Modalverb, zwei starke Verben, ein gemischtes Verb und einen Nebensatz.",
+      "prompt_ar": "اكتب تقريرًا موضوعيًا قصيرًا عن يوم عمل ماضٍ. استخدم ثماني صيغ Präteritum على الأقل، منها sein وhaben وفعل ناقص وفعلان قويان وفعل مختلط وجملة فرعية.",
+      "answer": {
+        "requiredConcepts": [
+          "sein im Präteritum",
+          "haben im Präteritum",
+          "mindestens ein Modalverb im Präteritum",
+          "mindestens zwei starke Verben",
+          "mindestens ein gemischtes Verb",
+          "mindestens ein Nebensatz mit Verbendstellung",
+          "sachlicher Berichtsstil"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Verbformen, Satzstellung und einen klaren zeitlichen Ablauf.",
+      "explanation_ar": "انتبه إلى صيغ الأفعال وترتيب الجملة والتسلسل الزمني الواضح.",
+      "grammarFocus": "mixed_praeteritum",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

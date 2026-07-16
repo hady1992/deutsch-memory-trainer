@@ -1,0 +1,541 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-18",
+  "title_de": "Modalverben und ihre Bedeutungen – Übungen",
+  "title_ar": "تمارين الأفعال الناقصة ومعانيها",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr18-e001",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Notwendigkeit",
+      "title_ar": "الضرورة",
+      "prompt_de": "Welcher Satz drückt eine Notwendigkeit aus?",
+      "prompt_ar": "أي جملة تعبّر عن ضرورة؟",
+      "answer": "Alle Beschäftigten müssen die Sicherheitsregeln beachten.",
+      "explanation_de": "Müssen bezeichnet eine klare Notwendigkeit.",
+      "explanation_ar": "تدل müssen على ضرورة واضحة.",
+      "grammarFocus": "meaning_must",
+      "options": [
+        "Alle Beschäftigten müssen die Sicherheitsregeln beachten.",
+        "Alle Beschäftigten dürfen die Regeln beachten.",
+        "Alle Beschäftigten mögen die Regeln.",
+        "Alle Beschäftigten wollen vielleicht die Regeln."
+      ]
+    },
+    {
+      "id": "gr18-e002",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Erlaubnis",
+      "title_ar": "السماح",
+      "prompt_de": "Welcher Satz drückt eine Erlaubnis aus?",
+      "prompt_ar": "أي جملة تعبّر عن سماح؟",
+      "answer": "Sie dürfen den Besprechungsraum nutzen.",
+      "explanation_de": "Dürfen bezeichnet Erlaubnis.",
+      "explanation_ar": "تدل dürfen على السماح.",
+      "grammarFocus": "meaning_permission",
+      "options": [
+        "Sie dürfen den Besprechungsraum nutzen.",
+        "Sie müssen den Besprechungsraum nutzen.",
+        "Sie sollen den Besprechungsraum genutzt haben.",
+        "Sie mögen den Besprechungsraum nutzen müssen."
+      ]
+    },
+    {
+      "id": "gr18-e003",
+      "topicId": "gr-18",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Fähigkeit",
+      "title_ar": "القدرة",
+      "prompt_de": "Frau Neumann ______ sehr gut verhandeln.",
+      "prompt_ar": "تستطيع السيدة نويمان التفاوض بصورة جيدة جدًا.",
+      "answer": "kann",
+      "explanation_de": "Können beschreibt hier eine Fähigkeit.",
+      "explanation_ar": "تصف können هنا قدرة.",
+      "grammarFocus": "meaning_ability",
+      "acceptedAnswers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "gr18-e004",
+      "topicId": "gr-18",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Absicht",
+      "title_ar": "النية",
+      "prompt_de": "Wir ______ den Arbeitsablauf vereinfachen.",
+      "prompt_ar": "نريد تبسيط سير العمل.",
+      "answer": "wollen",
+      "explanation_de": "Wollen beschreibt eine Absicht.",
+      "explanation_ar": "تصف wollen نية.",
+      "grammarFocus": "meaning_intention",
+      "acceptedAnswers": [
+        "wollen"
+      ]
+    },
+    {
+      "id": "gr18-e005",
+      "topicId": "gr-18",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Grundbedeutungen",
+      "title_ar": "المعاني الأساسية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "müssen": "Notwendigkeit",
+        "können": "Fähigkeit oder Möglichkeit",
+        "dürfen": "Erlaubnis",
+        "wollen": "Absicht",
+        "möchten": "höflicher Wunsch"
+      },
+      "explanation_de": "Jedes Modalverb hat eine typische Grundbedeutung.",
+      "explanation_ar": "لكل فعل ناقص معنى أساسي شائع.",
+      "grammarFocus": "basic_meanings",
+      "pairs": [
+        [
+          "müssen",
+          "Notwendigkeit"
+        ],
+        [
+          "können",
+          "Fähigkeit oder Möglichkeit"
+        ],
+        [
+          "dürfen",
+          "Erlaubnis"
+        ],
+        [
+          "wollen",
+          "Absicht"
+        ],
+        [
+          "möchten",
+          "höflicher Wunsch"
+        ]
+      ]
+    },
+    {
+      "id": "gr18-e006",
+      "topicId": "gr-18",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Verbposition",
+      "title_ar": "موقع الفعل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Abteilung muss den Vorgang heute abschließen.",
+      "explanation_de": "Muss steht auf Position 2; abschließen steht am Ende.",
+      "explanation_ar": "تأتي muss في المرتبة الثانية وabschließen في النهاية.",
+      "grammarFocus": "modal_main_clause_order",
+      "tokens": [
+        "heute",
+        "den Vorgang",
+        "abschließen",
+        "Die Abteilung",
+        "muss"
+      ],
+      "acceptedAnswers": [
+        "Die Abteilung muss den Vorgang heute abschließen."
+      ]
+    },
+    {
+      "id": "gr18-e007",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Höflicher Wunsch",
+      "title_ar": "رغبة مهذبة",
+      "prompt_de": "Welche Form drückt einen höflichen Wunsch aus?",
+      "prompt_ar": "أي صيغة تعبّر عن رغبة مهذبة؟",
+      "answer": "Ich möchte einen Beratungstermin vereinbaren.",
+      "explanation_de": "Möchten ist die übliche höfliche Wunschform.",
+      "explanation_ar": "تُعد möchten صيغة الرغبة المهذبة الشائعة.",
+      "grammarFocus": "meaning_polite_wish",
+      "options": [
+        "Ich möchte einen Beratungstermin vereinbaren.",
+        "Ich muss einen Beratungstermin vereinbaren.",
+        "Ich mag einen Beratungstermin vereinbaren.",
+        "Ich darf einen Beratungstermin vereinbart."
+      ]
+    },
+    {
+      "id": "gr18-e008",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nicht notwendig",
+      "title_ar": "غير ضروري",
+      "prompt_de": "Welche Aussage bedeutet, dass etwas nicht notwendig ist?",
+      "prompt_ar": "أي جملة تعني أن الأمر غير ضروري؟",
+      "answer": "Sie müssen heute nicht länger bleiben.",
+      "explanation_de": "Nicht müssen bedeutet, dass keine Notwendigkeit besteht.",
+      "explanation_ar": "تعني nicht müssen عدم وجود ضرورة.",
+      "grammarFocus": "not_necessary",
+      "options": [
+        "Sie müssen heute nicht länger bleiben.",
+        "Sie dürfen heute nicht länger bleiben.",
+        "Sie können heute nicht länger bleiben.",
+        "Sie wollen heute nicht länger bleiben."
+      ]
+    },
+    {
+      "id": "gr18-e009",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Verbot",
+      "title_ar": "المنع",
+      "prompt_de": "Welche Aussage ist ein Verbot?",
+      "prompt_ar": "أي جملة هي منع؟",
+      "answer": "Vertrauliche Daten dürfen nicht weitergegeben werden.",
+      "explanation_de": "Dürfen nicht bezeichnet ein Verbot.",
+      "explanation_ar": "تدل dürfen nicht على المنع.",
+      "grammarFocus": "prohibition",
+      "options": [
+        "Vertrauliche Daten dürfen nicht weitergegeben werden.",
+        "Vertrauliche Daten müssen nicht weitergegeben werden.",
+        "Vertrauliche Daten können nicht weitergegeben werden.",
+        "Vertrauliche Daten wollen nicht weitergegeben werden."
+      ]
+    },
+    {
+      "id": "gr18-e010",
+      "topicId": "gr-18",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Auftrag mit sollen",
+      "title_ar": "تكليف باستخدام sollen",
+      "prompt_de": "Formulieren Sie als Auftrag: Rufen Sie den Kunden zurück.",
+      "prompt_ar": "صغ العبارة بوصفها تكليفًا باستخدام sollen.",
+      "answer": "Sie sollen den Kunden zurückrufen.",
+      "explanation_de": "Sollen kann einen Auftrag wiedergeben.",
+      "explanation_ar": "يمكن أن تنقل sollen تكليفًا.",
+      "grammarFocus": "sollen_instruction",
+      "acceptedAnswers": [
+        "Sie sollen den Kunden zurückrufen."
+      ]
+    },
+    {
+      "id": "gr18-e011",
+      "topicId": "gr-18",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Möglichkeit mit können",
+      "title_ar": "إمكانية باستخدام können",
+      "prompt_de": "Formulieren Sie als Möglichkeit: Eine Verschiebung des Termins ist möglich.",
+      "prompt_ar": "صغ العبارة باستخدام können.",
+      "answer": "Der Termin kann verschoben werden.",
+      "explanation_de": "Können beschreibt hier eine objektive Möglichkeit.",
+      "explanation_ar": "تصف können هنا إمكانية موضوعية.",
+      "grammarFocus": "koennen_possibility",
+      "acceptedAnswers": [
+        "Der Termin kann verschoben werden."
+      ]
+    },
+    {
+      "id": "gr18-e012",
+      "topicId": "gr-18",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Negation unterscheiden",
+      "title_ar": "تمييز النفي",
+      "prompt_de": "Ordnen Sie Bedeutung und Satz zu.",
+      "prompt_ar": "صِل المعنى بالجملة.",
+      "answer": {
+        "nicht notwendig": "Sie müssen nicht warten.",
+        "verboten": "Sie dürfen nicht eintreten.",
+        "nicht möglich": "Sie können heute nicht kommen.",
+        "keine Absicht": "Sie wollen nicht teilnehmen."
+      },
+      "explanation_de": "Das Modalverb bestimmt die Bedeutung der Negation.",
+      "explanation_ar": "يحدد الفعل الناقص معنى النفي.",
+      "grammarFocus": "modal_negation",
+      "pairs": [
+        [
+          "nicht notwendig",
+          "Sie müssen nicht warten."
+        ],
+        [
+          "verboten",
+          "Sie dürfen nicht eintreten."
+        ],
+        [
+          "nicht möglich",
+          "Sie können heute nicht kommen."
+        ],
+        [
+          "keine Absicht",
+          "Sie wollen nicht teilnehmen."
+        ]
+      ]
+    },
+    {
+      "id": "gr18-e013",
+      "topicId": "gr-18",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vorsichtige Vermutung",
+      "title_ar": "توقع حذر",
+      "prompt_de": "Die Besprechung ______ etwa eine Stunde dauern.",
+      "prompt_ar": "من المرجح أن يستغرق الاجتماع نحو ساعة.",
+      "answer": "dürfte",
+      "explanation_de": "Dürfte drückt eine vorsichtige Vermutung aus.",
+      "explanation_ar": "تعبّر dürfte عن توقع حذر.",
+      "grammarFocus": "subjective_duerfte",
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "gr18-e014",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Starke Schlussfolgerung",
+      "title_ar": "استنتاج قوي",
+      "prompt_de": "Welche Form drückt eine starke Schlussfolgerung aus?",
+      "prompt_ar": "أي صيغة تعبّر عن استنتاج قوي؟",
+      "answer": "Herr Weber muss bereits im Büro sein.",
+      "explanation_de": "Müssen kann eine sehr wahrscheinliche Schlussfolgerung ausdrücken.",
+      "explanation_ar": "يمكن أن تعبّر müssen عن استنتاج شديد الاحتمال.",
+      "grammarFocus": "subjective_muessen",
+      "options": [
+        "Herr Weber muss bereits im Büro sein.",
+        "Herr Weber darf bereits im Büro sein.",
+        "Herr Weber möchte bereits im Büro sein.",
+        "Herr Weber soll den Büro sein."
+      ]
+    },
+    {
+      "id": "gr18-e015",
+      "topicId": "gr-18",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Hörensagen",
+      "title_ar": "النقل عن الآخرين",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die neue Software soll besonders sicher sein.",
+      "explanation_de": "Soll steht auf Position 2; sein steht am Ende.",
+      "explanation_ar": "تأتي soll في المرتبة الثانية وsein في النهاية.",
+      "grammarFocus": "sollen_hearsay_order",
+      "tokens": [
+        "besonders sicher",
+        "sein",
+        "Die neue Software",
+        "soll"
+      ],
+      "acceptedAnswers": [
+        "Die neue Software soll besonders sicher sein."
+      ]
+    },
+    {
+      "id": "gr18-e016",
+      "topicId": "gr-18",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Berufliche Vermutung",
+      "title_ar": "توقع مهني",
+      "prompt_de": "Sie sind nicht sicher, vermuten aber, dass die Ursache in der Software liegt. Welche Form passt?",
+      "prompt_ar": "لست متأكدًا، لكنك ترجّح أن السبب في البرنامج. أي صيغة مناسبة؟",
+      "answer": "Die Ursache dürfte in der neuen Software liegen.",
+      "explanation_de": "Dürfte kennzeichnet eine vorsichtige, sachliche Vermutung.",
+      "explanation_ar": "تدل dürfte على توقع حذر وموضوعي.",
+      "grammarFocus": "professional_assumption",
+      "options": [
+        "Die Ursache dürfte in der neuen Software liegen.",
+        "Die Ursache muss sicher in der Software liegen, obwohl wir nichts wissen.",
+        "Die Ursache will in der Software liegen.",
+        "Die Ursache darf in der Software gelegen."
+      ]
+    },
+    {
+      "id": "gr18-e017",
+      "topicId": "gr-18",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Mag sein",
+      "title_ar": "mag sein",
+      "prompt_de": "Verbinden Sie diplomatisch: Die Lösung ist schnell. Sie ist aber nicht zuverlässig.",
+      "prompt_ar": "اربط الجملتين بصورة دبلوماسية باستخدام mag sein.",
+      "answer": "Mag sein, dass die Lösung schnell ist, aber sie ist nicht zuverlässig.",
+      "explanation_de": "Mag sein räumt die erste Aussage ein; aber führt das Gegenargument ein.",
+      "explanation_ar": "تعترف mag sein بالجملة الأولى، وتقدم aber الحجة المقابلة.",
+      "grammarFocus": "mag_sein_concession",
+      "acceptedAnswers": [
+        "Mag sein, dass die Lösung schnell ist, aber sie ist nicht zuverlässig."
+      ]
+    },
+    {
+      "id": "gr18-e018",
+      "topicId": "gr-18",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Absicht im Beruf",
+      "title_ar": "نية في العمل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Firma will im kommenden Jahr neue Stellen schaffen.",
+      "explanation_de": "Will steht auf Position 2; schaffen steht am Ende.",
+      "explanation_ar": "تأتي will في المرتبة الثانية وschaffen في النهاية.",
+      "grammarFocus": "wollen_intention_order",
+      "tokens": [
+        "im kommenden Jahr",
+        "neue Stellen",
+        "Die Firma",
+        "will",
+        "schaffen"
+      ],
+      "acceptedAnswers": [
+        "Die Firma will im kommenden Jahr neue Stellen schaffen."
+      ]
+    },
+    {
+      "id": "gr18-e019",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Behauptung mit wollen",
+      "title_ar": "ادعاء باستخدام wollen",
+      "prompt_de": "Welcher Satz gibt eine Behauptung der betreffenden Person wieder?",
+      "prompt_ar": "أي جملة تنقل ادعاء الشخص نفسه؟",
+      "answer": "Der Mitarbeiter will die Nachricht nicht erhalten haben.",
+      "explanation_de": "Wollen gibt hier wieder, was der Mitarbeiter von sich behauptet.",
+      "explanation_ar": "تنقل wollen هنا ما يدعيه الموظف عن نفسه.",
+      "grammarFocus": "subjective_wollen_claim",
+      "options": [
+        "Der Mitarbeiter will die Nachricht nicht erhalten haben.",
+        "Der Mitarbeiter muss die Nachricht erhalten.",
+        "Der Mitarbeiter darf die Nachricht erhalten haben.",
+        "Der Mitarbeiter möchte die Nachricht nicht erhalten."
+      ]
+    },
+    {
+      "id": "gr18-e020",
+      "topicId": "gr-18",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Behauptung",
+      "title_ar": "ادعاء معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Kollege will die Information rechtzeitig weitergegeben haben.",
+      "explanation_de": "Will steht auf Position 2; weitergegeben haben steht am Ende.",
+      "explanation_ar": "تأتي will في المرتبة الثانية وweitergegeben haben في النهاية.",
+      "grammarFocus": "subjective_wollen_order",
+      "tokens": [
+        "rechtzeitig",
+        "Der Kollege",
+        "weitergegeben",
+        "will",
+        "die Information",
+        "haben"
+      ],
+      "acceptedAnswers": [
+        "Der Kollege will die Information rechtzeitig weitergegeben haben."
+      ]
+    },
+    {
+      "id": "gr18-e021",
+      "topicId": "gr-18",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Hörensagen oder Beweis",
+      "title_ar": "نقل أم دليل",
+      "prompt_de": "Sie geben eine Information wieder, die Sie nicht selbst überprüft haben. Welche Form passt am besten?",
+      "prompt_ar": "تنقل معلومة لم تتحقق منها بنفسك. أي صيغة أنسب؟",
+      "answer": "Der Bewerber soll viel internationale Erfahrung haben.",
+      "explanation_de": "Sollen kennzeichnet hier eine Information aus zweiter Hand.",
+      "explanation_ar": "تدل sollen هنا على معلومة منقولة.",
+      "grammarFocus": "hearsay_professional",
+      "options": [
+        "Der Bewerber soll viel internationale Erfahrung haben.",
+        "Der Bewerber muss bewiesen viel Erfahrung haben.",
+        "Der Bewerber darf viel Erfahrung haben.",
+        "Der Bewerber möchte viel Erfahrung haben."
+      ]
+    },
+    {
+      "id": "gr18-e022",
+      "topicId": "gr-18",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutungsunterschied",
+      "title_ar": "اختلاف المعنى",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Sie müssen nicht kommen“ bedeutet: Ihr Kommen ist nicht notwendig.",
+      "explanation_de": "Nicht müssen hebt die Notwendigkeit auf; es ist kein Verbot.",
+      "explanation_ar": "تلغي nicht müssen الضرورة ولا تعبّر عن منع.",
+      "grammarFocus": "not_must_explanation",
+      "options": [
+        "„Sie müssen nicht kommen“ bedeutet: Ihr Kommen ist nicht notwendig.",
+        "„Sie müssen nicht kommen“ bedeutet: Sie dürfen auf keinen Fall kommen.",
+        "„Sie dürfen nicht kommen“ bedeutet: Ihr Kommen ist freiwillig.",
+        "„Sie können nicht kommen“ bedeutet: Ihr Kommen ist verboten."
+      ]
+    },
+    {
+      "id": "gr18-e023",
+      "topicId": "gr-18",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Subjektive Bedeutungen vergleichen",
+      "title_ar": "مقارنة المعاني الذاتية",
+      "prompt_de": "Formulieren Sie drei Aussagen über dieselbe Person: starke Vermutung mit müssen, Hörensagen mit sollen und eigene Behauptung mit wollen.",
+      "prompt_ar": "صغ ثلاث جمل عن الشخص نفسه: استنتاج قوي باستخدام müssen، ومعلومة منقولة باستخدام sollen، وادعاء ذاتي باستخدام wollen.",
+      "answer": "Er muss im Büro sein. Er soll im Büro sein. Er will seit acht Uhr im Büro sein.",
+      "explanation_de": "Müssen, sollen und wollen markieren drei verschiedene Informationsquellen oder Einschätzungen.",
+      "explanation_ar": "تدل müssen وsollen وwollen على ثلاثة مصادر أو تقييمات مختلفة للمعلومة.",
+      "grammarFocus": "compare_subjective_modalities",
+      "acceptedAnswers": [
+        "Er muss im Büro sein. Er soll im Büro sein. Er will seit acht Uhr im Büro sein."
+      ]
+    },
+    {
+      "id": "gr18-e024",
+      "topicId": "gr-18",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Modalverben",
+      "title_ar": "تدريب ختامي على الأفعال الناقصة",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens neun Sätzen. Verwenden Sie alle sechs Modalverben müssen, sollen, können, dürfen, wollen und mögen oder möchten. Ergänzen Sie eine starke Vermutung, eine vorsichtige Vermutung, Hörensagen, ein Verbot und eine Aussage mit „nicht müssen“.",
+      "prompt_ar": "اكتب نصًا مهنيًا من تسع جمل على الأقل. استخدم الأفعال الستة müssen وsollen وkönnen وdürfen وwollen وmögen أو möchten. أضف استنتاجًا قويًا وتوقعًا حذرًا ومعلومة منقولة ومنعًا وجملة باستخدام nicht müssen.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens ein Satz mit müssen als Notwendigkeit",
+          "mindestens ein Satz mit sollen",
+          "mindestens ein Satz mit können",
+          "mindestens ein Satz mit dürfen oder dürfen nicht",
+          "mindestens ein Satz mit wollen",
+          "mindestens ein Wunsch oder eine Vorliebe mit möchten/mögen",
+          "mindestens eine starke Vermutung",
+          "mindestens eine vorsichtige Vermutung mit dürfte",
+          "mindestens ein Beispiel für Hörensagen",
+          "mindestens ein Satz mit nicht müssen"
+        ]
+      },
+      "explanation_de": "Achten Sie auf die genaue Bedeutung des Modalverbs und die Verbposition.",
+      "explanation_ar": "انتبه إلى المعنى الدقيق للفعل الناقص وموقع الفعل.",
+      "grammarFocus": "mixed_modal_meanings",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

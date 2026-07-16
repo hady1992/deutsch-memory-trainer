@@ -1,0 +1,510 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-16",
+  "title_de": "Passiv mit Modalverben – Übungen",
+  "title_ar": "تمارين المبني للمجهول مع الأفعال الناقصة",
+  "level": "B2",
+  "exerciseCount": 22,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr16-e001",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag muss geprüft werden.",
+      "explanation_de": "Das Modalverb wird konjugiert; geprüft werden steht am Ende.",
+      "explanation_ar": "يُصرّف الفعل الناقص وتأتي geprüft werden في النهاية.",
+      "grammarFocus": "modal_passive_basic",
+      "options": [
+        "Der Antrag muss geprüft werden.",
+        "Der Antrag wird müssen geprüft.",
+        "Der Antrag muss geprüft.",
+        "Der Antrag geprüft werden muss."
+      ]
+    },
+    {
+      "id": "gr16-e002",
+      "topicId": "gr-16",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Müssen im Plural",
+      "title_ar": "müssen مع الجمع",
+      "prompt_de": "Die Unterlagen ______ vollständig eingereicht werden.",
+      "prompt_ar": "يجب تقديم المستندات كاملة.",
+      "answer": "müssen",
+      "explanation_de": "Das Subjekt Unterlagen steht im Plural.",
+      "explanation_ar": "الفاعل Unterlagen جمع.",
+      "grammarFocus": "modal_passive_plural",
+      "acceptedAnswers": [
+        "müssen"
+      ]
+    },
+    {
+      "id": "gr16-e003",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "prompt_de": "Welche Form steht im Präteritum?",
+      "prompt_ar": "أي صيغة في Präteritum؟",
+      "answer": "Die Sitzung musste verschoben werden.",
+      "explanation_de": "Musste ist das Präteritum von müssen.",
+      "explanation_ar": "musste هي Präteritum من müssen.",
+      "grammarFocus": "modal_passive_past",
+      "options": [
+        "Die Sitzung musste verschoben werden.",
+        "Die Sitzung muss verschoben werden.",
+        "Die Sitzung hat verschoben werden.",
+        "Die Sitzung wurde verschieben müssen."
+      ]
+    },
+    {
+      "id": "gr16-e004",
+      "topicId": "gr-16",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Modalverb und Bedeutung",
+      "title_ar": "الفعل الناقص والمعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "müssen": "Notwendigkeit",
+        "dürfen nicht": "Verbot",
+        "können": "Möglichkeit",
+        "sollen": "Auftrag oder Erwartung",
+        "sollte": "Empfehlung"
+      },
+      "explanation_de": "Das Modalverb bestimmt die kommunikative Bedeutung.",
+      "explanation_ar": "يحدد الفعل الناقص المعنى التواصلي.",
+      "grammarFocus": "modal_meaning",
+      "pairs": [
+        [
+          "müssen",
+          "Notwendigkeit"
+        ],
+        [
+          "dürfen nicht",
+          "Verbot"
+        ],
+        [
+          "können",
+          "Möglichkeit"
+        ],
+        [
+          "sollen",
+          "Auftrag oder Erwartung"
+        ],
+        [
+          "sollte",
+          "Empfehlung"
+        ]
+      ]
+    },
+    {
+      "id": "gr16-e005",
+      "topicId": "gr-16",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Hauptsatz ordnen",
+      "title_ar": "ترتيب الجملة الرئيسية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Daten müssen regelmäßig gesichert werden.",
+      "explanation_de": "Müssen steht auf Position 2; gesichert werden steht am Ende.",
+      "explanation_ar": "تأتي müssen في المرتبة الثانية وgesichert werden في النهاية.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "regelmäßig",
+        "werden",
+        "Die Daten",
+        "gesichert",
+        "müssen"
+      ],
+      "acceptedAnswers": [
+        "Die Daten müssen regelmäßig gesichert werden."
+      ]
+    },
+    {
+      "id": "gr16-e006",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Verbot",
+      "title_ar": "المنع",
+      "prompt_de": "Welche Form drückt ein Verbot aus?",
+      "prompt_ar": "أي صيغة تعبّر عن منع؟",
+      "answer": "Der Raum darf nicht betreten werden.",
+      "explanation_de": "Darf nicht bezeichnet ein Verbot.",
+      "explanation_ar": "تدل darf nicht على المنع.",
+      "grammarFocus": "modal_passive_prohibition",
+      "options": [
+        "Der Raum darf nicht betreten werden.",
+        "Der Raum muss nicht betreten werden.",
+        "Der Raum kann betreten werden.",
+        "Der Raum sollte betreten werden."
+      ]
+    },
+    {
+      "id": "gr16-e007",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Möglichkeit",
+      "title_ar": "الإمكانية",
+      "prompt_de": "Welche Form beschreibt eine Möglichkeit?",
+      "prompt_ar": "أي صيغة تصف إمكانية؟",
+      "answer": "Das Problem kann technisch gelöst werden.",
+      "explanation_de": "Kann bezeichnet eine Möglichkeit.",
+      "explanation_ar": "تدل kann على إمكانية.",
+      "grammarFocus": "modal_passive_possibility",
+      "options": [
+        "Das Problem kann technisch gelöst werden.",
+        "Das Problem muss technisch gelöst werden.",
+        "Das Problem darf nicht gelöst werden.",
+        "Das Problem wurde technisch gelöst."
+      ]
+    },
+    {
+      "id": "gr16-e008",
+      "topicId": "gr-16",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in Passiv",
+      "title_ar": "التحويل من المعلوم إلى المجهول",
+      "prompt_de": "Formen Sie um: Die Mitarbeitenden müssen den Antrag prüfen.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Der Antrag muss von den Mitarbeitenden geprüft werden.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; das Modalverb bleibt konjugiert.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا ويبقى الفعل الناقص مصرّفًا.",
+      "grammarFocus": "active_to_modal_passive",
+      "acceptedAnswers": [
+        "Der Antrag muss von den Mitarbeitenden geprüft werden.",
+        "Der Antrag muss geprüft werden."
+      ]
+    },
+    {
+      "id": "gr16-e009",
+      "topicId": "gr-16",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in Passiv Plural",
+      "title_ar": "تحويل جملة جمع",
+      "prompt_de": "Formen Sie um: Die Firma soll die Geräte kontrollieren.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Die Geräte sollen von der Firma kontrolliert werden.",
+      "explanation_de": "Die Geräte wird zum Subjekt im Plural; deshalb steht sollen.",
+      "explanation_ar": "تصبح Die Geräte فاعلًا جمعًا، لذلك نستخدم sollen.",
+      "grammarFocus": "active_to_modal_passive_plural",
+      "acceptedAnswers": [
+        "Die Geräte sollen von der Firma kontrolliert werden.",
+        "Die Geräte sollen kontrolliert werden."
+      ]
+    },
+    {
+      "id": "gr16-e010",
+      "topicId": "gr-16",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz Präsens",
+      "title_ar": "جملة فرعية في Präsens",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil der Antrag heute geprüft werden muss",
+      "explanation_de": "Im Nebensatz steht muss am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي muss في النهاية.",
+      "grammarFocus": "modal_passive_subordinate",
+      "tokens": [
+        "heute",
+        "muss",
+        "weil",
+        "geprüft",
+        "der Antrag",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "weil der Antrag heute geprüft werden muss"
+      ]
+    },
+    {
+      "id": "gr16-e011",
+      "topicId": "gr-16",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz Präteritum",
+      "title_ar": "جملة فرعية في Präteritum",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie erklärte, dass die Sitzung verschoben werden musste.",
+      "explanation_de": "Im dass-Satz steht musste am Ende.",
+      "explanation_ar": "في جملة dass تأتي musste في النهاية.",
+      "grammarFocus": "modal_passive_subordinate_past",
+      "tokens": [
+        "verschoben",
+        "Sie erklärte",
+        "musste",
+        "dass",
+        "werden",
+        "die Sitzung"
+      ],
+      "acceptedAnswers": [
+        "Sie erklärte, dass die Sitzung verschoben werden musste."
+      ]
+    },
+    {
+      "id": "gr16-e012",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nicht müssen oder nicht dürfen",
+      "title_ar": "nicht müssen أم nicht dürfen",
+      "prompt_de": "Welche Aussage bedeutet: Eine Beglaubigung ist nicht notwendig?",
+      "prompt_ar": "أي جملة تعني أن التصديق غير ضروري؟",
+      "answer": "Die Kopie muss nicht beglaubigt werden.",
+      "explanation_de": "Muss nicht bedeutet, dass keine Notwendigkeit besteht.",
+      "explanation_ar": "تعني muss nicht عدم وجود ضرورة.",
+      "grammarFocus": "not_necessary",
+      "options": [
+        "Die Kopie muss nicht beglaubigt werden.",
+        "Die Kopie darf nicht beglaubigt werden.",
+        "Die Kopie kann nicht beglaubigt werden.",
+        "Die Kopie soll nicht beglaubigt worden."
+      ]
+    },
+    {
+      "id": "gr16-e013",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Empfehlung",
+      "title_ar": "التوصية",
+      "prompt_de": "Welche Form klingt wie eine sachliche Empfehlung?",
+      "prompt_ar": "أي صيغة تبدو كتوصية موضوعية؟",
+      "answer": "Die Aufgabenverteilung sollte überprüft werden.",
+      "explanation_de": "Sollte formuliert eine Empfehlung.",
+      "explanation_ar": "تعبّر sollte عن توصية.",
+      "grammarFocus": "modal_passive_recommendation",
+      "options": [
+        "Die Aufgabenverteilung sollte überprüft werden.",
+        "Die Aufgabenverteilung muss sofort geändert werden.",
+        "Die Aufgabenverteilung darf nicht geprüft werden.",
+        "Die Aufgabenverteilung hat überprüft werden."
+      ]
+    },
+    {
+      "id": "gr16-e014",
+      "topicId": "gr-16",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Präsens und Präteritum",
+      "title_ar": "Präsens وPräteritum",
+      "prompt_de": "Ordnen Sie die Formen zu.",
+      "prompt_ar": "صِل الصيغ.",
+      "answer": {
+        "muss geprüft werden": "musste geprüft werden",
+        "kann gelöst werden": "konnte gelöst werden",
+        "darf geöffnet werden": "durfte geöffnet werden",
+        "soll verschickt werden": "sollte verschickt werden"
+      },
+      "explanation_de": "Das Modalverb wird ins Präteritum gesetzt; die Passivgruppe bleibt gleich.",
+      "explanation_ar": "يتحول الفعل الناقص إلى Präteritum وتبقى مجموعة المبني للمجهول كما هي.",
+      "grammarFocus": "modal_present_past_matching",
+      "pairs": [
+        [
+          "muss geprüft werden",
+          "musste geprüft werden"
+        ],
+        [
+          "kann gelöst werden",
+          "konnte gelöst werden"
+        ],
+        [
+          "darf geöffnet werden",
+          "durfte geöffnet werden"
+        ],
+        [
+          "soll verschickt werden",
+          "sollte verschickt werden"
+        ]
+      ]
+    },
+    {
+      "id": "gr16-e015",
+      "topicId": "gr-16",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dativ bleibt Dativ",
+      "title_ar": "يبقى Dativ كما هو",
+      "prompt_de": "______ Kunden muss schnell geholfen werden.",
+      "prompt_ar": "يجب مساعدة العميل بسرعة.",
+      "answer": "Dem",
+      "explanation_de": "Helfen verlangt Dativ: dem Kunden.",
+      "explanation_ar": "يحتاج helfen إلى Dativ: dem Kunden.",
+      "grammarFocus": "modal_passive_dative",
+      "acceptedAnswers": [
+        "Dem",
+        "dem"
+      ]
+    },
+    {
+      "id": "gr16-e016",
+      "topicId": "gr-16",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Datenschutz",
+      "title_ar": "حماية البيانات",
+      "prompt_de": "Welche Form passt zu einer verbindlichen Datenschutzregel?",
+      "prompt_ar": "أي صيغة تناسب قاعدة ملزمة لحماية البيانات؟",
+      "answer": "Personenbezogene Daten dürfen nicht ohne Zustimmung weitergegeben werden.",
+      "explanation_de": "Dürfen nicht drückt ein klares Verbot aus.",
+      "explanation_ar": "تعبّر dürfen nicht عن منع واضح.",
+      "grammarFocus": "data_protection_prohibition",
+      "options": [
+        "Personenbezogene Daten dürfen nicht ohne Zustimmung weitergegeben werden.",
+        "Personenbezogene Daten müssen nicht ohne Zustimmung weitergegeben werden.",
+        "Personenbezogene Daten könnten gestern weitergegeben werden.",
+        "Personenbezogene Daten sind weitergeben müssen."
+      ]
+    },
+    {
+      "id": "gr16-e017",
+      "topicId": "gr-16",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Indirekte Frage",
+      "title_ar": "سؤال غير مباشر",
+      "prompt_de": "Bilden Sie einen Satz: Wir prüfen / ob / der Prozess vereinfachen können (Passiv).",
+      "prompt_ar": "كوّن جملة صحيحة في المبني للمجهول.",
+      "answer": "Wir prüfen, ob der Prozess vereinfacht werden kann.",
+      "explanation_de": "Im ob-Satz steht vereinfacht werden kann am Ende.",
+      "explanation_ar": "في جملة ob تأتي vereinfacht werden kann في النهاية.",
+      "grammarFocus": "modal_passive_indirect_question",
+      "acceptedAnswers": [
+        "Wir prüfen, ob der Prozess vereinfacht werden kann."
+      ]
+    },
+    {
+      "id": "gr16-e018",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Perfekt mit Ersatzinfinitiv",
+      "title_ar": "Perfekt مع Ersatzinfinitiv",
+      "prompt_de": "Welche Perfektform ist grammatisch korrekt?",
+      "prompt_ar": "أي صيغة Perfekt صحيحة نحويًا؟",
+      "answer": "Der Antrag hat erneut geprüft werden müssen.",
+      "explanation_de": "Das Modalverb steht als Ersatzinfinitiv am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص بوصفه Ersatzinfinitiv في النهاية.",
+      "grammarFocus": "modal_passive_perfect",
+      "options": [
+        "Der Antrag hat erneut geprüft werden müssen.",
+        "Der Antrag hat erneut gemusst geprüft werden.",
+        "Der Antrag ist erneut geprüft werden gemusst.",
+        "Der Antrag hat erneut geprüft worden müssen."
+      ]
+    },
+    {
+      "id": "gr16-e019",
+      "topicId": "gr-16",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Verbgruppe",
+      "title_ar": "مجموعة فعلية معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die sicherheitsrelevanten Vorfälle müssen unverzüglich dokumentiert werden.",
+      "explanation_de": "Das Modalverb steht auf Position 2; dokumentiert werden steht am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص في المرتبة الثانية وdokumentiert werden في النهاية.",
+      "grammarFocus": "complex_modal_passive_order",
+      "tokens": [
+        "unverzüglich",
+        "werden",
+        "müssen",
+        "dokumentiert",
+        "Die sicherheitsrelevanten Vorfälle"
+      ],
+      "acceptedAnswers": [
+        "Die sicherheitsrelevanten Vorfälle müssen unverzüglich dokumentiert werden."
+      ]
+    },
+    {
+      "id": "gr16-e020",
+      "topicId": "gr-16",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Diplomatische Empfehlung",
+      "title_ar": "توصية دبلوماسية",
+      "prompt_de": "Welche Formulierung ist sachlich, vorsichtig und grammatisch korrekt?",
+      "prompt_ar": "أي صياغة موضوعية وحذرة وصحيحة نحويًا؟",
+      "answer": "Die Aufgabenverteilung müsste noch einmal überprüft werden.",
+      "explanation_de": "Müsste macht die Notwendigkeit hypothetischer und diplomatischer.",
+      "explanation_ar": "تجعل müsste الضرورة أكثر افتراضية ودبلوماسية.",
+      "grammarFocus": "diplomatic_modal_passive",
+      "options": [
+        "Die Aufgabenverteilung müsste noch einmal überprüft werden.",
+        "Die Aufgabenverteilung muss falsch sein geändert.",
+        "Die Aufgabenverteilung würde müssen überprüft.",
+        "Die Aufgabenverteilung müsste überprüft worden."
+      ]
+    },
+    {
+      "id": "gr16-e021",
+      "topicId": "gr-16",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Komplexer Nebensatz",
+      "title_ar": "جملة فرعية معقدة",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Es ist unklar, ob die Maßnahme rechtzeitig umgesetzt werden kann.",
+      "explanation_de": "Im ob-Satz steht umgesetzt werden kann am Ende.",
+      "explanation_ar": "في جملة ob تأتي umgesetzt werden kann في النهاية.",
+      "grammarFocus": "complex_modal_subordinate",
+      "options": [
+        "Es ist unklar, ob die Maßnahme rechtzeitig umgesetzt werden kann.",
+        "Es ist unklar, ob kann die Maßnahme rechtzeitig umgesetzt werden.",
+        "Es ist unklar, ob die Maßnahme kann rechtzeitig umgesetzt werden.",
+        "Es ist unklar, ob die Maßnahme rechtzeitig umgesetzt kann werden."
+      ]
+    },
+    {
+      "id": "gr16-e022",
+      "topicId": "gr-16",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Modalpassiv",
+      "title_ar": "تدريب ختامي على المبني للمجهول مع الأفعال الناقصة",
+      "prompt_de": "Schreiben Sie einen kurzen beruflichen Regel- oder Maßnahmenkatalog mit mindestens acht Sätzen. Verwenden Sie müssen, dürfen nicht, können, sollen, sollte oder müsste, mindestens zwei Präteritumformen, einen Nebensatz, einen Satz mit Dativ und optional eine Perfektform mit Ersatzinfinitiv.",
+      "prompt_ar": "اكتب قائمة مهنية قصيرة للقواعد أو الإجراءات من ثماني جمل على الأقل. استخدم müssen وdürfen nicht وkönnen وsollen وsollte أو müsste، وصيغتين في Präteritum، وجملة فرعية، وجملة مع Dativ، ويمكن إضافة صيغة Perfekt مع Ersatzinfinitiv.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens ein Satz mit müssen",
+          "mindestens ein Verbot mit dürfen nicht",
+          "mindestens eine Möglichkeit mit können",
+          "mindestens ein Auftrag oder eine Empfehlung mit sollen/sollte/müsste",
+          "mindestens zwei Modalpassivsätze im Präteritum",
+          "mindestens ein Nebensatz",
+          "mindestens ein erhaltenes Dativobjekt",
+          "korrekte Endgruppe Partizip II + werden"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Bedeutung, Verbposition und die Form des Partizips.",
+      "explanation_ar": "انتبه إلى المعنى وموقع الفعل وصيغة Partizip.",
+      "grammarFocus": "mixed_modal_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-14",
+  "title_de": "Vorgangspassiv im Präsens und Präteritum – Übungen",
+  "title_ar": "تمارين المبني للمجهول في الحاضر والماضي البسيط",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr14-e001",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Passiv Präsens",
+      "title_ar": "المجهول في Präsens",
+      "prompt_de": "Welche Form ist Passiv Präsens?",
+      "prompt_ar": "أي صيغة هي المبني للمجهول في Präsens؟",
+      "answer": "Der Antrag wird geprüft.",
+      "explanation_de": "Passiv Präsens besteht aus wird und Partizip II.",
+      "explanation_ar": "يتكوّن المبني للمجهول في Präsens من wird وPartizip II.",
+      "grammarFocus": "passive_present_recognition",
+      "options": [
+        "Der Antrag wird geprüft.",
+        "Der Antrag wurde geprüft.",
+        "Die Sachbearbeiterin prüft den Antrag.",
+        "Der Antrag ist geprüft worden."
+      ]
+    },
+    {
+      "id": "gr14-e002",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Passiv Präteritum",
+      "title_ar": "المجهول في Präteritum",
+      "prompt_de": "Welche Form ist Passiv Präteritum?",
+      "prompt_ar": "أي صيغة هي المبني للمجهول في Präteritum؟",
+      "answer": "Der Antrag wurde geprüft.",
+      "explanation_de": "Passiv Präteritum besteht aus wurde und Partizip II.",
+      "explanation_ar": "يتكوّن المبني للمجهول في Präteritum من wurde وPartizip II.",
+      "grammarFocus": "passive_past_recognition",
+      "options": [
+        "Der Antrag wurde geprüft.",
+        "Der Antrag wird geprüft.",
+        "Der Antrag war geprüft.",
+        "Die Sachbearbeiterin hat geprüft."
+      ]
+    },
+    {
+      "id": "gr14-e003",
+      "topicId": "gr-14",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Werden im Präsens",
+      "title_ar": "werden في Präsens",
+      "prompt_de": "Die Unterlagen ______ digital gespeichert.",
+      "prompt_ar": "يتم حفظ المستندات رقميًا.",
+      "answer": "werden",
+      "explanation_de": "Das Subjekt Unterlagen steht im Plural; deshalb lautet die Form werden.",
+      "explanation_ar": "الفاعل Unterlagen جمع، لذلك نستخدم werden.",
+      "grammarFocus": "passive_present_plural",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "gr14-e004",
+      "topicId": "gr-14",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Werden im Präteritum",
+      "title_ar": "werden في Präteritum",
+      "prompt_de": "Die Geräte ______ am Montag geliefert.",
+      "prompt_ar": "تم تسليم الأجهزة يوم الاثنين.",
+      "answer": "wurden",
+      "explanation_de": "Das Subjekt Geräte steht im Plural; im Präteritum lautet die Form wurden.",
+      "explanation_ar": "الفاعل Geräte جمع، وصيغة Präteritum هي wurden.",
+      "grammarFocus": "passive_past_plural",
+      "acceptedAnswers": [
+        "wurden"
+      ]
+    },
+    {
+      "id": "gr14-e005",
+      "topicId": "gr-14",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Präsens und Präteritum",
+      "title_ar": "Präsens وPräteritum",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "wird geprüft": "Präsens Singular",
+        "werden geprüft": "Präsens Plural",
+        "wurde geprüft": "Präteritum Singular",
+        "wurden geprüft": "Präteritum Plural"
+      },
+      "explanation_de": "Die Form von werden richtet sich nach Zeit und Numerus.",
+      "explanation_ar": "تعتمد صيغة werden على الزمن والعدد.",
+      "grammarFocus": "passive_tense_number",
+      "pairs": [
+        [
+          "wird geprüft",
+          "Präsens Singular"
+        ],
+        [
+          "werden geprüft",
+          "Präsens Plural"
+        ],
+        [
+          "wurde geprüft",
+          "Präteritum Singular"
+        ],
+        [
+          "wurden geprüft",
+          "Präteritum Plural"
+        ]
+      ]
+    },
+    {
+      "id": "gr14-e006",
+      "topicId": "gr-14",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Passivsatz ordnen",
+      "title_ar": "ترتيب جملة المبني للمجهول",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Bewerbungen werden sorgfältig geprüft.",
+      "explanation_de": "Werden steht auf Position 2; geprüft steht am Ende.",
+      "explanation_ar": "تأتي werden في المرتبة الثانية وgeprüft في النهاية.",
+      "grammarFocus": "passive_main_clause_order",
+      "tokens": [
+        "sorgfältig",
+        "geprüft",
+        "Die Bewerbungen",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "Die Bewerbungen werden sorgfältig geprüft."
+      ]
+    },
+    {
+      "id": "gr14-e007",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Aktiv und Passiv",
+      "title_ar": "المعلوم والمجهول",
+      "prompt_de": "Welche Passivform passt zu: „Die Firma liefert die Geräte“?",
+      "prompt_ar": "أي صيغة مجهول تناسب الجملة؟",
+      "answer": "Die Geräte werden geliefert.",
+      "explanation_de": "Das Akkusativobjekt die Geräte wird zum Subjekt.",
+      "explanation_ar": "يتحول مفعول Akkusativ die Geräte إلى فاعل نحوي.",
+      "grammarFocus": "active_to_passive_simple",
+      "options": [
+        "Die Geräte werden geliefert.",
+        "Die Firma wird die Geräte geliefert.",
+        "Die Geräte liefern die Firma.",
+        "Die Geräte wurden morgen liefern."
+      ]
+    },
+    {
+      "id": "gr14-e008",
+      "topicId": "gr-14",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in Passiv Präsens",
+      "title_ar": "تحويل إلى المجهول في Präsens",
+      "prompt_de": "Formen Sie um: Die Personalabteilung prüft die Bewerbungen.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Die Bewerbungen werden von der Personalabteilung geprüft.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; die handelnde Institution steht mit von + Dativ.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا وتأتي الجهة المنفذة مع von + Dativ.",
+      "grammarFocus": "active_passive_present",
+      "acceptedAnswers": [
+        "Die Bewerbungen werden von der Personalabteilung geprüft.",
+        "Die Bewerbungen werden geprüft."
+      ]
+    },
+    {
+      "id": "gr14-e009",
+      "topicId": "gr-14",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in Passiv Präteritum",
+      "title_ar": "تحويل إلى المجهول في Präteritum",
+      "prompt_de": "Formen Sie um: Die Techniker reparierten das Gerät.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول في Präteritum.",
+      "answer": "Das Gerät wurde von den Technikern repariert.",
+      "explanation_de": "Das Gerät wird zum Subjekt; reparierten wird zu wurde repariert.",
+      "explanation_ar": "يصبح Das Gerät فاعلًا نحويًا وتتحول reparierten إلى wurde repariert.",
+      "grammarFocus": "active_passive_past",
+      "acceptedAnswers": [
+        "Das Gerät wurde von den Technikern repariert.",
+        "Das Gerät wurde repariert."
+      ]
+    },
+    {
+      "id": "gr14-e010",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Von + Dativ",
+      "title_ar": "von + Dativ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Entscheidung wurde von der Geschäftsleitung getroffen.",
+      "explanation_de": "Von verlangt den Dativ: von der Geschäftsleitung.",
+      "explanation_ar": "يحتاج von إلى Dativ: von der Geschäftsleitung.",
+      "grammarFocus": "von_dative",
+      "options": [
+        "Die Entscheidung wurde von der Geschäftsleitung getroffen.",
+        "Die Entscheidung wurde von die Geschäftsleitung getroffen.",
+        "Die Entscheidung wurde durch der Geschäftsleitung getroffen.",
+        "Die Entscheidung wurde von den Geschäftsleitung getroffen."
+      ]
+    },
+    {
+      "id": "gr14-e011",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Durch + Akkusativ",
+      "title_ar": "durch + Akkusativ",
+      "prompt_de": "Welche Form nennt eine Ursache korrekt?",
+      "prompt_ar": "أي صيغة تذكر السبب بصورة صحيحة؟",
+      "answer": "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+      "explanation_de": "Eine Ursache wird hier mit durch + Akkusativ ausgedrückt.",
+      "explanation_ar": "يُعبَّر عن السبب هنا باستخدام durch + Akkusativ.",
+      "grammarFocus": "durch_accusative",
+      "options": [
+        "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+        "Die Produktion wurde von einem Stromausfall unterbrochen.",
+        "Die Produktion wurde durch einem Stromausfall unterbrochen.",
+        "Die Produktion war durch einen Stromausfall unterbrechen."
+      ]
+    },
+    {
+      "id": "gr14-e012",
+      "topicId": "gr-14",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Von oder durch",
+      "title_ar": "von أم durch",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "die Sachbearbeiterin": "von der Sachbearbeiterin",
+        "die Geschäftsleitung": "von der Geschäftsleitung",
+        "ein technischer Fehler": "durch einen technischen Fehler",
+        "ein Stromausfall": "durch einen Stromausfall"
+      },
+      "explanation_de": "Personen und Institutionen stehen meist mit von; Ursachen meist mit durch.",
+      "explanation_ar": "يأتي الأشخاص والجهات غالبًا مع von، والأسباب غالبًا مع durch.",
+      "grammarFocus": "von_durch_matching",
+      "pairs": [
+        [
+          "die Sachbearbeiterin",
+          "von der Sachbearbeiterin"
+        ],
+        [
+          "die Geschäftsleitung",
+          "von der Geschäftsleitung"
+        ],
+        [
+          "ein technischer Fehler",
+          "durch einen technischen Fehler"
+        ],
+        [
+          "ein Stromausfall",
+          "durch einen Stromausfall"
+        ]
+      ]
+    },
+    {
+      "id": "gr14-e013",
+      "topicId": "gr-14",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dativ bleibt Dativ",
+      "title_ar": "يبقى Dativ كما هو",
+      "prompt_de": "______ Kunden wird eine schriftliche Bestätigung geschickt.",
+      "prompt_ar": "يتم إرسال تأكيد كتابي للعميل.",
+      "answer": "Dem",
+      "explanation_de": "Der Empfänger bleibt im Dativ: dem Kunden.",
+      "explanation_ar": "يبقى المستلم في Dativ: dem Kunden.",
+      "grammarFocus": "dative_preserved",
+      "acceptedAnswers": [
+        "Dem",
+        "dem"
+      ]
+    },
+    {
+      "id": "gr14-e014",
+      "topicId": "gr-14",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Dativ und Passiv",
+      "title_ar": "Dativ والمبني للمجهول",
+      "prompt_de": "Formen Sie um: Man teilt den Mitarbeitenden neue Aufgaben zu.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Den Mitarbeitenden werden neue Aufgaben zugeteilt.",
+      "explanation_de": "Das Dativobjekt bleibt im Dativ; neue Aufgaben wird zum Subjekt.",
+      "explanation_ar": "يبقى مفعول Dativ كما هو، وتصبح neue Aufgaben فاعلًا نحويًا.",
+      "grammarFocus": "dative_passive_transformation",
+      "acceptedAnswers": [
+        "Den Mitarbeitenden werden neue Aufgaben zugeteilt."
+      ]
+    },
+    {
+      "id": "gr14-e015",
+      "topicId": "gr-14",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Passiv im Nebensatz",
+      "title_ar": "المجهول في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil der Antrag noch geprüft wird",
+      "explanation_de": "Im Nebensatz steht wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي wird في النهاية.",
+      "grammarFocus": "passive_subordinate_present",
+      "tokens": [
+        "noch",
+        "wird",
+        "weil",
+        "geprüft",
+        "der Antrag"
+      ],
+      "acceptedAnswers": [
+        "weil der Antrag noch geprüft wird"
+      ]
+    },
+    {
+      "id": "gr14-e016",
+      "topicId": "gr-14",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Präteritum im Nebensatz",
+      "title_ar": "Präteritum في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie erklärte, dass die Lieferung verschoben wurde.",
+      "explanation_de": "Im dass-Satz steht wurde am Ende.",
+      "explanation_ar": "في جملة dass تأتي wurde في النهاية.",
+      "grammarFocus": "passive_subordinate_past",
+      "tokens": [
+        "wurde",
+        "Sie erklärte",
+        "verschoben",
+        "die Lieferung",
+        "dass"
+      ],
+      "acceptedAnswers": [
+        "Sie erklärte, dass die Lieferung verschoben wurde."
+      ]
+    },
+    {
+      "id": "gr14-e017",
+      "topicId": "gr-14",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Unpersönliches Passiv",
+      "title_ar": "المجهول غير الشخصي",
+      "prompt_de": "Sie möchten ausdrücken, dass das Team lange diskutierte, ohne eine Person zu nennen. Welche Form passt?",
+      "prompt_ar": "تريد القول إن الفريق ناقش طويلًا من دون ذكر شخص. أي صيغة مناسبة؟",
+      "answer": "Es wurde lange über die Lösung diskutiert.",
+      "explanation_de": "Das unpersönliche Passiv stellt die Tätigkeit in den Mittelpunkt.",
+      "explanation_ar": "يركز المبني للمجهول غير الشخصي على الفعل نفسه.",
+      "grammarFocus": "impersonal_passive",
+      "options": [
+        "Es wurde lange über die Lösung diskutiert.",
+        "Die Lösung wurde lange diskutieren.",
+        "Es war lange über die Lösung diskutiert.",
+        "Über die Lösung wurde lange diskutieren."
+      ]
+    },
+    {
+      "id": "gr14-e018",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "عملية أم حالة",
+      "prompt_de": "Welcher Satz beschreibt einen Vorgang?",
+      "prompt_ar": "أي جملة تصف عملية؟",
+      "answer": "Die Tür wird geöffnet.",
+      "explanation_de": "Werden + Partizip II beschreibt den Vorgang.",
+      "explanation_ar": "تصف werden + Partizip II العملية.",
+      "grammarFocus": "process_vs_state",
+      "options": [
+        "Die Tür wird geöffnet.",
+        "Die Tür ist geöffnet.",
+        "Die Tür war offen.",
+        "Die Tür bleibt geöffnet."
+      ]
+    },
+    {
+      "id": "gr14-e019",
+      "topicId": "gr-14",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Satzglieder",
+      "title_ar": "عدة عناصر في الجملة",
+      "prompt_de": "Formen Sie ins Passiv um: Die Abteilung informiert die Kunden morgen schriftlich.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Die Kunden werden morgen von der Abteilung schriftlich informiert.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; Zeit- und Modalangaben bleiben erhalten.",
+      "explanation_ar": "يتحول مفعول Akkusativ إلى فاعل نحوي وتبقى ظروف الزمن والطريقة.",
+      "grammarFocus": "complex_active_passive",
+      "acceptedAnswers": [
+        "Die Kunden werden morgen von der Abteilung schriftlich informiert.",
+        "Die Kunden werden morgen schriftlich von der Abteilung informiert.",
+        "Die Kunden werden morgen schriftlich informiert."
+      ]
+    },
+    {
+      "id": "gr14-e020",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Passiv mit Dativ",
+      "title_ar": "المجهول مع Dativ",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "Der Kundin wurde eine neue Rechnung geschickt.",
+      "explanation_de": "Die Kundin ist Empfängerin und bleibt im Dativ.",
+      "explanation_ar": "العميلة هي المستلمة وتبقى في Dativ.",
+      "grammarFocus": "complex_dative_passive",
+      "options": [
+        "Der Kundin wurde eine neue Rechnung geschickt.",
+        "Die Kundin wurde eine neue Rechnung geschickt.",
+        "Der Kundin wurde eine neue Rechnung schicken.",
+        "Eine neue Rechnung wurde die Kundin geschickt."
+      ]
+    },
+    {
+      "id": "gr14-e021",
+      "topicId": "gr-14",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Unpersönliches Passiv ohne es",
+      "title_ar": "المجهول غير الشخصي من دون es",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Gestern wurde lange über die neue Regelung gesprochen.",
+      "explanation_de": "Steht eine andere Angabe auf Position 1, entfällt es.",
+      "explanation_ar": "عند وضع عنصر آخر في بداية الجملة يمكن حذف es.",
+      "grammarFocus": "impersonal_passive_without_es",
+      "tokens": [
+        "lange",
+        "wurde",
+        "Gestern",
+        "über die neue Regelung",
+        "gesprochen"
+      ],
+      "acceptedAnswers": [
+        "Gestern wurde lange über die neue Regelung gesprochen."
+      ]
+    },
+    {
+      "id": "gr14-e022",
+      "topicId": "gr-14",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht, wenn die handelnde Person unwichtig ist?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا عندما لا يكون الفاعل الحقيقي مهمًا؟",
+      "answer": "Die Lieferung wurde aufgrund eines technischen Problems verschoben.",
+      "explanation_de": "Das Passiv richtet den Fokus auf die Lieferung und den Vorgang.",
+      "explanation_ar": "يركز المبني للمجهول على الشحنة والعملية.",
+      "grammarFocus": "formal_report_passive",
+      "options": [
+        "Die Lieferung wurde aufgrund eines technischen Problems verschoben.",
+        "Jemand hat irgendwie die Lieferung verschoben.",
+        "Die Leute verschoben wohl die Lieferung.",
+        "Die Lieferung ist von irgendwem verschieben."
+      ]
+    },
+    {
+      "id": "gr14-e023",
+      "topicId": "gr-14",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Fehleranalyse",
+      "title_ar": "تحليل الخطأ",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Weil die Daten durch ein neues System geschützt werden, ist das Risiko geringer.",
+      "explanation_de": "Durch steht mit Akkusativ; im Nebensatz steht werden am Ende.",
+      "explanation_ar": "تأتي durch مع Akkusativ، وتأتي werden في نهاية الجملة الفرعية.",
+      "grammarFocus": "complex_passive_accuracy",
+      "options": [
+        "Weil die Daten durch ein neues System geschützt werden, ist das Risiko geringer.",
+        "Weil werden die Daten durch ein neues System geschützt, ist das Risiko geringer.",
+        "Weil die Daten von ein neues System geschützt wird, ist das Risiko geringer.",
+        "Weil die Daten durch einem neuen System geschützt werden, ist das Risiko geringer."
+      ]
+    },
+    {
+      "id": "gr14-e024",
+      "topicId": "gr-14",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Vorgangspassiv",
+      "title_ar": "تدريب ختامي على المبني للمجهول",
+      "prompt_de": "Schreiben Sie einen kurzen beruflichen Bericht mit mindestens acht Sätzen. Verwenden Sie mindestens drei Passivsätze im Präsens, drei im Präteritum, einmal von + Dativ, einmal durch + Akkusativ, einen Satz mit Dativobjekt und einen Nebensatz im Passiv.",
+      "prompt_ar": "اكتب تقريرًا مهنيًا قصيرًا من ثماني جمل على الأقل. استخدم ثلاث جمل مجهول في Präsens وثلاثًا في Präteritum، ومرة von + Dativ، ومرة durch + Akkusativ، وجملة مع مفعول Dativ، وجملة فرعية في المبني للمجهول.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Passivsätze im Präsens",
+          "mindestens drei Passivsätze im Präteritum",
+          "mindestens einmal von + Dativ",
+          "mindestens einmal durch + Akkusativ",
+          "mindestens ein Dativobjekt",
+          "mindestens ein Passiv-Nebensatz",
+          "korrekte Partizip-II-Formen",
+          "sachlicher beruflicher Stil"
+        ]
+      },
+      "explanation_de": "Achten Sie auf die Form von werden, das Partizip II und die Kasusformen.",
+      "explanation_ar": "انتبه إلى صيغة werden وPartizip II وحالات الإعراب.",
+      "grammarFocus": "mixed_passive_present_past",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

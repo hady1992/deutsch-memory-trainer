@@ -1,0 +1,430 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-19",
+  "slug": "gr-19-modalverben-vergangenheit-nebensaetze",
+  "order": 19,
+  "title_de": "Modalverben in Vergangenheit und Nebensätzen",
+  "title_ar": "الأفعال الناقصة في الماضي والجمل الفرعية",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "modalverben",
+  "estimatedMinutes": 55,
+  "learningObjectives_de": [
+    "Modalverben im Präteritum sicher bilden und verwenden.",
+    "Das Perfekt mit Modalverb und Ersatzinfinitiv korrekt bilden.",
+    "Modalverben als Vollverben von Modalverben mit einem zweiten Verb unterscheiden.",
+    "Modalverbgruppen in Haupt- und Nebensätzen korrekt anordnen.",
+    "Die besondere Wortstellung im Nebensatz mit Ersatzinfinitiv erkennen und verwenden.",
+    "Vergangene Vermutungen und Behauptungen mit Modalverben ausdrücken.",
+    "Präteritum, Perfekt und Plusquamperfekt situationsgerecht auswählen."
+  ],
+  "learningObjectives_ar": [
+    "تكوين الأفعال الناقصة في Präteritum واستخدامها بصورة صحيحة.",
+    "تكوين Perfekt مع الفعل الناقص وErsatzinfinitiv بصورة صحيحة.",
+    "التمييز بين استخدام الفعل الناقص كفعل أساسي واستخدامه مع فعل ثانٍ.",
+    "ترتيب مجموعات الأفعال الناقصة في الجمل الرئيسية والفرعية.",
+    "تمييز ترتيب الأفعال الخاص في الجملة الفرعية مع Ersatzinfinitiv واستخدامه.",
+    "التعبير عن توقعات وادعاءات تتعلق بالماضي باستخدام الأفعال الناقصة.",
+    "اختيار Präteritum أو Perfekt أو Plusquamperfekt بحسب الموقف."
+  ],
+  "shortDescription_de": "Diese Einheit behandelt Modalverben im Präteritum, Perfekt und Plusquamperfekt sowie ihre besondere Stellung in Nebensätzen.",
+  "shortDescription_ar": "تتناول هذه الوحدة الأفعال الناقصة في Präteritum وPerfekt وPlusquamperfekt وترتيبها الخاص داخل الجمل الفرعية.",
+  "explanation_de": "Modalverben werden in der Vergangenheit sehr häufig im Präteritum verwendet: ich musste, konnte, durfte, sollte, wollte oder mochte. Steht ein Modalverb zusammen mit einem zweiten Verb im Perfekt, verwendet man normalerweise den Ersatzinfinitiv: Ich habe länger arbeiten müssen, nicht: Ich habe länger arbeiten gemusst. Im Hauptsatz steht die konjugierte Form von haben auf Position 2; die beiden Infinitive stehen am Ende. Im Nebensatz gilt eine besondere Wortstellung: Das konjugierte Hilfsverb steht vor der Infinitivgruppe: ..., weil ich länger habe arbeiten müssen. Im Plusquamperfekt lautet die Form: Ich hatte länger arbeiten müssen; im Nebensatz: ..., weil ich länger hatte arbeiten müssen. Wird das Modalverb ohne zweiten Infinitiv als Vollverb verwendet, steht das normale Partizip II: Ich habe das nicht gewollt. Vergangene Vermutungen werden oft mit Modalverb + Perfektinfinitiv ausgedrückt: Er muss die Nachricht erhalten haben; sie dürfte bereits gegangen sein.",
+  "explanation_ar": "تُستخدم الأفعال الناقصة في الماضي كثيرًا في Präteritum مثل: ich musste وkonnte وdurfte وsollte وwollte وmochte. وعندما يأتي الفعل الناقص مع فعل ثانٍ في Perfekt نستخدم عادة Ersatzinfinitiv، فنقول: Ich habe länger arbeiten müssen، وليس Ich habe länger arbeiten gemusst. في الجملة الرئيسية تأتي صيغة haben المصرفة في المرتبة الثانية، ويأتي المصدران في النهاية. أما في الجملة الفرعية فهناك ترتيب خاص: يأتي الفعل المساعد المصرف قبل مجموعة المصدرين، مثل: ..., weil ich länger habe arbeiten müssen. وفي Plusquamperfekt نقول: Ich hatte länger arbeiten müssen، وفي الجملة الفرعية: ..., weil ich länger hatte arbeiten müssen. إذا استُخدم الفعل الناقص من دون فعل ثانٍ بوصفه فعلًا أساسيًا، نستخدم Partizip II العادي مثل: Ich habe das nicht gewollt. وللتعبير عن توقع أو ادعاء يتعلق بالماضي نستخدم غالبًا الفعل الناقص مع Perfektinfinitiv، مثل: Er muss die Nachricht erhalten haben وsie dürfte bereits gegangen sein.",
+  "rules": [
+    {
+      "id": "gr19-r01",
+      "title_de": "Präteritum der Modalverben",
+      "title_ar": "Präteritum للأفعال الناقصة",
+      "explanation_de": "Modalverben werden in Erzählungen und Berichten häufig im Präteritum verwendet.",
+      "explanation_ar": "تُستخدم الأفعال الناقصة في الروايات والتقارير كثيرًا بصيغة Präteritum.",
+      "formula": "musste, konnte, durfte, sollte, wollte, mochte",
+      "examples": [
+        {
+          "de": "Ich musste gestern länger arbeiten.",
+          "ar": "كان عليّ أن أعمل مدة أطول أمس."
+        },
+        {
+          "de": "Wir konnten den Termin nicht einhalten.",
+          "ar": "لم نتمكن من الالتزام بالموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r02",
+      "title_de": "Perfekt mit Ersatzinfinitiv",
+      "title_ar": "Perfekt مع Ersatzinfinitiv",
+      "explanation_de": "Mit einem zweiten Verb steht das Modalverb im Infinitiv statt im Partizip II.",
+      "explanation_ar": "مع وجود فعل ثانٍ يأتي الفعل الناقص في المصدر بدل Partizip II.",
+      "formula": "haben + Vollverb-Infinitiv + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Ich habe gestern länger arbeiten müssen.",
+          "ar": "اضطررت إلى العمل مدة أطول أمس."
+        },
+        {
+          "de": "Sie hat den Termin nicht verschieben können.",
+          "ar": "لم تستطع تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r03",
+      "title_de": "Modalverb als Vollverb",
+      "title_ar": "الفعل الناقص بوصفه فعلًا أساسيًا",
+      "explanation_de": "Ohne zweiten Infinitiv wird das normale Partizip II verwendet.",
+      "explanation_ar": "من دون مصدر ثانٍ نستخدم Partizip II العادي.",
+      "formula": "haben + gemusst/gekonnt/gedurft/gewollt/gemocht",
+      "examples": [
+        {
+          "de": "Ich habe das nicht gewollt.",
+          "ar": "لم أكن أريد ذلك."
+        },
+        {
+          "de": "Mehr habe ich nicht gekonnt.",
+          "ar": "لم أستطع أكثر من ذلك."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r04",
+      "title_de": "Nebensatz im Präteritum",
+      "title_ar": "الجملة الفرعية في Präteritum",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي الفعل الناقص المصرف في النهاية.",
+      "formula": "..., weil/dass + ... + Infinitiv + Modalverb im Präteritum",
+      "examples": [
+        {
+          "de": "Ich ging früher, weil ich mein Kind abholen musste.",
+          "ar": "غادرت أبكر لأنني كنت مضطرًا إلى إحضار طفلي."
+        },
+        {
+          "de": "Sie erklärte, dass sie nicht teilnehmen konnte.",
+          "ar": "أوضحت أنها لم تستطع المشاركة."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r05",
+      "title_de": "Nebensatz im Perfekt",
+      "title_ar": "الجملة الفرعية في Perfekt",
+      "explanation_de": "Bei Ersatzinfinitiv steht das konjugierte haben vor der Infinitivgruppe.",
+      "explanation_ar": "مع Ersatzinfinitiv تأتي صيغة haben المصرفة قبل مجموعة المصدرين.",
+      "formula": "..., weil/dass + ... + haben + Vollverb-Infinitiv + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Er war müde, weil er lange hat arbeiten müssen.",
+          "ar": "كان متعبًا لأنه اضطر إلى العمل طويلًا."
+        },
+        {
+          "de": "Sie sagte, dass sie den Termin nicht hat verschieben können.",
+          "ar": "قالت إنها لم تستطع تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r06",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "Plusquamperfekt",
+      "explanation_de": "Im Plusquamperfekt verwendet man hatte/hatten + zwei Infinitive.",
+      "explanation_ar": "في Plusquamperfekt نستخدم hatte/hatten مع مصدرين.",
+      "formula": "hatte/hatten + Vollverb-Infinitiv + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Ich hatte den Bericht noch einmal prüfen müssen.",
+          "ar": "كنت قد اضطررت إلى فحص التقرير مرة أخرى."
+        },
+        {
+          "de": "Nachdem sie lange hatte warten müssen, wurde sie aufgerufen.",
+          "ar": "بعد أن كانت قد اضطرت إلى الانتظار طويلًا تم استدعاؤها."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r07",
+      "title_de": "Vergangene Vermutung mit müssen",
+      "title_ar": "استنتاج يتعلق بالماضي باستخدام müssen",
+      "explanation_de": "Müssen + Perfektinfinitiv drückt eine sehr wahrscheinliche Schlussfolgerung über die Vergangenheit aus.",
+      "explanation_ar": "تعبّر müssen مع Perfektinfinitiv عن استنتاج قوي جدًا يتعلق بالماضي.",
+      "formula": "muss/müssen + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Er muss die Nachricht erhalten haben.",
+          "ar": "لا بد أنه تلقى الرسالة."
+        },
+        {
+          "de": "Sie muss bereits gegangen sein.",
+          "ar": "لا بد أنها غادرت بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r08",
+      "title_de": "Vorsichtige Vermutung mit dürfte",
+      "title_ar": "توقع حذر باستخدام dürfte",
+      "explanation_de": "Dürfte + Perfektinfinitiv drückt eine vorsichtige Vermutung über die Vergangenheit aus.",
+      "explanation_ar": "تعبّر dürfte مع Perfektinfinitiv عن توقع حذر يتعلق بالماضي.",
+      "formula": "dürfte + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Die Lieferung dürfte bereits eingetroffen sein.",
+          "ar": "من المرجح أن الشحنة وصلت بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r09",
+      "title_de": "Hörensagen und Behauptung in der Vergangenheit",
+      "title_ar": "النقل والادعاء في الماضي",
+      "explanation_de": "Sollen und wollen können mit Perfektinfinitiv vergangene Aussagen wiedergeben.",
+      "explanation_ar": "يمكن استخدام sollen وwollen مع Perfektinfinitiv لنقل أقوال أو ادعاءات تتعلق بالماضي.",
+      "formula": "soll/will + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Der Bewerber soll mehrere Jahre im Ausland gearbeitet haben.",
+          "ar": "يُقال إن المتقدم عمل عدة سنوات في الخارج."
+        },
+        {
+          "de": "Der Mitarbeiter will die E-Mail rechtzeitig geschickt haben.",
+          "ar": "يدّعي الموظف أنه أرسل البريد في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr19-r10",
+      "title_de": "Präteritum oder Perfekt?",
+      "title_ar": "Präteritum أم Perfekt؟",
+      "explanation_de": "Bei Modalverben ist das Präteritum meist kürzer und im gesprochenen sowie geschriebenen Deutsch sehr üblich.",
+      "explanation_ar": "يكون Präteritum مع الأفعال الناقصة أقصر وغالبًا شائعًا جدًا في الكلام والكتابة.",
+      "formula": "musste arbeiten ↔ habe arbeiten müssen",
+      "examples": [
+        {
+          "de": "Ich musste länger bleiben.",
+          "ar": "كان عليّ أن أبقى مدة أطول."
+        },
+        {
+          "de": "Ich habe länger bleiben müssen.",
+          "ar": "اضطررت إلى البقاء مدة أطول."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr19-t01",
+      "title_de": "Modalverben im Präteritum",
+      "title_ar": "الأفعال الناقصة في Präteritum",
+      "headers_de": [
+        "Infinitiv",
+        "ich/er/sie",
+        "wir/sie"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "ich/er/sie",
+        "wir/sie"
+      ],
+      "rows": [
+        [
+          "müssen",
+          "musste",
+          "mussten"
+        ],
+        [
+          "können",
+          "konnte",
+          "konnten"
+        ],
+        [
+          "dürfen",
+          "durfte",
+          "durften"
+        ],
+        [
+          "sollen",
+          "sollte",
+          "sollten"
+        ],
+        [
+          "wollen",
+          "wollte",
+          "wollten"
+        ],
+        [
+          "mögen",
+          "mochte",
+          "mochten"
+        ]
+      ]
+    },
+    {
+      "id": "gr19-t02",
+      "title_de": "Vergangenheitsformen mit zweitem Verb",
+      "title_ar": "صيغ الماضي مع فعل ثانٍ",
+      "headers_de": [
+        "Zeitform",
+        "Hauptsatz",
+        "Nebensatz"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "الجملة الرئيسية",
+        "الجملة الفرعية"
+      ],
+      "rows": [
+        [
+          "Präteritum",
+          "ich musste arbeiten",
+          "weil ich arbeiten musste"
+        ],
+        [
+          "Perfekt",
+          "ich habe arbeiten müssen",
+          "weil ich habe arbeiten müssen"
+        ],
+        [
+          "Plusquamperfekt",
+          "ich hatte arbeiten müssen",
+          "weil ich hatte arbeiten müssen"
+        ]
+      ]
+    },
+    {
+      "id": "gr19-t03",
+      "title_de": "Perfektinfinitiv für vergangene Aussagen",
+      "title_ar": "Perfektinfinitiv للجمل المتعلقة بالماضي",
+      "headers_de": [
+        "Bedeutung",
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المعنى",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "starke Vermutung",
+          "muss + Partizip II + haben/sein",
+          "Er muss gegangen sein."
+        ],
+        [
+          "vorsichtige Vermutung",
+          "dürfte + Partizip II + haben/sein",
+          "Er dürfte gegangen sein."
+        ],
+        [
+          "Hörensagen",
+          "soll + Partizip II + haben/sein",
+          "Er soll gegangen sein."
+        ],
+        [
+          "eigene Behauptung",
+          "will + Partizip II + haben/sein",
+          "Er will gegangen sein."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wir konnten die Frist nicht einhalten, weil mehrere Unterlagen gefehlt haben.",
+      "ar": "لم نتمكن من الالتزام بالمهلة لأن عدة مستندات كانت ناقصة.",
+      "note_de": "Präteritum des Modalverbs in einem sachlichen Bericht.",
+      "note_ar": "Präteritum للفعل الناقص في تقرير موضوعي."
+    },
+    {
+      "de": "Die Mitarbeiterin erklärte, dass sie am Vortag länger hatte arbeiten müssen.",
+      "ar": "أوضحت الموظفة أنها كانت قد اضطرت إلى العمل مدة أطول في اليوم السابق.",
+      "note_de": "Plusquamperfekt mit Ersatzinfinitiv im Nebensatz.",
+      "note_ar": "Plusquamperfekt مع Ersatzinfinitiv في جملة فرعية."
+    },
+    {
+      "de": "Der Fehler muss bereits während der Installation entstanden sein.",
+      "ar": "لا بد أن الخطأ نشأ أثناء التثبيت.",
+      "note_de": "Starke Vermutung über die Vergangenheit.",
+      "note_ar": "استنتاج قوي يتعلق بالماضي."
+    },
+    {
+      "de": "Die Lieferung dürfte am frühen Morgen eingetroffen sein.",
+      "ar": "من المرجح أن الشحنة وصلت في الصباح الباكر.",
+      "note_de": "Vorsichtige Vermutung über die Vergangenheit.",
+      "note_ar": "توقع حذر يتعلق بالماضي."
+    },
+    {
+      "de": "Der Anbieter will die Störung bereits am Montag behoben haben.",
+      "ar": "يدّعي المزوّد أنه أصلح العطل يوم الاثنين بالفعل.",
+      "note_de": "Behauptung des Anbieters mit wollen.",
+      "note_ar": "ادعاء المزوّد باستخدام wollen."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich habe länger arbeiten gemusst.",
+      "correct": "Ich habe länger arbeiten müssen.",
+      "explanation_de": "Mit einem zweiten Verb verwendet man den Ersatzinfinitiv müssen.",
+      "explanation_ar": "مع وجود فعل ثانٍ نستخدم Ersatzinfinitiv müssen."
+    },
+    {
+      "wrong": "Weil ich länger arbeiten müssen habe, war ich müde.",
+      "correct": "Weil ich länger habe arbeiten müssen, war ich müde.",
+      "explanation_de": "Im Nebensatz mit Ersatzinfinitiv steht das konjugierte Hilfsverb vor den beiden Infinitiven.",
+      "explanation_ar": "في الجملة الفرعية مع Ersatzinfinitiv يأتي الفعل المساعد المصرف قبل المصدرين."
+    },
+    {
+      "wrong": "Ich habe das nicht wollen.",
+      "correct": "Ich habe das nicht gewollt.",
+      "explanation_de": "Ohne zweiten Infinitiv verwendet man das normale Partizip II.",
+      "explanation_ar": "من دون مصدر ثانٍ نستخدم Partizip II العادي."
+    },
+    {
+      "wrong": "Sie muss gestern gegangen haben.",
+      "correct": "Sie muss gestern gegangen sein.",
+      "explanation_de": "Gehen bildet den Perfektinfinitiv mit sein.",
+      "explanation_ar": "يستخدم gehen الفعل sein في Perfektinfinitiv."
+    },
+    {
+      "wrong": "Der Bewerber soll im Ausland gearbeitet sein.",
+      "correct": "Der Bewerber soll im Ausland gearbeitet haben.",
+      "explanation_de": "Arbeiten bildet den Perfektinfinitiv mit haben.",
+      "explanation_ar": "يستخدم arbeiten الفعل haben في Perfektinfinitiv."
+    },
+    {
+      "wrong": "Nachdem sie lange warten müssen hatte, wurde sie aufgerufen.",
+      "correct": "Nachdem sie lange hatte warten müssen, wurde sie aufgerufen.",
+      "explanation_de": "Im Nebensatz mit Plusquamperfekt steht hatte vor der Infinitivgruppe.",
+      "explanation_ar": "في جملة Plusquamperfekt الفرعية تأتي hatte قبل مجموعة المصدرين."
+    }
+  ],
+  "quickSummary_de": [
+    "Modalverben stehen in der Vergangenheit häufig im Präteritum.",
+    "Mit zweitem Verb: Perfekt = haben + zwei Infinitive.",
+    "Der zweite Infinitiv ist das Modalverb im Ersatzinfinitiv.",
+    "Ohne zweiten Infinitiv steht das normale Partizip II.",
+    "Im Präteritum-Nebensatz steht das Modalverb am Ende.",
+    "Im Perfekt-Nebensatz steht haben vor der Infinitivgruppe.",
+    "Im Plusquamperfekt steht hatte/hatten vor der Infinitivgruppe.",
+    "Müssen + Perfektinfinitiv bezeichnet eine starke vergangene Vermutung.",
+    "Dürfte bezeichnet eine vorsichtige Vermutung.",
+    "Sollen bezeichnet Hörensagen; wollen eine Behauptung der Person."
+  ],
+  "quickSummary_ar": [
+    "تأتي الأفعال الناقصة في الماضي كثيرًا في Präteritum.",
+    "مع فعل ثانٍ: Perfekt = haben + مصدرين.",
+    "المصدر الثاني هو الفعل الناقص في Ersatzinfinitiv.",
+    "من دون مصدر ثانٍ نستخدم Partizip II العادي.",
+    "في جملة Präteritum الفرعية يأتي الفعل الناقص في النهاية.",
+    "في جملة Perfekt الفرعية تأتي haben قبل مجموعة المصدرين.",
+    "في Plusquamperfekt تأتي hatte/hatten قبل مجموعة المصدرين.",
+    "تعبّر müssen مع Perfektinfinitiv عن استنتاج قوي يتعلق بالماضي.",
+    "تعبّر dürfte عن توقع حذر.",
+    "تدل sollen على النقل عن الآخرين، وتدل wollen على ادعاء الشخص."
+  ],
+  "relatedTopics": [
+    "gr-13",
+    "gr-16",
+    "gr-18",
+    "gr-20"
+  ]
+}

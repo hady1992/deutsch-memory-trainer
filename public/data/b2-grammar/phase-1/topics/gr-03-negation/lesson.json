@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-03",
+  "slug": "gr-03-negation",
+  "order": 3,
+  "title_de": "Negation",
+  "title_ar": "النفي",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "grundlagen_festigen",
+  "estimatedMinutes": 40,
+  "learningObjectives_de": [
+    "Zwischen nicht und kein sicher unterscheiden.",
+    "Niemand, nichts, nie, niemals und nirgendwo passend verwenden.",
+    "Noch nicht und nicht mehr korrekt unterscheiden.",
+    "Weder ... noch in einfachen und komplexeren Sätzen verwenden.",
+    "Die Position von nicht je nach Bedeutung gezielt wählen.",
+    "Mehrdeutige oder unnatürliche Negationen vermeiden."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بدقة بين nicht وkein.",
+    "استخدام niemand وnichts وnie وniemals وnirgendwo في السياق المناسب.",
+    "التمييز بين noch nicht وnicht mehr.",
+    "استخدام weder ... noch في الجمل البسيطة والأكثر تعقيدًا.",
+    "اختيار موقع nicht بحسب المعنى المقصود.",
+    "تجنب النفي الغامض أو غير الطبيعي."
+  ],
+  "shortDescription_de": "Negation betrifft nicht nur die Wahl zwischen nicht und kein, sondern auch die genaue Bedeutung und Position des negierten Satzteils.",
+  "shortDescription_ar": "لا يقتصر النفي على الاختيار بين nicht وkein، بل يشمل أيضًا تحديد الجزء المنفي وموقع أداة النفي بدقة.",
+  "explanation_de": "Kein negiert in der Regel ein Nomen ohne bestimmten Artikel oder mit unbestimmtem Artikel. Nicht negiert Verben, Adjektive, Adverbien, Präpositionalgruppen, bestimmte Nomen oder einen ganzen Satzteil. Wörter wie niemand, nichts, nie und nirgendwo tragen die Negation bereits in sich; eine zusätzliche Negation ist im Standarddeutschen normalerweise falsch. Noch nicht bedeutet, dass etwas bis jetzt nicht passiert ist, aber später noch passieren kann. Nicht mehr bedeutet, dass etwas früher galt oder passierte, jetzt aber nicht mehr. Die Stellung von nicht verändert oft den Fokus der Aussage: Ich komme heute nicht. / Ich komme nicht heute, sondern morgen.",
+  "explanation_ar": "تُستخدم kein غالبًا لنفي اسم من دون أداة تعريف محددة أو مع أداة تنكير. أما nicht فتُستخدم لنفي الأفعال والصفات والظروف وشبه الجملة والاسم المعرّف أو جزء كامل من الجملة. تحمل كلمات مثل niemand وnichts وnie وnirgendwo معنى النفي بحد ذاتها، لذلك لا نضيف نفيًا آخر معها عادة في الألمانية القياسية. تعني noch nicht أن الحدث لم يحصل حتى الآن لكنه قد يحصل لاحقًا، بينما تعني nicht mehr أن الشيء كان موجودًا أو يحدث سابقًا لكنه توقف الآن. كما أن موقع nicht يغير بؤرة المعنى: Ich komme heute nicht تعني أنني لن آتي اليوم، أما Ich komme nicht heute, sondern morgen فتعني ليس اليوم بل غدًا.",
+  "rules": [
+    {
+      "id": "gr03-r01",
+      "title_de": "Kein bei Nomen",
+      "title_ar": "استخدام kein مع الأسماء",
+      "explanation_de": "Kein negiert Nomen ohne bestimmten Artikel oder mit unbestimmtem Artikel.",
+      "explanation_ar": "تنفي kein الاسم الذي لا يسبقه Artikel محدد أو الذي يأتي مع أداة تنكير.",
+      "formula": "kein + Nomen",
+      "examples": [
+        {
+          "de": "Ich habe keine Zeit.",
+          "ar": "ليس لدي وقت."
+        },
+        {
+          "de": "Wir haben keinen Termin.",
+          "ar": "ليس لدينا موعد."
+        },
+        {
+          "de": "Er braucht kein neues Gerät.",
+          "ar": "لا يحتاج إلى جهاز جديد."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r02",
+      "title_de": "Nicht bei Verben, Adjektiven und bestimmten Satzteilen",
+      "title_ar": "استخدام nicht مع الأفعال والصفات وأجزاء الجملة",
+      "explanation_de": "Nicht negiert Handlungen, Eigenschaften, Angaben, bestimmte Nomen oder gezielt einen Satzteil.",
+      "explanation_ar": "تنفي nicht الفعل أو الصفة أو الظرف أو الاسم المعرّف أو جزءًا محددًا من الجملة.",
+      "formula": "... nicht / nicht + betonter Satzteil",
+      "examples": [
+        {
+          "de": "Ich arbeite heute nicht.",
+          "ar": "أنا لا أعمل اليوم."
+        },
+        {
+          "de": "Der Bericht ist nicht vollständig.",
+          "ar": "التقرير غير مكتمل."
+        },
+        {
+          "de": "Ich meine nicht diesen Vertrag.",
+          "ar": "لا أقصد هذا العقد."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r03",
+      "title_de": "Niemand und nichts",
+      "title_ar": "niemand وnichts",
+      "explanation_de": "Niemand negiert Personen, nichts negiert Sachen oder Inhalte.",
+      "explanation_ar": "تُستخدم niemand لنفي الأشخاص، وnichts لنفي الأشياء أو المحتوى.",
+      "formula": "niemand / nichts",
+      "examples": [
+        {
+          "de": "Niemand war erreichbar.",
+          "ar": "لم يكن أحد متاحًا."
+        },
+        {
+          "de": "Ich habe nichts verstanden.",
+          "ar": "لم أفهم شيئًا."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r04",
+      "title_de": "Nie, niemals und nirgendwo",
+      "title_ar": "nie وniemals وnirgendwo",
+      "explanation_de": "Nie und niemals negieren Zeit oder Häufigkeit; nirgendwo negiert einen Ort.",
+      "explanation_ar": "تنفي nie وniemals الزمن أو التكرار، بينما تنفي nirgendwo المكان.",
+      "formula": "nie / niemals / nirgendwo",
+      "examples": [
+        {
+          "de": "Ich komme nie zu spät.",
+          "ar": "لا أتأخر أبدًا."
+        },
+        {
+          "de": "Diese Datei ist nirgendwo gespeichert.",
+          "ar": "هذا الملف غير محفوظ في أي مكان."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r05",
+      "title_de": "Noch nicht und nicht mehr",
+      "title_ar": "noch nicht وnicht mehr",
+      "explanation_de": "Noch nicht: etwas ist bis jetzt nicht geschehen. Nicht mehr: etwas geschah früher, jetzt aber nicht.",
+      "explanation_ar": "noch nicht: لم يحدث الشيء حتى الآن. nicht mehr: كان يحدث سابقًا لكنه لم يعد يحدث الآن.",
+      "formula": "noch nicht = bisher nicht | nicht mehr = früher ja, jetzt nein",
+      "examples": [
+        {
+          "de": "Der Antrag ist noch nicht bearbeitet.",
+          "ar": "لم تتم معالجة الطلب بعد."
+        },
+        {
+          "de": "Sie arbeitet nicht mehr in dieser Abteilung.",
+          "ar": "لم تعد تعمل في هذا القسم."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r06",
+      "title_de": "Weder ... noch",
+      "title_ar": "لا... ولا...",
+      "explanation_de": "Weder ... noch verbindet zwei gleichartige negierte Satzteile.",
+      "explanation_ar": "تربط weder ... noch بين عنصرين من النوع نفسه وكلاهما منفي.",
+      "formula": "weder A noch B",
+      "examples": [
+        {
+          "de": "Weder der Chef noch die Personalabteilung waren erreichbar.",
+          "ar": "لم يكن المدير ولا قسم الموارد البشرية متاحًا."
+        },
+        {
+          "de": "Sie spricht weder Englisch noch Französisch.",
+          "ar": "هي لا تتحدث الإنجليزية ولا الفرنسية."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r07",
+      "title_de": "Position von nicht",
+      "title_ar": "موقع nicht",
+      "explanation_de": "Nicht steht vor dem gezielt negierten Teil. Bei allgemeiner Verbnegation steht es oft relativ weit hinten, aber vor einem Infinitiv, Partizip oder trennbaren Präfix.",
+      "explanation_ar": "تأتي nicht قبل الجزء المراد نفيه مباشرة. وعند نفي الفعل عمومًا تأتي متأخرة نسبيًا، لكنها تسبق المصدر أو Partizip أو الجزء المنفصل.",
+      "formula": "nicht + Fokus / ... nicht + rechter Verbteil",
+      "examples": [
+        {
+          "de": "Ich kann heute nicht kommen.",
+          "ar": "لا أستطيع الحضور اليوم."
+        },
+        {
+          "de": "Ich rufe den Kunden heute nicht an.",
+          "ar": "لن أتصل بالعميل اليوم."
+        },
+        {
+          "de": "Ich komme nicht heute, sondern morgen.",
+          "ar": "لن آتي اليوم بل غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr03-r08",
+      "title_de": "Keine doppelte Negation",
+      "title_ar": "عدم استخدام نفي مزدوج",
+      "explanation_de": "Im Standarddeutschen kombiniert man niemand, nichts, nie oder nirgendwo normalerweise nicht mit einer zweiten Negation.",
+      "explanation_ar": "في الألمانية القياسية لا نجمع niemand أو nichts أو nie أو nirgendwo عادة مع نفي آخر.",
+      "formula": "niemand / nichts / nie / nirgendwo ohne zusätzliches nicht",
+      "examples": [
+        {
+          "de": "Niemand hat angerufen.",
+          "ar": "لم يتصل أحد."
+        },
+        {
+          "de": "Ich habe nichts gesehen.",
+          "ar": "لم أرَ شيئًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr03-t01",
+      "title_de": "Nicht oder kein?",
+      "title_ar": "nicht أم kein؟",
+      "headers_de": [
+        "Negiert wird",
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "ما الذي يُنفى",
+        "الأداة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Nomen ohne bestimmten Artikel",
+          "kein",
+          "Ich habe keine Zeit."
+        ],
+        [
+          "Verb/Handlung",
+          "nicht",
+          "Ich arbeite heute nicht."
+        ],
+        [
+          "Adjektiv",
+          "nicht",
+          "Der Bericht ist nicht vollständig."
+        ],
+        [
+          "bestimmtes Nomen",
+          "nicht",
+          "Ich meine nicht den roten Ordner."
+        ],
+        [
+          "Präpositionalgruppe",
+          "nicht",
+          "Wir treffen uns nicht im Büro."
+        ]
+      ]
+    },
+    {
+      "id": "gr03-t02",
+      "title_de": "Negationswörter",
+      "title_ar": "كلمات النفي",
+      "headers_de": [
+        "Wort",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الكلمة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "niemand",
+          "keine Person",
+          "Niemand antwortet."
+        ],
+        [
+          "nichts",
+          "keine Sache / kein Inhalt",
+          "Ich höre nichts."
+        ],
+        [
+          "nie / niemals",
+          "zu keiner Zeit",
+          "Er kommt nie zu spät."
+        ],
+        [
+          "nirgendwo",
+          "an keinem Ort",
+          "Die Datei ist nirgendwo zu finden."
+        ],
+        [
+          "noch nicht",
+          "bis jetzt nicht",
+          "Der Termin steht noch nicht fest."
+        ],
+        [
+          "nicht mehr",
+          "früher ja, jetzt nein",
+          "Sie arbeitet nicht mehr hier."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wir haben heute keinen Besprechungsraum frei.",
+      "ar": "لا توجد لدينا اليوم غرفة اجتماعات شاغرة.",
+      "note_de": "Kein negiert das Nomen Besprechungsraum.",
+      "note_ar": "تنفي kein الاسم Besprechungsraum."
+    },
+    {
+      "de": "Die Besprechung findet heute nicht statt.",
+      "ar": "لن يُعقد الاجتماع اليوم.",
+      "note_de": "Nicht steht vor dem trennbaren Präfix statt.",
+      "note_ar": "تأتي nicht قبل الجزء المنفصل statt."
+    },
+    {
+      "de": "Ich habe noch keine Rückmeldung erhalten.",
+      "ar": "لم أتلقَّ أي رد بعد.",
+      "note_de": "Noch keine verbindet die Bedeutung von bisher nicht mit einem Nomen.",
+      "note_ar": "تجمع noch keine معنى حتى الآن مع نفي الاسم."
+    },
+    {
+      "de": "Der Kollege arbeitet nicht mehr im Außendienst.",
+      "ar": "لم يعد الزميل يعمل في الخدمة الخارجية.",
+      "note_de": "Nicht mehr beschreibt eine beendete frühere Situation.",
+      "note_ar": "تصف nicht mehr حالة كانت موجودة سابقًا ثم انتهت."
+    },
+    {
+      "de": "Weder die Zugangsdaten noch das Passwort funktionieren.",
+      "ar": "لا تعمل بيانات الدخول ولا كلمة المرور.",
+      "note_de": "Zwei Subjekte werden gemeinsam negiert.",
+      "note_ar": "يُنفي التركيب فاعلين معًا."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich habe nicht Zeit.",
+      "correct": "Ich habe keine Zeit.",
+      "explanation_de": "Ein Nomen ohne bestimmten Artikel wird hier mit kein negiert.",
+      "explanation_ar": "يُنفى الاسم هنا باستخدام kein."
+    },
+    {
+      "wrong": "Ich bin kein müde.",
+      "correct": "Ich bin nicht müde.",
+      "explanation_de": "Adjektive werden mit nicht negiert.",
+      "explanation_ar": "تُنفى الصفات باستخدام nicht."
+    },
+    {
+      "wrong": "Niemand hat nicht angerufen.",
+      "correct": "Niemand hat angerufen.",
+      "explanation_de": "Niemand enthält bereits die Negation.",
+      "explanation_ar": "تحمل niemand معنى النفي أصلًا."
+    },
+    {
+      "wrong": "Der Antrag ist nicht mehr bearbeitet.",
+      "correct": "Der Antrag ist noch nicht bearbeitet.",
+      "explanation_de": "Gemeint ist: bis jetzt nicht. Daher braucht man noch nicht.",
+      "explanation_ar": "المعنى هو: لم تتم المعالجة حتى الآن، لذلك نستخدم noch nicht."
+    },
+    {
+      "wrong": "Ich komme heute sondern morgen nicht.",
+      "correct": "Ich komme nicht heute, sondern morgen.",
+      "explanation_de": "Nicht steht direkt vor dem gezielt negierten Zeitteil.",
+      "explanation_ar": "تأتي nicht مباشرة قبل ظرف الزمن المنفي."
+    },
+    {
+      "wrong": "Weder der Chef oder die Personalabteilung war erreichbar.",
+      "correct": "Weder der Chef noch die Personalabteilung waren erreichbar.",
+      "explanation_de": "Weder wird mit noch kombiniert, nicht mit oder.",
+      "explanation_ar": "تأتي weder مع noch وليس مع oder."
+    }
+  ],
+  "quickSummary_de": [
+    "Kein negiert meist ein Nomen ohne bestimmten Artikel.",
+    "Nicht negiert Verben, Adjektive, Angaben und bestimmte Satzteile.",
+    "Niemand = keine Person; nichts = keine Sache.",
+    "Nie/niemals negiert Zeit, nirgendwo negiert Ort.",
+    "Noch nicht bedeutet: bis jetzt nicht.",
+    "Nicht mehr bedeutet: früher ja, jetzt nein.",
+    "Weder ... noch verbindet zwei negierte Elemente.",
+    "Nicht steht vor dem gezielt negierten Satzteil.",
+    "Keine doppelte Negation mit niemand, nichts, nie oder nirgendwo."
+  ],
+  "quickSummary_ar": [
+    "تنفي kein غالبًا اسمًا من دون Artikel محدد.",
+    "تنفي nicht الفعل والصفة والظرف وجزءًا محددًا من الجملة.",
+    "niemand تعني لا أحد، وnichts تعني لا شيء.",
+    "تنفي nie/niemals الزمن، وnirgendwo المكان.",
+    "noch nicht تعني: ليس حتى الآن.",
+    "nicht mehr تعني: كان سابقًا ولم يعد الآن.",
+    "تربط weder ... noch بين عنصرين منفيين.",
+    "تأتي nicht قبل الجزء المراد نفيه.",
+    "لا نستخدم نفيًا مزدوجًا مع niemand وnichts وnie وnirgendwo."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-04",
+    "gr-05",
+    "gr-06"
+  ]
+}

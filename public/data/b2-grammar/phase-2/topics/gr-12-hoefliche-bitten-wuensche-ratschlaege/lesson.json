@@ -1,0 +1,429 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-12",
+  "slug": "gr-12-hoefliche-bitten-wuensche-ratschlaege",
+  "order": 12,
+  "title_de": "Höfliche Bitten, Wünsche und Ratschläge",
+  "title_ar": "الطلبات المهذبة والرغبات والنصائح",
+  "level": "B2",
+  "sourceType": "kommunikative_grammatik",
+  "category": "konjunktiv_ii",
+  "estimatedMinutes": 45,
+  "learningObjectives_de": [
+    "Höfliche Bitten mit könnten, würden und hätten formulieren.",
+    "Wünsche mit ich hätte gern, ich würde gern und ich möchte ausdrücken.",
+    "Ratschläge mit sollte, könnte und an Ihrer Stelle formulieren.",
+    "Den Grad der Höflichkeit und Direktheit situationsgerecht wählen.",
+    "Bitten, Wünsche und Ratschläge korrekt in Haupt- und Nebensätzen anordnen.",
+    "Zu direkte Aussagen diplomatisch umformulieren."
+  ],
+  "learningObjectives_ar": [
+    "صياغة طلبات مهذبة باستخدام könnten وwürden وhätten.",
+    "التعبير عن الرغبات باستخدام ich hätte gern وich würde gern وich möchte.",
+    "صياغة النصائح باستخدام sollte وkönnte وan Ihrer Stelle.",
+    "اختيار درجة مناسبة من الأدب والمباشرة بحسب الموقف.",
+    "ترتيب الطلبات والرغبات والنصائح بصورة صحيحة.",
+    "إعادة صياغة العبارات المباشرة بصورة دبلوماسية."
+  ],
+  "shortDescription_de": "Diese Einheit zeigt, wie man im Berufs- und Alltagsleben höflich bittet, Wünsche äußert und Ratschläge gibt.",
+  "shortDescription_ar": "تشرح هذه الوحدة كيفية صياغة الطلبات والرغبات والنصائح بأسلوب مهذب في الحياة المهنية واليومية.",
+  "explanation_de": "Höfliche Bitten werden häufig mit könnten, würden oder hätten formuliert. Könnten Sie ...? bittet um eine Handlung oder Möglichkeit. Würden Sie ...? bittet höflich um eine konkrete Handlung. Hätten Sie ...? fragt höflich nach Zeit, einem Gegenstand oder einer Möglichkeit. Wünsche kann man mit ich hätte gern, ich würde gern oder ich möchte ausdrücken. Ratschläge werden oft mit Sie sollten, Sie könnten, An Ihrer Stelle würde ich oder Es wäre besser, wenn ... formuliert. Sollten klingt meist stärker als könnten. Könnten bietet eher eine Möglichkeit an. Bitte, vielleicht, eventuell und kurze Begründungen machen Aussagen höflicher und kooperativer.",
+  "explanation_ar": "تُصاغ الطلبات المهذبة كثيرًا باستخدام könnten أو würden أو hätten. تُستخدم Könnten Sie ...? لطلب فعل أو إمكانية، وWürden Sie ...? لطلب تنفيذ فعل محدد بأدب. أما Hätten Sie ...? فتُستخدم للسؤال بأدب عن وقت أو شيء أو إمكانية. ويمكن التعبير عن الرغبات باستخدام ich hätte gern أو ich würde gern أو ich möchte. تُصاغ النصائح باستخدام Sie sollten أو Sie könnten أو An Ihrer Stelle würde ich أو Es wäre besser, wenn ... تبدو sollten أقوى عادة من könnten، بينما تقدم könnten خيارًا أو إمكانية. وتساعد bitte وvielleicht وeventuell مع سبب مختصر على جعل العبارة أكثر تعاونًا وأدبًا.",
+  "rules": [
+    {
+      "id": "gr12-r01",
+      "title_de": "Bitte mit könnten",
+      "title_ar": "طلب باستخدام könnten",
+      "explanation_de": "Könnten Sie ...? ist eine sehr übliche höfliche Bitte.",
+      "explanation_ar": "تُعد Könnten Sie ...? من أكثر صيغ الطلب المهذب شيوعًا.",
+      "formula": "Könnten Sie bitte + Infinitiv?",
+      "examples": [
+        {
+          "de": "Könnten Sie mir bitte die Unterlagen schicken?",
+          "ar": "هل يمكنك إرسال المستندات لي من فضلك؟"
+        },
+        {
+          "de": "Könnten Sie das bitte wiederholen?",
+          "ar": "هل يمكنك تكرار ذلك من فضلك؟"
+        }
+      ]
+    },
+    {
+      "id": "gr12-r02",
+      "title_de": "Bitte mit würden",
+      "title_ar": "طلب باستخدام würden",
+      "explanation_de": "Würden Sie ...? bittet höflich um eine konkrete Handlung.",
+      "explanation_ar": "تُستخدم Würden Sie ...? لطلب تنفيذ فعل محدد بأدب.",
+      "formula": "Würden Sie bitte + Infinitiv?",
+      "examples": [
+        {
+          "de": "Würden Sie bitte kurz warten?",
+          "ar": "هل تتفضل بالانتظار قليلًا؟"
+        },
+        {
+          "de": "Würden Sie mir bitte eine Bestätigung senden?",
+          "ar": "هل تتفضل بإرسال تأكيد لي؟"
+        }
+      ]
+    },
+    {
+      "id": "gr12-r03",
+      "title_de": "Höfliche Frage mit hätten",
+      "title_ar": "سؤال مهذب باستخدام hätten",
+      "explanation_de": "Hätten Sie ...? fragt höflich nach Zeit, einem Gegenstand oder einer Möglichkeit.",
+      "explanation_ar": "تُستخدم Hätten Sie ...? للسؤال بأدب عن وقت أو شيء أو إمكانية.",
+      "formula": "Hätten Sie + Akkusativ / Zeit / Möglichkeit?",
+      "examples": [
+        {
+          "de": "Hätten Sie morgen kurz Zeit?",
+          "ar": "هل لديك وقت قصير غدًا؟"
+        },
+        {
+          "de": "Hätten Sie vielleicht einen Termin für mich?",
+          "ar": "هل يوجد لديك ربما موعد لي؟"
+        }
+      ]
+    },
+    {
+      "id": "gr12-r04",
+      "title_de": "Wunsch mit hätte gern",
+      "title_ar": "رغبة باستخدام hätte gern",
+      "explanation_de": "Ich hätte gern wird häufig vor einem Nomen verwendet.",
+      "explanation_ar": "تُستخدم Ich hätte gern كثيرًا قبل الاسم.",
+      "formula": "Ich hätte gern + Akkusativ",
+      "examples": [
+        {
+          "de": "Ich hätte gern einen Termin am Vormittag.",
+          "ar": "أرغب في موعد خلال فترة الصباح."
+        },
+        {
+          "de": "Ich hätte gern weitere Informationen zum Kurs.",
+          "ar": "أرغب في معلومات إضافية عن الدورة."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r05",
+      "title_de": "Wunsch mit würde gern und möchte",
+      "title_ar": "رغبة باستخدام würde gern وmöchte",
+      "explanation_de": "Ich würde gern und ich möchte können vor einem Infinitiv stehen.",
+      "explanation_ar": "يمكن أن تأتي ich würde gern وich möchte قبل مصدر الفعل.",
+      "formula": "Ich würde gern + Infinitiv | Ich möchte + Infinitiv/Akkusativ",
+      "examples": [
+        {
+          "de": "Ich würde gern an der Fortbildung teilnehmen.",
+          "ar": "أرغب في المشاركة في الدورة التدريبية."
+        },
+        {
+          "de": "Ich möchte einen Beratungstermin vereinbaren.",
+          "ar": "أود تحديد موعد استشارة."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r06",
+      "title_de": "Ratschlag mit sollte",
+      "title_ar": "نصيحة باستخدام sollte",
+      "explanation_de": "Sollte gibt einen klaren, aber noch höflichen Ratschlag.",
+      "explanation_ar": "تعطي sollte نصيحة واضحة لكنها لا تزال مهذبة.",
+      "formula": "Sie sollten + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie sollten das Formular vollständig ausfüllen.",
+          "ar": "ينبغي أن تملأ الاستمارة كاملة."
+        },
+        {
+          "de": "Du solltest dich vorher informieren.",
+          "ar": "ينبغي أن تستعلم مسبقًا."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r07",
+      "title_de": "Vorsichtiger Ratschlag mit könnte",
+      "title_ar": "نصيحة لطيفة باستخدام könnte",
+      "explanation_de": "Könnte bietet eine Möglichkeit an und klingt oft weniger direkt als sollte.",
+      "explanation_ar": "تقدم könnte خيارًا وتبدو غالبًا أقل مباشرة من sollte.",
+      "formula": "Sie könnten + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie könnten zunächst mit Ihrer Vorgesetzten sprechen.",
+          "ar": "يمكنك أولًا التحدث مع رئيستك."
+        },
+        {
+          "de": "Du könntest die Unterlagen online einreichen.",
+          "ar": "يمكنك تقديم المستندات عبر الإنترنت."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r08",
+      "title_de": "An Ihrer Stelle ...",
+      "title_ar": "لو كنت مكانك",
+      "explanation_de": "An Ihrer Stelle würde ich ... formuliert einen persönlichen Ratschlag diplomatisch.",
+      "explanation_ar": "تُستخدم An Ihrer Stelle würde ich ... لصياغة نصيحة شخصية بصورة دبلوماسية.",
+      "formula": "An Ihrer Stelle würde ich + Infinitiv",
+      "examples": [
+        {
+          "de": "An Ihrer Stelle würde ich das Gespräch dokumentieren.",
+          "ar": "لو كنت مكانك لوثقت المحادثة."
+        },
+        {
+          "de": "An deiner Stelle würde ich noch einmal nachfragen.",
+          "ar": "لو كنت مكانك لسألت مرة أخرى."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r09",
+      "title_de": "Es wäre besser, wenn ...",
+      "title_ar": "سيكون من الأفضل لو",
+      "explanation_de": "Diese Struktur gibt einen vorsichtigen Ratschlag.",
+      "explanation_ar": "تقدم هذه الصيغة نصيحة حذرة.",
+      "formula": "Es wäre besser, wenn + Konjunktiv II",
+      "examples": [
+        {
+          "de": "Es wäre besser, wenn Sie den Termin schriftlich bestätigen würden.",
+          "ar": "سيكون من الأفضل لو أكدت الموعد كتابيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr12-r10",
+      "title_de": "Höflichkeit verstärken",
+      "title_ar": "زيادة درجة الأدب",
+      "explanation_de": "Bitte, vielleicht, eventuell und kurze Begründungen machen Bitten kooperativer.",
+      "explanation_ar": "تجعل bitte وvielleicht وeventuell مع سبب مختصر الطلب أكثر تعاونًا وأدبًا.",
+      "formula": "Könnten Sie bitte/vielleicht/eventuell ...?",
+      "examples": [
+        {
+          "de": "Könnten Sie mir bitte helfen, weil ich das Formular nicht vollständig verstehe?",
+          "ar": "هل يمكنك مساعدتي من فضلك لأنني لا أفهم الاستمارة بالكامل؟"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr12-t01",
+      "title_de": "Bitte, Wunsch oder Ratschlag?",
+      "title_ar": "طلب أم رغبة أم نصيحة؟",
+      "headers_de": [
+        "Funktion",
+        "Muster",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الوظيفة",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Bitte",
+          "Könnten Sie ...?",
+          "Könnten Sie mir helfen?"
+        ],
+        [
+          "Bitte",
+          "Würden Sie ...?",
+          "Würden Sie kurz warten?"
+        ],
+        [
+          "Wunsch",
+          "Ich hätte gern ...",
+          "Ich hätte gern einen Termin."
+        ],
+        [
+          "Wunsch",
+          "Ich würde gern ...",
+          "Ich würde gern teilnehmen."
+        ],
+        [
+          "Ratschlag",
+          "Sie sollten ...",
+          "Sie sollten nachfragen."
+        ],
+        [
+          "Ratschlag",
+          "Sie könnten ...",
+          "Sie könnten online suchen."
+        ],
+        [
+          "Ratschlag",
+          "An Ihrer Stelle würde ich ...",
+          "An Ihrer Stelle würde ich anrufen."
+        ]
+      ]
+    },
+    {
+      "id": "gr12-t02",
+      "title_de": "Stärke des Ratschlags",
+      "title_ar": "قوة النصيحة",
+      "headers_de": [
+        "Form",
+        "Wirkung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "التأثير",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Sie müssen ...",
+          "Verpflichtung",
+          "Sie müssen die Frist einhalten."
+        ],
+        [
+          "Sie sollten ...",
+          "klarer Ratschlag",
+          "Sie sollten die Frist prüfen."
+        ],
+        [
+          "Sie könnten ...",
+          "vorsichtige Möglichkeit",
+          "Sie könnten um eine Verlängerung bitten."
+        ],
+        [
+          "An Ihrer Stelle würde ich ...",
+          "persönlicher Rat",
+          "An Ihrer Stelle würde ich anrufen."
+        ]
+      ]
+    },
+    {
+      "id": "gr12-t03",
+      "title_de": "Wünsche",
+      "title_ar": "الرغبات",
+      "headers_de": [
+        "Struktur",
+        "Verwendung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الاستخدام",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Ich hätte gern + Nomen",
+          "Ding/Leistung/Information",
+          "Ich hätte gern einen Termin."
+        ],
+        [
+          "Ich würde gern + Infinitiv",
+          "Handlung/Aktivität",
+          "Ich würde gern teilnehmen."
+        ],
+        [
+          "Ich möchte + Nomen/Infinitiv",
+          "neutral-höflicher Wunsch",
+          "Ich möchte einen Termin vereinbaren."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Könnten Sie mir bitte mitteilen, welche Unterlagen noch fehlen?",
+      "ar": "هل يمكنك إخباري من فضلك بالمستندات التي ما زالت ناقصة؟",
+      "note_de": "Höfliche Bitte mit indirekter Frage.",
+      "note_ar": "طلب مهذب مع سؤال غير مباشر."
+    },
+    {
+      "de": "Ich hätte gern einen Beratungstermin am späten Vormittag.",
+      "ar": "أرغب في موعد استشارة في وقت متأخر من الصباح.",
+      "note_de": "Wunsch nach einem Termin.",
+      "note_ar": "رغبة بالحصول على موعد."
+    },
+    {
+      "de": "Ich würde gern wissen, ob ein Abteilungswechsel möglich wäre.",
+      "ar": "أرغب في معرفة ما إذا كان الانتقال إلى قسم آخر ممكنًا.",
+      "note_de": "Höflicher Wunsch mit indirekter Frage.",
+      "note_ar": "رغبة مهذبة مع سؤال غير مباشر."
+    },
+    {
+      "de": "An Ihrer Stelle würde ich die wichtigsten Vorfälle schriftlich festhalten.",
+      "ar": "لو كنت مكانك لسجلت أهم الوقائع كتابيًا.",
+      "note_de": "Diplomatischer persönlicher Ratschlag.",
+      "note_ar": "نصيحة شخصية دبلوماسية."
+    },
+    {
+      "de": "Es wäre besser, wenn Sie die Änderung vorab mit dem Team besprechen würden.",
+      "ar": "سيكون من الأفضل لو ناقشت التغيير مسبقًا مع الفريق.",
+      "note_de": "Vorsichtiger Ratschlag mit wenn-Satz.",
+      "note_ar": "نصيحة حذرة مع جملة wenn."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Können Sie mir die Datei schicken?",
+      "correct": "Könnten Sie mir bitte die Datei schicken?",
+      "explanation_de": "Können Sie ist korrekt, aber könnten und bitte wirken höflicher.",
+      "explanation_ar": "صيغة Können Sie صحيحة، لكن könnten وbitte تجعلان الطلب أكثر أدبًا."
+    },
+    {
+      "wrong": "Ich hätte gern teilnehmen.",
+      "correct": "Ich würde gern teilnehmen.",
+      "explanation_de": "Vor einem Infinitiv verwendet man würde gern; hätte gern steht meist vor einem Nomen.",
+      "explanation_ar": "نستخدم würde gern قبل المصدر، بينما تأتي hätte gern غالبًا قبل اسم."
+    },
+    {
+      "wrong": "Sie sollten zu sprechen mit Ihrem Chef.",
+      "correct": "Sie sollten mit Ihrem Chef sprechen.",
+      "explanation_de": "Nach sollte steht der Infinitiv ohne zu am Satzende.",
+      "explanation_ar": "بعد sollte يأتي المصدر من دون zu في نهاية الجملة."
+    },
+    {
+      "wrong": "An Ihrer Stelle ich würde anrufen.",
+      "correct": "An Ihrer Stelle würde ich anrufen.",
+      "explanation_de": "Nach dem Satzanfang steht das finite Verb auf Position 2.",
+      "explanation_ar": "بعد بداية الجملة يأتي الفعل المصرف في المرتبة الثانية."
+    },
+    {
+      "wrong": "Würden Sie bitte die Tür geschlossen?",
+      "correct": "Würden Sie bitte die Tür schließen?",
+      "explanation_de": "Nach würden steht der Infinitiv schließen.",
+      "explanation_ar": "بعد würden يأتي المصدر schließen."
+    },
+    {
+      "wrong": "Es wäre besser, wenn Sie bestätigen würden den Termin.",
+      "correct": "Es wäre besser, wenn Sie den Termin bestätigen würden.",
+      "explanation_de": "Im Nebensatz steht bestätigen würden am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي bestätigen würden في النهاية."
+    }
+  ],
+  "quickSummary_de": [
+    "Könnten Sie ...? und Würden Sie ...? sind typische höfliche Bitten.",
+    "Hätten Sie ...? fragt höflich nach Zeit, Dingen oder Möglichkeiten.",
+    "Ich hätte gern steht meist vor einem Nomen.",
+    "Ich würde gern steht meist vor einem Infinitiv.",
+    "Ich möchte ist eine neutrale höfliche Wunschform.",
+    "Sie sollten gibt einen klaren Ratschlag.",
+    "Sie könnten bietet eine vorsichtige Möglichkeit.",
+    "An Ihrer Stelle würde ich formuliert einen persönlichen Rat.",
+    "Es wäre besser, wenn ... klingt vorsichtig und diplomatisch.",
+    "Bitte, vielleicht und eine kurze Begründung erhöhen die Höflichkeit."
+  ],
+  "quickSummary_ar": [
+    "Könnten Sie ...? وWürden Sie ...? من صيغ الطلب المهذب الشائعة.",
+    "تُستخدم Hätten Sie ...? للسؤال بأدب عن وقت أو شيء أو إمكانية.",
+    "تأتي Ich hätte gern غالبًا قبل اسم.",
+    "تأتي Ich würde gern غالبًا قبل مصدر.",
+    "تُعد Ich möchte صيغة رغبة مهذبة ومحايدة.",
+    "تعطي Sie sollten نصيحة واضحة.",
+    "تقدم Sie könnten خيارًا أو إمكانية بلطف.",
+    "تُستخدم An Ihrer Stelle würde ich لتقديم نصيحة شخصية.",
+    "تبدو Es wäre besser, wenn ... حذرة ودبلوماسية.",
+    "تزيد bitte وvielleicht والعبارة التفسيرية القصيرة من درجة الأدب."
+  ],
+  "relatedTopics": [
+    "gr-11",
+    "gr-13",
+    "gr-18",
+    "gr-19"
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-07",
+  "title_de": "Plusquamperfekt – Übungen",
+  "title_ar": "تمارين الماضي الأسبق",
+  "level": "B2",
+  "exerciseCount": 20,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr07-e001",
+      "topicId": "gr-07",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform mit hatte",
+      "title_ar": "الصيغة مع hatte",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich hatte den Bericht geschrieben.",
+      "explanation_de": "Schreiben verwendet haben; im Plusquamperfekt lautet die Form hatte geschrieben.",
+      "explanation_ar": "يستخدم schreiben الفعل haben، لذلك الصيغة هي hatte geschrieben.",
+      "grammarFocus": "formation_hatte",
+      "options": [
+        "Ich hatte den Bericht geschrieben.",
+        "Ich war den Bericht geschrieben.",
+        "Ich habe den Bericht geschrieben hatte.",
+        "Ich hatte den Bericht schreiben."
+      ]
+    },
+    {
+      "id": "gr07-e002",
+      "topicId": "gr-07",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform mit war",
+      "title_ar": "الصيغة مع war",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie war bereits gegangen.",
+      "explanation_de": "Gehen bildet das Plusquamperfekt mit war.",
+      "explanation_ar": "يستخدم gehen الفعل war في Plusquamperfekt.",
+      "grammarFocus": "formation_war",
+      "options": [
+        "Sie war bereits gegangen.",
+        "Sie hatte bereits gegangen.",
+        "Sie war bereits gehen.",
+        "Sie ist bereits gegangen war."
+      ]
+    },
+    {
+      "id": "gr07-e003",
+      "topicId": "gr-07",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Hatte oder war?",
+      "title_ar": "hatte أم war؟",
+      "prompt_de": "Der Zug ______ bereits angekommen.",
+      "prompt_ar": "كان القطار قد وصل بالفعل.",
+      "answer": "war",
+      "explanation_de": "Ankommen verwendet sein, daher lautet die Form war angekommen.",
+      "explanation_ar": "يستخدم ankommen الفعل sein، لذلك نقول war angekommen.",
+      "grammarFocus": "auxiliary_war",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr07-e004",
+      "topicId": "gr-07",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Hatte oder war?",
+      "title_ar": "hatte أم war؟",
+      "prompt_de": "Wir ______ die Unterlagen bereits geprüft.",
+      "prompt_ar": "كنا قد فحصنا المستندات بالفعل.",
+      "answer": "hatten",
+      "explanation_de": "Prüfen verwendet haben, daher lautet die Pluralform hatten geprüft.",
+      "explanation_ar": "يستخدم prüfen الفعل haben، وصيغة الجمع هي hatten geprüft.",
+      "grammarFocus": "auxiliary_hatten",
+      "acceptedAnswers": [
+        "hatten"
+      ]
+    },
+    {
+      "id": "gr07-e005",
+      "topicId": "gr-07",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Perfekt und Plusquamperfekt",
+      "title_ar": "Perfekt وPlusquamperfekt",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "hat geschrieben": "hatte geschrieben",
+        "ist gegangen": "war gegangen",
+        "hat sich vorbereitet": "hatte sich vorbereitet",
+        "ist angekommen": "war angekommen"
+      },
+      "explanation_de": "Das Hilfsverb wird vom Präsens ins Präteritum gesetzt.",
+      "explanation_ar": "يتحول الفعل المساعد من Präsens إلى Präteritum.",
+      "grammarFocus": "perfect_to_pluperfect",
+      "pairs": [
+        [
+          "hat geschrieben",
+          "hatte geschrieben"
+        ],
+        [
+          "ist gegangen",
+          "war gegangen"
+        ],
+        [
+          "hat sich vorbereitet",
+          "hatte sich vorbereitet"
+        ],
+        [
+          "ist angekommen",
+          "war angekommen"
+        ]
+      ]
+    },
+    {
+      "id": "gr07-e006",
+      "topicId": "gr-07",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Satzklammer",
+      "title_ar": "إطار الجملة",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir hatten die Aufgabe bereits erledigt.",
+      "explanation_de": "Hatten steht auf Position 2; erledigt steht am Ende.",
+      "explanation_ar": "تأتي hatten في المرتبة الثانية وerledigt في النهاية.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "bereits",
+        "erledigt",
+        "Wir",
+        "hatten",
+        "die Aufgabe"
+      ],
+      "acceptedAnswers": [
+        "Wir hatten die Aufgabe bereits erledigt."
+      ]
+    },
+    {
+      "id": "gr07-e007",
+      "topicId": "gr-07",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nachdem-Satz",
+      "title_ar": "جملة nachdem",
+      "prompt_de": "Nachdem ich den Antrag abgeschickt ______, erhielt ich eine Bestätigung.",
+      "prompt_ar": "بعد أن كنت قد أرسلت الطلب، تلقيت تأكيدًا.",
+      "answer": "hatte",
+      "explanation_de": "Das frühere Ereignis steht im Plusquamperfekt: abgeschickt hatte.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt: abgeschickt hatte.",
+      "grammarFocus": "nachdem_hatte",
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "gr07-e008",
+      "topicId": "gr-07",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nachdem mit sein",
+      "title_ar": "nachdem مع sein",
+      "prompt_de": "Nachdem der Techniker angekommen ______, begann die Reparatur.",
+      "prompt_ar": "بعد أن كان الفني قد وصل، بدأت عملية الإصلاح.",
+      "answer": "war",
+      "explanation_de": "Ankommen verwendet sein; im Nebensatz lautet die Form angekommen war.",
+      "explanation_ar": "يستخدم ankommen الفعل sein، والصيغة هي angekommen war.",
+      "grammarFocus": "nachdem_war",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr07-e009",
+      "topicId": "gr-07",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vorzeitigkeit ausdrücken",
+      "title_ar": "التعبير عن الأسبقية",
+      "prompt_de": "Verbinden Sie: Ich schickte den Antrag ab. Danach erhielt ich eine Bestätigung.",
+      "prompt_ar": "اربط الجملتين باستخدام nachdem.",
+      "answer": "Nachdem ich den Antrag abgeschickt hatte, erhielt ich eine Bestätigung.",
+      "explanation_de": "Das Abschicken geschah vor dem Erhalten und steht deshalb im Plusquamperfekt.",
+      "explanation_ar": "حدث الإرسال قبل استلام التأكيد، لذلك يأتي في Plusquamperfekt.",
+      "grammarFocus": "sequence_nachdem",
+      "acceptedAnswers": [
+        "Nachdem ich den Antrag abgeschickt hatte, erhielt ich eine Bestätigung."
+      ]
+    },
+    {
+      "id": "gr07-e010",
+      "topicId": "gr-07",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatzstellung",
+      "title_ar": "ترتيب الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil wir die Unterlagen bereits geprüft hatten",
+      "explanation_de": "Im Nebensatz stehen geprüft und hatten am Ende.",
+      "explanation_ar": "تأتي geprüft وhatten في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_order",
+      "tokens": [
+        "bereits",
+        "weil",
+        "hatten",
+        "wir",
+        "geprüft",
+        "die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "weil wir die Unterlagen bereits geprüft hatten"
+      ]
+    },
+    {
+      "id": "gr07-e011",
+      "topicId": "gr-07",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Zeitfolge",
+      "title_ar": "تسلسل الزمن",
+      "prompt_de": "Welche Kombination ist korrekt?",
+      "prompt_ar": "أي تركيب صحيح؟",
+      "answer": "Nachdem sie gegangen war, rief der Chef an.",
+      "explanation_de": "Das Gehen war früher und steht im Plusquamperfekt; das Anrufen steht im Präteritum.",
+      "explanation_ar": "كان الذهاب أسبق ويأتي في Plusquamperfekt، أما الاتصال ففي Präteritum.",
+      "grammarFocus": "past_sequence",
+      "options": [
+        "Nachdem sie gegangen war, rief der Chef an.",
+        "Nachdem sie ging, hatte der Chef angerufen.",
+        "Nachdem sie gegangen ist, rief der Chef gestern an.",
+        "Nachdem sie war gegangen, rief der Chef an."
+      ]
+    },
+    {
+      "id": "gr07-e012",
+      "topicId": "gr-07",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Früher oder später?",
+      "title_ar": "الأسبق أم اللاحق؟",
+      "prompt_de": "Ordnen Sie die Zeitform zu.",
+      "prompt_ar": "صِل الحدث بالزمن المناسب.",
+      "answer": {
+        "früheres abgeschlossenes Ereignis": "Plusquamperfekt",
+        "späteres vergangenes Ereignis": "Präteritum",
+        "mündlicher Rückblick ohne Vorzeitigkeit": "Perfekt"
+      },
+      "explanation_de": "Die Zeitform zeigt die zeitliche Beziehung zwischen den Ereignissen.",
+      "explanation_ar": "يوضح الزمن العلاقة الزمنية بين الأحداث.",
+      "grammarFocus": "tense_relationship",
+      "pairs": [
+        [
+          "früheres abgeschlossenes Ereignis",
+          "Plusquamperfekt"
+        ],
+        [
+          "späteres vergangenes Ereignis",
+          "Präteritum"
+        ],
+        [
+          "mündlicher Rückblick ohne Vorzeitigkeit",
+          "Perfekt"
+        ]
+      ]
+    },
+    {
+      "id": "gr07-e013",
+      "topicId": "gr-07",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Datenverlust",
+      "title_ar": "فقدان البيانات",
+      "prompt_de": "Sie möchten sagen, dass die Daten vor dem Systemausfall gesichert waren. Welche Form passt?",
+      "prompt_ar": "تريد القول إن البيانات كانت قد حُفظت قبل تعطل النظام. أي صيغة مناسبة؟",
+      "answer": "Wir hatten alle Daten gesichert, bevor das System ausfiel.",
+      "explanation_de": "Das Sichern geschah vor dem Ausfall und steht im Plusquamperfekt.",
+      "explanation_ar": "حدث حفظ البيانات قبل التعطل، لذلك يأتي في Plusquamperfekt.",
+      "grammarFocus": "before_event",
+      "options": [
+        "Wir hatten alle Daten gesichert, bevor das System ausfiel.",
+        "Wir sicherten alle Daten, nachdem das System ausgefallen war.",
+        "Wir haben alle Daten sichern, bevor das System ausfiel.",
+        "Wir waren alle Daten gesichert, bevor das System ausfiel."
+      ]
+    },
+    {
+      "id": "gr07-e014",
+      "topicId": "gr-07",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Bevor-Satz",
+      "title_ar": "جملة bevor",
+      "prompt_de": "Bilden Sie einen Satz: alle Unterlagen vorbereiten / die Besprechung beginnen",
+      "prompt_ar": "كوّن جملة باستخدام bevor.",
+      "answer": "Bevor die Besprechung begann, hatte ich alle Unterlagen vorbereitet.",
+      "explanation_de": "Die Vorbereitung war vor dem Beginn abgeschlossen.",
+      "explanation_ar": "كان تجهيز المستندات قد انتهى قبل بداية الاجتماع.",
+      "grammarFocus": "bevor_sequence",
+      "acceptedAnswers": [
+        "Bevor die Besprechung begann, hatte ich alle Unterlagen vorbereitet.",
+        "Ich hatte alle Unterlagen vorbereitet, bevor die Besprechung begann."
+      ]
+    },
+    {
+      "id": "gr07-e015",
+      "topicId": "gr-07",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Als-Satz",
+      "title_ar": "جملة als",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich hatte das Büro schon verlassen, als die Nachricht kam.",
+      "explanation_de": "Das Verlassen geschah vor dem Eintreffen der Nachricht.",
+      "explanation_ar": "حدثت مغادرة المكتب قبل وصول الرسالة.",
+      "grammarFocus": "als_sequence",
+      "tokens": [
+        "schon",
+        "als",
+        "Ich",
+        "kam",
+        "hatte",
+        "die Nachricht",
+        "verlassen",
+        "das Büro"
+      ],
+      "acceptedAnswers": [
+        "Ich hatte das Büro schon verlassen, als die Nachricht kam."
+      ]
+    },
+    {
+      "id": "gr07-e016",
+      "topicId": "gr-07",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Perfekt oder Plusquamperfekt",
+      "title_ar": "Perfekt أم Plusquamperfekt",
+      "prompt_de": "Welche Form zeigt eindeutig Vorzeitigkeit?",
+      "prompt_ar": "أي صيغة توضح الأسبقية بوضوح؟",
+      "answer": "Der Kunde rief an, nachdem er die Rechnung erhalten hatte.",
+      "explanation_de": "Erhalten hatte markiert das frühere Ereignis.",
+      "explanation_ar": "توضح erhalten hatte الحدث الأسبق.",
+      "grammarFocus": "identify_pluperfect",
+      "options": [
+        "Der Kunde rief an, nachdem er die Rechnung erhalten hatte.",
+        "Der Kunde hat angerufen und erhält die Rechnung.",
+        "Der Kunde rief an, nachdem er die Rechnung erhielt.",
+        "Der Kunde hatte angerufen, nachdem er die Rechnung erhält."
+      ]
+    },
+    {
+      "id": "gr07-e017",
+      "topicId": "gr-07",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexer Ablauf",
+      "title_ar": "تسلسل معقد",
+      "prompt_de": "Verbinden Sie: Die Abteilung erhielt mehrere Beschwerden. Danach begann die Leitung eine Untersuchung.",
+      "prompt_ar": "اربط الجملتين باستخدام nachdem.",
+      "answer": "Nachdem die Abteilung mehrere Beschwerden erhalten hatte, begann die Leitung eine Untersuchung.",
+      "explanation_de": "Das Erhalten der Beschwerden lag vor dem Beginn der Untersuchung.",
+      "explanation_ar": "سبق استلام الشكاوى بدء التحقيق.",
+      "grammarFocus": "formal_sequence",
+      "acceptedAnswers": [
+        "Nachdem die Abteilung mehrere Beschwerden erhalten hatte, begann die Leitung eine Untersuchung."
+      ]
+    },
+    {
+      "id": "gr07-e018",
+      "topicId": "gr-07",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Technischer Bericht",
+      "title_ar": "تقرير تقني",
+      "prompt_de": "Welche Formulierung ist für einen technischen Bericht am klarsten?",
+      "prompt_ar": "أي صياغة أوضح في تقرير تقني؟",
+      "answer": "Nachdem der Server neu gestartet worden war, funktionierte das System wieder.",
+      "explanation_de": "Der Neustart war vor der erneuten Funktionsfähigkeit abgeschlossen.",
+      "explanation_ar": "كانت إعادة تشغيل الخادم قد انتهت قبل أن يعمل النظام من جديد.",
+      "grammarFocus": "passive_pluperfect_recognition",
+      "options": [
+        "Nachdem der Server neu gestartet worden war, funktionierte das System wieder.",
+        "Nachdem der Server neu starten war, funktionierte das System wieder.",
+        "Nachdem der Server wurde neu gestartet, funktionierte das System wieder.",
+        "Nachdem der Server neu gestartet ist, funktionierte das System gestern wieder."
+      ]
+    },
+    {
+      "id": "gr07-e019",
+      "topicId": "gr-07",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Nebensatz",
+      "title_ar": "جملة فرعية معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Weil die Mitarbeitenden die Änderungen vorher nicht erhalten hatten, entstanden mehrere Rückfragen.",
+      "explanation_de": "Der weil-Satz enthält das frühere Ereignis im Plusquamperfekt.",
+      "explanation_ar": "تحتوي جملة weil على الحدث الأسبق في Plusquamperfekt.",
+      "grammarFocus": "complex_subordinate",
+      "tokens": [
+        "mehrere Rückfragen",
+        "vorher",
+        "Weil",
+        "entstanden",
+        "nicht",
+        "hatten",
+        "die Änderungen",
+        "erhalten",
+        "die Mitarbeitenden"
+      ],
+      "acceptedAnswers": [
+        "Weil die Mitarbeitenden die Änderungen vorher nicht erhalten hatten, entstanden mehrere Rückfragen."
+      ]
+    },
+    {
+      "id": "gr07-e020",
+      "topicId": "gr-07",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Plusquamperfekt",
+      "title_ar": "تدريب ختامي على Plusquamperfekt",
+      "prompt_de": "Schreiben Sie einen kurzen Bericht mit mindestens fünf Sätzen über zwei oder mehr vergangene Ereignisse. Verwenden Sie mindestens drei Plusquamperfektformen, einmal nachdem, einmal bevor oder als und mindestens ein Verb mit sein.",
+      "prompt_ar": "اكتب تقريرًا قصيرًا من خمس جمل على الأقل عن حدثين ماضيين أو أكثر. استخدم ثلاث صيغ Plusquamperfekt على الأقل، ومرة بعدما، ومرة bevor أو als، وفعلًا واحدًا على الأقل مع sein.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Plusquamperfektformen",
+          "mindestens eine Form mit hatte",
+          "mindestens eine Form mit war",
+          "nachdem korrekt verwendet",
+          "bevor oder als korrekt verwendet",
+          "späteres Ereignis im Präteritum oder Perfekt",
+          "logischer zeitlicher Ablauf"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Hilfsverb, Partizip II und die zeitliche Reihenfolge.",
+      "explanation_ar": "انتبه إلى الفعل المساعد وPartizip II والتسلسل الزمني.",
+      "grammarFocus": "mixed_pluperfect",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

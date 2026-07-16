@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-11",
+  "slug": "gr-11-konjunktiv-ii-mit-wuerde",
+  "order": 11,
+  "title_de": "Konjunktiv II mit würde",
+  "title_ar": "صيغة Konjunktiv II باستخدام würde",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konjunktiv_ii",
+  "estimatedMinutes": 45,
+  "learningObjectives_de": [
+    "Die würde-Form korrekt bilden und konjugieren.",
+    "Irreale oder hypothetische Situationen in der Gegenwart ausdrücken.",
+    "Wünsche, Vorschläge und vorsichtige Aussagen mit würde formulieren.",
+    "Würde-Sätze in Haupt- und Nebensätzen korrekt ordnen.",
+    "Zwischen würde + Infinitiv und häufigen einfachen Konjunktiv-II-Formen unterscheiden.",
+    "Typische Fehler wie würde + Partizip II oder falsche Verbendstellung vermeiden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين صيغة würde وتصريفها بصورة صحيحة.",
+    "التعبير عن مواقف افتراضية أو غير واقعية في الحاضر.",
+    "صياغة الأمنيات والاقتراحات والعبارات الحذرة باستخدام würde.",
+    "ترتيب جمل würde في الجمل الرئيسية والفرعية.",
+    "التمييز بين würde + Infinitiv وصيغ Konjunktiv II البسيطة الشائعة.",
+    "تجنب أخطاء مثل würde + Partizip II أو ترتيب الأفعال الخاطئ."
+  ],
+  "shortDescription_de": "Die würde-Form ist eine häufige und produktive Form des Konjunktiv II. Sie wird mit würde und dem Infinitiv gebildet.",
+  "shortDescription_ar": "صيغة würde من أكثر صيغ Konjunktiv II استعمالًا، وتتكوّن من würde مع مصدر الفعل.",
+  "explanation_de": "Die würde-Form wird mit dem Konjunktiv II von werden und dem Infinitiv gebildet. Sie beschreibt häufig irreale, hypothetische oder nur vorgestellte Situationen in der Gegenwart oder Zukunft. Außerdem wird sie für Wünsche, Vorschläge, vorsichtige Aussagen und höfliche Formulierungen verwendet. Im Hauptsatz steht würde auf Position 2 und der Infinitiv am Ende. Im Nebensatz stehen Infinitiv und würde gemeinsam am Satzende. Bei sein, haben und den Modalverben verwendet man in der Standardsprache meist die einfachen Formen wäre, hätte, könnte, müsste, dürfte und sollte statt würde sein, würde haben oder würde können. Bei vielen anderen Verben ist würde + Infinitiv dagegen sehr üblich und klar.",
+  "explanation_ar": "تتكوّن صيغة würde من Konjunktiv II للفعل werden ومن مصدر الفعل الأساسي. وتُستخدم غالبًا لوصف موقف افتراضي أو غير واقعي أو متخيَّل في الحاضر أو المستقبل. كما تُستخدم للأمنيات والاقتراحات والعبارات الحذرة والصياغات المهذبة. في الجملة الرئيسية يأتي würde في المرتبة الثانية ويأتي المصدر في النهاية. وفي الجملة الفرعية يأتي المصدر ثم würde في نهاية الجملة. مع sein وhaben والأفعال الناقصة نستخدم في اللغة القياسية غالبًا الصيغ البسيطة wäre وhätte وkönnte وmüsste وdürfte وsollte بدل würde sein أو würde haben أو würde können. أما مع كثير من الأفعال الأخرى فصيغة würde + Infinitiv شائعة وواضحة.",
+  "rules": [
+    {
+      "id": "gr11-r01",
+      "title_de": "Bildung",
+      "title_ar": "التكوين",
+      "explanation_de": "Würde wird konjugiert; der Vollverb-Infinitiv steht am Satzende.",
+      "explanation_ar": "تُصرّف würde ويأتي مصدر الفعل الأساسي في نهاية الجملة.",
+      "formula": "Subjekt + würde + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Ich würde gern mehr Verantwortung übernehmen.",
+          "ar": "أرغب في تحمّل مسؤولية أكبر."
+        },
+        {
+          "de": "Wir würden die Lösung noch einmal prüfen.",
+          "ar": "سنراجع الحل مرة أخرى في حالة افتراضية."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r02",
+      "title_de": "Konjugation von würde",
+      "title_ar": "تصريف würde",
+      "explanation_de": "Die Formen lauten: ich würde, du würdest, er/sie/es würde, wir würden, ihr würdet, sie/Sie würden.",
+      "explanation_ar": "الصيغ هي: ich würde وdu würdest وer/sie/es würde وwir würden وihr würdet وsie/Sie würden.",
+      "formula": "würde | würdest | würde | würden | würdet | würden",
+      "examples": [
+        {
+          "de": "Du würdest von dieser Schulung profitieren.",
+          "ar": "ستستفيد من هذه الدورة في الحالة الافتراضية."
+        },
+        {
+          "de": "Die Kolleginnen würden uns unterstützen.",
+          "ar": "ستدعمنا الزميلات في الحالة الافتراضية."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r03",
+      "title_de": "Irreale Situation in der Gegenwart",
+      "title_ar": "موقف غير واقعي في الحاضر",
+      "explanation_de": "Die würde-Form beschreibt eine Situation, die derzeit nicht wirklich besteht.",
+      "explanation_ar": "تصف صيغة würde موقفًا غير موجود فعليًا في الوقت الحالي.",
+      "formula": "Wenn + Konjunktiv II, würde + Infinitiv",
+      "examples": [
+        {
+          "de": "Wenn ich mehr Zeit hätte, würde ich einen weiteren Kurs besuchen.",
+          "ar": "لو كان لدي وقت أكثر لالتحقت بدورة إضافية."
+        },
+        {
+          "de": "Wenn wir mehr Personal hätten, würden wir die Aufgabe schneller erledigen.",
+          "ar": "لو كان لدينا موظفون أكثر لأنجزنا المهمة بسرعة أكبر."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r04",
+      "title_de": "Wunsch",
+      "title_ar": "الأمنية",
+      "explanation_de": "Mit würde gern kann man einen Wunsch oder eine persönliche Vorstellung ausdrücken.",
+      "explanation_ar": "يمكن استخدام würde gern للتعبير عن أمنية أو رغبة شخصية.",
+      "formula": "Ich würde gern + Infinitiv",
+      "examples": [
+        {
+          "de": "Ich würde gern in einer anderen Abteilung arbeiten.",
+          "ar": "أرغب في العمل في قسم آخر."
+        },
+        {
+          "de": "Wir würden gern mehr über das Projekt erfahren.",
+          "ar": "نرغب في معرفة المزيد عن المشروع."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r05",
+      "title_de": "Vorschlag und vorsichtige Aussage",
+      "title_ar": "اقتراح وعبارة حذرة",
+      "explanation_de": "Die würde-Form kann eine Aussage weniger direkt und damit diplomatischer machen.",
+      "explanation_ar": "يمكن أن تجعل صيغة würde العبارة أقل مباشرة وأكثر دبلوماسية.",
+      "formula": "Ich würde vorschlagen / Ich würde sagen / Das würde bedeuten",
+      "examples": [
+        {
+          "de": "Ich würde vorschlagen, den Termin zu verschieben.",
+          "ar": "أقترح تأجيل الموعد."
+        },
+        {
+          "de": "Ich würde sagen, dass wir noch mehr Informationen brauchen.",
+          "ar": "أرى أننا نحتاج إلى معلومات إضافية."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r06",
+      "title_de": "Hauptsatz und Nebensatz",
+      "title_ar": "الجملة الرئيسية والفرعية",
+      "explanation_de": "Im Hauptsatz steht würde auf Position 2. Im Nebensatz steht der Infinitiv vor würde am Ende.",
+      "explanation_ar": "في الجملة الرئيسية تأتي würde في المرتبة الثانية، وفي الجملة الفرعية يأتي المصدر قبل würde في النهاية.",
+      "formula": "Hauptsatz: würde ... Infinitiv | Nebensatz: ... Infinitiv würde",
+      "examples": [
+        {
+          "de": "Ich würde die Aufgabe übernehmen.",
+          "ar": "سأتولى المهمة في الحالة الافتراضية."
+        },
+        {
+          "de": "Sie sagt, dass sie die Aufgabe übernehmen würde.",
+          "ar": "تقول إنها قد تتولى المهمة."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r07",
+      "title_de": "Einfache Formen statt würde",
+      "title_ar": "الصيغ البسيطة بدل würde",
+      "explanation_de": "Bei sein, haben und Modalverben sind die einfachen Formen meist natürlicher: wäre, hätte, könnte, müsste, dürfte, sollte.",
+      "explanation_ar": "مع sein وhaben والأفعال الناقصة تكون الصيغ البسيطة غالبًا أكثر طبيعية: wäre وhätte وkönnte وmüsste وdürfte وsollte.",
+      "formula": "wäre / hätte / könnte / müsste / dürfte / sollte",
+      "examples": [
+        {
+          "de": "Ich hätte gern mehr Zeit.",
+          "ar": "أتمنى لو كان لدي وقت أكثر."
+        },
+        {
+          "de": "Wir könnten morgen darüber sprechen.",
+          "ar": "يمكننا التحدث عن ذلك غدًا."
+        },
+        {
+          "de": "Das wäre eine gute Lösung.",
+          "ar": "سيكون ذلك حلًا جيدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr11-r08",
+      "title_de": "Keine Partizipform nach würde",
+      "title_ar": "عدم استخدام Partizip بعد würde",
+      "explanation_de": "Nach würde steht der Infinitiv, nicht das Partizip II.",
+      "explanation_ar": "يأتي المصدر بعد würde وليس Partizip II.",
+      "formula": "würde machen, nicht: würde gemacht",
+      "examples": [
+        {
+          "de": "Ich würde den Bericht schreiben.",
+          "ar": "سأكتب التقرير في الحالة الافتراضية."
+        },
+        {
+          "de": "Wir würden die Kundin anrufen.",
+          "ar": "سنتصل بالعميلة في الحالة الافتراضية."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr11-t01",
+      "title_de": "Konjugation von würde",
+      "title_ar": "تصريف würde",
+      "headers_de": [
+        "Person",
+        "Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الشخص",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "ich",
+          "würde",
+          "Ich würde helfen."
+        ],
+        [
+          "du",
+          "würdest",
+          "Du würdest helfen."
+        ],
+        [
+          "er/sie/es",
+          "würde",
+          "Sie würde helfen."
+        ],
+        [
+          "wir",
+          "würden",
+          "Wir würden helfen."
+        ],
+        [
+          "ihr",
+          "würdet",
+          "Ihr würdet helfen."
+        ],
+        [
+          "sie/Sie",
+          "würden",
+          "Sie würden helfen."
+        ]
+      ]
+    },
+    {
+      "id": "gr11-t02",
+      "title_de": "Würde-Form oder einfache Form?",
+      "title_ar": "würde أم الصيغة البسيطة؟",
+      "headers_de": [
+        "Bedeutung",
+        "bevorzugte Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المعنى",
+        "الصيغة المفضلة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "sein",
+          "wäre",
+          "Das wäre sinnvoll."
+        ],
+        [
+          "haben",
+          "hätte",
+          "Ich hätte mehr Zeit."
+        ],
+        [
+          "können",
+          "könnte",
+          "Wir könnten helfen."
+        ],
+        [
+          "müssen",
+          "müsste",
+          "Ich müsste früher gehen."
+        ],
+        [
+          "viele Vollverben",
+          "würde + Infinitiv",
+          "Ich würde länger bleiben."
+        ]
+      ]
+    },
+    {
+      "id": "gr11-t03",
+      "title_de": "Typische Funktionen",
+      "title_ar": "وظائف شائعة",
+      "headers_de": [
+        "Funktion",
+        "Muster",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الوظيفة",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Wunsch",
+          "würde gern",
+          "Ich würde gern wechseln."
+        ],
+        [
+          "hypothetische Folge",
+          "würde + Infinitiv",
+          "Ich würde mehr lernen."
+        ],
+        [
+          "Vorschlag",
+          "würde vorschlagen",
+          "Ich würde vorschlagen, ..."
+        ],
+        [
+          "vorsichtige Aussage",
+          "würde sagen",
+          "Ich würde sagen, dass ..."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wenn ich die Möglichkeit hätte, würde ich an der Fortbildung teilnehmen.",
+      "ar": "لو أتيحت لي الفرصة لشاركت في الدورة التدريبية.",
+      "note_de": "Hätte im wenn-Satz, würde teilnehmen im Hauptsatz.",
+      "note_ar": "تأتي hätte في جملة wenn وwürde teilnehmen في الجملة الرئيسية."
+    },
+    {
+      "de": "Ich würde gern in einem Bereich arbeiten, in dem ich meine Erfahrungen besser einsetzen kann.",
+      "ar": "أرغب في العمل في مجال أستطيع فيه استخدام خبرتي بصورة أفضل.",
+      "note_de": "Höflich formulierter beruflicher Wunsch.",
+      "note_ar": "رغبة مهنية مصاغة بأسلوب مهذب."
+    },
+    {
+      "de": "Ich würde vorschlagen, zuerst die dringendsten Aufgaben zu erledigen.",
+      "ar": "أقترح إنجاز المهام الأكثر إلحاحًا أولًا.",
+      "note_de": "Diplomatischer Vorschlag.",
+      "note_ar": "اقتراح دبلوماسي."
+    },
+    {
+      "de": "Die Kollegin erklärte, dass sie uns bei Bedarf unterstützen würde.",
+      "ar": "أوضحت الزميلة أنها ستدعمنا عند الحاجة.",
+      "note_de": "Würde-Form im Nebensatz.",
+      "note_ar": "صيغة würde في جملة فرعية."
+    },
+    {
+      "de": "Ohne zusätzliche Informationen würde ich noch keine endgültige Entscheidung treffen.",
+      "ar": "من دون معلومات إضافية لن أتخذ قرارًا نهائيًا بعد.",
+      "note_de": "Hypothetische Bedingung ohne wenn-Satz.",
+      "note_ar": "شرط افتراضي من دون جملة wenn."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich würde den Bericht geschrieben.",
+      "correct": "Ich würde den Bericht schreiben.",
+      "explanation_de": "Nach würde steht der Infinitiv.",
+      "explanation_ar": "يأتي المصدر بعد würde."
+    },
+    {
+      "wrong": "Du würde mehr lernen.",
+      "correct": "Du würdest mehr lernen.",
+      "explanation_de": "Für du lautet die Form würdest.",
+      "explanation_ar": "صيغة würde مع du هي würdest."
+    },
+    {
+      "wrong": "Wenn ich mehr Zeit würde haben, würde ich mehr lernen.",
+      "correct": "Wenn ich mehr Zeit hätte, würde ich mehr lernen.",
+      "explanation_de": "Bei haben verwendet man normalerweise die einfache Form hätte.",
+      "explanation_ar": "مع haben نستخدم عادة الصيغة البسيطة hätte."
+    },
+    {
+      "wrong": "Ich glaube, dass sie würde die Aufgabe übernehmen.",
+      "correct": "Ich glaube, dass sie die Aufgabe übernehmen würde.",
+      "explanation_de": "Im Nebensatz steht würde am Ende.",
+      "explanation_ar": "تأتي würde في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Wir würden können Ihnen helfen.",
+      "correct": "Wir könnten Ihnen helfen.",
+      "explanation_de": "Bei können ist die einfache Form könnten üblicher und korrekt.",
+      "explanation_ar": "مع können تكون الصيغة könnten هي المعتادة والصحيحة."
+    },
+    {
+      "wrong": "Ich würde gern einen anderen Arbeitsplatz gearbeitet.",
+      "correct": "Ich würde gern an einem anderen Arbeitsplatz arbeiten.",
+      "explanation_de": "Nach würde gern steht der Infinitiv; außerdem verlangt arbeiten hier die Präposition an.",
+      "explanation_ar": "بعد würde gern يأتي المصدر، ويحتاج arbeiten هنا إلى حرف الجر an."
+    }
+  ],
+  "quickSummary_de": [
+    "Die würde-Form besteht aus würde + Infinitiv.",
+    "Würde wird konjugiert; der Infinitiv bleibt unverändert.",
+    "Sie beschreibt häufig irreale oder hypothetische Situationen.",
+    "Mit würde gern drückt man Wünsche aus.",
+    "Mit würde vorschlagen oder würde sagen formuliert man diplomatischer.",
+    "Im Hauptsatz steht würde auf Position 2.",
+    "Im Nebensatz steht würde am Ende.",
+    "Bei sein, haben und Modalverben sind einfache Formen meist besser.",
+    "Nach würde steht kein Partizip II."
+  ],
+  "quickSummary_ar": [
+    "تتكوّن الصيغة من würde + المصدر.",
+    "تُصرّف würde ويبقى المصدر من دون تغيير.",
+    "تصف غالبًا مواقف افتراضية أو غير واقعية.",
+    "تُستخدم würde gern للتعبير عن الرغبات.",
+    "تجعل würde vorschlagen وwürde sagen الكلام أكثر دبلوماسية.",
+    "تأتي würde في المرتبة الثانية في الجملة الرئيسية.",
+    "تأتي würde في نهاية الجملة الفرعية.",
+    "تكون الصيغ البسيطة أفضل غالبًا مع sein وhaben والأفعال الناقصة.",
+    "لا يأتي Partizip II بعد würde."
+  ],
+  "relatedTopics": [
+    "gr-12",
+    "gr-13",
+    "gr-18",
+    "gr-19"
+  ]
+}

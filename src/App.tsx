@@ -19,6 +19,7 @@ import {
   MessageSquareText,
   ListChecks,
   CaseSensitive,
+  LibraryBig,
 } from "lucide-react";
 
 import Dashboard from "./pages/Dashboard";
@@ -38,6 +39,7 @@ import {
 } from "./pages/SpecializedVocabularyTrainer";
 import VerbCategoryTrainer from "./pages/VerbCategoryTrainer";
 import DailyStudySet from "./pages/DailyStudySet";
+import B2GrammarPage from "./features/b2-grammar/B2GrammarPage";
 
 import { ProgressService } from "./services/progressService";
 import { UserSettings } from "./types";
@@ -197,6 +199,7 @@ export default function App() {
     { id: "phrase-trainer", label: translate("phraseTrainer"), icon: MessageSquareText },
     { id: "general-vocabulary-trainer", label: translate("generalVocabularyTrainer"), icon: ListChecks },
     { id: "verb-category-trainer", label: translate("verbCategoryTrainer"), icon: Target },
+    { id: "b2-grammar", label: isRtl ? "قواعد B2" : "B2 Grammatik", icon: LibraryBig },
     { id: "quick", label: translate("quickPractice"), icon: Shuffle },
     { id: "review", label: translate("reviewMode"), icon: AlertTriangle },
     { id: "mistakes", label: translate("mistakeReview"), icon: Target },
@@ -413,6 +416,7 @@ export default function App() {
             {currentPage === "verb-category-trainer" && (
               <VerbCategoryTrainer onNavigate={handleNavigate} settings={settings} />
             )}
+            {currentPage === "b2-grammar" && <B2GrammarPage settings={settings} />}
             {currentPage === "quick" && (
               <QuickPractice onNavigate={handleNavigate} settings={settings} />
             )}

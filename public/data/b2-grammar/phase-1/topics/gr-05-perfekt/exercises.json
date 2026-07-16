@@ -1,0 +1,539 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-05",
+  "title_de": "Perfekt – Übungen",
+  "title_ar": "تمارين الماضي المركب",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr05-e001",
+      "topicId": "gr-05",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Hilfsverb haben",
+      "title_ar": "الفعل المساعد haben",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich habe den Bericht geschrieben.",
+      "explanation_de": "Schreiben ist hier transitiv und bildet das Perfekt mit haben.",
+      "explanation_ar": "الفعل schreiben متعدٍ هنا ويستخدم haben.",
+      "grammarFocus": "auxiliary_haben",
+      "options": [
+        "Ich habe den Bericht geschrieben.",
+        "Ich bin den Bericht geschrieben.",
+        "Ich habe den Bericht geschreiben.",
+        "Ich bin den Bericht geschreiben."
+      ]
+    },
+    {
+      "id": "gr05-e002",
+      "topicId": "gr-05",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Hilfsverb sein",
+      "title_ar": "الفعل المساعد sein",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie ist nach Berlin gefahren.",
+      "explanation_de": "Die Bewegung von einem Ort zu einem anderen wird hier mit sein gebildet.",
+      "explanation_ar": "يُستخدم sein هنا لأن الجملة تعبّر عن انتقال من مكان إلى آخر.",
+      "grammarFocus": "auxiliary_sein",
+      "options": [
+        "Sie ist nach Berlin gefahren.",
+        "Sie hat nach Berlin gefahren.",
+        "Sie ist nach Berlin gefahrt.",
+        "Sie hat nach Berlin gefahrt."
+      ]
+    },
+    {
+      "id": "gr05-e003",
+      "topicId": "gr-05",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Regelmäßiges Partizip",
+      "title_ar": "Partizip منتظم",
+      "prompt_de": "Bilden Sie das Partizip II von „machen“.",
+      "prompt_ar": "كوّن Partizip II من machen.",
+      "answer": "gemacht",
+      "explanation_de": "Regelmäßige Verben bilden ge- + Stamm + -t.",
+      "explanation_ar": "تكوّن الأفعال المنتظمة ge- + الجذر + -t.",
+      "grammarFocus": "regular_participle",
+      "acceptedAnswers": [
+        "gemacht"
+      ],
+      "infinitive": "machen"
+    },
+    {
+      "id": "gr05-e004",
+      "topicId": "gr-05",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Starkes Partizip",
+      "title_ar": "Partizip قوي",
+      "prompt_de": "Bilden Sie das Partizip II von „schreiben“.",
+      "prompt_ar": "كوّن Partizip II من schreiben.",
+      "answer": "geschrieben",
+      "explanation_de": "Schreiben ist stark und bildet das Partizip geschrieben.",
+      "explanation_ar": "الفعل schreiben قوي وصيغته geschrieben.",
+      "grammarFocus": "strong_participle",
+      "acceptedAnswers": [
+        "geschrieben"
+      ],
+      "infinitive": "schreiben"
+    },
+    {
+      "id": "gr05-e005",
+      "topicId": "gr-05",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل منفصل",
+      "prompt_de": "Wir haben die Kundin gestern ______. (anrufen)",
+      "prompt_ar": "لقد اتصلنا بالعميلة أمس. (anrufen)",
+      "answer": "angerufen",
+      "explanation_de": "Bei anrufen steht ge zwischen an und rufen.",
+      "explanation_ar": "في anrufen يأتي ge بين an وrufen.",
+      "grammarFocus": "separable_participle",
+      "acceptedAnswers": [
+        "angerufen"
+      ]
+    },
+    {
+      "id": "gr05-e006",
+      "topicId": "gr-05",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Verb auf -ieren",
+      "title_ar": "فعل منتهٍ بـ -ieren",
+      "prompt_de": "Sie hat die Veranstaltung ______. (organisieren)",
+      "prompt_ar": "لقد نظّمت الفعالية. (organisieren)",
+      "answer": "organisiert",
+      "explanation_de": "Verben auf -ieren bilden das Partizip ohne ge-.",
+      "explanation_ar": "الأفعال المنتهية بـ -ieren تكوّن Partizip من دون ge-.",
+      "grammarFocus": "ieren_participle",
+      "acceptedAnswers": [
+        "organisiert"
+      ]
+    },
+    {
+      "id": "gr05-e007",
+      "topicId": "gr-05",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Hilfsverb zuordnen",
+      "title_ar": "اختيار الفعل المساعد",
+      "prompt_de": "Ordnen Sie das passende Hilfsverb zu.",
+      "prompt_ar": "صِل الفعل المساعد المناسب.",
+      "answer": {
+        "arbeiten": "haben",
+        "sich bewerben": "haben",
+        "ankommen": "sein",
+        "bleiben": "sein"
+      },
+      "explanation_de": "Die meisten und reflexiven Verben nehmen haben; ankommen und bleiben nehmen sein.",
+      "explanation_ar": "تستخدم معظم الأفعال والأفعال الانعكاسية haben، بينما تستخدم ankommen وbleiben sein.",
+      "grammarFocus": "auxiliary_matching",
+      "pairs": [
+        [
+          "arbeiten",
+          "haben"
+        ],
+        [
+          "sich bewerben",
+          "haben"
+        ],
+        [
+          "ankommen",
+          "sein"
+        ],
+        [
+          "bleiben",
+          "sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr05-e008",
+      "topicId": "gr-05",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Satzklammer im Perfekt",
+      "title_ar": "إطار الجملة في Perfekt",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Personalabteilung hat meine Unterlagen bereits geprüft.",
+      "explanation_de": "Hat steht auf Position 2; geprüft steht am Satzende.",
+      "explanation_ar": "تأتي hat في المرتبة الثانية وgeprüft في نهاية الجملة.",
+      "grammarFocus": "perfect_main_clause",
+      "tokens": [
+        "bereits",
+        "geprüft",
+        "hat",
+        "meine Unterlagen",
+        "Die Personalabteilung"
+      ],
+      "acceptedAnswers": [
+        "Die Personalabteilung hat meine Unterlagen bereits geprüft."
+      ]
+    },
+    {
+      "id": "gr05-e009",
+      "topicId": "gr-05",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Gemischtes Verb",
+      "title_ar": "فعل مختلط",
+      "prompt_de": "Er hat die Unterlagen gestern ______. (bringen)",
+      "prompt_ar": "لقد أحضر المستندات أمس. (bringen)",
+      "answer": "gebracht",
+      "explanation_de": "Bringen ist ein gemischtes Verb: brachte – gebracht.",
+      "explanation_ar": "bringen فعل مختلط: brachte – gebracht.",
+      "grammarFocus": "mixed_participle",
+      "acceptedAnswers": [
+        "gebracht"
+      ]
+    },
+    {
+      "id": "gr05-e010",
+      "topicId": "gr-05",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Untrennbares Präfix",
+      "title_ar": "سابقة غير منفصلة",
+      "prompt_de": "Ich habe die Erklärung nicht ______. (verstehen)",
+      "prompt_ar": "لم أفهم الشرح. (verstehen)",
+      "answer": "verstanden",
+      "explanation_de": "Ver- ist untrennbar; deshalb steht kein ge-.",
+      "explanation_ar": "السابقة ver- غير منفصلة، لذلك لا نستخدم ge-.",
+      "grammarFocus": "inseparable_participle",
+      "acceptedAnswers": [
+        "verstanden"
+      ]
+    },
+    {
+      "id": "gr05-e011",
+      "topicId": "gr-05",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Reflexives Verb",
+      "title_ar": "فعل انعكاسي",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich habe mich gut auf das Gespräch vorbereitet.",
+      "explanation_de": "Reflexive Verben bilden das Perfekt normalerweise mit haben.",
+      "explanation_ar": "تستخدم الأفعال الانعكاسية haben عادة في Perfekt.",
+      "grammarFocus": "reflexive_perfect",
+      "options": [
+        "Ich habe mich gut auf das Gespräch vorbereitet.",
+        "Ich bin mich gut auf das Gespräch vorbereitet.",
+        "Ich habe sich gut auf das Gespräch vorbereitet.",
+        "Ich bin mir gut auf das Gespräch vorbereitet."
+      ]
+    },
+    {
+      "id": "gr05-e012",
+      "topicId": "gr-05",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Perfekt mit sein",
+      "title_ar": "Perfekt مع sein",
+      "prompt_de": "Bilden Sie einen Satz: der Zug / pünktlich / ankommen",
+      "prompt_ar": "كوّن جملة Perfekt.",
+      "answer": "Der Zug ist pünktlich angekommen.",
+      "explanation_de": "Ankommen beschreibt eine Ortsveränderung und verwendet sein.",
+      "explanation_ar": "يعبّر ankommen عن تغير مكان ويستخدم sein.",
+      "grammarFocus": "movement_with_sein",
+      "acceptedAnswers": [
+        "Der Zug ist pünktlich angekommen."
+      ]
+    },
+    {
+      "id": "gr05-e013",
+      "topicId": "gr-05",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Partiziptypen",
+      "title_ar": "أنواع Partizip",
+      "prompt_de": "Ordnen Sie Infinitiv und Partizip II zu.",
+      "prompt_ar": "صِل المصدر بـ Partizip II.",
+      "answer": {
+        "machen": "gemacht",
+        "schreiben": "geschrieben",
+        "bringen": "gebracht",
+        "ausfüllen": "ausgefüllt",
+        "besuchen": "besucht",
+        "reparieren": "repariert"
+      },
+      "explanation_de": "Die Partizipbildung hängt vom Verbtyp ab.",
+      "explanation_ar": "يعتمد تكوين Partizip على نوع الفعل.",
+      "grammarFocus": "participle_types",
+      "pairs": [
+        [
+          "machen",
+          "gemacht"
+        ],
+        [
+          "schreiben",
+          "geschrieben"
+        ],
+        [
+          "bringen",
+          "gebracht"
+        ],
+        [
+          "ausfüllen",
+          "ausgefüllt"
+        ],
+        [
+          "besuchen",
+          "besucht"
+        ],
+        [
+          "reparieren",
+          "repariert"
+        ]
+      ]
+    },
+    {
+      "id": "gr05-e014",
+      "topicId": "gr-05",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass sie den Bericht geschrieben hat",
+      "explanation_de": "Im Nebensatz stehen geschrieben und hat am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي geschrieben وhat في النهاية.",
+      "grammarFocus": "perfect_subordinate",
+      "tokens": [
+        "geschrieben",
+        "dass",
+        "den Bericht",
+        "hat",
+        "sie"
+      ],
+      "acceptedAnswers": [
+        "dass sie den Bericht geschrieben hat"
+      ]
+    },
+    {
+      "id": "gr05-e015",
+      "topicId": "gr-05",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Weil-Satz im Perfekt",
+      "title_ar": "جملة weil في Perfekt",
+      "prompt_de": "Verbinden Sie: Er ist zu spät gekommen. Er hat den Anfang verpasst.",
+      "prompt_ar": "اربط الجملتين باستخدام weil.",
+      "answer": "Weil er zu spät gekommen ist, hat er den Anfang verpasst.",
+      "explanation_de": "Im Nebensatz steht gekommen ist am Ende; danach beginnt der Hauptsatz mit hat.",
+      "explanation_ar": "تأتي gekommen ist في نهاية الجملة الفرعية، ثم يبدأ الجزء الرئيسي بـ hat.",
+      "grammarFocus": "perfect_subordinate_first",
+      "acceptedAnswers": [
+        "Weil er zu spät gekommen ist, hat er den Anfang verpasst.",
+        "Er hat den Anfang verpasst, weil er zu spät gekommen ist."
+      ]
+    },
+    {
+      "id": "gr05-e016",
+      "topicId": "gr-05",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Beruflicher Rückblick",
+      "title_ar": "مراجعة حدث مهني",
+      "prompt_de": "Sie berichten mündlich über eine abgeschlossene Aufgabe. Welche Form passt?",
+      "prompt_ar": "تتحدث شفهيًا عن مهمة منتهية. أي صيغة مناسبة؟",
+      "answer": "Wir haben den Bericht gestern fertiggestellt.",
+      "explanation_de": "Für eine abgeschlossene Handlung in einem mündlichen Bericht ist das Perfekt passend.",
+      "explanation_ar": "Perfekt مناسب لفعل انتهى في تقرير شفهي.",
+      "grammarFocus": "spoken_past",
+      "options": [
+        "Wir haben den Bericht gestern fertiggestellt.",
+        "Wir werden den Bericht gestern fertigstellen.",
+        "Wir stellen den Bericht gestern fertig.",
+        "Wir hatten den Bericht morgen fertiggestellt."
+      ]
+    },
+    {
+      "id": "gr05-e017",
+      "topicId": "gr-05",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Geworden oder worden?",
+      "title_ar": "geworden أم worden؟",
+      "prompt_de": "Welche Form beschreibt eine Zustandsveränderung?",
+      "prompt_ar": "أي صيغة تصف تغيرًا في الحالة؟",
+      "answer": "Die Situation ist schwieriger geworden.",
+      "explanation_de": "Geworden ist das Partizip II von werden im Sinn von „sich verändern“.",
+      "explanation_ar": "geworden هو Partizip II من werden بمعنى يصبح.",
+      "grammarFocus": "geworden",
+      "options": [
+        "Die Situation ist schwieriger geworden.",
+        "Die Situation ist schwieriger worden geprüft.",
+        "Die Situation hat schwieriger geworden.",
+        "Die Situation ist schwieriger gewerdet."
+      ]
+    },
+    {
+      "id": "gr05-e018",
+      "topicId": "gr-05",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Reflexiv und trennbar",
+      "title_ar": "فعل انعكاسي ومنفصل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir haben uns rechtzeitig angemeldet.",
+      "explanation_de": "Das Reflexivpronomen steht im Mittelfeld; angemeldet steht am Ende.",
+      "explanation_ar": "يأتي الضمير الانعكاسي في وسط الجملة وangemeldet في النهاية.",
+      "grammarFocus": "reflexive_separable_perfect",
+      "tokens": [
+        "rechtzeitig",
+        "uns",
+        "angemeldet",
+        "Wir",
+        "haben"
+      ],
+      "acceptedAnswers": [
+        "Wir haben uns rechtzeitig angemeldet."
+      ]
+    },
+    {
+      "id": "gr05-e019",
+      "topicId": "gr-05",
+      "type": "verb_form",
+      "difficulty": "medium",
+      "title_de": "Partizip von teilnehmen",
+      "title_ar": "Partizip من teilnehmen",
+      "prompt_de": "Bilden Sie das Partizip II von „teilnehmen“.",
+      "prompt_ar": "كوّن Partizip II من teilnehmen.",
+      "answer": "teilgenommen",
+      "explanation_de": "Teilnehmen ist trennbar: teil + ge + nommen.",
+      "explanation_ar": "teilnehmen فعل منفصل: teil + ge + nommen.",
+      "grammarFocus": "separable_strong_participle",
+      "acceptedAnswers": [
+        "teilgenommen"
+      ],
+      "infinitive": "teilnehmen"
+    },
+    {
+      "id": "gr05-e020",
+      "topicId": "gr-05",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Ersatzinfinitiv",
+      "title_ar": "المصدر البديل",
+      "prompt_de": "Bilden Sie das Perfekt: Wir mussten den Termin verschieben.",
+      "prompt_ar": "حوّل إلى Perfekt: اضطررنا إلى تأجيل الموعد.",
+      "answer": "Wir haben den Termin verschieben müssen.",
+      "explanation_de": "Mit Modalverb und weiterem Infinitiv verwendet man den Ersatzinfinitiv müssen.",
+      "explanation_ar": "مع الفعل الناقص ومصدر آخر نستخدم المصدر البديل müssen.",
+      "grammarFocus": "modal_double_infinitive",
+      "acceptedAnswers": [
+        "Wir haben den Termin verschieben müssen."
+      ]
+    },
+    {
+      "id": "gr05-e021",
+      "topicId": "gr-05",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Modalverb im Perfekt",
+      "title_ar": "فعل ناقص في Perfekt",
+      "prompt_de": "Welche Form ist standardsprachlich korrekt?",
+      "prompt_ar": "أي صيغة صحيحة في اللغة القياسية؟",
+      "answer": "Sie hat nicht teilnehmen können.",
+      "explanation_de": "Bei Modalverb plus weiterem Infinitiv steht der Ersatzinfinitiv können.",
+      "explanation_ar": "مع فعل ناقص ومصدر آخر نستخدم المصدر البديل können.",
+      "grammarFocus": "modal_ersatzinfinitiv",
+      "options": [
+        "Sie hat nicht teilnehmen können.",
+        "Sie hat nicht teilnehmen gekonnt.",
+        "Sie ist nicht teilnehmen können.",
+        "Sie hat nicht gekönnt teilnehmen."
+      ]
+    },
+    {
+      "id": "gr05-e022",
+      "topicId": "gr-05",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Ersatzinfinitiv im Nebensatz",
+      "title_ar": "المصدر البديل في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil wir länger haben arbeiten müssen",
+      "explanation_de": "Beim Ersatzinfinitiv steht das finite Hilfsverb im Nebensatz vor der Infinitivgruppe.",
+      "explanation_ar": "مع المصدر البديل يأتي الفعل المساعد المصرف قبل مجموعة المصادر في الجملة الفرعية.",
+      "grammarFocus": "modal_subordinate_order",
+      "tokens": [
+        "arbeiten",
+        "weil",
+        "länger",
+        "müssen",
+        "wir",
+        "haben"
+      ],
+      "acceptedAnswers": [
+        "weil wir länger haben arbeiten müssen"
+      ]
+    },
+    {
+      "id": "gr05-e023",
+      "topicId": "gr-05",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Hilfsverb genau wählen",
+      "title_ar": "اختيار الفعل المساعد بدقة",
+      "prompt_de": "Eine Mitarbeiterin blieb wegen einer Erkrankung zu Hause. Welche Form ist korrekt?",
+      "prompt_ar": "بقيت موظفة في المنزل بسبب المرض. أي صيغة صحيحة؟",
+      "answer": "Sie ist wegen einer Erkrankung zu Hause geblieben.",
+      "explanation_de": "Bleiben bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم bleiben الفعل المساعد sein.",
+      "grammarFocus": "bleiben_with_sein",
+      "options": [
+        "Sie ist wegen einer Erkrankung zu Hause geblieben.",
+        "Sie hat wegen einer Erkrankung zu Hause geblieben.",
+        "Sie ist wegen einer Erkrankung zu Hause gebleibt.",
+        "Sie hat wegen einer Erkrankung zu Hause gebleiben."
+      ]
+    },
+    {
+      "id": "gr05-e024",
+      "topicId": "gr-05",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Perfekt",
+      "title_ar": "تدريب ختامي على Perfekt",
+      "prompt_de": "Schreiben Sie einen kurzen Bericht über einen abgeschlossenen Arbeitstag. Verwenden Sie mindestens sechs Perfektformen: zwei mit sein, ein regelmäßiges, ein starkes, ein trennbares und ein untrennbares Verb. Verwenden Sie außerdem einen Nebensatz.",
+      "prompt_ar": "اكتب تقريرًا قصيرًا عن يوم عمل انتهى. استخدم ست صيغ Perfekt على الأقل: اثنتان مع sein، وفعلًا منتظمًا، وفعلًا قويًا، وفعلًا منفصلًا، وفعلًا غير منفصل، بالإضافة إلى جملة فرعية.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Perfektformen mit sein",
+          "regelmäßiges Partizip II",
+          "starkes Partizip II",
+          "trennbares Verb",
+          "untrennbares Verb oder Verb auf -ieren",
+          "Nebensatz mit korrekter Verbendstellung"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Hilfsverb, Partizipbildung und Satzklammer.",
+      "explanation_ar": "انتبه إلى الفعل المساعد وتكوين Partizip وإطار الجملة.",
+      "grammarFocus": "mixed_perfect",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

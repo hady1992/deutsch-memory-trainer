@@ -1,0 +1,404 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-14",
+  "slug": "gr-14-vorgangspassiv-praesens-praeteritum",
+  "order": 14,
+  "title_de": "Vorgangspassiv im Präsens und Präteritum",
+  "title_ar": "المبني للمجهول في الحاضر والماضي البسيط",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Das Vorgangspassiv im Präsens und Präteritum korrekt bilden.",
+    "Aktivsätze mit Akkusativobjekt ins Passiv umformen.",
+    "Das frühere Akkusativobjekt als Subjekt des Passivsatzes verwenden.",
+    "Handelnde Personen mit von und Ursachen oder Mittel mit durch ausdrücken.",
+    "Dativobjekte und andere Satzglieder bei der Passivumformung korrekt beibehalten.",
+    "Unpersönliche Passivsätze und Passivsätze im Nebensatz richtig bilden.",
+    "Vorgangspassiv und Zustandspassiv grundlegend unterscheiden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين المبني للمجهول في Präsens وPräteritum بصورة صحيحة.",
+    "تحويل الجمل المبنية للمعلوم التي تحتوي على مفعول به Akkusativ إلى المبني للمجهول.",
+    "استخدام المفعول به السابق كفاعل نحوي في جملة المبني للمجهول.",
+    "التعبير عن الفاعل الحقيقي باستخدام von وعن السبب أو الوسيلة باستخدام durch.",
+    "الحفاظ على مفعول Dativ وبقية عناصر الجملة عند التحويل.",
+    "تكوين المبني للمجهول غير الشخصي وفي الجمل الفرعية بصورة صحيحة.",
+    "التمييز الأساسي بين Vorgangspassiv وZustandspassiv."
+  ],
+  "shortDescription_de": "Das Vorgangspassiv stellt eine Handlung oder einen Ablauf in den Mittelpunkt. Es wird im Präsens mit werden und im Präteritum mit wurden gebildet.",
+  "shortDescription_ar": "يركز Vorgangspassiv على الفعل أو العملية نفسها. يتكوّن في Präsens باستخدام werden وفي Präteritum باستخدام wurden.",
+  "explanation_de": "Das Vorgangspassiv wird mit einer konjugierten Form von werden und dem Partizip II gebildet. Im Präsens lautet die Struktur zum Beispiel: Der Antrag wird geprüft. Im Präteritum lautet sie: Der Antrag wurde geprüft. Bei der Umformung vom Aktiv ins Passiv wird das Akkusativobjekt des Aktivsatzes zum Subjekt des Passivsatzes. Das Subjekt des Aktivsatzes kann entfallen oder mit von + Dativ genannt werden. Eine Ursache, ein Mittel oder eine Einwirkung wird häufig mit durch + Akkusativ angegeben. Ein Dativobjekt bleibt im Dativ. Im Nebensatz steht die konjugierte Form von werden am Ende: ..., weil der Antrag geprüft wird. Bei Tätigkeiten ohne Akkusativobjekt kann ein unpersönliches Passiv entstehen: Es wird viel diskutiert. Das Vorgangspassiv beschreibt den Ablauf; das Zustandspassiv mit sein beschreibt dagegen das Ergebnis oder den Zustand.",
+  "explanation_ar": "يتكوّن Vorgangspassiv من صيغة مصرّفة للفعل werden مع Partizip II. في Präsens نقول مثلًا: Der Antrag wird geprüft. وفي Präteritum: Der Antrag wurde geprüft. عند تحويل الجملة من المعلوم إلى المجهول يصبح مفعول Akkusativ في الجملة المعلومة هو الفاعل النحوي في جملة المبني للمجهول. يمكن حذف الفاعل الحقيقي أو ذكره باستخدام von + Dativ. أما السبب أو الوسيلة أو المؤثر فيُذكر غالبًا باستخدام durch + Akkusativ. ويبقى مفعول Dativ في حالة Dativ. في الجملة الفرعية تأتي صيغة werden المصرفة في النهاية. ومع بعض الأفعال التي لا تحتوي على مفعول Akkusativ يمكن تكوين مبني للمجهول غير شخصي مثل: Es wird viel diskutiert. يركز Vorgangspassiv على سير الفعل، بينما يصف Zustandspassiv باستخدام sein النتيجة أو الحالة.",
+  "rules": [
+    {
+      "id": "gr14-r01",
+      "title_de": "Präsens",
+      "title_ar": "Präsens",
+      "explanation_de": "Im Präsens wird das Vorgangspassiv mit werden + Partizip II gebildet.",
+      "explanation_ar": "يتكوّن Vorgangspassiv في Präsens من werden + Partizip II.",
+      "formula": "werden im Präsens + Partizip II",
+      "examples": [
+        {
+          "de": "Der Antrag wird geprüft.",
+          "ar": "يتم فحص الطلب."
+        },
+        {
+          "de": "Die Unterlagen werden digital gespeichert.",
+          "ar": "يتم حفظ المستندات رقميًا."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r02",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "explanation_de": "Im Präteritum wird das Vorgangspassiv mit wurde/wurden + Partizip II gebildet.",
+      "explanation_ar": "يتكوّن Vorgangspassiv في Präteritum من wurde/wurden + Partizip II.",
+      "formula": "wurde/wurden + Partizip II",
+      "examples": [
+        {
+          "de": "Der Antrag wurde gestern geprüft.",
+          "ar": "تم فحص الطلب أمس."
+        },
+        {
+          "de": "Die Geräte wurden am Montag geliefert.",
+          "ar": "تم تسليم الأجهزة يوم الاثنين."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r03",
+      "title_de": "Aktiv in Passiv umformen",
+      "title_ar": "التحويل من المعلوم إلى المجهول",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; das Aktivsubjekt kann entfallen.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا ويمكن حذف فاعل الجملة المعلومة.",
+      "formula": "Aktiv: Subjekt + Verb + Akkusativobjekt → Passiv: Akkusativobjekt + werden + Partizip II",
+      "examples": [
+        {
+          "de": "Aktiv: Die Sachbearbeiterin prüft den Antrag.",
+          "ar": "المعلوم: تفحص الموظفة الطلب."
+        },
+        {
+          "de": "Passiv: Der Antrag wird geprüft.",
+          "ar": "المجهول: يتم فحص الطلب."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r04",
+      "title_de": "Handelnde Person mit von",
+      "title_ar": "ذكر الفاعل الحقيقي باستخدام von",
+      "explanation_de": "Eine handelnde Person oder Institution wird meist mit von + Dativ genannt.",
+      "explanation_ar": "يُذكر الشخص أو الجهة المنفذة غالبًا باستخدام von + Dativ.",
+      "formula": "von + Dativ",
+      "examples": [
+        {
+          "de": "Der Antrag wird von der Sachbearbeiterin geprüft.",
+          "ar": "يتم فحص الطلب من قبل الموظفة."
+        },
+        {
+          "de": "Die Entscheidung wurde von der Geschäftsleitung getroffen.",
+          "ar": "تم اتخاذ القرار من قبل إدارة الشركة."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r05",
+      "title_de": "Ursache oder Mittel mit durch",
+      "title_ar": "السبب أو الوسيلة باستخدام durch",
+      "explanation_de": "Durch + Akkusativ bezeichnet häufig eine Ursache, ein Mittel oder eine Einwirkung.",
+      "explanation_ar": "تدل durch + Akkusativ غالبًا على سبب أو وسيلة أو تأثير.",
+      "formula": "durch + Akkusativ",
+      "examples": [
+        {
+          "de": "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+          "ar": "توقف الإنتاج بسبب انقطاع التيار الكهربائي."
+        },
+        {
+          "de": "Die Daten werden durch ein neues System geschützt.",
+          "ar": "تتم حماية البيانات بواسطة نظام جديد."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r06",
+      "title_de": "Dativ bleibt Dativ",
+      "title_ar": "يبقى Dativ كما هو",
+      "explanation_de": "Ein Dativobjekt wird bei der Passivumformung nicht zum Subjekt.",
+      "explanation_ar": "لا يتحول مفعول Dativ إلى فاعل عند التحويل إلى المبني للمجهول.",
+      "formula": "Aktiv: Man gibt dem Kunden eine Auskunft. → Passiv: Dem Kunden wird eine Auskunft gegeben.",
+      "examples": [
+        {
+          "de": "Dem Kunden wird eine schriftliche Bestätigung geschickt.",
+          "ar": "يتم إرسال تأكيد كتابي للعميل."
+        },
+        {
+          "de": "Den Mitarbeitenden wurden neue Aufgaben zugeteilt.",
+          "ar": "تم تكليف الموظفين بمهام جديدة."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r07",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht die konjugierte Form von werden am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي صيغة werden المصرفة في النهاية.",
+      "formula": "..., weil/dass + Subjekt + ... + Partizip II + wird/wurde",
+      "examples": [
+        {
+          "de": "Wir warten, weil der Antrag noch geprüft wird.",
+          "ar": "ننتظر لأن الطلب ما زال قيد الفحص."
+        },
+        {
+          "de": "Sie erklärte, dass die Lieferung verschoben wurde.",
+          "ar": "أوضحت أن موعد التسليم تم تأجيله."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r08",
+      "title_de": "Unpersönliches Passiv",
+      "title_ar": "المبني للمجهول غير الشخصي",
+      "explanation_de": "Bei Tätigkeiten ohne Akkusativobjekt kann ein unpersönliches Passiv mit es entstehen.",
+      "explanation_ar": "يمكن تكوين مبني للمجهول غير شخصي مع es عند بعض الأفعال التي لا تحتوي على مفعول Akkusativ.",
+      "formula": "Es wird/wurde + Partizip II",
+      "examples": [
+        {
+          "de": "Es wird im Team viel diskutiert.",
+          "ar": "تجري مناقشات كثيرة داخل الفريق."
+        },
+        {
+          "de": "Gestern wurde lange über die Lösung gesprochen.",
+          "ar": "تم الحديث طويلًا عن الحل أمس."
+        }
+      ]
+    },
+    {
+      "id": "gr14-r09",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "عملية أم حالة",
+      "explanation_de": "Werden + Partizip II beschreibt den Vorgang; sein + Partizip II beschreibt meist den Zustand.",
+      "explanation_ar": "تصف werden + Partizip II العملية، بينما تصف sein + Partizip II غالبًا الحالة.",
+      "formula": "Vorgang: wird geöffnet | Zustand: ist geöffnet",
+      "examples": [
+        {
+          "de": "Die Tür wird geöffnet.",
+          "ar": "يتم فتح الباب الآن."
+        },
+        {
+          "de": "Die Tür ist geöffnet.",
+          "ar": "الباب مفتوح."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr14-t01",
+      "title_de": "Konjugation von werden im Passiv",
+      "title_ar": "تصريف werden في المبني للمجهول",
+      "headers_de": [
+        "Person",
+        "Präsens",
+        "Präteritum"
+      ],
+      "headers_ar": [
+        "الشخص",
+        "Präsens",
+        "Präteritum"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde geprüft",
+          "wurde geprüft"
+        ],
+        [
+          "du",
+          "wirst geprüft",
+          "wurdest geprüft"
+        ],
+        [
+          "er/sie/es",
+          "wird geprüft",
+          "wurde geprüft"
+        ],
+        [
+          "wir",
+          "werden geprüft",
+          "wurden geprüft"
+        ],
+        [
+          "ihr",
+          "werdet geprüft",
+          "wurdet geprüft"
+        ],
+        [
+          "sie/Sie",
+          "werden geprüft",
+          "wurden geprüft"
+        ]
+      ]
+    },
+    {
+      "id": "gr14-t02",
+      "title_de": "Aktiv und Passiv",
+      "title_ar": "المعلوم والمجهول",
+      "headers_de": [
+        "Aktiv",
+        "Passiv Präsens",
+        "Passiv Präteritum"
+      ],
+      "headers_ar": [
+        "المعلوم",
+        "المجهول Präsens",
+        "المجهول Präteritum"
+      ],
+      "rows": [
+        [
+          "Die Firma liefert die Geräte.",
+          "Die Geräte werden geliefert.",
+          "Die Geräte wurden geliefert."
+        ],
+        [
+          "Die Abteilung bearbeitet den Antrag.",
+          "Der Antrag wird bearbeitet.",
+          "Der Antrag wurde bearbeitet."
+        ],
+        [
+          "Man informiert die Kunden.",
+          "Die Kunden werden informiert.",
+          "Die Kunden wurden informiert."
+        ]
+      ]
+    },
+    {
+      "id": "gr14-t03",
+      "title_de": "Von oder durch",
+      "title_ar": "von أم durch",
+      "headers_de": [
+        "Präposition",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "حرف الجر",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "von + Dativ",
+          "handelnde Person/Institution",
+          "von der Leitung entschieden"
+        ],
+        [
+          "durch + Akkusativ",
+          "Ursache/Mittel/Einwirkung",
+          "durch einen Fehler verursacht"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Bewerbungen werden von der Personalabteilung sorgfältig geprüft.",
+      "ar": "تتم مراجعة طلبات التوظيف بعناية من قبل قسم الموارد البشرية.",
+      "note_de": "Präsens mit handelnder Institution.",
+      "note_ar": "Präsens مع ذكر الجهة المنفذة."
+    },
+    {
+      "de": "Die Besprechung wurde wegen eines technischen Problems verschoben.",
+      "ar": "تم تأجيل الاجتماع بسبب مشكلة تقنية.",
+      "note_de": "Präteritum; die handelnde Person ist nicht wichtig.",
+      "note_ar": "Präteritum والفاعل الحقيقي غير مهم."
+    },
+    {
+      "de": "Den Beschäftigten werden regelmäßig Schulungen angeboten.",
+      "ar": "تُقدَّم للموظفين دورات تدريبية بانتظام.",
+      "note_de": "Das Dativobjekt bleibt im Dativ.",
+      "note_ar": "يبقى مفعول Dativ في حالة Dativ."
+    },
+    {
+      "de": "Die Daten wurden durch einen Bedienungsfehler gelöscht.",
+      "ar": "تم حذف البيانات بسبب خطأ في الاستخدام.",
+      "note_de": "Durch bezeichnet die Ursache.",
+      "note_ar": "تدل durch على السبب."
+    },
+    {
+      "de": "Es wurde lange über die neue Aufgabenverteilung gesprochen.",
+      "ar": "تم الحديث مطولًا عن توزيع المهام الجديد.",
+      "note_de": "Unpersönliches Passiv.",
+      "note_ar": "مبني للمجهول غير شخصي."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Antrag wird prüfen.",
+      "correct": "Der Antrag wird geprüft.",
+      "explanation_de": "Im Passiv steht das Partizip II geprüft.",
+      "explanation_ar": "يأتي Partizip II geprüft في المبني للمجهول."
+    },
+    {
+      "wrong": "Der Antrag wurde geprüft worden.",
+      "correct": "Der Antrag wurde geprüft.",
+      "explanation_de": "Im Präteritum lautet die Form wurde + Partizip II.",
+      "explanation_ar": "صيغة Präteritum هي wurde + Partizip II."
+    },
+    {
+      "wrong": "Der Antrag wird von die Sachbearbeiterin geprüft.",
+      "correct": "Der Antrag wird von der Sachbearbeiterin geprüft.",
+      "explanation_de": "Von verlangt den Dativ.",
+      "explanation_ar": "يحتاج von إلى Dativ."
+    },
+    {
+      "wrong": "Die Produktion wurde von einen Stromausfall unterbrochen.",
+      "correct": "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+      "explanation_de": "Für eine Ursache verwendet man hier durch + Akkusativ.",
+      "explanation_ar": "نستخدم هنا durch + Akkusativ للتعبير عن السبب."
+    },
+    {
+      "wrong": "Weil wird der Antrag geprüft, warten wir.",
+      "correct": "Weil der Antrag geprüft wird, warten wir.",
+      "explanation_de": "Im Nebensatz steht wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي wird في النهاية."
+    },
+    {
+      "wrong": "Der Kunde wird eine Bestätigung geschickt.",
+      "correct": "Dem Kunden wird eine Bestätigung geschickt.",
+      "explanation_de": "Der Empfänger bleibt im Dativ.",
+      "explanation_ar": "يبقى المستلم في حالة Dativ."
+    }
+  ],
+  "quickSummary_de": [
+    "Präsens: werden + Partizip II.",
+    "Präteritum: wurde/wurden + Partizip II.",
+    "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt.",
+    "Das Aktivsubjekt kann entfallen oder mit von + Dativ stehen.",
+    "Durch + Akkusativ bezeichnet häufig Ursache oder Mittel.",
+    "Ein Dativobjekt bleibt im Dativ.",
+    "Im Nebensatz steht wird oder wurde am Ende.",
+    "Unpersönliches Passiv ist auch ohne Akkusativobjekt möglich.",
+    "Werden beschreibt den Vorgang; sein beschreibt meist den Zustand."
+  ],
+  "quickSummary_ar": [
+    "Präsens: werden + Partizip II.",
+    "Präteritum: wurde/wurden + Partizip II.",
+    "يتحول مفعول Akkusativ في الجملة المعلومة إلى فاعل نحوي.",
+    "يمكن حذف الفاعل الحقيقي أو ذكره باستخدام von + Dativ.",
+    "تدل durch + Akkusativ غالبًا على السبب أو الوسيلة.",
+    "يبقى مفعول Dativ في حالة Dativ.",
+    "تأتي wird أو wurde في نهاية الجملة الفرعية.",
+    "يمكن تكوين مبني للمجهول غير شخصي من دون مفعول Akkusativ.",
+    "تصف werden العملية، بينما تصف sein غالبًا الحالة."
+  ],
+  "relatedTopics": [
+    "gr-15",
+    "gr-16",
+    "gr-17",
+    "gr-20"
+  ]
+}

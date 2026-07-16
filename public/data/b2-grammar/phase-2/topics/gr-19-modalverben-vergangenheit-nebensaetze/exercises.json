@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-19",
+  "title_de": "Modalverben in Vergangenheit und Nebensätzen – Übungen",
+  "title_ar": "تمارين الأفعال الناقصة في الماضي والجمل الفرعية",
+  "level": "B2",
+  "exerciseCount": 22,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr19-e001",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präteritum von müssen",
+      "title_ar": "Präteritum من müssen",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich musste gestern länger arbeiten.",
+      "explanation_de": "Musste ist die Präteritumform von müssen.",
+      "explanation_ar": "musste هي صيغة Präteritum من müssen.",
+      "grammarFocus": "preterite_muessen",
+      "options": [
+        "Ich musste gestern länger arbeiten.",
+        "Ich müss gestern länger arbeiten.",
+        "Ich habe gestern länger arbeiten gemusst.",
+        "Ich musste gestern länger gearbeitet."
+      ]
+    },
+    {
+      "id": "gr19-e002",
+      "topicId": "gr-19",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Präteritum von können",
+      "title_ar": "Präteritum من können",
+      "prompt_de": "Wir ______ den Termin nicht einhalten.",
+      "prompt_ar": "لم نتمكن من الالتزام بالموعد.",
+      "answer": "konnten",
+      "explanation_de": "Für wir lautet das Präteritum von können: konnten.",
+      "explanation_ar": "صيغة Präteritum من können مع wir هي konnten.",
+      "grammarFocus": "preterite_koennen",
+      "acceptedAnswers": [
+        "konnten"
+      ]
+    },
+    {
+      "id": "gr19-e003",
+      "topicId": "gr-19",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Präteritumformen",
+      "title_ar": "صيغ Präteritum",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "müssen": "musste",
+        "können": "konnte",
+        "dürfen": "durfte",
+        "wollen": "wollte",
+        "mögen": "mochte"
+      },
+      "explanation_de": "Die Modalverben verlieren im Präteritum meist den Umlaut.",
+      "explanation_ar": "تفقد الأفعال الناقصة غالبًا Umlaut في Präteritum.",
+      "grammarFocus": "preterite_forms",
+      "pairs": [
+        [
+          "müssen",
+          "musste"
+        ],
+        [
+          "können",
+          "konnte"
+        ],
+        [
+          "dürfen",
+          "durfte"
+        ],
+        [
+          "wollen",
+          "wollte"
+        ],
+        [
+          "mögen",
+          "mochte"
+        ]
+      ]
+    },
+    {
+      "id": "gr19-e004",
+      "topicId": "gr-19",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Nebensatz im Präteritum",
+      "title_ar": "جملة فرعية في Präteritum",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil ich mein Kind abholen musste",
+      "explanation_de": "Im Nebensatz steht musste am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي musste في النهاية.",
+      "grammarFocus": "preterite_subordinate_order",
+      "tokens": [
+        "mein Kind",
+        "musste",
+        "weil",
+        "abholen",
+        "ich"
+      ],
+      "acceptedAnswers": [
+        "weil ich mein Kind abholen musste"
+      ]
+    },
+    {
+      "id": "gr19-e005",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Perfekt mit Ersatzinfinitiv",
+      "title_ar": "Perfekt مع Ersatzinfinitiv",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich habe gestern länger arbeiten müssen.",
+      "explanation_de": "Mit einem zweiten Verb steht müssen als Ersatzinfinitiv.",
+      "explanation_ar": "مع وجود فعل ثانٍ تأتي müssen بوصفها Ersatzinfinitiv.",
+      "grammarFocus": "perfect_double_infinitive",
+      "options": [
+        "Ich habe gestern länger arbeiten müssen.",
+        "Ich habe gestern länger arbeiten gemusst.",
+        "Ich bin gestern länger arbeiten müssen.",
+        "Ich habe gestern länger gearbeitet müssen."
+      ]
+    },
+    {
+      "id": "gr19-e006",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb als Vollverb",
+      "title_ar": "الفعل الناقص بوصفه فعلًا أساسيًا",
+      "prompt_de": "Welche Form ist ohne zweiten Infinitiv korrekt?",
+      "prompt_ar": "أي صيغة صحيحة من دون مصدر ثانٍ؟",
+      "answer": "Ich habe das nicht gewollt.",
+      "explanation_de": "Ohne zweiten Infinitiv verwendet man das normale Partizip II gewollt.",
+      "explanation_ar": "من دون مصدر ثانٍ نستخدم Partizip II العادي gewollt.",
+      "grammarFocus": "modal_as_full_verb",
+      "options": [
+        "Ich habe das nicht gewollt.",
+        "Ich habe das nicht wollen.",
+        "Ich bin das nicht gewollt.",
+        "Ich habe das nicht wollen müssen."
+      ]
+    },
+    {
+      "id": "gr19-e007",
+      "topicId": "gr-19",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Perfekt mit können",
+      "title_ar": "Perfekt مع können",
+      "prompt_de": "Sie hat den Termin nicht verschieben ______.",
+      "prompt_ar": "لم تستطع تأجيل الموعد.",
+      "answer": "können",
+      "explanation_de": "Mit verschieben steht können im Ersatzinfinitiv.",
+      "explanation_ar": "مع verschieben تأتي können في Ersatzinfinitiv.",
+      "grammarFocus": "perfect_koennen",
+      "acceptedAnswers": [
+        "können"
+      ]
+    },
+    {
+      "id": "gr19-e008",
+      "topicId": "gr-19",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präteritum bilden",
+      "title_ar": "تكوين Präteritum",
+      "prompt_de": "Setzen Sie ins Präteritum: Ich muss heute länger bleiben.",
+      "prompt_ar": "حوّل الجملة إلى Präteritum.",
+      "answer": "Ich musste an diesem Tag länger bleiben.",
+      "explanation_de": "Muss wird im Präteritum zu musste.",
+      "explanation_ar": "تتحول muss في Präteritum إلى musste.",
+      "grammarFocus": "present_to_preterite_modal",
+      "acceptedAnswers": [
+        "Ich musste an diesem Tag länger bleiben.",
+        "Ich musste damals länger bleiben.",
+        "Ich musste länger bleiben."
+      ]
+    },
+    {
+      "id": "gr19-e009",
+      "topicId": "gr-19",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Perfekt bilden",
+      "title_ar": "تكوين Perfekt",
+      "prompt_de": "Setzen Sie ins Perfekt: Wir konnten den Fehler nicht finden.",
+      "prompt_ar": "حوّل الجملة إلى Perfekt.",
+      "answer": "Wir haben den Fehler nicht finden können.",
+      "explanation_de": "Mit dem zweiten Verb finden verwendet man den Ersatzinfinitiv können.",
+      "explanation_ar": "مع الفعل الثاني finden نستخدم Ersatzinfinitiv können.",
+      "grammarFocus": "preterite_to_perfect_modal",
+      "acceptedAnswers": [
+        "Wir haben den Fehler nicht finden können."
+      ]
+    },
+    {
+      "id": "gr19-e010",
+      "topicId": "gr-19",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil er lange hat arbeiten müssen",
+      "explanation_de": "Im Nebensatz steht hat vor arbeiten müssen.",
+      "explanation_ar": "في الجملة الفرعية تأتي hat قبل arbeiten müssen.",
+      "grammarFocus": "perfect_subordinate_special_order",
+      "tokens": [
+        "arbeiten",
+        "müssen",
+        "weil",
+        "lange",
+        "hat",
+        "er"
+      ],
+      "acceptedAnswers": [
+        "weil er lange hat arbeiten müssen"
+      ]
+    },
+    {
+      "id": "gr19-e011",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Besondere Nebensatzstellung",
+      "title_ar": "الترتيب الخاص في الجملة الفرعية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie sagte, dass sie den Termin nicht hat verschieben können.",
+      "explanation_de": "Bei Ersatzinfinitiv steht hat vor den beiden Infinitiven.",
+      "explanation_ar": "مع Ersatzinfinitiv تأتي hat قبل المصدرين.",
+      "grammarFocus": "perfect_subordinate_choice",
+      "options": [
+        "Sie sagte, dass sie den Termin nicht hat verschieben können.",
+        "Sie sagte, dass sie den Termin nicht verschieben können hat.",
+        "Sie sagte, dass sie hat den Termin nicht verschieben können.",
+        "Sie sagte, dass sie den Termin nicht verschoben können hat."
+      ]
+    },
+    {
+      "id": "gr19-e012",
+      "topicId": "gr-19",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "Plusquamperfekt",
+      "prompt_de": "Ich ______ den Bericht noch einmal prüfen müssen.",
+      "prompt_ar": "كنت قد اضطررت إلى فحص التقرير مرة أخرى.",
+      "answer": "hatte",
+      "explanation_de": "Im Plusquamperfekt steht hatte vor der Infinitivgruppe.",
+      "explanation_ar": "في Plusquamperfekt تأتي hatte قبل مجموعة المصدرين.",
+      "grammarFocus": "pluperfect_modal",
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "gr19-e013",
+      "topicId": "gr-19",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Plusquamperfekt im Nebensatz",
+      "title_ar": "Plusquamperfekt في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem sie lange hatte warten müssen, wurde sie aufgerufen.",
+      "explanation_de": "Im Nebensatz steht hatte vor warten müssen.",
+      "explanation_ar": "في الجملة الفرعية تأتي hatte قبل warten müssen.",
+      "grammarFocus": "pluperfect_subordinate_order",
+      "tokens": [
+        "wurde sie aufgerufen",
+        "lange",
+        "Nachdem",
+        "warten",
+        "müssen",
+        "sie",
+        "hatte"
+      ],
+      "acceptedAnswers": [
+        "Nachdem sie lange hatte warten müssen, wurde sie aufgerufen."
+      ]
+    },
+    {
+      "id": "gr19-e014",
+      "topicId": "gr-19",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Zeitformen vergleichen",
+      "title_ar": "مقارنة الأزمنة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ich musste arbeiten": "Präteritum",
+        "ich habe arbeiten müssen": "Perfekt",
+        "ich hatte arbeiten müssen": "Plusquamperfekt"
+      },
+      "explanation_de": "Das Hilfsverb und die Form des Modalverbs zeigen die Zeitform.",
+      "explanation_ar": "يوضح الفعل المساعد وصيغة الفعل الناقص الزمن.",
+      "grammarFocus": "modal_tense_matching",
+      "pairs": [
+        [
+          "ich musste arbeiten",
+          "Präteritum"
+        ],
+        [
+          "ich habe arbeiten müssen",
+          "Perfekt"
+        ],
+        [
+          "ich hatte arbeiten müssen",
+          "Plusquamperfekt"
+        ]
+      ]
+    },
+    {
+      "id": "gr19-e015",
+      "topicId": "gr-19",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Form klingt in einem kurzen beruflichen Bericht am natürlichsten?",
+      "prompt_ar": "أي صيغة تبدو طبيعية أكثر في تقرير مهني قصير؟",
+      "answer": "Wir mussten den Termin verschieben.",
+      "explanation_de": "Bei Modalverben ist das Präteritum meist kurz und sehr üblich.",
+      "explanation_ar": "يكون Präteritum مع الأفعال الناقصة قصيرًا وشائعًا جدًا.",
+      "grammarFocus": "preterite_style_choice",
+      "options": [
+        "Wir mussten den Termin verschieben.",
+        "Wir haben den Termin verschieben müssen.",
+        "Wir haben den Termin verschoben gemusst.",
+        "Wir waren den Termin verschieben müssen."
+      ]
+    },
+    {
+      "id": "gr19-e016",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Perfektinfinitiv mit sein",
+      "title_ar": "Perfektinfinitiv مع sein",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie muss bereits gegangen sein.",
+      "explanation_de": "Gehen bildet den Perfektinfinitiv mit sein.",
+      "explanation_ar": "يستخدم gehen الفعل sein في Perfektinfinitiv.",
+      "grammarFocus": "perfect_infinitive_sein",
+      "options": [
+        "Sie muss bereits gegangen sein.",
+        "Sie muss bereits gegangen haben.",
+        "Sie musste bereits gegangen sein.",
+        "Sie muss bereits gehen gewesen."
+      ]
+    },
+    {
+      "id": "gr19-e017",
+      "topicId": "gr-19",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Starke Vermutung Vergangenheit",
+      "title_ar": "استنتاج قوي في الماضي",
+      "prompt_de": "Formulieren Sie eine starke Vermutung: Wahrscheinlich hat er die Nachricht erhalten.",
+      "prompt_ar": "صغ استنتاجًا قويًا.",
+      "answer": "Er muss die Nachricht erhalten haben.",
+      "explanation_de": "Müssen + Perfektinfinitiv drückt eine starke Schlussfolgerung aus.",
+      "explanation_ar": "تعبّر müssen مع Perfektinfinitiv عن استنتاج قوي.",
+      "grammarFocus": "past_strong_assumption",
+      "acceptedAnswers": [
+        "Er muss die Nachricht erhalten haben."
+      ]
+    },
+    {
+      "id": "gr19-e018",
+      "topicId": "gr-19",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Vorsichtige Vermutung Vergangenheit",
+      "title_ar": "توقع حذر في الماضي",
+      "prompt_de": "Sie sind nicht sicher, vermuten aber, dass die Lieferung schon angekommen ist. Welche Form passt?",
+      "prompt_ar": "لست متأكدًا، لكنك ترجح أن الشحنة وصلت. أي صيغة مناسبة؟",
+      "answer": "Die Lieferung dürfte bereits eingetroffen sein.",
+      "explanation_de": "Dürfte + Perfektinfinitiv bezeichnet eine vorsichtige Vermutung.",
+      "explanation_ar": "تدل dürfte مع Perfektinfinitiv على توقع حذر.",
+      "grammarFocus": "past_cautious_assumption",
+      "options": [
+        "Die Lieferung dürfte bereits eingetroffen sein.",
+        "Die Lieferung muss bereits eingetroffen haben.",
+        "Die Lieferung will bereits eingetroffen sein.",
+        "Die Lieferung durfte bereits eintreffen gewesen."
+      ]
+    },
+    {
+      "id": "gr19-e019",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Hörensagen Vergangenheit",
+      "title_ar": "النقل عن الآخرين في الماضي",
+      "prompt_de": "Welche Form gibt eine nicht selbst bestätigte Information wieder?",
+      "prompt_ar": "أي صيغة تنقل معلومة لم يؤكدها المتحدث بنفسه؟",
+      "answer": "Der Bewerber soll mehrere Jahre im Ausland gearbeitet haben.",
+      "explanation_de": "Sollen + Perfektinfinitiv bezeichnet Hörensagen über die Vergangenheit.",
+      "explanation_ar": "تدل sollen مع Perfektinfinitiv على نقل معلومة عن الماضي.",
+      "grammarFocus": "past_hearsay",
+      "options": [
+        "Der Bewerber soll mehrere Jahre im Ausland gearbeitet haben.",
+        "Der Bewerber muss mehrere Jahre arbeiten haben.",
+        "Der Bewerber will mehrere Jahre arbeiten müssen.",
+        "Der Bewerber dürfte mehrere Jahre gearbeitet sein."
+      ]
+    },
+    {
+      "id": "gr19-e020",
+      "topicId": "gr-19",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Behauptung Vergangenheit",
+      "title_ar": "ادعاء في الماضي",
+      "prompt_de": "Welche Form gibt eine Behauptung der Person selbst wieder?",
+      "prompt_ar": "أي صيغة تنقل ادعاء الشخص نفسه؟",
+      "answer": "Der Mitarbeiter will die E-Mail rechtzeitig geschickt haben.",
+      "explanation_de": "Wollen + Perfektinfinitiv bezeichnet die eigene Behauptung.",
+      "explanation_ar": "تدل wollen مع Perfektinfinitiv على ادعاء الشخص نفسه.",
+      "grammarFocus": "past_claim",
+      "options": [
+        "Der Mitarbeiter will die E-Mail rechtzeitig geschickt haben.",
+        "Der Mitarbeiter soll die E-Mail rechtzeitig geschickt haben.",
+        "Der Mitarbeiter muss die E-Mail rechtzeitig schicken.",
+        "Der Mitarbeiter dürfte die E-Mail geschickt sein."
+      ]
+    },
+    {
+      "id": "gr19-e021",
+      "topicId": "gr-19",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Nebensatz",
+      "title_ar": "جملة فرعية معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Mitarbeiterin erklärte, dass sie am Vortag länger hatte arbeiten müssen.",
+      "explanation_de": "Im Nebensatz steht hatte vor arbeiten müssen.",
+      "explanation_ar": "في الجملة الفرعية تأتي hatte قبل arbeiten müssen.",
+      "grammarFocus": "complex_pluperfect_subordinate",
+      "tokens": [
+        "am Vortag",
+        "länger",
+        "arbeiten",
+        "hatte",
+        "Die Mitarbeiterin erklärte",
+        "dass",
+        "sie",
+        "müssen"
+      ],
+      "acceptedAnswers": [
+        "Die Mitarbeiterin erklärte, dass sie am Vortag länger hatte arbeiten müssen."
+      ]
+    },
+    {
+      "id": "gr19-e022",
+      "topicId": "gr-19",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Vergangenheit und Nebensätze",
+      "title_ar": "تدريب ختامي على الماضي والجمل الفرعية",
+      "prompt_de": "Schreiben Sie einen beruflichen Bericht mit mindestens neun Sätzen. Verwenden Sie mindestens drei Modalverben im Präteritum, zwei Perfektformen mit Ersatzinfinitiv, eine Plusquamperfektform, zwei Nebensätze und je eine vergangene Vermutung mit müssen oder dürfte sowie Hörensagen oder Behauptung mit sollen oder wollen.",
+      "prompt_ar": "اكتب تقريرًا مهنيًا من تسع جمل على الأقل. استخدم ثلاثة أفعال ناقصة على الأقل في Präteritum، وصيغتين في Perfekt مع Ersatzinfinitiv، وصيغة Plusquamperfekt، وجملتين فرعيتين، وتوقعًا عن الماضي باستخدام müssen أو dürfte، ومعلومة منقولة أو ادعاء باستخدام sollen أو wollen.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Modalverben im Präteritum",
+          "mindestens zwei Perfektformen mit Ersatzinfinitiv",
+          "mindestens eine Plusquamperfektform",
+          "mindestens zwei Nebensätze",
+          "korrekte Sonderstellung bei Ersatzinfinitiv",
+          "mindestens eine vergangene Vermutung",
+          "mindestens ein Beispiel für Hörensagen oder Behauptung",
+          "korrekte Auswahl von haben oder sein im Perfektinfinitiv"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Ersatzinfinitiv, Verbposition und zeitliche Logik.",
+      "explanation_ar": "انتبه إلى Ersatzinfinitiv وموقع الفعل والتسلسل الزمني.",
+      "grammarFocus": "mixed_modal_past_subordinate",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}
