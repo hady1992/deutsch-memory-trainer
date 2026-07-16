@@ -1,0 +1,547 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-28",
+  "title_de": "Relativsätze im Dativ und mit Präpositionen – Übungen",
+  "title_ar": "تمارين الجمل الموصولة في Dativ ومع حروف الجر",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr28-e001",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Dativ maskulin",
+      "title_ar": "Dativ للمذكر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Kollege, dem ich geholfen habe, bedankt sich.",
+      "explanation_de": "Helfen verlangt Dativ; maskulin lautet die Form dem.",
+      "explanation_ar": "يحتاج helfen إلى Dativ، وصيغة المذكر هي dem.",
+      "grammarFocus": "relative_dative_masc",
+      "options": [
+        "Der Kollege, dem ich geholfen habe, bedankt sich.",
+        "Der Kollege, den ich geholfen habe, bedankt sich.",
+        "Der Kollege, der ich geholfen habe, bedankt sich.",
+        "Der Kollege, dem habe ich geholfen, bedankt sich."
+      ]
+    },
+    {
+      "id": "gr28-e002",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Dativ feminin",
+      "title_ar": "Dativ للمؤنث",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Kollegin, der wir vertrauen, leitet das Projekt.",
+      "explanation_de": "Vertrauen verlangt Dativ; feminin lautet die Form der.",
+      "explanation_ar": "يحتاج vertrauen إلى Dativ، وصيغة المؤنث هي der.",
+      "grammarFocus": "relative_dative_fem",
+      "options": [
+        "Die Kollegin, der wir vertrauen, leitet das Projekt.",
+        "Die Kollegin, die wir vertrauen, leitet das Projekt.",
+        "Die Kollegin, den wir vertrauen, leitet das Projekt.",
+        "Die Kollegin, der vertrauen wir, leitet das Projekt."
+      ]
+    },
+    {
+      "id": "gr28-e003",
+      "topicId": "gr-28",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Dativ Plural",
+      "title_ar": "Dativ الجمع",
+      "prompt_de": "Die Mitarbeitenden, ______ wir geschrieben haben, antworteten sofort.",
+      "prompt_ar": "الموظفون الذين كتبنا إليهم أجابوا فورًا.",
+      "answer": "denen",
+      "explanation_de": "Im Dativ Plural lautet das Relativpronomen denen.",
+      "explanation_ar": "صيغة ضمير الوصل في Dativ الجمع هي denen.",
+      "grammarFocus": "relative_dative_plural",
+      "acceptedAnswers": [
+        "denen"
+      ]
+    },
+    {
+      "id": "gr28-e004",
+      "topicId": "gr-28",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Dativformen",
+      "title_ar": "صيغ Dativ",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "maskulin": "dem",
+        "feminin": "der",
+        "neutrum": "dem",
+        "Plural": "denen"
+      },
+      "explanation_de": "Die Dativform richtet sich nach Genus und Numerus des Bezugsworts.",
+      "explanation_ar": "تعتمد صيغة Dativ على جنس الاسم المرجعي وعدده.",
+      "grammarFocus": "dative_forms_matching",
+      "pairs": [
+        [
+          "maskulin",
+          "dem"
+        ],
+        [
+          "feminin",
+          "der"
+        ],
+        [
+          "neutrum",
+          "dem"
+        ],
+        [
+          "Plural",
+          "denen"
+        ]
+      ]
+    },
+    {
+      "id": "gr28-e005",
+      "topicId": "gr-28",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Mit + Dativ",
+      "title_ar": "mit + Dativ",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Ansprechpartner, mit dem Sie gesprochen haben, ist heute nicht erreichbar.",
+      "explanation_de": "Mit steht vor dem Relativpronomen dem.",
+      "explanation_ar": "تأتي mit قبل ضمير الوصل dem.",
+      "grammarFocus": "mit_dative_order",
+      "tokens": [
+        "ist heute nicht erreichbar",
+        "mit dem",
+        "Sie",
+        "gesprochen haben",
+        "Der Ansprechpartner"
+      ],
+      "acceptedAnswers": [
+        "Der Ansprechpartner, mit dem Sie gesprochen haben, ist heute nicht erreichbar."
+      ]
+    },
+    {
+      "id": "gr28-e006",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Danken + Dativ",
+      "title_ar": "danken + Dativ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Mitarbeiter, dem wir danken, hat kurzfristig geholfen.",
+      "explanation_de": "Danken verlangt Dativ.",
+      "explanation_ar": "يحتاج danken إلى Dativ.",
+      "grammarFocus": "danken_dative",
+      "options": [
+        "Der Mitarbeiter, dem wir danken, hat kurzfristig geholfen.",
+        "Der Mitarbeiter, den wir danken, hat kurzfristig geholfen.",
+        "Der Mitarbeiter, der wir danken, hat geholfen.",
+        "Der Mitarbeiter, dem danken wir, hat geholfen."
+      ]
+    },
+    {
+      "id": "gr28-e007",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Für + Akkusativ",
+      "title_ar": "für + Akkusativ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Bereich, für den sie verantwortlich ist, wird erweitert.",
+      "explanation_de": "Für verlangt Akkusativ; maskulin lautet die Form den.",
+      "explanation_ar": "يحتاج für إلى Akkusativ، وصيغة المذكر هي den.",
+      "grammarFocus": "fuer_accusative",
+      "options": [
+        "Der Bereich, für den sie verantwortlich ist, wird erweitert.",
+        "Der Bereich, für dem sie verantwortlich ist, wird erweitert.",
+        "Der Bereich, den für sie verantwortlich ist, wird erweitert.",
+        "Der Bereich, für den ist sie verantwortlich, wird erweitert."
+      ]
+    },
+    {
+      "id": "gr28-e008",
+      "topicId": "gr-28",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Mit der",
+      "title_ar": "mit der",
+      "prompt_de": "Die Kollegin, mit ______ ich das Gespräch geführt habe, ist sehr erfahren.",
+      "prompt_ar": "الزميلة التي أجريت معها الحديث ذات خبرة كبيرة.",
+      "answer": "der",
+      "explanation_de": "Mit verlangt Dativ; feminin lautet die Form der.",
+      "explanation_ar": "يحتاج mit إلى Dativ، وصيغة المؤنث هي der.",
+      "grammarFocus": "mit_feminine",
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "gr28-e009",
+      "topicId": "gr-28",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Helfen verbinden",
+      "title_ar": "دمج مع helfen",
+      "prompt_de": "Verbinden Sie: Der Kollege arbeitet heute von zu Hause. Ich habe dem Kollegen geholfen.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Der Kollege, dem ich geholfen habe, arbeitet heute von zu Hause.",
+      "explanation_de": "Helfen verlangt Dativ; das maskuline Relativpronomen lautet dem.",
+      "explanation_ar": "يحتاج helfen إلى Dativ، وضمير الوصل المذكر هو dem.",
+      "grammarFocus": "combine_dative_masc",
+      "acceptedAnswers": [
+        "Der Kollege, dem ich geholfen habe, arbeitet heute von zu Hause."
+      ]
+    },
+    {
+      "id": "gr28-e010",
+      "topicId": "gr-28",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vertrauen verbinden",
+      "title_ar": "دمج مع vertrauen",
+      "prompt_de": "Verbinden Sie: Die Kollegin leitet das Projekt. Wir vertrauen der Kollegin.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Die Kollegin, der wir vertrauen, leitet das Projekt.",
+      "explanation_de": "Vertrauen verlangt Dativ; feminin lautet die Form der.",
+      "explanation_ar": "يحتاج vertrauen إلى Dativ، وصيغة المؤنث هي der.",
+      "grammarFocus": "combine_dative_fem",
+      "acceptedAnswers": [
+        "Die Kollegin, der wir vertrauen, leitet das Projekt."
+      ]
+    },
+    {
+      "id": "gr28-e011",
+      "topicId": "gr-28",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Denen im Plural",
+      "title_ar": "denen في الجمع",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Beschäftigten, denen neue Aufgaben übertragen wurden, erhalten eine Schulung.",
+      "explanation_de": "Im Dativ Plural steht denen; wurden steht am Ende.",
+      "explanation_ar": "في Dativ الجمع نستخدم denen، وتأتي wurden في النهاية.",
+      "grammarFocus": "denen_plural_order",
+      "tokens": [
+        "erhalten eine Schulung",
+        "denen",
+        "übertragen wurden",
+        "Die Beschäftigten",
+        "neue Aufgaben"
+      ],
+      "acceptedAnswers": [
+        "Die Beschäftigten, denen neue Aufgaben übertragen wurden, erhalten eine Schulung."
+      ]
+    },
+    {
+      "id": "gr28-e012",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Sich wenden an",
+      "title_ar": "sich wenden an",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Ansprechpartner, an den Sie sich wenden können, ist im Servicebüro.",
+      "explanation_de": "Sich wenden an verlangt Akkusativ.",
+      "explanation_ar": "تحتاج الصيغة sich wenden an إلى Akkusativ.",
+      "grammarFocus": "wenden_an_acc",
+      "options": [
+        "Der Ansprechpartner, an den Sie sich wenden können, ist im Servicebüro.",
+        "Der Ansprechpartner, an dem Sie sich wenden können, ist im Servicebüro.",
+        "Der Ansprechpartner, den an Sie sich wenden können, ist im Servicebüro.",
+        "Der Ansprechpartner, an den können Sie sich wenden, ist im Servicebüro."
+      ]
+    },
+    {
+      "id": "gr28-e013",
+      "topicId": "gr-28",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Präposition und Kasus",
+      "title_ar": "حرف الجر والحالة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "mit": "Dativ",
+        "von": "Dativ",
+        "bei": "Dativ",
+        "für": "Akkusativ",
+        "sich beziehen auf": "Akkusativ",
+        "teilnehmen an": "Dativ"
+      },
+      "explanation_de": "Die Präposition oder feste Verbindung bestimmt den Kasus.",
+      "explanation_ar": "يحدد حرف الجر أو التركيب الثابت الحالة.",
+      "grammarFocus": "preposition_case_matching",
+      "pairs": [
+        [
+          "mit",
+          "Dativ"
+        ],
+        [
+          "von",
+          "Dativ"
+        ],
+        [
+          "bei",
+          "Dativ"
+        ],
+        [
+          "für",
+          "Akkusativ"
+        ],
+        [
+          "sich beziehen auf",
+          "Akkusativ"
+        ],
+        [
+          "teilnehmen an",
+          "Dativ"
+        ]
+      ]
+    },
+    {
+      "id": "gr28-e014",
+      "topicId": "gr-28",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Kontaktangabe",
+      "title_ar": "بيان اتصال رسمي",
+      "prompt_de": "Welche Formulierung ist korrekt und professionell?",
+      "prompt_ar": "أي صياغة صحيحة ومهنية؟",
+      "answer": "Der Ansprechpartner, mit dem Sie bereits telefoniert haben, wird sich erneut bei Ihnen melden.",
+      "explanation_de": "Mit verlangt Dativ; das Verb steht am Ende.",
+      "explanation_ar": "يحتاج mit إلى Dativ، ويأتي الفعل في النهاية.",
+      "grammarFocus": "formal_contact",
+      "options": [
+        "Der Ansprechpartner, mit dem Sie bereits telefoniert haben, wird sich erneut bei Ihnen melden.",
+        "Der Ansprechpartner, dem mit Sie telefoniert haben, wird sich melden.",
+        "Der Ansprechpartner, mit den Sie telefoniert haben, wird sich melden.",
+        "Der Ansprechpartner, mit dem haben Sie telefoniert, wird sich melden."
+      ]
+    },
+    {
+      "id": "gr28-e015",
+      "topicId": "gr-28",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Für die",
+      "title_ar": "für die",
+      "prompt_de": "Die Aufgabe, für ______ wir mehr Zeit benötigen, ist besonders komplex.",
+      "prompt_ar": "المهمة التي نحتاج إلى وقت أكبر من أجلها معقدة بصورة خاصة.",
+      "answer": "die",
+      "explanation_de": "Für verlangt Akkusativ; feminin lautet die Form die.",
+      "explanation_ar": "يحتاج für إلى Akkusativ، وصيغة المؤنث هي die.",
+      "grammarFocus": "fuer_feminine",
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "gr28-e016",
+      "topicId": "gr-28",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "In der",
+      "title_ar": "in der",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Abteilung, in der ich seit zwei Jahren arbeite, wird umstrukturiert.",
+      "explanation_de": "Der feste Ort verlangt hier Dativ: in der.",
+      "explanation_ar": "المكان الثابت يحتاج هنا إلى Dativ: in der.",
+      "grammarFocus": "in_der_order",
+      "tokens": [
+        "wird umstrukturiert",
+        "in der",
+        "seit zwei Jahren",
+        "ich",
+        "arbeite",
+        "Die Abteilung"
+      ],
+      "acceptedAnswers": [
+        "Die Abteilung, in der ich seit zwei Jahren arbeite, wird umstrukturiert."
+      ]
+    },
+    {
+      "id": "gr28-e017",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Teilnehmen an",
+      "title_ar": "teilnehmen an",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Seminar, an dem ich teilgenommen habe, war sehr praxisnah.",
+      "explanation_de": "Teilnehmen an verlangt Dativ; neutrum lautet die Form dem.",
+      "explanation_ar": "يحتاج teilnehmen an إلى Dativ، وصيغة المحايد هي dem.",
+      "grammarFocus": "teilnehmen_an_dative",
+      "options": [
+        "Das Seminar, an dem ich teilgenommen habe, war sehr praxisnah.",
+        "Das Seminar, an das ich teilgenommen habe, war sehr praxisnah.",
+        "Das Seminar, dem an ich teilgenommen habe, war sehr praxisnah.",
+        "Das Seminar, an dem habe ich teilgenommen, war sehr praxisnah."
+      ]
+    },
+    {
+      "id": "gr28-e018",
+      "topicId": "gr-28",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Sich beziehen auf",
+      "title_ar": "sich beziehen auf",
+      "prompt_de": "Verbinden Sie: Der Absatz steht auf Seite drei. Ihre Frage bezieht sich auf den Absatz.",
+      "prompt_ar": "ادمج الجملتين.",
+      "answer": "Der Absatz, auf den sich Ihre Frage bezieht, steht auf Seite drei.",
+      "explanation_de": "Sich beziehen auf verlangt Akkusativ; maskulin lautet die Form den.",
+      "explanation_ar": "تحتاج sich beziehen auf إلى Akkusativ، وصيغة المذكر هي den.",
+      "grammarFocus": "combine_beziehen_auf",
+      "acceptedAnswers": [
+        "Der Absatz, auf den sich Ihre Frage bezieht, steht auf Seite drei."
+      ]
+    },
+    {
+      "id": "gr28-e019",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Zustimmen + Dativ",
+      "title_ar": "zustimmen + Dativ",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Die Regelung, der der Betriebsrat zugestimmt hat, tritt morgen in Kraft.",
+      "explanation_de": "Zustimmen verlangt Dativ; die Regelung ist feminin.",
+      "explanation_ar": "يحتاج zustimmen إلى Dativ، والاسم die Regelung مؤنث.",
+      "grammarFocus": "zustimmen_dative",
+      "options": [
+        "Die Regelung, der der Betriebsrat zugestimmt hat, tritt morgen in Kraft.",
+        "Die Regelung, die der Betriebsrat zugestimmt hat, tritt morgen in Kraft.",
+        "Die Regelung, der hat der Betriebsrat zugestimmt, tritt morgen in Kraft.",
+        "Die Regelung, den der Betriebsrat zugestimmt hat, tritt morgen in Kraft."
+      ]
+    },
+    {
+      "id": "gr28-e020",
+      "topicId": "gr-28",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا؟",
+      "answer": "Die Faktoren, von denen das Ergebnis maßgeblich abhängt, wurden vollständig analysiert.",
+      "explanation_de": "Von verlangt Dativ; im Plural steht denen.",
+      "explanation_ar": "يحتاج von إلى Dativ، وفي الجمع نستخدم denen.",
+      "grammarFocus": "formal_report_von_denen",
+      "options": [
+        "Die Faktoren, von denen das Ergebnis maßgeblich abhängt, wurden vollständig analysiert.",
+        "Die Faktoren, von die das Ergebnis abhängt, wurden analysiert.",
+        "Die Faktoren, denen von das Ergebnis abhängt, wurden analysiert.",
+        "Die Faktoren, von denen hängt das Ergebnis ab, wurden analysiert."
+      ]
+    },
+    {
+      "id": "gr28-e021",
+      "topicId": "gr-28",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Auf die",
+      "title_ar": "auf die",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Anforderungen, auf die sich der Bericht bezieht, wurden vollständig berücksichtigt.",
+      "explanation_de": "Sich beziehen auf verlangt Akkusativ; im Plural steht die.",
+      "explanation_ar": "تحتاج sich beziehen auf إلى Akkusativ، وفي الجمع نستخدم die.",
+      "grammarFocus": "auf_die_order",
+      "tokens": [
+        "wurden vollständig berücksichtigt",
+        "auf die",
+        "der Bericht",
+        "Die Anforderungen",
+        "sich bezieht"
+      ],
+      "acceptedAnswers": [
+        "Die Anforderungen, auf die sich der Bericht bezieht, wurden vollständig berücksichtigt."
+      ]
+    },
+    {
+      "id": "gr28-e022",
+      "topicId": "gr-28",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Kasus vergleichen",
+      "title_ar": "مقارنة الحالات",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "Der Kollege, dem wir helfen, arbeitet für die Firma, für die wir ein neues Konzept entwickeln.",
+      "explanation_de": "Helfen verlangt Dativ; für verlangt Akkusativ.",
+      "explanation_ar": "يحتاج helfen إلى Dativ، بينما يحتاج für إلى Akkusativ.",
+      "grammarFocus": "mixed_case_relative",
+      "options": [
+        "Der Kollege, dem wir helfen, arbeitet für die Firma, für die wir ein neues Konzept entwickeln.",
+        "Der Kollege, den wir helfen, arbeitet für die Firma, für der wir ein Konzept entwickeln.",
+        "Der Kollege, dem helfen wir, arbeitet für die Firma, die für wir entwickeln.",
+        "Der Kollege, der wir helfen, arbeitet für die Firma, für denen wir entwickeln."
+      ]
+    },
+    {
+      "id": "gr28-e023",
+      "topicId": "gr-28",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Strukturen",
+      "title_ar": "ثلاثة تراكيب",
+      "prompt_de": "Bilden Sie drei Relativsätze: der Kunde / wir danken ihm; die Firma / wir arbeiten für sie; die Geräte / wir arbeiten mit ihnen.",
+      "prompt_ar": "كوّن ثلاث جمل موصولة.",
+      "answer": "Der Kunde, dem wir danken, hat uns unterstützt. Die Firma, für die wir arbeiten, wächst. Die Geräte, mit denen wir arbeiten, werden regelmäßig gewartet.",
+      "explanation_de": "Die Sätze verwenden Dativ durch ein Verb, Akkusativ nach für und Dativ nach mit.",
+      "explanation_ar": "تستخدم الجمل Dativ بسبب فعل وAkkusativ بعد für وDativ بعد mit.",
+      "grammarFocus": "three_relative_structures",
+      "acceptedAnswers": [
+        "Der Kunde, dem wir danken, hat uns unterstützt. Die Firma, für die wir arbeiten, wächst. Die Geräte, mit denen wir arbeiten, werden regelmäßig gewartet."
+      ]
+    },
+    {
+      "id": "gr28-e024",
+      "topicId": "gr-28",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Relativsätze",
+      "title_ar": "تدريب ختامي على الجمل الموصولة",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens vier Relativsätze im Dativ, darunter dem, der und denen. Verwenden Sie außerdem Relativsätze mit mit, von, bei, für, sich beziehen auf, teilnehmen an und sich wenden an. Nutzen Sie mindestens einen Passivsatz und zwei Relativsätze im Mittelfeld.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم أربع جمل موصولة على الأقل في Dativ، تتضمن dem وder وdenen. واستخدم كذلك جملًا موصولة مع mit وvon وbei وfür وsich beziehen auf وteilnehmen an وsich wenden an. استخدم جملة مجهولة واحدة على الأقل وجملتين موصولتين في وسط الجملة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Relativsätze im Dativ",
+          "mindestens ein Beispiel mit dem",
+          "mindestens ein Beispiel mit der",
+          "mindestens ein Beispiel mit denen",
+          "mindestens ein Relativsatz mit mit",
+          "mindestens ein Relativsatz mit von oder bei",
+          "mindestens ein Relativsatz mit für",
+          "mindestens ein Relativsatz mit sich beziehen auf",
+          "mindestens ein Relativsatz mit teilnehmen an oder sich wenden an",
+          "korrekte Präposition, Kasus, Kommas und Verbendstellung"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Verb oder Präposition, Kasus, Relativpronomen und Wortstellung.",
+      "explanation_ar": "راجع الفعل أو حرف الجر والحالة وضمير الوصل وترتيب الكلمات.",
+      "grammarFocus": "mixed_relative_dative_prepositions",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-20",
+  "slug": "gr-20-gemischtes-training-phase-2",
+  "order": 20,
+  "title_de": "Gemischtes Training – Phase 2",
+  "title_ar": "تدريب شامل – المرحلة الثانية",
+  "level": "B2",
+  "sourceType": "wiederholung",
+  "category": "gemischtes_training",
+  "estimatedMinutes": 70,
+  "learningObjectives_de": [
+    "Konjunktiv II mit würde in Wünschen, Vorschlägen und hypothetischen Aussagen anwenden.",
+    "Höfliche Bitten, Ratschläge und indirekte Fragen situationsgerecht formulieren.",
+    "Irreale Bedingungen und Vergleiche in Gegenwart und Vergangenheit bilden.",
+    "Vorgangs- und Zustandspassiv in mehreren Zeitformen unterscheiden und verwenden.",
+    "Passivsätze mit Modalverben korrekt bilden.",
+    "Grund- und subjektive Bedeutungen der Modalverben unterscheiden.",
+    "Modalverben in Vergangenheit und Nebensätzen korrekt anordnen.",
+    "Mehrere Grammatikthemen in beruflichen B2-Texten kombinieren."
+  ],
+  "learningObjectives_ar": [
+    "استخدام Konjunktiv II مع würde في الرغبات والاقتراحات والعبارات الافتراضية.",
+    "صياغة الطلبات والنصائح والأسئلة غير المباشرة بحسب الموقف.",
+    "تكوين الشروط والمقارنات غير الواقعية في الحاضر والماضي.",
+    "التمييز بين Vorgangspassiv وZustandspassiv واستخدامهما في أزمنة متعددة.",
+    "تكوين المبني للمجهول مع الأفعال الناقصة بصورة صحيحة.",
+    "التمييز بين المعاني الأساسية والذاتية للأفعال الناقصة.",
+    "ترتيب الأفعال الناقصة في الماضي والجمل الفرعية.",
+    "دمج عدة موضوعات نحوية في نصوص مهنية على مستوى B2."
+  ],
+  "shortDescription_de": "Dieses Abschlusstraining wiederholt und verbindet die Inhalte von gr-11 bis gr-19: Konjunktiv II, irreale Bedingungen, Passiv und Modalverben.",
+  "shortDescription_ar": "يراجع هذا التدريب الختامي موضوعات gr-11 حتى gr-19 ويربط بينها: Konjunktiv II والشروط غير الواقعية والمبني للمجهول والأفعال الناقصة.",
+  "explanation_de": "Im gemischten Training wird nicht nur eine einzelne Regel geprüft. Entscheidend ist, zuerst die kommunikative Absicht und den Zeitbezug zu erkennen. Bei Wünschen, höflichen Bitten und hypothetischen Situationen steht häufig Konjunktiv II. Bei sachlichen Abläufen und Berichten wird oft das Passiv verwendet. Modalverben bestimmen, ob eine Aussage Notwendigkeit, Möglichkeit, Erlaubnis, Verbot, Auftrag, Vermutung oder Behauptung ausdrückt. Achten Sie besonders auf die Verbposition: würde oder ein Modalverb steht im Hauptsatz meist auf Position 2; im Nebensatz steht die konjugierte Verbform am Ende. Bei Modalverben im Perfekt mit einem zweiten Verb gilt die besondere Ersatzinfinitiv-Struktur.",
+  "explanation_ar": "لا يختبر التدريب الشامل قاعدة واحدة فقط، بل يتطلب أولًا تحديد المقصود التواصلي والزمن. تظهر صيغة Konjunktiv II كثيرًا في الرغبات والطلبات المهذبة والمواقف الافتراضية. ويُستخدم المبني للمجهول كثيرًا في وصف العمليات والتقارير الموضوعية. أما الفعل الناقص فيحدد ما إذا كانت الجملة تعبّر عن ضرورة أو إمكانية أو سماح أو منع أو تكليف أو توقع أو ادعاء. ويجب الانتباه خصوصًا إلى موقع الفعل: تأتي würde أو الأفعال الناقصة غالبًا في المرتبة الثانية في الجملة الرئيسية، بينما تأتي الصيغة المصرفة في نهاية الجملة الفرعية. وعند استخدام الفعل الناقص في Perfekt مع فعل ثانٍ نستخدم بنية Ersatzinfinitiv الخاصة.",
+  "rules": [
+    {
+      "id": "gr20-r01",
+      "title_de": "Kommunikative Absicht erkennen",
+      "title_ar": "تحديد المقصود التواصلي",
+      "explanation_de": "Prüfen Sie zuerst, ob die Aussage Wunsch, Bitte, Bedingung, Bericht, Pflicht oder Vermutung ausdrückt.",
+      "explanation_ar": "حدد أولًا ما إذا كانت الجملة تعبّر عن رغبة أو طلب أو شرط أو تقرير أو واجب أو توقع.",
+      "formula": "Bedeutung → passende Grammatikform",
+      "examples": [
+        {
+          "de": "Wunsch: Ich würde gern teilnehmen.",
+          "ar": "رغبة: أرغب في المشاركة."
+        },
+        {
+          "de": "Pflicht: Der Antrag muss geprüft werden.",
+          "ar": "واجب: يجب فحص الطلب."
+        }
+      ]
+    },
+    {
+      "id": "gr20-r02",
+      "title_de": "Zeitbezug prüfen",
+      "title_ar": "تحديد الزمن",
+      "explanation_de": "Gegenwart, Vergangenheit und Zukunft verlangen unterschiedliche Konjunktiv-, Passiv- und Modalformen.",
+      "explanation_ar": "يتطلب الحاضر والماضي والمستقبل صيغًا مختلفة في Konjunktiv والمبني للمجهول والأفعال الناقصة.",
+      "formula": "Zeitbezug → passende Verbgruppe",
+      "examples": [
+        {
+          "de": "Gegenwart: Wenn ich Zeit hätte, würde ich helfen.",
+          "ar": "الحاضر: لو كان لدي وقت لساعدت."
+        },
+        {
+          "de": "Vergangenheit: Wenn ich Zeit gehabt hätte, hätte ich geholfen.",
+          "ar": "الماضي: لو كان لدي وقت آنذاك لكنت قد ساعدت."
+        }
+      ]
+    },
+    {
+      "id": "gr20-r03",
+      "title_de": "Prozess oder Zustand",
+      "title_ar": "عملية أم حالة",
+      "explanation_de": "Werden + Partizip II beschreibt einen Vorgang; sein + Partizip II einen Zustand.",
+      "explanation_ar": "تصف werden + Partizip II عملية، وتصف sein + Partizip II حالة.",
+      "formula": "wird gemacht ↔ ist gemacht",
+      "examples": [
+        {
+          "de": "Der Raum wird gereinigt.",
+          "ar": "يتم تنظيف الغرفة."
+        },
+        {
+          "de": "Der Raum ist gereinigt.",
+          "ar": "الغرفة أصبحت نظيفة."
+        }
+      ]
+    },
+    {
+      "id": "gr20-r04",
+      "title_de": "Modalbedeutung genau wählen",
+      "title_ar": "اختيار معنى الفعل الناقص بدقة",
+      "explanation_de": "Nicht müssen bedeutet nicht notwendig; nicht dürfen bedeutet verboten.",
+      "explanation_ar": "تعني nicht müssen أن الأمر غير ضروري، بينما تعني nicht dürfen أنه ممنوع.",
+      "formula": "muss nicht ≠ darf nicht",
+      "examples": [
+        {
+          "de": "Sie müssen nicht warten.",
+          "ar": "لا يلزم أن تنتظر."
+        },
+        {
+          "de": "Sie dürfen hier nicht warten.",
+          "ar": "لا يجوز لك الانتظار هنا."
+        }
+      ]
+    },
+    {
+      "id": "gr20-r05",
+      "title_de": "Verbposition kontrollieren",
+      "title_ar": "مراجعة موقع الفعل",
+      "explanation_de": "Im Hauptsatz steht die finite Form auf Position 2; im Nebensatz meistens am Ende.",
+      "explanation_ar": "تأتي الصيغة المصرفة في المرتبة الثانية في الجملة الرئيسية وغالبًا في النهاية في الجملة الفرعية.",
+      "formula": "Hauptsatz: V2 | Nebensatz: Verb am Ende",
+      "examples": [
+        {
+          "de": "Der Antrag muss heute geprüft werden.",
+          "ar": "يجب فحص الطلب اليوم."
+        },
+        {
+          "de": "Wir warten, weil der Antrag geprüft werden muss.",
+          "ar": "ننتظر لأن الطلب يجب فحصه."
+        }
+      ]
+    },
+    {
+      "id": "gr20-r06",
+      "title_de": "Ersatzinfinitiv",
+      "title_ar": "Ersatzinfinitiv",
+      "explanation_de": "Mit einem zweiten Verb steht das Modalverb im Perfekt als Infinitiv.",
+      "explanation_ar": "مع وجود فعل ثانٍ يأتي الفعل الناقص في Perfekt بصيغة المصدر.",
+      "formula": "hat/haben + Vollverb-Infinitiv + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Wir haben den Termin verschieben müssen.",
+          "ar": "اضطررنا إلى تأجيل الموعد."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr20-t01",
+      "title_de": "Themen der Phase 2",
+      "title_ar": "موضوعات المرحلة الثانية",
+      "headers_de": [
+        "Thema",
+        "Kernform",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الموضوع",
+        "الصيغة الأساسية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Konjunktiv II",
+          "würde + Infinitiv",
+          "Ich würde teilnehmen."
+        ],
+        [
+          "Irreale Bedingung",
+          "wenn + Konjunktiv II",
+          "Wenn ich Zeit hätte, ..."
+        ],
+        [
+          "Passiv Präsens",
+          "wird + Partizip II",
+          "Der Antrag wird geprüft."
+        ],
+        [
+          "Passiv Perfekt",
+          "ist + Partizip II + worden",
+          "Der Antrag ist geprüft worden."
+        ],
+        [
+          "Modalpassiv",
+          "muss + Partizip II + werden",
+          "Der Antrag muss geprüft werden."
+        ],
+        [
+          "Zustandspassiv",
+          "ist + Partizip II",
+          "Der Antrag ist geprüft."
+        ],
+        [
+          "Modalverb Vergangenheit",
+          "musste / hat ... müssen",
+          "Wir mussten warten."
+        ]
+      ]
+    },
+    {
+      "id": "gr20-t02",
+      "title_de": "Typische Entscheidungen",
+      "title_ar": "قرارات نحوية شائعة",
+      "headers_de": [
+        "Frage",
+        "mögliche Entscheidung"
+      ],
+      "headers_ar": [
+        "السؤال",
+        "الاختيار الممكن"
+      ],
+      "rows": [
+        [
+          "Wunsch oder höfliche Bitte?",
+          "würde gern / könnten Sie"
+        ],
+        [
+          "Real oder irreal?",
+          "Indikativ / Konjunktiv II"
+        ],
+        [
+          "Prozess oder Zustand?",
+          "werden / sein"
+        ],
+        [
+          "Notwendig oder verboten?",
+          "müssen / dürfen nicht"
+        ],
+        [
+          "Gegenwart oder Vergangenheit?",
+          "Präsens / Präteritum / Perfekt"
+        ],
+        [
+          "Eigene Information oder Hörensagen?",
+          "Indikativ / sollen"
+        ]
+      ]
+    },
+    {
+      "id": "gr20-t03",
+      "title_de": "Fehlerkontrolle",
+      "title_ar": "مراجعة الأخطاء",
+      "headers_de": [
+        "Kontrollpunkt",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "نقطة المراجعة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Infinitiv nach würde",
+          "würde schreiben"
+        ],
+        [
+          "worden im Passiv",
+          "ist geschrieben worden"
+        ],
+        [
+          "werden im Modalpassiv",
+          "muss geschrieben werden"
+        ],
+        [
+          "Verbende im Nebensatz",
+          "weil er kommen muss"
+        ],
+        [
+          "Ersatzinfinitiv",
+          "hat kommen müssen"
+        ],
+        [
+          "Dativ bleibt Dativ",
+          "Dem Kunden wird geholfen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wenn die Unterlagen früher eingereicht worden wären, hätte der Antrag rechtzeitig bearbeitet werden können.",
+      "ar": "لو كانت المستندات قد قُدمت أبكر لكان من الممكن معالجة الطلب في الوقت المناسب.",
+      "note_de": "Irreale Vergangenheit, Passiv und Modalverb kombiniert.",
+      "note_ar": "دمج الشرط غير المتحقق في الماضي مع المبني للمجهول والفعل الناقص."
+    },
+    {
+      "de": "Ich würde gern wissen, ob die Entscheidung bereits getroffen worden ist.",
+      "ar": "أرغب في معرفة ما إذا كان القرار قد اتُّخذ بالفعل.",
+      "note_de": "Höflicher Wunsch und Perfekt Passiv im Nebensatz.",
+      "note_ar": "رغبة مهذبة مع Perfekt Passiv في جملة فرعية."
+    },
+    {
+      "de": "Die Daten dürfen nicht weitergegeben werden, weil sie noch nicht vollständig geprüft worden sind.",
+      "ar": "لا يجوز نقل البيانات لأنها لم تُفحص بالكامل بعد.",
+      "note_de": "Modalpassiv und Perfekt Passiv.",
+      "note_ar": "المبني للمجهول مع فعل ناقص وPerfekt Passiv."
+    },
+    {
+      "de": "Die Anlage wird gerade repariert; bis morgen dürfte sie wieder einsatzbereit sein.",
+      "ar": "يتم إصلاح المنشأة حاليًا، ومن المرجح أن تصبح جاهزة للعمل مجددًا بحلول الغد.",
+      "note_de": "Vorgangspassiv und vorsichtige Vermutung.",
+      "note_ar": "Vorgangspassiv مع توقع حذر."
+    },
+    {
+      "de": "Der Anbieter will den Fehler bereits behoben haben, obwohl das System noch nicht vollständig funktionsfähig ist.",
+      "ar": "يدّعي المزوّد أنه أصلح الخطأ، رغم أن النظام لم يصبح جاهزًا للعمل بالكامل بعد.",
+      "note_de": "Behauptung mit wollen und Zustandsbeschreibung.",
+      "note_ar": "ادعاء باستخدام wollen مع وصف حالة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wenn ich mehr Zeit habe, würde ich helfen.",
+      "correct": "Wenn ich mehr Zeit hätte, würde ich helfen.",
+      "explanation_de": "Bei einer irrealen Bedingung steht auch der wenn-Satz im Konjunktiv II.",
+      "explanation_ar": "في الشرط غير الواقعي تأتي جملة wenn أيضًا في Konjunktiv II."
+    },
+    {
+      "wrong": "Der Antrag ist geprüft geworden.",
+      "correct": "Der Antrag ist geprüft worden.",
+      "explanation_de": "Im Vorgangspassiv verwendet man worden.",
+      "explanation_ar": "نستخدم worden في Vorgangspassiv."
+    },
+    {
+      "wrong": "Der Antrag muss geprüft.",
+      "correct": "Der Antrag muss geprüft werden.",
+      "explanation_de": "Das Modalpassiv braucht den Infinitiv werden.",
+      "explanation_ar": "يحتاج Modalpassiv إلى المصدر werden."
+    },
+    {
+      "wrong": "Weil der Antrag muss geprüft werden, warten wir.",
+      "correct": "Weil der Antrag geprüft werden muss, warten wir.",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي الفعل الناقص المصرف في النهاية."
+    },
+    {
+      "wrong": "Die Tür wird seit gestern geschlossen.",
+      "correct": "Die Tür ist seit gestern geschlossen.",
+      "explanation_de": "Seit gestern bezeichnet hier einen Zustand.",
+      "explanation_ar": "تدل seit gestern هنا على حالة."
+    },
+    {
+      "wrong": "Wir haben den Termin verschieben gemusst.",
+      "correct": "Wir haben den Termin verschieben müssen.",
+      "explanation_de": "Mit einem zweiten Verb verwendet man den Ersatzinfinitiv.",
+      "explanation_ar": "مع وجود فعل ثانٍ نستخدم Ersatzinfinitiv."
+    }
+  ],
+  "quickSummary_de": [
+    "Bestimmen Sie zuerst Bedeutung und Zeit.",
+    "Würde + Infinitiv steht häufig bei hypothetischen Aussagen.",
+    "Höfliche Bitten verwenden oft könnten oder würden.",
+    "Irreale Vergangenheit verwendet hätte/wäre + Partizip II.",
+    "Vorgangspassiv verwendet werden; Zustandspassiv sein.",
+    "Im Perfekt Passiv steht worden.",
+    "Modalpassiv endet mit Partizip II + werden.",
+    "Modalverben verändern Pflicht, Möglichkeit, Verbot oder Einschätzung.",
+    "Im Nebensatz steht die finite Form meist am Ende.",
+    "Bei Modalverben im Perfekt ist der Ersatzinfinitiv wichtig."
+  ],
+  "quickSummary_ar": [
+    "حدد أولًا المعنى والزمن.",
+    "تأتي würde + المصدر كثيرًا في العبارات الافتراضية.",
+    "تستخدم الطلبات المهذبة غالبًا könnten أو würden.",
+    "يستخدم الماضي غير المتحقق hätte/wäre + Partizip II.",
+    "يستخدم Vorgangspassiv الفعل werden، ويستخدم Zustandspassiv الفعل sein.",
+    "تأتي worden في Perfekt Passiv.",
+    "ينتهي Modalpassiv بـ Partizip II + werden.",
+    "تغيّر الأفعال الناقصة معنى الواجب أو الإمكانية أو المنع أو التقييم.",
+    "تأتي الصيغة المصرفة غالبًا في نهاية الجملة الفرعية.",
+    "يُعد Ersatzinfinitiv مهمًا مع الأفعال الناقصة في Perfekt."
+  ],
+  "relatedTopics": [
+    "gr-11",
+    "gr-12",
+    "gr-13",
+    "gr-14",
+    "gr-15",
+    "gr-16",
+    "gr-17",
+    "gr-18",
+    "gr-19"
+  ]
+}

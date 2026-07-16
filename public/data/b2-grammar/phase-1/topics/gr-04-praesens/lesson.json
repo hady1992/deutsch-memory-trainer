@@ -1,0 +1,450 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-04",
+  "slug": "gr-04-praesens",
+  "order": 4,
+  "title_de": "Präsens",
+  "title_ar": "زمن الحاضر",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "zeiten_training",
+  "estimatedMinutes": 35,
+  "learningObjectives_de": [
+    "Regelmäßige und wichtige unregelmäßige Verben im Präsens korrekt konjugieren.",
+    "Präsens für Gegenwart, Gewohnheiten, allgemeine Tatsachen und geplante Zukunft verwenden.",
+    "Trennbare und reflexive Verben korrekt in den Satz einordnen.",
+    "Modalverben im Präsens mit einem Infinitiv am Satzende verwenden.",
+    "Subjekt-Verb-Kongruenz und typische Stammvokalwechsel sicher beherrschen.",
+    "Präsensformen in Haupt- und Nebensätzen korrekt bilden."
+  ],
+  "learningObjectives_ar": [
+    "تصريف الأفعال المنتظمة وأهم الأفعال غير المنتظمة في الحاضر.",
+    "استخدام Präsens للحاضر والعادات والحقائق والمستقبل المخطط.",
+    "ترتيب الأفعال المنفصلة والانعكاسية بصورة صحيحة.",
+    "استخدام الأفعال الناقصة مع المصدر في نهاية الجملة.",
+    "إتقان المطابقة بين الفاعل والفعل وتغير حرف العلة.",
+    "تكوين Präsens في الجملة الرئيسية والفرعية."
+  ],
+  "shortDescription_de": "Das Präsens beschreibt aktuelle Handlungen, Gewohnheiten, allgemeine Tatsachen und sehr häufig auch geplante zukünftige Ereignisse.",
+  "shortDescription_ar": "يصف Präsens ما يحدث الآن والعادات والحقائق العامة، ويُستخدم كثيرًا أيضًا للمستقبل المخطط.",
+  "explanation_de": "Das Präsens ist die häufigste Zeitform im Deutschen. Regelmäßige Verben erhalten die Endungen -e, -st, -t, -en, -t, -en. Bei Verben auf -d oder -t wird häufig ein zusätzliches -e eingefügt, zum Beispiel: du arbeitest, er wartet. Einige starke Verben verändern in der 2. und 3. Person Singular den Stammvokal, etwa fahren → du fährst, lesen → er liest, nehmen → sie nimmt. Trennbare Verben bilden im Hauptsatz eine Satzklammer, während sie im Nebensatz zusammengeschrieben am Ende stehen. Mit einem Zeitangabe wie morgen, nächste Woche oder ab Montag kann das Präsens eine geplante Zukunft ausdrücken.",
+  "explanation_ar": "Präsens هو أكثر الأزمنة استخدامًا في الألمانية. تأخذ الأفعال المنتظمة النهايات -e و-st و-t و-en و-t و-en. ومع الأفعال المنتهية بـ d أو t نضيف غالبًا حرف e مثل: du arbeitest وer wartet. تغيّر بعض الأفعال القوية حرف العلة في الشخصين الثاني والثالث المفرد مثل fahren → du fährst وlesen → er liest وnehmen → sie nimmt. وتكوّن الأفعال المنفصلة إطارًا في الجملة الرئيسية، بينما تُكتب متصلة في نهاية الجملة الفرعية. كما يمكن أن يعبّر Präsens عن مستقبل مخطط إذا وُجد ظرف زمني مثل morgen أو nächste Woche.",
+  "rules": [
+    {
+      "id": "gr04-r01",
+      "title_de": "Regelmäßige Verben",
+      "title_ar": "الأفعال المنتظمة",
+      "explanation_de": "Der Verbstamm erhält die Präsensendungen.",
+      "explanation_ar": "يأخذ جذر الفعل نهايات المضارع.",
+      "formula": "Stamm + e / st / t / en / t / en",
+      "examples": [
+        {
+          "de": "Ich arbeite heute im Büro.",
+          "ar": "أعمل اليوم في المكتب."
+        },
+        {
+          "de": "Du lernst jeden Abend Deutsch.",
+          "ar": "تتعلم الألمانية كل مساء."
+        },
+        {
+          "de": "Wir planen eine Schulung.",
+          "ar": "نخطط لدورة تدريبية."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r02",
+      "title_de": "Verben auf -d, -t und bestimmte Konsonanten",
+      "title_ar": "الأفعال المنتهية بـ d وt وبعض الصوامت",
+      "explanation_de": "Vor -st und -t steht oft ein zusätzliches e: arbeiten → du arbeitest, er arbeitet.",
+      "explanation_ar": "نضيف غالبًا e قبل -st و-t: arbeiten → du arbeitest وer arbeitet.",
+      "formula": "Stamm + e + st/t",
+      "examples": [
+        {
+          "de": "Der Kurs endet um 16 Uhr.",
+          "ar": "تنتهي الدورة الساعة الرابعة."
+        },
+        {
+          "de": "Wartest du noch auf eine Antwort?",
+          "ar": "هل ما زلت تنتظر ردًا؟"
+        }
+      ]
+    },
+    {
+      "id": "gr04-r03",
+      "title_de": "Stammvokalwechsel",
+      "title_ar": "تغير حرف العلة",
+      "explanation_de": "Bei einigen starken Verben verändert sich der Stammvokal nur bei du und er/sie/es.",
+      "explanation_ar": "في بعض الأفعال القوية يتغير حرف العلة فقط مع du وer/sie/es.",
+      "formula": "e → i/ie, a → ä, au → äu",
+      "examples": [
+        {
+          "de": "Du liest den Vertrag sorgfältig.",
+          "ar": "تقرأ العقد بعناية."
+        },
+        {
+          "de": "Sie fährt jeden Tag mit dem Zug.",
+          "ar": "تسافر يوميًا بالقطار."
+        },
+        {
+          "de": "Er nimmt an der Besprechung teil.",
+          "ar": "يشارك في الاجتماع."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r04",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال المنفصلة",
+      "explanation_de": "Im Hauptsatz steht das Präfix am Ende; im Nebensatz steht das vollständige Verb am Ende.",
+      "explanation_ar": "في الجملة الرئيسية يأتي الجزء المنفصل في النهاية، وفي الجملة الفرعية يأتي الفعل كاملًا في النهاية.",
+      "formula": "Hauptsatz: Verb ... Präfix | Nebensatz: ... Präfixverb",
+      "examples": [
+        {
+          "de": "Ich rufe die Kundin später an.",
+          "ar": "سأتصل بالعميلة لاحقًا."
+        },
+        {
+          "de": "Sie sagt, dass sie die Kundin später anruft.",
+          "ar": "تقول إنها ستتصل بالعميلة لاحقًا."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r05",
+      "title_de": "Reflexive Verben",
+      "title_ar": "الأفعال الانعكاسية",
+      "explanation_de": "Das Reflexivpronomen richtet sich nach dem Subjekt.",
+      "explanation_ar": "يتغير الضمير الانعكاسي بحسب الفاعل.",
+      "formula": "ich mich | du dich | er/sie/es sich | wir uns | ihr euch | sie/Sie sich",
+      "examples": [
+        {
+          "de": "Ich bereite mich auf die Prüfung vor.",
+          "ar": "أستعد للامتحان."
+        },
+        {
+          "de": "Wir treffen uns um neun Uhr.",
+          "ar": "نلتقي الساعة التاسعة."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r06",
+      "title_de": "Modalverben",
+      "title_ar": "الأفعال الناقصة",
+      "explanation_de": "Das Modalverb wird konjugiert; der Vollverb-Infinitiv steht am Satzende.",
+      "explanation_ar": "يُصرّف الفعل الناقص ويأتي مصدر الفعل الأساسي في نهاية الجملة.",
+      "formula": "Subjekt + Modalverb + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Ich muss den Bericht heute abschicken.",
+          "ar": "يجب أن أرسل التقرير اليوم."
+        },
+        {
+          "de": "Sie kann sehr gut präsentieren.",
+          "ar": "تستطيع تقديم العروض بشكل جيد جدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r07",
+      "title_de": "Verwendung des Präsens",
+      "title_ar": "استخدامات Präsens",
+      "explanation_de": "Das Präsens kann Gegenwart, Gewohnheit, allgemeine Wahrheit oder geplante Zukunft ausdrücken.",
+      "explanation_ar": "يمكن أن يعبّر Präsens عن الحاضر أو العادة أو حقيقة عامة أو مستقبل مخطط.",
+      "formula": "Präsens + Kontext/Zeitangabe",
+      "examples": [
+        {
+          "de": "Ich telefoniere gerade mit dem Kunden.",
+          "ar": "أتحدث الآن مع العميل."
+        },
+        {
+          "de": "Montags arbeite ich im Homeoffice.",
+          "ar": "أعمل من المنزل أيام الاثنين."
+        },
+        {
+          "de": "Wasser kocht bei 100 Grad.",
+          "ar": "يغلي الماء عند 100 درجة."
+        },
+        {
+          "de": "Morgen beginne ich den neuen Kurs.",
+          "ar": "أبدأ الدورة الجديدة غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr04-r08",
+      "title_de": "Präsens im Nebensatz",
+      "title_ar": "Präsens في الجملة الفرعية",
+      "explanation_de": "Auch im Nebensatz bleibt die Zeitform Präsens, aber das finite Verb steht am Ende.",
+      "explanation_ar": "يبقى الزمن Präsens في الجملة الفرعية، لكن الفعل المصرف يأتي في النهاية.",
+      "formula": "Konjunktion + Subjekt + ... + finites Verb",
+      "examples": [
+        {
+          "de": "Ich weiß, dass er heute arbeitet.",
+          "ar": "أعرف أنه يعمل اليوم."
+        },
+        {
+          "de": "Weil sie früh beginnt, fährt sie um sieben Uhr los.",
+          "ar": "لأنها تبدأ مبكرًا تنطلق الساعة السابعة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr04-t01",
+      "title_de": "Regelmäßige Endungen",
+      "title_ar": "النهايات المنتظمة",
+      "headers_de": [
+        "Person",
+        "lernen",
+        "arbeiten"
+      ],
+      "headers_ar": [
+        "الشخص",
+        "lernen",
+        "arbeiten"
+      ],
+      "rows": [
+        [
+          "ich",
+          "lerne",
+          "arbeite"
+        ],
+        [
+          "du",
+          "lernst",
+          "arbeitest"
+        ],
+        [
+          "er/sie/es",
+          "lernt",
+          "arbeitet"
+        ],
+        [
+          "wir",
+          "lernen",
+          "arbeiten"
+        ],
+        [
+          "ihr",
+          "lernt",
+          "arbeitet"
+        ],
+        [
+          "sie/Sie",
+          "lernen",
+          "arbeiten"
+        ]
+      ]
+    },
+    {
+      "id": "gr04-t02",
+      "title_de": "Wichtige Stammvokalwechsel",
+      "title_ar": "أهم تغيرات حرف العلة",
+      "headers_de": [
+        "Infinitiv",
+        "du",
+        "er/sie/es"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "du",
+        "er/sie/es"
+      ],
+      "rows": [
+        [
+          "fahren",
+          "fährst",
+          "fährt"
+        ],
+        [
+          "lesen",
+          "liest",
+          "liest"
+        ],
+        [
+          "sehen",
+          "siehst",
+          "sieht"
+        ],
+        [
+          "nehmen",
+          "nimmst",
+          "nimmt"
+        ],
+        [
+          "sprechen",
+          "sprichst",
+          "spricht"
+        ],
+        [
+          "laufen",
+          "läufst",
+          "läuft"
+        ]
+      ]
+    },
+    {
+      "id": "gr04-t03",
+      "title_de": "Wichtige Modalverben",
+      "title_ar": "أهم الأفعال الناقصة",
+      "headers_de": [
+        "Verb",
+        "ich",
+        "du",
+        "er/sie/es",
+        "wir"
+      ],
+      "headers_ar": [
+        "الفعل",
+        "ich",
+        "du",
+        "er/sie/es",
+        "wir"
+      ],
+      "rows": [
+        [
+          "können",
+          "kann",
+          "kannst",
+          "kann",
+          "können"
+        ],
+        [
+          "müssen",
+          "muss",
+          "musst",
+          "muss",
+          "müssen"
+        ],
+        [
+          "dürfen",
+          "darf",
+          "darfst",
+          "darf",
+          "dürfen"
+        ],
+        [
+          "wollen",
+          "will",
+          "willst",
+          "will",
+          "wollen"
+        ],
+        [
+          "sollen",
+          "soll",
+          "sollst",
+          "soll",
+          "sollen"
+        ],
+        [
+          "mögen",
+          "mag",
+          "magst",
+          "mag",
+          "mögen"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Abteilung bearbeitet täglich zahlreiche Anfragen.",
+      "ar": "يعالج القسم يوميًا عددًا كبيرًا من الطلبات.",
+      "note_de": "Gewohnheit und regelmäßiger Ablauf.",
+      "note_ar": "عادة وإجراء يتكرر بانتظام."
+    },
+    {
+      "de": "Morgen bespreche ich die Ergebnisse mit meiner Vorgesetzten.",
+      "ar": "سأناقش النتائج غدًا مع رئيستي.",
+      "note_de": "Geplante Zukunft im Präsens.",
+      "note_ar": "مستقبل مخطط بصيغة Präsens."
+    },
+    {
+      "de": "Der Kollege nimmt heute an einer Schulung teil.",
+      "ar": "يشارك الزميل اليوم في دورة تدريبية.",
+      "note_de": "Stammvokalwechsel bei nehmen und trennbares Verb teilnehmen.",
+      "note_ar": "تغير حرف العلة في nehmen مع فعل منفصل."
+    },
+    {
+      "de": "Wir müssen die Frist unbedingt einhalten.",
+      "ar": "يجب علينا الالتزام بالمهلة.",
+      "note_de": "Modalverb mit Infinitiv am Ende.",
+      "note_ar": "فعل ناقص مع المصدر في نهاية الجملة."
+    },
+    {
+      "de": "Ich weiß, dass sich die Kundin über die Verzögerung beschwert.",
+      "ar": "أعرف أن العميلة تشتكي من التأخير.",
+      "note_de": "Reflexives Verb im Nebensatz.",
+      "note_ar": "فعل انعكاسي في جملة فرعية."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Du arbeitst heute.",
+      "correct": "Du arbeitest heute.",
+      "explanation_de": "Bei arbeiten steht vor -st ein zusätzliches e.",
+      "explanation_ar": "نضيف e قبل -st مع arbeiten."
+    },
+    {
+      "wrong": "Er lest den Bericht.",
+      "correct": "Er liest den Bericht.",
+      "explanation_de": "Lesen hat bei er/sie/es den Stammvokalwechsel e → ie.",
+      "explanation_ar": "يتغير حرف العلة في lesen مع er/sie/es من e إلى ie."
+    },
+    {
+      "wrong": "Ich anrufe den Kunden.",
+      "correct": "Ich rufe den Kunden an.",
+      "explanation_de": "Im Hauptsatz wird ein trennbares Verb getrennt.",
+      "explanation_ar": "يُفصل الفعل المنفصل في الجملة الرئيسية."
+    },
+    {
+      "wrong": "Wir müssen abschicken den Antrag.",
+      "correct": "Wir müssen den Antrag abschicken.",
+      "explanation_de": "Der Infinitiv steht bei Modalverben am Satzende.",
+      "explanation_ar": "يأتي المصدر في نهاية الجملة مع الأفعال الناقصة."
+    },
+    {
+      "wrong": "Ich bereite sich auf die Prüfung vor.",
+      "correct": "Ich bereite mich auf die Prüfung vor.",
+      "explanation_de": "Das Reflexivpronomen muss zum Subjekt ich passen.",
+      "explanation_ar": "يجب أن يناسب الضمير الانعكاسي الفاعل ich."
+    },
+    {
+      "wrong": "Morgen ich beginne den Kurs.",
+      "correct": "Morgen beginne ich den Kurs.",
+      "explanation_de": "Nach der Zeitangabe auf Position 1 folgt das finite Verb.",
+      "explanation_ar": "بعد ظرف الزمن في البداية يأتي الفعل المصرف."
+    }
+  ],
+  "quickSummary_de": [
+    "Regelmäßige Verben erhalten die Endungen -e, -st, -t, -en, -t, -en.",
+    "Bei Verben auf -d und -t steht oft ein zusätzliches e.",
+    "Einige starke Verben verändern den Stammvokal bei du und er/sie/es.",
+    "Trennbare Verben bilden im Hauptsatz eine Satzklammer.",
+    "Reflexivpronomen richten sich nach dem Subjekt.",
+    "Bei Modalverben steht der Vollverb-Infinitiv am Ende.",
+    "Präsens beschreibt Gegenwart, Gewohnheit, Tatsachen und geplante Zukunft.",
+    "Im Nebensatz steht das finite Verb am Ende."
+  ],
+  "quickSummary_ar": [
+    "تأخذ الأفعال المنتظمة النهايات -e و-st و-t و-en و-t و-en.",
+    "نضيف غالبًا e مع الأفعال المنتهية بـ d أو t.",
+    "تغير بعض الأفعال القوية حرف العلة مع du وer/sie/es.",
+    "تكوّن الأفعال المنفصلة إطارًا في الجملة الرئيسية.",
+    "تتغير الضمائر الانعكاسية بحسب الفاعل.",
+    "يأتي مصدر الفعل الأساسي في النهاية مع الأفعال الناقصة.",
+    "يعبّر Präsens عن الحاضر والعادة والحقائق والمستقبل المخطط.",
+    "يأتي الفعل المصرف في نهاية الجملة الفرعية."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-03",
+    "gr-05",
+    "gr-06",
+    "gr-08"
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-25",
+  "slug": "gr-25-infinitiv-mit-zu",
+  "order": 25,
+  "title_de": "Infinitiv mit zu",
+  "title_ar": "المصدر مع zu",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "infinitivkonstruktionen",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Infinitivgruppen mit zu nach Verben, Adjektiven und Nomen korrekt bilden.",
+    "Zwischen einer Infinitivgruppe und einem dass-Satz unterscheiden.",
+    "Zu bei trennbaren und untrennbaren Verben richtig positionieren.",
+    "Verben und Konstruktionen erkennen, nach denen kein zu steht.",
+    "Infinitiv Perfekt mit zu für vorzeitige Handlungen bilden.",
+    "Infinitiv Passiv mit zu in formellen Zusammenhängen verwenden.",
+    "Kommas bei Infinitivgruppen sicher und sinnvoll setzen."
+  ],
+  "learningObjectives_ar": [
+    "تكوين تراكيب المصدر مع zu بعد الأفعال والصفات والأسماء بصورة صحيحة.",
+    "التمييز بين تركيب المصدر وجملة dass.",
+    "وضع zu في المكان الصحيح مع الأفعال القابلة وغير القابلة للفصل.",
+    "تمييز الأفعال والتراكيب التي لا تأتي بعدها zu.",
+    "تكوين Infinitiv Perfekt مع zu للأحداث الأسبق.",
+    "استخدام Infinitiv Passiv مع zu في السياقات الرسمية.",
+    "وضع الفاصلة مع تراكيب المصدر بصورة صحيحة وواضحة."
+  ],
+  "shortDescription_de": "Infinitivgruppen mit zu verkürzen Sätze und machen berufliche Texte präziser. Sie stehen häufig nach bestimmten Verben, Adjektiven, Nomen und unpersönlichen Ausdrücken.",
+  "shortDescription_ar": "تختصر تراكيب المصدر مع zu الجمل وتجعل النصوص المهنية أكثر دقة. وتأتي كثيرًا بعد أفعال وصفات وأسماء وتعبيرات غير شخصية معينة.",
+  "explanation_de": "Eine Infinitivgruppe mit zu besteht aus zu und einem Infinitiv: Wir planen, den Ablauf zu verbessern. Sie wird häufig verwendet, wenn das gedachte Subjekt der Infinitivgruppe mit dem Subjekt oder einem Objekt des Hauptsatzes übereinstimmt. Bei unterschiedlichen handelnden Personen ist oft ein dass-Satz nötig: Ich hoffe, dass Sie teilnehmen. Zu steht unmittelbar vor einem einfachen oder untrennbaren Verb: zu arbeiten, zu verstehen. Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm: anzurufen, vorzubereiten, kennenzulernen. Nach Modalverben, lassen sowie Wahrnehmungsverben wie sehen und hören steht normalerweise kein zu: Wir müssen warten. Sie lässt den Bericht prüfen. Für eine frühere Handlung verwendet man den Infinitiv Perfekt: Er behauptet, die Nachricht rechtzeitig geschickt zu haben. Im Passiv lautet die Form zum Beispiel: informiert zu werden oder informiert worden zu sein. Kommas sind bei erweiterten Infinitivgruppen häufig sinnvoll und in bestimmten Strukturen verpflichtend, besonders wenn die Gruppe von einem Nomen abhängt, durch ein hinweisendes Wort angekündigt wird oder mit um, ohne, statt beziehungsweise anstatt eingeleitet wird.",
+  "explanation_ar": "يتكوّن تركيب المصدر مع zu من zu والمصدر، مثل: Wir planen, den Ablauf zu verbessern. ويُستخدم كثيرًا عندما يكون الفاعل المفهوم في تركيب المصدر هو نفسه فاعل الجملة الرئيسية أو مفعولًا فيها. أما عند اختلاف الشخص القائم بالفعل فنحتاج غالبًا إلى جملة dass، مثل: Ich hoffe, dass Sie teilnehmen. تأتي zu مباشرة قبل الفعل البسيط أو غير القابل للفصل: zu arbeiten وzu verstehen. ومع الأفعال القابلة للفصل تدخل zu بين السابقة وجذر الفعل: anzurufen وvorzubereiten وkennenzulernen. ولا تأتي zu عادة بعد الأفعال الناقصة أو lassen أو أفعال الإدراك مثل sehen وhören. وللتعبير عن فعل أسبق نستخدم Infinitiv Perfekt مثل: die Nachricht geschickt zu haben. أما في المبني للمجهول فنستخدم مثلًا: informiert zu werden أو informiert worden zu sein. وتكون الفاصلة مفيدة كثيرًا، وتصبح إلزامية في بعض التراكيب، خاصة عندما يعتمد تركيب المصدر على اسم أو يسبقه لفظ إشارة أو يبدأ بـ um أو ohne أو statt أو anstatt.",
+  "rules": [
+    {
+      "id": "gr25-r01",
+      "title_de": "Nach bestimmten Verben",
+      "title_ar": "بعد أفعال معينة",
+      "explanation_de": "Viele Verben verlangen oder erlauben eine Infinitivgruppe mit zu.",
+      "explanation_ar": "تحتاج أفعال كثيرة إلى تركيب مصدر مع zu أو تسمح به.",
+      "formula": "Verb + , + ... + zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir versuchen, die Ursache schnell zu finden.",
+          "ar": "نحاول إيجاد السبب بسرعة."
+        },
+        {
+          "de": "Die Abteilung plant, den Prozess zu digitalisieren.",
+          "ar": "يخطط القسم لرقمنة العملية."
+        },
+        {
+          "de": "Sie versprach, die Unterlagen nachzureichen.",
+          "ar": "وعدت بتقديم المستندات لاحقًا."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r02",
+      "title_de": "Nach Adjektiven und unpersönlichen Ausdrücken",
+      "title_ar": "بعد الصفات والتعابير غير الشخصية",
+      "explanation_de": "Nach es ist + Adjektiv steht häufig eine Infinitivgruppe mit zu.",
+      "explanation_ar": "بعد es ist + صفة يأتي كثيرًا تركيب مصدر مع zu.",
+      "formula": "Es ist + Adjektiv, ... zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Es ist wichtig, alle Angaben sorgfältig zu prüfen.",
+          "ar": "من المهم فحص جميع المعلومات بعناية."
+        },
+        {
+          "de": "Es ist möglich, den Termin online zu buchen.",
+          "ar": "من الممكن حجز الموعد عبر الإنترنت."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r03",
+      "title_de": "Nach Nomen",
+      "title_ar": "بعد الأسماء",
+      "explanation_de": "Nomen wie Möglichkeit, Entscheidung, Plan, Bitte oder Ziel können durch eine Infinitivgruppe ergänzt werden.",
+      "explanation_ar": "يمكن إكمال أسماء مثل Möglichkeit وEntscheidung وPlan وBitte وZiel بتركيب مصدر.",
+      "formula": "Nomen + , + ... zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir haben die Möglichkeit, den Termin zu verschieben.",
+          "ar": "لدينا إمكانية تأجيل الموعد."
+        },
+        {
+          "de": "Die Entscheidung, das Verfahren zu ändern, wurde begründet.",
+          "ar": "تم تعليل قرار تغيير الإجراء."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r04",
+      "title_de": "Gleiches Subjekt oder gleicher Bezug",
+      "title_ar": "الفاعل أو المرجع نفسه",
+      "explanation_de": "Eine Infinitivgruppe ist besonders passend, wenn der Handelnde im Hauptsatz eindeutig erkennbar ist.",
+      "explanation_ar": "يكون تركيب المصدر مناسبًا خصوصًا عندما يكون الشخص القائم بالفعل واضحًا من الجملة الرئيسية.",
+      "formula": "Ich plane, ... zu ... | Ich bitte ihn, ... zu ...",
+      "examples": [
+        {
+          "de": "Ich plane, morgen früher zu beginnen.",
+          "ar": "أخطط للبدء أبكر غدًا."
+        },
+        {
+          "de": "Die Leitung bittet die Mitarbeitenden, die Regeln einzuhalten.",
+          "ar": "تطلب الإدارة من الموظفين الالتزام بالقواعد."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r05",
+      "title_de": "Infinitivgruppe oder dass-Satz",
+      "title_ar": "تركيب المصدر أم جملة dass",
+      "explanation_de": "Bei unterschiedlichen Subjekten verwendet man häufig einen dass-Satz.",
+      "explanation_ar": "عندما يختلف الفاعل نستخدم غالبًا جملة dass.",
+      "formula": "gleiches Subjekt → zu | anderes Subjekt → dass",
+      "examples": [
+        {
+          "de": "Ich hoffe, bald eine Antwort zu erhalten.",
+          "ar": "آمل أن أتلقى ردًا قريبًا."
+        },
+        {
+          "de": "Ich hoffe, dass Sie bald antworten.",
+          "ar": "آمل أن ترد قريبًا."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r06",
+      "title_de": "Einfache und untrennbare Verben",
+      "title_ar": "الأفعال البسيطة وغير القابلة للفصل",
+      "explanation_de": "Zu steht direkt vor dem Infinitiv.",
+      "explanation_ar": "تأتي zu مباشرة قبل المصدر.",
+      "formula": "zu arbeiten | zu verstehen | zu bezahlen",
+      "examples": [
+        {
+          "de": "Er versucht, die Erklärung zu verstehen.",
+          "ar": "يحاول فهم الشرح."
+        },
+        {
+          "de": "Bitte vergessen Sie nicht, die Rechnung zu bezahlen.",
+          "ar": "يرجى ألا تنسى دفع الفاتورة."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r07",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+      "explanation_ar": "مع الأفعال القابلة للفصل تأتي zu بين السابقة وجذر الفعل.",
+      "formula": "anrufen → anzurufen | vorbereiten → vorzubereiten",
+      "examples": [
+        {
+          "de": "Sie versprach, mich später anzurufen.",
+          "ar": "وعدت بالاتصال بي لاحقًا."
+        },
+        {
+          "de": "Wir beginnen, die Sitzung vorzubereiten.",
+          "ar": "نبدأ التحضير للاجتماع."
+        },
+        {
+          "de": "Ich freue mich darauf, das neue Team kennenzulernen.",
+          "ar": "أتطلع إلى التعرف إلى الفريق الجديد."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r08",
+      "title_de": "Kein zu nach Modalverben",
+      "title_ar": "لا zu بعد الأفعال الناقصة",
+      "explanation_de": "Nach Modalverben steht der reine Infinitiv ohne zu.",
+      "explanation_ar": "بعد الأفعال الناقصة يأتي المصدر من دون zu.",
+      "formula": "müssen arbeiten | können kommen | dürfen eintreten",
+      "examples": [
+        {
+          "de": "Wir müssen noch warten.",
+          "ar": "يجب أن ننتظر قليلًا."
+        },
+        {
+          "de": "Der Termin kann verschoben werden.",
+          "ar": "يمكن تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r09",
+      "title_de": "Kein zu nach lassen, sehen und hören",
+      "title_ar": "لا zu بعد lassen وsehen وhören",
+      "explanation_de": "Nach lassen und Wahrnehmungsverben steht häufig ein Infinitiv ohne zu.",
+      "explanation_ar": "بعد lassen وأفعال الإدراك يأتي المصدر غالبًا من دون zu.",
+      "formula": "lassen + Infinitiv | sehen/hören + Infinitiv",
+      "examples": [
+        {
+          "de": "Die Leitung lässt den Vorgang erneut prüfen.",
+          "ar": "تجعل الإدارة المعاملة تُفحص مجددًا."
+        },
+        {
+          "de": "Ich hörte das Telefon klingeln.",
+          "ar": "سمعت الهاتف يرن."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r10",
+      "title_de": "Infinitiv Perfekt",
+      "title_ar": "Infinitiv Perfekt",
+      "explanation_de": "Für eine frühere Handlung verwendet man Partizip II + zu haben oder zu sein.",
+      "explanation_ar": "للتعبير عن فعل أسبق نستخدم Partizip II + zu haben أو zu sein.",
+      "formula": "gemacht zu haben | gegangen zu sein",
+      "examples": [
+        {
+          "de": "Er behauptet, die Nachricht rechtzeitig geschickt zu haben.",
+          "ar": "يدّعي أنه أرسل الرسالة في الوقت المناسب."
+        },
+        {
+          "de": "Sie scheint bereits gegangen zu sein.",
+          "ar": "يبدو أنها غادرت بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r11",
+      "title_de": "Infinitiv Passiv",
+      "title_ar": "المصدر في المبني للمجهول",
+      "explanation_de": "Das Passiv wird mit Partizip II + zu werden beziehungsweise im Perfekt mit Partizip II + worden zu sein gebildet.",
+      "explanation_ar": "يتكوّن المصدر المبني للمجهول من Partizip II + zu werden، وفي الماضي من Partizip II + worden zu sein.",
+      "formula": "informiert zu werden | informiert worden zu sein",
+      "examples": [
+        {
+          "de": "Die Beteiligten erwarten, rechtzeitig informiert zu werden.",
+          "ar": "يتوقع المعنيون أن يتم إبلاغهم في الوقت المناسب."
+        },
+        {
+          "de": "Er behauptet, nicht informiert worden zu sein.",
+          "ar": "يدّعي أنه لم يتم إبلاغه."
+        }
+      ]
+    },
+    {
+      "id": "gr25-r12",
+      "title_de": "Kommasetzung",
+      "title_ar": "وضع الفاصلة",
+      "explanation_de": "Ein Komma ist oft sinnvoll und in bestimmten Fällen verpflichtend, zum Beispiel bei Abhängigkeit von einem Nomen oder einem hinweisenden Wort.",
+      "explanation_ar": "تكون الفاصلة مفيدة غالبًا، وتصبح إلزامية في حالات معينة، مثل اعتماد التركيب على اسم أو لفظ إشارة.",
+      "formula": "die Entscheidung, ... zu ... | daran, ... zu ...",
+      "examples": [
+        {
+          "de": "Die Entscheidung, den Termin zu verschieben, wurde begründet.",
+          "ar": "تم تعليل قرار تأجيل الموعد."
+        },
+        {
+          "de": "Bitte denken Sie daran, das Formular zu unterschreiben.",
+          "ar": "يرجى تذكر توقيع الاستمارة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr25-t01",
+      "title_de": "Auslöser für Infinitivgruppen",
+      "title_ar": "العناصر التي تطلب تركيب المصدر",
+      "headers_de": [
+        "Kategorie",
+        "Beispiele",
+        "Satz"
+      ],
+      "headers_ar": [
+        "الفئة",
+        "أمثلة",
+        "الجملة"
+      ],
+      "rows": [
+        [
+          "Verben",
+          "versuchen, planen, hoffen, versprechen",
+          "Wir planen, früher zu beginnen."
+        ],
+        [
+          "Adjektive",
+          "wichtig, möglich, notwendig",
+          "Es ist wichtig, pünktlich zu sein."
+        ],
+        [
+          "Nomen",
+          "Möglichkeit, Plan, Entscheidung",
+          "Es gibt die Möglichkeit, online teilzunehmen."
+        ],
+        [
+          "Verb + Objekt",
+          "bitten, erlauben, empfehlen",
+          "Sie bittet ihn, zu warten."
+        ]
+      ]
+    },
+    {
+      "id": "gr25-t02",
+      "title_de": "Position von zu",
+      "title_ar": "موقع zu",
+      "headers_de": [
+        "Verbtyp",
+        "Infinitiv mit zu",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "نوع الفعل",
+        "المصدر مع zu",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "einfach",
+          "zu arbeiten",
+          "Er versucht, zu arbeiten."
+        ],
+        [
+          "untrennbar",
+          "zu verstehen",
+          "Sie versucht, es zu verstehen."
+        ],
+        [
+          "trennbar",
+          "anzurufen",
+          "Er verspricht, anzurufen."
+        ],
+        [
+          "trennbar",
+          "vorzubereiten",
+          "Wir beginnen, alles vorzubereiten."
+        ],
+        [
+          "trennbar",
+          "kennenzulernen",
+          "Sie freut sich, das Team kennenzulernen."
+        ]
+      ]
+    },
+    {
+      "id": "gr25-t03",
+      "title_de": "Zeit und Passiv",
+      "title_ar": "الزمن والمبني للمجهول",
+      "headers_de": [
+        "Form",
+        "Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "البنية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "gleichzeitig/nachzeitig",
+          "zu + Infinitiv",
+          "Er hofft, bald zu antworten."
+        ],
+        [
+          "vorzeitig aktiv",
+          "Partizip II + zu haben/sein",
+          "Er behauptet, geantwortet zu haben."
+        ],
+        [
+          "Passiv",
+          "Partizip II + zu werden",
+          "Sie erwartet, informiert zu werden."
+        ],
+        [
+          "Passiv vorzeitig",
+          "Partizip II + worden zu sein",
+          "Er behauptet, informiert worden zu sein."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Projektleitung beabsichtigt, die neue Software schrittweise einzuführen.",
+      "ar": "تعتزم إدارة المشروع إدخال البرنامج الجديد تدريجيًا.",
+      "note_de": "Formelles Verb mit Infinitivgruppe.",
+      "note_ar": "فعل رسمي مع تركيب مصدر."
+    },
+    {
+      "de": "Es ist erforderlich, sämtliche Änderungen nachvollziehbar zu dokumentieren.",
+      "ar": "من الضروري توثيق جميع التعديلات بصورة قابلة للتتبع.",
+      "note_de": "Unpersönlicher Ausdruck mit Adjektiv.",
+      "note_ar": "تعبير غير شخصي مع صفة."
+    },
+    {
+      "de": "Die Mitarbeitenden wurden gebeten, ihre Rückmeldungen bis Freitag einzureichen.",
+      "ar": "طُلب من الموظفين تقديم ملاحظاتهم حتى الجمعة.",
+      "note_de": "Das Objekt des Hauptsatzes ist der Handelnde der Infinitivgruppe.",
+      "note_ar": "مفعول الجملة الرئيسية هو القائم بالفعل في تركيب المصدر."
+    },
+    {
+      "de": "Der Anbieter behauptet, alle Sicherheitsanforderungen erfüllt zu haben.",
+      "ar": "يدّعي المزوّد أنه استوفى جميع متطلبات السلامة.",
+      "note_de": "Infinitiv Perfekt für eine frühere Handlung.",
+      "note_ar": "Infinitiv Perfekt لفعل أسبق."
+    },
+    {
+      "de": "Die Betroffenen erwarten, über jede wesentliche Änderung rechtzeitig informiert zu werden.",
+      "ar": "يتوقع المتأثرون أن يتم إبلاغهم في الوقت المناسب بكل تغيير جوهري.",
+      "note_de": "Infinitiv Passiv in einem formellen Kontext.",
+      "note_ar": "Infinitiv Passiv في سياق رسمي."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wir planen, den Ablauf verbessern.",
+      "correct": "Wir planen, den Ablauf zu verbessern.",
+      "explanation_de": "Nach planen steht hier eine Infinitivgruppe mit zu.",
+      "explanation_ar": "بعد planen نستخدم هنا تركيب المصدر مع zu."
+    },
+    {
+      "wrong": "Sie versprach, mich später zu anrufen.",
+      "correct": "Sie versprach, mich später anzurufen.",
+      "explanation_de": "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+      "explanation_ar": "مع الأفعال القابلة للفصل تأتي zu بين السابقة وجذر الفعل."
+    },
+    {
+      "wrong": "Wir müssen noch zu warten.",
+      "correct": "Wir müssen noch warten.",
+      "explanation_de": "Nach einem Modalverb steht kein zu.",
+      "explanation_ar": "لا تأتي zu بعد الفعل الناقص."
+    },
+    {
+      "wrong": "Ich hoffe, Sie bald zu antworten.",
+      "correct": "Ich hoffe, dass Sie bald antworten.",
+      "explanation_de": "Bei unterschiedlichen Subjekten ist ein dass-Satz nötig.",
+      "explanation_ar": "عند اختلاف الفاعل نحتاج إلى جملة dass."
+    },
+    {
+      "wrong": "Er behauptet, die Nachricht rechtzeitig zu geschickt haben.",
+      "correct": "Er behauptet, die Nachricht rechtzeitig geschickt zu haben.",
+      "explanation_de": "Im Infinitiv Perfekt steht zu vor haben, nicht vor dem Partizip II.",
+      "explanation_ar": "في Infinitiv Perfekt تأتي zu قبل haben وليس قبل Partizip II."
+    },
+    {
+      "wrong": "Die Beteiligten erwarten, rechtzeitig zu informiert werden.",
+      "correct": "Die Beteiligten erwarten, rechtzeitig informiert zu werden.",
+      "explanation_de": "Im Infinitiv Passiv steht zu vor werden.",
+      "explanation_ar": "في Infinitiv Passiv تأتي zu قبل werden."
+    }
+  ],
+  "quickSummary_de": [
+    "Viele Verben, Adjektive und Nomen werden durch eine Infinitivgruppe mit zu ergänzt.",
+    "Bei gleichem Subjekt oder eindeutigem Bezug ist die Infinitivgruppe oft möglich.",
+    "Bei unterschiedlichen Subjekten verwendet man häufig einen dass-Satz.",
+    "Bei einfachen und untrennbaren Verben steht zu direkt vor dem Infinitiv.",
+    "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+    "Nach Modalverben steht kein zu.",
+    "Nach lassen, sehen und hören steht häufig ebenfalls kein zu.",
+    "Infinitiv Perfekt: Partizip II + zu haben/sein.",
+    "Infinitiv Passiv: Partizip II + zu werden.",
+    "Vorzeitiges Passiv: Partizip II + worden zu sein.",
+    "Kommas strukturieren längere Infinitivgruppen.",
+    "Bei Nomenbezug und hinweisenden Wörtern ist das Komma häufig verpflichtend."
+  ],
+  "quickSummary_ar": [
+    "تُستكمل أفعال وصفات وأسماء كثيرة بتركيب مصدر مع zu.",
+    "يكون تركيب المصدر ممكنًا غالبًا مع الفاعل نفسه أو المرجع الواضح.",
+    "عند اختلاف الفاعل نستخدم كثيرًا جملة dass.",
+    "تأتي zu مباشرة قبل الأفعال البسيطة وغير القابلة للفصل.",
+    "مع الأفعال القابلة للفصل تأتي zu بين السابقة وجذر الفعل.",
+    "لا تأتي zu بعد الأفعال الناقصة.",
+    "وغالبًا لا تأتي بعد lassen وsehen وhören.",
+    "Infinitiv Perfekt: Partizip II + zu haben/sein.",
+    "Infinitiv Passiv: Partizip II + zu werden.",
+    "المبني للمجهول الأسبق: Partizip II + worden zu sein.",
+    "تساعد الفاصلة على تنظيم تراكيب المصدر الطويلة.",
+    "تكون الفاصلة غالبًا إلزامية عند اعتماد التركيب على اسم أو لفظ إشارة."
+  ],
+  "relatedTopics": [
+    "gr-23",
+    "gr-26",
+    "gr-27",
+    "gr-30"
+  ]
+}

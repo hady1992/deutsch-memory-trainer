@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-17",
+  "title_de": "Vorgangspassiv und Zustandspassiv – Übungen",
+  "title_ar": "تمارين المبني للمجهول للعملية وللحالة",
+  "level": "B2",
+  "exerciseCount": 22,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr17-e001",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vorgang erkennen",
+      "title_ar": "تمييز العملية",
+      "prompt_de": "Welcher Satz beschreibt einen Vorgang?",
+      "prompt_ar": "أي جملة تصف عملية؟",
+      "answer": "Die Tür wird geöffnet.",
+      "explanation_de": "Werden + Partizip II beschreibt den Ablauf.",
+      "explanation_ar": "تصف werden + Partizip II العملية.",
+      "grammarFocus": "identify_process_passive",
+      "options": [
+        "Die Tür wird geöffnet.",
+        "Die Tür ist geöffnet.",
+        "Die Tür war offen.",
+        "Die Tür bleibt offen."
+      ]
+    },
+    {
+      "id": "gr17-e002",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zustand erkennen",
+      "title_ar": "تمييز الحالة",
+      "prompt_de": "Welcher Satz beschreibt einen Zustand?",
+      "prompt_ar": "أي جملة تصف حالة؟",
+      "answer": "Die Tür ist geöffnet.",
+      "explanation_de": "Sein + Partizip II beschreibt den Zustand.",
+      "explanation_ar": "تصف sein + Partizip II الحالة.",
+      "grammarFocus": "identify_state_passive",
+      "options": [
+        "Die Tür ist geöffnet.",
+        "Die Tür wird geöffnet.",
+        "Jemand öffnet die Tür.",
+        "Die Tür wurde um acht Uhr geöffnet."
+      ]
+    },
+    {
+      "id": "gr17-e003",
+      "topicId": "gr-17",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Vorgang im Präsens",
+      "title_ar": "عملية في Präsens",
+      "prompt_de": "Das Fenster ______ gerade geschlossen.",
+      "prompt_ar": "يتم إغلاق النافذة الآن.",
+      "answer": "wird",
+      "explanation_de": "Gerade markiert einen laufenden Vorgang; deshalb steht wird.",
+      "explanation_ar": "تدل gerade على عملية جارية، لذلك نستخدم wird.",
+      "grammarFocus": "process_present",
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "gr17-e004",
+      "topicId": "gr-17",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Zustand im Präsens",
+      "title_ar": "حالة في Präsens",
+      "prompt_de": "Das Fenster ______ seit zehn Uhr geschlossen.",
+      "prompt_ar": "النافذة مغلقة منذ الساعة العاشرة.",
+      "answer": "ist",
+      "explanation_de": "Seit zehn Uhr bezeichnet einen bestehenden Zustand.",
+      "explanation_ar": "تدل seit zehn Uhr على حالة قائمة.",
+      "grammarFocus": "state_present",
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "gr17-e005",
+      "topicId": "gr-17",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Vorgang und Zustand",
+      "title_ar": "العملية والحالة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "wird repariert": "Vorgang Präsens",
+        "ist repariert": "Zustand Präsens",
+        "wurde repariert": "Vorgang Präteritum",
+        "war repariert": "Zustand Präteritum"
+      },
+      "explanation_de": "Werden bezeichnet den Vorgang; sein den Zustand.",
+      "explanation_ar": "تدل werden على العملية وsein على الحالة.",
+      "grammarFocus": "process_state_matching",
+      "pairs": [
+        [
+          "wird repariert",
+          "Vorgang Präsens"
+        ],
+        [
+          "ist repariert",
+          "Zustand Präsens"
+        ],
+        [
+          "wurde repariert",
+          "Vorgang Präteritum"
+        ],
+        [
+          "war repariert",
+          "Zustand Präteritum"
+        ]
+      ]
+    },
+    {
+      "id": "gr17-e006",
+      "topicId": "gr-17",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Vorgang ordnen",
+      "title_ar": "ترتيب جملة العملية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die neue Software wird derzeit installiert.",
+      "explanation_de": "Wird steht auf Position 2; installiert steht am Ende.",
+      "explanation_ar": "تأتي wird في المرتبة الثانية وinstalliert في النهاية.",
+      "grammarFocus": "process_word_order",
+      "tokens": [
+        "derzeit",
+        "installiert",
+        "Die neue Software",
+        "wird"
+      ],
+      "acceptedAnswers": [
+        "Die neue Software wird derzeit installiert."
+      ]
+    },
+    {
+      "id": "gr17-e007",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präteritum vergleichen",
+      "title_ar": "المقارنة في Präteritum",
+      "prompt_de": "Welcher Satz beschreibt den damaligen Zustand?",
+      "prompt_ar": "أي جملة تصف الحالة في ذلك الوقت؟",
+      "answer": "Die Tür war den ganzen Tag geöffnet.",
+      "explanation_de": "War geöffnet beschreibt einen vergangenen Zustand.",
+      "explanation_ar": "تصف war geöffnet حالة ماضية.",
+      "grammarFocus": "state_past_recognition",
+      "options": [
+        "Die Tür war den ganzen Tag geöffnet.",
+        "Die Tür wurde um acht Uhr geöffnet.",
+        "Die Tür wird gerade geöffnet.",
+        "Jemand öffnete die Tür."
+      ]
+    },
+    {
+      "id": "gr17-e008",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Konkreter Zeitpunkt",
+      "title_ar": "وقت محدد",
+      "prompt_de": "Welche Form passt zu einer Handlung um zehn Uhr?",
+      "prompt_ar": "أي صيغة تناسب فعلًا وقع الساعة العاشرة؟",
+      "answer": "Der Vertrag wurde um zehn Uhr unterschrieben.",
+      "explanation_de": "Ein konkreter Zeitpunkt beschreibt hier den Vorgang.",
+      "explanation_ar": "يصف الوقت المحدد هنا العملية.",
+      "grammarFocus": "specific_time_process",
+      "options": [
+        "Der Vertrag wurde um zehn Uhr unterschrieben.",
+        "Der Vertrag war um zehn Uhr unterschrieben.",
+        "Der Vertrag ist um zehn Uhr unterschrieben.",
+        "Der Vertrag wird seit zehn Uhr unterschrieben."
+      ]
+    },
+    {
+      "id": "gr17-e009",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Bestehender Zustand",
+      "title_ar": "حالة قائمة",
+      "prompt_de": "Welche Form passt zu einem seit gestern bestehenden Ergebnis?",
+      "prompt_ar": "أي صيغة تناسب نتيجة قائمة منذ الأمس؟",
+      "answer": "Die Arbeiten sind seit gestern abgeschlossen.",
+      "explanation_de": "Seit gestern bezeichnet einen bestehenden Zustand.",
+      "explanation_ar": "تدل seit gestern على حالة قائمة.",
+      "grammarFocus": "existing_state",
+      "options": [
+        "Die Arbeiten sind seit gestern abgeschlossen.",
+        "Die Arbeiten werden seit gestern abgeschlossen.",
+        "Die Arbeiten wurden morgen abgeschlossen.",
+        "Die Arbeiten sind seit gestern abschließen."
+      ]
+    },
+    {
+      "id": "gr17-e010",
+      "topicId": "gr-17",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vorgang und Ergebnis",
+      "title_ar": "العملية والنتيجة",
+      "prompt_de": "Bilden Sie zwei Sätze: Das Gerät wird repariert. Danach besteht der reparierte Zustand.",
+      "prompt_ar": "كوّن جملتين للعملية ثم النتيجة.",
+      "answer": "Das Gerät wird repariert. Danach ist es repariert.",
+      "explanation_de": "Der erste Satz beschreibt den Vorgang, der zweite das Ergebnis.",
+      "explanation_ar": "تصف الجملة الأولى العملية والثانية النتيجة.",
+      "grammarFocus": "process_then_state",
+      "acceptedAnswers": [
+        "Das Gerät wird repariert. Danach ist es repariert."
+      ]
+    },
+    {
+      "id": "gr17-e011",
+      "topicId": "gr-17",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zustand im Nebensatz",
+      "title_ar": "الحالة في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil der Raum bereits gereinigt ist",
+      "explanation_de": "Im Nebensatz steht ist am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي ist في النهاية.",
+      "grammarFocus": "state_subordinate_order",
+      "tokens": [
+        "bereits",
+        "ist",
+        "weil",
+        "gereinigt",
+        "der Raum"
+      ],
+      "acceptedAnswers": [
+        "weil der Raum bereits gereinigt ist"
+      ]
+    },
+    {
+      "id": "gr17-e012",
+      "topicId": "gr-17",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vorgang im Nebensatz",
+      "title_ar": "العملية في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wir warten, weil der Raum noch gereinigt wird.",
+      "explanation_de": "Im Nebensatz steht wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي wird في النهاية.",
+      "grammarFocus": "process_subordinate_order",
+      "tokens": [
+        "noch",
+        "gereinigt",
+        "weil",
+        "Wir warten",
+        "wird",
+        "der Raum"
+      ],
+      "acceptedAnswers": [
+        "Wir warten, weil der Raum noch gereinigt wird."
+      ]
+    },
+    {
+      "id": "gr17-e013",
+      "topicId": "gr-17",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Signalwörter",
+      "title_ar": "الكلمات الدالة",
+      "prompt_de": "Ordnen Sie die typische Lesart zu.",
+      "prompt_ar": "صِل الإشارة بالمعنى الشائع.",
+      "answer": {
+        "gerade": "laufender Vorgang",
+        "um acht Uhr wurde": "vergangener Vorgang",
+        "seit gestern": "bestehender Zustand",
+        "den ganzen Tag war": "vergangener Zustand"
+      },
+      "explanation_de": "Zeitangaben unterstützen die Interpretation.",
+      "explanation_ar": "تساعد الظروف الزمنية على تفسير المعنى.",
+      "grammarFocus": "time_signal_matching",
+      "pairs": [
+        [
+          "gerade",
+          "laufender Vorgang"
+        ],
+        [
+          "um acht Uhr wurde",
+          "vergangener Vorgang"
+        ],
+        [
+          "seit gestern",
+          "bestehender Zustand"
+        ],
+        [
+          "den ganzen Tag war",
+          "vergangener Zustand"
+        ]
+      ]
+    },
+    {
+      "id": "gr17-e014",
+      "topicId": "gr-17",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Installation",
+      "title_ar": "التثبيت",
+      "prompt_de": "Auf einigen Geräten läuft die Installation noch; auf anderen ist sie fertig. Welche Aussage ist korrekt?",
+      "prompt_ar": "على بعض الأجهزة ما زال التثبيت جاريًا، وعلى أخرى انتهى. أي جملة صحيحة؟",
+      "answer": "Die Software wird auf einigen Geräten noch installiert und ist auf anderen bereits installiert.",
+      "explanation_de": "Der erste Teil beschreibt den Vorgang, der zweite den Zustand.",
+      "explanation_ar": "يصف الجزء الأول العملية والثاني الحالة.",
+      "grammarFocus": "mixed_process_state_context",
+      "options": [
+        "Die Software wird auf einigen Geräten noch installiert und ist auf anderen bereits installiert.",
+        "Die Software ist auf allen Geräten noch installiert werdend.",
+        "Die Software wird auf einigen Geräten bereits installiert gewesen.",
+        "Die Software ist auf einigen Geräten installiert werden."
+      ]
+    },
+    {
+      "id": "gr17-e015",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Adjektiv oder Passiv",
+      "title_ar": "صفة أم مبني للمجهول",
+      "prompt_de": "Welcher Satz enthält kein Zustandspassiv, sondern ein Adjektiv?",
+      "prompt_ar": "أي جملة تحتوي على صفة لا على Zustandspassiv؟",
+      "answer": "Die Mitarbeiterin ist erfahren.",
+      "explanation_de": "Erfahren beschreibt hier eine Eigenschaft.",
+      "explanation_ar": "تصف erfahren هنا خاصية.",
+      "grammarFocus": "adjective_not_passive",
+      "options": [
+        "Die Mitarbeiterin ist erfahren.",
+        "Der Vertrag ist unterschrieben.",
+        "Der Raum ist reserviert.",
+        "Die Tür ist geschlossen."
+      ]
+    },
+    {
+      "id": "gr17-e016",
+      "topicId": "gr-17",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vergangenheit vergleichen",
+      "title_ar": "المقارنة في الماضي",
+      "prompt_de": "Bilden Sie zwei Sätze: Öffnung um neun Uhr / geöffneter Zustand bis zwölf Uhr.",
+      "prompt_ar": "كوّن جملتين: عملية الفتح الساعة التاسعة والحالة حتى الثانية عشرة.",
+      "answer": "Die Tür wurde um neun Uhr geöffnet. Sie war bis zwölf Uhr geöffnet.",
+      "explanation_de": "Wurde geöffnet beschreibt den Vorgang; war geöffnet den Zustand.",
+      "explanation_ar": "تصف wurde geöffnet العملية وتصف war geöffnet الحالة.",
+      "grammarFocus": "past_process_state",
+      "acceptedAnswers": [
+        "Die Tür wurde um neun Uhr geöffnet. Sie war bis zwölf Uhr geöffnet."
+      ]
+    },
+    {
+      "id": "gr17-e017",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ergebnis als Voraussetzung",
+      "title_ar": "النتيجة بوصفها شرطًا",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sobald alle Formulare unterschrieben sind, kann der Vorgang abgeschlossen werden.",
+      "explanation_de": "Unterschrieben sind beschreibt den erreichten Zustand.",
+      "explanation_ar": "تصف unterschrieben sind الحالة المتحققة.",
+      "grammarFocus": "state_as_condition",
+      "options": [
+        "Sobald alle Formulare unterschrieben sind, kann der Vorgang abgeschlossen werden.",
+        "Sobald alle Formulare unterschrieben werden, sind sie gestern fertig.",
+        "Sobald alle Formulare sind unterschrieben, kann abgeschlossen werden.",
+        "Sobald alle Formulare unterschreiben, wird der Vorgang abgeschlossen."
+      ]
+    },
+    {
+      "id": "gr17-e018",
+      "topicId": "gr-17",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sicherheitsbereich",
+      "title_ar": "منطقة أمنية",
+      "prompt_de": "Der Zugang ist momentan nicht möglich, weil die Kontrolle noch läuft. Welche Formulierung passt?",
+      "prompt_ar": "الدخول غير ممكن حاليًا لأن الفحص ما زال جاريًا. أي صياغة مناسبة؟",
+      "answer": "Der Zugang ist gesperrt, weil die Sicherheitsprüfung noch durchgeführt wird.",
+      "explanation_de": "Gesperrt beschreibt den Zustand; durchgeführt wird den laufenden Vorgang.",
+      "explanation_ar": "تصف gesperrt الحالة، وتصف durchgeführt wird العملية الجارية.",
+      "grammarFocus": "state_and_process_complex",
+      "options": [
+        "Der Zugang ist gesperrt, weil die Sicherheitsprüfung noch durchgeführt wird.",
+        "Der Zugang wird gesperrt, weil die Sicherheitsprüfung bereits durchgeführt ist.",
+        "Der Zugang ist sperren, weil wird die Prüfung durchgeführt.",
+        "Der Zugang wurde gesperrt sein, weil die Prüfung läuft."
+      ]
+    },
+    {
+      "id": "gr17-e019",
+      "topicId": "gr-17",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Kombination",
+      "title_ar": "تركيب معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Während die Anlage geprüft wird, bleibt der Zugang gesperrt.",
+      "explanation_de": "Der während-Satz beschreibt den Vorgang; gesperrt den Zustand.",
+      "explanation_ar": "تصف جملة während العملية، بينما تصف gesperrt الحالة.",
+      "grammarFocus": "complex_process_state_order",
+      "tokens": [
+        "bleibt",
+        "Während",
+        "gesperrt",
+        "wird",
+        "der Zugang",
+        "die Anlage",
+        "geprüft"
+      ],
+      "acceptedAnswers": [
+        "Während die Anlage geprüft wird, bleibt der Zugang gesperrt."
+      ]
+    },
+    {
+      "id": "gr17-e020",
+      "topicId": "gr-17",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Mehrdeutigkeit vermeiden",
+      "title_ar": "تجنب الغموض",
+      "prompt_de": "Welche Aussage beschreibt eindeutig einen laufenden Vorgang?",
+      "prompt_ar": "أي جملة تصف بوضوح عملية جارية؟",
+      "answer": "Die Unterlagen werden gerade kontrolliert.",
+      "explanation_de": "Werden und gerade markieren eindeutig den laufenden Vorgang.",
+      "explanation_ar": "تدل werden وgerade بوضوح على عملية جارية.",
+      "grammarFocus": "unambiguous_process",
+      "options": [
+        "Die Unterlagen werden gerade kontrolliert.",
+        "Die Unterlagen sind kontrolliert.",
+        "Die Unterlagen bleiben kontrolliert.",
+        "Die Unterlagen waren kontrolliert."
+      ]
+    },
+    {
+      "id": "gr17-e021",
+      "topicId": "gr-17",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Beruflicher Ablauf",
+      "title_ar": "تسلسل مهني",
+      "prompt_de": "Formulieren Sie drei Schritte: Raum vorbereiten / Raum vorbereitet sein / Sitzung beginnen.",
+      "prompt_ar": "صغ ثلاث خطوات مترابطة.",
+      "answer": "Der Raum wird vorbereitet. Sobald er vorbereitet ist, kann die Sitzung beginnen.",
+      "explanation_de": "Die Vorbereitung ist der Vorgang; vorbereitet sein ist das Ergebnis.",
+      "explanation_ar": "التحضير هو العملية، وكون الغرفة جاهزة هو النتيجة.",
+      "grammarFocus": "professional_process_state_sequence",
+      "acceptedAnswers": [
+        "Der Raum wird vorbereitet. Sobald er vorbereitet ist, kann die Sitzung beginnen."
+      ]
+    },
+    {
+      "id": "gr17-e022",
+      "topicId": "gr-17",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Vorgang und Zustand",
+      "title_ar": "تدريب ختامي على العملية والحالة",
+      "prompt_de": "Schreiben Sie einen beruflichen Ablauftext mit mindestens acht Sätzen. Verwenden Sie drei Vorgangspassivsätze, drei Zustandspassivsätze, mindestens je eine Form im Präteritum, einen Nebensatz und ein Beispiel, in dem ein Vorgang zu einem Zustand führt.",
+      "prompt_ar": "اكتب نصًا مهنيًا عن تسلسل عمل من ثماني جمل على الأقل. استخدم ثلاث جمل Vorgangspassiv وثلاث جمل Zustandspassiv، وصيغة واحدة على الأقل لكل نوع في Präteritum، وجملة فرعية، ومثالًا تتحول فيه العملية إلى حالة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Vorgangspassivsätze",
+          "mindestens drei Zustandspassivsätze",
+          "mindestens ein Vorgangspassiv im Präteritum",
+          "mindestens ein Zustandspassiv im Präteritum",
+          "mindestens ein Nebensatz",
+          "mindestens eine Prozess-Ergebnis-Folge",
+          "korrekte Verwendung von werden und sein",
+          "sachlicher beruflicher Zusammenhang"
+        ]
+      },
+      "explanation_de": "Achten Sie darauf, ob Sie einen Ablauf oder einen bestehenden Zustand beschreiben.",
+      "explanation_ar": "انتبه إلى ما إذا كنت تصف عملية أم حالة قائمة.",
+      "grammarFocus": "mixed_process_state_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

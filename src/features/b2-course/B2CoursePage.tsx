@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, BookOpen, Check, ChevronRight, Dumbbell, RefreshCw } from "lucide-react";
+import { ArrowLeft, BookOpen, Check, ChevronRight, Dumbbell, LibraryBig, RefreshCw } from "lucide-react";
 import type { UserSettings } from "../../types";
 import { B2CourseProgressService } from "./b2CourseProgressService";
 import { B2CourseService } from "./b2CourseService";
@@ -165,7 +165,17 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
               : "Eigenständige Kapitel mit Wortschatz, Erklärungen, Beispielen und Übungen sowie separatem Kursfortschritt."}
           </p>
         </div>
-        <span className="rounded-lg bg-blue-100 px-4 py-2 text-sm font-black text-blue-700">B2</span>
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => onNavigate("b2-grammar")}
+            className="flex min-h-11 items-center gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-black text-blue-700 hover:bg-blue-100"
+          >
+            <LibraryBig size={18} />
+            {isRtl ? "قواعد B2" : "B2 Grammatik"}
+          </button>
+          <span className="rounded-lg bg-blue-100 px-4 py-2 text-sm font-black text-blue-700">B2</span>
+        </div>
       </div>
 
       {loading && (

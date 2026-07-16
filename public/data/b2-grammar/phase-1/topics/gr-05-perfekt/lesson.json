@@ -1,0 +1,469 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-05",
+  "slug": "gr-05-perfekt",
+  "order": 5,
+  "title_de": "Perfekt",
+  "title_ar": "الماضي المركب",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "zeiten_training",
+  "estimatedMinutes": 45,
+  "learningObjectives_de": [
+    "Das Perfekt mit haben oder sein korrekt bilden.",
+    "Regelmäßige, starke und gemischte Partizip-II-Formen sicher verwenden.",
+    "Trennbare und untrennbare Verben sowie Verben auf -ieren korrekt bilden.",
+    "Die Satzklammer im Hauptsatz und die Verbendstellung im Nebensatz anwenden.",
+    "Reflexive Verben und Verben mit Orts- oder Zustandsveränderung richtig einordnen.",
+    "Modalverben mit Ersatzinfinitiv in häufigen B2-Strukturen erkennen und verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Perfekt باستخدام haben أو sein بصورة صحيحة.",
+    "استخدام Partizip II للأفعال المنتظمة والقوية والمختلطة.",
+    "تكوين Partizip II للأفعال المنفصلة وغير المنفصلة والمنتهية بـ -ieren.",
+    "استخدام إطار الجملة في الجملة الرئيسية وترتيب الأفعال في الجملة الفرعية.",
+    "تصنيف الأفعال الانعكاسية وأفعال الحركة أو تغير الحالة بصورة صحيحة.",
+    "فهم واستخدام المصدر البديل مع الأفعال الناقصة في تراكيب B2 الشائعة."
+  ],
+  "shortDescription_de": "Das Perfekt beschreibt abgeschlossene Handlungen in der Vergangenheit und wird besonders häufig in der gesprochenen Sprache verwendet.",
+  "shortDescription_ar": "يصف Perfekt أفعالًا انتهت في الماضي، ويُستخدم كثيرًا خصوصًا في اللغة المحكية.",
+  "explanation_de": "Das Perfekt besteht aus einer konjugierten Form von haben oder sein und dem Partizip II. Die meisten Verben bilden das Perfekt mit haben. Sein steht vor allem bei intransitiven Verben, die eine Orts- oder Zustandsveränderung ausdrücken, sowie bei sein, werden und bleiben. Regelmäßige Verben bilden das Partizip II meist mit ge- und -t, starke Verben häufig mit ge- und -en. Trennbare Präfixe stehen vor ge-, untrennbare Präfixe und Verben auf -ieren erhalten kein ge-. Im Hauptsatz steht das Hilfsverb auf Position 2 und das Partizip am Ende. Im Nebensatz stehen Partizip und Hilfsverb am Ende. Bei Modalverben mit einem weiteren Infinitiv verwendet man häufig den Ersatzinfinitiv: Ich habe länger arbeiten müssen.",
+  "explanation_ar": "يتكوّن Perfekt من فعل مساعد مصرّف haben أو sein ومن Partizip II. تستخدم معظم الأفعال haben، بينما تُستخدم sein خصوصًا مع الأفعال اللازمة التي تعبّر عن انتقال من مكان إلى آخر أو تغير في الحالة، وكذلك مع sein وwerden وbleiben. تكوّن الأفعال المنتظمة Partizip II غالبًا باستخدام ge- و-t، أما الأفعال القوية فتستخدم غالبًا ge- و-en. في الأفعال المنفصلة يأتي ge بين الجزء المنفصل والجذر، بينما لا تأخذ الأفعال ذات السوابق غير المنفصلة ولا الأفعال المنتهية بـ -ieren المقطع ge. في الجملة الرئيسية يأتي الفعل المساعد في المرتبة الثانية وPartizip II في النهاية، وفي الجملة الفرعية تأتي الأجزاء الفعلية في النهاية. ومع الفعل الناقص ومصدر آخر نستخدم غالبًا المصدر البديل مثل: Ich habe länger arbeiten müssen.",
+  "rules": [
+    {
+      "id": "gr05-r01",
+      "title_de": "Grundform des Perfekts",
+      "title_ar": "الصيغة الأساسية لـ Perfekt",
+      "explanation_de": "Das Hilfsverb wird konjugiert; das Partizip II steht im Hauptsatz am Ende.",
+      "explanation_ar": "يُصرّف الفعل المساعد ويأتي Partizip II في نهاية الجملة الرئيسية.",
+      "formula": "Subjekt + haben/sein + ... + Partizip II",
+      "examples": [
+        {
+          "de": "Ich habe den Bericht geschrieben.",
+          "ar": "لقد كتبت التقرير."
+        },
+        {
+          "de": "Sie ist nach Berlin gefahren.",
+          "ar": "ذهبت إلى برلين."
+        }
+      ]
+    },
+    {
+      "id": "gr05-r02",
+      "title_de": "Perfekt mit haben",
+      "title_ar": "Perfekt مع haben",
+      "explanation_de": "Die meisten Verben, transitive Verben und reflexive Verben bilden das Perfekt mit haben.",
+      "explanation_ar": "تستخدم معظم الأفعال والأفعال المتعدية والأفعال الانعكاسية haben في Perfekt.",
+      "formula": "haben + Partizip II",
+      "examples": [
+        {
+          "de": "Wir haben den Antrag ausgefüllt.",
+          "ar": "ملأنا الطلب."
+        },
+        {
+          "de": "Ich habe mich gut vorbereitet.",
+          "ar": "استعددت جيدًا."
+        },
+        {
+          "de": "Er hat lange gearbeitet.",
+          "ar": "عمل مدة طويلة."
+        }
+      ]
+    },
+    {
+      "id": "gr05-r03",
+      "title_de": "Perfekt mit sein",
+      "title_ar": "Perfekt مع sein",
+      "explanation_de": "Sein steht vor allem bei intransitiven Verben mit Orts- oder Zustandsveränderung sowie bei sein, werden und bleiben.",
+      "explanation_ar": "تستخدم sein خصوصًا مع الأفعال اللازمة التي تعبّر عن تغير المكان أو الحالة، وكذلك مع sein وwerden وbleiben.",
+      "formula": "sein + Partizip II",
+      "examples": [
+        {
+          "de": "Der Zug ist pünktlich angekommen.",
+          "ar": "وصل القطار في الوقت."
+        },
+        {
+          "de": "Die Situation ist schwieriger geworden.",
+          "ar": "أصبح الوضع أصعب."
+        },
+        {
+          "de": "Sie ist zu Hause geblieben.",
+          "ar": "بقيت في المنزل."
+        }
+      ]
+    },
+    {
+      "id": "gr05-r04",
+      "title_de": "Regelmäßige, starke und gemischte Verben",
+      "title_ar": "الأفعال المنتظمة والقوية والمختلطة",
+      "explanation_de": "Regelmäßig: ge- + Stamm + -t. Stark: häufig ge- + veränderter Stamm + -en. Gemischt: Stammwechsel mit -t.",
+      "explanation_ar": "المنتظم: ge- + الجذر + -t. القوي: غالبًا ge- + جذر متغير + -en. المختلط: تغير في الجذر مع النهاية -t.",
+      "formula": "gemacht | geschrieben | gebracht",
+      "examples": [
+        {
+          "de": "machen → gemacht",
+          "ar": "machen → gemacht"
+        },
+        {
+          "de": "schreiben → geschrieben",
+          "ar": "schreiben → geschrieben"
+        },
+        {
+          "de": "bringen → gebracht",
+          "ar": "bringen → gebracht"
+        }
+      ]
+    },
+    {
+      "id": "gr05-r05",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال المنفصلة",
+      "explanation_de": "Bei trennbaren Verben steht ge zwischen Präfix und Verbstamm.",
+      "explanation_ar": "في الأفعال المنفصلة يأتي ge بين السابقة وجذر الفعل.",
+      "formula": "Präfix + ge + Stamm + Endung",
+      "examples": [
+        {
+          "de": "anrufen → angerufen",
+          "ar": "anrufen → angerufen"
+        },
+        {
+          "de": "ausfüllen → ausgefüllt",
+          "ar": "ausfüllen → ausgefüllt"
+        },
+        {
+          "de": "teilnehmen → teilgenommen",
+          "ar": "teilnehmen → teilgenommen"
+        }
+      ]
+    },
+    {
+      "id": "gr05-r06",
+      "title_de": "Untrennbare Verben und Verben auf -ieren",
+      "title_ar": "الأفعال غير المنفصلة والمنتهية بـ -ieren",
+      "explanation_de": "Verben mit be-, emp-, ent-, er-, ge-, miss-, ver- oder zer- sowie Verben auf -ieren bilden das Partizip ohne ge-.",
+      "explanation_ar": "الأفعال ذات السوابق be- وemp- وent- وer- وge- وmiss- وver- وzer-، وكذلك الأفعال المنتهية بـ -ieren، لا تأخذ ge-.",
+      "formula": "besucht | verstanden | organisiert",
+      "examples": [
+        {
+          "de": "besuchen → besucht",
+          "ar": "besuchen → besucht"
+        },
+        {
+          "de": "verstehen → verstanden",
+          "ar": "verstehen → verstanden"
+        },
+        {
+          "de": "organisieren → organisiert",
+          "ar": "organisieren → organisiert"
+        }
+      ]
+    },
+    {
+      "id": "gr05-r07",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz stehen Partizip II und Hilfsverb am Ende; normalerweise steht das Hilfsverb ganz zuletzt.",
+      "explanation_ar": "في الجملة الفرعية يأتي Partizip II والفعل المساعد في النهاية، ويأتي الفعل المساعد غالبًا في آخر الجملة.",
+      "formula": "..., weil/dass + ... + Partizip II + Hilfsverb",
+      "examples": [
+        {
+          "de": "Ich weiß, dass sie den Bericht geschrieben hat.",
+          "ar": "أعرف أنها كتبت التقرير."
+        },
+        {
+          "de": "Weil er zu spät gekommen ist, hat er den Anfang verpasst.",
+          "ar": "لأنه وصل متأخرًا فاته البداية."
+        }
+      ]
+    },
+    {
+      "id": "gr05-r08",
+      "title_de": "Modalverben mit Ersatzinfinitiv",
+      "title_ar": "الأفعال الناقصة مع المصدر البديل",
+      "explanation_de": "Steht ein Modalverb mit einem weiteren Infinitiv, verwendet man im Perfekt meist zwei Infinitive: Ich habe länger arbeiten müssen. Im Nebensatz lautet die häufige B2-Struktur: ..., weil ich länger habe arbeiten müssen.",
+      "explanation_ar": "عندما يأتي فعل ناقص مع مصدر آخر نستخدم في Perfekt غالبًا مصدرين: Ich habe länger arbeiten müssen. وفي الجملة الفرعية يكون الترتيب الشائع في مستوى B2: ..., weil ich länger habe arbeiten müssen.",
+      "formula": "haben + Vollverb-Infinitiv + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Wir haben den Termin verschieben müssen.",
+          "ar": "اضطررنا إلى تأجيل الموعد."
+        },
+        {
+          "de": "Sie hat nicht teilnehmen können.",
+          "ar": "لم تستطع المشاركة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr05-t01",
+      "title_de": "Hilfsverb haben oder sein",
+      "title_ar": "الفعل المساعد haben أم sein",
+      "headers_de": [
+        "Verbtyp",
+        "Hilfsverb",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "نوع الفعل",
+        "الفعل المساعد",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "die meisten Verben / transitiv",
+          "haben",
+          "Ich habe den Vertrag gelesen."
+        ],
+        [
+          "reflexive Verben",
+          "haben",
+          "Sie hat sich beworben."
+        ],
+        [
+          "Ortsveränderung, intransitiv",
+          "sein",
+          "Er ist nach Hause gegangen."
+        ],
+        [
+          "Zustandsveränderung",
+          "sein",
+          "Die Lage ist besser geworden."
+        ],
+        [
+          "sein / werden / bleiben",
+          "sein",
+          "Sie ist zu Hause geblieben."
+        ]
+      ]
+    },
+    {
+      "id": "gr05-t02",
+      "title_de": "Bildung des Partizips II",
+      "title_ar": "تكوين Partizip II",
+      "headers_de": [
+        "Verbtyp",
+        "Muster",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "نوع الفعل",
+        "الصيغة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "regelmäßig",
+          "ge- + Stamm + -t",
+          "machen → gemacht"
+        ],
+        [
+          "stark",
+          "ge- + Stammwechsel + -en",
+          "schreiben → geschrieben"
+        ],
+        [
+          "gemischt",
+          "ge- + Stammwechsel + -t",
+          "bringen → gebracht"
+        ],
+        [
+          "trennbar",
+          "Präfix + ge + Stamm",
+          "anrufen → angerufen"
+        ],
+        [
+          "untrennbar",
+          "ohne ge-",
+          "besuchen → besucht"
+        ],
+        [
+          "auf -ieren",
+          "ohne ge-",
+          "organisieren → organisiert"
+        ]
+      ]
+    },
+    {
+      "id": "gr05-t03",
+      "title_de": "Wichtige Partizip-II-Formen",
+      "title_ar": "أهم صيغ Partizip II",
+      "headers_de": [
+        "Infinitiv",
+        "Präteritum",
+        "Partizip II",
+        "Hilfsverb"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Präteritum",
+        "Partizip II",
+        "الفعل المساعد"
+      ],
+      "rows": [
+        [
+          "schreiben",
+          "schrieb",
+          "geschrieben",
+          "haben"
+        ],
+        [
+          "nehmen",
+          "nahm",
+          "genommen",
+          "haben"
+        ],
+        [
+          "bringen",
+          "brachte",
+          "gebracht",
+          "haben"
+        ],
+        [
+          "gehen",
+          "ging",
+          "gegangen",
+          "sein"
+        ],
+        [
+          "kommen",
+          "kam",
+          "gekommen",
+          "sein"
+        ],
+        [
+          "bleiben",
+          "blieb",
+          "geblieben",
+          "sein"
+        ],
+        [
+          "werden",
+          "wurde",
+          "geworden",
+          "sein"
+        ],
+        [
+          "sein",
+          "war",
+          "gewesen",
+          "sein"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Personalabteilung hat meine Unterlagen bereits geprüft.",
+      "ar": "لقد فحص قسم الموارد البشرية مستنداتي بالفعل.",
+      "note_de": "Transitives Verb mit haben.",
+      "note_ar": "فعل متعدٍ مع haben."
+    },
+    {
+      "de": "Der neue Mitarbeiter ist gestern angekommen.",
+      "ar": "وصل الموظف الجديد أمس.",
+      "note_de": "Ortsveränderung mit sein.",
+      "note_ar": "تغير مكان مع sein."
+    },
+    {
+      "de": "Wir haben die Kundin zurückgerufen.",
+      "ar": "عاودنا الاتصال بالعميلة.",
+      "note_de": "Trennbares Verb: zurück + ge + rufen.",
+      "note_ar": "فعل منفصل: zurück + ge + rufen."
+    },
+    {
+      "de": "Sie hat die Veranstaltung organisiert.",
+      "ar": "نظّمت الفعالية.",
+      "note_de": "Verben auf -ieren erhalten kein ge-.",
+      "note_ar": "الأفعال المنتهية بـ -ieren لا تأخذ ge-."
+    },
+    {
+      "de": "Ich weiß, dass der Chef die Entscheidung erklärt hat.",
+      "ar": "أعرف أن المدير شرح القرار.",
+      "note_de": "Im Nebensatz steht erklärt hat am Ende.",
+      "note_ar": "تأتي erklärt hat في نهاية الجملة الفرعية."
+    },
+    {
+      "de": "Wir haben wegen der Störung länger warten müssen.",
+      "ar": "اضطررنا إلى الانتظار مدة أطول بسبب العطل.",
+      "note_de": "Modalverb mit Ersatzinfinitiv.",
+      "note_ar": "فعل ناقص مع المصدر البديل."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich bin den Bericht geschrieben.",
+      "correct": "Ich habe den Bericht geschrieben.",
+      "explanation_de": "Das transitive Verb schreiben bildet das Perfekt mit haben.",
+      "explanation_ar": "يستخدم الفعل المتعدي schreiben الفعل المساعد haben."
+    },
+    {
+      "wrong": "Sie hat nach Berlin gefahren.",
+      "correct": "Sie ist nach Berlin gefahren.",
+      "explanation_de": "Die intransitive Ortsveränderung wird hier mit sein gebildet.",
+      "explanation_ar": "يُستخدم sein هنا لأن الفعل يعبّر عن انتقال مكاني من دون مفعول مباشر."
+    },
+    {
+      "wrong": "Wir haben den Antrag geausfüllt.",
+      "correct": "Wir haben den Antrag ausgefüllt.",
+      "explanation_de": "Bei trennbaren Verben steht ge zwischen Präfix und Stamm.",
+      "explanation_ar": "في الأفعال المنفصلة يأتي ge بين السابقة والجذر."
+    },
+    {
+      "wrong": "Er hat das Problem geverstanden.",
+      "correct": "Er hat das Problem verstanden.",
+      "explanation_de": "Ver- ist untrennbar; deshalb steht kein ge-.",
+      "explanation_ar": "السابقة ver- غير منفصلة، لذلك لا نستخدم ge-."
+    },
+    {
+      "wrong": "Sie hat die Besprechung georganisiert.",
+      "correct": "Sie hat die Besprechung organisiert.",
+      "explanation_de": "Verben auf -ieren bilden das Partizip ohne ge-.",
+      "explanation_ar": "الأفعال المنتهية بـ -ieren تكوّن Partizip من دون ge-."
+    },
+    {
+      "wrong": "Ich weiß, dass sie hat den Bericht geschrieben.",
+      "correct": "Ich weiß, dass sie den Bericht geschrieben hat.",
+      "explanation_de": "Im Nebensatz stehen Partizip und Hilfsverb am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي Partizip والفعل المساعد في النهاية."
+    },
+    {
+      "wrong": "Wir haben den Termin verschieben gemusst.",
+      "correct": "Wir haben den Termin verschieben müssen.",
+      "explanation_de": "Mit einem weiteren Infinitiv steht beim Modalverb normalerweise der Ersatzinfinitiv.",
+      "explanation_ar": "عند وجود مصدر آخر نستخدم عادة المصدر البديل للفعل الناقص."
+    }
+  ],
+  "quickSummary_de": [
+    "Perfekt = haben/sein + Partizip II.",
+    "Die meisten Verben und reflexive Verben verwenden haben.",
+    "Orts- und Zustandsveränderungen verwenden häufig sein.",
+    "Regelmäßig: ge- + Stamm + -t.",
+    "Stark: häufig ge- + Stammwechsel + -en.",
+    "Bei trennbaren Verben steht ge zwischen Präfix und Stamm.",
+    "Untrennbare Präfixe und -ieren erhalten kein ge-.",
+    "Im Hauptsatz steht das Partizip am Ende.",
+    "Im Nebensatz stehen Partizip und Hilfsverb am Ende.",
+    "Modalverb + weiterer Infinitiv: häufig Ersatzinfinitiv."
+  ],
+  "quickSummary_ar": [
+    "Perfekt = haben/sein + Partizip II.",
+    "تستخدم معظم الأفعال والأفعال الانعكاسية haben.",
+    "تستخدم أفعال تغير المكان أو الحالة غالبًا sein.",
+    "المنتظم: ge- + الجذر + -t.",
+    "القوي: غالبًا ge- + جذر متغير + -en.",
+    "يأتي ge بين السابقة والجذر في الأفعال المنفصلة.",
+    "لا تأخذ السوابق غير المنفصلة والأفعال المنتهية بـ -ieren المقطع ge.",
+    "يأتي Partizip في نهاية الجملة الرئيسية.",
+    "يأتي Partizip والفعل المساعد في نهاية الجملة الفرعية.",
+    "مع فعل ناقص ومصدر آخر نستخدم غالبًا المصدر البديل."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-04",
+    "gr-06",
+    "gr-07",
+    "gr-10"
+  ]
+}

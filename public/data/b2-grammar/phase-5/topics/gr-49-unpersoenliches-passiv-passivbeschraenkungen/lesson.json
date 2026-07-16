@@ -1,0 +1,434 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-49",
+  "slug": "gr-49-unpersoenliches-passiv-passivbeschraenkungen",
+  "order": 49,
+  "title_de": "Unpersönliches Passiv und Passivbeschränkungen",
+  "title_ar": "المبني للمجهول غير الشخصي وقيود المبني للمجهول",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 75,
+  "learningObjectives_de": [
+    "Das unpersönliche Passiv mit intransitiven Verben korrekt bilden.",
+    "Die Funktion von es als Platzhalter erkennen.",
+    "Dativobjekte und Präpositionalergänzungen im Passiv korrekt beibehalten.",
+    "Unpersönliches Passiv mit Modalverben und in verschiedenen Zeitformen verwenden.",
+    "Zwischen persönlichem und unpersönlichem Passiv unterscheiden.",
+    "Verben mit eingeschränkter oder fehlender Passivfähigkeit erkennen.",
+    "Reflexive, statische und nicht-agentive Verben angemessen behandeln.",
+    "Passivformen in Durchsagen, Berichten und institutioneller Sprache sicher einsetzen."
+  ],
+  "learningObjectives_ar": [
+    "تكوين المبني للمجهول غير الشخصي مع الأفعال اللازمة بصورة صحيحة.",
+    "فهم وظيفة es بوصفها عنصرًا شكليًا.",
+    "الإبقاء على مفاعيل Dativ ومتممات حروف الجر في المبني للمجهول.",
+    "استخدام المبني للمجهول غير الشخصي مع الأفعال الناقصة وفي أزمنة مختلفة.",
+    "التمييز بين المبني للمجهول الشخصي وغير الشخصي.",
+    "تمييز الأفعال التي لا تقبل المبني للمجهول أو تقبله بقيود.",
+    "معالجة الأفعال الانعكاسية وأفعال الحالة والأفعال غير الفاعلية بصورة مناسبة.",
+    "استخدام المبني للمجهول في الإعلانات والتقارير واللغة المؤسسية."
+  ],
+  "shortDescription_de": "Das unpersönliche Passiv ermöglicht Passivsätze ohne Akkusativobjekt. Es wird besonders mit intransitiven Tätigkeitsverben und Dativverben verwendet.",
+  "shortDescription_ar": "يسمح المبني للمجهول غير الشخصي بتكوين جمل مجهولة من دون مفعول Akkusativ، ويُستخدم خصوصًا مع أفعال النشاط اللازمة وأفعال Dativ.",
+  "explanation_de": "Das unpersönliche Passiv wird mit werden + Partizip II gebildet, obwohl im Aktivsatz kein Akkusativobjekt vorhanden ist. Typisch sind intransitive Tätigkeitsverben: Die Gäste tanzen. → Es wird getanzt. Das Wort es ist dabei kein inhaltliches Subjekt, sondern nur ein Platzhalter im Vorfeld. Steht ein anderes Satzglied an erster Stelle, fällt es weg: Heute wird getanzt. Im Saal wird getanzt. Das Verb bleibt immer im Singular: Es wird gearbeitet. Heute wird gearbeitet. Bei Dativverben bleibt der Dativ erhalten: Man hilft dem Patienten. → Dem Patienten wird geholfen. Auch Präpositionalergänzungen bleiben erhalten: Man spricht über den Plan. → Über den Plan wird gesprochen. Das unpersönliche Passiv kann in verschiedenen Zeiten stehen: Es wurde gearbeitet, es ist gearbeitet worden, es war gearbeitet worden, es wird gearbeitet werden. Mit Modalverben lautet die Form: Es muss gearbeitet werden. Das Passiv ist jedoch nicht mit jedem Verb möglich oder gleich natürlich. Besitz- und Zustandsverben wie haben, besitzen, kennen oder wissen bilden normalerweise kein reguläres Passiv. Auch Wetterverben und viele nicht-agentive Vorgänge eignen sich nicht: Es regnet → kein normales Passiv. Reflexive Verben bilden in der Standardsprache normalerweise kein reguläres Passiv: Die Mitarbeitenden beeilen sich → nicht: Es wird sich beeilt. Entscheidend ist, ob ein kontrollierbarer oder agentiver Vorgang vorliegt. Persönliches Passiv entsteht, wenn ein Akkusativobjekt zum Subjekt werden kann: Man prüft den Antrag. → Der Antrag wird geprüft. Unpersönliches Passiv steht dagegen ohne neues Subjekt: Man arbeitet. → Es wird gearbeitet.",
+  "explanation_ar": "يُبنى المبني للمجهول غير الشخصي باستخدام werden + Partizip II، رغم عدم وجود مفعول Akkusativ في الجملة المعلومة. ويشيع مع أفعال النشاط اللازمة: Die Gäste tanzen. ← Es wird getanzt. ولا تكون es فاعلًا ذا معنى، بل عنصرًا شكليًا في بداية الجملة. وعندما يأتي عنصر آخر في الموقع الأول تختفي es: Heute wird getanzt. Im Saal wird getanzt. ويبقى الفعل دائمًا في المفرد: Es wird gearbeitet. Heute wird gearbeitet. ومع أفعال Dativ يبقى Dativ كما هو: Man hilft dem Patienten. ← Dem Patienten wird geholfen. وتبقى متممات حروف الجر أيضًا: Man spricht über den Plan. ← Über den Plan wird gesprochen. ويمكن استخدام هذه الصيغة في أزمنة مختلفة: Es wurde gearbeitet، وes ist gearbeitet worden، وes war gearbeitet worden، وes wird gearbeitet werden. ومع الأفعال الناقصة نقول: Es muss gearbeitet werden. لكن ليس كل فعل يقبل المبني للمجهول أو يبدو طبيعيًا فيه. فأفعال الملكية والحالة مثل haben وbesitzen وkennen وwissen لا تكوّن عادة مبنيًا للمجهول عاديًا. كما لا تناسب أفعال الطقس وكثير من الأحداث غير الإرادية: Es regnet لا يتحول إلى Passiv عادي. ولا تكوّن الأفعال الانعكاسية عادة مبنيًا للمجهول قياسيًا: Die Mitarbeitenden beeilen sich، وليس Es wird sich beeilt في اللغة القياسية. والعامل الحاسم هو وجود فعل يمكن التحكم فيه أو فاعل إرادي. ويتكوّن المبني للمجهول الشخصي عندما يمكن لمفعول Akkusativ أن يصبح فاعلًا نحويًا: Man prüft den Antrag. ← Der Antrag wird geprüft. أما المبني للمجهول غير الشخصي فيبقى من دون فاعل جديد: Man arbeitet. ← Es wird gearbeitet.",
+  "rules": [
+    {
+      "id": "gr49-r01",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "explanation_de": "Das unpersönliche Passiv wird mit werden + Partizip II gebildet.",
+      "explanation_ar": "يُبنى المبني للمجهول غير الشخصي باستخدام werden + Partizip II.",
+      "formula": "es wird + Partizip II",
+      "examples": [
+        {
+          "de": "Es wird gearbeitet.",
+          "ar": "يجري العمل."
+        },
+        {
+          "de": "Es wird getanzt.",
+          "ar": "يجري الرقص."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r02",
+      "title_de": "Es als Platzhalter",
+      "title_ar": "es كعنصر شكلي",
+      "explanation_de": "Es steht nur im Vorfeld, wenn kein anderes Satzglied dort steht.",
+      "explanation_ar": "تأتي es في الموقع الأول فقط عندما لا يأتي عنصر آخر فيه.",
+      "formula": "Es wird gearbeitet. | Heute wird gearbeitet.",
+      "examples": [
+        {
+          "de": "Im Saal wird getanzt.",
+          "ar": "يجري الرقص في القاعة."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r03",
+      "title_de": "Singularform",
+      "title_ar": "صيغة المفرد",
+      "explanation_de": "Die finite Passivform steht immer im Singular.",
+      "explanation_ar": "تأتي صيغة المبني للمجهول المصرفة دائمًا في المفرد.",
+      "formula": "wird / wurde / ist ... worden",
+      "examples": [
+        {
+          "de": "Heute wird lange gearbeitet.",
+          "ar": "يجري العمل اليوم وقتًا طويلًا."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r04",
+      "title_de": "Dativ bleibt erhalten",
+      "title_ar": "يبقى Dativ كما هو",
+      "explanation_de": "Ein Dativobjekt wird nicht zum Subjekt.",
+      "explanation_ar": "لا يتحول مفعول Dativ إلى فاعل نحوي.",
+      "formula": "Man hilft dem Patienten. → Dem Patienten wird geholfen.",
+      "examples": [
+        {
+          "de": "Den Gästen wird gedankt.",
+          "ar": "يتم شكر الضيوف."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r05",
+      "title_de": "Präpositionalergänzung",
+      "title_ar": "متمم حرف الجر",
+      "explanation_de": "Die Präposition bleibt beim Verb erhalten.",
+      "explanation_ar": "يبقى حرف الجر مرتبطًا بالفعل.",
+      "formula": "über den Plan sprechen → Über den Plan wird gesprochen.",
+      "examples": [
+        {
+          "de": "Auf die Entscheidung wird gewartet.",
+          "ar": "يجري انتظار القرار."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r06",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "explanation_de": "Das unpersönliche Passiv kann in allen üblichen Passivzeiten stehen.",
+      "explanation_ar": "يمكن استخدام المبني للمجهول غير الشخصي في أزمنة Passiv المعتادة.",
+      "formula": "wird gearbeitet | wurde gearbeitet | ist gearbeitet worden",
+      "examples": [
+        {
+          "de": "Gestern wurde bis spät gearbeitet.",
+          "ar": "جرى العمل أمس حتى وقت متأخر."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r07",
+      "title_de": "Mit Modalverben",
+      "title_ar": "مع الأفعال الناقصة",
+      "explanation_de": "Modalverb + Partizip II + werden bildet die modale Passivgruppe.",
+      "explanation_ar": "تكوّن Modalverb + Partizip II + werden مجموعة المبني للمجهول مع الفعل الناقص.",
+      "formula": "Es muss gearbeitet werden.",
+      "examples": [
+        {
+          "de": "Heute darf nicht geraucht werden.",
+          "ar": "لا يجوز التدخين اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r08",
+      "title_de": "Persönlich oder unpersönlich",
+      "title_ar": "شخصي أم غير شخصي",
+      "explanation_de": "Ein Akkusativobjekt wird im persönlichen Passiv zum Subjekt; ohne Akkusativobjekt entsteht oft unpersönliches Passiv.",
+      "explanation_ar": "يتحول مفعول Akkusativ إلى فاعل في المبني للمجهول الشخصي، ومن دونه ينشأ غالبًا مبني مجهول غير شخصي.",
+      "formula": "den Antrag prüfen → Der Antrag wird geprüft | arbeiten → Es wird gearbeitet",
+      "examples": [
+        {
+          "de": "Die Unterlagen werden geprüft.",
+          "ar": "تتم مراجعة المستندات."
+        },
+        {
+          "de": "Es wird sorgfältig gearbeitet.",
+          "ar": "يجري العمل بعناية."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r09",
+      "title_de": "Kein reguläres Passiv bei Besitz und Zustand",
+      "title_ar": "لا Passiv عادي مع الملكية والحالة",
+      "explanation_de": "Verben wie haben, besitzen, kennen und wissen bilden normalerweise kein reguläres Passiv.",
+      "explanation_ar": "لا تكوّن أفعال مثل haben وbesitzen وkennen وwissen عادة مبنيًا للمجهول عاديًا.",
+      "formula": "haben / besitzen / kennen / wissen → meist kein Passiv",
+      "examples": [
+        {
+          "de": "Die Firma besitzt das Gebäude. → kein normales Passiv.",
+          "ar": "تمتلك الشركة المبنى ← لا مبني للمجهول عادي."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r10",
+      "title_de": "Nicht-agentive Verben",
+      "title_ar": "الأفعال غير الفاعلية",
+      "explanation_de": "Wetterverben und nicht kontrollierbare Vorgänge eignen sich normalerweise nicht für das Passiv.",
+      "explanation_ar": "لا تناسب أفعال الطقس والأحداث غير القابلة للتحكم المبني للمجهول عادة.",
+      "formula": "regnen / geschehen / passieren → kein reguläres Passiv",
+      "examples": [
+        {
+          "de": "Es regnet. → kein Passiv.",
+          "ar": "تمطر ← لا Passiv."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r11",
+      "title_de": "Reflexive Verben",
+      "title_ar": "الأفعال الانعكاسية",
+      "explanation_de": "Reflexive Verben bilden in der Standardsprache normalerweise kein reguläres Passiv.",
+      "explanation_ar": "لا تكوّن الأفعال الانعكاسية عادة مبنيًا للمجهول قياسيًا.",
+      "formula": "sich beeilen → meist kein Passiv",
+      "examples": [
+        {
+          "de": "Die Mitarbeitenden beeilen sich. → kein reguläres Passiv.",
+          "ar": "يسرع الموظفون ← لا Passiv قياسي."
+        }
+      ]
+    },
+    {
+      "id": "gr49-r12",
+      "title_de": "Typische Verwendung",
+      "title_ar": "الاستخدام المعتاد",
+      "explanation_de": "Die Form ist typisch für Durchsagen, Regeln, Berichte und institutionelle Sprache.",
+      "explanation_ar": "تشيع الصيغة في الإعلانات والقواعد والتقارير واللغة المؤسسية.",
+      "formula": "Hier wird nicht geraucht.",
+      "examples": [
+        {
+          "de": "Während der Prüfung darf nicht gesprochen werden.",
+          "ar": "لا يجوز الكلام أثناء الاختبار."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr49-t01",
+      "title_de": "Typische Umformungen",
+      "title_ar": "تحويلات نموذجية",
+      "headers_de": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "headers_ar": [
+        "المعلوم",
+        "المجهول"
+      ],
+      "rows": [
+        [
+          "Man arbeitet heute länger.",
+          "Heute wird länger gearbeitet."
+        ],
+        [
+          "Man hilft dem Patienten.",
+          "Dem Patienten wird geholfen."
+        ],
+        [
+          "Man spricht über den Plan.",
+          "Über den Plan wird gesprochen."
+        ],
+        [
+          "Man wartet auf die Entscheidung.",
+          "Auf die Entscheidung wird gewartet."
+        ]
+      ]
+    },
+    {
+      "id": "gr49-t02",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "headers_de": [
+        "Zeit",
+        "Form"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "الصيغة"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "Es wird gearbeitet."
+        ],
+        [
+          "Präteritum",
+          "Es wurde gearbeitet."
+        ],
+        [
+          "Perfekt",
+          "Es ist gearbeitet worden."
+        ],
+        [
+          "Plusquamperfekt",
+          "Es war gearbeitet worden."
+        ],
+        [
+          "Futur I",
+          "Es wird gearbeitet werden."
+        ]
+      ]
+    },
+    {
+      "id": "gr49-t03",
+      "title_de": "Passivfähigkeit",
+      "title_ar": "قابلية المبني للمجهول",
+      "headers_de": [
+        "Verbtyp",
+        "Beispiel",
+        "Passiv"
+      ],
+      "headers_ar": [
+        "نوع الفعل",
+        "المثال",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "agentive Tätigkeit",
+          "arbeiten",
+          "ja"
+        ],
+        [
+          "Dativverb",
+          "helfen",
+          "ja, unpersönlich"
+        ],
+        [
+          "Präpositionalverb",
+          "warten auf",
+          "ja, unpersönlich"
+        ],
+        [
+          "Besitzverb",
+          "besitzen",
+          "meist nein"
+        ],
+        [
+          "Wetterverb",
+          "regnen",
+          "nein"
+        ],
+        [
+          "reflexives Verb",
+          "sich beeilen",
+          "meist nein"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Heute wird im gesamten Gebäude nicht geraucht.",
+      "ar": "لا يجري التدخين اليوم في المبنى كله.",
+      "note_de": "Anderes Satzglied im Vorfeld; es entfällt.",
+      "note_ar": "جاء عنصر آخر في الموقع الأول، لذلك حُذفت es."
+    },
+    {
+      "de": "Dem Patienten wurde sofort geholfen.",
+      "ar": "تمت مساعدة المريض فورًا.",
+      "note_de": "Dativ bleibt erhalten.",
+      "note_ar": "بقي Dativ كما هو."
+    },
+    {
+      "de": "Über die neuen Sicherheitsregeln ist ausführlich gesprochen worden.",
+      "ar": "جرى الحديث بالتفصيل عن قواعد السلامة الجديدة.",
+      "note_de": "Perfekt des unpersönlichen Passivs mit Präpositionalergänzung.",
+      "note_ar": "Perfekt للمبني للمجهول غير الشخصي مع متمم حرف جر."
+    },
+    {
+      "de": "Während der Sitzung musste leise gesprochen werden.",
+      "ar": "كان يجب التحدث بهدوء أثناء الاجتماع.",
+      "note_de": "Unpersönliches Passiv mit Modalverb.",
+      "note_ar": "مبني للمجهول غير شخصي مع فعل ناقص."
+    },
+    {
+      "de": "Die Firma besitzt mehrere Gebäude. Eine reguläre Passivform ist hier normalerweise nicht üblich.",
+      "ar": "تمتلك الشركة عدة مبانٍ، ولا تُستخدم هنا عادة صيغة Passiv عادية.",
+      "note_de": "Passivbeschränkung bei Besitzverben.",
+      "note_ar": "قيد على Passiv مع أفعال الملكية."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Heute es wird gearbeitet.",
+      "correct": "Heute wird gearbeitet.",
+      "explanation_de": "Wenn ein anderes Satzglied im Vorfeld steht, entfällt es.",
+      "explanation_ar": "عندما يأتي عنصر آخر في الموقع الأول تُحذف es."
+    },
+    {
+      "wrong": "Dem Patienten wird geholfen er.",
+      "correct": "Dem Patienten wird geholfen.",
+      "explanation_de": "Das unpersönliche Passiv braucht kein zusätzliches Subjekt.",
+      "explanation_ar": "لا يحتاج المبني للمجهول غير الشخصي إلى فاعل إضافي."
+    },
+    {
+      "wrong": "Über den Plan wird gesprochen ihn.",
+      "correct": "Über den Plan wird gesprochen.",
+      "explanation_de": "Die Präpositionalergänzung bleibt vollständig erhalten.",
+      "explanation_ar": "يبقى متمم حرف الجر كاملًا."
+    },
+    {
+      "wrong": "Es werden gearbeitet.",
+      "correct": "Es wird gearbeitet.",
+      "explanation_de": "Die finite Form steht im unpersönlichen Passiv im Singular.",
+      "explanation_ar": "تأتي الصيغة المصرفة في المفرد."
+    },
+    {
+      "wrong": "Das Gebäude wird von der Firma besessen.",
+      "correct": "Die Firma besitzt das Gebäude.",
+      "explanation_de": "Besitzen bildet normalerweise kein natürliches reguläres Passiv.",
+      "explanation_ar": "لا يكوّن besitzen عادة مبنيًا للمجهول طبيعيًا."
+    },
+    {
+      "wrong": "Es wird sich beeilt.",
+      "correct": "Die Mitarbeitenden beeilen sich. / Man muss sich beeilen.",
+      "explanation_de": "Reflexive Verben bilden in der Standardsprache normalerweise kein reguläres Passiv.",
+      "explanation_ar": "لا تكوّن الأفعال الانعكاسية عادة مبنيًا للمجهول قياسيًا."
+    }
+  ],
+  "quickSummary_de": [
+    "Unpersönliches Passiv steht oft bei intransitiven Tätigkeitsverben.",
+    "Es ist nur ein Platzhalter im Vorfeld.",
+    "Steht ein anderes Satzglied zuerst, entfällt es.",
+    "Die finite Passivform steht im Singular.",
+    "Dativobjekte bleiben Dativ.",
+    "Präpositionalergänzungen bleiben erhalten.",
+    "Das unpersönliche Passiv kann in mehreren Zeiten stehen.",
+    "Mit Modalverb heißt es zum Beispiel: Es muss gearbeitet werden.",
+    "Persönliches Passiv hat ein neues Subjekt aus dem Akkusativobjekt.",
+    "Besitz- und Zustandsverben bilden meist kein reguläres Passiv.",
+    "Wetterverben und viele nicht-agentive Verben sind nicht passivfähig.",
+    "Reflexive Verben bilden normalerweise kein reguläres Standardpassiv."
+  ],
+  "quickSummary_ar": [
+    "يأتي المبني للمجهول غير الشخصي غالبًا مع أفعال النشاط اللازمة.",
+    "es عنصر شكلي فقط في الموقع الأول.",
+    "إذا جاء عنصر آخر أولًا تُحذف es.",
+    "تأتي صيغة Passiv المصرفة في المفرد.",
+    "تبقى مفاعيل Dativ في Dativ.",
+    "تبقى متممات حروف الجر كما هي.",
+    "يمكن استخدام الصيغة في عدة أزمنة.",
+    "مع الفعل الناقص نقول مثلًا: Es muss gearbeitet werden.",
+    "يحصل المبني للمجهول الشخصي على فاعل جديد من مفعول Akkusativ.",
+    "لا تكوّن أفعال الملكية والحالة غالبًا Passiv عاديًا.",
+    "لا تقبل أفعال الطقس وكثير من الأفعال غير الفاعلية Passiv.",
+    "لا تكوّن الأفعال الانعكاسية عادة مبنيًا للمجهول قياسيًا."
+  ],
+  "relatedTopics": [
+    "gr-45",
+    "gr-46",
+    "gr-47",
+    "gr-48",
+    "gr-50"
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-35",
+  "title_de": "Funktionsverbgefüge und Bedeutungsnuancen – Übungen",
+  "title_ar": "تمارين تراكيب الأفعال الوظيفية وفروق المعنى",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr35-e001",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "In Gang bringen",
+      "title_ar": "بدء عملية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Projektleitung bringt die Umstellung in Gang.",
+      "explanation_de": "Die feste Verbindung lautet etwas in Gang bringen.",
+      "explanation_ar": "الصيغة الثابتة هي etwas in Gang bringen.",
+      "grammarFocus": "in_gang_bringen",
+      "options": [
+        "Die Projektleitung bringt die Umstellung in Gang.",
+        "Die Projektleitung macht die Umstellung in Gang.",
+        "Die Projektleitung setzt die Umstellung in Gang kommen.",
+        "Die Projektleitung steht die Umstellung in Gang."
+      ]
+    },
+    {
+      "id": "gr35-e002",
+      "topicId": "gr-35",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "In Gang kommen",
+      "title_ar": "بدء العملية",
+      "prompt_de": "Nach einigen Verzögerungen kam die Produktion wieder in ______.",
+      "prompt_ar": "بعد بعض التأخيرات عادت عملية الإنتاج إلى العمل.",
+      "answer": "Gang",
+      "explanation_de": "Die feste Verbindung lautet in Gang kommen.",
+      "explanation_ar": "الصيغة الثابتة هي in Gang kommen.",
+      "grammarFocus": "in_gang_kommen",
+      "acceptedAnswers": [
+        "Gang"
+      ]
+    },
+    {
+      "id": "gr35-e003",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Unter Druck stehen",
+      "title_ar": "حالة ضغط",
+      "prompt_de": "Welche Form beschreibt einen bestehenden Zustand?",
+      "prompt_ar": "أي صيغة تصف حالة قائمة؟",
+      "answer": "Das Team steht unter Druck.",
+      "explanation_de": "Stehen beschreibt hier einen bestehenden Zustand.",
+      "explanation_ar": "تصف stehen هنا حالة قائمة.",
+      "grammarFocus": "pressure_state",
+      "options": [
+        "Das Team steht unter Druck.",
+        "Das Team setzt unter Druck.",
+        "Das Team bringt unter Druck.",
+        "Das Team kommt Druck."
+      ]
+    },
+    {
+      "id": "gr35-e004",
+      "topicId": "gr-35",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Perspektive zuordnen",
+      "title_ar": "مطابقة المنظور",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "in Gang bringen": "aktive Verursachung",
+        "in Gang kommen": "Beginn eines Prozesses",
+        "unter Druck setzen": "Druck verursachen",
+        "unter Druck geraten": "Beginn des Druckzustands",
+        "unter Druck stehen": "bestehender Druckzustand"
+      },
+      "explanation_de": "Das Funktionsverb zeigt die Perspektive auf den Vorgang.",
+      "explanation_ar": "يوضح الفعل الوظيفي زاوية النظر إلى الحدث.",
+      "grammarFocus": "aspect_matching",
+      "pairs": [
+        [
+          "in Gang bringen",
+          "aktive Verursachung"
+        ],
+        [
+          "in Gang kommen",
+          "Beginn eines Prozesses"
+        ],
+        [
+          "unter Druck setzen",
+          "Druck verursachen"
+        ],
+        [
+          "unter Druck geraten",
+          "Beginn des Druckzustands"
+        ],
+        [
+          "unter Druck stehen",
+          "bestehender Druckzustand"
+        ]
+      ]
+    },
+    {
+      "id": "gr35-e005",
+      "topicId": "gr-35",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Zur Sprache kommen",
+      "title_ar": "طرح موضوع",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Im Gespräch kam auch die Arbeitsbelastung zur Sprache.",
+      "explanation_de": "Kommen stellt das Thema und nicht den Handelnden in den Vordergrund.",
+      "explanation_ar": "تضع kommen الموضوع لا الفاعل في المقدمة.",
+      "grammarFocus": "zur_sprache_kommen",
+      "tokens": [
+        "zur Sprache",
+        "kam",
+        "auch die Arbeitsbelastung",
+        "Im Gespräch"
+      ],
+      "acceptedAnswers": [
+        "Im Gespräch kam auch die Arbeitsbelastung zur Sprache."
+      ]
+    },
+    {
+      "id": "gr35-e006",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "In Betracht ziehen",
+      "title_ar": "دراسة خيار",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Leitung zieht einen Abteilungswechsel in Betracht.",
+      "explanation_de": "Eine Person prüft eine Möglichkeit mit in Betracht ziehen.",
+      "explanation_ar": "يدرس الشخص خيارًا باستخدام in Betracht ziehen.",
+      "grammarFocus": "in_betracht_ziehen",
+      "options": [
+        "Die Leitung zieht einen Abteilungswechsel in Betracht.",
+        "Die Leitung kommt einen Abteilungswechsel in Betracht.",
+        "Die Leitung bringt einen Abteilungswechsel in Betracht.",
+        "Die Leitung stellt einen Abteilungswechsel in Betracht."
+      ]
+    },
+    {
+      "id": "gr35-e007",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zum Ausdruck bringen",
+      "title_ar": "التعبير بوضوح",
+      "prompt_de": "Welche Verbindung bedeutet „deutlich ausdrücken“?",
+      "prompt_ar": "أي رابط يعني «التعبير بوضوح»؟",
+      "answer": "etwas zum Ausdruck bringen",
+      "explanation_de": "Zum Ausdruck bringen bedeutet deutlich ausdrücken.",
+      "explanation_ar": "تعني zum Ausdruck bringen التعبير بوضوح.",
+      "grammarFocus": "ausdruck_bedeutung",
+      "options": [
+        "etwas zum Ausdruck bringen",
+        "etwas in Gang kommen",
+        "etwas unter Druck stehen",
+        "etwas in Betracht kommen"
+      ]
+    },
+    {
+      "id": "gr35-e008",
+      "topicId": "gr-35",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Druck verursachen",
+      "title_ar": "التسبب في الضغط",
+      "prompt_de": "Die extrem kurze Frist setzt das Team unter ______.",
+      "prompt_ar": "تضع المهلة القصيرة جدًا الفريق تحت الضغط.",
+      "answer": "Druck",
+      "explanation_de": "Die feste Verbindung lautet jemanden unter Druck setzen.",
+      "explanation_ar": "الصيغة الثابتة هي jemanden unter Druck setzen.",
+      "grammarFocus": "pressure_causation",
+      "acceptedAnswers": [
+        "Druck"
+      ]
+    },
+    {
+      "id": "gr35-e009",
+      "topicId": "gr-35",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Verursachung ausdrücken",
+      "title_ar": "التعبير عن التسبب",
+      "prompt_de": "Formulieren Sie mit einem Funktionsverbgefüge: Die Leitung startet den Prozess.",
+      "prompt_ar": "أعد الصياغة باستخدام تركيب فعل وظيفي.",
+      "answer": "Die Leitung bringt den Prozess in Gang.",
+      "explanation_de": "Starten kann durch etwas in Gang bringen ausgedrückt werden.",
+      "explanation_ar": "يمكن التعبير عن starten باستخدام etwas in Gang bringen.",
+      "grammarFocus": "start_reformulation",
+      "acceptedAnswers": [
+        "Die Leitung bringt den Prozess in Gang."
+      ]
+    },
+    {
+      "id": "gr35-e010",
+      "topicId": "gr-35",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Zustandsbeginn ausdrücken",
+      "title_ar": "التعبير عن بداية الحالة",
+      "prompt_de": "Formulieren Sie mit einem Funktionsverbgefüge: Das Team begann, unter starkem Druck zu stehen.",
+      "prompt_ar": "أعد الصياغة باستخدام تركيب فعل وظيفي.",
+      "answer": "Das Team geriet unter starken Druck.",
+      "explanation_de": "Geraten markiert den Beginn des Zustands.",
+      "explanation_ar": "تدل geraten على بداية الحالة.",
+      "grammarFocus": "pressure_onset_reformulation",
+      "acceptedAnswers": [
+        "Das Team geriet unter starken Druck.",
+        "Das Team geriet unter erheblichen Druck."
+      ]
+    },
+    {
+      "id": "gr35-e011",
+      "topicId": "gr-35",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zur Sprache bringen",
+      "title_ar": "طرح الموضوع فعليًا",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Beschäftigten brachten die ungleiche Aufgabenverteilung zur Sprache.",
+      "explanation_de": "Bringen hebt den Handelnden hervor.",
+      "explanation_ar": "تؤكد bringen على من قام بطرح الموضوع.",
+      "grammarFocus": "zur_sprache_bringen",
+      "tokens": [
+        "zur Sprache",
+        "brachten",
+        "die ungleiche Aufgabenverteilung",
+        "Die Beschäftigten"
+      ],
+      "acceptedAnswers": [
+        "Die Beschäftigten brachten die ungleiche Aufgabenverteilung zur Sprache."
+      ]
+    },
+    {
+      "id": "gr35-e012",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ziehen oder kommen",
+      "title_ar": "ziehen أم kommen",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Für die Übergangszeit kommt eine interne Versetzung in Betracht.",
+      "explanation_de": "Eine Möglichkeit selbst kommt in Betracht.",
+      "explanation_ar": "يأتي الخيار نفسه مع in Betracht kommen.",
+      "grammarFocus": "consideration_option",
+      "options": [
+        "Für die Übergangszeit kommt eine interne Versetzung in Betracht.",
+        "Für die Übergangszeit zieht eine interne Versetzung in Betracht.",
+        "Für die Übergangszeit bringt eine interne Versetzung in Betracht.",
+        "Für die Übergangszeit steht eine interne Versetzung in Betracht."
+      ]
+    },
+    {
+      "id": "gr35-e013",
+      "topicId": "gr-35",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Gefüge und einfaches Verb",
+      "title_ar": "التركيب والفعل البسيط",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "in Gang bringen": "starten",
+        "zur Sprache bringen": "ansprechen",
+        "in Betracht ziehen": "erwägen",
+        "zum Ausdruck bringen": "ausdrücken",
+        "in Verbindung bringen mit": "einen Zusammenhang herstellen"
+      },
+      "explanation_de": "Die einfachen Verben geben die Grundbedeutung wieder.",
+      "explanation_ar": "تعطي الأفعال البسيطة المعنى الأساسي.",
+      "grammarFocus": "simple_verb_matching",
+      "pairs": [
+        [
+          "in Gang bringen",
+          "starten"
+        ],
+        [
+          "zur Sprache bringen",
+          "ansprechen"
+        ],
+        [
+          "in Betracht ziehen",
+          "erwägen"
+        ],
+        [
+          "zum Ausdruck bringen",
+          "ausdrücken"
+        ],
+        [
+          "in Verbindung bringen mit",
+          "einen Zusammenhang herstellen"
+        ]
+      ]
+    },
+    {
+      "id": "gr35-e014",
+      "topicId": "gr-35",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachliches Protokoll",
+      "title_ar": "محضر موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in ein Protokoll?",
+      "prompt_ar": "أي صياغة تناسب محضرًا؟",
+      "answer": "Im weiteren Verlauf kam auch die personelle Unterbesetzung zur Sprache.",
+      "explanation_de": "Die Formulierung nennt das behandelte Thema sachlich, ohne den Sprecher hervorzuheben.",
+      "explanation_ar": "تذكر الصياغة الموضوع الذي نوقش من دون إبراز المتحدث.",
+      "grammarFocus": "minutes_topic",
+      "options": [
+        "Im weiteren Verlauf kam auch die personelle Unterbesetzung zur Sprache.",
+        "Im weiteren Verlauf machte jemand das Personalproblem Sprache.",
+        "Die Unterbesetzung sprach im Verlauf.",
+        "Im Verlauf wurde die Unterbesetzung zum Sprechen gemacht."
+      ]
+    },
+    {
+      "id": "gr35-e015",
+      "topicId": "gr-35",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "In Verbindung bringen",
+      "title_ar": "الربط",
+      "prompt_de": "Die Störung wird mit einem fehlerhaften Update in Verbindung ______.",
+      "prompt_ar": "يتم ربط العطل بتحديث معيب.",
+      "answer": "gebracht",
+      "explanation_de": "Im Passiv lautet die Form in Verbindung gebracht werden.",
+      "explanation_ar": "في المبني للمجهول تكون الصيغة in Verbindung gebracht werden.",
+      "grammarFocus": "connection_passive",
+      "acceptedAnswers": [
+        "gebracht"
+      ]
+    },
+    {
+      "id": "gr35-e016",
+      "topicId": "gr-35",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zur Anwendung kommen",
+      "title_ar": "الدخول في التطبيق",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Bei schweren Verstößen kommt ein besonderes Verfahren zur Anwendung.",
+      "explanation_de": "Kommen beschreibt die Anwendung ohne Fokus auf einen Handelnden.",
+      "explanation_ar": "تصف kommen التطبيق من دون التركيز على الفاعل.",
+      "grammarFocus": "application_kommen",
+      "tokens": [
+        "zur Anwendung",
+        "kommt",
+        "ein besonderes Verfahren",
+        "Bei schweren Verstößen"
+      ],
+      "acceptedAnswers": [
+        "Bei schweren Verstößen kommt ein besonderes Verfahren zur Anwendung."
+      ]
+    },
+    {
+      "id": "gr35-e017",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Anwendung aktiv veranlassen",
+      "title_ar": "التسبب في التطبيق",
+      "prompt_de": "Welche Form betont die aktive Umsetzung durch die Behörde?",
+      "prompt_ar": "أي صيغة تؤكد التنفيذ الفعلي من قبل الجهة؟",
+      "answer": "Die Behörde bringt das neue Verfahren ab Oktober zur Anwendung.",
+      "explanation_de": "Bringen hebt die aktiv handelnde Behörde hervor.",
+      "explanation_ar": "تؤكد bringen على الجهة التي تنفذ فعليًا.",
+      "grammarFocus": "application_bringen",
+      "options": [
+        "Die Behörde bringt das neue Verfahren ab Oktober zur Anwendung.",
+        "Die Behörde kommt das neue Verfahren zur Anwendung.",
+        "Das neue Verfahren bringt ab Oktober zur Anwendung.",
+        "Die Behörde steht das Verfahren zur Anwendung."
+      ]
+    },
+    {
+      "id": "gr35-e018",
+      "topicId": "gr-35",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Aktiv und Prozess unterscheiden",
+      "title_ar": "تمييز الفاعل والعملية",
+      "prompt_de": "Formulieren Sie zwei Sätze: Die Leitung startet die Maßnahme. Danach beginnt die Maßnahme tatsächlich.",
+      "prompt_ar": "صغ جملتين باستخدام in Gang bringen وin Gang kommen.",
+      "answer": "Die Leitung bringt die Maßnahme in Gang. Danach kommt die Maßnahme tatsächlich in Gang.",
+      "explanation_de": "Bringen beschreibt die Verursachung, kommen den tatsächlichen Beginn.",
+      "explanation_ar": "تصف bringen التسبب، بينما تصف kommen البداية الفعلية.",
+      "grammarFocus": "causative_inchoative_pair",
+      "acceptedAnswers": [
+        "Die Leitung bringt die Maßnahme in Gang. Danach kommt die Maßnahme tatsächlich in Gang."
+      ]
+    },
+    {
+      "id": "gr35-e019",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Drei Druckperspektiven",
+      "title_ar": "ثلاث زوايا للضغط",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Die Frist setzt das Team unter Druck“ nennt die Ursache; „das Team gerät unter Druck“ den Beginn; „das Team steht unter Druck“ den Zustand.",
+      "explanation_de": "Setzen, geraten und stehen markieren drei unterschiedliche Perspektiven.",
+      "explanation_ar": "تحدد setzen وgeraten وstehen ثلاث زوايا مختلفة.",
+      "grammarFocus": "pressure_three_perspectives",
+      "options": [
+        "„Die Frist setzt das Team unter Druck“ nennt die Ursache; „das Team gerät unter Druck“ den Beginn; „das Team steht unter Druck“ den Zustand.",
+        "Alle drei Sätze bedeuten grammatisch und aspektuell exakt dasselbe.",
+        "Geraten beschreibt immer einen dauerhaften Zustand ohne Beginn.",
+        "Stehen beschreibt eine aktive Verursachung."
+      ]
+    },
+    {
+      "id": "gr35-e020",
+      "topicId": "gr-35",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formeller Bericht",
+      "title_ar": "تقرير رسمي",
+      "prompt_de": "Welche Formulierung ist sachlich und präzise?",
+      "prompt_ar": "أي صياغة موضوعية ودقيقة؟",
+      "answer": "Die erhöhte Fehlerquote wird mit einer unzureichenden Einarbeitung neuer Mitarbeitender in Verbindung gebracht.",
+      "explanation_de": "Die Passivform beschreibt einen angenommenen Zusammenhang, ohne einen Urheber hervorzuheben.",
+      "explanation_ar": "تصف صيغة المبني للمجهول علاقة مفترضة من دون إبراز من قام بالربط.",
+      "grammarFocus": "formal_connection_report",
+      "options": [
+        "Die erhöhte Fehlerquote wird mit einer unzureichenden Einarbeitung neuer Mitarbeitender in Verbindung gebracht.",
+        "Die erhöhte Fehlerquote wird mit der Einarbeitung in Verbindung gesetzt.",
+        "Die Fehlerquote macht Verbindung mit schlechter Einarbeitung.",
+        "Die Fehlerquote kommt mit Einarbeitung zur Verbindung."
+      ]
+    },
+    {
+      "id": "gr35-e021",
+      "topicId": "gr-35",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Perspektiven",
+      "title_ar": "عدة زوايا",
+      "prompt_de": "Ordnen Sie den Text.",
+      "prompt_ar": "رتب النص.",
+      "answer": "Die Leitung brachte die Umstellung in Gang. Nach kurzer Zeit kam der Prozess tatsächlich in Gang, obwohl mehrere Abteilungen noch unter Druck standen.",
+      "explanation_de": "Der Text kombiniert Verursachung, Prozessbeginn und bestehenden Zustand.",
+      "explanation_ar": "يجمع النص بين التسبب وبداية العملية والحالة القائمة.",
+      "grammarFocus": "multi_perspective_order",
+      "tokens": [
+        "obwohl mehrere Abteilungen noch unter Druck standen",
+        "Nach kurzer Zeit kam der Prozess tatsächlich in Gang",
+        "Die Leitung brachte die Umstellung in Gang"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung brachte die Umstellung in Gang. Nach kurzer Zeit kam der Prozess tatsächlich in Gang, obwohl mehrere Abteilungen noch unter Druck standen."
+      ]
+    },
+    {
+      "id": "gr35-e022",
+      "topicId": "gr-35",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Thema aktiv oder neutral",
+      "title_ar": "طرح الموضوع فعليًا أو بصورة محايدة",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Die Kollegin brachte das Problem zur Sprache“ hebt die Kollegin hervor; „das Problem kam zur Sprache“ hebt das Thema hervor.",
+      "explanation_de": "Bringen und kommen unterscheiden Handelndenfokus und Themenfokus.",
+      "explanation_ar": "تميّز bringen وkommen بين التركيز على الفاعل والتركيز على الموضوع.",
+      "grammarFocus": "topic_focus_contrast",
+      "options": [
+        "„Die Kollegin brachte das Problem zur Sprache“ hebt die Kollegin hervor; „das Problem kam zur Sprache“ hebt das Thema hervor.",
+        "Beide Formen brauchen immer dasselbe Subjekt.",
+        "Zur Sprache kommen ist immer Aktiv mit Akkusativobjekt.",
+        "Zur Sprache bringen darf kein handelndes Subjekt haben."
+      ]
+    },
+    {
+      "id": "gr35-e023",
+      "topicId": "gr-35",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe Umformung",
+      "title_ar": "إعادة صياغة معقدة",
+      "prompt_de": "Formulieren Sie mit Funktionsverbgefügen: Die Beschäftigten äußerten ihre Sorge deutlich. Die Leitung prüfte anschließend einen Abteilungswechsel als Möglichkeit.",
+      "prompt_ar": "أعد الصياغة باستخدام تراكيب الأفعال الوظيفية.",
+      "answer": "Die Beschäftigten brachten ihre Sorge deutlich zum Ausdruck. Anschließend zog die Leitung einen Abteilungswechsel in Betracht.",
+      "explanation_de": "Ausdrücken und erwägen werden durch zum Ausdruck bringen und in Betracht ziehen wiedergegeben.",
+      "explanation_ar": "يُعبّر عن ausdrücken وerwägen باستخدام zum Ausdruck bringen وin Betracht ziehen.",
+      "grammarFocus": "complex_function_verb_reformulation",
+      "acceptedAnswers": [
+        "Die Beschäftigten brachten ihre Sorge deutlich zum Ausdruck. Anschließend zog die Leitung einen Abteilungswechsel in Betracht."
+      ]
+    },
+    {
+      "id": "gr35-e024",
+      "topicId": "gr-35",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Funktionsverbgefüge",
+      "title_ar": "تدريب ختامي على تراكيب الأفعال الوظيفية",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens zehn Funktionsverbgefüge und zeigen Sie mindestens drei Kontraste zwischen Verursachung, Beginn und Zustand.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم عشرة تراكيب أفعال وظيفية على الأقل، وأظهر ثلاثة فروق على الأقل بين التسبب والبداية والحالة.",
+      "answer": {
+        "requiredConcepts": [
+          "in Gang bringen und in Gang kommen",
+          "unter Druck setzen, geraten und stehen",
+          "zur Sprache bringen und zur Sprache kommen",
+          "in Betracht ziehen und in Betracht kommen",
+          "zum Ausdruck bringen",
+          "in Verbindung bringen mit",
+          "zur Anwendung kommen oder bringen",
+          "mindestens zwei Passivsätze",
+          "mindestens drei Bedeutungsvergleiche",
+          "sachlicher beruflicher B2-Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Perspektive, Subjekt, feste Form, Präposition, Zeitform und Bedeutungsnuance.",
+      "explanation_ar": "راجع المنظور والفاعل والصيغة الثابتة وحرف الجر والزمن وفرق المعنى.",
+      "grammarFocus": "mixed_function_verb_constructions",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

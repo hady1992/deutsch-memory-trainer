@@ -1,0 +1,419 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-23",
+  "slug": "gr-23-finale-und-konsekutive-strukturen",
+  "order": 23,
+  "title_de": "Finale und konsekutive Strukturen",
+  "title_ar": "تراكيب الغاية والنتيجة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konnektoren",
+  "estimatedMinutes": 55,
+  "learningObjectives_de": [
+    "Ziele und Absichten mit damit korrekt ausdrücken.",
+    "Um ... zu als finale Struktur erkennen und von damit unterscheiden.",
+    "Dafür, dazu und zu diesem Zweck in Hauptsätzen passend verwenden.",
+    "Folgen mit sodass beziehungsweise so dass formulieren.",
+    "Grad und Folge mit so ... dass ausdrücken.",
+    "Zu ... als dass für eine nicht realisierbare Folge verwenden.",
+    "Finale und konsekutive Beziehungen in beruflichen Texten sicher unterscheiden."
+  ],
+  "learningObjectives_ar": [
+    "التعبير عن الأهداف والغايات باستخدام damit بصورة صحيحة.",
+    "تمييز um ... zu بوصفها صيغة غاية والفرق بينها وبين damit.",
+    "استخدام dafür وdazu وzu diesem Zweck داخل الجمل الرئيسية.",
+    "صياغة النتائج باستخدام sodass أو so dass.",
+    "التعبير عن الدرجة والنتيجة باستخدام so ... dass.",
+    "استخدام zu ... als dass للتعبير عن نتيجة غير قابلة للتحقق.",
+    "التمييز بين علاقة الغاية وعلاقة النتيجة في النصوص المهنية."
+  ],
+  "shortDescription_de": "Finale Strukturen nennen ein Ziel oder eine Absicht. Konsekutive Strukturen beschreiben eine tatsächliche oder erwartbare Folge.",
+  "shortDescription_ar": "تذكر تراكيب الغاية هدفًا أو نية، بينما تصف تراكيب النتيجة أثرًا فعليًا أو متوقعًا.",
+  "explanation_de": "Damit leitet einen finalen Nebensatz ein. Das konjugierte Verb steht am Ende: Wir dokumentieren den Vorgang, damit alle Beteiligten informiert sind. Damit ist besonders wichtig, wenn Haupt- und Nebensatz unterschiedliche Subjekte haben. Um ... zu drückt ebenfalls ein Ziel aus, verlangt aber normalerweise dasselbe handelnde Subjekt oder denselben Bezug im Hauptsatz und in der Infinitivgruppe. Diese Struktur wird in gr-26 ausführlich behandelt. Dafür, dazu und zu diesem Zweck können ein Ziel in einem neuen Hauptsatz oder innerhalb eines Hauptsatzes aufnehmen. Sodass beziehungsweise so dass leitet eine Folge ein: Die Nachfrage stieg stark, sodass zusätzliches Personal eingestellt wurde. Bei so ... dass steht so bei einem Adjektiv oder Adverb im Hauptsatz: Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt wurde. Die Struktur zu ... als dass beschreibt, dass etwas wegen eines zu hohen oder zu niedrigen Grades nicht möglich ist und verwendet häufig Konjunktiv II: Die Aufgabe ist zu komplex, als dass sie ohne Hilfe gelöst werden könnte.",
+  "explanation_ar": "تدخل damit جملة غاية فرعية ويأتي الفعل المصرف في نهايتها، مثل: Wir dokumentieren den Vorgang, damit alle Beteiligten informiert sind. وتكون damit مهمة خصوصًا عندما يختلف فاعل الجملة الرئيسية عن فاعل الجملة الفرعية. كما تعبّر um ... zu عن الغاية، لكنها تحتاج عادة إلى الفاعل نفسه أو المرجع نفسه في الجملة الرئيسية وتركيب المصدر. وسيتم شرحها بالتفصيل في gr-26. ويمكن استخدام dafür وdazu وzu diesem Zweck لذكر الغاية داخل جملة رئيسية أو في جملة جديدة. أما sodass أو so dass فتدخل جملة نتيجة. وفي تركيب so ... dass تأتي so مع صفة أو ظرف في الجملة الرئيسية. وتعبّر صيغة zu ... als dass عن أن شيئًا غير ممكن بسبب درجة زائدة أو غير مناسبة، وغالبًا تُستخدم معها صيغة Konjunktiv II.",
+  "rules": [
+    {
+      "id": "gr23-r01",
+      "title_de": "Damit + Nebensatz",
+      "title_ar": "damit مع جملة فرعية",
+      "explanation_de": "Damit nennt ein Ziel. Das konjugierte Verb steht am Ende.",
+      "explanation_ar": "تذكر damit الغاية ويأتي الفعل المصرف في النهاية.",
+      "formula": "Hauptsatz, damit + ... + Verb",
+      "examples": [
+        {
+          "de": "Wir senden eine Erinnerung, damit niemand den Termin vergisst.",
+          "ar": "نرسل تذكيرًا كي لا ينسى أحد الموعد."
+        },
+        {
+          "de": "Die Anleitung wird vereinfacht, damit neue Mitarbeitende sie leichter verstehen können.",
+          "ar": "يتم تبسيط التعليمات لكي يتمكن الموظفون الجدد من فهمها بسهولة أكبر."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r02",
+      "title_de": "Unterschiedliche Subjekte",
+      "title_ar": "اختلاف الفاعل",
+      "explanation_de": "Bei unterschiedlichen Subjekten verwendet man für ein Ziel normalerweise damit.",
+      "explanation_ar": "عندما يختلف الفاعل نستخدم عادة damit للتعبير عن الغاية.",
+      "formula": "Wir erklären es, damit die Kundin es versteht.",
+      "examples": [
+        {
+          "de": "Der Vorgesetzte erklärt die Aufgabe noch einmal, damit das Team sie korrekt ausführt.",
+          "ar": "يشرح المسؤول المهمة مرة أخرى لكي ينفذها الفريق بصورة صحيحة."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r03",
+      "title_de": "Um ... zu im Überblick",
+      "title_ar": "نظرة عامة على um ... zu",
+      "explanation_de": "Um ... zu drückt ein Ziel aus, wenn Hauptsatz und Infinitivgruppe denselben Handelnden oder Bezug haben.",
+      "explanation_ar": "تعبّر um ... zu عن الغاية عندما يكون الفاعل أو المرجع نفسه في الجملة الرئيسية وتركيب المصدر.",
+      "formula": "Hauptsatz, um + ... + zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir überprüfen die Daten, um Fehler frühzeitig zu erkennen.",
+          "ar": "نفحص البيانات لاكتشاف الأخطاء مبكرًا."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r04",
+      "title_de": "Dafür und dazu",
+      "title_ar": "dafür وdazu",
+      "explanation_de": "Dafür und dazu können auf einen Zweck oder eine erforderliche Maßnahme verweisen.",
+      "explanation_ar": "يمكن أن تشير dafür وdazu إلى غاية أو إجراء مطلوب لتحقيقها.",
+      "formula": "Ziel. Dafür/Dazu + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Wir wollen die Bearbeitungszeit verkürzen. Dafür digitalisieren wir mehrere Arbeitsschritte.",
+          "ar": "نريد تقصير مدة المعالجة، ولهذا الغرض نرقمن عدة خطوات عمل."
+        },
+        {
+          "de": "Zur Nutzung des Portals ist eine Registrierung erforderlich. Dazu benötigen Sie eine gültige E-Mail-Adresse.",
+          "ar": "يلزم التسجيل لاستخدام البوابة، ولهذا تحتاج إلى بريد إلكتروني صالح."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r05",
+      "title_de": "Zu diesem Zweck",
+      "title_ar": "zu diesem Zweck",
+      "explanation_de": "Zu diesem Zweck ist eine formelle finale Verbindung.",
+      "explanation_ar": "تُعد zu diesem Zweck صيغة رسمية للتعبير عن الغاية.",
+      "formula": "Ziel. Zu diesem Zweck + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Die Sicherheit soll erhöht werden. Zu diesem Zweck wird ein neues Kontrollsystem eingeführt.",
+          "ar": "يُراد رفع مستوى السلامة، ولهذا الغرض سيتم إدخال نظام رقابة جديد."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r06",
+      "title_de": "Sodass / so dass",
+      "title_ar": "sodass / so dass",
+      "explanation_de": "Sodass oder so dass leitet eine Folge ein. Das Verb steht am Ende.",
+      "explanation_ar": "تدخل sodass أو so dass جملة نتيجة ويأتي الفعل في النهاية.",
+      "formula": "Ursache, sodass/so dass + ... + Verb",
+      "examples": [
+        {
+          "de": "Der Server fiel aus, sodass mehrere Dienste nicht erreichbar waren.",
+          "ar": "تعطل الخادم، ونتيجة لذلك لم تكن عدة خدمات متاحة."
+        },
+        {
+          "de": "Die Frist wurde verlängert, so dass alle Unterlagen nachgereicht werden konnten.",
+          "ar": "تم تمديد المهلة، مما أتاح تقديم جميع المستندات الناقصة."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r07",
+      "title_de": "So ... dass",
+      "title_ar": "so ... dass",
+      "explanation_de": "So verstärkt ein Adjektiv oder Adverb; der dass-Satz nennt die daraus entstehende Folge.",
+      "explanation_ar": "تقوّي so صفة أو ظرفًا، وتذكر جملة dass النتيجة الناشئة عن هذه الدرجة.",
+      "formula": "so + Adjektiv/Adverb, dass + ... + Verb",
+      "examples": [
+        {
+          "de": "Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt werden musste.",
+          "ar": "كان الطلب مرتفعًا إلى درجة أنه كان لا بد من تعيين موظفين إضافيين."
+        },
+        {
+          "de": "Die Anleitung war so unklar formuliert, dass viele Rückfragen entstanden.",
+          "ar": "كانت التعليمات مصاغة بصورة غير واضحة لدرجة ظهور أسئلة كثيرة."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r08",
+      "title_de": "Final oder konsekutiv?",
+      "title_ar": "غاية أم نتيجة؟",
+      "explanation_de": "Finale Strukturen antworten auf Wozu? Konsekutive Strukturen antworten auf Mit welcher Folge?",
+      "explanation_ar": "تجيب تراكيب الغاية عن سؤال: لأي هدف؟ بينما تجيب تراكيب النتيجة عن سؤال: ما النتيجة؟",
+      "formula": "Ziel → damit/um ... zu | Folge → sodass/so ... dass",
+      "examples": [
+        {
+          "de": "Wir schulen das Team, damit Fehler vermieden werden.",
+          "ar": "ندرب الفريق لكي يتم تجنب الأخطاء."
+        },
+        {
+          "de": "Das Team wurde intensiv geschult, sodass deutlich weniger Fehler auftraten.",
+          "ar": "تم تدريب الفريق بصورة مكثفة، فظهرت أخطاء أقل بكثير."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r09",
+      "title_de": "Zu ... als dass",
+      "title_ar": "zu ... als dass",
+      "explanation_de": "Die Struktur beschreibt, dass etwas wegen eines zu hohen Grades nicht möglich oder nicht realistisch ist.",
+      "explanation_ar": "تصف هذه الصيغة أن شيئًا غير ممكن أو غير واقعي بسبب درجة زائدة.",
+      "formula": "zu + Adjektiv, als dass + ... + Konjunktiv II",
+      "examples": [
+        {
+          "de": "Die Aufgabe ist zu komplex, als dass sie ohne Unterstützung gelöst werden könnte.",
+          "ar": "المهمة معقدة أكثر من أن يمكن حلها من دون دعم."
+        },
+        {
+          "de": "Die Frist war zu kurz, als dass alle Unterlagen rechtzeitig hätten geprüft werden können.",
+          "ar": "كانت المهلة قصيرة أكثر من أن يكون من الممكن فحص جميع المستندات في الوقت المناسب."
+        }
+      ]
+    },
+    {
+      "id": "gr23-r10",
+      "title_de": "Nebensatz zuerst",
+      "title_ar": "الجملة الفرعية أولًا",
+      "explanation_de": "Ein damit-Satz kann vorangestellt werden; der folgende Hauptsatz beginnt dann mit dem konjugierten Verb.",
+      "explanation_ar": "يمكن تقديم جملة damit، وعندها تبدأ الجملة الرئيسية التالية بالفعل المصرف.",
+      "formula": "Damit + ... + Verb, Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Damit alle Beteiligten rechtzeitig informiert sind, wird die Mitteilung heute verschickt.",
+          "ar": "لكي يكون جميع المعنيين على علم في الوقت المناسب، سيتم إرسال الإشعار اليوم."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr23-t01",
+      "title_de": "Ziel und Folge",
+      "title_ar": "الغاية والنتيجة",
+      "headers_de": [
+        "Struktur",
+        "Funktion",
+        "Satzstellung"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الوظيفة",
+        "ترتيب الجملة"
+      ],
+      "rows": [
+        [
+          "damit",
+          "Ziel",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "um ... zu",
+          "Ziel bei gleichem Bezug",
+          "Infinitivgruppe"
+        ],
+        [
+          "dafür / dazu",
+          "Ziel oder Mittel",
+          "Hauptsatz: Verb auf Position 2"
+        ],
+        [
+          "zu diesem Zweck",
+          "formelles Ziel",
+          "Hauptsatz: Verb auf Position 2"
+        ],
+        [
+          "sodass / so dass",
+          "Folge",
+          "Nebensatz: Verb am Ende"
+        ],
+        [
+          "so ... dass",
+          "Grad + Folge",
+          "dass-Satz: Verb am Ende"
+        ],
+        [
+          "zu ... als dass",
+          "nicht mögliche Folge",
+          "meist Konjunktiv II"
+        ]
+      ]
+    },
+    {
+      "id": "gr23-t02",
+      "title_de": "Damit oder um ... zu",
+      "title_ar": "damit أم um ... zu",
+      "headers_de": [
+        "Situation",
+        "geeignete Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الحالة",
+        "الصيغة المناسبة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "unterschiedliche Subjekte",
+          "damit",
+          "Ich erkläre es, damit sie es versteht."
+        ],
+        [
+          "gleicher Handelnder",
+          "um ... zu",
+          "Ich frage nach, um alles zu verstehen."
+        ],
+        [
+          "Passiv oder unpersönlicher Bezug",
+          "oft damit",
+          "Die Datei wird gespeichert, damit sie später verfügbar ist."
+        ]
+      ]
+    },
+    {
+      "id": "gr23-t03",
+      "title_de": "Sodass und so ... dass",
+      "title_ar": "sodass وso ... dass",
+      "headers_de": [
+        "Struktur",
+        "Schwerpunkt",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "التركيز",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "sodass",
+          "Folge allgemein",
+          "Der Server fiel aus, sodass wir warten mussten."
+        ],
+        [
+          "so ... dass",
+          "Grad als Ursache der Folge",
+          "Der Ausfall war so schwer, dass wir warten mussten."
+        ],
+        [
+          "zu ... als dass",
+          "Folge nicht realisierbar",
+          "Zu schwer, als dass es schnell gelöst werden könnte."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wir dokumentieren alle Entscheidungen, damit spätere Rückfragen schnell beantwortet werden können.",
+      "ar": "نوثق جميع القرارات لكي يمكن الإجابة عن الاستفسارات اللاحقة بسرعة.",
+      "note_de": "Finaler Nebensatz mit damit.",
+      "note_ar": "جملة غاية باستخدام damit."
+    },
+    {
+      "de": "Die Abläufe sollen transparenter werden. Zu diesem Zweck wird ein digitales Protokoll eingeführt.",
+      "ar": "يُراد أن تصبح الإجراءات أكثر شفافية، ولهذا الغرض سيتم اعتماد سجل رقمي.",
+      "note_de": "Formelle Zweckangabe.",
+      "note_ar": "تعبير رسمي عن الغاية."
+    },
+    {
+      "de": "Die Nachfrage stieg unerwartet stark, sodass die vorhandenen Kapazitäten nicht ausreichten.",
+      "ar": "ازداد الطلب بصورة قوية وغير متوقعة، مما جعل القدرات المتاحة غير كافية.",
+      "note_de": "Tatsächliche Folge mit sodass.",
+      "note_ar": "نتيجة فعلية باستخدام sodass."
+    },
+    {
+      "de": "Die Aufgabenbeschreibung war so allgemein, dass die Zuständigkeiten nicht eindeutig erkennbar waren.",
+      "ar": "كان وصف المهمة عامًا إلى درجة أن المسؤوليات لم تكن واضحة.",
+      "note_de": "Grad und Folge mit so ... dass.",
+      "note_ar": "الدرجة والنتيجة باستخدام so ... dass."
+    },
+    {
+      "de": "Das Problem ist zu umfangreich, als dass es in einer einzigen Besprechung gelöst werden könnte.",
+      "ar": "المشكلة واسعة أكثر من أن يمكن حلها في اجتماع واحد.",
+      "note_de": "Nicht realisierbare Folge mit Konjunktiv II.",
+      "note_ar": "نتيجة غير قابلة للتحقق مع Konjunktiv II."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wir senden eine Erinnerung, damit niemand vergisst den Termin.",
+      "correct": "Wir senden eine Erinnerung, damit niemand den Termin vergisst.",
+      "explanation_de": "Im damit-Satz steht das konjugierte Verb am Ende.",
+      "explanation_ar": "في جملة damit يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Ich erkläre es noch einmal, um die Kundin es versteht.",
+      "correct": "Ich erkläre es noch einmal, damit die Kundin es versteht.",
+      "explanation_de": "Bei unterschiedlichen Subjekten verwendet man damit.",
+      "explanation_ar": "عندما يختلف الفاعل نستخدم damit."
+    },
+    {
+      "wrong": "Der Server fiel aus, sodass waren mehrere Dienste nicht erreichbar.",
+      "correct": "Der Server fiel aus, sodass mehrere Dienste nicht erreichbar waren.",
+      "explanation_de": "Im sodass-Satz steht das konjugierte Verb am Ende.",
+      "explanation_ar": "في جملة sodass يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Die Nachfrage war so hoch, sodass Personal eingestellt wurde.",
+      "correct": "Die Nachfrage war so hoch, dass Personal eingestellt wurde.",
+      "explanation_de": "Nach so + Adjektiv verwendet man dass.",
+      "explanation_ar": "بعد so + صفة نستخدم dass."
+    },
+    {
+      "wrong": "Wir wollen Zeit sparen. Dafür wir digitalisieren den Prozess.",
+      "correct": "Wir wollen Zeit sparen. Dafür digitalisieren wir den Prozess.",
+      "explanation_de": "Nach dafür steht das konjugierte Verb direkt.",
+      "explanation_ar": "بعد dafür يأتي الفعل المصرف مباشرة."
+    },
+    {
+      "wrong": "Die Aufgabe ist zu komplex, als dass sie ohne Hilfe gelöst wird.",
+      "correct": "Die Aufgabe ist zu komplex, als dass sie ohne Hilfe gelöst werden könnte.",
+      "explanation_de": "Die nicht realisierbare Folge wird häufig mit Konjunktiv II formuliert.",
+      "explanation_ar": "تُصاغ النتيجة غير القابلة للتحقق غالبًا باستخدام Konjunktiv II."
+    }
+  ],
+  "quickSummary_de": [
+    "Damit leitet einen finalen Nebensatz ein; das Verb steht am Ende.",
+    "Bei unterschiedlichen Subjekten verwendet man für ein Ziel normalerweise damit.",
+    "Um ... zu steht meist bei demselben Handelnden oder Bezug.",
+    "Dafür, dazu und zu diesem Zweck nehmen ein Ziel in einem Hauptsatz auf.",
+    "Sodass oder so dass leitet eine tatsächliche Folge ein.",
+    "So ... dass verbindet einen Grad mit seiner Folge.",
+    "Zu ... als dass beschreibt eine nicht realisierbare Folge.",
+    "Finale Strukturen antworten auf Wozu?",
+    "Konsekutive Strukturen antworten auf Mit welcher Folge?",
+    "Die Wortstellung muss zur jeweiligen Struktur passen."
+  ],
+  "quickSummary_ar": [
+    "تدخل damit جملة غاية فرعية ويأتي الفعل في النهاية.",
+    "عند اختلاف الفاعل نستخدم damit عادة.",
+    "تُستخدم um ... zu غالبًا مع الفاعل أو المرجع نفسه.",
+    "تشير dafür وdazu وzu diesem Zweck إلى الغاية داخل جملة رئيسية.",
+    "تدخل sodass أو so dass جملة نتيجة فعلية.",
+    "تربط so ... dass بين درجة ونتيجتها.",
+    "تصف zu ... als dass نتيجة غير قابلة للتحقق.",
+    "تجيب تراكيب الغاية عن سؤال: لأي هدف؟",
+    "تجيب تراكيب النتيجة عن سؤال: ما النتيجة؟",
+    "يجب أن يتوافق ترتيب الكلمات مع كل صيغة."
+  ],
+  "relatedTopics": [
+    "gr-21",
+    "gr-22",
+    "gr-25",
+    "gr-26",
+    "gr-30"
+  ]
+}

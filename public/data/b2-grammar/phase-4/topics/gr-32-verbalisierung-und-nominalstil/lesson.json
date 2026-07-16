@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-32",
+  "slug": "gr-32-verbalisierung-und-nominalstil",
+  "order": 32,
+  "title_de": "Verbalisierung und Nominalstil",
+  "title_ar": "التحويل إلى أسلوب فعلي والأسلوب الاسمي",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "nominalisierung",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Nominale Ausdrücke in verständliche verbale Sätze umformen.",
+    "Kausale, konzessive, temporale, finale und modale Nominalgruppen erkennen.",
+    "Präpositionale Nominalgruppen durch passende Nebensätze ersetzen.",
+    "Handelnde Personen bei der Verbalisierung korrekt als Subjekt ausdrücken.",
+    "Aktiv- und Passivformen bei der Umformung sinnvoll wählen.",
+    "Zwischen sachlichem Nominalstil und lesbarem Verbalstil unterscheiden.",
+    "Gemischte berufliche Texte stilistisch ausgewogen formulieren."
+  ],
+  "learningObjectives_ar": [
+    "تحويل التعابير الاسمية إلى جمل فعلية واضحة.",
+    "تمييز المجموعات الاسمية السببية والاستدراكية والزمنية والنهائية والطريقة.",
+    "استبدال المجموعات الاسمية مع حروف الجر بجمل فرعية مناسبة.",
+    "إظهار القائم بالفعل بوصفه فاعلًا عند التحويل إلى الأسلوب الفعلي.",
+    "اختيار المعلوم أو المجهول بصورة مناسبة عند إعادة الصياغة.",
+    "التمييز بين الأسلوب الاسمي الموضوعي والأسلوب الفعلي الأسهل قراءة.",
+    "صياغة نصوص مهنية متوازنة أسلوبيًا."
+  ],
+  "shortDescription_de": "Verbalisierung bedeutet, nominale Ausdrücke wieder als Verben oder Nebensätze zu formulieren. Sie macht Texte häufig klarer, dynamischer und leichter verständlich.",
+  "shortDescription_ar": "يعني التحويل إلى الأسلوب الفعلي إعادة صياغة التعابير الاسمية باستخدام أفعال أو جمل فرعية. وغالبًا يجعل ذلك النص أوضح وأكثر حركة وأسهل فهمًا.",
+  "explanation_de": "Der Nominalstil verwendet viele Nomen und Präpositionalgruppen, zum Beispiel: Wegen der Verzögerung der Lieferung wurde der Termin verschoben. Im Verbalstil wird daraus: Weil sich die Lieferung verzögerte, wurde der Termin verschoben. Bei der Verbalisierung muss zuerst die logische Beziehung erkannt werden. Wegen oder aufgrund entspricht oft weil oder da, trotz entspricht obwohl, nach entspricht häufig nachdem, vor entspricht bevor, bei kann je nach Bedeutung wenn, als oder während entsprechen, zur oder zum bezeichnet oft ein Ziel und kann mit um ... zu oder damit verbalisiert werden. Durch kann ein Mittel oder eine Ursache ausdrücken und wird häufig mit indem, dadurch dass oder weil wiedergegeben. Außerdem muss entschieden werden, wer handelt. Aus die Prüfung der Unterlagen durch die Fachabteilung wird: Die Fachabteilung prüft die Unterlagen. Ist die handelnde Person unwichtig oder unbekannt, kann das Passiv passend bleiben: Nach Abschluss der Prüfung wurde der Bericht freigegeben → Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht freigegeben. Guter beruflicher Stil kombiniert beide Formen: Nominalstil für kompakte Benennungen, Verbalstil für klare Abläufe und Verantwortlichkeiten.",
+  "explanation_ar": "يستخدم الأسلوب الاسمي عددًا كبيرًا من الأسماء والمجموعات مع حروف الجر، مثل: Wegen der Verzögerung der Lieferung wurde der Termin verschoben. ويصبح في الأسلوب الفعلي: Weil sich die Lieferung verzögerte, wurde der Termin verschoben. وعند التحويل يجب أولًا تحديد العلاقة المنطقية. فـ wegen أو aufgrund تقابل غالبًا weil أو da، وtrotz تقابل obwohl، وnach تقابل كثيرًا nachdem، وvor تقابل bevor، أما bei فقد تقابل wenn أو als أو während بحسب المعنى. وتدل zur أو zum كثيرًا على الغاية ويمكن تحويلها باستخدام um ... zu أو damit. وقد تعبّر durch عن الوسيلة أو السبب، وتُعاد صياغتها غالبًا باستخدام indem أو dadurch dass أو weil. كما يجب تحديد من يقوم بالفعل. فتصبح die Prüfung der Unterlagen durch die Fachabteilung: Die Fachabteilung prüft die Unterlagen. وإذا كان الفاعل غير مهم أو غير معروف يمكن الإبقاء على المبني للمجهول. ويجمع الأسلوب المهني الجيد بين الصيغتين: الأسلوب الاسمي للتسمية المختصرة، والأسلوب الفعلي لعرض الإجراءات والمسؤوليات بوضوح.",
+  "rules": [
+    {
+      "id": "gr32-r01",
+      "title_de": "Wegen / aufgrund → weil / da",
+      "title_ar": "wegen / aufgrund ← weil / da",
+      "explanation_de": "Eine kausale Nominalgruppe kann durch einen kausalen Nebensatz ersetzt werden.",
+      "explanation_ar": "يمكن استبدال المجموعة الاسمية السببية بجملة فرعية سببية.",
+      "formula": "wegen/aufgrund + Genitiv → weil/da + Satz",
+      "examples": [
+        {
+          "de": "Wegen des Ausfalls des Servers konnte nicht gearbeitet werden. → Weil der Server ausgefallen war, konnte nicht gearbeitet werden.",
+          "ar": "بسبب تعطل الخادم لم يكن العمل ممكنًا. ← لأن الخادم كان قد تعطل لم يكن العمل ممكنًا."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r02",
+      "title_de": "Trotz → obwohl",
+      "title_ar": "trotz ← obwohl",
+      "explanation_de": "Eine konzessive Nominalgruppe wird häufig mit obwohl verbalisiert.",
+      "explanation_ar": "تُحوّل المجموعة الاسمية الاستدراكية كثيرًا باستخدام obwohl.",
+      "formula": "trotz + Genitiv → obwohl + Satz",
+      "examples": [
+        {
+          "de": "Trotz der kurzen Frist wurde der Bericht fertiggestellt. → Obwohl die Frist kurz war, wurde der Bericht fertiggestellt.",
+          "ar": "رغم قصر المهلة تم إنجاز التقرير. ← رغم أن المهلة كانت قصيرة تم إنجاز التقرير."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r03",
+      "title_de": "Nach → nachdem",
+      "title_ar": "nach ← nachdem",
+      "explanation_de": "Nach einer abgeschlossenen Handlung steht bei der Verbalisierung häufig nachdem.",
+      "explanation_ar": "بعد حدث منتهٍ نستخدم غالبًا nachdem عند التحويل.",
+      "formula": "nach + Nomen → nachdem + Satz",
+      "examples": [
+        {
+          "de": "Nach Abschluss der Prüfung wurde der Bericht versandt. → Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht versandt.",
+          "ar": "بعد انتهاء الفحص تم إرسال التقرير. ← بعد أن كان الفحص قد انتهى تم إرسال التقرير."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r04",
+      "title_de": "Vor → bevor",
+      "title_ar": "vor ← bevor",
+      "explanation_de": "Vor einer Handlung wird häufig mit bevor verbalisiert.",
+      "explanation_ar": "تُحوّل الصيغة التي تسبق فعلًا غالبًا باستخدام bevor.",
+      "formula": "vor + Nomen → bevor + Satz",
+      "examples": [
+        {
+          "de": "Vor der Unterzeichnung wird der Vertrag geprüft. → Bevor der Vertrag unterzeichnet wird, wird er geprüft.",
+          "ar": "قبل التوقيع تتم مراجعة العقد. ← قبل أن يُوقّع العقد تتم مراجعته."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r05",
+      "title_de": "Bei → wenn, als oder während",
+      "title_ar": "bei ← wenn أو als أو während",
+      "explanation_de": "Die passende Verbalisierung hängt davon ab, ob Bedingung, Zeitpunkt oder Gleichzeitigkeit gemeint ist.",
+      "explanation_ar": "يعتمد التحويل على ما إذا كان المقصود شرطًا أو وقتًا أو تزامنًا.",
+      "formula": "bei + Nomen → wenn/als/während + Satz",
+      "examples": [
+        {
+          "de": "Bei technischen Problemen wenden Sie sich an den Support. → Wenn technische Probleme auftreten, wenden Sie sich an den Support.",
+          "ar": "عند حدوث مشكلات تقنية تواصل مع الدعم. ← عندما تظهر مشكلات تقنية تواصل مع الدعم."
+        },
+        {
+          "de": "Bei der Besprechung wurden mehrere Fragen geklärt. → Während die Besprechung stattfand, wurden mehrere Fragen geklärt.",
+          "ar": "خلال الاجتماع تم توضيح عدة أسئلة. ← أثناء انعقاد الاجتماع تم توضيح عدة أسئلة."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r06",
+      "title_de": "Zur / zum → um ... zu oder damit",
+      "title_ar": "zur / zum ← um ... zu أو damit",
+      "explanation_de": "Eine finale Nominalgruppe kann als Infinitivgruppe oder damit-Satz formuliert werden.",
+      "explanation_ar": "يمكن تحويل المجموعة الاسمية الدالة على الغاية إلى تركيب مصدر أو جملة damit.",
+      "formula": "zur/zum + Nomen → um ... zu / damit + Satz",
+      "examples": [
+        {
+          "de": "Zur Verbesserung der Qualität wird ein Kontrollsystem eingeführt. → Um die Qualität zu verbessern, wird ein Kontrollsystem eingeführt.",
+          "ar": "لتحسين الجودة سيتم إدخال نظام رقابة. ← لكي تتحسن الجودة سيتم إدخال نظام رقابة."
+        },
+        {
+          "de": "Zur Information der Beschäftigten wird eine Mitteilung versandt. → Damit die Beschäftigten informiert sind, wird eine Mitteilung versandt.",
+          "ar": "لإبلاغ الموظفين سيتم إرسال إشعار. ← لكي يكون الموظفون على علم سيتم إرسال إشعار."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r07",
+      "title_de": "Durch → indem / dadurch dass",
+      "title_ar": "durch ← indem / dadurch dass",
+      "explanation_de": "Durch nennt häufig ein Mittel oder einen Weg und kann mit indem verbalisiert werden.",
+      "explanation_ar": "تذكر durch كثيرًا الوسيلة أو الطريقة ويمكن تحويلها باستخدام indem.",
+      "formula": "durch + Nomen → indem / dadurch dass + Satz",
+      "examples": [
+        {
+          "de": "Durch die Digitalisierung der Abläufe wurde Zeit gespart. → Indem die Abläufe digitalisiert wurden, wurde Zeit gespart.",
+          "ar": "من خلال رقمنة الإجراءات تم توفير الوقت. ← عبر رقمنة الإجراءات تم توفير الوقت."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r08",
+      "title_de": "Ohne → ohne dass / ohne ... zu",
+      "title_ar": "ohne ← ohne dass / ohne ... zu",
+      "explanation_de": "Eine Nominalgruppe mit ohne wird je nach Subjektbezug verbalisiert.",
+      "explanation_ar": "يُعاد صياغة المجموعة مع ohne بحسب علاقة الفاعل.",
+      "formula": "gleiches Subjekt → ohne ... zu | anderes Subjekt → ohne dass",
+      "examples": [
+        {
+          "de": "Ohne Prüfung der Daten wurde entschieden. → Es wurde entschieden, ohne die Daten zu prüfen.",
+          "ar": "تم اتخاذ القرار من دون فحص البيانات. ← تم اتخاذ القرار من دون أن تُفحص البيانات."
+        },
+        {
+          "de": "Ohne Information der Mitarbeitenden wurde die Änderung umgesetzt. → Die Änderung wurde umgesetzt, ohne dass die Mitarbeitenden informiert wurden.",
+          "ar": "تم تنفيذ التغيير من دون إبلاغ الموظفين. ← تم تنفيذ التغيير من دون أن يُبلّغ الموظفون."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r09",
+      "title_de": "Handelnde Person als Subjekt",
+      "title_ar": "القائم بالفعل بوصفه فاعلًا",
+      "explanation_de": "Eine durch-Ergänzung wird im Aktivsatz häufig zum Subjekt.",
+      "explanation_ar": "تتحول إضافة durch في الجملة الفعلية غالبًا إلى فاعل.",
+      "formula": "Nomen + durch X → X + Verb",
+      "examples": [
+        {
+          "de": "Die Prüfung der Unterlagen durch die Fachabteilung beginnt morgen. → Die Fachabteilung prüft die Unterlagen ab morgen.",
+          "ar": "تبدأ مراجعة المستندات من قبل القسم المختص غدًا. ← يبدأ القسم المختص مراجعة المستندات غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r10",
+      "title_de": "Passiv beibehalten",
+      "title_ar": "الإبقاء على المبني للمجهول",
+      "explanation_de": "Ist die handelnde Person unwichtig oder unbekannt, kann ein Passivsatz passend sein.",
+      "explanation_ar": "إذا كان القائم بالفعل غير مهم أو غير معروف يمكن استخدام المبني للمجهول.",
+      "formula": "Nominalgruppe → Passivsatz",
+      "examples": [
+        {
+          "de": "Nach der Prüfung der Unterlagen erfolgte die Freigabe. → Nachdem die Unterlagen geprüft worden waren, wurde die Freigabe erteilt.",
+          "ar": "بعد مراجعة المستندات تم منح الموافقة. ← بعد أن كانت المستندات قد روجعت تم منح الموافقة."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r11",
+      "title_de": "Genitivattribute auflösen",
+      "title_ar": "تفكيك تراكيب Genitiv",
+      "explanation_de": "Ein Genitivattribut wird bei der Verbalisierung häufig zum Objekt oder Subjekt.",
+      "explanation_ar": "يتحول تركيب Genitiv عند التحويل إلى الأسلوب الفعلي غالبًا إلى مفعول أو فاعل.",
+      "formula": "Prüfung der Unterlagen → die Unterlagen prüfen",
+      "examples": [
+        {
+          "de": "Die Verbesserung der Arbeitsbedingungen ist notwendig. → Die Arbeitsbedingungen müssen verbessert werden.",
+          "ar": "تحسين ظروف العمل ضروري. ← يجب تحسين ظروف العمل."
+        }
+      ]
+    },
+    {
+      "id": "gr32-r12",
+      "title_de": "Stilistisch ausgewogen formulieren",
+      "title_ar": "صياغة متوازنة أسلوبيًا",
+      "explanation_de": "Nominalstil ist kompakt; Verbalstil zeigt Abläufe und Verantwortlichkeiten klarer.",
+      "explanation_ar": "الأسلوب الاسمي مختصر، بينما يوضح الأسلوب الفعلي الإجراءات والمسؤوليات بصورة أفضل.",
+      "formula": "kompakte Benennung + klare verbale Erklärung",
+      "examples": [
+        {
+          "de": "Die Einführung des Systems beginnt im September. Zunächst schult die IT-Abteilung alle Beschäftigten.",
+          "ar": "يبدأ إدخال النظام في سبتمبر. أولًا يقوم قسم تقنية المعلومات بتدريب جميع الموظفين."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr32-t01",
+      "title_de": "Nominalgruppe und Nebensatz",
+      "title_ar": "المجموعة الاسمية والجملة الفرعية",
+      "headers_de": [
+        "Nominalstil",
+        "Verbalstil",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "الأسلوب الاسمي",
+        "الأسلوب الفعلي",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "wegen / aufgrund",
+          "weil / da",
+          "Grund"
+        ],
+        [
+          "trotz",
+          "obwohl",
+          "Einräumung"
+        ],
+        [
+          "nach",
+          "nachdem",
+          "Vorzeitigkeit"
+        ],
+        [
+          "vor",
+          "bevor",
+          "Nachzeitigkeit"
+        ],
+        [
+          "bei",
+          "wenn / als / während",
+          "Bedingung oder Zeit"
+        ],
+        [
+          "zur / zum",
+          "um ... zu / damit",
+          "Ziel"
+        ],
+        [
+          "durch",
+          "indem / dadurch dass",
+          "Mittel oder Ursache"
+        ]
+      ]
+    },
+    {
+      "id": "gr32-t02",
+      "title_de": "Ergänzungen bei der Verbalisierung",
+      "title_ar": "المتممات عند التحويل إلى الأسلوب الفعلي",
+      "headers_de": [
+        "Nominale Form",
+        "Verbale Funktion",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة الاسمية",
+        "الوظيفة الفعلية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Genitivattribut",
+          "Objekt oder Subjekt",
+          "Prüfung der Daten → die Daten prüfen"
+        ],
+        [
+          "durch + Person/Stelle",
+          "Subjekt im Aktivsatz",
+          "durch die Leitung → die Leitung informiert"
+        ],
+        [
+          "von + Person/Stelle",
+          "Agens im Passiv oder Subjekt",
+          "von der Behörde geprüft"
+        ],
+        [
+          "Adjektivattribut",
+          "Adverb oder Prädikativ",
+          "sorgfältige Prüfung → sorgfältig prüfen"
+        ]
+      ]
+    },
+    {
+      "id": "gr32-t03",
+      "title_de": "Nominalstil oder Verbalstil?",
+      "title_ar": "الأسلوب الاسمي أم الفعلي؟",
+      "headers_de": [
+        "Ziel",
+        "geeigneter Stil",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الهدف",
+        "الأسلوب المناسب",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Überschrift oder kompakte Benennung",
+          "Nominalstil",
+          "Prüfung der Unterlagen"
+        ],
+        [
+          "Ablauf erklären",
+          "Verbalstil",
+          "Die Fachabteilung prüft die Unterlagen."
+        ],
+        [
+          "Verantwortung nennen",
+          "Verbalstil",
+          "Die Leitung informiert das Team."
+        ],
+        [
+          "offizieller kurzer Hinweis",
+          "Nominalstil",
+          "Zutritt nur nach Anmeldung"
+        ],
+        [
+          "längerer verständlicher Text",
+          "gemischt",
+          "Nomen benennen, Verben erklären"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Aufgrund der unvollständigen Angaben konnte der Antrag nicht abschließend geprüft werden. → Weil die Angaben unvollständig waren, konnte der Antrag nicht abschließend geprüft werden.",
+      "ar": "بسبب عدم اكتمال المعلومات لم يكن من الممكن فحص الطلب نهائيًا. ← لأن المعلومات كانت غير مكتملة لم يكن من الممكن فحص الطلب نهائيًا.",
+      "note_de": "Kausale Verbalisierung.",
+      "note_ar": "تحويل سببي إلى أسلوب فعلي."
+    },
+    {
+      "de": "Trotz der Ablehnung des ersten Vorschlags setzte das Team die Arbeit fort. → Obwohl der erste Vorschlag abgelehnt worden war, setzte das Team die Arbeit fort.",
+      "ar": "رغم رفض الاقتراح الأول واصل الفريق العمل. ← رغم أن الاقتراح الأول كان قد رُفض واصل الفريق العمل.",
+      "note_de": "Konzessive Verbalisierung mit Passiv.",
+      "note_ar": "تحويل استدراكي مع المبني للمجهول."
+    },
+    {
+      "de": "Zur Verringerung der Fehlerquote werden zusätzliche Kontrollen durchgeführt. → Um die Fehlerquote zu verringern, werden zusätzliche Kontrollen durchgeführt.",
+      "ar": "لتقليل نسبة الأخطاء تُجرى فحوص إضافية. ← لكي تنخفض نسبة الأخطاء تُجرى فحوص إضافية.",
+      "note_de": "Finale Verbalisierung.",
+      "note_ar": "تحويل دال على الغاية."
+    },
+    {
+      "de": "Die regelmäßige Kontrolle der Geräte durch das Technikteam erhöht die Sicherheit. → Das Technikteam kontrolliert die Geräte regelmäßig und erhöht dadurch die Sicherheit.",
+      "ar": "يزيد الفحص المنتظم للأجهزة من قبل الفريق التقني مستوى السلامة. ← يفحص الفريق التقني الأجهزة بانتظام ويزيد بذلك مستوى السلامة.",
+      "note_de": "Handelnde Stelle wird zum Subjekt.",
+      "note_ar": "تحولت الجهة القائمة بالفعل إلى فاعل."
+    },
+    {
+      "de": "Nach der Einführung des neuen Systems kam es zunächst zu Verzögerungen. → Nachdem das neue System eingeführt worden war, kam es zunächst zu Verzögerungen.",
+      "ar": "بعد إدخال النظام الجديد حدثت تأخيرات في البداية. ← بعد أن كان النظام الجديد قد أُدخل حدثت تأخيرات في البداية.",
+      "note_de": "Temporale Verbalisierung mit Plusquamperfekt Passiv.",
+      "note_ar": "تحويل زمني مع Plusquamperfekt Passiv."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wegen die Lieferung verspätet war, wurde der Termin verschoben.",
+      "correct": "Weil die Lieferung verspätet war, wurde der Termin verschoben.",
+      "explanation_de": "Nach weil steht ein vollständiger Nebensatz, nicht wegen.",
+      "explanation_ar": "بعد weil تأتي جملة فرعية كاملة، وليس wegen."
+    },
+    {
+      "wrong": "Trotz die Frist kurz war, wurde der Bericht fertig.",
+      "correct": "Obwohl die Frist kurz war, wurde der Bericht fertiggestellt.",
+      "explanation_de": "Trotz verlangt eine Nominalgruppe; obwohl leitet einen Satz ein.",
+      "explanation_ar": "تحتاج trotz إلى مجموعة اسمية، بينما تدخل obwohl جملة."
+    },
+    {
+      "wrong": "Nach die Prüfung abgeschlossen war, wurde der Bericht versandt.",
+      "correct": "Nachdem die Prüfung abgeschlossen worden war, wurde der Bericht versandt.",
+      "explanation_de": "Ein temporaler Nebensatz wird mit nachdem eingeleitet.",
+      "explanation_ar": "تُدخل الجملة الزمنية الفرعية باستخدام nachdem."
+    },
+    {
+      "wrong": "Zur die Qualität verbessern wird kontrolliert.",
+      "correct": "Um die Qualität zu verbessern, wird kontrolliert.",
+      "explanation_de": "Zur verlangt ein Nomen; um ... zu verlangt einen Infinitiv.",
+      "explanation_ar": "تحتاج zur إلى اسم، بينما تحتاج um ... zu إلى مصدر."
+    },
+    {
+      "wrong": "Durch die Abläufe digitalisiert wurden, wurde Zeit gespart.",
+      "correct": "Indem die Abläufe digitalisiert wurden, wurde Zeit gespart.",
+      "explanation_de": "Durch steht vor einer Nominalgruppe; indem leitet einen Satz ein.",
+      "explanation_ar": "تأتي durch قبل مجموعة اسمية، بينما تدخل indem جملة."
+    },
+    {
+      "wrong": "Die Fachabteilung die Prüfung der Unterlagen macht.",
+      "correct": "Die Fachabteilung prüft die Unterlagen.",
+      "explanation_de": "Bei der Verbalisierung wird das Prozessnomen wieder zum Verb.",
+      "explanation_ar": "عند التحويل إلى الأسلوب الفعلي يعود اسم العملية إلى فعل."
+    }
+  ],
+  "quickSummary_de": [
+    "Verbalisierung macht nominale Ausdrücke wieder zu Verben oder Nebensätzen.",
+    "Wegen und aufgrund entsprechen häufig weil oder da.",
+    "Trotz entspricht häufig obwohl.",
+    "Nach und vor werden oft mit nachdem und bevor verbalisiert.",
+    "Bei kann je nach Bedeutung wenn, als oder während entsprechen.",
+    "Zur und zum werden häufig mit um ... zu oder damit verbalisiert.",
+    "Durch kann mit indem oder dadurch dass wiedergegeben werden.",
+    "Eine durch-Ergänzung wird im Aktivsatz häufig zum Subjekt.",
+    "Genitivattribute werden oft zu Objekten oder Subjekten.",
+    "Bei unbekanntem oder unwichtigem Agens ist Passiv sinnvoll.",
+    "Nominalstil ist kompakt, Verbalstil meist leichter verständlich.",
+    "Gute berufliche Texte kombinieren beide Stile."
+  ],
+  "quickSummary_ar": [
+    "يعيد التحويل إلى الأسلوب الفعلي صياغة التعابير الاسمية بأفعال أو جمل فرعية.",
+    "تقابل wegen وaufgrund كثيرًا weil أو da.",
+    "تقابل trotz كثيرًا obwohl.",
+    "تُحوّل nach وvor غالبًا باستخدام nachdem وbevor.",
+    "قد تقابل bei حسب المعنى wenn أو als أو während.",
+    "تُحوّل zur وzum كثيرًا باستخدام um ... zu أو damit.",
+    "يمكن تحويل durch باستخدام indem أو dadurch dass.",
+    "تتحول إضافة durch في المعلوم غالبًا إلى فاعل.",
+    "تتحول تراكيب Genitiv كثيرًا إلى مفعول أو فاعل.",
+    "يناسب المبني للمجهول عندما يكون الفاعل غير معروف أو غير مهم.",
+    "الأسلوب الاسمي مختصر، والأسلوب الفعلي أسهل فهمًا غالبًا.",
+    "تجمع النصوص المهنية الجيدة بين الأسلوبين."
+  ],
+  "relatedTopics": [
+    "gr-21",
+    "gr-22",
+    "gr-23",
+    "gr-24",
+    "gr-26",
+    "gr-31",
+    "gr-33",
+    "gr-40"
+  ]
+}

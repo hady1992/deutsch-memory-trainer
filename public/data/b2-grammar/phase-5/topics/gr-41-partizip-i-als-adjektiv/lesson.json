@@ -1,0 +1,455 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-41",
+  "slug": "gr-41-partizip-i-als-adjektiv",
+  "order": 41,
+  "title_de": "Partizip I als Adjektiv",
+  "title_ar": "Partizip I بوصفه صفة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "partizipialattribute",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Partizip I aus Verben korrekt bilden.",
+    "Partizip I attributiv wie ein Adjektiv deklinieren.",
+    "Die gleichzeitige und aktive Bedeutung des Partizips I erkennen.",
+    "Partizip-I-Attribute in Relativsätze umformen.",
+    "Relativsätze in passende Partizip-I-Attribute umformen.",
+    "Partizip I von normalen Adjektiven und Partizip II unterscheiden.",
+    "Partizip I in beruflichen und sachlichen Texten sicher verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Partizip I من الأفعال بصورة صحيحة.",
+    "تصريف Partizip I بوصفه صفة قبل الاسم.",
+    "فهم دلالة التزامن والمعنى المعلوم في Partizip I.",
+    "تحويل صفات Partizip I إلى جمل موصولة.",
+    "تحويل الجمل الموصولة إلى صفات Partizip I مناسبة.",
+    "التمييز بين Partizip I والصفات العادية وPartizip II.",
+    "استخدام Partizip I في النصوص المهنية والموضوعية بثقة."
+  ],
+  "shortDescription_de": "Das Partizip I wird aus dem Infinitiv plus -d gebildet und kann wie ein Adjektiv vor einem Nomen stehen. Es beschreibt meist eine gleichzeitig ablaufende, aktive Handlung.",
+  "shortDescription_ar": "يُبنى Partizip I من المصدر مع إضافة -d، ويمكن أن يأتي قبل الاسم مثل الصفة. وهو يصف غالبًا فعلًا يحدث في الوقت نفسه وبمعنى معلوم.",
+  "explanation_de": "Das Partizip I wird mit Infinitiv + d gebildet: arbeiten → arbeitend, sprechen → sprechend, teilnehmen → teilnehmend. Steht es vor einem Nomen, erhält es zusätzlich die normale Adjektivendung: der wartende Kunde, eine lächelnde Kollegin, mit den teilnehmenden Personen. Das Partizip I hat meistens aktive Bedeutung. Der wartende Kunde ist der Kunde, der wartet. Außerdem beschreibt es normalerweise eine Handlung, die gleichzeitig mit dem Hauptgeschehen stattfindet: Die telefonierende Mitarbeiterin öffnet die Datei. Sie telefoniert und öffnet gleichzeitig die Datei. Bei trennbaren Verben bleibt das Verb im Partizip I zusammengeschrieben: teilnehmen → teilnehmend, anrufen → anrufend. Bei reflexiven Verben bleibt das Reflexivpronomen außerhalb des Partizips: die sich beschwerende Kundin. Ein Partizip-I-Attribut kann häufig durch einen Relativsatz mit Präsens ersetzt werden: die im Flur wartenden Gäste → die Gäste, die im Flur warten. Partizip I eignet sich besonders für kompakte Beschreibungen. Zu lange oder schwer verständliche Attribute sollten jedoch besser als Relativsatz formuliert werden.",
+  "explanation_ar": "يُبنى Partizip I بإضافة d إلى المصدر: arbeiten ← arbeitend، sprechen ← sprechend، teilnehmen ← teilnehmend. وعندما يأتي قبل اسم يأخذ أيضًا نهاية الصفة العادية: der wartende Kunde، وeine lächelnde Kollegin، وmit den teilnehmenden Personen. ويحمل Partizip I غالبًا معنى معلومًا. فـ der wartende Kunde يعني der Kunde, der wartet. كما يصف عادة فعلًا يحدث بالتزامن مع الحدث الرئيسي: Die telefonierende Mitarbeiterin öffnet die Datei. أي إنها تتحدث هاتفيًا وتفتح الملف في الوقت نفسه. ومع الأفعال القابلة للفصل يبقى الفعل كلمة واحدة في Partizip I: teilnehmen ← teilnehmend، وanrufen ← anrufend. ومع الأفعال الانعكاسية يبقى الضمير الانعكاسي خارج Partizip: die sich beschwerende Kundin. ويمكن غالبًا تحويل صفة Partizip I إلى جملة موصولة في Präsens: die im Flur wartenden Gäste ← die Gäste, die im Flur warten. ويناسب Partizip I الأوصاف المختصرة، لكن الصفات الطويلة جدًا أو الصعبة تكون أوضح غالبًا بصيغة الجملة الموصولة.",
+  "rules": [
+    {
+      "id": "gr41-r01",
+      "title_de": "Bildung",
+      "title_ar": "التكوين",
+      "explanation_de": "Das Partizip I wird aus dem Infinitiv und der Endung -d gebildet.",
+      "explanation_ar": "يُبنى Partizip I من المصدر مع إضافة -d.",
+      "formula": "Infinitiv + d",
+      "examples": [
+        {
+          "de": "arbeiten → arbeitend",
+          "ar": "يعمل ← عامل / يقوم بالعمل"
+        },
+        {
+          "de": "warten → wartend",
+          "ar": "ينتظر ← منتظر"
+        },
+        {
+          "de": "lächeln → lächelnd",
+          "ar": "يبتسم ← مبتسم"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r02",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "explanation_de": "Vor einem Nomen erhält das Partizip I die passende Adjektivendung.",
+      "explanation_ar": "عندما يأتي قبل اسم يأخذ Partizip I نهاية الصفة المناسبة.",
+      "formula": "arbeitend + e/en/er/es ...",
+      "examples": [
+        {
+          "de": "der arbeitende Mann",
+          "ar": "الرجل الذي يعمل"
+        },
+        {
+          "de": "die arbeitende Frau",
+          "ar": "المرأة التي تعمل"
+        },
+        {
+          "de": "mit einem arbeitenden Team",
+          "ar": "مع فريق يعمل"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r03",
+      "title_de": "Aktive Bedeutung",
+      "title_ar": "المعنى المعلوم",
+      "explanation_de": "Das Bezugsnomen führt die Handlung selbst aus.",
+      "explanation_ar": "يقوم الاسم الموصوف بالفعل بنفسه.",
+      "formula": "der wartende Kunde = der Kunde wartet",
+      "examples": [
+        {
+          "de": "die diskutierenden Kolleginnen",
+          "ar": "الزميلات اللواتي يناقشن"
+        },
+        {
+          "de": "das klingelnde Telefon",
+          "ar": "الهاتف الذي يرن"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r04",
+      "title_de": "Gleichzeitigkeit",
+      "title_ar": "التزامن",
+      "explanation_de": "Die Handlung des Partizips I läuft normalerweise gleichzeitig mit dem Hauptgeschehen.",
+      "explanation_ar": "يحدث الفعل الذي يصفه Partizip I عادة بالتزامن مع الحدث الرئيسي.",
+      "formula": "telefonierend öffnen = telefonieren und gleichzeitig öffnen",
+      "examples": [
+        {
+          "de": "Die telefonierende Mitarbeiterin öffnet die Datei.",
+          "ar": "تفتح الموظفة التي تتحدث هاتفيًا الملف."
+        }
+      ]
+    },
+    {
+      "id": "gr41-r05",
+      "title_de": "Relativsatz",
+      "title_ar": "الجملة الموصولة",
+      "explanation_de": "Ein Partizip-I-Attribut entspricht häufig einem Relativsatz im Präsens.",
+      "explanation_ar": "تقابل صفة Partizip I غالبًا جملة موصولة في Präsens.",
+      "formula": "der wartende Kunde → der Kunde, der wartet",
+      "examples": [
+        {
+          "de": "die an der Schulung teilnehmenden Personen → die Personen, die an der Schulung teilnehmen",
+          "ar": "الأشخاص المشاركون في الدورة ← الأشخاص الذين يشاركون في الدورة"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r06",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Das Partizip I wird aus dem vollständigen Infinitiv gebildet und zusammengeschrieben.",
+      "explanation_ar": "يُبنى Partizip I من المصدر الكامل ويُكتب كلمة واحدة.",
+      "formula": "teilnehmen → teilnehmend",
+      "examples": [
+        {
+          "de": "die teilnehmenden Beschäftigten",
+          "ar": "الموظفون المشاركون"
+        },
+        {
+          "de": "das ankommende Fahrzeug",
+          "ar": "المركبة القادمة"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r07",
+      "title_de": "Reflexive Verben",
+      "title_ar": "الأفعال الانعكاسية",
+      "explanation_de": "Das Reflexivpronomen steht vor dem Partizip-I-Attribut.",
+      "explanation_ar": "يأتي الضمير الانعكاسي قبل صفة Partizip I.",
+      "formula": "die sich beschwerende Kundin",
+      "examples": [
+        {
+          "de": "die sich vorbereitenden Teilnehmenden",
+          "ar": "المشاركون الذين يستعدون"
+        },
+        {
+          "de": "der sich nähernde Termin",
+          "ar": "الموعد الذي يقترب"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r08",
+      "title_de": "Erweiterte Attribute",
+      "title_ar": "الصفات الموسعة",
+      "explanation_de": "Ergänzungen und Angaben stehen vor dem Partizip und bilden gemeinsam das Attribut.",
+      "explanation_ar": "تأتي المتممات والظروف قبل Partizip وتشكل معه صفة موسعة.",
+      "formula": "die seit zwei Stunden wartenden Gäste",
+      "examples": [
+        {
+          "de": "die im Konferenzraum diskutierenden Fachleute",
+          "ar": "الخبراء الذين يناقشون في قاعة الاجتماعات"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r09",
+      "title_de": "Partizip I und Adverb",
+      "title_ar": "Partizip I بوظيفة حال",
+      "explanation_de": "Ohne Nomen kann das Partizip I adverbial gebraucht werden und bleibt dann ohne Adjektivendung.",
+      "explanation_ar": "يمكن استخدام Partizip I من دون اسم بوظيفة حال، وعندها لا يأخذ نهاية صفة.",
+      "formula": "Lächelnd begrüßte sie das Team.",
+      "examples": [
+        {
+          "de": "Telefonierend verließ er das Büro.",
+          "ar": "غادر المكتب وهو يتحدث هاتفيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr41-r10",
+      "title_de": "Abgrenzung zum Partizip II",
+      "title_ar": "التمييز عن Partizip II",
+      "explanation_de": "Partizip I ist meist aktiv und gleichzeitig; Partizip II beschreibt häufig ein Ergebnis oder eine passive Bedeutung.",
+      "explanation_ar": "يكون Partizip I غالبًا معلومًا ومتزامنًا، بينما يصف Partizip II كثيرًا نتيجة أو معنى مجهولًا.",
+      "formula": "der prüfende Mitarbeiter ≠ der geprüfte Antrag",
+      "examples": [
+        {
+          "de": "die kontrollierende Technikerin",
+          "ar": "الفنية التي تفحص"
+        },
+        {
+          "de": "das kontrollierte Gerät",
+          "ar": "الجهاز الذي تم فحصه"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r11",
+      "title_de": "Lexikalisierte Formen",
+      "title_ar": "صيغ أصبحت صفات مستقلة",
+      "explanation_de": "Einige Partizip-I-Formen werden wie feste Adjektive verwendet.",
+      "explanation_ar": "تُستخدم بعض صيغ Partizip I بوصفها صفات ثابتة.",
+      "formula": "dringend, überzeugend, entscheidend",
+      "examples": [
+        {
+          "de": "eine dringende Anfrage",
+          "ar": "استفسار عاجل"
+        },
+        {
+          "de": "ein überzeugendes Argument",
+          "ar": "حجة مقنعة"
+        }
+      ]
+    },
+    {
+      "id": "gr41-r12",
+      "title_de": "Stil und Verständlichkeit",
+      "title_ar": "الأسلوب والوضوح",
+      "explanation_de": "Kurze Attribute sind kompakt; sehr lange Attribute werden als Relativsatz oft verständlicher.",
+      "explanation_ar": "تكون الصفات القصيرة مختصرة، أما الصفات الطويلة جدًا فتكون أوضح غالبًا بصيغة جملة موصولة.",
+      "formula": "kurz → Partizipialattribut | komplex → oft Relativsatz",
+      "examples": [
+        {
+          "de": "die wartenden Gäste",
+          "ar": "الضيوف المنتظرون"
+        },
+        {
+          "de": "die Gäste, die seit zwei Stunden vor dem geschlossenen Gebäude warten",
+          "ar": "الضيوف الذين ينتظرون منذ ساعتين أمام المبنى المغلق"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr41-t01",
+      "title_de": "Bildung aus dem Infinitiv",
+      "title_ar": "التكوين من المصدر",
+      "headers_de": [
+        "Infinitiv",
+        "Partizip I",
+        "attributive Form"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Partizip I",
+        "الصيغة قبل الاسم"
+      ],
+      "rows": [
+        [
+          "arbeiten",
+          "arbeitend",
+          "der arbeitende Mitarbeiter"
+        ],
+        [
+          "warten",
+          "wartend",
+          "die wartende Kundin"
+        ],
+        [
+          "teilnehmen",
+          "teilnehmend",
+          "die teilnehmenden Personen"
+        ],
+        [
+          "ankommen",
+          "ankommend",
+          "der ankommende Zug"
+        ],
+        [
+          "sich beschweren",
+          "sich beschwerend",
+          "die sich beschwerende Kundin"
+        ]
+      ]
+    },
+    {
+      "id": "gr41-t02",
+      "title_de": "Partizip I und Relativsatz",
+      "title_ar": "Partizip I والجملة الموصولة",
+      "headers_de": [
+        "Partizipialattribut",
+        "Relativsatz"
+      ],
+      "headers_ar": [
+        "صفة Partizip",
+        "الجملة الموصولة"
+      ],
+      "rows": [
+        [
+          "der wartende Kunde",
+          "der Kunde, der wartet"
+        ],
+        [
+          "die telefonierende Kollegin",
+          "die Kollegin, die telefoniert"
+        ],
+        [
+          "das klingelnde Telefon",
+          "das Telefon, das klingelt"
+        ],
+        [
+          "die im Raum diskutierenden Personen",
+          "die Personen, die im Raum diskutieren"
+        ]
+      ]
+    },
+    {
+      "id": "gr41-t03",
+      "title_de": "Aktiv und Passiv unterscheiden",
+      "title_ar": "التمييز بين المعلوم والمجهول",
+      "headers_de": [
+        "Partizip I",
+        "Partizip II",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "Partizip I",
+        "Partizip II",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "der prüfende Mitarbeiter",
+          "der geprüfte Antrag",
+          "prüft selbst / wurde geprüft"
+        ],
+        [
+          "die öffnende Person",
+          "die geöffnete Tür",
+          "öffnet selbst / ist geöffnet"
+        ],
+        [
+          "die informierende Stelle",
+          "die informierten Beschäftigten",
+          "informiert / wurden informiert"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die im Empfangsbereich wartenden Kundinnen werden der Reihe nach aufgerufen.",
+      "ar": "يتم استدعاء العميلات المنتظرات في منطقة الاستقبال بالترتيب.",
+      "note_de": "Erweitertes Partizip-I-Attribut mit Ortsangabe.",
+      "note_ar": "صفة موسعة من Partizip I مع تعبير مكاني."
+    },
+    {
+      "de": "Der an der Besprechung teilnehmende Projektleiter stellte mehrere Fragen.",
+      "ar": "طرح مدير المشروع المشارك في الاجتماع عدة أسئلة.",
+      "note_de": "Trennbares Verb teilnehmen.",
+      "note_ar": "فعل قابل للفصل teilnehmen."
+    },
+    {
+      "de": "Die sich beschwerende Kundin verlangte eine schriftliche Stellungnahme.",
+      "ar": "طلبت العميلة التي كانت تشتكي ردًا خطيًا.",
+      "note_de": "Reflexives Verb mit sich.",
+      "note_ar": "فعل انعكاسي مع sich."
+    },
+    {
+      "de": "Lächelnd begrüßte die Teamleiterin die neuen Mitarbeitenden.",
+      "ar": "رحبت قائدة الفريق بالموظفين الجدد وهي مبتسمة.",
+      "note_de": "Adverbialer Gebrauch ohne Adjektivendung.",
+      "note_ar": "استخدام بوظيفة حال من دون نهاية صفة."
+    },
+    {
+      "de": "Die ständig steigenden Kosten setzen das Unternehmen unter Druck.",
+      "ar": "تضع التكاليف المتزايدة باستمرار الشركة تحت الضغط.",
+      "note_de": "Partizip I beschreibt einen laufenden Prozess.",
+      "note_ar": "يصف Partizip I عملية مستمرة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "der warten Kunde",
+      "correct": "der wartende Kunde",
+      "explanation_de": "Partizip I wird mit Infinitiv + d gebildet und erhält eine Adjektivendung.",
+      "explanation_ar": "يُبنى Partizip I بإضافة d إلى المصدر ويأخذ نهاية صفة."
+    },
+    {
+      "wrong": "die teilnehmende an der Schulung Personen",
+      "correct": "die an der Schulung teilnehmenden Personen",
+      "explanation_de": "Die Ergänzung steht vor dem Partizip; die Endung richtet sich nach dem Nomen.",
+      "explanation_ar": "يأتي المتمم قبل Partizip، وتعتمد النهاية على الاسم."
+    },
+    {
+      "wrong": "die beschwerende sich Kundin",
+      "correct": "die sich beschwerende Kundin",
+      "explanation_de": "Das Reflexivpronomen steht vor dem Partizip.",
+      "explanation_ar": "يأتي الضمير الانعكاسي قبل Partizip."
+    },
+    {
+      "wrong": "der geprüfende Mitarbeiter",
+      "correct": "der prüfende Mitarbeiter",
+      "explanation_de": "Partizip I wird direkt aus dem Infinitiv prüfen gebildet: prüfend.",
+      "explanation_ar": "يُبنى Partizip I مباشرة من المصدر prüfen: prüfend."
+    },
+    {
+      "wrong": "Die wartende Kundin wurde gestern informiert. = Die Kundin wurde gewartet.",
+      "correct": "Die wartende Kundin = die Kundin, die wartet.",
+      "explanation_de": "Partizip I hat aktive Bedeutung; die Kundin führt die Handlung aus.",
+      "explanation_ar": "يحمل Partizip I معنى معلومًا؛ فالعميلة هي التي تنتظر."
+    },
+    {
+      "wrong": "Der Bericht beschreibende Mitarbeiter arbeitet im Büro.",
+      "correct": "Der den Bericht beschreibende Mitarbeiter arbeitet im Büro.",
+      "explanation_de": "Das Akkusativobjekt gehört vor das Partizip; bei sehr komplexem Inhalt ist ein Relativsatz oft besser.",
+      "explanation_ar": "يأتي مفعول Akkusativ قبل Partizip، وعند التعقيد تكون الجملة الموصولة أوضح غالبًا."
+    }
+  ],
+  "quickSummary_de": [
+    "Partizip I wird mit Infinitiv + d gebildet.",
+    "Vor einem Nomen erhält es eine Adjektivendung.",
+    "Das Bezugsnomen führt die Handlung meist selbst aus.",
+    "Die Handlung ist normalerweise gleichzeitig mit dem Hauptgeschehen.",
+    "Trennbare Verben bleiben im Partizip I zusammengeschrieben.",
+    "Bei reflexiven Verben steht sich vor dem Partizip.",
+    "Ergänzungen stehen innerhalb des Attributs vor dem Partizip.",
+    "Ein Partizip-I-Attribut entspricht oft einem Relativsatz im Präsens.",
+    "Ohne Nomen kann Partizip I adverbial verwendet werden.",
+    "Partizip I ist meist aktiv; Partizip II häufig passiv oder resultativ.",
+    "Kurze Attribute sind kompakt.",
+    "Sehr lange Attribute sind als Relativsatz oft verständlicher."
+  ],
+  "quickSummary_ar": [
+    "يُبنى Partizip I من المصدر مع إضافة d.",
+    "يأخذ نهاية صفة عندما يأتي قبل اسم.",
+    "يقوم الاسم الموصوف بالفعل غالبًا بنفسه.",
+    "يحدث الفعل عادة بالتزامن مع الحدث الرئيسي.",
+    "تبقى الأفعال القابلة للفصل كلمة واحدة في Partizip I.",
+    "مع الأفعال الانعكاسية يأتي sich قبل Partizip.",
+    "تأتي المتممات داخل الصفة قبل Partizip.",
+    "تقابل صفة Partizip I غالبًا جملة موصولة في Präsens.",
+    "يمكن استخدام Partizip I بوظيفة حال من دون اسم.",
+    "يكون Partizip I غالبًا معلومًا، وPartizip II غالبًا مجهولًا أو دالًا على نتيجة.",
+    "الصفات القصيرة مختصرة.",
+    "الصفات الطويلة جدًا تكون أوضح غالبًا بصيغة جملة موصولة."
+  ],
+  "relatedTopics": [
+    "gr-42",
+    "gr-43",
+    "gr-44",
+    "gr-50"
+  ]
+}

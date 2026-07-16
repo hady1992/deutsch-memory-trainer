@@ -1,0 +1,558 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-11",
+  "title_de": "Konjunktiv II mit würde – Übungen",
+  "title_ar": "تمارين Konjunktiv II باستخدام würde",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr11-e001",
+      "topicId": "gr-11",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Würde mit ich",
+      "title_ar": "würde مع ich",
+      "prompt_de": "Ich ______ gern mehr Verantwortung übernehmen.",
+      "prompt_ar": "أنا ______ في تحمّل مسؤولية أكبر.",
+      "answer": "würde",
+      "explanation_de": "Für ich lautet die Form würde.",
+      "explanation_ar": "صيغة würde مع ich هي würde.",
+      "grammarFocus": "wuerde_ich",
+      "acceptedAnswers": [
+        "würde"
+      ]
+    },
+    {
+      "id": "gr11-e002",
+      "topicId": "gr-11",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Würde mit du",
+      "title_ar": "würde مع du",
+      "prompt_de": "Konjugieren Sie „würde“ für du.",
+      "prompt_ar": "صرّف würde مع du.",
+      "answer": "würdest",
+      "explanation_de": "Für du lautet die Form würdest.",
+      "explanation_ar": "صيغة würde مع du هي würdest.",
+      "grammarFocus": "wuerde_du",
+      "acceptedAnswers": [
+        "würdest"
+      ],
+      "infinitive": "würde",
+      "person": "du"
+    },
+    {
+      "id": "gr11-e003",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Infinitiv nach würde",
+      "title_ar": "المصدر بعد würde",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich würde den Bericht schreiben.",
+      "explanation_de": "Nach würde steht der Infinitiv schreiben.",
+      "explanation_ar": "بعد würde يأتي المصدر schreiben.",
+      "grammarFocus": "infinitive_after_wuerde",
+      "options": [
+        "Ich würde den Bericht schreiben.",
+        "Ich würde den Bericht geschrieben.",
+        "Ich würde den Bericht schrieb.",
+        "Ich würde den Bericht zu schreiben."
+      ]
+    },
+    {
+      "id": "gr11-e004",
+      "topicId": "gr-11",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Formen von würde",
+      "title_ar": "صيغ würde",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ich": "würde",
+        "du": "würdest",
+        "er/sie/es": "würde",
+        "wir": "würden",
+        "ihr": "würdet",
+        "sie/Sie": "würden"
+      },
+      "explanation_de": "Würde wird nach der Person konjugiert.",
+      "explanation_ar": "تُصرّف würde بحسب الشخص.",
+      "grammarFocus": "wuerde_forms",
+      "pairs": [
+        [
+          "ich",
+          "würde"
+        ],
+        [
+          "du",
+          "würdest"
+        ],
+        [
+          "er/sie/es",
+          "würde"
+        ],
+        [
+          "wir",
+          "würden"
+        ],
+        [
+          "ihr",
+          "würdet"
+        ],
+        [
+          "sie/Sie",
+          "würden"
+        ]
+      ]
+    },
+    {
+      "id": "gr11-e005",
+      "topicId": "gr-11",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Hauptsatz",
+      "title_ar": "جملة رئيسية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir würden die Lösung noch einmal prüfen.",
+      "explanation_de": "Würden steht auf Position 2; prüfen steht am Ende.",
+      "explanation_ar": "تأتي würden في المرتبة الثانية وprüfen في النهاية.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "noch einmal",
+        "prüfen",
+        "Wir",
+        "die Lösung",
+        "würden"
+      ],
+      "acceptedAnswers": [
+        "Wir würden die Lösung noch einmal prüfen."
+      ]
+    },
+    {
+      "id": "gr11-e006",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wunsch",
+      "title_ar": "أمنية",
+      "prompt_de": "Welche Form drückt einen Wunsch aus?",
+      "prompt_ar": "أي صيغة تعبّر عن رغبة؟",
+      "answer": "Ich würde gern in einer anderen Abteilung arbeiten.",
+      "explanation_de": "Würde gern drückt einen Wunsch aus.",
+      "explanation_ar": "تعبر würde gern عن رغبة.",
+      "grammarFocus": "wish_wuerde_gern",
+      "options": [
+        "Ich würde gern in einer anderen Abteilung arbeiten.",
+        "Ich habe in einer anderen Abteilung gearbeitet.",
+        "Ich werde gestern in einer anderen Abteilung arbeiten.",
+        "Ich arbeitete morgen in einer anderen Abteilung."
+      ]
+    },
+    {
+      "id": "gr11-e007",
+      "topicId": "gr-11",
+      "type": "sentence_build",
+      "difficulty": "easy",
+      "title_de": "Einfacher Wunsch",
+      "title_ar": "رغبة بسيطة",
+      "prompt_de": "Bilden Sie einen Satz: wir / gern / mehr über das Projekt erfahren",
+      "prompt_ar": "كوّن جملة باستخدام würde gern.",
+      "answer": "Wir würden gern mehr über das Projekt erfahren.",
+      "explanation_de": "Würden gern steht mit dem Infinitiv erfahren.",
+      "explanation_ar": "تأتي würden gern مع المصدر erfahren.",
+      "grammarFocus": "wish_plural",
+      "acceptedAnswers": [
+        "Wir würden gern mehr über das Projekt erfahren."
+      ]
+    },
+    {
+      "id": "gr11-e008",
+      "topicId": "gr-11",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Hypothetische Folge",
+      "title_ar": "نتيجة افتراضية",
+      "prompt_de": "Wenn wir mehr Personal hätten, ______ wir die Aufgabe schneller erledigen.",
+      "prompt_ar": "لو كان لدينا موظفون أكثر، ______ المهمة بسرعة أكبر.",
+      "answer": "würden",
+      "explanation_de": "Das Subjekt wir verlangt würden.",
+      "explanation_ar": "الفاعل wir يحتاج إلى würden.",
+      "grammarFocus": "conditional_result",
+      "acceptedAnswers": [
+        "würden"
+      ]
+    },
+    {
+      "id": "gr11-e009",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Hätte statt würde haben",
+      "title_ar": "hätte بدل würde haben",
+      "prompt_de": "Welche Form ist am natürlichsten?",
+      "prompt_ar": "أي صيغة هي الأكثر طبيعية؟",
+      "answer": "Wenn ich mehr Zeit hätte, würde ich einen weiteren Kurs besuchen.",
+      "explanation_de": "Bei haben verwendet man normalerweise die einfache Form hätte.",
+      "explanation_ar": "مع haben نستخدم عادة الصيغة البسيطة hätte.",
+      "grammarFocus": "simple_form_haben",
+      "options": [
+        "Wenn ich mehr Zeit hätte, würde ich einen weiteren Kurs besuchen.",
+        "Wenn ich mehr Zeit würde haben, würde ich einen weiteren Kurs besuchen.",
+        "Wenn ich mehr Zeit habe würde, besuchte ich einen Kurs.",
+        "Wenn ich mehr Zeit gehabt, würde ich einen Kurs besuchen."
+      ]
+    },
+    {
+      "id": "gr11-e010",
+      "topicId": "gr-11",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit würde",
+      "title_ar": "جملة فرعية مع würde",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass sie die Aufgabe übernehmen würde",
+      "explanation_de": "Im Nebensatz steht würde am Ende.",
+      "explanation_ar": "تأتي würde في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_order",
+      "tokens": [
+        "übernehmen",
+        "dass",
+        "würde",
+        "sie",
+        "die Aufgabe"
+      ],
+      "acceptedAnswers": [
+        "dass sie die Aufgabe übernehmen würde"
+      ]
+    },
+    {
+      "id": "gr11-e011",
+      "topicId": "gr-11",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Diplomatischer Vorschlag",
+      "title_ar": "اقتراح دبلوماسي",
+      "prompt_de": "Formulieren Sie diplomatisch: Wir verschieben den Termin.",
+      "prompt_ar": "صغ العبارة بصورة دبلوماسية.",
+      "answer": "Ich würde vorschlagen, den Termin zu verschieben.",
+      "explanation_de": "Mit ich würde vorschlagen klingt die Aussage weniger direkt.",
+      "explanation_ar": "تجعل ich würde vorschlagen العبارة أقل مباشرة.",
+      "grammarFocus": "diplomatic_suggestion",
+      "acceptedAnswers": [
+        "Ich würde vorschlagen, den Termin zu verschieben.",
+        "Wir würden vorschlagen, den Termin zu verschieben."
+      ]
+    },
+    {
+      "id": "gr11-e012",
+      "topicId": "gr-11",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Vorsichtige Meinung",
+      "title_ar": "رأي حذر",
+      "prompt_de": "Welche Antwort klingt diplomatisch?",
+      "prompt_ar": "أي إجابة تبدو دبلوماسية؟",
+      "answer": "Ich würde sagen, dass wir noch mehr Informationen brauchen.",
+      "explanation_de": "Ich würde sagen formuliert die Meinung vorsichtiger.",
+      "explanation_ar": "تجعل Ich würde sagen الرأي أكثر حذرًا.",
+      "grammarFocus": "cautious_opinion",
+      "options": [
+        "Ich würde sagen, dass wir noch mehr Informationen brauchen.",
+        "Das ist falsch, wir brauchen Informationen.",
+        "Du verstehst das Problem nicht.",
+        "Wir haben mehr Informationen gebraucht werden."
+      ]
+    },
+    {
+      "id": "gr11-e013",
+      "topicId": "gr-11",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Einfache Konjunktivformen",
+      "title_ar": "صيغ Konjunktiv البسيطة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "sein": "wäre",
+        "haben": "hätte",
+        "können": "könnte",
+        "müssen": "müsste",
+        "dürfen": "dürfte",
+        "sollen": "sollte"
+      },
+      "explanation_de": "Bei diesen Verben sind die einfachen Formen üblich.",
+      "explanation_ar": "الصيغ البسيطة هي المعتادة مع هذه الأفعال.",
+      "grammarFocus": "simple_konjunktiv_forms",
+      "pairs": [
+        [
+          "sein",
+          "wäre"
+        ],
+        [
+          "haben",
+          "hätte"
+        ],
+        [
+          "können",
+          "könnte"
+        ],
+        [
+          "müssen",
+          "müsste"
+        ],
+        [
+          "dürfen",
+          "dürfte"
+        ],
+        [
+          "sollen",
+          "sollte"
+        ]
+      ]
+    },
+    {
+      "id": "gr11-e014",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Könnte statt würde können",
+      "title_ar": "könnte بدل würde können",
+      "prompt_de": "Welche Form ist korrekt und natürlich?",
+      "prompt_ar": "أي صيغة صحيحة وطبيعية؟",
+      "answer": "Wir könnten Ihnen helfen.",
+      "explanation_de": "Bei können verwendet man normalerweise könnten.",
+      "explanation_ar": "مع können نستخدم عادة könnten.",
+      "grammarFocus": "simple_form_modal",
+      "options": [
+        "Wir könnten Ihnen helfen.",
+        "Wir würden Ihnen helfen können würden.",
+        "Wir würden können Ihnen helfen.",
+        "Wir gekonnten Ihnen helfen."
+      ]
+    },
+    {
+      "id": "gr11-e015",
+      "topicId": "gr-11",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Beruflicher Wunsch",
+      "title_ar": "رغبة مهنية",
+      "prompt_de": "Sie möchten höflich sagen, dass Sie gern in einem anderen Bereich arbeiten möchten. Welche Form passt?",
+      "prompt_ar": "تريد أن تقول بأدب إنك ترغب في العمل في مجال آخر. أي صيغة مناسبة؟",
+      "answer": "Ich würde gern in einem anderen Bereich arbeiten.",
+      "explanation_de": "Würde gern drückt einen höflichen persönlichen Wunsch aus.",
+      "explanation_ar": "تعبّر würde gern عن رغبة شخصية مهذبة.",
+      "grammarFocus": "professional_wish",
+      "options": [
+        "Ich würde gern in einem anderen Bereich arbeiten.",
+        "Ich arbeite in anderem Bereich gestern.",
+        "Ich würde in anderem Bereich gearbeitet.",
+        "Ich habe gern in einem anderen Bereich arbeiten."
+      ]
+    },
+    {
+      "id": "gr11-e016",
+      "topicId": "gr-11",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Bedingung ohne wenn",
+      "title_ar": "شرط من دون wenn",
+      "prompt_de": "Formulieren Sie hypothetisch: Ohne zusätzliche Informationen / keine endgültige Entscheidung treffen",
+      "prompt_ar": "صغ جملة افتراضية.",
+      "answer": "Ohne zusätzliche Informationen würde ich keine endgültige Entscheidung treffen.",
+      "explanation_de": "Die Präpositionalgruppe ohne zusätzliche Informationen nennt die hypothetische Bedingung.",
+      "explanation_ar": "توضح عبارة ohne zusätzliche Informationen الشرط الافتراضي.",
+      "grammarFocus": "condition_without_wenn",
+      "acceptedAnswers": [
+        "Ohne zusätzliche Informationen würde ich keine endgültige Entscheidung treffen."
+      ]
+    },
+    {
+      "id": "gr11-e017",
+      "topicId": "gr-11",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Würdet mit ihr",
+      "title_ar": "würdet مع ihr",
+      "prompt_de": "Ihr ______ von einer klareren Aufgabenverteilung profitieren.",
+      "prompt_ar": "أنتم ______ من توزيع أوضح للمهام.",
+      "answer": "würdet",
+      "explanation_de": "Für ihr lautet die Form würdet.",
+      "explanation_ar": "صيغة würde مع ihr هي würdet.",
+      "grammarFocus": "wuerde_ihr",
+      "acceptedAnswers": [
+        "würdet"
+      ]
+    },
+    {
+      "id": "gr11-e018",
+      "topicId": "gr-11",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Komplexer Hauptsatz",
+      "title_ar": "جملة رئيسية معقدة",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Unter diesen Bedingungen würde ich das Angebot nicht annehmen.",
+      "explanation_de": "Die Bedingung steht auf Position 1; würde folgt auf Position 2.",
+      "explanation_ar": "يأتي الشرط في البداية، ثم würde في المرتبة الثانية.",
+      "grammarFocus": "complex_main_clause",
+      "tokens": [
+        "nicht",
+        "Unter diesen Bedingungen",
+        "annehmen",
+        "das Angebot",
+        "würde",
+        "ich"
+      ],
+      "acceptedAnswers": [
+        "Unter diesen Bedingungen würde ich das Angebot nicht annehmen."
+      ]
+    },
+    {
+      "id": "gr11-e019",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutung erkennen",
+      "title_ar": "تمييز المعنى",
+      "prompt_de": "Welcher Satz beschreibt eine nicht reale Situation?",
+      "prompt_ar": "أي جملة تصف موقفًا غير واقعي؟",
+      "answer": "Wenn ich mehr Erfahrung hätte, würde ich mich auf die Stelle bewerben.",
+      "explanation_de": "Die Bedingung ist aktuell nicht erfüllt.",
+      "explanation_ar": "الشرط غير متحقق حاليًا.",
+      "grammarFocus": "irreality_recognition",
+      "options": [
+        "Wenn ich mehr Erfahrung hätte, würde ich mich auf die Stelle bewerben.",
+        "Ich habe mich gestern auf die Stelle beworben.",
+        "Ich bewerbe mich morgen auf die Stelle.",
+        "Ich hatte mich bereits auf die Stelle beworben."
+      ]
+    },
+    {
+      "id": "gr11-e020",
+      "topicId": "gr-11",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Irrealer Bedingungssatz",
+      "title_ar": "جملة شرطية غير واقعية",
+      "prompt_de": "Verbinden Sie: Wir haben nicht genug Zeit. Deshalb prüfen wir nicht alle Varianten.",
+      "prompt_ar": "حوّل المعنى إلى شرط افتراضي.",
+      "answer": "Wenn wir genug Zeit hätten, würden wir alle Varianten prüfen.",
+      "explanation_de": "Hätten markiert die irreale Bedingung; würden prüfen markiert die Folge.",
+      "explanation_ar": "تحدد hätten الشرط غير الواقعي، وتحدد würden prüfen النتيجة.",
+      "grammarFocus": "irreale_condition",
+      "acceptedAnswers": [
+        "Wenn wir genug Zeit hätten, würden wir alle Varianten prüfen."
+      ]
+    },
+    {
+      "id": "gr11-e021",
+      "topicId": "gr-11",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Diplomatische Kritik",
+      "title_ar": "نقد دبلوماسي",
+      "prompt_de": "Welche Formulierung ist diplomatisch und grammatisch korrekt?",
+      "prompt_ar": "أي صياغة دبلوماسية وصحيحة؟",
+      "answer": "Ich würde empfehlen, die Aufgabenverteilung noch einmal zu überprüfen.",
+      "explanation_de": "Die würde-Form macht die Empfehlung sachlich und weniger direkt.",
+      "explanation_ar": "تجعل صيغة würde التوصية موضوعية وأقل مباشرة.",
+      "grammarFocus": "diplomatic_criticism",
+      "options": [
+        "Ich würde empfehlen, die Aufgabenverteilung noch einmal zu überprüfen.",
+        "Sie verteilen die Aufgaben immer falsch.",
+        "Ich würde die Aufgabenverteilung überprüft empfehlen.",
+        "Überprüfen Sie endlich Ihre Fehler."
+      ]
+    },
+    {
+      "id": "gr11-e022",
+      "topicId": "gr-11",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Nebensatz und Hauptsatz",
+      "title_ar": "جملة فرعية ورئيسية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wenn sich die Arbeitsbedingungen verbessern würden, blieben mehr Beschäftigte im Unternehmen.",
+      "explanation_de": "Im wenn-Satz steht würden am Ende; im Hauptsatz steht blieben auf Position 2.",
+      "explanation_ar": "تأتي würden في نهاية جملة wenn، ويأتي blieben في المرتبة الثانية في الجملة الرئيسية.",
+      "grammarFocus": "complex_conditional_order",
+      "tokens": [
+        "mehr Beschäftigte",
+        "Wenn",
+        "im Unternehmen",
+        "sich",
+        "verbessern",
+        "würden",
+        "die Arbeitsbedingungen",
+        "blieben"
+      ],
+      "acceptedAnswers": [
+        "Wenn sich die Arbeitsbedingungen verbessern würden, blieben mehr Beschäftigte im Unternehmen."
+      ]
+    },
+    {
+      "id": "gr11-e023",
+      "topicId": "gr-11",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Fehler vermeiden",
+      "title_ar": "تجنب الخطأ",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie erklärte, dass sie bei Bedarf länger bleiben würde.",
+      "explanation_de": "Im Nebensatz steht bleiben würde am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي bleiben würde في النهاية.",
+      "grammarFocus": "subordinate_wuerde",
+      "options": [
+        "Sie erklärte, dass sie bei Bedarf länger bleiben würde.",
+        "Sie erklärte, dass sie würde bei Bedarf länger bleiben.",
+        "Sie erklärte, dass sie bei Bedarf länger geblieben würde.",
+        "Sie erklärte, dass würde sie bei Bedarf länger bleiben."
+      ]
+    },
+    {
+      "id": "gr11-e024",
+      "topicId": "gr-11",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining würde-Form",
+      "title_ar": "تدريب ختامي على würde",
+      "prompt_de": "Schreiben Sie einen kurzen beruflichen Text mit mindestens sechs Sätzen. Verwenden Sie zwei irreale Bedingungen, zwei Wünsche oder Vorschläge, einen Nebensatz mit würde und mindestens zwei einfache Formen wie hätte, wäre oder könnte.",
+      "prompt_ar": "اكتب نصًا مهنيًا قصيرًا من ست جمل على الأقل. استخدم شرطين غير واقعيين، ورغبتين أو اقتراحين، وجملة فرعية مع würde، وصيغتين بسيطتين على الأقل مثل hätte أو wäre أو könnte.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei irreale Bedingungen",
+          "mindestens zwei würde-Formen mit Infinitiv",
+          "mindestens ein Wunsch oder Vorschlag",
+          "mindestens ein Nebensatz mit würde am Ende",
+          "mindestens zwei einfache Konjunktiv-II-Formen",
+          "keine Partizip-II-Form direkt nach würde"
+        ]
+      },
+      "explanation_de": "Achten Sie auf die Konjugation von würde, den Infinitiv und die Verbposition.",
+      "explanation_ar": "انتبه إلى تصريف würde والمصدر وموقع الفعل.",
+      "grammarFocus": "mixed_wuerde_form",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

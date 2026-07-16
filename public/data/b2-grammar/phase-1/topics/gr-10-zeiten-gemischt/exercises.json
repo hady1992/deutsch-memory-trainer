@@ -1,0 +1,671 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-10",
+  "title_de": "Gemischtes Zeiten-Training – Übungen",
+  "title_ar": "تمارين مختلطة على الأزمنة",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr10-e001",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präsens erkennen",
+      "title_ar": "تمييز Präsens",
+      "prompt_de": "Welche Form passt für einen fest geplanten Termin morgen?",
+      "prompt_ar": "أي صيغة تناسب موعدًا مخططًا بوضوح غدًا؟",
+      "answer": "Morgen bespreche ich die Ergebnisse.",
+      "explanation_de": "Für einen festen Plan ist Präsens mit Zeitangabe sehr natürlich.",
+      "explanation_ar": "يكون Präsens مع ظرف زمني طبيعيًا جدًا للخطة الثابتة.",
+      "grammarFocus": "present_planned_future",
+      "options": [
+        "Morgen bespreche ich die Ergebnisse.",
+        "Morgen habe ich die Ergebnisse besprochen.",
+        "Morgen besprach ich die Ergebnisse.",
+        "Morgen hatte ich die Ergebnisse besprochen."
+      ]
+    },
+    {
+      "id": "gr10-e002",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Perfekt erkennen",
+      "title_ar": "تمييز Perfekt",
+      "prompt_de": "Welche Form passt in einem Gespräch über gestern?",
+      "prompt_ar": "أي صيغة تناسب حديثًا عن الأمس؟",
+      "answer": "Ich habe den Kunden gestern angerufen.",
+      "explanation_de": "Im Gespräch wird für abgeschlossene Handlungen häufig das Perfekt verwendet.",
+      "explanation_ar": "يُستخدم Perfekt كثيرًا للأفعال المنتهية في الحديث.",
+      "grammarFocus": "spoken_past",
+      "options": [
+        "Ich habe den Kunden gestern angerufen.",
+        "Ich werde den Kunden gestern anrufen.",
+        "Ich rufe den Kunden gestern an.",
+        "Ich hatte den Kunden morgen angerufen."
+      ]
+    },
+    {
+      "id": "gr10-e003",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präteritum erkennen",
+      "title_ar": "تمييز Präteritum",
+      "prompt_de": "Welche Form passt in einen schriftlichen Bericht?",
+      "prompt_ar": "أي صيغة تناسب تقريرًا مكتوبًا؟",
+      "answer": "Die Sitzung begann um neun Uhr.",
+      "explanation_de": "Das Präteritum ist für einen sachlichen schriftlichen Bericht passend.",
+      "explanation_ar": "Präteritum مناسب لتقرير كتابي موضوعي.",
+      "grammarFocus": "written_past",
+      "options": [
+        "Die Sitzung begann um neun Uhr.",
+        "Die Sitzung hat um neun Uhr beginnen.",
+        "Die Sitzung wird um neun Uhr begonnen.",
+        "Die Sitzung beginnt gestern um neun Uhr."
+      ]
+    },
+    {
+      "id": "gr10-e004",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Plusquamperfekt erkennen",
+      "title_ar": "تمييز Plusquamperfekt",
+      "prompt_de": "Welche Form bezeichnet das frühere Ereignis?",
+      "prompt_ar": "أي صيغة تدل على الحدث الأسبق؟",
+      "answer": "Wir hatten die Daten gesichert.",
+      "explanation_de": "Hatten + Partizip II bildet das Plusquamperfekt.",
+      "explanation_ar": "تكوّن hatten + Partizip II زمن Plusquamperfekt.",
+      "grammarFocus": "identify_pluperfect",
+      "options": [
+        "Wir hatten die Daten gesichert.",
+        "Wir haben die Daten gesichert.",
+        "Wir sicherten die Daten.",
+        "Wir werden die Daten sichern."
+      ]
+    },
+    {
+      "id": "gr10-e005",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Futur I erkennen",
+      "title_ar": "تمييز Futur I",
+      "prompt_de": "Welche Form drückt ein Versprechen aus?",
+      "prompt_ar": "أي صيغة تعبّر عن وعد؟",
+      "answer": "Wir werden Sie rechtzeitig informieren.",
+      "explanation_de": "Futur I kann eine feste Zusage ausdrücken.",
+      "explanation_ar": "يمكن أن يعبّر Futur I عن التزام واضح.",
+      "grammarFocus": "identify_future_one",
+      "options": [
+        "Wir werden Sie rechtzeitig informieren.",
+        "Wir haben Sie rechtzeitig informiert.",
+        "Wir hatten Sie informiert.",
+        "Wir informierten Sie gestern."
+      ]
+    },
+    {
+      "id": "gr10-e006",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Futur II erkennen",
+      "title_ar": "تمييز Futur II",
+      "prompt_de": "Welche Form beschreibt einen zukünftigen Abschluss?",
+      "prompt_ar": "أي صيغة تصف اكتمالًا مستقبليًا؟",
+      "answer": "Bis Freitag werden wir das Projekt abgeschlossen haben.",
+      "explanation_de": "Futur II zeigt den Abschluss vor einem zukünftigen Zeitpunkt.",
+      "explanation_ar": "يوضح Futur II انتهاء الفعل قبل وقت مستقبلي.",
+      "grammarFocus": "identify_future_two",
+      "options": [
+        "Bis Freitag werden wir das Projekt abgeschlossen haben.",
+        "Am Freitag werden wir das Projekt abschließen.",
+        "Am Freitag haben wir das Projekt abgeschlossen.",
+        "Bis Freitag hatten wir das Projekt abgeschlossen."
+      ]
+    },
+    {
+      "id": "gr10-e007",
+      "topicId": "gr-10",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Zeitform und Funktion",
+      "title_ar": "الزمن والوظيفة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Präsens": "Gegenwart oder geplanter Termin",
+        "Perfekt": "abgeschlossene Vergangenheit im Gespräch",
+        "Präteritum": "schriftlicher Bericht",
+        "Plusquamperfekt": "Vorvergangenheit",
+        "Futur I": "Zukunft oder Vermutung Gegenwart",
+        "Futur II": "zukünftiger Abschluss oder Vermutung Vergangenheit"
+      },
+      "explanation_de": "Jede Zeitform hat typische Hauptfunktionen.",
+      "explanation_ar": "لكل زمن وظائف أساسية شائعة.",
+      "grammarFocus": "tense_function_matching",
+      "pairs": [
+        [
+          "Präsens",
+          "Gegenwart oder geplanter Termin"
+        ],
+        [
+          "Perfekt",
+          "abgeschlossene Vergangenheit im Gespräch"
+        ],
+        [
+          "Präteritum",
+          "schriftlicher Bericht"
+        ],
+        [
+          "Plusquamperfekt",
+          "Vorvergangenheit"
+        ],
+        [
+          "Futur I",
+          "Zukunft oder Vermutung Gegenwart"
+        ],
+        [
+          "Futur II",
+          "zukünftiger Abschluss oder Vermutung Vergangenheit"
+        ]
+      ]
+    },
+    {
+      "id": "gr10-e008",
+      "topicId": "gr-10",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Sein in der Vergangenheit",
+      "title_ar": "sein في الماضي",
+      "prompt_de": "Ich ______ gestern krank. (sein, Präteritum)",
+      "prompt_ar": "كنت مريضًا أمس.",
+      "answer": "war",
+      "explanation_de": "Sein wird im Gespräch häufig im Präteritum verwendet.",
+      "explanation_ar": "تُستخدم sein كثيرًا في Präteritum حتى في الحديث.",
+      "grammarFocus": "sein_praeteritum",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr10-e009",
+      "topicId": "gr-10",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Perfekt bilden",
+      "title_ar": "تكوين Perfekt",
+      "prompt_de": "Wir ______ die Kundin bereits ______. (anrufen)",
+      "prompt_ar": "لقد اتصلنا بالعميلة بالفعل.",
+      "answer": [
+        "haben",
+        "angerufen"
+      ],
+      "explanation_de": "Das Perfekt von anrufen lautet haben angerufen.",
+      "explanation_ar": "صيغة Perfekt من anrufen هي haben angerufen.",
+      "grammarFocus": "perfect_formation",
+      "acceptedAnswers": [
+        "haben die Kundin bereits angerufen",
+        "haben bereits die Kundin angerufen",
+        "haben angerufen"
+      ]
+    },
+    {
+      "id": "gr10-e010",
+      "topicId": "gr-10",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Präteritum bilden",
+      "title_ar": "تكوين Präteritum",
+      "prompt_de": "Die Besprechung ______ pünktlich. (beginnen)",
+      "prompt_ar": "بدأ الاجتماع في الوقت المحدد.",
+      "answer": "begann",
+      "explanation_de": "Präteritum von beginnen lautet begann.",
+      "explanation_ar": "صيغة Präteritum من beginnen هي begann.",
+      "grammarFocus": "praeteritum_formation",
+      "acceptedAnswers": [
+        "begann"
+      ]
+    },
+    {
+      "id": "gr10-e011",
+      "topicId": "gr-10",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Plusquamperfekt und Präteritum",
+      "title_ar": "Plusquamperfekt وPräteritum",
+      "prompt_de": "Verbinden Sie: Wir sicherten die Daten. Danach starteten wir das System neu.",
+      "prompt_ar": "اربط الجملتين باستخدام nachdem.",
+      "answer": "Nachdem wir die Daten gesichert hatten, starteten wir das System neu.",
+      "explanation_de": "Das frühere Ereignis steht im Plusquamperfekt.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt.",
+      "grammarFocus": "past_sequence",
+      "acceptedAnswers": [
+        "Nachdem wir die Daten gesichert hatten, starteten wir das System neu."
+      ]
+    },
+    {
+      "id": "gr10-e012",
+      "topicId": "gr-10",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Wir werden die Kundschaft morgen informieren.",
+      "explanation_de": "Werden steht auf Position 2; informieren steht am Ende.",
+      "explanation_ar": "تأتي werden في المرتبة الثانية وinformieren في النهاية.",
+      "grammarFocus": "future_one_order",
+      "tokens": [
+        "morgen",
+        "Wir",
+        "informieren",
+        "die Kundschaft",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "Wir werden die Kundschaft morgen informieren."
+      ]
+    },
+    {
+      "id": "gr10-e013",
+      "topicId": "gr-10",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Futur II",
+      "title_ar": "Futur II",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Bis Ende der Woche werden wir alle Rückfragen beantwortet haben.",
+      "explanation_de": "Werden steht auf Position 2; beantwortet haben steht am Ende.",
+      "explanation_ar": "تأتي werden في المرتبة الثانية وbeantwortet haben في النهاية.",
+      "grammarFocus": "future_two_order",
+      "tokens": [
+        "alle Rückfragen",
+        "Bis Ende der Woche",
+        "beantwortet",
+        "wir",
+        "haben",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "Bis Ende der Woche werden wir alle Rückfragen beantwortet haben."
+      ]
+    },
+    {
+      "id": "gr10-e014",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vermutung Gegenwart",
+      "title_ar": "تخمين حول الحاضر",
+      "prompt_de": "Welche Form ist eine Vermutung über die Gegenwart?",
+      "prompt_ar": "أي صيغة هي تخمين حول الحاضر؟",
+      "answer": "Herr Klein wird wohl im Büro sein.",
+      "explanation_de": "Futur I mit wohl drückt eine aktuelle Vermutung aus.",
+      "explanation_ar": "يعبّر Futur I مع wohl عن تخمين حالي.",
+      "grammarFocus": "assumption_present",
+      "options": [
+        "Herr Klein wird wohl im Büro sein.",
+        "Herr Klein war gestern im Büro.",
+        "Herr Klein wird im Büro gewesen sein.",
+        "Herr Klein ist jeden Montag im Büro."
+      ]
+    },
+    {
+      "id": "gr10-e015",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vermutung Vergangenheit",
+      "title_ar": "تخمين حول الماضي",
+      "prompt_de": "Welche Form ist eine Vermutung über eine abgeschlossene Handlung?",
+      "prompt_ar": "أي صيغة هي تخمين حول فعل منتهٍ؟",
+      "answer": "Frau Keller wird die Nachricht schon gelesen haben.",
+      "explanation_de": "Futur II mit schon drückt eine Vermutung über die Vergangenheit aus.",
+      "explanation_ar": "يعبّر Futur II مع schon عن تخمين حول الماضي.",
+      "grammarFocus": "assumption_past",
+      "options": [
+        "Frau Keller wird die Nachricht schon gelesen haben.",
+        "Frau Keller wird die Nachricht lesen.",
+        "Frau Keller liest gerade die Nachricht.",
+        "Frau Keller las morgen die Nachricht."
+      ]
+    },
+    {
+      "id": "gr10-e016",
+      "topicId": "gr-10",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Gespräch oder Bericht",
+      "title_ar": "حديث أم تقرير",
+      "prompt_de": "Sie erzählen einem Kollegen mündlich von einer abgeschlossenen Aufgabe. Welche Form passt am besten?",
+      "prompt_ar": "تخبر زميلًا شفهيًا عن مهمة منتهية. أي صيغة أنسب؟",
+      "answer": "Ich habe die Aufgabe gestern abgeschlossen.",
+      "explanation_de": "Für einen mündlichen Rückblick ist das Perfekt sehr üblich.",
+      "explanation_ar": "Perfekt شائع جدًا في السرد الشفهي.",
+      "grammarFocus": "register_spoken",
+      "options": [
+        "Ich habe die Aufgabe gestern abgeschlossen.",
+        "Ich werde die Aufgabe gestern abschließen.",
+        "Ich schließe die Aufgabe gestern ab.",
+        "Ich hatte die Aufgabe morgen abgeschlossen."
+      ]
+    },
+    {
+      "id": "gr10-e017",
+      "topicId": "gr-10",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Protokoll",
+      "title_ar": "محضر",
+      "prompt_de": "Welche Form passt in ein Sitzungsprotokoll?",
+      "prompt_ar": "أي صيغة تناسب محضر اجتماع؟",
+      "answer": "Die Vorsitzende eröffnete die Sitzung und begrüßte die Teilnehmenden.",
+      "explanation_de": "Ein Protokoll verwendet häufig Präteritum.",
+      "explanation_ar": "يستخدم المحضر Präteritum كثيرًا.",
+      "grammarFocus": "register_written",
+      "options": [
+        "Die Vorsitzende eröffnete die Sitzung und begrüßte die Teilnehmenden.",
+        "Die Vorsitzende hat die Sitzung eröffnen und begrüßt.",
+        "Die Vorsitzende eröffnet gestern die Sitzung.",
+        "Die Vorsitzende wird gestern die Sitzung eröffnen."
+      ]
+    },
+    {
+      "id": "gr10-e018",
+      "topicId": "gr-10",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präsens und Futur I",
+      "title_ar": "Präsens وFutur I",
+      "prompt_de": "Bilden Sie zwei Sätze: fester Termin morgen / anschließend feste Absicht, den Bericht senden.",
+      "prompt_ar": "كوّن جملتين: موعد ثابت غدًا، ثم نية مؤكدة لإرسال التقرير.",
+      "answer": "Morgen bespreche ich die Ergebnisse. Anschließend werde ich den Bericht senden.",
+      "explanation_de": "Präsens passt zum festen Termin; Futur I hebt die anschließende Absicht hervor.",
+      "explanation_ar": "Präsens مناسب للموعد الثابت، وFutur I يبرز النية التالية.",
+      "grammarFocus": "present_future_contrast",
+      "acceptedAnswers": [
+        "Morgen bespreche ich die Ergebnisse. Anschließend werde ich den Bericht senden.",
+        "Morgen bespreche ich die Ergebnisse; anschließend werde ich den Bericht senden."
+      ]
+    },
+    {
+      "id": "gr10-e019",
+      "topicId": "gr-10",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit Perfekt",
+      "title_ar": "جملة فرعية مع Perfekt",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Ich weiß, dass sie den Bericht bereits geschrieben hat.",
+      "explanation_de": "Im Nebensatz stehen geschrieben und hat am Ende.",
+      "explanation_ar": "تأتي geschrieben وhat في نهاية الجملة الفرعية.",
+      "grammarFocus": "perfect_subordinate",
+      "tokens": [
+        "bereits",
+        "geschrieben",
+        "Ich weiß",
+        "hat",
+        "dass",
+        "sie",
+        "den Bericht"
+      ],
+      "acceptedAnswers": [
+        "Ich weiß, dass sie den Bericht bereits geschrieben hat."
+      ]
+    },
+    {
+      "id": "gr10-e020",
+      "topicId": "gr-10",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit Futur II",
+      "title_ar": "جملة فرعية مع Futur II",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Ich glaube, dass das Team die Aufgabe bis morgen abgeschlossen haben wird.",
+      "explanation_de": "Im Nebensatz steht wird ganz am Ende.",
+      "explanation_ar": "تأتي wird في نهاية الجملة الفرعية.",
+      "grammarFocus": "future_two_subordinate",
+      "tokens": [
+        "bis morgen",
+        "Ich glaube",
+        "wird",
+        "abgeschlossen",
+        "das Team",
+        "dass",
+        "haben",
+        "die Aufgabe"
+      ],
+      "acceptedAnswers": [
+        "Ich glaube, dass das Team die Aufgabe bis morgen abgeschlossen haben wird."
+      ]
+    },
+    {
+      "id": "gr10-e021",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Konsistente Zeitfolge",
+      "title_ar": "تسلسل زمني مترابط",
+      "prompt_de": "Welche Kombination ist logisch korrekt?",
+      "prompt_ar": "أي تركيب منطقي وصحيح؟",
+      "answer": "Nachdem die Abteilung den Fehler entdeckt hatte, informierte sie die Kundschaft.",
+      "explanation_de": "Das Entdecken geschah zuerst und steht im Plusquamperfekt.",
+      "explanation_ar": "حدث اكتشاف الخطأ أولًا ويأتي في Plusquamperfekt.",
+      "grammarFocus": "consistent_sequence",
+      "options": [
+        "Nachdem die Abteilung den Fehler entdeckt hatte, informierte sie die Kundschaft.",
+        "Nachdem die Abteilung den Fehler entdeckte, hatte sie die Kundschaft informiert.",
+        "Nachdem die Abteilung den Fehler entdecken wird, informierte sie die Kundschaft.",
+        "Nachdem die Abteilung den Fehler hat entdeckt, informierte sie gestern die Kundschaft."
+      ]
+    },
+    {
+      "id": "gr10-e022",
+      "topicId": "gr-10",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Vergangenheit und Gegenwart",
+      "title_ar": "الماضي والحاضر",
+      "prompt_de": "Bilden Sie einen logischen Satz: gestern technische Störung / heute System wieder normal funktionieren",
+      "prompt_ar": "كوّن جملة منطقية باستخدام زمنين مناسبين.",
+      "answer": "Gestern ist eine technische Störung aufgetreten, aber heute funktioniert das System wieder normal.",
+      "explanation_de": "Perfekt beschreibt das abgeschlossene Ereignis; Präsens beschreibt den aktuellen Zustand.",
+      "explanation_ar": "يصف Perfekt الحدث المنتهي، ويصف Präsens الحالة الحالية.",
+      "grammarFocus": "past_present_contrast",
+      "acceptedAnswers": [
+        "Gestern ist eine technische Störung aufgetreten, aber heute funktioniert das System wieder normal.",
+        "Gestern trat eine technische Störung auf, aber heute funktioniert das System wieder normal."
+      ]
+    },
+    {
+      "id": "gr10-e023",
+      "topicId": "gr-10",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Frist und Abschluss",
+      "title_ar": "المهلة والانتهاء",
+      "prompt_de": "Sie möchten betonen, dass alle Anträge spätestens morgen vollständig bearbeitet sein werden. Welche Form passt?",
+      "prompt_ar": "تريد التأكيد أن جميع الطلبات ستكون قد عولجت بالكامل بحلول الغد. أي صيغة مناسبة؟",
+      "answer": "Bis morgen werden wir alle Anträge vollständig bearbeitet haben.",
+      "explanation_de": "Futur II betont den Abschluss vor der Frist.",
+      "explanation_ar": "يؤكد Futur II اكتمال العمل قبل المهلة.",
+      "grammarFocus": "deadline_future_two",
+      "options": [
+        "Bis morgen werden wir alle Anträge vollständig bearbeitet haben.",
+        "Morgen werden wir alle Anträge bearbeiten.",
+        "Gestern haben wir alle Anträge bearbeitet.",
+        "Bis morgen hatten wir alle Anträge bearbeitet."
+      ]
+    },
+    {
+      "id": "gr10-e024",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Sein: passende Vergangenheit",
+      "title_ar": "sein: الماضي المناسب",
+      "prompt_de": "Welche Form klingt in einem normalen Gespräch am natürlichsten?",
+      "prompt_ar": "أي صيغة تبدو طبيعية أكثر في حديث عادي؟",
+      "answer": "Ich war gestern krank.",
+      "explanation_de": "Sein wird im Gespräch häufig im Präteritum verwendet.",
+      "explanation_ar": "تُستخدم sein كثيرًا في Präteritum في الحديث.",
+      "grammarFocus": "sein_register",
+      "options": [
+        "Ich war gestern krank.",
+        "Ich bin gestern krank gewesen habe.",
+        "Ich hatte gestern krank.",
+        "Ich werde gestern krank sein."
+      ]
+    },
+    {
+      "id": "gr10-e025",
+      "topicId": "gr-10",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Zeitebenen",
+      "title_ar": "ثلاثة مستويات زمنية",
+      "prompt_de": "Bilden Sie einen kurzen Zusammenhang mit drei Zeitebenen: vorher Daten sichern / danach System neu starten / jetzt wieder funktionieren",
+      "prompt_ar": "كوّن تسلسلًا قصيرًا بثلاثة مستويات زمنية.",
+      "answer": "Nachdem wir die Daten gesichert hatten, starteten wir das System neu. Jetzt funktioniert es wieder.",
+      "explanation_de": "Plusquamperfekt markiert das früheste Ereignis, Präteritum das folgende und Präsens den aktuellen Zustand.",
+      "explanation_ar": "يحدد Plusquamperfekt الحدث الأسبق، وPräteritum الحدث التالي، وPräsens الحالة الحالية.",
+      "grammarFocus": "three_time_levels",
+      "acceptedAnswers": [
+        "Nachdem wir die Daten gesichert hatten, starteten wir das System neu. Jetzt funktioniert es wieder."
+      ]
+    },
+    {
+      "id": "gr10-e026",
+      "topicId": "gr-10",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Futur I oder Futur II",
+      "title_ar": "Futur I أم Futur II",
+      "prompt_de": "Welche Form bedeutet: Die Handlung wird erst morgen stattfinden, nicht bis morgen abgeschlossen sein?",
+      "prompt_ar": "أي صيغة تعني أن الفعل سيحدث غدًا وليس أنه سينتهي بحلول الغد؟",
+      "answer": "Morgen werde ich den Bericht schreiben.",
+      "explanation_de": "Futur I beschreibt den zukünftigen Vorgang.",
+      "explanation_ar": "يصف Futur I الفعل المستقبلي نفسه.",
+      "grammarFocus": "future_one_vs_two",
+      "options": [
+        "Morgen werde ich den Bericht schreiben.",
+        "Bis morgen werde ich den Bericht geschrieben haben.",
+        "Morgen hatte ich den Bericht geschrieben.",
+        "Morgen habe ich den Bericht geschrieben."
+      ]
+    },
+    {
+      "id": "gr10-e027",
+      "topicId": "gr-10",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Vermutung präzisieren",
+      "title_ar": "صياغة تخمين دقيق",
+      "prompt_de": "Eine Kollegin ist jetzt nicht erreichbar. Sie vermuten, dass sie bereits nach Hause gegangen ist. Welche Form passt?",
+      "prompt_ar": "زميلة غير متاحة الآن وتعتقد أنها ذهبت إلى المنزل بالفعل. أي صيغة مناسبة؟",
+      "answer": "Sie wird wohl schon nach Hause gegangen sein.",
+      "explanation_de": "Futur II drückt die Vermutung über eine abgeschlossene Handlung aus.",
+      "explanation_ar": "يعبّر Futur II عن تخمين حول فعل منتهٍ.",
+      "grammarFocus": "past_assumption_with_sein",
+      "options": [
+        "Sie wird wohl schon nach Hause gegangen sein.",
+        "Sie wird wohl nach Hause gehen.",
+        "Sie ist wohl morgen nach Hause gegangen.",
+        "Sie war wohl nach Hause gehen."
+      ]
+    },
+    {
+      "id": "gr10-e028",
+      "topicId": "gr-10",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Zeitfolge",
+      "title_ar": "تسلسل زمني معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem der Techniker den Fehler behoben hatte, konnte die Produktion wieder aufgenommen werden.",
+      "explanation_de": "Das Beheben war früher; danach war die Wiederaufnahme möglich.",
+      "explanation_ar": "حدث إصلاح الخطأ أولًا، ثم أصبحت إعادة الإنتاج ممكنة.",
+      "grammarFocus": "complex_past_sequence",
+      "tokens": [
+        "wieder aufgenommen werden",
+        "Nachdem",
+        "konnte",
+        "hatte",
+        "der Techniker",
+        "den Fehler",
+        "die Produktion",
+        "behoben"
+      ],
+      "acceptedAnswers": [
+        "Nachdem der Techniker den Fehler behoben hatte, konnte die Produktion wieder aufgenommen werden."
+      ]
+    },
+    {
+      "id": "gr10-e029",
+      "topicId": "gr-10",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Beruflicher Mischtext",
+      "title_ar": "نص مهني مختلط",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens acht Sätzen. Verwenden Sie Präsens, Perfekt, Präteritum, Plusquamperfekt, Futur I und Futur II jeweils mindestens einmal. Der Text muss zeitlich logisch sein.",
+      "prompt_ar": "اكتب نصًا مهنيًا من ثماني جمل على الأقل. استخدم Präsens وPerfekt وPräteritum وPlusquamperfekt وFutur I وFutur II مرة واحدة على الأقل، ويجب أن يكون التسلسل الزمني منطقيًا.",
+      "answer": {
+        "requiredConcepts": [
+          "Präsens korrekt verwendet",
+          "Perfekt korrekt verwendet",
+          "Präteritum korrekt verwendet",
+          "Plusquamperfekt für Vorzeitigkeit",
+          "Futur I für Zukunft, Absicht oder Vermutung",
+          "Futur II für Abschluss oder vergangene Vermutung",
+          "mindestens ein Nebensatz",
+          "logische und konsistente Zeitführung"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Textsorte, Zeitbezug und Verbposition.",
+      "explanation_ar": "انتبه إلى نوع النص والعلاقة الزمنية وموقع الفعل.",
+      "grammarFocus": "mixed_all_tenses",
+      "evaluationMode": "self_check_with_checklist"
+    },
+    {
+      "id": "gr10-e030",
+      "topicId": "gr-10",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlussprüfung Zeitformen",
+      "title_ar": "اختبار ختامي للأزمنة",
+      "prompt_de": "Verfassen Sie einen kurzen Bericht mit Rückblick und Ausblick: Beschreiben Sie zuerst, was vor einem Problem geschehen war, dann was während des Problems geschah, wie die Situation heute ist und was bis nächste Woche erledigt sein wird.",
+      "prompt_ar": "اكتب تقريرًا قصيرًا يجمع بين مراجعة الماضي والنظرة المستقبلية: صف ما كان قد حدث قبل المشكلة، وما حدث أثناءها، وكيف هو الوضع اليوم، وما سيكون قد أُنجز بحلول الأسبوع القادم.",
+      "answer": {
+        "requiredConcepts": [
+          "Plusquamperfekt für Ereignis vor dem Problem",
+          "Präteritum oder Perfekt für das Problem",
+          "Präsens für den aktuellen Zustand",
+          "Futur I für geplante nächste Schritte",
+          "Futur II für Abschluss bis nächste Woche",
+          "klare Konnektoren und logischer Ablauf"
+        ]
+      },
+      "explanation_de": "Verwenden Sie passende Zeitangaben und vermeiden Sie unbegründete Tempuswechsel.",
+      "explanation_ar": "استخدم ظروف زمن مناسبة وتجنب الانتقال غير المبرر بين الأزمنة.",
+      "grammarFocus": "final_tense_assessment",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

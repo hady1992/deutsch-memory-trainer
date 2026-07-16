@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-37",
+  "title_de": "Konjunktiv I in Vergangenheit und Zukunft – Übungen",
+  "title_ar": "تمارين Konjunktiv I في الماضي والمستقبل",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr37-e001",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vergangenheit mit haben",
+      "title_ar": "الماضي باستخدام haben",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er sagt, er habe den Bericht geschrieben.",
+      "explanation_de": "Die indirekte Vergangenheit wird mit habe + Partizip II gebildet.",
+      "explanation_ar": "يُبنى الماضي المنقول باستخدام habe + Partizip II.",
+      "grammarFocus": "past_haben",
+      "options": [
+        "Er sagt, er habe den Bericht geschrieben.",
+        "Er sagt, er hat den Bericht geschrieben habe.",
+        "Er sagt, er sei den Bericht geschrieben.",
+        "Er sagt, er habe den Bericht schreiben."
+      ]
+    },
+    {
+      "id": "gr37-e002",
+      "topicId": "gr-37",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Vergangenheit mit sein",
+      "title_ar": "الماضي باستخدام sein",
+      "prompt_de": "Sie erklärt, sie ______ bereits angekommen.",
+      "prompt_ar": "توضح أنها وصلت بالفعل.",
+      "answer": "sei",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Perfekt.",
+      "grammarFocus": "past_sein",
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "gr37-e003",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Sein in der Vergangenheit",
+      "title_ar": "sein في الماضي",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Mitarbeiter sagt, er sei gestern krank gewesen.",
+      "explanation_de": "War wird in der indirekten Rede zu sei gewesen.",
+      "explanation_ar": "تتحول war في الكلام المنقول إلى sei gewesen.",
+      "grammarFocus": "past_sein_gewesen",
+      "options": [
+        "Der Mitarbeiter sagt, er sei gestern krank gewesen.",
+        "Der Mitarbeiter sagt, er habe gestern krank gewesen.",
+        "Der Mitarbeiter sagt, er sei gestern krank gewordet.",
+        "Der Mitarbeiter sagt, er wäre gestern krank ist."
+      ]
+    },
+    {
+      "id": "gr37-e004",
+      "topicId": "gr-37",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Zeitformen zuordnen",
+      "title_ar": "مطابقة الأزمنة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ich habe gearbeitet": "er habe gearbeitet",
+        "ich bin angekommen": "er sei angekommen",
+        "ich war krank": "er sei krank gewesen",
+        "ich werde anrufen": "er werde anrufen",
+        "ich werde fertig sein": "er werde fertig sein"
+      },
+      "explanation_de": "Hilfsverb und Infinitiv richten sich nach Zeit und Verbtyp.",
+      "explanation_ar": "يعتمد الفعل المساعد والمصدر على الزمن ونوع الفعل.",
+      "grammarFocus": "tense_matching",
+      "pairs": [
+        [
+          "ich habe gearbeitet",
+          "er habe gearbeitet"
+        ],
+        [
+          "ich bin angekommen",
+          "er sei angekommen"
+        ],
+        [
+          "ich war krank",
+          "er sei krank gewesen"
+        ],
+        [
+          "ich werde anrufen",
+          "er werde anrufen"
+        ],
+        [
+          "ich werde fertig sein",
+          "er werde fertig sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr37-e005",
+      "topicId": "gr-37",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Vergangenes Passiv",
+      "title_ar": "المبني للمجهول الماضي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Behörde teilt mit, der Antrag sei geprüft worden.",
+      "explanation_de": "Das vergangene Passiv lautet sei + Partizip II + worden.",
+      "explanation_ar": "يكون الماضي المبني للمجهول sei + Partizip II + worden.",
+      "grammarFocus": "past_passive_order",
+      "tokens": [
+        "geprüft worden",
+        "der Antrag sei",
+        "Die Behörde teilt mit"
+      ],
+      "acceptedAnswers": [
+        "Die Behörde teilt mit, der Antrag sei geprüft worden."
+      ]
+    },
+    {
+      "id": "gr37-e006",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zukunft",
+      "title_ar": "المستقبل",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie sagt, sie werde morgen anrufen.",
+      "explanation_de": "Zukunft wird mit werde + Infinitiv gebildet.",
+      "explanation_ar": "يُبنى المستقبل باستخدام werde + Infinitiv.",
+      "grammarFocus": "future_active",
+      "options": [
+        "Sie sagt, sie werde morgen anrufen.",
+        "Sie sagt, sie werde morgen angerufen.",
+        "Sie sagt, sie sei morgen anrufen.",
+        "Sie sagt, sie habe morgen anrufen."
+      ]
+    },
+    {
+      "id": "gr37-e007",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Futur II",
+      "title_ar": "Futur II",
+      "prompt_de": "Welche Form drückt eine zukünftig abgeschlossene Handlung aus?",
+      "prompt_ar": "أي صيغة تعبّر عن فعل سيكون منتهيًا مستقبلًا؟",
+      "answer": "Er werde den Bericht bis Freitag fertiggestellt haben.",
+      "explanation_de": "Futur II wird mit werde + Partizip II + haben gebildet.",
+      "explanation_ar": "يُبنى Futur II باستخدام werde + Partizip II + haben.",
+      "grammarFocus": "future_perfect_basic",
+      "options": [
+        "Er werde den Bericht bis Freitag fertiggestellt haben.",
+        "Er habe den Bericht bis Freitag fertigstellen.",
+        "Er werde den Bericht bis Freitag fertigstellen gewesen.",
+        "Er sei den Bericht bis Freitag fertiggestellt haben."
+      ]
+    },
+    {
+      "id": "gr37-e008",
+      "topicId": "gr-37",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Haben in der Vergangenheit",
+      "title_ar": "haben في الماضي",
+      "prompt_de": "Er erklärt, er ______ keine Gelegenheit gehabt, früher zu antworten.",
+      "prompt_ar": "يوضح أنه لم تتح له فرصة للرد في وقت أبكر.",
+      "answer": "habe",
+      "explanation_de": "Hatte wird in der indirekten Rede zu habe gehabt.",
+      "explanation_ar": "تتحول hatte في الكلام المنقول إلى habe gehabt.",
+      "grammarFocus": "habe_gehabt",
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "gr37-e009",
+      "topicId": "gr-37",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Direktes Perfekt umformen",
+      "title_ar": "تحويل Perfekt المباشر",
+      "prompt_de": "Formen Sie um: Die Projektleiterin sagt: „Wir haben die erste Testphase abgeschlossen.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Die Projektleiterin sagt, das Team habe die erste Testphase abgeschlossen.",
+      "explanation_de": "Die vergangene Aussage wird mit habe + Partizip II wiedergegeben.",
+      "explanation_ar": "يُنقل القول الماضي باستخدام habe + Partizip II.",
+      "grammarFocus": "direct_perfect_to_indirect",
+      "acceptedAnswers": [
+        "Die Projektleiterin sagt, das Team habe die erste Testphase abgeschlossen.",
+        "Die Projektleiterin sagt, sie hätten die erste Testphase abgeschlossen."
+      ]
+    },
+    {
+      "id": "gr37-e010",
+      "topicId": "gr-37",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präteritum umformen",
+      "title_ar": "تحويل Präteritum",
+      "prompt_de": "Formen Sie um: Der Mitarbeiter sagt: „Ich war gestern krank.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Der Mitarbeiter sagt, er sei gestern krank gewesen.",
+      "explanation_de": "War wird mit sei gewesen wiedergegeben.",
+      "explanation_ar": "تتحول war إلى sei gewesen.",
+      "grammarFocus": "direct_preterite_to_indirect",
+      "acceptedAnswers": [
+        "Der Mitarbeiter sagt, er sei gestern krank gewesen."
+      ]
+    },
+    {
+      "id": "gr37-e011",
+      "topicId": "gr-37",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Modalverb in der Vergangenheit",
+      "title_ar": "الفعل الناقص في الماضي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Er sagt, er habe am Wochenende arbeiten müssen.",
+      "explanation_de": "Bei Modalverben steht der Ersatzinfinitiv arbeiten müssen.",
+      "explanation_ar": "مع الأفعال الناقصة نستخدم Ersatzinfinitiv: arbeiten müssen.",
+      "grammarFocus": "past_modal_order",
+      "tokens": [
+        "arbeiten müssen",
+        "am Wochenende",
+        "er habe",
+        "Er sagt"
+      ],
+      "acceptedAnswers": [
+        "Er sagt, er habe am Wochenende arbeiten müssen."
+      ]
+    },
+    {
+      "id": "gr37-e012",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nicht teilnehmen können",
+      "title_ar": "عدم القدرة على المشاركة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie erklärt, sie habe nicht teilnehmen können.",
+      "explanation_de": "Mit Modalverb steht habe + teilnehmen können.",
+      "explanation_ar": "مع الفعل الناقص نستخدم habe + teilnehmen können.",
+      "grammarFocus": "past_modal_koennen",
+      "options": [
+        "Sie erklärt, sie habe nicht teilnehmen können.",
+        "Sie erklärt, sie könne nicht teilgenommen haben.",
+        "Sie erklärt, sie habe nicht teilnehmen gekonnt.",
+        "Sie erklärt, sie sei nicht teilnehmen können."
+      ]
+    },
+    {
+      "id": "gr37-e013",
+      "topicId": "gr-37",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Form und Bedeutung",
+      "title_ar": "الصيغة والمعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "sei geprüft worden": "Vergangenheit Passiv",
+        "werde prüfen": "Zukunft Aktiv",
+        "werde geprüft werden": "Zukunft Passiv",
+        "werde geprüft haben": "Futur II Aktiv",
+        "werde angekommen sein": "Futur II mit sein"
+      },
+      "explanation_de": "Die Verbgruppe zeigt Zeitstufe und Aktiv oder Passiv.",
+      "explanation_ar": "توضح مجموعة الأفعال الزمن والمعلوم أو المجهول.",
+      "grammarFocus": "form_meaning_matching",
+      "pairs": [
+        [
+          "sei geprüft worden",
+          "Vergangenheit Passiv"
+        ],
+        [
+          "werde prüfen",
+          "Zukunft Aktiv"
+        ],
+        [
+          "werde geprüft werden",
+          "Zukunft Passiv"
+        ],
+        [
+          "werde geprüft haben",
+          "Futur II Aktiv"
+        ],
+        [
+          "werde angekommen sein",
+          "Futur II mit sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr37-e014",
+      "topicId": "gr-37",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Projektbericht",
+      "title_ar": "تقرير مشروع موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten?",
+      "prompt_ar": "أي صياغة تناسب أكثر؟",
+      "answer": "Die Projektleiterin erklärt, das Team habe die erste Testphase erfolgreich abgeschlossen.",
+      "explanation_de": "Die Form gibt eine vergangene Aussage distanziert und präzise wieder.",
+      "explanation_ar": "تنقل الصيغة قولًا ماضيًا بمسافة موضوعية ودقة.",
+      "grammarFocus": "formal_past_report",
+      "options": [
+        "Die Projektleiterin erklärt, das Team habe die erste Testphase erfolgreich abgeschlossen.",
+        "Die Projektleiterin erklärt, das Team hat die Testphase sicher abgeschlossen.",
+        "Die Projektleiterin erklärt, das Team sei die Testphase abgeschlossen.",
+        "Die Projektleiterin erklärt, das Team habe die Testphase abschließen wird."
+      ]
+    },
+    {
+      "id": "gr37-e015",
+      "topicId": "gr-37",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Zukünftiges Passiv",
+      "title_ar": "المبني للمجهول المستقبلي",
+      "prompt_de": "Die Behörde erklärt, der Antrag werde nächste Woche geprüft ______.",
+      "prompt_ar": "توضح الجهة أن الطلب ستتم مراجعته الأسبوع المقبل.",
+      "answer": "werden",
+      "explanation_de": "Das zukünftige Passiv endet mit Partizip II + werden.",
+      "explanation_ar": "ينتهي المبني للمجهول المستقبلي بـ Partizip II + werden.",
+      "grammarFocus": "future_passive_fill",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "gr37-e016",
+      "topicId": "gr-37",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Futur II mit sein",
+      "title_ar": "Futur II باستخدام sein",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie sagt, sie werde bis dahin angekommen sein.",
+      "explanation_de": "Ankommen bildet Futur II mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Futur II.",
+      "grammarFocus": "future_perfect_sein_order",
+      "tokens": [
+        "angekommen sein",
+        "bis dahin",
+        "sie werde",
+        "Sie sagt"
+      ],
+      "acceptedAnswers": [
+        "Sie sagt, sie werde bis dahin angekommen sein."
+      ]
+    },
+    {
+      "id": "gr37-e017",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Drei Zeitstufen",
+      "title_ar": "ثلاثة مستويات زمنية",
+      "prompt_de": "Welche Reihe ist korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة؟",
+      "answer": "er habe gestern gearbeitet – er arbeite heute – er werde morgen arbeiten",
+      "explanation_de": "Vergangenheit, Gegenwart und Zukunft werden korrekt unterschieden.",
+      "explanation_ar": "تم التمييز بصورة صحيحة بين الماضي والحاضر والمستقبل.",
+      "grammarFocus": "three_time_levels",
+      "options": [
+        "er habe gestern gearbeitet – er arbeite heute – er werde morgen arbeiten",
+        "er arbeite gestern – er habe heute gearbeitet – er sei morgen arbeiten",
+        "er sei gestern gearbeitet – er werde heute gearbeitet – er habe morgen arbeiten",
+        "er hätte gestern arbeiten – er sei heute gearbeitet – er werde morgen gearbeitet haben"
+      ]
+    },
+    {
+      "id": "gr37-e018",
+      "topicId": "gr-37",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Vergangenes Passiv umformen",
+      "title_ar": "تحويل المبني للمجهول الماضي",
+      "prompt_de": "Formen Sie um: Der Anbieter sagt: „Das System wurde vollständig überprüft.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Der Anbieter sagt, das System sei vollständig überprüft worden.",
+      "explanation_de": "Wurde überprüft wird zu sei überprüft worden.",
+      "explanation_ar": "تتحول wurde überprüft إلى sei überprüft worden.",
+      "grammarFocus": "direct_past_passive",
+      "acceptedAnswers": [
+        "Der Anbieter sagt, das System sei vollständig überprüft worden."
+      ]
+    },
+    {
+      "id": "gr37-e019",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Modalverb und Ersatzinfinitiv",
+      "title_ar": "الفعل الناقص وErsatzinfinitiv",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "In „er habe länger arbeiten müssen“ stehen zwei Infinitive, weil das Modalverb im Perfekt den Ersatzinfinitiv verwendet.",
+      "explanation_de": "Das Modalverb erscheint nicht als Partizip II, sondern als Infinitiv.",
+      "explanation_ar": "لا يأتي الفعل الناقص في Partizip II، بل في المصدر.",
+      "grammarFocus": "replacement_infinitive_explanation",
+      "options": [
+        "In „er habe länger arbeiten müssen“ stehen zwei Infinitive, weil das Modalverb im Perfekt den Ersatzinfinitiv verwendet.",
+        "Müssen muss hier als gemusst stehen.",
+        "Habe darf mit Modalverben nicht verwendet werden.",
+        "Arbeiten ist hier ein Partizip II."
+      ]
+    },
+    {
+      "id": "gr37-e020",
+      "topicId": "gr-37",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Zukünftiger Abschluss",
+      "title_ar": "اكتمال مستقبلي",
+      "prompt_de": "Welche Formulierung passt zu einer bis Jahresende abgeschlossenen Umstellung?",
+      "prompt_ar": "أي صياغة تناسب تحولًا سيكون منتهيًا حتى نهاية السنة؟",
+      "answer": "Der Projektleiter erklärt, das Team werde die Umstellung bis zum Jahresende abgeschlossen haben.",
+      "explanation_de": "Die Handlung wird vor einem zukünftigen Zeitpunkt abgeschlossen sein.",
+      "explanation_ar": "سيكون الفعل منتهيًا قبل نقطة مستقبلية.",
+      "grammarFocus": "formal_future_perfect",
+      "options": [
+        "Der Projektleiter erklärt, das Team werde die Umstellung bis zum Jahresende abgeschlossen haben.",
+        "Der Projektleiter erklärt, das Team habe die Umstellung bis zum Jahresende abschließen.",
+        "Der Projektleiter erklärt, das Team werde die Umstellung bis zum Jahresende abgeschlossen sein.",
+        "Der Projektleiter erklärt, das Team sei die Umstellung bis Jahresende abgeschlossen haben."
+      ]
+    },
+    {
+      "id": "gr37-e021",
+      "topicId": "gr-37",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Zukunft mit Modalverb",
+      "title_ar": "المستقبل مع فعل ناقص",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Er sagt, er werde nächste Woche länger arbeiten müssen.",
+      "explanation_de": "Im Futur steht werde + arbeiten + müssen.",
+      "explanation_ar": "في المستقبل نستخدم werde + arbeiten + müssen.",
+      "grammarFocus": "future_modal_order",
+      "tokens": [
+        "länger arbeiten müssen",
+        "nächste Woche",
+        "er werde",
+        "Er sagt"
+      ],
+      "acceptedAnswers": [
+        "Er sagt, er werde nächste Woche länger arbeiten müssen."
+      ]
+    },
+    {
+      "id": "gr37-e022",
+      "topicId": "gr-37",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Aktiv oder Passiv Zukunft",
+      "title_ar": "المعلوم أم المجهول في المستقبل",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Sie werde den Antrag prüfen“ ist aktiv; „der Antrag werde geprüft werden“ ist passiv.",
+      "explanation_de": "Im Passiv steht Partizip II + werden am Ende.",
+      "explanation_ar": "في المبني للمجهول يأتي Partizip II + werden في النهاية.",
+      "grammarFocus": "future_active_passive_contrast",
+      "options": [
+        "„Sie werde den Antrag prüfen“ ist aktiv; „der Antrag werde geprüft werden“ ist passiv.",
+        "Beide Formen sind Passiv.",
+        "Geprüft werden ist Futur II.",
+        "Werde prüfen ist Vergangenheit."
+      ]
+    },
+    {
+      "id": "gr37-e023",
+      "topicId": "gr-37",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Zeitstufen wiedergeben",
+      "title_ar": "نقل عدة أزمنة",
+      "prompt_de": "Formen Sie um: Die Mitarbeiterin sagt: „Ich habe gestern die Daten geprüft. Heute schreibe ich den Bericht. Bis Freitag werde ich ihn abgeschlossen haben.“",
+      "prompt_ar": "حوّل الأقوال إلى كلام منقول.",
+      "answer": "Die Mitarbeiterin sagt, sie habe gestern die Daten geprüft, schreibe heute den Bericht und werde ihn bis Freitag abgeschlossen haben.",
+      "explanation_de": "Vergangenheit, Gegenwart und Futur II werden in einem Satz kombiniert.",
+      "explanation_ar": "تُجمع صيغة الماضي والحاضر وFutur II في جملة واحدة.",
+      "grammarFocus": "mixed_time_levels",
+      "acceptedAnswers": [
+        "Die Mitarbeiterin sagt, sie habe gestern die Daten geprüft, schreibe heute den Bericht und werde ihn bis Freitag abgeschlossen haben."
+      ]
+    },
+    {
+      "id": "gr37-e024",
+      "topicId": "gr-37",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Vergangenheit und Zukunft",
+      "title_ar": "تدريب ختامي على الماضي والمستقبل",
+      "prompt_de": "Schreiben Sie einen sachlichen Bericht mit mindestens zwölf Sätzen über Aussagen zu einem Projektverlauf. Verwenden Sie mindestens vier vergangene Aktivformen, zwei vergangene Passivformen, zwei Sätze mit Modalverb in der Vergangenheit, drei Zukunftsformen, eine zukünftige Passivform und zwei Futur-II-Formen.",
+      "prompt_ar": "اكتب تقريرًا موضوعيًا من اثنتي عشرة جملة على الأقل عن أقوال تتعلق بسير مشروع. استخدم أربع صيغ ماضية معلومة على الأقل، وصيغتين ماضيتين مبنيتين للمجهول، وجملتين مع فعل ناقص في الماضي، وثلاث صيغ مستقبلية، وصيغة مستقبلية مجهولة، وصيغتين من Futur II.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Formen mit habe oder sei + Partizip II",
+          "mindestens zwei Formen mit sei + Partizip II + worden",
+          "mindestens zwei Modalverbformen mit Ersatzinfinitiv",
+          "mindestens drei Formen mit werde + Infinitiv",
+          "mindestens eine Form mit werde + Partizip II + werden",
+          "mindestens eine Futur-II-Form mit haben",
+          "mindestens eine Futur-II-Form mit sein",
+          "korrekte Pronomen und Zeitangaben",
+          "klare zeitliche Reihenfolge",
+          "sachliche Distanz"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Hilfsverb, Partizip II, Ersatzinfinitiv, Aktiv/Passiv und Zeitbezug.",
+      "explanation_ar": "راجع الفعل المساعد وPartizip II وErsatzinfinitiv والمعلوم والمجهول والعلاقة الزمنية.",
+      "grammarFocus": "mixed_konjunktiv_i_past_future",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

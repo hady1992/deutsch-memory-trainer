@@ -1,0 +1,543 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-33",
+  "title_de": "Nomen-Verb-Verbindungen – Grundlagen – Übungen",
+  "title_ar": "تمارين روابط الاسم والفعل – الأساسيات",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr33-e001",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Entscheidung",
+      "title_ar": "قرار",
+      "prompt_de": "Welche Verbindung ist korrekt?",
+      "prompt_ar": "أي رابط صحيح؟",
+      "answer": "eine Entscheidung treffen",
+      "explanation_de": "Die feste Verbindung lautet eine Entscheidung treffen.",
+      "explanation_ar": "الرابط الثابت هو eine Entscheidung treffen.",
+      "grammarFocus": "decision_collocation",
+      "options": [
+        "eine Entscheidung treffen",
+        "eine Entscheidung machen",
+        "eine Entscheidung stellen",
+        "eine Entscheidung nehmen"
+      ]
+    },
+    {
+      "id": "gr33-e002",
+      "topicId": "gr-33",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Antrag",
+      "title_ar": "طلب",
+      "prompt_de": "Er ______ einen Antrag auf Verlängerung.",
+      "prompt_ar": "هو يقدم طلب تمديد.",
+      "answer": "stellt",
+      "explanation_de": "Die Verbindung lautet einen Antrag stellen.",
+      "explanation_ar": "الرابط هو einen Antrag stellen.",
+      "grammarFocus": "application_collocation",
+      "acceptedAnswers": [
+        "stellt"
+      ]
+    },
+    {
+      "id": "gr33-e003",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Frage stellen",
+      "title_ar": "طرح سؤال",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Teilnehmerin stellt eine wichtige Frage.",
+      "explanation_de": "Die feste Verbindung lautet eine Frage stellen.",
+      "explanation_ar": "الرابط الثابت هو eine Frage stellen.",
+      "grammarFocus": "question_collocation",
+      "options": [
+        "Die Teilnehmerin stellt eine wichtige Frage.",
+        "Die Teilnehmerin macht eine wichtige Frage.",
+        "Die Teilnehmerin trifft eine wichtige Frage.",
+        "Die Teilnehmerin nimmt eine wichtige Frage."
+      ]
+    },
+    {
+      "id": "gr33-e004",
+      "topicId": "gr-33",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Verbindung und einfaches Verb",
+      "title_ar": "الرابط والفعل البسيط",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "eine Entscheidung treffen": "entscheiden",
+        "einen Antrag stellen": "beantragen",
+        "eine Frage stellen": "fragen",
+        "Hilfe leisten": "helfen",
+        "Kritik üben": "kritisieren"
+      },
+      "explanation_de": "Die Verbindungen können oft durch ein einfaches Verb erklärt werden.",
+      "explanation_ar": "يمكن شرح الروابط غالبًا باستخدام فعل بسيط.",
+      "grammarFocus": "collocation_simple_verb_matching",
+      "pairs": [
+        [
+          "eine Entscheidung treffen",
+          "entscheiden"
+        ],
+        [
+          "einen Antrag stellen",
+          "beantragen"
+        ],
+        [
+          "eine Frage stellen",
+          "fragen"
+        ],
+        [
+          "Hilfe leisten",
+          "helfen"
+        ],
+        [
+          "Kritik üben",
+          "kritisieren"
+        ]
+      ]
+    },
+    {
+      "id": "gr33-e005",
+      "topicId": "gr-33",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Verantwortung übernehmen",
+      "title_ar": "تحمل المسؤولية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Abteilungsleiterin übernimmt die Verantwortung für das Projekt.",
+      "explanation_de": "Die feste Verbindung lautet Verantwortung übernehmen.",
+      "explanation_ar": "الرابط الثابت هو Verantwortung übernehmen.",
+      "grammarFocus": "responsibility_order",
+      "tokens": [
+        "für das Projekt",
+        "übernimmt",
+        "die Verantwortung",
+        "Die Abteilungsleiterin"
+      ],
+      "acceptedAnswers": [
+        "Die Abteilungsleiterin übernimmt die Verantwortung für das Projekt."
+      ]
+    },
+    {
+      "id": "gr33-e006",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Bescheid geben",
+      "title_ar": "الإبلاغ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Bitte geben Sie mir rechtzeitig Bescheid.",
+      "explanation_de": "Bescheid geben verlangt häufig eine Person im Dativ.",
+      "explanation_ar": "تحتاج Bescheid geben غالبًا إلى شخص في Dativ.",
+      "grammarFocus": "bescheid_geben",
+      "options": [
+        "Bitte geben Sie mir rechtzeitig Bescheid.",
+        "Bitte machen Sie mir rechtzeitig Bescheid.",
+        "Bitte stellen Sie mich rechtzeitig Bescheid.",
+        "Bitte geben Sie mich rechtzeitig Bescheid."
+      ]
+    },
+    {
+      "id": "gr33-e007",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Maßnahmen",
+      "title_ar": "إجراءات",
+      "prompt_de": "Welche Verbindung ist korrekt?",
+      "prompt_ar": "أي رابط صحيح؟",
+      "answer": "Maßnahmen ergreifen",
+      "explanation_de": "Die feste Verbindung lautet Maßnahmen ergreifen.",
+      "explanation_ar": "الرابط الثابت هو Maßnahmen ergreifen.",
+      "grammarFocus": "measures_collocation",
+      "options": [
+        "Maßnahmen ergreifen",
+        "Maßnahmen treffen",
+        "Maßnahmen stellen",
+        "Maßnahmen üben"
+      ]
+    },
+    {
+      "id": "gr33-e008",
+      "topicId": "gr-33",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Einfluss nehmen",
+      "title_ar": "التأثير",
+      "prompt_de": "Die Änderung nimmt Einfluss ______ den Arbeitsablauf.",
+      "prompt_ar": "يؤثر التغيير في سير العمل.",
+      "answer": "auf",
+      "explanation_de": "Einfluss nehmen verlangt auf + Akkusativ.",
+      "explanation_ar": "تحتاج Einfluss nehmen إلى auf + Akkusativ.",
+      "grammarFocus": "einfluss_preposition",
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "gr33-e009",
+      "topicId": "gr-33",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Einfaches Verb ersetzen",
+      "title_ar": "استبدال الفعل البسيط",
+      "prompt_de": "Formulieren Sie mit einer Nomen-Verb-Verbindung: Die Leitung entscheidet morgen.",
+      "prompt_ar": "أعد الصياغة باستخدام رابط اسم وفعل.",
+      "answer": "Die Leitung trifft morgen eine Entscheidung.",
+      "explanation_de": "Entscheiden wird durch eine Entscheidung treffen ausgedrückt.",
+      "explanation_ar": "يُعبّر عن entscheiden باستخدام eine Entscheidung treffen.",
+      "grammarFocus": "verb_to_collocation",
+      "acceptedAnswers": [
+        "Die Leitung trifft morgen eine Entscheidung."
+      ]
+    },
+    {
+      "id": "gr33-e010",
+      "topicId": "gr-33",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Antrag stellen",
+      "title_ar": "تقديم طلب",
+      "prompt_de": "Formulieren Sie mit einer Nomen-Verb-Verbindung: Sie beantragt eine Verlängerung.",
+      "prompt_ar": "أعد الصياغة باستخدام رابط اسم وفعل.",
+      "answer": "Sie stellt einen Antrag auf Verlängerung.",
+      "explanation_de": "Beantragen wird durch einen Antrag stellen ausgedrückt.",
+      "explanation_ar": "يُعبّر عن beantragen باستخدام einen Antrag stellen.",
+      "grammarFocus": "beantragen_to_antrag",
+      "acceptedAnswers": [
+        "Sie stellt einen Antrag auf Verlängerung."
+      ]
+    },
+    {
+      "id": "gr33-e011",
+      "topicId": "gr-33",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Rücksicht nehmen",
+      "title_ar": "المراعاة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Bei der Planung müssen wir auf die Bedürfnisse der Beschäftigten Rücksicht nehmen.",
+      "explanation_de": "Rücksicht nehmen verlangt auf + Akkusativ.",
+      "explanation_ar": "تحتاج Rücksicht nehmen إلى auf + Akkusativ.",
+      "grammarFocus": "ruecksicht_order",
+      "tokens": [
+        "Rücksicht nehmen",
+        "auf die Bedürfnisse der Beschäftigten",
+        "müssen wir",
+        "Bei der Planung"
+      ],
+      "acceptedAnswers": [
+        "Bei der Planung müssen wir auf die Bedürfnisse der Beschäftigten Rücksicht nehmen."
+      ]
+    },
+    {
+      "id": "gr33-e012",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Kritik üben",
+      "title_ar": "الانتقاد",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Betriebsrat übt Kritik an der neuen Regelung.",
+      "explanation_de": "Kritik üben verlangt an + Dativ.",
+      "explanation_ar": "تحتاج Kritik üben إلى an + Dativ.",
+      "grammarFocus": "kritik_an_dative",
+      "options": [
+        "Der Betriebsrat übt Kritik an der neuen Regelung.",
+        "Der Betriebsrat übt Kritik auf die neue Regelung.",
+        "Der Betriebsrat macht Kritik an die neue Regelung.",
+        "Der Betriebsrat trifft Kritik bei der neuen Regelung."
+      ]
+    },
+    {
+      "id": "gr33-e013",
+      "topicId": "gr-33",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Verbindung und Ergänzung",
+      "title_ar": "الرابط والمتمم",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Einfluss nehmen": "auf + Akkusativ",
+        "Rücksicht nehmen": "auf + Akkusativ",
+        "Kritik üben": "an + Dativ",
+        "Anspruch haben": "auf + Akkusativ",
+        "Bescheid geben": "jemandem + Dativ"
+      },
+      "explanation_de": "Präposition und Kasus gehören fest zur Verbindung.",
+      "explanation_ar": "يكون حرف الجر والحالة جزءًا ثابتًا من الرابط.",
+      "grammarFocus": "collocation_complement_matching",
+      "pairs": [
+        [
+          "Einfluss nehmen",
+          "auf + Akkusativ"
+        ],
+        [
+          "Rücksicht nehmen",
+          "auf + Akkusativ"
+        ],
+        [
+          "Kritik üben",
+          "an + Dativ"
+        ],
+        [
+          "Anspruch haben",
+          "auf + Akkusativ"
+        ],
+        [
+          "Bescheid geben",
+          "jemandem + Dativ"
+        ]
+      ]
+    },
+    {
+      "id": "gr33-e014",
+      "topicId": "gr-33",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Mitteilung",
+      "title_ar": "إشعار رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in eine formelle Mitteilung?",
+      "prompt_ar": "أي صياغة تناسب إشعارًا رسميًا؟",
+      "answer": "Für Rückfragen steht Ihnen unser Team jederzeit zur Verfügung.",
+      "explanation_de": "Zur Verfügung stehen bedeutet verfügbar sein und ist in formellen Texten üblich.",
+      "explanation_ar": "تعني zur Verfügung stehen أن يكون الشيء متاحًا وهي شائعة في النصوص الرسمية.",
+      "grammarFocus": "formal_availability",
+      "options": [
+        "Für Rückfragen steht Ihnen unser Team jederzeit zur Verfügung.",
+        "Für Rückfragen macht unser Team Ihnen Verfügbarkeit.",
+        "Unser Team stellt sich für Rückfragen verfügbar.",
+        "Unser Team nimmt Rückfragen in Verfügung."
+      ]
+    },
+    {
+      "id": "gr33-e015",
+      "topicId": "gr-33",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "In Anspruch nehmen",
+      "title_ar": "الاستفادة",
+      "prompt_de": "Sie können eine kostenlose Beratung in ______ nehmen.",
+      "prompt_ar": "يمكنك الاستفادة من استشارة مجانية.",
+      "answer": "Anspruch",
+      "explanation_de": "Die feste Verbindung lautet etwas in Anspruch nehmen.",
+      "explanation_ar": "الرابط الثابت هو etwas in Anspruch nehmen.",
+      "grammarFocus": "in_anspruch_nehmen",
+      "acceptedAnswers": [
+        "Anspruch"
+      ]
+    },
+    {
+      "id": "gr33-e016",
+      "topicId": "gr-33",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zur Verfügung stellen",
+      "title_ar": "التوفير",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Firma stellt den Beschäftigten neue Arbeitsmittel zur Verfügung.",
+      "explanation_de": "Zur Verfügung stellen bedeutet bereitstellen.",
+      "explanation_ar": "تعني zur Verfügung stellen توفير الشيء.",
+      "grammarFocus": "bereitstellen_order",
+      "tokens": [
+        "zur Verfügung",
+        "neue Arbeitsmittel",
+        "stellt",
+        "den Beschäftigten",
+        "Die Firma"
+      ],
+      "acceptedAnswers": [
+        "Die Firma stellt den Beschäftigten neue Arbeitsmittel zur Verfügung."
+      ]
+    },
+    {
+      "id": "gr33-e017",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Leitung hat eine endgültige Entscheidung getroffen.",
+      "explanation_de": "Im Perfekt steht das Partizip II getroffen.",
+      "explanation_ar": "في Perfekt نستخدم Partizip II: getroffen.",
+      "grammarFocus": "collocation_perfect",
+      "options": [
+        "Die Leitung hat eine endgültige Entscheidung getroffen.",
+        "Die Leitung hat eine endgültige Entscheidung getreffen.",
+        "Die Leitung ist eine endgültige Entscheidung getroffen.",
+        "Die Leitung hat eine endgültige Entscheidung treffen."
+      ]
+    },
+    {
+      "id": "gr33-e018",
+      "topicId": "gr-33",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Passiv bilden",
+      "title_ar": "تكوين المبني للمجهول",
+      "prompt_de": "Setzen Sie ins Passiv: Die Leitung traf gestern eine Entscheidung.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Gestern wurde eine Entscheidung getroffen.",
+      "explanation_de": "Im Passiv steht wurde + Partizip II getroffen.",
+      "explanation_ar": "في المبني للمجهول نستخدم wurde + Partizip II: getroffen.",
+      "grammarFocus": "collocation_passive",
+      "acceptedAnswers": [
+        "Gestern wurde eine Entscheidung getroffen.",
+        "Eine Entscheidung wurde gestern getroffen."
+      ]
+    },
+    {
+      "id": "gr33-e019",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Freie oder feste Verbindung",
+      "title_ar": "تركيب حر أم ثابت",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Einen schweren Karton tragen“ ist eher frei; „Verantwortung tragen“ ist eine feste abstrakte Verbindung.",
+      "explanation_de": "In der festen Verbindung ist die Gesamtbedeutung stärker als Einheit gespeichert.",
+      "explanation_ar": "في الرابط الثابت يُحفظ المعنى الكلي بوصفه وحدة.",
+      "grammarFocus": "free_vs_fixed",
+      "options": [
+        "„Einen schweren Karton tragen“ ist eher frei; „Verantwortung tragen“ ist eine feste abstrakte Verbindung.",
+        "Jede Verbindung aus Nomen und Verb ist automatisch fest.",
+        "Verantwortung tragen bezeichnet nur eine körperliche Bewegung.",
+        "Einen Karton tragen muss immer als Nomen-Verb-Verbindung gelernt werden."
+      ]
+    },
+    {
+      "id": "gr33-e020",
+      "topicId": "gr-33",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Geeignete Maßnahmen",
+      "title_ar": "إجراءات مناسبة",
+      "prompt_de": "Welche Formulierung ist sachlich und korrekt?",
+      "prompt_ar": "أي صياغة موضوعية وصحيحة؟",
+      "answer": "Nach dem Sicherheitsvorfall wurden unverzüglich geeignete Maßnahmen ergriffen.",
+      "explanation_de": "Maßnahmen ergreifen kann im Passiv verwendet werden, wenn der Vorgang im Mittelpunkt steht.",
+      "explanation_ar": "يمكن استخدام Maßnahmen ergreifen في المبني للمجهول عندما يكون الإجراء هو المهم.",
+      "grammarFocus": "formal_measures_passive",
+      "options": [
+        "Nach dem Sicherheitsvorfall wurden unverzüglich geeignete Maßnahmen ergriffen.",
+        "Nach dem Sicherheitsvorfall wurden Maßnahmen gegriffen.",
+        "Nach dem Vorfall machten sich geeignete Maßnahmen.",
+        "Nach dem Vorfall wurden geeignete Maßnahmen getroffen gehaben."
+      ]
+    },
+    {
+      "id": "gr33-e021",
+      "topicId": "gr-33",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Verbindungen",
+      "title_ar": "عدة روابط",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Leitung übernimmt Verantwortung, trifft eine Entscheidung und ergreift anschließend geeignete Maßnahmen.",
+      "explanation_de": "Drei feste Verbindungen werden parallel verwendet.",
+      "explanation_ar": "تُستخدم ثلاثة روابط ثابتة بصورة متوازية.",
+      "grammarFocus": "parallel_collocations_order",
+      "tokens": [
+        "und ergreift anschließend geeignete Maßnahmen",
+        "trifft eine Entscheidung",
+        "Die Leitung übernimmt Verantwortung"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung übernimmt Verantwortung, trifft eine Entscheidung und ergreift anschließend geeignete Maßnahmen."
+      ]
+    },
+    {
+      "id": "gr33-e022",
+      "topicId": "gr-33",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Stehen oder stellen",
+      "title_ar": "stehen أم stellen",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "Die Unterlagen stehen Ihnen online zur Verfügung. Zusätzlich stellt die Behörde eine Ausfüllhilfe zur Verfügung.",
+      "explanation_de": "Stehen bedeutet verfügbar sein; stellen bedeutet bereitstellen.",
+      "explanation_ar": "تعني stehen أن يكون الشيء متاحًا، وتعني stellen توفيره.",
+      "grammarFocus": "stehen_stellen_contrast",
+      "options": [
+        "Die Unterlagen stehen Ihnen online zur Verfügung. Zusätzlich stellt die Behörde eine Ausfüllhilfe zur Verfügung.",
+        "Die Unterlagen stellen Ihnen online zur Verfügung. Die Behörde steht eine Hilfe zur Verfügung.",
+        "Die Unterlagen sind zur Verfügung gestellt Ihnen. Die Behörde steht eine Hilfe.",
+        "Die Unterlagen nehmen zur Verfügung. Die Behörde trifft eine Hilfe."
+      ]
+    },
+    {
+      "id": "gr33-e023",
+      "topicId": "gr-33",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Verbindungen umformen",
+      "title_ar": "إعادة صياغة ثلاثة روابط",
+      "prompt_de": "Formulieren Sie mit Nomen-Verb-Verbindungen: Die Leitung entscheidet. Sie handelt sofort. Sie informiert das Team.",
+      "prompt_ar": "أعد الصياغة باستخدام روابط الاسم والفعل.",
+      "answer": "Die Leitung trifft eine Entscheidung, ergreift sofort Maßnahmen und gibt dem Team Bescheid.",
+      "explanation_de": "Entscheiden, handeln und informieren werden durch feste Verbindungen ausgedrückt.",
+      "explanation_ar": "يُعبّر عن entscheiden وhandeln وinformieren باستخدام روابط ثابتة.",
+      "grammarFocus": "three_collocation_reformulation",
+      "acceptedAnswers": [
+        "Die Leitung trifft eine Entscheidung, ergreift sofort Maßnahmen und gibt dem Team Bescheid."
+      ]
+    },
+    {
+      "id": "gr33-e024",
+      "topicId": "gr-33",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Nomen-Verb-Verbindungen",
+      "title_ar": "تدريب ختامي على روابط الاسم والفعل",
+      "prompt_de": "Schreiben Sie einen sachlichen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens zehn verschiedene Nomen-Verb-Verbindungen, darunter eine Entscheidung treffen, einen Antrag stellen, Verantwortung übernehmen, Maßnahmen ergreifen, Einfluss nehmen auf, Rücksicht nehmen auf, Kritik üben an, zur Verfügung stehen, zur Verfügung stellen und in Anspruch nehmen.",
+      "prompt_ar": "اكتب نصًا مهنيًا موضوعيًا من اثنتي عشرة جملة على الأقل. استخدم عشرة روابط مختلفة على الأقل، منها eine Entscheidung treffen وeinen Antrag stellen وVerantwortung übernehmen وMaßnahmen ergreifen وEinfluss nehmen auf وRücksicht nehmen auf وKritik üben an وzur Verfügung stehen وzur Verfügung stellen وin Anspruch nehmen.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zehn verschiedene Nomen-Verb-Verbindungen",
+          "mindestens zwei Verbindungen mit fester Präposition",
+          "mindestens zwei Dativ-Ergänzungen",
+          "mindestens zwei Sätze im Perfekt oder Präteritum",
+          "mindestens zwei Passivsätze",
+          "korrekte Artikel und Kasus",
+          "korrekte Verbkonjugation",
+          "mindestens ein Vergleich zwischen einfachem Verb und Verbindung",
+          "sachlicher beruflicher Zusammenhang",
+          "keine wörtliche Übertragung falscher Verben wie machen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie feste Verbwahl, Artikel, Kasus, Präposition, Zeitform und Stil.",
+      "explanation_ar": "راجع الفعل الثابت والأداة والحالة وحرف الجر والزمن والأسلوب.",
+      "grammarFocus": "mixed_noun_verb_connections",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

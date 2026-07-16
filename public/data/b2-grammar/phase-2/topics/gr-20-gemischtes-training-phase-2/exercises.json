@@ -1,0 +1,772 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-20",
+  "title_de": "Gemischtes Training – Phase 2 – Übungen",
+  "title_ar": "تمارين شاملة – المرحلة الثانية",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr20-e001",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Würde-Form",
+      "title_ar": "صيغة würde",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich würde den Vorschlag noch einmal prüfen.",
+      "explanation_de": "Nach würde steht der Infinitiv prüfen.",
+      "explanation_ar": "بعد würde يأتي المصدر prüfen.",
+      "grammarFocus": "wuerde_infinitive",
+      "sourceTopics": [
+        "gr-11"
+      ],
+      "options": [
+        "Ich würde den Vorschlag noch einmal prüfen.",
+        "Ich würde den Vorschlag noch einmal geprüft.",
+        "Ich würde den Vorschlag noch einmal prüfte.",
+        "Ich würde den Vorschlag noch einmal zu prüfen."
+      ]
+    },
+    {
+      "id": "gr20-e002",
+      "topicId": "gr-20",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Wunsch im Hauptsatz",
+      "title_ar": "رغبة في الجملة الرئيسية",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich würde gern an der Fortbildung teilnehmen.",
+      "explanation_de": "Würde steht auf Position 2; teilnehmen steht am Ende.",
+      "explanation_ar": "تأتي würde في المرتبة الثانية وteilnehmen في النهاية.",
+      "grammarFocus": "wuerde_wish_order",
+      "sourceTopics": [
+        "gr-11"
+      ],
+      "tokens": [
+        "an der Fortbildung",
+        "teilnehmen",
+        "gern",
+        "würde",
+        "Ich"
+      ],
+      "acceptedAnswers": [
+        "Ich würde gern an der Fortbildung teilnehmen."
+      ]
+    },
+    {
+      "id": "gr20-e003",
+      "topicId": "gr-20",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Hypothetische Aussage",
+      "title_ar": "عبارة افتراضية",
+      "prompt_de": "Formulieren Sie hypothetisch: Ohne zusätzliche Unterstützung / die Umsetzung länger dauern.",
+      "prompt_ar": "صغ جملة افتراضية.",
+      "answer": "Ohne zusätzliche Unterstützung würde die Umsetzung länger dauern.",
+      "explanation_de": "Die Bedingung steht als Präpositionalgruppe; die Folge verwendet würde.",
+      "explanation_ar": "يأتي الشرط في شبه جملة وتستخدم النتيجة würde.",
+      "grammarFocus": "condition_without_wenn",
+      "sourceTopics": [
+        "gr-11",
+        "gr-13"
+      ],
+      "acceptedAnswers": [
+        "Ohne zusätzliche Unterstützung würde die Umsetzung länger dauern."
+      ]
+    },
+    {
+      "id": "gr20-e004",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Höfliche Bitte",
+      "title_ar": "طلب مهذب",
+      "prompt_de": "Welche Formulierung ist am höflichsten?",
+      "prompt_ar": "أي صياغة هي الأكثر أدبًا؟",
+      "answer": "Könnten Sie mir bitte eine Bestätigung schicken?",
+      "explanation_de": "Könnten Sie ... bitte ist eine höfliche Bitte.",
+      "explanation_ar": "تُعد Könnten Sie ... bitte طلبًا مهذبًا.",
+      "grammarFocus": "polite_request",
+      "sourceTopics": [
+        "gr-12"
+      ],
+      "options": [
+        "Könnten Sie mir bitte eine Bestätigung schicken?",
+        "Schicken Sie sofort eine Bestätigung.",
+        "Sie schicken mir eine Bestätigung.",
+        "Ich brauche die Bestätigung jetzt."
+      ]
+    },
+    {
+      "id": "gr20-e005",
+      "topicId": "gr-20",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Indirekte Frage",
+      "title_ar": "سؤال غير مباشر",
+      "prompt_de": "Formulieren Sie höflich: Ist ein Abteilungswechsel möglich?",
+      "prompt_ar": "صغ السؤال بصورة مهذبة وغير مباشرة.",
+      "answer": "Ich würde gern wissen, ob ein Abteilungswechsel möglich wäre.",
+      "explanation_de": "Würde gern wissen und ob machen die Frage höflich und indirekt.",
+      "explanation_ar": "تجعل würde gern wissen وob السؤال مهذبًا وغير مباشر.",
+      "grammarFocus": "polite_indirect_question",
+      "sourceTopics": [
+        "gr-11",
+        "gr-12"
+      ],
+      "acceptedAnswers": [
+        "Ich würde gern wissen, ob ein Abteilungswechsel möglich wäre.",
+        "Ich möchte gern wissen, ob ein Abteilungswechsel möglich wäre."
+      ]
+    },
+    {
+      "id": "gr20-e006",
+      "topicId": "gr-20",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Diplomatischer Ratschlag",
+      "title_ar": "نصيحة دبلوماسية",
+      "prompt_de": "Eine Person berichtet über wiederholte Probleme. Welcher Rat ist sachlich und vorsichtig?",
+      "prompt_ar": "يتحدث شخص عن مشكلات متكررة. أي نصيحة موضوعية وحذرة؟",
+      "answer": "An Ihrer Stelle würde ich die wichtigsten Vorfälle schriftlich dokumentieren.",
+      "explanation_de": "Die Form ist persönlich, konkret und nicht zu direkt.",
+      "explanation_ar": "الصيغة شخصية ومحددة وليست مباشرة أكثر من اللازم.",
+      "grammarFocus": "diplomatic_advice",
+      "sourceTopics": [
+        "gr-12"
+      ],
+      "options": [
+        "An Ihrer Stelle würde ich die wichtigsten Vorfälle schriftlich dokumentieren.",
+        "Sie müssen sofort kündigen.",
+        "Ignorieren Sie alles.",
+        "Beschweren Sie sich laut bei allen."
+      ]
+    },
+    {
+      "id": "gr20-e007",
+      "topicId": "gr-20",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Irreale Gegenwart",
+      "title_ar": "شرط غير واقعي في الحاضر",
+      "prompt_de": "Wenn wir mehr Personal ______, könnten wir sorgfältiger arbeiten.",
+      "prompt_ar": "لو كان لدينا موظفون أكثر لاستطعنا العمل بدقة أكبر.",
+      "answer": "hätten",
+      "explanation_de": "Haben bildet im Konjunktiv II die Form hätten.",
+      "explanation_ar": "صيغة Konjunktiv II من haben هي hätten.",
+      "grammarFocus": "irreale_present",
+      "sourceTopics": [
+        "gr-13"
+      ],
+      "acceptedAnswers": [
+        "hätten"
+      ]
+    },
+    {
+      "id": "gr20-e008",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Irreale Vergangenheit",
+      "title_ar": "شرط غير متحقق في الماضي",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wenn wir die Information früher erhalten hätten, hätten wir anders reagiert.",
+      "explanation_de": "Beide Handlungen liegen in einer nicht eingetretenen Vergangenheit.",
+      "explanation_ar": "تقع الجملتان في ماضٍ لم يتحقق.",
+      "grammarFocus": "irreale_past",
+      "sourceTopics": [
+        "gr-13"
+      ],
+      "options": [
+        "Wenn wir die Information früher erhalten hätten, hätten wir anders reagiert.",
+        "Wenn wir die Information früher erhalten würden, hätten wir gestern reagiert.",
+        "Wenn wir die Information früher erhalten haben, würden wir reagiert.",
+        "Wenn wir die Information früher erhalten wären, hätten wir reagieren."
+      ]
+    },
+    {
+      "id": "gr20-e009",
+      "topicId": "gr-20",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Bedingung ohne wenn",
+      "title_ar": "شرط من دون wenn",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Hätte ich die Nachricht früher gelesen, hätte ich sofort reagiert.",
+      "explanation_de": "Ohne wenn steht hätte am Anfang.",
+      "explanation_ar": "من دون wenn تأتي hätte في البداية.",
+      "grammarFocus": "past_condition_inversion",
+      "sourceTopics": [
+        "gr-13"
+      ],
+      "tokens": [
+        "sofort",
+        "gelesen",
+        "hätte",
+        "ich",
+        "Hätte",
+        "reagiert",
+        "die Nachricht",
+        "früher",
+        "ich"
+      ],
+      "acceptedAnswers": [
+        "Hätte ich die Nachricht früher gelesen, hätte ich sofort reagiert."
+      ]
+    },
+    {
+      "id": "gr20-e010",
+      "topicId": "gr-20",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Als und als ob",
+      "title_ar": "als وals ob",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Er tut so, als ob": "er alles wüsste.",
+        "Er tut so, als": "wüsste er alles.",
+        "Sie wirkt, als ob": "sie die Nachricht gelesen hätte.",
+        "Sie wirkt, als": "hätte sie die Nachricht gelesen."
+      },
+      "explanation_de": "Nach als ob steht das Verb am Ende; nach als direkt nach als.",
+      "explanation_ar": "بعد als ob يأتي الفعل في النهاية، وبعد als يأتي مباشرة.",
+      "grammarFocus": "irreal_comparison",
+      "sourceTopics": [
+        "gr-13"
+      ],
+      "pairs": [
+        [
+          "Er tut so, als ob",
+          "er alles wüsste."
+        ],
+        [
+          "Er tut so, als",
+          "wüsste er alles."
+        ],
+        [
+          "Sie wirkt, als ob",
+          "sie die Nachricht gelesen hätte."
+        ],
+        [
+          "Sie wirkt, als",
+          "hätte sie die Nachricht gelesen."
+        ]
+      ]
+    },
+    {
+      "id": "gr20-e011",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Passiv Präsens",
+      "title_ar": "المجهول في Präsens",
+      "prompt_de": "Welche Form ist Passiv Präsens?",
+      "prompt_ar": "أي صيغة هي Passiv Präsens؟",
+      "answer": "Die Unterlagen werden geprüft.",
+      "explanation_de": "Werden + Partizip II bildet das Passiv Präsens.",
+      "explanation_ar": "تكوّن werden + Partizip II المبني للمجهول في Präsens.",
+      "grammarFocus": "passive_present",
+      "sourceTopics": [
+        "gr-14"
+      ],
+      "options": [
+        "Die Unterlagen werden geprüft.",
+        "Die Unterlagen wurden geprüft.",
+        "Die Unterlagen sind geprüft.",
+        "Die Mitarbeitenden prüfen die Unterlagen."
+      ]
+    },
+    {
+      "id": "gr20-e012",
+      "topicId": "gr-20",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in Passiv",
+      "title_ar": "التحويل إلى المبني للمجهول",
+      "prompt_de": "Formen Sie um: Die Personalabteilung prüfte die Bewerbungen.",
+      "prompt_ar": "حوّل الجملة إلى المبني للمجهول.",
+      "answer": "Die Bewerbungen wurden von der Personalabteilung geprüft.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; prüfte wird zu wurden geprüft.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا وتتحول prüfte إلى wurden geprüft.",
+      "grammarFocus": "active_passive_past",
+      "sourceTopics": [
+        "gr-14"
+      ],
+      "acceptedAnswers": [
+        "Die Bewerbungen wurden von der Personalabteilung geprüft.",
+        "Die Bewerbungen wurden geprüft."
+      ]
+    },
+    {
+      "id": "gr20-e013",
+      "topicId": "gr-20",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dativ im Passiv",
+      "title_ar": "Dativ في المبني للمجهول",
+      "prompt_de": "______ Beschäftigten wurden neue Aufgaben zugeteilt.",
+      "prompt_ar": "تم تكليف الموظفين بمهام جديدة.",
+      "answer": "Den",
+      "explanation_de": "Das Dativobjekt bleibt im Dativ: den Beschäftigten.",
+      "explanation_ar": "يبقى مفعول Dativ في Dativ: den Beschäftigten.",
+      "grammarFocus": "passive_dative",
+      "sourceTopics": [
+        "gr-14"
+      ],
+      "acceptedAnswers": [
+        "Den",
+        "den"
+      ]
+    },
+    {
+      "id": "gr20-e014",
+      "topicId": "gr-20",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Von oder durch",
+      "title_ar": "von أم durch",
+      "prompt_de": "Eine technische Störung verursachte den Ausfall. Welche Passivform ist korrekt?",
+      "prompt_ar": "تسبب عطل تقني في التوقف. أي صيغة مجهول صحيحة؟",
+      "answer": "Der Ausfall wurde durch eine technische Störung verursacht.",
+      "explanation_de": "Eine Ursache wird mit durch + Akkusativ ausgedrückt.",
+      "explanation_ar": "يُعبَّر عن السبب باستخدام durch + Akkusativ.",
+      "grammarFocus": "passive_durch",
+      "sourceTopics": [
+        "gr-14"
+      ],
+      "options": [
+        "Der Ausfall wurde durch eine technische Störung verursacht.",
+        "Der Ausfall wurde von eine technische Störung verursacht.",
+        "Der Ausfall ist durch einer Störung verursachen.",
+        "Der Ausfall wurde durch einer technischen Störung verursacht."
+      ]
+    },
+    {
+      "id": "gr20-e015",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Perfekt Passiv",
+      "title_ar": "Perfekt Passiv",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag ist bereits geprüft worden.",
+      "explanation_de": "Perfekt Passiv besteht aus ist + Partizip II + worden.",
+      "explanation_ar": "يتكوّن Perfekt Passiv من ist + Partizip II + worden.",
+      "grammarFocus": "perfect_passive",
+      "sourceTopics": [
+        "gr-15"
+      ],
+      "options": [
+        "Der Antrag ist bereits geprüft worden.",
+        "Der Antrag ist bereits geprüft geworden.",
+        "Der Antrag hat bereits geprüft worden.",
+        "Der Antrag war bereits geprüft werden."
+      ]
+    },
+    {
+      "id": "gr20-e016",
+      "topicId": "gr-20",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Plusquamperfekt Passiv",
+      "title_ar": "Plusquamperfekt Passiv",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem der Fehler behoben worden war, wurde das System neu gestartet.",
+      "explanation_de": "Das frühere Ereignis steht im Plusquamperfekt Passiv.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt Passiv.",
+      "grammarFocus": "pluperfect_passive_sequence",
+      "sourceTopics": [
+        "gr-15"
+      ],
+      "tokens": [
+        "neu gestartet",
+        "worden",
+        "Nachdem",
+        "wurde",
+        "war",
+        "das System",
+        "behoben",
+        "der Fehler"
+      ],
+      "acceptedAnswers": [
+        "Nachdem der Fehler behoben worden war, wurde das System neu gestartet."
+      ]
+    },
+    {
+      "id": "gr20-e017",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Futur II Passiv",
+      "title_ar": "Futur II Passiv",
+      "prompt_de": "Welche Form beschreibt einen zukünftig abgeschlossenen Vorgang?",
+      "prompt_ar": "أي صيغة تصف عملية ستكون قد انتهت مستقبلًا؟",
+      "answer": "Bis Freitag werden alle Anträge bearbeitet worden sein.",
+      "explanation_de": "Futur II Passiv besteht aus werden + Partizip II + worden + sein.",
+      "explanation_ar": "يتكوّن Futur II Passiv من werden + Partizip II + worden + sein.",
+      "grammarFocus": "future_two_passive",
+      "sourceTopics": [
+        "gr-15"
+      ],
+      "options": [
+        "Bis Freitag werden alle Anträge bearbeitet worden sein.",
+        "Bis Freitag werden alle Anträge bearbeitet werden.",
+        "Bis Freitag sind alle Anträge bearbeitet worden.",
+        "Bis Freitag wurden alle Anträge bearbeitet."
+      ]
+    },
+    {
+      "id": "gr20-e018",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalpassiv",
+      "title_ar": "Modalpassiv",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Bericht muss heute verschickt werden.",
+      "explanation_de": "Das Modalpassiv endet mit Partizip II + werden.",
+      "explanation_ar": "ينتهي Modalpassiv بـ Partizip II + werden.",
+      "grammarFocus": "modal_passive_basic",
+      "sourceTopics": [
+        "gr-16"
+      ],
+      "options": [
+        "Der Bericht muss heute verschickt werden.",
+        "Der Bericht muss heute verschickt.",
+        "Der Bericht wird heute müssen verschickt.",
+        "Der Bericht muss heute verschicken werden."
+      ]
+    },
+    {
+      "id": "gr20-e019",
+      "topicId": "gr-20",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Modalpassiv im Nebensatz",
+      "title_ar": "Modalpassiv في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil die Regeln eingehalten werden müssen",
+      "explanation_de": "Im Nebensatz steht müssen am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي müssen في النهاية.",
+      "grammarFocus": "modal_passive_subordinate",
+      "sourceTopics": [
+        "gr-16"
+      ],
+      "tokens": [
+        "müssen",
+        "eingehalten",
+        "weil",
+        "die Regeln",
+        "werden"
+      ],
+      "acceptedAnswers": [
+        "weil die Regeln eingehalten werden müssen"
+      ]
+    },
+    {
+      "id": "gr20-e020",
+      "topicId": "gr-20",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Modalpassiv und Bedeutung",
+      "title_ar": "Modalpassiv والمعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "muss geprüft werden": "Notwendigkeit",
+        "darf nicht geöffnet werden": "Verbot",
+        "kann geändert werden": "Möglichkeit",
+        "sollte überprüft werden": "Empfehlung"
+      },
+      "explanation_de": "Das Modalverb bestimmt die Bedeutung des Passivsatzes.",
+      "explanation_ar": "يحدد الفعل الناقص معنى جملة المبني للمجهول.",
+      "grammarFocus": "modal_passive_meaning",
+      "sourceTopics": [
+        "gr-16",
+        "gr-18"
+      ],
+      "pairs": [
+        [
+          "muss geprüft werden",
+          "Notwendigkeit"
+        ],
+        [
+          "darf nicht geöffnet werden",
+          "Verbot"
+        ],
+        [
+          "kann geändert werden",
+          "Möglichkeit"
+        ],
+        [
+          "sollte überprüft werden",
+          "Empfehlung"
+        ]
+      ]
+    },
+    {
+      "id": "gr20-e021",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "عملية أم حالة",
+      "prompt_de": "Welcher Satz beschreibt einen Zustand?",
+      "prompt_ar": "أي جملة تصف حالة؟",
+      "answer": "Der Raum ist reserviert.",
+      "explanation_de": "Sein + Partizip II beschreibt den Zustand.",
+      "explanation_ar": "تصف sein + Partizip II الحالة.",
+      "grammarFocus": "state_passive",
+      "sourceTopics": [
+        "gr-17"
+      ],
+      "options": [
+        "Der Raum ist reserviert.",
+        "Der Raum wird reserviert.",
+        "Jemand reserviert den Raum.",
+        "Der Raum wurde gerade reserviert."
+      ]
+    },
+    {
+      "id": "gr20-e022",
+      "topicId": "gr-20",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Prozess und Ergebnis",
+      "title_ar": "العملية والنتيجة",
+      "prompt_de": "Bilden Sie zwei Sätze: Die Software wird installiert. Danach besteht der fertige Zustand.",
+      "prompt_ar": "كوّن جملتين للعملية والنتيجة.",
+      "answer": "Die Software wird installiert. Danach ist sie installiert.",
+      "explanation_de": "Der erste Satz beschreibt den Vorgang; der zweite den Zustand.",
+      "explanation_ar": "تصف الجملة الأولى العملية والثانية الحالة.",
+      "grammarFocus": "process_result",
+      "sourceTopics": [
+        "gr-17"
+      ],
+      "acceptedAnswers": [
+        "Die Software wird installiert. Danach ist sie installiert."
+      ]
+    },
+    {
+      "id": "gr20-e023",
+      "topicId": "gr-20",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Vorgang und Zustand kombinieren",
+      "title_ar": "دمج العملية والحالة",
+      "prompt_de": "Die Sicherheitsprüfung läuft noch; deshalb ist der Eingang nicht zugänglich. Welche Form passt?",
+      "prompt_ar": "فحص السلامة ما زال جاريًا؛ لذلك المدخل غير متاح. أي صيغة مناسبة؟",
+      "answer": "Der Eingang ist gesperrt, weil die Sicherheitsprüfung noch durchgeführt wird.",
+      "explanation_de": "Ist gesperrt beschreibt den Zustand; durchgeführt wird den Vorgang.",
+      "explanation_ar": "تصف ist gesperrt الحالة، وتصف durchgeführt wird العملية.",
+      "grammarFocus": "process_state_combination",
+      "sourceTopics": [
+        "gr-17"
+      ],
+      "options": [
+        "Der Eingang ist gesperrt, weil die Sicherheitsprüfung noch durchgeführt wird.",
+        "Der Eingang wird gesperrt, weil die Prüfung bereits durchgeführt ist.",
+        "Der Eingang ist sperren, weil wird die Prüfung durchgeführt.",
+        "Der Eingang wurde gesperrt sein, weil die Prüfung läuft."
+      ]
+    },
+    {
+      "id": "gr20-e024",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nicht müssen",
+      "title_ar": "nicht müssen",
+      "prompt_de": "Welche Aussage bedeutet: Es ist nicht notwendig?",
+      "prompt_ar": "أي جملة تعني أن الأمر غير ضروري؟",
+      "answer": "Sie müssen heute nicht länger bleiben.",
+      "explanation_de": "Nicht müssen hebt die Notwendigkeit auf.",
+      "explanation_ar": "تلغي nicht müssen الضرورة.",
+      "grammarFocus": "not_must",
+      "sourceTopics": [
+        "gr-18"
+      ],
+      "options": [
+        "Sie müssen heute nicht länger bleiben.",
+        "Sie dürfen heute nicht länger bleiben.",
+        "Sie können heute nicht länger bleiben.",
+        "Sie wollen heute nicht länger bleiben."
+      ]
+    },
+    {
+      "id": "gr20-e025",
+      "topicId": "gr-20",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vorsichtige Vermutung",
+      "title_ar": "توقع حذر",
+      "prompt_de": "Die Besprechung ______ ungefähr eine Stunde dauern.",
+      "prompt_ar": "من المرجح أن يستغرق الاجتماع نحو ساعة.",
+      "answer": "dürfte",
+      "explanation_de": "Dürfte drückt eine vorsichtige Vermutung aus.",
+      "explanation_ar": "تعبّر dürfte عن توقع حذر.",
+      "grammarFocus": "cautious_assumption",
+      "sourceTopics": [
+        "gr-18"
+      ],
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "gr20-e026",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Hörensagen",
+      "title_ar": "النقل عن الآخرين",
+      "prompt_de": "Welche Form gibt eine nicht selbst bestätigte Information wieder?",
+      "prompt_ar": "أي صيغة تنقل معلومة لم يؤكدها المتحدث بنفسه؟",
+      "answer": "Die neue Methode soll besonders wirksam sein.",
+      "explanation_de": "Sollen kennzeichnet hier Hörensagen.",
+      "explanation_ar": "تدل sollen هنا على معلومة منقولة.",
+      "grammarFocus": "hearsay",
+      "sourceTopics": [
+        "gr-18"
+      ],
+      "options": [
+        "Die neue Methode soll besonders wirksam sein.",
+        "Die neue Methode muss besonders wirksam sein.",
+        "Die neue Methode will besonders wirksam sein.",
+        "Die neue Methode darf besonders wirksam sein."
+      ]
+    },
+    {
+      "id": "gr20-e027",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ersatzinfinitiv",
+      "title_ar": "Ersatzinfinitiv",
+      "prompt_de": "Welche Perfektform ist korrekt?",
+      "prompt_ar": "أي صيغة Perfekt صحيحة؟",
+      "answer": "Wir haben den Termin verschieben müssen.",
+      "explanation_de": "Mit einem zweiten Verb steht müssen im Ersatzinfinitiv.",
+      "explanation_ar": "مع وجود فعل ثانٍ تأتي müssen في Ersatzinfinitiv.",
+      "grammarFocus": "modal_perfect",
+      "sourceTopics": [
+        "gr-19"
+      ],
+      "options": [
+        "Wir haben den Termin verschieben müssen.",
+        "Wir haben den Termin verschieben gemusst.",
+        "Wir sind den Termin verschieben müssen.",
+        "Wir haben den Termin verschoben müssen."
+      ]
+    },
+    {
+      "id": "gr20-e028",
+      "topicId": "gr-20",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Ersatzinfinitiv im Nebensatz",
+      "title_ar": "Ersatzinfinitiv في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil wir den Termin haben verschieben müssen",
+      "explanation_de": "Im Nebensatz steht haben vor verschieben müssen.",
+      "explanation_ar": "في الجملة الفرعية تأتي haben قبل verschieben müssen.",
+      "grammarFocus": "modal_perfect_subordinate",
+      "sourceTopics": [
+        "gr-19"
+      ],
+      "tokens": [
+        "müssen",
+        "den Termin",
+        "haben",
+        "weil",
+        "verschieben",
+        "wir"
+      ],
+      "acceptedAnswers": [
+        "weil wir den Termin haben verschieben müssen"
+      ]
+    },
+    {
+      "id": "gr20-e029",
+      "topicId": "gr-20",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Vergangene Vermutung",
+      "title_ar": "توقع يتعلق بالماضي",
+      "prompt_de": "Welche Form ist eine vorsichtige Vermutung über die Vergangenheit?",
+      "prompt_ar": "أي صيغة هي توقع حذر يتعلق بالماضي؟",
+      "answer": "Die Lieferung dürfte bereits eingetroffen sein.",
+      "explanation_de": "Dürfte + Perfektinfinitiv kennzeichnet eine vorsichtige Vermutung.",
+      "explanation_ar": "تدل dürfte مع Perfektinfinitiv على توقع حذر.",
+      "grammarFocus": "past_cautious_assumption",
+      "sourceTopics": [
+        "gr-19"
+      ],
+      "options": [
+        "Die Lieferung dürfte bereits eingetroffen sein.",
+        "Die Lieferung muss bereits eingetroffen haben.",
+        "Die Lieferung will bereits eintreffen sein.",
+        "Die Lieferung durfte bereits eingetroffen."
+      ]
+    },
+    {
+      "id": "gr20-e030",
+      "topicId": "gr-20",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstext Phase 2",
+      "title_ar": "النص الختامي للمرحلة الثانية",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Beschreiben Sie ein Problem, eine hypothetische Lösung und den weiteren Ablauf. Verwenden Sie mindestens zwei Konjunktiv-II-Sätze, eine höfliche Bitte, eine irreale Bedingung in der Vergangenheit, drei verschiedene Passivformen, ein Modalpassiv, einen Zustand, drei Modalverben mit unterschiedlicher Bedeutung und eine Perfektform mit Ersatzinfinitiv.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. صف مشكلة وحلًا افتراضيًا وسير العمل اللاحق. استخدم جملتين على الأقل في Konjunktiv II، وطلبًا مهذبًا، وشرطًا غير متحقق في الماضي، وثلاث صيغ مختلفة للمبني للمجهول، وModalpassiv، وحالة، وثلاثة أفعال ناقصة بمعانٍ مختلفة، وصيغة Perfekt مع Ersatzinfinitiv.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Konjunktiv-II-Sätze",
+          "mindestens eine höfliche Bitte",
+          "mindestens eine irreale Bedingung in der Vergangenheit",
+          "mindestens drei verschiedene Passivformen",
+          "mindestens ein Modalpassiv",
+          "mindestens ein Zustandspassiv",
+          "mindestens drei Modalverben mit unterschiedlichen Bedeutungen",
+          "mindestens eine Perfektform mit Ersatzinfinitiv",
+          "korrekte Verbposition in mindestens zwei Nebensätzen",
+          "logischer beruflicher Zusammenhang"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bedeutung, Zeitform, Hilfsverb, Infinitiv und Verbposition.",
+      "explanation_ar": "راجع المعنى والزمن والفعل المساعد والمصدر وموقع الفعل.",
+      "grammarFocus": "phase_two_mixed_mastery",
+      "sourceTopics": [
+        "gr-11",
+        "gr-12",
+        "gr-13",
+        "gr-14",
+        "gr-15",
+        "gr-16",
+        "gr-17",
+        "gr-18",
+        "gr-19"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-07",
+  "slug": "gr-07-plusquamperfekt",
+  "order": 7,
+  "title_de": "Plusquamperfekt",
+  "title_ar": "الماضي الأسبق",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "zeiten_training",
+  "estimatedMinutes": 40,
+  "learningObjectives_de": [
+    "Das Plusquamperfekt mit hatte oder war und Partizip II korrekt bilden.",
+    "Vorzeitigkeit in der Vergangenheit klar ausdrücken.",
+    "Nachdem, bevor und als mit passenden Zeitformen verwenden.",
+    "Zwischen Perfekt, Präteritum und Plusquamperfekt unterscheiden.",
+    "Haupt- und Nebensätze mit Plusquamperfekt korrekt ordnen.",
+    "Zeitliche Abläufe in Berichten und Erzählungen logisch strukturieren."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Plusquamperfekt باستخدام hatte أو war مع Partizip II.",
+    "التعبير بوضوح عن حدث وقع قبل حدث ماضٍ آخر.",
+    "استخدام nachdem وbevor وals مع الأزمنة المناسبة.",
+    "التمييز بين Perfekt وPräteritum وPlusquamperfekt.",
+    "ترتيب الجمل الرئيسية والفرعية مع Plusquamperfekt بصورة صحيحة.",
+    "تنظيم تسلسل الأحداث في التقارير والسرد."
+  ],
+  "shortDescription_de": "Das Plusquamperfekt beschreibt eine Handlung, die vor einer anderen vergangenen Handlung abgeschlossen war.",
+  "shortDescription_ar": "يصف Plusquamperfekt حدثًا كان قد انتهى قبل حدث آخر في الماضي.",
+  "explanation_de": "Das Plusquamperfekt wird mit dem Präteritum von haben oder sein und dem Partizip II gebildet: hatte gemacht, war gegangen. Es drückt Vorzeitigkeit aus, also ein Ereignis, das vor einem anderen vergangenen Ereignis stattfand. Das spätere Ereignis steht meist im Präteritum, gelegentlich im Perfekt. Besonders häufig erscheint das Plusquamperfekt mit nachdem, bevor und als. Im Hauptsatz steht hatte oder war auf Position 2 und das Partizip II am Ende. Im Nebensatz stehen Partizip II und hatte/war am Ende.",
+  "explanation_ar": "يتكوّن Plusquamperfekt من Präteritum للفعل المساعد haben أو sein مع Partizip II مثل: hatte gemacht وwar gegangen. ويعبّر عن حدث وقع وانتهى قبل حدث آخر في الماضي. يأتي الحدث اللاحق غالبًا في Präteritum، وأحيانًا في Perfekt. ويظهر Plusquamperfekt كثيرًا مع nachdem وbevor وals. في الجملة الرئيسية يأتي hatte أو war في المرتبة الثانية وPartizip II في النهاية، أما في الجملة الفرعية فتأتي مجموعة Partizip II + hatte/war في النهاية.",
+  "rules": [
+    {
+      "id": "gr07-r01",
+      "title_de": "Bildung mit hatte",
+      "title_ar": "التكوين باستخدام hatte",
+      "explanation_de": "Verben, die im Perfekt haben verwenden, bilden das Plusquamperfekt mit hatte.",
+      "explanation_ar": "الأفعال التي تستخدم haben في Perfekt تكوّن Plusquamperfekt باستخدام hatte.",
+      "formula": "hatte + Partizip II",
+      "examples": [
+        {
+          "de": "Ich hatte den Bericht bereits geschrieben.",
+          "ar": "كنت قد كتبت التقرير بالفعل."
+        },
+        {
+          "de": "Wir hatten die Unterlagen geprüft.",
+          "ar": "كنا قد فحصنا المستندات."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r02",
+      "title_de": "Bildung mit war",
+      "title_ar": "التكوين باستخدام war",
+      "explanation_de": "Verben, die im Perfekt sein verwenden, bilden das Plusquamperfekt mit war.",
+      "explanation_ar": "الأفعال التي تستخدم sein في Perfekt تكوّن Plusquamperfekt باستخدام war.",
+      "formula": "war + Partizip II",
+      "examples": [
+        {
+          "de": "Sie war bereits gegangen.",
+          "ar": "كانت قد غادرت بالفعل."
+        },
+        {
+          "de": "Der Zug war pünktlich angekommen.",
+          "ar": "كان القطار قد وصل في الوقت المحدد."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r03",
+      "title_de": "Vorzeitigkeit in der Vergangenheit",
+      "title_ar": "الأسبقية في الماضي",
+      "explanation_de": "Das frühere Ereignis steht im Plusquamperfekt, das spätere meist im Präteritum.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt، والحدث اللاحق غالبًا في Präteritum.",
+      "formula": "Plusquamperfekt → danach Präteritum",
+      "examples": [
+        {
+          "de": "Ich hatte den Antrag abgeschickt. Danach erhielt ich eine Bestätigung.",
+          "ar": "كنت قد أرسلت الطلب، ثم تلقيت تأكيدًا."
+        },
+        {
+          "de": "Sie war bereits gegangen, als der Chef anrief.",
+          "ar": "كانت قد غادرت عندما اتصل المدير."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r04",
+      "title_de": "Nachdem",
+      "title_ar": "استخدام nachdem",
+      "explanation_de": "Nachdem leitet häufig das frühere Ereignis im Plusquamperfekt ein.",
+      "explanation_ar": "تقدم nachdem غالبًا الحدث الأسبق في Plusquamperfekt.",
+      "formula": "Nachdem + Plusquamperfekt, Präteritum",
+      "examples": [
+        {
+          "de": "Nachdem ich den Antrag abgeschickt hatte, erhielt ich eine Bestätigung.",
+          "ar": "بعد أن كنت قد أرسلت الطلب، تلقيت تأكيدًا."
+        },
+        {
+          "de": "Nachdem der Techniker angekommen war, begann die Reparatur.",
+          "ar": "بعد أن كان الفني قد وصل، بدأت عملية الإصلاح."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r05",
+      "title_de": "Bevor",
+      "title_ar": "استخدام bevor",
+      "explanation_de": "Bevor nennt das spätere Ereignis zuerst. Das frühere Ereignis kann je nach Perspektive im Präteritum oder Plusquamperfekt stehen.",
+      "explanation_ar": "تذكر bevor الحدث اللاحق أولًا. ويمكن أن يأتي الحدث الأسبق في Präteritum أو Plusquamperfekt بحسب زاوية العرض.",
+      "formula": "Hauptereignis, bevor + späteres Ereignis / Vorzeitigkeit aus Kontext",
+      "examples": [
+        {
+          "de": "Sie hatte alle Daten gesichert, bevor das System ausfiel.",
+          "ar": "كانت قد حفظت جميع البيانات قبل أن يتعطل النظام."
+        },
+        {
+          "de": "Bevor die Besprechung begann, hatte ich alle Unterlagen vorbereitet.",
+          "ar": "قبل أن يبدأ الاجتماع، كنت قد جهزت جميع المستندات."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r06",
+      "title_de": "Als und zeitliche Einordnung",
+      "title_ar": "als والتحديد الزمني",
+      "explanation_de": "Als bezeichnet ein einmaliges Ereignis in der Vergangenheit; das bereits abgeschlossene frühere Ereignis steht im Plusquamperfekt.",
+      "explanation_ar": "تصف als حدثًا واحدًا في الماضي، ويأتي الحدث الذي كان قد انتهى قبله في Plusquamperfekt.",
+      "formula": "Plusquamperfekt, als + Präteritum",
+      "examples": [
+        {
+          "de": "Ich hatte das Büro schon verlassen, als die Nachricht kam.",
+          "ar": "كنت قد غادرت المكتب عندما وصلت الرسالة."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r07",
+      "title_de": "Satzstellung",
+      "title_ar": "ترتيب الجملة",
+      "explanation_de": "Im Hauptsatz steht hatte/war auf Position 2 und das Partizip am Ende. Im Nebensatz steht das Partizip vor hatte/war am Satzende.",
+      "explanation_ar": "في الجملة الرئيسية يأتي hatte/war في المرتبة الثانية وPartizip في النهاية. وفي الجملة الفرعية يأتي Partizip قبل hatte/war في نهاية الجملة.",
+      "formula": "Hauptsatz: hatte/war ... Partizip | Nebensatz: ... Partizip hatte/war",
+      "examples": [
+        {
+          "de": "Wir hatten die Aufgabe bereits erledigt.",
+          "ar": "كنا قد أنجزنا المهمة بالفعل."
+        },
+        {
+          "de": "..., weil wir die Aufgabe bereits erledigt hatten.",
+          "ar": "... لأننا كنا قد أنجزنا المهمة بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr07-r08",
+      "title_de": "Abgrenzung zu Perfekt und Präteritum",
+      "title_ar": "التمييز عن Perfekt وPräteritum",
+      "explanation_de": "Perfekt und Präteritum berichten über vergangene Ereignisse. Plusquamperfekt markiert ausdrücklich, dass ein Ereignis noch früher lag.",
+      "explanation_ar": "يصف Perfekt وPräteritum أحداثًا ماضية، بينما يوضح Plusquamperfekt أن حدثًا ما وقع قبل حدث ماضٍ آخر.",
+      "formula": "früher: Plusquamperfekt | später: Präteritum/Perfekt",
+      "examples": [
+        {
+          "de": "Der Kunde rief an, nachdem er die Rechnung erhalten hatte.",
+          "ar": "اتصل العميل بعد أن كان قد استلم الفاتورة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr07-t01",
+      "title_de": "Bildung",
+      "title_ar": "التكوين",
+      "headers_de": [
+        "Infinitiv",
+        "Perfekt",
+        "Plusquamperfekt"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Perfekt",
+        "Plusquamperfekt"
+      ],
+      "rows": [
+        [
+          "machen",
+          "hat gemacht",
+          "hatte gemacht"
+        ],
+        [
+          "schreiben",
+          "hat geschrieben",
+          "hatte geschrieben"
+        ],
+        [
+          "gehen",
+          "ist gegangen",
+          "war gegangen"
+        ],
+        [
+          "ankommen",
+          "ist angekommen",
+          "war angekommen"
+        ],
+        [
+          "sich vorbereiten",
+          "hat sich vorbereitet",
+          "hatte sich vorbereitet"
+        ]
+      ]
+    },
+    {
+      "id": "gr07-t02",
+      "title_de": "Typische Zeitkombination",
+      "title_ar": "تركيب الأزمنة الشائع",
+      "headers_de": [
+        "Früheres Ereignis",
+        "Späteres Ereignis",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الحدث الأسبق",
+        "الحدث اللاحق",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Plusquamperfekt",
+          "Präteritum",
+          "Nachdem sie gegangen war, rief er an."
+        ],
+        [
+          "Plusquamperfekt",
+          "Perfekt",
+          "Nachdem sie gegangen war, hat er angerufen."
+        ],
+        [
+          "Präteritum",
+          "Präteritum",
+          "Wenn die Reihenfolge bereits eindeutig ist."
+        ]
+      ]
+    },
+    {
+      "id": "gr07-t03",
+      "title_de": "Wichtige Formen",
+      "title_ar": "صيغ مهمة",
+      "headers_de": [
+        "Infinitiv",
+        "Präteritum",
+        "Partizip II",
+        "Plusquamperfekt"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Präteritum",
+        "Partizip II",
+        "Plusquamperfekt"
+      ],
+      "rows": [
+        [
+          "schreiben",
+          "schrieb",
+          "geschrieben",
+          "hatte geschrieben"
+        ],
+        [
+          "erhalten",
+          "erhielt",
+          "erhalten",
+          "hatte erhalten"
+        ],
+        [
+          "gehen",
+          "ging",
+          "gegangen",
+          "war gegangen"
+        ],
+        [
+          "ankommen",
+          "kam an",
+          "angekommen",
+          "war angekommen"
+        ],
+        [
+          "beginnen",
+          "begann",
+          "begonnen",
+          "hatte begonnen"
+        ],
+        [
+          "sich entscheiden",
+          "entschied sich",
+          "sich entschieden",
+          "hatte sich entschieden"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Nachdem die Personalabteilung meine Unterlagen geprüft hatte, erhielt ich eine Einladung.",
+      "ar": "بعد أن كان قسم الموارد البشرية قد فحص مستنداتي، تلقيت دعوة.",
+      "note_de": "Prüfen geschah vor erhalten.",
+      "note_ar": "حدث الفحص قبل استلام الدعوة."
+    },
+    {
+      "de": "Der Techniker konnte sofort beginnen, weil wir das Gerät bereits ausgeschaltet hatten.",
+      "ar": "تمكن الفني من البدء فورًا لأننا كنا قد أطفأنا الجهاز.",
+      "note_de": "Das Ausschalten geschah vor dem Beginn der Arbeit.",
+      "note_ar": "حدث إطفاء الجهاز قبل بدء العمل."
+    },
+    {
+      "de": "Sie war schon nach Hause gefahren, als die Vorgesetzte anrief.",
+      "ar": "كانت قد عادت إلى المنزل عندما اتصلت الرئيسة.",
+      "note_de": "Fahren wird mit sein gebildet.",
+      "note_ar": "يُستخدم sein مع fahren هنا."
+    },
+    {
+      "de": "Bevor die Prüfung begann, hatte ich alle Aufgaben noch einmal gelesen.",
+      "ar": "قبل أن يبدأ الامتحان، كنت قد قرأت جميع الأسئلة مرة أخرى.",
+      "note_de": "Das Lesen war vor dem Beginn abgeschlossen.",
+      "note_ar": "كان فعل القراءة قد انتهى قبل بداية الامتحان."
+    },
+    {
+      "de": "Der Kunde beschwerte sich, nachdem er mehrere Tage auf eine Antwort gewartet hatte.",
+      "ar": "اشتكى العميل بعد أن كان قد انتظر عدة أيام للحصول على رد.",
+      "note_de": "Die Wartezeit lag vor der Beschwerde.",
+      "note_ar": "فترة الانتظار سبقت الشكوى."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Nachdem ich den Antrag abgeschickt habe, erhielt ich eine Bestätigung.",
+      "correct": "Nachdem ich den Antrag abgeschickt hatte, erhielt ich eine Bestätigung.",
+      "explanation_de": "Bei einer klaren Vorzeitigkeit in der Vergangenheit steht das frühere Ereignis im Plusquamperfekt.",
+      "explanation_ar": "عند وجود أسبقية واضحة في الماضي يأتي الحدث الأسبق في Plusquamperfekt."
+    },
+    {
+      "wrong": "Sie hatte nach Hause gegangen.",
+      "correct": "Sie war nach Hause gegangen.",
+      "explanation_de": "Gehen bildet das Perfekt und Plusquamperfekt mit sein.",
+      "explanation_ar": "يستخدم gehen الفعل المساعد sein في Perfekt وPlusquamperfekt."
+    },
+    {
+      "wrong": "Weil wir hatten die Unterlagen geprüft, konnten wir beginnen.",
+      "correct": "Weil wir die Unterlagen geprüft hatten, konnten wir beginnen.",
+      "explanation_de": "Im Nebensatz stehen Partizip und Hilfsverb am Ende.",
+      "explanation_ar": "في الجملة الفرعية يأتي Partizip والفعل المساعد في النهاية."
+    },
+    {
+      "wrong": "Ich hatte gegangen, bevor er anrief.",
+      "correct": "Ich war gegangen, bevor er anrief.",
+      "explanation_de": "Gehen verwendet sein, also war gegangen.",
+      "explanation_ar": "يستخدم gehen الفعل المساعد sein، لذلك نقول war gegangen."
+    },
+    {
+      "wrong": "Nachdem er anrief, hatte ich das Büro verlassen.",
+      "correct": "Nachdem ich das Büro verlassen hatte, rief er an.",
+      "explanation_de": "Nachdem leitet hier das frühere Ereignis ein.",
+      "explanation_ar": "تقدم nachdem هنا الحدث الأسبق."
+    },
+    {
+      "wrong": "Der Bericht hatte fertiggestellt.",
+      "correct": "Wir hatten den Bericht fertiggestellt.",
+      "explanation_de": "Das Aktiv braucht ein Subjekt; hatte allein ersetzt kein Subjekt.",
+      "explanation_ar": "تحتاج الجملة المبنية للمعلوم إلى فاعل، ولا يحل hatte محل الفاعل."
+    }
+  ],
+  "quickSummary_de": [
+    "Plusquamperfekt = hatte/war + Partizip II.",
+    "Hatte wird mit Verben verwendet, die im Perfekt haben nehmen.",
+    "War wird mit Verben verwendet, die im Perfekt sein nehmen.",
+    "Das Plusquamperfekt markiert das frühere von zwei vergangenen Ereignissen.",
+    "Das spätere Ereignis steht meist im Präteritum.",
+    "Nachdem leitet häufig das frühere Ereignis ein.",
+    "Im Hauptsatz steht hatte/war auf Position 2.",
+    "Im Nebensatz stehen Partizip und hatte/war am Ende."
+  ],
+  "quickSummary_ar": [
+    "Plusquamperfekt = hatte/war + Partizip II.",
+    "تُستخدم hatte مع الأفعال التي تستخدم haben في Perfekt.",
+    "تُستخدم war مع الأفعال التي تستخدم sein في Perfekt.",
+    "يحدد Plusquamperfekt الحدث الأسبق بين حدثين ماضيين.",
+    "يأتي الحدث اللاحق غالبًا في Präteritum.",
+    "تقدم nachdem غالبًا الحدث الأسبق.",
+    "يأتي hatte/war في المرتبة الثانية في الجملة الرئيسية.",
+    "يأتي Partizip وhatte/war في نهاية الجملة الفرعية."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-05",
+    "gr-06",
+    "gr-08",
+    "gr-10"
+  ]
+}

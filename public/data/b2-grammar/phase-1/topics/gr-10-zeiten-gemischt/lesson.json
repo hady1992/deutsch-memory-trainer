@@ -1,0 +1,392 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-10",
+  "slug": "gr-10-zeiten-gemischt",
+  "order": 10,
+  "title_de": "Gemischtes Zeiten-Training",
+  "title_ar": "تدريب مختلط على الأزمنة",
+  "level": "B2",
+  "sourceType": "abschlusstraining",
+  "category": "zeiten_training",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Präsens, Perfekt, Präteritum, Plusquamperfekt, Futur I und Futur II sicher unterscheiden.",
+    "Die passende Zeitform anhand von Kontext, Textsorte und zeitlicher Beziehung wählen.",
+    "Zeitfolgen in Haupt- und Nebensätzen korrekt darstellen.",
+    "Zwischen gesprochener und schriftlicher Vergangenheit angemessen unterscheiden.",
+    "Zukunft, Prognose, Absicht und Vermutung grammatisch präzise ausdrücken.",
+    "Gemischte berufliche Texte mit konsistenter Zeitführung verfassen."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بين Präsens وPerfekt وPräteritum وPlusquamperfekt وFutur I وFutur II.",
+    "اختيار الزمن المناسب بحسب السياق ونوع النص والعلاقة الزمنية.",
+    "عرض تسلسل الأحداث بصورة صحيحة في الجمل الرئيسية والفرعية.",
+    "التمييز بين الماضي المستخدم في الحديث والماضي المستخدم في الكتابة.",
+    "التعبير بدقة عن المستقبل والتوقع والنية والتخمين.",
+    "كتابة نصوص مهنية مختلطة الأزمنة مع الحفاظ على ترابطها."
+  ],
+  "shortDescription_de": "Dieses Abschlusstraining verbindet alle Zeitformen der ersten Grammatikphase und prüft nicht nur die Form, sondern auch ihre passende Verwendung im Kontext.",
+  "shortDescription_ar": "يجمع هذا التدريب الختامي جميع أزمنة المرحلة الأولى، ويختبر التكوين الصحيح واختيار الزمن المناسب بحسب السياق.",
+  "explanation_de": "Bei der Wahl der Zeitform sind drei Fragen besonders wichtig: Wann geschieht etwas? Ist die Handlung abgeschlossen oder noch aktuell? Und welche Textsorte wird verwendet? Das Präsens beschreibt Gegenwart, Gewohnheiten und häufig geplante Zukunft. Das Perfekt ist in der gesprochenen Sprache die häufigste Vergangenheitsform. Das Präteritum ist typisch für Berichte, Erzählungen und formelle schriftliche Texte; sein, haben und Modalverben stehen auch im Gespräch häufig im Präteritum. Das Plusquamperfekt markiert das frühere von zwei vergangenen Ereignissen. Futur I beschreibt Zukunft, Absicht, Versprechen, Prognose oder eine Vermutung über die Gegenwart. Futur II beschreibt einen zukünftigen Abschluss oder eine Vermutung über eine bereits abgeschlossene Handlung.",
+  "explanation_ar": "عند اختيار الزمن يجب طرح ثلاثة أسئلة: متى يحدث الفعل؟ هل انتهى أم ما زال قائمًا؟ وما نوع النص؟ يصف Präsens الحاضر والعادات ويُستخدم كثيرًا للمستقبل المخطط. Perfekt هو الماضي الأكثر شيوعًا في الحديث. Präteritum شائع في التقارير والسرد والنصوص الرسمية، كما تُستخدم sein وhaben والأفعال الناقصة به كثيرًا حتى في الحديث. يحدد Plusquamperfekt الحدث الأسبق بين حدثين ماضيين. ويعبّر Futur I عن المستقبل أو النية أو الوعد أو التوقع أو التخمين حول الحاضر. أما Futur II فيعبّر عن اكتمال مستقبلي أو عن تخمين حول حدث ماضٍ منتهٍ.",
+  "rules": [
+    {
+      "id": "gr10-r01",
+      "title_de": "Präsens",
+      "title_ar": "Präsens",
+      "explanation_de": "Für Gegenwart, Gewohnheit, allgemeine Tatsache und geplante Zukunft.",
+      "explanation_ar": "للحاضر والعادات والحقائق العامة والمستقبل المخطط.",
+      "formula": "finites Verb im Präsens",
+      "examples": [
+        {
+          "de": "Morgen beginne ich den neuen Kurs.",
+          "ar": "أبدأ الدورة الجديدة غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r02",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "explanation_de": "Für abgeschlossene Vergangenheit, besonders in der gesprochenen Sprache.",
+      "explanation_ar": "لماضٍ منتهٍ، خصوصًا في اللغة المحكية.",
+      "formula": "haben/sein + Partizip II",
+      "examples": [
+        {
+          "de": "Ich habe den Kunden bereits angerufen.",
+          "ar": "لقد اتصلت بالعميل بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r03",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "explanation_de": "Für schriftliche Berichte und Erzählungen sowie häufig mit sein, haben und Modalverben.",
+      "explanation_ar": "للتقارير والسرد المكتوب، وكثيرًا مع sein وhaben والأفعال الناقصة.",
+      "formula": "Präteritumform des Verbs",
+      "examples": [
+        {
+          "de": "Die Sitzung begann um neun Uhr.",
+          "ar": "بدأ الاجتماع الساعة التاسعة."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r04",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "Plusquamperfekt",
+      "explanation_de": "Für das frühere von zwei Ereignissen in der Vergangenheit.",
+      "explanation_ar": "للحدث الأسبق بين حدثين في الماضي.",
+      "formula": "hatte/war + Partizip II",
+      "examples": [
+        {
+          "de": "Nachdem wir die Daten gesichert hatten, starteten wir das System neu.",
+          "ar": "بعد أن كنا قد حفظنا البيانات، أعدنا تشغيل النظام."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r05",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "explanation_de": "Für Zukunft, Absicht, Versprechen, Prognose oder Vermutung über die Gegenwart.",
+      "explanation_ar": "للمستقبل والنية والوعد والتوقع أو التخمين حول الحاضر.",
+      "formula": "werden + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir werden Sie morgen informieren.",
+          "ar": "سنبلغك غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r06",
+      "title_de": "Futur II",
+      "title_ar": "Futur II",
+      "explanation_de": "Für zukünftigen Abschluss oder Vermutung über eine abgeschlossene Handlung.",
+      "explanation_ar": "لاكتمال مستقبلي أو تخمين حول فعل ماضٍ منتهٍ.",
+      "formula": "werden + Partizip II + haben/sein",
+      "examples": [
+        {
+          "de": "Bis Freitag werden wir das Projekt abgeschlossen haben.",
+          "ar": "سنكون قد أنهينا المشروع بحلول الجمعة."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r07",
+      "title_de": "Zeitfolge",
+      "title_ar": "تسلسل الأزمنة",
+      "explanation_de": "Das frühere vergangene Ereignis steht im Plusquamperfekt, das spätere meist im Präteritum oder Perfekt.",
+      "explanation_ar": "يأتي الحدث الماضي الأسبق في Plusquamperfekt، والحدث اللاحق غالبًا في Präteritum أو Perfekt.",
+      "formula": "Plusquamperfekt → Präteritum/Perfekt",
+      "examples": [
+        {
+          "de": "Nachdem die Abteilung den Fehler entdeckt hatte, informierte sie die Kundschaft.",
+          "ar": "بعد أن كان القسم قد اكتشف الخطأ، أبلغ العملاء."
+        }
+      ]
+    },
+    {
+      "id": "gr10-r08",
+      "title_de": "Textsorte und Register",
+      "title_ar": "نوع النص والأسلوب",
+      "explanation_de": "Die Textsorte beeinflusst die Wahl zwischen Perfekt und Präteritum.",
+      "explanation_ar": "يؤثر نوع النص في الاختيار بين Perfekt وPräteritum.",
+      "formula": "Gespräch oft Perfekt | Bericht oft Präteritum",
+      "examples": [
+        {
+          "de": "Gespräch: Ich habe die Datei geschickt.",
+          "ar": "حديث: أرسلت الملف."
+        },
+        {
+          "de": "Bericht: Die Mitarbeiterin schickte die Datei um 10 Uhr.",
+          "ar": "تقرير: أرسلت الموظفة الملف الساعة العاشرة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr10-t01",
+      "title_de": "Übersicht der Zeitformen",
+      "title_ar": "نظرة عامة على الأزمنة",
+      "headers_de": [
+        "Zeitform",
+        "Hauptfunktion",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "الوظيفة الأساسية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "Gegenwart / Gewohnheit / geplante Zukunft",
+          "Morgen beginne ich."
+        ],
+        [
+          "Perfekt",
+          "abgeschlossene Vergangenheit, gesprochen",
+          "Ich habe begonnen."
+        ],
+        [
+          "Präteritum",
+          "Bericht / Erzählung",
+          "Ich begann."
+        ],
+        [
+          "Plusquamperfekt",
+          "Vorvergangenheit",
+          "Ich hatte begonnen."
+        ],
+        [
+          "Futur I",
+          "Zukunft / Absicht / Vermutung",
+          "Ich werde beginnen."
+        ],
+        [
+          "Futur II",
+          "zukünftiger Abschluss / Vermutung Vergangenheit",
+          "Ich werde begonnen haben."
+        ]
+      ]
+    },
+    {
+      "id": "gr10-t02",
+      "title_de": "Typische Signale",
+      "title_ar": "إشارات شائعة",
+      "headers_de": [
+        "Signal",
+        "häufige Zeitform",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الإشارة",
+        "الزمن الشائع",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "gerade, jeden Tag, morgen geplant",
+          "Präsens",
+          "Morgen arbeite ich zu Hause."
+        ],
+        [
+          "gestern, schon, bereits – im Gespräch",
+          "Perfekt",
+          "Ich habe schon angerufen."
+        ],
+        [
+          "Bericht, Erzählung, Protokoll",
+          "Präteritum",
+          "Die Sitzung begann."
+        ],
+        [
+          "nachdem + früheres Ereignis",
+          "Plusquamperfekt",
+          "Nachdem er gegangen war ..."
+        ],
+        [
+          "wahrscheinlich, wohl – Gegenwart/Zukunft",
+          "Futur I",
+          "Er wird im Büro sein."
+        ],
+        [
+          "bis morgen, bis dahin / Vermutung abgeschlossen",
+          "Futur II",
+          "Er wird angekommen sein."
+        ]
+      ]
+    },
+    {
+      "id": "gr10-t03",
+      "title_de": "Zeitliche Perspektive",
+      "title_ar": "المنظور الزمني",
+      "headers_de": [
+        "Perspektive",
+        "Zeitform",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المنظور",
+        "الزمن",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "jetzt",
+          "Präsens",
+          "Ich arbeite."
+        ],
+        [
+          "vorher abgeschlossen",
+          "Perfekt/Präteritum",
+          "Ich habe gearbeitet. / Ich arbeitete."
+        ],
+        [
+          "noch früher",
+          "Plusquamperfekt",
+          "Ich hatte gearbeitet."
+        ],
+        [
+          "später",
+          "Futur I",
+          "Ich werde arbeiten."
+        ],
+        [
+          "bis später abgeschlossen",
+          "Futur II",
+          "Ich werde gearbeitet haben."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Heute arbeite ich im Homeoffice, weil ich gestern einen wichtigen Termin hatte.",
+      "ar": "أعمل اليوم من المنزل لأن كان لدي موعد مهم أمس.",
+      "note_de": "Präsens für heute, Präteritum von haben für gestern.",
+      "note_ar": "Präsens لليوم وPräteritum من haben للأمس."
+    },
+    {
+      "de": "Nachdem wir den Fehler entdeckt hatten, haben wir sofort den Kunden informiert.",
+      "ar": "بعد أن كنا قد اكتشفنا الخطأ، أبلغنا العميل فورًا.",
+      "note_de": "Plusquamperfekt für das frühere Ereignis, Perfekt für den mündlichen Rückblick.",
+      "note_ar": "Plusquamperfekt للحدث الأسبق وPerfekt للسرد الشفهي."
+    },
+    {
+      "de": "Der Bericht zufolge fiel das System am Montag aus und blieb zwei Stunden offline.",
+      "ar": "وفقًا للتقرير تعطل النظام يوم الاثنين وبقي خارج الخدمة ساعتين.",
+      "note_de": "Präteritum in einem schriftlichen Bericht.",
+      "note_ar": "Präteritum في تقرير مكتوب."
+    },
+    {
+      "de": "Morgen bespreche ich die Ergebnisse; anschließend werde ich den endgültigen Bericht versenden.",
+      "ar": "سأناقش النتائج غدًا، وبعد ذلك سأرسل التقرير النهائي.",
+      "note_de": "Präsens für einen festen Termin, Futur I für die hervorgehobene Absicht.",
+      "note_ar": "Präsens لموعد ثابت وFutur I لنية مؤكدة."
+    },
+    {
+      "de": "Bis Ende der Woche werden wir alle Rückfragen beantwortet haben.",
+      "ar": "سنكون قد أجبنا عن جميع الاستفسارات بحلول نهاية الأسبوع.",
+      "note_de": "Futur II für einen zukünftigen Abschluss.",
+      "note_ar": "Futur II لاكتمال مستقبلي."
+    },
+    {
+      "de": "Frau Keller wird die Nachricht wohl bereits gelesen haben.",
+      "ar": "من المحتمل أن السيدة كيلر قرأت الرسالة بالفعل.",
+      "note_de": "Futur II als Vermutung über eine abgeschlossene Handlung.",
+      "note_ar": "Futur II للتخمين حول فعل منتهٍ."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Gestern arbeite ich länger.",
+      "correct": "Gestern habe ich länger gearbeitet. / Gestern arbeitete ich länger.",
+      "explanation_de": "Ein klar vergangener, abgeschlossener Vorgang verlangt Perfekt oder Präteritum.",
+      "explanation_ar": "يحتاج الفعل الماضي المنتهي بوضوح إلى Perfekt أو Präteritum."
+    },
+    {
+      "wrong": "Nachdem wir den Fehler entdeckten, hatten wir den Kunden informiert.",
+      "correct": "Nachdem wir den Fehler entdeckt hatten, informierten wir den Kunden.",
+      "explanation_de": "Das frühere Ereignis muss im Plusquamperfekt stehen.",
+      "explanation_ar": "يجب أن يأتي الحدث الأسبق في Plusquamperfekt."
+    },
+    {
+      "wrong": "Bis morgen werde ich den Bericht schreiben.",
+      "correct": "Bis morgen werde ich den Bericht geschrieben haben.",
+      "explanation_de": "Wenn der Abschluss bis morgen betont wird, ist Futur II passend.",
+      "explanation_ar": "عند التأكيد على الانتهاء بحلول الغد يكون Futur II مناسبًا."
+    },
+    {
+      "wrong": "Er wird wohl gestern im Büro sein.",
+      "correct": "Er wird gestern wohl im Büro gewesen sein.",
+      "explanation_de": "Eine Vermutung über eine abgeschlossene Vergangenheit verlangt Futur II.",
+      "explanation_ar": "يحتاج التخمين حول ماضٍ منتهٍ إلى Futur II."
+    },
+    {
+      "wrong": "Ich habe gestern krank gewesen.",
+      "correct": "Ich bin gestern krank gewesen. / Ich war gestern krank.",
+      "explanation_de": "Sein bildet das Perfekt mit sein; natürlicher ist hier oft das Präteritum war.",
+      "explanation_ar": "يستخدم sein الفعل المساعد sein، وغالبًا تكون صيغة war أكثر طبيعية هنا."
+    },
+    {
+      "wrong": "Morgen werde ich zur Arbeit gegangen.",
+      "correct": "Morgen werde ich zur Arbeit gehen.",
+      "explanation_de": "Futur I verwendet den Infinitiv, nicht das Partizip II.",
+      "explanation_ar": "يستخدم Futur I المصدر وليس Partizip II."
+    }
+  ],
+  "quickSummary_de": [
+    "Präsens: Gegenwart, Gewohnheit, Tatsache, geplante Zukunft.",
+    "Perfekt: abgeschlossene Vergangenheit, besonders gesprochen.",
+    "Präteritum: Berichte, Erzählungen, Protokolle; häufig mit sein, haben und Modalverben.",
+    "Plusquamperfekt: das frühere von zwei vergangenen Ereignissen.",
+    "Futur I: Zukunft, Absicht, Versprechen, Prognose, Vermutung über Gegenwart.",
+    "Futur II: zukünftiger Abschluss oder Vermutung über abgeschlossene Vergangenheit.",
+    "Textsorte und zeitliche Beziehung bestimmen die passende Zeitform.",
+    "Die Zeitformen müssen in einem Text logisch und konsistent zusammenwirken."
+  ],
+  "quickSummary_ar": [
+    "Präsens: الحاضر والعادة والحقيقة والمستقبل المخطط.",
+    "Perfekt: ماضٍ منتهٍ، خصوصًا في الحديث.",
+    "Präteritum: التقارير والسرد والمحاضر، وكثيرًا مع sein وhaben والأفعال الناقصة.",
+    "Plusquamperfekt: الحدث الأسبق بين حدثين ماضيين.",
+    "Futur I: المستقبل والنية والوعد والتوقع والتخمين حول الحاضر.",
+    "Futur II: اكتمال مستقبلي أو تخمين حول ماضٍ منتهٍ.",
+    "يحدد نوع النص والعلاقة الزمنية الزمن المناسب.",
+    "يجب أن تعمل الأزمنة معًا بترابط ومنطق داخل النص."
+  ],
+  "relatedTopics": [
+    "gr-04",
+    "gr-05",
+    "gr-06",
+    "gr-07",
+    "gr-08",
+    "gr-09"
+  ]
+}

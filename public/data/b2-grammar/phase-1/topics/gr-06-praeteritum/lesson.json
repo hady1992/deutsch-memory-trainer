@@ -1,0 +1,474 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-06",
+  "slug": "gr-06-praeteritum",
+  "order": 6,
+  "title_de": "Präteritum",
+  "title_ar": "الماضي البسيط",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "zeiten_training",
+  "estimatedMinutes": 45,
+  "learningObjectives_de": [
+    "Regelmäßige, starke und gemischte Verben im Präteritum korrekt bilden.",
+    "Sein, haben, werden und die Modalverben sicher im Präteritum verwenden.",
+    "Zwischen Perfekt und Präteritum je nach Textsorte und Sprachsituation unterscheiden.",
+    "Präteritumformen in Haupt- und Nebensätzen korrekt einsetzen.",
+    "Typische Verben in Berichten, Erzählungen und formellen Texten verwenden.",
+    "Zeitliche Abläufe im Präteritum klar und kohärent darstellen."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Präteritum للأفعال المنتظمة والقوية والمختلطة بصورة صحيحة.",
+    "استخدام sein وhaben وwerden والأفعال الناقصة في Präteritum بثقة.",
+    "التمييز بين Perfekt وPräteritum بحسب نوع النص والموقف اللغوي.",
+    "استخدام Präteritum في الجمل الرئيسية والفرعية.",
+    "استخدام الأفعال الشائعة في التقارير والسرد والنصوص الرسمية.",
+    "عرض تسلسل الأحداث الماضية بوضوح وترابط."
+  ],
+  "shortDescription_de": "Das Präteritum beschreibt vergangene Handlungen und ist besonders wichtig in schriftlichen Berichten, Erzählungen und formellen Texten.",
+  "shortDescription_ar": "يصف Präteritum أحداثًا ماضية، وهو مهم خصوصًا في التقارير المكتوبة والسرد والنصوص الرسمية.",
+  "explanation_de": "Regelmäßige Verben bilden das Präteritum mit -te und den Personalendungen. Starke Verben verändern häufig den Stammvokal und haben keine -te-Endung. Gemischte Verben verbinden Stammwechsel und -te-Endung. Im gesprochenen Deutsch wird für viele Vollverben oft das Perfekt verwendet, während sein, haben, werden und die Modalverben sehr häufig im Präteritum stehen. In schriftlichen Erzählungen, Protokollen, Berichten und Nachrichten ist das Präteritum deutlich häufiger. Die Verbposition bleibt dieselbe wie im Präsens: Im Hauptsatz steht das finite Verb auf Position 2, im Nebensatz am Ende.",
+  "explanation_ar": "تكوّن الأفعال المنتظمة Präteritum باستخدام -te مع نهايات الأشخاص. أما الأفعال القوية فتغيّر غالبًا حرف العلة ولا تأخذ النهاية -te. وتجمع الأفعال المختلطة بين تغير الجذر والنهاية -te. في اللغة المحكية يُستخدم Perfekt كثيرًا مع الأفعال الأساسية، بينما تُستخدم sein وhaben وwerden والأفعال الناقصة كثيرًا في Präteritum. أما في السرد المكتوب والمحاضر والتقارير والأخبار فيظهر Präteritum بصورة أوضح. ويبقى موقع الفعل كما في Präsens: في المرتبة الثانية في الجملة الرئيسية وفي النهاية في الجملة الفرعية.",
+  "rules": [
+    {
+      "id": "gr06-r01",
+      "title_de": "Regelmäßige Verben",
+      "title_ar": "الأفعال المنتظمة",
+      "explanation_de": "Regelmäßige Verben bilden das Präteritum mit Stamm + -te + Personalendung.",
+      "explanation_ar": "تكوّن الأفعال المنتظمة Präteritum باستخدام الجذر + -te + نهاية الشخص.",
+      "formula": "Stamm + te + Endung",
+      "examples": [
+        {
+          "de": "Ich arbeitete gestern länger.",
+          "ar": "عملت أمس مدة أطول."
+        },
+        {
+          "de": "Wir warteten vor dem Büro.",
+          "ar": "انتظرنا أمام المكتب."
+        }
+      ]
+    },
+    {
+      "id": "gr06-r02",
+      "title_de": "Starke Verben",
+      "title_ar": "الأفعال القوية",
+      "explanation_de": "Starke Verben verändern meist den Stammvokal und verwenden keine -te-Endung.",
+      "explanation_ar": "تغيّر الأفعال القوية غالبًا حرف العلة ولا تستخدم النهاية -te.",
+      "formula": "veränderter Stamm + Personalendung",
+      "examples": [
+        {
+          "de": "gehen → ging",
+          "ar": "gehen → ging"
+        },
+        {
+          "de": "kommen → kam",
+          "ar": "kommen → kam"
+        },
+        {
+          "de": "finden → fand",
+          "ar": "finden → fand"
+        }
+      ]
+    },
+    {
+      "id": "gr06-r03",
+      "title_de": "Gemischte Verben",
+      "title_ar": "الأفعال المختلطة",
+      "explanation_de": "Gemischte Verben verändern den Stamm und erhalten gleichzeitig die -te-Endung.",
+      "explanation_ar": "تغيّر الأفعال المختلطة الجذر وتأخذ في الوقت نفسه النهاية -te.",
+      "formula": "veränderter Stamm + te",
+      "examples": [
+        {
+          "de": "bringen → brachte",
+          "ar": "bringen → brachte"
+        },
+        {
+          "de": "denken → dachte",
+          "ar": "denken → dachte"
+        },
+        {
+          "de": "kennen → kannte",
+          "ar": "kennen → kannte"
+        }
+      ]
+    },
+    {
+      "id": "gr06-r04",
+      "title_de": "Sein, haben und werden",
+      "title_ar": "sein وhaben وwerden",
+      "explanation_de": "Diese Verben werden auch in der gesprochenen Sprache sehr häufig im Präteritum verwendet.",
+      "explanation_ar": "تُستخدم هذه الأفعال كثيرًا في Präteritum حتى في اللغة المحكية.",
+      "formula": "war | hatte | wurde",
+      "examples": [
+        {
+          "de": "Ich war gestern krank.",
+          "ar": "كنت مريضًا أمس."
+        },
+        {
+          "de": "Sie hatte keine Zeit.",
+          "ar": "لم يكن لديها وقت."
+        },
+        {
+          "de": "Der Termin wurde verschoben.",
+          "ar": "تم تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr06-r05",
+      "title_de": "Modalverben",
+      "title_ar": "الأفعال الناقصة",
+      "explanation_de": "Modalverben stehen im Präteritum häufig ohne Umlaut und mit -te.",
+      "explanation_ar": "تأتي الأفعال الناقصة في Präteritum غالبًا من دون أوملاوت ومع النهاية -te.",
+      "formula": "konnte | musste | durfte | sollte | wollte | mochte",
+      "examples": [
+        {
+          "de": "Ich konnte nicht teilnehmen.",
+          "ar": "لم أستطع المشاركة."
+        },
+        {
+          "de": "Wir mussten länger warten.",
+          "ar": "اضطررنا إلى الانتظار مدة أطول."
+        },
+        {
+          "de": "Sie durfte früher gehen.",
+          "ar": "سُمح لها بالمغادرة مبكرًا."
+        }
+      ]
+    },
+    {
+      "id": "gr06-r06",
+      "title_de": "Perfekt oder Präteritum?",
+      "title_ar": "Perfekt أم Präteritum؟",
+      "explanation_de": "Im Gespräch ist das Perfekt bei vielen Vollverben üblich. In schriftlichen Erzählungen, Berichten, Protokollen und Nachrichten ist das Präteritum häufiger.",
+      "explanation_ar": "في الحديث يُستخدم Perfekt غالبًا مع الأفعال الأساسية، بينما يظهر Präteritum أكثر في السرد المكتوب والتقارير والمحاضر والأخبار.",
+      "formula": "gesprochen oft Perfekt | geschrieben oft Präteritum",
+      "examples": [
+        {
+          "de": "Gesprochen: Ich habe den Kunden angerufen.",
+          "ar": "في الحديث: اتصلت بالعميل."
+        },
+        {
+          "de": "Bericht: Der Mitarbeiter rief den Kunden um 9 Uhr an.",
+          "ar": "في التقرير: اتصل الموظف بالعميل الساعة التاسعة."
+        }
+      ]
+    },
+    {
+      "id": "gr06-r07",
+      "title_de": "Präteritum im Nebensatz",
+      "title_ar": "Präteritum في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht das Präteritumverb am Ende.",
+      "explanation_ar": "يأتي فعل Präteritum في نهاية الجملة الفرعية.",
+      "formula": "Konjunktion + Subjekt + ... + Präteritumverb",
+      "examples": [
+        {
+          "de": "Weil er krank war, blieb er zu Hause.",
+          "ar": "لأنه كان مريضًا بقي في المنزل."
+        },
+        {
+          "de": "Sie sagte, dass sie keine Zeit hatte.",
+          "ar": "قالت إنها لم تكن تملك وقتًا."
+        }
+      ]
+    },
+    {
+      "id": "gr06-r08",
+      "title_de": "Typische Verben für Berichte und Erzählungen",
+      "title_ar": "أفعال شائعة في التقارير والسرد",
+      "explanation_de": "Bestimmte starke Verben kommen in Berichten und Erzählungen besonders häufig vor.",
+      "explanation_ar": "تظهر بعض الأفعال القوية كثيرًا في التقارير والسرد.",
+      "formula": "ging, kam, blieb, begann, fand, entschied, erhielt, nahm, gab",
+      "examples": [
+        {
+          "de": "Die Besprechung begann um neun Uhr.",
+          "ar": "بدأ الاجتماع الساعة التاسعة."
+        },
+        {
+          "de": "Die Abteilung erhielt mehrere Beschwerden.",
+          "ar": "تلقى القسم عدة شكاوى."
+        },
+        {
+          "de": "Die Leitung entschied sich für eine neue Lösung.",
+          "ar": "قررت الإدارة اختيار حل جديد."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr06-t01",
+      "title_de": "Regelmäßige Endungen",
+      "title_ar": "نهايات الأفعال المنتظمة",
+      "headers_de": [
+        "Person",
+        "arbeiten"
+      ],
+      "headers_ar": [
+        "الشخص",
+        "arbeiten"
+      ],
+      "rows": [
+        [
+          "ich",
+          "arbeitete"
+        ],
+        [
+          "du",
+          "arbeitetest"
+        ],
+        [
+          "er/sie/es",
+          "arbeitete"
+        ],
+        [
+          "wir",
+          "arbeiteten"
+        ],
+        [
+          "ihr",
+          "arbeitetet"
+        ],
+        [
+          "sie/Sie",
+          "arbeiteten"
+        ]
+      ]
+    },
+    {
+      "id": "gr06-t02",
+      "title_de": "Wichtige unregelmäßige Formen",
+      "title_ar": "صيغ غير منتظمة مهمة",
+      "headers_de": [
+        "Infinitiv",
+        "Präteritum",
+        "Partizip II",
+        "Hilfsverb"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "Präteritum",
+        "Partizip II",
+        "الفعل المساعد"
+      ],
+      "rows": [
+        [
+          "sein",
+          "war",
+          "gewesen",
+          "sein"
+        ],
+        [
+          "haben",
+          "hatte",
+          "gehabt",
+          "haben"
+        ],
+        [
+          "werden",
+          "wurde",
+          "geworden",
+          "sein"
+        ],
+        [
+          "gehen",
+          "ging",
+          "gegangen",
+          "sein"
+        ],
+        [
+          "kommen",
+          "kam",
+          "gekommen",
+          "sein"
+        ],
+        [
+          "bleiben",
+          "blieb",
+          "geblieben",
+          "sein"
+        ],
+        [
+          "beginnen",
+          "begann",
+          "begonnen",
+          "haben"
+        ],
+        [
+          "finden",
+          "fand",
+          "gefunden",
+          "haben"
+        ],
+        [
+          "entscheiden",
+          "entschied",
+          "entschieden",
+          "haben"
+        ],
+        [
+          "erhalten",
+          "erhielt",
+          "erhalten",
+          "haben"
+        ],
+        [
+          "nehmen",
+          "nahm",
+          "genommen",
+          "haben"
+        ],
+        [
+          "geben",
+          "gab",
+          "gegeben",
+          "haben"
+        ]
+      ]
+    },
+    {
+      "id": "gr06-t03",
+      "title_de": "Modalverben im Präteritum",
+      "title_ar": "الأفعال الناقصة في Präteritum",
+      "headers_de": [
+        "Infinitiv",
+        "ich/er/sie/es",
+        "wir/sie/Sie"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "ich/er/sie/es",
+        "wir/sie/Sie"
+      ],
+      "rows": [
+        [
+          "können",
+          "konnte",
+          "konnten"
+        ],
+        [
+          "müssen",
+          "musste",
+          "mussten"
+        ],
+        [
+          "dürfen",
+          "durfte",
+          "durften"
+        ],
+        [
+          "sollen",
+          "sollte",
+          "sollten"
+        ],
+        [
+          "wollen",
+          "wollte",
+          "wollten"
+        ],
+        [
+          "mögen",
+          "mochte",
+          "mochten"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Besprechung begann pünktlich um neun Uhr.",
+      "ar": "بدأ الاجتماع في الوقت المحدد الساعة التاسعة.",
+      "note_de": "Typisches starkes Verb in einem schriftlichen Bericht.",
+      "note_ar": "فعل قوي شائع في تقرير مكتوب."
+    },
+    {
+      "de": "Die Mitarbeiterin konnte wegen einer Störung nicht weiterarbeiten.",
+      "ar": "لم تستطع الموظفة متابعة العمل بسبب عطل.",
+      "note_de": "Modalverb im Präteritum mit Infinitiv am Satzende.",
+      "note_ar": "فعل ناقص في Präteritum مع مصدر في نهاية الجملة."
+    },
+    {
+      "de": "Weil der Server ausfiel, blieb das System mehrere Stunden offline.",
+      "ar": "لأن الخادم تعطل بقي النظام خارج الخدمة عدة ساعات.",
+      "note_de": "Präteritum im Nebensatz und Hauptsatz.",
+      "note_ar": "Präteritum في الجملة الفرعية والرئيسية."
+    },
+    {
+      "de": "Die Abteilung erhielt innerhalb einer Woche zehn Beschwerden.",
+      "ar": "تلقى القسم خلال أسبوع عشر شكاوى.",
+      "note_de": "Formeller Berichtsstil.",
+      "note_ar": "أسلوب تقرير رسمي."
+    },
+    {
+      "de": "Nach kurzer Beratung entschied sich die Leitung für eine andere Lösung.",
+      "ar": "بعد مشاورة قصيرة قررت الإدارة اختيار حل آخر.",
+      "note_de": "Reflexives starkes Verb im Präteritum.",
+      "note_ar": "فعل قوي انعكاسي في Präteritum."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich arbeitete gestern längerte.",
+      "correct": "Ich arbeitete gestern länger.",
+      "explanation_de": "Die Präteritumendung gehört nur zum Verb.",
+      "explanation_ar": "تخص نهاية Präteritum الفعل فقط."
+    },
+    {
+      "wrong": "Er gehte nach Hause.",
+      "correct": "Er ging nach Hause.",
+      "explanation_de": "Gehen ist ein starkes Verb: gehen – ging – gegangen.",
+      "explanation_ar": "gehen فعل قوي: gehen – ging – gegangen."
+    },
+    {
+      "wrong": "Wir müssten gestern länger warten.",
+      "correct": "Wir mussten gestern länger warten.",
+      "explanation_de": "Präteritum von müssen ist mussten; müssten ist Konjunktiv II.",
+      "explanation_ar": "صيغة Präteritum من müssen هي mussten، أما müssten فهي Konjunktiv II."
+    },
+    {
+      "wrong": "Sie war keine Zeit.",
+      "correct": "Sie hatte keine Zeit.",
+      "explanation_de": "Besitz oder Verfügbarkeit wird mit haben ausgedrückt.",
+      "explanation_ar": "الملكية أو توفر الوقت يُعبّر عنه باستخدام haben."
+    },
+    {
+      "wrong": "Weil er war krank, blieb er zu Hause.",
+      "correct": "Weil er krank war, blieb er zu Hause.",
+      "explanation_de": "Im Nebensatz steht das Präteritumverb am Ende.",
+      "explanation_ar": "يأتي فعل Präteritum في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Die Besprechung hat um neun Uhr begann.",
+      "correct": "Die Besprechung begann um neun Uhr.",
+      "explanation_de": "Im Präteritum steht kein zusätzliches Hilfsverb.",
+      "explanation_ar": "لا نستخدم فعلًا مساعدًا إضافيًا في Präteritum."
+    }
+  ],
+  "quickSummary_de": [
+    "Regelmäßige Verben: Stamm + -te + Personalendung.",
+    "Starke Verben verändern meist den Stammvokal.",
+    "Gemischte Verben haben Stammwechsel und -te.",
+    "Sein, haben, werden und Modalverben stehen häufig im Präteritum.",
+    "Im Gespräch ist bei vielen Vollverben das Perfekt üblich.",
+    "In Berichten, Erzählungen und Protokollen ist das Präteritum häufig.",
+    "Im Hauptsatz steht das finite Verb auf Position 2.",
+    "Im Nebensatz steht das Präteritumverb am Ende."
+  ],
+  "quickSummary_ar": [
+    "المنتظم: الجذر + -te + نهاية الشخص.",
+    "تغيّر الأفعال القوية غالبًا حرف العلة.",
+    "تجمع الأفعال المختلطة بين تغير الجذر و-te.",
+    "تُستخدم sein وhaben وwerden والأفعال الناقصة كثيرًا في Präteritum.",
+    "يُستخدم Perfekt غالبًا مع الأفعال الأساسية في الحديث.",
+    "يظهر Präteritum كثيرًا في التقارير والسرد والمحاضر.",
+    "يأتي الفعل المصرف في المرتبة الثانية في الجملة الرئيسية.",
+    "يأتي فعل Präteritum في نهاية الجملة الفرعية."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-04",
+    "gr-05",
+    "gr-07",
+    "gr-10"
+  ]
+}

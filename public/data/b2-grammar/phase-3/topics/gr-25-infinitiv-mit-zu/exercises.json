@@ -1,0 +1,544 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-25",
+  "title_de": "Infinitiv mit zu – Übungen",
+  "title_ar": "تمارين المصدر مع zu",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr25-e001",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir planen, den Ablauf zu verbessern.",
+      "explanation_de": "Nach planen steht eine Infinitivgruppe mit zu.",
+      "explanation_ar": "بعد planen يأتي تركيب مصدر مع zu.",
+      "grammarFocus": "basic_infinitive_zu",
+      "options": [
+        "Wir planen, den Ablauf zu verbessern.",
+        "Wir planen, den Ablauf verbessern.",
+        "Wir planen, den Ablauf zu verbessert.",
+        "Wir planen, zu den Ablauf verbessern."
+      ]
+    },
+    {
+      "id": "gr25-e002",
+      "topicId": "gr-25",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Zu ergänzen",
+      "title_ar": "إكمال zu",
+      "prompt_de": "Sie versucht, die Ursache schnell ______ finden.",
+      "prompt_ar": "تحاول إيجاد السبب بسرعة.",
+      "answer": "zu",
+      "explanation_de": "Vor dem einfachen Infinitiv finden steht zu.",
+      "explanation_ar": "تأتي zu قبل المصدر البسيط finden.",
+      "grammarFocus": "insert_zu",
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr25-e003",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nach einem Adjektiv",
+      "title_ar": "بعد صفة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Es ist wichtig, alle Angaben sorgfältig zu prüfen.",
+      "explanation_de": "Nach es ist wichtig steht häufig eine Infinitivgruppe mit zu.",
+      "explanation_ar": "بعد es ist wichtig يأتي كثيرًا تركيب مصدر مع zu.",
+      "grammarFocus": "adjective_infinitive",
+      "options": [
+        "Es ist wichtig, alle Angaben sorgfältig zu prüfen.",
+        "Es ist wichtig, alle Angaben sorgfältig prüfen.",
+        "Es ist wichtig, zu alle Angaben sorgfältig prüfen.",
+        "Es ist wichtig, alle Angaben sorgfältig geprüft zu."
+      ]
+    },
+    {
+      "id": "gr25-e004",
+      "topicId": "gr-25",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Auslöser zuordnen",
+      "title_ar": "مطابقة العناصر",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "planen": "den Ablauf zu ändern",
+        "versuchen": "den Fehler zu finden",
+        "Möglichkeit": "online teilzunehmen",
+        "wichtig": "pünktlich zu sein",
+        "bitten": "die Unterlagen einzureichen"
+      },
+      "explanation_de": "Verben, Nomen und Adjektive können eine Infinitivgruppe einleiten.",
+      "explanation_ar": "يمكن للأفعال والأسماء والصفات أن تدخل تركيب مصدر.",
+      "grammarFocus": "trigger_matching",
+      "pairs": [
+        [
+          "planen",
+          "den Ablauf zu ändern"
+        ],
+        [
+          "versuchen",
+          "den Fehler zu finden"
+        ],
+        [
+          "Möglichkeit",
+          "online teilzunehmen"
+        ],
+        [
+          "wichtig",
+          "pünktlich zu sein"
+        ],
+        [
+          "bitten",
+          "die Unterlagen einzureichen"
+        ]
+      ]
+    },
+    {
+      "id": "gr25-e005",
+      "topicId": "gr-25",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Einfacher Infinitivsatz",
+      "title_ar": "ترتيب تركيب مصدر بسيط",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Abteilung plant, den Prozess vollständig zu digitalisieren.",
+      "explanation_de": "Zu steht direkt vor dem Infinitiv digitalisieren.",
+      "explanation_ar": "تأتي zu مباشرة قبل المصدر digitalisieren.",
+      "grammarFocus": "simple_order",
+      "tokens": [
+        "vollständig",
+        "den Prozess",
+        "plant",
+        "zu digitalisieren",
+        "Die Abteilung"
+      ],
+      "acceptedAnswers": [
+        "Die Abteilung plant, den Prozess vollständig zu digitalisieren."
+      ]
+    },
+    {
+      "id": "gr25-e006",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Kein zu nach Modalverb",
+      "title_ar": "لا zu بعد فعل ناقص",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir müssen noch warten.",
+      "explanation_de": "Nach müssen steht der Infinitiv ohne zu.",
+      "explanation_ar": "بعد müssen يأتي المصدر من دون zu.",
+      "grammarFocus": "no_zu_modal",
+      "options": [
+        "Wir müssen noch warten.",
+        "Wir müssen noch zu warten.",
+        "Wir müssen noch warten zu.",
+        "Wir zu müssen noch warten."
+      ]
+    },
+    {
+      "id": "gr25-e007",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل قابل للفصل",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie versprach, mich später anzurufen.",
+      "explanation_de": "Bei anrufen steht zu zwischen an und rufen.",
+      "explanation_ar": "في anrufen تأتي zu بين an وrufen.",
+      "grammarFocus": "separable_basic",
+      "options": [
+        "Sie versprach, mich später anzurufen.",
+        "Sie versprach, mich später zu anrufen.",
+        "Sie versprach, mich später anrufen zu.",
+        "Sie versprach, mich später angezurufen."
+      ]
+    },
+    {
+      "id": "gr25-e008",
+      "topicId": "gr-25",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nomen mit Infinitivgruppe",
+      "title_ar": "اسم مع تركيب مصدر",
+      "prompt_de": "Wir haben die Möglichkeit, den Termin online ______ buchen.",
+      "prompt_ar": "لدينا إمكانية حجز الموعد عبر الإنترنت.",
+      "answer": "zu",
+      "explanation_de": "Die Infinitivgruppe ergänzt das Nomen Möglichkeit.",
+      "explanation_ar": "يكمل تركيب المصدر الاسم Möglichkeit.",
+      "grammarFocus": "noun_infinitive",
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr25-e009",
+      "topicId": "gr-25",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Zwei Sätze verkürzen",
+      "title_ar": "اختصار جملتين",
+      "prompt_de": "Verbinden Sie: Wir hoffen. Wir erhalten bald eine Antwort.",
+      "prompt_ar": "اربط الجملتين بتركيب مصدر.",
+      "answer": "Wir hoffen, bald eine Antwort zu erhalten.",
+      "explanation_de": "Das gedachte Subjekt ist in beiden Teilen wir.",
+      "explanation_ar": "الفاعل المفهوم في الجزأين هو wir.",
+      "grammarFocus": "same_subject_reduction",
+      "acceptedAnswers": [
+        "Wir hoffen, bald eine Antwort zu erhalten."
+      ]
+    },
+    {
+      "id": "gr25-e010",
+      "topicId": "gr-25",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Dass-Satz bei anderem Subjekt",
+      "title_ar": "جملة dass مع فاعل مختلف",
+      "prompt_de": "Verbinden Sie: Ich hoffe. Sie antworten bald.",
+      "prompt_ar": "اربط الجملتين بصورة صحيحة.",
+      "answer": "Ich hoffe, dass Sie bald antworten.",
+      "explanation_de": "Die Subjekte ich und Sie sind verschieden; deshalb steht ein dass-Satz.",
+      "explanation_ar": "الفاعلان ich وSie مختلفان، لذلك نستخدم جملة dass.",
+      "grammarFocus": "different_subject_dass",
+      "acceptedAnswers": [
+        "Ich hoffe, dass Sie bald antworten."
+      ]
+    },
+    {
+      "id": "gr25-e011",
+      "topicId": "gr-25",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل قابل للفصل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Wir beginnen, die Besprechung gründlich vorzubereiten.",
+      "explanation_de": "Bei vorbereiten steht zu zwischen vor und bereiten.",
+      "explanation_ar": "في vorbereiten تأتي zu بين vor وbereiten.",
+      "grammarFocus": "separable_order",
+      "tokens": [
+        "gründlich",
+        "vorzubereiten",
+        "die Besprechung",
+        "Wir beginnen"
+      ],
+      "acceptedAnswers": [
+        "Wir beginnen, die Besprechung gründlich vorzubereiten."
+      ]
+    },
+    {
+      "id": "gr25-e012",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Lassen ohne zu",
+      "title_ar": "lassen من دون zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Leitung lässt den Vorgang erneut prüfen.",
+      "explanation_de": "Nach lassen steht der Infinitiv prüfen ohne zu.",
+      "explanation_ar": "بعد lassen يأتي المصدر prüfen من دون zu.",
+      "grammarFocus": "lassen_no_zu",
+      "options": [
+        "Die Leitung lässt den Vorgang erneut prüfen.",
+        "Die Leitung lässt den Vorgang erneut zu prüfen.",
+        "Die Leitung lässt zu den Vorgang erneut prüfen.",
+        "Die Leitung lässt den Vorgang erneut geprüft zu werden."
+      ]
+    },
+    {
+      "id": "gr25-e013",
+      "topicId": "gr-25",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Position von zu",
+      "title_ar": "موقع zu",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "arbeiten": "zu arbeiten",
+        "verstehen": "zu verstehen",
+        "anrufen": "anzurufen",
+        "vorbereiten": "vorzubereiten",
+        "kennenlernen": "kennenzulernen"
+      },
+      "explanation_de": "Bei trennbaren Verben wird zu in das Verb eingefügt.",
+      "explanation_ar": "مع الأفعال القابلة للفصل تدخل zu داخل الفعل.",
+      "grammarFocus": "zu_position_matching",
+      "pairs": [
+        [
+          "arbeiten",
+          "zu arbeiten"
+        ],
+        [
+          "verstehen",
+          "zu verstehen"
+        ],
+        [
+          "anrufen",
+          "anzurufen"
+        ],
+        [
+          "vorbereiten",
+          "vorzubereiten"
+        ],
+        [
+          "kennenlernen",
+          "kennenzulernen"
+        ]
+      ]
+    },
+    {
+      "id": "gr25-e014",
+      "topicId": "gr-25",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Bitte",
+      "title_ar": "طلب رسمي",
+      "prompt_de": "Welche Formulierung passt in eine formelle E-Mail?",
+      "prompt_ar": "أي صياغة تناسب بريدًا رسميًا؟",
+      "answer": "Wir bitten Sie, die fehlenden Nachweise bis Freitag nachzureichen.",
+      "explanation_de": "Bitten + Person wird durch eine Infinitivgruppe ergänzt.",
+      "explanation_ar": "يُستكمل bitten + شخص بتركيب مصدر.",
+      "grammarFocus": "formal_request_infinitive",
+      "options": [
+        "Wir bitten Sie, die fehlenden Nachweise bis Freitag nachzureichen.",
+        "Wir bitten Sie, dass Sie die Nachweise nachzureichen.",
+        "Wir bitten, Sie die Nachweise bis Freitag zu nachreichen.",
+        "Wir bitten Sie, die Nachweise bis Freitag nachreichen zu."
+      ]
+    },
+    {
+      "id": "gr25-e015",
+      "topicId": "gr-25",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Infinitiv Perfekt",
+      "title_ar": "Infinitiv Perfekt",
+      "prompt_de": "Er behauptet, die Nachricht rechtzeitig geschickt ______ haben.",
+      "prompt_ar": "يدّعي أنه أرسل الرسالة في الوقت المناسب.",
+      "answer": "zu",
+      "explanation_de": "Im Infinitiv Perfekt steht zu vor haben.",
+      "explanation_ar": "في Infinitiv Perfekt تأتي zu قبل haben.",
+      "grammarFocus": "perfect_infinitive_insert",
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "gr25-e016",
+      "topicId": "gr-25",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Infinitiv Perfekt",
+      "title_ar": "ترتيب Infinitiv Perfekt",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie scheint die Unterlagen bereits eingereicht zu haben.",
+      "explanation_de": "Das Partizip II steht vor zu haben.",
+      "explanation_ar": "تأتي Partizip II قبل zu haben.",
+      "grammarFocus": "perfect_infinitive_order",
+      "tokens": [
+        "bereits",
+        "zu haben",
+        "die Unterlagen",
+        "eingereicht",
+        "Sie scheint"
+      ],
+      "acceptedAnswers": [
+        "Sie scheint die Unterlagen bereits eingereicht zu haben."
+      ]
+    },
+    {
+      "id": "gr25-e017",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Infinitiv mit sein",
+      "title_ar": "المصدر مع sein",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie scheint bereits gegangen zu sein.",
+      "explanation_de": "Gehen bildet den Infinitiv Perfekt mit sein.",
+      "explanation_ar": "يستخدم gehen الفعل sein في Infinitiv Perfekt.",
+      "grammarFocus": "perfect_infinitive_sein",
+      "options": [
+        "Sie scheint bereits gegangen zu sein.",
+        "Sie scheint bereits gegangen zu haben.",
+        "Sie scheint bereits zu gegangen sein.",
+        "Sie scheint bereits gehen zu sein."
+      ]
+    },
+    {
+      "id": "gr25-e018",
+      "topicId": "gr-25",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Infinitiv Passiv",
+      "title_ar": "Infinitiv Passiv",
+      "prompt_de": "Formulieren Sie mit Infinitiv Passiv: Die Beteiligten erwarten, dass man sie rechtzeitig informiert.",
+      "prompt_ar": "صغ الجملة باستخدام Infinitiv Passiv.",
+      "answer": "Die Beteiligten erwarten, rechtzeitig informiert zu werden.",
+      "explanation_de": "Der dass-Satz wird durch Partizip II + zu werden verkürzt.",
+      "explanation_ar": "تُختصر جملة dass باستخدام Partizip II + zu werden.",
+      "grammarFocus": "passive_infinitive",
+      "acceptedAnswers": [
+        "Die Beteiligten erwarten, rechtzeitig informiert zu werden."
+      ]
+    },
+    {
+      "id": "gr25-e019",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Vorzeitiges Passiv",
+      "title_ar": "المبني للمجهول الأسبق",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Er behauptet, nicht rechtzeitig informiert worden zu sein.",
+      "explanation_de": "Das vorzeitige Passiv lautet Partizip II + worden zu sein.",
+      "explanation_ar": "صيغة المبني للمجهول الأسبق هي Partizip II + worden zu sein.",
+      "grammarFocus": "perfect_passive_infinitive",
+      "options": [
+        "Er behauptet, nicht rechtzeitig informiert worden zu sein.",
+        "Er behauptet, nicht rechtzeitig zu informiert worden sein.",
+        "Er behauptet, nicht rechtzeitig informiert zu worden sein.",
+        "Er behauptet, nicht rechtzeitig informiert gewesen zu werden."
+      ]
+    },
+    {
+      "id": "gr25-e020",
+      "topicId": "gr-25",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Beruflicher Bericht",
+      "title_ar": "تقرير مهني",
+      "prompt_de": "Welche Formulierung passt am besten in einen sachlichen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا موضوعيًا؟",
+      "answer": "Der Anbieter gibt an, sämtliche Sicherheitsanforderungen erfüllt zu haben.",
+      "explanation_de": "Der Infinitiv Perfekt beschreibt eine vom Anbieter behauptete frühere Handlung.",
+      "explanation_ar": "يصف Infinitiv Perfekt فعلًا سابقًا يدعيه المزوّد.",
+      "grammarFocus": "formal_report_perfect_infinitive",
+      "options": [
+        "Der Anbieter gibt an, sämtliche Sicherheitsanforderungen erfüllt zu haben.",
+        "Der Anbieter gibt an, sämtliche Anforderungen zu erfüllt haben.",
+        "Der Anbieter gibt an, dass sämtliche Anforderungen erfüllt zu haben.",
+        "Der Anbieter gibt an, sämtliche Anforderungen erfüllen gewesen."
+      ]
+    },
+    {
+      "id": "gr25-e021",
+      "topicId": "gr-25",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Infinitivgruppe",
+      "title_ar": "تركيب مصدر معقد",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Projektleitung beabsichtigt, die neue Software schrittweise einzuführen.",
+      "explanation_de": "Bei einführen steht zu zwischen ein und führen.",
+      "explanation_ar": "في einführen تأتي zu بين ein وführen.",
+      "grammarFocus": "complex_separable_order",
+      "tokens": [
+        "schrittweise",
+        "einzuführen",
+        "Die Projektleitung beabsichtigt",
+        "die neue Software"
+      ],
+      "acceptedAnswers": [
+        "Die Projektleitung beabsichtigt, die neue Software schrittweise einzuführen."
+      ]
+    },
+    {
+      "id": "gr25-e022",
+      "topicId": "gr-25",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Kommasetzung",
+      "title_ar": "وضع الفاصلة",
+      "prompt_de": "Welche Form ist korrekt und klar gegliedert?",
+      "prompt_ar": "أي صيغة صحيحة ومنظمة بوضوح؟",
+      "answer": "Die Entscheidung, das Verfahren zu ändern, wurde ausführlich begründet.",
+      "explanation_de": "Die Infinitivgruppe hängt vom Nomen Entscheidung ab und wird durch Kommas abgegrenzt.",
+      "explanation_ar": "يعتمد تركيب المصدر على الاسم Entscheidung ويُفصل بفاصلتين.",
+      "grammarFocus": "comma_noun_reference",
+      "options": [
+        "Die Entscheidung, das Verfahren zu ändern, wurde ausführlich begründet.",
+        "Die Entscheidung das Verfahren, zu ändern wurde ausführlich begründet.",
+        "Die Entscheidung das Verfahren zu ändern wurde, ausführlich begründet.",
+        "Die Entscheidung, das Verfahren ändern zu, wurde begründet."
+      ]
+    },
+    {
+      "id": "gr25-e023",
+      "topicId": "gr-25",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Aktiv, Perfekt und Passiv",
+      "title_ar": "المعلوم والماضي والمجهول",
+      "prompt_de": "Formulieren Sie drei Varianten mit demselben Inhalt: Die Firma plant die Mitarbeitenden zu informieren; sie behauptet, sie bereits informiert zu haben; die Mitarbeitenden erwarten eine Information.",
+      "prompt_ar": "صغ ثلاث جمل صحيحة: غاية حالية، وفعل سابق، ومبني للمجهول.",
+      "answer": "Die Firma plant, die Mitarbeitenden zu informieren. Sie behauptet, die Mitarbeitenden bereits informiert zu haben. Die Mitarbeitenden erwarten, rechtzeitig informiert zu werden.",
+      "explanation_de": "Die Sätze verwenden einfachen Infinitiv, Infinitiv Perfekt und Infinitiv Passiv.",
+      "explanation_ar": "تستخدم الجمل المصدر البسيط وInfinitiv Perfekt وInfinitiv Passiv.",
+      "grammarFocus": "mixed_infinitive_forms",
+      "acceptedAnswers": [
+        "Die Firma plant, die Mitarbeitenden zu informieren. Sie behauptet, die Mitarbeitenden bereits informiert zu haben. Die Mitarbeitenden erwarten, rechtzeitig informiert zu werden."
+      ]
+    },
+    {
+      "id": "gr25-e024",
+      "topicId": "gr-25",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Infinitiv mit zu",
+      "title_ar": "تدريب ختامي على المصدر مع zu",
+      "prompt_de": "Schreiben Sie einen beruflichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens vier Verben mit Infinitivgruppe, zwei Adjektivkonstruktionen, zwei Nomen mit Infinitivgruppe, zwei trennbare Verben, einen dass-Satz bei unterschiedlichem Subjekt, einen Infinitiv Perfekt und einen Infinitiv Passiv.",
+      "prompt_ar": "اكتب نصًا مهنيًا من اثنتي عشرة جملة على الأقل. استخدم أربعة أفعال على الأقل مع تركيب مصدر، وتركيبين مع صفات، واسمين مع تركيب مصدر، وفعلين قابلين للفصل، وجملة dass عند اختلاف الفاعل، وInfinitiv Perfekt، وInfinitiv Passiv.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Verben mit Infinitivgruppe",
+          "mindestens zwei Adjektivkonstruktionen",
+          "mindestens zwei Nomen mit Infinitivgruppe",
+          "mindestens zwei trennbare Verben mit korrekt positioniertem zu",
+          "mindestens ein dass-Satz bei unterschiedlichem Subjekt",
+          "mindestens ein Infinitiv Perfekt",
+          "mindestens ein Infinitiv Passiv",
+          "mindestens ein Beispiel ohne zu nach einem Modalverb",
+          "sinnvolle Kommasetzung",
+          "sachlicher beruflicher Zusammenhang"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bezug, Position von zu, Zeitform, Passiv und Kommasetzung.",
+      "explanation_ar": "راجع المرجع وموقع zu والزمن والمبني للمجهول والفواصل.",
+      "grammarFocus": "mixed_infinitive_zu",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

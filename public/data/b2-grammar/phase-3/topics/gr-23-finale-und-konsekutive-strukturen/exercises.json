@@ -1,0 +1,550 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-23",
+  "title_de": "Finale und konsekutive Strukturen – Übungen",
+  "title_ar": "تمارين تراكيب الغاية والنتيجة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr23-e001",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Damit-Satz",
+      "title_ar": "جملة damit",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir senden eine Erinnerung, damit niemand den Termin vergisst.",
+      "explanation_de": "Im damit-Satz steht vergisst am Ende.",
+      "explanation_ar": "في جملة damit تأتي vergisst في النهاية.",
+      "grammarFocus": "damit_word_order",
+      "options": [
+        "Wir senden eine Erinnerung, damit niemand den Termin vergisst.",
+        "Wir senden eine Erinnerung, damit vergisst niemand den Termin.",
+        "Wir senden eine Erinnerung, damit niemand vergisst den Termin.",
+        "Wir senden eine Erinnerung, damit der Termin niemand vergessen."
+      ]
+    },
+    {
+      "id": "gr23-e002",
+      "topicId": "gr-23",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Ziel mit damit",
+      "title_ar": "غاية باستخدام damit",
+      "prompt_de": "Die Anleitung wird vereinfacht, ______ neue Mitarbeitende sie leichter verstehen können.",
+      "prompt_ar": "يتم تبسيط التعليمات لكي يتمكن الموظفون الجدد من فهمها بسهولة أكبر.",
+      "answer": "damit",
+      "explanation_de": "Damit leitet einen finalen Nebensatz ein.",
+      "explanation_ar": "تدخل damit جملة غاية فرعية.",
+      "grammarFocus": "damit_goal",
+      "acceptedAnswers": [
+        "damit"
+      ]
+    },
+    {
+      "id": "gr23-e003",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Unterschiedliche Subjekte",
+      "title_ar": "فاعلان مختلفان",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+      "explanation_de": "Die Subjekte ich und die Kundin sind verschieden; deshalb verwendet man damit.",
+      "explanation_ar": "الفاعلان ich وdie Kundin مختلفان، لذلك نستخدم damit.",
+      "grammarFocus": "different_subjects",
+      "options": [
+        "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+        "Ich erkläre den Ablauf, um die Kundin ihn zu verstehen.",
+        "Ich erkläre den Ablauf, um versteht die Kundin ihn.",
+        "Ich erkläre den Ablauf, sodass die Kundin ihn verstehen soll als Ziel."
+      ]
+    },
+    {
+      "id": "gr23-e004",
+      "topicId": "gr-23",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Ziel oder Folge",
+      "title_ar": "غاية أم نتيجة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "damit": "Ziel",
+        "um ... zu": "Ziel bei gleichem Bezug",
+        "sodass": "Folge",
+        "so ... dass": "Grad und Folge",
+        "zu ... als dass": "nicht realisierbare Folge"
+      },
+      "explanation_de": "Die Strukturen unterscheiden Absicht, tatsächliche Folge und nicht mögliche Folge.",
+      "explanation_ar": "تميّز التراكيب بين الغاية والنتيجة الفعلية والنتيجة غير الممكنة.",
+      "grammarFocus": "goal_result_matching",
+      "pairs": [
+        [
+          "damit",
+          "Ziel"
+        ],
+        [
+          "um ... zu",
+          "Ziel bei gleichem Bezug"
+        ],
+        [
+          "sodass",
+          "Folge"
+        ],
+        [
+          "so ... dass",
+          "Grad und Folge"
+        ],
+        [
+          "zu ... als dass",
+          "nicht realisierbare Folge"
+        ]
+      ]
+    },
+    {
+      "id": "gr23-e005",
+      "topicId": "gr-23",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Sodass-Satz",
+      "title_ar": "جملة sodass",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Server fiel aus, sodass mehrere Dienste nicht erreichbar waren.",
+      "explanation_de": "Im sodass-Satz steht waren am Ende.",
+      "explanation_ar": "في جملة sodass تأتي waren في النهاية.",
+      "grammarFocus": "sodass_order",
+      "tokens": [
+        "mehrere Dienste",
+        "Der Server fiel aus",
+        "waren",
+        "sodass",
+        "nicht erreichbar"
+      ],
+      "acceptedAnswers": [
+        "Der Server fiel aus, sodass mehrere Dienste nicht erreichbar waren."
+      ]
+    },
+    {
+      "id": "gr23-e006",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "So ... dass",
+      "title_ar": "so ... dass",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt werden musste.",
+      "explanation_de": "Nach so + Adjektiv steht ein dass-Satz.",
+      "explanation_ar": "بعد so + صفة تأتي جملة dass.",
+      "grammarFocus": "so_dass_basic",
+      "options": [
+        "Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt werden musste.",
+        "Die Nachfrage war so hoch, sodass zusätzliches Personal eingestellt werden musste.",
+        "Die Nachfrage war hoch so, dass musste Personal eingestellt werden.",
+        "Die Nachfrage war so hoch, dass musste zusätzliches Personal eingestellt werden."
+      ]
+    },
+    {
+      "id": "gr23-e007",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Formeller Zweck",
+      "title_ar": "غاية رسمية",
+      "prompt_de": "Welche Verbindung wirkt besonders formell?",
+      "prompt_ar": "أي صيغة تبدو رسمية بصورة خاصة؟",
+      "answer": "Zu diesem Zweck wird ein neues Kontrollsystem eingeführt.",
+      "explanation_de": "Zu diesem Zweck ist eine formelle Zweckangabe.",
+      "explanation_ar": "تُعد zu diesem Zweck صيغة رسمية لذكر الغاية.",
+      "grammarFocus": "formal_purpose",
+      "options": [
+        "Zu diesem Zweck wird ein neues Kontrollsystem eingeführt.",
+        "Damit wird ein neues Kontrollsystem als Hauptsatz eingeführt.",
+        "Sodass wird ein neues Kontrollsystem eingeführt.",
+        "So dass ein neues Kontrollsystem wird eingeführt."
+      ]
+    },
+    {
+      "id": "gr23-e008",
+      "topicId": "gr-23",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Folge mit sodass",
+      "title_ar": "نتيجة باستخدام sodass",
+      "prompt_de": "Die Frist wurde verlängert, ______ alle Unterlagen nachgereicht werden konnten.",
+      "prompt_ar": "تم تمديد المهلة، مما أتاح تقديم جميع المستندات الناقصة.",
+      "answer": "sodass",
+      "explanation_de": "Sodass leitet die tatsächliche Folge ein.",
+      "explanation_ar": "تدخل sodass النتيجة الفعلية.",
+      "grammarFocus": "sodass_result",
+      "acceptedAnswers": [
+        "sodass",
+        "so dass"
+      ]
+    },
+    {
+      "id": "gr23-e009",
+      "topicId": "gr-23",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Damit bilden",
+      "title_ar": "تكوين جملة damit",
+      "prompt_de": "Verbinden Sie: Wir dokumentieren die Entscheidung. Spätere Rückfragen können schnell beantwortet werden.",
+      "prompt_ar": "اربط الجملتين للتعبير عن الغاية.",
+      "answer": "Wir dokumentieren die Entscheidung, damit spätere Rückfragen schnell beantwortet werden können.",
+      "explanation_de": "Damit nennt den Zweck der Dokumentation.",
+      "explanation_ar": "تذكر damit الغاية من التوثيق.",
+      "grammarFocus": "build_damit",
+      "acceptedAnswers": [
+        "Wir dokumentieren die Entscheidung, damit spätere Rückfragen schnell beantwortet werden können."
+      ]
+    },
+    {
+      "id": "gr23-e010",
+      "topicId": "gr-23",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Dafür verwenden",
+      "title_ar": "استخدام dafür",
+      "prompt_de": "Formulieren Sie mit dafür: Wir wollen die Bearbeitungszeit verkürzen. Wir digitalisieren mehrere Arbeitsschritte.",
+      "prompt_ar": "صغ الجملتين باستخدام dafür.",
+      "answer": "Wir wollen die Bearbeitungszeit verkürzen. Dafür digitalisieren wir mehrere Arbeitsschritte.",
+      "explanation_de": "Dafür nimmt das vorher genannte Ziel auf.",
+      "explanation_ar": "تشير Dafür إلى الغاية المذكورة سابقًا.",
+      "grammarFocus": "build_dafuer",
+      "acceptedAnswers": [
+        "Wir wollen die Bearbeitungszeit verkürzen. Dafür digitalisieren wir mehrere Arbeitsschritte."
+      ]
+    },
+    {
+      "id": "gr23-e011",
+      "topicId": "gr-23",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Damit zuerst",
+      "title_ar": "damit أولًا",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Damit alle Beteiligten rechtzeitig informiert sind, wird die Mitteilung heute verschickt.",
+      "explanation_de": "Nach dem vorangestellten damit-Satz beginnt der Hauptsatz mit wird.",
+      "explanation_ar": "بعد جملة damit المقدمة تبدأ الجملة الرئيسية بـ wird.",
+      "grammarFocus": "fronted_damit",
+      "tokens": [
+        "heute verschickt",
+        "alle Beteiligten",
+        "Damit",
+        "informiert sind",
+        "wird",
+        "die Mitteilung",
+        "rechtzeitig"
+      ],
+      "acceptedAnswers": [
+        "Damit alle Beteiligten rechtzeitig informiert sind, wird die Mitteilung heute verschickt."
+      ]
+    },
+    {
+      "id": "gr23-e012",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ziel oder Folge erkennen",
+      "title_ar": "تمييز الغاية والنتيجة",
+      "prompt_de": "Welcher Satz nennt eine Folge und kein Ziel?",
+      "prompt_ar": "أي جملة تذكر نتيجة لا غاية؟",
+      "answer": "Die Nachfrage stieg stark, sodass die vorhandenen Kapazitäten nicht ausreichten.",
+      "explanation_de": "Sodass leitet eine eingetretene Folge ein.",
+      "explanation_ar": "تدخل sodass نتيجة حدثت بالفعل.",
+      "grammarFocus": "identify_result",
+      "options": [
+        "Die Nachfrage stieg stark, sodass die vorhandenen Kapazitäten nicht ausreichten.",
+        "Wir erhöhen die Kapazität, damit Anfragen schneller bearbeitet werden.",
+        "Wir prüfen die Daten, um Fehler zu vermeiden.",
+        "Zu diesem Zweck wird ein neues System eingeführt."
+      ]
+    },
+    {
+      "id": "gr23-e013",
+      "topicId": "gr-23",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Struktur und Beispiel",
+      "title_ar": "مطابقة الصيغة بالمثال",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "damit": "Wir erklären es, damit alle es verstehen.",
+        "um ... zu": "Wir prüfen nach, um sicherzugehen.",
+        "sodass": "Der Server fiel aus, sodass wir warten mussten.",
+        "so ... dass": "Der Ausfall war so schwer, dass wir warten mussten.",
+        "zu ... als dass": "Zu schwer, als dass es schnell gelöst werden könnte."
+      },
+      "explanation_de": "Die Beispiele zeigen die typische Bedeutung jeder Struktur.",
+      "explanation_ar": "توضح الأمثلة المعنى النموذجي لكل صيغة.",
+      "grammarFocus": "structure_example_matching",
+      "pairs": [
+        [
+          "damit",
+          "Wir erklären es, damit alle es verstehen."
+        ],
+        [
+          "um ... zu",
+          "Wir prüfen nach, um sicherzugehen."
+        ],
+        [
+          "sodass",
+          "Der Server fiel aus, sodass wir warten mussten."
+        ],
+        [
+          "so ... dass",
+          "Der Ausfall war so schwer, dass wir warten mussten."
+        ],
+        [
+          "zu ... als dass",
+          "Zu schwer, als dass es schnell gelöst werden könnte."
+        ]
+      ]
+    },
+    {
+      "id": "gr23-e014",
+      "topicId": "gr-23",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Berufliches Ziel",
+      "title_ar": "غاية مهنية",
+      "prompt_de": "Der Vorgesetzte erklärt die Aufgabe erneut. Das Team soll sie korrekt ausführen. Welche Verbindung passt?",
+      "prompt_ar": "يشرح المسؤول المهمة مجددًا كي ينفذها الفريق بصورة صحيحة. أي ربط مناسب؟",
+      "answer": "Der Vorgesetzte erklärt die Aufgabe erneut, damit das Team sie korrekt ausführt.",
+      "explanation_de": "Die handelnden Subjekte sind verschieden; deshalb passt damit.",
+      "explanation_ar": "الفاعل في الجملتين مختلف، لذلك تناسب damit.",
+      "grammarFocus": "professional_goal",
+      "options": [
+        "Der Vorgesetzte erklärt die Aufgabe erneut, damit das Team sie korrekt ausführt.",
+        "Der Vorgesetzte erklärt die Aufgabe erneut, um das Team sie korrekt auszuführen.",
+        "Der Vorgesetzte erklärt die Aufgabe erneut, sodass als Ziel das Team korrekt ausführt.",
+        "Der Vorgesetzte erklärt die Aufgabe erneut, dazu das Team führt sie korrekt aus."
+      ]
+    },
+    {
+      "id": "gr23-e015",
+      "topicId": "gr-23",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "So ... dass ergänzen",
+      "title_ar": "إكمال so ... dass",
+      "prompt_de": "Die Anleitung war ______ unklar formuliert, dass viele Rückfragen entstanden.",
+      "prompt_ar": "كانت التعليمات غير واضحة إلى درجة ظهور أسئلة كثيرة.",
+      "answer": "so",
+      "explanation_de": "So verstärkt unklar und bereitet den dass-Satz vor.",
+      "explanation_ar": "تقوّي so الصفة unklar وتمهد لجملة dass.",
+      "grammarFocus": "so_dass_degree",
+      "acceptedAnswers": [
+        "so"
+      ]
+    },
+    {
+      "id": "gr23-e016",
+      "topicId": "gr-23",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zu diesem Zweck",
+      "title_ar": "zu diesem Zweck",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Sicherheit soll erhöht werden. Zu diesem Zweck wird ein neues Kontrollsystem eingeführt.",
+      "explanation_de": "Nach zu diesem Zweck steht wird auf Position 2.",
+      "explanation_ar": "بعد zu diesem Zweck تأتي wird في المرتبة الثانية.",
+      "grammarFocus": "purpose_formal_order",
+      "tokens": [
+        "ein neues Kontrollsystem",
+        "Die Sicherheit soll erhöht werden",
+        "wird",
+        "Zu diesem Zweck",
+        "eingeführt"
+      ],
+      "acceptedAnswers": [
+        "Die Sicherheit soll erhöht werden. Zu diesem Zweck wird ein neues Kontrollsystem eingeführt."
+      ]
+    },
+    {
+      "id": "gr23-e017",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Um ... zu oder damit",
+      "title_ar": "um ... zu أم damit",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir überprüfen die Daten, um Fehler frühzeitig zu erkennen.",
+      "explanation_de": "Der Handelnde ist in beiden Teilen wir; deshalb ist um ... zu möglich.",
+      "explanation_ar": "الفاعل في الجزأين هو wir، لذلك يمكن استخدام um ... zu.",
+      "grammarFocus": "um_zu_same_subject",
+      "options": [
+        "Wir überprüfen die Daten, um Fehler frühzeitig zu erkennen.",
+        "Wir überprüfen die Daten, um wir Fehler frühzeitig erkennen.",
+        "Wir überprüfen die Daten, damit Fehler frühzeitig zu erkennen.",
+        "Wir überprüfen die Daten, um die Fehler erkennen wir frühzeitig."
+      ]
+    },
+    {
+      "id": "gr23-e018",
+      "topicId": "gr-23",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Sodass und so ... dass",
+      "title_ar": "sodass وso ... dass",
+      "prompt_de": "Formulieren Sie zwei Varianten: Die Nachfrage war sehr hoch. Zusätzliches Personal musste eingestellt werden.",
+      "prompt_ar": "صغ نسختين باستخدام sodass وso ... dass.",
+      "answer": "Die Nachfrage war sehr hoch, sodass zusätzliches Personal eingestellt werden musste. Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt werden musste.",
+      "explanation_de": "Sodass nennt die Folge allgemein; so ... dass betont den Grad.",
+      "explanation_ar": "تذكر sodass النتيجة بصورة عامة، بينما تؤكد so ... dass الدرجة.",
+      "grammarFocus": "reformulate_result",
+      "acceptedAnswers": [
+        "Die Nachfrage war sehr hoch, sodass zusätzliches Personal eingestellt werden musste. Die Nachfrage war so hoch, dass zusätzliches Personal eingestellt werden musste."
+      ]
+    },
+    {
+      "id": "gr23-e019",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Zu ... als dass",
+      "title_ar": "zu ... als dass",
+      "prompt_de": "Welche Form ist vollständig korrekt?",
+      "prompt_ar": "أي صيغة صحيحة بالكامل؟",
+      "answer": "Die Aufgabe ist zu komplex, als dass sie ohne Unterstützung gelöst werden könnte.",
+      "explanation_de": "Die Struktur verwendet meist Konjunktiv II für die nicht realisierbare Folge.",
+      "explanation_ar": "تستخدم الصيغة غالبًا Konjunktiv II للنتيجة غير القابلة للتحقق.",
+      "grammarFocus": "zu_als_dass",
+      "options": [
+        "Die Aufgabe ist zu komplex, als dass sie ohne Unterstützung gelöst werden könnte.",
+        "Die Aufgabe ist zu komplex, sodass sie ohne Unterstützung nicht könnte gelöst.",
+        "Die Aufgabe ist so komplex, als dass sie wird gelöst.",
+        "Die Aufgabe ist zu komplex, als sie ohne Unterstützung gelöst werden kann."
+      ]
+    },
+    {
+      "id": "gr23-e020",
+      "topicId": "gr-23",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Formeller Projekttext",
+      "title_ar": "نص مشروع رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in einen formellen Projekttext?",
+      "prompt_ar": "أي صياغة تناسب نص مشروع رسمي؟",
+      "answer": "Die Prozessqualität soll verbessert werden. Zu diesem Zweck werden verbindliche Prüfschritte eingeführt.",
+      "explanation_de": "Zu diesem Zweck verbindet Ziel und Maßnahme formell und präzise.",
+      "explanation_ar": "تربط zu diesem Zweck بين الغاية والإجراء بأسلوب رسمي ودقيق.",
+      "grammarFocus": "formal_project_purpose",
+      "options": [
+        "Die Prozessqualität soll verbessert werden. Zu diesem Zweck werden verbindliche Prüfschritte eingeführt.",
+        "Wir wollen besser sein, deswegen machen wir irgendwie Prüfungen.",
+        "Die Prozessqualität soll verbessert werden, sodass als Ziel Prüfschritte.",
+        "Damit die Prozessqualität, werden Prüfschritte zu einführen."
+      ]
+    },
+    {
+      "id": "gr23-e021",
+      "topicId": "gr-23",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Folge",
+      "title_ar": "نتيجة معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Frist war so kurz, dass nicht alle Unterlagen rechtzeitig geprüft werden konnten.",
+      "explanation_de": "Der dass-Satz nennt die Folge der sehr kurzen Frist.",
+      "explanation_ar": "تذكر جملة dass نتيجة قصر المهلة الشديد.",
+      "grammarFocus": "complex_so_dass",
+      "tokens": [
+        "so kurz",
+        "dass",
+        "geprüft werden konnten",
+        "nicht alle Unterlagen",
+        "rechtzeitig",
+        "Die Frist war"
+      ],
+      "acceptedAnswers": [
+        "Die Frist war so kurz, dass nicht alle Unterlagen rechtzeitig geprüft werden konnten."
+      ]
+    },
+    {
+      "id": "gr23-e022",
+      "topicId": "gr-23",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Final oder konsekutiv",
+      "title_ar": "غاية أم نتيجة",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Wir schulen das Team, damit Fehler vermieden werden“ nennt ein Ziel.",
+      "explanation_de": "Damit antwortet auf die Frage Wozu?",
+      "explanation_ar": "تجيب damit عن سؤال: لأي هدف؟",
+      "grammarFocus": "goal_result_explanation",
+      "options": [
+        "„Wir schulen das Team, damit Fehler vermieden werden“ nennt ein Ziel.",
+        "„Wir schulen das Team, damit Fehler vermieden werden“ nennt eine bereits eingetretene Folge.",
+        "„Die Schulung war intensiv, sodass weniger Fehler auftraten“ nennt ein Ziel.",
+        "Damit und sodass haben immer dieselbe Funktion."
+      ]
+    },
+    {
+      "id": "gr23-e023",
+      "topicId": "gr-23",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrfachverknüpfung",
+      "title_ar": "ربط متعدد",
+      "prompt_de": "Verbinden Sie: Die Dokumentation soll transparenter werden. Ein digitales Protokoll wird eingeführt. Spätere Entscheidungen können leichter nachvollzogen werden.",
+      "prompt_ar": "اربط الجمل الثلاث باستخدام صيغة غاية وصيغة نتيجة.",
+      "answer": "Die Dokumentation soll transparenter werden. Zu diesem Zweck wird ein digitales Protokoll eingeführt, sodass spätere Entscheidungen leichter nachvollzogen werden können.",
+      "explanation_de": "Zu diesem Zweck nennt die Maßnahme zum Ziel; sodass nennt ihre erwartbare Folge.",
+      "explanation_ar": "تذكر zu diesem Zweck الإجراء لتحقيق الغاية، وتذكر sodass نتيجته المتوقعة.",
+      "grammarFocus": "purpose_and_result_combined",
+      "acceptedAnswers": [
+        "Die Dokumentation soll transparenter werden. Zu diesem Zweck wird ein digitales Protokoll eingeführt, sodass spätere Entscheidungen leichter nachvollzogen werden können."
+      ]
+    },
+    {
+      "id": "gr23-e024",
+      "topicId": "gr-23",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Ziel und Folge",
+      "title_ar": "تدريب ختامي على الغاية والنتيجة",
+      "prompt_de": "Schreiben Sie einen beruflichen Maßnahmenplan mit mindestens zehn Sätzen. Nennen Sie mindestens drei Ziele und drei Folgen. Verwenden Sie damit, um ... zu, dafür oder dazu, zu diesem Zweck, sodass, so ... dass und zu ... als dass jeweils mindestens einmal.",
+      "prompt_ar": "اكتب خطة إجراءات مهنية من عشر جمل على الأقل. اذكر ثلاث غايات وثلاث نتائج على الأقل. استخدم damit وum ... zu وdafür أو dazu وzu diesem Zweck وsodass وso ... dass وzu ... als dass مرة واحدة على الأقل لكل منها.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Sätze mit damit",
+          "mindestens ein Satz mit um ... zu",
+          "mindestens ein Satz mit dafür oder dazu",
+          "mindestens ein Satz mit zu diesem Zweck",
+          "mindestens ein Satz mit sodass oder so dass",
+          "mindestens ein Satz mit so ... dass",
+          "mindestens ein Satz mit zu ... als dass",
+          "mindestens drei Ziele",
+          "mindestens drei Folgen",
+          "korrekte Verbposition und klare logische Beziehungen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie, ob jede Verbindung ein Ziel oder eine Folge ausdrückt.",
+      "explanation_ar": "راجع ما إذا كان كل ربط يعبّر عن غاية أو نتيجة.",
+      "grammarFocus": "mixed_final_consecutive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

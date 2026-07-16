@@ -1,0 +1,533 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-49",
+  "title_de": "Unpersönliches Passiv und Passivbeschränkungen – Übungen",
+  "title_ar": "تمارين المبني للمجهول غير الشخصي وقيوده",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr49-e001",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Es wird gearbeitet.",
+      "explanation_de": "Werden + Partizip II bildet das unpersönliche Passiv.",
+      "explanation_ar": "تكوّن werden + Partizip II المبني للمجهول غير الشخصي.",
+      "grammarFocus": "basic_impersonal_passive",
+      "options": [
+        "Es wird gearbeitet.",
+        "Es werden gearbeitet.",
+        "Es ist arbeiten.",
+        "Es wird arbeiten getan."
+      ]
+    },
+    {
+      "id": "gr49-e002",
+      "topicId": "gr-49",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Es entfällt",
+      "title_ar": "حذف es",
+      "prompt_de": "Heute ______ bis spät gearbeitet.",
+      "prompt_ar": "يجري العمل اليوم حتى وقت متأخر.",
+      "answer": "wird",
+      "explanation_de": "Heute steht im Vorfeld; deshalb entfällt es.",
+      "explanation_ar": "تأتي Heute في الموقع الأول، لذلك تُحذف es.",
+      "grammarFocus": "es_omission",
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "gr49-e003",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Dativ bleibt",
+      "title_ar": "يبقى Dativ",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Dem Patienten wird geholfen.",
+      "explanation_de": "Das Dativobjekt bleibt Dativ.",
+      "explanation_ar": "يبقى مفعول Dativ في Dativ.",
+      "grammarFocus": "dative_preserved",
+      "options": [
+        "Dem Patienten wird geholfen.",
+        "Der Patient wird geholfen.",
+        "Den Patienten wird geholfen er.",
+        "Dem Patienten werden geholfen."
+      ]
+    },
+    {
+      "id": "gr49-e004",
+      "topicId": "gr-49",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Aktiv und Passiv",
+      "title_ar": "المعلوم والمجهول",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Man arbeitet heute länger.": "Heute wird länger gearbeitet.",
+        "Man hilft dem Gast.": "Dem Gast wird geholfen.",
+        "Man spricht über den Plan.": "Über den Plan wird gesprochen.",
+        "Man wartet auf die Entscheidung.": "Auf die Entscheidung wird gewartet."
+      },
+      "explanation_de": "Dativ und Präpositionen bleiben erhalten.",
+      "explanation_ar": "يبقى Dativ وحروف الجر كما هي.",
+      "grammarFocus": "basic_transformation_matching",
+      "pairs": [
+        [
+          "Man arbeitet heute länger.",
+          "Heute wird länger gearbeitet."
+        ],
+        [
+          "Man hilft dem Gast.",
+          "Dem Gast wird geholfen."
+        ],
+        [
+          "Man spricht über den Plan.",
+          "Über den Plan wird gesprochen."
+        ],
+        [
+          "Man wartet auf die Entscheidung.",
+          "Auf die Entscheidung wird gewartet."
+        ]
+      ]
+    },
+    {
+      "id": "gr49-e005",
+      "topicId": "gr-49",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Präpositionalergänzung",
+      "title_ar": "متمم حرف الجر",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Über die neue Regelung wird ausführlich gesprochen.",
+      "explanation_de": "Die Präpositionalergänzung steht im Vorfeld; es entfällt.",
+      "explanation_ar": "يأتي متمم حرف الجر في الموقع الأول، لذلك تُحذف es.",
+      "grammarFocus": "prepositional_fronting",
+      "tokens": [
+        "ausführlich gesprochen",
+        "wird",
+        "Über die neue Regelung"
+      ],
+      "acceptedAnswers": [
+        "Über die neue Regelung wird ausführlich gesprochen."
+      ]
+    },
+    {
+      "id": "gr49-e006",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Singularform",
+      "title_ar": "صيغة المفرد",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Im unpersönlichen Passiv steht die finite Form im Singular.",
+      "explanation_de": "Es gibt kein pluralisches Subjekt, das Kongruenz auslöst.",
+      "explanation_ar": "لا يوجد فاعل جمع يفرض المطابقة.",
+      "grammarFocus": "singular_agreement",
+      "options": [
+        "Im unpersönlichen Passiv steht die finite Form im Singular.",
+        "Die Form richtet sich immer nach dem Dativobjekt.",
+        "Bei mehreren Personen muss werden im Plural stehen.",
+        "Es ist ein echtes Pluralsubjekt."
+      ]
+    },
+    {
+      "id": "gr49-e007",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb",
+      "title_ar": "فعل ناقص",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Heute muss länger gearbeitet werden.",
+      "explanation_de": "Modalverb + Partizip II + werden bildet die Passivgruppe.",
+      "explanation_ar": "تكوّن Modalverb + Partizip II + werden مجموعة Passiv.",
+      "grammarFocus": "modal_impersonal_passive",
+      "options": [
+        "Heute muss länger gearbeitet werden.",
+        "Heute wird müssen länger gearbeitet.",
+        "Heute muss länger arbeiten worden.",
+        "Heute ist länger gearbeitet müssen."
+      ]
+    },
+    {
+      "id": "gr49-e008",
+      "topicId": "gr-49",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "prompt_de": "Gestern ______ bis Mitternacht gearbeitet.",
+      "prompt_ar": "جرى العمل أمس حتى منتصف الليل.",
+      "answer": "wurde",
+      "explanation_de": "Das Präteritum des Vorgangspassivs lautet wurde + Partizip II.",
+      "explanation_ar": "يكون Präteritum لـ Vorgangspassiv: wurde + Partizip II.",
+      "grammarFocus": "preterite_impersonal",
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "gr49-e009",
+      "topicId": "gr-49",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Dativverb umformen",
+      "title_ar": "تحويل فعل Dativ",
+      "prompt_de": "Formen Sie um: Man dankt den Beschäftigten.",
+      "prompt_ar": "حوّل إلى المبني للمجهول.",
+      "answer": "Den Beschäftigten wird gedankt.",
+      "explanation_de": "Der Dativ bleibt erhalten; es ist nicht nötig.",
+      "explanation_ar": "يبقى Dativ كما هو ولا نحتاج إلى es.",
+      "grammarFocus": "dative_verb_transformation",
+      "acceptedAnswers": [
+        "Den Beschäftigten wird gedankt."
+      ]
+    },
+    {
+      "id": "gr49-e010",
+      "topicId": "gr-49",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präpositionalverb umformen",
+      "title_ar": "تحويل فعل مع حرف جر",
+      "prompt_de": "Formen Sie um: Man wartet auf die Entscheidung.",
+      "prompt_ar": "حوّل إلى المبني للمجهول.",
+      "answer": "Auf die Entscheidung wird gewartet.",
+      "explanation_de": "Die Präposition auf bleibt erhalten.",
+      "explanation_ar": "يبقى حرف الجر auf كما هو.",
+      "grammarFocus": "prepositional_verb_transformation",
+      "acceptedAnswers": [
+        "Auf die Entscheidung wird gewartet."
+      ]
+    },
+    {
+      "id": "gr49-e011",
+      "topicId": "gr-49",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Über den Vorschlag ist ausführlich diskutiert worden.",
+      "explanation_de": "Im Perfekt steht ist + Partizip II + worden.",
+      "explanation_ar": "في Perfekt نستخدم ist + Partizip II + worden.",
+      "grammarFocus": "perfect_impersonal_order",
+      "tokens": [
+        "ausführlich diskutiert worden",
+        "ist",
+        "Über den Vorschlag"
+      ],
+      "acceptedAnswers": [
+        "Über den Vorschlag ist ausführlich diskutiert worden."
+      ]
+    },
+    {
+      "id": "gr49-e012",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Persönlich oder unpersönlich",
+      "title_ar": "شخصي أم غير شخصي",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Der Antrag wird geprüft“ ist persönliches Passiv; „Es wird gearbeitet“ ist unpersönliches Passiv.",
+      "explanation_de": "Nur der erste Satz hat ein neues Subjekt aus einem Akkusativobjekt.",
+      "explanation_ar": "تحتوي الجملة الأولى فقط على فاعل جديد من مفعول Akkusativ.",
+      "grammarFocus": "personal_impersonal_contrast",
+      "options": [
+        "„Der Antrag wird geprüft“ ist persönliches Passiv; „Es wird gearbeitet“ ist unpersönliches Passiv.",
+        "Beide Sätze sind Aktiv.",
+        "Es ist im zweiten Satz ein handelnder Mensch.",
+        "Der Antrag bleibt im ersten Satz Akkusativ."
+      ]
+    },
+    {
+      "id": "gr49-e013",
+      "topicId": "gr-49",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Passivfähigkeit",
+      "title_ar": "قابلية Passiv",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "arbeiten": "unpersönliches Passiv möglich",
+        "helfen": "unpersönliches Passiv mit Dativ",
+        "warten auf": "unpersönliches Passiv mit Präposition",
+        "besitzen": "normalerweise kein reguläres Passiv",
+        "regnen": "kein reguläres Passiv"
+      },
+      "explanation_de": "Agentivität und Verbtyp bestimmen die Passivfähigkeit.",
+      "explanation_ar": "تحدد الفاعلية ونوع الفعل قابلية Passiv.",
+      "grammarFocus": "passivability_matching",
+      "pairs": [
+        [
+          "arbeiten",
+          "unpersönliches Passiv möglich"
+        ],
+        [
+          "helfen",
+          "unpersönliches Passiv mit Dativ"
+        ],
+        [
+          "warten auf",
+          "unpersönliches Passiv mit Präposition"
+        ],
+        [
+          "besitzen",
+          "normalerweise kein reguläres Passiv"
+        ],
+        [
+          "regnen",
+          "kein reguläres Passiv"
+        ]
+      ]
+    },
+    {
+      "id": "gr49-e014",
+      "topicId": "gr-49",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Durchsage",
+      "title_ar": "إعلان رسمي",
+      "prompt_de": "Welche Formulierung passt am besten?",
+      "prompt_ar": "أي صياغة تناسب أكثر؟",
+      "answer": "Während der Prüfung darf nicht gesprochen werden.",
+      "explanation_de": "Die Form ist unpersönlich, sachlich und regelhaft.",
+      "explanation_ar": "الصيغة غير شخصية وموضوعية وتناسب القواعد.",
+      "grammarFocus": "formal_announcement",
+      "options": [
+        "Während der Prüfung darf nicht gesprochen werden.",
+        "Während der Prüfung sprechen Leute nicht vielleicht.",
+        "Es darf während der Prüfung nicht zu sprechen.",
+        "Während Prüfung wird nicht sprechen dürfen."
+      ]
+    },
+    {
+      "id": "gr49-e015",
+      "topicId": "gr-49",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "prompt_de": "Im kommenden Jahr wird in diesem Bereich intensiver gearbeitet ______.",
+      "prompt_ar": "سيجري العمل بصورة مكثفة أكثر في هذا المجال العام القادم.",
+      "answer": "werden",
+      "explanation_de": "Das Futur I des Passivs lautet wird + Partizip II + werden.",
+      "explanation_ar": "يكون Futur I لـ Passiv: wird + Partizip II + werden.",
+      "grammarFocus": "future_impersonal_passive",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "gr49-e016",
+      "topicId": "gr-49",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Dativ im Vorderfeld",
+      "title_ar": "Dativ في الموقع الأول",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Den neuen Mitarbeitenden wird der Ablauf ausführlich erklärt.",
+      "explanation_de": "Hier entsteht persönliches Passiv mit Ablauf als Subjekt; der Dativ bleibt erhalten.",
+      "explanation_ar": "هنا يتكوّن Passiv شخصي مع Ablauf فاعلًا نحويًا، ويبقى Dativ.",
+      "grammarFocus": "dative_plus_personal_passive",
+      "tokens": [
+        "der Ablauf ausführlich erklärt",
+        "wird",
+        "Den neuen Mitarbeitenden"
+      ],
+      "acceptedAnswers": [
+        "Den neuen Mitarbeitenden wird der Ablauf ausführlich erklärt."
+      ]
+    },
+    {
+      "id": "gr49-e017",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Reflexive Verben",
+      "title_ar": "الأفعال الانعكاسية",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Reflexive Verben bilden in der Standardsprache normalerweise kein reguläres Passiv.",
+      "explanation_de": "Darum ist „Es wird sich beeilt“ keine neutrale Standardform.",
+      "explanation_ar": "لذلك ليست Es wird sich beeilt صيغة قياسية محايدة.",
+      "grammarFocus": "reflexive_restriction",
+      "options": [
+        "Reflexive Verben bilden in der Standardsprache normalerweise kein reguläres Passiv.",
+        "Jedes reflexive Verb bildet problemlos Passiv.",
+        "Sich wird im Passiv immer zum Subjekt.",
+        "Reflexive Verben benötigen zwingend Bekommen-Passiv."
+      ]
+    },
+    {
+      "id": "gr49-e018",
+      "topicId": "gr-49",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Zeitformen",
+      "title_ar": "عدة أزمنة",
+      "prompt_de": "Formulieren Sie in Präsens, Präteritum und Perfekt: im Team / intensiv diskutieren",
+      "prompt_ar": "صغ الجملة في Präsens وPräteritum وPerfekt.",
+      "answer": "Im Team wird intensiv diskutiert. Im Team wurde intensiv diskutiert. Im Team ist intensiv diskutiert worden.",
+      "explanation_de": "Die Passivstruktur wird in drei Zeitformen korrekt gebildet.",
+      "explanation_ar": "تم تكوين بنية Passiv بصورة صحيحة في ثلاثة أزمنة.",
+      "grammarFocus": "three_tenses_impersonal",
+      "acceptedAnswers": [
+        "Im Team wird intensiv diskutiert. Im Team wurde intensiv diskutiert. Im Team ist intensiv diskutiert worden."
+      ]
+    },
+    {
+      "id": "gr49-e019",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Agentivität",
+      "title_ar": "الفاعلية",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "Unpersönliches Passiv ist besonders natürlich bei kontrollierbaren Tätigkeiten mit einem gedachten Handelnden.",
+      "explanation_de": "Darum ist arbeiten passivfähig, regnen aber normalerweise nicht.",
+      "explanation_ar": "لذلك يقبل arbeiten المبني للمجهول، بينما لا يقبله regnen عادة.",
+      "grammarFocus": "agentivity_principle",
+      "options": [
+        "Unpersönliches Passiv ist besonders natürlich bei kontrollierbaren Tätigkeiten mit einem gedachten Handelnden.",
+        "Jedes intransitive Verb bildet automatisch Passiv.",
+        "Nur Verben mit Akkusativobjekt können Passiv bilden.",
+        "Wetterverben bilden besonders häufig unpersönliches Passiv."
+      ]
+    },
+    {
+      "id": "gr49-e020",
+      "topicId": "gr-49",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Institutioneller Bericht",
+      "title_ar": "تقرير مؤسسي",
+      "prompt_de": "Welche Formulierung ist am besten geeignet?",
+      "prompt_ar": "أي صياغة أنسب؟",
+      "answer": "Im vergangenen Quartal wurde intensiv an der neuen Sicherheitsstrategie gearbeitet.",
+      "explanation_de": "Die Form fokussiert die Tätigkeit und vermeidet einen unnötigen Handelnden.",
+      "explanation_ar": "تركز الصيغة على النشاط وتتجنب ذكر فاعل غير ضروري.",
+      "grammarFocus": "institutional_report",
+      "options": [
+        "Im vergangenen Quartal wurde intensiv an der neuen Sicherheitsstrategie gearbeitet.",
+        "Die Sicherheitsstrategie wurde intensiv besessen.",
+        "Es hat die Strategie gearbeitet.",
+        "Im Quartal arbeiteten worden an Strategie."
+      ]
+    },
+    {
+      "id": "gr49-e021",
+      "topicId": "gr-49",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Modalverb und Präposition",
+      "title_ar": "فعل ناقص وحرف جر",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Über vertrauliche Inhalte darf außerhalb des Teams nicht gesprochen werden.",
+      "explanation_de": "Die Präpositionalergänzung bleibt erhalten; darf steht an Position zwei.",
+      "explanation_ar": "يبقى متمم حرف الجر، وتأتي darf في الموقع الثاني.",
+      "grammarFocus": "modal_prepositional_passive_order",
+      "tokens": [
+        "außerhalb des Teams nicht gesprochen werden",
+        "darf",
+        "Über vertrauliche Inhalte"
+      ],
+      "acceptedAnswers": [
+        "Über vertrauliche Inhalte darf außerhalb des Teams nicht gesprochen werden."
+      ]
+    },
+    {
+      "id": "gr49-e022",
+      "topicId": "gr-49",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Passivbeschränkungen",
+      "title_ar": "قيود Passiv",
+      "prompt_de": "Welche Gruppe enthält nur Verben, die normalerweise kein reguläres Passiv bilden?",
+      "prompt_ar": "أي مجموعة تحتوي فقط أفعالًا لا تكوّن عادة Passiv عاديًا؟",
+      "answer": "besitzen – wissen – regnen – sich beeilen",
+      "explanation_de": "Besitz, Wissen, Wetter und Reflexivität begrenzen die Passivbildung.",
+      "explanation_ar": "تحد الملكية والمعرفة والطقس والانعكاسية من تكوين Passiv.",
+      "grammarFocus": "restriction_group",
+      "options": [
+        "besitzen – wissen – regnen – sich beeilen",
+        "arbeiten – tanzen – helfen – warten",
+        "prüfen – schreiben – erklären – schicken",
+        "diskutieren – danken – sprechen – verhandeln"
+      ]
+    },
+    {
+      "id": "gr49-e023",
+      "topicId": "gr-49",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Passivarten vergleichen",
+      "title_ar": "مقارنة أنواع Passiv",
+      "prompt_de": "Formulieren Sie drei Sätze: Man prüft den Antrag. Man arbeitet im Büro. Man hilft dem Kunden.",
+      "prompt_ar": "صغ الجمل الثلاث في Passiv.",
+      "answer": "Der Antrag wird geprüft. Im Büro wird gearbeitet. Dem Kunden wird geholfen.",
+      "explanation_de": "Die Sätze zeigen persönliches Passiv, unpersönliches Tätigkeits-Passiv und unpersönliches Dativ-Passiv.",
+      "explanation_ar": "توضح الجمل Passiv شخصيًا وغير شخصي مع نشاط وغير شخصي مع Dativ.",
+      "grammarFocus": "three_passive_types",
+      "acceptedAnswers": [
+        "Der Antrag wird geprüft. Im Büro wird gearbeitet. Dem Kunden wird geholfen."
+      ]
+    },
+    {
+      "id": "gr49-e024",
+      "topicId": "gr-49",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining unpersönliches Passiv",
+      "title_ar": "تدريب ختامي على المبني للمجهول غير الشخصي",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens vierzehn Sätzen über Regeln, Abläufe und Zusammenarbeit in einer Institution. Verwenden Sie persönliches und unpersönliches Passiv und erklären Sie mehrere Passivbeschränkungen.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من أربع عشرة جملة على الأقل عن القواعد والإجراءات والتعاون في مؤسسة. استخدم Passiv الشخصي وغير الشخصي واشرح عدة قيود على Passiv.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens fünf unpersönliche Passivsätze",
+          "mindestens zwei Sätze mit Dativverben",
+          "mindestens zwei Sätze mit Präpositionalverben",
+          "mindestens drei persönliche Passivsätze",
+          "mindestens ein Satz mit Modalverb",
+          "Präsens, Präteritum und Perfekt",
+          "mindestens zwei Beispiele ohne es wegen eines anderen Vorfeldelements",
+          "mindestens vier Verben mit Passivbeschränkung",
+          "korrekte Singularformen",
+          "klare Unterscheidung zwischen persönlichem und unpersönlichem Passiv"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Passivfähigkeit, es, Singularform, Dativ, Präposition, Zeitform, Modalverb und Informationsfokus.",
+      "explanation_ar": "راجع قابلية Passiv وes وصيغة المفرد وDativ وحرف الجر والزمن والفعل الناقص وتركيز المعلومة.",
+      "grammarFocus": "mixed_impersonal_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

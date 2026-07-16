@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-02",
+  "slug": "gr-02-satzstellung",
+  "order": 2,
+  "title_de": "Satzstellung",
+  "title_ar": "ترتيب الجملة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "grundlagen_festigen",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Das finite Verb im Hauptsatz sicher auf Position 2 setzen.",
+    "Satzklammern mit trennbaren Verben, Modalverben, Perfekt, Passiv und Futur korrekt bilden.",
+    "Nebensätze mit Verbendstellung korrekt verwenden.",
+    "Angaben im Mittelfeld nach TeKaMoLo sinnvoll ordnen.",
+    "Dativ- und Akkusativobjekte sowie Pronomen korrekt platzieren.",
+    "Die Position von nicht gezielt wählen."
+  ],
+  "learningObjectives_ar": [
+    "وضع الفعل المصرف في المرتبة الثانية في الجملة الرئيسية.",
+    "تكوين إطار الجملة مع الأفعال المنفصلة والناقصة وPerfekt وPassiv وFutur.",
+    "استخدام الجمل الفرعية مع الفعل في النهاية.",
+    "ترتيب الظروف في وسط الجملة وفق TeKaMoLo.",
+    "ترتيب مفعولي Dativ وAkkusativ والضمائر بصورة صحيحة.",
+    "اختيار موقع nicht بحسب الجزء المراد نفيه."
+  ],
+  "shortDescription_de": "Die deutsche Satzstellung wird vor allem durch Verbposition, Satzklammer und Verbendstellung im Nebensatz bestimmt.",
+  "shortDescription_ar": "يعتمد ترتيب الجملة الألمانية أساسًا على موقع الفعل وإطار الجملة ووضع الفعل في نهاية الجملة الفرعية.",
+  "explanation_de": "Im Hauptsatz steht das finite Verb normalerweise auf Position 2. Position 1 wird von genau einem Satzglied besetzt. Steht nicht das Subjekt auf Position 1, folgt nach dem Verb meist das Subjekt. Mehrteilige Verbformen bilden eine Satzklammer: Der finite Teil steht vorn, der andere Verbteil am Ende. In Nebensätzen mit dass, weil, obwohl, wenn, nachdem oder bevor stehen die Verbteile am Ende. Im Mittelfeld ist TeKaMoLo – temporal, kausal, modal, lokal – eine nützliche neutrale Grundordnung. Bei zwei Nomen steht meist Dativ vor Akkusativ; ein Pronomen steht gewöhnlich vor einem Nomen; bei zwei Pronomen steht meist Akkusativ vor Dativ.",
+  "explanation_ar": "يأتي الفعل المصرف في الجملة الرئيسية عادة في المرتبة الثانية، وتشغل المرتبة الأولى وحدة واحدة فقط. إذا لم تبدأ الجملة بالفاعل يأتي الفاعل غالبًا بعد الفعل. وتكوّن الأفعال المركبة إطارًا للجملة: الجزء المصرف في البداية والجزء الآخر في النهاية. وفي الجمل الفرعية مع dass وweil وobwohl وwenn وnachdem وbevor تأتي أجزاء الفعل في النهاية. أما في وسط الجملة فتساعد قاعدة TeKaMoLo: زمان، سبب، طريقة، مكان. وعندما يكون المفعولان اسمين يأتي Dativ قبل Akkusativ غالبًا، ويسبق الضمير الاسم عادة، وإذا كان المفعولان ضميرين يأتي Akkusativ قبل Dativ غالبًا.",
+  "rules": [
+    {
+      "id": "gr02-r01",
+      "title_de": "Hauptsatz: Verb auf Position 2",
+      "title_ar": "الجملة الرئيسية: الفعل في المرتبة الثانية",
+      "explanation_de": "Position 1 enthält genau ein Satzglied. Das finite Verb steht auf Position 2.",
+      "explanation_ar": "تحتوي المرتبة الأولى على عنصر واحد فقط، ويأتي الفعل المصرف في المرتبة الثانية.",
+      "formula": "Position 1 + finites Verb + Mittelfeld + Satzende",
+      "examples": [
+        {
+          "de": "Ich bespreche morgen das Problem.",
+          "ar": "سأناقش المشكلة غدًا."
+        },
+        {
+          "de": "Morgen bespreche ich das Problem.",
+          "ar": "غدًا سأناقش المشكلة."
+        },
+        {
+          "de": "Das Problem bespreche ich morgen.",
+          "ar": "المشكلة سأناقشها غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r02",
+      "title_de": "Inversion",
+      "title_ar": "التقديم وعكس ترتيب الفاعل",
+      "explanation_de": "Beginnt der Satz mit einer Angabe oder einem Objekt, folgt nach dem Verb meist das Subjekt.",
+      "explanation_ar": "إذا بدأت الجملة بظرف أو مفعول، يأتي الفاعل غالبًا بعد الفعل مباشرة.",
+      "formula": "Angabe/Objekt + Verb + Subjekt + ...",
+      "examples": [
+        {
+          "de": "Heute arbeitet die Abteilung im Homeoffice.",
+          "ar": "اليوم يعمل القسم من المنزل."
+        },
+        {
+          "de": "Diese Unterlagen hat der Kunde bereits erhalten.",
+          "ar": "هذه المستندات استلمها العميل بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r03",
+      "title_de": "Satzklammer",
+      "title_ar": "إطار الجملة",
+      "explanation_de": "Bei trennbaren Verben, Modalverben, Perfekt, Passiv und Futur steht der finite Teil vorn und der übrige Verbteil am Ende.",
+      "explanation_ar": "مع الأفعال المنفصلة والناقصة وPerfekt وPassiv وFutur يأتي الجزء المصرف أولًا والجزء الآخر في نهاية الجملة.",
+      "formula": "finites Verb ... Präfix/Infinitiv/Partizip",
+      "examples": [
+        {
+          "de": "Ich rufe den Kunden morgen an.",
+          "ar": "سأتصل بالعميل غدًا."
+        },
+        {
+          "de": "Wir müssen den Termin verschieben.",
+          "ar": "يجب أن نؤجل الموعد."
+        },
+        {
+          "de": "Der Antrag ist gestern geprüft worden.",
+          "ar": "تم فحص الطلب أمس."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r04",
+      "title_de": "Nebensatz: Verb am Ende",
+      "title_ar": "الجملة الفرعية: الفعل في النهاية",
+      "explanation_de": "Nach unterordnenden Konjunktionen stehen die Verbteile am Satzende.",
+      "explanation_ar": "بعد أدوات الربط التابعة تأتي أجزاء الفعل في نهاية الجملة.",
+      "formula": "Konjunktion + Subjekt + Mittelfeld + Verbteil(e)",
+      "examples": [
+        {
+          "de": "Ich bleibe zu Hause, weil ich krank bin.",
+          "ar": "أبقى في المنزل لأنني مريض."
+        },
+        {
+          "de": "Sie sagt, dass der Antrag geprüft worden ist.",
+          "ar": "تقول إن الطلب قد تم فحصه."
+        },
+        {
+          "de": "Nachdem er die Unterlagen gelesen hatte, rief er an.",
+          "ar": "بعد أن قرأ المستندات اتصل."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r05",
+      "title_de": "TeKaMoLo",
+      "title_ar": "قاعدة TeKaMoLo",
+      "explanation_de": "Eine häufige neutrale Reihenfolge ist temporal – kausal – modal – lokal. Andere Reihenfolgen sind zur Betonung möglich.",
+      "explanation_ar": "الترتيب المحايد الشائع هو: الزمان ثم السبب ثم الطريقة ثم المكان، ويمكن تغييره للتأكيد.",
+      "formula": "Temporal + Kausal + Modal + Lokal",
+      "examples": [
+        {
+          "de": "Sie fährt morgen aus beruflichen Gründen mit dem Zug nach Berlin.",
+          "ar": "تسافر غدًا لأسباب مهنية بالقطار إلى برلين."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r06",
+      "title_de": "Dativ und Akkusativ",
+      "title_ar": "ترتيب Dativ وAkkusativ",
+      "explanation_de": "Zwei Nomen: meist Dativ vor Akkusativ. Pronomen steht meist vor Nomen. Zwei Pronomen: meist Akkusativ vor Dativ.",
+      "explanation_ar": "مع اسمين يأتي Dativ قبل Akkusativ غالبًا، والضمير يسبق الاسم عادة، ومع ضميرين يأتي Akkusativ قبل Dativ غالبًا.",
+      "formula": "Nomen: Dat + Akk | Pronomen + Nomen | Pronomen: Akk + Dat",
+      "examples": [
+        {
+          "de": "Ich schicke dem Kunden die Rechnung.",
+          "ar": "أرسل للعميل الفاتورة."
+        },
+        {
+          "de": "Ich schicke sie dem Kunden.",
+          "ar": "أرسلها للعميل."
+        },
+        {
+          "de": "Ich schicke sie ihm.",
+          "ar": "أرسلها له."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r07",
+      "title_de": "Position von nicht",
+      "title_ar": "موقع nicht",
+      "explanation_de": "Nicht steht vor dem gezielt negierten Satzteil. Bei allgemeiner Verbnegation steht es meist weit hinten, aber vor dem zweiten Teil der Satzklammer.",
+      "explanation_ar": "تأتي nicht قبل الجزء المنفي مباشرة، وعند نفي الفعل عمومًا تأتي غالبًا متأخرة وقبل الجزء الثاني من إطار الجملة.",
+      "formula": "nicht + negierter Teil / ... nicht + Verbteil",
+      "examples": [
+        {
+          "de": "Ich arbeite heute nicht.",
+          "ar": "أنا لا أعمل اليوم."
+        },
+        {
+          "de": "Ich arbeite nicht heute, sondern morgen.",
+          "ar": "لن أعمل اليوم بل غدًا."
+        },
+        {
+          "de": "Ich kann heute nicht kommen.",
+          "ar": "لا أستطيع الحضور اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr02-r08",
+      "title_de": "Mehrere Verben am Satzende",
+      "title_ar": "عدة أفعال في نهاية الجملة",
+      "explanation_de": "In Nebensätzen stehen bei Perfekt und Passiv die Verbteile am Ende.",
+      "explanation_ar": "في الجمل الفرعية تأتي أجزاء Perfekt وPassiv في النهاية.",
+      "formula": "..., dass + ... + Partizip + Hilfsverb",
+      "examples": [
+        {
+          "de": "Ich weiß, dass sie den Bericht geschrieben hat.",
+          "ar": "أعرف أنها كتبت التقرير."
+        },
+        {
+          "de": "Er bestätigt, dass der Vertrag unterschrieben worden ist.",
+          "ar": "يؤكد أن العقد قد تم توقيعه."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr02-t01",
+      "title_de": "Feldermodell",
+      "title_ar": "نموذج حقول الجملة",
+      "headers_de": [
+        "Vorfeld",
+        "linke Klammer",
+        "Mittelfeld",
+        "rechte Klammer"
+      ],
+      "headers_ar": [
+        "المقدمة",
+        "طرف الإطار الأول",
+        "وسط الجملة",
+        "طرف الإطار الأخير"
+      ],
+      "rows": [
+        [
+          "Morgen",
+          "rufe",
+          "ich den Kunden",
+          "an."
+        ],
+        [
+          "Der Antrag",
+          "wird",
+          "heute von der Behörde",
+          "geprüft."
+        ],
+        [
+          "Wir",
+          "müssen",
+          "die Unterlagen bis Freitag",
+          "einreichen."
+        ]
+      ]
+    },
+    {
+      "id": "gr02-t02",
+      "title_de": "Objektreihenfolge",
+      "title_ar": "ترتيب المفعولين",
+      "headers_de": [
+        "Situation",
+        "Reihenfolge",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الحالة",
+        "الترتيب",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "zwei Nomen",
+          "Dativ vor Akkusativ",
+          "Ich gebe dem Kollegen den Schlüssel."
+        ],
+        [
+          "Pronomen + Nomen",
+          "Pronomen zuerst",
+          "Ich gebe ihn dem Kollegen."
+        ],
+        [
+          "zwei Pronomen",
+          "Akkusativ vor Dativ",
+          "Ich gebe ihn ihm."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Heute schickt die Personalabteilung allen Beschäftigten per E-Mail die neue Regelung.",
+      "ar": "اليوم يرسل قسم الموارد البشرية لجميع الموظفين القاعدة الجديدة عبر البريد.",
+      "note_de": "Heute steht auf Position 1; das Verb bleibt auf Position 2.",
+      "note_ar": "تأتي Heute في البداية ويبقى الفعل في المرتبة الثانية."
+    },
+    {
+      "de": "Die neue Regelung wird morgen im Intranet veröffentlicht.",
+      "ar": "سيتم نشر القاعدة الجديدة غدًا في الشبكة الداخلية.",
+      "note_de": "Passiv mit Satzklammer: wird ... veröffentlicht.",
+      "note_ar": "مبني للمجهول مع إطار الجملة."
+    },
+    {
+      "de": "Obwohl der Termin kurzfristig geändert wurde, nahmen alle teil.",
+      "ar": "رغم تغيير الموعد بسرعة شارك الجميع.",
+      "note_de": "Der Nebensatz besetzt Position 1; im Hauptsatz folgt das Verb vor dem Subjekt.",
+      "note_ar": "تشغل الجملة الفرعية البداية ثم يأتي الفعل قبل الفاعل."
+    },
+    {
+      "de": "Ich habe sie ihm gestern im Büro gegeben.",
+      "ar": "أعطيتها له أمس في المكتب.",
+      "note_de": "Bei zwei Pronomen steht Akkusativ meist vor Dativ.",
+      "note_ar": "مع ضميرين يأتي Akkusativ غالبًا قبل Dativ."
+    },
+    {
+      "de": "Wir können den Bericht heute wegen der fehlenden Daten nicht fertigstellen.",
+      "ar": "لا نستطيع إنهاء التقرير اليوم بسبب نقص البيانات.",
+      "note_de": "Nicht steht vor dem Infinitiv am Ende der Satzklammer.",
+      "note_ar": "تأتي nicht قبل المصدر في نهاية الإطار."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Morgen ich bespreche das Problem.",
+      "correct": "Morgen bespreche ich das Problem.",
+      "explanation_de": "Nach Position 1 folgt das finite Verb.",
+      "explanation_ar": "بعد العنصر الأول يأتي الفعل المصرف."
+    },
+    {
+      "wrong": "Weil ich bin krank, bleibe ich zu Hause.",
+      "correct": "Weil ich krank bin, bleibe ich zu Hause.",
+      "explanation_de": "Im Nebensatz steht das Verb am Ende.",
+      "explanation_ar": "يأتي الفعل في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Ich rufe an morgen den Kunden.",
+      "correct": "Ich rufe den Kunden morgen an.",
+      "explanation_de": "Das trennbare Präfix steht am Satzende.",
+      "explanation_ar": "يأتي الجزء المنفصل في نهاية الجملة."
+    },
+    {
+      "wrong": "Ich schicke die Rechnung dem Kunden.",
+      "correct": "Ich schicke dem Kunden die Rechnung.",
+      "explanation_de": "Bei zwei Nomen steht meist Dativ vor Akkusativ.",
+      "explanation_ar": "مع اسمين يأتي Dativ قبل Akkusativ غالبًا."
+    },
+    {
+      "wrong": "Ich schicke ihm sie.",
+      "correct": "Ich schicke sie ihm.",
+      "explanation_de": "Bei zwei Pronomen steht meist Akkusativ vor Dativ.",
+      "explanation_ar": "مع ضميرين يأتي Akkusativ قبل Dativ غالبًا."
+    },
+    {
+      "wrong": "Ich kann nicht heute kommen.",
+      "correct": "Ich kann heute nicht kommen.",
+      "explanation_de": "Bei allgemeiner Verbnegation steht nicht meist vor dem Infinitiv.",
+      "explanation_ar": "عند نفي الفعل عمومًا تأتي nicht قبل المصدر."
+    }
+  ],
+  "quickSummary_de": [
+    "Hauptsatz: finites Verb auf Position 2.",
+    "Position 1 enthält nur ein Satzglied.",
+    "Nach einer anderen Position 1 folgt meist Verb + Subjekt.",
+    "Mehrteilige Verben bilden eine Satzklammer.",
+    "Nebensatz: Verbteile am Ende.",
+    "TeKaMoLo: temporal – kausal – modal – lokal.",
+    "Zwei Nomen: Dativ vor Akkusativ.",
+    "Pronomen steht meist vor Nomen.",
+    "Zwei Pronomen: Akkusativ vor Dativ.",
+    "Nicht steht vor dem gezielt negierten Teil."
+  ],
+  "quickSummary_ar": [
+    "الجملة الرئيسية: الفعل المصرف في المرتبة الثانية.",
+    "المرتبة الأولى تحتوي على عنصر واحد فقط.",
+    "بعد تقديم عنصر آخر يأتي غالبًا الفعل ثم الفاعل.",
+    "الأفعال المركبة تكوّن إطارًا للجملة.",
+    "الجملة الفرعية: أجزاء الفعل في النهاية.",
+    "TeKaMoLo: زمان، سبب، طريقة، مكان.",
+    "مع اسمين يأتي Dativ قبل Akkusativ.",
+    "الضمير يسبق الاسم غالبًا.",
+    "مع ضميرين يأتي Akkusativ قبل Dativ.",
+    "تأتي nicht قبل الجزء المنفي مباشرة."
+  ],
+  "relatedTopics": [
+    "gr-01",
+    "gr-03",
+    "gr-04",
+    "gr-05",
+    "gr-06",
+    "gr-07",
+    "gr-08",
+    "gr-09"
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-34",
+  "slug": "gr-34-nomen-verb-verbindungen-beruflicher-kontext",
+  "order": 34,
+  "title_de": "Nomen-Verb-Verbindungen im beruflichen Kontext",
+  "title_ar": "روابط الاسم والفعل في السياق المهني",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "nomen_verb_verbindungen",
+  "estimatedMinutes": 65,
+  "learningObjectives_de": [
+    "Häufige Nomen-Verb-Verbindungen aus Verwaltung, Projektarbeit und Kommunikation sicher verwenden.",
+    "Feste Artikel, Kasus und Präpositionen korrekt ergänzen.",
+    "Berufliche Handlungen präzise und formell ausdrücken.",
+    "Aktiv- und Passivformen typischer Verbindungen bilden.",
+    "Zwischen ähnlichen Verbindungen wie zur Kenntnis nehmen, Stellung nehmen und Kontakt aufnehmen unterscheiden.",
+    "Einfache Verben in passende berufliche Nomen-Verb-Verbindungen umformen.",
+    "Sachliche E-Mails, Protokolle und Berichte mit geeigneten Verbindungen formulieren."
+  ],
+  "learningObjectives_ar": [
+    "استخدام روابط الاسم والفعل الشائعة في الإدارة والعمل بالمشروعات والتواصل.",
+    "إكمال الأداة والحالة وحرف الجر الثابت بصورة صحيحة.",
+    "التعبير عن الإجراءات المهنية بدقة وأسلوب رسمي.",
+    "تكوين صيغ المعلوم والمجهول للروابط الشائعة.",
+    "التمييز بين روابط متقاربة مثل zur Kenntnis nehmen وStellung nehmen وKontakt aufnehmen.",
+    "تحويل الأفعال البسيطة إلى روابط مناسبة في السياق المهني.",
+    "صياغة رسائل ومحاضر وتقارير موضوعية باستخدام الروابط المناسبة."
+  ],
+  "shortDescription_de": "Im beruflichen Alltag werden viele Handlungen mit festen Nomen-Verb-Verbindungen ausgedrückt. Sie präzisieren Zuständigkeiten, Entscheidungen, Kommunikation und Arbeitsprozesse.",
+  "shortDescription_ar": "يُعبّر عن كثير من الإجراءات في الحياة المهنية باستخدام روابط ثابتة بين الاسم والفعل. وهي تجعل المسؤوليات والقرارات والتواصل وسير العمل أكثر دقة.",
+  "explanation_de": "Berufliche Nomen-Verb-Verbindungen sind besonders häufig in E-Mails, Protokollen, Anträgen, Berichten und Bescheiden. Man nimmt Kontakt mit einer Person auf, nimmt zu einem Vorschlag Stellung, nimmt eine Information zur Kenntnis, erteilt einen Auftrag, erfüllt Anforderungen, hält eine Frist ein oder setzt eine Regelung in Kraft. Viele Verbindungen enthalten feste Präpositionen: Kontakt aufnehmen mit + Dativ, Stellung nehmen zu + Dativ, Anspruch haben auf + Akkusativ, Bezug nehmen auf + Akkusativ und Verhandlungen führen mit + Dativ über + Akkusativ. Andere Verbindungen verlangen einen bestimmten Artikel oder eine bestimmte Form: eine Beschwerde einreichen, einen Auftrag erteilen, eine Vereinbarung treffen und eine Rückmeldung geben. Das Verb wird normal konjugiert. Im Passiv steht häufig der Vorgang im Vordergrund: Der Auftrag wurde erteilt. Die Anforderungen wurden erfüllt. Die Regelung wurde in Kraft gesetzt. Nicht jede Verbindung lässt sich in jedem Kontext durch ein einfaches Verb ersetzen, ohne dass sich Stil oder Bedeutung ändern. Zur Kenntnis nehmen bedeutet zum Beispiel nicht nur lesen, sondern eine Information offiziell wahrnehmen. Stellung nehmen bedeutet sich sachlich zu einer Frage äußern. Deshalb müssen solche Verbindungen als Einheit zusammen mit ihrer Ergänzung gelernt werden.",
+  "explanation_ar": "تكثر روابط الاسم والفعل المهنية في الرسائل والبروتوكولات والطلبات والتقارير والقرارات الرسمية. فنقول: Kontakt mit einer Person aufnehmen، وzu einem Vorschlag Stellung nehmen، وeine Information zur Kenntnis nehmen، وeinen Auftrag erteilen، وAnforderungen erfüllen، وeine Frist einhalten، وeine Regelung in Kraft setzen. وتحتوي روابط كثيرة على حروف جر ثابتة: Kontakt aufnehmen mit + Dativ، وStellung nehmen zu + Dativ، وAnspruch haben auf + Akkusativ، وBezug nehmen auf + Akkusativ، وVerhandlungen führen mit + Dativ über + Akkusativ. وتحتاج روابط أخرى إلى أداة وصيغة محددتين، مثل: eine Beschwerde einreichen، وeinen Auftrag erteilen، وeine Vereinbarung treffen، وeine Rückmeldung geben. ويُصرف الفعل بصورة طبيعية. وفي المبني للمجهول يكون الإجراء غالبًا هو المهم: Der Auftrag wurde erteilt. Die Anforderungen wurden erfüllt. Die Regelung wurde in Kraft gesetzt. ولا يمكن دائمًا استبدال الرابط بفعل بسيط دون تغيير الأسلوب أو المعنى. فـ zur Kenntnis nehmen لا تعني مجرد القراءة، بل الإحاطة بالمعلومة رسميًا. أما Stellung nehmen فتعني إبداء موقف موضوعي تجاه مسألة. لذلك يجب حفظ الرابط مع متمماته كوحدة واحدة.",
+  "rules": [
+    {
+      "id": "gr34-r01",
+      "title_de": "Kontakt aufnehmen mit",
+      "title_ar": "Kontakt aufnehmen mit",
+      "explanation_de": "Die Verbindung bedeutet sich an jemanden wenden oder eine Kommunikation beginnen.",
+      "explanation_ar": "يعني الرابط التواصل مع شخص أو بدء اتصال.",
+      "formula": "Kontakt aufnehmen mit + Dativ",
+      "examples": [
+        {
+          "de": "Bitte nehmen Sie Kontakt mit der Personalabteilung auf.",
+          "ar": "يرجى التواصل مع قسم الموارد البشرية."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r02",
+      "title_de": "Stellung nehmen zu",
+      "title_ar": "Stellung nehmen zu",
+      "explanation_de": "Die Verbindung bedeutet eine sachliche Meinung oder Position äußern.",
+      "explanation_ar": "يعني الرابط التعبير عن رأي أو موقف موضوعي.",
+      "formula": "Stellung nehmen zu + Dativ",
+      "examples": [
+        {
+          "de": "Der Betriebsrat nimmt zu dem Vorschlag schriftlich Stellung.",
+          "ar": "يبدي مجلس العمال موقفه من الاقتراح خطيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r03",
+      "title_de": "Zur Kenntnis nehmen",
+      "title_ar": "zur Kenntnis nehmen",
+      "explanation_de": "Die Verbindung bedeutet eine Information offiziell wahrnehmen oder berücksichtigen.",
+      "explanation_ar": "يعني الرابط الإحاطة بمعلومة رسميًا أو أخذها في الاعتبار.",
+      "formula": "etwas zur Kenntnis nehmen",
+      "examples": [
+        {
+          "de": "Wir haben Ihre Mitteilung zur Kenntnis genommen.",
+          "ar": "لقد أحطنا علمًا بإشعارك."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r04",
+      "title_de": "Bezug nehmen auf",
+      "title_ar": "Bezug nehmen auf",
+      "explanation_de": "Die Verbindung bedeutet sich auf etwas beziehen.",
+      "explanation_ar": "يعني الرابط الإشارة إلى شيء أو الاستناد إليه.",
+      "formula": "Bezug nehmen auf + Akkusativ",
+      "examples": [
+        {
+          "de": "In meiner E-Mail nehme ich Bezug auf unser Gespräch vom Montag.",
+          "ar": "أشير في بريدي إلى حديثنا يوم الاثنين."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r05",
+      "title_de": "Einen Auftrag erteilen",
+      "title_ar": "einen Auftrag erteilen",
+      "explanation_de": "Die Verbindung bedeutet jemanden offiziell mit einer Aufgabe beauftragen.",
+      "explanation_ar": "يعني الرابط تكليف شخص رسميًا بمهمة.",
+      "formula": "jemandem + Dativ einen Auftrag erteilen",
+      "examples": [
+        {
+          "de": "Die Geschäftsleitung erteilt der IT-Abteilung den Auftrag zur Umsetzung.",
+          "ar": "تكلف الإدارة التنفيذية قسم تقنية المعلومات بالتنفيذ."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r06",
+      "title_de": "Anforderungen erfüllen",
+      "title_ar": "Anforderungen erfüllen",
+      "explanation_de": "Die Verbindung bedeutet geforderte Bedingungen einhalten.",
+      "explanation_ar": "يعني الرابط استيفاء الشروط المطلوبة.",
+      "formula": "Anforderungen / Voraussetzungen erfüllen",
+      "examples": [
+        {
+          "de": "Das Angebot erfüllt alle technischen Anforderungen.",
+          "ar": "يستوفي العرض جميع المتطلبات التقنية."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r07",
+      "title_de": "Eine Frist setzen, einhalten oder verlängern",
+      "title_ar": "تحديد المهلة أو الالتزام بها أو تمديدها",
+      "explanation_de": "Das Nomen Frist verbindet sich je nach Handlung mit verschiedenen festen Verben.",
+      "explanation_ar": "يرتبط الاسم Frist بأفعال ثابتة مختلفة بحسب الإجراء.",
+      "formula": "eine Frist setzen | eine Frist einhalten | eine Frist verlängern",
+      "examples": [
+        {
+          "de": "Die Behörde setzte eine Frist von zwei Wochen.",
+          "ar": "حددت الجهة مهلة أسبوعين."
+        },
+        {
+          "de": "Der Auftragnehmer hielt die Frist ein.",
+          "ar": "التزم المتعهد بالمهلة."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r08",
+      "title_de": "In Kraft treten / setzen",
+      "title_ar": "in Kraft treten / setzen",
+      "explanation_de": "Treten beschreibt den Beginn der Geltung; setzen beschreibt das aktive Inkraftsetzen.",
+      "explanation_ar": "تصف treten بدء سريان النظام، بينما تصف setzen وضعه موضع التنفيذ.",
+      "formula": "eine Regelung tritt in Kraft | jemand setzt sie in Kraft",
+      "examples": [
+        {
+          "de": "Die neue Regelung tritt am 1. Oktober in Kraft.",
+          "ar": "يدخل النظام الجديد حيز التنفيذ في الأول من أكتوبر."
+        },
+        {
+          "de": "Die Behörde setzt die Regelung zum 1. Oktober in Kraft.",
+          "ar": "تضع الجهة النظام موضع التنفيذ في الأول من أكتوبر."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r09",
+      "title_de": "Eine Beschwerde einreichen",
+      "title_ar": "eine Beschwerde einreichen",
+      "explanation_de": "Die Verbindung bedeutet eine Beschwerde offiziell übermitteln.",
+      "explanation_ar": "يعني الرابط تقديم شكوى بصورة رسمية.",
+      "formula": "eine Beschwerde einreichen bei + Dativ / gegen + Akkusativ",
+      "examples": [
+        {
+          "de": "Die Kundin reichte bei der zuständigen Stelle eine Beschwerde ein.",
+          "ar": "قدمت العميلة شكوى لدى الجهة المختصة."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r10",
+      "title_de": "Eine Vereinbarung treffen",
+      "title_ar": "eine Vereinbarung treffen",
+      "explanation_de": "Die Verbindung bedeutet etwas verbindlich vereinbaren.",
+      "explanation_ar": "يعني الرابط الاتفاق على شيء بصورة ملزمة.",
+      "formula": "eine Vereinbarung treffen über + Akkusativ / mit + Dativ",
+      "examples": [
+        {
+          "de": "Die Parteien trafen eine Vereinbarung über die weitere Zusammenarbeit.",
+          "ar": "توصل الطرفان إلى اتفاق حول التعاون اللاحق."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r11",
+      "title_de": "Eine Rückmeldung geben",
+      "title_ar": "eine Rückmeldung geben",
+      "explanation_de": "Die Verbindung bedeutet auf eine Anfrage oder ein Ergebnis antworten.",
+      "explanation_ar": "يعني الرابط الرد على استفسار أو نتيجة.",
+      "formula": "jemandem eine Rückmeldung geben",
+      "examples": [
+        {
+          "de": "Bitte geben Sie uns bis Freitag eine Rückmeldung.",
+          "ar": "يرجى تزويدنا برد حتى يوم الجمعة."
+        }
+      ]
+    },
+    {
+      "id": "gr34-r12",
+      "title_de": "Verhandlungen führen",
+      "title_ar": "Verhandlungen führen",
+      "explanation_de": "Die Verbindung bezeichnet formelle Gespräche mit einem bestimmten Ziel.",
+      "explanation_ar": "يدل الرابط على إجراء محادثات رسمية بهدف محدد.",
+      "formula": "Verhandlungen führen mit + Dativ über + Akkusativ",
+      "examples": [
+        {
+          "de": "Das Unternehmen führt mit dem Betriebsrat Verhandlungen über neue Arbeitszeitmodelle.",
+          "ar": "تجري الشركة مفاوضات مع مجلس العمال حول نماذج جديدة لوقت العمل."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr34-t01",
+      "title_de": "Kommunikation und Verwaltung",
+      "title_ar": "التواصل والإدارة",
+      "headers_de": [
+        "Verbindung",
+        "Ergänzung",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "الرابط",
+        "المتمم",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "Kontakt aufnehmen",
+          "mit + Dativ",
+          "التواصل"
+        ],
+        [
+          "Stellung nehmen",
+          "zu + Dativ",
+          "إبداء موقف"
+        ],
+        [
+          "Bezug nehmen",
+          "auf + Akkusativ",
+          "الإشارة إلى"
+        ],
+        [
+          "zur Kenntnis nehmen",
+          "Akkusativobjekt",
+          "الإحاطة علمًا"
+        ],
+        [
+          "eine Rückmeldung geben",
+          "jemandem + Dativ",
+          "تقديم رد"
+        ],
+        [
+          "eine Beschwerde einreichen",
+          "bei + Dativ / gegen + Akkusativ",
+          "تقديم شكوى"
+        ]
+      ]
+    },
+    {
+      "id": "gr34-t02",
+      "title_de": "Projekt und Organisation",
+      "title_ar": "المشروع والتنظيم",
+      "headers_de": [
+        "Verbindung",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الرابط",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "einen Auftrag erteilen",
+          "تكليف رسمي",
+          "der Abteilung einen Auftrag erteilen"
+        ],
+        [
+          "Anforderungen erfüllen",
+          "استيفاء المتطلبات",
+          "technische Anforderungen erfüllen"
+        ],
+        [
+          "eine Frist setzen",
+          "تحديد مهلة",
+          "eine Frist von zehn Tagen setzen"
+        ],
+        [
+          "eine Frist einhalten",
+          "الالتزام بالمهلة",
+          "die vereinbarte Frist einhalten"
+        ],
+        [
+          "eine Vereinbarung treffen",
+          "إبرام اتفاق",
+          "eine Vereinbarung über Kosten treffen"
+        ],
+        [
+          "Verhandlungen führen",
+          "إجراء مفاوضات",
+          "mit dem Betriebsrat verhandeln"
+        ]
+      ]
+    },
+    {
+      "id": "gr34-t03",
+      "title_de": "Aktiv und Passiv",
+      "title_ar": "المعلوم والمجهول",
+      "headers_de": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "headers_ar": [
+        "المعلوم",
+        "المجهول"
+      ],
+      "rows": [
+        [
+          "Die Leitung erteilt den Auftrag.",
+          "Der Auftrag wird erteilt."
+        ],
+        [
+          "Das Angebot erfüllt die Anforderungen.",
+          "Die Anforderungen werden erfüllt."
+        ],
+        [
+          "Die Behörde setzt die Regelung in Kraft.",
+          "Die Regelung wird in Kraft gesetzt."
+        ],
+        [
+          "Die Kundin reicht eine Beschwerde ein.",
+          "Eine Beschwerde wird eingereicht."
+        ],
+        [
+          "Die Parteien treffen eine Vereinbarung.",
+          "Eine Vereinbarung wird getroffen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Unter Bezugnahme auf Ihre E-Mail vom 5. Mai bitten wir Sie um eine Rückmeldung bis Freitag.",
+      "ar": "بالإشارة إلى بريدك المؤرخ في 5 مايو نطلب منك ردًا حتى الجمعة.",
+      "note_de": "Formelle Kommunikation mit Bezug und Rückmeldung.",
+      "note_ar": "تواصل رسمي باستخدام Bezug وRückmeldung."
+    },
+    {
+      "de": "Die Geschäftsleitung hat den Projektverantwortlichen den Auftrag erteilt, geeignete Maßnahmen zu ergreifen.",
+      "ar": "كلفت الإدارة التنفيذية مسؤولي المشروع باتخاذ إجراءات مناسبة.",
+      "note_de": "Zwei Nomen-Verb-Verbindungen in einem Satz.",
+      "note_ar": "رابطان للاسم والفعل في جملة واحدة."
+    },
+    {
+      "de": "Da das Angebot nicht alle Anforderungen erfüllte, wurde keine Vereinbarung getroffen.",
+      "ar": "لأن العرض لم يستوف جميع المتطلبات لم يتم التوصل إلى اتفاق.",
+      "note_de": "Anforderungen erfüllen und Vereinbarung treffen.",
+      "note_ar": "Anforderungen erfüllen وVereinbarung treffen."
+    },
+    {
+      "de": "Die neue Dienstanweisung tritt nach ihrer Veröffentlichung offiziell in Kraft.",
+      "ar": "يدخل توجيه الخدمة الجديد حيز التنفيذ رسميًا بعد نشره.",
+      "note_de": "In Kraft treten ohne handelndes Subjekt.",
+      "note_ar": "in Kraft treten من دون فاعل يقوم بالفعل."
+    },
+    {
+      "de": "Die Beschäftigten nahmen die Information zur Kenntnis und nahmen anschließend Kontakt mit der Personalabteilung auf.",
+      "ar": "أحاط الموظفون علمًا بالمعلومة ثم تواصلوا مع قسم الموارد البشرية.",
+      "note_de": "Zwei unterschiedliche Verbindungen mit nehmen.",
+      "note_ar": "رابطان مختلفان مع الفعل nehmen."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich nehme Kontakt zu der Personalabteilung auf.",
+      "correct": "Ich nehme Kontakt mit der Personalabteilung auf.",
+      "explanation_de": "Kontakt aufnehmen verlangt mit + Dativ.",
+      "explanation_ar": "تحتاج Kontakt aufnehmen إلى mit + Dativ."
+    },
+    {
+      "wrong": "Der Betriebsrat nimmt Stellung auf den Vorschlag.",
+      "correct": "Der Betriebsrat nimmt zu dem Vorschlag Stellung.",
+      "explanation_de": "Stellung nehmen verlangt zu + Dativ.",
+      "explanation_ar": "تحتاج Stellung nehmen إلى zu + Dativ."
+    },
+    {
+      "wrong": "Wir nehmen Ihre Nachricht in Kenntnis.",
+      "correct": "Wir nehmen Ihre Nachricht zur Kenntnis.",
+      "explanation_de": "Die feste Form lautet zur Kenntnis nehmen.",
+      "explanation_ar": "الصيغة الثابتة هي zur Kenntnis nehmen."
+    },
+    {
+      "wrong": "Die Leitung macht der Abteilung einen Auftrag.",
+      "correct": "Die Leitung erteilt der Abteilung einen Auftrag.",
+      "explanation_de": "Die feste formelle Verbindung lautet jemandem einen Auftrag erteilen.",
+      "explanation_ar": "الرابط الرسمي الثابت هو jemandem einen Auftrag erteilen."
+    },
+    {
+      "wrong": "Die neue Regelung setzt am Montag in Kraft.",
+      "correct": "Die neue Regelung tritt am Montag in Kraft.",
+      "explanation_de": "Ohne handelndes Subjekt verwendet man in Kraft treten.",
+      "explanation_ar": "من دون فاعل يقوم بالفعل نستخدم in Kraft treten."
+    },
+    {
+      "wrong": "Die Firma führt Verhandlungen über dem Vertrag.",
+      "correct": "Die Firma führt Verhandlungen über den Vertrag.",
+      "explanation_de": "Über verlangt hier Akkusativ.",
+      "explanation_ar": "تحتاج über هنا إلى Akkusativ."
+    }
+  ],
+  "quickSummary_de": [
+    "Kontakt nimmt man mit jemandem auf.",
+    "Zu einem Thema nimmt man Stellung.",
+    "Auf ein Schreiben nimmt man Bezug.",
+    "Eine Information nimmt man zur Kenntnis.",
+    "Einen Auftrag erteilt man jemandem.",
+    "Anforderungen und Voraussetzungen werden erfüllt.",
+    "Eine Frist wird gesetzt, eingehalten oder verlängert.",
+    "Eine Regelung tritt in Kraft oder wird in Kraft gesetzt.",
+    "Eine Beschwerde wird bei einer Stelle eingereicht.",
+    "Eine Vereinbarung wird mit jemandem über etwas getroffen.",
+    "Eine Rückmeldung gibt man jemandem.",
+    "Verhandlungen führt man mit jemandem über etwas."
+  ],
+  "quickSummary_ar": [
+    "نستخدم Kontakt aufnehmen mit للتواصل مع شخص.",
+    "نستخدم Stellung nehmen zu لإبداء موقف من موضوع.",
+    "نستخدم Bezug nehmen auf للإشارة إلى كتابة أو موضوع.",
+    "نستخدم etwas zur Kenntnis nehmen للإحاطة بمعلومة.",
+    "نستخدم jemandem einen Auftrag erteilen للتكليف الرسمي.",
+    "تُستوفى المتطلبات والشروط باستخدام erfüllen.",
+    "تُحدد المهلة أو يُلتزم بها أو تُمدد.",
+    "يدخل النظام حيز التنفيذ أو يتم وضعه موضع التنفيذ.",
+    "تُقدم الشكوى لدى جهة.",
+    "يُتوصل إلى اتفاق مع شخص حول موضوع.",
+    "يُعطى الرد لشخص.",
+    "تُجرى المفاوضات مع شخص حول موضوع."
+  ],
+  "relatedTopics": [
+    "gr-33",
+    "gr-35",
+    "gr-40"
+  ]
+}

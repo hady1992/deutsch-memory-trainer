@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BookOpen, Award, AlertTriangle, Clock, RefreshCw, BarChart2, Play, Plus, UploadCloud, Shuffle } from "lucide-react";
+import { BookOpen, Award, AlertTriangle, Clock, RefreshCw, BarChart2, Play, Plus, UploadCloud, Shuffle, GraduationCap, LibraryBig } from "lucide-react";
 import { DataService } from "../services/dataService";
 import { ProgressService } from "../services/progressService";
 import { MistakeReviewService } from "../services/mistakeReviewService";
@@ -623,6 +623,20 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
                 className="bg-blue-750 text-white font-bold px-5 py-3 rounded-xl hover:bg-blue-800 transition-all cursor-pointer text-xs uppercase tracking-wider border border-blue-600/30"
               >
                 {translate("startVerbCategoryPractice")}
+              </button>
+              <button
+                onClick={() => onNavigate("b2-course")}
+                className="bg-blue-750 text-white font-bold px-5 py-3 rounded-xl hover:bg-blue-800 transition-all cursor-pointer text-xs uppercase tracking-wider border border-blue-600/30 flex items-center gap-2"
+              >
+                <GraduationCap size={14} />
+                <span>{isRtl ? "فتح كورس B2" : "B2 Kurs öffnen"}</span>
+              </button>
+              <button
+                onClick={() => onNavigate("b2-grammar")}
+                className="bg-blue-750 text-white font-bold px-5 py-3 rounded-xl hover:bg-blue-800 transition-all cursor-pointer text-xs uppercase tracking-wider border border-blue-600/30 flex items-center gap-2"
+              >
+                <LibraryBig size={14} />
+                <span>{isRtl ? "فتح قواعد B2" : "B2 Grammatik öffnen"}</span>
               </button>
               
               {/* Quick Practice Mode Button */}

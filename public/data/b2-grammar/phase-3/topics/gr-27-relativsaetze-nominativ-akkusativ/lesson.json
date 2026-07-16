@@ -1,0 +1,456 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-27",
+  "slug": "gr-27-relativsaetze-nominativ-akkusativ",
+  "order": 27,
+  "title_de": "Relativsätze im Nominativ und Akkusativ",
+  "title_ar": "الجمل الموصولة في Nominativ وAkkusativ",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "relativsaetze",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Relativsätze zur genaueren Beschreibung von Personen und Sachen bilden.",
+    "Relativpronomen im Nominativ und Akkusativ sicher auswählen.",
+    "Genus und Numerus des Bezugsworts vom Kasus im Relativsatz unterscheiden.",
+    "Relativsätze korrekt durch Kommas abgrenzen.",
+    "Die Verbendstellung im Relativsatz sicher anwenden.",
+    "Zwei Hauptsätze zu einem präzisen Relativsatz verbinden.",
+    "Relativsätze in beruflichen E-Mails, Berichten und Beschreibungen verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين جمل موصولة لوصف الأشخاص والأشياء بصورة أدق.",
+    "اختيار ضمير الوصل الصحيح في Nominativ وAkkusativ.",
+    "التمييز بين جنس وعدد الاسم المرجعي وحالة الضمير داخل الجملة الموصولة.",
+    "فصل الجملة الموصولة بالفواصل بصورة صحيحة.",
+    "تطبيق موقع الفعل في نهاية الجملة الموصولة.",
+    "دمج جملتين رئيسيتين في جملة موصولة دقيقة.",
+    "استخدام الجمل الموصولة في الرسائل والتقارير والأوصاف المهنية."
+  ],
+  "shortDescription_de": "Relativsätze ergänzen Informationen zu einem Nomen. Das Relativpronomen richtet sich in Genus und Numerus nach dem Bezugswort, sein Kasus ergibt sich jedoch aus seiner Funktion im Relativsatz.",
+  "shortDescription_ar": "تضيف الجملة الموصولة معلومات إلى اسم. يتبع ضمير الوصل الاسم المرجعي في الجنس والعدد، لكن حالته الإعرابية تتحدد بحسب وظيفته داخل الجملة الموصولة.",
+  "explanation_de": "Ein Relativsatz bezieht sich auf ein Nomen oder Pronomen im Hauptsatz und liefert zusätzliche Informationen. Er wird durch ein Relativpronomen eingeleitet und durch Kommas abgetrennt. Das konjugierte Verb steht am Ende. Für die Wahl des Relativpronomens gelten zwei Schritte: Erstens übernimmt das Relativpronomen Genus und Numerus vom Bezugswort. Zweitens bestimmt seine Funktion im Relativsatz den Kasus. Ist das Relativpronomen Subjekt, steht es im Nominativ: Der Kollege, der heute beginnt, arbeitet in unserer Abteilung. Ist es direktes Objekt, steht es im Akkusativ: Der Kollege, den ich gestern kennengelernt habe, arbeitet in unserer Abteilung. Bei neutralen und femininen Formen sind Nominativ und Akkusativ gleich: das/das und die/die. Deshalb muss man die Funktion im Relativsatz prüfen und darf sich nicht nur an der Form orientieren.",
+  "explanation_ar": "ترتبط الجملة الموصولة باسم أو ضمير في الجملة الرئيسية وتضيف معلومات عنه. وتبدأ بضمير وصل وتُفصل بفواصل، ويأتي الفعل المصرف في نهايتها. ولاختيار ضمير الوصل نتبع خطوتين: أولًا يأخذ ضمير الوصل جنس الاسم المرجعي وعدده. ثانيًا تحدد وظيفته داخل الجملة الموصولة حالته الإعرابية. إذا كان ضمير الوصل فاعلًا جاء في Nominativ، مثل: Der Kollege, der heute beginnt, arbeitet in unserer Abteilung. وإذا كان مفعولًا مباشرًا جاء في Akkusativ، مثل: Der Kollege, den ich gestern kennengelernt habe, arbeitet in unserer Abteilung. وتتشابه صيغتا Nominativ وAkkusativ في المؤنث والمحايد والجمع، لذلك يجب فهم الوظيفة داخل الجملة لا الاعتماد على شكل الضمير وحده.",
+  "rules": [
+    {
+      "id": "gr27-r01",
+      "title_de": "Bezugswort",
+      "title_ar": "الاسم المرجعي",
+      "explanation_de": "Der Relativsatz bezieht sich auf ein Nomen oder Pronomen im Hauptsatz.",
+      "explanation_ar": "ترتبط الجملة الموصولة باسم أو ضمير في الجملة الرئيسية.",
+      "formula": "Bezugswort, Relativpronomen + ... + Verb",
+      "examples": [
+        {
+          "de": "Die Mitarbeiterin, die neu im Team ist, übernimmt das Projekt.",
+          "ar": "الموظفة التي انضمت حديثًا إلى الفريق ستتولى المشروع."
+        },
+        {
+          "de": "Das Formular, das auf der Website steht, ist veraltet.",
+          "ar": "الاستمارة الموجودة على الموقع قديمة."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r02",
+      "title_de": "Genus und Numerus",
+      "title_ar": "الجنس والعدد",
+      "explanation_de": "Genus und Numerus des Relativpronomens richten sich nach dem Bezugswort.",
+      "explanation_ar": "يتبع ضمير الوصل الاسم المرجعي في الجنس والعدد.",
+      "formula": "der Mann → der/den | die Frau → die | das Kind → das | die Leute → die",
+      "examples": [
+        {
+          "de": "Der Bericht, der gestern eingegangen ist, wird geprüft.",
+          "ar": "التقرير الذي وصل أمس تتم مراجعته."
+        },
+        {
+          "de": "Die Unterlagen, die noch fehlen, müssen nachgereicht werden.",
+          "ar": "المستندات التي ما زالت ناقصة يجب تقديمها لاحقًا."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r03",
+      "title_de": "Kasus im Relativsatz",
+      "title_ar": "الحالة داخل الجملة الموصولة",
+      "explanation_de": "Der Kasus wird durch die Funktion des Relativpronomens im Relativsatz bestimmt.",
+      "explanation_ar": "تتحدد حالة ضمير الوصل بحسب وظيفته داخل الجملة الموصولة.",
+      "formula": "Subjekt → Nominativ | direktes Objekt → Akkusativ",
+      "examples": [
+        {
+          "de": "Der Kunde, der anruft, wartet auf eine Antwort.",
+          "ar": "العميل الذي يتصل ينتظر ردًا."
+        },
+        {
+          "de": "Der Kunde, den wir zurückrufen, wartet auf eine Antwort.",
+          "ar": "العميل الذي سنتصل به ينتظر ردًا."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r04",
+      "title_de": "Nominativ maskulin",
+      "title_ar": "Nominativ للمذكر",
+      "explanation_de": "Ist ein maskulines Bezugswort Subjekt im Relativsatz, verwendet man der.",
+      "explanation_ar": "إذا كان الاسم المذكر فاعلًا داخل الجملة الموصولة نستخدم der.",
+      "formula": "der Mann, der ...",
+      "examples": [
+        {
+          "de": "Der Kollege, der die Besprechung leitet, arbeitet seit zehn Jahren hier.",
+          "ar": "الزميل الذي يدير الاجتماع يعمل هنا منذ عشر سنوات."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r05",
+      "title_de": "Akkusativ maskulin",
+      "title_ar": "Akkusativ للمذكر",
+      "explanation_de": "Ist ein maskulines Bezugswort direktes Objekt im Relativsatz, verwendet man den.",
+      "explanation_ar": "إذا كان الاسم المذكر مفعولًا مباشرًا داخل الجملة الموصولة نستخدم den.",
+      "formula": "der Mann, den ...",
+      "examples": [
+        {
+          "de": "Der Kollege, den ich gestern kennengelernt habe, arbeitet in der IT-Abteilung.",
+          "ar": "الزميل الذي تعرفت إليه أمس يعمل في قسم تقنية المعلومات."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r06",
+      "title_de": "Feminin",
+      "title_ar": "المؤنث",
+      "explanation_de": "Bei femininen Bezugswörtern lautet das Relativpronomen im Nominativ und Akkusativ die.",
+      "explanation_ar": "مع الاسم المؤنث يكون ضمير الوصل die في Nominativ وAkkusativ.",
+      "formula": "die Frau, die ...",
+      "examples": [
+        {
+          "de": "Die Bewerberin, die heute kommt, hat viel Erfahrung.",
+          "ar": "المتقدمة التي ستأتي اليوم لديها خبرة كبيرة."
+        },
+        {
+          "de": "Die Bewerberin, die wir eingeladen haben, kommt heute.",
+          "ar": "المتقدمة التي دعوناها ستأتي اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r07",
+      "title_de": "Neutrum",
+      "title_ar": "المحايد",
+      "explanation_de": "Bei neutralen Bezugswörtern lautet das Relativpronomen im Nominativ und Akkusativ das.",
+      "explanation_ar": "مع الاسم المحايد يكون ضمير الوصل das في Nominativ وAkkusativ.",
+      "formula": "das Dokument, das ...",
+      "examples": [
+        {
+          "de": "Das Dokument, das auf dem Schreibtisch liegt, ist vertraulich.",
+          "ar": "المستند الموجود على المكتب سري."
+        },
+        {
+          "de": "Das Dokument, das Sie unterschreiben müssen, liegt bereit.",
+          "ar": "المستند الذي يجب أن توقعه جاهز."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r08",
+      "title_de": "Plural",
+      "title_ar": "الجمع",
+      "explanation_de": "Im Plural lautet das Relativpronomen im Nominativ und Akkusativ die.",
+      "explanation_ar": "في الجمع يكون ضمير الوصل die في Nominativ وAkkusativ.",
+      "formula": "die Personen, die ...",
+      "examples": [
+        {
+          "de": "Die Mitarbeitenden, die heute fehlen, werden informiert.",
+          "ar": "الموظفون الذين يغيبون اليوم سيتم إبلاغهم."
+        },
+        {
+          "de": "Die Mitarbeitenden, die wir ausgewählt haben, beginnen nächste Woche.",
+          "ar": "الموظفون الذين اخترناهم سيبدؤون الأسبوع المقبل."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r09",
+      "title_de": "Verbendstellung",
+      "title_ar": "الفعل في النهاية",
+      "explanation_de": "Das konjugierte Verb steht am Ende des Relativsatzes.",
+      "explanation_ar": "يأتي الفعل المصرف في نهاية الجملة الموصولة.",
+      "formula": "Relativpronomen + ... + Verb",
+      "examples": [
+        {
+          "de": "Der Antrag, den wir gestern erhalten haben, wird heute bearbeitet.",
+          "ar": "الطلب الذي تلقيناه أمس ستتم معالجته اليوم."
+        },
+        {
+          "de": "Die Kollegin, die das Projekt übernommen hat, ist heute nicht da.",
+          "ar": "الزميلة التي تولت المشروع ليست موجودة اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r10",
+      "title_de": "Kommasetzung",
+      "title_ar": "الفواصل",
+      "explanation_de": "Relativsätze werden immer durch Kommas vom Hauptsatz abgetrennt.",
+      "explanation_ar": "تُفصل الجمل الموصولة دائمًا بفواصل عن الجملة الرئيسية.",
+      "formula": "Hauptsatzteil, Relativsatz, Hauptsatzteil",
+      "examples": [
+        {
+          "de": "Der Bericht, den Sie angefordert haben, liegt jetzt vor.",
+          "ar": "التقرير الذي طلبته أصبح متوفرًا الآن."
+        },
+        {
+          "de": "Die Person, die für den Vorgang zuständig ist, wird sich melden.",
+          "ar": "الشخص المسؤول عن المعاملة سيتواصل معك."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r11",
+      "title_de": "Zwei Sätze verbinden",
+      "title_ar": "دمج جملتين",
+      "explanation_de": "Das wiederholte Nomen im zweiten Satz wird durch ein Relativpronomen ersetzt.",
+      "explanation_ar": "يُستبدل الاسم المكرر في الجملة الثانية بضمير وصل.",
+      "formula": "A. B + wiederholtes Nomen. → A, Relativpronomen + B, ...",
+      "examples": [
+        {
+          "de": "Das ist der Bericht. Der Bericht enthält alle Ergebnisse. → Das ist der Bericht, der alle Ergebnisse enthält.",
+          "ar": "هذا هو التقرير. التقرير يحتوي جميع النتائج. ← هذا هو التقرير الذي يحتوي جميع النتائج."
+        },
+        {
+          "de": "Das ist der Bericht. Ich habe den Bericht geprüft. → Das ist der Bericht, den ich geprüft habe.",
+          "ar": "هذا هو التقرير. راجعت التقرير. ← هذا هو التقرير الذي راجعته."
+        }
+      ]
+    },
+    {
+      "id": "gr27-r12",
+      "title_de": "Relativsatz im Mittelfeld",
+      "title_ar": "الجملة الموصولة وسط الجملة",
+      "explanation_de": "Steht der Relativsatz in der Mitte, wird der Hauptsatz nach dem zweiten Komma fortgesetzt.",
+      "explanation_ar": "إذا جاءت الجملة الموصولة وسط الجملة، تستمر الجملة الرئيسية بعد الفاصلة الثانية.",
+      "formula": "Bezugswort, Relativsatz, Rest des Hauptsatzes",
+      "examples": [
+        {
+          "de": "Der Antrag, den wir gestern erhalten haben, wird heute geprüft.",
+          "ar": "الطلب الذي تلقيناه أمس تتم مراجعته اليوم."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr27-t01",
+      "title_de": "Relativpronomen im Nominativ und Akkusativ",
+      "title_ar": "ضمائر الوصل في Nominativ وAkkusativ",
+      "headers_de": [
+        "Genus/Numerus",
+        "Nominativ",
+        "Akkusativ"
+      ],
+      "headers_ar": [
+        "الجنس/العدد",
+        "Nominativ",
+        "Akkusativ"
+      ],
+      "rows": [
+        [
+          "maskulin",
+          "der",
+          "den"
+        ],
+        [
+          "feminin",
+          "die",
+          "die"
+        ],
+        [
+          "neutrum",
+          "das",
+          "das"
+        ],
+        [
+          "Plural",
+          "die",
+          "die"
+        ]
+      ]
+    },
+    {
+      "id": "gr27-t02",
+      "title_de": "Kasus bestimmen",
+      "title_ar": "تحديد الحالة",
+      "headers_de": [
+        "Frage im Relativsatz",
+        "Funktion",
+        "Kasus",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "السؤال داخل الجملة",
+        "الوظيفة",
+        "الحالة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Wer leitet die Sitzung?",
+          "Subjekt",
+          "Nominativ",
+          "der die Sitzung leitet"
+        ],
+        [
+          "Wen habe ich getroffen?",
+          "direktes Objekt",
+          "Akkusativ",
+          "den ich getroffen habe"
+        ],
+        [
+          "Wer kommt heute?",
+          "Subjekt",
+          "Nominativ",
+          "die heute kommt"
+        ],
+        [
+          "Was müssen Sie unterschreiben?",
+          "direktes Objekt",
+          "Akkusativ",
+          "das Sie unterschreiben müssen"
+        ]
+      ]
+    },
+    {
+      "id": "gr27-t03",
+      "title_de": "Satzverbindung",
+      "title_ar": "دمج الجمل",
+      "headers_de": [
+        "Zwei Sätze",
+        "Relativsatz"
+      ],
+      "headers_ar": [
+        "جملتان",
+        "جملة موصولة"
+      ],
+      "rows": [
+        [
+          "Der Kollege ruft an. Der Kollege ist zuständig.",
+          "Der Kollege, der zuständig ist, ruft an."
+        ],
+        [
+          "Der Kollege ruft an. Ich kenne den Kollegen.",
+          "Der Kollege, den ich kenne, ruft an."
+        ],
+        [
+          "Das Formular liegt hier. Sie brauchen das Formular.",
+          "Das Formular, das Sie brauchen, liegt hier."
+        ],
+        [
+          "Die Unterlagen fehlen. Wir benötigen die Unterlagen.",
+          "Die Unterlagen, die wir benötigen, fehlen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Mitarbeiterin, die für die Terminplanung zuständig ist, wird Sie morgen kontaktieren.",
+      "ar": "الموظفة المسؤولة عن تخطيط المواعيد ستتواصل معك غدًا.",
+      "note_de": "Die ist Subjekt im Relativsatz.",
+      "note_ar": "die فاعل داخل الجملة الموصولة."
+    },
+    {
+      "de": "Der Ansprechpartner, den Sie gestern telefonisch erreicht haben, ist heute nicht im Haus.",
+      "ar": "جهة الاتصال التي تمكنت من الوصول إليها هاتفيًا أمس ليست موجودة اليوم.",
+      "note_de": "Den ist direktes Objekt im Relativsatz.",
+      "note_ar": "den مفعول مباشر داخل الجملة الموصولة."
+    },
+    {
+      "de": "Das Verfahren, das derzeit geprüft wird, soll im kommenden Monat eingeführt werden.",
+      "ar": "الإجراء الذي تتم مراجعته حاليًا من المقرر إدخاله الشهر المقبل.",
+      "note_de": "Das ist Subjekt eines Passivsatzes.",
+      "note_ar": "das فاعل نحوي في جملة مجهولة."
+    },
+    {
+      "de": "Die Änderungen, die der Betriebsrat vorgeschlagen hat, werden nächste Woche besprochen.",
+      "ar": "التعديلات التي اقترحها مجلس العمال ستتم مناقشتها الأسبوع المقبل.",
+      "note_de": "Die ist Akkusativobjekt; der Betriebsrat ist Subjekt.",
+      "note_ar": "die مفعول Akkusativ وder Betriebsrat هو الفاعل."
+    },
+    {
+      "de": "Der Bericht, der alle relevanten Kennzahlen enthält, wurde an die Geschäftsleitung weitergeleitet.",
+      "ar": "التقرير الذي يحتوي جميع المؤشرات المهمة تم تحويله إلى الإدارة التنفيذية.",
+      "note_de": "Relativsatz zur präzisen Beschreibung eines Dokuments.",
+      "note_ar": "جملة موصولة لوصف مستند بدقة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Kollege, den die Besprechung leitet, arbeitet hier.",
+      "correct": "Der Kollege, der die Besprechung leitet, arbeitet hier.",
+      "explanation_de": "Der Kollege ist Subjekt im Relativsatz; deshalb steht der.",
+      "explanation_ar": "الزميل فاعل داخل الجملة الموصولة، لذلك نستخدم der."
+    },
+    {
+      "wrong": "Der Kollege, der ich gestern getroffen habe, arbeitet hier.",
+      "correct": "Der Kollege, den ich gestern getroffen habe, arbeitet hier.",
+      "explanation_de": "Der Kollege ist direktes Objekt von treffen; deshalb steht den.",
+      "explanation_ar": "الزميل مفعول مباشر للفعل treffen، لذلك نستخدم den."
+    },
+    {
+      "wrong": "Die Bewerberin, den wir eingeladen haben, kommt heute.",
+      "correct": "Die Bewerberin, die wir eingeladen haben, kommt heute.",
+      "explanation_de": "Das Bezugswort ist feminin; im Akkusativ lautet die Form die.",
+      "explanation_ar": "الاسم المرجعي مؤنث، وصيغة Akkusativ هي die."
+    },
+    {
+      "wrong": "Das Formular, das Sie müssen unterschreiben, liegt bereit.",
+      "correct": "Das Formular, das Sie unterschreiben müssen, liegt bereit.",
+      "explanation_de": "Im Relativsatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "في الجملة الموصولة يأتي الفعل الناقص المصرف في النهاية."
+    },
+    {
+      "wrong": "Der Bericht den Sie angefordert haben liegt vor.",
+      "correct": "Der Bericht, den Sie angefordert haben, liegt vor.",
+      "explanation_de": "Der Relativsatz muss durch Kommas abgetrennt werden.",
+      "explanation_ar": "يجب فصل الجملة الموصولة بفواصل."
+    },
+    {
+      "wrong": "Die Unterlagen, die fehlen wir noch, müssen nachgereicht werden.",
+      "correct": "Die Unterlagen, die uns noch fehlen, müssen nachgereicht werden.",
+      "explanation_de": "Die Verbposition und die Satzstruktur im Relativsatz müssen korrekt sein.",
+      "explanation_ar": "يجب أن يكون موقع الفعل وبنية الجملة الموصولة صحيحين."
+    }
+  ],
+  "quickSummary_de": [
+    "Relativsätze beschreiben ein Bezugswort genauer.",
+    "Genus und Numerus kommen vom Bezugswort.",
+    "Der Kasus ergibt sich aus der Funktion im Relativsatz.",
+    "Subjekt im Relativsatz bedeutet Nominativ.",
+    "Direktes Objekt im Relativsatz bedeutet Akkusativ.",
+    "Maskulin: der im Nominativ, den im Akkusativ.",
+    "Feminin: die in beiden Fällen.",
+    "Neutrum: das in beiden Fällen.",
+    "Plural: die in beiden Fällen.",
+    "Das konjugierte Verb steht am Ende.",
+    "Relativsätze werden durch Kommas abgetrennt.",
+    "Beim Verbinden ersetzt das Relativpronomen das wiederholte Nomen."
+  ],
+  "quickSummary_ar": [
+    "تصف الجملة الموصولة اسمًا مرجعيًا بصورة أدق.",
+    "يأتي الجنس والعدد من الاسم المرجعي.",
+    "تتحدد الحالة بحسب الوظيفة داخل الجملة الموصولة.",
+    "الفاعل داخل الجملة الموصولة يعني Nominativ.",
+    "المفعول المباشر يعني Akkusativ.",
+    "المذكر: der في Nominativ وden في Akkusativ.",
+    "المؤنث: die في الحالتين.",
+    "المحايد: das في الحالتين.",
+    "الجمع: die في الحالتين.",
+    "يأتي الفعل المصرف في النهاية.",
+    "تُفصل الجملة الموصولة بفواصل.",
+    "عند دمج الجمل يستبدل ضمير الوصل الاسم المكرر."
+  ],
+  "relatedTopics": [
+    "gr-28",
+    "gr-29",
+    "gr-30"
+  ]
+}

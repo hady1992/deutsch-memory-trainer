@@ -1,0 +1,537 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-45",
+  "title_de": "Vorgangspassiv und Zustandspassiv vertiefen – Übungen",
+  "title_ar": "تمارين تعميق Vorgangspassiv وZustandspassiv",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr45-e001",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "إجراء أم حالة",
+      "prompt_de": "Welcher Satz beschreibt einen Vorgang?",
+      "prompt_ar": "أي جملة تصف إجراءً؟",
+      "answer": "Die Tür wird geöffnet.",
+      "explanation_de": "Werden + Partizip II beschreibt die Handlung.",
+      "explanation_ar": "تصف werden + Partizip II الفعل.",
+      "grammarFocus": "basic_process_passive",
+      "options": [
+        "Die Tür wird geöffnet.",
+        "Die Tür ist geöffnet.",
+        "Die Tür bleibt geöffnet.",
+        "Die Tür ist offen."
+      ]
+    },
+    {
+      "id": "gr45-e002",
+      "topicId": "gr-45",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Zustandspassiv",
+      "title_ar": "Zustandspassiv",
+      "prompt_de": "Die Datei ______ bereits gespeichert.",
+      "prompt_ar": "الملف محفوظ بالفعل.",
+      "answer": "ist",
+      "explanation_de": "Sein + Partizip II beschreibt den bestehenden Zustand.",
+      "explanation_ar": "تصف sein + Partizip II الحالة القائمة.",
+      "grammarFocus": "basic_state_passive",
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "gr45-e003",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Leitfrage",
+      "title_ar": "السؤال المساعد",
+      "prompt_de": "Welche Frage passt zum Zustandspassiv?",
+      "prompt_ar": "أي سؤال يناسب Zustandspassiv؟",
+      "answer": "Wie ist der Zustand?",
+      "explanation_de": "Das Zustandspassiv beschreibt das Ergebnis.",
+      "explanation_ar": "يصف Zustandspassiv النتيجة.",
+      "grammarFocus": "guiding_question",
+      "options": [
+        "Wie ist der Zustand?",
+        "Wer handelt gerade?",
+        "Was wird morgen passieren müssen?",
+        "Welches Verb ist trennbar?"
+      ]
+    },
+    {
+      "id": "gr45-e004",
+      "topicId": "gr-45",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Grundformen zuordnen",
+      "title_ar": "مطابقة الصيغ الأساسية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "wird geprüft": "Vorgangspassiv Präsens",
+        "ist geprüft": "Zustandspassiv Präsens",
+        "wurde geprüft": "Vorgangspassiv Präteritum",
+        "war geprüft": "Zustandspassiv Präteritum",
+        "ist geprüft worden": "Vorgangspassiv Perfekt"
+      },
+      "explanation_de": "Hilfsverb und Zeitform bestimmen die Bedeutung.",
+      "explanation_ar": "يحدد الفعل المساعد والزمن المعنى.",
+      "grammarFocus": "basic_form_matching",
+      "pairs": [
+        [
+          "wird geprüft",
+          "Vorgangspassiv Präsens"
+        ],
+        [
+          "ist geprüft",
+          "Zustandspassiv Präsens"
+        ],
+        [
+          "wurde geprüft",
+          "Vorgangspassiv Präteritum"
+        ],
+        [
+          "war geprüft",
+          "Zustandspassiv Präteritum"
+        ],
+        [
+          "ist geprüft worden",
+          "Vorgangspassiv Perfekt"
+        ]
+      ]
+    },
+    {
+      "id": "gr45-e005",
+      "topicId": "gr-45",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Zeitliche Folge",
+      "title_ar": "التسلسل الزمني",
+      "prompt_de": "Ordnen Sie die Sätze.",
+      "prompt_ar": "رتب الجمل.",
+      "answer": "Zuerst wird die Anlage abgeschaltet. Danach ist sie abgeschaltet.",
+      "explanation_de": "Der Vorgang kommt vor dem Ergebniszustand.",
+      "explanation_ar": "يأتي الإجراء قبل حالة النتيجة.",
+      "grammarFocus": "process_state_sequence",
+      "tokens": [
+        "Danach ist sie abgeschaltet",
+        "Zuerst wird die Anlage abgeschaltet"
+      ],
+      "acceptedAnswers": [
+        "Zuerst wird die Anlage abgeschaltet. Danach ist sie abgeschaltet."
+      ]
+    },
+    {
+      "id": "gr45-e006",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Von oder durch",
+      "title_ar": "von أم durch",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Bericht wurde von der Leitung freigegeben.",
+      "explanation_de": "Eine handelnde Institution steht typischerweise mit von.",
+      "explanation_ar": "تأتي المؤسسة الفاعلة عادة مع von.",
+      "grammarFocus": "agent_von",
+      "options": [
+        "Der Bericht wurde von der Leitung freigegeben.",
+        "Der Bericht wurde mit der Leitung freigegeben.",
+        "Der Bericht wurde durch die Leitung als Werkzeug geöffnet.",
+        "Der Bericht war von der Leitung freigeben."
+      ]
+    },
+    {
+      "id": "gr45-e007",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Perfekt erkennen",
+      "title_ar": "تمييز Perfekt",
+      "prompt_de": "Welche Form ist Vorgangspassiv im Perfekt?",
+      "prompt_ar": "أي صيغة هي Vorgangspassiv في Perfekt؟",
+      "answer": "Der Raum ist renoviert worden.",
+      "explanation_de": "Worden kennzeichnet den abgeschlossenen Vorgang.",
+      "explanation_ar": "تدل worden على الإجراء المكتمل.",
+      "grammarFocus": "process_passive_perfect",
+      "options": [
+        "Der Raum ist renoviert worden.",
+        "Der Raum ist renoviert.",
+        "Der Raum ist renoviert gewesen.",
+        "Der Raum wird renoviert sein."
+      ]
+    },
+    {
+      "id": "gr45-e008",
+      "topicId": "gr-45",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Präteritum Zustand",
+      "title_ar": "حالة في Präteritum",
+      "prompt_de": "Während der Besprechung ______ die Tür geschlossen.",
+      "prompt_ar": "أثناء الاجتماع كان الباب مغلقًا.",
+      "answer": "war",
+      "explanation_de": "War + Partizip II beschreibt einen früheren Zustand.",
+      "explanation_ar": "تصف war + Partizip II حالة سابقة.",
+      "grammarFocus": "state_passive_preterite",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr45-e009",
+      "topicId": "gr-45",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv zu Vorgangspassiv",
+      "title_ar": "من المعلوم إلى Vorgangspassiv",
+      "prompt_de": "Formen Sie um: Die Sachbearbeiterin prüft den Antrag.",
+      "prompt_ar": "حوّل إلى Vorgangspassiv.",
+      "answer": "Der Antrag wird von der Sachbearbeiterin geprüft.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; die Handelnde steht mit von.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا، وتأتي القائمة بالفعل مع von.",
+      "grammarFocus": "active_to_process_passive",
+      "acceptedAnswers": [
+        "Der Antrag wird von der Sachbearbeiterin geprüft."
+      ]
+    },
+    {
+      "id": "gr45-e010",
+      "topicId": "gr-45",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vorgang zu Zustand",
+      "title_ar": "من الإجراء إلى الحالة",
+      "prompt_de": "Formulieren Sie den Ergebniszustand: Die IT-Abteilung hat alle Daten gesichert.",
+      "prompt_ar": "صغ حالة النتيجة.",
+      "answer": "Alle Daten sind gesichert.",
+      "explanation_de": "Das Zustandspassiv beschreibt das Ergebnis der abgeschlossenen Handlung.",
+      "explanation_ar": "يصف Zustandspassiv نتيجة الفعل المكتمل.",
+      "grammarFocus": "active_result_to_state_passive",
+      "acceptedAnswers": [
+        "Alle Daten sind gesichert."
+      ]
+    },
+    {
+      "id": "gr45-e011",
+      "topicId": "gr-45",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt mit Agens",
+      "title_ar": "Perfekt مع الفاعل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Bericht ist gestern von der Leitung freigegeben worden.",
+      "explanation_de": "Im Perfekt steht worden am Ende.",
+      "explanation_ar": "تأتي worden في نهاية صيغة Perfekt.",
+      "grammarFocus": "perfect_passive_order",
+      "tokens": [
+        "freigegeben worden",
+        "gestern von der Leitung",
+        "Der Bericht ist"
+      ],
+      "acceptedAnswers": [
+        "Der Bericht ist gestern von der Leitung freigegeben worden."
+      ]
+    },
+    {
+      "id": "gr45-e012",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ursache mit durch",
+      "title_ar": "السبب مع durch",
+      "prompt_de": "Welche Formulierung ist passend?",
+      "prompt_ar": "أي صياغة مناسبة؟",
+      "answer": "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+      "explanation_de": "Durch nennt hier die Ursache.",
+      "explanation_ar": "تذكر durch هنا السبب.",
+      "grammarFocus": "cause_durch",
+      "options": [
+        "Die Produktion wurde durch einen Stromausfall unterbrochen.",
+        "Die Produktion wurde von einem Stromausfall als Person unterbrochen.",
+        "Die Produktion war mit einem Stromausfall unterbrechen.",
+        "Die Produktion ist Stromausfall unterbrochen werden."
+      ]
+    },
+    {
+      "id": "gr45-e013",
+      "topicId": "gr-45",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Von, durch und mit",
+      "title_ar": "von وdurch وmit",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "von der Technikerin": "handelnde Person",
+        "von der Behörde": "handelnde Institution",
+        "durch einen Defekt": "Ursache",
+        "durch starken Druck": "Einfluss",
+        "mit einem Spezialwerkzeug": "Instrument"
+      },
+      "explanation_de": "Die Ergänzungen haben unterschiedliche Funktionen.",
+      "explanation_ar": "للمتممات وظائف مختلفة.",
+      "grammarFocus": "agent_cause_instrument_matching",
+      "pairs": [
+        [
+          "von der Technikerin",
+          "handelnde Person"
+        ],
+        [
+          "von der Behörde",
+          "handelnde Institution"
+        ],
+        [
+          "durch einen Defekt",
+          "Ursache"
+        ],
+        [
+          "durch starken Druck",
+          "Einfluss"
+        ],
+        [
+          "mit einem Spezialwerkzeug",
+          "Instrument"
+        ]
+      ]
+    },
+    {
+      "id": "gr45-e014",
+      "topicId": "gr-45",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Statusbericht",
+      "title_ar": "تقرير حالة",
+      "prompt_de": "Welche Formulierung passt am besten in einen Statusbericht?",
+      "prompt_ar": "أي صياغة تناسب تقرير حالة؟",
+      "answer": "Alle sicherheitsrelevanten Prüfungen sind abgeschlossen.",
+      "explanation_de": "Der Satz beschreibt den erreichten Zustand.",
+      "explanation_ar": "تصف الجملة الحالة التي تم الوصول إليها.",
+      "grammarFocus": "status_report_state_passive",
+      "options": [
+        "Alle sicherheitsrelevanten Prüfungen sind abgeschlossen.",
+        "Alle Prüfungen werden irgendwann abgeschlossen.",
+        "Alle Prüfungen schließen sich selbst ab.",
+        "Alle Prüfungen sind abschließend werden."
+      ]
+    },
+    {
+      "id": "gr45-e015",
+      "topicId": "gr-45",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Futur Zustand",
+      "title_ar": "الحالة المستقبلية",
+      "prompt_de": "Bis Freitag wird der Bericht vollständig fertiggestellt ______.",
+      "prompt_ar": "سيكون التقرير منجزًا بالكامل حتى الجمعة.",
+      "answer": "sein",
+      "explanation_de": "Der zukünftige Ergebniszustand wird mit wird + Partizip II + sein gebildet.",
+      "explanation_ar": "تُبنى حالة النتيجة المستقبلية باستخدام wird + Partizip II + sein.",
+      "grammarFocus": "future_state_passive",
+      "acceptedAnswers": [
+        "sein"
+      ]
+    },
+    {
+      "id": "gr45-e016",
+      "topicId": "gr-45",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Negation",
+      "title_ar": "النفي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Zugang ist noch nicht geöffnet.",
+      "explanation_de": "Noch nicht steht vor dem Partizip.",
+      "explanation_ar": "تأتي noch nicht قبل Partizip.",
+      "grammarFocus": "state_passive_negation",
+      "tokens": [
+        "geöffnet",
+        "noch nicht",
+        "Der Zugang ist"
+      ],
+      "acceptedAnswers": [
+        "Der Zugang ist noch nicht geöffnet."
+      ]
+    },
+    {
+      "id": "gr45-e017",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Kein Zustandspassiv",
+      "title_ar": "ليست Zustandspassiv",
+      "prompt_de": "Welche Form ist kein Zustandspassiv?",
+      "prompt_ar": "أي صيغة ليست Zustandspassiv؟",
+      "answer": "Die Gäste sind angekommen.",
+      "explanation_de": "Angekommen ist hier Perfekt Aktiv mit sein.",
+      "explanation_ar": "angekommen هنا Perfekt معلوم مع sein.",
+      "grammarFocus": "not_state_passive",
+      "options": [
+        "Die Gäste sind angekommen.",
+        "Die Tür ist geschlossen.",
+        "Die Daten sind gespeichert.",
+        "Der Bericht ist freigegeben."
+      ]
+    },
+    {
+      "id": "gr45-e018",
+      "topicId": "gr-45",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zwei Zeitstufen verbinden",
+      "title_ar": "ربط زمنين",
+      "prompt_de": "Formulieren Sie: Gestern erfolgte die Freigabe. Seitdem besteht der veröffentlichte Zustand.",
+      "prompt_ar": "صغ الجملتين باستخدام Passiv.",
+      "answer": "Der Bericht ist gestern freigegeben worden und ist seitdem veröffentlicht.",
+      "explanation_de": "Die erste Form beschreibt den Vorgang im Perfekt, die zweite den bestehenden Zustand.",
+      "explanation_ar": "تصف الصيغة الأولى الإجراء في Perfekt، والثانية الحالة القائمة.",
+      "grammarFocus": "perfect_process_plus_state",
+      "acceptedAnswers": [
+        "Der Bericht ist gestern freigegeben worden und ist seitdem veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr45-e019",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Perfektformen unterscheiden",
+      "title_ar": "التمييز بين صيغ Perfekt",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Ist geprüft worden“ beschreibt einen abgeschlossenen Vorgang; „ist geprüft gewesen“ einen früher bestehenden Zustand.",
+      "explanation_de": "Worden und gewesen markieren unterschiedliche Perspektiven.",
+      "explanation_ar": "تحدد worden وgewesen منظورين مختلفين.",
+      "grammarFocus": "perfect_contrast",
+      "options": [
+        "„Ist geprüft worden“ beschreibt einen abgeschlossenen Vorgang; „ist geprüft gewesen“ einen früher bestehenden Zustand.",
+        "Beide Formen sind vollkommen identisch.",
+        "„Ist geprüft gewesen“ ist immer Futur.",
+        "„Ist geprüft worden“ ist Zustandspassiv Präsens."
+      ]
+    },
+    {
+      "id": "gr45-e020",
+      "topicId": "gr-45",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Prozess- und Ergebnisbericht",
+      "title_ar": "تقرير الإجراء والنتيجة",
+      "prompt_de": "Welche Formulierung unterscheidet Prozess und Ergebnis präzise?",
+      "prompt_ar": "أي صياغة تميز بدقة بين الإجراء والنتيجة؟",
+      "answer": "Die Daten werden derzeit überprüft. Die bereits kontrollierten Dateien sind freigegeben.",
+      "explanation_de": "Der erste Satz beschreibt den laufenden Vorgang, der zweite den bestehenden Status.",
+      "explanation_ar": "تصف الجملة الأولى الإجراء الجاري، والثانية الحالة القائمة.",
+      "grammarFocus": "process_result_reporting",
+      "options": [
+        "Die Daten werden derzeit überprüft. Die bereits kontrollierten Dateien sind freigegeben.",
+        "Die Daten sind derzeit überprüft worden gewesen. Die Dateien werden freigegeben sein jetzt.",
+        "Die Daten überprüfen sich. Die Dateien sind Freigabe.",
+        "Die Daten waren überprüfen. Die Dateien wurden Zustand."
+      ]
+    },
+    {
+      "id": "gr45-e021",
+      "topicId": "gr-45",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "Plusquamperfekt",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Zugang war gesperrt worden, bevor die Wartung begann.",
+      "explanation_de": "Das Plusquamperfekt des Vorgangspassivs lautet war + Partizip II + worden.",
+      "explanation_ar": "يكون Plusquamperfekt لـ Vorgangspassiv: war + Partizip II + worden.",
+      "grammarFocus": "process_passive_plusquamperfect",
+      "tokens": [
+        "bevor die Wartung begann",
+        "gesperrt worden",
+        "Der Zugang war"
+      ],
+      "acceptedAnswers": [
+        "Der Zugang war gesperrt worden, bevor die Wartung begann."
+      ]
+    },
+    {
+      "id": "gr45-e022",
+      "topicId": "gr-45",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Kontext und Mehrdeutigkeit",
+      "title_ar": "السياق والالتباس",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Die Tür ist geschlossen“ kann einen Ergebniszustand oder eine feste Zustandsbeschreibung ausdrücken; der Kontext entscheidet.",
+      "explanation_de": "Sein + Partizip II kann zwischen Zustandspassiv und adjektivischem Gebrauch liegen.",
+      "explanation_ar": "قد تقع sein + Partizip II بين Zustandspassiv والاستخدام الوصفي، ويحدد السياق المعنى.",
+      "grammarFocus": "state_adjective_boundary",
+      "options": [
+        "„Die Tür ist geschlossen“ kann einen Ergebniszustand oder eine feste Zustandsbeschreibung ausdrücken; der Kontext entscheidet.",
+        "Die Form ist immer Perfekt Aktiv.",
+        "Geschlossen ist immer Partizip I.",
+        "Sein + Partizip II ist niemals Zustandspassiv."
+      ]
+    },
+    {
+      "id": "gr45-e023",
+      "topicId": "gr-45",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Ablauf vollständig darstellen",
+      "title_ar": "عرض التسلسل كاملًا",
+      "prompt_de": "Formulieren Sie drei Sätze: Die Technikerin öffnet das Gerät. Danach kontrolliert sie es. Am Ende besteht ein kontrollierter Zustand.",
+      "prompt_ar": "صغ ثلاث جمل باستخدام Vorgangs- und Zustandspassiv.",
+      "answer": "Das Gerät wird von der Technikerin geöffnet. Danach wird es kontrolliert. Am Ende ist es kontrolliert.",
+      "explanation_de": "Die ersten beiden Sätze beschreiben Vorgänge; der letzte Satz beschreibt das Ergebnis.",
+      "explanation_ar": "تصف الجملتان الأوليان إجراءين، وتصف الأخيرة النتيجة.",
+      "grammarFocus": "full_process_to_state_sequence",
+      "acceptedAnswers": [
+        "Das Gerät wird von der Technikerin geöffnet. Danach wird es kontrolliert. Am Ende ist es kontrolliert."
+      ]
+    },
+    {
+      "id": "gr45-e024",
+      "topicId": "gr-45",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Passivarten",
+      "title_ar": "تدريب ختامي على نوعي المبني للمجهول",
+      "prompt_de": "Schreiben Sie einen sachlichen Bericht mit mindestens vierzehn Sätzen über einen Prüfungs-, Produktions- oder Verwaltungsprozess. Verwenden Sie Vorgangs- und Zustandspassiv in mehreren Zeitformen.",
+      "prompt_ar": "اكتب تقريرًا موضوعيًا من أربع عشرة جملة على الأقل عن عملية فحص أو إنتاج أو إجراء إداري. استخدم Vorgangspassiv وZustandspassiv في عدة أزمنة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens fünf Vorgangspassiv-Sätze",
+          "mindestens fünf Zustandspassiv-Sätze",
+          "Präsens und Präteritum beider Passivarten",
+          "mindestens zwei Perfektformen mit worden",
+          "mindestens eine Zustandsform mit gewesen",
+          "mindestens eine Futurform mit werden",
+          "mindestens eine zukünftige Zustandsform mit sein",
+          "mindestens zwei von-Ergänzungen",
+          "mindestens zwei durch- oder mit-Ergänzungen",
+          "mindestens zwei klare Vorgang-Zustand-Abfolgen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Hilfsverb, Zeitform, Partizip II, Agens, Ursache, Instrument und Informationsfokus.",
+      "explanation_ar": "راجع الفعل المساعد والزمن وPartizip II والفاعل والسبب والأداة وتركيز المعلومة.",
+      "grammarFocus": "mixed_process_state_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-38",
+  "slug": "gr-38-indirekte-rede-pronomen-zeit-ort",
+  "order": 38,
+  "title_de": "Indirekte Rede: Pronomen, Zeit- und Ortsangaben",
+  "title_ar": "الكلام المنقول: الضمائر وتعبيرات الزمان والمكان",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "indirekte_rede",
+  "estimatedMinutes": 65,
+  "learningObjectives_de": [
+    "Personal- und Possessivpronomen an die neue Berichtsperspektive anpassen.",
+    "Dativ- und Akkusativpronomen in der indirekten Rede korrekt verändern.",
+    "Zeitangaben wie heute, gestern und morgen kontextabhängig umformen.",
+    "Ortsangaben wie hier, dort, dorthin und von hier perspektivisch anpassen.",
+    "Zwischen notwendiger und nicht notwendiger Anpassung unterscheiden.",
+    "Mehrdeutige Pronomen durch Nomen oder eindeutige Bezüge ersetzen.",
+    "Komplexe Aussagen in Protokollen und Berichten nachvollziehbar wiedergeben."
+  ],
+  "learningObjectives_ar": [
+    "تعديل ضمائر الشخص والملكية وفق منظور النقل الجديد.",
+    "تغيير ضمائر Dativ وAkkusativ بصورة صحيحة في الكلام المنقول.",
+    "تحويل تعبيرات الزمن مثل heute وgestern وmorgen بحسب السياق.",
+    "تعديل تعبيرات المكان مثل hier وdort وdorthin وvon hier وفق منظور المتحدث.",
+    "التمييز بين التعديل الضروري والتعديل غير الضروري.",
+    "استبدال الضمائر الملتبسة بأسماء أو مراجع واضحة.",
+    "نقل الأقوال المعقدة بوضوح في المحاضر والتقارير."
+  ],
+  "shortDescription_de": "In der indirekten Rede ändern sich nicht nur die Verbformen. Auch Pronomen sowie Zeit- und Ortsangaben müssen an die neue Perspektive angepasst werden, wenn sich Sprecher, Zeitpunkt oder Ort ändern.",
+  "shortDescription_ar": "لا تتغير صيغة الفعل فقط في الكلام المنقول. بل يجب أيضًا تعديل الضمائر وتعبيرات الزمان والمكان عندما يتغير المتحدث أو وقت النقل أو مكانه.",
+  "explanation_de": "Bei der Umformung in indirekte Rede muss zuerst geklärt werden, wer ursprünglich gesprochen hat, zu wem die Aussage gerichtet war und wann beziehungsweise wo sie wiedergegeben wird. Aus ich wird häufig er oder sie, aus wir wird sie. Possessivpronomen ändern sich entsprechend: mein wird sein oder ihr, unser wird ihr. Auch Objektpronomen müssen angepasst werden: mir kann zu ihm oder ihr werden, uns zu ihnen. Die Umformung ist jedoch nicht rein mechanisch. Das Pronomen hängt vom tatsächlichen Bezug ab. Direkt: Frau Keller sagt zu Herrn Baumann: „Ich schicke Ihnen morgen meine Unterlagen.“ Indirekt: Frau Keller sagt, sie werde Herrn Baumann am nächsten Tag ihre Unterlagen schicken. Zeitangaben verändern sich, wenn der Bericht zu einem späteren Zeitpunkt erfolgt: heute → an diesem Tag, gestern → am Vortag oder einen Tag zuvor, morgen → am nächsten oder folgenden Tag, jetzt → zu diesem Zeitpunkt oder damals, letzte Woche → in der Vorwoche, nächste Woche → in der folgenden Woche. Ortsangaben ändern sich, wenn der Bericht an einem anderen Ort erfolgt: hier → dort, hierher → dorthin beziehungsweise an diesen Ort, von hier → von dort. Bleiben Zeitpunkt oder Ort gleich, können heute, morgen oder hier unverändert bleiben. Bei möglicher Mehrdeutigkeit ist ein Nomen oft klarer als ein Pronomen: statt sie könne man Frau Keller oder die Antragstellerin nennen.",
+  "explanation_ar": "عند التحويل إلى الكلام المنقول يجب أولًا تحديد من قال الكلام الأصلي، ولمن وُجّه، ومتى وأين يُنقل. فتتحول ich غالبًا إلى er أو sie، وتتحول wir إلى sie. وتتغير ضمائر الملكية وفقًا لذلك: mein تصبح sein أو ihr، وunser تصبح ihr. كما تتغير ضمائر المفعول: mir قد تصبح ihm أو ihr، وuns قد تصبح ihnen. لكن التحويل ليس آليًا بالكامل، فالضمير يعتمد على المرجع الحقيقي. مثلًا: Frau Keller sagt zu Herrn Baumann: „Ich schicke Ihnen morgen meine Unterlagen.“ ويصبح: Frau Keller sagt, sie werde Herrn Baumann am nächsten Tag ihre Unterlagen schicken. وتتغير تعبيرات الزمن عندما يحدث النقل في وقت لاحق: heute ← an diesem Tag، وgestern ← am Vortag أو einen Tag zuvor، وmorgen ← am nächsten أو folgenden Tag، وjetzt ← zu diesem Zeitpunkt أو damals، وletzte Woche ← in der Vorwoche، وnächste Woche ← in der folgenden Woche. وتتغير تعبيرات المكان إذا حدث النقل في مكان آخر: hier ← dort، وhierher ← dorthin أو an diesen Ort، وvon hier ← von dort. أما إذا بقي الوقت أو المكان نفسه فيمكن أن تبقى heute أو morgen أو hier من دون تغيير. وعندما يكون الضمير ملتبسًا يكون استخدام الاسم أكثر وضوحًا، مثل ذكر Frau Keller أو die Antragstellerin بدل sie.",
+  "rules": [
+    {
+      "id": "gr38-r01",
+      "title_de": "Ich und wir",
+      "title_ar": "ich وwir",
+      "explanation_de": "Ich wird je nach Sprecher zu er oder sie; wir wird meist zu sie.",
+      "explanation_ar": "تتحول ich بحسب المتحدث إلى er أو sie، وتتحول wir غالبًا إلى sie.",
+      "formula": "ich → er/sie | wir → sie",
+      "examples": [
+        {
+          "de": "Frau Neumann sagt: „Ich arbeite heute zu Hause.“ → Frau Neumann sagt, sie arbeite heute zu Hause.",
+          "ar": "تقول السيدة نويمن: «أعمل اليوم من المنزل». ← تقول إنها تعمل اليوم من المنزل."
+        },
+        {
+          "de": "Die Beschäftigten sagen: „Wir brauchen mehr Zeit.“ → Die Beschäftigten sagen, sie bräuchten mehr Zeit.",
+          "ar": "يقول الموظفون: «نحتاج إلى وقت أكبر». ← يقولون إنهم يحتاجون إلى وقت أكبر."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r02",
+      "title_de": "Du, ihr und Sie",
+      "title_ar": "du وihr وSie",
+      "explanation_de": "Die Form richtet sich danach, wer in der neuen Situation gemeint ist; häufig ist ein Nomen klarer.",
+      "explanation_ar": "تعتمد الصيغة على الشخص المقصود في وضع النقل الجديد، وغالبًا يكون الاسم أوضح.",
+      "formula": "du/ihr/Sie → er/sie/sie oder eindeutiges Nomen",
+      "examples": [
+        {
+          "de": "Die Chefin sagt zu Herrn Roth: „Sie müssen warten.“ → Die Chefin sagt, Herr Roth müsse warten.",
+          "ar": "تقول المديرة للسيد روت: «يجب أن تنتظر». ← تقول إن السيد روت يجب أن ينتظر."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r03",
+      "title_de": "Possessivpronomen",
+      "title_ar": "ضمائر الملكية",
+      "explanation_de": "Mein, unser und Ihr werden an den neuen Besitzerbezug angepasst.",
+      "explanation_ar": "تُعدّل mein وunser وIhr وفق صاحب الشيء في منظور النقل الجديد.",
+      "formula": "mein → sein/ihr | unser → ihr | Ihr → sein/ihr",
+      "examples": [
+        {
+          "de": "Er sagt: „Mein Antrag ist vollständig.“ → Er sagt, sein Antrag sei vollständig.",
+          "ar": "يقول: «طلبي كامل». ← يقول إن طلبه كامل."
+        },
+        {
+          "de": "Sie sagt: „Unsere Abteilung ist zuständig.“ → Sie sagt, ihre Abteilung sei zuständig.",
+          "ar": "تقول: «قسمنا مسؤول». ← تقول إن قسمها مسؤول."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r04",
+      "title_de": "Objektpronomen",
+      "title_ar": "ضمائر المفعول",
+      "explanation_de": "Mir, mich, uns und Ihnen werden entsprechend dem tatsächlichen Bezug verändert.",
+      "explanation_ar": "تتغير mir وmich وuns وIhnen بحسب المرجع الفعلي.",
+      "formula": "mir → ihm/ihr | mich → ihn/sie | uns → ihnen",
+      "examples": [
+        {
+          "de": "Sie sagt: „Der Chef hat mir geholfen.“ → Sie sagt, der Chef habe ihr geholfen.",
+          "ar": "تقول: «ساعدني المدير». ← تقول إن المدير ساعدها."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r05",
+      "title_de": "Heute",
+      "title_ar": "heute",
+      "explanation_de": "Bei späterer Wiedergabe wird heute häufig zu an diesem Tag.",
+      "explanation_ar": "عند النقل في وقت لاحق تتحول heute غالبًا إلى an diesem Tag.",
+      "formula": "heute → an diesem Tag",
+      "examples": [
+        {
+          "de": "Am Montag sagte er: „Ich arbeite heute länger.“ → Er sagte am Montag, er arbeite an diesem Tag länger.",
+          "ar": "قال يوم الاثنين: «سأعمل اليوم مدة أطول». ← قال إنه يعمل مدة أطول في ذلك اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r06",
+      "title_de": "Gestern und vorgestern",
+      "title_ar": "gestern وvorgestern",
+      "explanation_de": "Gestern wird zu am Vortag oder einen Tag zuvor; vorgestern zu zwei Tage zuvor.",
+      "explanation_ar": "تتحول gestern إلى am Vortag أو einen Tag zuvor، وvorgestern إلى zwei Tage zuvor.",
+      "formula": "gestern → am Vortag | vorgestern → zwei Tage zuvor",
+      "examples": [
+        {
+          "de": "Sie sagte: „Ich habe gestern angerufen.“ → Sie sagte, sie habe am Vortag angerufen.",
+          "ar": "قالت: «اتصلت أمس». ← قالت إنها اتصلت في اليوم السابق."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r07",
+      "title_de": "Morgen und übermorgen",
+      "title_ar": "morgen وübermorgen",
+      "explanation_de": "Morgen wird zu am nächsten oder folgenden Tag; übermorgen zu zwei Tage später.",
+      "explanation_ar": "تتحول morgen إلى am nächsten أو folgenden Tag، وübermorgen إلى zwei Tage später.",
+      "formula": "morgen → am nächsten Tag | übermorgen → zwei Tage später",
+      "examples": [
+        {
+          "de": "Er sagte: „Ich komme morgen.“ → Er sagte, er komme am nächsten Tag.",
+          "ar": "قال: «سآتي غدًا». ← قال إنه سيأتي في اليوم التالي."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r08",
+      "title_de": "Jetzt, damals und zu diesem Zeitpunkt",
+      "title_ar": "jetzt وdamals وzu diesem Zeitpunkt",
+      "explanation_de": "Jetzt wird bei späterer Wiedergabe häufig zu damals oder zu diesem Zeitpunkt.",
+      "explanation_ar": "تتحول jetzt عند النقل اللاحق غالبًا إلى damals أو zu diesem Zeitpunkt.",
+      "formula": "jetzt → damals / zu diesem Zeitpunkt",
+      "examples": [
+        {
+          "de": "Sie erklärte: „Jetzt ist alles geklärt.“ → Sie erklärte, zu diesem Zeitpunkt sei alles geklärt.",
+          "ar": "أوضحت: «الآن تم توضيح كل شيء». ← أوضحت أنه في ذلك الوقت كان كل شيء قد اتضح."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r09",
+      "title_de": "Wochen, Monate und Jahre",
+      "title_ar": "الأسابيع والأشهر والسنوات",
+      "explanation_de": "Letzte und nächste Zeiträume werden perspektivisch als zuvor oder folgend wiedergegeben.",
+      "explanation_ar": "تُعاد صياغة الفترات السابقة واللاحقة باستخدام zuvor أو folgend بحسب المنظور.",
+      "formula": "letzte Woche → in der Vorwoche | nächste Woche → in der folgenden Woche",
+      "examples": [
+        {
+          "de": "Er sagte: „Ich war letzte Woche krank.“ → Er sagte, er sei in der Vorwoche krank gewesen.",
+          "ar": "قال: «كنت مريضًا الأسبوع الماضي». ← قال إنه كان مريضًا في الأسبوع السابق."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r10",
+      "title_de": "Hier und dort",
+      "title_ar": "hier وdort",
+      "explanation_de": "Bei einem Ortswechsel wird hier häufig zu dort.",
+      "explanation_ar": "عند تغير مكان النقل تتحول hier غالبًا إلى dort.",
+      "formula": "hier → dort",
+      "examples": [
+        {
+          "de": "Im Büro sagte sie: „Hier ist es sehr laut.“ → Später berichtete sie, dort sei es sehr laut gewesen.",
+          "ar": "قالت في المكتب: «الضجيج شديد هنا». ← ذكرت لاحقًا أن الضجيج كان شديدًا هناك."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r11",
+      "title_de": "Hierher, dorthin und von dort",
+      "title_ar": "hierher وdorthin وvon dort",
+      "explanation_de": "Richtungs- und Herkunftsangaben werden an den neuen Ort angepasst.",
+      "explanation_ar": "تُعدّل تعبيرات الاتجاه والمصدر وفق مكان النقل الجديد.",
+      "formula": "hierher → dorthin | von hier → von dort",
+      "examples": [
+        {
+          "de": "Er sagte: „Bitte kommen Sie morgen hierher.“ → Er bat sie, am nächsten Tag dorthin zu kommen.",
+          "ar": "قال: «تعال غدًا إلى هنا». ← طلب منها أن تأتي إلى هناك في اليوم التالي."
+        }
+      ]
+    },
+    {
+      "id": "gr38-r12",
+      "title_de": "Anpassung ist kontextabhängig",
+      "title_ar": "التعديل يعتمد على السياق",
+      "explanation_de": "Bleiben Zeitpunkt, Ort oder Bezug gleich, kann die ursprüngliche Angabe unverändert bleiben.",
+      "explanation_ar": "إذا بقي الوقت أو المكان أو المرجع نفسه فيمكن إبقاء التعبير الأصلي كما هو.",
+      "formula": "gleicher Tag/Ort → heute/hier möglich",
+      "examples": [
+        {
+          "de": "Sie sagt heute: „Ich komme heute.“ → Sie sagt, sie komme heute.",
+          "ar": "تقول اليوم: «سآتي اليوم». ← تقول إنها ستأتي اليوم."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr38-t01",
+      "title_de": "Pronomenwechsel",
+      "title_ar": "تغيير الضمائر",
+      "headers_de": [
+        "Direkte Rede",
+        "mögliche indirekte Form",
+        "Hinweis"
+      ],
+      "headers_ar": [
+        "الكلام المباشر",
+        "الصيغة المنقولة الممكنة",
+        "ملاحظة"
+      ],
+      "rows": [
+        [
+          "ich",
+          "er / sie",
+          "abhängig vom Sprecher"
+        ],
+        [
+          "wir",
+          "sie",
+          "Gruppe als Bezug"
+        ],
+        [
+          "mein",
+          "sein / ihr",
+          "abhängig vom Besitzer"
+        ],
+        [
+          "unser",
+          "ihr",
+          "Besitz der Gruppe"
+        ],
+        [
+          "mir",
+          "ihm / ihr",
+          "Dativbezug"
+        ],
+        [
+          "mich",
+          "ihn / sie",
+          "Akkusativbezug"
+        ],
+        [
+          "uns",
+          "ihnen",
+          "Bezug auf die Gruppe"
+        ]
+      ]
+    },
+    {
+      "id": "gr38-t02",
+      "title_de": "Zeitangaben",
+      "title_ar": "تعبيرات الزمن",
+      "headers_de": [
+        "Direkte Angabe",
+        "spätere Wiedergabe"
+      ],
+      "headers_ar": [
+        "التعبير المباشر",
+        "النقل اللاحق"
+      ],
+      "rows": [
+        [
+          "heute",
+          "an diesem Tag"
+        ],
+        [
+          "gestern",
+          "am Vortag / einen Tag zuvor"
+        ],
+        [
+          "vorgestern",
+          "zwei Tage zuvor"
+        ],
+        [
+          "morgen",
+          "am nächsten / folgenden Tag"
+        ],
+        [
+          "übermorgen",
+          "zwei Tage später"
+        ],
+        [
+          "jetzt",
+          "damals / zu diesem Zeitpunkt"
+        ],
+        [
+          "letzte Woche",
+          "in der Vorwoche"
+        ],
+        [
+          "nächste Woche",
+          "in der folgenden Woche"
+        ]
+      ]
+    },
+    {
+      "id": "gr38-t03",
+      "title_de": "Ortsangaben",
+      "title_ar": "تعبيرات المكان",
+      "headers_de": [
+        "Direkte Angabe",
+        "mögliche indirekte Form"
+      ],
+      "headers_ar": [
+        "التعبير المباشر",
+        "الصيغة المنقولة الممكنة"
+      ],
+      "rows": [
+        [
+          "hier",
+          "dort"
+        ],
+        [
+          "hierher",
+          "dorthin / an diesen Ort"
+        ],
+        [
+          "von hier",
+          "von dort"
+        ],
+        [
+          "bei uns",
+          "bei ihnen / am genannten Ort"
+        ],
+        [
+          "zu mir",
+          "zu ihm / zu ihr"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Frau Sommer sagte zu Herrn Klein: „Ich sende Ihnen morgen meine Unterlagen.“ → Frau Sommer sagte, sie werde Herrn Klein am nächsten Tag ihre Unterlagen senden.",
+      "ar": "قالت السيدة زومر للسيد كلاين: «سأرسل لك غدًا مستنداتي». ← قالت إنها سترسل للسيد كلاين مستنداتها في اليوم التالي.",
+      "note_de": "Sprecher-, Adressaten-, Zeit- und Besitzbezug werden angepasst.",
+      "note_ar": "تم تعديل المتحدث والمخاطب والزمن وملكية المستندات."
+    },
+    {
+      "de": "Die Beschäftigten erklärten: „Unser Team hat gestern hier gearbeitet.“ → Die Beschäftigten erklärten, ihr Team habe am Vortag dort gearbeitet.",
+      "ar": "أوضح الموظفون: «عمل فريقنا هنا أمس». ← أوضحوا أن فريقهم عمل هناك في اليوم السابق.",
+      "note_de": "Possessivpronomen, Zeit- und Ortsangabe ändern sich.",
+      "note_ar": "تغير ضمير الملكية وتعبيرا الزمن والمكان."
+    },
+    {
+      "de": "Der Abteilungsleiter sagte: „Ich bespreche das jetzt mit meinen Mitarbeitenden.“ → Der Abteilungsleiter sagte, er bespreche das zu diesem Zeitpunkt mit seinen Mitarbeitenden.",
+      "ar": "قال رئيس القسم: «سأناقش ذلك الآن مع موظفيّ». ← قال إنه يناقش ذلك في ذلك الوقت مع موظفيه.",
+      "note_de": "Ich, jetzt und mein werden angepasst.",
+      "note_ar": "تم تعديل ich وjetzt وmein."
+    },
+    {
+      "de": "Die Kundin sagte: „Der Berater hat mir vorgestern hier geholfen.“ → Die Kundin sagte, der Berater habe ihr zwei Tage zuvor dort geholfen.",
+      "ar": "قالت العميلة: «ساعدني المستشار هنا أول أمس». ← قالت إن المستشار ساعدها هناك قبل يومين.",
+      "note_de": "Dativpronomen, Zeit- und Ortsangabe.",
+      "note_ar": "ضمير Dativ وتعبيرا الزمن والمكان."
+    },
+    {
+      "de": "Der Projektleiter sagte am Montag: „Bis übermorgen werde ich diesen Bericht fertiggestellt haben.“ → Der Projektleiter sagte am Montag, er werde den Bericht bis zum Mittwoch fertiggestellt haben.",
+      "ar": "قال مدير المشروع يوم الاثنين: «سأكون قد أنهيت هذا التقرير حتى بعد غد». ← قال إنه سيكون قد أنهى التقرير حتى يوم الأربعاء.",
+      "note_de": "Futur II und perspektivische Zeitangabe.",
+      "note_ar": "Futur II وتعديل التعبير الزمني."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Frau Keller sagt: „Ich brauche meine Unterlagen.“ → Frau Keller sagt, ich brauche meine Unterlagen.",
+      "correct": "Frau Keller sagt, sie brauche ihre Unterlagen.",
+      "explanation_de": "Personal- und Possessivpronomen müssen an Frau Keller angepasst werden.",
+      "explanation_ar": "يجب تعديل ضمير الشخص والملكية وفق Frau Keller."
+    },
+    {
+      "wrong": "Er sagte gestern: „Ich komme morgen.“ → Er sagte gestern, er komme morgen.",
+      "correct": "Er sagte gestern, er komme am nächsten Tag.",
+      "explanation_de": "Bei späterer Wiedergabe wird morgen relativ zum ursprünglichen Sprechzeitpunkt angepasst.",
+      "explanation_ar": "عند النقل اللاحق تُعدّل morgen بالنسبة إلى وقت الكلام الأصلي."
+    },
+    {
+      "wrong": "Sie sagte im alten Büro: „Hier ist es ruhig.“ → Später sagte sie, hier sei es ruhig.",
+      "correct": "Später sagte sie, dort sei es ruhig gewesen.",
+      "explanation_de": "Bei geändertem Ort wird hier zu dort; außerdem liegt die Situation in der Vergangenheit.",
+      "explanation_ar": "عند تغير المكان تتحول hier إلى dort، كما أن الموقف أصبح في الماضي."
+    },
+    {
+      "wrong": "Der Chef sagte zu Anna: „Sie müssen warten.“ → Der Chef sagte, sie müsse warten.",
+      "correct": "Der Chef sagte, Anna müsse warten.",
+      "explanation_de": "Sie ist ohne klaren Bezug mehrdeutig; der Name ist eindeutiger.",
+      "explanation_ar": "الضمير sie ملتبس من دون مرجع واضح، لذلك يكون الاسم أدق."
+    },
+    {
+      "wrong": "Sie sagte: „Der Chef hat mir geholfen.“ → Sie sagte, der Chef habe ihm geholfen.",
+      "correct": "Sie sagte, der Chef habe ihr geholfen.",
+      "explanation_de": "Mir bezieht sich auf eine weibliche Sprecherin und wird zu ihr.",
+      "explanation_ar": "تعود mir على متحدثة مؤنثة ولذلك تتحول إلى ihr."
+    },
+    {
+      "wrong": "Sie sagte gestern: „Ich komme morgen.“ → Sie sagte, sie komme gestern.",
+      "correct": "Sie sagte gestern, sie komme am nächsten Tag.",
+      "explanation_de": "Morgen wird bei späterer Wiedergabe relativ zum ursprünglichen Sprechzeitpunkt zu am nächsten Tag.",
+      "explanation_ar": "عند النقل اللاحق تتحول morgen بالنسبة إلى وقت الكلام الأصلي إلى am nächsten Tag."
+    }
+  ],
+  "quickSummary_de": [
+    "Pronomen werden nach Sprecher, Adressat und Bezug angepasst.",
+    "Ich wird häufig er oder sie; wir wird meist sie.",
+    "Mein wird je nach Sprecher sein oder ihr.",
+    "Objektpronomen müssen ebenfalls angepasst werden.",
+    "Heute wird bei späterer Wiedergabe oft an diesem Tag.",
+    "Gestern wird am Vortag oder einen Tag zuvor.",
+    "Morgen wird am nächsten oder folgenden Tag.",
+    "Jetzt wird zu diesem Zeitpunkt oder damals.",
+    "Hier wird bei Ortswechsel häufig dort.",
+    "Hierher wird dorthin; von hier wird von dort.",
+    "Bei Mehrdeutigkeit ist ein Nomen klarer als ein Pronomen.",
+    "Zeit- und Ortsangaben bleiben unverändert, wenn die Perspektive gleich bleibt."
+  ],
+  "quickSummary_ar": [
+    "تُعدّل الضمائر بحسب المتحدث والمخاطب والمرجع.",
+    "تتحول ich غالبًا إلى er أو sie، وتتحول wir غالبًا إلى sie.",
+    "تتحول mein بحسب المتحدث إلى sein أو ihr.",
+    "يجب تعديل ضمائر المفعول أيضًا.",
+    "تتحول heute عند النقل اللاحق غالبًا إلى an diesem Tag.",
+    "تتحول gestern إلى am Vortag أو einen Tag zuvor.",
+    "تتحول morgen إلى am nächsten أو folgenden Tag.",
+    "تتحول jetzt إلى zu diesem Zeitpunkt أو damals.",
+    "تتحول hier عند تغير المكان غالبًا إلى dort.",
+    "تتحول hierher إلى dorthin، وvon hier إلى von dort.",
+    "عند الالتباس يكون الاسم أوضح من الضمير.",
+    "تبقى تعبيرات الزمان والمكان كما هي إذا بقي المنظور نفسه."
+  ],
+  "relatedTopics": [
+    "gr-36",
+    "gr-37",
+    "gr-39",
+    "gr-40"
+  ]
+}

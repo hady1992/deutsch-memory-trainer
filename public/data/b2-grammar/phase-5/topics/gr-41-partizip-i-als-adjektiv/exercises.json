@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-41",
+  "title_de": "Partizip I als Adjektiv – Übungen",
+  "title_ar": "تمارين Partizip I بوصفه صفة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr41-e001",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I bilden",
+      "title_ar": "تكوين Partizip I",
+      "prompt_de": "Wie lautet das Partizip I von „arbeiten“?",
+      "prompt_ar": "ما صيغة Partizip I من arbeiten؟",
+      "answer": "arbeitend",
+      "explanation_de": "Partizip I wird mit Infinitiv + d gebildet.",
+      "explanation_ar": "يُبنى Partizip I من المصدر مع إضافة d.",
+      "grammarFocus": "formation_basic",
+      "options": [
+        "arbeitend",
+        "gearbeitet",
+        "arbeitete",
+        "zu arbeiten"
+      ]
+    },
+    {
+      "id": "gr41-e002",
+      "topicId": "gr-41",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Wartender Kunde",
+      "title_ar": "عميل منتظر",
+      "prompt_de": "Der ______ Kunde hat bereits einen Termin.",
+      "prompt_ar": "العميل المنتظر لديه موعد بالفعل.",
+      "answer": "wartende",
+      "explanation_de": "Vor dem maskulinen Nomen mit bestimmtem Artikel steht die Endung -e.",
+      "explanation_ar": "قبل اسم مذكر مع أداة معرفة تأتي النهاية -e.",
+      "grammarFocus": "adjective_ending_nominative",
+      "acceptedAnswers": [
+        "wartende"
+      ]
+    },
+    {
+      "id": "gr41-e003",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Aktive Bedeutung",
+      "title_ar": "المعنى المعلوم",
+      "prompt_de": "Was bedeutet „die telefonierende Mitarbeiterin“?",
+      "prompt_ar": "ما معنى die telefonierende Mitarbeiterin؟",
+      "answer": "die Mitarbeiterin, die telefoniert",
+      "explanation_de": "Das Bezugsnomen führt die Handlung selbst aus.",
+      "explanation_ar": "يقوم الاسم الموصوف بالفعل بنفسه.",
+      "grammarFocus": "active_meaning",
+      "options": [
+        "die Mitarbeiterin, die telefoniert",
+        "die Mitarbeiterin, die angerufen wurde",
+        "die Mitarbeiterin, deren Telefon kaputt ist",
+        "die Mitarbeiterin, die nicht sprechen darf"
+      ]
+    },
+    {
+      "id": "gr41-e004",
+      "topicId": "gr-41",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Infinitiv und Partizip I",
+      "title_ar": "المصدر وPartizip I",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "warten": "wartend",
+        "sprechen": "sprechend",
+        "teilnehmen": "teilnehmend",
+        "ankommen": "ankommend",
+        "lächeln": "lächelnd"
+      },
+      "explanation_de": "Alle Formen entstehen aus dem Infinitiv plus -d.",
+      "explanation_ar": "تُبنى جميع الصيغ من المصدر مع إضافة -d.",
+      "grammarFocus": "formation_matching",
+      "pairs": [
+        [
+          "warten",
+          "wartend"
+        ],
+        [
+          "sprechen",
+          "sprechend"
+        ],
+        [
+          "teilnehmen",
+          "teilnehmend"
+        ],
+        [
+          "ankommen",
+          "ankommend"
+        ],
+        [
+          "lächeln",
+          "lächelnd"
+        ]
+      ]
+    },
+    {
+      "id": "gr41-e005",
+      "topicId": "gr-41",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Teilnehmende Personen",
+      "title_ar": "الأشخاص المشاركون",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die an der Schulung teilnehmenden Personen",
+      "explanation_de": "Die Präpositionalergänzung steht vor dem Partizip.",
+      "explanation_ar": "يأتي متمم حرف الجر قبل Partizip.",
+      "grammarFocus": "separable_attribute_order",
+      "tokens": [
+        "Personen",
+        "teilnehmenden",
+        "an der Schulung",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die an der Schulung teilnehmenden Personen"
+      ]
+    },
+    {
+      "id": "gr41-e006",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I oder II",
+      "title_ar": "Partizip I أم II",
+      "prompt_de": "Welche Form bezeichnet die Person, die selbst prüft?",
+      "prompt_ar": "أي صيغة تدل على الشخص الذي يفحص بنفسه؟",
+      "answer": "der prüfende Mitarbeiter",
+      "explanation_de": "Partizip I hat hier aktive Bedeutung.",
+      "explanation_ar": "يحمل Partizip I هنا معنى معلومًا.",
+      "grammarFocus": "participle_contrast_basic",
+      "options": [
+        "der prüfende Mitarbeiter",
+        "der geprüfte Mitarbeiter",
+        "der Prüfung Mitarbeiter",
+        "der zu prüfende Mitarbeiter"
+      ]
+    },
+    {
+      "id": "gr41-e007",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Relativsatz erkennen",
+      "title_ar": "تمييز الجملة الموصولة",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die wartende Kundin → die Kundin, die wartet",
+      "explanation_de": "Das Partizip-I-Attribut entspricht einem aktiven Relativsatz im Präsens.",
+      "explanation_ar": "تقابل صفة Partizip I جملة موصولة معلومة في Präsens.",
+      "grammarFocus": "relative_clause_basic",
+      "options": [
+        "die wartende Kundin → die Kundin, die wartet",
+        "die wartende Kundin → die Kundin, die gewartet wird",
+        "die wartende Kundin → die Kundin, die gewartet hat worden",
+        "die wartende Kundin → die Kundin, deren Warten beendet ist"
+      ]
+    },
+    {
+      "id": "gr41-e008",
+      "topicId": "gr-41",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Reflexives Verb",
+      "title_ar": "فعل انعكاسي",
+      "prompt_de": "Die ______ beschwerende Kundin verlangt eine Antwort.",
+      "prompt_ar": "العميلة التي تشتكي تطلب ردًا.",
+      "answer": "sich",
+      "explanation_de": "Das Reflexivpronomen steht vor dem Partizip-I-Attribut.",
+      "explanation_ar": "يأتي الضمير الانعكاسي قبل صفة Partizip I.",
+      "grammarFocus": "reflexive_participle",
+      "acceptedAnswers": [
+        "sich"
+      ]
+    },
+    {
+      "id": "gr41-e009",
+      "topicId": "gr-41",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Relativsatz verkürzen",
+      "title_ar": "اختصار جملة موصولة",
+      "prompt_de": "Formen Sie um: die Personen, die im Konferenzraum diskutieren",
+      "prompt_ar": "حوّل إلى صفة Partizip I.",
+      "answer": "die im Konferenzraum diskutierenden Personen",
+      "explanation_de": "Die Ortsangabe steht vor diskutierend; die Adjektivendung lautet -en.",
+      "explanation_ar": "يأتي تعبير المكان قبل diskutierend، وتكون نهاية الصفة -en.",
+      "grammarFocus": "relative_to_participle",
+      "acceptedAnswers": [
+        "die im Konferenzraum diskutierenden Personen"
+      ]
+    },
+    {
+      "id": "gr41-e010",
+      "topicId": "gr-41",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Partizipialattribut auflösen",
+      "title_ar": "تفكيك صفة Partizip",
+      "prompt_de": "Formen Sie um: der ankommende Zug",
+      "prompt_ar": "حوّل إلى جملة موصولة.",
+      "answer": "der Zug, der ankommt",
+      "explanation_de": "Das Nomen führt die Handlung aus; deshalb steht ein aktiver Relativsatz.",
+      "explanation_ar": "يقوم الاسم بالفعل، لذلك نستخدم جملة موصولة معلومة.",
+      "grammarFocus": "participle_to_relative",
+      "acceptedAnswers": [
+        "der Zug, der ankommt",
+        "der Zug, welcher ankommt"
+      ]
+    },
+    {
+      "id": "gr41-e011",
+      "topicId": "gr-41",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Erweitertes Attribut",
+      "title_ar": "صفة موسعة",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die seit zwei Stunden vor dem Gebäude wartenden Gäste",
+      "explanation_de": "Zeit- und Ortsangabe stehen vor dem Partizip.",
+      "explanation_ar": "يأتي تعبيرا الزمن والمكان قبل Partizip.",
+      "grammarFocus": "extended_attribute_order",
+      "tokens": [
+        "Gäste",
+        "vor dem Gebäude",
+        "wartenden",
+        "seit zwei Stunden",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die seit zwei Stunden vor dem Gebäude wartenden Gäste"
+      ]
+    },
+    {
+      "id": "gr41-e012",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Adverbialer Gebrauch",
+      "title_ar": "الاستخدام بوظيفة حال",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Lächelnd begrüßte sie das Team.",
+      "explanation_de": "Ohne Bezugsnomen bleibt das Partizip I ohne Adjektivendung.",
+      "explanation_ar": "من دون اسم موصوف يبقى Partizip I من دون نهاية صفة.",
+      "grammarFocus": "adverbial_usage",
+      "options": [
+        "Lächelnd begrüßte sie das Team.",
+        "Lächelnde begrüßte sie das Team.",
+        "Gelächelt begrüßte sie das Team.",
+        "Lächelnden begrüßte sie das Team."
+      ]
+    },
+    {
+      "id": "gr41-e013",
+      "topicId": "gr-41",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Partizip I und Relativsatz",
+      "title_ar": "Partizip I والجملة الموصولة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "das klingelnde Telefon": "das Telefon, das klingelt",
+        "die steigenden Kosten": "die Kosten, die steigen",
+        "der wartende Kunde": "der Kunde, der wartet",
+        "die teilnehmenden Gäste": "die Gäste, die teilnehmen",
+        "die sich nähernde Frist": "die Frist, die sich nähert"
+      },
+      "explanation_de": "Alle Beispiele haben aktive oder prozessuale Bedeutung.",
+      "explanation_ar": "تحمل جميع الأمثلة معنى معلومًا أو دالًا على عملية.",
+      "grammarFocus": "relative_matching",
+      "pairs": [
+        [
+          "das klingelnde Telefon",
+          "das Telefon, das klingelt"
+        ],
+        [
+          "die steigenden Kosten",
+          "die Kosten, die steigen"
+        ],
+        [
+          "der wartende Kunde",
+          "der Kunde, der wartet"
+        ],
+        [
+          "die teilnehmenden Gäste",
+          "die Gäste, die teilnehmen"
+        ],
+        [
+          "die sich nähernde Frist",
+          "die Frist, die sich nähert"
+        ]
+      ]
+    },
+    {
+      "id": "gr41-e014",
+      "topicId": "gr-41",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachliche Beschreibung",
+      "title_ar": "وصف موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen kurzen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا مختصرًا؟",
+      "answer": "Die im Eingangsbereich wartenden Personen wurden einzeln aufgerufen.",
+      "explanation_de": "Das Partizipialattribut beschreibt die Gruppe kompakt und sachlich.",
+      "explanation_ar": "تصف صفة Partizip المجموعة بإيجاز وموضوعية.",
+      "grammarFocus": "formal_compact_description",
+      "options": [
+        "Die im Eingangsbereich wartenden Personen wurden einzeln aufgerufen.",
+        "Die Personen, sie warten im Eingang, wurden aufgerufen.",
+        "Die warteten Personen im Eingang wurden einzeln rufen.",
+        "Die im Eingang gewartenden Personen wurden einzeln aufrufen."
+      ]
+    },
+    {
+      "id": "gr41-e015",
+      "topicId": "gr-41",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Adjektivendung Dativ Plural",
+      "title_ar": "نهاية الصفة في Dativ Plural",
+      "prompt_de": "Mit den an der Sitzung teilnehm______ Personen wurde gesprochen.",
+      "prompt_ar": "تم التحدث مع الأشخاص المشاركين في الاجتماع.",
+      "answer": "enden",
+      "explanation_de": "Nach dem bestimmten Artikel im Dativ Plural steht die Endung -en.",
+      "explanation_ar": "بعد أداة المعرفة في Dativ Plural تأتي النهاية -en.",
+      "grammarFocus": "adjective_ending_dative_plural",
+      "acceptedAnswers": [
+        "enden"
+      ]
+    },
+    {
+      "id": "gr41-e016",
+      "topicId": "gr-41",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Reflexives Attribut",
+      "title_ar": "صفة انعكاسية",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die sich auf das Gespräch vorbereitenden Teilnehmenden",
+      "explanation_de": "Sich und die Präpositionalergänzung stehen vor vorbereitend.",
+      "explanation_ar": "يأتي sich ومتمم حرف الجر قبل vorbereitend.",
+      "grammarFocus": "reflexive_extended_order",
+      "tokens": [
+        "Teilnehmenden",
+        "vorbereitenden",
+        "auf das Gespräch",
+        "sich",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die sich auf das Gespräch vorbereitenden Teilnehmenden"
+      ]
+    },
+    {
+      "id": "gr41-e017",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Laufender Prozess",
+      "title_ar": "عملية مستمرة",
+      "prompt_de": "Welche Form betont einen laufenden Prozess?",
+      "prompt_ar": "أي صيغة تؤكد عملية مستمرة؟",
+      "answer": "die ständig steigenden Kosten",
+      "explanation_de": "Steigend beschreibt einen fortlaufenden Prozess.",
+      "explanation_ar": "تصف steigend عملية مستمرة.",
+      "grammarFocus": "ongoing_process",
+      "options": [
+        "die ständig steigenden Kosten",
+        "die gestiegenen Kosten",
+        "die zu steigenden Kosten",
+        "die gesteigert Kosten"
+      ]
+    },
+    {
+      "id": "gr41-e018",
+      "topicId": "gr-41",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexes Relativsatzäquivalent",
+      "title_ar": "بديل معقد لجملة موصولة",
+      "prompt_de": "Formen Sie um: die Fachleute, die seit dem frühen Morgen über die neue Regelung diskutieren",
+      "prompt_ar": "حوّل إلى صفة Partizip I.",
+      "answer": "die seit dem frühen Morgen über die neue Regelung diskutierenden Fachleute",
+      "explanation_de": "Alle Ergänzungen stehen vor dem Partizip; die Endung lautet -en.",
+      "explanation_ar": "تأتي جميع المتممات قبل Partizip، وتكون النهاية -en.",
+      "grammarFocus": "complex_relative_to_participle",
+      "acceptedAnswers": [
+        "die seit dem frühen Morgen über die neue Regelung diskutierenden Fachleute"
+      ]
+    },
+    {
+      "id": "gr41-e019",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Gleichzeitigkeit prüfen",
+      "title_ar": "فحص التزامن",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "„Die telefonierende Mitarbeiterin öffnete die Datei“ bedeutet normalerweise, dass sie gleichzeitig telefonierte und die Datei öffnete.",
+      "explanation_de": "Partizip I drückt gewöhnlich Gleichzeitigkeit aus.",
+      "explanation_ar": "يعبر Partizip I عادة عن التزامن.",
+      "grammarFocus": "simultaneity_explanation",
+      "options": [
+        "„Die telefonierende Mitarbeiterin öffnete die Datei“ bedeutet normalerweise, dass sie gleichzeitig telefonierte und die Datei öffnete.",
+        "Die Mitarbeiterin telefonierte erst am nächsten Tag.",
+        "Die Mitarbeiterin wurde telefonisch informiert.",
+        "Die Datei telefonierte mit der Mitarbeiterin."
+      ]
+    },
+    {
+      "id": "gr41-e020",
+      "topicId": "gr-41",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Attribut oder Relativsatz",
+      "title_ar": "صفة أم جملة موصولة",
+      "prompt_de": "Welche Formulierung ist wegen ihrer Klarheit besser?",
+      "prompt_ar": "أي صياغة أفضل من حيث الوضوح؟",
+      "answer": "Die Gäste, die seit zwei Stunden vor dem wegen eines technischen Defekts geschlossenen Gebäude warten, wurden informiert.",
+      "explanation_de": "Bei einem sehr langen Attribut ist der Relativsatz häufig verständlicher.",
+      "explanation_ar": "عندما تكون الصفة طويلة جدًا تكون الجملة الموصولة أوضح غالبًا.",
+      "grammarFocus": "style_choice_long_attribute",
+      "options": [
+        "Die Gäste, die seit zwei Stunden vor dem wegen eines technischen Defekts geschlossenen Gebäude warten, wurden informiert.",
+        "Die seit zwei Stunden vor dem wegen eines technischen Defekts geschlossenen Gebäude wartenden Gäste wurden informiert.",
+        "Die Gäste wartend zwei Stunden Gebäude geschlossen Defekt wurden informiert.",
+        "Die seit Gebäude wartende Gäste, technische Defekt, informiert."
+      ]
+    },
+    {
+      "id": "gr41-e021",
+      "topicId": "gr-41",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Ergänzungen",
+      "title_ar": "عدة متممات",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die den Bericht sorgfältig prüfende Mitarbeiterin",
+      "explanation_de": "Das Akkusativobjekt und das Adverb stehen vor dem Partizip.",
+      "explanation_ar": "يأتي مفعول Akkusativ والحال قبل Partizip.",
+      "grammarFocus": "object_adverb_attribute_order",
+      "tokens": [
+        "Mitarbeiterin",
+        "prüfende",
+        "sorgfältig",
+        "den Bericht",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die den Bericht sorgfältig prüfende Mitarbeiterin"
+      ]
+    },
+    {
+      "id": "gr41-e022",
+      "topicId": "gr-41",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Partizip I und Partizip II",
+      "title_ar": "Partizip I وPartizip II",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Der prüfende Mitarbeiter“ führt die Prüfung aus; „der geprüfte Antrag“ ist das Ergebnis einer Prüfung.",
+      "explanation_de": "Partizip I ist hier aktiv, Partizip II passiv beziehungsweise resultativ.",
+      "explanation_ar": "Partizip I هنا معلوم، وPartizip II مجهول أو دال على نتيجة.",
+      "grammarFocus": "participle_i_ii_contrast",
+      "options": [
+        "„Der prüfende Mitarbeiter“ führt die Prüfung aus; „der geprüfte Antrag“ ist das Ergebnis einer Prüfung.",
+        "Beide Formen bedeuten, dass der Mitarbeiter geprüft wurde.",
+        "Partizip I bezeichnet immer Vergangenheit.",
+        "Partizip II bezeichnet immer eine gleichzeitig aktive Handlung."
+      ]
+    },
+    {
+      "id": "gr41-e023",
+      "topicId": "gr-41",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zwei Formen verbinden",
+      "title_ar": "ربط صيغتين",
+      "prompt_de": "Formen Sie um: Die Kundin beschwert sich. Sie wartet vor dem Büro.",
+      "prompt_ar": "حوّل إلى جملة تحتوي صفة Partizip I.",
+      "answer": "Die sich beschwerende Kundin wartet vor dem Büro.",
+      "explanation_de": "Das reflexive Verb wird zu sich beschwerend und erhält die Endung -e.",
+      "explanation_ar": "يتحول الفعل الانعكاسي إلى sich beschwerend ويأخذ النهاية -e.",
+      "grammarFocus": "reflexive_sentence_combination",
+      "acceptedAnswers": [
+        "Die sich beschwerende Kundin wartet vor dem Büro."
+      ]
+    },
+    {
+      "id": "gr41-e024",
+      "topicId": "gr-41",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Partizip I",
+      "title_ar": "تدريب ختامي على Partizip I",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens zwölf Sätzen über eine Besprechung, einen Empfangsbereich oder einen Arbeitsprozess. Verwenden Sie mindestens zehn verschiedene Partizip-I-Formen.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من اثنتي عشرة جملة على الأقل عن اجتماع أو منطقة استقبال أو سير عمل. استخدم عشر صيغ مختلفة على الأقل من Partizip I.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zehn verschiedene Partizip-I-Formen",
+          "mindestens drei einfache Attribute",
+          "mindestens drei erweiterte Attribute",
+          "mindestens zwei trennbare Verben",
+          "mindestens zwei reflexive Verben",
+          "mindestens zwei adverbiale Verwendungen",
+          "mindestens drei Umformungen in Relativsätze",
+          "korrekte Adjektivendungen",
+          "aktive und gleichzeitige Bedeutung",
+          "verständlicher B2-Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bildung, Adjektivendung, Ergänzungen, Reflexivpronomen, Bedeutung und Verständlichkeit.",
+      "explanation_ar": "راجع التكوين ونهاية الصفة والمتممات والضمير الانعكاسي والمعنى والوضوح.",
+      "grammarFocus": "mixed_participle_i",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-39",
+  "slug": "gr-39-konjunktiv-i-ii-indikativ-indirekte-rede",
+  "order": 39,
+  "title_de": "Konjunktiv I, Konjunktiv II und Indikativ in der indirekten Rede",
+  "title_ar": "Konjunktiv I وKonjunktiv II وIndikativ في الكلام المنقول",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "indirekte_rede",
+  "estimatedMinutes": 70,
+  "learningObjectives_de": [
+    "Konjunktiv I als Standardform der formellen indirekten Rede verwenden.",
+    "Identische Konjunktiv-I- und Indikativformen erkennen.",
+    "Konjunktiv II als Ersatzform in der indirekten Rede einsetzen.",
+    "Zwischen synthetischem Konjunktiv II und würde-Form wählen.",
+    "Indikativ in alltagssprachlicher oder faktisch bestätigender Wiedergabe angemessen verwenden.",
+    "Verstehen, dass Konjunktiv II in der indirekten Rede nicht automatisch Zweifel ausdrückt.",
+    "Formen in Präsens, Vergangenheit, Zukunft und Passiv sicher auswählen.",
+    "Stil und Distanz in Nachrichten, Protokollen und Berichten bewusst steuern."
+  ],
+  "learningObjectives_ar": [
+    "استخدام Konjunktiv I بوصفه الصيغة الأساسية للكلام المنقول الرسمي.",
+    "تمييز الحالات التي تتطابق فيها صيغة Konjunktiv I مع Indikativ.",
+    "استخدام Konjunktiv II بوصفه صيغة بديلة في الكلام المنقول.",
+    "الاختيار بين Konjunktiv II البسيط وصيغة würde.",
+    "استخدام Indikativ بصورة مناسبة في الكلام اليومي أو عند تأكيد المعلومة بوصفها حقيقة.",
+    "فهم أن Konjunktiv II في الكلام المنقول لا يعني الشك تلقائيًا.",
+    "اختيار الصيغة الصحيحة في الحاضر والماضي والمستقبل والمبني للمجهول.",
+    "التحكم في الأسلوب والمسافة الموضوعية في الأخبار والمحاضر والتقارير."
+  ],
+  "shortDescription_de": "In formeller indirekter Rede steht grundsätzlich Konjunktiv I. Ist seine Form mit dem Indikativ identisch, wird häufig Konjunktiv II als Ersatz verwendet. Der Indikativ ist vor allem in Alltagssprache oder bei faktisch bestätigter Information möglich.",
+  "shortDescription_ar": "يُستخدم Konjunktiv I أساسًا في الكلام المنقول الرسمي. وإذا تطابقت صيغته مع Indikativ يُستخدم غالبًا Konjunktiv II بوصفه بديلًا. أما Indikativ فيظهر خصوصًا في الكلام اليومي أو عند التعامل مع المعلومة بوصفها حقيقة مؤكدة.",
+  "explanation_de": "Die Wahl zwischen Konjunktiv I, Konjunktiv II und Indikativ hängt von Form, Stil und Aussageabsicht ab. Konjunktiv I ist die typische Form für distanzierte indirekte Rede: Der Mitarbeiter sagt, er sei krank. Die Firma erklärt, sie habe alle Anforderungen erfüllt. Problematisch sind Formen, die mit dem Indikativ übereinstimmen. Bei wir, sie und Sie lautet der Konjunktiv I vieler Verben genauso wie der Indikativ: sie arbeiten, sie haben, sie werden. In formeller indirekter Rede verwendet man dann häufig Konjunktiv II als Ersatz: Die Beschäftigten sagen, sie arbeiteten heute länger; üblicher und klarer ist oft: sie würden heute länger arbeiten. Bei haben, sein und Modalverben sind eindeutige Formen wie hätten, wären, könnten, müssten oder dürften besonders üblich. Dieser Ersatzkonjunktiv markiert zunächst nur indirekte Rede. Er bedeutet nicht automatisch, dass der Berichtende die Aussage bezweifelt. Zweifel entsteht erst durch den Kontext, zum Beispiel durch Wörter wie angeblich, bezweifeln oder widersprechen. Der Indikativ ist in gesprochener Sprache sehr häufig: Er sagt, dass er krank ist. Er kann auch verwendet werden, wenn die Information als gesicherte Tatsache dargestellt oder vom Berichtenden übernommen wird: Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet. In Nachrichten und formellen Protokollen wird dagegen meist Konjunktiv I beziehungsweise eine eindeutige Ersatzform bevorzugt. Die würde-Form ist besonders sinnvoll, wenn die einfache Konjunktiv-II-Form ungebräuchlich, missverständlich oder mit dem Präteritum identisch ist. Bei häufigen Formen wie hätte, wäre, könnte, müsste und sollte verwendet man normalerweise nicht würde haben, würde sein oder würde können.",
+  "explanation_ar": "يعتمد الاختيار بين Konjunktiv I وKonjunktiv II وIndikativ على الصيغة والأسلوب والهدف من الكلام. يُعد Konjunktiv I الصيغة المعتادة للكلام المنقول المحايد: Der Mitarbeiter sagt, er sei krank. Die Firma erklärt, sie habe alle Anforderungen erfüllt. وتظهر المشكلة عندما تتطابق صيغة Konjunktiv I مع Indikativ. فمع wir وsie وSie تكون صيغة أفعال كثيرة متطابقة، مثل sie arbeiten وsie haben وsie werden. لذلك نستخدم غالبًا Konjunktiv II في الكلام الرسمي بوصفه صيغة بديلة: Die Beschäftigten sagen, sie arbeiteten heute länger، لكن الصيغة الأكثر وضوحًا غالبًا هي: sie würden heute länger arbeiten. ومع haben وsein والأفعال الناقصة تكون الصيغ hätten وwären وkönnten وmüssten وdürften شائعة وواضحة. ولا يعني هذا Ersatzkonjunktiv تلقائيًا أن الناقل يشك في القول؛ فهو يحدد أولًا أن الكلام منقول. ولا يظهر الشك إلا من السياق أو من كلمات مثل angeblich أو bezweifeln أو widersprechen. أما Indikativ فهو شائع جدًا في الكلام اليومي: Er sagt, dass er krank ist. ويمكن استخدامه أيضًا عندما تُعرض المعلومة بوصفها حقيقة مؤكدة أو يتبناها الناقل: Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet. لكن في الأخبار والمحاضر الرسمية يُفضّل غالبًا Konjunktiv I أو صيغة بديلة واضحة. وتكون صيغة würde مفيدة عندما تكون صيغة Konjunktiv II البسيطة غير شائعة أو ملتبسة أو مطابقة لـ Präteritum. أما الصيغ الشائعة مثل hätte وwäre وkönnte وmüsste وsollte فلا نستبدلها عادة بـ würde haben أو würde sein أو würde können.",
+  "rules": [
+    {
+      "id": "gr39-r01",
+      "title_de": "Konjunktiv I als Standard",
+      "title_ar": "Konjunktiv I بوصفه الصيغة الأساسية",
+      "explanation_de": "Eindeutige Konjunktiv-I-Formen werden in formeller indirekter Rede bevorzugt.",
+      "explanation_ar": "تُفضّل صيغ Konjunktiv I الواضحة في الكلام المنقول الرسمي.",
+      "formula": "er sei | sie habe | der Termin werde",
+      "examples": [
+        {
+          "de": "Die Kollegin sagt, sie sei krank.",
+          "ar": "تقول الزميلة إنها مريضة."
+        },
+        {
+          "de": "Der Anbieter erklärt, das System werde aktualisiert.",
+          "ar": "يوضح المزوّد أن النظام سيُحدّث."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r02",
+      "title_de": "Identische Formen erkennen",
+      "title_ar": "تمييز الصيغ المتطابقة",
+      "explanation_de": "Bei vielen Pluralformen sind Konjunktiv I und Indikativ gleich.",
+      "explanation_ar": "تتطابق صيغ Konjunktiv I وIndikativ في كثير من صيغ الجمع.",
+      "formula": "sie arbeiten | sie haben | sie werden",
+      "examples": [
+        {
+          "de": "Die Beschäftigten sagen, sie arbeiten heute länger.",
+          "ar": "يقول الموظفون إنهم يعملون اليوم مدة أطول."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r03",
+      "title_de": "Konjunktiv II als Ersatz",
+      "title_ar": "Konjunktiv II بوصفه بديلًا",
+      "explanation_de": "Bei identischer Form wird Konjunktiv II verwendet, um indirekte Rede eindeutig zu markieren.",
+      "explanation_ar": "عند تطابق الصيغة نستخدم Konjunktiv II لتحديد الكلام المنقول بوضوح.",
+      "formula": "sie hätten | sie wären | sie könnten",
+      "examples": [
+        {
+          "de": "Die Mitarbeitenden sagen, sie hätten ausreichend Zeit.",
+          "ar": "يقول الموظفون إن لديهم وقتًا كافيًا."
+        },
+        {
+          "de": "Die Gäste erklären, sie wären bereits informiert.",
+          "ar": "يوضح الضيوف أنهم كانوا قد أُبلغوا بالفعل."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r04",
+      "title_de": "Würde-Form",
+      "title_ar": "صيغة würde",
+      "explanation_de": "Die würde-Form ist bei schwachen oder ungebräuchlichen Konjunktiv-II-Formen oft klarer.",
+      "explanation_ar": "تكون صيغة würde أوضح غالبًا مع الأفعال الضعيفة أو الصيغ غير الشائعة.",
+      "formula": "sie würden + Infinitiv",
+      "examples": [
+        {
+          "de": "Die Beschäftigten sagen, sie würden heute länger arbeiten.",
+          "ar": "يقول الموظفون إنهم سيعملون اليوم مدة أطول."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r05",
+      "title_de": "Hätte, wäre und Modalverben",
+      "title_ar": "hätte وwäre والأفعال الناقصة",
+      "explanation_de": "Bei häufigen eindeutigen Formen verwendet man normalerweise die einfache Konjunktiv-II-Form.",
+      "explanation_ar": "مع الصيغ الشائعة والواضحة نستخدم عادة Konjunktiv II البسيط.",
+      "formula": "hätte | wäre | könnte | müsste | dürfte | sollte",
+      "examples": [
+        {
+          "de": "Sie sagen, sie könnten sofort beginnen.",
+          "ar": "يقولون إنهم يستطيعون البدء فورًا."
+        },
+        {
+          "de": "Die Bewerber erklären, sie hätten alle Nachweise eingereicht.",
+          "ar": "يوضح المتقدمون أنهم قدموا جميع الإثباتات."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r06",
+      "title_de": "Ersatzform bedeutet nicht automatisch Zweifel",
+      "title_ar": "الصيغة البديلة لا تعني الشك تلقائيًا",
+      "explanation_de": "Konjunktiv II kann nur eine grammatische Ersatzform für indirekte Rede sein.",
+      "explanation_ar": "قد يكون Konjunktiv II مجرد بديل نحوي لتحديد الكلام المنقول.",
+      "formula": "indirekte Rede ≠ automatisch Zweifel",
+      "examples": [
+        {
+          "de": "Die Beschäftigten sagen, sie hätten genug Zeit.",
+          "ar": "يقول الموظفون إن لديهم وقتًا كافيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r07",
+      "title_de": "Zweifel durch Kontext",
+      "title_ar": "الشك من خلال السياق",
+      "explanation_de": "Wörter wie angeblich, bezweifeln oder widersprechen können Distanz oder Zweifel verstärken.",
+      "explanation_ar": "قد تزيد كلمات مثل angeblich وbezweifeln وwidersprechen المسافة أو الشك.",
+      "formula": "angeblich / bezweifeln + indirekte Aussage",
+      "examples": [
+        {
+          "de": "Der Anbieter behauptet, die Daten seien sicher; Fachleute bezweifeln dies jedoch.",
+          "ar": "يدعي المزوّد أن البيانات آمنة، لكن الخبراء يشككون في ذلك."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r08",
+      "title_de": "Indikativ in der Alltagssprache",
+      "title_ar": "Indikativ في الكلام اليومي",
+      "explanation_de": "Mit dass ist der Indikativ in der gesprochenen Sprache sehr häufig.",
+      "explanation_ar": "يُستخدم Indikativ كثيرًا مع dass في اللغة المحكية.",
+      "formula": "Er sagt, dass er krank ist.",
+      "examples": [
+        {
+          "de": "Mara sagt, dass sie später kommt.",
+          "ar": "تقول مارا إنها ستأتي لاحقًا."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r09",
+      "title_de": "Indikativ bei bestätigter Tatsache",
+      "title_ar": "Indikativ مع حقيقة مؤكدة",
+      "explanation_de": "Wird eine Information bestätigt oder als Tatsache übernommen, ist Indikativ passend.",
+      "explanation_ar": "عندما تُؤكد المعلومة أو تُعرض بوصفها حقيقة يكون Indikativ مناسبًا.",
+      "formula": "bestätigen/feststellen, dass + Indikativ",
+      "examples": [
+        {
+          "de": "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+          "ar": "يؤكد قسم الموارد البشرية أن الموعد سيُعقد يوم الاثنين."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r10",
+      "title_de": "Formeller Bericht",
+      "title_ar": "التقرير الرسمي",
+      "explanation_de": "In Nachrichten und Protokollen werden Konjunktiv I oder eindeutige Ersatzformen bevorzugt.",
+      "explanation_ar": "تُفضّل صيغ Konjunktiv I أو البدائل الواضحة في الأخبار والمحاضر.",
+      "formula": "sagen/erklären/behaupten + Konjunktiv",
+      "examples": [
+        {
+          "de": "Die Leitung erklärt, die Maßnahmen seien ausreichend.",
+          "ar": "توضح الإدارة أن الإجراءات كافية."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r11",
+      "title_de": "Vergangenheit in der Ersatzform",
+      "title_ar": "الماضي في الصيغة البديلة",
+      "explanation_de": "Bei pluralischen oder identischen Formen stehen häufig hätten oder wären plus Partizip II.",
+      "explanation_ar": "مع الجمع أو الصيغ المتطابقة نستخدم غالبًا hätten أو wären مع Partizip II.",
+      "formula": "sie hätten gearbeitet | sie wären angekommen",
+      "examples": [
+        {
+          "de": "Die Beschäftigten sagen, sie hätten die Aufgabe abgeschlossen.",
+          "ar": "يقول الموظفون إنهم أنهوا المهمة."
+        },
+        {
+          "de": "Die Gäste erklären, sie wären pünktlich angekommen.",
+          "ar": "يوضح الضيوف أنهم وصلوا في الوقت المحدد."
+        }
+      ]
+    },
+    {
+      "id": "gr39-r12",
+      "title_de": "Passiv und Zukunft",
+      "title_ar": "المبني للمجهول والمستقبل",
+      "explanation_de": "Auch bei Passiv und Zukunft wird eine eindeutige Form gewählt.",
+      "explanation_ar": "يجب اختيار صيغة واضحة أيضًا في المبني للمجهول والمستقبل.",
+      "formula": "sie würden informiert | sie würden teilnehmen",
+      "examples": [
+        {
+          "de": "Die Beschäftigten sagen, sie würden rechtzeitig informiert.",
+          "ar": "يقول الموظفون إنه سيتم إبلاغهم في الوقت المناسب."
+        },
+        {
+          "de": "Die Teams erklären, sie würden nächste Woche beginnen.",
+          "ar": "توضح الفرق أنها ستبدأ الأسبوع المقبل."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr39-t01",
+      "title_de": "Entscheidungshilfe",
+      "title_ar": "مساعدة لاختيار الصيغة",
+      "headers_de": [
+        "Situation",
+        "bevorzugte Form",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الحالة",
+        "الصيغة المفضلة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Konjunktiv I eindeutig",
+          "Konjunktiv I",
+          "er sei, sie habe"
+        ],
+        [
+          "Konjunktiv I = Indikativ",
+          "Konjunktiv II",
+          "sie hätten, sie könnten"
+        ],
+        [
+          "ungebräuchlicher Konjunktiv II",
+          "würde + Infinitiv",
+          "sie würden arbeiten"
+        ],
+        [
+          "Alltagssprache mit dass",
+          "oft Indikativ",
+          "dass er krank ist"
+        ],
+        [
+          "bestätigte Tatsache",
+          "Indikativ möglich",
+          "bestätigt, dass der Termin stattfindet"
+        ],
+        [
+          "formelle distanzierte Wiedergabe",
+          "Konjunktiv I / Ersatzform",
+          "sie seien / hätten"
+        ]
+      ]
+    },
+    {
+      "id": "gr39-t02",
+      "title_de": "Typische Ersatzformen",
+      "title_ar": "صيغ بديلة شائعة",
+      "headers_de": [
+        "Indikativ/Konjunktiv I gleich",
+        "Ersatzform"
+      ],
+      "headers_ar": [
+        "الصيغة المتطابقة",
+        "الصيغة البديلة"
+      ],
+      "rows": [
+        [
+          "sie haben",
+          "sie hätten"
+        ],
+        [
+          "sie sind",
+          "sie seien (eindeutiger Konjunktiv I)"
+        ],
+        [
+          "sie werden",
+          "sie würden"
+        ],
+        [
+          "sie können",
+          "sie könnten"
+        ],
+        [
+          "sie müssen",
+          "sie müssten"
+        ],
+        [
+          "sie arbeiten",
+          "sie würden arbeiten / sie arbeiteten"
+        ]
+      ]
+    },
+    {
+      "id": "gr39-t03",
+      "title_de": "Stilwirkung",
+      "title_ar": "الأثر الأسلوبي",
+      "headers_de": [
+        "Form",
+        "typische Wirkung"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الأثر المعتاد"
+      ],
+      "rows": [
+        [
+          "Konjunktiv I",
+          "sachliche Distanz, formelle Wiedergabe"
+        ],
+        [
+          "Konjunktiv II als Ersatz",
+          "eindeutige indirekte Rede"
+        ],
+        [
+          "Konjunktiv II mit Zweifelkontext",
+          "zusätzliche Skepsis möglich"
+        ],
+        [
+          "Indikativ",
+          "alltagsnah oder faktisch übernommen"
+        ],
+        [
+          "Direktes Zitat",
+          "wortgetreue Wiedergabe"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Der Mitarbeiter sagt, er sei krank und könne heute nicht arbeiten.",
+      "ar": "يقول الموظف إنه مريض ولا يستطيع العمل اليوم.",
+      "note_de": "Eindeutiger Konjunktiv I.",
+      "note_ar": "Konjunktiv I واضح."
+    },
+    {
+      "de": "Die Beschäftigten sagen, sie hätten alle Unterlagen und könnten sofort beginnen.",
+      "ar": "يقول الموظفون إن لديهم جميع المستندات ويستطيعون البدء فورًا.",
+      "note_de": "Ersatzformen, weil die Konjunktiv-I-Formen im Plural nicht eindeutig sind.",
+      "note_ar": "صيغ بديلة لأن صيغ Konjunktiv I في الجمع غير واضحة."
+    },
+    {
+      "de": "Die Teams erklären, sie würden die Arbeiten in der folgenden Woche fortsetzen.",
+      "ar": "توضح الفرق أنها ستتابع الأعمال في الأسبوع التالي.",
+      "note_de": "Würde-Form als klare Ersatzform.",
+      "note_ar": "صيغة würde بوصفها بديلًا واضحًا."
+    },
+    {
+      "de": "Die Personalabteilung bestätigt, dass alle Unterlagen vollständig sind.",
+      "ar": "يؤكد قسم الموارد البشرية أن جميع المستندات كاملة.",
+      "note_de": "Indikativ, weil die Information als bestätigt dargestellt wird.",
+      "note_ar": "Indikativ لأن المعلومة معروضة بوصفها مؤكدة."
+    },
+    {
+      "de": "Der Anbieter behauptet, die Daten seien vollständig geschützt; unabhängige Fachleute bezweifeln dies.",
+      "ar": "يدعي المزوّد أن البيانات محمية بالكامل، لكن خبراء مستقلين يشككون في ذلك.",
+      "note_de": "Der Zweifel entsteht aus dem Kontext, nicht allein aus dem Konjunktiv.",
+      "note_ar": "ينشأ الشك من السياق، لا من صيغة Konjunktiv وحدها."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Beschäftigten sagen, sie haben genug Zeit. (formeller Bericht)",
+      "correct": "Die Beschäftigten sagen, sie hätten genug Zeit.",
+      "explanation_de": "Haben ist im Plural mit dem Indikativ identisch; hätten markiert indirekte Rede eindeutig.",
+      "explanation_ar": "تتطابق haben في الجمع مع Indikativ، لذلك توضح hätten الكلام المنقول."
+    },
+    {
+      "wrong": "Er sagt, er würde krank sein.",
+      "correct": "Er sagt, er sei krank.",
+      "explanation_de": "Die eindeutige und übliche Konjunktiv-I-Form sei wird bevorzugt.",
+      "explanation_ar": "تُفضّل الصيغة الواضحة والشائعة sei."
+    },
+    {
+      "wrong": "Sie sagen, sie würden genügend Zeit hätten.",
+      "correct": "Sie sagen, sie hätten genügend Zeit.",
+      "explanation_de": "Würde und hätte dürfen hier nicht kombiniert werden; bei haben steht die einfache Form hätten.",
+      "explanation_ar": "لا يجوز الجمع بين würde وhätte هنا، ومع haben نستخدم الصيغة البسيطة hätten."
+    },
+    {
+      "wrong": "Konjunktiv II bedeutet immer, dass der Sprecher zweifelt.",
+      "correct": "Konjunktiv II kann in der indirekten Rede nur eine Ersatzform sein.",
+      "explanation_de": "Zweifel muss aus dem Kontext hervorgehen.",
+      "explanation_ar": "يجب أن يظهر الشك من السياق."
+    },
+    {
+      "wrong": "Die Personalabteilung bestätigt, der Termin finde angeblich am Montag statt.",
+      "correct": "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+      "explanation_de": "Bestätigen stellt die Information als gesichert dar; angeblich widerspricht dieser Funktion.",
+      "explanation_ar": "يعرض bestätigen المعلومة بوصفها مؤكدة، بينما تتعارض angeblich مع ذلك."
+    },
+    {
+      "wrong": "Die Teams erklären, sie arbeiten nächste Woche weiter. (formelles Protokoll)",
+      "correct": "Die Teams erklären, sie würden in der folgenden Woche weiterarbeiten.",
+      "explanation_de": "Die würde-Form macht die indirekte Rede eindeutig.",
+      "explanation_ar": "توضح صيغة würde أن الكلام منقول."
+    }
+  ],
+  "quickSummary_de": [
+    "Konjunktiv I ist die Standardform der formellen indirekten Rede.",
+    "Eindeutige Formen wie sei, habe und werde werden direkt verwendet.",
+    "Identische Formen werden häufig durch Konjunktiv II ersetzt.",
+    "Typische Ersatzformen sind hätten, wären, könnten und müssten.",
+    "Bei schwachen Verben ist würde + Infinitiv oft klarer.",
+    "Würde haben oder würde sein ist normalerweise schlechter als hätte oder wäre.",
+    "Konjunktiv II als Ersatzform bedeutet nicht automatisch Zweifel.",
+    "Zweifel entsteht durch den Kontext.",
+    "Indikativ ist in der Alltagssprache häufig.",
+    "Indikativ ist auch bei bestätigten Tatsachen möglich.",
+    "In Protokollen und Nachrichten werden distanzierte Formen bevorzugt.",
+    "Stil, Eindeutigkeit und Aussageabsicht bestimmen die Formwahl."
+  ],
+  "quickSummary_ar": [
+    "Konjunktiv I هو الصيغة الأساسية للكلام المنقول الرسمي.",
+    "تُستخدم الصيغ الواضحة مثل sei وhabe وwerde مباشرة.",
+    "تُستبدل الصيغ المتطابقة غالبًا بـ Konjunktiv II.",
+    "من الصيغ البديلة الشائعة hätten وwären وkönnten وmüssten.",
+    "تكون würde + Infinitiv أوضح غالبًا مع الأفعال الضعيفة.",
+    "تكون hätte أو wäre عادة أفضل من würde haben أو würde sein.",
+    "لا يعني Konjunktiv II بوصفه بديلًا الشك تلقائيًا.",
+    "ينشأ الشك من السياق.",
+    "Indikativ شائع في اللغة اليومية.",
+    "يمكن استخدام Indikativ أيضًا مع الحقائق المؤكدة.",
+    "تُفضّل الصيغ المحايدة في المحاضر والأخبار.",
+    "يحدد الأسلوب والوضوح والهدف الصيغة المناسبة."
+  ],
+  "relatedTopics": [
+    "gr-36",
+    "gr-37",
+    "gr-38",
+    "gr-40"
+  ]
+}

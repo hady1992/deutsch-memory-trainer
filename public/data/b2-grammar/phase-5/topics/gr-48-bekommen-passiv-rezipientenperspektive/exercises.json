@@ -1,0 +1,534 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-48",
+  "title_de": "Bekommen-Passiv und Rezipientenperspektive – Übungen",
+  "title_ar": "تمارين Bekommen-Passiv ومنظور المتلقي",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr48-e001",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Kunde bekommt die Unterlagen geschickt.",
+      "explanation_de": "Bekommen wird konjugiert; das Partizip II steht am Ende.",
+      "explanation_ar": "يُصرف bekommen، ويأتي Partizip II في النهاية.",
+      "grammarFocus": "basic_recipient_passive",
+      "options": [
+        "Der Kunde bekommt die Unterlagen geschickt.",
+        "Dem Kunden bekommt die Unterlagen geschickt.",
+        "Der Kunde wird die Unterlagen bekommen geschickt.",
+        "Der Kunde bekommt geschickt die Unterlagen."
+      ]
+    },
+    {
+      "id": "gr48-e002",
+      "topicId": "gr-48",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Empfänger als Subjekt",
+      "title_ar": "المتلقي فاعلًا",
+      "prompt_de": "______ Kunde bekommt den Vertrag erklärt.",
+      "prompt_ar": "يُشرح العقد للعميل.",
+      "answer": "Der",
+      "explanation_de": "Der frühere Dativempfänger steht im Nominativ.",
+      "explanation_ar": "يأتي متلقي Dativ السابق في Nominativ.",
+      "grammarFocus": "recipient_nominative",
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "gr48-e003",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Akkusativ bleibt",
+      "title_ar": "يبقى Akkusativ",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Im Bekommen-Passiv bleibt das frühere Akkusativobjekt Akkusativ.",
+      "explanation_de": "Nur der frühere Dativempfänger wird zum Subjekt.",
+      "explanation_ar": "يتحول متلقي Dativ فقط إلى فاعل نحوي.",
+      "grammarFocus": "case_roles",
+      "options": [
+        "Im Bekommen-Passiv bleibt das frühere Akkusativobjekt Akkusativ.",
+        "Jedes Objekt wird automatisch Nominativ.",
+        "Der Empfänger bleibt immer Dativ.",
+        "Das Partizip II wird zum Subjekt."
+      ]
+    },
+    {
+      "id": "gr48-e004",
+      "topicId": "gr-48",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Aktiv und Rezipientenpassiv",
+      "title_ar": "المعلوم وRezipientenpassiv",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Die Firma schickt dem Kunden die Unterlagen.": "Der Kunde bekommt die Unterlagen geschickt.",
+        "Die Beraterin erklärt der Kundin den Ablauf.": "Die Kundin bekommt den Ablauf erklärt.",
+        "Die Behörde erstattet den Beschäftigten die Kosten.": "Die Beschäftigten bekommen die Kosten erstattet.",
+        "Die Leitung zeigt dem Team die Räume.": "Das Team bekommt die Räume gezeigt."
+      },
+      "explanation_de": "Der Dativempfänger wird jeweils zum Subjekt.",
+      "explanation_ar": "يتحول متلقي Dativ في كل مثال إلى فاعل نحوي.",
+      "grammarFocus": "active_recipient_matching",
+      "pairs": [
+        [
+          "Die Firma schickt dem Kunden die Unterlagen.",
+          "Der Kunde bekommt die Unterlagen geschickt."
+        ],
+        [
+          "Die Beraterin erklärt der Kundin den Ablauf.",
+          "Die Kundin bekommt den Ablauf erklärt."
+        ],
+        [
+          "Die Behörde erstattet den Beschäftigten die Kosten.",
+          "Die Beschäftigten bekommen die Kosten erstattet."
+        ],
+        [
+          "Die Leitung zeigt dem Team die Räume.",
+          "Das Team bekommt die Räume gezeigt."
+        ]
+      ]
+    },
+    {
+      "id": "gr48-e005",
+      "topicId": "gr-48",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Wortstellung",
+      "title_ar": "ترتيب الكلمات",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Bewerberin bekommt den weiteren Ablauf erklärt.",
+      "explanation_de": "Das Partizip II steht am Ende.",
+      "explanation_ar": "يأتي Partizip II في نهاية الجملة.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "erklärt",
+        "den weiteren Ablauf",
+        "Die Bewerberin bekommt"
+      ],
+      "acceptedAnswers": [
+        "Die Bewerberin bekommt den weiteren Ablauf erklärt."
+      ]
+    },
+    {
+      "id": "gr48-e006",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Stil",
+      "title_ar": "الأسلوب",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Bekommen ist neutral, kriegen umgangssprachlicher und erhalten formeller.",
+      "explanation_de": "Die drei Formen unterscheiden sich stilistisch.",
+      "explanation_ar": "تختلف الصيغ الثلاث أسلوبيًا.",
+      "grammarFocus": "style_auxiliaries",
+      "options": [
+        "Bekommen ist neutral, kriegen umgangssprachlicher und erhalten formeller.",
+        "Kriegen ist immer die formellste Form.",
+        "Erhalten ist in jedem Satz vollständig austauschbar.",
+        "Bekommen kann nie als Passivhilfsverb dienen."
+      ]
+    },
+    {
+      "id": "gr48-e007",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vollverb oder Passiv",
+      "title_ar": "فعل كامل أم Passiv",
+      "prompt_de": "Welcher Satz ist ein Bekommen-Passiv?",
+      "prompt_ar": "أي جملة هي Bekommen-Passiv؟",
+      "answer": "Der Kunde bekommt ein Paket geschickt.",
+      "explanation_de": "Das Partizip II geschickt zeigt die passive Konstruktion.",
+      "explanation_ar": "تدل geschickt على البنية المجهولة.",
+      "grammarFocus": "full_verb_vs_passive",
+      "options": [
+        "Der Kunde bekommt ein Paket geschickt.",
+        "Der Kunde bekommt ein Paket.",
+        "Der Kunde besitzt ein Paket.",
+        "Der Kunde kauft ein Paket."
+      ]
+    },
+    {
+      "id": "gr48-e008",
+      "topicId": "gr-48",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Agens mit von",
+      "title_ar": "الفاعل مع von",
+      "prompt_de": "Die Kundin bekommt den Vertrag von ______ Beraterin erklärt.",
+      "prompt_ar": "تشرح المستشارة العقد للعميلة.",
+      "answer": "der",
+      "explanation_de": "Nach von steht Dativ Feminin: von der Beraterin.",
+      "explanation_ar": "بعد von نستخدم Dativ مؤنث: von der Beraterin.",
+      "grammarFocus": "agent_von_dative",
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "gr48-e009",
+      "topicId": "gr-48",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv umformen",
+      "title_ar": "تحويل المعلوم",
+      "prompt_de": "Formen Sie um: Die Personalabteilung schickt dem Bewerber eine Einladung.",
+      "prompt_ar": "حوّل إلى Bekommen-Passiv.",
+      "answer": "Der Bewerber bekommt von der Personalabteilung eine Einladung geschickt.",
+      "explanation_de": "Der Dativempfänger wird Subjekt; das Akkusativobjekt bleibt erhalten.",
+      "explanation_ar": "يتحول متلقي Dativ إلى فاعل، ويبقى مفعول Akkusativ.",
+      "grammarFocus": "active_to_recipient_passive",
+      "acceptedAnswers": [
+        "Der Bewerber bekommt von der Personalabteilung eine Einladung geschickt.",
+        "Der Bewerber bekommt eine Einladung von der Personalabteilung geschickt."
+      ]
+    },
+    {
+      "id": "gr48-e010",
+      "topicId": "gr-48",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Kosten erstatten",
+      "title_ar": "رد التكاليف",
+      "prompt_de": "Formen Sie um: Die Behörde erstattet den Beschäftigten die Reisekosten.",
+      "prompt_ar": "حوّل إلى Rezipientenpassiv.",
+      "answer": "Die Beschäftigten bekommen die Reisekosten von der Behörde erstattet.",
+      "explanation_de": "Die Beschäftigten werden zum Subjekt; Reisekosten bleibt Akkusativ.",
+      "explanation_ar": "يصبح الموظفون فاعلًا نحويًا، وتبقى Reisekosten في Akkusativ.",
+      "grammarFocus": "recipient_passive_erstattet",
+      "acceptedAnswers": [
+        "Die Beschäftigten bekommen die Reisekosten von der Behörde erstattet."
+      ]
+    },
+    {
+      "id": "gr48-e011",
+      "topicId": "gr-48",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie ist zufrieden, weil sie die Reisekosten vollständig erstattet bekommt.",
+      "explanation_de": "Im Nebensatz steht bekommt am Ende.",
+      "explanation_ar": "تأتي bekommt في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_order",
+      "tokens": [
+        "vollständig erstattet bekommt",
+        "weil sie die Reisekosten",
+        "Sie ist zufrieden"
+      ],
+      "acceptedAnswers": [
+        "Sie ist zufrieden, weil sie die Reisekosten vollständig erstattet bekommt."
+      ]
+    },
+    {
+      "id": "gr48-e012",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Patient bekam den Ablauf erklärt.",
+      "explanation_de": "Im Präteritum steht bekam; erklärt bleibt Partizip II.",
+      "explanation_ar": "في Präteritum تأتي bekam، وتبقى erklärt في Partizip II.",
+      "grammarFocus": "preterite_recipient_passive",
+      "options": [
+        "Der Patient bekam den Ablauf erklärt.",
+        "Der Patient wurde den Ablauf bekommen.",
+        "Der Patient hat den Ablauf erklärt bekam.",
+        "Der Patient bekam erklärt worden."
+      ]
+    },
+    {
+      "id": "gr48-e013",
+      "topicId": "gr-48",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "bekommt erklärt": "Präsens",
+        "bekam erklärt": "Präteritum",
+        "hat erklärt bekommen": "Perfekt",
+        "hatte erklärt bekommen": "Plusquamperfekt",
+        "wird erklärt bekommen": "Futur I"
+      },
+      "explanation_de": "Die Zeitform wird am Hilfsverb gebildet.",
+      "explanation_ar": "يُبنى الزمن على الفعل المساعد.",
+      "grammarFocus": "tense_matching",
+      "pairs": [
+        [
+          "bekommt erklärt",
+          "Präsens"
+        ],
+        [
+          "bekam erklärt",
+          "Präteritum"
+        ],
+        [
+          "hat erklärt bekommen",
+          "Perfekt"
+        ],
+        [
+          "hatte erklärt bekommen",
+          "Plusquamperfekt"
+        ],
+        [
+          "wird erklärt bekommen",
+          "Futur I"
+        ]
+      ]
+    },
+    {
+      "id": "gr48-e014",
+      "topicId": "gr-48",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formeller Kostenerstattungsbescheid",
+      "title_ar": "قرار رسمي برد التكاليف",
+      "prompt_de": "Welche Formulierung passt am besten?",
+      "prompt_ar": "أي صياغة تناسب أكثر؟",
+      "answer": "Die Beschäftigten erhalten die nachgewiesenen Reisekosten vollständig erstattet.",
+      "explanation_de": "Erhalten wirkt in diesem Kontext formell und passend.",
+      "explanation_ar": "تبدو erhalten رسمية ومناسبة في هذا السياق.",
+      "grammarFocus": "formal_erhalten_passive",
+      "options": [
+        "Die Beschäftigten erhalten die nachgewiesenen Reisekosten vollständig erstattet.",
+        "Die Beschäftigten kriegen irgendwie ihr Geld zurückgemacht.",
+        "Den Beschäftigten bekommt die Kosten erstattet.",
+        "Die Reisekosten erhalten die Beschäftigten erstatten."
+      ]
+    },
+    {
+      "id": "gr48-e015",
+      "topicId": "gr-48",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "prompt_de": "Die Kundin hat alle Schritte ausführlich erklärt ______.",
+      "prompt_ar": "تم شرح جميع الخطوات للعميلة بالتفصيل.",
+      "answer": "bekommen",
+      "explanation_de": "Im Perfekt steht hat + Partizip II + bekommen.",
+      "explanation_ar": "في Perfekt نستخدم hat + Partizip II + bekommen.",
+      "grammarFocus": "perfect_recipient_passive",
+      "acceptedAnswers": [
+        "bekommen"
+      ]
+    },
+    {
+      "id": "gr48-e016",
+      "topicId": "gr-48",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Sie konnte beginnen, nachdem sie alle Zugänge gezeigt bekommen hatte.",
+      "explanation_de": "Im Nebensatz steht hatte am Ende.",
+      "explanation_ar": "تأتي hatte في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_plusquamperfect_order",
+      "tokens": [
+        "gezeigt bekommen hatte",
+        "nachdem sie alle Zugänge",
+        "Sie konnte beginnen"
+      ],
+      "acceptedAnswers": [
+        "Sie konnte beginnen, nachdem sie alle Zugänge gezeigt bekommen hatte."
+      ]
+    },
+    {
+      "id": "gr48-e017",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Perspektiven vergleichen",
+      "title_ar": "مقارنة المنظور",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Eine Einladung wird dem Bewerber geschickt“ fokussiert die Einladung; „Der Bewerber bekommt eine Einladung geschickt“ fokussiert den Empfänger.",
+      "explanation_de": "Vorgangspassiv und Rezipientenpassiv setzen unterschiedliche Schwerpunkte.",
+      "explanation_ar": "يضع Vorgangspassiv وRezipientenpassiv تركيزين مختلفين.",
+      "grammarFocus": "perspective_contrast",
+      "options": [
+        "„Eine Einladung wird dem Bewerber geschickt“ fokussiert die Einladung; „Der Bewerber bekommt eine Einladung geschickt“ fokussiert den Empfänger.",
+        "Beide Sätze haben immer exakt denselben Informationsfokus.",
+        "Das Bekommen-Passiv fokussiert ausschließlich den Handelnden.",
+        "Im Vorgangspassiv wird der Empfänger immer zum Subjekt."
+      ]
+    },
+    {
+      "id": "gr48-e018",
+      "topicId": "gr-48",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Perfekt bilden",
+      "title_ar": "تكوين Perfekt",
+      "prompt_de": "Formen Sie ins Perfekt um: Der Kunde bekommt einen neuen Vertrag zugesandt.",
+      "prompt_ar": "حوّل إلى Perfekt.",
+      "answer": "Der Kunde hat einen neuen Vertrag zugesandt bekommen.",
+      "explanation_de": "Das Perfekt lautet hat + zugesandt + bekommen.",
+      "explanation_ar": "تكون صيغة Perfekt: hat + zugesandt + bekommen.",
+      "grammarFocus": "perfect_build",
+      "acceptedAnswers": [
+        "Der Kunde hat einen neuen Vertrag zugesandt bekommen."
+      ]
+    },
+    {
+      "id": "gr48-e019",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Gebrauchsgrenze",
+      "title_ar": "حدود الاستخدام",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Das Bekommen-Passiv ist besonders natürlich, wenn ein echter Empfänger oder Begünstigter im Mittelpunkt steht.",
+      "explanation_de": "Bei reinen Dativverben ist das normale Passiv in formellen Texten oft üblicher.",
+      "explanation_ar": "مع أفعال Dativ الخالصة يكون Passiv العادي أكثر شيوعًا غالبًا في الأسلوب الرسمي.",
+      "grammarFocus": "usage_limit",
+      "options": [
+        "Das Bekommen-Passiv ist besonders natürlich, wenn ein echter Empfänger oder Begünstigter im Mittelpunkt steht.",
+        "Jede Dativkonstruktion muss zwingend mit bekommen passiviert werden.",
+        "Das Bekommen-Passiv darf nur mit Sachen als Subjekt stehen.",
+        "Bekommen-Passiv ist ausschließlich Futur."
+      ]
+    },
+    {
+      "id": "gr48-e020",
+      "topicId": "gr-48",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Medizinische Information",
+      "title_ar": "معلومة طبية",
+      "prompt_de": "Welche Formulierung betont am besten den Patienten als Empfänger der Erklärung?",
+      "prompt_ar": "أي صياغة تبرز المريض متلقيًا للشرح؟",
+      "answer": "Der Patient bekommt die Behandlung von der Ärztin ausführlich erklärt.",
+      "explanation_de": "Das Rezipientenpassiv stellt den Patienten in den Mittelpunkt.",
+      "explanation_ar": "يضع Rezipientenpassiv المريض في مركز الجملة.",
+      "grammarFocus": "recipient_focus_medical",
+      "options": [
+        "Der Patient bekommt die Behandlung von der Ärztin ausführlich erklärt.",
+        "Die Behandlung wird von der Ärztin erklärt.",
+        "Die Ärztin erklärt ausführlich.",
+        "Dem Patienten ist die Ärztin erklärt."
+      ]
+    },
+    {
+      "id": "gr48-e021",
+      "topicId": "gr-48",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die neue Kollegin wird morgen alle Zugänge gezeigt bekommen.",
+      "explanation_de": "Im Futur steht wird vor der Gruppe gezeigt bekommen.",
+      "explanation_ar": "في المستقبل تأتي wird قبل المجموعة gezeigt bekommen.",
+      "grammarFocus": "future_recipient_passive_order",
+      "tokens": [
+        "alle Zugänge gezeigt bekommen",
+        "morgen",
+        "Die neue Kollegin wird"
+      ],
+      "acceptedAnswers": [
+        "Die neue Kollegin wird morgen alle Zugänge gezeigt bekommen."
+      ]
+    },
+    {
+      "id": "gr48-e022",
+      "topicId": "gr-48",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Vollständige Kasusanalyse",
+      "title_ar": "تحليل كامل للحالات",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "In „Der Kunde bekommt den Vertrag von der Beraterin erklärt“ steht der Empfänger im Nominativ, der Vertrag im Akkusativ und die Beraterin nach von im Dativ.",
+      "explanation_de": "Die drei Rollen bleiben klar unterschieden.",
+      "explanation_ar": "تبقى الأدوار الثلاثة متميزة بوضوح.",
+      "grammarFocus": "full_case_analysis",
+      "options": [
+        "In „Der Kunde bekommt den Vertrag von der Beraterin erklärt“ steht der Empfänger im Nominativ, der Vertrag im Akkusativ und die Beraterin nach von im Dativ.",
+        "Alle drei Nominalgruppen stehen im Nominativ.",
+        "Der Kunde steht im Dativ und die Beraterin im Akkusativ.",
+        "Der Vertrag wird zum Dativobjekt."
+      ]
+    },
+    {
+      "id": "gr48-e023",
+      "topicId": "gr-48",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Perspektiven formulieren",
+      "title_ar": "صياغة ثلاثة مناظير",
+      "prompt_de": "Formulieren Sie Aktiv, Vorgangspassiv und Bekommen-Passiv: Die Firma schickt dem Kunden die Unterlagen.",
+      "prompt_ar": "صغ الجملة في Aktiv وVorgangspassiv وBekommen-Passiv.",
+      "answer": "Die Firma schickt dem Kunden die Unterlagen. Die Unterlagen werden dem Kunden von der Firma geschickt. Der Kunde bekommt die Unterlagen von der Firma geschickt.",
+      "explanation_de": "Die drei Formen fokussieren Handelnden, Gegenstand und Empfänger.",
+      "explanation_ar": "تركز الصيغ الثلاث على الفاعل والشيء والمتلقي.",
+      "grammarFocus": "three_perspectives",
+      "acceptedAnswers": [
+        "Die Firma schickt dem Kunden die Unterlagen. Die Unterlagen werden dem Kunden von der Firma geschickt. Der Kunde bekommt die Unterlagen von der Firma geschickt."
+      ]
+    },
+    {
+      "id": "gr48-e024",
+      "topicId": "gr-48",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Rezipientenpassiv",
+      "title_ar": "تدريب ختامي على Rezipientenpassiv",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens vierzehn Sätzen über einen Bewerbungs-, Beratungs- oder Erstattungsprozess. Verwenden Sie das Bekommen-Passiv mehrfach und vergleichen Sie verschiedene Perspektiven.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من أربع عشرة جملة على الأقل عن عملية توظيف أو استشارة أو رد تكاليف. استخدم Bekommen-Passiv عدة مرات وقارن بين المناظير المختلفة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens sechs Sätze mit bekommen + Partizip II",
+          "mindestens ein passender Satz mit erhalten",
+          "mindestens ein umgangssprachlich markiertes Beispiel mit kriegen",
+          "mindestens drei Aktiv-Bekommen-Passiv-Umformungen",
+          "mindestens zwei Vergleiche mit Vorgangspassiv",
+          "mindestens zwei von-Ergänzungen",
+          "Präsens, Präteritum und Perfekt",
+          "mindestens eine Plusquamperfekt- oder Futurform",
+          "mindestens drei Nebensätze",
+          "korrekte Nominativ-, Akkusativ- und Dativrollen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Empfängerperspektive, Kasus, Partizip II, Hilfsverb, Zeitform, Wortstellung und Stil.",
+      "explanation_ar": "راجع منظور المتلقي والحالات وPartizip II والفعل المساعد والزمن وترتيب الكلمات والأسلوب.",
+      "grammarFocus": "mixed_recipient_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-42",
+  "slug": "gr-42-partizip-ii-als-adjektiv",
+  "order": 42,
+  "title_de": "Partizip II als Adjektiv",
+  "title_ar": "Partizip II بوصفه صفة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "partizipialattribute",
+  "estimatedMinutes": 65,
+  "learningObjectives_de": [
+    "Partizip-II-Formen regelmäßiger und unregelmäßiger Verben erkennen und bilden.",
+    "Partizip II attributiv wie ein Adjektiv deklinieren.",
+    "Passive, resultative und abgeschlossene Bedeutungen unterscheiden.",
+    "Partizip-II-Attribute in Relativsätze umformen.",
+    "Relativsätze in passende Partizip-II-Attribute umformen.",
+    "Trennbare und untrennbare Verben korrekt behandeln.",
+    "Partizip I und Partizip II bedeutungsmäßig sicher unterscheiden.",
+    "Partizip II in beruflichen und sachlichen Texten präzise verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تمييز وتكوين Partizip II للأفعال المنتظمة وغير المنتظمة.",
+    "تصريف Partizip II بوصفه صفة قبل الاسم.",
+    "التمييز بين المعنى المجهول والنتيجة والفعل المكتمل.",
+    "تحويل صفات Partizip II إلى جمل موصولة.",
+    "تحويل الجمل الموصولة إلى صفات Partizip II مناسبة.",
+    "معالجة الأفعال القابلة للفصل وغير القابلة للفصل بصورة صحيحة.",
+    "التمييز الدلالي بين Partizip I وPartizip II.",
+    "استخدام Partizip II بدقة في النصوص المهنية والموضوعية."
+  ],
+  "shortDescription_de": "Das Partizip II kann wie ein Adjektiv vor einem Nomen stehen. Es beschreibt häufig ein Ergebnis, einen abgeschlossenen Vorgang oder eine passive Bedeutung.",
+  "shortDescription_ar": "يمكن أن يأتي Partizip II قبل الاسم مثل الصفة. وغالبًا يصف نتيجة أو فعلًا مكتملًا أو معنى مبنيًا للمجهول.",
+  "explanation_de": "Das Partizip II wird bei regelmäßigen Verben meist mit ge- + Verbstamm + -t gebildet: prüfen → geprüft, öffnen → geöffnet. Bei vielen unregelmäßigen Verben steht ge- + veränderter Stamm + -en: schreiben → geschrieben, schließen → geschlossen. Trennbare Verben setzen ge- zwischen Vorsilbe und Verbstamm: einreichen → eingereicht, abschließen → abgeschlossen. Untrennbare Verben mit be-, emp-, ent-, er-, ge-, miss-, ver- oder zer- sowie Verben auf -ieren bilden das Partizip II ohne ge-: bearbeiten → bearbeitet, informieren → informiert. Vor einem Nomen erhält das Partizip II eine Adjektivendung: der geprüfte Antrag, eine geöffnete Datei, mit den informierten Beschäftigten. Bei transitiven Verben hat es häufig passive oder resultative Bedeutung: der geprüfte Antrag = der Antrag, der geprüft wurde; die geschlossene Tür = die Tür, die geschlossen ist. Bei bestimmten intransitiven Verben, die das Perfekt mit sein bilden, kann es eine abgeschlossene aktive Handlung ausdrücken: die angekommenen Gäste = die Gäste, die angekommen sind. Ein Partizip-II-Attribut kann häufig durch einen Relativsatz im Passiv, im Perfekt oder mit sein ersetzt werden. Partizip II beschreibt normalerweise nicht eine gleichzeitig laufende aktive Handlung; dafür steht meist Partizip I.",
+  "explanation_ar": "يُبنى Partizip II في الأفعال المنتظمة غالبًا باستخدام ge- + جذر الفعل + -t، مثل: prüfen ← geprüft، وöffnen ← geöffnet. وفي أفعال غير منتظمة كثيرة نستخدم ge- + جذر متغير + -en، مثل: schreiben ← geschrieben، وschließen ← geschlossen. وتضع الأفعال القابلة للفصل ge- بين السابقة والجذر: einreichen ← eingereicht، وabschließen ← abgeschlossen. أما الأفعال غير القابلة للفصل مع be- وemp- وent- وer- وge- وmiss- وver- وzer-، وكذلك الأفعال المنتهية بـ -ieren، فتكوّن Partizip II من دون ge-، مثل: bearbeiten ← bearbeitet، وinformieren ← informiert. وعندما يأتي Partizip II قبل اسم يأخذ نهاية صفة: der geprüfte Antrag، وeine geöffnete Datei، وmit den informierten Beschäftigten. ومع الأفعال المتعدية يحمل غالبًا معنى مجهولًا أو دالًا على نتيجة: der geprüfte Antrag يعني الطلب الذي تمت مراجعته، وdie geschlossene Tür تعني الباب المغلق. ومع بعض الأفعال اللازمة التي تستخدم sein في Perfekt يمكن أن يعبّر عن فعل معلوم مكتمل: die angekommenen Gäste يعني الضيوف الذين وصلوا. ويمكن غالبًا تحويل صفة Partizip II إلى جملة موصولة في المبني للمجهول أو Perfekt أو باستخدام sein. ولا يصف Partizip II عادة فعلًا معلومًا مستمرًا ومتزامنًا؛ لذلك نستخدم غالبًا Partizip I.",
+  "rules": [
+    {
+      "id": "gr42-r01",
+      "title_de": "Regelmäßige Bildung",
+      "title_ar": "التكوين المنتظم",
+      "explanation_de": "Regelmäßige Verben bilden das Partizip II meist mit ge- + Stamm + -t.",
+      "explanation_ar": "تكوّن الأفعال المنتظمة Partizip II غالبًا باستخدام ge- + الجذر + -t.",
+      "formula": "ge- + Stamm + -t",
+      "examples": [
+        {
+          "de": "prüfen → geprüft",
+          "ar": "يفحص ← مفحوص"
+        },
+        {
+          "de": "öffnen → geöffnet",
+          "ar": "يفتح ← مفتوح"
+        },
+        {
+          "de": "planen → geplant",
+          "ar": "يخطط ← مخطط"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r02",
+      "title_de": "Unregelmäßige Bildung",
+      "title_ar": "التكوين غير المنتظم",
+      "explanation_de": "Viele starke Verben bilden das Partizip II mit ge- und der Endung -en.",
+      "explanation_ar": "تكوّن أفعال قوية كثيرة Partizip II باستخدام ge- والنهاية -en.",
+      "formula": "ge- + veränderter Stamm + -en",
+      "examples": [
+        {
+          "de": "schreiben → geschrieben",
+          "ar": "يكتب ← مكتوب"
+        },
+        {
+          "de": "schließen → geschlossen",
+          "ar": "يغلق ← مغلق"
+        },
+        {
+          "de": "finden → gefunden",
+          "ar": "يجد ← موجود / تم العثور عليه"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r03",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Bei trennbaren Verben steht ge- zwischen Vorsilbe und Verbstamm.",
+      "explanation_ar": "في الأفعال القابلة للفصل تأتي ge- بين السابقة والجذر.",
+      "formula": "ein-ge-reich-t | ab-ge-schloss-en",
+      "examples": [
+        {
+          "de": "einreichen → eingereicht",
+          "ar": "يقدّم ← مقدّم"
+        },
+        {
+          "de": "abschließen → abgeschlossen",
+          "ar": "ينهي ← منتهٍ / مكتمل"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r04",
+      "title_de": "Untrennbare Verben und -ieren",
+      "title_ar": "الأفعال غير القابلة للفصل وأفعال -ieren",
+      "explanation_de": "Diese Verben bilden das Partizip II ohne ge-.",
+      "explanation_ar": "تكوّن هذه الأفعال Partizip II من دون ge-.",
+      "formula": "bearbeitet | informiert | kontrolliert",
+      "examples": [
+        {
+          "de": "bearbeiten → bearbeitet",
+          "ar": "يعالج ← معالَج"
+        },
+        {
+          "de": "informieren → informiert",
+          "ar": "يبلغ ← مُبلّغ"
+        },
+        {
+          "de": "kontrollieren → kontrolliert",
+          "ar": "يراقب ← مراقَب"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r05",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "explanation_de": "Vor einem Nomen erhält das Partizip II die passende Adjektivendung.",
+      "explanation_ar": "يأخذ Partizip II نهاية الصفة المناسبة عندما يأتي قبل اسم.",
+      "formula": "geprüft + e/en/er/es ...",
+      "examples": [
+        {
+          "de": "der geprüfte Antrag",
+          "ar": "الطلب الذي تمت مراجعته"
+        },
+        {
+          "de": "eine geöffnete Datei",
+          "ar": "ملف مفتوح"
+        },
+        {
+          "de": "mit den informierten Personen",
+          "ar": "مع الأشخاص الذين تم إبلاغهم"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r06",
+      "title_de": "Passive Bedeutung",
+      "title_ar": "المعنى المجهول",
+      "explanation_de": "Bei transitiven Verben ist das Bezugsnomen häufig von der Handlung betroffen.",
+      "explanation_ar": "مع الأفعال المتعدية يكون الاسم الموصوف غالبًا متأثرًا بالفعل.",
+      "formula": "der geprüfte Antrag = der Antrag, der geprüft wurde",
+      "examples": [
+        {
+          "de": "die unterschriebene Vereinbarung",
+          "ar": "الاتفاقية الموقعة"
+        },
+        {
+          "de": "die informierten Beschäftigten",
+          "ar": "الموظفون الذين تم إبلاغهم"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r07",
+      "title_de": "Resultative Bedeutung",
+      "title_ar": "المعنى الدال على النتيجة",
+      "explanation_de": "Das Partizip II kann einen Zustand als Ergebnis einer Handlung beschreiben.",
+      "explanation_ar": "يمكن أن يصف Partizip II حالة ناتجة عن فعل.",
+      "formula": "die geschlossene Tür = die Tür ist geschlossen",
+      "examples": [
+        {
+          "de": "das reservierte Zimmer",
+          "ar": "الغرفة المحجوزة"
+        },
+        {
+          "de": "die gespeicherten Daten",
+          "ar": "البيانات المحفوظة"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r08",
+      "title_de": "Abgeschlossene aktive Bedeutung",
+      "title_ar": "معنى معلوم مكتمل",
+      "explanation_de": "Bei bestimmten Verben mit sein im Perfekt bezeichnet das Partizip II eine abgeschlossene Handlung des Bezugsnomens.",
+      "explanation_ar": "مع بعض الأفعال التي تستخدم sein في Perfekt يدل Partizip II على فعل مكتمل قام به الاسم نفسه.",
+      "formula": "die angekommenen Gäste = die Gäste, die angekommen sind",
+      "examples": [
+        {
+          "de": "die angekommenen Gäste",
+          "ar": "الضيوف الذين وصلوا"
+        },
+        {
+          "de": "das eingeschlafene Kind",
+          "ar": "الطفل الذي نام"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r09",
+      "title_de": "Relativsatz im Passiv",
+      "title_ar": "جملة موصولة في المبني للمجهول",
+      "explanation_de": "Ein passives Partizip-II-Attribut entspricht häufig einem Relativsatz mit wurde oder worden ist.",
+      "explanation_ar": "تقابل صفة Partizip II المجهولة غالبًا جملة موصولة مع wurde أو worden ist.",
+      "formula": "die geprüften Unterlagen → die Unterlagen, die geprüft wurden",
+      "examples": [
+        {
+          "de": "der gestern genehmigte Antrag → der Antrag, der gestern genehmigt wurde",
+          "ar": "الطلب الذي تمت الموافقة عليه أمس"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r10",
+      "title_de": "Prädikativer Gebrauch",
+      "title_ar": "الاستخدام الخبري",
+      "explanation_de": "Nach sein bleibt das Partizip II ohne Adjektivendung und beschreibt häufig einen Zustand.",
+      "explanation_ar": "بعد sein يبقى Partizip II من دون نهاية صفة ويصف غالبًا حالة.",
+      "formula": "Die Tür ist geschlossen.",
+      "examples": [
+        {
+          "de": "Der Bericht ist fertiggestellt.",
+          "ar": "التقرير منجز."
+        },
+        {
+          "de": "Die Daten sind gespeichert.",
+          "ar": "البيانات محفوظة."
+        }
+      ]
+    },
+    {
+      "id": "gr42-r11",
+      "title_de": "Partizip I oder Partizip II",
+      "title_ar": "Partizip I أم Partizip II",
+      "explanation_de": "Partizip I beschreibt meist eine laufende aktive Handlung; Partizip II meist Ergebnis, Abschluss oder passive Bedeutung.",
+      "explanation_ar": "يصف Partizip I غالبًا فعلًا معلومًا مستمرًا، بينما يصف Partizip II نتيجة أو اكتمالًا أو معنى مجهولًا.",
+      "formula": "prüfend ≠ geprüft",
+      "examples": [
+        {
+          "de": "der prüfende Mitarbeiter",
+          "ar": "الموظف الذي يفحص"
+        },
+        {
+          "de": "der geprüfte Antrag",
+          "ar": "الطلب الذي تم فحصه"
+        }
+      ]
+    },
+    {
+      "id": "gr42-r12",
+      "title_de": "Stil und Verständlichkeit",
+      "title_ar": "الأسلوب والوضوح",
+      "explanation_de": "Kurze Partizip-II-Attribute sind kompakt; sehr lange Attribute werden als Relativsatz häufig klarer.",
+      "explanation_ar": "تكون صفات Partizip II القصيرة مختصرة، أما الصفات الطويلة جدًا فتكون أوضح غالبًا بصيغة جملة موصولة.",
+      "formula": "kurz → Attribut | komplex → oft Relativsatz",
+      "examples": [
+        {
+          "de": "die genehmigten Anträge",
+          "ar": "الطلبات الموافق عليها"
+        },
+        {
+          "de": "die Anträge, die nach einer mehrwöchigen Prüfung genehmigt wurden",
+          "ar": "الطلبات التي تمت الموافقة عليها بعد مراجعة استمرت أسابيع"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr42-t01",
+      "title_de": "Bildung des Partizips II",
+      "title_ar": "تكوين Partizip II",
+      "headers_de": [
+        "Verbtyp",
+        "Infinitiv",
+        "Partizip II"
+      ],
+      "headers_ar": [
+        "نوع الفعل",
+        "المصدر",
+        "Partizip II"
+      ],
+      "rows": [
+        [
+          "regelmäßig",
+          "prüfen",
+          "geprüft"
+        ],
+        [
+          "unregelmäßig",
+          "schreiben",
+          "geschrieben"
+        ],
+        [
+          "trennbar",
+          "einreichen",
+          "eingereicht"
+        ],
+        [
+          "untrennbar",
+          "bearbeiten",
+          "bearbeitet"
+        ],
+        [
+          "-ieren",
+          "informieren",
+          "informiert"
+        ]
+      ]
+    },
+    {
+      "id": "gr42-t02",
+      "title_de": "Attribut und Relativsatz",
+      "title_ar": "الصفة والجملة الموصولة",
+      "headers_de": [
+        "Partizip-II-Attribut",
+        "Relativsatz"
+      ],
+      "headers_ar": [
+        "صفة Partizip II",
+        "الجملة الموصولة"
+      ],
+      "rows": [
+        [
+          "der geprüfte Antrag",
+          "der Antrag, der geprüft wurde"
+        ],
+        [
+          "die gespeicherten Daten",
+          "die Daten, die gespeichert wurden"
+        ],
+        [
+          "die angekommenen Gäste",
+          "die Gäste, die angekommen sind"
+        ],
+        [
+          "das geschlossene Fenster",
+          "das Fenster, das geschlossen ist"
+        ]
+      ]
+    },
+    {
+      "id": "gr42-t03",
+      "title_de": "Partizip I und Partizip II",
+      "title_ar": "Partizip I وPartizip II",
+      "headers_de": [
+        "Partizip I",
+        "Partizip II",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "Partizip I",
+        "Partizip II",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "die prüfende Person",
+          "der geprüfte Antrag",
+          "aktiv laufend / passiv abgeschlossen"
+        ],
+        [
+          "die öffnende Person",
+          "die geöffnete Tür",
+          "Handlung / Ergebnis"
+        ],
+        [
+          "die informierende Stelle",
+          "die informierten Beschäftigten",
+          "führt aus / ist betroffen"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die gestern eingereichten Unterlagen werden heute geprüft.",
+      "ar": "تتم اليوم مراجعة المستندات التي قُدمت أمس.",
+      "note_de": "Trennbares Verb und passive abgeschlossene Bedeutung.",
+      "note_ar": "فعل قابل للفصل ومعنى مجهول مكتمل."
+    },
+    {
+      "de": "Die bereits informierten Beschäftigten erhielten zusätzliche Hinweise.",
+      "ar": "تلقى الموظفون الذين تم إبلاغهم بالفعل تعليمات إضافية.",
+      "note_de": "Untrennbares Verb ohne ge-.",
+      "note_ar": "فعل غير قابل للفصل من دون ge-."
+    },
+    {
+      "de": "Die pünktlich angekommenen Gäste wurden am Empfang begrüßt.",
+      "ar": "تم الترحيب بالضيوف الذين وصلوا في الوقت المحدد عند الاستقبال.",
+      "note_de": "Abgeschlossene aktive Bedeutung mit sein.",
+      "note_ar": "معنى معلوم مكتمل مع sein."
+    },
+    {
+      "de": "Die sorgfältig gespeicherten Daten konnten problemlos wiederhergestellt werden.",
+      "ar": "أمكن استعادة البيانات المحفوظة بعناية من دون مشكلات.",
+      "note_de": "Erweitertes Partizip-II-Attribut mit Adverb.",
+      "note_ar": "صفة موسعة من Partizip II مع حال."
+    },
+    {
+      "de": "Der Bericht ist vollständig abgeschlossen.",
+      "ar": "التقرير مكتمل بالكامل.",
+      "note_de": "Prädikativer Gebrauch ohne Adjektivendung.",
+      "note_ar": "استخدام خبري من دون نهاية صفة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "der geprühfte Antrag",
+      "correct": "der geprüfte Antrag",
+      "explanation_de": "Das Partizip II von prüfen lautet geprüft.",
+      "explanation_ar": "صيغة Partizip II من prüfen هي geprüft."
+    },
+    {
+      "wrong": "die geinformierten Beschäftigten",
+      "correct": "die informierten Beschäftigten",
+      "explanation_de": "Verben auf -ieren bilden das Partizip II ohne ge-.",
+      "explanation_ar": "تكوّن الأفعال المنتهية بـ -ieren صيغة Partizip II من دون ge-."
+    },
+    {
+      "wrong": "die gereichte ein Unterlagen",
+      "correct": "die eingereichten Unterlagen",
+      "explanation_de": "Bei einreichen steht ge- zwischen Vorsilbe und Stamm: eingereicht.",
+      "explanation_ar": "في einreichen تأتي ge- بين السابقة والجذر: eingereicht."
+    },
+    {
+      "wrong": "die geprüft Unterlagen",
+      "correct": "die geprüften Unterlagen",
+      "explanation_de": "Vor einem Nomen braucht das Partizip II eine Adjektivendung.",
+      "explanation_ar": "يحتاج Partizip II إلى نهاية صفة عندما يأتي قبل اسم."
+    },
+    {
+      "wrong": "die angekommenen Gäste = die Gäste, die angekommen wurden",
+      "correct": "die angekommenen Gäste = die Gäste, die angekommen sind",
+      "explanation_de": "Ankommen ist intransitiv und bildet das Perfekt mit sein.",
+      "explanation_ar": "الفعل ankommen لازم ويستخدم sein في Perfekt."
+    },
+    {
+      "wrong": "der geprüfte Mitarbeiter prüft gerade den Antrag",
+      "correct": "der prüfende Mitarbeiter prüft gerade den Antrag",
+      "explanation_de": "Für eine laufende aktive Handlung steht Partizip I.",
+      "explanation_ar": "نستخدم Partizip I للفعل المعلوم المستمر."
+    }
+  ],
+  "quickSummary_de": [
+    "Regelmäßige Verben bilden Partizip II meist mit ge- + Stamm + -t.",
+    "Viele unregelmäßige Verben enden im Partizip II auf -en.",
+    "Bei trennbaren Verben steht ge- zwischen Vorsilbe und Stamm.",
+    "Untrennbare Verben und Verben auf -ieren stehen ohne ge-.",
+    "Vor einem Nomen erhält Partizip II eine Adjektivendung.",
+    "Bei transitiven Verben ist die Bedeutung häufig passiv.",
+    "Partizip II kann einen Ergebniszustand beschreiben.",
+    "Bei bestimmten Verben mit sein kann es eine abgeschlossene aktive Handlung ausdrücken.",
+    "Ein passives Attribut entspricht oft einem Relativsatz im Passiv.",
+    "Nach sein steht das Partizip II ohne Adjektivendung.",
+    "Partizip I beschreibt meist eine laufende aktive Handlung.",
+    "Sehr lange Attribute sind als Relativsatz häufig klarer."
+  ],
+  "quickSummary_ar": [
+    "تكوّن الأفعال المنتظمة Partizip II غالبًا باستخدام ge- + الجذر + -t.",
+    "تنتهي أفعال غير منتظمة كثيرة في Partizip II بـ -en.",
+    "تأتي ge- بين السابقة والجذر في الأفعال القابلة للفصل.",
+    "تأتي الأفعال غير القابلة للفصل وأفعال -ieren من دون ge-.",
+    "يأخذ Partizip II نهاية صفة قبل الاسم.",
+    "يكون المعنى غالبًا مجهولًا مع الأفعال المتعدية.",
+    "يمكن أن يصف Partizip II حالة ناتجة عن فعل.",
+    "مع بعض الأفعال التي تستخدم sein قد يصف فعلًا معلومًا مكتملًا.",
+    "تقابل الصفة المجهولة غالبًا جملة موصولة في المبني للمجهول.",
+    "بعد sein يأتي Partizip II من دون نهاية صفة.",
+    "يصف Partizip I غالبًا فعلًا معلومًا مستمرًا.",
+    "تكون الجملة الموصولة أوضح غالبًا مع الصفات الطويلة جدًا."
+  ],
+  "relatedTopics": [
+    "gr-41",
+    "gr-43",
+    "gr-44",
+    "gr-45",
+    "gr-50"
+  ]
+}

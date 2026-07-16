@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-44",
+  "slug": "gr-44-partizipialattribute-relativsaetze-umformen",
+  "order": 44,
+  "title_de": "Partizipialattribute und Relativsätze umformen",
+  "title_ar": "تحويل صفات Partizip والجمل الموصولة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "partizipialattribute",
+  "estimatedMinutes": 70,
+  "learningObjectives_de": [
+    "Partizip-I-Attribute in aktive Relativsätze umformen.",
+    "Partizip-II-Attribute in passive, resultative oder perfektische Relativsätze umformen.",
+    "Relativsätze in passende Partizipialattribute verdichten.",
+    "Kasus und Form des Relativpronomens korrekt bestimmen.",
+    "Zeit-, Orts-, Objekt- und Präpositionalangaben vollständig übernehmen.",
+    "Zeitverhältnisse und Bedeutungsnuancen bei der Umformung erhalten.",
+    "Zwischen kompakter Partizipialform und klarerem Relativsatz stilistisch wählen."
+  ],
+  "learningObjectives_ar": [
+    "تحويل صفات Partizip I إلى جمل موصولة معلومة.",
+    "تحويل صفات Partizip II إلى جمل موصولة مجهولة أو دالة على نتيجة أو بصيغة Perfekt.",
+    "تكثيف الجمل الموصولة إلى صفات Partizip مناسبة.",
+    "تحديد حالة وصيغة الضمير الموصول بصورة صحيحة.",
+    "نقل ظروف الزمن والمكان والمفاعيل ومتممات حروف الجر كاملة.",
+    "الحفاظ على العلاقة الزمنية وفروق المعنى عند التحويل.",
+    "الاختيار أسلوبيًا بين صفة Partizip المختصرة والجملة الموصولة الأوضح."
+  ],
+  "shortDescription_de": "Partizipialattribute und Relativsätze können häufig ineinander umgeformt werden. Dabei müssen Aktiv oder Passiv, Zeitbezug, Kasus, Ergänzungen und Stil erhalten bleiben.",
+  "shortDescription_ar": "يمكن غالبًا تحويل صفات Partizip والجمل الموصولة بعضها إلى بعض. ويجب أثناء ذلك الحفاظ على المعلوم أو المجهول والزمن والحالة والمتممات والأسلوب.",
+  "explanation_de": "Ein Partizip-I-Attribut entspricht meistens einem aktiven Relativsatz: die im Flur wartenden Gäste → die Gäste, die im Flur warten. Das Bezugsnomen führt die Handlung selbst aus. Ein Partizip-II-Attribut kann unterschiedliche Relativsätze ergeben. Bei passiver Bedeutung steht häufig ein Vorgangspassiv: die gestern geprüften Unterlagen → die Unterlagen, die gestern geprüft wurden. Bei einem Ergebniszustand steht oft sein: die geschlossene Tür → die Tür, die geschlossen ist. Bei Verben, die das Perfekt mit sein bilden, steht ein aktives Perfekt: die angekommenen Gäste → die Gäste, die angekommen sind. Beim Verdichten eines Relativsatzes fallen Relativpronomen und finites Verb weg. Alle Ergänzungen und Angaben stehen vor dem Partizip: die Mitarbeiterin, die den Bericht sorgfältig prüft → die den Bericht sorgfältig prüfende Mitarbeiterin. Die Adjektivendung richtet sich nach dem Bezugsnomen im Hauptsatz. Beim Auflösen muss das Relativpronomen den Kasus übernehmen, den es im Relativsatz hat: der Kunde, dem die Beraterin hilft. Die Zeitform des Relativsatzes richtet sich nach Kontext und Zeitverhältnis, denn das Partizip selbst zeigt nicht immer eine vollständige Zeitstufe. Relativsätze werden durch Kommas abgetrennt; innerhalb eines Partizipialattributs stehen normalerweise keine Kommas. Sehr lange Attribute sollten aus Gründen der Lesbarkeit häufig als Relativsatz formuliert werden.",
+  "explanation_ar": "تقابل صفة Partizip I غالبًا جملة موصولة معلومة: die im Flur wartenden Gäste ← die Gäste, die im Flur warten. فالاسم الموصوف يقوم بالفعل بنفسه. أما صفة Partizip II فقد تقابل أنواعًا مختلفة من الجمل الموصولة. ومع المعنى المجهول نستخدم غالبًا Vorgangspassiv: die gestern geprüften Unterlagen ← die Unterlagen, die gestern geprüft wurden. ومع حالة ناتجة عن فعل نستخدم غالبًا sein: die geschlossene Tür ← die Tür, die geschlossen ist. ومع الأفعال التي تستخدم sein في Perfekt نستخدم Perfekt معلومًا: die angekommenen Gäste ← die Gäste, die angekommen sind. وعند تكثيف الجملة الموصولة نحذف الضمير الموصول والفعل المصرف، وتأتي جميع المتممات والظروف قبل Partizip: die Mitarbeiterin, die den Bericht sorgfältig prüft ← die den Bericht sorgfältig prüfende Mitarbeiterin. وتعتمد نهاية الصفة على الاسم الموصوف داخل الجملة الرئيسية. وعند تفكيك الصفة يجب أن يأخذ الضمير الموصول الحالة التي يفرضها دوره داخل الجملة الموصولة: der Kunde, dem die Beraterin hilft. وتعتمد صيغة الزمن على السياق والعلاقة الزمنية، لأن Partizip لا يحدد دائمًا زمنًا كاملًا بمفرده. وتُفصل الجمل الموصولة بفواصل، بينما لا نضع عادة فواصل داخل صفة Partizip. ومن الأفضل غالبًا تحويل الصفات الطويلة جدًا إلى جمل موصولة لزيادة الوضوح.",
+  "rules": [
+    {
+      "id": "gr44-r01",
+      "title_de": "Partizip I zu aktivem Relativsatz",
+      "title_ar": "Partizip I إلى جملة موصولة معلومة",
+      "explanation_de": "Das Bezugsnomen wird Subjekt des Relativsatzes.",
+      "explanation_ar": "يصبح الاسم الموصوف فاعلًا في الجملة الموصولة.",
+      "formula": "die wartende Kundin → die Kundin, die wartet",
+      "examples": [
+        {
+          "de": "die telefonierende Kollegin → die Kollegin, die telefoniert",
+          "ar": "الزميلة التي تتحدث هاتفيًا"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r02",
+      "title_de": "Partizip II zu Passivsatz",
+      "title_ar": "Partizip II إلى جملة مجهولة",
+      "explanation_de": "Bei passiver Bedeutung steht häufig werden + Partizip II.",
+      "explanation_ar": "مع المعنى المجهول نستخدم غالبًا werden + Partizip II.",
+      "formula": "der geprüfte Antrag → der Antrag, der geprüft wurde",
+      "examples": [
+        {
+          "de": "die gespeicherten Daten → die Daten, die gespeichert wurden",
+          "ar": "البيانات التي تم حفظها"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r03",
+      "title_de": "Partizip II zu Zustandssatz",
+      "title_ar": "Partizip II إلى جملة حالة",
+      "explanation_de": "Bei resultativem Zustand steht häufig sein + Partizip II.",
+      "explanation_ar": "مع الحالة الناتجة عن فعل نستخدم غالبًا sein + Partizip II.",
+      "formula": "die geschlossene Tür → die Tür, die geschlossen ist",
+      "examples": [
+        {
+          "de": "das reservierte Zimmer → das Zimmer, das reserviert ist",
+          "ar": "الغرفة المحجوزة"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r04",
+      "title_de": "Partizip II mit sein-Verben",
+      "title_ar": "Partizip II مع أفعال sein",
+      "explanation_de": "Bei abgeschlossener aktiver Bedeutung steht häufig Perfekt mit sein.",
+      "explanation_ar": "مع المعنى المعلوم المكتمل نستخدم غالبًا Perfekt مع sein.",
+      "formula": "die angekommenen Gäste → die Gäste, die angekommen sind",
+      "examples": [
+        {
+          "de": "das eingeschlafene Kind → das Kind, das eingeschlafen ist",
+          "ar": "الطفل الذي نام"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r05",
+      "title_de": "Relativsatz verdichten",
+      "title_ar": "تكثيف الجملة الموصولة",
+      "explanation_de": "Relativpronomen und finites Verb fallen weg; Ergänzungen stehen vor dem Partizip.",
+      "explanation_ar": "يُحذف الضمير الموصول والفعل المصرف، وتأتي المتممات قبل Partizip.",
+      "formula": "die Frau, die den Bericht prüft → die den Bericht prüfende Frau",
+      "examples": [
+        {
+          "de": "die Unterlagen, die gestern eingereicht wurden → die gestern eingereichten Unterlagen",
+          "ar": "المستندات المقدمة أمس"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r06",
+      "title_de": "Relativpronomen und Kasus",
+      "title_ar": "الضمير الموصول والحالة",
+      "explanation_de": "Der Kasus des Relativpronomens richtet sich nach seiner Funktion im Relativsatz.",
+      "explanation_ar": "تعتمد حالة الضمير الموصول على وظيفته داخل الجملة الموصولة.",
+      "formula": "der Kunde, dem geholfen wurde",
+      "examples": [
+        {
+          "de": "die Bewerber, mit denen gesprochen wurde",
+          "ar": "المتقدمون الذين تم التحدث معهم"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r07",
+      "title_de": "Ergänzungen vollständig übernehmen",
+      "title_ar": "نقل المتممات كاملة",
+      "explanation_de": "Objekte, Präpositionen, Zeit, Ort und Adverbien müssen erhalten bleiben.",
+      "explanation_ar": "يجب الحفاظ على المفاعيل وحروف الجر والزمن والمكان والظروف.",
+      "formula": "die gestern im Labor sorgfältig geprüften Geräte",
+      "examples": [
+        {
+          "de": "die Geräte, die gestern im Labor sorgfältig geprüft wurden",
+          "ar": "الأجهزة التي فُحصت بعناية أمس في المختبر"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r08",
+      "title_de": "Zeitverhältnis",
+      "title_ar": "العلاقة الزمنية",
+      "explanation_de": "Die Zeitform des Relativsatzes wird aus Kontext und Bedeutung gewählt.",
+      "explanation_ar": "تُختار صيغة زمن الجملة الموصولة من السياق والمعنى.",
+      "formula": "wartend → wartet / wartete | geprüft → wurde geprüft / ist geprüft worden",
+      "examples": [
+        {
+          "de": "Die damals wartenden Gäste gingen später nach Hause. → Die Gäste, die damals warteten, gingen später nach Hause.",
+          "ar": "الضيوف الذين كانوا ينتظرون آنذاك عادوا لاحقًا إلى المنزل."
+        }
+      ]
+    },
+    {
+      "id": "gr44-r09",
+      "title_de": "Adjektivendung beim Verdichten",
+      "title_ar": "نهاية الصفة عند التكثيف",
+      "explanation_de": "Das Partizip erhält die Endung, die Artikel, Kasus, Genus und Numerus verlangen.",
+      "explanation_ar": "يأخذ Partizip النهاية التي تفرضها الأداة والحالة والجنس والعدد.",
+      "formula": "mit den Gästen, die warten → mit den wartenden Gästen",
+      "examples": [
+        {
+          "de": "eine Lösung, die vereinbart wurde → eine vereinbarte Lösung",
+          "ar": "حل متفق عليه"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r10",
+      "title_de": "Kommasetzung",
+      "title_ar": "استخدام الفواصل",
+      "explanation_de": "Relativsätze stehen zwischen Kommas; Partizipialattribute normalerweise nicht.",
+      "explanation_ar": "تأتي الجمل الموصولة بين فواصل، بينما لا تُفصل صفات Partizip عادة بفواصل.",
+      "formula": "die Gäste, die warten, ... | die wartenden Gäste ...",
+      "examples": [
+        {
+          "de": "Die Unterlagen, die gestern eingereicht wurden, liegen bereit.",
+          "ar": "المستندات التي قُدمت أمس جاهزة."
+        }
+      ]
+    },
+    {
+      "id": "gr44-r11",
+      "title_de": "Bedeutung vor Form",
+      "title_ar": "المعنى قبل الصيغة",
+      "explanation_de": "Nicht jedes Partizip-II-Attribut wird automatisch mit demselben Passivsatz aufgelöst.",
+      "explanation_ar": "لا تُفك كل صفة Partizip II تلقائيًا إلى النوع نفسه من الجمل المجهولة.",
+      "formula": "geschlossen ist / wurde geschlossen | angekommen ist",
+      "examples": [
+        {
+          "de": "die geschlossene Tür → die Tür, die geschlossen ist",
+          "ar": "الباب الذي هو مغلق"
+        },
+        {
+          "de": "die angekommenen Gäste → die Gäste, die angekommen sind",
+          "ar": "الضيوف الذين وصلوا"
+        }
+      ]
+    },
+    {
+      "id": "gr44-r12",
+      "title_de": "Stilentscheidung",
+      "title_ar": "الاختيار الأسلوبي",
+      "explanation_de": "Kurze Attribute sind kompakt; komplexe Relativsätze sind oft leichter verständlich.",
+      "explanation_ar": "الصفات القصيرة مختصرة، بينما تكون الجمل الموصولة المعقدة أسهل فهمًا غالبًا.",
+      "formula": "Kürze ↔ Lesbarkeit",
+      "examples": [
+        {
+          "de": "Die Anträge, die nach mehreren Prüfungen genehmigt wurden, werden veröffentlicht.",
+          "ar": "سيتم نشر الطلبات التي تمت الموافقة عليها بعد عدة مراجعات."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr44-t01",
+      "title_de": "Typische Umformungen",
+      "title_ar": "تحويلات نموذجية",
+      "headers_de": [
+        "Partizipialattribut",
+        "Relativsatz"
+      ],
+      "headers_ar": [
+        "صفة Partizip",
+        "الجملة الموصولة"
+      ],
+      "rows": [
+        [
+          "die wartenden Gäste",
+          "die Gäste, die warten"
+        ],
+        [
+          "der geprüfte Antrag",
+          "der Antrag, der geprüft wurde"
+        ],
+        [
+          "die geschlossene Tür",
+          "die Tür, die geschlossen ist"
+        ],
+        [
+          "die angekommenen Gäste",
+          "die Gäste, die angekommen sind"
+        ]
+      ]
+    },
+    {
+      "id": "gr44-t02",
+      "title_de": "Kasus des Relativpronomens",
+      "title_ar": "حالة الضمير الموصول",
+      "headers_de": [
+        "Funktion",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الوظيفة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Subjekt",
+          "die Person, die wartet"
+        ],
+        [
+          "Akkusativobjekt",
+          "der Bericht, den sie prüft"
+        ],
+        [
+          "Dativobjekt",
+          "der Kunde, dem sie hilft"
+        ],
+        [
+          "mit Präposition",
+          "die Bewerber, mit denen gesprochen wurde"
+        ]
+      ]
+    },
+    {
+      "id": "gr44-t03",
+      "title_de": "Verdichtungsschritte",
+      "title_ar": "خطوات التكثيف",
+      "headers_de": [
+        "Schritt",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الخطوة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Bezugsnomen bestimmen",
+          "die Unterlagen"
+        ],
+        [
+          "Relativpronomen entfernen",
+          "die ... Unterlagen"
+        ],
+        [
+          "finites Verb zum Partizip machen",
+          "eingereicht → eingereichten"
+        ],
+        [
+          "Ergänzungen voranstellen",
+          "die gestern eingereichten Unterlagen"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die seit Stunden wartenden Gäste wurden informiert. → Die Gäste, die seit Stunden warteten, wurden informiert.",
+      "ar": "تم إبلاغ الضيوف الذين كانوا ينتظرون منذ ساعات.",
+      "note_de": "Partizip I wird wegen des Vergangenheitskontexts mit Präteritum aufgelöst.",
+      "note_ar": "تم تحويل Partizip I إلى Präteritum بسبب سياق الماضي."
+    },
+    {
+      "de": "Die gestern von der Fachabteilung geprüften Unterlagen liegen bereit. → Die Unterlagen, die gestern von der Fachabteilung geprüft wurden, liegen bereit.",
+      "ar": "المستندات التي راجعها القسم المختص أمس جاهزة.",
+      "note_de": "Passiver Relativsatz mit Agens.",
+      "note_ar": "جملة موصولة مجهولة مع ذكر الفاعل."
+    },
+    {
+      "de": "Die Gäste, die pünktlich angekommen sind, warten am Empfang. → Die pünktlich angekommenen Gäste warten am Empfang.",
+      "ar": "ينتظر عند الاستقبال الضيوف الذين وصلوا في الموعد.",
+      "note_de": "Perfekt mit sein wird zu Partizip-II-Attribut.",
+      "note_ar": "تحول Perfekt مع sein إلى صفة Partizip II."
+    },
+    {
+      "de": "Die Mitarbeiterin, die sich auf das Gespräch vorbereitet, liest die Unterlagen. → Die sich auf das Gespräch vorbereitende Mitarbeiterin liest die Unterlagen.",
+      "ar": "تقرأ المستندات الموظفة التي تستعد للمحادثة.",
+      "note_de": "Reflexivpronomen und Präpositionalergänzung bleiben erhalten.",
+      "note_ar": "بقي الضمير الانعكاسي ومتمم حرف الجر."
+    },
+    {
+      "de": "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere Stellen genehmigt wurden, werden veröffentlicht.",
+      "ar": "سيتم نشر الطلبات التي تمت الموافقة عليها بعد مراجعة استمرت أسابيع ومن عدة جهات.",
+      "note_de": "Der Relativsatz ist hier lesbarer als ein sehr langes Partizipialattribut.",
+      "note_ar": "الجملة الموصولة هنا أوضح من صفة Partizip طويلة جدًا."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "die Gäste, die im Flur wartend",
+      "correct": "die Gäste, die im Flur warten",
+      "explanation_de": "Im Relativsatz braucht man ein finites Verb.",
+      "explanation_ar": "تحتاج الجملة الموصولة إلى فعل مصرف."
+    },
+    {
+      "wrong": "die Unterlagen, die gestern geprüft",
+      "correct": "die Unterlagen, die gestern geprüft wurden",
+      "explanation_de": "Der passive Relativsatz braucht eine Form von werden.",
+      "explanation_ar": "تحتاج الجملة الموصولة المجهولة إلى صيغة من werden."
+    },
+    {
+      "wrong": "die angekommenen Gäste → die Gäste, die angekommen wurden",
+      "correct": "die angekommenen Gäste → die Gäste, die angekommen sind",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein und kein Passiv.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Perfekt ولا يُبنى هنا مجهولًا."
+    },
+    {
+      "wrong": "die Mitarbeiterin, welche den Bericht prüft → die prüfende den Bericht Mitarbeiterin",
+      "correct": "die den Bericht prüfende Mitarbeiterin",
+      "explanation_de": "Das Objekt steht vor dem Partizip; das Partizip steht direkt vor dem Nomen.",
+      "explanation_ar": "يأتي المفعول قبل Partizip، ويأتي Partizip مباشرة قبل الاسم."
+    },
+    {
+      "wrong": "die Bewerber mit die gesprochen wurde",
+      "correct": "die Bewerber, mit denen gesprochen wurde",
+      "explanation_de": "Nach mit steht Dativ Plural: mit denen.",
+      "explanation_ar": "بعد mit نستخدم Dativ Plural: mit denen."
+    },
+    {
+      "wrong": "die gestern, eingereichten Unterlagen",
+      "correct": "die gestern eingereichten Unterlagen",
+      "explanation_de": "Innerhalb eines Partizipialattributs steht normalerweise kein Komma.",
+      "explanation_ar": "لا نضع عادة فاصلة داخل صفة Partizip."
+    }
+  ],
+  "quickSummary_de": [
+    "Partizip I wird meist als aktiver Relativsatz aufgelöst.",
+    "Passives Partizip II wird häufig mit werden aufgelöst.",
+    "Resultatives Partizip II kann mit sein aufgelöst werden.",
+    "Partizip II von sein-Verben wird oft mit aktivem Perfekt aufgelöst.",
+    "Beim Verdichten fallen Relativpronomen und finites Verb weg.",
+    "Alle Ergänzungen bleiben erhalten und stehen vor dem Partizip.",
+    "Der Kasus des Relativpronomens richtet sich nach seiner Satzfunktion.",
+    "Die Zeitform ergibt sich aus Kontext und Zeitverhältnis.",
+    "Die Adjektivendung richtet sich nach dem Bezugsnomen.",
+    "Relativsätze werden durch Kommas abgetrennt.",
+    "Partizipialattribute stehen normalerweise ohne innere Kommas.",
+    "Sehr lange Attribute werden als Relativsatz oft verständlicher."
+  ],
+  "quickSummary_ar": [
+    "تُفك صفة Partizip I غالبًا إلى جملة موصولة معلومة.",
+    "تُفك صفة Partizip II المجهولة غالبًا باستخدام werden.",
+    "يمكن فك Partizip II الدال على نتيجة باستخدام sein.",
+    "يُفك Partizip II مع أفعال sein غالبًا إلى Perfekt معلوم.",
+    "عند التكثيف يُحذف الضمير الموصول والفعل المصرف.",
+    "تبقى جميع المتممات وتأتي قبل Partizip.",
+    "تعتمد حالة الضمير الموصول على وظيفته داخل الجملة.",
+    "تُفهم صيغة الزمن من السياق والعلاقة الزمنية.",
+    "تعتمد نهاية الصفة على الاسم الموصوف.",
+    "تُفصل الجمل الموصولة بفواصل.",
+    "لا تحتوي صفات Partizip عادة على فواصل داخلية.",
+    "تكون الجملة الموصولة أوضح غالبًا مع الصفات الطويلة جدًا."
+  ],
+  "relatedTopics": [
+    "gr-41",
+    "gr-42",
+    "gr-43",
+    "gr-45",
+    "gr-50"
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-40",
+  "title_de": "Gemischtes Training – Phase 4 – Übungen",
+  "title_ar": "تمارين التدريب المختلط – المرحلة الرابعة",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr40-e001",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Substantivierter Infinitiv",
+      "title_ar": "المصدر المستخدم كاسم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Das Einhalten der Frist ist erforderlich.",
+      "explanation_de": "Einhalten wird als Nomen großgeschrieben und ist neutral.",
+      "explanation_ar": "تُكتب Einhalten بحرف كبير بوصفها اسمًا وتكون محايدة.",
+      "grammarFocus": "nominalized_infinitive",
+      "sourceTopics": [
+        "gr-31"
+      ],
+      "options": [
+        "Das Einhalten der Frist ist erforderlich.",
+        "Die einhalten der Frist ist erforderlich.",
+        "Das eingehalten der Frist ist erforderlich.",
+        "Das Einhalten die Frist ist erforderlich."
+      ]
+    },
+    {
+      "id": "gr40-e002",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Adjektiv nominalisieren",
+      "title_ar": "تحويل الصفة إلى اسم",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Zuverlässigkeit der Daten muss geprüft werden.",
+      "explanation_de": "Das abstrakte Nomen zu zuverlässig lautet Zuverlässigkeit.",
+      "explanation_ar": "الاسم المجرد من zuverlässig هو Zuverlässigkeit.",
+      "grammarFocus": "adjective_nominalization",
+      "sourceTopics": [
+        "gr-31"
+      ],
+      "options": [
+        "Die Zuverlässigkeit der Daten muss geprüft werden.",
+        "Die Zuverlässig der Daten muss geprüft werden.",
+        "Das Zuverlässigkeit die Daten muss geprüft werden.",
+        "Die zuverlässige von Daten muss geprüft werden."
+      ]
+    },
+    {
+      "id": "gr40-e003",
+      "topicId": "gr-40",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Kausalen Nominalstil verbalisieren",
+      "title_ar": "تحويل أسلوب اسمي سببي",
+      "prompt_de": "______ die Angaben unvollständig waren, konnte der Antrag nicht abschließend geprüft werden.",
+      "prompt_ar": "لأن المعلومات كانت غير مكتملة لم يكن من الممكن فحص الطلب نهائيًا.",
+      "answer": "Weil",
+      "explanation_de": "Aufgrund der unvollständigen Angaben wird mit weil oder da verbalisiert.",
+      "explanation_ar": "تُحوّل aufgrund der unvollständigen Angaben باستخدام weil أو da.",
+      "grammarFocus": "causal_verbalization",
+      "sourceTopics": [
+        "gr-32"
+      ],
+      "acceptedAnswers": [
+        "Weil",
+        "Da",
+        "weil",
+        "da"
+      ]
+    },
+    {
+      "id": "gr40-e004",
+      "topicId": "gr-40",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Grundverbindungen",
+      "title_ar": "الروابط الأساسية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "eine Entscheidung treffen": "entscheiden",
+        "einen Antrag stellen": "beantragen",
+        "Kontakt aufnehmen": "kommunizieren",
+        "Stellung nehmen": "eine Position äußern",
+        "in Betracht ziehen": "erwägen"
+      },
+      "explanation_de": "Die festen Verbindungen entsprechen ungefähr den einfachen Verben.",
+      "explanation_ar": "تقابل الروابط الثابتة الأفعال البسيطة بصورة تقريبية.",
+      "grammarFocus": "collocation_matching",
+      "sourceTopics": [
+        "gr-33",
+        "gr-34",
+        "gr-35"
+      ],
+      "pairs": [
+        [
+          "eine Entscheidung treffen",
+          "entscheiden"
+        ],
+        [
+          "einen Antrag stellen",
+          "beantragen"
+        ],
+        [
+          "Kontakt aufnehmen",
+          "kommunizieren"
+        ],
+        [
+          "Stellung nehmen",
+          "eine Position äußern"
+        ],
+        [
+          "in Betracht ziehen",
+          "erwägen"
+        ]
+      ]
+    },
+    {
+      "id": "gr40-e005",
+      "topicId": "gr-40",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Kontakt aufnehmen",
+      "title_ar": "التواصل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Bitte nehmen Sie Kontakt mit der zuständigen Stelle auf.",
+      "explanation_de": "Kontakt aufnehmen verlangt mit + Dativ.",
+      "explanation_ar": "تحتاج Kontakt aufnehmen إلى mit + Dativ.",
+      "grammarFocus": "contact_order",
+      "sourceTopics": [
+        "gr-34"
+      ],
+      "tokens": [
+        "auf",
+        "mit der zuständigen Stelle",
+        "Kontakt",
+        "Bitte nehmen Sie"
+      ],
+      "acceptedAnswers": [
+        "Bitte nehmen Sie Kontakt mit der zuständigen Stelle auf."
+      ]
+    },
+    {
+      "id": "gr40-e006",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Beginn oder Zustand",
+      "title_ar": "البداية أم الحالة",
+      "prompt_de": "Welche Form beschreibt den Beginn eines Druckzustands?",
+      "prompt_ar": "أي صيغة تصف بداية حالة الضغط؟",
+      "answer": "Das Team gerät unter Druck.",
+      "explanation_de": "Geraten markiert den Beginn; stehen beschreibt den bestehenden Zustand.",
+      "explanation_ar": "تدل geraten على البداية، بينما تصف stehen الحالة القائمة.",
+      "grammarFocus": "function_verb_aspect",
+      "sourceTopics": [
+        "gr-35"
+      ],
+      "options": [
+        "Das Team gerät unter Druck.",
+        "Das Team steht unter Druck.",
+        "Die Frist setzt das Team unter Druck.",
+        "Das Team bringt den Druck zur Sprache."
+      ]
+    },
+    {
+      "id": "gr40-e007",
+      "topicId": "gr-40",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Konjunktiv I mit sein",
+      "title_ar": "Konjunktiv I مع sein",
+      "prompt_de": "Der Mitarbeiter sagt, er ______ krank.",
+      "prompt_ar": "يقول الموظف إنه مريض.",
+      "answer": "sei",
+      "explanation_de": "Die eindeutige Konjunktiv-I-Form von sein lautet sei.",
+      "explanation_ar": "صيغة Konjunktiv I الواضحة من sein هي sei.",
+      "grammarFocus": "konj1_present_sein",
+      "sourceTopics": [
+        "gr-36"
+      ],
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "gr40-e008",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vergangenheit der indirekten Rede",
+      "title_ar": "ماضي الكلام المنقول",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Sie erklärt, sie habe den Bericht geschrieben.",
+      "explanation_de": "Vergangenheit Aktiv wird mit habe + Partizip II gebildet.",
+      "explanation_ar": "يُبنى الماضي المعلوم باستخدام habe + Partizip II.",
+      "grammarFocus": "konj1_past",
+      "sourceTopics": [
+        "gr-37"
+      ],
+      "options": [
+        "Sie erklärt, sie habe den Bericht geschrieben.",
+        "Sie erklärt, sie sei den Bericht geschrieben.",
+        "Sie erklärt, sie habe den Bericht schreiben.",
+        "Sie erklärt, sie hat den Bericht geschrieben habe."
+      ]
+    },
+    {
+      "id": "gr40-e009",
+      "topicId": "gr-40",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Verbale Aussage nominalisieren",
+      "title_ar": "تحويل جملة فعلية إلى اسمية",
+      "prompt_de": "Nominalisieren Sie: Die Qualitätsabteilung prüft die Daten regelmäßig.",
+      "prompt_ar": "حوّل الجملة إلى مجموعة اسمية.",
+      "answer": "die regelmäßige Prüfung der Daten durch die Qualitätsabteilung",
+      "explanation_de": "Das Objekt wird zum Genitivattribut; die handelnde Stelle steht mit durch.",
+      "explanation_ar": "يتحول المفعول إلى Genitiv، وتأتي الجهة القائمة بالفعل مع durch.",
+      "grammarFocus": "complex_nominalization",
+      "sourceTopics": [
+        "gr-31"
+      ],
+      "acceptedAnswers": [
+        "die regelmäßige Prüfung der Daten durch die Qualitätsabteilung",
+        "Die regelmäßige Prüfung der Daten durch die Qualitätsabteilung"
+      ]
+    },
+    {
+      "id": "gr40-e010",
+      "topicId": "gr-40",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nominalstil auflösen",
+      "title_ar": "تفكيك الأسلوب الاسمي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Weil sich die Lieferung verzögert hatte, verschob die Projektleitung den Termin.",
+      "explanation_de": "Die kausale Nominalgruppe wird verbalisiert und die verantwortliche Stelle wird genannt.",
+      "explanation_ar": "تُحوّل المجموعة الاسمية السببية ويُذكر المسؤول.",
+      "grammarFocus": "verbalization_with_agent",
+      "sourceTopics": [
+        "gr-32"
+      ],
+      "tokens": [
+        "verschob die Projektleitung den Termin",
+        "Weil sich die Lieferung verzögert hatte"
+      ],
+      "acceptedAnswers": [
+        "Weil sich die Lieferung verzögert hatte, verschob die Projektleitung den Termin."
+      ]
+    },
+    {
+      "id": "gr40-e011",
+      "topicId": "gr-40",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Berufliche Ergänzungen",
+      "title_ar": "المتممات المهنية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Kontakt aufnehmen": "mit + Dativ",
+        "Stellung nehmen": "zu + Dativ",
+        "Bezug nehmen": "auf + Akkusativ",
+        "Kritik üben": "an + Dativ",
+        "Verhandlungen führen": "mit + Dativ über + Akkusativ"
+      },
+      "explanation_de": "Präposition und Kasus gehören fest zur Verbindung.",
+      "explanation_ar": "يكون حرف الجر والحالة جزءًا ثابتًا من الرابط.",
+      "grammarFocus": "professional_complements",
+      "sourceTopics": [
+        "gr-33",
+        "gr-34"
+      ],
+      "pairs": [
+        [
+          "Kontakt aufnehmen",
+          "mit + Dativ"
+        ],
+        [
+          "Stellung nehmen",
+          "zu + Dativ"
+        ],
+        [
+          "Bezug nehmen",
+          "auf + Akkusativ"
+        ],
+        [
+          "Kritik üben",
+          "an + Dativ"
+        ],
+        [
+          "Verhandlungen führen",
+          "mit + Dativ über + Akkusativ"
+        ]
+      ]
+    },
+    {
+      "id": "gr40-e012",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Thema oder Handelnder",
+      "title_ar": "الموضوع أم الفاعل",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Die Kollegin brachte das Problem zur Sprache“ betont die Kollegin; „das Problem kam zur Sprache“ betont das Thema.",
+      "explanation_de": "Bringen fokussiert den Handelnden, kommen das Thema beziehungsweise den Vorgang.",
+      "explanation_ar": "تركز bringen على الفاعل، بينما تركز kommen على الموضوع أو الإجراء.",
+      "grammarFocus": "function_verb_focus",
+      "sourceTopics": [
+        "gr-35"
+      ],
+      "options": [
+        "„Die Kollegin brachte das Problem zur Sprache“ betont die Kollegin; „das Problem kam zur Sprache“ betont das Thema.",
+        "Beide Formen haben immer dasselbe Subjekt und dieselbe Perspektive.",
+        "Zur Sprache kommen braucht ein Akkusativobjekt.",
+        "Zur Sprache bringen darf kein handelndes Subjekt haben."
+      ]
+    },
+    {
+      "id": "gr40-e013",
+      "topicId": "gr-40",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle E-Mail",
+      "title_ar": "بريد رسمي",
+      "prompt_de": "Welche Formulierung passt am besten in eine formelle E-Mail?",
+      "prompt_ar": "أي صياغة تناسب بريدًا رسميًا؟",
+      "answer": "Unter Bezugnahme auf unser Gespräch bitten wir Sie um eine Rückmeldung bis Freitag.",
+      "explanation_de": "Die Formulierung verwendet feste berufliche Verbindungen präzise und sachlich.",
+      "explanation_ar": "تستخدم الصياغة روابط مهنية ثابتة بدقة وموضوعية.",
+      "grammarFocus": "formal_email_collocations",
+      "sourceTopics": [
+        "gr-33",
+        "gr-34"
+      ],
+      "options": [
+        "Unter Bezugnahme auf unser Gespräch bitten wir Sie um eine Rückmeldung bis Freitag.",
+        "Wegen Gespräch machen Sie uns Freitag eine Antwort.",
+        "Wir nehmen Gespräch und wollen Rückmeldung machen.",
+        "Bezug bei Gespräch, geben Sie wir Antwort."
+      ]
+    },
+    {
+      "id": "gr40-e014",
+      "topicId": "gr-40",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Vergangenes Passiv",
+      "title_ar": "المبني للمجهول الماضي",
+      "prompt_de": "Die Behörde teilt mit, der Antrag ______ vollständig geprüft worden.",
+      "prompt_ar": "تبلغ الجهة بأن الطلب قد تمت مراجعته بالكامل.",
+      "answer": "sei",
+      "explanation_de": "Das vergangene Passiv lautet sei + Partizip II + worden.",
+      "explanation_ar": "يكون الماضي المبني للمجهول sei + Partizip II + worden.",
+      "grammarFocus": "past_passive",
+      "sourceTopics": [
+        "gr-37"
+      ],
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "gr40-e015",
+      "topicId": "gr-40",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Zukunft Passiv",
+      "title_ar": "المستقبل المبني للمجهول",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Behörde erklärt, der Antrag werde in der folgenden Woche geprüft werden.",
+      "explanation_de": "Zukunft Passiv lautet werde + Partizip II + werden.",
+      "explanation_ar": "يكون المستقبل المبني للمجهول werde + Partizip II + werden.",
+      "grammarFocus": "future_passive_order",
+      "sourceTopics": [
+        "gr-37",
+        "gr-38"
+      ],
+      "tokens": [
+        "in der folgenden Woche geprüft werden",
+        "der Antrag werde",
+        "Die Behörde erklärt"
+      ],
+      "acceptedAnswers": [
+        "Die Behörde erklärt, der Antrag werde in der folgenden Woche geprüft werden."
+      ]
+    },
+    {
+      "id": "gr40-e016",
+      "topicId": "gr-40",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Pronomen, Zeit und Ort",
+      "title_ar": "الضمائر والزمن والمكان",
+      "prompt_de": "Formen Sie um: Frau Berger sagte am Dienstag: „Ich habe meine Unterlagen gestern hier abgegeben.“",
+      "prompt_ar": "حوّل إلى كلام منقول.",
+      "answer": "Frau Berger sagte am Dienstag, sie habe ihre Unterlagen am Vortag dort abgegeben.",
+      "explanation_de": "Ich, meine, gestern und hier werden an die neue Perspektive angepasst.",
+      "explanation_ar": "تُعدّل ich وmeine وgestern وhier وفق المنظور الجديد.",
+      "grammarFocus": "pronoun_time_place_shift",
+      "sourceTopics": [
+        "gr-36",
+        "gr-37",
+        "gr-38"
+      ],
+      "acceptedAnswers": [
+        "Frau Berger sagte am Dienstag, sie habe ihre Unterlagen am Vortag dort abgegeben."
+      ]
+    },
+    {
+      "id": "gr40-e017",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Ersatzform im Plural",
+      "title_ar": "الصيغة البديلة في الجمع",
+      "prompt_de": "Welche Form passt in ein formelles Protokoll?",
+      "prompt_ar": "أي صيغة تناسب محضرًا رسميًا؟",
+      "answer": "Die Beschäftigten erklären, sie hätten ausreichend Zeit.",
+      "explanation_de": "Haben ist im Plural mit dem Indikativ identisch; hätten markiert die indirekte Rede eindeutig.",
+      "explanation_ar": "تتطابق haben في الجمع مع Indikativ، لذلك توضح hätten الكلام المنقول.",
+      "grammarFocus": "replacement_konjunktiv",
+      "sourceTopics": [
+        "gr-39"
+      ],
+      "options": [
+        "Die Beschäftigten erklären, sie hätten ausreichend Zeit.",
+        "Die Beschäftigten erklären, sie haben ausreichend Zeit.",
+        "Die Beschäftigten erklären, sie habe ausreichend Zeit.",
+        "Die Beschäftigten erklären, sie würden ausreichend Zeit hätten."
+      ]
+    },
+    {
+      "id": "gr40-e018",
+      "topicId": "gr-40",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Bestätigte Tatsache",
+      "title_ar": "حقيقة مؤكدة",
+      "prompt_de": "Personalabteilung: „Der Termin ist endgültig bestätigt.“ Welche sachliche Wiedergabe ist passend?",
+      "prompt_ar": "قسم الموارد البشرية: «تم تأكيد الموعد نهائيًا». أي نقل موضوعي مناسب؟",
+      "answer": "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+      "explanation_de": "Nach bestätigen kann der Indikativ stehen, weil die Information als gesichert dargestellt wird.",
+      "explanation_ar": "بعد bestätigen يمكن استخدام Indikativ لأن المعلومة معروضة بوصفها مؤكدة.",
+      "grammarFocus": "confirmed_indicative",
+      "sourceTopics": [
+        "gr-39"
+      ],
+      "options": [
+        "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+        "Die Personalabteilung behauptet, der Termin fände angeblich am Montag statt.",
+        "Die Personalabteilung bestätigt, der Termin würde vielleicht stattfinden.",
+        "Die Personalabteilung bestätigt, der Termin sei möglicherweise nicht bestätigt."
+      ]
+    },
+    {
+      "id": "gr40-e019",
+      "topicId": "gr-40",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "In Kraft treten",
+      "title_ar": "دخول حيز التنفيذ",
+      "prompt_de": "Die Behörde bestätigt, dass die neue Regelung am 1. Oktober in Kraft ______.",
+      "prompt_ar": "تؤكد الجهة أن النظام الجديد يدخل حيز التنفيذ في الأول من أكتوبر.",
+      "answer": "tritt",
+      "explanation_de": "Ohne aktiven Verursacher lautet die Verbindung in Kraft treten.",
+      "explanation_ar": "من دون فاعل يسبب التنفيذ نستخدم in Kraft treten.",
+      "grammarFocus": "in_kraft_treten",
+      "sourceTopics": [
+        "gr-34",
+        "gr-39"
+      ],
+      "acceptedAnswers": [
+        "tritt"
+      ]
+    },
+    {
+      "id": "gr40-e020",
+      "topicId": "gr-40",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Drei berufliche Handlungen",
+      "title_ar": "ثلاثة إجراءات مهنية",
+      "prompt_de": "Formulieren Sie mit Nomen-Verb-Verbindungen: Die Leitung entscheidet, beauftragt die Fachstelle und informiert das Team.",
+      "prompt_ar": "أعد الصياغة باستخدام روابط الاسم والفعل.",
+      "answer": "Die Leitung trifft eine Entscheidung, erteilt der Fachstelle einen Auftrag und gibt dem Team Bescheid.",
+      "explanation_de": "Die drei einfachen Verben werden durch feste berufliche Verbindungen ersetzt.",
+      "explanation_ar": "تُستبدل الأفعال الثلاثة بروابط مهنية ثابتة.",
+      "grammarFocus": "multiple_collocations",
+      "sourceTopics": [
+        "gr-33",
+        "gr-34"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung trifft eine Entscheidung, erteilt der Fachstelle einen Auftrag und gibt dem Team Bescheid."
+      ]
+    },
+    {
+      "id": "gr40-e021",
+      "topicId": "gr-40",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nominalisierung und Funktionsverb",
+      "title_ar": "التحويل الاسمي والفعل الوظيفي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Einführung des neuen Verfahrens brachte die Umstellung schrittweise in Gang.",
+      "explanation_de": "Einführung ist eine Nominalisierung; in Gang bringen beschreibt aktive Verursachung.",
+      "explanation_ar": "Einführung تحويل اسمي، وتصف in Gang bringen التسبب الفعلي.",
+      "grammarFocus": "nominalization_function_verb",
+      "sourceTopics": [
+        "gr-31",
+        "gr-35"
+      ],
+      "tokens": [
+        "schrittweise in Gang",
+        "brachte die Umstellung",
+        "Die Einführung des neuen Verfahrens"
+      ],
+      "acceptedAnswers": [
+        "Die Einführung des neuen Verfahrens brachte die Umstellung schrittweise in Gang."
+      ]
+    },
+    {
+      "id": "gr40-e022",
+      "topicId": "gr-40",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Quellenbericht",
+      "title_ar": "تقرير موضوعي عن المصادر",
+      "prompt_de": "Welche Formulierung unterscheidet Behauptung und bestätigte Tatsache korrekt?",
+      "prompt_ar": "أي صياغة تميز بصورة صحيحة بين الادعاء والحقيقة المؤكدة؟",
+      "answer": "Der Anbieter erklärt, das System sei sicher. Die Behörde bestätigt, dass alle vorgeschriebenen Prüfungen abgeschlossen sind.",
+      "explanation_de": "Konjunktiv I markiert die Anbieterangabe; der Indikativ steht bei der bestätigten Information.",
+      "explanation_ar": "يحدد Konjunktiv I قول المزوّد، ويأتي Indikativ مع المعلومة المؤكدة.",
+      "grammarFocus": "source_status_contrast",
+      "sourceTopics": [
+        "gr-36",
+        "gr-37",
+        "gr-39"
+      ],
+      "options": [
+        "Der Anbieter erklärt, das System sei sicher. Die Behörde bestätigt, dass alle vorgeschriebenen Prüfungen abgeschlossen sind.",
+        "Der Anbieter bestätigt, das System wäre angeblich sicher. Die Behörde behauptet, die Prüfungen sind vielleicht abgeschlossen.",
+        "Der Anbieter erklärt, das System ist sicher und wahr. Die Behörde bestätigt, die Prüfungen seien angeblich offen.",
+        "Der Anbieter sagt, das System sein sicher. Die Behörde bestätigt, dass die Prüfungen abgeschlossen seien vielleicht."
+      ]
+    },
+    {
+      "id": "gr40-e023",
+      "topicId": "gr-40",
+      "type": "matching",
+      "difficulty": "hard",
+      "title_de": "Komplexe Entscheidungsmatrix",
+      "title_ar": "مصفوفة قرار معقدة",
+      "prompt_de": "Ordnen Sie jede Situation der passendsten Form zu.",
+      "prompt_ar": "صِل كل حالة بالصيغة الأنسب.",
+      "answer": {
+        "kompakte Bezeichnung einer Prüfung": "Nominalisierung",
+        "Verantwortliche Stelle klar nennen": "Aktivsatz",
+        "aktive Verursachung eines Prozessbeginns": "in Gang bringen",
+        "eindeutige indirekte Rede, Singular": "Konjunktiv I",
+        "identische Pluralform": "Konjunktiv II oder würde-Form",
+        "offiziell bestätigte Tatsache": "Indikativ möglich"
+      },
+      "explanation_de": "Die Lösung hängt von Stil, Perspektive, Eindeutigkeit und Quellenstatus ab.",
+      "explanation_ar": "يعتمد الحل على الأسلوب والمنظور والوضوح وحالة المصدر.",
+      "grammarFocus": "phase4_decision_matrix",
+      "sourceTopics": [
+        "gr-31",
+        "gr-32",
+        "gr-35",
+        "gr-36",
+        "gr-39"
+      ],
+      "pairs": [
+        [
+          "kompakte Bezeichnung einer Prüfung",
+          "Nominalisierung"
+        ],
+        [
+          "Verantwortliche Stelle klar nennen",
+          "Aktivsatz"
+        ],
+        [
+          "aktive Verursachung eines Prozessbeginns",
+          "in Gang bringen"
+        ],
+        [
+          "eindeutige indirekte Rede, Singular",
+          "Konjunktiv I"
+        ],
+        [
+          "identische Pluralform",
+          "Konjunktiv II oder würde-Form"
+        ],
+        [
+          "offiziell bestätigte Tatsache",
+          "Indikativ möglich"
+        ]
+      ]
+    },
+    {
+      "id": "gr40-e024",
+      "topicId": "gr-40",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Nominalstil und Berichtssprache",
+      "title_ar": "الأسلوب الاسمي ولغة التقرير",
+      "prompt_de": "Formulieren Sie sachlich: Wegen der Prüfung der Daten durch die IT-Abteilung wurde die Freigabe verzögert. Die IT-Abteilung sagt: „Wir haben mehrere Fehler gefunden.“",
+      "prompt_ar": "أعد الصياغة بصورة واضحة وموضوعية.",
+      "answer": "Weil die IT-Abteilung die Daten prüfte, verzögerte sich die Freigabe. Die IT-Abteilung erklärt, sie habe mehrere Fehler gefunden.",
+      "explanation_de": "Der erste Satz wird verbalisiert; die zweite Aussage steht in indirekter Rede.",
+      "explanation_ar": "تُحوّل الجملة الأولى إلى أسلوب فعلي، ويأتي القول الثاني في الكلام المنقول.",
+      "grammarFocus": "verbalization_indirect_report",
+      "sourceTopics": [
+        "gr-32",
+        "gr-36",
+        "gr-37",
+        "gr-39"
+      ],
+      "acceptedAnswers": [
+        "Weil die IT-Abteilung die Daten prüfte, verzögerte sich die Freigabe. Die IT-Abteilung erklärt, sie habe mehrere Fehler gefunden."
+      ]
+    },
+    {
+      "id": "gr40-e025",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Vollständig korrekte Form",
+      "title_ar": "صيغة صحيحة بالكامل",
+      "prompt_de": "Welche Formulierung ist vollständig korrekt?",
+      "prompt_ar": "أي صياغة صحيحة بالكامل؟",
+      "answer": "Die Beschäftigten erklärten, die kurze Frist habe sie unter Druck gesetzt und sie hätten deshalb zusätzliche Unterstützung benötigt.",
+      "explanation_de": "Habe markiert die singularische Ursache, sie ist Akkusativobjekt, und hätten ist die eindeutige Pluralersatzform.",
+      "explanation_ar": "تحدد habe السبب المفرد، ويأتي sie مفعولًا، وتكون hätten الصيغة البديلة الواضحة للجمع.",
+      "grammarFocus": "complex_indirect_function_verb",
+      "sourceTopics": [
+        "gr-35",
+        "gr-37",
+        "gr-38",
+        "gr-39"
+      ],
+      "options": [
+        "Die Beschäftigten erklärten, die kurze Frist habe sie unter Druck gesetzt und sie hätten deshalb zusätzliche Unterstützung benötigt.",
+        "Die Beschäftigten erklärten, die kurze Frist hätte ihnen unter Druck gestanden und sie haben Unterstützung gebraucht.",
+        "Die Beschäftigten erklärten, die Frist sei sie unter Druck gesetzt und sie würde Unterstützung hätten.",
+        "Die Beschäftigten erklärten, die Frist habe unter Druck geraten und ihnen hätte Unterstützung."
+      ]
+    },
+    {
+      "id": "gr40-e026",
+      "topicId": "gr-40",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Bericht",
+      "title_ar": "تقرير معقد",
+      "prompt_de": "Ordnen Sie den Text.",
+      "prompt_ar": "رتب النص.",
+      "answer": "Die Leitung nahm den Bericht zur Kenntnis und erklärte, die vorgeschlagenen Maßnahmen seien sinnvoll. Die Teams teilten jedoch mit, sie würden für die Umsetzung mehr Zeit benötigen.",
+      "explanation_de": "Der Text kombiniert eine berufliche Verbindung, eindeutigen Konjunktiv I und eine Pluralersatzform.",
+      "explanation_ar": "يجمع النص بين رابط مهني وKonjunktiv I واضح وصيغة بديلة في الجمع.",
+      "grammarFocus": "complex_report_order",
+      "sourceTopics": [
+        "gr-34",
+        "gr-36",
+        "gr-39"
+      ],
+      "tokens": [
+        "Die Teams teilten jedoch mit, sie würden für die Umsetzung mehr Zeit benötigen",
+        "und erklärte, die vorgeschlagenen Maßnahmen seien sinnvoll",
+        "Die Leitung nahm den Bericht zur Kenntnis"
+      ],
+      "acceptedAnswers": [
+        "Die Leitung nahm den Bericht zur Kenntnis und erklärte, die vorgeschlagenen Maßnahmen seien sinnvoll. Die Teams teilten jedoch mit, sie würden für die Umsetzung mehr Zeit benötigen."
+      ]
+    },
+    {
+      "id": "gr40-e027",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Drei Quellen unterscheiden",
+      "title_ar": "التمييز بين ثلاثة مصادر",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Eine Behauptung kann im Konjunktiv stehen, eine bestätigte Tatsache im Indikativ und eine identische Pluralform in einer eindeutigen Ersatzform.",
+      "explanation_de": "Die Formwahl richtet sich nach Quellenstatus und grammatischer Eindeutigkeit.",
+      "explanation_ar": "يعتمد اختيار الصيغة على حالة المصدر والوضوح النحوي.",
+      "grammarFocus": "source_and_form_choice",
+      "sourceTopics": [
+        "gr-36",
+        "gr-39"
+      ],
+      "options": [
+        "Eine Behauptung kann im Konjunktiv stehen, eine bestätigte Tatsache im Indikativ und eine identische Pluralform in einer eindeutigen Ersatzform.",
+        "Jede indirekte Rede muss unabhängig vom Kontext im Indikativ stehen.",
+        "Konjunktiv II beweist immer, dass eine Quelle lügt.",
+        "Bestätigte Tatsachen müssen mit angeblich und Konjunktiv II wiedergegeben werden."
+      ]
+    },
+    {
+      "id": "gr40-e028",
+      "topicId": "gr-40",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexen Perspektivwechsel durchführen",
+      "title_ar": "تنفيذ تغيير منظور معقد",
+      "prompt_de": "Formen Sie um: Frau Keller sagte am Montag zu Herrn Roth: „Ich habe Ihnen gestern hier meine Unterlagen gezeigt. Morgen werde ich mit meinem Team Kontakt zu Ihrer Abteilung aufnehmen.“",
+      "prompt_ar": "حوّل إلى كلام منقول واضح.",
+      "answer": "Frau Keller sagte am Montag, sie habe Herrn Roth am Vortag dort ihre Unterlagen gezeigt. Am nächsten Tag werde sie mit ihrem Team Kontakt mit seiner Abteilung aufnehmen.",
+      "explanation_de": "Personal-, Possessiv-, Dativ-, Zeit- und Ortsbezüge sowie die feste Präposition mit werden angepasst.",
+      "explanation_ar": "تُعدّل ضمائر الشخص والملكية وDativ والزمن والمكان، ويُستخدم حرف الجر الثابت mit.",
+      "grammarFocus": "full_perspective_collocation_shift",
+      "sourceTopics": [
+        "gr-34",
+        "gr-36",
+        "gr-37",
+        "gr-38"
+      ],
+      "acceptedAnswers": [
+        "Frau Keller sagte am Montag, sie habe Herrn Roth am Vortag dort ihre Unterlagen gezeigt. Am nächsten Tag werde sie mit ihrem Team Kontakt mit seiner Abteilung aufnehmen."
+      ]
+    },
+    {
+      "id": "gr40-e029",
+      "topicId": "gr-40",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Stilistisch ausgewogener Absatz",
+      "title_ar": "فقرة متوازنة أسلوبيًا",
+      "prompt_de": "Welche Formulierung ist grammatisch korrekt und stilistisch ausgewogen?",
+      "prompt_ar": "أي صياغة صحيحة نحويًا ومتوازنة أسلوبيًا؟",
+      "answer": "Die Einführung des Systems beginnt im Oktober. Zunächst schult die IT-Abteilung alle Beschäftigten. Die Leitung erklärt, dadurch werde die Umstellung schrittweise in Gang gebracht.",
+      "explanation_de": "Nominalstil benennt das Thema, Verbalstil erklärt den Ablauf und indirekte Rede gibt die Bewertung distanziert wieder.",
+      "explanation_ar": "يسمي الأسلوب الاسمي الموضوع، ويشرح الأسلوب الفعلي الإجراء، وينقل الكلام التقييم بمسافة موضوعية.",
+      "grammarFocus": "balanced_phase4_style",
+      "sourceTopics": [
+        "gr-31",
+        "gr-32",
+        "gr-35",
+        "gr-36"
+      ],
+      "options": [
+        "Die Einführung des Systems beginnt im Oktober. Zunächst schult die IT-Abteilung alle Beschäftigten. Die Leitung erklärt, dadurch werde die Umstellung schrittweise in Gang gebracht.",
+        "Die Einführung, die Schulung und das in Gang Machen wird Oktober durchgeführt.",
+        "Das System einführen im Oktober, IT schult, Leitung sagt, es wird Gang machen.",
+        "Die Einführung des Systems beginnt im Oktober, weil die Leitung erkläre dadurch in Gang bringen."
+      ]
+    },
+    {
+      "id": "gr40-e030",
+      "topicId": "gr-40",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Phase 4",
+      "title_ar": "التدريب الختامي للمرحلة الرابعة",
+      "prompt_de": "Schreiben Sie einen zusammenhängenden beruflichen Bericht mit mindestens zwanzig Sätzen über ein Projekt, eine Beschwerde oder eine betriebliche Veränderung. Verbinden Sie alle Inhalte aus gr-31 bis gr-39.",
+      "prompt_ar": "اكتب تقريرًا مهنيًا مترابطًا من عشرين جملة على الأقل عن مشروع أو شكوى أو تغيير داخل مؤسسة. ادمج جميع موضوعات gr-31 حتى gr-39.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Nominalisierungen aus gr-31",
+          "mindestens drei klare Verbalisierungen aus gr-32",
+          "mindestens fünf Nomen-Verb-Verbindungen aus gr-33 und gr-34",
+          "mindestens vier Funktionsverbgefüge mit Bedeutungsnuancen aus gr-35",
+          "mindestens vier Konjunktiv-I-Formen der Gegenwart aus gr-36",
+          "mindestens drei Vergangenheits- und zwei Zukunftsformen aus gr-37",
+          "mindestens vier angepasste Pronomen sowie vier Zeit- oder Ortsangaben aus gr-38",
+          "mindestens drei Ersatzformen und zwei bestätigte Indikativsätze aus gr-39",
+          "mindestens drei Passivsätze",
+          "klarer Quellenstatus, korrekte Kasus und ausgewogener Stil"
+        ]
+      },
+      "explanation_de": "Prüfen Sie Wortbildung, feste Verbindungen, Bedeutungsnuancen, Zeitstufen, Perspektive, Quellenstatus und Stil.",
+      "explanation_ar": "راجع اشتقاق الكلمات والروابط الثابتة وفروق المعنى والأزمنة والمنظور وحالة المصدر والأسلوب.",
+      "grammarFocus": "phase4_full_review",
+      "sourceTopics": [
+        "gr-31",
+        "gr-32",
+        "gr-33",
+        "gr-34",
+        "gr-35",
+        "gr-36",
+        "gr-37",
+        "gr-38",
+        "gr-39"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

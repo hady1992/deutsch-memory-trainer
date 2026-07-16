@@ -1,0 +1,434 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-46",
+  "slug": "gr-46-passiv-mit-modalverben",
+  "order": 46,
+  "title_de": "Passiv mit Modalverben",
+  "title_ar": "المبني للمجهول مع الأفعال الناقصة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 75,
+  "learningObjectives_de": [
+    "Das Passiv mit Modalverben im Präsens und Präteritum korrekt bilden.",
+    "Die Passivgruppe Partizip II + werden sicher verwenden.",
+    "Modalbedeutungen wie Pflicht, Möglichkeit, Erlaubnis und Empfehlung unterscheiden.",
+    "Aktivsätze mit Modalverb in Passivsätze umformen.",
+    "Perfekt und Plusquamperfekt mit Ersatzinfinitiv bilden.",
+    "Futurformen mit Modalverb und Passiv korrekt verwenden.",
+    "Die Wortstellung in Haupt- und Nebensätzen beherrschen.",
+    "Prozesspassiv und Zustandsaussage mit Modalverb unterscheiden.",
+    "Passiv mit Modalverben in beruflichen Anweisungen und Berichten angemessen verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين المبني للمجهول مع الأفعال الناقصة في Präsens وPräteritum.",
+    "استخدام مجموعة Partizip II + werden بصورة صحيحة.",
+    "التمييز بين معاني الإلزام والإمكان والسماح والتوصية.",
+    "تحويل الجمل المعلومة مع فعل ناقص إلى جمل مجهولة.",
+    "تكوين Perfekt وPlusquamperfekt باستخدام Ersatzinfinitiv.",
+    "استخدام صيغ المستقبل مع الفعل الناقص والمبني للمجهول.",
+    "إتقان ترتيب الكلمات في الجملة الرئيسية والفرعية.",
+    "التمييز بين الإجراء المجهول والحالة مع فعل ناقص.",
+    "استخدام المبني للمجهول مع الأفعال الناقصة في التعليمات والتقارير المهنية."
+  ],
+  "shortDescription_de": "Beim Passiv mit Modalverb steht das Modalverb konjugiert und die Passivgruppe Partizip II + werden am Satzende: Der Antrag muss geprüft werden.",
+  "shortDescription_ar": "في المبني للمجهول مع فعل ناقص يأتي الفعل الناقص مصرفًا، وتأتي مجموعة Partizip II + werden في نهاية الجملة: Der Antrag muss geprüft werden.",
+  "explanation_de": "Das Passiv mit Modalverben verbindet eine modale Bedeutung mit einem passiven Vorgang. Im Präsens lautet die Grundstruktur: Subjekt + konjugiertes Modalverb + Partizip II + werden. Beispiel: Der Antrag muss geprüft werden. Im Präteritum verändert sich nur das Modalverb: Der Antrag musste geprüft werden. Das Partizip II und der Infinitiv werden bleiben zusammen am Satzende. Die wichtigsten Bedeutungen sind: müssen für Pflicht oder Notwendigkeit, können für Möglichkeit, dürfen für Erlaubnis oder Verbot, sollen für Auftrag, Empfehlung oder Erwartung. Bei der Umformung vom Aktiv ins Passiv wird das Akkusativobjekt zum Subjekt: Die Behörde muss den Antrag prüfen → Der Antrag muss von der Behörde geprüft werden. Im Nebensatz steht das konjugierte Modalverb am Ende: ..., weil der Antrag geprüft werden muss. Im Perfekt steht wegen des Ersatzinfinitivs keine Form wie gemusst, sondern: Der Antrag hat geprüft werden müssen. Im Plusquamperfekt lautet die Form: Der Antrag hatte geprüft werden müssen. Im Futur I: Der Antrag wird geprüft werden müssen. Wichtig ist auch der Bedeutungsunterschied zwischen Vorgang und Zustand: Die Tür muss geschlossen werden bedeutet, dass der Schließvorgang notwendig ist. Die Tür muss geschlossen sein beschreibt den erforderlichen Zustand. Nicht müssen bedeutet keine Pflicht; nicht dürfen bedeutet ein Verbot. In formellen Texten eignet sich das Passiv mit Modalverben besonders für Regeln, Anweisungen, Verfahrensbeschreibungen und sachliche Empfehlungen.",
+  "explanation_ar": "يجمع المبني للمجهول مع الأفعال الناقصة بين معنى ناقص وإجراء مجهول. وتكون البنية الأساسية في Präsens: الفاعل النحوي + الفعل الناقص المصرف + Partizip II + werden. مثال: Der Antrag muss geprüft werden. وفي Präteritum يتغير الفعل الناقص فقط: Der Antrag musste geprüft werden. وتبقى مجموعة Partizip II + werden في نهاية الجملة. ومن أهم المعاني: müssen للإلزام أو الضرورة، وkönnen للإمكان، وdürfen للسماح أو المنع، وsollen للتكليف أو التوصية أو التوقع. وعند التحويل من المعلوم إلى المجهول يصبح مفعول Akkusativ فاعلًا نحويًا: Die Behörde muss den Antrag prüfen ← Der Antrag muss von der Behörde geprüft werden. وفي الجملة الفرعية يأتي الفعل الناقص المصرف في النهاية: ..., weil der Antrag geprüft werden muss. وفي Perfekt نستخدم Ersatzinfinitiv بدل gemusst، فنقول: Der Antrag hat geprüft werden müssen. وفي Plusquamperfekt: Der Antrag hatte geprüft werden müssen. وفي Futur I: Der Antrag wird geprüft werden müssen. ويجب التمييز بين الإجراء والحالة: Die Tür muss geschlossen werden تعني أن إجراء الإغلاق ضروري، أما Die Tür muss geschlossen sein فتصف الحالة المطلوبة. وتعني nicht müssen عدم وجود إلزام، بينما تعني nicht dürfen المنع. ويناسب هذا التركيب القواعد والتعليمات ووصف الإجراءات والتوصيات الموضوعية.",
+  "rules": [
+    {
+      "id": "gr46-r01",
+      "title_de": "Grundform im Präsens",
+      "title_ar": "الصيغة الأساسية في Präsens",
+      "explanation_de": "Das Modalverb wird konjugiert; Partizip II + werden steht am Satzende.",
+      "explanation_ar": "يُصرف الفعل الناقص، وتأتي Partizip II + werden في نهاية الجملة.",
+      "formula": "Modalverb + Partizip II + werden",
+      "examples": [
+        {
+          "de": "Der Antrag muss geprüft werden.",
+          "ar": "يجب مراجعة الطلب."
+        },
+        {
+          "de": "Die Datei kann geöffnet werden.",
+          "ar": "يمكن فتح الملف."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r02",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "explanation_de": "Das Modalverb steht im Präteritum; die Passivgruppe bleibt unverändert.",
+      "explanation_ar": "يأتي الفعل الناقص في Präteritum، وتبقى مجموعة المبني للمجهول كما هي.",
+      "formula": "musste / konnte / durfte / sollte + Partizip II + werden",
+      "examples": [
+        {
+          "de": "Der Termin musste verschoben werden.",
+          "ar": "كان لا بد من تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r03",
+      "title_de": "Müssen",
+      "title_ar": "müssen",
+      "explanation_de": "Müssen drückt Pflicht, Notwendigkeit oder zwingende Voraussetzung aus.",
+      "explanation_ar": "تعبّر müssen عن الإلزام أو الضرورة أو الشرط الإجباري.",
+      "formula": "muss geprüft werden",
+      "examples": [
+        {
+          "de": "Alle Nachweise müssen vollständig eingereicht werden.",
+          "ar": "يجب تقديم جميع الإثباتات كاملة."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r04",
+      "title_de": "Können",
+      "title_ar": "können",
+      "explanation_de": "Können drückt Möglichkeit oder technische Durchführbarkeit aus.",
+      "explanation_ar": "تعبّر können عن الإمكان أو القابلية التقنية للتنفيذ.",
+      "formula": "kann bearbeitet werden",
+      "examples": [
+        {
+          "de": "Der Vorgang kann online bearbeitet werden.",
+          "ar": "يمكن معالجة الإجراء عبر الإنترنت."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r05",
+      "title_de": "Dürfen",
+      "title_ar": "dürfen",
+      "explanation_de": "Dürfen drückt Erlaubnis aus; nicht dürfen bezeichnet ein Verbot.",
+      "explanation_ar": "تعبّر dürfen عن السماح، وتعني nicht dürfen المنع.",
+      "formula": "darf geöffnet werden | darf nicht geöffnet werden",
+      "examples": [
+        {
+          "de": "Der Raum darf nur mit Genehmigung betreten werden.",
+          "ar": "لا يجوز دخول الغرفة إلا بإذن."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r06",
+      "title_de": "Sollen",
+      "title_ar": "sollen",
+      "explanation_de": "Sollen kann Auftrag, Empfehlung, Plan oder Erwartung ausdrücken.",
+      "explanation_ar": "قد تعبّر sollen عن التكليف أو التوصية أو الخطة أو التوقع.",
+      "formula": "soll aktualisiert werden",
+      "examples": [
+        {
+          "de": "Das System soll bis Freitag aktualisiert werden.",
+          "ar": "من المفترض تحديث النظام حتى الجمعة."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r07",
+      "title_de": "Aktiv zu Passiv",
+      "title_ar": "من المعلوم إلى المجهول",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; das Agens kann mit von genannt werden.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا، ويمكن ذكر الفاعل باستخدام von.",
+      "formula": "Die Behörde muss den Antrag prüfen → Der Antrag muss von der Behörde geprüft werden",
+      "examples": [
+        {
+          "de": "Die IT kann das Problem lösen. → Das Problem kann von der IT gelöst werden.",
+          "ar": "يمكن لقسم التقنية حل المشكلة. ← يمكن حل المشكلة من قسم التقنية."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r08",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص المصرف في نهاية الجملة الفرعية.",
+      "formula": "..., weil der Antrag geprüft werden muss",
+      "examples": [
+        {
+          "de": "Die Frist wurde verlängert, weil der Antrag erneut geprüft werden musste.",
+          "ar": "تم تمديد المهلة لأن الطلب كان يجب فحصه مجددًا."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r09",
+      "title_de": "Perfekt mit Ersatzinfinitiv",
+      "title_ar": "Perfekt مع Ersatzinfinitiv",
+      "explanation_de": "Im Perfekt steht haben + Partizip II + werden + Modalinfinitiv.",
+      "explanation_ar": "في Perfekt نستخدم haben + Partizip II + werden + مصدر الفعل الناقص.",
+      "formula": "hat geprüft werden müssen",
+      "examples": [
+        {
+          "de": "Der Antrag hat erneut geprüft werden müssen.",
+          "ar": "اضطر الأمر إلى مراجعة الطلب مرة أخرى."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r10",
+      "title_de": "Plusquamperfekt und Futur",
+      "title_ar": "Plusquamperfekt والمستقبل",
+      "explanation_de": "Plusquamperfekt verwendet hatte; Futur I verwendet wird vor der Passiv-Modalgruppe.",
+      "explanation_ar": "يستخدم Plusquamperfekt الفعل hatte، ويستخدم Futur I الفعل wird قبل مجموعة المبني للمجهول مع الفعل الناقص.",
+      "formula": "hatte geprüft werden müssen | wird geprüft werden müssen",
+      "examples": [
+        {
+          "de": "Die Anlage hatte abgeschaltet werden müssen.",
+          "ar": "كان لا بد من إيقاف المنشأة."
+        },
+        {
+          "de": "Die Anlage wird erneut geprüft werden müssen.",
+          "ar": "سيتعين فحص المنشأة مجددًا."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r11",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "إجراء أم حالة",
+      "explanation_de": "Werden beschreibt den notwendigen Vorgang; sein den erforderlichen Zustand.",
+      "explanation_ar": "تصف werden الإجراء المطلوب، بينما تصف sein الحالة المطلوبة.",
+      "formula": "muss geschlossen werden ↔ muss geschlossen sein",
+      "examples": [
+        {
+          "de": "Die Tür muss um 18 Uhr geschlossen werden.",
+          "ar": "يجب إغلاق الباب الساعة السادسة."
+        },
+        {
+          "de": "Die Tür muss um 18 Uhr geschlossen sein.",
+          "ar": "يجب أن يكون الباب مغلقًا الساعة السادسة."
+        }
+      ]
+    },
+    {
+      "id": "gr46-r12",
+      "title_de": "Nicht müssen und nicht dürfen",
+      "title_ar": "nicht müssen وnicht dürfen",
+      "explanation_de": "Nicht müssen bedeutet keine Pflicht; nicht dürfen bedeutet Verbot.",
+      "explanation_ar": "تعني nicht müssen عدم وجود إلزام، بينما تعني nicht dürfen المنع.",
+      "formula": "muss nicht ausgefüllt werden ≠ darf nicht ausgefüllt werden",
+      "examples": [
+        {
+          "de": "Das Feld muss nicht ausgefüllt werden.",
+          "ar": "لا يجب ملء الحقل."
+        },
+        {
+          "de": "Das Feld darf nicht ausgefüllt werden.",
+          "ar": "لا يجوز ملء الحقل."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr46-t01",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "headers_de": [
+        "Zeit",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "Der Antrag muss geprüft werden."
+        ],
+        [
+          "Präteritum",
+          "Der Antrag musste geprüft werden."
+        ],
+        [
+          "Perfekt",
+          "Der Antrag hat geprüft werden müssen."
+        ],
+        [
+          "Plusquamperfekt",
+          "Der Antrag hatte geprüft werden müssen."
+        ],
+        [
+          "Futur I",
+          "Der Antrag wird geprüft werden müssen."
+        ]
+      ]
+    },
+    {
+      "id": "gr46-t02",
+      "title_de": "Modalbedeutungen",
+      "title_ar": "معاني الأفعال الناقصة",
+      "headers_de": [
+        "Modalverb",
+        "typische Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الفعل الناقص",
+        "المعنى المعتاد",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "müssen",
+          "Pflicht / Notwendigkeit",
+          "muss geprüft werden"
+        ],
+        [
+          "können",
+          "Möglichkeit",
+          "kann online bearbeitet werden"
+        ],
+        [
+          "dürfen",
+          "Erlaubnis / Verbot",
+          "darf nicht geöffnet werden"
+        ],
+        [
+          "sollen",
+          "Auftrag / Empfehlung / Plan",
+          "soll aktualisiert werden"
+        ]
+      ]
+    },
+    {
+      "id": "gr46-t03",
+      "title_de": "Vorgang und Zustand",
+      "title_ar": "الإجراء والحالة",
+      "headers_de": [
+        "Form",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "Die Tür muss geschlossen werden.",
+          "Der Schließvorgang ist notwendig."
+        ],
+        [
+          "Die Tür muss geschlossen sein.",
+          "Der geschlossene Zustand ist erforderlich."
+        ],
+        [
+          "Das Formular muss nicht ausgefüllt werden.",
+          "Es besteht keine Pflicht."
+        ],
+        [
+          "Das Formular darf nicht ausgefüllt werden.",
+          "Das Ausfüllen ist verboten."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Alle Anträge müssen vor Ablauf der Frist vollständig eingereicht werden.",
+      "ar": "يجب تقديم جميع الطلبات كاملة قبل انتهاء المهلة.",
+      "note_de": "Formelle Pflicht mit müssen.",
+      "note_ar": "إلزام رسمي باستخدام müssen."
+    },
+    {
+      "de": "Die Datei kann mit dem neuen Programm automatisch geöffnet werden.",
+      "ar": "يمكن فتح الملف تلقائيًا باستخدام البرنامج الجديد.",
+      "note_de": "Technische Möglichkeit mit können.",
+      "note_ar": "إمكان تقني باستخدام können."
+    },
+    {
+      "de": "Vertrauliche Unterlagen dürfen nicht außerhalb des Systems gespeichert werden.",
+      "ar": "لا يجوز حفظ المستندات السرية خارج النظام.",
+      "note_de": "Verbot mit nicht dürfen.",
+      "note_ar": "منع باستخدام nicht dürfen."
+    },
+    {
+      "de": "Der Bericht hat wegen neuer Vorgaben vollständig überarbeitet werden müssen.",
+      "ar": "كان لا بد من إعادة صياغة التقرير بالكامل بسبب تعليمات جديدة.",
+      "note_de": "Perfekt mit Ersatzinfinitiv.",
+      "note_ar": "Perfekt مع Ersatzinfinitiv."
+    },
+    {
+      "de": "Bis zum Monatsende wird das Verfahren erneut bewertet werden müssen.",
+      "ar": "سيتعين تقييم الإجراء مجددًا حتى نهاية الشهر.",
+      "note_de": "Futur I mit Passiv und Modalverb.",
+      "note_ar": "Futur I مع المبني للمجهول والفعل الناقص."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Antrag muss geprüft.",
+      "correct": "Der Antrag muss geprüft werden.",
+      "explanation_de": "Die passive Infinitivgruppe braucht werden.",
+      "explanation_ar": "تحتاج مجموعة المصدر المجهول إلى werden."
+    },
+    {
+      "wrong": "Der Antrag wird müssen geprüft werden.",
+      "correct": "Der Antrag muss geprüft werden.",
+      "explanation_de": "Im Präsens wird nur das Modalverb konjugiert.",
+      "explanation_ar": "في Präsens يُصرف الفعل الناقص فقط."
+    },
+    {
+      "wrong": "..., weil der Antrag muss geprüft werden.",
+      "correct": "..., weil der Antrag geprüft werden muss.",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص المصرف في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Der Antrag hat geprüft werden gemusst.",
+      "correct": "Der Antrag hat geprüft werden müssen.",
+      "explanation_de": "Im Perfekt steht wegen des Ersatzinfinitivs müssen statt gemusst.",
+      "explanation_ar": "في Perfekt نستخدم müssen بدل gemusst بسبب Ersatzinfinitiv."
+    },
+    {
+      "wrong": "Die Tür muss geschlossen sein. = Die Tür muss jetzt geschlossen werden.",
+      "correct": "Die Tür muss geschlossen sein. = Der geschlossene Zustand ist erforderlich.",
+      "explanation_de": "Sein beschreibt den Zustand, nicht den Vorgang.",
+      "explanation_ar": "تصف sein الحالة لا الإجراء."
+    },
+    {
+      "wrong": "Das Feld muss nicht ausgefüllt werden. = Das Ausfüllen ist verboten.",
+      "correct": "Das Feld darf nicht ausgefüllt werden. = Das Ausfüllen ist verboten.",
+      "explanation_de": "Nicht müssen bedeutet fehlende Pflicht; nicht dürfen bedeutet Verbot.",
+      "explanation_ar": "تعني nicht müssen عدم الإلزام، بينما تعني nicht dürfen المنع."
+    }
+  ],
+  "quickSummary_de": [
+    "Das Modalverb wird konjugiert.",
+    "Die Passivgruppe lautet Partizip II + werden.",
+    "Im Präsens heißt es: muss geprüft werden.",
+    "Im Präteritum heißt es: musste geprüft werden.",
+    "Im Nebensatz steht das Modalverb am Ende.",
+    "Müssen drückt Pflicht oder Notwendigkeit aus.",
+    "Können drückt Möglichkeit aus.",
+    "Dürfen drückt Erlaubnis oder Verbot aus.",
+    "Sollen drückt Auftrag, Empfehlung oder Plan aus.",
+    "Im Perfekt steht der Ersatzinfinitiv: hat geprüft werden müssen.",
+    "Werden beschreibt einen Vorgang; sein einen Zustand.",
+    "Nicht müssen ist keine Pflicht; nicht dürfen ist Verbot."
+  ],
+  "quickSummary_ar": [
+    "يُصرف الفعل الناقص.",
+    "تكون مجموعة المبني للمجهول Partizip II + werden.",
+    "تكون صيغة Präsens: muss geprüft werden.",
+    "تكون صيغة Präteritum: musste geprüft werden.",
+    "يأتي الفعل الناقص في نهاية الجملة الفرعية.",
+    "تعبّر müssen عن الإلزام أو الضرورة.",
+    "تعبّر können عن الإمكان.",
+    "تعبّر dürfen عن السماح أو المنع.",
+    "تعبّر sollen عن التكليف أو التوصية أو الخطة.",
+    "في Perfekt نستخدم Ersatzinfinitiv: hat geprüft werden müssen.",
+    "تصف werden الإجراء، وتصف sein الحالة.",
+    "تعني nicht müssen عدم الإلزام، وتعني nicht dürfen المنع."
+  ],
+  "relatedTopics": [
+    "gr-45",
+    "gr-47",
+    "gr-48",
+    "gr-49",
+    "gr-50"
+  ]
+}

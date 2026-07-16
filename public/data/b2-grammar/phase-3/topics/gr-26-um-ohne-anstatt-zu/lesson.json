@@ -1,0 +1,458 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-26",
+  "slug": "gr-26-um-ohne-anstatt-zu",
+  "order": 26,
+  "title_de": "um ... zu, ohne ... zu und anstatt ... zu",
+  "title_ar": "um ... zu وohne ... zu وanstatt ... zu",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "infinitivkonstruktionen",
+  "estimatedMinutes": 55,
+  "learningObjectives_de": [
+    "Ziele und Absichten mit um ... zu korrekt ausdrücken.",
+    "Begleitumstände oder das Ausbleiben einer Handlung mit ohne ... zu formulieren.",
+    "Eine nicht gewählte Alternative mit anstatt beziehungsweise statt ... zu ausdrücken.",
+    "Zwischen Infinitivkonstruktionen und damit-, ohne-dass- beziehungsweise anstatt-dass-Sätzen unterscheiden.",
+    "Die Bedingung des gleichen Subjekts oder eindeutigen Bezugs sicher anwenden.",
+    "Trennbare Verben und Infinitiv Perfekt in diesen Konstruktionen korrekt bilden.",
+    "Kommasetzung und Wortstellung in beruflichen B2-Texten sicher beherrschen."
+  ],
+  "learningObjectives_ar": [
+    "التعبير عن الغاية والنية باستخدام um ... zu بصورة صحيحة.",
+    "صياغة ظرف مرافق أو غياب فعل باستخدام ohne ... zu.",
+    "التعبير عن بديل لم يتم اختياره باستخدام anstatt أو statt ... zu.",
+    "التمييز بين تراكيب المصدر وجمل damit وohne dass وanstatt dass.",
+    "تطبيق شرط الفاعل نفسه أو المرجع الواضح بصورة صحيحة.",
+    "تكوين الأفعال القابلة للفصل وInfinitiv Perfekt داخل هذه التراكيب.",
+    "إتقان الفاصلة وترتيب الكلمات في نصوص B2 المهنية."
+  ],
+  "shortDescription_de": "Um ... zu beschreibt ein Ziel, ohne ... zu einen fehlenden Begleitumstand und anstatt beziehungsweise statt ... zu eine nicht gewählte Alternative.",
+  "shortDescription_ar": "تصف um ... zu الغاية، وتصف ohne ... zu فعلًا لم يحدث، بينما تعبّر anstatt أو statt ... zu عن بديل لم يتم اختياره.",
+  "explanation_de": "Um ... zu, ohne ... zu und anstatt beziehungsweise statt ... zu sind Infinitivkonstruktionen. Sie haben normalerweise dasselbe gedachte Subjekt wie der Hauptsatz oder beziehen sich eindeutig auf ein Objekt im Hauptsatz. Um ... zu beantwortet die Frage Wozu? oder Mit welchem Ziel?: Wir prüfen die Daten, um Fehler frühzeitig zu erkennen. Ohne ... zu beschreibt, dass eine erwartete oder mögliche Handlung nicht geschieht: Er verließ den Raum, ohne sich zu verabschieden. Anstatt ... zu nennt eine Alternative, die nicht gewählt wurde: Anstatt das Problem zu lösen, verschob man die Entscheidung. Sind die handelnden Personen verschieden, verwendet man damit, ohne dass oder anstatt dass: Ich erkläre den Ablauf, damit die Kundin ihn versteht. Er ging, ohne dass jemand es bemerkte. Anstatt dass die Leitung entschied, wurde die Frage vertagt. Bei trennbaren Verben steht zu im Verb: um anzurufen, ohne sich abzumelden, anstatt vorzubereiten. Für eine frühere Handlung ist Infinitiv Perfekt möglich: Er ging, ohne die Nachricht gelesen zu haben.",
+  "explanation_ar": "تُعد um ... zu وohne ... zu وanstatt أو statt ... zu تراكيب مصدرية. ويكون فاعلها المفهوم عادة هو فاعل الجملة الرئيسية نفسه أو مرجعًا واضحًا فيها. تجيب um ... zu عن سؤال: لأي غاية؟ مثل: Wir prüfen die Daten, um Fehler frühzeitig zu erkennen. وتصف ohne ... zu أن فعلًا متوقعًا أو ممكنًا لم يحدث، مثل: Er verließ den Raum, ohne sich zu verabschieden. أما anstatt ... zu فتذكر بديلًا لم يتم اختياره. وعند اختلاف الشخص القائم بالفعل نستخدم damit أو ohne dass أو anstatt dass. ومع الأفعال القابلة للفصل تدخل zu داخل الفعل، مثل anzurufen وabzumelden وvorzubereiten. وللتعبير عن فعل أسبق يمكن استخدام Infinitiv Perfekt، مثل: ohne die Nachricht gelesen zu haben.",
+  "rules": [
+    {
+      "id": "gr26-r01",
+      "title_de": "Um ... zu",
+      "title_ar": "um ... zu",
+      "explanation_de": "Um ... zu nennt das Ziel einer Handlung.",
+      "explanation_ar": "تذكر um ... zu غاية الفعل.",
+      "formula": "Hauptsatz, um + ... + zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir überprüfen die Daten, um Fehler frühzeitig zu erkennen.",
+          "ar": "نفحص البيانات لاكتشاف الأخطاء مبكرًا."
+        },
+        {
+          "de": "Sie nimmt an der Fortbildung teil, um ihre Fachkenntnisse zu erweitern.",
+          "ar": "تشارك في الدورة لتوسيع معرفتها المهنية."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r02",
+      "title_de": "Gleiches Subjekt bei um ... zu",
+      "title_ar": "الفاعل نفسه مع um ... zu",
+      "explanation_de": "Der Handelnde der Infinitivgruppe ist normalerweise identisch mit dem Subjekt des Hauptsatzes.",
+      "explanation_ar": "يكون القائم بالفعل في تركيب المصدر عادة هو فاعل الجملة الرئيسية نفسه.",
+      "formula": "Wir handeln, um wir-Ziel zu erreichen",
+      "examples": [
+        {
+          "de": "Wir dokumentieren den Vorgang, um spätere Rückfragen beantworten zu können.",
+          "ar": "نوثق المعاملة لنتمكن من الإجابة عن الاستفسارات اللاحقة."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r03",
+      "title_de": "Damit bei unterschiedlichen Subjekten",
+      "title_ar": "damit عند اختلاف الفاعل",
+      "explanation_de": "Sind die Subjekte verschieden, verwendet man für ein Ziel damit.",
+      "explanation_ar": "عند اختلاف الفاعل نستخدم damit للتعبير عن الغاية.",
+      "formula": "Hauptsatz, damit + anderes Subjekt + ... + Verb",
+      "examples": [
+        {
+          "de": "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+          "ar": "أشرح الإجراء لكي تفهمه العميلة."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r04",
+      "title_de": "Ohne ... zu",
+      "title_ar": "ohne ... zu",
+      "explanation_de": "Ohne ... zu beschreibt, dass eine weitere Handlung nicht geschieht.",
+      "explanation_ar": "تصف ohne ... zu أن فعلًا إضافيًا لم يحدث.",
+      "formula": "Hauptsatz, ohne + ... + zu + Infinitiv",
+      "examples": [
+        {
+          "de": "Er verließ die Besprechung, ohne sich abzumelden.",
+          "ar": "غادر الاجتماع من دون أن يسجل خروجه."
+        },
+        {
+          "de": "Sie unterschrieb den Vertrag, ohne ihn vollständig zu lesen.",
+          "ar": "وقعت العقد من دون أن تقرأه كاملًا."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r05",
+      "title_de": "Ohne dass",
+      "title_ar": "ohne dass",
+      "explanation_de": "Bei unterschiedlichen Subjekten verwendet man ohne dass.",
+      "explanation_ar": "عند اختلاف الفاعل نستخدم ohne dass.",
+      "formula": "Hauptsatz, ohne dass + anderes Subjekt + ... + Verb",
+      "examples": [
+        {
+          "de": "Er verließ das Büro, ohne dass seine Kollegin es bemerkte.",
+          "ar": "غادر المكتب من دون أن تلاحظ زميلته ذلك."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r06",
+      "title_de": "Anstatt / statt ... zu",
+      "title_ar": "anstatt / statt ... zu",
+      "explanation_de": "Die Konstruktion nennt eine Alternative, die nicht gewählt wurde.",
+      "explanation_ar": "تذكر الصيغة بديلًا لم يتم اختياره.",
+      "formula": "Anstatt/Statt + ... + zu + Infinitiv, Hauptsatz",
+      "examples": [
+        {
+          "de": "Anstatt das Problem zu lösen, verschob man die Entscheidung.",
+          "ar": "بدلًا من حل المشكلة تم تأجيل القرار."
+        },
+        {
+          "de": "Sie diskutierten weiter, statt eine konkrete Maßnahme zu vereinbaren.",
+          "ar": "واصلوا النقاش بدل الاتفاق على إجراء محدد."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r07",
+      "title_de": "Anstatt dass",
+      "title_ar": "anstatt dass",
+      "explanation_de": "Bei unterschiedlichen Subjekten oder vollständigen Aussagen ist anstatt dass möglich.",
+      "explanation_ar": "عند اختلاف الفاعل أو الحاجة إلى جملة كاملة يمكن استخدام anstatt dass.",
+      "formula": "Anstatt dass + Subjekt + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Anstatt dass die Leitung eine Entscheidung traf, wurde die Frage erneut vertagt.",
+          "ar": "بدلًا من أن تتخذ الإدارة قرارًا، تم تأجيل المسألة مجددًا."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r08",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+      "explanation_ar": "مع الأفعال القابلة للفصل تأتي zu بين السابقة وجذر الفعل.",
+      "formula": "anrufen → anzurufen | abmelden → abzumelden",
+      "examples": [
+        {
+          "de": "Sie rief an, um einen Termin zu vereinbaren.",
+          "ar": "اتصلت لتحديد موعد."
+        },
+        {
+          "de": "Er ging, ohne sich abzumelden.",
+          "ar": "غادر من دون تسجيل خروجه."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r09",
+      "title_de": "Infinitiv Perfekt",
+      "title_ar": "Infinitiv Perfekt",
+      "explanation_de": "Für eine frühere Handlung steht Partizip II + zu haben oder zu sein.",
+      "explanation_ar": "للتعبير عن فعل أسبق نستخدم Partizip II + zu haben أو zu sein.",
+      "formula": "ohne ... gemacht zu haben | ohne ... gegangen zu sein",
+      "examples": [
+        {
+          "de": "Er antwortete, ohne die Nachricht vollständig gelesen zu haben.",
+          "ar": "أجاب من دون أن يكون قد قرأ الرسالة كاملة."
+        },
+        {
+          "de": "Sie ging, ohne über die Änderung informiert worden zu sein.",
+          "ar": "غادرت من دون أن تكون قد أُبلغت بالتغيير."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r10",
+      "title_de": "Modalverb in der Infinitivgruppe",
+      "title_ar": "الفعل الناقص داخل تركيب المصدر",
+      "explanation_de": "Bei Modalverben steht zu vor dem Modalverb: um reagieren zu können.",
+      "explanation_ar": "مع الأفعال الناقصة تأتي zu قبل الفعل الناقص: um reagieren zu können.",
+      "formula": "Vollverb-Infinitiv + zu + Modalverb-Infinitiv",
+      "examples": [
+        {
+          "de": "Wir dokumentieren alle Schritte, um den Ablauf später nachvollziehen zu können.",
+          "ar": "نوثق جميع الخطوات لكي نتمكن من تتبع الإجراء لاحقًا."
+        },
+        {
+          "de": "Sie prüft die Unterlagen, um eine fundierte Entscheidung treffen zu können.",
+          "ar": "تفحص المستندات لكي تتمكن من اتخاذ قرار مبني على أسس."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r11",
+      "title_de": "Kommasetzung",
+      "title_ar": "وضع الفاصلة",
+      "explanation_de": "Infinitivgruppen mit um, ohne, statt oder anstatt werden durch Komma abgetrennt.",
+      "explanation_ar": "تُفصل تراكيب المصدر التي تبدأ بـ um أو ohne أو statt أو anstatt بفاصلة.",
+      "formula": "Hauptsatz, um/ohne/anstatt ... zu ...",
+      "examples": [
+        {
+          "de": "Wir verlängern die Frist, um allen Beteiligten ausreichend Zeit zu geben.",
+          "ar": "نمدد المهلة لمنح جميع المعنيين وقتًا كافيًا."
+        }
+      ]
+    },
+    {
+      "id": "gr26-r12",
+      "title_de": "Bedeutung unterscheiden",
+      "title_ar": "تمييز المعنى",
+      "explanation_de": "Um ... zu nennt ein Ziel, ohne ... zu eine nicht ausgeführte Handlung und anstatt ... zu eine nicht gewählte Alternative.",
+      "explanation_ar": "تذكر um ... zu غاية، وتذكر ohne ... zu فعلًا لم يُنفذ، وتذكر anstatt ... zu بديلًا لم يُختر.",
+      "formula": "Ziel | fehlende Handlung | Alternative",
+      "examples": [
+        {
+          "de": "Sie fragt nach, um Klarheit zu bekommen.",
+          "ar": "تستفسر للحصول على الوضوح."
+        },
+        {
+          "de": "Sie entscheidet, ohne nachzufragen.",
+          "ar": "تقرر من دون أن تستفسر."
+        },
+        {
+          "de": "Sie wartet, anstatt sofort zu entscheiden.",
+          "ar": "تنتظر بدل أن تقرر فورًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr26-t01",
+      "title_de": "Bedeutung und Verwendung",
+      "title_ar": "المعنى والاستخدام",
+      "headers_de": [
+        "Struktur",
+        "Bedeutung",
+        "Frage"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى",
+        "السؤال"
+      ],
+      "rows": [
+        [
+          "um ... zu",
+          "Ziel/Absicht",
+          "Wozu?"
+        ],
+        [
+          "ohne ... zu",
+          "Handlung geschieht nicht",
+          "Ohne was zu tun?"
+        ],
+        [
+          "anstatt/statt ... zu",
+          "nicht gewählte Alternative",
+          "Was geschieht stattdessen?"
+        ],
+        [
+          "damit",
+          "Ziel bei anderem Subjekt",
+          "Wozu?"
+        ],
+        [
+          "ohne dass",
+          "fehlende Handlung bei anderem Subjekt",
+          "Was geschieht nicht?"
+        ],
+        [
+          "anstatt dass",
+          "Alternative mit vollständigem Satz",
+          "Was geschieht stattdessen?"
+        ]
+      ]
+    },
+    {
+      "id": "gr26-t02",
+      "title_de": "Gleiches oder unterschiedliches Subjekt",
+      "title_ar": "الفاعل نفسه أم مختلف",
+      "headers_de": [
+        "Beziehung",
+        "gleiches Subjekt",
+        "anderes Subjekt"
+      ],
+      "headers_ar": [
+        "العلاقة",
+        "الفاعل نفسه",
+        "فاعل مختلف"
+      ],
+      "rows": [
+        [
+          "Ziel",
+          "um ... zu",
+          "damit"
+        ],
+        [
+          "fehlende Handlung",
+          "ohne ... zu",
+          "ohne dass"
+        ],
+        [
+          "Alternative",
+          "anstatt/statt ... zu",
+          "anstatt dass"
+        ]
+      ]
+    },
+    {
+      "id": "gr26-t03",
+      "title_de": "Komplexe Infinitivformen",
+      "title_ar": "صيغ المصدر المركبة",
+      "headers_de": [
+        "Form",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المثال",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "Infinitiv mit Modalverb",
+          "um reagieren zu können",
+          "Ziel + Möglichkeit"
+        ],
+        [
+          "Infinitiv Perfekt aktiv",
+          "ohne gelesen zu haben",
+          "frühere Handlung fehlt"
+        ],
+        [
+          "Infinitiv Perfekt mit sein",
+          "ohne gegangen zu sein",
+          "frühere Bewegung/Zustandswechsel"
+        ],
+        [
+          "Infinitiv Perfekt Passiv",
+          "ohne informiert worden zu sein",
+          "frühere passive Handlung fehlt"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wir standardisieren die Abläufe, um die Bearbeitungsqualität dauerhaft zu verbessern.",
+      "ar": "نوحّد الإجراءات لتحسين جودة المعالجة بصورة دائمة.",
+      "note_de": "Finale Infinitivgruppe in einem formellen Kontext.",
+      "note_ar": "تركيب غاية في سياق رسمي."
+    },
+    {
+      "de": "Der Mitarbeiter änderte die Einstellung, ohne die möglichen Folgen zu prüfen.",
+      "ar": "غيّر الموظف الإعداد من دون فحص النتائج المحتملة.",
+      "note_de": "Nicht ausgeführte Begleithandlung.",
+      "note_ar": "فعل مرافق لم يتم تنفيذه."
+    },
+    {
+      "de": "Anstatt eine kurzfristige Lösung zu wählen, entwickelte das Team ein nachhaltiges Konzept.",
+      "ar": "بدل اختيار حل قصير الأجل، طور الفريق مفهومًا مستدامًا.",
+      "note_de": "Nicht gewählte Alternative.",
+      "note_ar": "بديل لم يتم اختياره."
+    },
+    {
+      "de": "Die Leitung stellt zusätzliche Informationen bereit, damit alle Mitarbeitenden die neue Regelung verstehen.",
+      "ar": "توفر الإدارة معلومات إضافية لكي يفهم جميع الموظفين النظام الجديد.",
+      "note_de": "Unterschiedliche Subjekte: Leitung und Mitarbeitende.",
+      "note_ar": "فاعلان مختلفان: الإدارة والموظفون."
+    },
+    {
+      "de": "Der Anbieter reichte das Angebot ein, ohne alle technischen Anforderungen berücksichtigt zu haben.",
+      "ar": "قدّم المزوّد العرض من دون أن يكون قد أخذ جميع المتطلبات التقنية في الاعتبار.",
+      "note_de": "Infinitiv Perfekt mit ohne.",
+      "note_ar": "Infinitiv Perfekt مع ohne."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Ich erkläre den Ablauf, um die Kundin ihn versteht.",
+      "correct": "Ich erkläre den Ablauf, damit die Kundin ihn versteht.",
+      "explanation_de": "Die Subjekte ich und die Kundin sind verschieden.",
+      "explanation_ar": "الفاعلان ich وdie Kundin مختلفان."
+    },
+    {
+      "wrong": "Er ging, ohne dass sich zu verabschieden.",
+      "correct": "Er ging, ohne sich zu verabschieden.",
+      "explanation_de": "Bei demselben Subjekt verwendet man ohne ... zu.",
+      "explanation_ar": "مع الفاعل نفسه نستخدم ohne ... zu."
+    },
+    {
+      "wrong": "Anstatt er das Problem zu lösen, verschob er die Entscheidung.",
+      "correct": "Anstatt das Problem zu lösen, verschob er die Entscheidung.",
+      "explanation_de": "In der Infinitivgruppe steht kein eigenes Subjekt.",
+      "explanation_ar": "لا نضع فاعلًا مستقلًا داخل تركيب المصدر."
+    },
+    {
+      "wrong": "Sie rief an, um einen Termin vereinbaren.",
+      "correct": "Sie rief an, um einen Termin zu vereinbaren.",
+      "explanation_de": "Um verlangt eine Infinitivgruppe mit zu.",
+      "explanation_ar": "تحتاج um إلى تركيب مصدر مع zu."
+    },
+    {
+      "wrong": "Er verließ das Büro, ohne sich zu abmelden.",
+      "correct": "Er verließ das Büro, ohne sich abzumelden.",
+      "explanation_de": "Bei abmelden steht zu zwischen ab und melden.",
+      "explanation_ar": "في abmelden تأتي zu بين ab وmelden."
+    },
+    {
+      "wrong": "Wir dokumentieren alles, um später zu können reagieren.",
+      "correct": "Wir dokumentieren alles, um später reagieren zu können.",
+      "explanation_de": "Bei einem Modalverb steht zu vor dem Modalverb.",
+      "explanation_ar": "مع الفعل الناقص تأتي zu قبل الفعل الناقص."
+    }
+  ],
+  "quickSummary_de": [
+    "Um ... zu nennt ein Ziel.",
+    "Ohne ... zu beschreibt eine Handlung, die nicht geschieht.",
+    "Anstatt oder statt ... zu nennt eine nicht gewählte Alternative.",
+    "Die Infinitivkonstruktionen haben normalerweise dasselbe Subjekt wie der Hauptsatz.",
+    "Bei unterschiedlichen Subjekten verwendet man damit, ohne dass oder anstatt dass.",
+    "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+    "Mit Modalverb lautet die Reihenfolge: Vollverb + zu + Modalverb.",
+    "Infinitiv Perfekt: Partizip II + zu haben/sein.",
+    "Passives Infinitiv Perfekt: Partizip II + worden zu sein.",
+    "Vor um, ohne, statt und anstatt steht ein Komma.",
+    "Die drei Strukturen unterscheiden Ziel, fehlende Handlung und Alternative.",
+    "Der logische Bezug muss eindeutig sein."
+  ],
+  "quickSummary_ar": [
+    "تذكر um ... zu غاية.",
+    "تصف ohne ... zu فعلًا لم يحدث.",
+    "تذكر anstatt أو statt ... zu بديلًا لم يتم اختياره.",
+    "يكون فاعل تركيب المصدر عادة هو فاعل الجملة الرئيسية نفسه.",
+    "عند اختلاف الفاعل نستخدم damit أو ohne dass أو anstatt dass.",
+    "مع الأفعال القابلة للفصل تأتي zu بين السابقة وجذر الفعل.",
+    "مع الفعل الناقص يكون الترتيب: المصدر الأساسي + zu + الفعل الناقص.",
+    "Infinitiv Perfekt: Partizip II + zu haben/sein.",
+    "المصدر الماضي المبني للمجهول: Partizip II + worden zu sein.",
+    "تأتي فاصلة قبل um وohne وstatt وanstatt.",
+    "تميّز الصيغ الثلاث بين الغاية والفعل الغائب والبديل.",
+    "يجب أن يكون المرجع المنطقي واضحًا."
+  ],
+  "relatedTopics": [
+    "gr-23",
+    "gr-25",
+    "gr-27",
+    "gr-30"
+  ]
+}

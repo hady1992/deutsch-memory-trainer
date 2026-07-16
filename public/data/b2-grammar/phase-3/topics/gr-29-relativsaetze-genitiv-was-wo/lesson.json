@@ -1,0 +1,464 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-29",
+  "slug": "gr-29-relativsaetze-genitiv-was-wo",
+  "order": 29,
+  "title_de": "Relativsätze im Genitiv sowie mit was und wo",
+  "title_ar": "الجمل الموصولة في Genitiv ومع was وwo",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "relativsaetze",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Genitivische Relativpronomen dessen und deren korrekt verwenden.",
+    "Zwischen maskulinen, neutralen, femininen und pluralen Bezugswörtern unterscheiden.",
+    "Besitz- und Zugehörigkeitsbeziehungen in Relativsätzen präzise ausdrücken.",
+    "Relativsätze mit was nach alles, etwas, nichts und substantivierten Superlativen bilden.",
+    "Was als Bezug auf einen ganzen vorhergehenden Satz verwenden.",
+    "Wo als Relativadverb für Orte und örtliche Bezüge passend einsetzen.",
+    "Zwischen wo und präziseren Präpositionalformen wie in dem beziehungsweise in der unterscheiden."
+  ],
+  "learningObjectives_ar": [
+    "استخدام ضميري الوصل في Genitiv: dessen وderen بصورة صحيحة.",
+    "التمييز بين الاسم المرجعي المذكر والمحايد والمؤنث والجمع.",
+    "التعبير بدقة عن الملكية أو الانتماء داخل الجملة الموصولة.",
+    "تكوين جمل موصولة باستخدام was بعد alles وetwas وnichts وصيغ التفضيل الاسمية.",
+    "استخدام was للإشارة إلى جملة سابقة كاملة.",
+    "استخدام wo بوصفها ظرف وصل للأماكن والعلاقات المكانية.",
+    "التمييز بين wo والصيغ الأدق مثل in dem وin der في الأسلوب الرسمي."
+  ],
+  "shortDescription_de": "Dessen und deren drücken Besitz oder Zugehörigkeit aus. Was steht unter anderem nach alles, etwas, nichts und substantivierten Superlativen sowie als Bezug auf einen ganzen Satz. Wo verweist auf Orte oder örtliche Bezüge.",
+  "shortDescription_ar": "تعبّر dessen وderen عن الملكية أو الانتماء. وتأتي was بعد alles وetwas وnichts وصيغ التفضيل الاسمية، كما قد تشير إلى جملة سابقة كاملة. أما wo فتشير إلى مكان أو علاقة مكانية.",
+  "explanation_de": "Im Genitiv lauten die Relativpronomen dessen für maskuline und neutrale Bezugswörter sowie deren für feminine und plurale Bezugswörter. Sie drücken eine Besitz- oder Zugehörigkeitsbeziehung aus: Der Mitarbeiter, dessen Antrag geprüft wird, wartet auf eine Rückmeldung. Die Firma, deren Sitz in München liegt, beschäftigt mehr als 500 Personen. Nach dessen oder deren steht das zugehörige Nomen normalerweise ohne Artikel: dessen Antrag, deren Sitz, deren Produkte. Der Kasus dieses Nomens richtet sich nach seiner Funktion im Relativsatz. Was verwendet man nach unbestimmten Pronomen wie alles, etwas und nichts, nach substantivierten Superlativen wie das Wichtigste oder das Beste und wenn sich der Relativsatz auf eine ganze vorhergehende Aussage bezieht: Die Frist wurde verlängert, was alle Beteiligten entlastete. Wo kann sich auf Ortsnamen, Ortsadverbien und örtlich gemeinte Bezugswörter beziehen: Das ist der Ort, wo die Besprechung stattfindet. In formellen Texten ist bei konkreten Nomen oft die Präpositionalform genauer: Das ist der Raum, in dem die Besprechung stattfindet.",
+  "explanation_ar": "تكون ضمائر الوصل في Genitiv: dessen مع الاسم المرجعي المذكر أو المحايد، وderen مع الاسم المؤنث أو الجمع. وتعبّر عن الملكية أو الانتماء، مثل: Der Mitarbeiter, dessen Antrag geprüft wird, wartet auf eine Rückmeldung. وبعد dessen أو deren يأتي الاسم المرتبط بها عادة من دون أداة تعريف: dessen Antrag وderen Sitz وderen Produkte. أما حالة هذا الاسم فتتحدد بحسب وظيفته داخل الجملة الموصولة. ونستخدم was بعد الضمائر غير المحددة مثل alles وetwas وnichts، وبعد صيغ التفضيل الاسمية مثل das Wichtigste وdas Beste، وكذلك عندما تشير الجملة الموصولة إلى جملة سابقة كاملة. أما wo فتشير إلى أسماء الأماكن أو ظروف المكان أو اسم يُقصد به مكان. وفي الأسلوب الرسمي تكون صيغة حرف الجر أدق غالبًا مع الأسماء المحددة، مثل: der Raum, in dem die Besprechung stattfindet.",
+  "rules": [
+    {
+      "id": "gr29-r01",
+      "title_de": "Dessen",
+      "title_ar": "dessen",
+      "explanation_de": "Dessen steht bei maskulinen und neutralen Bezugswörtern.",
+      "explanation_ar": "تأتي dessen مع الاسم المرجعي المذكر أو المحايد.",
+      "formula": "maskulin/neutrum → dessen + Nomen",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter, dessen Antrag geprüft wird, wartet auf eine Rückmeldung.",
+          "ar": "الموظف الذي تتم مراجعة طلبه ينتظر ردًا."
+        },
+        {
+          "de": "Das Unternehmen, dessen Umsatz gestiegen ist, stellt neues Personal ein.",
+          "ar": "الشركة التي ارتفعت إيراداتها توظف موظفين جدد."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r02",
+      "title_de": "Deren",
+      "title_ar": "deren",
+      "explanation_de": "Deren steht bei femininen und pluralen Bezugswörtern.",
+      "explanation_ar": "تأتي deren مع الاسم المرجعي المؤنث أو الجمع.",
+      "formula": "feminin/Plural → deren + Nomen",
+      "examples": [
+        {
+          "de": "Die Kollegin, deren Vorschlag angenommen wurde, leitet die Umsetzung.",
+          "ar": "الزميلة التي تم قبول اقتراحها تدير التنفيذ."
+        },
+        {
+          "de": "Die Firmen, deren Angebote geprüft wurden, erhalten nächste Woche eine Antwort.",
+          "ar": "الشركات التي تمت مراجعة عروضها ستتلقى ردًا الأسبوع المقبل."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r03",
+      "title_de": "Nomen ohne Artikel",
+      "title_ar": "الاسم من دون أداة تعريف",
+      "explanation_de": "Nach dessen und deren steht das zugehörige Nomen normalerweise ohne zusätzlichen Artikel.",
+      "explanation_ar": "بعد dessen وderen يأتي الاسم عادة من دون أداة تعريف إضافية.",
+      "formula": "dessen Antrag | deren Vorschlag | deren Produkte",
+      "examples": [
+        {
+          "de": "Der Kunde, dessen Beschwerde bearbeitet wird, wurde informiert.",
+          "ar": "العميل الذي تتم معالجة شكواه تم إبلاغه."
+        },
+        {
+          "de": "Die Abteilung, deren Aufgaben erweitert wurden, erhält zusätzliche Stellen.",
+          "ar": "القسم الذي تم توسيع مهامه سيحصل على وظائف إضافية."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r04",
+      "title_de": "Kasus des folgenden Nomens",
+      "title_ar": "حالة الاسم التالي",
+      "explanation_de": "Der Kasus des Nomens nach dessen oder deren wird durch seine Funktion im Relativsatz bestimmt.",
+      "explanation_ar": "تتحدد حالة الاسم بعد dessen أو deren بحسب وظيفته داخل الجملة الموصولة.",
+      "formula": "dessen Antrag ist ... | dessen Antrag wir prüfen ...",
+      "examples": [
+        {
+          "de": "Der Bewerber, dessen Unterlagen vollständig sind, wird eingeladen.",
+          "ar": "المتقدم الذي مستنداته كاملة ستتم دعوته."
+        },
+        {
+          "de": "Der Bewerber, dessen Unterlagen wir geprüft haben, wird eingeladen.",
+          "ar": "المتقدم الذي راجعنا مستنداته ستتم دعوته."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r05",
+      "title_de": "Was nach alles, etwas und nichts",
+      "title_ar": "was بعد alles وetwas وnichts",
+      "explanation_de": "Nach unbestimmten Pronomen wie alles, etwas und nichts verwendet man was.",
+      "explanation_ar": "بعد الضمائر غير المحددة مثل alles وetwas وnichts نستخدم was.",
+      "formula": "alles/etwas/nichts, was ...",
+      "examples": [
+        {
+          "de": "Alles, was Sie für den Antrag benötigen, finden Sie auf unserer Website.",
+          "ar": "كل ما تحتاجه للطلب تجده على موقعنا."
+        },
+        {
+          "de": "Es gibt nichts, was gegen die vorgeschlagene Lösung spricht.",
+          "ar": "لا يوجد ما يتعارض مع الحل المقترح."
+        },
+        {
+          "de": "Etwas, was uns noch fehlt, ist eine verbindliche Bestätigung.",
+          "ar": "شيء ما يزال ينقصنا هو تأكيد ملزم."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r06",
+      "title_de": "Was nach substantivierten Superlativen",
+      "title_ar": "was بعد صيغ التفضيل الاسمية",
+      "explanation_de": "Nach Ausdrücken wie das Beste, das Wichtigste oder das Schwierigste steht was.",
+      "explanation_ar": "بعد تعبيرات مثل das Beste وdas Wichtigste وdas Schwierigste نستخدم was.",
+      "formula": "das + Superlativ, was ...",
+      "examples": [
+        {
+          "de": "Das Wichtigste, was wir jetzt brauchen, ist eine klare Entscheidung.",
+          "ar": "أهم ما نحتاجه الآن هو قرار واضح."
+        },
+        {
+          "de": "Das Beste, was wir tun können, ist eine erneute Prüfung.",
+          "ar": "أفضل ما يمكننا فعله هو إجراء مراجعة جديدة."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r07",
+      "title_de": "Was als Satzbezug",
+      "title_ar": "was للإشارة إلى جملة كاملة",
+      "explanation_de": "Was kann sich auf eine ganze vorhergehende Aussage beziehen.",
+      "explanation_ar": "يمكن أن تشير was إلى عبارة سابقة كاملة.",
+      "formula": "Aussage, was + ... + Verb",
+      "examples": [
+        {
+          "de": "Die Frist wurde verlängert, was alle Beteiligten entlastete.",
+          "ar": "تم تمديد المهلة، مما خفف العبء عن جميع المعنيين."
+        },
+        {
+          "de": "Der Server fiel erneut aus, was zu erheblichen Verzögerungen führte.",
+          "ar": "تعطل الخادم مجددًا، مما أدى إلى تأخيرات كبيرة."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r08",
+      "title_de": "Wo bei Ortsbezug",
+      "title_ar": "wo مع المكان",
+      "explanation_de": "Wo verweist auf einen Ort oder einen örtlich verstandenen Bezug.",
+      "explanation_ar": "تشير wo إلى مكان أو مرجع يُفهم مكانيًا.",
+      "formula": "Ort, wo + ... + Verb",
+      "examples": [
+        {
+          "de": "Das ist der Ort, wo die Schulung stattfindet.",
+          "ar": "هذا هو المكان الذي تُقام فيه الدورة."
+        },
+        {
+          "de": "Berlin ist die Stadt, wo sich der Hauptsitz befindet.",
+          "ar": "برلين هي المدينة التي يقع فيها المقر الرئيسي."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r09",
+      "title_de": "Wo oder Präposition + Relativpronomen",
+      "title_ar": "wo أم حرف جر + ضمير وصل",
+      "explanation_de": "Bei konkreten Nomen ist in formellen Texten eine Präpositionalform oft präziser.",
+      "explanation_ar": "مع الأسماء المحددة تكون صيغة حرف الجر أدق غالبًا في النصوص الرسمية.",
+      "formula": "der Raum, in dem ... | die Firma, bei der ...",
+      "examples": [
+        {
+          "de": "Der Raum, in dem die Besprechung stattfindet, befindet sich im zweiten Stock.",
+          "ar": "الغرفة التي يُعقد فيها الاجتماع تقع في الطابق الثاني."
+        },
+        {
+          "de": "Die Firma, bei der sie arbeitet, eröffnet eine neue Niederlassung.",
+          "ar": "الشركة التي تعمل لديها تفتح فرعًا جديدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r10",
+      "title_de": "Woher und wohin",
+      "title_ar": "woher وwohin",
+      "explanation_de": "Woher bezeichnet eine Herkunft, wohin eine Richtung.",
+      "explanation_ar": "تدل woher على المصدر أو المنشأ، بينما تدل wohin على الاتجاه.",
+      "formula": "der Ort, woher ... | das Ziel, wohin ...",
+      "examples": [
+        {
+          "de": "Das ist die Abteilung, woher die Anfrage weitergeleitet wurde.",
+          "ar": "هذا هو القسم الذي أُحيل منه الطلب."
+        },
+        {
+          "de": "Das ist das Büro, wohin die Unterlagen geschickt werden sollen.",
+          "ar": "هذا هو المكتب الذي يجب إرسال المستندات إليه."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r11",
+      "title_de": "Kommas und Verbendstellung",
+      "title_ar": "الفواصل وموقع الفعل",
+      "explanation_de": "Auch Genitiv-, was- und wo-Relativsätze werden durch Kommas abgetrennt; das Verb steht am Ende.",
+      "explanation_ar": "تُفصل جمل Genitiv وwas وwo بفواصل أيضًا، ويأتي الفعل في النهاية.",
+      "formula": "Bezugswort, Relativform + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Das Gebäude, dessen Eingang renoviert wird, bleibt geöffnet.",
+          "ar": "المبنى الذي يتم تجديد مدخله يبقى مفتوحًا."
+        },
+        {
+          "de": "Alles, was besprochen wurde, wird dokumentiert.",
+          "ar": "كل ما تمت مناقشته سيتم توثيقه."
+        }
+      ]
+    },
+    {
+      "id": "gr29-r12",
+      "title_de": "Dessen und deren sind unveränderlich",
+      "title_ar": "dessen وderen ثابتتان",
+      "explanation_de": "Dessen und deren verändern ihre Form nicht nach dem folgenden Nomen.",
+      "explanation_ar": "لا تتغير صيغة dessen وderen بحسب الاسم الذي يأتي بعدهما.",
+      "formula": "dessen Antrag / dessen Unterlagen | deren Antrag / deren Unterlagen",
+      "examples": [
+        {
+          "de": "Der Kunde, dessen Unterlagen fehlen, wurde kontaktiert.",
+          "ar": "العميل الذي مستنداته ناقصة تم التواصل معه."
+        },
+        {
+          "de": "Die Kundin, deren Antrag noch geprüft wird, wartet auf eine Antwort.",
+          "ar": "العميلة التي ما زال طلبها قيد المراجعة تنتظر ردًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr29-t01",
+      "title_de": "Relativpronomen im Genitiv",
+      "title_ar": "ضمائر الوصل في Genitiv",
+      "headers_de": [
+        "Genus/Numerus des Bezugsworts",
+        "Genitiv"
+      ],
+      "headers_ar": [
+        "جنس/عدد الاسم المرجعي",
+        "Genitiv"
+      ],
+      "rows": [
+        [
+          "maskulin",
+          "dessen"
+        ],
+        [
+          "feminin",
+          "deren"
+        ],
+        [
+          "neutrum",
+          "dessen"
+        ],
+        [
+          "Plural",
+          "deren"
+        ]
+      ]
+    },
+    {
+      "id": "gr29-t02",
+      "title_de": "Wann verwendet man was?",
+      "title_ar": "متى نستخدم was؟",
+      "headers_de": [
+        "Bezug",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "المرجع",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "alles",
+          "Alles, was Sie brauchen, ..."
+        ],
+        [
+          "etwas",
+          "Etwas, was noch fehlt, ..."
+        ],
+        [
+          "nichts",
+          "Nichts, was dagegen spricht, ..."
+        ],
+        [
+          "substantivierter Superlativ",
+          "Das Wichtigste, was ..."
+        ],
+        [
+          "ganzer Satz",
+          "Die Frist wurde verlängert, was ..."
+        ]
+      ]
+    },
+    {
+      "id": "gr29-t03",
+      "title_de": "Wo und präzisere Alternativen",
+      "title_ar": "wo والبدائل الأدق",
+      "headers_de": [
+        "Bezug",
+        "mögliche Form",
+        "formell präziser"
+      ],
+      "headers_ar": [
+        "المرجع",
+        "صيغة ممكنة",
+        "الأدق رسميًا"
+      ],
+      "rows": [
+        [
+          "Ort",
+          "der Ort, wo ...",
+          "der Ort, an dem ..."
+        ],
+        [
+          "Raum",
+          "der Raum, wo ...",
+          "der Raum, in dem ..."
+        ],
+        [
+          "Firma",
+          "die Firma, wo ...",
+          "die Firma, bei der ..."
+        ],
+        [
+          "Stadt",
+          "die Stadt, wo ...",
+          "die Stadt, in der ..."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Der Bewerber, dessen Qualifikationen besonders gut zum Stellenprofil passen, wird zu einem zweiten Gespräch eingeladen.",
+      "ar": "المتقدم الذي تتوافق مؤهلاته بصورة جيدة مع وصف الوظيفة ستتم دعوته إلى مقابلة ثانية.",
+      "note_de": "Dessen bezieht sich auf ein maskulines Bezugswort.",
+      "note_ar": "تعود dessen على اسم مرجعي مذكر."
+    },
+    {
+      "de": "Die Abteilung, deren Zuständigkeiten im vergangenen Jahr erweitert wurden, erhält zusätzliche Ressourcen.",
+      "ar": "القسم الذي تم توسيع مسؤولياته العام الماضي سيحصل على موارد إضافية.",
+      "note_de": "Deren bezieht sich auf ein feminines Bezugswort.",
+      "note_ar": "تعود deren على اسم مرجعي مؤنث."
+    },
+    {
+      "de": "Alles, was während der Prüfung festgestellt wurde, ist im Abschlussbericht dokumentiert.",
+      "ar": "كل ما تم اكتشافه أثناء الفحص موثق في التقرير النهائي.",
+      "note_de": "Was nach alles.",
+      "note_ar": "was بعد alles."
+    },
+    {
+      "de": "Die Bearbeitungszeit wurde deutlich verkürzt, was von den Kundinnen und Kunden positiv bewertet wurde.",
+      "ar": "تم تقصير مدة المعالجة بصورة واضحة، وهو ما قيّمه العملاء إيجابيًا.",
+      "note_de": "Was bezieht sich auf den gesamten vorhergehenden Satz.",
+      "note_ar": "تعود was على الجملة السابقة كاملة."
+    },
+    {
+      "de": "Der Standort, an dem das neue Servicezentrum entstehen soll, ist verkehrsgünstig gelegen.",
+      "ar": "الموقع الذي من المقرر إنشاء مركز الخدمة الجديد فيه يتمتع بمواصلات جيدة.",
+      "note_de": "Formell präzise Präpositionalform statt wo.",
+      "note_ar": "صيغة رسمية دقيقة بحرف جر بدل wo."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Mitarbeiter, deren Antrag geprüft wird, wartet.",
+      "correct": "Der Mitarbeiter, dessen Antrag geprüft wird, wartet.",
+      "explanation_de": "Das Bezugswort ist maskulin; deshalb steht dessen.",
+      "explanation_ar": "الاسم المرجعي مذكر، لذلك نستخدم dessen."
+    },
+    {
+      "wrong": "Die Kollegin, dessen Vorschlag angenommen wurde, leitet das Projekt.",
+      "correct": "Die Kollegin, deren Vorschlag angenommen wurde, leitet das Projekt.",
+      "explanation_de": "Das Bezugswort ist feminin; deshalb steht deren.",
+      "explanation_ar": "الاسم المرجعي مؤنث، لذلك نستخدم deren."
+    },
+    {
+      "wrong": "Die Firma, deren der Sitz in München liegt, wächst.",
+      "correct": "Die Firma, deren Sitz in München liegt, wächst.",
+      "explanation_de": "Nach deren steht kein zusätzlicher Artikel.",
+      "explanation_ar": "لا تأتي أداة تعريف إضافية بعد deren."
+    },
+    {
+      "wrong": "Alles, das Sie benötigen, finden Sie online.",
+      "correct": "Alles, was Sie benötigen, finden Sie online.",
+      "explanation_de": "Nach alles verwendet man was.",
+      "explanation_ar": "بعد alles نستخدم was."
+    },
+    {
+      "wrong": "Die Frist wurde verlängert, das alle Beteiligten entlastete.",
+      "correct": "Die Frist wurde verlängert, was alle Beteiligten entlastete.",
+      "explanation_de": "Der Relativsatz bezieht sich auf die gesamte vorherige Aussage; deshalb steht was.",
+      "explanation_ar": "تعود الجملة الموصولة على العبارة السابقة كاملة، لذلك نستخدم was."
+    },
+    {
+      "wrong": "Der Raum, wo die Besprechung findet statt, liegt im Erdgeschoss.",
+      "correct": "Der Raum, in dem die Besprechung stattfindet, liegt im Erdgeschoss.",
+      "explanation_de": "In formellen Texten ist in dem präziser; das Verb steht am Ende.",
+      "explanation_ar": "في النص الرسمي تكون in dem أدق، ويأتي الفعل في النهاية."
+    }
+  ],
+  "quickSummary_de": [
+    "Dessen steht bei maskulinen und neutralen Bezugswörtern.",
+    "Deren steht bei femininen und pluralen Bezugswörtern.",
+    "Dessen und deren drücken Besitz oder Zugehörigkeit aus.",
+    "Nach dessen und deren steht normalerweise kein zusätzlicher Artikel.",
+    "Der Kasus des folgenden Nomens ergibt sich aus seiner Funktion.",
+    "Was steht nach alles, etwas und nichts.",
+    "Was steht nach substantivierten Superlativen.",
+    "Was kann sich auf einen ganzen Satz beziehen.",
+    "Wo verweist auf einen Ort oder örtlichen Bezug.",
+    "In formellen Texten sind Präposition + Relativpronomen oft präziser.",
+    "Woher bezeichnet Herkunft, wohin Richtung.",
+    "Das Verb steht im Relativsatz am Ende."
+  ],
+  "quickSummary_ar": [
+    "تأتي dessen مع الاسم المرجعي المذكر والمحايد.",
+    "تأتي deren مع الاسم المرجعي المؤنث والجمع.",
+    "تعبّر dessen وderen عن الملكية أو الانتماء.",
+    "لا تأتي عادة أداة تعريف إضافية بعد dessen أو deren.",
+    "تتحدد حالة الاسم التالي بحسب وظيفته.",
+    "تأتي was بعد alles وetwas وnichts.",
+    "تأتي was بعد صيغ التفضيل الاسمية.",
+    "يمكن أن تعود was على جملة كاملة.",
+    "تشير wo إلى مكان أو مرجع مكاني.",
+    "في النصوص الرسمية تكون صيغة حرف الجر مع ضمير الوصل أدق غالبًا.",
+    "تدل woher على المصدر وwohin على الاتجاه.",
+    "يأتي الفعل في نهاية الجملة الموصولة."
+  ],
+  "relatedTopics": [
+    "gr-27",
+    "gr-28",
+    "gr-30"
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-01",
+  "slug": "gr-01-imperativ",
+  "order": 1,
+  "title_de": "Imperativ",
+  "title_ar": "صيغة الأمر",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "grundlagen_festigen",
+  "estimatedMinutes": 35,
+  "learningObjectives_de": [
+    "Aufforderungen mit du, ihr, Sie und wir korrekt bilden.",
+    "Trennbare, reflexive und unregelmäßige Verben im Imperativ verwenden.",
+    "Direkte Anweisungen höflich und situationsgerecht formulieren.",
+    "Typische Fehler bei Stammvokalwechsel, Pronomen und Satzklammer vermeiden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين الأمر بصورة صحيحة مع du وihr وSie وwir.",
+    "استخدام الأفعال المنفصلة والانعكاسية وغير المنتظمة في صيغة الأمر.",
+    "صياغة التعليمات والطلبات بأسلوب مناسب ومهذب.",
+    "تجنب الأخطاء الشائعة في تغير حرف العلة والضمائر وترتيب أجزاء الفعل."
+  ],
+  "shortDescription_de": "Der Imperativ wird für Aufforderungen, Anweisungen, Ratschläge, Warnungen und gemeinsame Vorschläge verwendet.",
+  "shortDescription_ar": "تُستخدم صيغة الأمر للطلبات والتعليمات والنصائح والتحذيرات والاقتراحات المشتركة.",
+  "explanation_de": "Im Deutschen richtet sich die Form des Imperativs danach, wen man anspricht. Bei du fällt das Personalpronomen normalerweise weg und die Endung -st wird nicht verwendet. Bei ihr entspricht die Form der Präsensform ohne das Pronomen ihr. Bei der höflichen Sie-Form stehen Verb und Pronomen am Satzanfang. Mit wir formuliert man einen gemeinsamen Vorschlag. Höflichkeit entsteht nicht nur durch die Sie-Form, sondern auch durch Wörter wie bitte, doch, einmal oder kurz sowie durch einen passenden Ton.",
+  "explanation_ar": "تختلف صيغة الأمر في الألمانية بحسب الشخص المخاطَب. مع du يُحذف الضمير غالبًا ولا تُستخدم النهاية -st. مع ihr نستعمل صيغة المضارع نفسها بعد حذف الضمير ihr. في الصيغة الرسمية Sie يأتي الفعل أولًا ثم الضمير Sie. ومع wir نصوغ اقتراحًا للقيام بشيء معًا. لا تعتمد اللباقة على Sie وحدها، بل أيضًا على كلمات مثل bitte وdoch وkurz وعلى نبرة الكلام.",
+  "rules": [
+    {
+      "id": "gr01-r01",
+      "title_de": "Imperativ mit du",
+      "title_ar": "الأمر مع du",
+      "explanation_de": "Man verwendet meistens den Verbstamm ohne -st und ohne das Pronomen du: kommen → Komm! Bei Verben wie arbeiten, öffnen oder rechnen steht in der Standardsprache meist ein -e: Arbeite! Öffne! Rechne!",
+      "explanation_ar": "نستعمل غالبًا جذر الفعل من دون -st ومن دون الضمير du: kommen → Komm! ومع أفعال مثل arbeiten وöffnen وrechnen تُستخدم غالبًا النهاية -e في اللغة القياسية: Arbeite! Öffne! Rechne!",
+      "formula": "Verbstamm (+ e) + Ergänzungen",
+      "examples": [
+        {
+          "de": "Komm bitte pünktlich!",
+          "ar": "تعال في الوقت من فضلك."
+        },
+        {
+          "de": "Arbeite sorgfältig!",
+          "ar": "اعمل بعناية."
+        },
+        {
+          "de": "Öffne das Fenster!",
+          "ar": "افتح النافذة."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r02",
+      "title_de": "Stammvokalwechsel bei du",
+      "title_ar": "تغير حرف العلة مع du",
+      "explanation_de": "Der Wechsel e → i/ie bleibt erhalten: geben → Gib!, lesen → Lies!, sehen → Sieh!, nehmen → Nimm! Ein Umlautwechsel a → ä wird im Imperativ dagegen nicht übernommen: fahren → Fahr!, laufen → Lauf!, schlafen → Schlaf!",
+      "explanation_ar": "يبقى التغير e → i/ie في الأمر: geben → Gib! وlesen → Lies! وnehmen → Nimm! أما التحول a → ä فلا يُستخدم في صيغة الأمر: fahren → Fahr! وlaufen → Lauf! وschlafen → Schlaf!",
+      "formula": "e → i/ie bleibt; a → ä entfällt",
+      "examples": [
+        {
+          "de": "Lies die Anleitung vollständig!",
+          "ar": "اقرأ التعليمات كاملة."
+        },
+        {
+          "de": "Nimm bitte Platz!",
+          "ar": "تفضل بالجلوس."
+        },
+        {
+          "de": "Fahr vorsichtig!",
+          "ar": "قد بحذر."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r03",
+      "title_de": "Imperativ mit ihr",
+      "title_ar": "الأمر مع ihr",
+      "explanation_de": "Die Form entspricht der Präsensform für ihr, aber das Pronomen fällt weg: ihr kommt → Kommt!, ihr seid → Seid!",
+      "explanation_ar": "نستعمل صيغة المضارع مع ihr بعد حذف الضمير: ihr kommt → Kommt! وihr seid → Seid!",
+      "formula": "Präsensform für ihr – Pronomen ihr",
+      "examples": [
+        {
+          "de": "Kommt bitte herein!",
+          "ar": "ادخلوا من فضلكم."
+        },
+        {
+          "de": "Seid aufmerksam!",
+          "ar": "كونوا منتبهين."
+        },
+        {
+          "de": "Füllt das Formular vollständig aus!",
+          "ar": "املؤوا الاستمارة كاملة."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r04",
+      "title_de": "Höflicher Imperativ mit Sie",
+      "title_ar": "الأمر الرسمي مع Sie",
+      "explanation_de": "Die Form lautet Verb + Sie: Kommen Sie!, Lesen Sie!, Seien Sie! Das Pronomen Sie darf nicht fehlen.",
+      "explanation_ar": "الصيغة هي: الفعل ثم Sie مثل Kommen Sie! وLesen Sie! وSeien Sie! ولا يجوز حذف الضمير Sie.",
+      "formula": "Verb + Sie + Ergänzungen",
+      "examples": [
+        {
+          "de": "Kommen Sie bitte herein!",
+          "ar": "تفضل بالدخول."
+        },
+        {
+          "de": "Lesen Sie den Vertrag sorgfältig!",
+          "ar": "اقرأ العقد بعناية."
+        },
+        {
+          "de": "Seien Sie bitte vorsichtig!",
+          "ar": "يرجى أن تكون حذرًا."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r05",
+      "title_de": "Gemeinsamer Vorschlag mit wir",
+      "title_ar": "اقتراح مشترك مع wir",
+      "explanation_de": "Mit Verb + wir macht man einen Vorschlag, an dem die sprechende Person selbst beteiligt ist.",
+      "explanation_ar": "نستخدم الفعل ثم wir لاقتراح عمل تشارك فيه الشخصية المتكلمة.",
+      "formula": "Verb + wir + Ergänzungen",
+      "examples": [
+        {
+          "de": "Gehen wir Schritt für Schritt vor!",
+          "ar": "لنتقدم خطوة بخطوة."
+        },
+        {
+          "de": "Besprechen wir zuerst die wichtigsten Punkte!",
+          "ar": "لنناقش أولًا أهم النقاط."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r06",
+      "title_de": "Trennbare und reflexive Verben",
+      "title_ar": "الأفعال المنفصلة والانعكاسية",
+      "explanation_de": "Bei trennbaren Verben steht das Präfix am Satzende: Ruf mich an! Bei reflexiven Verben bleibt das Reflexivpronomen erhalten und passt zur Anrede: Setz dich!, Setzt euch!, Setzen Sie sich!",
+      "explanation_ar": "في الأفعال المنفصلة يأتي الجزء المنفصل في نهاية الجملة: Ruf mich an! وفي الأفعال الانعكاسية يبقى الضمير الانعكاسي ويتغير بحسب المخاطَب: Setz dich! وSetzt euch! وSetzen Sie sich!",
+      "formula": "Verbteil ... Präfix / Verb + Reflexivpronomen",
+      "examples": [
+        {
+          "de": "Ruf die Kundin bitte an!",
+          "ar": "اتصل بالعميلة من فضلك."
+        },
+        {
+          "de": "Meldet euch rechtzeitig an!",
+          "ar": "سجلوا أنفسكم في الوقت المناسب."
+        },
+        {
+          "de": "Setzen Sie sich bitte!",
+          "ar": "تفضل بالجلوس."
+        }
+      ]
+    },
+    {
+      "id": "gr01-r07",
+      "title_de": "Negation und Höflichkeit",
+      "title_ar": "النفي واللباقة",
+      "explanation_de": "Eine negative Aufforderung wird meist mit nicht gebildet: Mach das nicht! Bitte kann am Anfang, im Mittelfeld oder am Ende stehen. In beruflichen Situationen sind klare, aber höfliche Formulierungen wichtig.",
+      "explanation_ar": "يُصاغ الأمر المنفي غالبًا باستخدام nicht مثل: Mach das nicht! يمكن أن تأتي bitte في أول الجملة أو وسطها أو نهايتها. وفي العمل يجب أن تكون التعليمات واضحة ومهذبة.",
+      "formula": "Imperativ + nicht / bitte",
+      "examples": [
+        {
+          "de": "Vergiss den Termin bitte nicht!",
+          "ar": "لا تنسَ الموعد من فضلك."
+        },
+        {
+          "de": "Seien Sie bitte nicht ungeduldig!",
+          "ar": "يرجى ألا تكون متعجلًا."
+        },
+        {
+          "de": "Schicken Sie mir die Unterlagen bitte heute.",
+          "ar": "أرسل لي المستندات اليوم من فضلك."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr01-t01",
+      "title_de": "Grundformen",
+      "title_ar": "الصيغ الأساسية",
+      "headers_de": [
+        "Anrede",
+        "kommen",
+        "lesen",
+        "anrufen",
+        "sein"
+      ],
+      "headers_ar": [
+        "المخاطَب",
+        "kommen",
+        "lesen",
+        "anrufen",
+        "sein"
+      ],
+      "rows": [
+        [
+          "du",
+          "Komm!",
+          "Lies!",
+          "Ruf ... an!",
+          "Sei!"
+        ],
+        [
+          "ihr",
+          "Kommt!",
+          "Lest!",
+          "Ruft ... an!",
+          "Seid!"
+        ],
+        [
+          "Sie",
+          "Kommen Sie!",
+          "Lesen Sie!",
+          "Rufen Sie ... an!",
+          "Seien Sie!"
+        ],
+        [
+          "wir",
+          "Kommen wir!",
+          "Lesen wir!",
+          "Rufen wir ... an!",
+          "Seien wir!"
+        ]
+      ]
+    },
+    {
+      "id": "gr01-t02",
+      "title_de": "Wichtige unregelmäßige Formen",
+      "title_ar": "صيغ غير منتظمة مهمة",
+      "headers_de": [
+        "Infinitiv",
+        "du",
+        "ihr",
+        "Sie"
+      ],
+      "headers_ar": [
+        "المصدر",
+        "du",
+        "ihr",
+        "Sie"
+      ],
+      "rows": [
+        [
+          "geben",
+          "Gib!",
+          "Gebt!",
+          "Geben Sie!"
+        ],
+        [
+          "nehmen",
+          "Nimm!",
+          "Nehmt!",
+          "Nehmen Sie!"
+        ],
+        [
+          "lesen",
+          "Lies!",
+          "Lest!",
+          "Lesen Sie!"
+        ],
+        [
+          "sehen",
+          "Sieh!",
+          "Seht!",
+          "Sehen Sie!"
+        ],
+        [
+          "fahren",
+          "Fahr!",
+          "Fahrt!",
+          "Fahren Sie!"
+        ],
+        [
+          "sein",
+          "Sei!",
+          "Seid!",
+          "Seien Sie!"
+        ],
+        [
+          "haben",
+          "Hab!/Habe!",
+          "Habt!",
+          "Haben Sie!"
+        ],
+        [
+          "werden",
+          "Werde!",
+          "Werdet!",
+          "Werden Sie!"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ruf bitte sofort beim Kundenservice an!",
+      "ar": "اتصل فورًا بخدمة العملاء من فضلك.",
+      "note_de": "Trennbares Verb: an steht am Satzende.",
+      "note_ar": "فعل منفصل: يأتي an في نهاية الجملة."
+    },
+    {
+      "de": "Füllen Sie bitte alle Pflichtfelder aus!",
+      "ar": "يرجى ملء جميع الحقول الإلزامية.",
+      "note_de": "Höfliche Sie-Form mit trennbarem Verb.",
+      "note_ar": "صيغة رسمية مع فعل منفصل."
+    },
+    {
+      "de": "Seid während der Besprechung aufmerksam!",
+      "ar": "كونوا منتبهين أثناء الاجتماع.",
+      "note_de": "Unregelmäßige Form von sein mit ihr.",
+      "note_ar": "صيغة غير منتظمة للفعل sein مع ihr."
+    },
+    {
+      "de": "Setzen Sie sich bitte einen Moment!",
+      "ar": "تفضل بالجلوس لحظة.",
+      "note_de": "Das Reflexivpronomen sich bleibt erhalten.",
+      "note_ar": "يبقى الضمير الانعكاسي sich موجودًا."
+    },
+    {
+      "de": "Besprechen wir die Lösung zuerst im Team!",
+      "ar": "لنناقش الحل أولًا ضمن الفريق.",
+      "note_de": "Gemeinsamer Vorschlag mit wir.",
+      "note_ar": "اقتراح مشترك مع wir."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Kommst bitte pünktlich!",
+      "correct": "Komm bitte pünktlich!",
+      "explanation_de": "Beim du-Imperativ fällt die Endung -st weg.",
+      "explanation_ar": "تُحذف النهاية -st في الأمر مع du."
+    },
+    {
+      "wrong": "Lese die Anleitung!",
+      "correct": "Lies die Anleitung!",
+      "explanation_de": "Bei lesen bleibt der Stammvokalwechsel e → ie erhalten.",
+      "explanation_ar": "يبقى تغير حرف العلة e → ie مع lesen."
+    },
+    {
+      "wrong": "Fähr vorsichtig!",
+      "correct": "Fahr vorsichtig!",
+      "explanation_de": "Der Umlautwechsel a → ä wird im Imperativ nicht übernommen.",
+      "explanation_ar": "لا نستخدم التحول a → ä في صيغة الأمر."
+    },
+    {
+      "wrong": "Kommen bitte herein!",
+      "correct": "Kommen Sie bitte herein!",
+      "explanation_de": "In der höflichen Form darf das Pronomen Sie nicht fehlen.",
+      "explanation_ar": "لا يجوز حذف الضمير Sie في الصيغة الرسمية."
+    },
+    {
+      "wrong": "Ruf an den Kunden!",
+      "correct": "Ruf den Kunden an!",
+      "explanation_de": "Das Präfix eines trennbaren Verbs steht am Satzende.",
+      "explanation_ar": "يأتي الجزء المنفصل من الفعل في نهاية الجملة."
+    },
+    {
+      "wrong": "Setz sich!",
+      "correct": "Setz dich!",
+      "explanation_de": "Das Reflexivpronomen muss zur Anrede passen.",
+      "explanation_ar": "يجب أن يناسب الضمير الانعكاسي الشخص المخاطَب."
+    }
+  ],
+  "quickSummary_de": [
+    "du: Verbstamm ohne -st und meist ohne Pronomen.",
+    "ihr: Präsensform ohne ihr.",
+    "Sie: Verb + Sie.",
+    "wir: Verb + wir als gemeinsamer Vorschlag.",
+    "Trennbare Präfixe stehen am Ende.",
+    "Reflexivpronomen bleiben erhalten.",
+    "e → i/ie bleibt, a → ä entfällt.",
+    "Bitte und ein passender Ton machen Aufforderungen höflicher."
+  ],
+  "quickSummary_ar": [
+    "du: جذر الفعل من دون -st ومن دون الضمير غالبًا.",
+    "ihr: صيغة المضارع بعد حذف ihr.",
+    "Sie: الفعل ثم Sie.",
+    "wir: الفعل ثم wir للاقتراح المشترك.",
+    "يأتي الجزء المنفصل في نهاية الجملة.",
+    "تبقى الضمائر الانعكاسية.",
+    "يبقى التغير e → i/ie بينما لا نستخدم a → ä.",
+    "تجعل bitte والنبرة المناسبة الطلب أكثر تهذيبًا."
+  ],
+  "relatedTopics": [
+    "gr-02",
+    "gr-03",
+    "gr-04"
+  ]
+}

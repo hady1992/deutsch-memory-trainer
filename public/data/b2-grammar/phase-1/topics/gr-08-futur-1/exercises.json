@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-08",
+  "title_de": "Futur I – Übungen",
+  "title_ar": "تمارين المستقبل الأول",
+  "level": "B2",
+  "exerciseCount": 18,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr08-e001",
+      "topicId": "gr-08",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Werden konjugieren",
+      "title_ar": "تصريف werden",
+      "prompt_de": "Ich ______ die Unterlagen morgen schicken.",
+      "prompt_ar": "أنا ______ المستندات غدًا.",
+      "answer": "werde",
+      "explanation_de": "Für ich lautet die Form werde.",
+      "explanation_ar": "صيغة werden مع ich هي werde.",
+      "grammarFocus": "werden_ich",
+      "acceptedAnswers": [
+        "werde"
+      ]
+    },
+    {
+      "id": "gr08-e002",
+      "topicId": "gr-08",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Infinitiv im Futur I",
+      "title_ar": "المصدر في Futur I",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir werden das Problem gemeinsam lösen.",
+      "explanation_de": "Nach werden steht der Infinitiv lösen.",
+      "explanation_ar": "بعد werden يأتي المصدر lösen.",
+      "grammarFocus": "future_infinitive",
+      "options": [
+        "Wir werden das Problem gemeinsam lösen.",
+        "Wir werden das Problem gemeinsam gelöst.",
+        "Wir werden gemeinsam das Problem lösten.",
+        "Wir das Problem werden gemeinsam lösen."
+      ]
+    },
+    {
+      "id": "gr08-e003",
+      "topicId": "gr-08",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Werden für du",
+      "title_ar": "werden مع du",
+      "prompt_de": "Konjugieren Sie „werden“ für du.",
+      "prompt_ar": "صرّف werden مع du.",
+      "answer": "wirst",
+      "explanation_de": "Die unregelmäßige Form für du lautet wirst.",
+      "explanation_ar": "الصيغة غير المنتظمة مع du هي wirst.",
+      "grammarFocus": "werden_du",
+      "acceptedAnswers": [
+        "wirst"
+      ],
+      "infinitive": "werden",
+      "person": "du"
+    },
+    {
+      "id": "gr08-e004",
+      "topicId": "gr-08",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Satzklammer",
+      "title_ar": "إطار الجملة",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Schulung wird nächste Woche stattfinden.",
+      "explanation_de": "Wird steht auf Position 2; stattfinden steht am Ende.",
+      "explanation_ar": "تأتي wird في المرتبة الثانية وstattfinden في النهاية.",
+      "grammarFocus": "future_main_clause",
+      "tokens": [
+        "nächste Woche",
+        "stattfinden",
+        "wird",
+        "Die Schulung"
+      ],
+      "acceptedAnswers": [
+        "Die Schulung wird nächste Woche stattfinden."
+      ]
+    },
+    {
+      "id": "gr08-e005",
+      "topicId": "gr-08",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Formen von werden",
+      "title_ar": "صيغ werden",
+      "prompt_de": "Ordnen Sie die passende Form zu.",
+      "prompt_ar": "صِل الصيغة المناسبة.",
+      "answer": {
+        "ich": "werde",
+        "du": "wirst",
+        "er/sie/es": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie/Sie": "werden"
+      },
+      "explanation_de": "Werden wird im Futur I konjugiert.",
+      "explanation_ar": "يُصرّف werden في Futur I.",
+      "grammarFocus": "werden_forms",
+      "pairs": [
+        [
+          "ich",
+          "werde"
+        ],
+        [
+          "du",
+          "wirst"
+        ],
+        [
+          "er/sie/es",
+          "wird"
+        ],
+        [
+          "wir",
+          "werden"
+        ],
+        [
+          "ihr",
+          "werdet"
+        ],
+        [
+          "sie/Sie",
+          "werden"
+        ]
+      ]
+    },
+    {
+      "id": "gr08-e006",
+      "topicId": "gr-08",
+      "type": "scenario_choice",
+      "difficulty": "easy",
+      "title_de": "Versprechen",
+      "title_ar": "وعد",
+      "prompt_de": "Sie geben einer Kundin eine feste Zusage. Welche Form passt?",
+      "prompt_ar": "تقدم لعميلة وعدًا واضحًا. أي صيغة مناسبة؟",
+      "answer": "Wir werden Sie rechtzeitig informieren.",
+      "explanation_de": "Futur I betont hier die feste Zusage.",
+      "explanation_ar": "يؤكد Futur I هنا على الالتزام.",
+      "grammarFocus": "future_promise",
+      "options": [
+        "Wir werden Sie rechtzeitig informieren.",
+        "Wir haben Sie rechtzeitig informieren.",
+        "Wir wurden Sie rechtzeitig informieren.",
+        "Wir werden Sie rechtzeitig informiert."
+      ]
+    },
+    {
+      "id": "gr08-e007",
+      "topicId": "gr-08",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Absicht",
+      "title_ar": "نية",
+      "prompt_de": "Bilden Sie einen Satz mit Futur I: ich / mich sofort darum kümmern",
+      "prompt_ar": "كوّن جملة Futur I.",
+      "answer": "Ich werde mich sofort darum kümmern.",
+      "explanation_de": "Das Futur I hebt die feste Absicht hervor.",
+      "explanation_ar": "يؤكد Futur I على النية الثابتة.",
+      "grammarFocus": "future_intention",
+      "acceptedAnswers": [
+        "Ich werde mich sofort darum kümmern."
+      ]
+    },
+    {
+      "id": "gr08-e008",
+      "topicId": "gr-08",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Prognose",
+      "title_ar": "توقع",
+      "prompt_de": "Die Preise ______ voraussichtlich weiter steigen.",
+      "prompt_ar": "من المتوقع أن ______ الأسعار في الارتفاع.",
+      "answer": "werden",
+      "explanation_de": "Das Subjekt Preise steht im Plural; deshalb lautet die Form werden.",
+      "explanation_ar": "الفاعل Preise جمع، لذلك نستخدم werden.",
+      "grammarFocus": "future_prediction_plural",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "gr08-e009",
+      "topicId": "gr-08",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vermutung über die Gegenwart",
+      "title_ar": "تخمين حول الحاضر",
+      "prompt_de": "Welche Aussage ist eine Vermutung über die Gegenwart?",
+      "prompt_ar": "أي جملة تعبر عن تخمين حول الحاضر؟",
+      "answer": "Er wird wahrscheinlich im Büro sein.",
+      "explanation_de": "Futur I mit wahrscheinlich kann eine aktuelle Vermutung ausdrücken.",
+      "explanation_ar": "يمكن أن يعبّر Futur I مع wahrscheinlich عن تخمين حالي.",
+      "grammarFocus": "present_assumption",
+      "options": [
+        "Er wird wahrscheinlich im Büro sein.",
+        "Er war gestern im Büro.",
+        "Er ist jeden Montag im Büro.",
+        "Er ist ins Büro gegangen."
+      ]
+    },
+    {
+      "id": "gr08-e010",
+      "topicId": "gr-08",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Funktion erkennen",
+      "title_ar": "تمييز الوظيفة",
+      "prompt_de": "Ordnen Sie Satz und Funktion zu.",
+      "prompt_ar": "صِل الجملة بالوظيفة.",
+      "answer": {
+        "Ich werde Ihnen morgen antworten.": "Versprechen",
+        "Die Kosten werden wahrscheinlich steigen.": "Prognose",
+        "Frau Klein wird wohl noch im Gespräch sein.": "Vermutung über die Gegenwart",
+        "Der Kurs wird im Oktober beginnen.": "zukünftiges Ereignis"
+      },
+      "explanation_de": "Der Kontext bestimmt die Funktion des Futur I.",
+      "explanation_ar": "يحدد السياق وظيفة Futur I.",
+      "grammarFocus": "future_functions",
+      "pairs": [
+        [
+          "Ich werde Ihnen morgen antworten.",
+          "Versprechen"
+        ],
+        [
+          "Die Kosten werden wahrscheinlich steigen.",
+          "Prognose"
+        ],
+        [
+          "Frau Klein wird wohl noch im Gespräch sein.",
+          "Vermutung über die Gegenwart"
+        ],
+        [
+          "Der Kurs wird im Oktober beginnen.",
+          "zukünftiges Ereignis"
+        ]
+      ]
+    },
+    {
+      "id": "gr08-e011",
+      "topicId": "gr-08",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Futur im Nebensatz",
+      "title_ar": "Futur في الجملة الفرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass die Besprechung länger dauern wird",
+      "explanation_de": "Im Nebensatz stehen dauern und wird gemeinsam am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي dauern وwird معًا في النهاية.",
+      "grammarFocus": "future_subordinate",
+      "tokens": [
+        "länger",
+        "wird",
+        "dass",
+        "dauern",
+        "die Besprechung"
+      ],
+      "acceptedAnswers": [
+        "dass die Besprechung länger dauern wird"
+      ]
+    },
+    {
+      "id": "gr08-e012",
+      "topicId": "gr-08",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Hoffnung im Nebensatz",
+      "title_ar": "أمل في جملة فرعية",
+      "prompt_de": "Bilden Sie einen Satz: wir hoffen / sich die Lage bald verbessern",
+      "prompt_ar": "كوّن جملة صحيحة.",
+      "answer": "Wir hoffen, dass sich die Lage bald verbessern wird.",
+      "explanation_de": "Im dass-Satz steht verbessern wird am Ende.",
+      "explanation_ar": "في جملة dass تأتي verbessern wird في النهاية.",
+      "grammarFocus": "future_subordinate_reflexive",
+      "acceptedAnswers": [
+        "Wir hoffen, dass sich die Lage bald verbessern wird."
+      ]
+    },
+    {
+      "id": "gr08-e013",
+      "topicId": "gr-08",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Präsens oder Futur I",
+      "title_ar": "Präsens أم Futur I",
+      "prompt_de": "Welche Form klingt für einen fest geplanten Termin besonders natürlich?",
+      "prompt_ar": "أي صيغة تبدو طبيعية أكثر لموعد مخطط بوضوح؟",
+      "answer": "Morgen bespreche ich den Fall mit der Abteilungsleitung.",
+      "explanation_de": "Bei einem klar geplanten Termin ist Präsens mit Zeitangabe sehr üblich.",
+      "explanation_ar": "يُستخدم Präsens مع ظرف زمني كثيرًا للمواعيد المخططة بوضوح.",
+      "grammarFocus": "present_vs_future",
+      "options": [
+        "Morgen bespreche ich den Fall mit der Abteilungsleitung.",
+        "Morgen werde ich den Fall besprochen haben.",
+        "Morgen wurde ich den Fall besprechen.",
+        "Morgen ich werde den Fall besprechen."
+      ]
+    },
+    {
+      "id": "gr08-e014",
+      "topicId": "gr-08",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Wahrscheinlichkeit",
+      "title_ar": "الاحتمال",
+      "prompt_de": "Eine Kollegin ist nicht erreichbar. Sie vermuten, dass sie noch in einer Besprechung ist. Was sagen Sie?",
+      "prompt_ar": "زميلة غير متاحة وتعتقد أنها ما زالت في اجتماع. ماذا تقول؟",
+      "answer": "Sie wird wohl noch in einer Besprechung sein.",
+      "explanation_de": "Wohl markiert eine Vermutung über die Gegenwart.",
+      "explanation_ar": "تدل wohl على تخمين حول الحاضر.",
+      "grammarFocus": "assumption_wohl",
+      "options": [
+        "Sie wird wohl noch in einer Besprechung sein.",
+        "Sie wird wohl gestern in einer Besprechung gewesen.",
+        "Sie ist wohl morgen in einer Besprechung gewesen.",
+        "Sie wurde wohl in einer Besprechung sein."
+      ]
+    },
+    {
+      "id": "gr08-e015",
+      "topicId": "gr-08",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Prognose",
+      "title_ar": "توقع معقد",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Nachfrage wird in den kommenden Monaten wahrscheinlich weiter steigen.",
+      "explanation_de": "Das konjugierte wird steht auf Position 2; steigen steht am Ende.",
+      "explanation_ar": "يأتي wird في المرتبة الثانية وsteigen في النهاية.",
+      "grammarFocus": "complex_prediction",
+      "tokens": [
+        "wahrscheinlich",
+        "weiter",
+        "Die Nachfrage",
+        "steigen",
+        "in den kommenden Monaten",
+        "wird"
+      ],
+      "acceptedAnswers": [
+        "Die Nachfrage wird in den kommenden Monaten wahrscheinlich weiter steigen."
+      ]
+    },
+    {
+      "id": "gr08-e016",
+      "topicId": "gr-08",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutung unterscheiden",
+      "title_ar": "تمييز المعنى",
+      "prompt_de": "Welche Aussage betont am stärksten ein Versprechen?",
+      "prompt_ar": "أي جملة تؤكد الوعد أكثر؟",
+      "answer": "Ich werde Ihnen die korrigierte Datei noch heute schicken.",
+      "explanation_de": "Das Futur I hebt die feste Zusage deutlich hervor.",
+      "explanation_ar": "يبرز Futur I الالتزام الواضح بصورة أقوى.",
+      "grammarFocus": "promise_emphasis",
+      "options": [
+        "Ich werde Ihnen die korrigierte Datei noch heute schicken.",
+        "Ich schicke manchmal korrigierte Dateien.",
+        "Ich habe Ihnen die Datei geschickt.",
+        "Ich schickte die Datei gestern."
+      ]
+    },
+    {
+      "id": "gr08-e017",
+      "topicId": "gr-08",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Vermutung im Berufsalltag",
+      "title_ar": "تخمين في العمل",
+      "prompt_de": "Formulieren Sie eine Vermutung: Herr Becker / gerade / mit einem Kunden sprechen / wahrscheinlich",
+      "prompt_ar": "صغ تخمينًا حول الحاضر.",
+      "answer": "Herr Becker wird wahrscheinlich gerade mit einem Kunden sprechen.",
+      "explanation_de": "Futur I mit wahrscheinlich drückt eine Vermutung über die aktuelle Situation aus.",
+      "explanation_ar": "يعبّر Futur I مع wahrscheinlich عن تخمين حول وضع حالي.",
+      "grammarFocus": "complex_present_assumption",
+      "acceptedAnswers": [
+        "Herr Becker wird wahrscheinlich gerade mit einem Kunden sprechen.",
+        "Herr Becker wird vermutlich gerade mit einem Kunden sprechen."
+      ]
+    },
+    {
+      "id": "gr08-e018",
+      "topicId": "gr-08",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Futur I",
+      "title_ar": "تدريب ختامي على Futur I",
+      "prompt_de": "Schreiben Sie einen kurzen Text mit mindestens sechs Sätzen über die nächste Arbeits- oder Lernwoche. Verwenden Sie: ein geplantes Ereignis im Präsens, zwei Futur-I-Sätze, ein Versprechen, eine Prognose, eine Vermutung über die Gegenwart und einen Nebensatz.",
+      "prompt_ar": "اكتب نصًا قصيرًا من ست جمل على الأقل عن أسبوع العمل أو التعلم القادم. استخدم حدثًا مخططًا بصيغة Präsens، وجملتين Futur I، ووعدًا، وتوقعًا، وتخمينًا حول الحاضر، وجملة فرعية.",
+      "answer": {
+        "requiredConcepts": [
+          "geplante Zukunft im Präsens",
+          "mindestens zwei Futur-I-Sätze",
+          "mindestens ein Versprechen oder feste Absicht",
+          "mindestens eine Prognose",
+          "mindestens eine Vermutung über die Gegenwart",
+          "mindestens ein Nebensatz mit Infinitiv + werden am Ende"
+        ]
+      },
+      "explanation_de": "Achten Sie auf die Form von werden, den Infinitiv und die beabsichtigte Bedeutung.",
+      "explanation_ar": "انتبه إلى صيغة werden والمصدر والمعنى المقصود.",
+      "grammarFocus": "mixed_future_one",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

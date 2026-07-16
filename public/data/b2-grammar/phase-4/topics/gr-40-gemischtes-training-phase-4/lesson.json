@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-40",
+  "slug": "gr-40-gemischtes-training-phase-4",
+  "order": 40,
+  "title_de": "Gemischtes Training – Phase 4",
+  "title_ar": "التدريب المختلط – المرحلة الرابعة",
+  "level": "B2",
+  "sourceType": "gemischtes_training",
+  "category": "phase_4_review",
+  "estimatedMinutes": 80,
+  "learningObjectives_de": [
+    "Nominal- und Verbalstil situationsgerecht auswählen.",
+    "Nominalisierungen und Verbalisierungen grammatisch korrekt bilden.",
+    "Feste Nomen-Verb-Verbindungen und Funktionsverbgefüge sicher verwenden.",
+    "Bedeutungsnuancen zwischen Verursachung, Beginn und Zustand unterscheiden.",
+    "Aussagen in Gegenwart, Vergangenheit und Zukunft indirekt wiedergeben.",
+    "Pronomen sowie Zeit- und Ortsangaben perspektivisch anpassen.",
+    "Zwischen Konjunktiv I, Ersatzkonjunktiv und Indikativ begründet wählen.",
+    "Komplexe berufliche Berichte sprachlich präzise und stilistisch ausgewogen verfassen."
+  ],
+  "learningObjectives_ar": [
+    "اختيار الأسلوب الاسمي أو الفعلي بما يناسب الموقف.",
+    "تكوين التحويل الاسمي والتحويل إلى الأسلوب الفعلي بصورة صحيحة.",
+    "استخدام روابط الاسم والفعل وتراكيب الأفعال الوظيفية بثقة.",
+    "التمييز بين التسبب وبداية الحالة والحالة القائمة.",
+    "نقل الأقوال في الحاضر والماضي والمستقبل.",
+    "تعديل الضمائر وتعبيرات الزمان والمكان بحسب المنظور.",
+    "الاختيار المعلل بين Konjunktiv I والصيغة البديلة وIndikativ.",
+    "كتابة تقارير مهنية معقدة بدقة وتوازن أسلوبي."
+  ],
+  "shortDescription_de": "Diese Einheit verbindet die Inhalte aus gr-31 bis gr-39. Sie trainiert Wortbildung, Stil, feste Verbindungen, Bedeutungsnuancen und indirekte Rede in realistischen beruflichen Kontexten.",
+  "shortDescription_ar": "تجمع هذه الوحدة محتوى gr-31 حتى gr-39. وهي تدرب على اشتقاق الكلمات والأسلوب والروابط الثابتة وفروق المعنى والكلام المنقول في سياقات مهنية واقعية.",
+  "explanation_de": "Im gemischten Training entscheidet nicht nur die Grammatikform, sondern auch die kommunikative Funktion. Nominalstil eignet sich für kompakte Benennungen, Überschriften und formelle Zusammenfassungen; Verbalstil zeigt Abläufe und Verantwortlichkeiten oft klarer. Nomen-Verb-Verbindungen und Funktionsverbgefüge müssen als feste Einheiten mit Artikel, Kasus, Präposition und Bedeutungsnuance gelernt werden. Bei der indirekten Rede sind vier Schritte sinnvoll: Quelle bestimmen, Zeitstufe erkennen, Perspektive anpassen und die passende Verbform wählen. Eindeutiger Konjunktiv I wird bevorzugt. Ist die Form mit dem Indikativ identisch, steht häufig Konjunktiv II oder würde + Infinitiv. Indikativ ist möglich, wenn eine Information bestätigt oder in alltagssprachlichem Stil wiedergegeben wird. Eine sichere Endkontrolle prüft daher Wortbildung, feste Verbindung, Satzstellung, Pronomen, Zeit, Ort, Aktiv oder Passiv und Quellenstatus.",
+  "explanation_ar": "في التدريب المختلط لا تحدد الصيغة النحوية وحدها الحل، بل تحدده أيضًا وظيفة الكلام. يناسب الأسلوب الاسمي التسميات المختصرة والعناوين والملخصات الرسمية، بينما يوضح الأسلوب الفعلي سير الإجراءات والمسؤوليات غالبًا بصورة أفضل. ويجب تعلم روابط الاسم والفعل وتراكيب الأفعال الوظيفية بوصفها وحدات ثابتة مع الأداة والحالة وحرف الجر وفرق المعنى. وفي الكلام المنقول تفيد أربع خطوات: تحديد المصدر، وتحديد الزمن، وتعديل المنظور، ثم اختيار صيغة الفعل المناسبة. تُفضّل صيغة Konjunktiv I الواضحة. وإذا تطابقت مع Indikativ نستخدم غالبًا Konjunktiv II أو würde + Infinitiv. ويمكن استخدام Indikativ عندما تكون المعلومة مؤكدة أو يُنقل القول بأسلوب يومي. لذلك تشمل المراجعة الأخيرة اشتقاق الكلمات والرابط الثابت وترتيب الجملة والضمائر والزمن والمكان والمعلوم أو المجهول وحالة المصدر.",
+  "rules": [
+    {
+      "id": "gr40-r01",
+      "title_de": "Stil zuerst bestimmen",
+      "title_ar": "تحديد الأسلوب أولًا",
+      "explanation_de": "Kompakte Benennung spricht für Nominalstil; klare Handlung und Verantwortung für Verbalstil.",
+      "explanation_ar": "تدعم التسمية المختصرة الأسلوب الاسمي، بينما يدعم الإجراء والمسؤولية الواضحان الأسلوب الفعلي.",
+      "formula": "Benennung → Nomen | Ablauf → Verb",
+      "examples": [
+        {
+          "de": "Prüfung der Unterlagen – Die Fachabteilung prüft die Unterlagen.",
+          "ar": "مراجعة المستندات – يراجع القسم المختص المستندات."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r02",
+      "title_de": "Feste Verbindung vollständig lernen",
+      "title_ar": "تعلم الرابط كاملًا",
+      "explanation_de": "Verb, Artikel, Kasus und Präposition gehören zusammen.",
+      "explanation_ar": "ينتمي الفعل والأداة والحالة وحرف الجر إلى الرابط نفسه.",
+      "formula": "Kontakt aufnehmen mit + Dativ",
+      "examples": [
+        {
+          "de": "Wir nehmen Kontakt mit der zuständigen Stelle auf.",
+          "ar": "نتواصل مع الجهة المختصة."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r03",
+      "title_de": "Perspektive im Funktionsverbgefüge",
+      "title_ar": "منظور تركيب الفعل الوظيفي",
+      "explanation_de": "Bringen oder setzen verursacht; kommen oder geraten beginnt; stehen beschreibt einen Zustand.",
+      "explanation_ar": "تدل bringen أو setzen على التسبب، وتدل kommen أو geraten على البداية، وتصف stehen الحالة.",
+      "formula": "verursachen → beginnen → bestehen",
+      "examples": [
+        {
+          "de": "Die Frist setzt das Team unter Druck. Das Team gerät unter Druck. Das Team steht unter Druck.",
+          "ar": "تضع المهلة الفريق تحت الضغط. يدخل الفريق تحت الضغط. يبقى الفريق تحت الضغط."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r04",
+      "title_de": "Zeitstufe der indirekten Rede",
+      "title_ar": "زمن الكلام المنقول",
+      "explanation_de": "Gegenwart, Vergangenheit, Zukunft und Futur II haben unterschiedliche Verbgruppen.",
+      "explanation_ar": "للحاضر والماضي والمستقبل وFutur II مجموعات أفعال مختلفة.",
+      "formula": "arbeite | habe gearbeitet | werde arbeiten | werde gearbeitet haben",
+      "examples": [
+        {
+          "de": "Er sagt, er habe gestern gearbeitet und werde morgen frei haben.",
+          "ar": "يقول إنه عمل أمس وستكون لديه إجازة غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r05",
+      "title_de": "Perspektive anpassen",
+      "title_ar": "تعديل المنظور",
+      "explanation_de": "Pronomen, Zeit und Ort richten sich nach Sprecher, Berichtstag und Berichtsort.",
+      "explanation_ar": "تتحدد الضمائر والزمن والمكان بحسب المتحدث ويوم النقل ومكانه.",
+      "formula": "ich/mein/heute/hier → sie/ihr/an diesem Tag/dort",
+      "examples": [
+        {
+          "de": "Frau Roth sagte, sie habe ihre Unterlagen am Vortag dort abgegeben.",
+          "ar": "قالت السيدة روت إنها سلمت مستنداتها هناك في اليوم السابق."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r06",
+      "title_de": "Formwahl in der indirekten Rede",
+      "title_ar": "اختيار الصيغة في الكلام المنقول",
+      "explanation_de": "Eindeutiger Konjunktiv I bleibt; identische Formen erhalten eine Ersatzform; bestätigte Tatsachen können im Indikativ stehen.",
+      "explanation_ar": "تبقى صيغة Konjunktiv I الواضحة، وتحصل الصيغ المتطابقة على بديل، ويمكن أن تأتي الحقائق المؤكدة في Indikativ.",
+      "formula": "sei/habe → hätten/würden → bestätigter Indikativ",
+      "examples": [
+        {
+          "de": "Er sei zuständig. Sie hätten Zeit. Die Behörde bestätigt, dass der Termin stattfindet.",
+          "ar": "هو مسؤول بحسب قوله. لديهم وقت بحسب قولهم. تؤكد الجهة أن الموعد سيُعقد."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r07",
+      "title_de": "Aktiv und Passiv",
+      "title_ar": "المعلوم والمجهول",
+      "explanation_de": "Aktiv nennt Verantwortliche; Passiv stellt Vorgang oder Ergebnis in den Mittelpunkt.",
+      "explanation_ar": "يذكر المعلوم المسؤول، بينما يضع المجهول الإجراء أو النتيجة في المقدمة.",
+      "formula": "Die Abteilung prüft. | Der Antrag werde geprüft.",
+      "examples": [
+        {
+          "de": "Die Fachstelle prüft den Antrag. Die Behörde teilt mit, der Antrag werde geprüft.",
+          "ar": "تفحص الجهة المختصة الطلب. تبلغ الجهة بأن الطلب تتم مراجعته."
+        }
+      ]
+    },
+    {
+      "id": "gr40-r08",
+      "title_de": "Endkontrolle",
+      "title_ar": "المراجعة الأخيرة",
+      "explanation_de": "Prüfen Sie Bedeutung, feste Form, Kasus, Verbposition, Zeit, Perspektive und Stil.",
+      "explanation_ar": "راجع المعنى والصيغة الثابتة والحالة وموقع الفعل والزمن والمنظور والأسلوب.",
+      "formula": "Bedeutung → Struktur → Form → Stil",
+      "examples": [
+        {
+          "de": "Eine grammatisch mögliche Form ist nicht immer die stilistisch passende Form.",
+          "ar": "ليست كل صيغة ممكنة نحويًا مناسبة أسلوبيًا."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr40-t01",
+      "title_de": "Phase-4-Überblick",
+      "title_ar": "نظرة عامة على المرحلة الرابعة",
+      "headers_de": [
+        "Bereich",
+        "Leitfrage"
+      ],
+      "headers_ar": [
+        "المجال",
+        "السؤال الأساسي"
+      ],
+      "rows": [
+        [
+          "Nominalisierung",
+          "Wie wird eine Handlung oder Eigenschaft als Nomen formuliert?"
+        ],
+        [
+          "Verbalisierung",
+          "Wie wird eine Nominalgruppe zu einem klaren Satz?"
+        ],
+        [
+          "Nomen-Verb-Verbindung",
+          "Welche feste Kombination ist korrekt?"
+        ],
+        [
+          "Funktionsverbgefüge",
+          "Welche Perspektive drückt das Verb aus?"
+        ],
+        [
+          "Indirekte Rede",
+          "Welche Zeit-, Perspektiv- und Modusform ist nötig?"
+        ]
+      ]
+    },
+    {
+      "id": "gr40-t02",
+      "title_de": "Indirekte Rede kompakt",
+      "title_ar": "ملخص الكلام المنقول",
+      "headers_de": [
+        "Situation",
+        "Form"
+      ],
+      "headers_ar": [
+        "الحالة",
+        "الصيغة"
+      ],
+      "rows": [
+        [
+          "eindeutige Gegenwart",
+          "er sei / habe / arbeite"
+        ],
+        [
+          "Vergangenheit Aktiv",
+          "er habe / sei + Partizip II"
+        ],
+        [
+          "Vergangenheit Passiv",
+          "es sei + Partizip II + worden"
+        ],
+        [
+          "Zukunft",
+          "er werde + Infinitiv"
+        ],
+        [
+          "identische Pluralform",
+          "sie hätten / könnten / würden arbeiten"
+        ],
+        [
+          "bestätigte Tatsache",
+          "Indikativ möglich"
+        ]
+      ]
+    },
+    {
+      "id": "gr40-t03",
+      "title_de": "Typische feste Verbindungen",
+      "title_ar": "روابط ثابتة نموذجية",
+      "headers_de": [
+        "Verbindung",
+        "Ergänzung / Nuance"
+      ],
+      "headers_ar": [
+        "الرابط",
+        "المتمم أو فرق المعنى"
+      ],
+      "rows": [
+        [
+          "Kontakt aufnehmen",
+          "mit + Dativ"
+        ],
+        [
+          "Stellung nehmen",
+          "zu + Dativ"
+        ],
+        [
+          "Bezug nehmen",
+          "auf + Akkusativ"
+        ],
+        [
+          "in Betracht ziehen",
+          "Möglichkeit aktiv prüfen"
+        ],
+        [
+          "unter Druck geraten",
+          "Beginn eines Zustands"
+        ],
+        [
+          "unter Druck stehen",
+          "bestehender Zustand"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Aufgrund der Verzögerung erfolgte eine erneute Prüfung. → Weil sich der Vorgang verzögert hatte, prüfte die Fachabteilung die Unterlagen erneut.",
+      "ar": "بسبب التأخير جرت مراجعة جديدة. ← لأن الإجراء تأخر راجع القسم المختص المستندات من جديد.",
+      "note_de": "Nominalstil wird verbalisiert und die verantwortliche Stelle wird genannt.",
+      "note_ar": "تم تحويل الأسلوب الاسمي إلى فعلي وذُكرت الجهة المسؤولة."
+    },
+    {
+      "de": "Die Leitung nahm zu dem Vorschlag Stellung und zog anschließend eine interne Versetzung in Betracht.",
+      "ar": "أبدت الإدارة موقفها من الاقتراح ثم درست إمكانية النقل الداخلي.",
+      "note_de": "Berufliche Nomen-Verb-Verbindung und Funktionsverbgefüge.",
+      "note_ar": "رابط مهني وتركيب فعل وظيفي."
+    },
+    {
+      "de": "Die Beschäftigten erklärten, die kurze Frist habe sie unter Druck gesetzt und sie hätten deshalb zusätzliche Unterstützung benötigt.",
+      "ar": "أوضح الموظفون أن المهلة القصيرة وضعتهم تحت الضغط ولذلك احتاجوا إلى دعم إضافي.",
+      "note_de": "Vergangenheit, Pronomenanpassung und Ersatzform.",
+      "note_ar": "الماضي وتعديل الضمير والصيغة البديلة."
+    },
+    {
+      "de": "Die Behörde bestätigte, dass die neue Regelung am 1. Oktober in Kraft tritt; zuvor hatte der Betriebsrat erklärt, er habe Kritik an einzelnen Punkten geübt.",
+      "ar": "أكدت الجهة أن النظام الجديد سيدخل حيز التنفيذ في الأول من أكتوبر، وكان مجلس العمال قد أوضح قبل ذلك أنه انتقد بعض النقاط.",
+      "note_de": "Bestätigter Indikativ und distanzierte vergangene Aussage.",
+      "note_ar": "Indikativ لمعلومة مؤكدة وقول ماضٍ منقول بمسافة موضوعية."
+    },
+    {
+      "de": "Frau Keller sagte am Montag, sie werde ihre Unterlagen am nächsten Tag dort einreichen und bis Freitag eine Rückmeldung gegeben haben.",
+      "ar": "قالت السيدة كيلر يوم الاثنين إنها ستقدم مستنداتها هناك في اليوم التالي وستكون قد قدمت ردًا حتى الجمعة.",
+      "note_de": "Pronomen, Zeit, Ort und Futur II.",
+      "note_ar": "الضمائر والزمن والمكان وFutur II."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Leitung macht eine Entscheidung.",
+      "correct": "Die Leitung trifft eine Entscheidung.",
+      "explanation_de": "Feste Nomen-Verb-Verbindungen erlauben keine beliebige Verbwahl.",
+      "explanation_ar": "لا تسمح روابط الاسم والفعل باختيار أي فعل."
+    },
+    {
+      "wrong": "Die Verbesserung die Arbeitsbedingungen ist notwendig.",
+      "correct": "Die Verbesserung der Arbeitsbedingungen ist notwendig.",
+      "explanation_de": "Das frühere Objekt wird bei der Nominalisierung häufig zum Genitivattribut.",
+      "explanation_ar": "يتحول المفعول السابق عند التحويل الاسمي غالبًا إلى Genitiv."
+    },
+    {
+      "wrong": "Das Team setzt unter Druck.",
+      "correct": "Das Team steht unter Druck. / Die Frist setzt das Team unter Druck.",
+      "explanation_de": "Setzen braucht einen Verursacher und ein Objekt; stehen beschreibt den Zustand.",
+      "explanation_ar": "تحتاج setzen إلى سبب ومفعول، بينما تصف stehen الحالة."
+    },
+    {
+      "wrong": "Er sagt, er habe gestern arbeiten gemusst.",
+      "correct": "Er sagt, er habe gestern arbeiten müssen.",
+      "explanation_de": "Mit einem Modalverb steht der Ersatzinfinitiv.",
+      "explanation_ar": "مع الفعل الناقص نستخدم Ersatzinfinitiv."
+    },
+    {
+      "wrong": "Frau Berger sagt, ich habe meine Unterlagen gestern hier abgegeben.",
+      "correct": "Frau Berger sagt, sie habe ihre Unterlagen am Vortag dort abgegeben.",
+      "explanation_de": "Pronomen, Zeit und Ort müssen an die Berichtsperspektive angepasst werden.",
+      "explanation_ar": "يجب تعديل الضمائر والزمن والمكان وفق منظور النقل."
+    },
+    {
+      "wrong": "Die Teams erklären, sie arbeiten nächste Woche weiter. (formelles Protokoll)",
+      "correct": "Die Teams erklären, sie würden in der folgenden Woche weiterarbeiten.",
+      "explanation_de": "Die Ersatzform macht die indirekte Rede im Plural eindeutig.",
+      "explanation_ar": "توضح الصيغة البديلة الكلام المنقول في الجمع."
+    }
+  ],
+  "quickSummary_de": [
+    "Nominalstil benennt kompakt; Verbalstil erklärt Abläufe.",
+    "Nominalisierungen brauchen korrekte Artikel, Großschreibung und Ergänzungen.",
+    "Feste Nomen-Verb-Verbindungen werden als Einheit gelernt.",
+    "Funktionsverben zeigen Verursachung, Beginn oder Zustand.",
+    "Konjunktiv I ist Standard in formeller indirekter Rede.",
+    "Vergangenheit lautet meist habe oder sei plus Partizip II.",
+    "Zukunft lautet werde plus Infinitiv.",
+    "Pronomen, Zeit und Ort werden kontextabhängig angepasst.",
+    "Identische Formen erhalten häufig Konjunktiv II oder würde + Infinitiv.",
+    "Indikativ ist bei bestätigten Tatsachen möglich.",
+    "Aktiv nennt Verantwortliche; Passiv fokussiert Vorgänge.",
+    "Die letzte Kontrolle umfasst Bedeutung, Struktur, Form und Stil."
+  ],
+  "quickSummary_ar": [
+    "يسمي الأسلوب الاسمي بإيجاز، بينما يشرح الأسلوب الفعلي الإجراءات.",
+    "تحتاج التحويلات الاسمية إلى أداة وكتابة كبيرة ومتممات صحيحة.",
+    "تُتعلم روابط الاسم والفعل بوصفها وحدة.",
+    "توضح الأفعال الوظيفية التسبب أو البداية أو الحالة.",
+    "Konjunktiv I هو الصيغة الأساسية في الكلام المنقول الرسمي.",
+    "يكون الماضي غالبًا habe أو sei مع Partizip II.",
+    "يكون المستقبل werde مع المصدر.",
+    "تُعدّل الضمائر والزمن والمكان بحسب السياق.",
+    "تحصل الصيغ المتطابقة غالبًا على Konjunktiv II أو würde + Infinitiv.",
+    "يمكن استخدام Indikativ مع الحقائق المؤكدة.",
+    "يذكر المعلوم المسؤول، ويركز المجهول على الإجراء.",
+    "تشمل المراجعة الأخيرة المعنى والبنية والصيغة والأسلوب."
+  ],
+  "relatedTopics": [
+    "gr-31",
+    "gr-32",
+    "gr-33",
+    "gr-34",
+    "gr-35",
+    "gr-36",
+    "gr-37",
+    "gr-38",
+    "gr-39"
+  ]
+}

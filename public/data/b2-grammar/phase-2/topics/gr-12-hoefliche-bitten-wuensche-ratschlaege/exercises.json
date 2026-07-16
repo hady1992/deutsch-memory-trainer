@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-12",
+  "title_de": "Höfliche Bitten, Wünsche und Ratschläge – Übungen",
+  "title_ar": "تمارين الطلبات المهذبة والرغبات والنصائح",
+  "level": "B2",
+  "exerciseCount": 22,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr12-e001",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Höfliche Bitte",
+      "title_ar": "طلب مهذب",
+      "prompt_de": "Welche Bitte klingt am höflichsten?",
+      "prompt_ar": "أي طلب يبدو أكثر أدبًا؟",
+      "answer": "Könnten Sie mir bitte die Datei schicken?",
+      "explanation_de": "Könnten Sie ... bitte ist eine sehr übliche höfliche Bitte.",
+      "explanation_ar": "تُعد Könnten Sie ... bitte صيغة شائعة جدًا للطلب المهذب.",
+      "grammarFocus": "polite_request_koennten",
+      "options": [
+        "Könnten Sie mir bitte die Datei schicken?",
+        "Schicken Sie mir die Datei sofort.",
+        "Du schickst mir die Datei.",
+        "Die Datei muss zu mir."
+      ]
+    },
+    {
+      "id": "gr12-e002",
+      "topicId": "gr-12",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Könnten Sie",
+      "title_ar": "Könnten Sie",
+      "prompt_de": "______ Sie mir bitte kurz helfen?",
+      "prompt_ar": "______ مساعدتي قليلًا من فضلك؟",
+      "answer": "Könnten",
+      "explanation_de": "Für eine höfliche Bitte mit Sie lautet die Form Könnten Sie.",
+      "explanation_ar": "للطلب المهذب مع Sie نستخدم Könnten Sie.",
+      "grammarFocus": "koennten_sie",
+      "acceptedAnswers": [
+        "Könnten",
+        "könnten"
+      ]
+    },
+    {
+      "id": "gr12-e003",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Würden Sie",
+      "title_ar": "Würden Sie",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Würden Sie bitte kurz warten?",
+      "explanation_de": "Nach würden steht der Infinitiv warten.",
+      "explanation_ar": "بعد würden يأتي المصدر warten.",
+      "grammarFocus": "wuerden_sie",
+      "options": [
+        "Würden Sie bitte kurz warten?",
+        "Würden Sie bitte kurz gewartet?",
+        "Würden bitte Sie kurz warten?",
+        "Würdet Sie bitte kurz warten?"
+      ]
+    },
+    {
+      "id": "gr12-e004",
+      "topicId": "gr-12",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Hätten Sie",
+      "title_ar": "Hätten Sie",
+      "prompt_de": "______ Sie morgen kurz Zeit?",
+      "prompt_ar": "هل ______ وقت قصير غدًا؟",
+      "answer": "Hätten",
+      "explanation_de": "Hätten Sie fragt höflich nach verfügbarer Zeit.",
+      "explanation_ar": "تُستخدم Hätten Sie للسؤال بأدب عن توفر الوقت.",
+      "grammarFocus": "haetten_sie",
+      "acceptedAnswers": [
+        "Hätten",
+        "hätten"
+      ]
+    },
+    {
+      "id": "gr12-e005",
+      "topicId": "gr-12",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Funktion erkennen",
+      "title_ar": "تمييز الوظيفة",
+      "prompt_de": "Ordnen Sie die Form der Funktion zu.",
+      "prompt_ar": "صِل الصيغة بالوظيفة.",
+      "answer": {
+        "Könnten Sie mir helfen?": "Bitte",
+        "Ich hätte gern einen Termin.": "Wunsch",
+        "Sie sollten nachfragen.": "Ratschlag",
+        "An Ihrer Stelle würde ich anrufen.": "persönlicher Ratschlag"
+      },
+      "explanation_de": "Die grammatische Form zeigt die kommunikative Funktion.",
+      "explanation_ar": "توضح الصيغة النحوية الوظيفة التواصلية.",
+      "grammarFocus": "function_matching",
+      "pairs": [
+        [
+          "Könnten Sie mir helfen?",
+          "Bitte"
+        ],
+        [
+          "Ich hätte gern einen Termin.",
+          "Wunsch"
+        ],
+        [
+          "Sie sollten nachfragen.",
+          "Ratschlag"
+        ],
+        [
+          "An Ihrer Stelle würde ich anrufen.",
+          "persönlicher Ratschlag"
+        ]
+      ]
+    },
+    {
+      "id": "gr12-e006",
+      "topicId": "gr-12",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Bitte ordnen",
+      "title_ar": "ترتيب الطلب",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Könnten Sie mir bitte die Unterlagen schicken?",
+      "explanation_de": "Könnten steht am Anfang der Entscheidungsfrage; schicken steht am Ende.",
+      "explanation_ar": "تأتي Könnten في بداية السؤال ويأتي schicken في النهاية.",
+      "grammarFocus": "request_word_order",
+      "tokens": [
+        "bitte",
+        "schicken",
+        "Könnten",
+        "Sie",
+        "mir",
+        "die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Könnten Sie mir bitte die Unterlagen schicken?"
+      ]
+    },
+    {
+      "id": "gr12-e007",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Wunsch mit Nomen",
+      "title_ar": "رغبة مع اسم",
+      "prompt_de": "Welche Form passt vor einem Nomen?",
+      "prompt_ar": "أي صيغة تناسب قبل اسم؟",
+      "answer": "Ich hätte gern einen Termin.",
+      "explanation_de": "Hätte gern steht hier vor dem Nomen einen Termin.",
+      "explanation_ar": "تأتي hätte gern هنا قبل الاسم einen Termin.",
+      "grammarFocus": "haette_gern_noun",
+      "options": [
+        "Ich hätte gern einen Termin.",
+        "Ich würde gern einen Termin gewesen.",
+        "Ich sollte gern einen Termin.",
+        "Ich könnte einen Termin gehabt."
+      ]
+    },
+    {
+      "id": "gr12-e008",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Wunsch mit Infinitiv",
+      "title_ar": "رغبة مع مصدر",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich würde gern an der Fortbildung teilnehmen.",
+      "explanation_de": "Vor dem Infinitiv teilnehmen verwendet man würde gern.",
+      "explanation_ar": "قبل المصدر teilnehmen نستخدم würde gern.",
+      "grammarFocus": "wuerde_gern_infinitive",
+      "options": [
+        "Ich würde gern an der Fortbildung teilnehmen.",
+        "Ich hätte gern an der Fortbildung teilnehmen.",
+        "Ich würde gern an der Fortbildung teilgenommen.",
+        "Ich bin gern an der Fortbildung teilnehmen."
+      ]
+    },
+    {
+      "id": "gr12-e009",
+      "topicId": "gr-12",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Höfliche Terminanfrage",
+      "title_ar": "طلب موعد مهذب",
+      "prompt_de": "Formulieren Sie höflich: Haben Sie morgen Zeit?",
+      "prompt_ar": "صغ السؤال بصورة أكثر أدبًا.",
+      "answer": "Hätten Sie morgen vielleicht kurz Zeit?",
+      "explanation_de": "Hätten Sie und vielleicht machen die Frage höflicher.",
+      "explanation_ar": "تجعل Hätten Sie وvielleicht السؤال أكثر أدبًا.",
+      "grammarFocus": "polite_time_request",
+      "acceptedAnswers": [
+        "Hätten Sie morgen vielleicht kurz Zeit?",
+        "Hätten Sie morgen kurz Zeit?"
+      ]
+    },
+    {
+      "id": "gr12-e010",
+      "topicId": "gr-12",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Am Telefon",
+      "title_ar": "على الهاتف",
+      "prompt_de": "Sie haben etwas nicht verstanden. Welche Reaktion ist passend?",
+      "prompt_ar": "لم تفهم شيئًا في المكالمة. أي رد مناسب؟",
+      "answer": "Könnten Sie das bitte noch einmal wiederholen?",
+      "explanation_de": "Die Form ist höflich und situationsgerecht.",
+      "explanation_ar": "الصيغة مهذبة ومناسبة للموقف.",
+      "grammarFocus": "telephone_request",
+      "options": [
+        "Könnten Sie das bitte noch einmal wiederholen?",
+        "Was reden Sie da?",
+        "Sagen Sie es richtig.",
+        "Ich verstehe nichts, Schluss."
+      ]
+    },
+    {
+      "id": "gr12-e011",
+      "topicId": "gr-12",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Stärke des Ratschlags",
+      "title_ar": "قوة النصيحة",
+      "prompt_de": "Ordnen Sie die Form der Wirkung zu.",
+      "prompt_ar": "صِل الصيغة بدرجة تأثيرها.",
+      "answer": {
+        "Sie müssen die Frist einhalten.": "Verpflichtung",
+        "Sie sollten die Frist prüfen.": "klarer Ratschlag",
+        "Sie könnten um Verlängerung bitten.": "vorsichtige Möglichkeit",
+        "An Ihrer Stelle würde ich anrufen.": "persönlicher Rat"
+      },
+      "explanation_de": "Müssen ist stärker als sollten; könnten klingt vorsichtiger.",
+      "explanation_ar": "تكون müssen أقوى من sollten، بينما تبدو könnten أكثر حذرًا.",
+      "grammarFocus": "advice_strength",
+      "pairs": [
+        [
+          "Sie müssen die Frist einhalten.",
+          "Verpflichtung"
+        ],
+        [
+          "Sie sollten die Frist prüfen.",
+          "klarer Ratschlag"
+        ],
+        [
+          "Sie könnten um Verlängerung bitten.",
+          "vorsichtige Möglichkeit"
+        ],
+        [
+          "An Ihrer Stelle würde ich anrufen.",
+          "persönlicher Rat"
+        ]
+      ]
+    },
+    {
+      "id": "gr12-e012",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Klarer Ratschlag",
+      "title_ar": "نصيحة واضحة",
+      "prompt_de": "Welche Form gibt einen klaren Ratschlag?",
+      "prompt_ar": "أي صيغة تقدم نصيحة واضحة؟",
+      "answer": "Sie sollten das Formular vollständig ausfüllen.",
+      "explanation_de": "Sollten formuliert einen klaren Ratschlag.",
+      "explanation_ar": "تقدم sollten نصيحة واضحة.",
+      "grammarFocus": "advice_sollten",
+      "options": [
+        "Sie sollten das Formular vollständig ausfüllen.",
+        "Sie füllen das Formular vielleicht gestern.",
+        "Sie würden das Formular ausgefüllt.",
+        "Sie hatten das Formular ausfüllen."
+      ]
+    },
+    {
+      "id": "gr12-e013",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Vorsichtiger Ratschlag",
+      "title_ar": "نصيحة حذرة",
+      "prompt_de": "Welche Form klingt am wenigsten direkt?",
+      "prompt_ar": "أي صيغة تبدو الأقل مباشرة؟",
+      "answer": "Sie könnten zunächst mit Ihrer Vorgesetzten sprechen.",
+      "explanation_de": "Könnten bietet eine Möglichkeit an und wirkt vorsichtiger.",
+      "explanation_ar": "تقدم könnten إمكانية وتبدو أكثر حذرًا.",
+      "grammarFocus": "advice_koennten",
+      "options": [
+        "Sie könnten zunächst mit Ihrer Vorgesetzten sprechen.",
+        "Sie müssen sofort mit Ihrer Vorgesetzten sprechen.",
+        "Sprechen Sie jetzt mit Ihrer Vorgesetzten.",
+        "Sie sprechen falsch."
+      ]
+    },
+    {
+      "id": "gr12-e014",
+      "topicId": "gr-12",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "An Ihrer Stelle",
+      "title_ar": "An Ihrer Stelle",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "An Ihrer Stelle würde ich das Gespräch dokumentieren.",
+      "explanation_de": "Nach An Ihrer Stelle steht würde auf Position 2.",
+      "explanation_ar": "بعد An Ihrer Stelle تأتي würde في المرتبة الثانية.",
+      "grammarFocus": "an_ihrer_stelle_order",
+      "tokens": [
+        "das Gespräch",
+        "An Ihrer Stelle",
+        "dokumentieren",
+        "ich",
+        "würde"
+      ],
+      "acceptedAnswers": [
+        "An Ihrer Stelle würde ich das Gespräch dokumentieren."
+      ]
+    },
+    {
+      "id": "gr12-e015",
+      "topicId": "gr-12",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Direkte Aussage umformulieren",
+      "title_ar": "إعادة صياغة عبارة مباشرة",
+      "prompt_de": "Formulieren Sie diplomatisch: Prüfen Sie die Unterlagen noch einmal.",
+      "prompt_ar": "صغ العبارة بصورة دبلوماسية.",
+      "answer": "Sie könnten die Unterlagen noch einmal prüfen.",
+      "explanation_de": "Mit könnten wird die Aufforderung zu einem vorsichtigen Ratschlag.",
+      "explanation_ar": "تتحول العبارة باستخدام könnten إلى نصيحة حذرة.",
+      "grammarFocus": "diplomatic_reformulation",
+      "acceptedAnswers": [
+        "Sie könnten die Unterlagen noch einmal prüfen.",
+        "Vielleicht könnten Sie die Unterlagen noch einmal prüfen."
+      ]
+    },
+    {
+      "id": "gr12-e016",
+      "topicId": "gr-12",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Sollten",
+      "title_ar": "Sollten",
+      "prompt_de": "Sie ______ sich vor dem Gespräch gut vorbereiten.",
+      "prompt_ar": "ينبغي أن ______ جيدًا قبل المحادثة.",
+      "answer": "sollten",
+      "explanation_de": "Sie sollten ist die passende Form für einen klaren Ratschlag.",
+      "explanation_ar": "صيغة Sie sollten مناسبة لتقديم نصيحة واضحة.",
+      "grammarFocus": "sollten_advice",
+      "acceptedAnswers": [
+        "sollten"
+      ]
+    },
+    {
+      "id": "gr12-e017",
+      "topicId": "gr-12",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Es wäre besser",
+      "title_ar": "Es wäre besser",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Es wäre besser, wenn Sie den Termin schriftlich bestätigen würden.",
+      "explanation_de": "Im wenn-Satz steht bestätigen würden am Ende.",
+      "explanation_ar": "في جملة wenn تأتي bestätigen würden في النهاية.",
+      "grammarFocus": "es_waere_besser",
+      "tokens": [
+        "den Termin",
+        "Es wäre besser",
+        "würden",
+        "wenn",
+        "schriftlich",
+        "Sie",
+        "bestätigen"
+      ],
+      "acceptedAnswers": [
+        "Es wäre besser, wenn Sie den Termin schriftlich bestätigen würden."
+      ]
+    },
+    {
+      "id": "gr12-e018",
+      "topicId": "gr-12",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Berufliche E-Mail",
+      "title_ar": "بريد مهني",
+      "prompt_de": "Welche Formulierung passt am besten in eine höfliche E-Mail?",
+      "prompt_ar": "أي صياغة تناسب بريدًا مهنيًا مهذبًا؟",
+      "answer": "Könnten Sie mir bitte mitteilen, welche Unterlagen noch fehlen?",
+      "explanation_de": "Die Bitte ist höflich, präzise und professionell.",
+      "explanation_ar": "الطلب مهذب ودقيق ومهني.",
+      "grammarFocus": "formal_email_request",
+      "options": [
+        "Könnten Sie mir bitte mitteilen, welche Unterlagen noch fehlen?",
+        "Sagen Sie mir endlich, was fehlt.",
+        "Warum schicken Sie keine klare Liste?",
+        "Ich brauche Antwort sofort."
+      ]
+    },
+    {
+      "id": "gr12-e019",
+      "topicId": "gr-12",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Indirekte Frage",
+      "title_ar": "سؤال غير مباشر",
+      "prompt_de": "Formulieren Sie höflich: Ist ein Abteilungswechsel möglich?",
+      "prompt_ar": "صغ السؤال بطريقة مهذبة وغير مباشرة.",
+      "answer": "Ich würde gern wissen, ob ein Abteilungswechsel möglich wäre.",
+      "explanation_de": "Würde gern wissen und ob machen die Frage indirekt und höflich.",
+      "explanation_ar": "تجعل würde gern wissen وob السؤال غير مباشر ومهذب.",
+      "grammarFocus": "indirect_polite_question",
+      "acceptedAnswers": [
+        "Ich würde gern wissen, ob ein Abteilungswechsel möglich wäre.",
+        "Ich möchte gern wissen, ob ein Abteilungswechsel möglich wäre."
+      ]
+    },
+    {
+      "id": "gr12-e020",
+      "topicId": "gr-12",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Ratschlag bei Konflikt",
+      "title_ar": "نصيحة عند نزاع",
+      "prompt_de": "Eine Person berichtet über wiederholte Probleme am Arbeitsplatz. Welcher Rat ist sachlich und diplomatisch?",
+      "prompt_ar": "يشكو شخص من مشكلات متكررة في العمل. أي نصيحة موضوعية ودبلوماسية؟",
+      "answer": "An Ihrer Stelle würde ich die wichtigsten Vorfälle schriftlich festhalten.",
+      "explanation_de": "Die Formulierung ist konkret, hilfreich und nicht bevormundend.",
+      "explanation_ar": "الصياغة محددة ومفيدة وغير متسلطة.",
+      "grammarFocus": "conflict_advice",
+      "options": [
+        "An Ihrer Stelle würde ich die wichtigsten Vorfälle schriftlich festhalten.",
+        "Sie müssen sofort kündigen.",
+        "Ignorieren Sie einfach alles.",
+        "Ihr Chef ist bestimmt immer falsch."
+      ]
+    },
+    {
+      "id": "gr12-e021",
+      "topicId": "gr-12",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Fehler im Nebensatz vermeiden",
+      "title_ar": "تجنب خطأ في الجملة الفرعية",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Es wäre besser, wenn Sie die Änderung vorher besprechen würden.",
+      "explanation_de": "Im Nebensatz stehen besprechen würden am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي besprechen würden في النهاية.",
+      "grammarFocus": "subordinate_advice",
+      "options": [
+        "Es wäre besser, wenn Sie die Änderung vorher besprechen würden.",
+        "Es wäre besser, wenn Sie würden die Änderung vorher besprechen.",
+        "Es wäre besser, wenn würden Sie die Änderung vorher besprechen.",
+        "Es wäre besser, wenn Sie die Änderung vorher besprochen würden."
+      ]
+    },
+    {
+      "id": "gr12-e022",
+      "topicId": "gr-12",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Höflichkeit",
+      "title_ar": "تدريب ختامي على الأسلوب المهذب",
+      "prompt_de": "Schreiben Sie eine kurze berufliche Nachricht mit mindestens sieben Sätzen. Formulieren Sie zwei höfliche Bitten, einen Wunsch, zwei Ratschläge unterschiedlicher Stärke, eine indirekte Frage und einen Satz mit „Es wäre besser, wenn ...“.",
+      "prompt_ar": "اكتب رسالة مهنية قصيرة من سبع جمل على الأقل. استخدم طلبين مهذبين، ورغبة، ونصيحتين بدرجتين مختلفتين، وسؤالًا غير مباشر، وجملة باستخدام Es wäre besser, wenn ...",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens eine Bitte mit könnten",
+          "mindestens eine Bitte mit würden oder hätten",
+          "mindestens ein Wunsch mit hätte gern, würde gern oder möchte",
+          "mindestens ein Ratschlag mit sollte",
+          "mindestens ein vorsichtiger Ratschlag mit könnte oder An Ihrer Stelle",
+          "mindestens eine indirekte Frage",
+          "mindestens ein wenn-Satz mit Konjunktiv II",
+          "angemessener beruflicher Ton"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Verbposition, Höflichkeitsgrad und passende Anrede.",
+      "explanation_ar": "انتبه إلى موقع الفعل ودرجة الأدب وصيغة المخاطبة المناسبة.",
+      "grammarFocus": "mixed_politeness",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

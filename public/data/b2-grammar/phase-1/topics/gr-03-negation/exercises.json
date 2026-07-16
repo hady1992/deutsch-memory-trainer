@@ -1,0 +1,522 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-03",
+  "title_de": "Negation – Übungen",
+  "title_ar": "تمارين النفي",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr03-e001",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Nicht oder kein?",
+      "title_ar": "nicht أم kein؟",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Ich habe keine Zeit.",
+      "explanation_de": "Zeit ist hier ein Nomen ohne bestimmten Artikel; deshalb verwendet man keine.",
+      "explanation_ar": "Zeit اسم من دون أداة تعريف محددة، لذلك نستخدم keine.",
+      "grammarFocus": "kein_noun",
+      "options": [
+        "Ich habe keine Zeit.",
+        "Ich habe nicht Zeit.",
+        "Ich habe nichts Zeit.",
+        "Ich habe nie Zeit nicht."
+      ]
+    },
+    {
+      "id": "gr03-e002",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Adjektiv negieren",
+      "title_ar": "نفي الصفة",
+      "prompt_de": "Der Bericht ist ______ vollständig.",
+      "prompt_ar": "التقرير ______ مكتمل.",
+      "answer": "nicht",
+      "explanation_de": "Adjektive werden mit nicht negiert.",
+      "explanation_ar": "تُنفى الصفات باستخدام nicht.",
+      "grammarFocus": "nicht_adjective",
+      "acceptedAnswers": [
+        "nicht"
+      ]
+    },
+    {
+      "id": "gr03-e003",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Personen negieren",
+      "title_ar": "نفي الأشخاص",
+      "prompt_de": "______ war gestern erreichbar.",
+      "prompt_ar": "______ كان متاحًا أمس.",
+      "answer": "Niemand",
+      "explanation_de": "Niemand bedeutet: keine Person.",
+      "explanation_ar": "تعني Niemand: لا أحد.",
+      "grammarFocus": "niemand",
+      "options": [
+        "Niemand",
+        "Nichts",
+        "Nie",
+        "Kein"
+      ]
+    },
+    {
+      "id": "gr03-e004",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Sachen negieren",
+      "title_ar": "نفي الأشياء",
+      "prompt_de": "Ich habe ______ verstanden.",
+      "prompt_ar": "لم أفهم ______.",
+      "answer": "nichts",
+      "explanation_de": "Nichts bedeutet: keine Sache oder kein Inhalt.",
+      "explanation_ar": "تعني nichts: لا شيء.",
+      "grammarFocus": "nichts",
+      "acceptedAnswers": [
+        "nichts"
+      ]
+    },
+    {
+      "id": "gr03-e005",
+      "topicId": "gr-03",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Negationswörter",
+      "title_ar": "كلمات النفي",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "niemand": "keine Person",
+        "nichts": "keine Sache",
+        "nie": "zu keiner Zeit",
+        "nirgendwo": "an keinem Ort"
+      },
+      "explanation_de": "Jedes Negationswort hat einen eigenen Bedeutungsbereich.",
+      "explanation_ar": "لكل كلمة نفي مجال معنى خاص بها.",
+      "grammarFocus": "negation_words",
+      "pairs": [
+        [
+          "niemand",
+          "keine Person"
+        ],
+        [
+          "nichts",
+          "keine Sache"
+        ],
+        [
+          "nie",
+          "zu keiner Zeit"
+        ],
+        [
+          "nirgendwo",
+          "an keinem Ort"
+        ]
+      ]
+    },
+    {
+      "id": "gr03-e006",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Noch nicht",
+      "title_ar": "ليس بعد",
+      "prompt_de": "Der Antrag ist ______ bearbeitet.",
+      "prompt_ar": "لم تتم معالجة الطلب ______.",
+      "answer": "noch nicht",
+      "explanation_de": "Noch nicht bedeutet: bis jetzt nicht, aber später möglicherweise ja.",
+      "explanation_ar": "تعني noch nicht: لم يحدث حتى الآن، لكنه قد يحدث لاحقًا.",
+      "grammarFocus": "noch_nicht",
+      "acceptedAnswers": [
+        "noch nicht"
+      ]
+    },
+    {
+      "id": "gr03-e007",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Nicht mehr",
+      "title_ar": "لم يعد",
+      "prompt_de": "Sie arbeitet ______ in dieser Abteilung.",
+      "prompt_ar": "هي ______ تعمل في هذا القسم.",
+      "answer": "nicht mehr",
+      "explanation_de": "Nicht mehr beschreibt eine frühere Situation, die jetzt beendet ist.",
+      "explanation_ar": "تصف nicht mehr حالة كانت موجودة سابقًا ثم انتهت.",
+      "grammarFocus": "nicht_mehr",
+      "acceptedAnswers": [
+        "nicht mehr"
+      ]
+    },
+    {
+      "id": "gr03-e008",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Weder ... noch",
+      "title_ar": "لا... ولا...",
+      "prompt_de": "Welche Verbindung ist richtig?",
+      "prompt_ar": "أي ربط صحيح؟",
+      "answer": "Weder der Chef noch die Personalabteilung waren erreichbar.",
+      "explanation_de": "Weder wird mit noch kombiniert. Zwei verbundene Subjekte stehen hier mit dem Verb im Plural.",
+      "explanation_ar": "تأتي weder مع noch، ويأتي الفعل هنا بصيغة الجمع لوجود فاعلين مرتبطين.",
+      "grammarFocus": "weder_noch",
+      "options": [
+        "Weder der Chef noch die Personalabteilung waren erreichbar.",
+        "Weder der Chef oder die Personalabteilung waren erreichbar.",
+        "Nicht der Chef weder die Personalabteilung waren erreichbar.",
+        "Kein der Chef noch die Personalabteilung war erreichbar."
+      ]
+    },
+    {
+      "id": "gr03-e009",
+      "topicId": "gr-03",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Nomen mit kein",
+      "title_ar": "نفي الاسم باستخدام kein",
+      "prompt_de": "Negieren Sie: Wir haben einen Termin.",
+      "prompt_ar": "انفِ الجملة: لدينا موعد.",
+      "answer": "Wir haben keinen Termin.",
+      "explanation_de": "Ein Akkusativ-Nomen mit unbestimmtem Artikel wird mit keinen negiert.",
+      "explanation_ar": "يُنفي الاسم في Akkusativ باستخدام keinen.",
+      "grammarFocus": "kein_accusative",
+      "acceptedAnswers": [
+        "Wir haben keinen Termin."
+      ]
+    },
+    {
+      "id": "gr03-e010",
+      "topicId": "gr-03",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Bestimmtes Nomen",
+      "title_ar": "اسم معرّف",
+      "prompt_de": "Negieren Sie gezielt: Ich meine den roten Ordner.",
+      "prompt_ar": "انفِ الجزء المحدد: أقصد المجلد الأحمر.",
+      "answer": "Ich meine nicht den roten Ordner.",
+      "explanation_de": "Ein Nomen mit bestimmtem Artikel wird mit nicht negiert.",
+      "explanation_ar": "يُنفى الاسم المعرّف باستخدام nicht.",
+      "grammarFocus": "nicht_definite_noun",
+      "acceptedAnswers": [
+        "Ich meine nicht den roten Ordner."
+      ]
+    },
+    {
+      "id": "gr03-e011",
+      "topicId": "gr-03",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Verbnegation",
+      "title_ar": "نفي الفعل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich kann heute nicht kommen.",
+      "explanation_de": "Bei der allgemeinen Verbnegation steht nicht vor dem Infinitiv.",
+      "explanation_ar": "عند نفي الفعل عمومًا تأتي nicht قبل المصدر.",
+      "grammarFocus": "nicht_modal_infinitive",
+      "tokens": [
+        "heute",
+        "Ich",
+        "kommen",
+        "nicht",
+        "kann"
+      ],
+      "acceptedAnswers": [
+        "Ich kann heute nicht kommen."
+      ]
+    },
+    {
+      "id": "gr03-e012",
+      "topicId": "gr-03",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb negieren",
+      "title_ar": "نفي فعل منفصل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich rufe den Kunden heute nicht an.",
+      "explanation_de": "Nicht steht vor dem trennbaren Präfix an.",
+      "explanation_ar": "تأتي nicht قبل الجزء المنفصل an.",
+      "grammarFocus": "nicht_separable",
+      "tokens": [
+        "den Kunden",
+        "heute",
+        "an",
+        "nicht",
+        "Ich",
+        "rufe"
+      ],
+      "acceptedAnswers": [
+        "Ich rufe den Kunden heute nicht an."
+      ]
+    },
+    {
+      "id": "gr03-e013",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Gezielte Zeitnegation",
+      "title_ar": "نفي الزمن تحديدًا",
+      "prompt_de": "Welche Form bedeutet: nicht heute, sondern morgen?",
+      "prompt_ar": "أي صياغة تعني: ليس اليوم بل غدًا؟",
+      "answer": "Ich komme nicht heute, sondern morgen.",
+      "explanation_de": "Nicht steht direkt vor dem gezielt negierten Zeitteil heute.",
+      "explanation_ar": "تأتي nicht مباشرة قبل ظرف الزمن today.",
+      "grammarFocus": "focused_negation_time",
+      "options": [
+        "Ich komme nicht heute, sondern morgen.",
+        "Ich komme heute nicht, sondern morgen.",
+        "Nicht ich komme heute, sondern morgen.",
+        "Ich nicht komme heute, sondern morgen."
+      ]
+    },
+    {
+      "id": "gr03-e014",
+      "topicId": "gr-03",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Noch nicht oder nicht mehr",
+      "title_ar": "noch nicht أم nicht mehr",
+      "prompt_de": "Ordnen Sie die Bedeutung zu.",
+      "prompt_ar": "صِل المعنى.",
+      "answer": {
+        "Der Antrag ist noch nicht fertig.": "bis jetzt nicht fertig",
+        "Der Antrag ist nicht mehr gültig.": "früher gültig, jetzt nicht",
+        "Sie arbeitet noch nicht.": "sie hat bisher nicht begonnen",
+        "Sie arbeitet nicht mehr.": "sie hat aufgehört"
+      },
+      "explanation_de": "Noch nicht und nicht mehr unterscheiden Zeitverläufe.",
+      "explanation_ar": "تفرق noch nicht وnicht mehr بين حالتين زمنيتين مختلفتين.",
+      "grammarFocus": "noch_nicht_vs_nicht_mehr",
+      "pairs": [
+        [
+          "Der Antrag ist noch nicht fertig.",
+          "bis jetzt nicht fertig"
+        ],
+        [
+          "Der Antrag ist nicht mehr gültig.",
+          "früher gültig, jetzt nicht"
+        ],
+        [
+          "Sie arbeitet noch nicht.",
+          "sie hat bisher nicht begonnen"
+        ],
+        [
+          "Sie arbeitet nicht mehr.",
+          "sie hat aufgehört"
+        ]
+      ]
+    },
+    {
+      "id": "gr03-e015",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nie",
+      "title_ar": "أبدًا",
+      "prompt_de": "Er kommt ______ zu spät.",
+      "prompt_ar": "هو لا يتأخر ______.",
+      "answer": "nie",
+      "explanation_de": "Nie negiert Häufigkeit oder Zeit vollständig.",
+      "explanation_ar": "تنفي nie التكرار أو الزمن بصورة كاملة.",
+      "grammarFocus": "nie",
+      "acceptedAnswers": [
+        "nie",
+        "niemals"
+      ]
+    },
+    {
+      "id": "gr03-e016",
+      "topicId": "gr-03",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nirgendwo",
+      "title_ar": "في أي مكان",
+      "prompt_de": "Die Datei ist ______ gespeichert.",
+      "prompt_ar": "الملف غير محفوظ ______.",
+      "answer": "nirgendwo",
+      "explanation_de": "Nirgendwo negiert einen Ort.",
+      "explanation_ar": "تنفي nirgendwo المكان.",
+      "grammarFocus": "nirgendwo",
+      "acceptedAnswers": [
+        "nirgendwo"
+      ]
+    },
+    {
+      "id": "gr03-e017",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Keine doppelte Negation",
+      "title_ar": "لا للنفي المزدوج",
+      "prompt_de": "Welcher Satz ist standardsprachlich korrekt?",
+      "prompt_ar": "أي جملة صحيحة في الألمانية القياسية؟",
+      "answer": "Niemand hat angerufen.",
+      "explanation_de": "Niemand enthält bereits die Negation; ein zusätzliches nicht ist falsch.",
+      "explanation_ar": "تحمل Niemand معنى النفي، لذلك لا نضيف nicht.",
+      "grammarFocus": "no_double_negation",
+      "options": [
+        "Niemand hat angerufen.",
+        "Niemand hat nicht angerufen.",
+        "Nicht niemand hat angerufen.",
+        "Kein niemand hat angerufen."
+      ]
+    },
+    {
+      "id": "gr03-e018",
+      "topicId": "gr-03",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Status eines Antrags",
+      "title_ar": "حالة طلب",
+      "prompt_de": "Ein Antrag wurde bis jetzt nicht bearbeitet. Welche Formulierung passt?",
+      "prompt_ar": "لم تتم معالجة طلب حتى الآن. أي صياغة مناسبة؟",
+      "answer": "Der Antrag ist noch nicht bearbeitet.",
+      "explanation_de": "Bis jetzt nicht verlangt noch nicht.",
+      "explanation_ar": "معنى حتى الآن يتطلب noch nicht.",
+      "grammarFocus": "context_noch_nicht",
+      "options": [
+        "Der Antrag ist noch nicht bearbeitet.",
+        "Der Antrag ist nicht mehr bearbeitet.",
+        "Der Antrag ist niemals bearbeitet.",
+        "Der Antrag ist kein bearbeitet."
+      ]
+    },
+    {
+      "id": "gr03-e019",
+      "topicId": "gr-03",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Beendete Tätigkeit",
+      "title_ar": "عمل انتهى",
+      "prompt_de": "Eine Kollegin arbeitete früher hier, jetzt aber nicht. Was sagen Sie?",
+      "prompt_ar": "كانت زميلة تعمل هنا سابقًا، لكنها لا تعمل الآن. ماذا تقول؟",
+      "answer": "Sie arbeitet nicht mehr hier.",
+      "explanation_de": "Nicht mehr beschreibt eine beendete frühere Situation.",
+      "explanation_ar": "تصف nicht mehr حالة سابقة انتهت.",
+      "grammarFocus": "context_nicht_mehr",
+      "options": [
+        "Sie arbeitet nicht mehr hier.",
+        "Sie arbeitet noch nicht hier.",
+        "Sie arbeitet niemand hier.",
+        "Sie arbeitet keine hier."
+      ]
+    },
+    {
+      "id": "gr03-e020",
+      "topicId": "gr-03",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Weder ... noch mit Objekten",
+      "title_ar": "weder...noch مع مفعولين",
+      "prompt_de": "Verbinden Sie: Sie spricht nicht Englisch. Sie spricht nicht Französisch.",
+      "prompt_ar": "اربط الجملتين.",
+      "answer": "Sie spricht weder Englisch noch Französisch.",
+      "explanation_de": "Weder ... noch verbindet zwei gleichartige Akkusativobjekte.",
+      "explanation_ar": "تربط weder ... noch بين مفعولين من النوع نفسه.",
+      "grammarFocus": "weder_noch_objects",
+      "acceptedAnswers": [
+        "Sie spricht weder Englisch noch Französisch."
+      ]
+    },
+    {
+      "id": "gr03-e021",
+      "topicId": "gr-03",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Fokusnegation",
+      "title_ar": "نفي البؤرة",
+      "prompt_de": "Drücken Sie aus: Nicht Frau Keller, sondern Herr Braun leitet das Gespräch.",
+      "prompt_ar": "عبّر عن: ليست السيدة كيلر بل السيد براون يدير الحوار.",
+      "answer": "Nicht Frau Keller, sondern Herr Braun leitet das Gespräch.",
+      "explanation_de": "Nicht steht direkt vor dem kontrastierten Subjekt.",
+      "explanation_ar": "تأتي nicht مباشرة قبل الفاعل الذي تتم مقارنته.",
+      "grammarFocus": "focused_negation_subject",
+      "acceptedAnswers": [
+        "Nicht Frau Keller, sondern Herr Braun leitet das Gespräch."
+      ]
+    },
+    {
+      "id": "gr03-e022",
+      "topicId": "gr-03",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Mehrdeutigkeit vermeiden",
+      "title_ar": "تجنب الغموض",
+      "prompt_de": "Welche Formulierung bedeutet eindeutig: Der Termin ist morgen, nicht heute?",
+      "prompt_ar": "أي صياغة تعني بوضوح أن الموعد غدًا وليس اليوم؟",
+      "answer": "Der Termin ist nicht heute, sondern morgen.",
+      "explanation_de": "Die Negation steht direkt vor heute und wird durch sondern kontrastiert.",
+      "explanation_ar": "تأتي أداة النفي قبل heute مباشرة ويأتي sondern للمقابلة.",
+      "grammarFocus": "clear_focus_negation",
+      "options": [
+        "Der Termin ist nicht heute, sondern morgen.",
+        "Der Termin ist heute nicht.",
+        "Nicht der Termin ist heute.",
+        "Der Termin nicht ist heute."
+      ]
+    },
+    {
+      "id": "gr03-e023",
+      "topicId": "gr-03",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Negation",
+      "title_ar": "نفي معقد",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Weder die Zugangsdaten noch das Passwort funktionieren heute.",
+      "explanation_de": "Weder ... noch verbindet zwei Subjekte; das Verb steht im Plural.",
+      "explanation_ar": "تربط weder ... noch بين فاعلين، لذلك يأتي الفعل بصيغة الجمع.",
+      "grammarFocus": "weder_noch_subjects_plural",
+      "tokens": [
+        "heute",
+        "funktionieren",
+        "noch",
+        "Weder",
+        "das Passwort",
+        "die Zugangsdaten"
+      ],
+      "acceptedAnswers": [
+        "Weder die Zugangsdaten noch das Passwort funktionieren heute."
+      ]
+    },
+    {
+      "id": "gr03-e024",
+      "topicId": "gr-03",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Negation",
+      "title_ar": "تدريب ختامي على النفي",
+      "prompt_de": "Schreiben Sie einen kurzen beruflichen Text mit mindestens fünf Sätzen. Verwenden Sie kein, nicht, niemand oder nichts, noch nicht oder nicht mehr und weder ... noch.",
+      "prompt_ar": "اكتب نصًا مهنيًا قصيرًا من خمس جمل على الأقل، واستخدم kein وnicht وniemand أو nichts وnoch nicht أو nicht mehr وweder ... noch.",
+      "answer": {
+        "requiredConcepts": [
+          "korrekte Verwendung von kein",
+          "korrekte Verwendung von nicht",
+          "mindestens ein Negationswort wie niemand oder nichts",
+          "noch nicht oder nicht mehr passend verwendet",
+          "weder ... noch korrekt verwendet",
+          "keine doppelte Negation"
+        ]
+      },
+      "explanation_de": "Achten Sie besonders auf die Bedeutung und Position der Negation.",
+      "explanation_ar": "انتبه خصوصًا إلى معنى النفي وموقعه.",
+      "grammarFocus": "mixed_negation",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

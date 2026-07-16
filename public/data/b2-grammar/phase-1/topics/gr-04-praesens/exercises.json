@@ -1,0 +1,396 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-04",
+  "title_de": "Präsens – Übungen",
+  "title_ar": "تمارين زمن الحاضر",
+  "level": "B2",
+  "exerciseCount": 18,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr04-e001",
+      "topicId": "gr-04",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Regelmäßiges Verb",
+      "title_ar": "فعل منتظم",
+      "prompt_de": "Konjugieren Sie „lernen“ für ich.",
+      "prompt_ar": "صرّف lernen مع ich.",
+      "answer": "lerne",
+      "explanation_de": "Bei ich lautet die regelmäßige Endung -e.",
+      "explanation_ar": "النهاية المنتظمة مع ich هي -e.",
+      "grammarFocus": "regular_ich",
+      "acceptedAnswers": [
+        "lerne"
+      ],
+      "infinitive": "lernen",
+      "person": "ich"
+    },
+    {
+      "id": "gr04-e002",
+      "topicId": "gr-04",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Verb auf -t",
+      "title_ar": "فعل منتهٍ بـ t",
+      "prompt_de": "Konjugieren Sie „arbeiten“ für du.",
+      "prompt_ar": "صرّف arbeiten مع du.",
+      "answer": "arbeitest",
+      "explanation_de": "Zwischen Stamm und -st steht ein zusätzliches e.",
+      "explanation_ar": "نضيف e بين الجذر والنهاية -st.",
+      "grammarFocus": "epenthetic_e",
+      "acceptedAnswers": [
+        "arbeitest"
+      ],
+      "infinitive": "arbeiten",
+      "person": "du"
+    },
+    {
+      "id": "gr04-e003",
+      "topicId": "gr-04",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Stammvokalwechsel",
+      "title_ar": "تغير حرف العلة",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Er liest den Vertrag.",
+      "explanation_de": "Lesen verändert bei er/sie/es den Stammvokal e → ie.",
+      "explanation_ar": "يتغير حرف العلة في lesen مع er/sie/es من e إلى ie.",
+      "grammarFocus": "e_to_ie",
+      "options": [
+        "Er liest den Vertrag.",
+        "Er lest den Vertrag.",
+        "Er lesen den Vertrag.",
+        "Er liesst den Vertrag."
+      ]
+    },
+    {
+      "id": "gr04-e004",
+      "topicId": "gr-04",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Fahren",
+      "title_ar": "تصريف fahren",
+      "prompt_de": "Sie ______ jeden Tag mit dem Zug. (fahren, Singular)",
+      "prompt_ar": "هي ______ يوميًا بالقطار. (fahren)",
+      "answer": "fährt",
+      "explanation_de": "Bei fahren wird a in der 3. Person Singular zu ä.",
+      "explanation_ar": "يتحول a إلى ä مع الشخص الثالث المفرد.",
+      "grammarFocus": "a_to_ae",
+      "acceptedAnswers": [
+        "fährt"
+      ]
+    },
+    {
+      "id": "gr04-e005",
+      "topicId": "gr-04",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل منفصل",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Ich rufe die Kundin später an.",
+      "explanation_de": "Rufe steht auf Position 2; an steht am Satzende.",
+      "explanation_ar": "يأتي rufe في المرتبة الثانية وan في نهاية الجملة.",
+      "grammarFocus": "separable_main_clause",
+      "tokens": [
+        "später",
+        "an",
+        "Ich",
+        "die Kundin",
+        "rufe"
+      ],
+      "acceptedAnswers": [
+        "Ich rufe die Kundin später an."
+      ]
+    },
+    {
+      "id": "gr04-e006",
+      "topicId": "gr-04",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Reflexives Verb",
+      "title_ar": "فعل انعكاسي",
+      "prompt_de": "Ich bereite ______ auf die Prüfung vor.",
+      "prompt_ar": "أنا أستعد للامتحان.",
+      "answer": "mich",
+      "explanation_de": "Zum Subjekt ich gehört das Reflexivpronomen mich.",
+      "explanation_ar": "الضمير الانعكاسي المناسب لـ ich هو mich.",
+      "grammarFocus": "reflexive_pronoun",
+      "acceptedAnswers": [
+        "mich"
+      ]
+    },
+    {
+      "id": "gr04-e007",
+      "topicId": "gr-04",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Modalverb",
+      "title_ar": "فعل ناقص",
+      "prompt_de": "Welche Satzform ist korrekt?",
+      "prompt_ar": "أي جملة صحيحة؟",
+      "answer": "Wir müssen den Bericht heute abschicken.",
+      "explanation_de": "Das Modalverb steht konjugiert; der Infinitiv steht am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص مصرفًا والمصدر في النهاية.",
+      "grammarFocus": "modal_sentence",
+      "options": [
+        "Wir müssen den Bericht heute abschicken.",
+        "Wir müssen abschicken den Bericht heute.",
+        "Wir den Bericht heute müssen abschicken.",
+        "Wir abschicken heute den Bericht müssen."
+      ]
+    },
+    {
+      "id": "gr04-e008",
+      "topicId": "gr-04",
+      "type": "verb_form",
+      "difficulty": "medium",
+      "title_de": "Nehmen",
+      "title_ar": "تصريف nehmen",
+      "prompt_de": "Konjugieren Sie „nehmen“ für er.",
+      "prompt_ar": "صرّف nehmen مع er.",
+      "answer": "nimmt",
+      "explanation_de": "Nehmen verändert e zu i: er nimmt.",
+      "explanation_ar": "يتحول e إلى i: er nimmt.",
+      "grammarFocus": "e_to_i",
+      "acceptedAnswers": [
+        "nimmt"
+      ],
+      "infinitive": "nehmen",
+      "person": "er"
+    },
+    {
+      "id": "gr04-e009",
+      "topicId": "gr-04",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Geplante Zukunft",
+      "title_ar": "مستقبل مخطط",
+      "prompt_de": "Bilden Sie einen Satz im Präsens: morgen / ich / den neuen Kurs / beginnen",
+      "prompt_ar": "كوّن جملة Präsens تعبر عن مستقبل مخطط.",
+      "answer": "Morgen beginne ich den neuen Kurs.",
+      "explanation_de": "Die Zeitangabe macht deutlich, dass das Präsens Zukunft ausdrückt.",
+      "explanation_ar": "يوضح ظرف الزمن أن Präsens يعبّر عن المستقبل.",
+      "grammarFocus": "future_with_present",
+      "acceptedAnswers": [
+        "Morgen beginne ich den neuen Kurs.",
+        "Ich beginne morgen den neuen Kurs."
+      ]
+    },
+    {
+      "id": "gr04-e010",
+      "topicId": "gr-04",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Verwendungen des Präsens",
+      "title_ar": "استخدامات Präsens",
+      "prompt_de": "Ordnen Sie Satz und Verwendung zu.",
+      "prompt_ar": "صِل الجملة بالاستخدام.",
+      "answer": {
+        "Ich telefoniere gerade mit dem Kunden.": "aktuelle Handlung",
+        "Montags arbeite ich zu Hause.": "Gewohnheit",
+        "Wasser kocht bei 100 Grad.": "allgemeine Tatsache",
+        "Morgen fahre ich nach München.": "geplante Zukunft"
+      },
+      "explanation_de": "Der Kontext entscheidet über die zeitliche Bedeutung.",
+      "explanation_ar": "يحدد السياق المعنى الزمني.",
+      "grammarFocus": "present_uses",
+      "pairs": [
+        [
+          "Ich telefoniere gerade mit dem Kunden.",
+          "aktuelle Handlung"
+        ],
+        [
+          "Montags arbeite ich zu Hause.",
+          "Gewohnheit"
+        ],
+        [
+          "Wasser kocht bei 100 Grad.",
+          "allgemeine Tatsache"
+        ],
+        [
+          "Morgen fahre ich nach München.",
+          "geplante Zukunft"
+        ]
+      ]
+    },
+    {
+      "id": "gr04-e011",
+      "topicId": "gr-04",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nebensatz",
+      "title_ar": "جملة فرعية",
+      "prompt_de": "Ich weiß, dass er heute ______. (arbeiten)",
+      "prompt_ar": "أعرف أنه ______ اليوم. (arbeiten)",
+      "answer": "arbeitet",
+      "explanation_de": "Im Nebensatz steht das finite Verb am Ende.",
+      "explanation_ar": "يأتي الفعل المصرف في نهاية الجملة الفرعية.",
+      "grammarFocus": "present_subordinate",
+      "acceptedAnswers": [
+        "arbeitet"
+      ]
+    },
+    {
+      "id": "gr04-e012",
+      "topicId": "gr-04",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb im Nebensatz",
+      "title_ar": "فعل منفصل في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "dass sie die Kundin später anruft",
+      "explanation_de": "Im Nebensatz bleibt das trennbare Verb zusammengeschrieben und steht am Ende.",
+      "explanation_ar": "في الجملة الفرعية يبقى الفعل المنفصل مكتوبًا متصلًا ويأتي في النهاية.",
+      "grammarFocus": "separable_subordinate",
+      "tokens": [
+        "später",
+        "anruft",
+        "dass",
+        "die Kundin",
+        "sie"
+      ],
+      "acceptedAnswers": [
+        "dass sie die Kundin später anruft"
+      ]
+    },
+    {
+      "id": "gr04-e013",
+      "topicId": "gr-04",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Beruflicher Alltag",
+      "title_ar": "الحياة المهنية",
+      "prompt_de": "Sie beschreiben einen regelmäßigen Ablauf. Welche Form passt?",
+      "prompt_ar": "تصف إجراءً يتكرر بانتظام. أي صيغة مناسبة؟",
+      "answer": "Jeden Morgen prüft die Teamleitung die neuen Anfragen.",
+      "explanation_de": "Ein regelmäßiger Ablauf wird normalerweise im Präsens beschrieben.",
+      "explanation_ar": "يُوصف الإجراء المتكرر عادة باستخدام Präsens.",
+      "grammarFocus": "habitual_present",
+      "options": [
+        "Jeden Morgen prüft die Teamleitung die neuen Anfragen.",
+        "Jeden Morgen hat die Teamleitung die neuen Anfragen geprüft gehabt.",
+        "Jeden Morgen wird die Teamleitung prüfen gewesen.",
+        "Jeden Morgen prüfte die Teamleitung morgen."
+      ]
+    },
+    {
+      "id": "gr04-e014",
+      "topicId": "gr-04",
+      "type": "verb_form",
+      "difficulty": "hard",
+      "title_de": "Modalverb können",
+      "title_ar": "تصريف können",
+      "prompt_de": "Konjugieren Sie „können“ für sie (Singular).",
+      "prompt_ar": "صرّف können مع sie المفرد.",
+      "answer": "kann",
+      "explanation_de": "Bei sie Singular lautet die Form kann.",
+      "explanation_ar": "صيغة können مع sie المفرد هي kann.",
+      "grammarFocus": "modal_irregular",
+      "acceptedAnswers": [
+        "kann"
+      ],
+      "infinitive": "können",
+      "person": "sie_singular"
+    },
+    {
+      "id": "gr04-e015",
+      "topicId": "gr-04",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Reflexiv und trennbar",
+      "title_ar": "فعل انعكاسي ومنفصل",
+      "prompt_de": "Bilden Sie einen Satz: wir / uns / rechtzeitig / anmelden",
+      "prompt_ar": "كوّن جملة صحيحة.",
+      "answer": "Wir melden uns rechtzeitig an.",
+      "explanation_de": "Das Reflexivpronomen uns steht im Mittelfeld; an steht am Ende.",
+      "explanation_ar": "يأتي uns في وسط الجملة وan في النهاية.",
+      "grammarFocus": "reflexive_separable",
+      "acceptedAnswers": [
+        "Wir melden uns rechtzeitig an."
+      ]
+    },
+    {
+      "id": "gr04-e016",
+      "topicId": "gr-04",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Subjekt-Verb-Kongruenz",
+      "title_ar": "مطابقة الفاعل والفعل",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Weder der Kollege noch die Kollegin nehmen heute teil.",
+      "explanation_de": "Zwei mit weder ... noch verbundene Subjekte werden hier eindeutig mit dem Verb im Plural verwendet.",
+      "explanation_ar": "عند ربط فاعلين باستخدام weder ... noch نستخدم هنا صيغة الجمع بصورة واضحة.",
+      "grammarFocus": "subject_verb_agreement",
+      "options": [
+        "Weder der Kollege noch die Kollegin nehmen heute teil.",
+        "Weder der Kollege noch die Kollegin nehmen heute teil ist.",
+        "Weder der Kollege noch die Kollegin teilnimmt heute.",
+        "Weder der Kollege noch die Kollegin nehme heute teil."
+      ]
+    },
+    {
+      "id": "gr04-e017",
+      "topicId": "gr-04",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Präsenssatz",
+      "title_ar": "جملة Präsens معقدة",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Morgen stellt die Projektleiterin den neuen Mitarbeitenden im Team vor.",
+      "explanation_de": "Nach Morgen steht das finite Verb stellt; das Präfix vor steht am Ende.",
+      "explanation_ar": "بعد Morgen يأتي الفعل stellt، ويأتي الجزء vor في نهاية الجملة.",
+      "grammarFocus": "complex_separable_present",
+      "tokens": [
+        "den neuen Mitarbeitenden",
+        "vor",
+        "Morgen",
+        "die Projektleiterin",
+        "im Team",
+        "stellt"
+      ],
+      "acceptedAnswers": [
+        "Morgen stellt die Projektleiterin den neuen Mitarbeitenden im Team vor."
+      ]
+    },
+    {
+      "id": "gr04-e018",
+      "topicId": "gr-04",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Präsens",
+      "title_ar": "تدريب ختامي على Präsens",
+      "prompt_de": "Schreiben Sie einen kurzen Text über Ihren Arbeits- oder Lernalltag. Verwenden Sie mindestens ein regelmäßiges Verb, ein Verb mit Stammvokalwechsel, ein trennbares Verb, ein reflexives Verb, ein Modalverb und einen Satz über die geplante Zukunft.",
+      "prompt_ar": "اكتب نصًا قصيرًا عن حياتك اليومية في العمل أو التعلم. استخدم فعلًا منتظمًا وفعلًا يتغير فيه حرف العلة وفعلًا منفصلًا وفعلًا انعكاسيًا وفعلًا ناقصًا وجملة عن مستقبل مخطط.",
+      "answer": {
+        "requiredConcepts": [
+          "regelmäßiges Verb im Präsens",
+          "Verb mit Stammvokalwechsel",
+          "trennbares Verb",
+          "reflexives Verb",
+          "Modalverb mit Infinitiv",
+          "geplante Zukunft im Präsens"
+        ]
+      },
+      "explanation_de": "Achten Sie auf Verbendungen, Satzklammer und die Verbposition im Nebensatz.",
+      "explanation_ar": "انتبه إلى نهايات الأفعال وإطار الجملة وموقع الفعل في الجملة الفرعية.",
+      "grammarFocus": "mixed_present",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

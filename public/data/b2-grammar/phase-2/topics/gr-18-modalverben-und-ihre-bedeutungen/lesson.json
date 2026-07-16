@@ -1,0 +1,473 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-18",
+  "slug": "gr-18-modalverben-und-ihre-bedeutungen",
+  "order": 18,
+  "title_de": "Modalverben und ihre Bedeutungen",
+  "title_ar": "الأفعال الناقصة ومعانيها",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "modalverben",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Die Grundbedeutungen der Modalverben müssen, sollen, können, dürfen, wollen und mögen unterscheiden.",
+    "Notwendigkeit, Verpflichtung, Fähigkeit, Möglichkeit, Erlaubnis, Absicht und Wunsch passend ausdrücken.",
+    "Nicht müssen und nicht dürfen sicher voneinander unterscheiden.",
+    "Subjektive Bedeutungen wie Vermutung, Behauptung und Hörensagen erkennen.",
+    "Möchten, mögen, dürfte und mag sein situationsgerecht verwenden.",
+    "Modalverben im Hauptsatz korrekt anordnen.",
+    "Die kommunikative Wirkung verschiedener Modalverben im beruflichen Kontext beurteilen."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بين المعاني الأساسية للأفعال müssen وsollen وkönnen وdürfen وwollen وmögen.",
+    "التعبير بصورة مناسبة عن الضرورة والالتزام والقدرة والإمكانية والسماح والنية والرغبة.",
+    "التمييز بثقة بين nicht müssen وnicht dürfen.",
+    "تمييز المعاني الذاتية مثل الاحتمال والادعاء والنقل عن الآخرين.",
+    "استخدام möchten وmögen وdürfte وmag sein بحسب الموقف.",
+    "ترتيب الأفعال الناقصة في الجملة الرئيسية بصورة صحيحة.",
+    "تقييم التأثير التواصلي للأفعال الناقصة في السياق المهني."
+  ],
+  "shortDescription_de": "Modalverben verändern die Bedeutung einer Aussage. Sie können Pflicht, Möglichkeit, Erlaubnis, Absicht, Wunsch oder auch eine Einschätzung ausdrücken.",
+  "shortDescription_ar": "تغيّر الأفعال الناقصة معنى الجملة، إذ يمكن أن تعبّر عن واجب أو إمكانية أو سماح أو نية أو رغبة أو تقييم.",
+  "explanation_de": "Modalverben stehen im Hauptsatz meist auf Position 2; der Vollverb-Infinitiv steht am Satzende. Müssen bezeichnet eine Notwendigkeit oder Pflicht. Sollen bezeichnet einen Auftrag, eine Empfehlung oder eine Information aus zweiter Hand. Können bezeichnet Fähigkeit oder Möglichkeit. Dürfen bezeichnet Erlaubnis; dürfen nicht bedeutet Verbot. Wollen bezeichnet Absicht oder festen Willen und kann in subjektiver Verwendung eine Behauptung der betreffenden Person wiedergeben. Mögen bezeichnet Vorliebe; die Form möchten drückt einen höflichen Wunsch aus. Mag sein bedeutet eine eingeräumte Möglichkeit. Die Form dürfte drückt häufig eine vorsichtige Vermutung aus. Wichtig ist die Unterscheidung: nicht müssen bedeutet, dass etwas nicht notwendig ist; nicht dürfen bedeutet, dass etwas verboten ist. Im beruflichen Kontext beeinflusst die Wahl des Modalverbs, ob eine Aussage verbindlich, vorsichtig, neutral oder diplomatisch wirkt.",
+  "explanation_ar": "تأتي الأفعال الناقصة في الجملة الرئيسية غالبًا في المرتبة الثانية، بينما يأتي مصدر الفعل الأساسي في النهاية. تدل müssen على الضرورة أو الواجب. وتدل sollen على التكليف أو التوصية أو معلومة منقولة عن الآخرين. وتدل können على القدرة أو الإمكانية، بينما تدل dürfen على السماح، وتعني dürfen nicht المنع. وتدل wollen على النية أو الإرادة القوية، وقد تنقل في الاستخدام الذاتي ادعاء الشخص نفسه. تدل mögen على التفضيل، بينما تعبّر möchten عن رغبة مهذبة. وتعني mag sein احتمالًا يُعترف بإمكانه. أما dürfte فتعبّر غالبًا عن توقع أو احتمال حذر. ومن المهم التمييز بين nicht müssen التي تعني أن الأمر غير ضروري وnicht dürfen التي تعني أن الأمر ممنوع. في السياق المهني تحدد صيغة الفعل الناقص ما إذا كانت العبارة ملزمة أو حذرة أو محايدة أو دبلوماسية.",
+  "rules": [
+    {
+      "id": "gr18-r01",
+      "title_de": "Müssen",
+      "title_ar": "müssen",
+      "explanation_de": "Müssen drückt Notwendigkeit oder starke Verpflichtung aus.",
+      "explanation_ar": "تعبّر müssen عن الضرورة أو الالتزام القوي.",
+      "formula": "Subjekt + müssen + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Alle Beschäftigten müssen die Sicherheitsregeln beachten.",
+          "ar": "يجب على جميع الموظفين الالتزام بقواعد السلامة."
+        },
+        {
+          "de": "Ich muss den Bericht heute abschließen.",
+          "ar": "يجب أن أنهي التقرير اليوم."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r02",
+      "title_de": "Sollen",
+      "title_ar": "sollen",
+      "explanation_de": "Sollen kann Auftrag, Erwartung, Empfehlung oder eine Information aus zweiter Hand ausdrücken.",
+      "explanation_ar": "يمكن أن تعبّر sollen عن تكليف أو توقع أو توصية أو معلومة منقولة.",
+      "formula": "sollen + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie sollen den Kunden zurückrufen.",
+          "ar": "من المفترض أن تعاود الاتصال بالعميل."
+        },
+        {
+          "de": "Das neue Verfahren soll schneller sein.",
+          "ar": "يُقال إن الإجراء الجديد أسرع."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r03",
+      "title_de": "Können",
+      "title_ar": "können",
+      "explanation_de": "Können beschreibt Fähigkeit oder objektive Möglichkeit.",
+      "explanation_ar": "تصف können القدرة أو الإمكانية الموضوعية.",
+      "formula": "können + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie kann sehr gut verhandeln.",
+          "ar": "هي تستطيع التفاوض بصورة جيدة جدًا."
+        },
+        {
+          "de": "Der Termin kann verschoben werden.",
+          "ar": "يمكن تأجيل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r04",
+      "title_de": "Dürfen",
+      "title_ar": "dürfen",
+      "explanation_de": "Dürfen bezeichnet Erlaubnis; dürfen nicht bezeichnet ein Verbot.",
+      "explanation_ar": "تدل dürfen على السماح، بينما تعبّر dürfen nicht عن المنع.",
+      "formula": "dürfen + Infinitiv | dürfen nicht + Infinitiv",
+      "examples": [
+        {
+          "de": "Sie dürfen den Besprechungsraum nutzen.",
+          "ar": "يُسمح لك باستخدام غرفة الاجتماعات."
+        },
+        {
+          "de": "Vertrauliche Daten dürfen nicht weitergegeben werden.",
+          "ar": "لا يجوز نقل البيانات السرية إلى جهة أخرى."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r05",
+      "title_de": "Wollen",
+      "title_ar": "wollen",
+      "explanation_de": "Wollen beschreibt Absicht oder festen Willen.",
+      "explanation_ar": "تعبّر wollen عن النية أو الإرادة القوية.",
+      "formula": "wollen + Infinitiv",
+      "examples": [
+        {
+          "de": "Wir wollen den Ablauf vereinfachen.",
+          "ar": "نريد تبسيط سير العمل."
+        },
+        {
+          "de": "Die Firma will neue Stellen schaffen.",
+          "ar": "تعتزم الشركة إنشاء وظائف جديدة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r06",
+      "title_de": "Mögen und möchten",
+      "title_ar": "mögen وmöchten",
+      "explanation_de": "Mögen beschreibt Vorliebe; möchten drückt einen höflichen Wunsch aus.",
+      "explanation_ar": "تصف mögen التفضيل، بينما تعبّر möchten عن رغبة مهذبة.",
+      "formula": "mögen + Nomen | möchten + Infinitiv/Akkusativ",
+      "examples": [
+        {
+          "de": "Ich mag klare Arbeitsabläufe.",
+          "ar": "أحب سير العمل الواضح."
+        },
+        {
+          "de": "Ich möchte einen Beratungstermin vereinbaren.",
+          "ar": "أرغب في تحديد موعد استشارة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r07",
+      "title_de": "Nicht müssen und nicht dürfen",
+      "title_ar": "nicht müssen وnicht dürfen",
+      "explanation_de": "Nicht müssen bedeutet nicht notwendig; nicht dürfen bedeutet verboten.",
+      "explanation_ar": "تعني nicht müssen أن الأمر غير ضروري، بينما تعني nicht dürfen أن الأمر ممنوع.",
+      "formula": "muss nicht = keine Notwendigkeit | darf nicht = Verbot",
+      "examples": [
+        {
+          "de": "Sie müssen heute nicht länger bleiben.",
+          "ar": "لا يلزم أن تبقى مدة أطول اليوم."
+        },
+        {
+          "de": "Sie dürfen den Raum nicht betreten.",
+          "ar": "لا يجوز لك دخول الغرفة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r08",
+      "title_de": "Subjektive Vermutung mit müssen und dürfte",
+      "title_ar": "التوقع الذاتي باستخدام müssen وdürfte",
+      "explanation_de": "Müssen kann eine sehr starke Schlussfolgerung ausdrücken; dürfte eine vorsichtige Vermutung.",
+      "explanation_ar": "يمكن أن تعبّر müssen عن استنتاج قوي جدًا، بينما تعبّر dürfte عن توقع حذر.",
+      "formula": "muss wohl ... | dürfte ...",
+      "examples": [
+        {
+          "de": "Herr Weber muss bereits im Büro sein.",
+          "ar": "لا بد أن السيد فيبر موجود في المكتب بالفعل."
+        },
+        {
+          "de": "Die Besprechung dürfte etwa eine Stunde dauern.",
+          "ar": "من المرجح أن يستغرق الاجتماع نحو ساعة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r09",
+      "title_de": "Hörensagen mit sollen",
+      "title_ar": "النقل عن الآخرين باستخدام sollen",
+      "explanation_de": "Sollen kann eine nicht selbst bestätigte Information wiedergeben.",
+      "explanation_ar": "يمكن أن تنقل sollen معلومة لم يؤكدها المتحدث بنفسه.",
+      "formula": "Subjekt + soll/sollen + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Die neue Software soll besonders sicher sein.",
+          "ar": "يُقال إن البرنامج الجديد آمن بصورة خاصة."
+        },
+        {
+          "de": "Der Bewerber soll viel Erfahrung haben.",
+          "ar": "يُقال إن المتقدم يمتلك خبرة كبيرة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r10",
+      "title_de": "Behauptung mit wollen",
+      "title_ar": "الادعاء باستخدام wollen",
+      "explanation_de": "Wollen kann ausdrücken, dass eine Person etwas von sich selbst behauptet.",
+      "explanation_ar": "يمكن أن تعبّر wollen عن ادعاء يقدمه الشخص عن نفسه.",
+      "formula": "Subjekt + will/wollen + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Der Mitarbeiter will die Nachricht nicht erhalten haben.",
+          "ar": "يدّعي الموظف أنه لم يتلقَّ الرسالة."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r11",
+      "title_de": "Mag sein",
+      "title_ar": "mag sein",
+      "explanation_de": "Mag sein räumt eine Möglichkeit ein, oft bevor ein Gegenargument folgt.",
+      "explanation_ar": "تُستخدم mag sein للاعتراف بإمكانية ما، وغالبًا يأتي بعدها اعتراض أو حجة مقابلة.",
+      "formula": "Mag sein, dass ..., aber ...",
+      "examples": [
+        {
+          "de": "Mag sein, dass die Lösung schnell ist, aber sie ist nicht zuverlässig.",
+          "ar": "قد يكون الحل سريعًا، لكنه غير موثوق."
+        }
+      ]
+    },
+    {
+      "id": "gr18-r12",
+      "title_de": "Verbposition",
+      "title_ar": "موقع الفعل",
+      "explanation_de": "Im Hauptsatz steht das Modalverb auf Position 2; der Infinitiv steht am Ende.",
+      "explanation_ar": "في الجملة الرئيسية يأتي الفعل الناقص في المرتبة الثانية ويأتي المصدر في النهاية.",
+      "formula": "Subjekt + Modalverb + ... + Infinitiv",
+      "examples": [
+        {
+          "de": "Die Abteilung muss den Vorgang heute abschließen.",
+          "ar": "يجب على القسم إنهاء العملية اليوم."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr18-t01",
+      "title_de": "Grundbedeutungen",
+      "title_ar": "المعاني الأساسية",
+      "headers_de": [
+        "Modalverb",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الفعل الناقص",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "müssen",
+          "Notwendigkeit",
+          "Wir müssen handeln."
+        ],
+        [
+          "sollen",
+          "Auftrag/Erwartung",
+          "Sie sollen anrufen."
+        ],
+        [
+          "können",
+          "Fähigkeit/Möglichkeit",
+          "Er kann helfen."
+        ],
+        [
+          "dürfen",
+          "Erlaubnis",
+          "Sie dürfen eintreten."
+        ],
+        [
+          "wollen",
+          "Absicht",
+          "Wir wollen starten."
+        ],
+        [
+          "mögen",
+          "Vorliebe",
+          "Ich mag Teamarbeit."
+        ],
+        [
+          "möchten",
+          "höflicher Wunsch",
+          "Ich möchte teilnehmen."
+        ]
+      ]
+    },
+    {
+      "id": "gr18-t02",
+      "title_de": "Subjektive Bedeutungen",
+      "title_ar": "المعاني الذاتية",
+      "headers_de": [
+        "Form",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "muss",
+          "starke Schlussfolgerung",
+          "Er muss im Büro sein."
+        ],
+        [
+          "dürfte",
+          "vorsichtige Vermutung",
+          "Es dürfte länger dauern."
+        ],
+        [
+          "soll",
+          "Hörensagen",
+          "Die Methode soll wirksam sein."
+        ],
+        [
+          "will",
+          "Behauptung der Person",
+          "Er will nichts gewusst haben."
+        ],
+        [
+          "mag sein",
+          "eingeräumte Möglichkeit",
+          "Mag sein, dass ..."
+        ]
+      ]
+    },
+    {
+      "id": "gr18-t03",
+      "title_de": "Negation",
+      "title_ar": "النفي",
+      "headers_de": [
+        "Form",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "nicht müssen",
+          "nicht notwendig",
+          "Sie müssen nicht warten."
+        ],
+        [
+          "nicht dürfen",
+          "verboten",
+          "Sie dürfen nicht eintreten."
+        ],
+        [
+          "nicht können",
+          "nicht möglich/fähig",
+          "Ich kann heute nicht kommen."
+        ],
+        [
+          "nicht wollen",
+          "keine Absicht/kein Wille",
+          "Er will nicht teilnehmen."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Alle Beschäftigten müssen die Datenschutzbestimmungen einhalten.",
+      "ar": "يجب على جميع الموظفين الالتزام بأحكام حماية البيانات.",
+      "note_de": "Verbindliche Notwendigkeit.",
+      "note_ar": "ضرورة ملزمة."
+    },
+    {
+      "de": "Die Abteilung soll den Vorgang bis Freitag abschließen.",
+      "ar": "من المفترض أن ينهي القسم العملية بحلول الجمعة.",
+      "note_de": "Auftrag oder Erwartung.",
+      "note_ar": "تكليف أو توقع."
+    },
+    {
+      "de": "Die Ursache dürfte in der neuen Software liegen.",
+      "ar": "من المرجح أن يكون السبب في البرنامج الجديد.",
+      "note_de": "Vorsichtige Vermutung.",
+      "note_ar": "توقع حذر."
+    },
+    {
+      "de": "Der Kollege will die Information rechtzeitig weitergegeben haben.",
+      "ar": "يدّعي الزميل أنه نقل المعلومة في الوقت المناسب.",
+      "note_de": "Behauptung der betreffenden Person.",
+      "note_ar": "ادعاء يقدمه الشخص عن نفسه."
+    },
+    {
+      "de": "Mag sein, dass die Umstellung zunächst aufwendig ist, langfristig kann sie jedoch Zeit sparen.",
+      "ar": "قد يكون الانتقال مرهقًا في البداية، لكنه قد يوفر الوقت على المدى الطويل.",
+      "note_de": "Eingeräumte Möglichkeit mit anschließendem Gegenargument.",
+      "note_ar": "اعتراف بإمكانية يتبعه رأي مقابل."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Sie müssen den Raum nicht betreten.",
+      "correct": "Sie dürfen den Raum nicht betreten.",
+      "explanation_de": "Für ein Verbot verwendet man dürfen nicht; müssen nicht bedeutet nicht notwendig.",
+      "explanation_ar": "نستخدم dürfen nicht للمنع، بينما تعني müssen nicht أن الأمر غير ضروري."
+    },
+    {
+      "wrong": "Ich mag einen Termin vereinbaren.",
+      "correct": "Ich möchte einen Termin vereinbaren.",
+      "explanation_de": "Für einen höflichen Wunsch verwendet man möchten.",
+      "explanation_ar": "نستخدم möchten للتعبير عن رغبة مهذبة."
+    },
+    {
+      "wrong": "Die Firma kann neue Stellen schaffen will.",
+      "correct": "Die Firma will neue Stellen schaffen.",
+      "explanation_de": "Das Modalverb steht konjugiert; der Vollverb-Infinitiv steht am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص مصرّفًا ويأتي مصدر الفعل الأساسي في النهاية."
+    },
+    {
+      "wrong": "Der Bewerber soll viel Erfahrung gehabt.",
+      "correct": "Der Bewerber soll viel Erfahrung haben.",
+      "explanation_de": "Für gleichzeitiges Hörensagen steht der Infinitiv haben.",
+      "explanation_ar": "عند نقل معلومة متزامنة نستخدم المصدر haben."
+    },
+    {
+      "wrong": "Die Besprechung muss vielleicht eine Stunde dauern.",
+      "correct": "Die Besprechung dürfte etwa eine Stunde dauern.",
+      "explanation_de": "Für eine vorsichtige Vermutung passt dürfte besser.",
+      "explanation_ar": "تكون dürfte أنسب للتعبير عن توقع حذر."
+    },
+    {
+      "wrong": "Er will nicht die Nachricht erhalten haben.",
+      "correct": "Er will die Nachricht nicht erhalten haben.",
+      "explanation_de": "Nicht steht hier vor dem Teil, der verneint wird.",
+      "explanation_ar": "تأتي nicht هنا قبل الجزء المراد نفيه."
+    }
+  ],
+  "quickSummary_de": [
+    "Müssen bezeichnet Notwendigkeit oder eine starke Schlussfolgerung.",
+    "Sollen bezeichnet Auftrag, Empfehlung oder Hörensagen.",
+    "Können bezeichnet Fähigkeit oder Möglichkeit.",
+    "Dürfen bezeichnet Erlaubnis; dürfen nicht bedeutet Verbot.",
+    "Wollen bezeichnet Absicht oder eine eigene Behauptung.",
+    "Mögen bezeichnet Vorliebe; möchten einen höflichen Wunsch.",
+    "Nicht müssen bedeutet nicht notwendig.",
+    "Dürfte bezeichnet häufig eine vorsichtige Vermutung.",
+    "Mag sein räumt eine Möglichkeit ein.",
+    "Im Hauptsatz steht das Modalverb auf Position 2, der Infinitiv am Ende."
+  ],
+  "quickSummary_ar": [
+    "تدل müssen على الضرورة أو الاستنتاج القوي.",
+    "تدل sollen على التكليف أو التوصية أو النقل عن الآخرين.",
+    "تدل können على القدرة أو الإمكانية.",
+    "تدل dürfen على السماح، وتعني dürfen nicht المنع.",
+    "تدل wollen على النية أو ادعاء الشخص.",
+    "تدل mögen على التفضيل، بينما تعبّر möchten عن رغبة مهذبة.",
+    "تعني nicht müssen أن الأمر غير ضروري.",
+    "تدل dürfte غالبًا على توقع حذر.",
+    "تعترف mag sein بإمكانية ما.",
+    "في الجملة الرئيسية يأتي الفعل الناقص في المرتبة الثانية والمصدر في النهاية."
+  ],
+  "relatedTopics": [
+    "gr-12",
+    "gr-16",
+    "gr-19",
+    "gr-20"
+  ]
+}

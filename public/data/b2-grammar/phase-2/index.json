@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "b2-grammar-phase-index-v1",
+  "contentVersion": "2026-07-16",
+  "courseId": "b2-course",
+  "phaseId": "grammar-phase-2",
+  "title_de": "B2 Grammatik – Phase 2",
+  "title_ar": "قواعد B2 – المرحلة الثانية",
+  "level": "B2",
+  "status": "assembled_and_validated",
+  "progressKeyRecommendation": "dmt_b2_grammar_progress_v1",
+  "topicCount": 10,
+  "exerciseCount": 236,
+  "difficultyDistribution": {
+    "easy": 71,
+    "hard": 57,
+    "medium": 108
+  },
+  "typeDistribution": {
+    "dialogue_choice": 2,
+    "fill_blank": 29,
+    "guided_writing": 10,
+    "matching": 20,
+    "multiple_choice": 78,
+    "scenario_choice": 21,
+    "sentence_build": 35,
+    "sentence_order": 40,
+    "verb_form": 1
+  },
+  "topics": [
+    {
+      "id": "gr-11",
+      "order": 11,
+      "slug": "gr-11-konjunktiv-ii-mit-wuerde",
+      "title_de": "Konjunktiv II mit würde",
+      "title_ar": "صيغة Konjunktiv II باستخدام würde",
+      "level": "B2",
+      "lessonPath": "topics/gr-11-konjunktiv-ii-mit-wuerde/lesson.json",
+      "exercisesPath": "topics/gr-11-konjunktiv-ii-mit-wuerde/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 6,
+        "medium": 11
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 6,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4,
+        "verb_form": 1
+      },
+      "estimatedMinutes": 45,
+      "sourceType": "grundlage",
+      "category": "konjunktiv_ii"
+    },
+    {
+      "id": "gr-12",
+      "order": 12,
+      "slug": "gr-12-hoefliche-bitten-wuensche-ratschlaege",
+      "title_de": "Höfliche Bitten, Wünsche und Ratschläge",
+      "title_ar": "الطلبات المهذبة والرغبات والنصائح",
+      "level": "B2",
+      "lessonPath": "topics/gr-12-hoefliche-bitten-wuensche-ratschlaege/lesson.json",
+      "exercisesPath": "topics/gr-12-hoefliche-bitten-wuensche-ratschlaege/exercises.json",
+      "exerciseCount": 22,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 5,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 7,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 3
+      },
+      "estimatedMinutes": 45,
+      "sourceType": "kommunikative_grammatik",
+      "category": "konjunktiv_ii"
+    },
+    {
+      "id": "gr-13",
+      "order": 13,
+      "slug": "gr-13-irreale-bedingungen-und-vergleiche",
+      "title_de": "Irreale Bedingungen und Vergleiche",
+      "title_ar": "الشروط والمقارنات غير الواقعية",
+      "level": "B2",
+      "lessonPath": "topics/gr-13-irreale-bedingungen-und-vergleiche/lesson.json",
+      "exercisesPath": "topics/gr-13-irreale-bedingungen-und-vergleiche/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 6,
+        "medium": 11
+      },
+      "typeDistribution": {
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 7,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "konjunktiv_ii"
+    },
+    {
+      "id": "gr-14",
+      "order": 14,
+      "slug": "gr-14-vorgangspassiv-praesens-praeteritum",
+      "title_de": "Vorgangspassiv im Präsens und Präteritum",
+      "title_ar": "المبني للمجهول في الحاضر والماضي البسيط",
+      "level": "B2",
+      "lessonPath": "topics/gr-14-vorgangspassiv-praesens-praeteritum/lesson.json",
+      "exercisesPath": "topics/gr-14-vorgangspassiv-praesens-praeteritum/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 6,
+        "medium": 11
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-15",
+      "order": 15,
+      "slug": "gr-15-passiv-perfekt-plusquamperfekt-futur",
+      "title_de": "Passiv im Perfekt, Plusquamperfekt und Futur",
+      "title_ar": "المبني للمجهول في Perfekt وPlusquamperfekt والمستقبل",
+      "level": "B2",
+      "lessonPath": "topics/gr-15-passiv-perfekt-plusquamperfekt-futur/lesson.json",
+      "exercisesPath": "topics/gr-15-passiv-perfekt-plusquamperfekt-futur/exercises.json",
+      "exerciseCount": 22,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 5,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 7,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-16",
+      "order": 16,
+      "slug": "gr-16-passiv-mit-modalverben",
+      "title_de": "Passiv mit Modalverben",
+      "title_ar": "المبني للمجهول مع الأفعال الناقصة",
+      "level": "B2",
+      "lessonPath": "topics/gr-16-passiv-mit-modalverben/lesson.json",
+      "exercisesPath": "topics/gr-16-passiv-mit-modalverben/exercises.json",
+      "exerciseCount": 22,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 5,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 2,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-17",
+      "order": 17,
+      "slug": "gr-17-vorgangspassiv-und-zustandspassiv",
+      "title_de": "Vorgangspassiv und Zustandspassiv",
+      "title_ar": "المبني للمجهول للعملية وللحالة",
+      "level": "B2",
+      "lessonPath": "topics/gr-17-vorgangspassiv-und-zustandspassiv/lesson.json",
+      "exercisesPath": "topics/gr-17-vorgangspassiv-und-zustandspassiv/exercises.json",
+      "exerciseCount": 22,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 5,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 2,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-18",
+      "order": 18,
+      "slug": "gr-18-modalverben-und-ihre-bedeutungen",
+      "title_de": "Modalverben und ihre Bedeutungen",
+      "title_ar": "الأفعال الناقصة ومعانيها",
+      "level": "B2",
+      "lessonPath": "topics/gr-18-modalverben-und-ihre-bedeutungen/lesson.json",
+      "exercisesPath": "topics/gr-18-modalverben-und-ihre-bedeutungen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 6,
+        "medium": 11
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 50,
+      "sourceType": "grundlage",
+      "category": "modalverben"
+    },
+    {
+      "id": "gr-19",
+      "order": 19,
+      "slug": "gr-19-modalverben-vergangenheit-nebensaetze",
+      "title_de": "Modalverben in Vergangenheit und Nebensätzen",
+      "title_ar": "الأفعال الناقصة في الماضي والجمل الفرعية",
+      "level": "B2",
+      "lessonPath": "topics/gr-19-modalverben-vergangenheit-nebensaetze/lesson.json",
+      "exercisesPath": "topics/gr-19-modalverben-vergangenheit-nebensaetze/exercises.json",
+      "exerciseCount": 22,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 5,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 7,
+        "scenario_choice": 2,
+        "sentence_build": 3,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 55,
+      "sourceType": "grundlage",
+      "category": "modalverben"
+    },
+    {
+      "id": "gr-20",
+      "order": 20,
+      "slug": "gr-20-gemischtes-training-phase-2",
+      "title_de": "Gemischtes Training – Phase 2",
+      "title_ar": "تدريب شامل – المرحلة الثانية",
+      "level": "B2",
+      "lessonPath": "topics/gr-20-gemischtes-training-phase-2/lesson.json",
+      "exercisesPath": "topics/gr-20-gemischtes-training-phase-2/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "hard": 8,
+        "medium": 14
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 12,
+        "scenario_choice": 3,
+        "sentence_build": 4,
+        "sentence_order": 5
+      },
+      "estimatedMinutes": 70,
+      "sourceType": "wiederholung",
+      "category": "gemischtes_training"
+    }
+  ]
+}

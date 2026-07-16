@@ -1,0 +1,494 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-24",
+  "slug": "gr-24-temporale-konnektoren",
+  "order": 24,
+  "title_de": "Temporale Konnektoren",
+  "title_ar": "أدوات الربط الزمنية",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "konnektoren",
+  "estimatedMinutes": 60,
+  "learningObjectives_de": [
+    "Einmalige und wiederholte Ereignisse mit als und wenn unterscheiden.",
+    "Gleichzeitigkeit mit während und solange ausdrücken.",
+    "Vorzeitigkeit und Nachzeitigkeit mit nachdem und bevor beziehungsweise ehe formulieren.",
+    "Beginn, Dauer und Endpunkt mit seitdem und bis beschreiben.",
+    "Unmittelbare zeitliche Abfolgen mit sobald ausdrücken.",
+    "Wiederholte Abläufe mit sooft formulieren.",
+    "Temporale Nebensätze mit korrekter Verbendstellung und sinnvoller Zeitform bilden."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بين الأحداث الماضية التي وقعت مرة واحدة والأحداث المتكررة باستخدام als وwenn.",
+    "التعبير عن التزامن باستخدام während وsolange.",
+    "صياغة الحدث الأسبق واللاحق باستخدام nachdem وbevor أو ehe.",
+    "وصف البداية والمدة والنهاية باستخدام seitdem وbis.",
+    "التعبير عن التعاقب الزمني المباشر باستخدام sobald.",
+    "صياغة الأحداث المتكررة باستخدام sooft.",
+    "تكوين الجمل الزمنية الفرعية مع موقع فعل وزمن مناسبين."
+  ],
+  "shortDescription_de": "Temporale Konnektoren ordnen Ereignisse zeitlich. Sie zeigen, ob etwas gleichzeitig, vorher, nachher, seit einem Zeitpunkt, bis zu einem Endpunkt oder wiederholt geschieht.",
+  "shortDescription_ar": "ترتب أدوات الربط الزمنية الأحداث بحسب الزمن، وتوضح ما إذا كانت متزامنة أو سابقة أو لاحقة أو مستمرة منذ وقت معين أو حتى نقطة نهاية أو متكررة.",
+  "explanation_de": "Temporale Konnektoren leiten meist Nebensätze ein; das konjugierte Verb steht am Ende. Als verwendet man für ein einmaliges Ereignis oder einen einmaligen Zustand in der Vergangenheit: Als ich die Stelle begann, war vieles neu. Wenn verwendet man für Gegenwart, Zukunft und wiederholte Ereignisse: Wenn ich Fragen habe, wende ich mich an meine Kollegin. Während und solange beschreiben Gleichzeitigkeit oder Dauer. Bevor und ehe nennen ein Ereignis, das vor einem anderen geschieht. Nachdem nennt das frühere Ereignis. In Erzählungen steht dieses häufig im Plusquamperfekt und das spätere im Präteritum: Nachdem der Bericht geprüft worden war, wurde er verschickt. Seitdem bezeichnet einen Beginn in der Vergangenheit mit Wirkung bis zur Gegenwart oder bis zu einem späteren Bezugspunkt. Bis nennt einen Endpunkt. Sobald beschreibt, dass etwas unmittelbar nach Eintritt einer Bedingung geschieht. Sooft bedeutet jedes Mal, wenn. Die Wahl der Zeitform richtet sich nach der tatsächlichen zeitlichen Beziehung; starre Zeitfolgen sind nicht in jedem Kontext erforderlich.",
+  "explanation_ar": "تدخل أدوات الربط الزمنية غالبًا جملًا فرعية، لذلك يأتي الفعل المصرف في النهاية. نستخدم als لحدث أو حالة وقعت مرة واحدة في الماضي، مثل: Als ich die Stelle begann, war vieles neu. ونستخدم wenn مع الحاضر والمستقبل والأحداث المتكررة. وتصف während وsolange التزامن أو استمرار المدة. وتذكر bevor وehe حدثًا يقع قبل حدث آخر، بينما تقدم nachdem الحدث الأسبق. في السرد يأتي الحدث الأسبق كثيرًا في Plusquamperfekt والحدث اللاحق في Präteritum، لكن اختيار الزمن يعتمد على العلاقة الزمنية الفعلية وليس على قاعدة جامدة في كل سياق. وتدل seitdem على بداية في الماضي تستمر آثارها، وتحدد bis نقطة النهاية. أما sobald فتعني أن الحدث الثاني يقع فور حدوث الأول، وتعني sooft: كلما.",
+  "rules": [
+    {
+      "id": "gr24-r01",
+      "title_de": "Als",
+      "title_ar": "als",
+      "explanation_de": "Als verwendet man für ein einmaliges Ereignis oder einen einmaligen Zustand in der Vergangenheit.",
+      "explanation_ar": "نستخدم als لحدث أو حالة وقعت مرة واحدة في الماضي.",
+      "formula": "Als + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Als ich meinen neuen Arbeitsplatz antrat, war vieles ungewohnt.",
+          "ar": "عندما بدأت عملي الجديد، كانت أشياء كثيرة غير مألوفة."
+        },
+        {
+          "de": "Ich war überrascht, als ich die Entscheidung erhielt.",
+          "ar": "تفاجأت عندما تلقيت القرار."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r02",
+      "title_de": "Wenn",
+      "title_ar": "wenn",
+      "explanation_de": "Wenn verwendet man für Gegenwart, Zukunft und wiederholte Ereignisse.",
+      "explanation_ar": "نستخدم wenn مع الحاضر والمستقبل والأحداث المتكررة.",
+      "formula": "Wenn + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Wenn ich eine Rückfrage habe, rufe ich die zuständige Stelle an.",
+          "ar": "عندما يكون لدي استفسار أتصل بالجهة المسؤولة."
+        },
+        {
+          "de": "Wenn die Unterlagen morgen eintreffen, bearbeiten wir den Antrag sofort.",
+          "ar": "عندما تصل المستندات غدًا سنعالج الطلب فورًا."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r03",
+      "title_de": "Während",
+      "title_ar": "während",
+      "explanation_de": "Während beschreibt zwei gleichzeitig ablaufende Ereignisse.",
+      "explanation_ar": "تصف während حدثين يقعان في الوقت نفسه.",
+      "formula": "Während + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Während die Daten übertragen werden, darf das Gerät nicht ausgeschaltet werden.",
+          "ar": "أثناء نقل البيانات لا يجوز إيقاف تشغيل الجهاز."
+        },
+        {
+          "de": "Sie beantwortete E-Mails, während sie auf den Rückruf wartete.",
+          "ar": "كانت تجيب عن الرسائل أثناء انتظارها الاتصال."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r04",
+      "title_de": "Solange",
+      "title_ar": "solange",
+      "explanation_de": "Solange beschreibt, dass zwei Situationen während derselben Zeitspanne gelten.",
+      "explanation_ar": "توضح solange أن حالتين تستمران خلال المدة نفسها.",
+      "formula": "Solange + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Solange die Prüfung läuft, bleibt der Zugang gesperrt.",
+          "ar": "طالما أن الفحص جارٍ يبقى المدخل مغلقًا."
+        },
+        {
+          "de": "Sie können hier warten, solange das Büro geöffnet ist.",
+          "ar": "يمكنك الانتظار هنا ما دام المكتب مفتوحًا."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r05",
+      "title_de": "Bevor und ehe",
+      "title_ar": "bevor وehe",
+      "explanation_de": "Bevor und das formellere ehe nennen das Ereignis, das vor einem anderen geschieht.",
+      "explanation_ar": "تذكر bevor وehe الأكثر رسمية الحدث الذي يقع قبل حدث آخر.",
+      "formula": "Bevor/Ehe + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Bevor der Vertrag unterschrieben wird, wird er rechtlich geprüft.",
+          "ar": "قبل توقيع العقد تتم مراجعته قانونيًا."
+        },
+        {
+          "de": "Ehe eine Entscheidung getroffen wird, sollten alle Beteiligten angehört werden.",
+          "ar": "قبل اتخاذ القرار ينبغي الاستماع إلى جميع المعنيين."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r06",
+      "title_de": "Nachdem",
+      "title_ar": "nachdem",
+      "explanation_de": "Nachdem nennt das frühere Ereignis; das andere Ereignis folgt danach.",
+      "explanation_ar": "تذكر nachdem الحدث الأسبق ويأتي الحدث الآخر بعده.",
+      "formula": "Nachdem + früheres Ereignis + Verb, späteres Ereignis",
+      "examples": [
+        {
+          "de": "Nachdem der Bericht geprüft worden war, wurde er freigegeben.",
+          "ar": "بعد أن كان التقرير قد تمت مراجعته، تم اعتماده."
+        },
+        {
+          "de": "Nachdem die Daten gespeichert sind, kann das Programm geschlossen werden.",
+          "ar": "بعد حفظ البيانات يمكن إغلاق البرنامج."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r07",
+      "title_de": "Seitdem",
+      "title_ar": "seitdem",
+      "explanation_de": "Seitdem nennt einen Beginn in der Vergangenheit und eine seit diesem Zeitpunkt bestehende Entwicklung oder Situation.",
+      "explanation_ar": "تذكر seitdem بداية في الماضي وتطورًا أو حالة مستمرة منذ ذلك الوقت.",
+      "formula": "Seitdem + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Seitdem das neue System eingeführt wurde, hat sich die Bearbeitungszeit verkürzt.",
+          "ar": "منذ إدخال النظام الجديد تقلصت مدة المعالجة."
+        },
+        {
+          "de": "Er arbeitet zuverlässiger, seitdem die Aufgaben klar verteilt sind.",
+          "ar": "يعمل بصورة أكثر موثوقية منذ أن أصبحت المهام موزعة بوضوح."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r08",
+      "title_de": "Bis",
+      "title_ar": "bis",
+      "explanation_de": "Bis nennt den Zeitpunkt, an dem eine Situation endet oder ein anderes Ereignis eintritt.",
+      "explanation_ar": "تحدد bis النقطة التي تنتهي عندها حالة أو يبدأ حدث آخر.",
+      "formula": "Hauptsatz, bis + ... + Verb",
+      "examples": [
+        {
+          "de": "Wir warten, bis die Freigabe erteilt wird.",
+          "ar": "ننتظر حتى يتم منح الموافقة."
+        },
+        {
+          "de": "Der Zugang bleibt gesperrt, bis die Prüfung abgeschlossen ist.",
+          "ar": "يبقى المدخل مغلقًا حتى ينتهي الفحص."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r09",
+      "title_de": "Sobald",
+      "title_ar": "sobald",
+      "explanation_de": "Sobald beschreibt eine Handlung, die unmittelbar nach Eintritt eines Ereignisses beginnt.",
+      "explanation_ar": "تصف sobald فعلًا يبدأ فور وقوع حدث آخر.",
+      "formula": "Sobald + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Sobald die Unterlagen vollständig sind, beginnen wir mit der Bearbeitung.",
+          "ar": "فور اكتمال المستندات نبدأ المعالجة."
+        },
+        {
+          "de": "Bitte informieren Sie mich, sobald eine Entscheidung getroffen wurde.",
+          "ar": "يرجى إبلاغي فور اتخاذ قرار."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r10",
+      "title_de": "Sooft",
+      "title_ar": "sooft",
+      "explanation_de": "Sooft bedeutet jedes Mal, wenn und beschreibt wiederholte Ereignisse.",
+      "explanation_ar": "تعني sooft كلما وتصف أحداثًا متكررة.",
+      "formula": "Sooft + ... + Verb, Hauptsatz",
+      "examples": [
+        {
+          "de": "Sooft eine Störung auftritt, wird sie dokumentiert.",
+          "ar": "كلما وقع عطل يتم توثيقه."
+        },
+        {
+          "de": "Ich frage nach, sooft etwas unklar bleibt.",
+          "ar": "أستفسر كلما بقي شيء غير واضح."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r11",
+      "title_de": "Als oder wenn?",
+      "title_ar": "als أم wenn؟",
+      "explanation_de": "Einmalige Vergangenheit verlangt meist als; Wiederholung, Gegenwart oder Zukunft verlangt wenn.",
+      "explanation_ar": "يحتاج الحدث الماضي الذي وقع مرة واحدة غالبًا إلى als، بينما نستخدم wenn للتكرار والحاضر والمستقبل.",
+      "formula": "einmalige Vergangenheit → als | sonst → wenn",
+      "examples": [
+        {
+          "de": "Als ich den Bescheid erhielt, rief ich sofort an.",
+          "ar": "عندما تلقيت القرار اتصلت فورًا."
+        },
+        {
+          "de": "Wenn ich einen Bescheid erhalte, prüfe ich ihn sorgfältig.",
+          "ar": "كلما تلقيت قرارًا أراجعه بعناية."
+        }
+      ]
+    },
+    {
+      "id": "gr24-r12",
+      "title_de": "Wann ist kein temporaler Konnektor wie wenn",
+      "title_ar": "wann ليست بديلًا عن wenn",
+      "explanation_de": "Wann verwendet man in direkten und indirekten Fragen nach einem Zeitpunkt.",
+      "explanation_ar": "نستخدم wann في الأسئلة المباشرة وغير المباشرة عن الوقت.",
+      "formula": "Wann ...? | Ich weiß nicht, wann ...",
+      "examples": [
+        {
+          "de": "Wann beginnt die Besprechung?",
+          "ar": "متى يبدأ الاجتماع؟"
+        },
+        {
+          "de": "Ich weiß noch nicht, wann die Besprechung beginnt.",
+          "ar": "لا أعرف بعد متى يبدأ الاجتماع."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr24-t01",
+      "title_de": "Temporale Beziehungen",
+      "title_ar": "العلاقات الزمنية",
+      "headers_de": [
+        "Konnektor",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الأداة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "als",
+          "einmalige Vergangenheit",
+          "Als ich begann, ..."
+        ],
+        [
+          "wenn",
+          "Gegenwart/Zukunft/Wiederholung",
+          "Wenn ich Zeit habe, ..."
+        ],
+        [
+          "während",
+          "Gleichzeitigkeit",
+          "Während ich warte, ..."
+        ],
+        [
+          "solange",
+          "gleiche Dauer",
+          "Solange es dauert, ..."
+        ],
+        [
+          "bevor/ehe",
+          "vor einem Ereignis",
+          "Bevor wir starten, ..."
+        ],
+        [
+          "nachdem",
+          "nach einem früheren Ereignis",
+          "Nachdem alles geprüft war, ..."
+        ],
+        [
+          "seitdem",
+          "seit einem Beginn",
+          "Seitdem wir umgestellt haben, ..."
+        ],
+        [
+          "bis",
+          "bis zu einem Endpunkt",
+          "Wir warten, bis ..."
+        ],
+        [
+          "sobald",
+          "unmittelbar danach",
+          "Sobald alles da ist, ..."
+        ],
+        [
+          "sooft",
+          "jedes Mal, wenn",
+          "Sooft ein Fehler auftritt, ..."
+        ]
+      ]
+    },
+    {
+      "id": "gr24-t02",
+      "title_de": "Typische Zeitformen",
+      "title_ar": "أزمنة شائعة",
+      "headers_de": [
+        "Beziehung",
+        "typische Kombination",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "العلاقة",
+        "التركيب الشائع",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "einmalige Vergangenheit",
+          "als + Präteritum/Perfekt",
+          "Als ich ankam, begann die Sitzung."
+        ],
+        [
+          "Vorzeitigkeit in Erzählung",
+          "nachdem + Plusquamperfekt, Präteritum",
+          "Nachdem er gegangen war, rief sie an."
+        ],
+        [
+          "Gegenwart seit Beginn",
+          "seitdem + Perfekt/Präteritum, Präsens/Perfekt",
+          "Seitdem es geändert wurde, läuft es besser."
+        ],
+        [
+          "Zukunft",
+          "wenn/sobald + Präsens, Präsens/Futur",
+          "Sobald es eintrifft, bearbeiten wir es."
+        ]
+      ]
+    },
+    {
+      "id": "gr24-t03",
+      "title_de": "Als, wenn oder wann",
+      "title_ar": "als أم wenn أم wann",
+      "headers_de": [
+        "Form",
+        "Verwendung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الاستخدام",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "als",
+          "einmal in der Vergangenheit",
+          "Als ich den Brief erhielt, ..."
+        ],
+        [
+          "wenn",
+          "wiederholt / Gegenwart / Zukunft",
+          "Wenn ich einen Brief erhalte, ..."
+        ],
+        [
+          "wann",
+          "Frage nach dem Zeitpunkt",
+          "Ich weiß nicht, wann er kommt."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Nachdem die Sicherheitsprüfung abgeschlossen worden war, wurde die Anlage wieder in Betrieb genommen.",
+      "ar": "بعد أن كان فحص السلامة قد انتهى، أُعيد تشغيل المنشأة.",
+      "note_de": "Vorzeitigkeit mit Plusquamperfekt und anschließendem Präteritum.",
+      "note_ar": "حدث أسبق في Plusquamperfekt يتبعه حدث في Präteritum."
+    },
+    {
+      "de": "Während die neue Software installiert wird, können bestimmte Funktionen vorübergehend nicht genutzt werden.",
+      "ar": "أثناء تثبيت البرنامج الجديد قد يتعذر استخدام بعض الوظائف مؤقتًا.",
+      "note_de": "Gleichzeitigkeit in einem technischen Hinweis.",
+      "note_ar": "تزامن في تنبيه تقني."
+    },
+    {
+      "de": "Seitdem die Aufgaben verbindlich verteilt wurden, treten deutlich weniger Missverständnisse auf.",
+      "ar": "منذ توزيع المهام بصورة ملزمة ظهرت حالات سوء فهم أقل بكثير.",
+      "note_de": "Beginn in der Vergangenheit mit Wirkung bis heute.",
+      "note_ar": "بداية في الماضي مع أثر مستمر حتى الحاضر."
+    },
+    {
+      "de": "Sobald eine Rückmeldung der zuständigen Abteilung vorliegt, informieren wir alle Beteiligten.",
+      "ar": "فور وصول رد من القسم المختص سنبلغ جميع المعنيين.",
+      "note_de": "Unmittelbare zukünftige Abfolge; im Nebensatz steht Präsens.",
+      "note_ar": "تعاقب مستقبلي مباشر مع استخدام Präsens في الجملة الفرعية."
+    },
+    {
+      "de": "Der Zugang bleibt gesperrt, bis sämtliche Sicherheitsmängel behoben worden sind.",
+      "ar": "يبقى المدخل مغلقًا حتى تتم معالجة جميع عيوب السلامة.",
+      "note_de": "Endpunkt mit bis.",
+      "note_ar": "نقطة نهاية باستخدام bis."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Wenn ich gestern den Bescheid zum ersten Mal erhielt, rief ich an.",
+      "correct": "Als ich gestern den Bescheid erhielt, rief ich an.",
+      "explanation_de": "Für ein einmaliges Ereignis in der Vergangenheit verwendet man als.",
+      "explanation_ar": "نستخدم als لحدث وقع مرة واحدة في الماضي."
+    },
+    {
+      "wrong": "Als ich Fragen habe, frage ich meine Kollegin.",
+      "correct": "Wenn ich Fragen habe, frage ich meine Kollegin.",
+      "explanation_de": "Für wiederholte Ereignisse in der Gegenwart verwendet man wenn.",
+      "explanation_ar": "نستخدم wenn للأحداث المتكررة في الحاضر."
+    },
+    {
+      "wrong": "Während werden die Daten übertragen, darf das Gerät nicht ausgeschaltet werden.",
+      "correct": "Während die Daten übertragen werden, darf das Gerät nicht ausgeschaltet werden.",
+      "explanation_de": "Im während-Satz steht das konjugierte Verb am Ende.",
+      "explanation_ar": "في جملة während يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Nachdem der Bericht wurde geprüft, wurde er freigegeben.",
+      "correct": "Nachdem der Bericht geprüft worden war, wurde er freigegeben.",
+      "explanation_de": "Für das frühere vergangene Ereignis ist hier das Plusquamperfekt passend.",
+      "explanation_ar": "يناسب Plusquamperfekt هنا الحدث الماضي الأسبق."
+    },
+    {
+      "wrong": "Wir warten, bis wird die Freigabe erteilt.",
+      "correct": "Wir warten, bis die Freigabe erteilt wird.",
+      "explanation_de": "Im bis-Satz steht das konjugierte Verb am Ende.",
+      "explanation_ar": "في جملة bis يأتي الفعل المصرف في النهاية."
+    },
+    {
+      "wrong": "Ich weiß nicht, wenn die Besprechung beginnt.",
+      "correct": "Ich weiß nicht, wann die Besprechung beginnt.",
+      "explanation_de": "In einer indirekten Frage nach dem Zeitpunkt verwendet man wann.",
+      "explanation_ar": "في سؤال غير مباشر عن الوقت نستخدم wann."
+    }
+  ],
+  "quickSummary_de": [
+    "Als steht meist bei einem einmaligen Ereignis in der Vergangenheit.",
+    "Wenn steht bei Gegenwart, Zukunft und Wiederholung.",
+    "Während und solange beschreiben Gleichzeitigkeit oder gemeinsame Dauer.",
+    "Bevor und ehe nennen ein vorheriges Ereignis.",
+    "Nachdem nennt das frühere Ereignis.",
+    "Seitdem beschreibt eine Entwicklung seit einem Beginn.",
+    "Bis nennt einen Endpunkt.",
+    "Sobald bedeutet unmittelbar nachdem.",
+    "Sooft bedeutet jedes Mal, wenn.",
+    "Wann verwendet man für direkte und indirekte Zeitfragen.",
+    "In temporalen Nebensätzen steht das konjugierte Verb am Ende.",
+    "Die Zeitform richtet sich nach der tatsächlichen zeitlichen Beziehung."
+  ],
+  "quickSummary_ar": [
+    "تأتي als غالبًا مع حدث وقع مرة واحدة في الماضي.",
+    "تأتي wenn مع الحاضر والمستقبل والتكرار.",
+    "تصف während وsolange التزامن أو المدة المشتركة.",
+    "تذكر bevor وehe حدثًا سابقًا.",
+    "تذكر nachdem الحدث الأسبق.",
+    "تصف seitdem تطورًا منذ بداية معينة.",
+    "تحدد bis نقطة نهاية.",
+    "تعني sobald فور أن.",
+    "تعني sooft كلما.",
+    "نستخدم wann في الأسئلة المباشرة وغير المباشرة عن الوقت.",
+    "يأتي الفعل المصرف في نهاية الجملة الزمنية الفرعية.",
+    "يعتمد الزمن على العلاقة الزمنية الفعلية."
+  ],
+  "relatedTopics": [
+    "gr-07",
+    "gr-21",
+    "gr-25",
+    "gr-30"
+  ]
+}

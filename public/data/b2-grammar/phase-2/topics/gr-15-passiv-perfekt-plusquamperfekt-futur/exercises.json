@@ -1,0 +1,497 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-15",
+  "title_de": "Passiv im Perfekt, Plusquamperfekt und Futur – Übungen",
+  "title_ar": "تمارين المبني للمجهول في Perfekt وPlusquamperfekt والمستقبل",
+  "level": "B2",
+  "exerciseCount": 22,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr15-e001",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Perfekt Passiv erkennen",
+      "title_ar": "تمييز Perfekt Passiv",
+      "prompt_de": "Welche Form ist Perfekt Passiv?",
+      "prompt_ar": "أي صيغة هي Perfekt Passiv؟",
+      "answer": "Der Antrag ist geprüft worden.",
+      "explanation_de": "Perfekt Passiv besteht aus ist, Partizip II und worden.",
+      "explanation_ar": "يتكوّن Perfekt Passiv من ist وPartizip II وworden.",
+      "grammarFocus": "identify_perfect_passive",
+      "options": [
+        "Der Antrag ist geprüft worden.",
+        "Der Antrag wurde geprüft.",
+        "Der Antrag ist geprüft.",
+        "Der Antrag hat geprüft worden."
+      ]
+    },
+    {
+      "id": "gr15-e002",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Plusquamperfekt Passiv erkennen",
+      "title_ar": "تمييز Plusquamperfekt Passiv",
+      "prompt_de": "Welche Form ist Plusquamperfekt Passiv?",
+      "prompt_ar": "أي صيغة هي Plusquamperfekt Passiv؟",
+      "answer": "Der Antrag war geprüft worden.",
+      "explanation_de": "Plusquamperfekt Passiv besteht aus war, Partizip II und worden.",
+      "explanation_ar": "يتكوّن Plusquamperfekt Passiv من war وPartizip II وworden.",
+      "grammarFocus": "identify_pluperfect_passive",
+      "options": [
+        "Der Antrag war geprüft worden.",
+        "Der Antrag wurde geprüft.",
+        "Der Antrag ist geprüft worden.",
+        "Der Antrag war geprüft geworden."
+      ]
+    },
+    {
+      "id": "gr15-e003",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Futur I Passiv erkennen",
+      "title_ar": "تمييز Futur I Passiv",
+      "prompt_de": "Welche Form ist Futur I Passiv?",
+      "prompt_ar": "أي صيغة هي Futur I Passiv؟",
+      "answer": "Der Antrag wird geprüft werden.",
+      "explanation_de": "Futur I Passiv besteht aus wird, Partizip II und werden.",
+      "explanation_ar": "يتكوّن Futur I Passiv من wird وPartizip II وwerden.",
+      "grammarFocus": "identify_future_passive",
+      "options": [
+        "Der Antrag wird geprüft werden.",
+        "Der Antrag wird geprüft.",
+        "Der Antrag wurde geprüft.",
+        "Der Antrag wird prüfen werden."
+      ]
+    },
+    {
+      "id": "gr15-e004",
+      "topicId": "gr-15",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Worden",
+      "title_ar": "worden",
+      "prompt_de": "Die Rechnung ist bereits bezahlt ______.",
+      "prompt_ar": "تم دفع الفاتورة بالفعل.",
+      "answer": "worden",
+      "explanation_de": "Im Perfekt Passiv steht worden.",
+      "explanation_ar": "تأتي worden في Perfekt Passiv.",
+      "grammarFocus": "worden_form",
+      "acceptedAnswers": [
+        "worden"
+      ]
+    },
+    {
+      "id": "gr15-e005",
+      "topicId": "gr-15",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Passivzeiten zuordnen",
+      "title_ar": "مطابقة أزمنة المبني للمجهول",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "wurde geprüft": "Präteritum",
+        "ist geprüft worden": "Perfekt",
+        "war geprüft worden": "Plusquamperfekt",
+        "wird geprüft werden": "Futur I"
+      },
+      "explanation_de": "Die Hilfsverbgruppe zeigt die Zeitform.",
+      "explanation_ar": "توضح مجموعة الأفعال المساعدة الزمن.",
+      "grammarFocus": "passive_tense_matching",
+      "pairs": [
+        [
+          "wurde geprüft",
+          "Präteritum"
+        ],
+        [
+          "ist geprüft worden",
+          "Perfekt"
+        ],
+        [
+          "war geprüft worden",
+          "Plusquamperfekt"
+        ],
+        [
+          "wird geprüft werden",
+          "Futur I"
+        ]
+      ]
+    },
+    {
+      "id": "gr15-e006",
+      "topicId": "gr-15",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Perfekt Passiv ordnen",
+      "title_ar": "ترتيب Perfekt Passiv",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Die Unterlagen sind digital gespeichert worden.",
+      "explanation_de": "Sind steht auf Position 2; gespeichert worden steht am Ende.",
+      "explanation_ar": "تأتي sind في المرتبة الثانية وgespeichert worden في النهاية.",
+      "grammarFocus": "perfect_passive_order",
+      "tokens": [
+        "digital",
+        "worden",
+        "gespeichert",
+        "Die Unterlagen",
+        "sind"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen sind digital gespeichert worden."
+      ]
+    },
+    {
+      "id": "gr15-e007",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Worden oder geworden",
+      "title_ar": "worden أم geworden",
+      "prompt_de": "Welche Form beschreibt einen Passivvorgang?",
+      "prompt_ar": "أي صيغة تصف عملية مبني للمجهول؟",
+      "answer": "Die Datei ist gelöscht worden.",
+      "explanation_de": "Worden kennzeichnet das Vorgangspassiv.",
+      "explanation_ar": "تدل worden على Vorgangspassiv.",
+      "grammarFocus": "worden_vs_geworden",
+      "options": [
+        "Die Datei ist gelöscht worden.",
+        "Die Datei ist größer geworden.",
+        "Die Datei wurde größer.",
+        "Die Datei ist groß geworden."
+      ]
+    },
+    {
+      "id": "gr15-e008",
+      "topicId": "gr-15",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Perfekt Passiv Plural",
+      "title_ar": "Perfekt Passiv جمع",
+      "prompt_de": "Die Bewerbungen ______ bereits geprüft worden.",
+      "prompt_ar": "تمت مراجعة طلبات التوظيف بالفعل.",
+      "answer": "sind",
+      "explanation_de": "Das Subjekt Bewerbungen steht im Plural; deshalb lautet die Form sind.",
+      "explanation_ar": "الفاعل Bewerbungen جمع، لذلك نستخدم sind.",
+      "grammarFocus": "perfect_passive_plural",
+      "acceptedAnswers": [
+        "sind"
+      ]
+    },
+    {
+      "id": "gr15-e009",
+      "topicId": "gr-15",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Plusquamperfekt Passiv",
+      "title_ar": "Plusquamperfekt Passiv",
+      "prompt_de": "Der Fehler ______ bereits behoben worden, bevor die Produktion begann.",
+      "prompt_ar": "كان الخطأ قد تم إصلاحه قبل بدء الإنتاج.",
+      "answer": "war",
+      "explanation_de": "Für Singular im Plusquamperfekt Passiv verwendet man war.",
+      "explanation_ar": "نستخدم war للمفرد في Plusquamperfekt Passiv.",
+      "grammarFocus": "pluperfect_passive_singular",
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "gr15-e010",
+      "topicId": "gr-15",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präteritum zu Perfekt",
+      "title_ar": "من Präteritum إلى Perfekt",
+      "prompt_de": "Setzen Sie ins Perfekt Passiv: Die Geräte wurden geliefert.",
+      "prompt_ar": "حوّل الجملة إلى Perfekt Passiv.",
+      "answer": "Die Geräte sind geliefert worden.",
+      "explanation_de": "Wurden geliefert wird im Perfekt zu sind geliefert worden.",
+      "explanation_ar": "تتحول wurden geliefert في Perfekt إلى sind geliefert worden.",
+      "grammarFocus": "past_to_perfect_passive",
+      "acceptedAnswers": [
+        "Die Geräte sind geliefert worden."
+      ]
+    },
+    {
+      "id": "gr15-e011",
+      "topicId": "gr-15",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Perfekt zu Plusquamperfekt",
+      "title_ar": "من Perfekt إلى Plusquamperfekt",
+      "prompt_de": "Setzen Sie ins Plusquamperfekt Passiv: Der Antrag ist geprüft worden.",
+      "prompt_ar": "حوّل الجملة إلى Plusquamperfekt Passiv.",
+      "answer": "Der Antrag war geprüft worden.",
+      "explanation_de": "Ist wird im Plusquamperfekt zu war.",
+      "explanation_ar": "تتحول ist في Plusquamperfekt إلى war.",
+      "grammarFocus": "perfect_to_pluperfect_passive",
+      "acceptedAnswers": [
+        "Der Antrag war geprüft worden."
+      ]
+    },
+    {
+      "id": "gr15-e012",
+      "topicId": "gr-15",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Präsens zu Futur I",
+      "title_ar": "من Präsens إلى Futur I",
+      "prompt_de": "Setzen Sie ins Futur I Passiv: Die Ergebnisse werden veröffentlicht.",
+      "prompt_ar": "حوّل الجملة إلى Futur I Passiv.",
+      "answer": "Die Ergebnisse werden veröffentlicht werden.",
+      "explanation_de": "Im Futur I kommt am Satzende der Infinitiv werden hinzu.",
+      "explanation_ar": "في Futur I نضيف المصدر werden في نهاية الجملة.",
+      "grammarFocus": "present_to_future_passive",
+      "acceptedAnswers": [
+        "Die Ergebnisse werden veröffentlicht werden."
+      ]
+    },
+    {
+      "id": "gr15-e013",
+      "topicId": "gr-15",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Nebensatz.",
+      "prompt_ar": "رتب الجملة الفرعية.",
+      "answer": "weil der Antrag noch nicht geprüft worden ist",
+      "explanation_de": "Im Nebensatz steht ist am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي ist في النهاية.",
+      "grammarFocus": "perfect_passive_subordinate",
+      "tokens": [
+        "noch nicht",
+        "ist",
+        "geprüft",
+        "weil",
+        "worden",
+        "der Antrag"
+      ],
+      "acceptedAnswers": [
+        "weil der Antrag noch nicht geprüft worden ist"
+      ]
+    },
+    {
+      "id": "gr15-e014",
+      "topicId": "gr-15",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Plusquamperfekt im Nebensatz",
+      "title_ar": "Plusquamperfekt في جملة فرعية",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Nachdem der Fehler behoben worden war, lief das System wieder.",
+      "explanation_de": "Im nachdem-Satz steht behoben worden war am Ende.",
+      "explanation_ar": "في جملة nachdem تأتي behoben worden war في النهاية.",
+      "grammarFocus": "pluperfect_passive_subordinate",
+      "tokens": [
+        "wieder",
+        "behoben",
+        "war",
+        "Nachdem",
+        "worden",
+        "lief",
+        "das System",
+        "der Fehler"
+      ],
+      "acceptedAnswers": [
+        "Nachdem der Fehler behoben worden war, lief das System wieder."
+      ]
+    },
+    {
+      "id": "gr15-e015",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Futur I im Nebensatz",
+      "title_ar": "Futur I في جملة فرعية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Wir erwarten, dass die Entscheidung morgen bekannt gegeben werden wird.",
+      "explanation_de": "Im Nebensatz steht die konjugierte Form wird am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي صيغة wird المصرفة في النهاية.",
+      "grammarFocus": "future_passive_subordinate",
+      "options": [
+        "Wir erwarten, dass die Entscheidung morgen bekannt gegeben werden wird.",
+        "Wir erwarten, dass wird die Entscheidung morgen bekannt gegeben werden.",
+        "Wir erwarten, dass die Entscheidung wird morgen bekannt gegeben.",
+        "Wir erwarten, dass die Entscheidung morgen bekannt gegeben wird werden."
+      ]
+    },
+    {
+      "id": "gr15-e016",
+      "topicId": "gr-15",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Hauptsatz und Nebensatz",
+      "title_ar": "الجملة الرئيسية والفرعية",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ist geprüft worden": "geprüft worden ist",
+        "war geprüft worden": "geprüft worden war",
+        "wird geprüft werden": "geprüft werden wird"
+      },
+      "explanation_de": "Im Nebensatz steht die konjugierte Form am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي الصيغة المصرفة في النهاية.",
+      "grammarFocus": "main_subordinate_matching",
+      "pairs": [
+        [
+          "ist geprüft worden",
+          "geprüft worden ist"
+        ],
+        [
+          "war geprüft worden",
+          "geprüft worden war"
+        ],
+        [
+          "wird geprüft werden",
+          "geprüft werden wird"
+        ]
+      ]
+    },
+    {
+      "id": "gr15-e017",
+      "topicId": "gr-15",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Zeitlicher Ablauf",
+      "title_ar": "تسلسل زمني",
+      "prompt_de": "Die Ursache wurde zuerst gefunden; danach wurde die Anlage repariert. Welche Form ist am präzisesten?",
+      "prompt_ar": "تم اكتشاف السبب أولًا ثم تم إصلاح المنشأة. أي صيغة أدق؟",
+      "answer": "Nachdem die Ursache gefunden worden war, wurde die Anlage repariert.",
+      "explanation_de": "Das frühere Ereignis steht im Plusquamperfekt Passiv.",
+      "explanation_ar": "يأتي الحدث الأسبق في Plusquamperfekt Passiv.",
+      "grammarFocus": "passive_time_sequence",
+      "options": [
+        "Nachdem die Ursache gefunden worden war, wurde die Anlage repariert.",
+        "Nachdem die Ursache gefunden wurde, war die Anlage repariert worden.",
+        "Nachdem die Ursache gefunden worden ist, wird die Anlage gestern repariert.",
+        "Nachdem die Ursache gefunden war, wurde die Anlage reparieren."
+      ]
+    },
+    {
+      "id": "gr15-e018",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Futur II Passiv",
+      "title_ar": "Futur II Passiv",
+      "prompt_de": "Welche Form beschreibt einen zukünftig abgeschlossenen Passivvorgang?",
+      "prompt_ar": "أي صيغة تصف عملية مبني للمجهول ستكون قد انتهت مستقبلًا؟",
+      "answer": "Bis Freitag wird der Antrag geprüft worden sein.",
+      "explanation_de": "Futur II Passiv besteht aus wird, Partizip II, worden und sein.",
+      "explanation_ar": "يتكوّن Futur II Passiv من wird وPartizip II وworden وsein.",
+      "grammarFocus": "future_two_passive",
+      "options": [
+        "Bis Freitag wird der Antrag geprüft worden sein.",
+        "Bis Freitag wird der Antrag geprüft werden.",
+        "Bis Freitag ist der Antrag geprüft worden.",
+        "Bis Freitag war der Antrag geprüft worden."
+      ]
+    },
+    {
+      "id": "gr15-e019",
+      "topicId": "gr-15",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Futur II Passiv ordnen",
+      "title_ar": "ترتيب Futur II Passiv",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Bis zum Monatsende werden alle Anträge bearbeitet worden sein.",
+      "explanation_de": "Werden steht auf Position 2; bearbeitet worden sein steht am Ende.",
+      "explanation_ar": "تأتي werden في المرتبة الثانية وbearbeitet worden sein في النهاية.",
+      "grammarFocus": "future_two_passive_order",
+      "tokens": [
+        "bearbeitet",
+        "werden",
+        "worden",
+        "Bis zum Monatsende",
+        "alle Anträge",
+        "sein"
+      ],
+      "acceptedAnswers": [
+        "Bis zum Monatsende werden alle Anträge bearbeitet worden sein."
+      ]
+    },
+    {
+      "id": "gr15-e020",
+      "topicId": "gr-15",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachlicher Ausblick",
+      "title_ar": "توقع موضوعي",
+      "prompt_de": "Welche Formulierung passt in einen Bericht über eine geplante zukünftige Maßnahme?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا عن إجراء مخطط مستقبلًا؟",
+      "answer": "Die neue Regelung wird voraussichtlich im Herbst eingeführt werden.",
+      "explanation_de": "Futur I Passiv betont den zukünftigen Vorgang.",
+      "explanation_ar": "يؤكد Futur I Passiv على العملية المستقبلية.",
+      "grammarFocus": "formal_future_passive",
+      "options": [
+        "Die neue Regelung wird voraussichtlich im Herbst eingeführt werden.",
+        "Die neue Regelung ist im Herbst eingeführt worden.",
+        "Die neue Regelung war im Herbst eingeführt worden.",
+        "Die neue Regelung wird im Herbst einführen."
+      ]
+    },
+    {
+      "id": "gr15-e021",
+      "topicId": "gr-15",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Worden und geworden unterscheiden",
+      "title_ar": "التمييز بين worden وgeworden",
+      "prompt_de": "Welche Kombination ist korrekt?",
+      "prompt_ar": "أي تركيب صحيح؟",
+      "answer": "Die Rechnung ist bezahlt worden, aber sie ist teurer geworden.",
+      "explanation_de": "Worden steht beim Passiv; geworden beschreibt die Preisveränderung.",
+      "explanation_ar": "تأتي worden مع المبني للمجهول وتصف geworden تغير السعر.",
+      "grammarFocus": "worden_geworden_contrast",
+      "options": [
+        "Die Rechnung ist bezahlt worden, aber sie ist teurer geworden.",
+        "Die Rechnung ist bezahlt geworden, aber sie ist teurer worden.",
+        "Die Rechnung hat bezahlt worden, aber sie hat teurer geworden.",
+        "Die Rechnung wurde bezahlt geworden und wurde teurer worden."
+      ]
+    },
+    {
+      "id": "gr15-e022",
+      "topicId": "gr-15",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Passivzeiten",
+      "title_ar": "تدريب ختامي على أزمنة المبني للمجهول",
+      "prompt_de": "Schreiben Sie einen beruflichen Ablaufbericht mit mindestens acht Sätzen. Verwenden Sie zwei Passivsätze im Perfekt, zwei im Plusquamperfekt, zwei im Futur I, einen Nebensatz mit Passiv und optional eine Futur-II-Passivform.",
+      "prompt_ar": "اكتب تقريرًا مهنيًا عن تسلسل عملية من ثماني جمل على الأقل. استخدم جملتين مجهول في Perfekt، وجملتين في Plusquamperfekt، وجملتين في Futur I، وجملة فرعية في المبني للمجهول، ويمكن إضافة صيغة Futur II Passiv.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Perfekt-Passivsätze",
+          "mindestens zwei Plusquamperfekt-Passivsätze",
+          "mindestens zwei Futur-I-Passivsätze",
+          "mindestens ein Passiv-Nebensatz",
+          "worden korrekt verwendet",
+          "kein geworden im Vorgangspassiv",
+          "logische zeitliche Reihenfolge",
+          "optional Futur II Passiv"
+        ]
+      },
+      "explanation_de": "Achten Sie auf worden, die Stellung der Verbgruppe und die zeitliche Logik.",
+      "explanation_ar": "انتبه إلى worden وترتيب المجموعة الفعلية والتسلسل الزمني.",
+      "grammarFocus": "mixed_advanced_passive_tenses",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

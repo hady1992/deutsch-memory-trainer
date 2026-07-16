@@ -1,0 +1,373 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-15",
+  "slug": "gr-15-passiv-perfekt-plusquamperfekt-futur",
+  "order": 15,
+  "title_de": "Passiv im Perfekt, Plusquamperfekt und Futur",
+  "title_ar": "المبني للمجهول في Perfekt وPlusquamperfekt والمستقبل",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 50,
+  "learningObjectives_de": [
+    "Das Vorgangspassiv im Perfekt korrekt mit sein + Partizip II + worden bilden.",
+    "Das Vorgangspassiv im Plusquamperfekt korrekt mit war + Partizip II + worden bilden.",
+    "Das Vorgangspassiv im Futur I mit werden + Partizip II + werden bilden.",
+    "Worden und geworden sicher unterscheiden.",
+    "Passivformen in Haupt- und Nebensätzen korrekt anordnen.",
+    "Zeitliche Abläufe mit mehreren Passivzeiten verständlich ausdrücken.",
+    "Das Passiv im Futur II als fortgeschrittene Form erkennen und bilden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين المبني للمجهول في Perfekt باستخدام sein + Partizip II + worden.",
+    "تكوين المبني للمجهول في Plusquamperfekt باستخدام war + Partizip II + worden.",
+    "تكوين المبني للمجهول في Futur I باستخدام werden + Partizip II + werden.",
+    "التمييز بين worden وgeworden.",
+    "ترتيب صيغ المبني للمجهول في الجمل الرئيسية والفرعية.",
+    "التعبير عن تسلسل زمني يضم عدة أزمنة للمبني للمجهول.",
+    "التعرف على المبني للمجهول في Futur II وتكوينه بوصفه صيغة متقدمة."
+  ],
+  "shortDescription_de": "Diese Einheit erweitert das Vorgangspassiv auf Perfekt, Plusquamperfekt und Futur. Besonders wichtig ist die Form worden, nicht geworden.",
+  "shortDescription_ar": "توسّع هذه الوحدة استخدام المبني للمجهول ليشمل Perfekt وPlusquamperfekt والمستقبل. ومن المهم استخدام worden وليس geworden في هذه الصيغ.",
+  "explanation_de": "Das Vorgangspassiv im Perfekt wird mit einer Form von sein, dem Partizip II und worden gebildet: Der Antrag ist geprüft worden. Im Plusquamperfekt lautet die Struktur war oder waren + Partizip II + worden: Der Antrag war bereits geprüft worden. Im Futur I steht eine Form von werden mit Partizip II und dem Infinitiv werden: Der Antrag wird morgen geprüft werden. Im Nebensatz stehen die Verbgruppen am Ende: ..., weil der Antrag geprüft worden ist; ..., nachdem der Antrag geprüft worden war; ..., dass der Antrag geprüft werden wird. Worden ist die besondere Passivform des Partizips von werden. Geworden wird verwendet, wenn eine Veränderung oder Entwicklung gemeint ist: Er ist Arzt geworden. Als fortgeschrittene Form beschreibt das Futur II Passiv einen zukünftig abgeschlossenen Vorgang: Bis morgen wird der Antrag geprüft worden sein.",
+  "explanation_ar": "يتكوّن Vorgangspassiv في Perfekt من صيغة للفعل sein مع Partizip II وworden، مثل: Der Antrag ist geprüft worden. وفي Plusquamperfekt تكون الصيغة war أو waren + Partizip II + worden، مثل: Der Antrag war bereits geprüft worden. أما Futur I فيتكوّن من صيغة للفعل werden مع Partizip II والمصدر werden، مثل: Der Antrag wird morgen geprüft werden. وفي الجملة الفرعية تأتي المجموعة الفعلية في النهاية. تُستخدم worden بوصفها صيغة خاصة بالمبني للمجهول، بينما تُستخدم geworden عند التعبير عن تحول أو تغير مثل: Er ist Arzt geworden. أما Futur II Passiv فهو صيغة متقدمة تعبّر عن عملية ستكون قد انتهت مستقبلًا، مثل: Bis morgen wird der Antrag geprüft worden sein.",
+  "rules": [
+    {
+      "id": "gr15-r01",
+      "title_de": "Passiv im Perfekt",
+      "title_ar": "المبني للمجهول في Perfekt",
+      "explanation_de": "Das Perfekt Passiv wird mit sein + Partizip II + worden gebildet.",
+      "explanation_ar": "يتكوّن المبني للمجهول في Perfekt من sein + Partizip II + worden.",
+      "formula": "sein im Präsens + Partizip II + worden",
+      "examples": [
+        {
+          "de": "Der Antrag ist geprüft worden.",
+          "ar": "تم فحص الطلب."
+        },
+        {
+          "de": "Die Unterlagen sind digital gespeichert worden.",
+          "ar": "تم حفظ المستندات رقميًا."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r02",
+      "title_de": "Passiv im Plusquamperfekt",
+      "title_ar": "المبني للمجهول في Plusquamperfekt",
+      "explanation_de": "Das Plusquamperfekt Passiv wird mit war/waren + Partizip II + worden gebildet.",
+      "explanation_ar": "يتكوّن المبني للمجهول في Plusquamperfekt من war/waren + Partizip II + worden.",
+      "formula": "war/waren + Partizip II + worden",
+      "examples": [
+        {
+          "de": "Der Antrag war bereits geprüft worden.",
+          "ar": "كان الطلب قد تم فحصه بالفعل."
+        },
+        {
+          "de": "Die Geräte waren vor dem Termin geliefert worden.",
+          "ar": "كانت الأجهزة قد سُلّمت قبل الموعد."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r03",
+      "title_de": "Passiv im Futur I",
+      "title_ar": "المبني للمجهول في Futur I",
+      "explanation_de": "Das Futur I Passiv wird mit werden + Partizip II + werden gebildet.",
+      "explanation_ar": "يتكوّن المبني للمجهول في Futur I من werden + Partizip II + werden.",
+      "formula": "werden im Präsens + Partizip II + werden",
+      "examples": [
+        {
+          "de": "Der Antrag wird morgen geprüft werden.",
+          "ar": "سيتم فحص الطلب غدًا."
+        },
+        {
+          "de": "Die Ergebnisse werden nächste Woche veröffentlicht werden.",
+          "ar": "سيتم نشر النتائج الأسبوع القادم."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r04",
+      "title_de": "Worden oder geworden?",
+      "title_ar": "worden أم geworden؟",
+      "explanation_de": "Im Vorgangspassiv steht worden. Geworden beschreibt eine Veränderung.",
+      "explanation_ar": "تأتي worden في المبني للمجهول، بينما تصف geworden تحولًا أو تغيرًا.",
+      "formula": "Passiv: ist gemacht worden | Veränderung: ist ... geworden",
+      "examples": [
+        {
+          "de": "Die Rechnung ist bezahlt worden.",
+          "ar": "تم دفع الفاتورة."
+        },
+        {
+          "de": "Die Rechnung ist teurer geworden.",
+          "ar": "أصبحت الفاتورة أغلى."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r05",
+      "title_de": "Perfekt im Nebensatz",
+      "title_ar": "Perfekt في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht die Verbgruppe Partizip II + worden + sein am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي المجموعة Partizip II + worden + sein في النهاية.",
+      "formula": "..., weil/dass + ... + Partizip II + worden + ist/sind",
+      "examples": [
+        {
+          "de": "Wir warten, weil der Antrag noch nicht geprüft worden ist.",
+          "ar": "ننتظر لأن الطلب لم يتم فحصه بعد."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r06",
+      "title_de": "Plusquamperfekt im Nebensatz",
+      "title_ar": "Plusquamperfekt في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht Partizip II + worden + war/waren am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي Partizip II + worden + war/waren في النهاية.",
+      "formula": "..., nachdem/weil + ... + Partizip II + worden + war/waren",
+      "examples": [
+        {
+          "de": "Nachdem der Fehler behoben worden war, lief das System wieder.",
+          "ar": "بعد أن كان الخطأ قد تم إصلاحه عاد النظام للعمل."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r07",
+      "title_de": "Futur I im Nebensatz",
+      "title_ar": "Futur I في الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht Partizip II + werden + konjugiertes werden am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي Partizip II + werden + صيغة werden المصرفة في النهاية.",
+      "formula": "..., dass + ... + Partizip II + werden + wird/werden",
+      "examples": [
+        {
+          "de": "Wir erwarten, dass die Entscheidung morgen bekannt gegeben werden wird.",
+          "ar": "نتوقع أن يتم إعلان القرار غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr15-r08",
+      "title_de": "Passiv im Futur II",
+      "title_ar": "المبني للمجهول في Futur II",
+      "explanation_de": "Das Futur II Passiv beschreibt einen zukünftig abgeschlossenen Vorgang.",
+      "explanation_ar": "يصف المبني للمجهول في Futur II عملية ستكون قد انتهت مستقبلًا.",
+      "formula": "werden + Partizip II + worden + sein",
+      "examples": [
+        {
+          "de": "Bis Freitag wird der Antrag geprüft worden sein.",
+          "ar": "سيكون الطلب قد تم فحصه بحلول الجمعة."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr15-t01",
+      "title_de": "Passivzeiten im Überblick",
+      "title_ar": "نظرة عامة على أزمنة المبني للمجهول",
+      "headers_de": [
+        "Zeitform",
+        "Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "البنية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "wird geprüft",
+          "Der Antrag wird geprüft."
+        ],
+        [
+          "Präteritum",
+          "wurde geprüft",
+          "Der Antrag wurde geprüft."
+        ],
+        [
+          "Perfekt",
+          "ist geprüft worden",
+          "Der Antrag ist geprüft worden."
+        ],
+        [
+          "Plusquamperfekt",
+          "war geprüft worden",
+          "Der Antrag war geprüft worden."
+        ],
+        [
+          "Futur I",
+          "wird geprüft werden",
+          "Der Antrag wird geprüft werden."
+        ],
+        [
+          "Futur II",
+          "wird geprüft worden sein",
+          "Der Antrag wird geprüft worden sein."
+        ]
+      ]
+    },
+    {
+      "id": "gr15-t02",
+      "title_de": "Hauptsatz und Nebensatz",
+      "title_ar": "الجملة الرئيسية والفرعية",
+      "headers_de": [
+        "Zeit",
+        "Hauptsatz",
+        "Nebensatz"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "الجملة الرئيسية",
+        "الجملة الفرعية"
+      ],
+      "rows": [
+        [
+          "Perfekt",
+          "ist geprüft worden",
+          "geprüft worden ist"
+        ],
+        [
+          "Plusquamperfekt",
+          "war geprüft worden",
+          "geprüft worden war"
+        ],
+        [
+          "Futur I",
+          "wird geprüft werden",
+          "geprüft werden wird"
+        ],
+        [
+          "Futur II",
+          "wird geprüft worden sein",
+          "geprüft worden sein wird"
+        ]
+      ]
+    },
+    {
+      "id": "gr15-t03",
+      "title_de": "Worden und geworden",
+      "title_ar": "worden وgeworden",
+      "headers_de": [
+        "Form",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المعنى",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "worden",
+          "Vorgangspassiv",
+          "Die Datei ist gelöscht worden."
+        ],
+        [
+          "geworden",
+          "Veränderung/Entwicklung",
+          "Die Datei ist größer geworden."
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Bewerbungen sind bereits von der Personalabteilung geprüft worden.",
+      "ar": "تمت مراجعة طلبات التوظيف بالفعل من قبل قسم الموارد البشرية.",
+      "note_de": "Perfekt Passiv mit von + Dativ.",
+      "note_ar": "Perfekt Passiv مع von + Dativ."
+    },
+    {
+      "de": "Nachdem die Ursache gefunden worden war, wurde die Anlage repariert.",
+      "ar": "بعد أن كان السبب قد تم اكتشافه، تم إصلاح المنشأة.",
+      "note_de": "Plusquamperfekt Passiv für das frühere Ereignis.",
+      "note_ar": "Plusquamperfekt Passiv للحدث الأسبق."
+    },
+    {
+      "de": "Die neue Regelung wird voraussichtlich im Herbst eingeführt werden.",
+      "ar": "من المتوقع أن يتم تطبيق النظام الجديد في الخريف.",
+      "note_de": "Futur I Passiv mit Prognose.",
+      "note_ar": "Futur I Passiv مع توقع."
+    },
+    {
+      "de": "Wir hoffen, dass alle offenen Fragen bis morgen geklärt werden werden.",
+      "ar": "نأمل أن يتم توضيح جميع الأسئلة المفتوحة بحلول الغد.",
+      "note_de": "Futur I Passiv im Nebensatz; formal korrekt, stilistisch oft durch Präsens ersetzbar.",
+      "note_ar": "Futur I Passiv في جملة فرعية؛ صحيح رسميًا ويمكن غالبًا استبداله بـ Präsens أسلوبيًا."
+    },
+    {
+      "de": "Bis zum Monatsende werden alle Anträge bearbeitet worden sein.",
+      "ar": "ستكون جميع الطلبات قد تمت معالجتها بحلول نهاية الشهر.",
+      "note_de": "Futur II Passiv als fortgeschrittene Form.",
+      "note_ar": "Futur II Passiv بوصفه صيغة متقدمة."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Antrag ist geprüft geworden.",
+      "correct": "Der Antrag ist geprüft worden.",
+      "explanation_de": "Im Vorgangspassiv verwendet man worden, nicht geworden.",
+      "explanation_ar": "نستخدم worden في المبني للمجهول وليس geworden."
+    },
+    {
+      "wrong": "Der Antrag hat geprüft worden.",
+      "correct": "Der Antrag ist geprüft worden.",
+      "explanation_de": "Das Perfekt Passiv wird mit sein gebildet.",
+      "explanation_ar": "يتكوّن Perfekt Passiv باستخدام sein."
+    },
+    {
+      "wrong": "Der Antrag war geprüft geworden.",
+      "correct": "Der Antrag war geprüft worden.",
+      "explanation_de": "Auch im Plusquamperfekt Passiv steht worden.",
+      "explanation_ar": "تأتي worden أيضًا في Plusquamperfekt Passiv."
+    },
+    {
+      "wrong": "Der Antrag wird morgen geprüft.",
+      "correct": "Der Antrag wird morgen geprüft werden.",
+      "explanation_de": "Wenn ausdrücklich Futur I gemeint ist, braucht man am Ende den Infinitiv werden.",
+      "explanation_ar": "عند التعبير الصريح عن Futur I نحتاج إلى المصدر werden في النهاية."
+    },
+    {
+      "wrong": "Weil der Antrag ist geprüft worden, können wir fortfahren.",
+      "correct": "Weil der Antrag geprüft worden ist, können wir fortfahren.",
+      "explanation_de": "Im Nebensatz steht ist am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي ist في النهاية."
+    },
+    {
+      "wrong": "Dass der Antrag wird geprüft werden, ist sicher.",
+      "correct": "Dass der Antrag geprüft werden wird, ist sicher.",
+      "explanation_de": "Im Nebensatz steht die konjugierte Form wird ganz am Ende.",
+      "explanation_ar": "في الجملة الفرعية تأتي صيغة wird المصرفة في النهاية."
+    }
+  ],
+  "quickSummary_de": [
+    "Perfekt Passiv: ist/sind + Partizip II + worden.",
+    "Plusquamperfekt Passiv: war/waren + Partizip II + worden.",
+    "Futur I Passiv: wird/werden + Partizip II + werden.",
+    "Futur II Passiv: wird/werden + Partizip II + worden + sein.",
+    "Im Vorgangspassiv steht worden, nicht geworden.",
+    "Geworden beschreibt eine Veränderung.",
+    "Im Nebensatz steht die konjugierte Verbform am Ende.",
+    "Passivzeiten helfen, komplexe Abläufe sachlich und zeitlich genau darzustellen."
+  ],
+  "quickSummary_ar": [
+    "Perfekt Passiv: ist/sind + Partizip II + worden.",
+    "Plusquamperfekt Passiv: war/waren + Partizip II + worden.",
+    "Futur I Passiv: wird/werden + Partizip II + werden.",
+    "Futur II Passiv: wird/werden + Partizip II + worden + sein.",
+    "تأتي worden في المبني للمجهول وليس geworden.",
+    "تصف geworden تحولًا أو تغيرًا.",
+    "تأتي صيغة الفعل المصرفة في نهاية الجملة الفرعية.",
+    "تساعد أزمنة المبني للمجهول على عرض العمليات المعقدة بدقة زمنية وأسلوب موضوعي."
+  ],
+  "relatedTopics": [
+    "gr-14",
+    "gr-16",
+    "gr-17",
+    "gr-20"
+  ]
+}

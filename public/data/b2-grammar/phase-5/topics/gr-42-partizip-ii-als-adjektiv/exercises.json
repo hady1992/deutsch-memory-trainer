@@ -1,0 +1,544 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-42",
+  "title_de": "Partizip II als Adjektiv – Übungen",
+  "title_ar": "تمارين Partizip II بوصفه صفة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr42-e001",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Regelmäßiges Partizip II",
+      "title_ar": "Partizip II المنتظم",
+      "prompt_de": "Wie lautet das Partizip II von „prüfen“?",
+      "prompt_ar": "ما صيغة Partizip II من prüfen؟",
+      "answer": "geprüft",
+      "explanation_de": "Regelmäßige Verben bilden das Partizip II meist mit ge- + Stamm + -t.",
+      "explanation_ar": "تكوّن الأفعال المنتظمة Partizip II غالبًا باستخدام ge- + الجذر + -t.",
+      "grammarFocus": "regular_formation",
+      "options": [
+        "geprüft",
+        "prüfend",
+        "geprüfen",
+        "prüfte"
+      ]
+    },
+    {
+      "id": "gr42-e002",
+      "topicId": "gr-42",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Geprüfter Antrag",
+      "title_ar": "طلب مفحوص",
+      "prompt_de": "Der ______ Antrag liegt auf dem Schreibtisch.",
+      "prompt_ar": "الطلب الذي تمت مراجعته موجود على المكتب.",
+      "answer": "geprüfte",
+      "explanation_de": "Vor dem maskulinen Nomen mit bestimmtem Artikel steht die Endung -e.",
+      "explanation_ar": "قبل اسم مذكر مع أداة معرفة تأتي النهاية -e.",
+      "grammarFocus": "adjective_ending_nominative",
+      "acceptedAnswers": [
+        "geprüfte"
+      ]
+    },
+    {
+      "id": "gr42-e003",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Passive Bedeutung",
+      "title_ar": "المعنى المجهول",
+      "prompt_de": "Was bedeutet „der geprüfte Antrag“?",
+      "prompt_ar": "ما معنى der geprüfte Antrag؟",
+      "answer": "der Antrag, der geprüft wurde",
+      "explanation_de": "Das Bezugsnomen ist von der Handlung betroffen.",
+      "explanation_ar": "الاسم الموصوف متأثر بالفعل.",
+      "grammarFocus": "passive_meaning",
+      "options": [
+        "der Antrag, der geprüft wurde",
+        "der Antrag, der selbst prüft",
+        "der Antrag, der gerade prüft",
+        "der Antrag, der prüfen möchte"
+      ]
+    },
+    {
+      "id": "gr42-e004",
+      "topicId": "gr-42",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Infinitiv und Partizip II",
+      "title_ar": "المصدر وPartizip II",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "prüfen": "geprüft",
+        "schreiben": "geschrieben",
+        "einreichen": "eingereicht",
+        "bearbeiten": "bearbeitet",
+        "informieren": "informiert"
+      },
+      "explanation_de": "Die Bildung hängt vom Verbtyp ab.",
+      "explanation_ar": "يعتمد التكوين على نوع الفعل.",
+      "grammarFocus": "formation_matching",
+      "pairs": [
+        [
+          "prüfen",
+          "geprüft"
+        ],
+        [
+          "schreiben",
+          "geschrieben"
+        ],
+        [
+          "einreichen",
+          "eingereicht"
+        ],
+        [
+          "bearbeiten",
+          "bearbeitet"
+        ],
+        [
+          "informieren",
+          "informiert"
+        ]
+      ]
+    },
+    {
+      "id": "gr42-e005",
+      "topicId": "gr-42",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Eingereichte Unterlagen",
+      "title_ar": "المستندات المقدمة",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die gestern eingereichten Unterlagen",
+      "explanation_de": "Die Zeitangabe steht vor dem Partizip-II-Attribut.",
+      "explanation_ar": "يأتي تعبير الزمن قبل صفة Partizip II.",
+      "grammarFocus": "extended_attribute_order",
+      "tokens": [
+        "Unterlagen",
+        "eingereichten",
+        "gestern",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die gestern eingereichten Unterlagen"
+      ]
+    },
+    {
+      "id": "gr42-e006",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Verb auf -ieren",
+      "title_ar": "فعل منتهٍ بـ -ieren",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "die informierten Beschäftigten",
+      "explanation_de": "Informieren bildet das Partizip II ohne ge-.",
+      "explanation_ar": "يُبنى Partizip II من informieren من دون ge-.",
+      "grammarFocus": "ieren_formation",
+      "options": [
+        "die informierten Beschäftigten",
+        "die geinformierten Beschäftigten",
+        "die informierende Beschäftigten",
+        "die informiert Beschäftigten"
+      ]
+    },
+    {
+      "id": "gr42-e007",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I oder II",
+      "title_ar": "Partizip I أم II",
+      "prompt_de": "Welche Form bezeichnet den Antrag, der schon kontrolliert wurde?",
+      "prompt_ar": "أي صيغة تدل على الطلب الذي تمت مراجعته؟",
+      "answer": "der kontrollierte Antrag",
+      "explanation_de": "Partizip II beschreibt hier einen abgeschlossenen passiven Vorgang.",
+      "explanation_ar": "يصف Partizip II هنا فعلًا مجهولًا مكتملًا.",
+      "grammarFocus": "participle_contrast_basic",
+      "options": [
+        "der kontrollierte Antrag",
+        "der kontrollierende Antrag",
+        "der zu kontrollieren Antrag",
+        "der Kontrolle Antrag"
+      ]
+    },
+    {
+      "id": "gr42-e008",
+      "topicId": "gr-42",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل قابل للفصل",
+      "prompt_de": "Die gestern ______ Unterlagen werden heute bearbeitet.",
+      "prompt_ar": "تتم اليوم معالجة المستندات التي قُدمت أمس.",
+      "answer": "eingereichten",
+      "explanation_de": "Das Partizip II von einreichen lautet eingereicht; im Plural steht -en.",
+      "explanation_ar": "صيغة Partizip II من einreichen هي eingereicht، وفي الجمع تأتي النهاية -en.",
+      "grammarFocus": "separable_participle",
+      "acceptedAnswers": [
+        "eingereichten"
+      ]
+    },
+    {
+      "id": "gr42-e009",
+      "topicId": "gr-42",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Relativsatz verkürzen",
+      "title_ar": "اختصار جملة موصولة",
+      "prompt_de": "Formen Sie um: die Daten, die sorgfältig gespeichert wurden",
+      "prompt_ar": "حوّل إلى صفة Partizip II.",
+      "answer": "die sorgfältig gespeicherten Daten",
+      "explanation_de": "Das Adverb steht vor gespeichert; die Adjektivendung lautet -en.",
+      "explanation_ar": "يأتي الحال قبل gespeichert، وتكون نهاية الصفة -en.",
+      "grammarFocus": "relative_to_participle_passive",
+      "acceptedAnswers": [
+        "die sorgfältig gespeicherten Daten"
+      ]
+    },
+    {
+      "id": "gr42-e010",
+      "topicId": "gr-42",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Attribut auflösen",
+      "title_ar": "تفكيك الصفة",
+      "prompt_de": "Formen Sie um: die informierten Beschäftigten",
+      "prompt_ar": "حوّل إلى جملة موصولة.",
+      "answer": "die Beschäftigten, die informiert wurden",
+      "explanation_de": "Das Partizip-II-Attribut hat passive Bedeutung.",
+      "explanation_ar": "تحمل صفة Partizip II معنى مجهولًا.",
+      "grammarFocus": "participle_to_relative_passive",
+      "acceptedAnswers": [
+        "die Beschäftigten, die informiert wurden",
+        "die Beschäftigten, die informiert worden sind"
+      ]
+    },
+    {
+      "id": "gr42-e011",
+      "topicId": "gr-42",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Unregelmäßiges Partizip II",
+      "title_ar": "Partizip II غير المنتظم",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "der vollständig geschriebene Bericht",
+      "explanation_de": "Das Adverb steht vor dem Partizip; geschrieben erhält die Endung -e.",
+      "explanation_ar": "يأتي الحال قبل Partizip، وتأخذ geschrieben النهاية -e.",
+      "grammarFocus": "irregular_attribute_order",
+      "tokens": [
+        "Bericht",
+        "geschriebene",
+        "vollständig",
+        "der"
+      ],
+      "acceptedAnswers": [
+        "der vollständig geschriebene Bericht"
+      ]
+    },
+    {
+      "id": "gr42-e012",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Abgeschlossene aktive Handlung",
+      "title_ar": "فعل معلوم مكتمل",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die angekommenen Gäste → die Gäste, die angekommen sind",
+      "explanation_de": "Ankommen ist intransitiv und bildet das Perfekt mit sein.",
+      "explanation_ar": "الفعل ankommen لازم ويستخدم sein في Perfekt.",
+      "grammarFocus": "intransitive_completed_active",
+      "options": [
+        "die angekommenen Gäste → die Gäste, die angekommen sind",
+        "die angekommenen Gäste → die Gäste, die angekommen wurden",
+        "die angekommenen Gäste → die Gäste, die ankommen werden geprüft",
+        "die angekommenen Gäste → die Gäste, die jemand angekommen hat"
+      ]
+    },
+    {
+      "id": "gr42-e013",
+      "topicId": "gr-42",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Attribut und Relativsatz",
+      "title_ar": "الصفة والجملة الموصولة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "der genehmigte Antrag": "der Antrag, der genehmigt wurde",
+        "die gespeicherten Daten": "die Daten, die gespeichert wurden",
+        "die angekommenen Gäste": "die Gäste, die angekommen sind",
+        "das geschlossene Fenster": "das Fenster, das geschlossen ist",
+        "die unterschriebene Vereinbarung": "die Vereinbarung, die unterschrieben wurde"
+      },
+      "explanation_de": "Je nach Verb steht ein Passiv-, Perfekt- oder Zustandssatz.",
+      "explanation_ar": "بحسب الفعل نستخدم جملة مجهولة أو Perfekt أو جملة حالة.",
+      "grammarFocus": "relative_clause_matching",
+      "pairs": [
+        [
+          "der genehmigte Antrag",
+          "der Antrag, der genehmigt wurde"
+        ],
+        [
+          "die gespeicherten Daten",
+          "die Daten, die gespeichert wurden"
+        ],
+        [
+          "die angekommenen Gäste",
+          "die Gäste, die angekommen sind"
+        ],
+        [
+          "das geschlossene Fenster",
+          "das Fenster, das geschlossen ist"
+        ],
+        [
+          "die unterschriebene Vereinbarung",
+          "die Vereinbarung, die unterschrieben wurde"
+        ]
+      ]
+    },
+    {
+      "id": "gr42-e014",
+      "topicId": "gr-42",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachlicher Bericht",
+      "title_ar": "تقرير موضوعي",
+      "prompt_de": "Welche Formulierung passt am besten in einen kurzen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا مختصرًا؟",
+      "answer": "Die bereits genehmigten Anträge wurden an die zuständigen Stellen weitergeleitet.",
+      "explanation_de": "Das Attribut beschreibt den abgeschlossenen Status kompakt und sachlich.",
+      "explanation_ar": "تصف الصفة الحالة المكتملة بإيجاز وموضوعية.",
+      "grammarFocus": "formal_compact_description",
+      "options": [
+        "Die bereits genehmigten Anträge wurden an die zuständigen Stellen weitergeleitet.",
+        "Die Anträge, sie sind schon genehmigt, wurden Stellen weiterleiten.",
+        "Die genehmigend Anträge wurden zuständig geschickt.",
+        "Die schon genehmigt Anträge wurden weitergeleitet."
+      ]
+    },
+    {
+      "id": "gr42-e015",
+      "topicId": "gr-42",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dativ Plural",
+      "title_ar": "Dativ Plural",
+      "prompt_de": "Mit den vollständig bearbeit______ Fällen beschäftigte sich das Team erneut.",
+      "prompt_ar": "تعامل الفريق مرة أخرى مع الحالات المعالَجة بالكامل.",
+      "answer": "eten",
+      "explanation_de": "Bearbeitet erhält im Dativ Plural die Adjektivendung -en.",
+      "explanation_ar": "تأخذ bearbeitet في Dativ Plural نهاية الصفة -en.",
+      "grammarFocus": "adjective_ending_dative_plural",
+      "acceptedAnswers": [
+        "eten"
+      ]
+    },
+    {
+      "id": "gr42-e016",
+      "topicId": "gr-42",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Erweitertes Attribut",
+      "title_ar": "صفة موسعة",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die nach einer gründlichen Prüfung genehmigten Anträge",
+      "explanation_de": "Die Präpositionalgruppe steht vor dem Partizip.",
+      "explanation_ar": "تأتي مجموعة حرف الجر قبل Partizip.",
+      "grammarFocus": "extended_passive_attribute_order",
+      "tokens": [
+        "Anträge",
+        "genehmigten",
+        "nach einer gründlichen Prüfung",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die nach einer gründlichen Prüfung genehmigten Anträge"
+      ]
+    },
+    {
+      "id": "gr42-e017",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Prädikativer Gebrauch",
+      "title_ar": "الاستخدام الخبري",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Die Datei ist geöffnet.",
+      "explanation_de": "Nach sein steht das Partizip II ohne Adjektivendung.",
+      "explanation_ar": "بعد sein يأتي Partizip II من دون نهاية صفة.",
+      "grammarFocus": "predicative_usage",
+      "options": [
+        "Die Datei ist geöffnet.",
+        "Die Datei ist geöffnete.",
+        "Die Datei ist öffnend.",
+        "Die Datei geöffneten ist."
+      ]
+    },
+    {
+      "id": "gr42-e018",
+      "topicId": "gr-42",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexer Relativsatz",
+      "title_ar": "جملة موصولة معقدة",
+      "prompt_de": "Formen Sie um: die Unterlagen, die gestern von der Fachabteilung vollständig geprüft wurden",
+      "prompt_ar": "حوّل إلى صفة Partizip II.",
+      "answer": "die gestern von der Fachabteilung vollständig geprüften Unterlagen",
+      "explanation_de": "Zeitangabe, Agens und Adverb stehen vor dem Partizip; die Endung lautet -en.",
+      "explanation_ar": "يأتي تعبير الزمن والفاعل والحال قبل Partizip، وتكون النهاية -en.",
+      "grammarFocus": "complex_relative_to_participle",
+      "acceptedAnswers": [
+        "die gestern von der Fachabteilung vollständig geprüften Unterlagen"
+      ]
+    },
+    {
+      "id": "gr42-e019",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Passiv oder Ergebniszustand",
+      "title_ar": "المجهول أم النتيجة",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Die geschlossene Tür“ kann die Tür bezeichnen, die geschlossen wurde oder sich im geschlossenen Zustand befindet.",
+      "explanation_de": "Das Partizip II kann Vorgangsergebnis oder Zustand hervorheben.",
+      "explanation_ar": "يمكن أن يبرز Partizip II نتيجة الفعل أو الحالة.",
+      "grammarFocus": "passive_resultative_nuance",
+      "options": [
+        "„Die geschlossene Tür“ kann die Tür bezeichnen, die geschlossen wurde oder sich im geschlossenen Zustand befindet.",
+        "Die Tür führt selbst die Handlung schließen aus.",
+        "Geschlossen ist immer Partizip I.",
+        "Die Form bezeichnet ausschließlich eine zukünftige Handlung."
+      ]
+    },
+    {
+      "id": "gr42-e020",
+      "topicId": "gr-42",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Attribut oder Relativsatz",
+      "title_ar": "صفة أم جملة موصولة",
+      "prompt_de": "Welche Formulierung ist wegen ihrer Klarheit besser?",
+      "prompt_ar": "أي صياغة أفضل من حيث الوضوح؟",
+      "answer": "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere Fachstellen genehmigt wurden, werden heute veröffentlicht.",
+      "explanation_de": "Bei einem sehr langen Attribut ist der Relativsatz häufig leichter verständlich.",
+      "explanation_ar": "عندما تكون الصفة طويلة جدًا تكون الجملة الموصولة أسهل فهمًا غالبًا.",
+      "grammarFocus": "style_choice_long_attribute",
+      "options": [
+        "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere Fachstellen genehmigt wurden, werden heute veröffentlicht.",
+        "Die nach einer mehrwöchigen Prüfung durch mehrere Fachstellen genehmigten Anträge werden heute veröffentlicht.",
+        "Die Anträge genehmigt nach Prüfung Fachstellen werden heute.",
+        "Die durch Stellen nach Wochen genehmigend Anträge veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr42-e021",
+      "topicId": "gr-42",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Angaben",
+      "title_ar": "عدة ظروف",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die erst am Freitag vollständig abgeschlossene Prüfung",
+      "explanation_de": "Zeitangabe und Adverb stehen vor dem Partizip.",
+      "explanation_ar": "يأتي تعبير الزمن والحال قبل Partizip.",
+      "grammarFocus": "multiple_modifiers_order",
+      "tokens": [
+        "Prüfung",
+        "abgeschlossene",
+        "vollständig",
+        "erst am Freitag",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die erst am Freitag vollständig abgeschlossene Prüfung"
+      ]
+    },
+    {
+      "id": "gr42-e022",
+      "topicId": "gr-42",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Partizip I und Partizip II",
+      "title_ar": "Partizip I وPartizip II",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Die prüfende Mitarbeiterin“ führt die Handlung aus; „die geprüften Daten“ sind von der Handlung betroffen.",
+      "explanation_de": "Partizip I ist hier aktiv und laufend, Partizip II passiv beziehungsweise abgeschlossen.",
+      "explanation_ar": "Partizip I هنا معلوم ومستمر، وPartizip II مجهول أو مكتمل.",
+      "grammarFocus": "participle_i_ii_contrast",
+      "options": [
+        "„Die prüfende Mitarbeiterin“ führt die Handlung aus; „die geprüften Daten“ sind von der Handlung betroffen.",
+        "Beide Formen haben ausschließlich aktive Bedeutung.",
+        "Partizip II beschreibt immer eine gleichzeitig laufende Handlung.",
+        "Partizip I bezeichnet grundsätzlich ein abgeschlossenes Ergebnis."
+      ]
+    },
+    {
+      "id": "gr42-e023",
+      "topicId": "gr-42",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zwei Sätze verbinden",
+      "title_ar": "ربط جملتين",
+      "prompt_de": "Verbinden Sie mit einem Partizip-II-Attribut: Die Vereinbarung wurde gestern unterschrieben. Sie liegt auf dem Tisch.",
+      "prompt_ar": "اربط الجملتين باستخدام صفة Partizip II.",
+      "answer": "Die gestern unterschriebene Vereinbarung liegt auf dem Tisch.",
+      "explanation_de": "Der passive Relativinhalt wird zu einem erweiterten Partizip-II-Attribut.",
+      "explanation_ar": "يتحول المعنى المجهول إلى صفة موسعة من Partizip II.",
+      "grammarFocus": "sentence_combination",
+      "acceptedAnswers": [
+        "Die gestern unterschriebene Vereinbarung liegt auf dem Tisch."
+      ]
+    },
+    {
+      "id": "gr42-e024",
+      "topicId": "gr-42",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Partizip II",
+      "title_ar": "تدريب ختامي على Partizip II",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens zwölf Sätzen über einen Prüfungs-, Bewerbungs- oder Verwaltungsprozess. Verwenden Sie mindestens zehn verschiedene Partizip-II-Formen.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من اثنتي عشرة جملة على الأقل عن عملية فحص أو توظيف أو إجراء إداري. استخدم عشر صيغ مختلفة على الأقل من Partizip II.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zehn verschiedene Partizip-II-Formen",
+          "mindestens drei regelmäßige und drei unregelmäßige Verben",
+          "mindestens zwei trennbare Verben",
+          "mindestens zwei untrennbare Verben oder Verben auf -ieren",
+          "mindestens drei passive Attribute",
+          "mindestens zwei resultative Attribute",
+          "mindestens zwei Formen mit abgeschlossener aktiver Bedeutung",
+          "mindestens drei Umformungen in Relativsätze",
+          "korrekte Adjektivendungen",
+          "verständlicher und sachlicher B2-Stil"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bildung, ge-, Adjektivendung, Aktiv/Passiv, Ergebnisbedeutung und Verständlichkeit.",
+      "explanation_ar": "راجع التكوين واستخدام ge- ونهاية الصفة والمعلوم والمجهول ومعنى النتيجة والوضوح.",
+      "grammarFocus": "mixed_participle_ii",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-39",
+  "title_de": "Konjunktiv I, Konjunktiv II und Indikativ in der indirekten Rede – Übungen",
+  "title_ar": "تمارين Konjunktiv I وKonjunktiv II وIndikativ في الكلام المنقول",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr39-e001",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Eindeutiger Konjunktiv I",
+      "title_ar": "Konjunktiv I واضح",
+      "prompt_de": "Welche Form passt in einen formellen Bericht?",
+      "prompt_ar": "أي صيغة تناسب تقريرًا رسميًا؟",
+      "answer": "Der Mitarbeiter sagt, er sei krank.",
+      "explanation_de": "Sei ist eine eindeutige Konjunktiv-I-Form.",
+      "explanation_ar": "sei صيغة واضحة من Konjunktiv I.",
+      "grammarFocus": "clear_konj1",
+      "options": [
+        "Der Mitarbeiter sagt, er sei krank.",
+        "Der Mitarbeiter sagt, er würde krank sein.",
+        "Der Mitarbeiter sagt, er ist krank und das stimmt.",
+        "Der Mitarbeiter sagt, er wäre krank gewesen heute."
+      ]
+    },
+    {
+      "id": "gr39-e002",
+      "topicId": "gr-39",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Ersatzform haben",
+      "title_ar": "الصيغة البديلة من haben",
+      "prompt_de": "Die Beschäftigten sagen, sie ______ ausreichend Zeit.",
+      "prompt_ar": "يقول الموظفون إن لديهم وقتًا كافيًا.",
+      "answer": "hätten",
+      "explanation_de": "Haben ist im Plural mit dem Indikativ identisch; deshalb steht häufig hätten.",
+      "explanation_ar": "تتطابق haben في الجمع مع Indikativ، لذلك نستخدم غالبًا hätten.",
+      "grammarFocus": "replacement_haben",
+      "acceptedAnswers": [
+        "hätten"
+      ]
+    },
+    {
+      "id": "gr39-e003",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalverb im Plural",
+      "title_ar": "فعل ناقص في الجمع",
+      "prompt_de": "Welche Form markiert die indirekte Rede eindeutig?",
+      "prompt_ar": "أي صيغة تحدد الكلام المنقول بوضوح؟",
+      "answer": "Die Teams erklären, sie könnten sofort beginnen.",
+      "explanation_de": "Könnten ist eine eindeutige Ersatzform.",
+      "explanation_ar": "könnten صيغة بديلة واضحة.",
+      "grammarFocus": "replacement_modal",
+      "options": [
+        "Die Teams erklären, sie könnten sofort beginnen.",
+        "Die Teams erklären, sie können sofort beginnen.",
+        "Die Teams erklären, sie könne sofort beginnen.",
+        "Die Teams erklären, sie würden können sofort beginnen."
+      ]
+    },
+    {
+      "id": "gr39-e004",
+      "topicId": "gr-39",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Formwahl",
+      "title_ar": "اختيار الصيغة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "er ist → indirekte Rede": "er sei",
+        "sie haben → formelle indirekte Rede": "sie hätten",
+        "sie können → formelle indirekte Rede": "sie könnten",
+        "sie arbeiten → klare Ersatzform": "sie würden arbeiten",
+        "bestätigte Tatsache": "Indikativ möglich"
+      },
+      "explanation_de": "Die Form hängt von Eindeutigkeit und Aussagefunktion ab.",
+      "explanation_ar": "تعتمد الصيغة على الوضوح ووظيفة الكلام.",
+      "grammarFocus": "form_choice_matching",
+      "pairs": [
+        [
+          "er ist → indirekte Rede",
+          "er sei"
+        ],
+        [
+          "sie haben → formelle indirekte Rede",
+          "sie hätten"
+        ],
+        [
+          "sie können → formelle indirekte Rede",
+          "sie könnten"
+        ],
+        [
+          "sie arbeiten → klare Ersatzform",
+          "sie würden arbeiten"
+        ],
+        [
+          "bestätigte Tatsache",
+          "Indikativ möglich"
+        ]
+      ]
+    },
+    {
+      "id": "gr39-e005",
+      "topicId": "gr-39",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Würde-Form",
+      "title_ar": "صيغة würde",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Beschäftigten sagen, sie würden heute länger arbeiten.",
+      "explanation_de": "Die würde-Form kennzeichnet die indirekte Rede eindeutig.",
+      "explanation_ar": "تحدد صيغة würde الكلام المنقول بوضوح.",
+      "grammarFocus": "wuerde_order",
+      "tokens": [
+        "heute länger arbeiten",
+        "sie würden",
+        "Die Beschäftigten sagen"
+      ],
+      "acceptedAnswers": [
+        "Die Beschäftigten sagen, sie würden heute länger arbeiten."
+      ]
+    },
+    {
+      "id": "gr39-e006",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Indikativ bei Bestätigung",
+      "title_ar": "Indikativ مع التأكيد",
+      "prompt_de": "Welche Form ist passend?",
+      "prompt_ar": "أي صيغة مناسبة؟",
+      "answer": "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+      "explanation_de": "Bestätigen stellt die Information als gesichert dar; Indikativ ist passend.",
+      "explanation_ar": "يعرض bestätigen المعلومة بوصفها مؤكدة، لذلك يناسب Indikativ.",
+      "grammarFocus": "indicative_confirmed_fact",
+      "options": [
+        "Die Personalabteilung bestätigt, dass der Termin am Montag stattfindet.",
+        "Die Personalabteilung bestätigt, der Termin fände angeblich am Montag statt.",
+        "Die Personalabteilung bestätigt, der Termin würde am Montag stattfinden vielleicht.",
+        "Die Personalabteilung bestätigt, dass der Termin am Montag sei stattfinden."
+      ]
+    },
+    {
+      "id": "gr39-e007",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zweifel",
+      "title_ar": "الشك",
+      "prompt_de": "Welche Aussage ist korrekt?",
+      "prompt_ar": "أي عبارة صحيحة؟",
+      "answer": "Konjunktiv II kann in der indirekten Rede nur eine Ersatzform sein; Zweifel ergibt sich erst aus dem Kontext.",
+      "explanation_de": "Die grammatische Ersatzform allein signalisiert keinen sicheren Zweifel.",
+      "explanation_ar": "لا تدل الصيغة البديلة وحدها على الشك.",
+      "grammarFocus": "doubt_context",
+      "options": [
+        "Konjunktiv II kann in der indirekten Rede nur eine Ersatzform sein; Zweifel ergibt sich erst aus dem Kontext.",
+        "Konjunktiv II bedeutet immer, dass die Aussage falsch ist.",
+        "Konjunktiv I bestätigt jede Aussage als wahr.",
+        "Indikativ darf nie in indirekter Rede stehen."
+      ]
+    },
+    {
+      "id": "gr39-e008",
+      "topicId": "gr-39",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Ersatzform müssen",
+      "title_ar": "الصيغة البديلة من müssen",
+      "prompt_de": "Die Mitarbeitenden erklären, sie ______ die Frist einhalten.",
+      "prompt_ar": "يوضح الموظفون أنه يجب عليهم الالتزام بالمهلة.",
+      "answer": "müssten",
+      "explanation_de": "Müssen ist im Plural nicht eindeutig; müssten markiert indirekte Rede.",
+      "explanation_ar": "تتطابق müssen في الجمع، لذلك توضح müssten الكلام المنقول.",
+      "grammarFocus": "replacement_muessen",
+      "acceptedAnswers": [
+        "müssten"
+      ]
+    },
+    {
+      "id": "gr39-e009",
+      "topicId": "gr-39",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Plural eindeutig machen",
+      "title_ar": "توضيح الجمع",
+      "prompt_de": "Formen Sie für ein formelles Protokoll um: Die Beschäftigten sagen: „Wir haben alle Unterlagen.“",
+      "prompt_ar": "حوّل إلى صيغة مناسبة لمحضر رسمي.",
+      "answer": "Die Beschäftigten sagen, sie hätten alle Unterlagen.",
+      "explanation_de": "Hätten ist die eindeutige Ersatzform für die identische Pluralform haben.",
+      "explanation_ar": "hätten هي الصيغة البديلة الواضحة لصيغة الجمع haben.",
+      "grammarFocus": "formal_plural_haben",
+      "acceptedAnswers": [
+        "Die Beschäftigten sagen, sie hätten alle Unterlagen."
+      ]
+    },
+    {
+      "id": "gr39-e010",
+      "topicId": "gr-39",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Würde statt identischer Form",
+      "title_ar": "würde بدل الصيغة المتطابقة",
+      "prompt_de": "Formen Sie um: Die Teams erklären: „Wir arbeiten nächste Woche weiter.“",
+      "prompt_ar": "حوّل إلى كلام منقول رسمي وواضح.",
+      "answer": "Die Teams erklären, sie würden in der folgenden Woche weiterarbeiten.",
+      "explanation_de": "Die würde-Form vermeidet die identische Form sie arbeiten.",
+      "explanation_ar": "تتجنب صيغة würde الصيغة المتطابقة sie arbeiten.",
+      "grammarFocus": "formal_wuerde_reformulation",
+      "acceptedAnswers": [
+        "Die Teams erklären, sie würden in der folgenden Woche weiterarbeiten."
+      ]
+    },
+    {
+      "id": "gr39-e011",
+      "topicId": "gr-39",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vergangenheit als Ersatzform",
+      "title_ar": "الماضي بوصفه صيغة بديلة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Bewerber erklären, sie hätten alle Nachweise eingereicht.",
+      "explanation_de": "Hätten + Partizip II markiert die vergangene indirekte Aussage eindeutig.",
+      "explanation_ar": "تحدد hätten + Partizip II القول الماضي المنقول بوضوح.",
+      "grammarFocus": "past_replacement_order",
+      "tokens": [
+        "alle Nachweise eingereicht",
+        "sie hätten",
+        "Die Bewerber erklären"
+      ],
+      "acceptedAnswers": [
+        "Die Bewerber erklären, sie hätten alle Nachweise eingereicht."
+      ]
+    },
+    {
+      "id": "gr39-e012",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Seien oder wären",
+      "title_ar": "seien أم wären",
+      "prompt_de": "Welche Form ist in der formellen indirekten Rede am naheliegendsten?",
+      "prompt_ar": "أي صيغة هي الأنسب في الكلام المنقول الرسمي؟",
+      "answer": "Die Gäste erklären, sie seien bereits informiert.",
+      "explanation_de": "Seien ist eine eindeutige Konjunktiv-I-Form und wird bevorzugt.",
+      "explanation_ar": "seien صيغة واضحة من Konjunktiv I وتُفضّل.",
+      "grammarFocus": "seien_preferred",
+      "options": [
+        "Die Gäste erklären, sie seien bereits informiert.",
+        "Die Gäste erklären, sie würden informiert sein.",
+        "Die Gäste erklären, sie sind bereits informiert.",
+        "Die Gäste erklären, sie sei bereits informiert."
+      ]
+    },
+    {
+      "id": "gr39-e013",
+      "topicId": "gr-39",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Stilwirkung",
+      "title_ar": "الأثر الأسلوبي",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Konjunktiv I": "formelle distanzierte Wiedergabe",
+        "Konjunktiv II als Ersatz": "eindeutige indirekte Rede",
+        "Indikativ mit dass": "häufig alltagssprachlich",
+        "Indikativ nach bestätigen": "Information als Tatsache",
+        "angeblich / bezweifeln": "zusätzlicher Zweifelkontext"
+      },
+      "explanation_de": "Die grammatische Form und der Kontext wirken zusammen.",
+      "explanation_ar": "تعمل الصيغة النحوية والسياق معًا.",
+      "grammarFocus": "style_effect_matching",
+      "pairs": [
+        [
+          "Konjunktiv I",
+          "formelle distanzierte Wiedergabe"
+        ],
+        [
+          "Konjunktiv II als Ersatz",
+          "eindeutige indirekte Rede"
+        ],
+        [
+          "Indikativ mit dass",
+          "häufig alltagssprachlich"
+        ],
+        [
+          "Indikativ nach bestätigen",
+          "Information als Tatsache"
+        ],
+        [
+          "angeblich / bezweifeln",
+          "zusätzlicher Zweifelkontext"
+        ]
+      ]
+    },
+    {
+      "id": "gr39-e014",
+      "topicId": "gr-39",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Nachrichtentext",
+      "title_ar": "نص إخباري",
+      "prompt_de": "Welche Formulierung passt am besten in einen neutralen Nachrichtentext?",
+      "prompt_ar": "أي صياغة تناسب نصًا إخباريًا محايدًا؟",
+      "answer": "Der Minister erklärt, die geplanten Maßnahmen seien ausreichend.",
+      "explanation_de": "Seien schafft sachliche Distanz zur wiedergegebenen Bewertung.",
+      "explanation_ar": "تخلق seien مسافة موضوعية عن التقييم المنقول.",
+      "grammarFocus": "neutral_news_style",
+      "options": [
+        "Der Minister erklärt, die geplanten Maßnahmen seien ausreichend.",
+        "Der Minister erklärt, die Maßnahmen sind definitiv ausreichend.",
+        "Der Minister erklärt, die Maßnahmen würden ausreichend sein vielleicht.",
+        "Der Minister erklärt: Die Maßnahmen seien ausreichend und deshalb wahr."
+      ]
+    },
+    {
+      "id": "gr39-e015",
+      "topicId": "gr-39",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Ersatzform werden",
+      "title_ar": "الصيغة البديلة من werden",
+      "prompt_de": "Die Teams sagen, sie ______ in der folgenden Woche beginnen.",
+      "prompt_ar": "تقول الفرق إنها ستبدأ في الأسبوع التالي.",
+      "answer": "würden",
+      "explanation_de": "Werden ist im Plural mit dem Indikativ identisch; würden ist die eindeutige Ersatzform.",
+      "explanation_ar": "تتطابق werden في الجمع مع Indikativ، لذلك تُستخدم würden.",
+      "grammarFocus": "replacement_werden",
+      "acceptedAnswers": [
+        "würden"
+      ]
+    },
+    {
+      "id": "gr39-e016",
+      "topicId": "gr-39",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Passiv als Ersatzform",
+      "title_ar": "المبني للمجهول بوصفه صيغة بديلة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Beschäftigten sagen, sie würden rechtzeitig informiert.",
+      "explanation_de": "Würden + Partizip II markiert hier eine passive wiedergegebene Aussage.",
+      "explanation_ar": "تحدد würden + Partizip II هنا قولًا منقولًا في المبني للمجهول.",
+      "grammarFocus": "passive_replacement_order",
+      "tokens": [
+        "rechtzeitig informiert",
+        "sie würden",
+        "Die Beschäftigten sagen"
+      ],
+      "acceptedAnswers": [
+        "Die Beschäftigten sagen, sie würden rechtzeitig informiert."
+      ]
+    },
+    {
+      "id": "gr39-e017",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Hätte statt würde haben",
+      "title_ar": "hätte بدل würde haben",
+      "prompt_de": "Welche Form ist stilistisch besser?",
+      "prompt_ar": "أي صيغة أفضل أسلوبيًا؟",
+      "answer": "Sie sagen, sie hätten genügend Zeit.",
+      "explanation_de": "Bei haben ist hätte/hätten üblicher und präziser als würde haben.",
+      "explanation_ar": "مع haben تكون hätte/hätten أكثر شيوعًا ودقة من würde haben.",
+      "grammarFocus": "hätte_preferred",
+      "options": [
+        "Sie sagen, sie hätten genügend Zeit.",
+        "Sie sagen, sie würden genügend Zeit haben.",
+        "Sie sagen, sie haben genügend Zeit sei.",
+        "Sie sagen, sie würden genügend Zeit hätten."
+      ]
+    },
+    {
+      "id": "gr39-e018",
+      "topicId": "gr-39",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Gegenwart und Vergangenheit",
+      "title_ar": "الحاضر والماضي",
+      "prompt_de": "Formen Sie um: Die Beschäftigten sagen: „Wir haben gestern länger gearbeitet und können heute früher gehen.“",
+      "prompt_ar": "حوّل إلى كلام منقول رسمي.",
+      "answer": "Die Beschäftigten sagen, sie hätten am Vortag länger gearbeitet und könnten an diesem Tag früher gehen.",
+      "explanation_de": "Hätten und könnten sind eindeutige Ersatzformen; die Zeitangaben werden angepasst.",
+      "explanation_ar": "hätten وkönnten صيغتان بديلتان واضحتان، كما عُدلت تعبيرات الزمن.",
+      "grammarFocus": "mixed_replacement_tenses",
+      "acceptedAnswers": [
+        "Die Beschäftigten sagen, sie hätten am Vortag länger gearbeitet und könnten an diesem Tag früher gehen."
+      ]
+    },
+    {
+      "id": "gr39-e019",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Konjunktiv II und Zweifel",
+      "title_ar": "Konjunktiv II والشك",
+      "prompt_de": "Welche Interpretation ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "In „Die Beschäftigten sagen, sie hätten genug Zeit“ kann hätten nur die indirekte Rede markieren; Zweifel ist ohne weiteren Kontext nicht zwingend.",
+      "explanation_de": "Die Form allein erlaubt keinen sicheren Schluss auf Skepsis.",
+      "explanation_ar": "لا تسمح الصيغة وحدها بالاستنتاج المؤكد بوجود شك.",
+      "grammarFocus": "interpretation_replacement",
+      "options": [
+        "In „Die Beschäftigten sagen, sie hätten genug Zeit“ kann hätten nur die indirekte Rede markieren; Zweifel ist ohne weiteren Kontext nicht zwingend.",
+        "Hätten beweist, dass die Beschäftigten lügen.",
+        "Hätten bedeutet immer eine unerfüllbare Bedingung.",
+        "Hätten darf in indirekter Rede nicht verwendet werden."
+      ]
+    },
+    {
+      "id": "gr39-e020",
+      "topicId": "gr-39",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Bestätigte Information",
+      "title_ar": "معلومة مؤكدة",
+      "prompt_de": "Welche Formulierung ist bei einer offiziell bestätigten Tatsache am passendsten?",
+      "prompt_ar": "أي صياغة أنسب لحقيقة مؤكدة رسميًا؟",
+      "answer": "Die Behörde bestätigt, dass die neue Regelung am 1. Oktober in Kraft tritt.",
+      "explanation_de": "Der Indikativ zeigt, dass die Information als bestätigt übernommen wird.",
+      "explanation_ar": "يوضح Indikativ أن المعلومة معتمدة بوصفها مؤكدة.",
+      "grammarFocus": "official_confirmed_fact",
+      "options": [
+        "Die Behörde bestätigt, dass die neue Regelung am 1. Oktober in Kraft tritt.",
+        "Die Behörde bestätigt, die Regelung träte angeblich am 1. Oktober in Kraft.",
+        "Die Behörde bestätigt, die Regelung würde vielleicht in Kraft treten.",
+        "Die Behörde bestätigt, die Regelung sei möglicherweise nicht bestätigt."
+      ]
+    },
+    {
+      "id": "gr39-e021",
+      "topicId": "gr-39",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Ersatzformen",
+      "title_ar": "عدة صيغ بديلة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Teams erklären, sie hätten die Vorbereitungen abgeschlossen, könnten sofort beginnen und würden den Zeitplan einhalten.",
+      "explanation_de": "Hätten, könnten und würden markieren die drei wiedergegebenen Aussagen eindeutig.",
+      "explanation_ar": "تحدد hätten وkönnten وwürden الأقوال الثلاثة المنقولة بوضوح.",
+      "grammarFocus": "multiple_replacement_forms_order",
+      "tokens": [
+        "und würden den Zeitplan einhalten",
+        "könnten sofort beginnen",
+        "sie hätten die Vorbereitungen abgeschlossen",
+        "Die Teams erklären"
+      ],
+      "acceptedAnswers": [
+        "Die Teams erklären, sie hätten die Vorbereitungen abgeschlossen, könnten sofort beginnen und würden den Zeitplan einhalten."
+      ]
+    },
+    {
+      "id": "gr39-e022",
+      "topicId": "gr-39",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Eindeutige und identische Formen",
+      "title_ar": "الصيغ الواضحة والمتطابقة",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Er sei“ ist eindeutig und bleibt Konjunktiv I; bei „sie haben“ verwendet man im formellen Stil häufig „sie hätten“.",
+      "explanation_de": "Die Wahl richtet sich danach, ob die indirekte Form eindeutig erkennbar ist.",
+      "explanation_ar": "يعتمد الاختيار على وضوح تحديد الكلام المنقول.",
+      "grammarFocus": "clear_vs_identical",
+      "options": [
+        "„Er sei“ ist eindeutig und bleibt Konjunktiv I; bei „sie haben“ verwendet man im formellen Stil häufig „sie hätten“.",
+        "Alle Konjunktiv-I-Formen müssen immer durch würde ersetzt werden.",
+        "Konjunktiv II darf nur bei irrealen Bedingungen stehen.",
+        "Indikativ und Konjunktiv I sind in allen Personen gleich."
+      ]
+    },
+    {
+      "id": "gr39-e023",
+      "topicId": "gr-39",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Bericht mit unterschiedlichen Quellen",
+      "title_ar": "تقرير بمصادر مختلفة",
+      "prompt_de": "Formulieren Sie sachlich: Der Anbieter sagt: „Das System ist sicher.“ Die Behörde bestätigt: „Alle vorgeschriebenen Prüfungen sind abgeschlossen.“ Fachleute sagen: „Wir haben noch Bedenken.“",
+      "prompt_ar": "صغ الأقوال في تقرير موضوعي.",
+      "answer": "Der Anbieter erklärt, das System sei sicher. Die Behörde bestätigt, dass alle vorgeschriebenen Prüfungen abgeschlossen sind. Fachleute erklären, sie hätten dennoch Bedenken.",
+      "explanation_de": "Konjunktiv I markiert die Anbieterangabe, Indikativ die bestätigte Tatsache und hätten die pluralische indirekte Aussage.",
+      "explanation_ar": "يحدد Konjunktiv I قول المزوّد، ويعرض Indikativ الحقيقة المؤكدة، وتحدد hätten القول المنقول في الجمع.",
+      "grammarFocus": "mixed_source_reporting",
+      "acceptedAnswers": [
+        "Der Anbieter erklärt, das System sei sicher. Die Behörde bestätigt, dass alle vorgeschriebenen Prüfungen abgeschlossen sind. Fachleute erklären, sie hätten dennoch Bedenken."
+      ]
+    },
+    {
+      "id": "gr39-e024",
+      "topicId": "gr-39",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Formwahl",
+      "title_ar": "تدريب ختامي على اختيار الصيغة",
+      "prompt_de": "Schreiben Sie einen sachlichen Bericht mit mindestens zwölf Sätzen und mindestens drei unterschiedlichen Quellen. Verwenden Sie eindeutigen Konjunktiv I, mindestens fünf Ersatzformen im Konjunktiv II, mindestens drei würde-Formen, zwei bestätigte Tatsachen im Indikativ und einen klaren Zweifelkontext.",
+      "prompt_ar": "اكتب تقريرًا موضوعيًا من اثنتي عشرة جملة على الأقل ومن ثلاثة مصادر مختلفة على الأقل. استخدم Konjunktiv I الواضح، وخمس صيغ بديلة على الأقل في Konjunktiv II، وثلاث صيغ würde، وحقيقتين مؤكدتين في Indikativ، وسياقًا واضحًا واحدًا للشك.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei eindeutige Konjunktiv-I-Formen",
+          "mindestens fünf Ersatzformen wie hätten, wären, könnten oder müssten",
+          "mindestens drei würde-Formen",
+          "mindestens zwei Indikativsätze mit bestätigter Information",
+          "mindestens ein Satz mit Zweifelkontext",
+          "mindestens eine vergangene Ersatzform",
+          "mindestens eine zukünftige Ersatzform",
+          "mindestens eine passive Ersatzform",
+          "klare Quellenangaben",
+          "sachliche und differenzierte Formwahl"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Eindeutigkeit, Stil, Quellenstatus, Zeitform, Aktiv/Passiv und Zweifelkontext.",
+      "explanation_ar": "راجع وضوح الصيغة والأسلوب وحالة المصدر والزمن والمعلوم والمجهول وسياق الشك.",
+      "grammarFocus": "mixed_konj1_konj2_indicative",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

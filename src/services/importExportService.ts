@@ -16,6 +16,10 @@ import {
   previewContentImport,
   validateContentItem,
 } from "./contentImportService";
+import {
+  B2_GRAMMAR_PROGRESS_KEY,
+  B2GrammarProgressService,
+} from "../features/b2-grammar/b2GrammarProgressService";
 
 export interface ValidationResult {
   success: boolean;
@@ -33,6 +37,7 @@ export interface BackupPreviewResult extends ValidationResult {
     progressItems: number;
     mistakes: number;
     dailySets: number;
+    grammarProgressItems: number;
   };
 }
 
@@ -49,6 +54,7 @@ const BACKUP_STORAGE_KEYS = [
   "dmt_last_session",
   "deutsch-memory-trainer-mistakes",
   "deutschTrainerDailyStudySets",
+  B2_GRAMMAR_PROGRESS_KEY,
 ];
 
 function familyDataName(family: ContentFamily): keyof NonNullable<ProductionExportPreview["files"]> {
@@ -157,13 +163,14 @@ export class ImportExportService {
     downloadAnchor.remove();
   }
 
-  public static exportFullBackup(): void {
+  public static createFullBackup(): any {
     const contentStore = DataService.getLocalContentStore();
     const settings = localStorage.getItem("dmt_settings");
     const dailySets = localStorage.getItem("deutschTrainerDailyStudySets");
     const progressBackup = ProgressService.getBackupData();
     const mistakes = MistakeReviewService.exportMistakes();
-    const backup = {
+    const b2GrammarProgress = B2GrammarProgressService.getBackupData();
+    return {
       version: 2,
       timestamp: new Date().toISOString(),
       settings: settings ? JSON.parse(settings) : null,
@@ -176,7 +183,12 @@ export class ImportExportService {
       lastSession: progressBackup.lastSession,
       mistakes,
       dailyStudySets: dailySets ? JSON.parse(dailySets) : null,
+      b2GrammarProgress,
     };
+  }
+
+  public static exportFullBackup(): void {
+    const backup = this.createFullBackup();
     this.downloadJSON(backup, "deutsch_memory_trainer_backup.json");
   }
 
@@ -252,6 +264,9 @@ export class ImportExportService {
     if (backup.mistakes && !Array.isArray(backup.mistakes)) {
       return { success: false, error: "Backup mistakes must be an array." };
     }
+    if (backup.b2GrammarProgress && !B2GrammarProgressService.validateBackup(backup.b2GrammarProgress)) {
+      return { success: false, error: "Backup B2 grammar progress is invalid." };
+    }
 
     return {
       success: true,
@@ -265,6 +280,7 @@ export class ImportExportService {
         progressItems: Object.keys(backup.progress || {}).length,
         mistakes: Array.isArray(backup.mistakes) ? backup.mistakes.length : 0,
         dailySets: Object.keys(backup.dailyStudySets?.sets || {}).length,
+        grammarProgressItems: Object.keys(backup.b2GrammarProgress?.exercises || {}).length,
       },
     };
   }
@@ -282,6 +298,9 @@ export class ImportExportService {
       if (backup.progress) localStorage.setItem("dmt_progress", JSON.stringify(backup.progress));
       if (backup.lastSession) localStorage.setItem("dmt_last_session", JSON.stringify(backup.lastSession));
       if (backup.dailyStudySets) localStorage.setItem("deutschTrainerDailyStudySets", JSON.stringify(backup.dailyStudySets));
+      if (backup.b2GrammarProgress && !B2GrammarProgressService.importBackup(backup.b2GrammarProgress)) {
+        throw new Error("B2 grammar progress did not pass validation.");
+      }
       return { success: true };
     } catch (error: any) {
       before.forEach((value, key) => {

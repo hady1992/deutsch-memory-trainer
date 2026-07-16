@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-01",
+  "title_de": "Imperativ – Übungen",
+  "title_ar": "تمارين صيغة الأمر",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order",
+    "verb_form"
+  ],
+  "exercises": [
+    {
+      "id": "gr01-e001",
+      "topicId": "gr-01",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "du-Imperativ",
+      "title_ar": "الأمر مع du",
+      "prompt_de": "Welche Form ist der richtige Imperativ von „kommen“ für du?",
+      "prompt_ar": "ما صيغة الأمر الصحيحة من kommen مع du؟",
+      "answer": "Komm!",
+      "explanation_de": "Beim du-Imperativ fällt -st weg: du kommst → Komm!",
+      "explanation_ar": "مع du تُحذف النهاية -st: du kommst → Komm!",
+      "grammarFocus": "du_regular",
+      "options": [
+        "Komm!",
+        "Kommst!",
+        "Komme du!",
+        "Kommt!"
+      ]
+    },
+    {
+      "id": "gr01-e002",
+      "topicId": "gr-01",
+      "type": "verb_form",
+      "difficulty": "easy",
+      "title_de": "Stammvokalwechsel",
+      "title_ar": "تغير حرف العلة",
+      "prompt_de": "Bilden Sie den du-Imperativ von „lesen“.",
+      "prompt_ar": "كوّن الأمر مع du من lesen.",
+      "answer": "Lies!",
+      "explanation_de": "Der Wechsel e → ie bleibt erhalten: lesen → Lies!",
+      "explanation_ar": "يبقى التغير e → ie: lesen → Lies!",
+      "grammarFocus": "du_e_to_ie",
+      "acceptedAnswers": [
+        "Lies",
+        "Lies!"
+      ],
+      "infinitive": "lesen",
+      "person": "du"
+    },
+    {
+      "id": "gr01-e003",
+      "topicId": "gr-01",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Höfliche Form",
+      "title_ar": "الصيغة الرسمية",
+      "prompt_de": "______ Sie bitte vorsichtig! (sein)",
+      "prompt_ar": "______ حذرًا من فضلك. (sein مع Sie)",
+      "answer": "Seien",
+      "explanation_de": "Die höfliche Imperativform von sein lautet: Seien Sie!",
+      "explanation_ar": "صيغة الأمر الرسمية من sein هي: Seien Sie!",
+      "grammarFocus": "sie_sein",
+      "acceptedAnswers": [
+        "Seien",
+        "seien"
+      ]
+    },
+    {
+      "id": "gr01-e004",
+      "topicId": "gr-01",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Anrede und Form",
+      "title_ar": "المخاطَب والصيغة",
+      "prompt_de": "Ordnen Sie jede Anrede der passenden Form von „anrufen“ zu.",
+      "prompt_ar": "صِل كل مخاطَب بصيغة الأمر المناسبة من anrufen.",
+      "answer": {
+        "du": "Ruf bitte an!",
+        "ihr": "Ruft bitte an!",
+        "Sie": "Rufen Sie bitte an!",
+        "wir": "Rufen wir bitte an!"
+      },
+      "explanation_de": "Bei trennbaren Verben steht das Präfix an am Ende.",
+      "explanation_ar": "في الأفعال المنفصلة يأتي an في نهاية الجملة.",
+      "grammarFocus": "all_persons_separable",
+      "pairs": [
+        [
+          "du",
+          "Ruf bitte an!"
+        ],
+        [
+          "ihr",
+          "Ruft bitte an!"
+        ],
+        [
+          "Sie",
+          "Rufen Sie bitte an!"
+        ],
+        [
+          "wir",
+          "Rufen wir bitte an!"
+        ]
+      ]
+    },
+    {
+      "id": "gr01-e005",
+      "topicId": "gr-01",
+      "type": "sentence_build",
+      "difficulty": "easy",
+      "title_de": "Formelle Anweisung",
+      "title_ar": "تعليمة رسمية",
+      "prompt_de": "Formulieren Sie höflich mit Sie: das Formular vollständig ausfüllen",
+      "prompt_ar": "صغ الطلب رسميًا مع Sie: ملء الاستمارة كاملة.",
+      "answer": "Füllen Sie das Formular bitte vollständig aus!",
+      "explanation_de": "Die Sie-Form lautet Verb + Sie; das Präfix aus steht am Ende.",
+      "explanation_ar": "الصيغة الرسمية هي الفعل ثم Sie، ويأتي aus في النهاية.",
+      "grammarFocus": "sie_separable",
+      "acceptedAnswers": [
+        "Füllen Sie das Formular bitte vollständig aus!",
+        "Füllen Sie bitte das Formular vollständig aus!",
+        "Bitte füllen Sie das Formular vollständig aus!"
+      ]
+    },
+    {
+      "id": "gr01-e006",
+      "topicId": "gr-01",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Satzklammer",
+      "title_ar": "إطار الجملة",
+      "prompt_de": "Bringen Sie die Wörter in die richtige Reihenfolge.",
+      "prompt_ar": "رتب الكلمات في الجملة الصحيحة.",
+      "answer": "Rufen Sie bitte die Kundin an!",
+      "explanation_de": "Rufen und an bilden die Satzklammer; Sie steht direkt nach dem Verb.",
+      "explanation_ar": "يشكل Rufen وan إطار الجملة، ويأتي Sie بعد الفعل مباشرة.",
+      "grammarFocus": "sie_separable_order",
+      "tokens": [
+        "an",
+        "bitte",
+        "Rufen",
+        "die Kundin",
+        "Sie"
+      ],
+      "acceptedAnswers": [
+        "Rufen Sie bitte die Kundin an!"
+      ]
+    },
+    {
+      "id": "gr01-e007",
+      "topicId": "gr-01",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Kein Umlaut",
+      "title_ar": "من دون أوملاوت",
+      "prompt_de": "Welche Form ist richtig?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Fahr vorsichtig!",
+      "explanation_de": "Beim Imperativ von fahren wird a nicht zu ä.",
+      "explanation_ar": "في الأمر من fahren لا تتحول a إلى ä.",
+      "grammarFocus": "du_no_umlaut",
+      "options": [
+        "Fahr vorsichtig!",
+        "Fähr vorsichtig!",
+        "Fahre du vorsichtigst!",
+        "Fahrt du vorsichtig!"
+      ]
+    },
+    {
+      "id": "gr01-e008",
+      "topicId": "gr-01",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Unregelmäßiger Imperativ",
+      "title_ar": "أمر غير منتظم",
+      "prompt_de": "______ bitte Platz! (nehmen, du)",
+      "prompt_ar": "______ بالجلوس من فضلك. (nehmen مع du)",
+      "answer": "Nimm",
+      "explanation_de": "nehmen hat im du-Imperativ die Form Nimm!",
+      "explanation_ar": "صيغة الأمر من nehmen مع du هي Nimm!",
+      "grammarFocus": "du_irregular",
+      "acceptedAnswers": [
+        "Nimm",
+        "nimm"
+      ]
+    },
+    {
+      "id": "gr01-e009",
+      "topicId": "gr-01",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Höfliche Aufforderung",
+      "title_ar": "طلب مهذب",
+      "prompt_de": "Ein Kunde muss kurz warten. Welche Formulierung passt am besten?",
+      "prompt_ar": "على العميل الانتظار قليلًا. أي صياغة أنسب؟",
+      "answer": "Warten Sie bitte einen Moment.",
+      "explanation_de": "Die Sie-Form mit bitte ist klar und höflich.",
+      "explanation_ar": "صيغة Sie مع bitte واضحة ومهذبة.",
+      "grammarFocus": "polite_sie",
+      "options": [
+        "Warten Sie bitte einen Moment.",
+        "Warte, Kunde!",
+        "Du wartest jetzt.",
+        "Wartet Sie einen Moment."
+      ]
+    },
+    {
+      "id": "gr01-e010",
+      "topicId": "gr-01",
+      "type": "verb_form",
+      "difficulty": "medium",
+      "title_de": "Imperativ mit -e",
+      "title_ar": "الأمر مع -e",
+      "prompt_de": "Bilden Sie den du-Imperativ von „arbeiten“.",
+      "prompt_ar": "كوّن الأمر مع du من arbeiten.",
+      "answer": "Arbeite!",
+      "explanation_de": "Bei arbeiten steht im Standarddeutschen -e: Arbeite!",
+      "explanation_ar": "مع arbeiten تُستخدم النهاية -e في اللغة القياسية: Arbeite!",
+      "grammarFocus": "du_e_ending",
+      "acceptedAnswers": [
+        "Arbeite",
+        "Arbeite!"
+      ],
+      "infinitive": "arbeiten",
+      "person": "du"
+    },
+    {
+      "id": "gr01-e011",
+      "topicId": "gr-01",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Reflexives Verb",
+      "title_ar": "فعل انعكاسي",
+      "prompt_de": "______ ______ bitte! (sich setzen, du)",
+      "prompt_ar": "______ من فضلك. (sich setzen مع du)",
+      "answer": [
+        "Setz",
+        "dich"
+      ],
+      "explanation_de": "Der du-Imperativ lautet Setz; das Reflexivpronomen ist dich.",
+      "explanation_ar": "صيغة du هي Setz والضمير الانعكاسي هو dich.",
+      "grammarFocus": "du_reflexive",
+      "acceptedAnswers": [
+        "Setz dich",
+        "Setz dich!",
+        "Setze dich",
+        "Setze dich!"
+      ]
+    },
+    {
+      "id": "gr01-e012",
+      "topicId": "gr-01",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Reflexivpronomen",
+      "title_ar": "الضمائر الانعكاسية",
+      "prompt_de": "Ordnen Sie die passende Aufforderung zu.",
+      "prompt_ar": "صِل صيغة الأمر المناسبة.",
+      "answer": {
+        "du": "Melde dich an!",
+        "ihr": "Meldet euch an!",
+        "Sie": "Melden Sie sich an!"
+      },
+      "explanation_de": "Das Reflexivpronomen richtet sich nach der Anrede.",
+      "explanation_ar": "يتغير الضمير الانعكاسي بحسب المخاطَب.",
+      "grammarFocus": "reflexive_pronouns",
+      "pairs": [
+        [
+          "du",
+          "Melde dich an!"
+        ],
+        [
+          "ihr",
+          "Meldet euch an!"
+        ],
+        [
+          "Sie",
+          "Melden Sie sich an!"
+        ]
+      ]
+    },
+    {
+      "id": "gr01-e013",
+      "topicId": "gr-01",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Negativer Imperativ",
+      "title_ar": "الأمر المنفي",
+      "prompt_de": "Ordnen Sie die Wörter.",
+      "prompt_ar": "رتب الكلمات.",
+      "answer": "Vergiss den Termin bitte nicht!",
+      "explanation_de": "Bei einer negativen Aufforderung steht nicht meist am Ende des relevanten Satzteils.",
+      "explanation_ar": "في الأمر المنفي تأتي nicht غالبًا في نهاية الجزء المنفي.",
+      "grammarFocus": "negative_imperative",
+      "tokens": [
+        "bitte",
+        "Vergiss",
+        "nicht",
+        "den Termin"
+      ],
+      "acceptedAnswers": [
+        "Vergiss den Termin bitte nicht!",
+        "Bitte vergiss den Termin nicht!"
+      ]
+    },
+    {
+      "id": "gr01-e014",
+      "topicId": "gr-01",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Imperativ mit ihr",
+      "title_ar": "الأمر مع ihr",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Seid während der Besprechung aufmerksam!",
+      "explanation_de": "Die ihr-Form von sein lautet seid.",
+      "explanation_ar": "صيغة sein مع ihr هي seid.",
+      "grammarFocus": "ihr_sein",
+      "options": [
+        "Seid während der Besprechung aufmerksam!",
+        "Seien ihr aufmerksam!",
+        "Sei ihr aufmerksam!",
+        "Sind aufmerksam!"
+      ]
+    },
+    {
+      "id": "gr01-e015",
+      "topicId": "gr-01",
+      "type": "verb_form",
+      "difficulty": "medium",
+      "title_de": "Imperativ von haben",
+      "title_ar": "الأمر من haben",
+      "prompt_de": "Bilden Sie den du-Imperativ von „haben“.",
+      "prompt_ar": "كوّن الأمر مع du من haben.",
+      "answer": "Hab!",
+      "explanation_de": "Gebräuchlich sind Hab! und die vollständigere Form Habe!",
+      "explanation_ar": "الصيغتان Hab! وHabe! صحيحتان، والأولى أكثر شيوعًا.",
+      "grammarFocus": "du_haben",
+      "acceptedAnswers": [
+        "Hab",
+        "Hab!",
+        "Habe",
+        "Habe!"
+      ],
+      "infinitive": "haben",
+      "person": "du"
+    },
+    {
+      "id": "gr01-e016",
+      "topicId": "gr-01",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Imperativ von werden",
+      "title_ar": "الأمر من werden",
+      "prompt_de": "______ Sie bitte nicht ungeduldig! (werden)",
+      "prompt_ar": "______ غير صبور من فضلك. (werden مع Sie)",
+      "answer": "Werden",
+      "explanation_de": "Die höfliche Form lautet Werden Sie ...!",
+      "explanation_ar": "الصيغة الرسمية هي Werden Sie ...!",
+      "grammarFocus": "sie_werden",
+      "acceptedAnswers": [
+        "Werden",
+        "werden"
+      ]
+    },
+    {
+      "id": "gr01-e017",
+      "topicId": "gr-01",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sicherheitsanweisung",
+      "title_ar": "تعليمة سلامة",
+      "prompt_de": "Sie sprechen mit neuen Mitarbeitenden. Welche Warnung ist angemessen?",
+      "prompt_ar": "تتحدث مع موظفين جدد. أي تحذير مناسب؟",
+      "answer": "Tragen Sie in diesem Bereich bitte immer Schutzkleidung!",
+      "explanation_de": "Die formelle Aufforderung ist klar, respektvoll und sicherheitsbezogen.",
+      "explanation_ar": "الأمر الرسمي واضح ومحترم ومناسب للسلامة.",
+      "grammarFocus": "workplace_instruction",
+      "options": [
+        "Tragen Sie in diesem Bereich bitte immer Schutzkleidung!",
+        "Du trägst jetzt Schutzkleidung!",
+        "Trägt Sie Schutzkleidung!",
+        "Schutzkleidung vielleicht."
+      ]
+    },
+    {
+      "id": "gr01-e018",
+      "topicId": "gr-01",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vorschlag mit wir",
+      "title_ar": "اقتراح مع wir",
+      "prompt_de": "Formulieren Sie einen gemeinsamen Vorschlag: zuerst die wichtigsten Punkte besprechen",
+      "prompt_ar": "صغ اقتراحًا مشتركًا: مناقشة أهم النقاط أولًا.",
+      "answer": "Besprechen wir zuerst die wichtigsten Punkte!",
+      "explanation_de": "Bei einem Vorschlag mit wir steht das Verb vor dem Pronomen.",
+      "explanation_ar": "في الاقتراح مع wir يأتي الفعل قبل الضمير.",
+      "grammarFocus": "wir_suggestion",
+      "acceptedAnswers": [
+        "Besprechen wir zuerst die wichtigsten Punkte!",
+        "Besprechen wir zuerst die wichtigsten Punkte."
+      ]
+    },
+    {
+      "id": "gr01-e019",
+      "topicId": "gr-01",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Aufforderung erkennen",
+      "title_ar": "تمييز صيغة الأمر",
+      "prompt_de": "Welcher Satz ist eine Aufforderung?",
+      "prompt_ar": "أي جملة هي صيغة أمر؟",
+      "answer": "Schalten Sie das Gerät nach Gebrauch aus!",
+      "explanation_de": "Verb + Sie bildet hier eine formelle Aufforderung.",
+      "explanation_ar": "الفعل ثم Sie يشكلان هنا أمرًا رسميًا.",
+      "grammarFocus": "identify_imperative",
+      "options": [
+        "Schalten Sie das Gerät nach Gebrauch aus!",
+        "Sie schalten das Gerät nach Gebrauch aus.",
+        "Das Gerät wurde ausgeschaltet.",
+        "Das Gerät ist ausgeschaltet."
+      ]
+    },
+    {
+      "id": "gr01-e020",
+      "topicId": "gr-01",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "title_de": "Trennbares Verb",
+      "title_ar": "فعل منفصل",
+      "prompt_de": "______ den Arbeitsplatz bitte ______! (aufräumen, du)",
+      "prompt_ar": "______ مكان العمل من فضلك. (aufräumen مع du)",
+      "answer": [
+        "Räum",
+        "auf"
+      ],
+      "explanation_de": "Beim trennbaren Verb aufräumen steht räum(e) vorn und auf am Ende.",
+      "explanation_ar": "في الفعل المنفصل aufräumen يأتي räum(e) أولًا وauf في النهاية.",
+      "grammarFocus": "du_separable",
+      "acceptedAnswers": [
+        "Räum den Arbeitsplatz bitte auf",
+        "Räum den Arbeitsplatz bitte auf!",
+        "Räume den Arbeitsplatz bitte auf",
+        "Räume den Arbeitsplatz bitte auf!"
+      ]
+    },
+    {
+      "id": "gr01-e021",
+      "topicId": "gr-01",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Höflichkeit und Satzklammer",
+      "title_ar": "اللباقة وإطار الجملة",
+      "prompt_de": "Bilden Sie eine höfliche dienstliche Aufforderung.",
+      "prompt_ar": "كوّن طلبًا مهنيًا مهذبًا.",
+      "answer": "Schicken Sie mir die Unterlagen bitte bis morgen zu!",
+      "explanation_de": "Bei zuschicken steht zu am Ende; die Sie-Form bleibt vollständig.",
+      "explanation_ar": "مع zuschicken يأتي zu في النهاية وتبقى صيغة Sie كاملة.",
+      "grammarFocus": "sie_separable_polite",
+      "tokens": [
+        "bitte",
+        "bis morgen",
+        "Schicken",
+        "zu",
+        "mir",
+        "die Unterlagen",
+        "Sie"
+      ],
+      "acceptedAnswers": [
+        "Schicken Sie mir die Unterlagen bitte bis morgen zu!",
+        "Bitte schicken Sie mir die Unterlagen bis morgen zu!"
+      ]
+    },
+    {
+      "id": "gr01-e022",
+      "topicId": "gr-01",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Ton im Berufsalltag",
+      "title_ar": "النبرة في العمل",
+      "prompt_de": "Sie möchten eine Kollegin an eine Frist erinnern, ohne unhöflich zu wirken. Welche Formulierung passt?",
+      "prompt_ar": "تريد تذكير زميلة بمهلة دون أن تبدو فظًا. أي صياغة أنسب؟",
+      "answer": "Schicken Sie mir die Rückmeldung bitte bis Freitag.",
+      "explanation_de": "Die Form ist klar, höflich und nennt eine konkrete Frist.",
+      "explanation_ar": "الصياغة واضحة ومهذبة وتذكر مهلة محددة.",
+      "grammarFocus": "polite_professional_tone",
+      "options": [
+        "Schicken Sie mir die Rückmeldung bitte bis Freitag.",
+        "Schick sofort!",
+        "Sie müssen gefälligst schneller sein.",
+        "Warum haben Sie das noch immer nicht gemacht?"
+      ]
+    },
+    {
+      "id": "gr01-e023",
+      "topicId": "gr-01",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Negativer reflexiver Imperativ",
+      "title_ar": "أمر انعكاسي منفي",
+      "prompt_de": "Formulieren Sie höflich mit Sie: sich nicht über kleine Fehler ärgern",
+      "prompt_ar": "صغ رسميًا مع Sie: عدم الانزعاج من الأخطاء الصغيرة.",
+      "answer": "Ärgern Sie sich bitte nicht über kleine Fehler!",
+      "explanation_de": "Das Reflexivpronomen sich folgt auf Sie; nicht negiert die Aufforderung.",
+      "explanation_ar": "يأتي sich بعد Sie وتستخدم nicht لنفي الأمر.",
+      "grammarFocus": "sie_reflexive_negative",
+      "acceptedAnswers": [
+        "Ärgern Sie sich bitte nicht über kleine Fehler!",
+        "Bitte ärgern Sie sich nicht über kleine Fehler!"
+      ]
+    },
+    {
+      "id": "gr01-e024",
+      "topicId": "gr-01",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining",
+      "title_ar": "تدريب ختامي",
+      "prompt_de": "Formulieren Sie vier passende Aufforderungen: 1× du, 1× ihr, 1× Sie und 1× wir. Verwenden Sie mindestens ein trennbares und ein reflexives Verb.",
+      "prompt_ar": "اكتب أربع جمل أمر مناسبة: واحدة مع du وواحدة مع ihr وواحدة مع Sie وواحدة مع wir، واستخدم فعلًا منفصلًا وفعلًا انعكاسيًا على الأقل.",
+      "answer": {
+        "requiredConcepts": [
+          "eine korrekte du-Form",
+          "eine korrekte ihr-Form",
+          "eine korrekte Sie-Form mit Pronomen",
+          "ein gemeinsamer Vorschlag mit wir",
+          "mindestens ein trennbares Verb",
+          "mindestens ein reflexives Verb"
+        ]
+      },
+      "explanation_de": "Achten Sie auf die passende Verbform, die Pronomen und die Stellung trennbarer Präfixe.",
+      "explanation_ar": "انتبه إلى صيغة الفعل والضمائر وموقع الجزء المنفصل.",
+      "grammarFocus": "mixed_production",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}
