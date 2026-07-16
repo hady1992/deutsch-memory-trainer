@@ -148,6 +148,22 @@ export const B2GrammarProgressService = {
     };
   },
 
+  getTopicSummaryStats(topicId: string, exerciseCount: number): { completed: number; review: number; percent: number; started: boolean } {
+    const store = read();
+    const exercisePrefix = `${topicId.replace("-", "")}-`;
+    const entries = Object.entries(store.exercises)
+      .filter(([id]) => id.startsWith(exercisePrefix))
+      .map(([, entry]) => entry);
+    const completed = entries.filter((entry) => entry.status === "known").length;
+    const review = entries.filter((entry) => entry.unresolvedMistake || entry.status === "review").length;
+    return {
+      completed,
+      review,
+      percent: exerciseCount ? Math.round((completed / exerciseCount) * 100) : 0,
+      started: Boolean(store.topics[topicId]) || entries.length > 0,
+    };
+  },
+
   getResumePosition(topicId: string, exerciseIds: string[]): number {
     const topic = read().topics[topicId];
     if (!topic) return 0;

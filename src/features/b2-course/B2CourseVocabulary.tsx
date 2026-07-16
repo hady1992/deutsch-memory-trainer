@@ -89,7 +89,7 @@ function VocabularyCard({
       ? (isRtl ? "إيقاف النطق" : "Aussprache stoppen")
       : (isRtl ? "استمع إلى نطق الكلمة" : "Aussprache anhören");
   return (
-    <article className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+    <article className="min-w-0 rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-bold text-blue-600">{item.type}</p>
@@ -321,9 +321,9 @@ export default function B2CourseVocabulary({ items, isRtl }: Props) {
         {isRtl ? `${filtered.length} من ${items.length} عنصرًا` : `${filtered.length} von ${items.length} Einträgen`}
       </p>
       {filtered.length ? (
-        <div className="mt-5 grid gap-5 xl:grid-cols-2">
+        <div className="mt-5 grid min-w-0 gap-5 xl:grid-cols-2">
           {filtered.map((item) => (
-            <div key={item.courseItemId}>
+            <div key={item.courseItemId} className="min-w-0">
               <VocabularyCard
                 item={item}
                 isRtl={isRtl}

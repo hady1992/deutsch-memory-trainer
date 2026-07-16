@@ -7,13 +7,15 @@ import type {
 } from "./types";
 
 const BASE_PATH = "/data/courses/b2-course";
+const B2_COURSE_DATA_VERSION = "2026-07-16-units-1-14";
 
 function joinPath(relativePath: string): string {
   return `${BASE_PATH}/${relativePath.replace(/^\/+/, "")}`;
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
-  const response = await fetch(url, { cache: "no-store" });
+  const separator = url.includes("?") ? "&" : "?";
+  const response = await fetch(`${url}${separator}v=${B2_COURSE_DATA_VERSION}`, { cache: "force-cache" });
   if (!response.ok) {
     throw new Error(`B2 Kurs data could not be loaded (${response.status}): ${url}`);
   }
@@ -48,10 +50,14 @@ function assertUnit(
 export class B2CourseService {
   private static indexPromise: Promise<B2CourseIndex> | null = null;
   private static unitPromises = new Map<number, Promise<B2CourseUnitData>>();
+  private static vocabularyPromises = new Map<number, Promise<B2CourseVocabularyFile>>();
+  private static exercisePromises = new Map<number, Promise<B2CourseExerciseFile>>();
 
   static clearCache(): void {
     this.indexPromise = null;
     this.unitPromises.clear();
+    this.vocabularyPromises.clear();
+    this.exercisePromises.clear();
   }
 
   static getIndex(): Promise<B2CourseIndex> {
@@ -64,6 +70,9 @@ export class B2CourseService {
             .filter((unit) => unit.enabled !== false)
             .sort((left, right) => left.unit - right.unit),
         };
+      }).catch((error) => {
+        this.indexPromise = null;
+        throw error;
       });
     }
     return this.indexPromise;
@@ -79,8 +88,8 @@ export class B2CourseService {
       if (!summary) throw new Error(`B2 Kurs unit ${unitNumber} was not found.`);
 
       const [vocabulary, exercises] = await Promise.all([
-        fetchJson<B2CourseVocabularyFile>(joinPath(summary.vocabularyFile)),
-        fetchJson<B2CourseExerciseFile>(joinPath(summary.exercisesFile)),
+        this.getVocabularyFile(unitNumber),
+        this.getExerciseFile(unitNumber),
       ]);
       assertUnit(unitNumber, vocabulary, exercises);
       return { summary, vocabulary, exercises };
@@ -88,6 +97,45 @@ export class B2CourseService {
 
     this.unitPromises.set(unitNumber, request);
     request.catch(() => this.unitPromises.delete(unitNumber));
+    return request;
+  }
+
+  private static async getUnitSummary(unitNumber: number) {
+    const index = await this.getIndex();
+    const summary = index.units.find((unit) => unit.unit === unitNumber);
+    if (!summary) throw new Error(`B2 Kurs unit ${unitNumber} was not found.`);
+    return summary;
+  }
+
+  private static getVocabularyFile(unitNumber: number): Promise<B2CourseVocabularyFile> {
+    const cached = this.vocabularyPromises.get(unitNumber);
+    if (cached) return cached;
+    const request = this.getUnitSummary(unitNumber)
+      .then((summary) => fetchJson<B2CourseVocabularyFile>(joinPath(summary.vocabularyFile)))
+      .then((vocabulary) => {
+        if (vocabulary?.schemaVersion !== "b2-course-content-v1" || vocabulary.course?.unit !== unitNumber || !Array.isArray(vocabulary.items)) {
+          throw new Error(`B2 Kurs unit ${unitNumber} has invalid vocabulary data.`);
+        }
+        return vocabulary;
+      });
+    this.vocabularyPromises.set(unitNumber, request);
+    request.catch(() => this.vocabularyPromises.delete(unitNumber));
+    return request;
+  }
+
+  private static getExerciseFile(unitNumber: number): Promise<B2CourseExerciseFile> {
+    const cached = this.exercisePromises.get(unitNumber);
+    if (cached) return cached;
+    const request = this.getUnitSummary(unitNumber)
+      .then((summary) => fetchJson<B2CourseExerciseFile>(joinPath(summary.exercisesFile)))
+      .then((exercises) => {
+        if (exercises?.schemaVersion !== "b2-course-exercises-v1" || exercises.unit !== unitNumber || !Array.isArray(exercises.exercises)) {
+          throw new Error(`B2 Kurs unit ${unitNumber} has invalid exercise data.`);
+        }
+        return exercises;
+      });
+    this.exercisePromises.set(unitNumber, request);
+    request.catch(() => this.exercisePromises.delete(unitNumber));
     return request;
   }
 
@@ -107,13 +155,15 @@ export class B2CourseService {
   }
 
   static async getResolvedVocabulary(unitNumber: number): Promise<B2CourseVocabularyItem[]> {
-    const [unit, registry] = await Promise.all([
-      this.getUnit(unitNumber),
-      this.getVocabularyRegistry(),
-    ]);
-    const reused = (unit.vocabulary.reusedVocabularyRefs ?? [])
-      .map((reference) => registry.get(reference.courseItemId))
-      .filter((item): item is B2CourseVocabularyItem => Boolean(item));
+    const unit = await this.getUnit(unitNumber);
+    const reused = (await Promise.all((unit.vocabulary.reusedVocabularyRefs ?? []).map(async (reference) => {
+      const sourceUnit = Number(reference.courseItemId.match(/^b2u(\d{2})-/i)?.[1]);
+      if (!Number.isInteger(sourceUnit)) throw new Error(`Invalid reused B2 course item ID: ${reference.courseItemId}`);
+      const sourceVocabulary = await this.getVocabularyFile(sourceUnit);
+      const resolved = sourceVocabulary.items.find((item) => item.courseItemId === reference.courseItemId);
+      if (!resolved) throw new Error(`Missing reused B2 course item: ${reference.courseItemId}`);
+      return resolved;
+    }))).filter((item): item is B2CourseVocabularyItem => Boolean(item));
     const seen = new Set<string>();
     return [...unit.vocabulary.items, ...reused].filter((item) => {
       if (seen.has(item.courseItemId)) return false;

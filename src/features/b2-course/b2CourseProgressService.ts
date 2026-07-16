@@ -57,6 +57,67 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
 }
 
+function isNonNegativeNumber(value: unknown): value is number {
+  return typeof value === "number" && Number.isFinite(value) && value >= 0;
+}
+
+export function isValidB2CourseProgress(value: unknown): value is B2CourseProgressStore {
+  if (
+    !isRecord(value)
+    || value.version !== 2
+    || !isRecord(value.vocabulary)
+    || !isRecord(value.vocabularyByUnit)
+    || !isRecord(value.exercises)
+    || !Array.isArray(value.favorites)
+    || !isRecord(value.resume)
+    || typeof value.updatedAt !== "string"
+  ) return false;
+
+  const vocabularyIsValid = Object.values(value.vocabulary).every((entry) => (
+    isRecord(entry)
+    && isNonNegativeNumber(entry.correctCount)
+    && isNonNegativeNumber(entry.wrongCount)
+    && typeof entry.lastReviewedAt === "string"
+    && typeof entry.difficult === "boolean"
+    && typeof entry.mastered === "boolean"
+  ));
+  const vocabularyByUnitIsValid = Object.values(value.vocabularyByUnit).every((entry) => (
+    isRecord(entry)
+    && isRecord(entry.statusByItemId)
+    && Object.values(entry.statusByItemId).every((status) => status === "known" || status === "review")
+    && typeof entry.nextItemId === "string"
+    && typeof entry.lastViewedItemId === "string"
+    && typeof entry.reviewCursorItemId === "string"
+    && typeof entry.legacyMigrated === "boolean"
+    && typeof entry.updatedAt === "string"
+  ));
+  const exercisesAreValid = Object.values(value.exercises).every((entry) => (
+    isRecord(entry)
+    && isNonNegativeNumber(entry.correctCount)
+    && isNonNegativeNumber(entry.wrongCount)
+    && isNonNegativeNumber(entry.attempts)
+    && typeof entry.completed === "boolean"
+    && typeof entry.difficult === "boolean"
+    && typeof entry.lastReviewedAt === "string"
+    && typeof entry.unitId === "string"
+    && typeof entry.exerciseId === "string"
+    && (entry.selfAssessment === undefined || entry.selfAssessment === "completed" || entry.selfAssessment === "needs_review")
+  ));
+  const resumeIsValid = Object.values(value.resume).every((entry) => (
+    isRecord(entry)
+    && isNonNegativeNumber(entry.vocabularyIndex)
+    && isNonNegativeNumber(entry.exerciseIndex)
+    && (entry.lastMode === "unit" || entry.lastMode === "vocabulary" || entry.lastMode === "exercises")
+    && typeof entry.updatedAt === "string"
+  ));
+
+  return vocabularyIsValid
+    && vocabularyByUnitIsValid
+    && exercisesAreValid
+    && resumeIsValid
+    && value.favorites.every((item) => typeof item === "string");
+}
+
 function sanitizeStatuses(value: unknown): Record<string, B2VocabularyStatus> {
   if (!isRecord(value)) return {};
   return Object.fromEntries(
@@ -171,6 +232,20 @@ function itemIndex(items: readonly VocabularyIdentity[], itemId: string): number
 export class B2CourseProgressService {
   static getStore(): B2CourseProgressStore {
     return load();
+  }
+
+  static getBackupData(): B2CourseProgressStore {
+    return load();
+  }
+
+  static validateBackup(value: unknown): value is B2CourseProgressStore {
+    return isValidB2CourseProgress(value);
+  }
+
+  static importBackup(value: unknown): boolean {
+    if (!isValidB2CourseProgress(value)) return false;
+    persist(value, false);
+    return true;
   }
 
   static subscribe(listener: () => void): () => void {
@@ -500,6 +575,36 @@ export class B2CourseProgressService {
       completedExercises,
       difficultItems,
       percent: Math.round((reviewedVocabulary / Math.max(1, vocabularyIds.length)) * 100),
+    };
+  }
+
+  static getUnitSummaryStats(
+    unit: number,
+    vocabularyTotal: number,
+    exerciseTotal: number,
+  ): B2CourseUnitStats {
+    const store = load();
+    const statuses = store.vocabularyByUnit[unitKey(unit)]?.statusByItemId ?? {};
+    const vocabularyIds = Object.keys(statuses);
+    const knownVocabulary = vocabularyIds.filter((id) => statuses[id] === "known").length;
+    const reviewVocabulary = vocabularyIds.filter((id) => statuses[id] === "review").length;
+    const reviewedVocabulary = knownVocabulary + reviewVocabulary;
+    const expectedUnitId = `b2-course-unit-${String(unit).padStart(2, "0")}`;
+    const exerciseEntries = Object.values(store.exercises).filter((item) => item.unitId === expectedUnitId);
+    const completedExercises = exerciseEntries.filter((item) => item.completed).length;
+    const difficultItems = vocabularyIds.filter((id) => store.vocabulary[id]?.difficult).length
+      + exerciseEntries.filter((item) => item.difficult).length;
+    return {
+      vocabularyTotal,
+      reviewedVocabulary,
+      masteredVocabulary: knownVocabulary,
+      knownVocabulary,
+      reviewVocabulary,
+      unseenVocabulary: Math.max(0, vocabularyTotal - reviewedVocabulary),
+      exerciseTotal,
+      completedExercises,
+      difficultItems,
+      percent: Math.round((reviewedVocabulary / Math.max(1, vocabularyTotal)) * 100),
     };
   }
 }

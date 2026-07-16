@@ -20,6 +20,10 @@ import {
   B2_GRAMMAR_PROGRESS_KEY,
   B2GrammarProgressService,
 } from "../features/b2-grammar/b2GrammarProgressService";
+import {
+  B2_COURSE_PROGRESS_KEY,
+  B2CourseProgressService,
+} from "../features/b2-course/b2CourseProgressService";
 
 export interface ValidationResult {
   success: boolean;
@@ -37,6 +41,7 @@ export interface BackupPreviewResult extends ValidationResult {
     progressItems: number;
     mistakes: number;
     dailySets: number;
+    courseProgressItems: number;
     grammarProgressItems: number;
   };
 }
@@ -54,6 +59,7 @@ const BACKUP_STORAGE_KEYS = [
   "dmt_last_session",
   "deutsch-memory-trainer-mistakes",
   "deutschTrainerDailyStudySets",
+  B2_COURSE_PROGRESS_KEY,
   B2_GRAMMAR_PROGRESS_KEY,
 ];
 
@@ -169,6 +175,7 @@ export class ImportExportService {
     const dailySets = localStorage.getItem("deutschTrainerDailyStudySets");
     const progressBackup = ProgressService.getBackupData();
     const mistakes = MistakeReviewService.exportMistakes();
+    const b2CourseProgress = B2CourseProgressService.getBackupData();
     const b2GrammarProgress = B2GrammarProgressService.getBackupData();
     return {
       version: 2,
@@ -183,6 +190,7 @@ export class ImportExportService {
       lastSession: progressBackup.lastSession,
       mistakes,
       dailyStudySets: dailySets ? JSON.parse(dailySets) : null,
+      b2CourseProgress,
       b2GrammarProgress,
     };
   }
@@ -264,6 +272,9 @@ export class ImportExportService {
     if (backup.mistakes && !Array.isArray(backup.mistakes)) {
       return { success: false, error: "Backup mistakes must be an array." };
     }
+    if (backup.b2CourseProgress && !B2CourseProgressService.validateBackup(backup.b2CourseProgress)) {
+      return { success: false, error: "Backup B2 course progress is invalid." };
+    }
     if (backup.b2GrammarProgress && !B2GrammarProgressService.validateBackup(backup.b2GrammarProgress)) {
       return { success: false, error: "Backup B2 grammar progress is invalid." };
     }
@@ -280,6 +291,7 @@ export class ImportExportService {
         progressItems: Object.keys(backup.progress || {}).length,
         mistakes: Array.isArray(backup.mistakes) ? backup.mistakes.length : 0,
         dailySets: Object.keys(backup.dailyStudySets?.sets || {}).length,
+        courseProgressItems: Object.keys(backup.b2CourseProgress?.exercises || {}).length,
         grammarProgressItems: Object.keys(backup.b2GrammarProgress?.exercises || {}).length,
       },
     };
@@ -298,6 +310,9 @@ export class ImportExportService {
       if (backup.progress) localStorage.setItem("dmt_progress", JSON.stringify(backup.progress));
       if (backup.lastSession) localStorage.setItem("dmt_last_session", JSON.stringify(backup.lastSession));
       if (backup.dailyStudySets) localStorage.setItem("deutschTrainerDailyStudySets", JSON.stringify(backup.dailyStudySets));
+      if (backup.b2CourseProgress && !B2CourseProgressService.importBackup(backup.b2CourseProgress)) {
+        throw new Error("B2 course progress did not pass validation.");
+      }
       if (backup.b2GrammarProgress && !B2GrammarProgressService.importBackup(backup.b2GrammarProgress)) {
         throw new Error("B2 grammar progress did not pass validation.");
       }

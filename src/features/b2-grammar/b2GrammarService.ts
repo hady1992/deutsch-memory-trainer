@@ -1,4 +1,5 @@
 import {
+  B2GrammarCatalog,
   B2GrammarCourse,
   B2GrammarExercise,
   B2GrammarExerciseDocument,
@@ -38,7 +39,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 async function fetchJson<T>(url: string): Promise<T> {
   const separator = url.includes("?") ? "&" : "?";
-  const response = await fetch(`${url}${separator}v=${B2_GRAMMAR_DATA_VERSION}`, { cache: "no-store" });
+  const response = await fetch(`${url}${separator}v=${B2_GRAMMAR_DATA_VERSION}`, { cache: "force-cache" });
   if (!response.ok) throw new Error(`B2 grammar data request failed (${response.status}): ${url}`);
   try {
     return (await response.json()) as T;
@@ -95,45 +96,78 @@ export function validateB2GrammarTopic(
   return { phaseId: phase.phaseId, index: topicIndex, lesson, exercises: exerciseDocument.exercises };
 }
 
-async function loadPhase(root: string): Promise<{ phase: B2GrammarPhaseIndex; topics: B2GrammarTopic[] }> {
-  const phase = await fetchJson<B2GrammarPhaseIndex>(`${root}/index.json`);
-  if (!Array.isArray(phase.topics) || phase.topics.length !== phase.topicCount) {
-    throw new Error(`B2 grammar phase count mismatch for ${phase.phaseId || root}`);
-  }
+let catalogPromise: Promise<B2GrammarCatalog> | null = null;
+const topicPromises = new Map<string, Promise<B2GrammarTopic>>();
 
-  const topics = await Promise.all(
-    phase.topics.map(async (topic) => {
-      const [lesson, exerciseDocument] = await Promise.all([
-        fetchJson<B2GrammarLesson>(`${root}/${topic.lessonPath}`),
-        fetchJson<B2GrammarExerciseDocument>(`${root}/${topic.exercisesPath}`),
-      ]);
-      return validateB2GrammarTopic(phase, topic, lesson, exerciseDocument);
-    }),
-  );
-  const actualCount = topics.reduce((sum, topic) => sum + topic.exercises.length, 0);
-  if (actualCount !== phase.exerciseCount) throw new Error(`B2 grammar phase exercise total mismatch for ${phase.phaseId}`);
-  return { phase, topics };
+export function clearB2GrammarCache(topicId?: string): void {
+  if (topicId) topicPromises.delete(topicId);
+  else {
+    catalogPromise = null;
+    topicPromises.clear();
+  }
 }
 
-let coursePromise: Promise<B2GrammarCourse> | null = null;
-
-export function loadB2GrammarCourse(): Promise<B2GrammarCourse> {
-  if (!coursePromise) {
-    coursePromise = Promise.all(PHASE_ROOTS.map(loadPhase)).then((loaded) => {
-      const phases = loaded.map((item) => item.phase);
-      const topics = loaded.flatMap((item) => item.topics).sort((a, b) => a.index.order - b.index.order);
-      const ids = topics.flatMap((topic) => topic.exercises.map((exercise) => exercise.id));
-      if (topics.length !== 50 || ids.length !== 1202 || new Set(ids).size !== ids.length) {
-        throw new Error(`B2 grammar course validation failed: ${topics.length} topics, ${ids.length} exercises`);
-      }
-      return { phases, topics, exerciseCount: ids.length };
-    }).catch((error) => {
-      coursePromise = null;
-      console.error("B2 grammar loading failed", error);
-      throw error;
-    });
+export function loadB2GrammarCatalog(): Promise<B2GrammarCatalog> {
+  if (!catalogPromise) {
+    catalogPromise = Promise.all(PHASE_ROOTS.map((root) => fetchJson<B2GrammarPhaseIndex>(`${root}/index.json`)))
+      .then((phases) => {
+        phases.forEach((phase) => {
+          if (!Array.isArray(phase.topics) || phase.topics.length !== phase.topicCount) {
+            throw new Error(`B2 grammar phase count mismatch for ${phase.phaseId}`);
+          }
+          if (phase.topics.reduce((sum, topic) => sum + topic.exerciseCount, 0) !== phase.exerciseCount) {
+            throw new Error(`B2 grammar phase exercise total mismatch for ${phase.phaseId}`);
+          }
+        });
+        const topics = phases
+          .flatMap((phase) => phase.topics.map((index) => ({ phaseId: phase.phaseId, index })))
+          .sort((left, right) => left.index.order - right.index.order);
+        const exerciseCount = phases.reduce((sum, phase) => sum + phase.exerciseCount, 0);
+        const topicIds = topics.map((topic) => topic.index.id);
+        if (topics.length !== 50 || exerciseCount !== 1202 || new Set(topicIds).size !== topicIds.length) {
+          throw new Error(`B2 grammar catalog validation failed: ${topics.length} topics, ${exerciseCount} exercises`);
+        }
+        return { phases, topics, exerciseCount };
+      })
+      .catch((error) => {
+        catalogPromise = null;
+        console.error("B2 grammar catalog loading failed", error);
+        throw error;
+      });
   }
-  return coursePromise;
+  return catalogPromise;
+}
+
+export function loadB2GrammarTopic(topicId: string): Promise<B2GrammarTopic> {
+  const cached = topicPromises.get(topicId);
+  if (cached) return cached;
+  const request = loadB2GrammarCatalog().then(async (catalog) => {
+    const catalogTopic = catalog.topics.find((topic) => topic.index.id === topicId);
+    if (!catalogTopic) throw new Error(`B2 grammar topic was not found: ${topicId}`);
+    const phaseIndex = catalog.phases.findIndex((phase) => phase.phaseId === catalogTopic.phaseId);
+    const phase = catalog.phases[phaseIndex];
+    const root = PHASE_ROOTS[phaseIndex];
+    if (!phase || !root) throw new Error(`B2 grammar phase was not found: ${catalogTopic.phaseId}`);
+    const [lesson, exerciseDocument] = await Promise.all([
+      fetchJson<B2GrammarLesson>(`${root}/${catalogTopic.index.lessonPath}`),
+      fetchJson<B2GrammarExerciseDocument>(`${root}/${catalogTopic.index.exercisesPath}`),
+    ]);
+    return validateB2GrammarTopic(phase, catalogTopic.index, lesson, exerciseDocument);
+  });
+  topicPromises.set(topicId, request);
+  request.catch((error) => {
+    topicPromises.delete(topicId);
+    console.error(`B2 grammar topic loading failed: ${topicId}`, error);
+  });
+  return request;
+}
+
+export async function loadB2GrammarCourse(): Promise<B2GrammarCourse> {
+  const catalog = await loadB2GrammarCatalog();
+  const topics = await Promise.all(catalog.topics.map((topic) => loadB2GrammarTopic(topic.index.id)));
+  const exerciseIds = topics.flatMap((topic) => topic.exercises.map((exercise) => exercise.id));
+  if (new Set(exerciseIds).size !== exerciseIds.length) throw new Error("Duplicate B2 grammar exercise IDs were loaded.");
+  return { phases: catalog.phases, topics, exerciseCount: catalog.exerciseCount };
 }
 
 export function findB2GrammarTopic(course: B2GrammarCourse, topicId: string): B2GrammarTopic | undefined {
