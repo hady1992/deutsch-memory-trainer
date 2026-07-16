@@ -17,6 +17,13 @@ import {
   PotentialDuplicateDecision,
 } from "./contentImportService";
 import { DATA_VERSION } from "./dataVersion";
+import {
+  detectArticle,
+  detectAuxiliary,
+  detectPlural,
+  detectSeparable,
+  detectVerbPrefix,
+} from "./dataEnrichmentService.js";
 
 const CUSTOM_VERBS_KEY = "dmt_custom_verbs";
 const CUSTOM_VOCAB_KEY = "dmt_custom_vocab";
@@ -30,6 +37,8 @@ const VERSIONED_DATA_PATHS = new Set([
   "/data/adjectives.json",
   "/data/phrases.json",
   "/data/other-vocabulary.json",
+  "/data/dashboard-manifest.json",
+  "/data/verb-categories.json",
 ]);
 
 function dataUrl(path: string): string {
@@ -59,6 +68,74 @@ export interface LocalContentStore extends LocalContentStoreCore {
   lastImportBackup?: {
     createdAt: string;
     data: LocalContentStoreCore;
+  };
+}
+
+export interface DashboardDataItem {
+  id: number | string;
+  kind: "verb" | "vocabulary";
+  term: string;
+  subtitle: string;
+  translation: string;
+  level: string;
+  wordType?: string;
+  quality: {
+    auxiliary?: boolean;
+    tenseTable?: boolean;
+    needsReview: boolean;
+    separable?: boolean;
+    nounWithArticle?: boolean;
+    hasExample?: boolean;
+    hasPlural?: boolean;
+  };
+}
+
+interface DashboardManifest {
+  schemaVersion: "dashboard-manifest-v1";
+  dataVersion: string;
+  verbs: DashboardDataItem[];
+  vocabulary: DashboardDataItem[];
+}
+
+export function createDashboardVerbSummary(verb: Verb): DashboardDataItem {
+  return {
+    id: verb.id,
+    kind: "verb",
+    term: verb.infinitiv,
+    subtitle: `${verb.praeteritum || ""} • ${verb.perfekt || ""}`,
+    translation: verb.arabic || "",
+    level: String(verb.level || "B1/B2"),
+    quality: {
+      auxiliary: Boolean(verb.auxiliary || detectAuxiliary(verb.perfekt || "")),
+      tenseTable: Boolean(verb.tenses && Object.keys(verb.tenses).length > 0),
+      needsReview: Boolean(
+        verb.dataMeta?.needsReview
+        || verb.tensesMeta?.needsReview
+        || verb.categoryMeta?.needsReview
+        || verb.expandedExamples?.needsReview
+      ),
+      separable: Boolean(verb.separable ?? detectSeparable(verb.prefix || detectVerbPrefix(verb.infinitiv))),
+    },
+  };
+}
+
+export function createDashboardVocabularySummary(item: Vocabulary): DashboardDataItem {
+  const term = item.term || item.phrase || item.singular || item.rawTerm || "";
+  const wordType = item.type || item.originalType || item.dataMeta?.family || "Wort";
+  return {
+    id: item.id,
+    kind: "vocabulary",
+    term,
+    subtitle: String(wordType),
+    translation: item.arabic || "",
+    level: String(item.level || "B1/B2"),
+    wordType: String(wordType),
+    quality: {
+      needsReview: Boolean(item.vocabMeta?.needsReview || item.dataMeta?.needsReview || item.needsReview),
+      nounWithArticle: Boolean((wordType === "Nomen" || item.article) && (item.article || detectArticle(term))),
+      hasExample: Boolean(item.example_de || item.example_ar || item.examples?.length),
+      hasPlural: Boolean(item.plural || detectPlural(term)),
+    },
   };
 }
 
@@ -92,6 +169,7 @@ export class DataService {
   private static cachedVerbCategories: VerbCategory[] = [];
   private static dataFileCache = new Map<string, unknown[]>();
   private static pendingDataFiles = new Map<string, Promise<unknown[]>>();
+  private static dashboardManifestPromise: Promise<DashboardManifest> | null = null;
 
   private static clearCaches(): void {
     this.cachedVerbs = [];
@@ -105,7 +183,7 @@ export class DataService {
     if (pending) return pending as Promise<T[]>;
 
     const request = (async () => {
-      const response = await fetch(dataUrl(path), { cache: "no-store" });
+      const response = await fetch(dataUrl(path), { cache: "force-cache" });
       if (!response.ok) return [];
       const data = await response.json();
       const items = Array.isArray(data) ? data : [];
@@ -249,9 +327,7 @@ export class DataService {
 
   public static async getVerbCategories(): Promise<VerbCategory[]> {
     try {
-      const response = await fetch("/data/verb-categories.json", { cache: "no-store" });
-      if (!response.ok) return [];
-      const categories: VerbCategory[] = await response.json();
+      const categories = await this.loadJsonArray<VerbCategory>("/data/verb-categories.json");
       this.cachedVerbCategories = categories.filter((category) => category.enabled !== false);
       return this.cachedVerbCategories;
     } catch (error) {
@@ -309,6 +385,49 @@ export class DataService {
       this.cachedVocab = customs;
       return customs;
     }
+  }
+
+  public static async getDashboardData(): Promise<{ verbs: DashboardDataItem[]; vocabulary: DashboardDataItem[] }> {
+    if (!this.dashboardManifestPromise) {
+      this.dashboardManifestPromise = fetch(dataUrl("/data/dashboard-manifest.json"), { cache: "force-cache" })
+        .then(async (response) => {
+          if (!response.ok) throw new Error(`Dashboard manifest request failed (${response.status}).`);
+          const manifest = await response.json() as DashboardManifest;
+          if (
+            manifest?.schemaVersion !== "dashboard-manifest-v1"
+            || !Array.isArray(manifest.verbs)
+            || !Array.isArray(manifest.vocabulary)
+          ) throw new Error("Dashboard manifest has an invalid structure.");
+          return manifest;
+        })
+        .catch((error) => {
+          this.dashboardManifestPromise = null;
+          throw error;
+        });
+    }
+
+    const manifest = await this.dashboardManifestPromise;
+    const store = this.getLocalContentStore();
+    const mergeSummaries = <T extends Verb | Vocabulary>(
+      production: DashboardDataItem[],
+      overrides: Record<string, T>,
+      customs: T[],
+      summarize: (item: T) => DashboardDataItem,
+    ) => {
+      const merged = production
+        .filter((item) => !(overrides[String(item.id)] as T & { isDeleted?: boolean } | undefined)?.isDeleted)
+        .map((item) => overrides[String(item.id)] ? summarize(overrides[String(item.id)]) : item);
+      const ids = new Set(merged.map((item) => String(item.id)));
+      customs.forEach((item) => {
+        if (!ids.has(String(item.id))) merged.push(summarize(item));
+      });
+      return merged;
+    };
+
+    return {
+      verbs: mergeSummaries(manifest.verbs, store.overrideVerbs, store.customVerbs, createDashboardVerbSummary),
+      vocabulary: mergeSummaries(manifest.vocabulary, store.overrideVocab, store.customVocab, createDashboardVocabularySummary),
+    };
   }
 
   private static potentialDuplicates<T extends Verb | Vocabulary>(

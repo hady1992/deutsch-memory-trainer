@@ -577,4 +577,34 @@ export class B2CourseProgressService {
       percent: Math.round((reviewedVocabulary / Math.max(1, vocabularyIds.length)) * 100),
     };
   }
+
+  static getUnitSummaryStats(
+    unit: number,
+    vocabularyTotal: number,
+    exerciseTotal: number,
+  ): B2CourseUnitStats {
+    const store = load();
+    const statuses = store.vocabularyByUnit[unitKey(unit)]?.statusByItemId ?? {};
+    const vocabularyIds = Object.keys(statuses);
+    const knownVocabulary = vocabularyIds.filter((id) => statuses[id] === "known").length;
+    const reviewVocabulary = vocabularyIds.filter((id) => statuses[id] === "review").length;
+    const reviewedVocabulary = knownVocabulary + reviewVocabulary;
+    const expectedUnitId = `b2-course-unit-${String(unit).padStart(2, "0")}`;
+    const exerciseEntries = Object.values(store.exercises).filter((item) => item.unitId === expectedUnitId);
+    const completedExercises = exerciseEntries.filter((item) => item.completed).length;
+    const difficultItems = vocabularyIds.filter((id) => store.vocabulary[id]?.difficult).length
+      + exerciseEntries.filter((item) => item.difficult).length;
+    return {
+      vocabularyTotal,
+      reviewedVocabulary,
+      masteredVocabulary: knownVocabulary,
+      knownVocabulary,
+      reviewVocabulary,
+      unseenVocabulary: Math.max(0, vocabularyTotal - reviewedVocabulary),
+      exerciseTotal,
+      completedExercises,
+      difficultItems,
+      percent: Math.round((reviewedVocabulary / Math.max(1, vocabularyTotal)) * 100),
+    };
+  }
 }

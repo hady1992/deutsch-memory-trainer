@@ -1,9 +1,13 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { AlertCircle, ArrowLeft, BookOpen, CheckCircle2, Clock, Play, RotateCcw } from "lucide-react";
 import { B2GrammarProgressService } from "./b2GrammarProgressService";
-import { findB2GrammarTopic, loadB2GrammarCourse } from "./b2GrammarService";
+import {
+  clearB2GrammarCache,
+  loadB2GrammarCatalog,
+  loadB2GrammarTopic,
+} from "./b2GrammarService";
 import B2GrammarUnitPage from "./B2GrammarUnitPage";
-import { B2GrammarCourse, B2GrammarMode } from "./types";
+import { B2GrammarCatalog, B2GrammarMode, B2GrammarTopic } from "./types";
 import { UserSettings } from "../../types";
 
 interface Props {
@@ -27,24 +31,44 @@ function setGrammarRoute(topicId = "", mode: B2GrammarMode = "learn"): void {
 export default function B2GrammarPage({ onNavigate, settings }: Props) {
   const language = settings.language === "ar" ? "ar" : "de";
   const isAr = language === "ar";
-  const [course, setCourse] = useState<B2GrammarCourse | null>(null);
+  const [catalog, setCatalog] = useState<B2GrammarCatalog | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<B2GrammarTopic | null>(null);
+  const [topicLoading, setTopicLoading] = useState(false);
   const [error, setError] = useState("");
   const [selectedTopicId, setSelectedTopicId] = useState(() => readGrammarRoute().topicId);
   const [initialMode, setInitialMode] = useState<B2GrammarMode>(() => readGrammarRoute().mode);
   const [progressRevision, setProgressRevision] = useState(0);
+  const [retryRevision, setRetryRevision] = useState(0);
 
   useEffect(() => {
     let active = true;
-    loadB2GrammarCourse()
-      .then((loaded) => { if (active) setCourse(loaded); })
+    loadB2GrammarCatalog()
+      .then((loaded) => { if (active) setCatalog(loaded); })
       .catch((loadError) => { if (active) setError(loadError instanceof Error ? loadError.message : String(loadError)); });
     return () => { active = false; };
-  }, []);
+  }, [retryRevision]);
+
+  useEffect(() => {
+    if (!catalog || !selectedTopicId) {
+      setSelectedTopic(null);
+      setTopicLoading(false);
+      return;
+    }
+    let active = true;
+    setTopicLoading(true);
+    setError("");
+    loadB2GrammarTopic(selectedTopicId)
+      .then((topic) => { if (active) setSelectedTopic(topic); })
+      .catch((loadError) => { if (active) setError(loadError instanceof Error ? loadError.message : String(loadError)); })
+      .finally(() => { if (active) setTopicLoading(false); });
+    return () => { active = false; };
+  }, [catalog, selectedTopicId, retryRevision]);
 
   useEffect(() => {
     const syncRoute = () => {
       const route = readGrammarRoute();
       setSelectedTopicId(route.topicId);
+      setSelectedTopic((current) => current?.index.id === route.topicId ? current : null);
       setInitialMode(route.mode);
     };
     window.addEventListener("popstate", syncRoute);
@@ -55,16 +79,18 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
     };
   }, []);
 
-  const selectedTopic = useMemo(
-    () => course && selectedTopicId ? findB2GrammarTopic(course, selectedTopicId) : undefined,
-    [course, selectedTopicId],
-  );
-
   const openTopic = (topicId: string, mode: B2GrammarMode) => {
     setGrammarRoute(topicId, mode);
     setSelectedTopicId(topicId);
+    setSelectedTopic((current) => current?.index.id === topicId ? current : null);
     setInitialMode(mode);
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const retry = () => {
+    clearB2GrammarCache(selectedTopicId || undefined);
+    setError("");
+    setRetryRevision((value) => value + 1);
   };
 
   if (error) {
@@ -74,17 +100,21 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
           <AlertCircle className="text-red-600" size={28} />
           <h2 className="mt-3 text-xl font-black text-red-900">{isAr ? "تعذر تحميل بيانات قواعد B2" : "B2-Grammatik konnte nicht geladen werden"}</h2>
           <p className="mt-2 text-sm text-red-800" dir="ltr">{error}</p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <button type="button" onClick={retry} className="min-h-11 rounded-lg bg-red-700 px-4 py-2 text-sm font-bold text-white">{isAr ? "إعادة المحاولة" : "Erneut versuchen"}</button>
+            {selectedTopicId && <button type="button" onClick={() => { setGrammarRoute(); setSelectedTopicId(""); setSelectedTopic(null); setError(""); }} className="min-h-11 rounded-lg border border-red-300 bg-white px-4 py-2 text-sm font-bold text-red-800">{isAr ? "العودة إلى الوحدات" : "Zurück zu den Einheiten"}</button>}
+          </div>
         </div>
       </div>
     );
   }
 
-  if (!course) {
+  if (!catalog || topicLoading) {
     return <div className="mx-auto max-w-6xl px-4 py-14 text-center font-bold text-slate-500">{isAr ? "جارٍ تحميل قواعد B2..." : "B2-Grammatik wird geladen..."}</div>;
   }
 
   if (selectedTopic) {
-    const mixedId = course.topics
+    const mixedId = catalog.topics
       .filter((topic) => topic.phaseId === selectedTopic.phaseId)
       .sort((a, b) => a.index.order - b.index.order)
       .at(-1)?.index.id ?? selectedTopic.index.id;
@@ -93,7 +123,7 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
         topic={selectedTopic}
         initialMode={initialMode}
         language={language}
-        onBack={() => { setGrammarRoute(); setSelectedTopicId(""); setProgressRevision((value) => value + 1); }}
+        onBack={() => { setGrammarRoute(); setSelectedTopicId(""); setSelectedTopic(null); setProgressRevision((value) => value + 1); }}
         onModeChange={(mode) => { setGrammarRoute(selectedTopic.index.id, mode); setInitialMode(mode); }}
         onMixed={() => openTopic(mixedId, "mixed")}
         onProgress={() => setProgressRevision((value) => value + 1)}
@@ -102,10 +132,10 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
   }
 
   const progress = B2GrammarProgressService.getProgress();
-  const allIds = course.topics.flatMap((topic) => topic.exercises.map((exercise) => exercise.id));
-  const known = allIds.filter((id) => progress.exercises[id]?.status === "known").length;
-  const reviews = allIds.filter((id) => progress.exercises[id]?.unresolvedMistake).length;
-  const overallPercent = Math.round((known / course.exerciseCount) * 100);
+  const progressEntries = Object.entries(progress.exercises);
+  const known = progressEntries.filter(([, item]) => item.status === "known").length;
+  const reviews = progressEntries.filter(([, item]) => item.unresolvedMistake).length;
+  const overallPercent = Math.round((Math.min(known, catalog.exerciseCount) / catalog.exerciseCount) * 100);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -122,20 +152,20 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
         <h1 className="mt-2 text-3xl font-black text-slate-950">{isAr ? "قواعد B2" : "B2 Grammatik"}</h1>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
           {isAr
-            ? `${course.topics.length} وحدة مستقلة للتعلّم والتدريب ومراجعة الأخطاء، مع حفظ تقدمك محليًا.`
-            : `${course.topics.length} Einheiten zum Lernen, Üben und Wiederholen mit lokal gespeichertem Fortschritt.`}
+            ? `${catalog.topics.length} وحدة مستقلة للتعلّم والتدريب ومراجعة الأخطاء، مع حفظ تقدمك محليًا.`
+            : `${catalog.topics.length} Einheiten zum Lernen, Üben und Wiederholen mit lokal gespeichertem Fortschritt.`}
         </p>
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
-          <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "الوحدات" : "Einheiten"}</span><p className="mt-1 text-2xl font-black">{course.topics.length}</p></div>
-          <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "التمارين" : "Übungen"}</span><p className="mt-1 text-2xl font-black">{course.exerciseCount}</p></div>
+          <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "الوحدات" : "Einheiten"}</span><p className="mt-1 text-2xl font-black">{catalog.topics.length}</p></div>
+          <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "التمارين" : "Übungen"}</span><p className="mt-1 text-2xl font-black">{catalog.exerciseCount}</p></div>
           <div className="border border-slate-200 bg-white p-4 rounded-lg"><span className="text-xs font-bold text-slate-500">{isAr ? "التقدم" : "Fortschritt"}</span><p className="mt-1 text-2xl font-black">{overallPercent}%</p></div>
         </div>
-        {reviews > 0 && <button type="button" onClick={() => { const topic = course.topics.find((item) => item.exercises.some((exercise) => progress.exercises[exercise.id]?.unresolvedMistake)); if (topic) openTopic(topic.index.id, "mistakes"); }} className="mt-4 flex items-center gap-2 border border-amber-300 bg-amber-50 px-4 py-3 text-sm font-black text-amber-900 rounded-lg"><RotateCcw size={18} />{isAr ? `${reviews} أخطاء تحتاج مراجعة` : `${reviews} offene Fehler wiederholen`}</button>}
+        {reviews > 0 && <button type="button" onClick={() => { const mistakeId = progressEntries.find(([, item]) => item.unresolvedMistake)?.[0]; const topic = mistakeId ? catalog.topics.find((item) => mistakeId.startsWith(`${item.index.id.replace("-", "")}-`)) : undefined; if (topic) openTopic(topic.index.id, "mistakes"); }} className="mt-4 flex items-center gap-2 border border-amber-300 bg-amber-50 px-4 py-3 text-sm font-black text-amber-900 rounded-lg"><RotateCcw size={18} />{isAr ? `${reviews} أخطاء تحتاج مراجعة` : `${reviews} offene Fehler wiederholen`}</button>}
       </header>
 
       <div className="space-y-10">
-        {course.phases.map((phase) => {
-          const phaseTopics = course.topics.filter((topic) => topic.phaseId === phase.phaseId);
+        {catalog.phases.map((phase) => {
+          const phaseTopics = catalog.topics.filter((topic) => topic.phaseId === phase.phaseId);
           return (
             <section key={phase.phaseId}>
               <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
@@ -148,8 +178,7 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
 
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {phaseTopics.map((topic) => {
-                  const ids = topic.exercises.map((exercise) => exercise.id);
-                  const stats = B2GrammarProgressService.getTopicStats(topic.index.id, ids);
+                  const stats = B2GrammarProgressService.getTopicSummaryStats(topic.index.id, topic.index.exerciseCount);
                   const topicProgress = progress.topics[topic.index.id];
                   return (
                     <article key={topic.index.id} className={`border bg-white p-5 rounded-lg ${stats.percent === 100 ? "border-emerald-300" : stats.started ? "border-blue-300" : "border-slate-200"}`}>
@@ -160,7 +189,7 @@ export default function B2GrammarPage({ onNavigate, settings }: Props) {
                       <h3 className="mt-3 text-lg font-black text-slate-950" dir="ltr">{topic.index.title_de}</h3>
                       <p className="mt-1 font-bold text-slate-600" dir="rtl">{topic.index.title_ar}</p>
                       <div className="mt-4 flex items-center justify-between text-xs font-bold text-slate-500">
-                        <span>{topic.exercises.length} {isAr ? "تمرينًا" : "Übungen"}</span>
+                        <span>{topic.index.exerciseCount} {isAr ? "تمرينًا" : "Übungen"}</span>
                         <span>{stats.percent}%</span>
                       </div>
                       <div className="mt-2 h-2 overflow-hidden bg-slate-100 rounded"><div className="h-full bg-blue-600" style={{ width: `${stats.percent}%` }} /></div>

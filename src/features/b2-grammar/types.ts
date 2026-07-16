@@ -147,6 +147,17 @@ export interface B2GrammarTopic {
   exercises: B2GrammarExercise[];
 }
 
+export interface B2GrammarCatalogTopic {
+  phaseId: string;
+  index: B2GrammarTopicIndex;
+}
+
+export interface B2GrammarCatalog {
+  phases: B2GrammarPhaseIndex[];
+  topics: B2GrammarCatalogTopic[];
+  exerciseCount: number;
+}
+
 export interface B2GrammarCourse {
   phases: B2GrammarPhaseIndex[];
   topics: B2GrammarTopic[];

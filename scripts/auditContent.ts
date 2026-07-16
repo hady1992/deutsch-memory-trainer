@@ -8,6 +8,12 @@ import {
   getPotentialDuplicateKey,
 } from "../src/services/contentIdentityService.ts";
 import { ImportableContent, validateContentItem } from "../src/services/contentImportService.ts";
+import type { Verb, Vocabulary } from "../src/types.ts";
+import {
+  createDashboardVerbSummary,
+  createDashboardVocabularySummary,
+} from "../src/services/dataService.ts";
+import { DATA_VERSION } from "../src/services/dataVersion.ts";
 
 export const CONTENT_FILES: Record<ContentFamily, string> = {
   verbs: "public/data/verbs.json",
@@ -61,6 +67,7 @@ export async function auditContent(rootDir = process.cwd()): Promise<AuditResult
     (Object.keys(CONTENT_FILES) as ContentFamily[]).map((family) => [family, 0])
   ) as Record<ContentFamily, number>;
   const globalIds = new Map<string, { family: ContentFamily; term: string }>();
+  const auditedItems = new Map<ContentFamily, ImportableContent[]>();
 
   for (const [family, relativePath] of Object.entries(CONTENT_FILES) as Array<[ContentFamily, string]>) {
     const fullPath = path.resolve(rootDir, relativePath);
@@ -77,6 +84,7 @@ export async function auditContent(rootDir = process.cwd()): Promise<AuditResult
     }
 
     counts[family] = parsed.length;
+    auditedItems.set(family, parsed as ImportableContent[]);
     const ids = new Map<string, number>();
     const identities = new Map<string, number>();
     const potentialGroups = new Map<string, Array<{ index: number; identity: string; term: string }>>();
@@ -129,6 +137,30 @@ export async function auditContent(rootDir = process.cwd()): Promise<AuditResult
         );
       }
     });
+  }
+
+  try {
+    const dashboardManifest = JSON.parse(
+      await readFile(path.resolve(rootDir, "public/data/dashboard-manifest.json"), "utf8"),
+    ) as Record<string, unknown>;
+    const expectedVerbs = (auditedItems.get("verbs") || []).map((item) => createDashboardVerbSummary(item as Verb));
+    const expectedVocabulary = ([
+      ...(auditedItems.get("nouns") || []),
+      ...(auditedItems.get("adjectives") || []),
+      ...(auditedItems.get("phrases") || []),
+      ...(auditedItems.get("other-vocabulary") || []),
+    ]).map((item) => createDashboardVocabularySummary(item as Vocabulary));
+    if (dashboardManifest.schemaVersion !== "dashboard-manifest-v1" || dashboardManifest.dataVersion !== DATA_VERSION) {
+      errors.push("public/data/dashboard-manifest.json: schema or data version is stale.");
+    }
+    if (JSON.stringify(dashboardManifest.verbs) !== JSON.stringify(expectedVerbs)) {
+      errors.push("public/data/dashboard-manifest.json: verb summaries are stale.");
+    }
+    if (JSON.stringify(dashboardManifest.vocabulary) !== JSON.stringify(expectedVocabulary)) {
+      errors.push("public/data/dashboard-manifest.json: vocabulary summaries are stale.");
+    }
+  } catch (error) {
+    errors.push(`public/data/dashboard-manifest.json: validation failed: ${(error as Error).message}`);
   }
 
   return { success: errors.length === 0, counts, errors, warnings };

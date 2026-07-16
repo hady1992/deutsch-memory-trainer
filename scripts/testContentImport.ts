@@ -176,6 +176,10 @@ async function assertAuditFailureAndRecovery(): Promise<void> {
     for (const relativePath of Object.values(CONTENT_FILES)) {
       await copyFile(path.resolve(relativePath), path.resolve(tempRoot, relativePath));
     }
+    await copyFile(
+      path.resolve("public/data/dashboard-manifest.json"),
+      path.resolve(tempRoot, "public/data/dashboard-manifest.json"),
+    );
     const verbsPath = path.resolve(tempRoot, CONTENT_FILES.verbs);
     const original = await readFile(verbsPath, "utf8");
     const verbs = JSON.parse(original);

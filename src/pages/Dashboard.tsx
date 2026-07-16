@@ -3,13 +3,6 @@ import { BookOpen, Award, AlertTriangle, Clock, RefreshCw, BarChart2, Play, Plus
 import { DataService } from "../services/dataService";
 import { ProgressService } from "../services/progressService";
 import { MistakeReviewService } from "../services/mistakeReviewService";
-import {
-  detectArticle,
-  detectAuxiliary,
-  detectPlural,
-  detectSeparable,
-  detectVerbPrefix,
-} from "../services/dataEnrichmentService.js";
 import { LastSessionResult, UserSettings } from "../types";
 import { getTranslation } from "../services/translationService";
 import { DailyStudySet, getDailyStudySet } from "../services/dailyStudySetService";
@@ -75,8 +68,9 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
   useEffect(() => {
     async function loadDashboardStats() {
       try {
-        const verbs = await DataService.getVerbs();
-        const vocab = await DataService.getVocabulary();
+        const dashboardData = await DataService.getDashboardData();
+        const verbs = dashboardData.verbs;
+        const vocab = dashboardData.vocabulary;
 
         const verbKeys = verbs.map((v) => `verb-${v.id}`);
         const vocabKeys = vocab.map((v) => `vocab-${v.id}`);
@@ -135,20 +129,14 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
         });
 
         setQualityStats({
-          verbsWithAuxiliary: verbs.filter((v) => v.auxiliary || detectAuxiliary(v.perfekt || "")).length,
-          verbsWithTenseTables: verbs.filter((v) => v.tenses && Object.keys(v.tenses).length > 0).length,
-          verbsNeedingReview: verbs.filter(
-            (v) =>
-              v.dataMeta?.needsReview ||
-              v.tensesMeta?.needsReview ||
-              v.categoryMeta?.needsReview ||
-              v.expandedExamples?.needsReview
-          ).length,
-          separableVerbs: verbs.filter((v) => v.separable ?? detectSeparable(v.prefix || detectVerbPrefix(v.infinitiv))).length,
-          nounsWithArticle: vocab.filter((v) => (v.type === "Nomen" || v.article) && (v.article || detectArticle(v.term))).length,
-          vocabWithExamples: vocab.filter((v) => v.example_de || v.example_ar).length,
-          vocabNeedingReview: vocab.filter((v) => v.vocabMeta?.needsReview || v.dataMeta?.needsReview || v.needsReview).length,
-          vocabWithPlural: vocab.filter((v) => v.plural || detectPlural(v.term)).length,
+          verbsWithAuxiliary: verbs.filter((v) => v.quality.auxiliary).length,
+          verbsWithTenseTables: verbs.filter((v) => v.quality.tenseTable).length,
+          verbsNeedingReview: verbs.filter((v) => v.quality.needsReview).length,
+          separableVerbs: verbs.filter((v) => v.quality.separable).length,
+          nounsWithArticle: vocab.filter((v) => v.quality.nounWithArticle).length,
+          vocabWithExamples: vocab.filter((v) => v.quality.hasExample).length,
+          vocabNeedingReview: vocab.filter((v) => v.quality.needsReview).length,
+          vocabWithPlural: vocab.filter((v) => v.quality.hasPlural).length,
         });
 
         const last = ProgressService.getLastSessionResult();
@@ -164,9 +152,9 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
             list.push({
               id: v.id,
               type: "verb",
-              title: v.infinitiv,
-              subtitle: `${v.praeteritum} • ${v.perfekt}`,
-              translation: v.arabic,
+              title: v.term,
+              subtitle: v.subtitle,
+              translation: v.translation,
               badge: `${translate("verb")} • B1`,
               statusColor: "bg-rose-400"
             });
@@ -180,8 +168,8 @@ export default function Dashboard({ onNavigate, id, settings }: DashboardProps) 
               id: vc.id,
               type: "vocab",
               title: vc.term,
-              subtitle: `${vc.type === 'noun' ? translate('noun') : vc.type === 'verb' ? translate('verb') : vc.type === 'adjective' ? translate('adjective') : translate('word')}`,
-              translation: vc.arabic,
+              subtitle: `${vc.wordType === 'noun' ? translate('noun') : vc.wordType === 'verb' ? translate('verb') : vc.wordType === 'adjective' ? translate('adjective') : translate('word')}`,
+              translation: vc.translation,
               badge: `${translate("vocabularyTitle")} • ${vc.level}`,
               statusColor: "bg-amber-400"
             });

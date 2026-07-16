@@ -39,22 +39,13 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
     setProgressRevision((current) => current + 1);
   }), []);
 
-  const loadCourse = async () => {
+  const loadCourse = async (retry = false) => {
     setLoading(true);
     setError("");
     try {
-      B2CourseService.clearCache();
+      if (retry) B2CourseService.clearCache();
       const courseIndex = await B2CourseService.getIndex();
-      const loadedUnits = await Promise.all(courseIndex.units.map((summary) => B2CourseService.getUnit(summary.unit)));
-      loadedUnits.forEach((unit) => {
-        const identities = [
-          ...unit.vocabulary.items,
-          ...(unit.vocabulary.reusedVocabularyRefs ?? []),
-        ];
-        B2CourseProgressService.migrateVocabularyProgress(unit.summary.unit, identities);
-      });
       setIndex(courseIndex);
-      setUnits(new Map(loadedUnits.map((unit) => [unit.summary.unit, unit])));
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : String(reason));
     } finally {
@@ -186,7 +177,7 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
       {error && (
         <div className="rounded-lg border border-rose-200 bg-rose-50 p-5 text-rose-800">
           <p className="font-bold">{error}</p>
-          <button type="button" onClick={() => void loadCourse()} className="mt-4 flex min-h-11 items-center gap-2 rounded-lg bg-rose-700 px-4 py-2 font-bold text-white">
+          <button type="button" onClick={() => void loadCourse(true)} className="mt-4 flex min-h-11 items-center gap-2 rounded-lg bg-rose-700 px-4 py-2 font-bold text-white">
             <RefreshCw size={17} /> {isRtl ? "إعادة المحاولة" : "Erneut versuchen"}
           </button>
         </div>
@@ -202,16 +193,12 @@ export default function B2CoursePage({ onNavigate, settings }: Props) {
 
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {index.units.map((summary) => {
-              const unit = units.get(summary.unit);
-              const vocabularyIds = unit
-                ? [
-                  ...unit.vocabulary.items.map((item) => item.courseItemId),
-                  ...(unit.vocabulary.reusedVocabularyRefs ?? []).map((item) => item.courseItemId),
-                ]
-                : [];
-              const exerciseIds = unit?.exercises.exercises.map((exercise) => exercise.id) ?? [];
-              const stats = B2CourseProgressService.getUnitStats(summary.unit, vocabularyIds, exerciseIds);
-              const reusedCount = unit?.vocabulary.reusedVocabularyRefs?.length ?? 0;
+              const reusedCount = summary.reusedVocabularyCount ?? 0;
+              const stats = B2CourseProgressService.getUnitSummaryStats(
+                summary.unit,
+                summary.vocabularyCount + reusedCount,
+                summary.exerciseCount,
+              );
               return (
                 <button
                   key={summary.unit}

@@ -21,6 +21,7 @@
       "vocabularyFile": "units/unit-01/vocabulary.json",
       "exercisesFile": "units/unit-01/exercises.json",
       "vocabularyCount": 60,
+      "reusedVocabularyCount": 0,
       "exerciseCount": 28,
       "enabled": true
     },
@@ -36,6 +37,7 @@
       "vocabularyFile": "units/unit-02/vocabulary.json",
       "exercisesFile": "units/unit-02/exercises.json",
       "vocabularyCount": 76,
+      "reusedVocabularyCount": 9,
       "exerciseCount": 41,
       "enabled": true
     },
@@ -51,6 +53,7 @@
       "vocabularyFile": "units/unit-03/vocabulary.json",
       "exercisesFile": "units/unit-03/exercises.json",
       "vocabularyCount": 70,
+      "reusedVocabularyCount": 9,
       "exerciseCount": 42,
       "enabled": true
     },
@@ -66,6 +69,7 @@
       "vocabularyFile": "units/unit-04/vocabulary.json",
       "exercisesFile": "units/unit-04/exercises.json",
       "vocabularyCount": 94,
+      "reusedVocabularyCount": 19,
       "exerciseCount": 50,
       "enabled": true
     },
@@ -81,6 +85,7 @@
       "vocabularyFile": "units/unit-05/vocabulary.json",
       "exercisesFile": "units/unit-05/exercises.json",
       "vocabularyCount": 82,
+      "reusedVocabularyCount": 12,
       "exerciseCount": 50,
       "enabled": true
     },
@@ -96,6 +101,7 @@
       "vocabularyFile": "units/unit-06/vocabulary.json",
       "exercisesFile": "units/unit-06/exercises.json",
       "vocabularyCount": 80,
+      "reusedVocabularyCount": 8,
       "exerciseCount": 50,
       "enabled": true
     },
@@ -111,6 +117,7 @@
       "vocabularyFile": "units/unit-07/vocabulary.json",
       "exercisesFile": "units/unit-07/exercises.json",
       "vocabularyCount": 90,
+      "reusedVocabularyCount": 15,
       "exerciseCount": 50,
       "enabled": true
     },
@@ -126,6 +133,7 @@
       "vocabularyFile": "units/unit-08/vocabulary.json",
       "exercisesFile": "units/unit-08/exercises.json",
       "vocabularyCount": 72,
+      "reusedVocabularyCount": 1,
       "exerciseCount": 50,
       "enabled": true
     },
@@ -141,6 +149,7 @@
       "vocabularyFile": "units/unit-09/vocabulary.json",
       "exercisesFile": "units/unit-09/exercises.json",
       "vocabularyCount": 85,
+      "reusedVocabularyCount": 13,
       "exerciseCount": 55,
       "enabled": true
     },
@@ -156,6 +165,7 @@
       "vocabularyFile": "units/unit-10/vocabulary.json",
       "exercisesFile": "units/unit-10/exercises.json",
       "vocabularyCount": 69,
+      "reusedVocabularyCount": 24,
       "exerciseCount": 55,
       "enabled": true
     },
@@ -171,6 +181,7 @@
       "vocabularyFile": "units/unit-11/vocabulary.json",
       "exercisesFile": "units/unit-11/exercises.json",
       "vocabularyCount": 78,
+      "reusedVocabularyCount": 8,
       "exerciseCount": 55,
       "enabled": true
     },
@@ -186,6 +197,7 @@
       "vocabularyFile": "units/unit-12/vocabulary.json",
       "exercisesFile": "units/unit-12/exercises.json",
       "vocabularyCount": 97,
+      "reusedVocabularyCount": 2,
       "exerciseCount": 56,
       "enabled": true
     },
@@ -201,6 +213,7 @@
       "vocabularyFile": "units/unit-13/vocabulary.json",
       "exercisesFile": "units/unit-13/exercises.json",
       "vocabularyCount": 89,
+      "reusedVocabularyCount": 13,
       "exerciseCount": 54,
       "enabled": true
     },
@@ -216,6 +229,7 @@
       "vocabularyFile": "units/unit-14/vocabulary.json",
       "exercisesFile": "units/unit-14/exercises.json",
       "vocabularyCount": 99,
+      "reusedVocabularyCount": 2,
       "exerciseCount": 55,
       "enabled": true
     }

@@ -5,6 +5,11 @@ import {
 } from "../src/features/b2-grammar/b2GrammarProgressService";
 import { getB2GrammarPromptPresentation } from "../src/features/b2-grammar/b2GrammarPromptService";
 import {
+  clearB2GrammarCache,
+  loadB2GrammarCatalog,
+  loadB2GrammarTopic,
+} from "../src/features/b2-grammar/b2GrammarService";
+import {
   B2_COURSE_PROGRESS_KEY,
   B2CourseProgressService,
 } from "../src/features/b2-course/b2CourseProgressService";
@@ -22,6 +27,39 @@ class MemoryStorage implements Storage {
 
 const storage = new MemoryStorage();
 Object.defineProperty(globalThis, "localStorage", { value: storage, configurable: true });
+
+const originalFetch = globalThis.fetch;
+const grammarRequests: string[] = [];
+const grammarFileFetch = async (input: string | URL | Request) => {
+  const url = new URL(String(input), "http://local.test");
+  grammarRequests.push(url.pathname);
+  const file = new URL(`../public${url.pathname}`, import.meta.url);
+  return new Response(await (await import("node:fs/promises")).readFile(file, "utf8"), {
+    status: 200,
+    headers: { "content-type": "application/json" },
+  });
+};
+globalThis.fetch = grammarFileFetch;
+clearB2GrammarCache();
+const lazyCatalog = await loadB2GrammarCatalog();
+assert.equal(lazyCatalog.topics.length, 50);
+assert.equal(lazyCatalog.exerciseCount, 1202);
+assert.equal(grammarRequests.length, 5, "The grammar overview must load only five phase indexes");
+assert.equal(grammarRequests.every((request) => request.endsWith("/index.json")), true);
+const gr41 = await loadB2GrammarTopic("gr-41");
+assert.equal(gr41.index.id, "gr-41");
+assert.equal(grammarRequests.length, 7, "Opening one grammar topic must add only lesson and exercise JSON");
+await loadB2GrammarTopic("gr-41");
+assert.equal(grammarRequests.length, 7, "Reopening one grammar topic must reuse the in-session cache");
+clearB2GrammarCache("gr-25");
+globalThis.fetch = async () => new Response("Unavailable", { status: 503 });
+const consoleErrorBeforeFetchTest = console.error;
+console.error = () => undefined;
+await assert.rejects(loadB2GrammarTopic("gr-25"), /request failed \(503\)/);
+globalThis.fetch = grammarFileFetch;
+assert.equal((await loadB2GrammarTopic("gr-25")).index.id, "gr-25", "A failed grammar topic request could not be retried");
+console.error = consoleErrorBeforeFetchTest;
+globalThis.fetch = originalFetch;
 
 const arabicPrompt = getB2GrammarPromptPresentation({
   prompt_de: "Ich ______ gern mehr Verantwortung übernehmen.",
@@ -222,6 +260,8 @@ assert.equal(storage.getItem(B2_GRAMMAR_PROGRESS_KEY), "{broken", "Unreadable da
 
 console.log("B2 grammar progress tests: PASSED");
 console.log("Bilingual German prompt presentation: PASSED");
+console.log("Lazy grammar catalog and topic cache: PASSED");
+console.log("Grammar request failure and retry: PASSED");
 console.log("Independent storage key: PASSED");
 console.log("Two-correct mistake resolution: PASSED");
 console.log("Corrupt storage fallback: PASSED");

@@ -15,6 +15,7 @@ import {
   B2_COURSE_PROGRESS_KEY,
   B2CourseProgressService,
 } from "../src/features/b2-course/b2CourseProgressService";
+import { B2CourseService } from "../src/features/b2-course/b2CourseService";
 import type {
   B2CourseExercise,
   B2CourseIndex,
@@ -40,6 +41,42 @@ Object.defineProperty(globalThis, "localStorage", { value: storage, configurable
 
 const root = path.resolve("public/data/courses/b2-course");
 const index = JSON.parse(fs.readFileSync(path.join(root, "index.json"), "utf8")) as B2CourseIndex;
+
+const originalFetch = globalThis.fetch;
+const courseRequests: string[] = [];
+const courseFileFetch = async (input: string | URL | Request) => {
+  const url = new URL(String(input), "http://local.test");
+  courseRequests.push(url.pathname);
+  const file = path.resolve("public", url.pathname.replace(/^\//, ""));
+  return new Response(fs.readFileSync(file, "utf8"), {
+    status: 200,
+    headers: { "content-type": "application/json" },
+  });
+};
+globalThis.fetch = courseFileFetch;
+B2CourseService.clearCache();
+const lazyIndex = await B2CourseService.getIndex();
+assert(lazyIndex.units.length === 14, "The lazy B2 course index lost units.");
+assert(Number(courseRequests.length) === 1 && courseRequests[0].endsWith("/index.json"), "The B2 course overview must load only index.json.");
+await B2CourseService.getUnit(1);
+assert(Number(courseRequests.length) === 3, "Opening one B2 unit must add only its vocabulary and exercise files.");
+await B2CourseService.getUnit(1);
+assert(Number(courseRequests.length) === 3, "Reopening a B2 unit must reuse the in-session cache.");
+await B2CourseService.getResolvedVocabulary(8);
+assert(courseRequests.length < 10, "Resolving reused vocabulary loaded too many B2 units.");
+assert(!courseRequests.some((request) => request.includes("unit-14")), "Opening Kapitel 8 unexpectedly loaded Kapitel 14.");
+B2CourseService.clearCache();
+globalThis.fetch = async () => new Response("Unavailable", { status: 503 });
+let failedCourseIndexRequest = false;
+try {
+  await B2CourseService.getIndex();
+} catch {
+  failedCourseIndexRequest = true;
+}
+assert(failedCourseIndexRequest, "A failed B2 course index request was not rejected.");
+globalThis.fetch = courseFileFetch;
+assert((await B2CourseService.getIndex()).units.length === 14, "A failed B2 course index request could not be retried.");
+globalThis.fetch = originalFetch;
 const exercises: B2CourseExercise[] = index.units.flatMap((unit) => {
   const file = JSON.parse(fs.readFileSync(path.join(root, unit.exercisesFile), "utf8"));
   return file.exercises as B2CourseExercise[];
@@ -460,4 +497,5 @@ console.log(JSON.stringify({
   kapitel9ConvertedExercises: Object.keys(convertedTypes).length,
   kapitel10ResumeAndReview: true,
   kapitel11Through14IndependentProgress: true,
+  lazyCourseIndexAndUnitCache: true,
 }, null, 2));

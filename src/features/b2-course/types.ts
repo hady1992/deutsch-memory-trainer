@@ -27,6 +27,7 @@ export interface B2CourseUnitSummary {
   vocabularyFile: string;
   exercisesFile: string;
   vocabularyCount: number;
+  reusedVocabularyCount?: number;
   exerciseCount: number;
   enabled?: boolean;
 }

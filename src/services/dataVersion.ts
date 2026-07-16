@@ -1,2 +1,2 @@
-export const DATA_VERSION = "2026-07-12-reviewed-v2";
+export const DATA_VERSION = "2026-07-16-lazy-data-v1";
 
