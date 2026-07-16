@@ -1,0 +1,807 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-50",
+  "title_de": "Gemischtes Training – Phase 5 – Übungen",
+  "title_ar": "تمارين مختلطة – المرحلة الخامسة",
+  "level": "B2",
+  "exerciseCount": 30,
+  "supportedTypes": [
+    "dialogue_choice",
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "sourceTopics": [
+    "gr-41",
+    "gr-42",
+    "gr-43",
+    "gr-44",
+    "gr-45",
+    "gr-46",
+    "gr-47",
+    "gr-48",
+    "gr-49"
+  ],
+  "exercises": [
+    {
+      "id": "gr50-e001",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I oder II",
+      "title_ar": "Partizip I أم II",
+      "prompt_de": "Welche Kombination ist korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة؟",
+      "answer": "die prüfende Mitarbeiterin – der geprüfte Antrag",
+      "explanation_de": "Die Mitarbeiterin führt die Handlung aus; der Antrag ist davon betroffen.",
+      "explanation_ar": "تقوم الموظفة بالفعل، بينما يتأثر الطلب به.",
+      "grammarFocus": "participle_i_ii_basic",
+      "sourceTopics": [
+        "gr-41",
+        "gr-42"
+      ],
+      "options": [
+        "die prüfende Mitarbeiterin – der geprüfte Antrag",
+        "die geprüfte Mitarbeiterin – der prüfende Antrag",
+        "die prüfen Mitarbeiterin – der geprüft Antrag",
+        "die geprühfende Mitarbeiterin – der prüfend Antrag"
+      ]
+    },
+    {
+      "id": "gr50-e002",
+      "topicId": "gr-50",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Erweitertes Attribut",
+      "title_ar": "صفة موسعة",
+      "prompt_de": "Die seit zwei Stunden im Flur ______ Gäste wurden informiert.",
+      "prompt_ar": "تم إبلاغ الضيوف الذين ينتظرون في الممر منذ ساعتين.",
+      "answer": "wartenden",
+      "explanation_de": "Zeit und Ort stehen vor dem Partizip I; im Plural lautet die Endung -en.",
+      "explanation_ar": "يأتي الزمن والمكان قبل Partizip I، وتكون نهاية الجمع -en.",
+      "grammarFocus": "extended_participle_i",
+      "sourceTopics": [
+        "gr-41",
+        "gr-43"
+      ],
+      "acceptedAnswers": [
+        "wartenden"
+      ]
+    },
+    {
+      "id": "gr50-e003",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "إجراء أم حالة",
+      "prompt_de": "Welcher Satz beschreibt den Ergebniszustand?",
+      "prompt_ar": "أي جملة تصف حالة النتيجة؟",
+      "answer": "Die Datei ist gespeichert.",
+      "explanation_de": "Sein + Partizip II beschreibt den bestehenden Zustand.",
+      "explanation_ar": "تصف sein + Partizip II الحالة القائمة.",
+      "grammarFocus": "process_state_basic",
+      "sourceTopics": [
+        "gr-45"
+      ],
+      "options": [
+        "Die Datei ist gespeichert.",
+        "Die Datei wird gespeichert.",
+        "Die Datei muss gespeichert werden.",
+        "Die Datei lässt sich speichern."
+      ]
+    },
+    {
+      "id": "gr50-e004",
+      "topicId": "gr-50",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Form und Bedeutung",
+      "title_ar": "الصيغة والمعنى",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "muss geprüft werden": "Pflicht",
+        "lässt sich prüfen": "Möglichkeit",
+        "ist überprüfbar": "kompakte Eigenschaft",
+        "bekommt erklärt": "Empfängerperspektive",
+        "es wird gearbeitet": "unpersönlicher Vorgang"
+      },
+      "explanation_de": "Jede Form setzt einen anderen Bedeutungs- oder Perspektivfokus.",
+      "explanation_ar": "تضع كل صيغة تركيزًا مختلفًا على المعنى أو المنظور.",
+      "grammarFocus": "phase5_form_meaning_matching",
+      "sourceTopics": [
+        "gr-46",
+        "gr-47",
+        "gr-48",
+        "gr-49"
+      ],
+      "pairs": [
+        [
+          "muss geprüft werden",
+          "Pflicht"
+        ],
+        [
+          "lässt sich prüfen",
+          "Möglichkeit"
+        ],
+        [
+          "ist überprüfbar",
+          "kompakte Eigenschaft"
+        ],
+        [
+          "bekommt erklärt",
+          "Empfängerperspektive"
+        ],
+        [
+          "es wird gearbeitet",
+          "unpersönlicher Vorgang"
+        ]
+      ]
+    },
+    {
+      "id": "gr50-e005",
+      "topicId": "gr-50",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Relativsatz",
+      "title_ar": "جملة موصولة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unterlagen, die gestern geprüft wurden, liegen bereit.",
+      "explanation_de": "Der Relativsatz steht zwischen Kommas.",
+      "explanation_ar": "تأتي الجملة الموصولة بين فاصلتين.",
+      "grammarFocus": "relative_clause_punctuation",
+      "sourceTopics": [
+        "gr-42",
+        "gr-44"
+      ],
+      "tokens": [
+        "liegen bereit",
+        "die gestern geprüft wurden",
+        "Die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen, die gestern geprüft wurden, liegen bereit."
+      ]
+    },
+    {
+      "id": "gr50-e006",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Modalpassiv",
+      "title_ar": "Modalpassiv",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag muss erneut geprüft werden.",
+      "explanation_de": "Das Modalverb wird konjugiert; geprüft werden steht am Ende.",
+      "explanation_ar": "يُصرف الفعل الناقص، وتأتي geprüft werden في النهاية.",
+      "grammarFocus": "modal_passive_basic",
+      "sourceTopics": [
+        "gr-46"
+      ],
+      "options": [
+        "Der Antrag muss erneut geprüft werden.",
+        "Der Antrag wird müssen erneut geprüft.",
+        "Der Antrag muss erneut geprüft.",
+        "Der Antrag geprüft werden muss erneut."
+      ]
+    },
+    {
+      "id": "gr50-e007",
+      "topicId": "gr-50",
+      "type": "sentence_build",
+      "difficulty": "easy",
+      "title_de": "Rezipientenpassiv",
+      "title_ar": "Rezipientenpassiv",
+      "prompt_de": "Formen Sie um: Die Beraterin erklärt dem Kunden den Vertrag.",
+      "prompt_ar": "حوّل إلى Bekommen-Passiv.",
+      "answer": "Der Kunde bekommt den Vertrag von der Beraterin erklärt.",
+      "explanation_de": "Der Dativempfänger wird zum Subjekt; der Vertrag bleibt Akkusativ.",
+      "explanation_ar": "يتحول متلقي Dativ إلى فاعل، ويبقى العقد في Akkusativ.",
+      "grammarFocus": "recipient_passive_basic",
+      "sourceTopics": [
+        "gr-48"
+      ],
+      "acceptedAnswers": [
+        "Der Kunde bekommt den Vertrag von der Beraterin erklärt."
+      ]
+    },
+    {
+      "id": "gr50-e008",
+      "topicId": "gr-50",
+      "type": "scenario_choice",
+      "difficulty": "easy",
+      "title_de": "Formelle Regel",
+      "title_ar": "قاعدة رسمية",
+      "prompt_de": "Welche Formulierung passt am besten zu einer Prüfungsordnung?",
+      "prompt_ar": "أي صياغة تناسب نظام اختبار؟",
+      "answer": "Während der Prüfung darf nicht gesprochen werden.",
+      "explanation_de": "Das unpersönliche Modalpassiv ist sachlich und regelhaft.",
+      "explanation_ar": "المبني للمجهول غير الشخصي مع فعل ناقص موضوعي ومناسب للقواعد.",
+      "grammarFocus": "formal_impersonal_rule",
+      "sourceTopics": [
+        "gr-46",
+        "gr-49"
+      ],
+      "options": [
+        "Während der Prüfung darf nicht gesprochen werden.",
+        "Leute sollen vielleicht nicht viel sprechen.",
+        "Während der Prüfung ist sprechen nicht.",
+        "Es darf während Prüfung nicht zu gesprochen."
+      ]
+    },
+    {
+      "id": "gr50-e009",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Partizipialattribut auflösen",
+      "title_ar": "تفكيك صفة Partizip",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die angekommenen Gäste → die Gäste, die angekommen sind",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Perfekt.",
+      "grammarFocus": "participle_ii_sein_verb",
+      "sourceTopics": [
+        "gr-42",
+        "gr-44"
+      ],
+      "options": [
+        "die angekommenen Gäste → die Gäste, die angekommen sind",
+        "die angekommenen Gäste → die Gäste, die angekommen wurden",
+        "die angekommenen Gäste → die Gäste, die jemand angekommen hat",
+        "die angekommenen Gäste → die Gäste, die ankommend gewesen werden"
+      ]
+    },
+    {
+      "id": "gr50-e010",
+      "topicId": "gr-50",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit Modalpassiv",
+      "title_ar": "جملة فرعية مع Modalpassiv",
+      "prompt_de": "Die Frist wurde verlängert, weil der Antrag erneut geprüft werden ______.",
+      "prompt_ar": "تم تمديد المهلة لأن الطلب كان يجب مراجعته مجددًا.",
+      "answer": "musste",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص المصرف في نهاية الجملة الفرعية.",
+      "grammarFocus": "modal_passive_subordinate",
+      "sourceTopics": [
+        "gr-46"
+      ],
+      "acceptedAnswers": [
+        "musste"
+      ]
+    },
+    {
+      "id": "gr50-e011",
+      "topicId": "gr-50",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Erweitertes Partizip II",
+      "title_ar": "صفة موسعة من Partizip II",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die gestern von der Fachabteilung vollständig geprüften Unterlagen",
+      "explanation_de": "Zeitangabe, Agens und Adverb stehen vor dem Partizip II.",
+      "explanation_ar": "يأتي الزمن والفاعل والحال قبل Partizip II.",
+      "grammarFocus": "extended_participle_ii_order",
+      "sourceTopics": [
+        "gr-42",
+        "gr-43"
+      ],
+      "tokens": [
+        "Unterlagen",
+        "geprüften",
+        "vollständig",
+        "von der Fachabteilung",
+        "gestern",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die gestern von der Fachabteilung vollständig geprüften Unterlagen"
+      ]
+    },
+    {
+      "id": "gr50-e012",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Passiversatzform wählen",
+      "title_ar": "اختيار بديل Passiv",
+      "prompt_de": "Welche Form drückt neutral eine praktische Möglichkeit aus?",
+      "prompt_ar": "أي صيغة تعبّر بصورة محايدة عن إمكانية عملية؟",
+      "answer": "Das Problem lässt sich lösen.",
+      "explanation_de": "Sich lassen bezeichnet meist Möglichkeit und wirkt neutral.",
+      "explanation_ar": "تعبّر sich lassen غالبًا عن الإمكان وتبدو محايدة.",
+      "grammarFocus": "passive_replacement_style",
+      "sourceTopics": [
+        "gr-47"
+      ],
+      "options": [
+        "Das Problem lässt sich lösen.",
+        "Das Problem ist bis Freitag zu lösen.",
+        "Das Problem muss gelöst werden.",
+        "Das Problem wurde gelöst."
+      ]
+    },
+    {
+      "id": "gr50-e013",
+      "topicId": "gr-50",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Perspektiven vergleichen",
+      "title_ar": "مقارنة المناظير",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "Die Firma schickt dem Kunden den Vertrag.": "Handelnder im Fokus",
+        "Der Vertrag wird dem Kunden geschickt.": "Gegenstand und Vorgang im Fokus",
+        "Der Kunde bekommt den Vertrag geschickt.": "Empfänger im Fokus",
+        "Der Vertrag ist verschickt.": "Ergebniszustand"
+      },
+      "explanation_de": "Aktiv und Passivformen organisieren dieselbe Situation unterschiedlich.",
+      "explanation_ar": "تنظم صيغ المعلوم والمجهول الموقف نفسه من مناظير مختلفة.",
+      "grammarFocus": "perspective_matching",
+      "sourceTopics": [
+        "gr-45",
+        "gr-48"
+      ],
+      "pairs": [
+        [
+          "Die Firma schickt dem Kunden den Vertrag.",
+          "Handelnder im Fokus"
+        ],
+        [
+          "Der Vertrag wird dem Kunden geschickt.",
+          "Gegenstand und Vorgang im Fokus"
+        ],
+        [
+          "Der Kunde bekommt den Vertrag geschickt.",
+          "Empfänger im Fokus"
+        ],
+        [
+          "Der Vertrag ist verschickt.",
+          "Ergebniszustand"
+        ]
+      ]
+    },
+    {
+      "id": "gr50-e014",
+      "topicId": "gr-50",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Relativsatz verdichten",
+      "title_ar": "تكثيف جملة موصولة",
+      "prompt_de": "Formen Sie um: die Bewerber, die sich intensiv auf das Gespräch vorbereiten",
+      "prompt_ar": "حوّل إلى صفة Partizip.",
+      "answer": "die sich intensiv auf das Gespräch vorbereitenden Bewerber",
+      "explanation_de": "Reflexivpronomen, Adverb und Präpositionalergänzung bleiben erhalten.",
+      "explanation_ar": "يبقى الضمير الانعكاسي والحال ومتمم حرف الجر.",
+      "grammarFocus": "reflexive_relative_compression",
+      "sourceTopics": [
+        "gr-41",
+        "gr-43",
+        "gr-44"
+      ],
+      "acceptedAnswers": [
+        "die sich intensiv auf das Gespräch vorbereitenden Bewerber"
+      ]
+    },
+    {
+      "id": "gr50-e015",
+      "topicId": "gr-50",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Vorgang und Zustand verbinden",
+      "title_ar": "ربط الإجراء والحالة",
+      "prompt_de": "Formulieren Sie zwei Sätze: Zuerst erfolgt die Freigabe. Danach besteht der freigegebene Zustand.",
+      "prompt_ar": "صغ جملتين تميزان الإجراء والحالة.",
+      "answer": "Zuerst wird der Bericht freigegeben. Danach ist er freigegeben.",
+      "explanation_de": "Werden beschreibt den Vorgang, sein das Ergebnis.",
+      "explanation_ar": "تصف werden الإجراء، وتصف sein النتيجة.",
+      "grammarFocus": "process_state_sequence",
+      "sourceTopics": [
+        "gr-45"
+      ],
+      "acceptedAnswers": [
+        "Zuerst wird der Bericht freigegeben. Danach ist er freigegeben."
+      ]
+    },
+    {
+      "id": "gr50-e016",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nicht müssen oder nicht dürfen",
+      "title_ar": "nicht müssen أم nicht dürfen",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Muss nicht ausgefüllt werden“ bedeutet keine Pflicht; „darf nicht ausgefüllt werden“ bedeutet Verbot.",
+      "explanation_de": "Die Negation verändert die Modalbedeutung.",
+      "explanation_ar": "يغير النفي معنى الفعل الناقص.",
+      "grammarFocus": "modal_negation_contrast",
+      "sourceTopics": [
+        "gr-46"
+      ],
+      "options": [
+        "„Muss nicht ausgefüllt werden“ bedeutet keine Pflicht; „darf nicht ausgefüllt werden“ bedeutet Verbot.",
+        "Beide Formen bedeuten dasselbe.",
+        "Nicht müssen bedeutet immer Verbot.",
+        "Nicht dürfen bedeutet freiwillige Handlung."
+      ]
+    },
+    {
+      "id": "gr50-e017",
+      "topicId": "gr-50",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Perfekt von sich lassen",
+      "title_ar": "Perfekt من sich lassen",
+      "prompt_de": "Das Problem hat sich schnell lösen ______.",
+      "prompt_ar": "أمكن حل المشكلة بسرعة.",
+      "answer": "lassen",
+      "explanation_de": "Im Perfekt steht hat sich + Infinitiv + lassen.",
+      "explanation_ar": "في Perfekt نستخدم hat sich + المصدر + lassen.",
+      "grammarFocus": "sich_lassen_perfect",
+      "sourceTopics": [
+        "gr-47"
+      ],
+      "acceptedAnswers": [
+        "lassen"
+      ]
+    },
+    {
+      "id": "gr50-e018",
+      "topicId": "gr-50",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Unpersönliches Passiv",
+      "title_ar": "Passiv غير الشخصي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Über die neue Regelung ist ausführlich gesprochen worden.",
+      "explanation_de": "Die Präpositionalergänzung bleibt erhalten; das Perfekt endet mit worden.",
+      "explanation_ar": "يبقى متمم حرف الجر، وينتهي Perfekt بـ worden.",
+      "grammarFocus": "impersonal_passive_perfect",
+      "sourceTopics": [
+        "gr-49"
+      ],
+      "tokens": [
+        "ausführlich gesprochen worden",
+        "ist",
+        "Über die neue Regelung"
+      ],
+      "acceptedAnswers": [
+        "Über die neue Regelung ist ausführlich gesprochen worden."
+      ]
+    },
+    {
+      "id": "gr50-e019",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Passivfähigkeit",
+      "title_ar": "قابلية Passiv",
+      "prompt_de": "Welche Gruppe enthält nur Verben mit deutlicher Passivbeschränkung?",
+      "prompt_ar": "أي مجموعة تحتوي فقط أفعالًا عليها قيود واضحة في Passiv؟",
+      "answer": "besitzen – wissen – regnen – sich erinnern",
+      "explanation_de": "Besitz, Wissen und Wetter begrenzen die reguläre Passivbildung; reflexive Verben haben kein gewöhnliches persönliches Passiv.",
+      "explanation_ar": "تحد الملكية والمعرفة والطقس من Passiv العادي، ولا تملك الأفعال الانعكاسية مبنيًا للمجهول شخصيًا عاديًا.",
+      "grammarFocus": "passive_restrictions",
+      "sourceTopics": [
+        "gr-49"
+      ],
+      "options": [
+        "besitzen – wissen – regnen – sich erinnern",
+        "prüfen – schreiben – erklären – schicken",
+        "arbeiten – tanzen – helfen – warten",
+        "diskutieren – danken – verhandeln – sprechen"
+      ]
+    },
+    {
+      "id": "gr50-e020",
+      "topicId": "gr-50",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv in zwei Passivformen",
+      "title_ar": "تحويل المعلوم إلى صيغتي Passiv",
+      "prompt_de": "Formen Sie um: Die Personalabteilung erklärt der Bewerberin den Ablauf. Bilden Sie Vorgangs- und Bekommen-Passiv.",
+      "prompt_ar": "حوّل إلى Vorgangspassiv وBekommen-Passiv.",
+      "answer": "Der Ablauf wird der Bewerberin von der Personalabteilung erklärt. Die Bewerberin bekommt den Ablauf von der Personalabteilung erklärt.",
+      "explanation_de": "Die erste Form fokussiert den Ablauf; die zweite die Empfängerin.",
+      "explanation_ar": "تركز الصيغة الأولى على سير الإجراء، والثانية على المتلقية.",
+      "grammarFocus": "two_passive_perspectives",
+      "sourceTopics": [
+        "gr-45",
+        "gr-48"
+      ],
+      "acceptedAnswers": [
+        "Der Ablauf wird der Bewerberin von der Personalabteilung erklärt. Die Bewerberin bekommt den Ablauf von der Personalabteilung erklärt."
+      ]
+    },
+    {
+      "id": "gr50-e021",
+      "topicId": "gr-50",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Technische Bewertung",
+      "title_ar": "تقييم تقني",
+      "prompt_de": "Welche Formulierung passt am besten in eine technische Kurzbewertung?",
+      "prompt_ar": "أي صياغة تناسب تقييمًا تقنيًا مختصرًا؟",
+      "answer": "Die Lösung ist technisch umsetzbar und jederzeit überprüfbar.",
+      "explanation_de": "Adjektive auf -bar bewerten Machbarkeit und Kontrollierbarkeit kompakt.",
+      "explanation_ar": "تقيّم صفات -bar القابلية للتنفيذ والتحقق بإيجاز.",
+      "grammarFocus": "technical_bar_style",
+      "sourceTopics": [
+        "gr-47"
+      ],
+      "options": [
+        "Die Lösung ist technisch umsetzbar und jederzeit überprüfbar.",
+        "Die Lösung lässt technisch umgesetzt sich.",
+        "Die Lösung ist zu umgesetzt und geprüft.",
+        "Die Lösung wird umsetzlicht."
+      ]
+    },
+    {
+      "id": "gr50-e022",
+      "topicId": "gr-50",
+      "type": "dialogue_choice",
+      "difficulty": "medium",
+      "title_de": "Passende Antwort im Büro",
+      "title_ar": "إجابة مناسبة في المكتب",
+      "prompt_de": "Kollegin: „Sind die Reisekosten schon bearbeitet?“ Welche Antwort ist grammatisch und situativ passend?",
+      "prompt_ar": "الزميلة: هل تمت معالجة تكاليف السفر؟ ما الإجابة الصحيحة والمناسبة؟",
+      "answer": "Ja, die Beschäftigten bekommen die Kosten morgen vollständig erstattet.",
+      "explanation_de": "Die Antwort nutzt die Empfängerperspektive und nennt den zukünftigen Zeitpunkt.",
+      "explanation_ar": "تستخدم الإجابة منظور المتلقي وتذكر الوقت المستقبلي.",
+      "grammarFocus": "dialogue_recipient_passive",
+      "sourceTopics": [
+        "gr-48"
+      ],
+      "options": [
+        "Ja, die Beschäftigten bekommen die Kosten morgen vollständig erstattet.",
+        "Ja, den Beschäftigten bekommt morgen die Kosten.",
+        "Ja, die Kosten sind morgen bekommen erstattet.",
+        "Ja, die Beschäftigten werden morgen erstatten bekommen worden."
+      ]
+    },
+    {
+      "id": "gr50-e023",
+      "topicId": "gr-50",
+      "type": "matching",
+      "difficulty": "hard",
+      "title_de": "Komplexe Umformungen",
+      "title_ar": "تحويلات معقدة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "die seit Stunden wartenden Gäste": "die Gäste, die seit Stunden warten",
+        "die gestern genehmigten Anträge": "die Anträge, die gestern genehmigt wurden",
+        "die geschlossene Tür": "die Tür, die geschlossen ist",
+        "die angekommenen Fachleute": "die Fachleute, die angekommen sind",
+        "die dem Team fehlenden Daten": "die Daten, die dem Team fehlen"
+      },
+      "explanation_de": "Aktiv, Passiv, Zustand, Perfekt mit sein und Dativ müssen korrekt unterschieden werden.",
+      "explanation_ar": "يجب التمييز بين المعلوم والمجهول والحالة وPerfekt مع sein وDativ.",
+      "grammarFocus": "complex_participial_transformations",
+      "sourceTopics": [
+        "gr-41",
+        "gr-42",
+        "gr-44"
+      ],
+      "pairs": [
+        [
+          "die seit Stunden wartenden Gäste",
+          "die Gäste, die seit Stunden warten"
+        ],
+        [
+          "die gestern genehmigten Anträge",
+          "die Anträge, die gestern genehmigt wurden"
+        ],
+        [
+          "die geschlossene Tür",
+          "die Tür, die geschlossen ist"
+        ],
+        [
+          "die angekommenen Fachleute",
+          "die Fachleute, die angekommen sind"
+        ],
+        [
+          "die dem Team fehlenden Daten",
+          "die Daten, die dem Team fehlen"
+        ]
+      ]
+    },
+    {
+      "id": "gr50-e024",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Modalpassiv im Perfekt",
+      "title_ar": "Modalpassiv في Perfekt",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag hat erneut geprüft werden müssen.",
+      "explanation_de": "Das Perfekt verwendet den Ersatzinfinitiv müssen.",
+      "explanation_ar": "يستخدم Perfekt صيغة Ersatzinfinitiv müssen.",
+      "grammarFocus": "modal_passive_perfect",
+      "sourceTopics": [
+        "gr-46"
+      ],
+      "options": [
+        "Der Antrag hat erneut geprüft werden müssen.",
+        "Der Antrag ist erneut geprüft werden gemusst.",
+        "Der Antrag hat erneut geprüft worden müssen.",
+        "Der Antrag musste erneut geprüft worden hat."
+      ]
+    },
+    {
+      "id": "gr50-e025",
+      "topicId": "gr-50",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "title_de": "Bekommen-Passiv im Nebensatz",
+      "title_ar": "Bekommen-Passiv في الجملة الفرعية",
+      "prompt_de": "Sie konnte beginnen, nachdem sie alle Zugänge gezeigt bekommen ______.",
+      "prompt_ar": "تمكنت من البدء بعد أن تم إطلاعها على جميع طرق الدخول.",
+      "answer": "hatte",
+      "explanation_de": "Im Plusquamperfekt des Nebensatzes steht hatte am Ende.",
+      "explanation_ar": "في Plusquamperfekt للجملة الفرعية تأتي hatte في النهاية.",
+      "grammarFocus": "recipient_passive_plusquamperfect",
+      "sourceTopics": [
+        "gr-48"
+      ],
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "gr50-e026",
+      "topicId": "gr-50",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Strukturen kombinieren",
+      "title_ar": "جمع عدة تراكيب",
+      "prompt_de": "Ordnen Sie den Text.",
+      "prompt_ar": "رتب النص.",
+      "answer": "Der Bericht muss überarbeitet werden. Die notwendigen Änderungen lassen sich klar beschreiben. Danach ist die neue Fassung leicht überprüfbar.",
+      "explanation_de": "Modalpassiv, sich lassen und -bar werden logisch verbunden.",
+      "explanation_ar": "تم ربط Modalpassiv وsich lassen و-bar بصورة منطقية.",
+      "grammarFocus": "mixed_modal_replacement_order",
+      "sourceTopics": [
+        "gr-46",
+        "gr-47"
+      ],
+      "tokens": [
+        "Danach ist die neue Fassung leicht überprüfbar",
+        "Die notwendigen Änderungen lassen sich klar beschreiben",
+        "Der Bericht muss überarbeitet werden"
+      ],
+      "acceptedAnswers": [
+        "Der Bericht muss überarbeitet werden. Die notwendigen Änderungen lassen sich klar beschreiben. Danach ist die neue Fassung leicht überprüfbar."
+      ]
+    },
+    {
+      "id": "gr50-e027",
+      "topicId": "gr-50",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Stil und Lesbarkeit",
+      "title_ar": "الأسلوب وسهولة القراءة",
+      "prompt_de": "Welche Formulierung ist bei hoher Informationsdichte besser lesbar?",
+      "prompt_ar": "أي صياغة أسهل قراءة عند كثافة المعلومات؟",
+      "answer": "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigt wurden, werden veröffentlicht.",
+      "explanation_de": "Ein Relativsatz ist bei sehr vielen Ergänzungen oft klarer als ein langes Partizipialattribut.",
+      "explanation_ar": "تكون الجملة الموصولة أوضح غالبًا من صفة Partizip طويلة جدًا.",
+      "grammarFocus": "style_relative_vs_attribute",
+      "sourceTopics": [
+        "gr-43",
+        "gr-44"
+      ],
+      "options": [
+        "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigt wurden, werden veröffentlicht.",
+        "Die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigten Anträge werden veröffentlicht.",
+        "Die Anträge nach Prüfung Stellen genehmigt werden veröffentlicht.",
+        "Die genehmigend durch Stellen Anträge werden veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr50-e028",
+      "topicId": "gr-50",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe Prozessbeschreibung",
+      "title_ar": "وصف إجراء معقد",
+      "prompt_de": "Formulieren Sie drei Sätze: Die Fachabteilung prüft die Unterlagen. Die Personalabteilung erklärt der Bewerberin danach den weiteren Ablauf. Während der Prüfung arbeitet man vertraulich.",
+      "prompt_ar": "صغ الجمل باستخدام Vorgangspassiv وBekommen-Passiv وPassiv غير شخصي: يفحص القسم المختص المستندات، ثم يشرح قسم الموارد البشرية للمتقدمة سير الخطوات التالية، ويعمل المرء بسرية أثناء الفحص.",
+      "answer": "Die Unterlagen werden von der Fachabteilung geprüft. Danach bekommt die Bewerberin den weiteren Ablauf von der Personalabteilung erklärt. Während der Prüfung wird vertraulich gearbeitet.",
+      "explanation_de": "Die drei Sätze setzen Gegenstand, Empfängerin und Tätigkeit jeweils passend in den Mittelpunkt.",
+      "explanation_ar": "تضع الجمل الثلاث الشيء والمتلقية والنشاط في مركز الاهتمام بصورة مناسبة.",
+      "grammarFocus": "three_passive_systems",
+      "sourceTopics": [
+        "gr-45",
+        "gr-48",
+        "gr-49"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen werden von der Fachabteilung geprüft. Danach bekommt die Bewerberin den weiteren Ablauf von der Personalabteilung erklärt. Während der Prüfung wird vertraulich gearbeitet."
+      ]
+    },
+    {
+      "id": "gr50-e029",
+      "topicId": "gr-50",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Nebensatz",
+      "title_ar": "جملة فرعية معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Veröffentlichung verzögert sich, weil die gestern eingereichten Unterlagen noch geprüft werden müssen.",
+      "explanation_de": "Das Partizipialattribut bleibt erhalten; im Nebensatz steht müssen am Ende.",
+      "explanation_ar": "تبقى صفة Partizip، وتأتي müssen في نهاية الجملة الفرعية.",
+      "grammarFocus": "attribute_modal_subordinate",
+      "sourceTopics": [
+        "gr-42",
+        "gr-43",
+        "gr-46"
+      ],
+      "tokens": [
+        "noch geprüft werden müssen",
+        "weil die gestern eingereichten Unterlagen",
+        "Die Veröffentlichung verzögert sich"
+      ],
+      "acceptedAnswers": [
+        "Die Veröffentlichung verzögert sich, weil die gestern eingereichten Unterlagen noch geprüft werden müssen."
+      ]
+    },
+    {
+      "id": "gr50-e030",
+      "topicId": "gr-50",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Phase 5",
+      "title_ar": "التدريب الختامي للمرحلة الخامسة",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens achtzehn Sätzen über einen Prüfungs-, Bewerbungs- oder Verwaltungsprozess. Verbinden Sie alle Themen der Phase 5.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من ثماني عشرة جملة على الأقل عن عملية فحص أو توظيف أو إجراء إداري. ادمج جميع موضوعات المرحلة الخامسة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens zwei Partizip-I-Attribute",
+          "mindestens zwei Partizip-II-Attribute",
+          "mindestens zwei erweiterte Partizipialattribute",
+          "mindestens zwei Umformungen zwischen Attribut und Relativsatz",
+          "mindestens zwei Vorgangspassiv- und zwei Zustandspassiv-Sätze",
+          "mindestens zwei Modalpassiv-Sätze",
+          "je mindestens eine Form mit sein + zu, sich lassen und -bar",
+          "mindestens zwei Bekommen-Passiv-Sätze",
+          "mindestens zwei unpersönliche Passivsätze",
+          "mindestens zwei korrekt erklärte Passivbeschränkungen",
+          "mindestens drei verschiedene Zeitformen",
+          "korrekte Kasus, Wortstellung, Kommas und stilistische Entscheidungen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Partizipwahl, Attribute, Relativsätze, Passivart, Modalität, Ersatzformen, Empfängerperspektive, Passivfähigkeit, Zeit, Kasus und Stil.",
+      "explanation_ar": "راجع اختيار Partizip والصفات والجمل الموصولة ونوع Passiv والمعنى الناقص والبدائل ومنظور المتلقي وقابلية Passiv والزمن والحالات والأسلوب.",
+      "grammarFocus": "full_phase5_integration",
+      "sourceTopics": [
+        "gr-41",
+        "gr-42",
+        "gr-43",
+        "gr-44",
+        "gr-45",
+        "gr-46",
+        "gr-47",
+        "gr-48",
+        "gr-49"
+      ],
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

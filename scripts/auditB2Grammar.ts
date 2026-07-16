@@ -18,6 +18,7 @@ const phaseSpecs = [
   { root: "phase-2", phaseId: "grammar-phase-2", firstTopic: 11, lastTopic: 20, exerciseCount: 236 },
   { root: "phase-3", phaseId: "grammar-phase-3", firstTopic: 21, lastTopic: 30, exerciseCount: 246 },
   { root: "phase-4", phaseId: "grammar-phase-4", firstTopic: 31, lastTopic: 40, exerciseCount: 246 },
+  { root: "phase-5", phaseId: "grammar-phase-5", firstTopic: 41, lastTopic: 50, exerciseCount: 246 },
 ] as const;
 
 async function readJson<T>(filePath: string): Promise<T> {
@@ -98,8 +99,8 @@ async function audit(): Promise<void> {
   for (const type of typeCounts.keys()) {
     if (!SUPPORTED_B2_GRAMMAR_TYPES.includes(type as never)) errors.push(`Unsupported type: ${type}`);
   }
-  if (topicIds.size !== 40) errors.push(`Expected 40 topics, found ${topicIds.size}`);
-  if (exerciseCount !== 956 || exerciseIds.size !== 956) errors.push(`Expected 956 unique exercises, found ${exerciseCount}/${exerciseIds.size}`);
+  if (topicIds.size !== 50) errors.push(`Expected 50 topics, found ${topicIds.size}`);
+  if (exerciseCount !== 1202 || exerciseIds.size !== 1202) errors.push(`Expected 1202 unique exercises, found ${exerciseCount}/${exerciseIds.size}`);
 
   console.log("B2 grammar content audit");
   console.log(`Topics: ${topicIds.size}`);

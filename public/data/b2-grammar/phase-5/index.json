@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "b2-grammar-phase-index-v1",
+  "contentVersion": "2026-07-16",
+  "courseId": "b2-course",
+  "phaseId": "grammar-phase-5",
+  "title_de": "B2 Grammatik – Phase 5",
+  "title_ar": "قواعد B2 – المرحلة الخامسة",
+  "level": "B2",
+  "status": "assembled_and_validated",
+  "progressKeyRecommendation": "dmt_b2_grammar_progress_v1",
+  "topicCount": 10,
+  "exerciseCount": 246,
+  "difficultyDistribution": {
+    "easy": 71,
+    "hard": 71,
+    "medium": 104
+  },
+  "typeDistribution": {
+    "dialogue_choice": 1,
+    "fill_blank": 31,
+    "guided_writing": 10,
+    "matching": 21,
+    "multiple_choice": 81,
+    "scenario_choice": 20,
+    "sentence_build": 41,
+    "sentence_order": 41
+  },
+  "topics": [
+    {
+      "id": "gr-41",
+      "order": 41,
+      "slug": "gr-41-partizip-i-als-adjektiv",
+      "title_de": "Partizip I als Adjektiv",
+      "title_ar": "Partizip I بوصفه صفة",
+      "level": "B2",
+      "lessonPath": "topics/gr-41-partizip-i-als-adjektiv/lesson.json",
+      "exercisesPath": "topics/gr-41-partizip-i-als-adjektiv/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 60,
+      "sourceType": "grundlage",
+      "category": "partizipialattribute"
+    },
+    {
+      "id": "gr-42",
+      "order": 42,
+      "slug": "gr-42-partizip-ii-als-adjektiv",
+      "title_de": "Partizip II als Adjektiv",
+      "title_ar": "Partizip II بوصفه صفة",
+      "level": "B2",
+      "lessonPath": "topics/gr-42-partizip-ii-als-adjektiv/lesson.json",
+      "exercisesPath": "topics/gr-42-partizip-ii-als-adjektiv/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 65,
+      "sourceType": "grundlage",
+      "category": "partizipialattribute"
+    },
+    {
+      "id": "gr-43",
+      "order": 43,
+      "slug": "gr-43-erweiterte-partizipialattribute",
+      "title_de": "Erweiterte Partizipialattribute",
+      "title_ar": "صفات Partizip الموسعة",
+      "level": "B2",
+      "lessonPath": "topics/gr-43-erweiterte-partizipialattribute/lesson.json",
+      "exercisesPath": "topics/gr-43-erweiterte-partizipialattribute/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 70,
+      "sourceType": "grundlage",
+      "category": "partizipialattribute"
+    },
+    {
+      "id": "gr-44",
+      "order": 44,
+      "slug": "gr-44-partizipialattribute-relativsaetze-umformen",
+      "title_de": "Partizipialattribute und Relativsätze umformen",
+      "title_ar": "تحويل صفات Partizip والجمل الموصولة",
+      "level": "B2",
+      "lessonPath": "topics/gr-44-partizipialattribute-relativsaetze-umformen/lesson.json",
+      "exercisesPath": "topics/gr-44-partizipialattribute-relativsaetze-umformen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 70,
+      "sourceType": "grundlage",
+      "category": "partizipialattribute"
+    },
+    {
+      "id": "gr-45",
+      "order": 45,
+      "slug": "gr-45-vorgangspassiv-zustandspassiv-vertiefen",
+      "title_de": "Vorgangspassiv und Zustandspassiv vertiefen",
+      "title_ar": "تعميق المبني للمجهول الحدثي والحالي",
+      "level": "B2",
+      "lessonPath": "topics/gr-45-vorgangspassiv-zustandspassiv-vertiefen/lesson.json",
+      "exercisesPath": "topics/gr-45-vorgangspassiv-zustandspassiv-vertiefen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-46",
+      "order": 46,
+      "slug": "gr-46-passiv-mit-modalverben",
+      "title_de": "Passiv mit Modalverben",
+      "title_ar": "المبني للمجهول مع الأفعال الناقصة",
+      "level": "B2",
+      "lessonPath": "topics/gr-46-passiv-mit-modalverben/lesson.json",
+      "exercisesPath": "topics/gr-46-passiv-mit-modalverben/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-47",
+      "order": 47,
+      "slug": "gr-47-passiversatzformen-sein-zu-sich-lassen-bar",
+      "title_de": "Passiversatzformen mit sein + zu, sich lassen und Adjektiven auf -bar",
+      "title_ar": "بدائل المبني للمجهول باستخدام sein + zu وsich lassen وصفات -bar",
+      "level": "B2",
+      "lessonPath": "topics/gr-47-passiversatzformen-sein-zu-sich-lassen-bar/lesson.json",
+      "exercisesPath": "topics/gr-47-passiversatzformen-sein-zu-sich-lassen-bar/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-48",
+      "order": 48,
+      "slug": "gr-48-bekommen-passiv-rezipientenperspektive",
+      "title_de": "Bekommen-Passiv und Rezipientenperspektive",
+      "title_ar": "المبني للمجهول باستخدام bekommen ومنظور المتلقي",
+      "level": "B2",
+      "lessonPath": "topics/gr-48-bekommen-passiv-rezipientenperspektive/lesson.json",
+      "exercisesPath": "topics/gr-48-bekommen-passiv-rezipientenperspektive/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-49",
+      "order": 49,
+      "slug": "gr-49-unpersoenliches-passiv-passivbeschraenkungen",
+      "title_de": "Unpersönliches Passiv und Passivbeschränkungen",
+      "title_ar": "المبني للمجهول غير الشخصي وقيود المبني للمجهول",
+      "level": "B2",
+      "lessonPath": "topics/gr-49-unpersoenliches-passiv-passivbeschraenkungen/lesson.json",
+      "exercisesPath": "topics/gr-49-unpersoenliches-passiv-passivbeschraenkungen/exercises.json",
+      "exerciseCount": 24,
+      "difficultyDistribution": {
+        "easy": 7,
+        "hard": 7,
+        "medium": 10
+      },
+      "typeDistribution": {
+        "fill_blank": 3,
+        "guided_writing": 1,
+        "matching": 2,
+        "multiple_choice": 8,
+        "scenario_choice": 2,
+        "sentence_build": 4,
+        "sentence_order": 4
+      },
+      "estimatedMinutes": 75,
+      "sourceType": "grundlage",
+      "category": "passiv"
+    },
+    {
+      "id": "gr-50",
+      "order": 50,
+      "slug": "gr-50-gemischtes-training-phase-5",
+      "title_de": "Gemischtes Training – Phase 5",
+      "title_ar": "تدريب مختلط – المرحلة الخامسة",
+      "level": "B2",
+      "lessonPath": "topics/gr-50-gemischtes-training-phase-5/lesson.json",
+      "exercisesPath": "topics/gr-50-gemischtes-training-phase-5/exercises.json",
+      "exerciseCount": 30,
+      "difficultyDistribution": {
+        "easy": 8,
+        "hard": 8,
+        "medium": 14
+      },
+      "typeDistribution": {
+        "dialogue_choice": 1,
+        "fill_blank": 4,
+        "guided_writing": 1,
+        "matching": 3,
+        "multiple_choice": 9,
+        "scenario_choice": 2,
+        "sentence_build": 5,
+        "sentence_order": 5
+      },
+      "estimatedMinutes": 90,
+      "sourceType": "mixed_review",
+      "category": "phase_review"
+    }
+  ]
+}

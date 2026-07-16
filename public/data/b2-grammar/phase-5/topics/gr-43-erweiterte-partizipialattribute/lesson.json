@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-43",
+  "slug": "gr-43-erweiterte-partizipialattribute",
+  "order": 43,
+  "title_de": "Erweiterte Partizipialattribute",
+  "title_ar": "صفات Partizip الموسعة",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "partizipialattribute",
+  "estimatedMinutes": 70,
+  "learningObjectives_de": [
+    "Den Aufbau erweiterter Partizipialattribute erkennen.",
+    "Ergänzungen und Angaben korrekt vor dem Partizip anordnen.",
+    "Partizip I und Partizip II sicher auswählen.",
+    "Adjektivendungen in komplexen Nominalgruppen korrekt bilden.",
+    "Objekte, Präpositionalergänzungen, Zeit-, Orts- und Modalangaben integrieren.",
+    "Reflexive und trennbare Verben korrekt behandeln.",
+    "Lange Attribute verständlich lesen und stilistisch bewerten."
+  ],
+  "learningObjectives_ar": [
+    "تمييز بنية صفات Partizip الموسعة.",
+    "ترتيب المتممات والظروف قبل Partizip بصورة صحيحة.",
+    "اختيار Partizip I أو Partizip II بأمان.",
+    "تكوين نهايات الصفات داخل المجموعات الاسمية المعقدة.",
+    "دمج المفاعيل ومتممات حروف الجر وظروف الزمان والمكان والكيفية.",
+    "استخدام الأفعال الانعكاسية والقابلة للفصل بصورة صحيحة.",
+    "قراءة الصفات الطويلة وتقييم وضوحها أسلوبيًا."
+  ],
+  "shortDescription_de": "Erweiterte Partizipialattribute bestehen aus einem Partizip mit seinen Ergänzungen und Angaben. Die gesamte Gruppe steht vor dem Nomen.",
+  "shortDescription_ar": "تتكوّن صفات Partizip الموسعة من Partizip مع متمماته وظروفه، وتأتي المجموعة كلها قبل الاسم.",
+  "explanation_de": "Ein erweitertes Partizipialattribut enthält außer dem Partizip weitere Satzglieder, etwa ein Objekt, eine Präpositionalergänzung, eine Zeitangabe, einen Ort oder ein Adverb. Alle Bestandteile stehen vor dem Partizip, das direkt vor dem Bezugsnomen steht: die seit zwei Stunden im Flur wartenden Gäste; die gestern von der Fachabteilung vollständig geprüften Unterlagen. Artikel und Partizip bilden eine Attributklammer, die Ergänzungen stehen dazwischen. Partizip I ist meist aktiv und gleichzeitig: die den Bericht prüfende Mitarbeiterin. Partizip II ist häufig passiv, resultativ oder abgeschlossen: der gestern genehmigte Antrag. Objekte behalten ihren Kasus, feste Präpositionen bleiben erhalten und Reflexivpronomen stehen vor dem Partizip. Die Adjektivendung richtet sich nach Artikel, Kasus, Genus und Numerus des Bezugsnomens. Innerhalb des Attributs stehen normalerweise keine Kommas. Sehr lange Attribute werden als Relativsatz oft verständlicher.",
+  "explanation_ar": "تحتوي صفة Partizip الموسعة إلى جانب Partizip على عناصر أخرى، مثل المفعول أو متمم حرف الجر أو ظرف الزمن أو المكان أو الكيفية. تأتي جميع العناصر قبل Partizip الذي يأتي مباشرة قبل الاسم: die seit zwei Stunden im Flur wartenden Gäste، وdie gestern von der Fachabteilung vollständig geprüften Unterlagen. تشكل الأداة وPartizip إطارًا وتأتي المتممات بينهما. يكون Partizip I غالبًا معلومًا ومتزامنًا، بينما يكون Partizip II غالبًا مجهولًا أو دالًا على نتيجة أو اكتمال. تحتفظ المفاعيل بحالاتها، وتبقى حروف الجر الثابتة، ويأتي الضمير الانعكاسي قبل Partizip. تعتمد نهاية الصفة على الأداة والحالة والجنس والعدد. ولا نضع عادة فواصل داخل الصفة. وعندما تطول الصفة جدًا تكون الجملة الموصولة أوضح غالبًا.",
+  "rules": [
+    {
+      "id": "gr43-r01",
+      "title_de": "Grundstruktur",
+      "title_ar": "البنية الأساسية",
+      "explanation_de": "Begleiter, Ergänzungen, dekliniertes Partizip und Nomen bilden eine Einheit.",
+      "explanation_ar": "يشكل المحدد والمتممات وPartizip المصرف والاسم وحدة واحدة.",
+      "formula": "Artikel + Ergänzungen + Partizip mit Endung + Nomen",
+      "examples": [
+        {
+          "de": "die im Flur wartenden Gäste",
+          "ar": "الضيوف المنتظرون في الممر"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r02",
+      "title_de": "Partizip direkt vor dem Nomen",
+      "title_ar": "Partizip مباشرة قبل الاسم",
+      "explanation_de": "Das deklinierte Partizip steht am Ende des Attributs direkt vor dem Bezugsnomen.",
+      "explanation_ar": "يأتي Partizip المصرف في نهاية الصفة مباشرة قبل الاسم.",
+      "formula": "... sorgfältig geprüften Unterlagen",
+      "examples": [
+        {
+          "de": "die gestern sorgfältig geprüften Unterlagen",
+          "ar": "المستندات التي تمت مراجعتها بعناية أمس"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r03",
+      "title_de": "Objekte und Präpositionen",
+      "title_ar": "المفاعيل وحروف الجر",
+      "explanation_de": "Objekte behalten ihren Kasus; feste Präpositionen bleiben erhalten.",
+      "explanation_ar": "تحتفظ المفاعيل بحالاتها وتبقى حروف الجر الثابتة.",
+      "formula": "die den Kunden beratende Person | die auf eine Antwort wartenden Bewerber",
+      "examples": [
+        {
+          "de": "die dem Team fehlenden Informationen",
+          "ar": "المعلومات التي تنقص الفريق"
+        },
+        {
+          "de": "die mit der Leitung vereinbarte Lösung",
+          "ar": "الحل المتفق عليه مع الإدارة"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r04",
+      "title_de": "Zeit, Ort und Art und Weise",
+      "title_ar": "الزمان والمكان والكيفية",
+      "explanation_de": "Mehrere Angaben können vor dem Partizip kombiniert werden.",
+      "explanation_ar": "يمكن جمع عدة ظروف قبل Partizip.",
+      "formula": "die gestern im Labor sorgfältig geprüften Geräte",
+      "examples": [
+        {
+          "de": "die seit Montag im Homeoffice arbeitenden Beschäftigten",
+          "ar": "الموظفون الذين يعملون من المنزل منذ الاثنين"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r05",
+      "title_de": "Partizip I",
+      "title_ar": "Partizip I",
+      "explanation_de": "Das Bezugsnomen führt die Handlung meist selbst aus.",
+      "explanation_ar": "يقوم الاسم الموصوف بالفعل غالبًا بنفسه.",
+      "formula": "die den Entwurf überarbeitende Fachkraft",
+      "examples": [
+        {
+          "de": "die ruhig mit dem Kunden sprechende Beraterin",
+          "ar": "المستشارة التي تتحدث بهدوء مع العميل"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r06",
+      "title_de": "Partizip II",
+      "title_ar": "Partizip II",
+      "explanation_de": "Das Bezugsnomen ist häufig von einer abgeschlossenen Handlung betroffen.",
+      "explanation_ar": "يكون الاسم الموصوف غالبًا متأثرًا بفعل مكتمل.",
+      "formula": "der gestern genehmigte Antrag",
+      "examples": [
+        {
+          "de": "die nach mehreren Gesprächen vereinbarte Lösung",
+          "ar": "الحل المتفق عليه بعد عدة محادثات"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r07",
+      "title_de": "Reflexive Verben",
+      "title_ar": "الأفعال الانعكاسية",
+      "explanation_de": "Das Reflexivpronomen steht vor dem Partizip.",
+      "explanation_ar": "يأتي الضمير الانعكاسي قبل Partizip.",
+      "formula": "die sich intensiv vorbereitenden Teilnehmenden",
+      "examples": [
+        {
+          "de": "die sich über die Verzögerung beschwerenden Kundinnen",
+          "ar": "العميلات اللواتي يشتكين من التأخير"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r08",
+      "title_de": "Trennbare Verben",
+      "title_ar": "الأفعال القابلة للفصل",
+      "explanation_de": "Partizip I wird zusammengeschrieben; Partizip II enthält ge- zwischen Vorsilbe und Stamm.",
+      "explanation_ar": "يُكتب Partizip I كلمة واحدة، بينما تأتي ge- في Partizip II بين السابقة والجذر.",
+      "formula": "teilnehmend | eingereicht",
+      "examples": [
+        {
+          "de": "die an der Konferenz teilnehmenden Gäste",
+          "ar": "الضيوف المشاركون في المؤتمر"
+        },
+        {
+          "de": "die fristgerecht eingereichten Unterlagen",
+          "ar": "المستندات المقدمة ضمن المهلة"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r09",
+      "title_de": "Adjektivdeklination",
+      "title_ar": "تصريف الصفة",
+      "explanation_de": "Die Endung richtet sich nach Artikel, Kasus, Genus und Numerus.",
+      "explanation_ar": "تعتمد النهاية على الأداة والحالة والجنس والعدد.",
+      "formula": "der wartende Gast | mit den wartenden Gästen",
+      "examples": [
+        {
+          "de": "ein sorgfältig formulierter Bericht",
+          "ar": "تقرير مصاغ بعناية"
+        },
+        {
+          "de": "mit einer sorgfältig formulierten Antwort",
+          "ar": "مع إجابة مصاغة بعناية"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r10",
+      "title_de": "Keine Kommas",
+      "title_ar": "لا فواصل",
+      "explanation_de": "Die Bestandteile des Attributs werden normalerweise nicht durch Kommas getrennt.",
+      "explanation_ar": "لا تُفصل عناصر الصفة عادة بفواصل.",
+      "formula": "die gestern eingereichten Unterlagen",
+      "examples": [
+        {
+          "de": "die seit Wochen auf eine Entscheidung wartenden Beschäftigten",
+          "ar": "الموظفون الذين ينتظرون قرارًا منذ أسابيع"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r11",
+      "title_de": "Attributklammer",
+      "title_ar": "إطار الصفة",
+      "explanation_de": "Artikel und dekliniertes Partizip rahmen die Ergänzungen ein.",
+      "explanation_ar": "تحيط الأداة وPartizip المصرف بالمتممات.",
+      "formula": "die | gestern im Labor | geprüften Geräte",
+      "examples": [
+        {
+          "de": "die gestern im Labor geprüften Geräte",
+          "ar": "الأجهزة التي فُحصت أمس في المختبر"
+        }
+      ]
+    },
+    {
+      "id": "gr43-r12",
+      "title_de": "Lesbarkeit und Stil",
+      "title_ar": "سهولة القراءة والأسلوب",
+      "explanation_de": "Sehr lange Attribute sollten häufig als Relativsatz formuliert werden.",
+      "explanation_ar": "ينبغي غالبًا تحويل الصفات الطويلة جدًا إلى جملة موصولة.",
+      "formula": "kompakt, aber verständlich",
+      "examples": [
+        {
+          "de": "Die Anträge, die nach mehreren Prüfungen genehmigt wurden, werden veröffentlicht.",
+          "ar": "سيتم نشر الطلبات التي تمت الموافقة عليها بعد عدة مراجعات."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr43-t01",
+      "title_de": "Bausteine eines erweiterten Attributs",
+      "title_ar": "عناصر الصفة الموسعة",
+      "headers_de": [
+        "Baustein",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "العنصر",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Begleiter",
+          "die"
+        ],
+        [
+          "Zeitangabe",
+          "gestern"
+        ],
+        [
+          "Agens",
+          "von der Fachabteilung"
+        ],
+        [
+          "Adverb",
+          "vollständig"
+        ],
+        [
+          "Partizip mit Endung",
+          "geprüften"
+        ],
+        [
+          "Bezugsnomen",
+          "Unterlagen"
+        ]
+      ]
+    },
+    {
+      "id": "gr43-t02",
+      "title_de": "Partizip I und Partizip II",
+      "title_ar": "Partizip I وPartizip II",
+      "headers_de": [
+        "Typ",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "headers_ar": [
+        "النوع",
+        "المثال",
+        "المعنى"
+      ],
+      "rows": [
+        [
+          "Partizip I",
+          "die den Bericht prüfende Person",
+          "aktiv, laufend"
+        ],
+        [
+          "Partizip II",
+          "der gestern geprüfte Bericht",
+          "passiv / abgeschlossen"
+        ],
+        [
+          "Partizip II mit sein-Verb",
+          "die pünktlich angekommenen Gäste",
+          "aktiv, abgeschlossen"
+        ]
+      ]
+    },
+    {
+      "id": "gr43-t03",
+      "title_de": "Kasus und Endung",
+      "title_ar": "الحالة والنهاية",
+      "headers_de": [
+        "Struktur",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "البنية",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Nominativ Singular",
+          "der im Büro arbeitende Kollege"
+        ],
+        [
+          "Akkusativ Singular",
+          "den im Büro arbeitenden Kollegen"
+        ],
+        [
+          "Dativ Singular",
+          "mit dem im Büro arbeitenden Kollegen"
+        ],
+        [
+          "Nominativ Plural",
+          "die im Büro arbeitenden Kollegen"
+        ],
+        [
+          "Dativ Plural",
+          "mit den im Büro arbeitenden Kollegen"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die seit mehreren Wochen auf eine Entscheidung wartenden Beschäftigten wandten sich an den Betriebsrat.",
+      "ar": "توجه الموظفون الذين ينتظرون قرارًا منذ عدة أسابيع إلى مجلس العمال.",
+      "note_de": "Partizip I mit Zeitangabe und Präpositionalergänzung.",
+      "note_ar": "Partizip I مع تعبير زمني ومتمم حرف جر."
+    },
+    {
+      "de": "Die gestern von der Rechtsabteilung sorgfältig geprüfte Vereinbarung kann unterschrieben werden.",
+      "ar": "يمكن توقيع الاتفاقية التي راجعها القسم القانوني بعناية أمس.",
+      "note_de": "Partizip II mit Zeitangabe, Agens und Adverb.",
+      "note_ar": "Partizip II مع زمن وفاعل وحال."
+    },
+    {
+      "de": "Die sich intensiv auf das Vorstellungsgespräch vorbereitenden Bewerber erhielten zusätzliche Informationen.",
+      "ar": "تلقى المتقدمون الذين يستعدون بصورة مكثفة لمقابلة العمل معلومات إضافية.",
+      "note_de": "Reflexives Partizip-I-Attribut.",
+      "note_ar": "صفة موسعة انعكاسية من Partizip I."
+    },
+    {
+      "de": "Die nach mehreren Verhandlungsrunden mit dem Betriebsrat erzielte Einigung wurde veröffentlicht.",
+      "ar": "تم نشر الاتفاق الذي تم التوصل إليه بعد عدة جولات تفاوض مع مجلس العمال.",
+      "note_de": "Partizip-II-Attribut mit mehreren Ergänzungen.",
+      "note_ar": "صفة Partizip II مع عدة متممات."
+    },
+    {
+      "de": "Mit den erst am Morgen vollständig eingereichten Unterlagen konnte die Prüfung nicht früher beginnen.",
+      "ar": "لم يكن من الممكن بدء المراجعة في وقت أبكر بسبب المستندات التي لم تُقدّم كاملة إلا صباحًا.",
+      "note_de": "Dativ Plural mit erweitertem Partizip-II-Attribut.",
+      "note_ar": "Dativ Plural مع صفة موسعة من Partizip II."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "die wartenden seit zwei Stunden Gäste",
+      "correct": "die seit zwei Stunden wartenden Gäste",
+      "explanation_de": "Die Zeitangabe steht vor dem Partizip; das Partizip steht direkt vor dem Nomen.",
+      "explanation_ar": "يأتي تعبير الزمن قبل Partizip، ويأتي Partizip مباشرة قبل الاسم."
+    },
+    {
+      "wrong": "die gestern geprüften vollständig Unterlagen",
+      "correct": "die gestern vollständig geprüften Unterlagen",
+      "explanation_de": "Das Adverb steht vor dem Partizip.",
+      "explanation_ar": "يأتي الحال قبل Partizip."
+    },
+    {
+      "wrong": "die den Bericht Mitarbeiterin prüfende",
+      "correct": "die den Bericht prüfende Mitarbeiterin",
+      "explanation_de": "Das Partizip steht direkt vor dem Bezugsnomen.",
+      "explanation_ar": "يأتي Partizip مباشرة قبل الاسم الموصوف."
+    },
+    {
+      "wrong": "die sich vorbereitenden auf das Gespräch Bewerber",
+      "correct": "die sich auf das Gespräch vorbereitenden Bewerber",
+      "explanation_de": "Reflexivpronomen und Präpositionalergänzung stehen vor dem Partizip.",
+      "explanation_ar": "يأتي الضمير الانعكاسي ومتمم حرف الجر قبل Partizip."
+    },
+    {
+      "wrong": "die gestern, von der Fachabteilung, geprüften Unterlagen",
+      "correct": "die gestern von der Fachabteilung geprüften Unterlagen",
+      "explanation_de": "Innerhalb des erweiterten Attributs stehen normalerweise keine Kommas.",
+      "explanation_ar": "لا نضع عادة فواصل داخل الصفة الموسعة."
+    },
+    {
+      "wrong": "mit den gestern geprüft Unterlagen",
+      "correct": "mit den gestern geprüften Unterlagen",
+      "explanation_de": "Im Dativ Plural braucht das Partizip die Adjektivendung -en.",
+      "explanation_ar": "يحتاج Partizip في Dativ Plural إلى نهاية الصفة -en."
+    }
+  ],
+  "quickSummary_de": [
+    "Erweiterte Partizipialattribute enthalten Ergänzungen und Angaben.",
+    "Alle Ergänzungen stehen vor dem Partizip.",
+    "Das deklinierte Partizip steht direkt vor dem Nomen.",
+    "Partizip I ist meist aktiv und gleichzeitig.",
+    "Partizip II ist häufig passiv, resultativ oder abgeschlossen.",
+    "Objekte behalten ihren Kasus.",
+    "Feste Präpositionen bleiben erhalten.",
+    "Reflexivpronomen stehen vor dem Partizip.",
+    "Zeit, Ort und Adverbien können kombiniert werden.",
+    "Die Endung richtet sich nach Artikel, Kasus, Genus und Numerus.",
+    "Innerhalb des Attributs stehen normalerweise keine Kommas.",
+    "Sehr lange Attribute sind als Relativsatz oft verständlicher."
+  ],
+  "quickSummary_ar": [
+    "تحتوي صفات Partizip الموسعة على متممات وظروف.",
+    "تأتي جميع المتممات قبل Partizip.",
+    "يأتي Partizip المصرف مباشرة قبل الاسم.",
+    "يكون Partizip I غالبًا معلومًا ومتزامنًا.",
+    "يكون Partizip II غالبًا مجهولًا أو دالًا على نتيجة أو اكتمال.",
+    "تحتفظ المفاعيل بحالاتها.",
+    "تبقى حروف الجر الثابتة كما هي.",
+    "تأتي الضمائر الانعكاسية قبل Partizip.",
+    "يمكن جمع ظروف الزمن والمكان والكيفية.",
+    "تعتمد النهاية على الأداة والحالة والجنس والعدد.",
+    "لا نضع عادة فواصل داخل الصفة.",
+    "تكون الجملة الموصولة أوضح غالبًا مع الصفات الطويلة جدًا."
+  ],
+  "relatedTopics": [
+    "gr-41",
+    "gr-42",
+    "gr-44",
+    "gr-50"
+  ]
+}

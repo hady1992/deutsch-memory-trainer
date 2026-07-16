@@ -1,0 +1,532 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-46",
+  "title_de": "Passiv mit Modalverben – Übungen",
+  "title_ar": "تمارين المبني للمجهول مع الأفعال الناقصة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr46-e001",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag muss geprüft werden.",
+      "explanation_de": "Das Modalverb wird konjugiert; geprüft werden steht am Ende.",
+      "explanation_ar": "يُصرف الفعل الناقص، وتأتي geprüft werden في النهاية.",
+      "grammarFocus": "basic_modal_passive",
+      "options": [
+        "Der Antrag muss geprüft werden.",
+        "Der Antrag wird müssen geprüft.",
+        "Der Antrag muss werden geprüft.",
+        "Der Antrag geprüft muss werden."
+      ]
+    },
+    {
+      "id": "gr46-e002",
+      "topicId": "gr-46",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Können",
+      "title_ar": "können",
+      "prompt_de": "Die Datei kann automatisch geöffnet ______.",
+      "prompt_ar": "يمكن فتح الملف تلقائيًا.",
+      "answer": "werden",
+      "explanation_de": "Die passive Infinitivgruppe lautet geöffnet werden.",
+      "explanation_ar": "تكون مجموعة المصدر المجهول geöffnet werden.",
+      "grammarFocus": "passive_infinitive",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "gr46-e003",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Pflicht",
+      "title_ar": "الإلزام",
+      "prompt_de": "Welches Modalverb drückt eine Pflicht aus?",
+      "prompt_ar": "أي فعل ناقص يعبّر عن الإلزام؟",
+      "answer": "müssen",
+      "explanation_de": "Müssen bezeichnet Pflicht oder Notwendigkeit.",
+      "explanation_ar": "تعبّر müssen عن الإلزام أو الضرورة.",
+      "grammarFocus": "modal_meaning_obligation",
+      "options": [
+        "müssen",
+        "können",
+        "dürfen",
+        "mögen"
+      ]
+    },
+    {
+      "id": "gr46-e004",
+      "topicId": "gr-46",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Modalverben und Bedeutung",
+      "title_ar": "الأفعال الناقصة ومعانيها",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "müssen": "Pflicht",
+        "können": "Möglichkeit",
+        "dürfen": "Erlaubnis oder Verbot",
+        "sollen": "Auftrag oder Empfehlung"
+      },
+      "explanation_de": "Jedes Modalverb setzt einen anderen Bedeutungsfokus.",
+      "explanation_ar": "يضع كل فعل ناقص تركيزًا دلاليًا مختلفًا.",
+      "grammarFocus": "modal_meaning_matching",
+      "pairs": [
+        [
+          "müssen",
+          "Pflicht"
+        ],
+        [
+          "können",
+          "Möglichkeit"
+        ],
+        [
+          "dürfen",
+          "Erlaubnis oder Verbot"
+        ],
+        [
+          "sollen",
+          "Auftrag oder Empfehlung"
+        ]
+      ]
+    },
+    {
+      "id": "gr46-e005",
+      "topicId": "gr-46",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Wortstellung",
+      "title_ar": "ترتيب الكلمات",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Alle Unterlagen müssen vollständig eingereicht werden.",
+      "explanation_de": "Partizip II und werden stehen am Satzende.",
+      "explanation_ar": "تأتي Partizip II وwerden في نهاية الجملة.",
+      "grammarFocus": "main_clause_order",
+      "tokens": [
+        "vollständig eingereicht werden",
+        "müssen",
+        "Alle Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Alle Unterlagen müssen vollständig eingereicht werden."
+      ]
+    },
+    {
+      "id": "gr46-e006",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Verbot",
+      "title_ar": "المنع",
+      "prompt_de": "Welche Form drückt ein Verbot aus?",
+      "prompt_ar": "أي صيغة تعبّر عن المنع؟",
+      "answer": "Die Tür darf nicht geöffnet werden.",
+      "explanation_de": "Nicht dürfen bedeutet Verbot.",
+      "explanation_ar": "تعني nicht dürfen المنع.",
+      "grammarFocus": "prohibition",
+      "options": [
+        "Die Tür darf nicht geöffnet werden.",
+        "Die Tür muss nicht geöffnet werden.",
+        "Die Tür kann geöffnet werden.",
+        "Die Tür soll geöffnet sein."
+      ]
+    },
+    {
+      "id": "gr46-e007",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Präteritum",
+      "title_ar": "Präteritum",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Termin musste verschoben werden.",
+      "explanation_de": "Im Präteritum steht musste; die Passivgruppe bleibt gleich.",
+      "explanation_ar": "في Präteritum تأتي musste، وتبقى مجموعة المبني للمجهول كما هي.",
+      "grammarFocus": "preterite_modal_passive",
+      "options": [
+        "Der Termin musste verschoben werden.",
+        "Der Termin hat verschoben werden.",
+        "Der Termin musste worden verschieben.",
+        "Der Termin wurde müssen verschoben."
+      ]
+    },
+    {
+      "id": "gr46-e008",
+      "topicId": "gr-46",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "prompt_de": "Die Frist wurde verlängert, weil der Antrag erneut geprüft werden ______.",
+      "prompt_ar": "تم تمديد المهلة لأن الطلب كان يجب مراجعته مجددًا.",
+      "answer": "musste",
+      "explanation_de": "Im Nebensatz steht das konjugierte Modalverb am Ende.",
+      "explanation_ar": "يأتي الفعل الناقص المصرف في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_clause_order",
+      "acceptedAnswers": [
+        "musste"
+      ]
+    },
+    {
+      "id": "gr46-e009",
+      "topicId": "gr-46",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiv zu Passiv",
+      "title_ar": "من المعلوم إلى المجهول",
+      "prompt_de": "Formen Sie um: Die Behörde muss den Antrag prüfen.",
+      "prompt_ar": "حوّل إلى المبني للمجهول.",
+      "answer": "Der Antrag muss von der Behörde geprüft werden.",
+      "explanation_de": "Das Akkusativobjekt wird zum Subjekt; die Behörde steht mit von.",
+      "explanation_ar": "يصبح مفعول Akkusativ فاعلًا نحويًا، وتأتي الجهة مع von.",
+      "grammarFocus": "active_to_modal_passive",
+      "acceptedAnswers": [
+        "Der Antrag muss von der Behörde geprüft werden."
+      ]
+    },
+    {
+      "id": "gr46-e010",
+      "topicId": "gr-46",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Möglichkeit ausdrücken",
+      "title_ar": "التعبير عن الإمكان",
+      "prompt_de": "Formulieren Sie passiv: Die IT kann das Problem lösen.",
+      "prompt_ar": "صغ الجملة في المبني للمجهول.",
+      "answer": "Das Problem kann von der IT gelöst werden.",
+      "explanation_de": "Können bleibt Modalverb; lösen wird zu gelöst werden.",
+      "explanation_ar": "تبقى können فعلًا ناقصًا، ويتحول lösen إلى gelöst werden.",
+      "grammarFocus": "active_to_passive_can",
+      "acceptedAnswers": [
+        "Das Problem kann von der IT gelöst werden."
+      ]
+    },
+    {
+      "id": "gr46-e011",
+      "topicId": "gr-46",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit müssen",
+      "title_ar": "جملة فرعية مع müssen",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Bearbeitung verzögert sich, weil zusätzliche Unterlagen angefordert werden müssen.",
+      "explanation_de": "Im Nebensatz steht müssen ganz am Ende.",
+      "explanation_ar": "تأتي müssen في نهاية الجملة الفرعية.",
+      "grammarFocus": "subordinate_modal_order",
+      "tokens": [
+        "angefordert werden müssen",
+        "weil zusätzliche Unterlagen",
+        "Die Bearbeitung verzögert sich"
+      ],
+      "acceptedAnswers": [
+        "Die Bearbeitung verzögert sich, weil zusätzliche Unterlagen angefordert werden müssen."
+      ]
+    },
+    {
+      "id": "gr46-e012",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Nicht müssen",
+      "title_ar": "nicht müssen",
+      "prompt_de": "Was bedeutet „Das Feld muss nicht ausgefüllt werden“?",
+      "prompt_ar": "ما معنى الجملة؟",
+      "answer": "Das Ausfüllen ist nicht verpflichtend.",
+      "explanation_de": "Nicht müssen bezeichnet fehlende Pflicht.",
+      "explanation_ar": "تعني nicht müssen عدم وجود إلزام.",
+      "grammarFocus": "no_obligation",
+      "options": [
+        "Das Ausfüllen ist nicht verpflichtend.",
+        "Das Ausfüllen ist verboten.",
+        "Das Feld kann technisch nicht ausgefüllt werden.",
+        "Das Feld wurde bereits ausgefüllt."
+      ]
+    },
+    {
+      "id": "gr46-e013",
+      "topicId": "gr-46",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "muss geprüft werden": "Präsens",
+        "musste geprüft werden": "Präteritum",
+        "hat geprüft werden müssen": "Perfekt",
+        "hatte geprüft werden müssen": "Plusquamperfekt",
+        "wird geprüft werden müssen": "Futur I"
+      },
+      "explanation_de": "Hilfsverb und Modalform zeigen die Zeitstufe.",
+      "explanation_ar": "يحدد الفعل المساعد وصيغة الفعل الناقص الزمن.",
+      "grammarFocus": "tense_matching",
+      "pairs": [
+        [
+          "muss geprüft werden",
+          "Präsens"
+        ],
+        [
+          "musste geprüft werden",
+          "Präteritum"
+        ],
+        [
+          "hat geprüft werden müssen",
+          "Perfekt"
+        ],
+        [
+          "hatte geprüft werden müssen",
+          "Plusquamperfekt"
+        ],
+        [
+          "wird geprüft werden müssen",
+          "Futur I"
+        ]
+      ]
+    },
+    {
+      "id": "gr46-e014",
+      "topicId": "gr-46",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Anweisung",
+      "title_ar": "تعليمات رسمية",
+      "prompt_de": "Welche Formulierung passt am besten in eine Verfahrensanweisung?",
+      "prompt_ar": "أي صياغة تناسب تعليمات إجرائية؟",
+      "answer": "Alle sicherheitsrelevanten Änderungen müssen vor der Freigabe dokumentiert werden.",
+      "explanation_de": "Die Form ist sachlich, unpersönlich und eindeutig verpflichtend.",
+      "explanation_ar": "الصيغة موضوعية وغير شخصية وواضحة في الإلزام.",
+      "grammarFocus": "formal_instruction",
+      "options": [
+        "Alle sicherheitsrelevanten Änderungen müssen vor der Freigabe dokumentiert werden.",
+        "Man macht am besten vielleicht Dokumentation vor Freigabe.",
+        "Die Änderungen wollen vor der Freigabe dokumentieren.",
+        "Alle Änderungen sind müssen dokumentiert."
+      ]
+    },
+    {
+      "id": "gr46-e015",
+      "topicId": "gr-46",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "prompt_de": "Der Bericht hat vollständig überarbeitet werden ______.",
+      "prompt_ar": "كان لا بد من إعادة صياغة التقرير بالكامل.",
+      "answer": "müssen",
+      "explanation_de": "Im Perfekt steht der Modalinfinitiv müssen, nicht gemusst.",
+      "explanation_ar": "في Perfekt نستخدم مصدر الفعل müssen لا gemusst.",
+      "grammarFocus": "perfect_replacement_infinitive",
+      "acceptedAnswers": [
+        "müssen"
+      ]
+    },
+    {
+      "id": "gr46-e016",
+      "topicId": "gr-46",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vorgang und Zustand",
+      "title_ar": "الإجراء والحالة",
+      "prompt_de": "Ordnen Sie die zwei Aussagen.",
+      "prompt_ar": "رتب العبارتين.",
+      "answer": "Die Tür muss geschlossen werden. Um 18 Uhr muss sie geschlossen sein.",
+      "explanation_de": "Zuerst wird der Vorgang gefordert, dann der Zustand.",
+      "explanation_ar": "يُطلب الإجراء أولًا، ثم الحالة.",
+      "grammarFocus": "process_state_modal_sequence",
+      "tokens": [
+        "Um 18 Uhr muss sie geschlossen sein",
+        "Die Tür muss geschlossen werden"
+      ],
+      "acceptedAnswers": [
+        "Die Tür muss geschlossen werden. Um 18 Uhr muss sie geschlossen sein."
+      ]
+    },
+    {
+      "id": "gr46-e017",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Sollen",
+      "title_ar": "sollen",
+      "prompt_de": "Welche Bedeutung passt am besten?",
+      "prompt_ar": "أي معنى يناسب أكثر؟",
+      "answer": "Das System soll bis Freitag aktualisiert werden. = Die Aktualisierung ist geplant oder angeordnet.",
+      "explanation_de": "Sollen kann Plan, Auftrag oder Empfehlung ausdrücken.",
+      "explanation_ar": "قد تعبّر sollen عن خطة أو تكليف أو توصية.",
+      "grammarFocus": "sollen_meaning",
+      "options": [
+        "Das System soll bis Freitag aktualisiert werden. = Die Aktualisierung ist geplant oder angeordnet.",
+        "Die Aktualisierung ist technisch unmöglich.",
+        "Die Aktualisierung ist ausdrücklich verboten.",
+        "Das System hat sich selbst aktualisiert."
+      ]
+    },
+    {
+      "id": "gr46-e018",
+      "topicId": "gr-46",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Perfekt bilden",
+      "title_ar": "تكوين Perfekt",
+      "prompt_de": "Formen Sie ins Perfekt um: Der Antrag muss erneut geprüft werden.",
+      "prompt_ar": "حوّل إلى Perfekt.",
+      "answer": "Der Antrag hat erneut geprüft werden müssen.",
+      "explanation_de": "Im Perfekt steht haben mit der Gruppe geprüft werden müssen.",
+      "explanation_ar": "في Perfekt يأتي haben مع المجموعة geprüft werden müssen.",
+      "grammarFocus": "perfect_modal_passive_build",
+      "acceptedAnswers": [
+        "Der Antrag hat erneut geprüft werden müssen."
+      ]
+    },
+    {
+      "id": "gr46-e019",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Ersatzinfinitiv verstehen",
+      "title_ar": "فهم Ersatzinfinitiv",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "In „hat geprüft werden müssen“ stehen drei Infinitiv- beziehungsweise Verbformen, weil Modalverb und Passiv kombiniert werden.",
+      "explanation_de": "Geprüft ist Partizip II; werden und müssen stehen als Infinitive.",
+      "explanation_ar": "geprüft هي Partizip II، وتأتي werden وmüssen في صيغة المصدر.",
+      "grammarFocus": "replacement_infinitive_explanation",
+      "options": [
+        "In „hat geprüft werden müssen“ stehen drei Infinitiv- beziehungsweise Verbformen, weil Modalverb und Passiv kombiniert werden.",
+        "Gemusst muss zwingend am Satzende stehen.",
+        "Werden ist hier das konjugierte Hauptverb.",
+        "Geprüft ist ein Infinitiv."
+      ]
+    },
+    {
+      "id": "gr46-e020",
+      "topicId": "gr-46",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Vorgang oder Zustand",
+      "title_ar": "إجراء أم حالة",
+      "prompt_de": "Welche Formulierung passt zu einer Zugangskontrolle um 8 Uhr?",
+      "prompt_ar": "أي صياغة تناسب شرط حالة المدخل الساعة الثامنة؟",
+      "answer": "Der Zugang muss um 8 Uhr gesperrt sein.",
+      "explanation_de": "Gefordert wird der bestehende Zustand um 8 Uhr.",
+      "explanation_ar": "المطلوب هو الحالة القائمة عند الساعة الثامنة.",
+      "grammarFocus": "required_state",
+      "options": [
+        "Der Zugang muss um 8 Uhr gesperrt sein.",
+        "Der Zugang muss um 8 Uhr gesperrt werden, wenn nur der Zustand gemeint ist.",
+        "Der Zugang darf um 8 Uhr gesperrt gewesen werden.",
+        "Der Zugang kann Sperrung sein."
+      ]
+    },
+    {
+      "id": "gr46-e021",
+      "topicId": "gr-46",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Das Verfahren wird im kommenden Jahr erneut bewertet werden müssen.",
+      "explanation_de": "Im Futur steht wird vor der Gruppe bewertet werden müssen.",
+      "explanation_ar": "في المستقبل تأتي wird قبل المجموعة bewertet werden müssen.",
+      "grammarFocus": "future_modal_passive_order",
+      "tokens": [
+        "erneut bewertet werden müssen",
+        "im kommenden Jahr",
+        "Das Verfahren wird"
+      ],
+      "acceptedAnswers": [
+        "Das Verfahren wird im kommenden Jahr erneut bewertet werden müssen."
+      ]
+    },
+    {
+      "id": "gr46-e022",
+      "topicId": "gr-46",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Nicht dürfen und nicht müssen",
+      "title_ar": "nicht dürfen وnicht müssen",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Muss nicht ausgefüllt werden“ bedeutet keine Pflicht; „darf nicht ausgefüllt werden“ bedeutet Verbot.",
+      "explanation_de": "Die Negation verändert die Modalbedeutung grundlegend.",
+      "explanation_ar": "يغير النفي المعنى الناقص بصورة جوهرية.",
+      "grammarFocus": "negation_modal_contrast",
+      "options": [
+        "„Muss nicht ausgefüllt werden“ bedeutet keine Pflicht; „darf nicht ausgefüllt werden“ bedeutet Verbot.",
+        "Beide Sätze bedeuten dasselbe.",
+        "Nicht müssen bedeutet Verbot.",
+        "Nicht dürfen bedeutet freiwillige Handlung."
+      ]
+    },
+    {
+      "id": "gr46-e023",
+      "topicId": "gr-46",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Zeiten verbinden",
+      "title_ar": "ربط عدة أزمنة",
+      "prompt_de": "Formulieren Sie drei Sätze: Früher war eine Prüfung notwendig. Heute besteht die Pflicht weiterhin. Im nächsten Jahr wird eine weitere Prüfung notwendig sein.",
+      "prompt_ar": "صغ ثلاث جمل باستخدام Passiv مع Modalverb.",
+      "answer": "Der Antrag hatte früher geprüft werden müssen. Heute muss er weiterhin geprüft werden. Im nächsten Jahr wird er erneut geprüft werden müssen.",
+      "explanation_de": "Plusquamperfekt, Präsens und Futur I werden korrekt kombiniert.",
+      "explanation_ar": "تم الجمع بصورة صحيحة بين Plusquamperfekt وPräsens وFutur I.",
+      "grammarFocus": "mixed_tenses_modal_passive",
+      "acceptedAnswers": [
+        "Der Antrag hatte früher geprüft werden müssen. Heute muss er weiterhin geprüft werden. Im nächsten Jahr wird er erneut geprüft werden müssen."
+      ]
+    },
+    {
+      "id": "gr46-e024",
+      "topicId": "gr-46",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Modalpassiv",
+      "title_ar": "تدريب ختامي على المبني للمجهول مع الأفعال الناقصة",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens vierzehn Sätzen über Regeln, Pflichten und Möglichkeiten in einem Betrieb oder einer Behörde. Verwenden Sie Passiv mit Modalverben in mehreren Zeitformen.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من أربع عشرة جملة على الأقل عن القواعد والإلزامات والإمكانات في مؤسسة أو جهة إدارية. استخدم المبني للمجهول مع الأفعال الناقصة في عدة أزمنة.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Sätze mit müssen",
+          "mindestens drei Sätze mit können",
+          "mindestens zwei Sätze mit dürfen oder nicht dürfen",
+          "mindestens zwei Sätze mit sollen",
+          "mindestens drei Nebensätze",
+          "mindestens zwei Präteritumformen",
+          "mindestens zwei Perfektformen mit Ersatzinfinitiv",
+          "mindestens eine Plusquamperfektform",
+          "mindestens eine Futurform",
+          "mindestens zwei Kontraste zwischen Vorgang und Zustand"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Modalbedeutung, Partizip II, werden, Wortstellung, Zeitform, Negation und Vorgang/Zustand.",
+      "explanation_ar": "راجع معنى الفعل الناقص وPartizip II وwerden وترتيب الكلمات والزمن والنفي والإجراء أو الحالة.",
+      "grammarFocus": "mixed_modal_passive",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

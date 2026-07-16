@@ -1,0 +1,547 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-43",
+  "title_de": "Erweiterte Partizipialattribute – Übungen",
+  "title_ar": "تمارين صفات Partizip الموسعة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr43-e001",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Grundstruktur",
+      "title_ar": "البنية الأساسية",
+      "prompt_de": "Welche Wortgruppe ist korrekt?",
+      "prompt_ar": "أي مجموعة اسمية صحيحة؟",
+      "answer": "die im Flur wartenden Gäste",
+      "explanation_de": "Die Ortsangabe steht vor dem Partizip; das Partizip steht direkt vor dem Nomen.",
+      "explanation_ar": "يأتي تعبير المكان قبل Partizip، ويأتي Partizip مباشرة قبل الاسم.",
+      "grammarFocus": "basic_structure",
+      "options": [
+        "die im Flur wartenden Gäste",
+        "die wartenden im Flur Gäste",
+        "die Gäste im Flur wartenden",
+        "die im Flur Gäste wartend"
+      ]
+    },
+    {
+      "id": "gr43-e002",
+      "topicId": "gr-43",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Partizip direkt vor dem Nomen",
+      "title_ar": "Partizip قبل الاسم",
+      "prompt_de": "Die gestern vollständig ______ Unterlagen liegen bereit.",
+      "prompt_ar": "المستندات التي تمت مراجعتها بالكامل أمس جاهزة.",
+      "answer": "geprüften",
+      "explanation_de": "Geprüften steht direkt vor Unterlagen und erhält die Endung -en.",
+      "explanation_ar": "تأتي geprüften مباشرة قبل Unterlagen وتأخذ النهاية -en.",
+      "grammarFocus": "participle_position",
+      "acceptedAnswers": [
+        "geprüften"
+      ]
+    },
+    {
+      "id": "gr43-e003",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I",
+      "title_ar": "Partizip I",
+      "prompt_de": "Welche Form beschreibt eine aktive laufende Handlung?",
+      "prompt_ar": "أي صيغة تصف فعلًا معلومًا مستمرًا؟",
+      "answer": "die den Bericht prüfende Mitarbeiterin",
+      "explanation_de": "Die Mitarbeiterin führt die Prüfung selbst aus.",
+      "explanation_ar": "تقوم الموظفة بالفحص بنفسها.",
+      "grammarFocus": "participle_i_active",
+      "options": [
+        "die den Bericht prüfende Mitarbeiterin",
+        "die vom Bericht geprüfte Mitarbeiterin",
+        "die den Bericht geprüfte Mitarbeiterin",
+        "die Prüfung der Mitarbeiterin"
+      ]
+    },
+    {
+      "id": "gr43-e004",
+      "topicId": "gr-43",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Bausteine erkennen",
+      "title_ar": "تمييز العناصر",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "gestern": "Zeitangabe",
+        "im Labor": "Ortsangabe",
+        "von der Fachabteilung": "Agens",
+        "sorgfältig": "Adverb",
+        "geprüften": "Partizip mit Adjektivendung"
+      },
+      "explanation_de": "Jeder Bestandteil hat eine bestimmte Funktion im Attribut.",
+      "explanation_ar": "لكل عنصر وظيفة محددة داخل الصفة.",
+      "grammarFocus": "component_matching",
+      "pairs": [
+        [
+          "gestern",
+          "Zeitangabe"
+        ],
+        [
+          "im Labor",
+          "Ortsangabe"
+        ],
+        [
+          "von der Fachabteilung",
+          "Agens"
+        ],
+        [
+          "sorgfältig",
+          "Adverb"
+        ],
+        [
+          "geprüften",
+          "Partizip mit Adjektivendung"
+        ]
+      ]
+    },
+    {
+      "id": "gr43-e005",
+      "topicId": "gr-43",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Zeit und Ort",
+      "title_ar": "الزمان والمكان",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die seit Montag im Homeoffice arbeitenden Beschäftigten",
+      "explanation_de": "Zeit- und Ortsangabe stehen vor dem Partizip.",
+      "explanation_ar": "يأتي تعبيرة الزمن والمكان قبل Partizip.",
+      "grammarFocus": "time_place_order",
+      "tokens": [
+        "Beschäftigten",
+        "arbeitenden",
+        "im Homeoffice",
+        "seit Montag",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die seit Montag im Homeoffice arbeitenden Beschäftigten"
+      ]
+    },
+    {
+      "id": "gr43-e006",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Keine Kommas",
+      "title_ar": "لا فواصل",
+      "prompt_de": "Welche Schreibung ist korrekt?",
+      "prompt_ar": "أي كتابة صحيحة؟",
+      "answer": "die gestern von der Fachabteilung geprüften Unterlagen",
+      "explanation_de": "Innerhalb des Attributs stehen normalerweise keine Kommas.",
+      "explanation_ar": "لا نضع عادة فواصل داخل الصفة.",
+      "grammarFocus": "comma_rule",
+      "options": [
+        "die gestern von der Fachabteilung geprüften Unterlagen",
+        "die gestern, von der Fachabteilung, geprüften Unterlagen",
+        "die, gestern von der Fachabteilung geprüften, Unterlagen",
+        "die gestern von der Fachabteilung, geprüften Unterlagen"
+      ]
+    },
+    {
+      "id": "gr43-e007",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip II",
+      "title_ar": "Partizip II",
+      "prompt_de": "Welche Form bezeichnet ein abgeschlossenes passives Ergebnis?",
+      "prompt_ar": "أي صيغة تدل على نتيجة مجهولة مكتملة؟",
+      "answer": "die gestern genehmigten Anträge",
+      "explanation_de": "Die Anträge sind von einer Handlung betroffen.",
+      "explanation_ar": "الطلبات متأثرة بالفعل.",
+      "grammarFocus": "participle_ii_passive",
+      "options": [
+        "die gestern genehmigten Anträge",
+        "die gestern genehmigenden Anträge",
+        "die gestern Genehmigung Anträge",
+        "die Anträge gestern genehmigend"
+      ]
+    },
+    {
+      "id": "gr43-e008",
+      "topicId": "gr-43",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Reflexivpronomen",
+      "title_ar": "الضمير الانعكاسي",
+      "prompt_de": "Die ______ auf das Gespräch vorbereitenden Bewerber warten im Flur.",
+      "prompt_ar": "ينتظر في الممر المتقدمون الذين يستعدون للمقابلة.",
+      "answer": "sich",
+      "explanation_de": "Das Reflexivpronomen steht vor der Präpositionalergänzung und dem Partizip.",
+      "explanation_ar": "يأتي الضمير الانعكاسي قبل متمم حرف الجر وPartizip.",
+      "grammarFocus": "reflexive_position",
+      "acceptedAnswers": [
+        "sich"
+      ]
+    },
+    {
+      "id": "gr43-e009",
+      "topicId": "gr-43",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Akkusativobjekt integrieren",
+      "title_ar": "دمج مفعول Akkusativ",
+      "prompt_de": "Bilden Sie eine Wortgruppe: die Mitarbeiterin / den Bericht / sorgfältig / prüfen",
+      "prompt_ar": "كوّن مجموعة اسمية.",
+      "answer": "die den Bericht sorgfältig prüfende Mitarbeiterin",
+      "explanation_de": "Das Akkusativobjekt und das Adverb stehen vor dem Partizip.",
+      "explanation_ar": "يأتي مفعول Akkusativ والحال قبل Partizip.",
+      "grammarFocus": "object_integration",
+      "acceptedAnswers": [
+        "die den Bericht sorgfältig prüfende Mitarbeiterin"
+      ]
+    },
+    {
+      "id": "gr43-e010",
+      "topicId": "gr-43",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Agens und Zeitangabe",
+      "title_ar": "الفاعل وتعبير الزمن",
+      "prompt_de": "Bilden Sie eine Wortgruppe: die Vereinbarung / gestern / von der Rechtsabteilung / prüfen",
+      "prompt_ar": "كوّن مجموعة اسمية باستخدام Partizip II.",
+      "answer": "die gestern von der Rechtsabteilung geprüfte Vereinbarung",
+      "explanation_de": "Zeitangabe und Agens stehen vor dem Partizip; die Endung lautet -e.",
+      "explanation_ar": "يأتي تعبير الزمن والفاعل قبل Partizip، وتكون النهاية -e.",
+      "grammarFocus": "agent_time_integration",
+      "acceptedAnswers": [
+        "die gestern von der Rechtsabteilung geprüfte Vereinbarung"
+      ]
+    },
+    {
+      "id": "gr43-e011",
+      "topicId": "gr-43",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Präpositionalergänzung",
+      "title_ar": "متمم حرف الجر",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die auf eine Rückmeldung wartenden Bewerber",
+      "explanation_de": "Die feste Ergänzung warten auf + Akkusativ bleibt erhalten.",
+      "explanation_ar": "يبقى المتمم الثابت warten auf + Akkusativ كما هو.",
+      "grammarFocus": "prepositional_complement_order",
+      "tokens": [
+        "Bewerber",
+        "wartenden",
+        "auf eine Rückmeldung",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die auf eine Rückmeldung wartenden Bewerber"
+      ]
+    },
+    {
+      "id": "gr43-e012",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "mit einer sorgfältig formulierten Antwort",
+      "explanation_de": "Nach einer im Dativ Feminin steht die Endung -en.",
+      "explanation_ar": "بعد einer في Dativ مؤنث تأتي النهاية -en.",
+      "grammarFocus": "adjective_ending_dative",
+      "options": [
+        "mit einer sorgfältig formulierten Antwort",
+        "mit einer sorgfältig formulierte Antwort",
+        "mit einer sorgfältig formuliert Antwort",
+        "mit einer sorgfältigen formuliert Antwort"
+      ]
+    },
+    {
+      "id": "gr43-e013",
+      "topicId": "gr-43",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Bedeutung und Form",
+      "title_ar": "المعنى والصيغة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "die beratende Mitarbeiterin": "aktive laufende Handlung",
+        "die beratene Kundin": "passive abgeschlossene Handlung",
+        "die angekommenen Gäste": "aktive abgeschlossene Handlung",
+        "die gespeicherten Daten": "resultativer Zustand",
+        "die sich vorbereitenden Bewerber": "reflexive aktive Handlung"
+      },
+      "explanation_de": "Partizipform und Verbtyp bestimmen die Bedeutung.",
+      "explanation_ar": "تحدد صيغة Partizip ونوع الفعل المعنى.",
+      "grammarFocus": "meaning_matching",
+      "pairs": [
+        [
+          "die beratende Mitarbeiterin",
+          "aktive laufende Handlung"
+        ],
+        [
+          "die beratene Kundin",
+          "passive abgeschlossene Handlung"
+        ],
+        [
+          "die angekommenen Gäste",
+          "aktive abgeschlossene Handlung"
+        ],
+        [
+          "die gespeicherten Daten",
+          "resultativer Zustand"
+        ],
+        [
+          "die sich vorbereitenden Bewerber",
+          "reflexive aktive Handlung"
+        ]
+      ]
+    },
+    {
+      "id": "gr43-e014",
+      "topicId": "gr-43",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Sachliche Kurzform",
+      "title_ar": "صيغة موضوعية مختصرة",
+      "prompt_de": "Welche Formulierung passt am besten in einen Bericht?",
+      "prompt_ar": "أي صياغة تناسب تقريرًا؟",
+      "answer": "Die nach mehreren Gesprächen mit dem Betriebsrat vereinbarte Lösung wurde vorgestellt.",
+      "explanation_de": "Das erweiterte Attribut fasst mehrere Informationen kompakt zusammen.",
+      "explanation_ar": "تلخص الصفة الموسعة عدة معلومات بإيجاز.",
+      "grammarFocus": "formal_extended_attribute",
+      "options": [
+        "Die nach mehreren Gesprächen mit dem Betriebsrat vereinbarte Lösung wurde vorgestellt.",
+        "Die Lösung, nach Gesprächen Betriebsrat vereinbart, wurde vorgestellt.",
+        "Die mit Betriebsrat Gespräche vereinbarende Lösung wurde vorgestellt.",
+        "Die Lösung wurde nach Gesprächen vereinbart vorgestellt."
+      ]
+    },
+    {
+      "id": "gr43-e015",
+      "topicId": "gr-43",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Dativ Plural",
+      "title_ar": "Dativ Plural",
+      "prompt_de": "Mit den erst am Morgen vollständig eingereich______ Unterlagen begann die Prüfung.",
+      "prompt_ar": "بدأت المراجعة بالمستندات التي لم تُقدّم كاملة إلا صباحًا.",
+      "answer": "ten",
+      "explanation_de": "Eingereicht erhält im Dativ Plural die Endung -en.",
+      "explanation_ar": "تأخذ eingereicht في Dativ Plural النهاية -en.",
+      "grammarFocus": "dative_plural_ending",
+      "acceptedAnswers": [
+        "ten"
+      ]
+    },
+    {
+      "id": "gr43-e016",
+      "topicId": "gr-43",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Reflexives erweitertes Attribut",
+      "title_ar": "صفة انعكاسية موسعة",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die sich intensiv auf die Prüfung vorbereitenden Teilnehmenden",
+      "explanation_de": "Sich, Adverb und Präpositionalergänzung stehen vor dem Partizip.",
+      "explanation_ar": "يأتي sich والحال ومتمم حرف الجر قبل Partizip.",
+      "grammarFocus": "reflexive_extended_order",
+      "tokens": [
+        "Teilnehmenden",
+        "vorbereitenden",
+        "auf die Prüfung",
+        "intensiv",
+        "sich",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die sich intensiv auf die Prüfung vorbereitenden Teilnehmenden"
+      ]
+    },
+    {
+      "id": "gr43-e017",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Kasus im Attribut",
+      "title_ar": "الحالة داخل الصفة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "die dem Team fehlenden Informationen",
+      "explanation_de": "Fehlen verlangt ein Dativobjekt: dem Team.",
+      "explanation_ar": "يحتاج fehlen إلى مفعول Dativ: dem Team.",
+      "grammarFocus": "dative_object",
+      "options": [
+        "die dem Team fehlenden Informationen",
+        "die das Team fehlenden Informationen",
+        "die dem Team gefehlt Informationen",
+        "die fehlenden dem Team Informationen"
+      ]
+    },
+    {
+      "id": "gr43-e018",
+      "topicId": "gr-43",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Mehrere Ergänzungen kombinieren",
+      "title_ar": "جمع عدة متممات",
+      "prompt_de": "Bilden Sie eine Wortgruppe: die Unterlagen / gestern / von der Fachabteilung / vollständig / prüfen",
+      "prompt_ar": "كوّن مجموعة اسمية باستخدام Partizip II.",
+      "answer": "die gestern von der Fachabteilung vollständig geprüften Unterlagen",
+      "explanation_de": "Zeitangabe, Agens und Adverb stehen vor dem Partizip.",
+      "explanation_ar": "يأتي تعبير الزمن والفاعل والحال قبل Partizip.",
+      "grammarFocus": "multiple_modifiers_build",
+      "acceptedAnswers": [
+        "die gestern von der Fachabteilung vollständig geprüften Unterlagen"
+      ]
+    },
+    {
+      "id": "gr43-e019",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Attributklammer",
+      "title_ar": "إطار الصفة",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Artikel und Partizip bilden eine Klammer; die Ergänzungen stehen dazwischen.",
+      "explanation_de": "Das erklärt die Struktur von „die gestern im Labor geprüften Geräte“.",
+      "explanation_ar": "توضح هذه القاعدة بنية die gestern im Labor geprüften Geräte.",
+      "grammarFocus": "attribute_bracket",
+      "options": [
+        "Artikel und Partizip bilden eine Klammer; die Ergänzungen stehen dazwischen.",
+        "Das Nomen steht immer zwischen Artikel und Ergänzungen.",
+        "Das Partizip muss am Anfang der Wortgruppe stehen.",
+        "Jede Ergänzung wird durch ein Komma abgetrennt."
+      ]
+    },
+    {
+      "id": "gr43-e020",
+      "topicId": "gr-43",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Lesbarkeit",
+      "title_ar": "سهولة القراءة",
+      "prompt_de": "Welche Formulierung ist stilistisch verständlicher?",
+      "prompt_ar": "أي صياغة أوضح أسلوبيًا؟",
+      "answer": "Die Anträge, die nach mehreren zusätzlichen Prüfungen durch zwei unabhängige Fachstellen genehmigt wurden, werden veröffentlicht.",
+      "explanation_de": "Bei sehr vielen Ergänzungen ist der Relativsatz häufig leichter zu lesen.",
+      "explanation_ar": "عند كثرة المتممات تكون الجملة الموصولة أسهل قراءة غالبًا.",
+      "grammarFocus": "style_readability",
+      "options": [
+        "Die Anträge, die nach mehreren zusätzlichen Prüfungen durch zwei unabhängige Fachstellen genehmigt wurden, werden veröffentlicht.",
+        "Die nach mehreren zusätzlichen Prüfungen durch zwei unabhängige Fachstellen genehmigten Anträge werden veröffentlicht.",
+        "Die Anträge nach Prüfungen Fachstellen genehmigt werden veröffentlicht.",
+        "Die genehmigend durch Stellen nach Prüfungen Anträge werden veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr43-e021",
+      "topicId": "gr-43",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexe Partizip-I-Gruppe",
+      "title_ar": "مجموعة معقدة من Partizip I",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die seit Wochen ruhig mit den Kunden verhandelnde Projektleiterin",
+      "explanation_de": "Zeitangabe, Adverb und Präpositionalergänzung stehen vor dem Partizip.",
+      "explanation_ar": "يأتي تعبير الزمن والحال ومتمم حرف الجر قبل Partizip.",
+      "grammarFocus": "complex_participle_i_order",
+      "tokens": [
+        "Projektleiterin",
+        "verhandelnde",
+        "mit den Kunden",
+        "ruhig",
+        "seit Wochen",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die seit Wochen ruhig mit den Kunden verhandelnde Projektleiterin"
+      ]
+    },
+    {
+      "id": "gr43-e022",
+      "topicId": "gr-43",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Partizip I oder II wählen",
+      "title_ar": "اختيار Partizip I أو II",
+      "prompt_de": "Welche Kombination ist vollständig korrekt?",
+      "prompt_ar": "أي مجموعة صحيحة بالكامل؟",
+      "answer": "die den Antrag prüfende Sachbearbeiterin – der von ihr geprüfte Antrag",
+      "explanation_de": "Die Person führt die Handlung aus; der Antrag ist von ihr betroffen.",
+      "explanation_ar": "تقوم الموظفة بالفعل، بينما يتأثر الطلب به.",
+      "grammarFocus": "participle_choice_contrast",
+      "options": [
+        "die den Antrag prüfende Sachbearbeiterin – der von ihr geprüfte Antrag",
+        "die den Antrag geprüfte Sachbearbeiterin – der von ihr prüfende Antrag",
+        "die prüfte Sachbearbeiterin – der geprüfende Antrag",
+        "die den Antrag Prüfung Sachbearbeiterin – der von ihr prüfen Antrag"
+      ]
+    },
+    {
+      "id": "gr43-e023",
+      "topicId": "gr-43",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Satzinformationen verdichten",
+      "title_ar": "تكثيف معلومات الجملة",
+      "prompt_de": "Verbinden Sie: Die Fachleute diskutieren seit dem Morgen im Konferenzraum über die neue Regelung. Sie arbeiten an einer Empfehlung.",
+      "prompt_ar": "اربط الجملتين باستخدام صفة Partizip I.",
+      "answer": "Die seit dem Morgen im Konferenzraum über die neue Regelung diskutierenden Fachleute arbeiten an einer Empfehlung.",
+      "explanation_de": "Zeit, Ort und Präpositionalergänzung werden in das Attribut integriert.",
+      "explanation_ar": "يتم دمج الزمن والمكان ومتمم حرف الجر داخل الصفة.",
+      "grammarFocus": "sentence_compression",
+      "acceptedAnswers": [
+        "Die seit dem Morgen im Konferenzraum über die neue Regelung diskutierenden Fachleute arbeiten an einer Empfehlung."
+      ]
+    },
+    {
+      "id": "gr43-e024",
+      "topicId": "gr-43",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining erweiterte Attribute",
+      "title_ar": "تدريب ختامي على الصفات الموسعة",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens zwölf Sätzen über einen Arbeitsprozess oder eine Verwaltungssituation. Verwenden Sie mindestens zehn erweiterte Partizipialattribute.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من اثنتي عشرة جملة على الأقل عن سير عمل أو موقف إداري. استخدم عشر صفات موسعة من Partizip على الأقل.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens fünf Partizip-I-Attribute",
+          "mindestens fünf Partizip-II-Attribute",
+          "mindestens drei Zeitangaben",
+          "mindestens drei Orts- oder Präpositionalergänzungen",
+          "mindestens zwei Akkusativobjekte",
+          "mindestens zwei Dativobjekte",
+          "mindestens zwei reflexive Verben",
+          "korrekte Adjektivendungen",
+          "keine unnötigen Kommas innerhalb der Attribute",
+          "mindestens zwei Relativsätze aus Stilgründen"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Reihenfolge, Kasus, Adjektivendung, Partizipwahl, Kommas und Lesbarkeit.",
+      "explanation_ar": "راجع الترتيب والحالة ونهاية الصفة واختيار Partizip والفواصل وسهولة القراءة.",
+      "grammarFocus": "mixed_extended_participial_attributes",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

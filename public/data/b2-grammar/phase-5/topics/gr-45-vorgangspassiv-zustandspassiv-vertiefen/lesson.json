@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-45",
+  "slug": "gr-45-vorgangspassiv-zustandspassiv-vertiefen",
+  "order": 45,
+  "title_de": "Vorgangspassiv und Zustandspassiv vertiefen",
+  "title_ar": "تعميق المبني للمجهول الحدثي والحالي",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 75,
+  "learningObjectives_de": [
+    "Vorgangspassiv und Zustandspassiv sicher unterscheiden.",
+    "Passivformen in Präsens, Präteritum, Perfekt, Plusquamperfekt und Futur bilden.",
+    "Ablauf, Ergebnis und bestehenden Zustand präzise ausdrücken.",
+    "Aktivsätze in passende Passivsätze umformen.",
+    "Agens, Ursache und Mittel mit von, durch und mit korrekt ausdrücken.",
+    "Zeitliche Abfolgen mit Vorgangs- und Zustandspassiv darstellen.",
+    "Zustandspassiv von Perfektformen mit sein und von normalen Adjektiven unterscheiden.",
+    "Passivformen in beruflichen Berichten, Anweisungen und Protokollen angemessen verwenden."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بثقة بين Vorgangspassiv وZustandspassiv.",
+    "تكوين المبني للمجهول في Präsens وPräteritum وPerfekt وPlusquamperfekt والمستقبل.",
+    "التعبير بدقة عن الإجراء والنتيجة والحالة القائمة.",
+    "تحويل الجمل المعلومة إلى صيغ مجهولة مناسبة.",
+    "التعبير عن الفاعل والسبب والوسيلة باستخدام von وdurch وmit.",
+    "عرض التسلسل الزمني باستخدام المبني للمجهول الحدثي والحالي.",
+    "التمييز بين Zustandspassiv وصيغ Perfekt مع sein والصفات العادية.",
+    "استخدام المبني للمجهول في التقارير والتعليمات والمحاضر المهنية."
+  ],
+  "shortDescription_de": "Das Vorgangspassiv beschreibt, was geschieht oder geschah. Das Zustandspassiv beschreibt den Zustand, der nach einer Handlung besteht.",
+  "shortDescription_ar": "يصف Vorgangspassiv ما يحدث أو حدث، بينما يصف Zustandspassiv الحالة الناتجة عن فعل سابق.",
+  "explanation_de": "Das Vorgangspassiv wird mit werden + Partizip II gebildet und stellt den Ablauf oder die Handlung in den Mittelpunkt: Die Tür wird geöffnet. Das Zustandspassiv wird mit sein + Partizip II gebildet und beschreibt das Ergebnis oder den bestehenden Zustand: Die Tür ist geöffnet. Eine nützliche Leitfrage lautet: Was geschieht? → Vorgangspassiv. Wie ist der Zustand? → Zustandspassiv. Die Formen unterscheiden sich auch in den Zeiten. Präsens: wird geprüft / ist geprüft. Präteritum: wurde geprüft / war geprüft. Perfekt: ist geprüft worden / ist geprüft gewesen. Plusquamperfekt: war geprüft worden / war geprüft gewesen. Futur I: wird geprüft werden / wird geprüft sein. Das Vorgangspassiv kann den Handelnden mit von + Dativ nennen, besonders bei Personen oder Institutionen: Der Antrag wird von der Sachbearbeiterin geprüft. Durch + Akkusativ bezeichnet häufig Ursache, Einfluss oder vermittelnden Vorgang: Die Produktion wurde durch einen Stromausfall unterbrochen. Mit + Dativ nennt oft das Instrument: Die Datei wurde mit einem Spezialprogramm geöffnet. Häufig bilden beide Passivarten eine zeitliche Folge: Zuerst wird die Anlage abgeschaltet. Danach ist sie abgeschaltet. Nicht jede Form mit sein + Partizip II ist automatisch Zustandspassiv. Die Gäste sind angekommen ist Perfekt eines Verbs mit sein. Die Lösung ist sinnvoll ist ein Adjektivprädikat. Bei Formen wie Die Tür ist geschlossen entscheidet der Kontext, ob ein Ergebniszustand oder eine feste Eigenschaft gemeint ist.",
+  "explanation_ar": "يُبنى Vorgangspassiv باستخدام werden + Partizip II ويركز على سير الفعل أو حدوثه: Die Tür wird geöffnet. أما Zustandspassiv فيُبنى باستخدام sein + Partizip II ويصف النتيجة أو الحالة القائمة: Die Tür ist geöffnet. ويمكن الاستعانة بالسؤالين: ماذا يحدث؟ ← Vorgangspassiv. كيف هي الحالة؟ ← Zustandspassiv. وتختلف الصيغ بحسب الزمن. Präsens: wird geprüft / ist geprüft. Präteritum: wurde geprüft / war geprüft. Perfekt: ist geprüft worden / ist geprüft gewesen. Plusquamperfekt: war geprüft worden / war geprüft gewesen. Futur I: wird geprüft werden / wird geprüft sein. ويمكن ذكر الفاعل في Vorgangspassiv باستخدام von + Dativ، خصوصًا مع الأشخاص أو المؤسسات: Der Antrag wird von der Sachbearbeiterin geprüft. وتدل durch + Akkusativ غالبًا على السبب أو التأثير أو العملية الوسيطة: Die Produktion wurde durch einen Stromausfall unterbrochen. أما mit + Dativ فتدل غالبًا على الأداة: Die Datei wurde mit einem Spezialprogramm geöffnet. وغالبًا تشكل الصيغتان تسلسلًا زمنيًا: أولًا تُوقف المنشأة، ثم تكون متوقفة. وليست كل صيغة من sein + Partizip II Zustandspassiv تلقائيًا. فـ Die Gäste sind angekommen هي Perfekt لفعل يستخدم sein، وDie Lösung ist sinnvoll جملة خبرية بصفة. وفي صيغ مثل Die Tür ist geschlossen يحدد السياق ما إذا كان المقصود حالة ناتجة عن فعل أو صفة ثابتة.",
+  "rules": [
+    {
+      "id": "gr45-r01",
+      "title_de": "Vorgangspassiv",
+      "title_ar": "Vorgangspassiv",
+      "explanation_de": "Es beschreibt eine Handlung oder einen laufenden Vorgang.",
+      "explanation_ar": "يصف فعلًا أو إجراءً جاريًا.",
+      "formula": "werden + Partizip II",
+      "examples": [
+        {
+          "de": "Der Antrag wird geprüft.",
+          "ar": "تتم مراجعة الطلب."
+        },
+        {
+          "de": "Die Geräte werden gereinigt.",
+          "ar": "تتم عملية تنظيف الأجهزة."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r02",
+      "title_de": "Zustandspassiv",
+      "title_ar": "Zustandspassiv",
+      "explanation_de": "Es beschreibt das Ergebnis oder den bestehenden Zustand nach einer Handlung.",
+      "explanation_ar": "يصف النتيجة أو الحالة القائمة بعد فعل.",
+      "formula": "sein + Partizip II",
+      "examples": [
+        {
+          "de": "Der Antrag ist geprüft.",
+          "ar": "الطلب تمت مراجعته وهو في حالة مكتملة."
+        },
+        {
+          "de": "Die Geräte sind gereinigt.",
+          "ar": "الأجهزة نظيفة بعد تنظيفها."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r03",
+      "title_de": "Leitfragen",
+      "title_ar": "أسئلة مساعدة",
+      "explanation_de": "Was geschieht? fragt nach dem Vorgang; Wie ist der Zustand? nach dem Ergebnis.",
+      "explanation_ar": "يسأل ماذا يحدث؟ عن الإجراء، بينما يسأل كيف هي الحالة؟ عن النتيجة.",
+      "formula": "Was geschieht? ↔ Wie ist der Zustand?",
+      "examples": [
+        {
+          "de": "Die Datei wird gespeichert. / Die Datei ist gespeichert.",
+          "ar": "يتم حفظ الملف. / الملف محفوظ."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r04",
+      "title_de": "Präsens und Präteritum",
+      "title_ar": "Präsens وPräteritum",
+      "explanation_de": "Im Vorgangspassiv stehen wird/wurde; im Zustandspassiv ist/war.",
+      "explanation_ar": "نستخدم wird/wurde في Vorgangspassiv وist/war في Zustandspassiv.",
+      "formula": "wird geprüft / wurde geprüft | ist geprüft / war geprüft",
+      "examples": [
+        {
+          "de": "Die Tür wurde geöffnet. Danach war sie geöffnet.",
+          "ar": "تم فتح الباب، ثم كان مفتوحًا."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r05",
+      "title_de": "Perfekt",
+      "title_ar": "Perfekt",
+      "explanation_de": "Vorgangspassiv: ist + Partizip II + worden. Zustandspassiv: ist + Partizip II + gewesen.",
+      "explanation_ar": "Vorgangspassiv: ist + Partizip II + worden. Zustandspassiv: ist + Partizip II + gewesen.",
+      "formula": "ist geprüft worden | ist geprüft gewesen",
+      "examples": [
+        {
+          "de": "Der Raum ist renoviert worden.",
+          "ar": "تم تجديد الغرفة."
+        },
+        {
+          "de": "Der Raum ist mehrere Wochen renoviert gewesen.",
+          "ar": "كانت الغرفة مجددة عدة أسابيع."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r06",
+      "title_de": "Plusquamperfekt",
+      "title_ar": "Plusquamperfekt",
+      "explanation_de": "Vorgang: war + Partizip II + worden. Zustand: war + Partizip II + gewesen.",
+      "explanation_ar": "الإجراء: war + Partizip II + worden. الحالة: war + Partizip II + gewesen.",
+      "formula": "war geprüft worden | war geprüft gewesen",
+      "examples": [
+        {
+          "de": "Der Zugang war gesperrt worden, bevor die Wartung begann.",
+          "ar": "كان الوصول قد حُظر قبل بدء الصيانة."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r07",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "explanation_de": "Vorgang: wird + Partizip II + werden. Zustand: wird + Partizip II + sein.",
+      "explanation_ar": "الإجراء: wird + Partizip II + werden. الحالة: wird + Partizip II + sein.",
+      "formula": "wird geprüft werden | wird geprüft sein",
+      "examples": [
+        {
+          "de": "Der Bericht wird morgen fertiggestellt werden.",
+          "ar": "سيتم إنجاز التقرير غدًا."
+        },
+        {
+          "de": "Der Bericht wird morgen fertiggestellt sein.",
+          "ar": "سيكون التقرير منجزًا غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r08",
+      "title_de": "Von, durch und mit",
+      "title_ar": "von وdurch وmit",
+      "explanation_de": "Von nennt häufig Handelnde, durch Ursache oder Einfluss, mit ein Instrument.",
+      "explanation_ar": "تذكر von غالبًا الفاعل، وdurch السبب أو التأثير، وmit الأداة.",
+      "formula": "von + Dativ | durch + Akkusativ | mit + Dativ",
+      "examples": [
+        {
+          "de": "Der Bericht wurde von der Leitung freigegeben.",
+          "ar": "تم اعتماد التقرير من الإدارة."
+        },
+        {
+          "de": "Der Betrieb wurde durch einen Defekt unterbrochen.",
+          "ar": "توقف التشغيل بسبب عطل."
+        },
+        {
+          "de": "Die Datei wurde mit einem Spezialprogramm geöffnet.",
+          "ar": "تم فتح الملف ببرنامج خاص."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r09",
+      "title_de": "Zeitliche Folge",
+      "title_ar": "التسلسل الزمني",
+      "explanation_de": "Vorgangspassiv beschreibt die Veränderung; Zustandspassiv das Ergebnis danach.",
+      "explanation_ar": "يصف Vorgangspassiv التغيير، ويصف Zustandspassiv النتيجة بعده.",
+      "formula": "Zuerst wird ... Danach ist ...",
+      "examples": [
+        {
+          "de": "Zuerst wird die Anlage abgeschaltet. Danach ist sie abgeschaltet.",
+          "ar": "تُوقف المنشأة أولًا، ثم تكون متوقفة."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r10",
+      "title_de": "Negation",
+      "title_ar": "النفي",
+      "explanation_de": "Nicht steht vor dem Partizip oder vor dem negierten Satzteil.",
+      "explanation_ar": "تأتي nicht قبل Partizip أو قبل العنصر المنفي.",
+      "formula": "wird nicht geöffnet | ist noch nicht geöffnet",
+      "examples": [
+        {
+          "de": "Der Zugang wird heute nicht geöffnet.",
+          "ar": "لن يتم فتح المدخل اليوم."
+        },
+        {
+          "de": "Der Zugang ist noch nicht geöffnet.",
+          "ar": "المدخل ليس مفتوحًا بعد."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r11",
+      "title_de": "Nicht jedes sein + Partizip II ist Zustandspassiv",
+      "title_ar": "ليست كل صيغة sein + Partizip II Zustandspassiv",
+      "explanation_de": "Perfektformen mit sein und feste Adjektive müssen getrennt betrachtet werden.",
+      "explanation_ar": "يجب التمييز بين Perfekt مع sein والصفات الثابتة.",
+      "formula": "ist angekommen ≠ Zustandspassiv",
+      "examples": [
+        {
+          "de": "Die Gäste sind angekommen.",
+          "ar": "وصل الضيوف."
+        },
+        {
+          "de": "Die Lösung ist sinnvoll.",
+          "ar": "الحل منطقي."
+        }
+      ]
+    },
+    {
+      "id": "gr45-r12",
+      "title_de": "Stil und Informationsfokus",
+      "title_ar": "الأسلوب وتركيز المعلومة",
+      "explanation_de": "Vorgangspassiv eignet sich für Abläufe; Zustandspassiv für Ergebnisse, Kontrollen und Statusberichte.",
+      "explanation_ar": "يناسب Vorgangspassiv وصف الإجراءات، ويناسب Zustandspassiv النتائج والفحوص وتقارير الحالة.",
+      "formula": "Prozessbericht ↔ Statusbericht",
+      "examples": [
+        {
+          "de": "Die Daten werden überprüft. / Die Daten sind überprüft.",
+          "ar": "تتم مراجعة البيانات. / البيانات تمت مراجعتها."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr45-t01",
+      "title_de": "Zeitformen im Vergleich",
+      "title_ar": "مقارنة الأزمنة",
+      "headers_de": [
+        "Zeit",
+        "Vorgangspassiv",
+        "Zustandspassiv"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "Vorgangspassiv",
+        "Zustandspassiv"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "wird geprüft",
+          "ist geprüft"
+        ],
+        [
+          "Präteritum",
+          "wurde geprüft",
+          "war geprüft"
+        ],
+        [
+          "Perfekt",
+          "ist geprüft worden",
+          "ist geprüft gewesen"
+        ],
+        [
+          "Plusquamperfekt",
+          "war geprüft worden",
+          "war geprüft gewesen"
+        ],
+        [
+          "Futur I",
+          "wird geprüft werden",
+          "wird geprüft sein"
+        ]
+      ]
+    },
+    {
+      "id": "gr45-t02",
+      "title_de": "Bedeutungsvergleich",
+      "title_ar": "مقارنة المعنى",
+      "headers_de": [
+        "Form",
+        "Fokus",
+        "Leitfrage"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "التركيز",
+        "السؤال"
+      ],
+      "rows": [
+        [
+          "Die Tür wird geöffnet.",
+          "Handlung / Veränderung",
+          "Was geschieht?"
+        ],
+        [
+          "Die Tür ist geöffnet.",
+          "Ergebnis / Zustand",
+          "Wie ist die Tür?"
+        ],
+        [
+          "Die Tür wurde geöffnet.",
+          "abgeschlossener Vorgang",
+          "Was geschah?"
+        ],
+        [
+          "Die Tür war geöffnet.",
+          "früherer Zustand",
+          "Wie war die Tür?"
+        ]
+      ]
+    },
+    {
+      "id": "gr45-t03",
+      "title_de": "Agens, Ursache und Instrument",
+      "title_ar": "الفاعل والسبب والأداة",
+      "headers_de": [
+        "Struktur",
+        "typische Funktion",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "البنية",
+        "الوظيفة المعتادة",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "von + Dativ",
+          "Person / Institution",
+          "von der Leitung genehmigt"
+        ],
+        [
+          "durch + Akkusativ",
+          "Ursache / Einfluss",
+          "durch einen Defekt unterbrochen"
+        ],
+        [
+          "mit + Dativ",
+          "Instrument / Mittel",
+          "mit einem Programm geöffnet"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Unterlagen werden derzeit von der Fachabteilung geprüft.",
+      "ar": "تتم حاليًا مراجعة المستندات من القسم المختص.",
+      "note_de": "Vorgangspassiv mit genanntem Agens.",
+      "note_ar": "Vorgangspassiv مع ذكر الفاعل."
+    },
+    {
+      "de": "Alle erforderlichen Unterlagen sind bereits geprüft.",
+      "ar": "تمت مراجعة جميع المستندات المطلوبة بالفعل.",
+      "note_de": "Zustandspassiv als Statusmeldung.",
+      "note_ar": "Zustandspassiv بوصفه تقرير حالة."
+    },
+    {
+      "de": "Die Produktion wurde durch einen technischen Defekt unterbrochen.",
+      "ar": "توقف الإنتاج بسبب عطل تقني.",
+      "note_de": "Durch nennt die Ursache.",
+      "note_ar": "تذكر durch السبب."
+    },
+    {
+      "de": "Der Bericht ist gestern freigegeben worden und ist seitdem veröffentlicht.",
+      "ar": "تم اعتماد التقرير أمس، وهو منشور منذ ذلك الحين.",
+      "note_de": "Perfekt des Vorgangspassivs plus bestehender Zustand.",
+      "note_ar": "Perfekt لـ Vorgangspassiv ثم حالة قائمة."
+    },
+    {
+      "de": "Bis morgen wird das System aktualisiert sein.",
+      "ar": "سيكون النظام قد أصبح محدّثًا حتى الغد.",
+      "note_de": "Zukünftiger Ergebniszustand.",
+      "note_ar": "حالة نتيجة مستقبلية."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Die Tür ist geöffnet worden. = Zustandspassiv Präsens",
+      "correct": "Die Tür ist geöffnet worden. = Vorgangspassiv Perfekt",
+      "explanation_de": "Worden kennzeichnet den abgeschlossenen Vorgang.",
+      "explanation_ar": "تدل worden على الإجراء المكتمل."
+    },
+    {
+      "wrong": "Der Antrag wird geprüft sein. = Vorgangspassiv Futur",
+      "correct": "Der Antrag wird geprüft sein. = zukünftiger Zustand",
+      "explanation_de": "Werden + Partizip II + sein beschreibt einen zukünftigen Ergebniszustand.",
+      "explanation_ar": "تصف werden + Partizip II + sein حالة نتيجة مستقبلية."
+    },
+    {
+      "wrong": "Die Daten sind gespeichert worden gewesen.",
+      "correct": "Die Daten sind gespeichert worden. / Die Daten sind gespeichert gewesen.",
+      "explanation_de": "Vorgang und Zustand haben unterschiedliche Perfektformen und werden nicht kombiniert.",
+      "explanation_ar": "للمجهول الحدثي والحالي صيغتا Perfekt مختلفتان ولا تُدمجان."
+    },
+    {
+      "wrong": "Die Datei wurde mit der Technikerin geöffnet.",
+      "correct": "Die Datei wurde von der Technikerin geöffnet.",
+      "explanation_de": "Eine handelnde Person steht normalerweise mit von.",
+      "explanation_ar": "يأتي الفاعل البشري عادة مع von."
+    },
+    {
+      "wrong": "Die Gäste sind angekommen. = Zustandspassiv",
+      "correct": "Die Gäste sind angekommen. = Perfekt Aktiv mit sein",
+      "explanation_de": "Ankommen ist intransitiv und bildet das Perfekt mit sein.",
+      "explanation_ar": "ankommen فعل لازم ويكوّن Perfekt مع sein."
+    },
+    {
+      "wrong": "Zuerst ist die Maschine ausgeschaltet. Danach wird sie ausgeschaltet.",
+      "correct": "Zuerst wird die Maschine ausgeschaltet. Danach ist sie ausgeschaltet.",
+      "explanation_de": "Zuerst geschieht der Vorgang, danach besteht der Zustand.",
+      "explanation_ar": "يحدث الإجراء أولًا، ثم تقوم الحالة بعده."
+    }
+  ],
+  "quickSummary_de": [
+    "Vorgangspassiv wird mit werden + Partizip II gebildet.",
+    "Zustandspassiv wird mit sein + Partizip II gebildet.",
+    "Vorgangspassiv beantwortet die Frage: Was geschieht?",
+    "Zustandspassiv beantwortet die Frage: Wie ist der Zustand?",
+    "Perfekt Vorgang lautet ist + Partizip II + worden.",
+    "Perfekt Zustand lautet ist + Partizip II + gewesen.",
+    "Futur Vorgang lautet wird + Partizip II + werden.",
+    "Futur Zustand lautet wird + Partizip II + sein.",
+    "Von nennt häufig Handelnde, durch Ursachen und mit Instrumente.",
+    "Vorgang und Zustand bilden oft eine zeitliche Folge.",
+    "Nicht jedes sein + Partizip II ist Zustandspassiv.",
+    "Die Formwahl richtet sich nach Ablauf, Ergebnis und Informationsfokus."
+  ],
+  "quickSummary_ar": [
+    "يُبنى Vorgangspassiv باستخدام werden + Partizip II.",
+    "يُبنى Zustandspassiv باستخدام sein + Partizip II.",
+    "يجيب Vorgangspassiv عن سؤال: ماذا يحدث؟",
+    "يجيب Zustandspassiv عن سؤال: كيف هي الحالة؟",
+    "يكون Perfekt الحدثي ist + Partizip II + worden.",
+    "يكون Perfekt الحالي ist + Partizip II + gewesen.",
+    "يكون المستقبل الحدثي wird + Partizip II + werden.",
+    "تكون الحالة المستقبلية wird + Partizip II + sein.",
+    "تذكر von غالبًا الفاعل، وdurch السبب، وmit الأداة.",
+    "يشكل الإجراء والحالة غالبًا تسلسلًا زمنيًا.",
+    "ليست كل صيغة sein + Partizip II Zustandspassiv.",
+    "يعتمد الاختيار على الإجراء والنتيجة وتركيز المعلومة."
+  ],
+  "relatedTopics": [
+    "gr-42",
+    "gr-44",
+    "gr-46",
+    "gr-47",
+    "gr-49",
+    "gr-50"
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-50",
+  "slug": "gr-50-gemischtes-training-phase-5",
+  "order": 50,
+  "title_de": "Gemischtes Training – Phase 5",
+  "title_ar": "تدريب مختلط – المرحلة الخامسة",
+  "level": "B2",
+  "sourceType": "mixed_review",
+  "category": "phase_review",
+  "estimatedMinutes": 90,
+  "sourceTopics": [
+    "gr-41",
+    "gr-42",
+    "gr-43",
+    "gr-44",
+    "gr-45",
+    "gr-46",
+    "gr-47",
+    "gr-48",
+    "gr-49"
+  ],
+  "learningObjectives_de": [
+    "Partizip I und Partizip II als Attribute sicher unterscheiden.",
+    "Erweiterte Partizipialattribute korrekt bilden und auflösen.",
+    "Partizipialattribute und Relativsätze bedeutungsgleich umformen.",
+    "Vorgangs- und Zustandspassiv in mehreren Zeitformen verwenden.",
+    "Passiv mit Modalverben korrekt bilden.",
+    "Passiversatzformen stilistisch passend auswählen.",
+    "Bekommen-Passiv und Empfängerperspektive korrekt einsetzen.",
+    "Unpersönliches Passiv und Passivbeschränkungen erkennen.",
+    "Mehrere Strukturen in sachlichen B2-Texten kombinieren."
+  ],
+  "learningObjectives_ar": [
+    "التمييز بثقة بين Partizip I وPartizip II بوصفهما صفات.",
+    "تكوين صفات Partizip الموسعة وتفكيكها بصورة صحيحة.",
+    "التحويل بين صفات Partizip والجمل الموصولة مع الحفاظ على المعنى.",
+    "استخدام Vorgangspassiv وZustandspassiv في عدة أزمنة.",
+    "تكوين المبني للمجهول مع الأفعال الناقصة.",
+    "اختيار بدائل المبني للمجهول وفق الأسلوب والمعنى.",
+    "استخدام Bekommen-Passiv ومنظور المتلقي.",
+    "تمييز المبني للمجهول غير الشخصي وقيوده.",
+    "دمج عدة تراكيب في نصوص موضوعية بمستوى B2."
+  ],
+  "shortDescription_de": "Dieses Abschlusstraining verbindet die Inhalte von gr-41 bis gr-49. Im Mittelpunkt stehen Bedeutungswahl, Umformung, Wortstellung, Kasus, Zeitformen und Stil.",
+  "shortDescription_ar": "يجمع هذا التدريب الختامي محتوى الوحدات من gr-41 إلى gr-49، ويركز على اختيار المعنى والتحويل وترتيب الكلمات والحالات والأزمنة والأسلوب.",
+  "explanation_de": "Phase 5 verbindet Partizipialattribute mit verschiedenen Passivformen. Partizip I beschreibt meist eine aktive, gleichzeitig laufende Handlung: die wartenden Gäste. Partizip II beschreibt häufig einen passiven, abgeschlossenen oder resultativen Inhalt: die geprüften Unterlagen. Erweiterte Attribute integrieren Objekte und Angaben vor dem Partizip. Relativsätze können häufig verdichtet werden, sofern Aktiv oder Passiv, Zeitbezug und Ergänzungen erhalten bleiben. Beim Passiv muss zwischen Vorgang und Zustand unterschieden werden: wird geöffnet gegenüber ist geöffnet. Modalverben stehen konjugiert, während Partizip II + werden am Satzende steht. Sein + zu, sich lassen und Adjektive auf -bar können Passivbedeutungen stilistisch anders ausdrücken. Das Bekommen-Passiv stellt den Empfänger in den Mittelpunkt. Das unpersönliche Passiv ist auch ohne Akkusativobjekt möglich, wenn ein agentiver Vorgang vorliegt. Die passende Form hängt immer von Bedeutung, Perspektive, Zeit, Kasus und Textsorte ab.",
+  "explanation_ar": "تجمع المرحلة الخامسة بين صفات Partizip وصيغ مختلفة من المبني للمجهول. يصف Partizip I غالبًا فعلًا معلومًا ومتزامنًا، مثل die wartenden Gäste. أما Partizip II فيصف غالبًا معنى مجهولًا أو مكتملًا أو دالًا على نتيجة، مثل die geprüften Unterlagen. وتدمج الصفات الموسعة المفاعيل والظروف قبل Partizip. ويمكن غالبًا تكثيف الجمل الموصولة إذا بقي المعلوم أو المجهول والزمن والمتممات محفوظة. وفي Passiv يجب التمييز بين الإجراء والحالة: wird geöffnet مقابل ist geöffnet. ومع الأفعال الناقصة يُصرف الفعل الناقص، بينما تأتي Partizip II + werden في النهاية. وتعبّر sein + zu وsich lassen وصفات -bar عن معنى مجهول بصيغ أسلوبية مختلفة. ويضع Bekommen-Passiv المتلقي في مركز الجملة. كما يمكن تكوين المبني للمجهول غير الشخصي من دون مفعول Akkusativ عندما يكون الفعل فاعليًا. ويعتمد اختيار الصيغة دائمًا على المعنى والمنظور والزمن والحالة ونوع النص.",
+  "rules": [
+    {
+      "id": "gr50-r01",
+      "title_de": "Partizip I und II",
+      "title_ar": "Partizip I وII",
+      "explanation_de": "Partizip I ist meist aktiv und laufend; Partizip II häufig passiv, abgeschlossen oder resultativ.",
+      "explanation_ar": "يكون Partizip I غالبًا معلومًا ومستمرًا، وPartizip II مجهولًا أو مكتملًا أو دالًا على نتيجة.",
+      "formula": "prüfend ↔ geprüft",
+      "examples": [
+        {
+          "de": "die prüfende Mitarbeiterin / der geprüfte Antrag",
+          "ar": "الموظفة التي تفحص / الطلب الذي تم فحصه"
+        }
+      ]
+    },
+    {
+      "id": "gr50-r02",
+      "title_de": "Erweiterte Attribute",
+      "title_ar": "الصفات الموسعة",
+      "explanation_de": "Ergänzungen stehen vor dem Partizip; das Partizip steht direkt vor dem Nomen.",
+      "explanation_ar": "تأتي المتممات قبل Partizip، ويأتي Partizip مباشرة قبل الاسم.",
+      "formula": "die gestern sorgfältig geprüften Unterlagen",
+      "examples": [
+        {
+          "de": "die sich auf das Gespräch vorbereitenden Bewerber",
+          "ar": "المتقدمون الذين يستعدون للمحادثة"
+        }
+      ]
+    },
+    {
+      "id": "gr50-r03",
+      "title_de": "Relativsatzumformung",
+      "title_ar": "تحويل الجملة الموصولة",
+      "explanation_de": "Bedeutung, Zeitbezug und Ergänzungen müssen erhalten bleiben.",
+      "explanation_ar": "يجب الحفاظ على المعنى والعلاقة الزمنية والمتممات.",
+      "formula": "die Gäste, die warten → die wartenden Gäste",
+      "examples": [
+        {
+          "de": "die Unterlagen, die geprüft wurden → die geprüften Unterlagen",
+          "ar": "المستندات التي تمت مراجعتها ← المستندات المراجعة"
+        }
+      ]
+    },
+    {
+      "id": "gr50-r04",
+      "title_de": "Vorgang und Zustand",
+      "title_ar": "الإجراء والحالة",
+      "explanation_de": "Werden beschreibt den Vorgang, sein den Ergebniszustand.",
+      "explanation_ar": "تصف werden الإجراء، وتصف sein حالة النتيجة.",
+      "formula": "wird geöffnet ↔ ist geöffnet",
+      "examples": [
+        {
+          "de": "Der Bericht wird freigegeben. Danach ist er freigegeben.",
+          "ar": "يتم اعتماد التقرير، ثم يصبح معتمدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r05",
+      "title_de": "Modalpassiv",
+      "title_ar": "Passiv مع Modalverb",
+      "explanation_de": "Das Modalverb wird konjugiert; Partizip II + werden steht am Ende.",
+      "explanation_ar": "يُصرف الفعل الناقص، وتأتي Partizip II + werden في النهاية.",
+      "formula": "muss geprüft werden",
+      "examples": [
+        {
+          "de": "Der Antrag muss erneut geprüft werden.",
+          "ar": "يجب مراجعة الطلب مجددًا."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r06",
+      "title_de": "Passiversatzformen",
+      "title_ar": "بدائل Passiv",
+      "explanation_de": "Sein + zu, sich lassen und -bar unterscheiden sich in Bedeutung und Stil.",
+      "explanation_ar": "تختلف sein + zu وsich lassen و-bar في المعنى والأسلوب.",
+      "formula": "ist zu lösen | lässt sich lösen | ist lösbar",
+      "examples": [
+        {
+          "de": "Die Aufgabe ist bis Freitag zu lösen.",
+          "ar": "يجب حل المهمة حتى الجمعة."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r07",
+      "title_de": "Rezipientenpassiv",
+      "title_ar": "Rezipientenpassiv",
+      "explanation_de": "Der frühere Dativempfänger wird zum Subjekt.",
+      "explanation_ar": "يتحول متلقي Dativ السابق إلى فاعل نحوي.",
+      "formula": "Der Kunde bekommt den Vertrag erklärt.",
+      "examples": [
+        {
+          "de": "Die Kundin bekommt die Kosten erstattet.",
+          "ar": "تُرد للعميلة التكاليف."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r08",
+      "title_de": "Unpersönliches Passiv",
+      "title_ar": "Passiv غير الشخصي",
+      "explanation_de": "Bei agentiven intransitiven Verben ist Passiv ohne neues Subjekt möglich.",
+      "explanation_ar": "يمكن تكوين Passiv من دون فاعل جديد مع الأفعال اللازمة الفاعلية.",
+      "formula": "Es wird gearbeitet. | Heute wird gearbeitet.",
+      "examples": [
+        {
+          "de": "Dem Patienten wird geholfen.",
+          "ar": "تتم مساعدة المريض."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r09",
+      "title_de": "Passivbeschränkungen",
+      "title_ar": "قيود Passiv",
+      "explanation_de": "Besitz-, Wetter- und viele Zustandsverben bilden kein reguläres Passiv; reflexive Verben haben kein gewöhnliches persönliches Passiv und nur stilistisch begrenzte unpersönliche Formen.",
+      "explanation_ar": "لا تكوّن أفعال الملكية والطقس وكثير من أفعال الحالة Passiv عاديًا، ولا تملك الأفعال الانعكاسية مبنيًا للمجهول شخصيًا عاديًا، وتكون صيغها غير الشخصية مقيدة أسلوبيًا.",
+      "formula": "besitzen / regnen → kein reguläres Passiv | reflexiv → stilistisch eingeschränkt",
+      "examples": [
+        {
+          "de": "Die Firma besitzt das Gebäude.",
+          "ar": "تمتلك الشركة المبنى."
+        }
+      ]
+    },
+    {
+      "id": "gr50-r10",
+      "title_de": "Stil und Perspektive",
+      "title_ar": "الأسلوب والمنظور",
+      "explanation_de": "Die Textsorte entscheidet, ob Prozess, Zustand, Empfänger oder kompakte Eigenschaft fokussiert wird.",
+      "explanation_ar": "يحدد نوع النص ما إذا كان التركيز على الإجراء أو الحالة أو المتلقي أو الصفة المختصرة.",
+      "formula": "Prozessbericht | Statusbericht | Empfängerfokus | kompakte Bewertung",
+      "examples": [
+        {
+          "de": "Die Daten werden geprüft. / Die Daten sind geprüft. / Das Team bekommt die Ergebnisse erklärt.",
+          "ar": "تتم مراجعة البيانات. / البيانات مراجعة. / يتم شرح النتائج للفريق."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr50-t01",
+      "title_de": "Formen im Überblick",
+      "title_ar": "نظرة عامة على الصيغ",
+      "headers_de": [
+        "Struktur",
+        "Beispiel",
+        "Fokus"
+      ],
+      "headers_ar": [
+        "البنية",
+        "المثال",
+        "التركيز"
+      ],
+      "rows": [
+        [
+          "Partizip I",
+          "die wartenden Gäste",
+          "aktive Handlung"
+        ],
+        [
+          "Partizip II",
+          "die geprüften Unterlagen",
+          "Ergebnis / Passiv"
+        ],
+        [
+          "Vorgangspassiv",
+          "Die Daten werden geprüft.",
+          "Prozess"
+        ],
+        [
+          "Zustandspassiv",
+          "Die Daten sind geprüft.",
+          "Status"
+        ],
+        [
+          "Modalpassiv",
+          "Die Daten müssen geprüft werden.",
+          "Pflicht"
+        ],
+        [
+          "Bekommen-Passiv",
+          "Das Team bekommt die Ergebnisse erklärt.",
+          "Empfänger"
+        ],
+        [
+          "unpersönliches Passiv",
+          "Es wird gearbeitet.",
+          "Tätigkeit"
+        ]
+      ]
+    },
+    {
+      "id": "gr50-t02",
+      "title_de": "Ersatzformen",
+      "title_ar": "الصيغ البديلة",
+      "headers_de": [
+        "Form",
+        "typische Wirkung"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "الأثر المعتاد"
+      ],
+      "rows": [
+        [
+          "ist zu prüfen",
+          "formell; Notwendigkeit oder Möglichkeit"
+        ],
+        [
+          "lässt sich prüfen",
+          "neutral; Möglichkeit"
+        ],
+        [
+          "ist überprüfbar",
+          "kompakt; Eigenschaft"
+        ],
+        [
+          "muss geprüft werden",
+          "explizite Pflicht"
+        ]
+      ]
+    },
+    {
+      "id": "gr50-t03",
+      "title_de": "Perspektiven",
+      "title_ar": "المناظير",
+      "headers_de": [
+        "Satz",
+        "Mittelpunkt"
+      ],
+      "headers_ar": [
+        "الجملة",
+        "مركز الاهتمام"
+      ],
+      "rows": [
+        [
+          "Die Firma schickt dem Kunden den Vertrag.",
+          "Handelnder"
+        ],
+        [
+          "Der Vertrag wird dem Kunden geschickt.",
+          "Gegenstand"
+        ],
+        [
+          "Der Kunde bekommt den Vertrag geschickt.",
+          "Empfänger"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die seit mehreren Tagen auf eine Entscheidung wartenden Beschäftigten wurden heute informiert.",
+      "ar": "تم اليوم إبلاغ الموظفين الذين ينتظرون قرارًا منذ عدة أيام.",
+      "note_de": "Erweitertes Partizip-I-Attribut plus Vorgangspassiv.",
+      "note_ar": "صفة موسعة من Partizip I مع Vorgangspassiv."
+    },
+    {
+      "de": "Die gestern von der Fachabteilung geprüften Unterlagen sind nun freigegeben.",
+      "ar": "المستندات التي راجعها القسم المختص أمس أصبحت الآن معتمدة.",
+      "note_de": "Partizip-II-Attribut plus Zustandspassiv.",
+      "note_ar": "صفة Partizip II مع Zustandspassiv."
+    },
+    {
+      "de": "Der Bericht muss überarbeitet werden, lässt sich aber mit wenigen Änderungen verbessern.",
+      "ar": "يجب تعديل التقرير، لكن يمكن تحسينه بتغييرات قليلة.",
+      "note_de": "Modalpassiv und sich lassen.",
+      "note_ar": "Modalpassiv وsich lassen."
+    },
+    {
+      "de": "Die Kundin bekommt die neuen Bedingungen ausführlich erklärt.",
+      "ar": "تُشرح الشروط الجديدة للعميلة بالتفصيل.",
+      "note_de": "Rezipientenpassiv.",
+      "note_ar": "Rezipientenpassiv."
+    },
+    {
+      "de": "Während der Prüfung darf nicht gesprochen werden.",
+      "ar": "لا يجوز الكلام أثناء الاختبار.",
+      "note_de": "Unpersönliches Passiv mit Modalverb.",
+      "note_ar": "Passiv غير شخصي مع Modalverb."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "die geprüft Mitarbeiterin",
+      "correct": "die prüfende Mitarbeiterin / die geprüfte Mitarbeiterin",
+      "explanation_de": "Form und Endung hängen von der beabsichtigten aktiven oder passiven Bedeutung ab.",
+      "explanation_ar": "تعتمد الصيغة والنهاية على المعنى المعلوم أو المجهول المقصود."
+    },
+    {
+      "wrong": "Die Tür ist geöffnet worden. = Zustandspassiv Präsens",
+      "correct": "Die Tür ist geöffnet worden. = Vorgangspassiv Perfekt",
+      "explanation_de": "Worden kennzeichnet den abgeschlossenen Vorgang.",
+      "explanation_ar": "تدل worden على الإجراء المكتمل."
+    },
+    {
+      "wrong": "Der Antrag hat geprüft werden gemusst.",
+      "correct": "Der Antrag hat geprüft werden müssen.",
+      "explanation_de": "Das Modalpassiv im Perfekt verwendet den Ersatzinfinitiv.",
+      "explanation_ar": "يستخدم Modalpassiv في Perfekt صيغة Ersatzinfinitiv."
+    },
+    {
+      "wrong": "Das Problem lässt sich gelöst.",
+      "correct": "Das Problem lässt sich lösen.",
+      "explanation_de": "Nach lassen steht der Infinitiv.",
+      "explanation_ar": "بعد lassen يأتي المصدر."
+    },
+    {
+      "wrong": "Dem Kunden bekommt der Vertrag erklärt.",
+      "correct": "Der Kunde bekommt den Vertrag erklärt.",
+      "explanation_de": "Im Rezipientenpassiv wird der frühere Dativempfänger zum Nominativsubjekt.",
+      "explanation_ar": "في Rezipientenpassiv يتحول متلقي Dativ السابق إلى فاعل Nominativ."
+    },
+    {
+      "wrong": "Heute es wird gearbeitet.",
+      "correct": "Heute wird gearbeitet.",
+      "explanation_de": "Wenn ein anderes Element im Vorfeld steht, entfällt es.",
+      "explanation_ar": "إذا جاء عنصر آخر في الموقع الأول تُحذف es."
+    }
+  ],
+  "quickSummary_de": [
+    "Partizip I ist meist aktiv und gleichzeitig.",
+    "Partizip II ist häufig passiv, abgeschlossen oder resultativ.",
+    "Ergänzungen stehen vor dem Partizip.",
+    "Relativsatzumformungen müssen Bedeutung und Zeit erhalten.",
+    "Vorgangspassiv verwendet werden; Zustandspassiv sein.",
+    "Modalpassiv endet mit Partizip II + werden.",
+    "Sein + zu, sich lassen und -bar sind Passiversatzformen.",
+    "Bekommen-Passiv fokussiert den Empfänger.",
+    "Unpersönliches Passiv ist auch ohne Akkusativobjekt möglich.",
+    "Dativ und Präpositionen bleiben im Passiv erhalten.",
+    "Nicht alle Verben sind regulär passivfähig; reflexive Formen brauchen besondere stilistische Beachtung.",
+    "Die passende Form hängt von Bedeutung, Perspektive und Textsorte ab."
+  ],
+  "quickSummary_ar": [
+    "يكون Partizip I غالبًا معلومًا ومتزامنًا.",
+    "يكون Partizip II غالبًا مجهولًا أو مكتملًا أو دالًا على نتيجة.",
+    "تأتي المتممات قبل Partizip.",
+    "يجب أن تحافظ التحويلات إلى الجملة الموصولة على المعنى والزمن.",
+    "يستخدم Vorgangspassiv الفعل werden، ويستخدم Zustandspassiv الفعل sein.",
+    "ينتهي Modalpassiv بـ Partizip II + werden.",
+    "تُعد sein + zu وsich lassen و-bar بدائل لـ Passiv.",
+    "يركز Bekommen-Passiv على المتلقي.",
+    "يمكن تكوين Passiv غير شخصي من دون مفعول Akkusativ.",
+    "يبقى Dativ وحروف الجر في Passiv.",
+    "لا تقبل جميع الأفعال Passiv عاديًا، وتحتاج الصيغ الانعكاسية إلى انتباه أسلوبي خاص.",
+    "تعتمد الصيغة المناسبة على المعنى والمنظور ونوع النص."
+  ],
+  "relatedTopics": [
+    "gr-41",
+    "gr-42",
+    "gr-43",
+    "gr-44",
+    "gr-45",
+    "gr-46",
+    "gr-47",
+    "gr-48",
+    "gr-49"
+  ]
+}

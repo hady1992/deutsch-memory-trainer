@@ -1,0 +1,541 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-44",
+  "title_de": "Partizipialattribute und Relativsätze umformen – Übungen",
+  "title_ar": "تمارين تحويل صفات Partizip والجمل الموصولة",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr44-e001",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Partizip I auflösen",
+      "title_ar": "تفكيك Partizip I",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die wartende Kundin → die Kundin, die wartet",
+      "explanation_de": "Das Bezugsnomen führt die Handlung selbst aus.",
+      "explanation_ar": "يقوم الاسم الموصوف بالفعل بنفسه.",
+      "grammarFocus": "participle_i_to_relative",
+      "options": [
+        "die wartende Kundin → die Kundin, die wartet",
+        "die wartende Kundin → die Kundin, die gewartet wird",
+        "die wartende Kundin → die Kundin, die gewartet hat worden",
+        "die wartende Kundin → die Kundin, deren Warten geprüft wird"
+      ]
+    },
+    {
+      "id": "gr44-e002",
+      "topicId": "gr-44",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Passiver Relativsatz",
+      "title_ar": "جملة موصولة مجهولة",
+      "prompt_de": "Der geprüfte Antrag ist vollständig. → Der Antrag, der geprüft ______, ist vollständig.",
+      "prompt_ar": "الطلب الذي تمت مراجعته كامل.",
+      "answer": "wurde",
+      "explanation_de": "Die passive abgeschlossene Handlung wird mit wurde geprüft ausgedrückt.",
+      "explanation_ar": "يُعبّر عن الفعل المجهول المكتمل باستخدام wurde geprüft.",
+      "grammarFocus": "participle_ii_passive_relative",
+      "acceptedAnswers": [
+        "wurde",
+        "worden ist"
+      ]
+    },
+    {
+      "id": "gr44-e003",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Zustand ausdrücken",
+      "title_ar": "التعبير عن الحالة",
+      "prompt_de": "Welche Umformung passt zu „die geschlossene Tür“?",
+      "prompt_ar": "أي تحويل يناسب die geschlossene Tür؟",
+      "answer": "die Tür, die geschlossen ist",
+      "explanation_de": "Geschlossen beschreibt hier einen Ergebniszustand.",
+      "explanation_ar": "تصف geschlossen هنا حالة ناتجة عن فعل.",
+      "grammarFocus": "resultative_relative",
+      "options": [
+        "die Tür, die geschlossen ist",
+        "die Tür, die selbst schließt",
+        "die Tür, die geschlossen wird müssen",
+        "die Tür, die angekommen ist"
+      ]
+    },
+    {
+      "id": "gr44-e004",
+      "topicId": "gr-44",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Attribut und Relativsatz",
+      "title_ar": "الصفة والجملة الموصولة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "die wartenden Gäste": "die Gäste, die warten",
+        "der geprüfte Antrag": "der Antrag, der geprüft wurde",
+        "die geschlossene Tür": "die Tür, die geschlossen ist",
+        "die angekommenen Gäste": "die Gäste, die angekommen sind",
+        "die telefonierende Kollegin": "die Kollegin, die telefoniert"
+      },
+      "explanation_de": "Die Form des Relativsatzes hängt von Bedeutung und Verbtyp ab.",
+      "explanation_ar": "تعتمد صيغة الجملة الموصولة على المعنى ونوع الفعل.",
+      "grammarFocus": "basic_transformation_matching",
+      "pairs": [
+        [
+          "die wartenden Gäste",
+          "die Gäste, die warten"
+        ],
+        [
+          "der geprüfte Antrag",
+          "der Antrag, der geprüft wurde"
+        ],
+        [
+          "die geschlossene Tür",
+          "die Tür, die geschlossen ist"
+        ],
+        [
+          "die angekommenen Gäste",
+          "die Gäste, die angekommen sind"
+        ],
+        [
+          "die telefonierende Kollegin",
+          "die Kollegin, die telefoniert"
+        ]
+      ]
+    },
+    {
+      "id": "gr44-e005",
+      "topicId": "gr-44",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Relativsatz mit Kommas",
+      "title_ar": "جملة موصولة مع الفواصل",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unterlagen, die gestern eingereicht wurden, liegen bereit.",
+      "explanation_de": "Der Relativsatz steht zwischen zwei Kommas.",
+      "explanation_ar": "تأتي الجملة الموصولة بين فاصلتين.",
+      "grammarFocus": "relative_clause_punctuation",
+      "tokens": [
+        "liegen bereit",
+        "die gestern eingereicht wurden",
+        "Die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen, die gestern eingereicht wurden, liegen bereit."
+      ]
+    },
+    {
+      "id": "gr44-e006",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Relativsatz verdichten",
+      "title_ar": "تكثيف جملة موصولة",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "die im Flur wartenden Gäste",
+      "explanation_de": "Relativpronomen und finites Verb fallen weg; der Ort bleibt erhalten.",
+      "explanation_ar": "يُحذف الضمير الموصول والفعل المصرف ويبقى المكان.",
+      "grammarFocus": "basic_relative_to_participle",
+      "options": [
+        "die im Flur wartenden Gäste",
+        "die Gäste im Flur die warten",
+        "die wartend im Flur Gäste",
+        "die im Flur gewarteten Gäste"
+      ]
+    },
+    {
+      "id": "gr44-e007",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Ankommen",
+      "title_ar": "ankommen",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die angekommenen Gäste → die Gäste, die angekommen sind",
+      "explanation_de": "Ankommen bildet das Perfekt mit sein.",
+      "explanation_ar": "يستخدم ankommen الفعل sein في Perfekt.",
+      "grammarFocus": "sein_verb_transformation",
+      "options": [
+        "die angekommenen Gäste → die Gäste, die angekommen sind",
+        "die angekommenen Gäste → die Gäste, die angekommen wurden",
+        "die angekommenen Gäste → die Gäste, die ankommend sind",
+        "die angekommenen Gäste → die Gäste, die jemand angekommen hat"
+      ]
+    },
+    {
+      "id": "gr44-e008",
+      "topicId": "gr-44",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Relativpronomen Dativ",
+      "title_ar": "ضمير موصول في Dativ",
+      "prompt_de": "Der Kunde, ______ die Beraterin hilft, wartet im Büro.",
+      "prompt_ar": "العميل الذي تساعده المستشارة ينتظر في المكتب.",
+      "answer": "dem",
+      "explanation_de": "Helfen verlangt Dativ; das Bezugsnomen ist maskulin.",
+      "explanation_ar": "يحتاج helfen إلى Dativ، والاسم مذكر.",
+      "grammarFocus": "relative_pronoun_dative",
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "gr44-e009",
+      "topicId": "gr-44",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Aktiven Relativsatz verdichten",
+      "title_ar": "تكثيف جملة معلومة",
+      "prompt_de": "Formen Sie um: die Mitarbeiterin, die den Bericht sorgfältig prüft",
+      "prompt_ar": "حوّل إلى صفة Partizip.",
+      "answer": "die den Bericht sorgfältig prüfende Mitarbeiterin",
+      "explanation_de": "Objekt und Adverb stehen vor dem Partizip I.",
+      "explanation_ar": "يأتي المفعول والحال قبل Partizip I.",
+      "grammarFocus": "active_relative_to_participle",
+      "acceptedAnswers": [
+        "die den Bericht sorgfältig prüfende Mitarbeiterin"
+      ]
+    },
+    {
+      "id": "gr44-e010",
+      "topicId": "gr-44",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Passiven Relativsatz verdichten",
+      "title_ar": "تكثيف جملة مجهولة",
+      "prompt_de": "Formen Sie um: die Unterlagen, die gestern von der Fachabteilung geprüft wurden",
+      "prompt_ar": "حوّل إلى صفة Partizip.",
+      "answer": "die gestern von der Fachabteilung geprüften Unterlagen",
+      "explanation_de": "Zeitangabe und Agens stehen vor dem Partizip II.",
+      "explanation_ar": "يأتي تعبير الزمن والفاعل قبل Partizip II.",
+      "grammarFocus": "passive_relative_to_participle",
+      "acceptedAnswers": [
+        "die gestern von der Fachabteilung geprüften Unterlagen"
+      ]
+    },
+    {
+      "id": "gr44-e011",
+      "topicId": "gr-44",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Reflexive Umformung",
+      "title_ar": "تحويل فعل انعكاسي",
+      "prompt_de": "Ordnen Sie die Wortgruppe.",
+      "prompt_ar": "رتب المجموعة الاسمية.",
+      "answer": "die sich auf das Gespräch vorbereitende Mitarbeiterin",
+      "explanation_de": "Sich und die Präpositionalergänzung bleiben vor dem Partizip erhalten.",
+      "explanation_ar": "يبقى sich ومتمم حرف الجر قبل Partizip.",
+      "grammarFocus": "reflexive_relative_to_participle",
+      "tokens": [
+        "Mitarbeiterin",
+        "vorbereitende",
+        "auf das Gespräch",
+        "sich",
+        "die"
+      ],
+      "acceptedAnswers": [
+        "die sich auf das Gespräch vorbereitende Mitarbeiterin"
+      ]
+    },
+    {
+      "id": "gr44-e012",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Relativpronomen mit Präposition",
+      "title_ar": "ضمير موصول مع حرف جر",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "die Bewerber, mit denen gesprochen wurde",
+      "explanation_de": "Mit verlangt Dativ; im Plural lautet das Relativpronomen denen.",
+      "explanation_ar": "يحتاج mit إلى Dativ، وتكون صيغة الجمع denen.",
+      "grammarFocus": "relative_pronoun_preposition",
+      "options": [
+        "die Bewerber, mit denen gesprochen wurde",
+        "die Bewerber, mit die gesprochen wurde",
+        "die Bewerber, denen mit gesprochen wurde",
+        "die Bewerber, mit deren gesprochen wurde"
+      ]
+    },
+    {
+      "id": "gr44-e013",
+      "topicId": "gr-44",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Kasus erkennen",
+      "title_ar": "تمييز الحالة",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "die Person, die wartet": "Nominativ",
+        "der Bericht, den sie prüft": "Akkusativ",
+        "der Kunde, dem sie hilft": "Dativ",
+        "die Bewerber, mit denen sie spricht": "Dativ nach Präposition",
+        "die Kollegin, deren Büro frei ist": "Genitiv"
+      },
+      "explanation_de": "Der Kasus richtet sich nach der Funktion im Relativsatz.",
+      "explanation_ar": "تعتمد الحالة على وظيفة الضمير داخل الجملة الموصولة.",
+      "grammarFocus": "relative_case_matching",
+      "pairs": [
+        [
+          "die Person, die wartet",
+          "Nominativ"
+        ],
+        [
+          "der Bericht, den sie prüft",
+          "Akkusativ"
+        ],
+        [
+          "der Kunde, dem sie hilft",
+          "Dativ"
+        ],
+        [
+          "die Bewerber, mit denen sie spricht",
+          "Dativ nach Präposition"
+        ],
+        [
+          "die Kollegin, deren Büro frei ist",
+          "Genitiv"
+        ]
+      ]
+    },
+    {
+      "id": "gr44-e014",
+      "topicId": "gr-44",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Kompakter Bericht",
+      "title_ar": "تقرير مختصر",
+      "prompt_de": "Welche Formulierung passt am besten in eine kurze Übersicht?",
+      "prompt_ar": "أي صياغة تناسب ملخصًا قصيرًا؟",
+      "answer": "Die gestern genehmigten Anträge werden heute veröffentlicht.",
+      "explanation_de": "Das kurze Partizipialattribut ist kompakt und gut verständlich.",
+      "explanation_ar": "صفة Partizip قصيرة ومختصرة وواضحة.",
+      "grammarFocus": "style_compact_attribute",
+      "options": [
+        "Die gestern genehmigten Anträge werden heute veröffentlicht.",
+        "Die Anträge, welche gestern durch alle zuständigen Personen nach Prüfung genehmigt wurden, werden heute veröffentlicht.",
+        "Die gestern Anträge genehmigt werden heute veröffentlicht.",
+        "Die genehmigend gestern Anträge werden veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr44-e015",
+      "topicId": "gr-44",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Adjektivendung",
+      "title_ar": "نهاية الصفة",
+      "prompt_de": "Mit den gestern eingereich______ Unterlagen begann die Prüfung.",
+      "prompt_ar": "بدأت المراجعة بالمستندات المقدمة أمس.",
+      "answer": "ten",
+      "explanation_de": "Im Dativ Plural erhält eingereicht die Endung -en.",
+      "explanation_ar": "في Dativ Plural تأخذ eingereicht النهاية -en.",
+      "grammarFocus": "adjective_ending_transformation",
+      "acceptedAnswers": [
+        "ten"
+      ]
+    },
+    {
+      "id": "gr44-e016",
+      "topicId": "gr-44",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Vergangenheitskontext",
+      "title_ar": "سياق الماضي",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Gäste, die damals im Flur warteten, gingen später nach Hause.",
+      "explanation_de": "Im vergangenen Kontext wird wartend mit Präteritum aufgelöst.",
+      "explanation_ar": "في سياق الماضي تُفك wartend باستخدام Präteritum.",
+      "grammarFocus": "tense_context_relative",
+      "tokens": [
+        "gingen später nach Hause",
+        "die damals im Flur warteten",
+        "Die Gäste"
+      ],
+      "acceptedAnswers": [
+        "Die Gäste, die damals im Flur warteten, gingen später nach Hause."
+      ]
+    },
+    {
+      "id": "gr44-e017",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Zeitbezug erhalten",
+      "title_ar": "الحفاظ على الزمن",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Die Zeitform des Relativsatzes wird aus dem Kontext gewählt; das Partizip allein zeigt nicht immer die vollständige Zeitstufe.",
+      "explanation_de": "Darum kann wartend je nach Kontext mit wartet oder wartete aufgelöst werden.",
+      "explanation_ar": "لذلك يمكن فك wartend بحسب السياق باستخدام wartet أو wartete.",
+      "grammarFocus": "time_relation_explanation",
+      "options": [
+        "Die Zeitform des Relativsatzes wird aus dem Kontext gewählt; das Partizip allein zeigt nicht immer die vollständige Zeitstufe.",
+        "Partizip I muss immer mit Futur I aufgelöst werden.",
+        "Partizip II muss immer mit Präsens Aktiv aufgelöst werden.",
+        "Alle Partizipialattribute bezeichnen ausschließlich Vergangenheit."
+      ]
+    },
+    {
+      "id": "gr44-e018",
+      "topicId": "gr-44",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Komplexe aktive Verdichtung",
+      "title_ar": "تكثيف معلوم معقد",
+      "prompt_de": "Formen Sie um: die Fachleute, die seit dem Morgen im Konferenzraum über die neue Regelung diskutieren",
+      "prompt_ar": "حوّل إلى صفة Partizip.",
+      "answer": "die seit dem Morgen im Konferenzraum über die neue Regelung diskutierenden Fachleute",
+      "explanation_de": "Zeit, Ort und Präpositionalergänzung stehen vor dem Partizip I.",
+      "explanation_ar": "يأتي الزمن والمكان ومتمم حرف الجر قبل Partizip I.",
+      "grammarFocus": "complex_active_compression",
+      "acceptedAnswers": [
+        "die seit dem Morgen im Konferenzraum über die neue Regelung diskutierenden Fachleute"
+      ]
+    },
+    {
+      "id": "gr44-e019",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutungsnuance Partizip II",
+      "title_ar": "فرق معنى Partizip II",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "„Die geschlossene Tür“ kann als „die Tür, die geschlossen ist“ oder je nach Kontext als „die Tür, die geschlossen wurde“ aufgelöst werden.",
+      "explanation_de": "Partizip II kann Ergebniszustand oder abgeschlossenen Vorgang hervorheben.",
+      "explanation_ar": "يمكن أن يبرز Partizip II حالة النتيجة أو الفعل المكتمل.",
+      "grammarFocus": "participle_ii_nuance",
+      "options": [
+        "„Die geschlossene Tür“ kann als „die Tür, die geschlossen ist“ oder je nach Kontext als „die Tür, die geschlossen wurde“ aufgelöst werden.",
+        "Die Form darf nur als aktiver Präsenssatz aufgelöst werden.",
+        "Geschlossen ist immer Partizip I.",
+        "Die Tür führt die Handlung schließen selbst aus."
+      ]
+    },
+    {
+      "id": "gr44-e020",
+      "topicId": "gr-44",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Lesbarkeit entscheiden",
+      "title_ar": "اختيار الوضوح",
+      "prompt_de": "Welche Formulierung ist bei vielen Ergänzungen stilistisch besser?",
+      "prompt_ar": "أي صياغة أفضل أسلوبيًا عند كثرة المتممات؟",
+      "answer": "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigt wurden, werden veröffentlicht.",
+      "explanation_de": "Der Relativsatz ist bei dieser Informationsdichte leichter lesbar.",
+      "explanation_ar": "الجملة الموصولة أسهل قراءة عند هذه الكثافة من المعلومات.",
+      "grammarFocus": "style_long_relative",
+      "options": [
+        "Die Anträge, die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigt wurden, werden veröffentlicht.",
+        "Die nach einer mehrwöchigen Prüfung durch mehrere unabhängige Stellen genehmigten Anträge werden veröffentlicht.",
+        "Die Anträge nach Prüfung Stellen genehmigt werden veröffentlicht.",
+        "Die durch Stellen genehmigend Anträge werden veröffentlicht."
+      ]
+    },
+    {
+      "id": "gr44-e021",
+      "topicId": "gr-44",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Komplexer Passivsatz",
+      "title_ar": "جملة مجهولة معقدة",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Unterlagen, die gestern von der Rechtsabteilung vollständig geprüft wurden, liegen nun bereit.",
+      "explanation_de": "Alle Angaben bleiben im Relativsatz erhalten.",
+      "explanation_ar": "تبقى جميع الظروف والمتممات داخل الجملة الموصولة.",
+      "grammarFocus": "complex_passive_relative_order",
+      "tokens": [
+        "liegen nun bereit",
+        "die gestern von der Rechtsabteilung vollständig geprüft wurden",
+        "Die Unterlagen"
+      ],
+      "acceptedAnswers": [
+        "Die Unterlagen, die gestern von der Rechtsabteilung vollständig geprüft wurden, liegen nun bereit."
+      ]
+    },
+    {
+      "id": "gr44-e022",
+      "topicId": "gr-44",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Vollständige Umformung",
+      "title_ar": "تحويل كامل",
+      "prompt_de": "Welche Umformung ist korrekt?",
+      "prompt_ar": "أي تحويل صحيح؟",
+      "answer": "die dem Team fehlenden Informationen → die Informationen, die dem Team fehlen",
+      "explanation_de": "Das Dativobjekt dem Team bleibt erhalten.",
+      "explanation_ar": "يبقى مفعول Dativ dem Team كما هو.",
+      "grammarFocus": "dative_preservation",
+      "options": [
+        "die dem Team fehlenden Informationen → die Informationen, die dem Team fehlen",
+        "die dem Team fehlenden Informationen → die Informationen, die das Team fehlen",
+        "die dem Team fehlenden Informationen → die Informationen, denen das Team fehlt",
+        "die dem Team fehlenden Informationen → die Informationen, die vom Team gefehlt werden"
+      ]
+    },
+    {
+      "id": "gr44-e023",
+      "topicId": "gr-44",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Zwei Relativsätze verdichten",
+      "title_ar": "تكثيف جملتين موصولتين",
+      "prompt_de": "Formen Sie um: Die Vereinbarung, die gestern unterschrieben wurde, liegt neben dem Bericht, der bereits geprüft wurde.",
+      "prompt_ar": "حوّل الجملة: تقع الاتفاقية التي وُقعت أمس بجانب التقرير الذي تمت مراجعته بالفعل.",
+      "answer": "Die gestern unterschriebene Vereinbarung liegt neben dem bereits geprüften Bericht.",
+      "explanation_de": "Beide passiven Relativsätze werden zu Partizip-II-Attributen; gestern und bereits bleiben erhalten.",
+      "explanation_ar": "تتحول الجملتان الموصولتان المجهولتان إلى صفتين من Partizip II، وتبقى gestern وbereits.",
+      "grammarFocus": "two_passive_relative_compressions",
+      "acceptedAnswers": [
+        "Die gestern unterschriebene Vereinbarung liegt neben dem bereits geprüften Bericht."
+      ]
+    },
+    {
+      "id": "gr44-e024",
+      "topicId": "gr-44",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Umformung",
+      "title_ar": "تدريب ختامي على التحويل",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens zwölf Sätzen. Verwenden Sie mindestens sechs Partizipialattribute und sechs Relativsätze und formen Sie jede Struktur mindestens dreimal in die andere Form um.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من اثنتي عشرة جملة على الأقل. استخدم ست صفات Partizip وست جمل موصولة على الأقل، وحوّل كل بنية إلى الأخرى ثلاث مرات على الأقل.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens drei Partizip-I-Attribute",
+          "mindestens drei Partizip-II-Attribute",
+          "mindestens zwei passive Relativsätze",
+          "mindestens zwei resultative Relativsätze mit sein",
+          "mindestens zwei aktive Perfektsätze mit sein-Verben",
+          "mindestens drei unterschiedliche Relativpronomen-Kasus",
+          "vollständige Übernahme von Objekten und Präpositionen",
+          "korrekte Zeitformen aus dem Kontext",
+          "korrekte Kommas und Adjektivendungen",
+          "mindestens zwei bewusste Stilentscheidungen zugunsten eines Relativsatzes"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bedeutung, Aktiv/Passiv, Zeit, Kasus, Ergänzungen, Endungen, Kommas und Lesbarkeit.",
+      "explanation_ar": "راجع المعنى والمعلوم والمجهول والزمن والحالة والمتممات والنهايات والفواصل وسهولة القراءة.",
+      "grammarFocus": "mixed_participial_relative_transformations",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "schemaVersion": "b2-grammar-lesson-v1",
+  "topicId": "gr-48",
+  "slug": "gr-48-bekommen-passiv-rezipientenperspektive",
+  "order": 48,
+  "title_de": "Bekommen-Passiv und Rezipientenperspektive",
+  "title_ar": "المبني للمجهول باستخدام bekommen ومنظور المتلقي",
+  "level": "B2",
+  "sourceType": "grundlage",
+  "category": "passiv",
+  "estimatedMinutes": 75,
+  "learningObjectives_de": [
+    "Das Bekommen-Passiv korrekt bilden.",
+    "Den Empfänger als Satzsubjekt hervorheben.",
+    "Dativ- und Akkusativrollen beim Umformen sicher unterscheiden.",
+    "Bekommen, kriegen und erhalten stilistisch angemessen verwenden.",
+    "Aktiv-, Vorgangs- und Rezipientenpassiv vergleichen.",
+    "Zeitformen und Wortstellung in Haupt- und Nebensätzen beherrschen.",
+    "Agens und Quelle mit von korrekt ergänzen.",
+    "Grenzen und typische Einsatzbereiche des Rezipientenpassivs erkennen.",
+    "Das Bekommen-Passiv in beruflichen und alltäglichen Kontexten verwenden."
+  ],
+  "learningObjectives_ar": [
+    "تكوين Bekommen-Passiv بصورة صحيحة.",
+    "إبراز المتلقي بوصفه فاعلًا نحويًا.",
+    "التمييز بين دوري Dativ وAkkusativ عند التحويل.",
+    "استخدام bekommen وkriegen وerhalten وفق الأسلوب المناسب.",
+    "مقارنة Aktiv وVorgangspassiv وRezipientenpassiv.",
+    "إتقان الأزمنة وترتيب الكلمات في الجمل الرئيسية والفرعية.",
+    "إضافة الفاعل أو المصدر باستخدام von.",
+    "تمييز حدود الاستخدام والسياقات الشائعة لـ Rezipientenpassiv.",
+    "استخدام Bekommen-Passiv في السياقات المهنية واليومية."
+  ],
+  "shortDescription_de": "Das Bekommen-Passiv stellt die Person oder Institution in den Mittelpunkt, die etwas erhält, erklärt, gezeigt oder zugesandt bekommt.",
+  "shortDescription_ar": "يضع Bekommen-Passiv الشخص أو الجهة التي تتلقى شيئًا أو شرحًا أو عرضًا أو إرسالًا في مركز الجملة.",
+  "explanation_de": "Das Bekommen-Passiv, auch Rezipientenpassiv genannt, wird mit bekommen, kriegen oder erhalten und dem Partizip II gebildet. Es rückt den Empfänger einer Handlung in den Mittelpunkt. Im Aktivsatz steht dieser Empfänger häufig im Dativ: Die Firma schickt dem Kunden die Unterlagen. Im Rezipientenpassiv wird der Kunde zum Subjekt: Der Kunde bekommt die Unterlagen geschickt. Das frühere Akkusativobjekt bleibt Akkusativ: die Unterlagen. Der Handelnde kann mit von + Dativ genannt werden: Der Kunde bekommt die Unterlagen von der Firma geschickt. Typische Verben sind schicken, geben, zeigen, erklären, anbieten, versprechen, schenken, leihen, zahlen, erstatten, mitteilen und bestätigen. Bekommen ist neutral und sehr gebräuchlich. Kriegen ist umgangssprachlicher. Erhalten wirkt formeller und ist nicht in jedem Satz genauso natürlich. Die Zeitformen werden am Hilfsverb gebildet: Präsens bekommt geschickt, Präteritum bekam geschickt, Perfekt hat geschickt bekommen, Plusquamperfekt hatte geschickt bekommen, Futur I wird geschickt bekommen. Im Nebensatz steht die finite Form am Ende: ..., weil der Kunde die Unterlagen geschickt bekommt. Im Perfekt lautet die Reihenfolge: ..., weil der Kunde die Unterlagen geschickt bekommen hat. Wichtig ist die Abgrenzung zum Vollverb bekommen: Der Kunde bekommt ein Paket beschreibt nur den Erhalt. Der Kunde bekommt ein Paket geschickt ist ein Rezipientenpassiv. Nicht jede Dativkonstruktion wird gleich häufig als Bekommen-Passiv verwendet. Bei Verben wie helfen ist in formellen Texten meist Dem Patienten wird geholfen natürlicher als Der Patient bekommt geholfen. Das Rezipientenpassiv ist besonders passend, wenn ein echter Empfänger, Begünstigter oder Betroffener im Mittelpunkt steht.",
+  "explanation_ar": "يُسمّى Bekommen-Passiv أيضًا Rezipientenpassiv، ويُبنى باستخدام bekommen أو kriegen أو erhalten مع Partizip II. وهو يضع متلقي الفعل في مركز الجملة. ويأتي هذا المتلقي غالبًا في Dativ داخل الجملة المعلومة: Die Firma schickt dem Kunden die Unterlagen. وفي Rezipientenpassiv يصبح der Kunde فاعلًا نحويًا: Der Kunde bekommt die Unterlagen geschickt. ويبقى مفعول Akkusativ السابق في Akkusativ: die Unterlagen. ويمكن ذكر القائم بالفعل باستخدام von + Dativ: Der Kunde bekommt die Unterlagen von der Firma geschickt. ومن الأفعال الشائعة: schicken وgeben وzeigen وerklären وanbieten وversprechen وschenken وleihen وzahlen وerstatten وmitteilen وbestätigen. تكون bekommen محايدة وشائعة جدًا، بينما kriegen أكثر عامية، وتبدو erhalten أكثر رسمية ولا تكون طبيعية بالقدر نفسه في كل جملة. وتُبنى الأزمنة على الفعل المساعد: Präsens bekommt geschickt، وPräteritum bekam geschickt، وPerfekt hat geschickt bekommen، وPlusquamperfekt hatte geschickt bekommen، وFutur I wird geschickt bekommen. وفي الجملة الفرعية تأتي الصيغة المصرفة في النهاية: ..., weil der Kunde die Unterlagen geschickt bekommt. وفي Perfekt نقول: ..., weil der Kunde die Unterlagen geschickt bekommen hat. ويجب التمييز عن bekommen بوصفه فعلًا كاملًا: Der Kunde bekommt ein Paket تعني فقط أنه يتلقى طردًا، أما Der Kunde bekommt ein Paket geschickt فهي Rezipientenpassiv. ولا تُستخدم كل بنية Dativ بالدرجة نفسها مع Bekommen-Passiv. فمع أفعال مثل helfen تكون صيغة Dem Patienten wird geholfen أكثر طبيعية في النصوص الرسمية من Der Patient bekommt geholfen. ويناسب Rezipientenpassiv بصورة خاصة الحالات التي يكون فيها متلقٍ حقيقي أو مستفيد أو شخص متأثر في مركز الاهتمام.",
+  "rules": [
+    {
+      "id": "gr48-r01",
+      "title_de": "Grundform",
+      "title_ar": "الصيغة الأساسية",
+      "explanation_de": "Das Rezipientenpassiv wird mit bekommen + Partizip II gebildet.",
+      "explanation_ar": "يُبنى Rezipientenpassiv باستخدام bekommen + Partizip II.",
+      "formula": "bekommen + Partizip II",
+      "examples": [
+        {
+          "de": "Der Kunde bekommt die Unterlagen geschickt.",
+          "ar": "يتلقى العميل المستندات مُرسلة إليه."
+        },
+        {
+          "de": "Die Bewerberin bekommt den Ablauf erklärt.",
+          "ar": "يُشرح للمتقدمة سير الإجراء."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r02",
+      "title_de": "Dativ wird Subjekt",
+      "title_ar": "يتحول Dativ إلى فاعل نحوي",
+      "explanation_de": "Der frühere Dativempfänger wird zum Subjekt im Nominativ.",
+      "explanation_ar": "يتحول متلقي Dativ السابق إلى فاعل نحوي في Nominativ.",
+      "formula": "dem Kunden → der Kunde",
+      "examples": [
+        {
+          "de": "Die Firma schickt dem Kunden den Vertrag. → Der Kunde bekommt den Vertrag geschickt.",
+          "ar": "ترسل الشركة العقد للعميل. ← يتلقى العميل العقد مُرسلًا إليه."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r03",
+      "title_de": "Akkusativ bleibt Akkusativ",
+      "title_ar": "يبقى Akkusativ كما هو",
+      "explanation_de": "Das frühere Akkusativobjekt bleibt in derselben Form erhalten.",
+      "explanation_ar": "يبقى مفعول Akkusativ السابق في الحالة نفسها.",
+      "formula": "den Vertrag → den Vertrag",
+      "examples": [
+        {
+          "de": "Der Kunde bekommt den Vertrag erklärt.",
+          "ar": "يُشرح العقد للعميل."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r04",
+      "title_de": "Agens mit von",
+      "title_ar": "الفاعل مع von",
+      "explanation_de": "Der Handelnde kann mit von + Dativ genannt werden.",
+      "explanation_ar": "يمكن ذكر القائم بالفعل باستخدام von + Dativ.",
+      "formula": "von der Firma / von der Beraterin",
+      "examples": [
+        {
+          "de": "Der Kunde bekommt die Bedingungen von der Beraterin erklärt.",
+          "ar": "تشرح المستشارة الشروط للعميل."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r05",
+      "title_de": "Bekommen, kriegen, erhalten",
+      "title_ar": "bekommen وkriegen وerhalten",
+      "explanation_de": "Bekommen ist neutral, kriegen umgangssprachlich, erhalten formeller und eingeschränkter.",
+      "explanation_ar": "bekommen محايدة، وkriegen عامية، وerhalten أكثر رسمية وأضيق استخدامًا.",
+      "formula": "bekommt / kriegt / erhält ... geschickt",
+      "examples": [
+        {
+          "de": "Sie bekommt die Kosten erstattet.",
+          "ar": "تُرد لها التكاليف."
+        },
+        {
+          "de": "Sie erhält die Kosten erstattet.",
+          "ar": "تُرد لها التكاليف بصياغة رسمية."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r06",
+      "title_de": "Präsens und Präteritum",
+      "title_ar": "Präsens وPräteritum",
+      "explanation_de": "Bekommen wird konjugiert; das Partizip II bleibt unverändert.",
+      "explanation_ar": "يُصرف bekommen، ويبقى Partizip II كما هو.",
+      "formula": "bekommt erklärt | bekam erklärt",
+      "examples": [
+        {
+          "de": "Der Patient bekommt den Ablauf erklärt.",
+          "ar": "يُشرح للمريض سير الإجراء."
+        },
+        {
+          "de": "Der Patient bekam den Ablauf erklärt.",
+          "ar": "تم شرح سير الإجراء للمريض."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r07",
+      "title_de": "Perfekt und Plusquamperfekt",
+      "title_ar": "Perfekt وPlusquamperfekt",
+      "explanation_de": "Im Perfekt steht hat + Partizip II + bekommen; im Plusquamperfekt hatte.",
+      "explanation_ar": "في Perfekt نستخدم hat + Partizip II + bekommen، وفي Plusquamperfekt نستخدم hatte.",
+      "formula": "hat erklärt bekommen | hatte erklärt bekommen",
+      "examples": [
+        {
+          "de": "Die Kundin hat alle Schritte erklärt bekommen.",
+          "ar": "تم شرح جميع الخطوات للعميلة."
+        },
+        {
+          "de": "Die Kundin hatte alle Schritte erklärt bekommen.",
+          "ar": "كانت جميع الخطوات قد شُرحت للعميلة."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r08",
+      "title_de": "Futur I",
+      "title_ar": "Futur I",
+      "explanation_de": "Im Futur steht wird + Partizip II + bekommen.",
+      "explanation_ar": "في المستقبل نستخدم wird + Partizip II + bekommen.",
+      "formula": "wird erklärt bekommen",
+      "examples": [
+        {
+          "de": "Der neue Mitarbeiter wird morgen den Zugang erklärt bekommen.",
+          "ar": "سيتم شرح طريقة الدخول للموظف الجديد غدًا."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r09",
+      "title_de": "Nebensatz",
+      "title_ar": "الجملة الفرعية",
+      "explanation_de": "Im Nebensatz steht die finite Form von bekommen am Ende.",
+      "explanation_ar": "تأتي صيغة bekommen المصرفة في نهاية الجملة الفرعية.",
+      "formula": "..., weil der Kunde die Kosten erstattet bekommt",
+      "examples": [
+        {
+          "de": "Sie ist zufrieden, weil sie die Reisekosten erstattet bekommt.",
+          "ar": "هي راضية لأن تكاليف السفر تُرد لها."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r10",
+      "title_de": "Vollverb oder Passiv",
+      "title_ar": "فعل كامل أم مبني للمجهول",
+      "explanation_de": "Ohne Partizip II ist bekommen häufig ein Vollverb; mit Partizip II kann es Rezipientenpassiv sein.",
+      "explanation_ar": "من دون Partizip II تكون bekommen غالبًا فعلًا كاملًا، ومع Partizip II قد تكون Rezipientenpassiv.",
+      "formula": "bekommt ein Paket | bekommt ein Paket geschickt",
+      "examples": [
+        {
+          "de": "Er bekommt eine Nachricht.",
+          "ar": "يتلقى رسالة."
+        },
+        {
+          "de": "Er bekommt eine Nachricht geschickt.",
+          "ar": "تُرسل إليه رسالة."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r11",
+      "title_de": "Vergleich mit Vorgangspassiv",
+      "title_ar": "المقارنة مع Vorgangspassiv",
+      "explanation_de": "Vorgangspassiv fokussiert den Gegenstand; Rezipientenpassiv den Empfänger.",
+      "explanation_ar": "يركز Vorgangspassiv على الشيء، بينما يركز Rezipientenpassiv على المتلقي.",
+      "formula": "Eine Einladung wird ihm geschickt. ↔ Er bekommt eine Einladung geschickt.",
+      "examples": [
+        {
+          "de": "Eine Einladung wird dem Bewerber geschickt.",
+          "ar": "تُرسل دعوة إلى المتقدم."
+        },
+        {
+          "de": "Der Bewerber bekommt eine Einladung geschickt.",
+          "ar": "يتلقى المتقدم دعوة مُرسلة إليه."
+        }
+      ]
+    },
+    {
+      "id": "gr48-r12",
+      "title_de": "Gebrauchsgrenzen",
+      "title_ar": "حدود الاستخدام",
+      "explanation_de": "Die Form ist am natürlichsten bei echten Empfängern, Begünstigten oder Betroffenen.",
+      "explanation_ar": "تكون الصيغة أكثر طبيعية مع متلقٍ حقيقي أو مستفيد أو شخص متأثر.",
+      "formula": "typisch: schicken, erklären, zeigen, erstatten",
+      "examples": [
+        {
+          "de": "Der Patient bekommt die Behandlung erklärt.",
+          "ar": "يُشرح العلاج للمريض."
+        },
+        {
+          "de": "Formell häufiger: Dem Patienten wird geholfen.",
+          "ar": "في الأسلوب الرسمي يشيع أكثر: تتم مساعدة المريض."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "gr48-t01",
+      "title_de": "Perspektivenvergleich",
+      "title_ar": "مقارنة المنظور",
+      "headers_de": [
+        "Form",
+        "Beispiel",
+        "Fokus"
+      ],
+      "headers_ar": [
+        "الصيغة",
+        "المثال",
+        "التركيز"
+      ],
+      "rows": [
+        [
+          "Aktiv",
+          "Die Firma schickt dem Kunden die Unterlagen.",
+          "Handelnder"
+        ],
+        [
+          "Vorgangspassiv",
+          "Die Unterlagen werden dem Kunden geschickt.",
+          "Gegenstand / Vorgang"
+        ],
+        [
+          "Bekommen-Passiv",
+          "Der Kunde bekommt die Unterlagen geschickt.",
+          "Empfänger"
+        ]
+      ]
+    },
+    {
+      "id": "gr48-t02",
+      "title_de": "Zeitformen",
+      "title_ar": "الأزمنة",
+      "headers_de": [
+        "Zeit",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الزمن",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "bekommt erklärt"
+        ],
+        [
+          "Präteritum",
+          "bekam erklärt"
+        ],
+        [
+          "Perfekt",
+          "hat erklärt bekommen"
+        ],
+        [
+          "Plusquamperfekt",
+          "hatte erklärt bekommen"
+        ],
+        [
+          "Futur I",
+          "wird erklärt bekommen"
+        ]
+      ]
+    },
+    {
+      "id": "gr48-t03",
+      "title_de": "Stil",
+      "title_ar": "الأسلوب",
+      "headers_de": [
+        "Hilfsverb",
+        "Stilwirkung",
+        "Beispiel"
+      ],
+      "headers_ar": [
+        "الفعل المساعد",
+        "الأثر الأسلوبي",
+        "المثال"
+      ],
+      "rows": [
+        [
+          "bekommen",
+          "neutral und häufig",
+          "bekommt die Kosten erstattet"
+        ],
+        [
+          "kriegen",
+          "umgangssprachlich",
+          "kriegt die Kosten erstattet"
+        ],
+        [
+          "erhalten",
+          "formeller, nicht überall gleich natürlich",
+          "erhält die Kosten erstattet"
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "de": "Die Bewerberin bekommt den weiteren Ablauf von der Personalabteilung erklärt.",
+      "ar": "يشرح قسم الموارد البشرية للمتقدمة سير الخطوات التالية.",
+      "note_de": "Empfänger als Subjekt, Agens mit von.",
+      "note_ar": "المتلقي فاعل نحوي، والفاعل الحقيقي مع von."
+    },
+    {
+      "de": "Die Beschäftigten erhalten die Reisekosten vollständig erstattet.",
+      "ar": "تُرد للموظفين تكاليف السفر كاملة.",
+      "note_de": "Formeller Gebrauch mit erhalten.",
+      "note_ar": "استخدام رسمي مع erhalten."
+    },
+    {
+      "de": "Der Kunde hat gestern einen neuen Vertrag zugesandt bekommen.",
+      "ar": "تلقى العميل أمس عقدًا جديدًا مُرسلًا إليه.",
+      "note_de": "Perfekt des Rezipientenpassivs.",
+      "note_ar": "Perfekt لـ Rezipientenpassiv."
+    },
+    {
+      "de": "Die neue Kollegin wird morgen alle Zugänge gezeigt bekommen.",
+      "ar": "سيتم غدًا إطلاع الزميلة الجديدة على جميع طرق الدخول.",
+      "note_de": "Futur I mit bekommen.",
+      "note_ar": "Futur I مع bekommen."
+    },
+    {
+      "de": "Der Patient bekommt die Behandlung erklärt, während der Ablauf auf dem Bildschirm gezeigt wird.",
+      "ar": "يُشرح العلاج للمريض، بينما يُعرض الإجراء على الشاشة.",
+      "note_de": "Rezipientenpassiv und Vorgangspassiv in einem Kontext.",
+      "note_ar": "Rezipientenpassiv وVorgangspassiv في سياق واحد."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Der Kunde bekommt geschickt die Unterlagen.",
+      "correct": "Der Kunde bekommt die Unterlagen geschickt.",
+      "explanation_de": "Das Partizip II steht normalerweise am Satzende.",
+      "explanation_ar": "يأتي Partizip II عادة في نهاية الجملة."
+    },
+    {
+      "wrong": "Dem Kunden bekommt die Unterlagen geschickt.",
+      "correct": "Der Kunde bekommt die Unterlagen geschickt.",
+      "explanation_de": "Der frühere Dativempfänger wird zum Subjekt im Nominativ.",
+      "explanation_ar": "يتحول متلقي Dativ السابق إلى فاعل في Nominativ."
+    },
+    {
+      "wrong": "Der Kunde bekommt die Unterlagen von die Firma geschickt.",
+      "correct": "Der Kunde bekommt die Unterlagen von der Firma geschickt.",
+      "explanation_de": "Nach von steht Dativ.",
+      "explanation_ar": "بعد von نستخدم Dativ."
+    },
+    {
+      "wrong": "Der Kunde hat die Unterlagen geschickt geworden.",
+      "correct": "Der Kunde hat die Unterlagen geschickt bekommen.",
+      "explanation_de": "Das Perfekt des Rezipientenpassivs verwendet bekommen, nicht worden.",
+      "explanation_ar": "يستخدم Perfekt لـ Rezipientenpassiv bekommen لا worden."
+    },
+    {
+      "wrong": "..., weil der Kunde bekommt die Kosten erstattet.",
+      "correct": "..., weil der Kunde die Kosten erstattet bekommt.",
+      "explanation_de": "Im Nebensatz steht die finite Form von bekommen am Ende.",
+      "explanation_ar": "تأتي صيغة bekommen المصرفة في نهاية الجملة الفرعية."
+    },
+    {
+      "wrong": "Jede Dativkonstruktion klingt mit bekommen gleich natürlich.",
+      "correct": "Das Rezipientenpassiv ist besonders natürlich bei echten Empfängern oder Begünstigten.",
+      "explanation_de": "Bei reinen Dativverben ist in formellen Texten oft das normale Passiv üblicher.",
+      "explanation_ar": "مع أفعال Dativ الخالصة يكون المبني للمجهول العادي أكثر شيوعًا غالبًا في النصوص الرسمية."
+    }
+  ],
+  "quickSummary_de": [
+    "Das Bekommen-Passiv heißt auch Rezipientenpassiv.",
+    "Es wird mit bekommen, kriegen oder erhalten + Partizip II gebildet.",
+    "Der frühere Dativempfänger wird zum Subjekt.",
+    "Das frühere Akkusativobjekt bleibt Akkusativ.",
+    "Der Handelnde kann mit von + Dativ genannt werden.",
+    "Bekommen ist neutral, kriegen umgangssprachlich, erhalten formeller.",
+    "Präsens: bekommt erklärt.",
+    "Präteritum: bekam erklärt.",
+    "Perfekt: hat erklärt bekommen.",
+    "Futur I: wird erklärt bekommen.",
+    "Im Nebensatz steht bekommen am Ende.",
+    "Die Form ist besonders natürlich bei echten Empfängern und Begünstigten."
+  ],
+  "quickSummary_ar": [
+    "يُسمّى Bekommen-Passiv أيضًا Rezipientenpassiv.",
+    "يُبنى باستخدام bekommen أو kriegen أو erhalten مع Partizip II.",
+    "يتحول متلقي Dativ السابق إلى فاعل نحوي.",
+    "يبقى مفعول Akkusativ السابق في Akkusativ.",
+    "يمكن ذكر الفاعل باستخدام von + Dativ.",
+    "bekommen محايدة، وkriegen عامية، وerhalten أكثر رسمية.",
+    "Präsens: bekommt erklärt.",
+    "Präteritum: bekam erklärt.",
+    "Perfekt: hat erklärt bekommen.",
+    "Futur I: wird erklärt bekommen.",
+    "في الجملة الفرعية تأتي bekommen في النهاية.",
+    "تكون الصيغة أكثر طبيعية مع متلقٍ أو مستفيد حقيقي."
+  ],
+  "relatedTopics": [
+    "gr-45",
+    "gr-46",
+    "gr-47",
+    "gr-49",
+    "gr-50"
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": "b2-grammar-exercises-v1",
+  "topicId": "gr-47",
+  "title_de": "Passiversatzformen mit sein + zu, sich lassen und Adjektiven auf -bar – Übungen",
+  "title_ar": "تمارين بدائل المبني للمجهول باستخدام sein + zu وsich lassen وصفات -bar",
+  "level": "B2",
+  "exerciseCount": 24,
+  "supportedTypes": [
+    "fill_blank",
+    "guided_writing",
+    "matching",
+    "multiple_choice",
+    "scenario_choice",
+    "sentence_build",
+    "sentence_order"
+  ],
+  "exercises": [
+    {
+      "id": "gr47-e001",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Sein + zu",
+      "title_ar": "sein + zu",
+      "prompt_de": "Welche Form ist korrekt?",
+      "prompt_ar": "أي صيغة صحيحة؟",
+      "answer": "Der Antrag ist bis Freitag einzureichen.",
+      "explanation_de": "Bei einreichen steht zu zwischen Vorsilbe und Verbstamm.",
+      "explanation_ar": "في einreichen تأتي zu بين السابقة والجذر.",
+      "grammarFocus": "sein_zu_basic",
+      "options": [
+        "Der Antrag ist bis Freitag einzureichen.",
+        "Der Antrag ist bis Freitag eingereichen.",
+        "Der Antrag ist bis Freitag zu eingereicht.",
+        "Der Antrag ist bis Freitag eingereicht zu werden."
+      ]
+    },
+    {
+      "id": "gr47-e002",
+      "topicId": "gr-47",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "title_de": "Möglichkeit mit lassen",
+      "title_ar": "الإمكان مع lassen",
+      "prompt_de": "Die Datei lässt sich problemlos ______.",
+      "prompt_ar": "يمكن فتح الملف من دون مشكلة.",
+      "answer": "öffnen",
+      "explanation_de": "Nach lassen steht der Infinitiv ohne zu.",
+      "explanation_ar": "بعد lassen يأتي المصدر من دون zu.",
+      "grammarFocus": "sich_lassen_infinitive",
+      "acceptedAnswers": [
+        "öffnen"
+      ]
+    },
+    {
+      "id": "gr47-e003",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Notwendigkeit erkennen",
+      "title_ar": "تمييز الضرورة",
+      "prompt_de": "Welche Umformung passt?",
+      "prompt_ar": "أي تحويل مناسب؟",
+      "answer": "Der Antrag ist bis Freitag einzureichen. = Der Antrag muss bis Freitag eingereicht werden.",
+      "explanation_de": "Die Frist führt hier zur Bedeutung der Notwendigkeit.",
+      "explanation_ar": "تؤدي المهلة هنا إلى معنى الضرورة.",
+      "grammarFocus": "sein_zu_obligation",
+      "options": [
+        "Der Antrag ist bis Freitag einzureichen. = Der Antrag muss bis Freitag eingereicht werden.",
+        "Der Antrag ist bis Freitag einzureichen. = Der Antrag wurde bereits eingereicht.",
+        "Der Antrag ist bis Freitag einzureichen. = Der Antrag darf nicht eingereicht werden.",
+        "Der Antrag ist bis Freitag einzureichen. = Der Antrag reicht sich selbst ein."
+      ]
+    },
+    {
+      "id": "gr47-e004",
+      "topicId": "gr-47",
+      "type": "matching",
+      "difficulty": "easy",
+      "title_de": "Ersatzformen zuordnen",
+      "title_ar": "مطابقة البدائل",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "ist zu lösen": "sein + zu",
+        "lässt sich lösen": "sich lassen",
+        "ist lösbar": "Adjektiv auf -bar",
+        "muss gelöst werden": "Passiv mit Modalverb"
+      },
+      "explanation_de": "Alle Formen können eine passive Bedeutung ausdrücken, aber mit unterschiedlichen Nuancen.",
+      "explanation_ar": "يمكن لجميع الصيغ التعبير عن معنى مجهول مع فروق دلالية.",
+      "grammarFocus": "replacement_form_matching",
+      "pairs": [
+        [
+          "ist zu lösen",
+          "sein + zu"
+        ],
+        [
+          "lässt sich lösen",
+          "sich lassen"
+        ],
+        [
+          "ist lösbar",
+          "Adjektiv auf -bar"
+        ],
+        [
+          "muss gelöst werden",
+          "Passiv mit Modalverb"
+        ]
+      ]
+    },
+    {
+      "id": "gr47-e005",
+      "topicId": "gr-47",
+      "type": "sentence_order",
+      "difficulty": "easy",
+      "title_de": "Wortstellung",
+      "title_ar": "ترتيب الكلمات",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Bericht ist von der Projektleitung bis Montag zu prüfen.",
+      "explanation_de": "Agens und Zeitangabe stehen vor dem zu-Infinitiv.",
+      "explanation_ar": "يأتي الفاعل وتعبير الزمن قبل مصدر zu.",
+      "grammarFocus": "sein_zu_word_order",
+      "tokens": [
+        "zu prüfen",
+        "von der Projektleitung bis Montag",
+        "Der Bericht ist"
+      ],
+      "acceptedAnswers": [
+        "Der Bericht ist von der Projektleitung bis Montag zu prüfen."
+      ]
+    },
+    {
+      "id": "gr47-e006",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Adjektiv auf -bar",
+      "title_ar": "صفة -bar",
+      "prompt_de": "Welche Form bedeutet „kann gelesen werden“?",
+      "prompt_ar": "أي صيغة تعني يمكن قراءته؟",
+      "answer": "lesbar",
+      "explanation_de": "Lesbar bezeichnet die Möglichkeit oder Eignung zum Lesen.",
+      "explanation_ar": "تعني lesbar القابلية أو الملاءمة للقراءة.",
+      "grammarFocus": "bar_basic",
+      "options": [
+        "lesbar",
+        "leslich",
+        "gelesenbar",
+        "lesend"
+      ]
+    },
+    {
+      "id": "gr47-e007",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "title_de": "Lösbar oder löslich",
+      "title_ar": "lösbar أم löslich",
+      "prompt_de": "Welche Form passt zu einer Aufgabe?",
+      "prompt_ar": "أي صيغة تناسب مهمة؟",
+      "answer": "Die Aufgabe ist lösbar.",
+      "explanation_de": "Lösbar bedeutet, dass eine Aufgabe gelöst werden kann.",
+      "explanation_ar": "تعني lösbar أن المهمة يمكن حلها.",
+      "grammarFocus": "lexical_contrast_loesbar",
+      "options": [
+        "Die Aufgabe ist lösbar.",
+        "Die Aufgabe ist löslich.",
+        "Die Aufgabe ist gelöstbar.",
+        "Die Aufgabe ist lösenbar."
+      ]
+    },
+    {
+      "id": "gr47-e008",
+      "topicId": "gr-47",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit sein + zu",
+      "title_ar": "جملة فرعية مع sein + zu",
+      "prompt_de": "Die Frist bleibt bestehen, weil der Antrag bis Freitag einzureichen ______.",
+      "prompt_ar": "تبقى المهلة قائمة لأن الطلب يجب تقديمه حتى الجمعة.",
+      "answer": "ist",
+      "explanation_de": "Im Nebensatz steht die finite Form von sein am Ende.",
+      "explanation_ar": "تأتي صيغة sein المصرفة في نهاية الجملة الفرعية.",
+      "grammarFocus": "sein_zu_subordinate",
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "gr47-e009",
+      "topicId": "gr-47",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Passiv zu sein + zu",
+      "title_ar": "من Passiv إلى sein + zu",
+      "prompt_de": "Formen Sie um: Alle Nachweise müssen vollständig vorgelegt werden.",
+      "prompt_ar": "حوّل إلى sein + zu.",
+      "answer": "Alle Nachweise sind vollständig vorzulegen.",
+      "explanation_de": "Vorlegen ist trennbar; zu steht zwischen vor und legen.",
+      "explanation_ar": "vorlegen فعل قابل للفصل، وتأتي zu بين vor وlegen.",
+      "grammarFocus": "passive_to_sein_zu",
+      "acceptedAnswers": [
+        "Alle Nachweise sind vollständig vorzulegen."
+      ]
+    },
+    {
+      "id": "gr47-e010",
+      "topicId": "gr-47",
+      "type": "sentence_build",
+      "difficulty": "medium",
+      "title_de": "Passiv zu sich lassen",
+      "title_ar": "من Passiv إلى sich lassen",
+      "prompt_de": "Formen Sie um: Das Problem kann ohne großen Aufwand gelöst werden.",
+      "prompt_ar": "حوّل باستخدام sich lassen.",
+      "answer": "Das Problem lässt sich ohne großen Aufwand lösen.",
+      "explanation_de": "Sich lassen bezeichnet hier praktische Möglichkeit.",
+      "explanation_ar": "تعبّر sich lassen هنا عن الإمكان العملي.",
+      "grammarFocus": "passive_to_sich_lassen",
+      "acceptedAnswers": [
+        "Das Problem lässt sich ohne großen Aufwand lösen."
+      ]
+    },
+    {
+      "id": "gr47-e011",
+      "topicId": "gr-47",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Nebensatz mit sich lassen",
+      "title_ar": "جملة فرعية مع sich lassen",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Die Lösung ist sinnvoll, weil sich das Verfahren dadurch vereinfachen lässt.",
+      "explanation_de": "Im Nebensatz steht lässt am Ende.",
+      "explanation_ar": "تأتي lässt في نهاية الجملة الفرعية.",
+      "grammarFocus": "sich_lassen_subordinate_order",
+      "tokens": [
+        "dadurch vereinfachen lässt",
+        "weil sich das Verfahren",
+        "Die Lösung ist sinnvoll"
+      ],
+      "acceptedAnswers": [
+        "Die Lösung ist sinnvoll, weil sich das Verfahren dadurch vereinfachen lässt."
+      ]
+    },
+    {
+      "id": "gr47-e012",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Möglichkeit mit sein + zu",
+      "title_ar": "الإمكان مع sein + zu",
+      "prompt_de": "Welche Umformung ist passend?",
+      "prompt_ar": "أي تحويل مناسب؟",
+      "answer": "Die Anleitung ist leicht zu verstehen. = Die Anleitung kann leicht verstanden werden.",
+      "explanation_de": "Leicht weist auf die Bedeutung der Möglichkeit hin.",
+      "explanation_ar": "تدل leicht على معنى الإمكان.",
+      "grammarFocus": "sein_zu_possibility",
+      "options": [
+        "Die Anleitung ist leicht zu verstehen. = Die Anleitung kann leicht verstanden werden.",
+        "Die Anleitung ist leicht zu verstehen. = Die Anleitung muss vernichtet werden.",
+        "Die Anleitung ist leicht zu verstehen. = Die Anleitung wurde bereits verstanden.",
+        "Die Anleitung ist leicht zu verstehen. = Die Anleitung versteht sich selbst."
+      ]
+    },
+    {
+      "id": "gr47-e013",
+      "topicId": "gr-47",
+      "type": "matching",
+      "difficulty": "medium",
+      "title_de": "Adjektive auf -bar",
+      "title_ar": "صفات -bar",
+      "prompt_de": "Ordnen Sie zu.",
+      "prompt_ar": "صِل.",
+      "answer": {
+        "lesbar": "kann gelesen werden",
+        "lösbar": "kann gelöst werden",
+        "vermeidbar": "kann vermieden werden",
+        "überprüfbar": "kann überprüft werden",
+        "erreichbar": "kann erreicht werden"
+      },
+      "explanation_de": "Die -bar-Adjektive beschreiben meist Machbarkeit oder Zugänglichkeit.",
+      "explanation_ar": "تصف صفات -bar غالبًا القابلية أو إمكانية التنفيذ.",
+      "grammarFocus": "bar_adjective_matching",
+      "pairs": [
+        [
+          "lesbar",
+          "kann gelesen werden"
+        ],
+        [
+          "lösbar",
+          "kann gelöst werden"
+        ],
+        [
+          "vermeidbar",
+          "kann vermieden werden"
+        ],
+        [
+          "überprüfbar",
+          "kann überprüft werden"
+        ],
+        [
+          "erreichbar",
+          "kann erreicht werden"
+        ]
+      ]
+    },
+    {
+      "id": "gr47-e014",
+      "topicId": "gr-47",
+      "type": "scenario_choice",
+      "difficulty": "medium",
+      "title_de": "Formelle Vorschrift",
+      "title_ar": "تعليمات رسمية",
+      "prompt_de": "Welche Formulierung passt am besten in eine Verwaltungsvorschrift?",
+      "prompt_ar": "أي صياغة تناسب تعليمات إدارية؟",
+      "answer": "Die erforderlichen Unterlagen sind spätestens am letzten Werktag des Monats einzureichen.",
+      "explanation_de": "Sein + zu wirkt formell, sachlich und verpflichtend.",
+      "explanation_ar": "تبدو sein + zu رسمية وموضوعية وملزمة.",
+      "grammarFocus": "formal_regulation",
+      "options": [
+        "Die erforderlichen Unterlagen sind spätestens am letzten Werktag des Monats einzureichen.",
+        "Man kann vielleicht irgendwann die Unterlagen schicken.",
+        "Die Unterlagen lassen sich, wenn man möchte, abgeben.",
+        "Die Unterlagen sind einreichbar, aber ohne Frist oder Pflicht."
+      ]
+    },
+    {
+      "id": "gr47-e015",
+      "topicId": "gr-47",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "title_de": "Adjektivdeklination",
+      "title_ar": "تصريف الصفة",
+      "prompt_de": "Wir benötigen gut überprüf______ Angaben.",
+      "prompt_ar": "نحتاج إلى معلومات قابلة للتحقق جيدًا.",
+      "answer": "bare",
+      "explanation_de": "Nach Nullartikel im Akkusativ Plural steht die starke Endung -e: überprüfbare Angaben.",
+      "explanation_ar": "مع غياب الأداة في Akkusativ Plural تأتي النهاية القوية -e: überprüfbare Angaben.",
+      "grammarFocus": "bar_adjective_declension",
+      "acceptedAnswers": [
+        "bare"
+      ]
+    },
+    {
+      "id": "gr47-e016",
+      "topicId": "gr-47",
+      "type": "sentence_order",
+      "difficulty": "medium",
+      "title_de": "Präteritum von sich lassen",
+      "title_ar": "Präteritum من sich lassen",
+      "prompt_de": "Ordnen Sie den Satz.",
+      "prompt_ar": "رتب الجملة.",
+      "answer": "Der Fehler ließ sich durch eine zusätzliche Kontrolle vermeiden.",
+      "explanation_de": "Im Präteritum steht ließ sich + Infinitiv.",
+      "explanation_ar": "في Präteritum نستخدم ließ sich + المصدر.",
+      "grammarFocus": "sich_lassen_preterite_order",
+      "tokens": [
+        "durch eine zusätzliche Kontrolle vermeiden",
+        "ließ sich",
+        "Der Fehler"
+      ],
+      "acceptedAnswers": [
+        "Der Fehler ließ sich durch eine zusätzliche Kontrolle vermeiden."
+      ]
+    },
+    {
+      "id": "gr47-e017",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "title_de": "Stil vergleichen",
+      "title_ar": "مقارنة الأسلوب",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "„Ist zu lösen“ ist meist formeller, „lässt sich lösen“ neutraler und „ist lösbar“ besonders kompakt.",
+      "explanation_de": "Die drei Formen unterscheiden sich vor allem in Stil und Nuance.",
+      "explanation_ar": "تختلف الصيغ الثلاث أساسًا في الأسلوب وفرق المعنى.",
+      "grammarFocus": "style_comparison",
+      "options": [
+        "„Ist zu lösen“ ist meist formeller, „lässt sich lösen“ neutraler und „ist lösbar“ besonders kompakt.",
+        "Alle drei Formen sind immer vollständig identisch.",
+        "Sich lassen drückt grundsätzlich Pflicht aus.",
+        "Adjektive auf -bar können nur im Präteritum verwendet werden."
+      ]
+    },
+    {
+      "id": "gr47-e018",
+      "topicId": "gr-47",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Perfekt von sich lassen",
+      "title_ar": "Perfekt من sich lassen",
+      "prompt_de": "Formen Sie ins Perfekt um: Das Problem ließ sich schnell lösen.",
+      "prompt_ar": "حوّل إلى Perfekt.",
+      "answer": "Das Problem hat sich schnell lösen lassen.",
+      "explanation_de": "Im Perfekt steht hat sich + Infinitiv + lassen.",
+      "explanation_ar": "في Perfekt نستخدم hat sich + المصدر + lassen.",
+      "grammarFocus": "sich_lassen_perfect",
+      "acceptedAnswers": [
+        "Das Problem hat sich schnell lösen lassen."
+      ]
+    },
+    {
+      "id": "gr47-e019",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Bedeutung von sein + zu",
+      "title_ar": "معنى sein + zu",
+      "prompt_de": "Welche Erklärung ist vollständig korrekt?",
+      "prompt_ar": "أي تفسير صحيح بالكامل؟",
+      "answer": "Sein + zu kann je nach Kontext Notwendigkeit oder Möglichkeit ausdrücken.",
+      "explanation_de": "Fristen und Vorschriften deuten oft auf müssen; leicht oder schwer häufig auf können.",
+      "explanation_ar": "تدل المهل والتعليمات غالبًا على müssen، بينما تدل leicht أو schwer غالبًا على können.",
+      "grammarFocus": "sein_zu_context_meaning",
+      "options": [
+        "Sein + zu kann je nach Kontext Notwendigkeit oder Möglichkeit ausdrücken.",
+        "Sein + zu bedeutet immer ausschließlich Verbot.",
+        "Sein + zu bedeutet immer ausschließlich Vergangenheit.",
+        "Sein + zu kann nur mit untrennbaren Verben verwendet werden."
+      ]
+    },
+    {
+      "id": "gr47-e020",
+      "topicId": "gr-47",
+      "type": "scenario_choice",
+      "difficulty": "hard",
+      "title_de": "Sachliche Bewertung",
+      "title_ar": "تقييم موضوعي",
+      "prompt_de": "Welche Formulierung eignet sich am besten für eine technische Bewertung?",
+      "prompt_ar": "أي صياغة تناسب تقييمًا تقنيًا؟",
+      "answer": "Die vorgeschlagene Lösung ist technisch umsetzbar und jederzeit überprüfbar.",
+      "explanation_de": "Zwei -bar-Adjektive fassen Machbarkeit und Kontrollierbarkeit kompakt zusammen.",
+      "explanation_ar": "تلخص صفتان بـ -bar القابلية للتنفيذ والتحقق بإيجاز.",
+      "grammarFocus": "technical_bar_evaluation",
+      "options": [
+        "Die vorgeschlagene Lösung ist technisch umsetzbar und jederzeit überprüfbar.",
+        "Die Lösung lässt umsetzen und überprüfen sich.",
+        "Die Lösung ist zu umgesetzt und überprüft.",
+        "Die Lösung ist umsetzlicht und prüflich."
+      ]
+    },
+    {
+      "id": "gr47-e021",
+      "topicId": "gr-47",
+      "type": "sentence_order",
+      "difficulty": "hard",
+      "title_de": "Mehrere Ersatzformen",
+      "title_ar": "عدة صيغ بديلة",
+      "prompt_de": "Ordnen Sie den Text.",
+      "prompt_ar": "رتب النص.",
+      "answer": "Die Aufgabe ist bis Freitag zu erledigen. Sie lässt sich mit der neuen Software schneller bearbeiten und ist dadurch besser planbar.",
+      "explanation_de": "Die drei Ersatzformen werden sinnvoll kombiniert.",
+      "explanation_ar": "تم الجمع بصورة مناسبة بين البدائل الثلاثة.",
+      "grammarFocus": "mixed_replacement_forms_order",
+      "tokens": [
+        "und ist dadurch besser planbar",
+        "Sie lässt sich mit der neuen Software schneller bearbeiten",
+        "Die Aufgabe ist bis Freitag zu erledigen"
+      ],
+      "acceptedAnswers": [
+        "Die Aufgabe ist bis Freitag zu erledigen. Sie lässt sich mit der neuen Software schneller bearbeiten und ist dadurch besser planbar."
+      ]
+    },
+    {
+      "id": "gr47-e022",
+      "topicId": "gr-47",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "title_de": "Lexikalische Grenze",
+      "title_ar": "قيد معجمي",
+      "prompt_de": "Welche Erklärung ist korrekt?",
+      "prompt_ar": "أي تفسير صحيح؟",
+      "answer": "Nicht jede theoretisch mögliche -bar-Bildung ist gebräuchlich oder stilistisch sinnvoll.",
+      "explanation_de": "Die Produktivität des Suffixes -bar ist groß, aber nicht unbegrenzt.",
+      "explanation_ar": "إنتاجية اللاحقة -bar كبيرة لكنها غير مطلقة.",
+      "grammarFocus": "bar_lexical_limit",
+      "options": [
+        "Nicht jede theoretisch mögliche -bar-Bildung ist gebräuchlich oder stilistisch sinnvoll.",
+        "Jedes deutsche Verb bildet automatisch ein korrektes -bar-Adjektiv.",
+        "Adjektive auf -bar haben immer dieselbe Bedeutung wie Partizip I.",
+        "Die Endung -bar darf nur bei Personen verwendet werden."
+      ]
+    },
+    {
+      "id": "gr47-e023",
+      "topicId": "gr-47",
+      "type": "sentence_build",
+      "difficulty": "hard",
+      "title_de": "Drei Formen umschreiben",
+      "title_ar": "إعادة الصياغة بثلاث صيغ",
+      "prompt_de": "Formulieren Sie dieselbe Möglichkeit auf drei Arten: Das Problem kann gelöst werden.",
+      "prompt_ar": "صغ الإمكان نفسه بثلاث طرق.",
+      "answer": "Das Problem ist zu lösen. Das Problem lässt sich lösen. Das Problem ist lösbar.",
+      "explanation_de": "Alle drei Formen können Möglichkeit ausdrücken; sein + zu ist jedoch stärker kontextabhängig.",
+      "explanation_ar": "يمكن للصيغ الثلاث التعبير عن الإمكان، لكن معنى sein + zu يعتمد أكثر على السياق.",
+      "grammarFocus": "three_replacement_forms",
+      "acceptedAnswers": [
+        "Das Problem ist zu lösen. Das Problem lässt sich lösen. Das Problem ist lösbar."
+      ]
+    },
+    {
+      "id": "gr47-e024",
+      "topicId": "gr-47",
+      "type": "guided_writing",
+      "difficulty": "hard",
+      "title_de": "Abschlusstraining Passiversatzformen",
+      "title_ar": "تدريب ختامي على بدائل المبني للمجهول",
+      "prompt_de": "Schreiben Sie einen sachlichen Text mit mindestens vierzehn Sätzen über Regeln, technische Möglichkeiten und die Bewertung eines Verfahrens. Verwenden Sie alle drei Passiversatzformen mehrfach.",
+      "prompt_ar": "اكتب نصًا موضوعيًا من أربع عشرة جملة على الأقل عن القواعد والإمكانات التقنية وتقييم إجراء ما. استخدم بدائل المبني للمجهول الثلاثة عدة مرات.",
+      "answer": {
+        "requiredConcepts": [
+          "mindestens vier Formen mit sein + zu",
+          "mindestens zwei Fälle von Notwendigkeit",
+          "mindestens zwei Fälle von Möglichkeit mit sein + zu",
+          "mindestens vier Formen mit sich lassen",
+          "mindestens eine Präteritumform und eine Perfektform von sich lassen",
+          "mindestens sechs unterschiedliche Adjektive auf -bar",
+          "mindestens drei Nebensätze",
+          "mindestens zwei trennbare Verben mit korrekt platziertem zu",
+          "korrekte Adjektivendungen",
+          "mindestens drei bewusste Stilvergleiche"
+        ]
+      },
+      "explanation_de": "Kontrollieren Sie Bedeutung, zu-Stellung, Infinitiv, Reflexivpronomen, Zeitform, Wortbildung, Deklination und Stil.",
+      "explanation_ar": "راجع المعنى وموقع zu والمصدر والضمير الانعكاسي والزمن والاشتقاق والتصريف والأسلوب.",
+      "grammarFocus": "mixed_passive_replacements",
+      "evaluationMode": "self_check_with_checklist"
+    }
+  ]
+}
