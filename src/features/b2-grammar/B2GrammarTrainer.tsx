@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, Check, RotateCcw } from "lucide-react";
 import { B2GrammarProgressService } from "./b2GrammarProgressService";
+import { getB2GrammarPromptPresentation } from "./b2GrammarPromptService";
 import {
   B2GrammarExercise,
   B2GrammarLanguage,
@@ -169,6 +170,7 @@ export default function B2GrammarTrainer({ topic, mode, language, onBack, onProg
   }
 
   const concepts = requiredConcepts(exercise);
+  const prompt = getB2GrammarPromptPresentation(exercise, language);
 
   return (
     <div className="space-y-5">
@@ -182,9 +184,14 @@ export default function B2GrammarTrainer({ topic, mode, language, onBack, onProg
           <span className="text-xs font-black uppercase text-blue-600">{isAr ? exercise.title_ar : exercise.title_de}</span>
           <span className="text-xs font-bold text-slate-400">{exercise.difficulty}</span>
         </div>
-        <h3 className="mt-5 text-lg font-black leading-8 text-slate-900" dir={isAr ? "rtl" : "ltr"}>
-          {isAr ? exercise.prompt_ar : exercise.prompt_de}
+        <h3 className="mt-5 text-lg font-black leading-8 text-slate-900" lang={isAr ? "ar" : "de"} dir={isAr ? "rtl" : "ltr"}>
+          {prompt.localizedPrompt}
         </h3>
+        {prompt.germanPrompt && (
+          <p className="mt-3 break-words text-left text-base font-semibold leading-8 text-slate-700" lang="de" dir="ltr">
+            {prompt.germanPrompt}
+          </p>
+        )}
 
         {isChoice(exercise) && (
           <div className="mt-6 grid gap-3 sm:grid-cols-2" dir="ltr">

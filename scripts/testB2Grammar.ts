@@ -3,6 +3,7 @@ import {
   B2_GRAMMAR_PROGRESS_KEY,
   B2GrammarProgressService,
 } from "../src/features/b2-grammar/b2GrammarProgressService";
+import { getB2GrammarPromptPresentation } from "../src/features/b2-grammar/b2GrammarPromptService";
 import { ImportExportService } from "../src/services/importExportService";
 
 class MemoryStorage implements Storage {
@@ -17,6 +18,20 @@ class MemoryStorage implements Storage {
 
 const storage = new MemoryStorage();
 Object.defineProperty(globalThis, "localStorage", { value: storage, configurable: true });
+
+const arabicPrompt = getB2GrammarPromptPresentation({
+  prompt_de: "Ich ______ gern mehr Verantwortung übernehmen.",
+  prompt_ar: "أنا ______ في تحمّل مسؤولية أكبر.",
+}, "ar");
+assert.equal(arabicPrompt.localizedPrompt, "أنا ______ في تحمّل مسؤولية أكبر.");
+assert.equal(arabicPrompt.germanPrompt, "Ich ______ gern mehr Verantwortung übernehmen.");
+
+const germanPrompt = getB2GrammarPromptPresentation({
+  prompt_de: "Ich ______ gern mehr Verantwortung übernehmen.",
+  prompt_ar: "أنا ______ في تحمّل مسؤولية أكبر.",
+}, "de");
+assert.equal(germanPrompt.localizedPrompt, "Ich ______ gern mehr Verantwortung übernehmen.");
+assert.equal(germanPrompt.germanPrompt, null);
 
 storage.setItem("dmt_progress", JSON.stringify({ legacy: true }));
 storage.setItem("dmt_b2_course_progress_v1", JSON.stringify({ course: true }));
@@ -95,6 +110,7 @@ assert.equal(B2GrammarProgressService.getProgress().lastTopicId, "");
 assert.equal(storage.getItem(B2_GRAMMAR_PROGRESS_KEY), "{broken", "Unreadable data must not be overwritten automatically");
 
 console.log("B2 grammar progress tests: PASSED");
+console.log("Bilingual German prompt presentation: PASSED");
 console.log("Independent storage key: PASSED");
 console.log("Two-correct mistake resolution: PASSED");
 console.log("Corrupt storage fallback: PASSED");
