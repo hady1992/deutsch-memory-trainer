@@ -4,7 +4,6 @@ import {
   BookOpen,
   Bookmark,
   AlertTriangle,
-  Database,
   Settings as SettingsIcon,
   Menu,
   X,
@@ -26,7 +25,6 @@ import Dashboard from "./pages/Dashboard";
 import VerbTrainer from "./pages/VerbTrainer";
 import VocabularyTrainer from "./pages/VocabularyTrainer";
 import Review from "./pages/Review";
-import ManageData from "./pages/ManageData";
 import MistakeReview from "./pages/MistakeReview";
 import Settings from "./pages/Settings";
 import QuickPractice from "./pages/QuickPractice";
@@ -41,17 +39,18 @@ import VerbCategoryTrainer from "./pages/VerbCategoryTrainer";
 import DailyStudySet from "./pages/DailyStudySet";
 import B2CoursePage from "./features/b2-course/B2CoursePage";
 import B2GrammarPage from "./features/b2-grammar/B2GrammarPage";
+import AdminPage from "./features/admin/AdminPage";
 
 import { ProgressService } from "./services/progressService";
 import { UserSettings } from "./types";
 import { getTranslation, Language } from "./services/translationService";
 
 const SETTINGS_KEY = "dmt_settings";
-const B2_PAGE_IDS = new Set(["b2-course", "b2-grammar"]);
+const HASH_PAGE_IDS = new Set(["b2-course", "b2-grammar", "admin"]);
 
 function getPageFromHash(): string {
   const hashPage = window.location.hash.slice(1).split("/")[0];
-  return B2_PAGE_IDS.has(hashPage) ? hashPage : "dashboard";
+  return HASH_PAGE_IDS.has(hashPage) ? hashPage : "dashboard";
 }
 
 function getInitialPage(): string {
@@ -153,7 +152,7 @@ export default function App() {
   }, []);
 
   const handleNavigate = (page: string, params?: any) => {
-    const nextUrl = B2_PAGE_IDS.has(page)
+    const nextUrl = HASH_PAGE_IDS.has(page)
       ? `${window.location.pathname}${window.location.search}#${page}`
       : `${window.location.pathname}${window.location.search}`;
     window.history.pushState(null, "", nextUrl);
@@ -233,7 +232,6 @@ export default function App() {
     { id: "quick", label: translate("quickPractice"), icon: Shuffle },
     { id: "review", label: translate("reviewMode"), icon: AlertTriangle },
     { id: "mistakes", label: translate("mistakeReview"), icon: Target },
-    { id: "manage", label: translate("manageData"), icon: Database },
     { id: "settings", label: translate("settings"), icon: SettingsIcon },
   ];
 
@@ -464,7 +462,9 @@ export default function App() {
                 action={navigationParams?.action}
               />
             )}
-            {currentPage === "manage" && <ManageData onNavigate={handleNavigate} settings={settings} />}
+            {currentPage === "admin" && (
+              <AdminPage onNavigate={handleNavigate} settings={settings} />
+            )}
             {currentPage === "settings" && (
               <Settings
                 onNavigate={handleNavigate}
