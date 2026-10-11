@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import {
   ArrowLeft,
   BookOpenCheck,
@@ -153,7 +153,7 @@ export default function AdminPage({ onNavigate, settings }: AdminPageProps) {
     return drafts.filter((item) => item.term.trim().toLocaleLowerCase("de-DE") === normalized).length;
   }, [drafts, term]);
 
-  const handleLogin = async (event: React.FormEvent) => {
+  const handleLogin = async (event: FormEvent) => {
     event.preventDefault();
     setLoginError("");
     try {
@@ -193,7 +193,7 @@ export default function AdminPage({ onNavigate, settings }: AdminPageProps) {
     }
   };
 
-  const addDraft = (event: React.FormEvent) => {
+  const addDraft = (event: FormEvent) => {
     event.preventDefault();
     const cleanTerm = term.trim();
     const cleanArabic = arabic.trim();
