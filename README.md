@@ -1,20 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# DrukArt landing page
 
-# Run and deploy your AI Studio app
+Standalone Node.js landing page for DrukArt Studio. The Deutsch Memory Trainer remains untouched on `main` in the same repository.
 
-This contains everything you need to run your app locally.
+## Hostinger settings
 
-View your app in AI Studio: https://ai.studio/apps/f0329731-91b8-4924-96ac-83111424287b
+- Branch: `drukart-landing`
+- Node.js: 22.x
+- Root directory: `./`
+- Entry point: `server.js`
+- Build command: `npm run build`
+- Start command: `npm start`
+- Environment variables: none required; respects the platform `PORT`.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The visitor-facing catalogue is in `public/index.html`; sample product photos are in `public/assets`.
